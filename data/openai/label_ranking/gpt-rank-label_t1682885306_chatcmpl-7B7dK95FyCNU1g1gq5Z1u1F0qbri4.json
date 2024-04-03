@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02813: SES is represented both as a potential confounder and effect modifier of the relationship between GA at delivery and cognitive outcomes.\n\ns_02863: This study controlled for infant gender, birth order, employment location (in or out of the home), breastfeeding, and maternal education.\n\ns_02913: Such issues may limit the U.S. Census Bureau's ability to take advantage of online data collection, particularly among household surveys.\n\ns_02963: H. Braddock, \"Tracking the Middle Gmcks: National Patterns of Gmuping for Instruction,\" Phi Delta Kappan, Febniary 1990,445-449.\n\ns_03013: Adequate, comprehensive and ongoing monitoring is a key aspect of the successful implementation of any educational program (Environmental Change Institute, 2014; Sima, 2006; Bibik, 2017; Grischenko, 2016) .\n\ns_03063: On this prospective, our study has some limitations relative to this ideal scenario: a) in the site qualification phase, useful to fine tuning all the acquisition parameters according to the NA-ADNI standard, each MRI site scanned a different set of subjects preventing direct comparison of the scanners; and b) only one phantom acquisition has been completed in all the I-ADNI centers, mainly due to the lack of time, preventing the acquisition repeatability and stability of the scanners in the longitudinal period.\n\ns_03113: In part of our estimation it became clear that participation in Missouri was so small that to get reliable estimates of model parameters we had to combine Missouri into one state with Arkansas.\n\ns_03163: We de\u2026ne two measures for each topic: the occurrence of the topic, as a dummy variable, and the intensity of the topic.\n\ns_03213: In view of the controversies surrounding the topic of grain stocks and other instruments to reduce price fluctuations in commodity markets, and at the request of the Organizing Committee of the World Grain Forum 2009, The World Bank (WB), the Food and Agriculture Organization of the United Nations (FAO) and the European Bank for Reconstruction and Development (EBRD) (the three sponsoring organizations) commissioned the present working paper on international grain reserves and other instruments to address volatility in grain markets.\n\ns_03263: T he dependent variable is categorical and captures countries' technology choices.\n\ns_03313: This paper focuses on one specific dimension of financial connections, the worldwide reliance of banks on global liquidity markets, and provides evidence that it played a quantitatively important role in the transmission of the crisis, especially in the critical days following the bankruptcy of Lehman Brothers.\n\ns_03363: Columns 2a and 2b report estimates of a specification that replaces the entry-cost variable in the selection equation with a dummy that equals 1 if country i's exports to country j were positive in the previous year (t-1).\n\ns_03413: The largest \"part content\"\n\ns_03463: 1;425 = 3:86, and the probabality level at which a standard F-test rejects the restriction is .62. feasible generalized least squares (FGLS) were employed.\n\ns_03513: Appearance, Convexity, and Returns to Scale of FD Indicator Paths Note: Appearance is the level of GDP per capita at which financial services start to appear is as captured by the intercept estimated in a cross-sectional regression of 1980-2008 averages with the dependent variable in question and GDP per capita.\n\ns_03563: Although such analysis is scant, there are a few studies that shed light on the debate.\n\ns_03613: Second we examine time series trends in codependence and test for structural changes over time.\n\ns_03663: Then, when the US started to feel the discriminatory effects of European integration, and in order to mitigate these effects, it pushed strongly for reductions in MFN tariffs under various -rounds\u2016 of multilateral trade negotiations.\n\ns_03713: At the same time, the cost of PPPs can be significantly higher than under pure public provision (Engel, Fischer, Galetovic 2010) .\n\ns_03763: The concluding section examines what our findings mean for the conventional wisdom, and offers some perspective on the broader normative questions raised by the judicialization of policy.\n\ns_03813: We interpret this result, which holds for the full set of explanatory variables as well as subsets (see specifications 3 and 4 in Table 5 ), as evidence that investors discount the direct revenue effect of output prices on Ras Gas due to Mobil's guarantee.\n\ns_03863: Notes: Unit of observation is individual included in revisit sample.\n\ns_03913: The central estimated costs associated with the impacts identified above are given in Table 5 .4.\n\ns_03963: 4 Countries are selected based on data availability.\n\ns_04013: As can be seen in Table 7 , the marginal utilities of additional children are positive for the rst child and are decreasing with the stock of surviving children for all women."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7dK95FyCNU1g1gq5Z1u1F0qbri4",
+    "object": "chat.completion",
+    "created": 1682885306,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1296,
+      "completion_tokens": 135,
+      "total_tokens": 1431
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02913\", \"data_mentioned\": true, \"reason\": \"U.S. Census Bureau\"}, {\"sent_id\": \"s_03213\", \"data_mentioned\": true, \"reason\": \"international grain reserves\"}, {\"sent_id\": \"s_03513\", \"data_mentioned\": true, \"reason\": \"GDP per capita\"}] \n\nIn sentence s_02913, the U.S. Census Bureau is explicitly mentioned as a dataset. In sentence s_03213, international grain reserves are explicitly mentioned as a dataset. In sentence s_03513, GDP per capita is explicitly mentioned as a dataset."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02913\", \"data_mentioned\": true, \"reason\": \"U.S. Census Bureau\"}, {\"sent_id\": \"s_03213\", \"data_mentioned\": true, \"reason\": \"international grain reserves\"}, {\"sent_id\": \"s_03513\", \"data_mentioned\": true, \"reason\": \"GDP per capita\"}] \n\nIn sentence s_02913, the U.S. Census Bureau is explicitly mentioned as a dataset. In sentence s_03213, international grain reserves are explicitly mentioned as a dataset. In sentence s_03513, GDP per capita is explicitly mentioned as a dataset.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

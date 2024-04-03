@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data_use"
+dynamic = ["version"]
+description = "A framework for extracting data use components in documents using GPT-3."
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+keywords = ["data use", "gpt3", "metadata", "augmentation", "data", "data augmentation"]
+authors = [
+  {name="Aivin V. Solatorio", email="avsolatorio@gmail.com"},
+]
+maintainers = [
+  {name="Aivin V. Solatorio", email="avsolatorio@gmail.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3 :: Only",
+	"Intended Audience :: Developers",
+	"Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+	"openai>=0.27.4",
+]
+[project.optional-dependencies]
+notebook = ["notebook>=6.5.2"]
+
+[project.urls]
+"Homepage" = "https://github.com/avsolatorio/data-use"
+"Bug Reports" = "https://github.com/avsolatorio/data-use/issues"
+"Source" = "https://github.com/avsolatorio/data-use"
+
+[tool.setuptools.dynamic]
+version = {attr = "data_use.__version__"}

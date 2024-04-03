@@ -1,0 +1,2355 @@
+{
+  "paper_id": "D27677275",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:26.906358Z"
+  },
+  "title": "The Effects of Health Insurance within Families Experimental Evidence from Nicaragua",
+  "authors": [
+    {
+      "first": "Anne",
+      "middle": [],
+      "last": "Fitzpatrick",
+      "suffix": "",
+      "affiliation": {},
+      "email": "anne.fitzpatrick@umb.edu.rebecca"
+    },
+    {
+      "first": "Rebecca",
+      "middle": [],
+      "last": "Thornton",
+      "suffix": "",
+      "affiliation": {},
+      "email": "rebeccat@illinois.edu"
+    }
+  ],
+  "year": "2017-06",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D27677275",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "Health insurance is thought to be an important determinant of healthcare utilization and health outcomes, particularly among children (Olson et al. 2005; Kaiser Family Foundation 2002) . Studies have shown that children's health insurance is positively correlated with immunization rates, checkups, and overall health care utilization; insured children may also have improved health outcomes and lower mortality (Abdullah et al. 2009 ; Currie and Gruber 1996; Newacheck et al. 1996; Newacheck et al. 1998; Palmer et al. 2015; Todd et al. 2006) . However, causally attributing these observed differences in outcomes to health insurance coverage is difficult due to adverse selection: parents may choose to enroll in coverage if they have children who are likely to be sick (Polimeni and Levine 2011 ). On the other hand, parents with more resources or education may be more likely have health insurance coverage for their children, resulting in advantageous selection (Fang et al. 2008) . Studies examining the effects of health insurance coverage on outcomes are complicated by potential biases due to selection into enrollment. This paper overcomes the usual empirical challenges to measure the causal effects of health insurance using an experiment that randomly assigned parents in Managua, Nicaragua access to free health insurance. We study the effects of insurance among children (ages 15 and under) . Although recent studies on health insurance also utilize random or quasi-random research designs, these either occur in the United States or estimate impacts only among adults (Banerjee et al. 2014; Barofsky 2015; Finkelstein et al. 2012; King et al. 2009; Levine et al. 2011; Newhouse 1993; Sheth 2014) . The results from these existing studies may not apply to children or to the developing country context because the elasticity of health care demand has been found to be larger in the developing country setting and larger for children as compared to adults (Zhou et al. 2011; Gertler and van der Gaag 1990; Sauerborn et al. 1994 ).",
+        "cite_spans": [
+          {
+            "start": 134,
+            "end": 153,
+            "text": "(Olson et al. 2005;",
+            "ref_id": "BIBREF32"
+          },
+          {
+            "start": 154,
+            "end": 184,
+            "text": "Kaiser Family Foundation 2002)",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 412,
+            "end": 433,
+            "text": "(Abdullah et al. 2009",
+            "ref_id": null
+          },
+          {
+            "start": 436,
+            "end": 459,
+            "text": "Currie and Gruber 1996;",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 460,
+            "end": 482,
+            "text": "Newacheck et al. 1996;",
+            "ref_id": "BIBREF30"
+          },
+          {
+            "start": 483,
+            "end": 505,
+            "text": "Newacheck et al. 1998;",
+            "ref_id": "BIBREF29"
+          },
+          {
+            "start": 506,
+            "end": 525,
+            "text": "Palmer et al. 2015;",
+            "ref_id": "BIBREF33"
+          },
+          {
+            "start": 526,
+            "end": 543,
+            "text": "Todd et al. 2006)",
+            "ref_id": null
+          },
+          {
+            "start": 772,
+            "end": 797,
+            "text": "(Polimeni and Levine 2011",
+            "ref_id": "BIBREF34"
+          },
+          {
+            "start": 967,
+            "end": 985,
+            "text": "(Fang et al. 2008)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 1386,
+            "end": 1405,
+            "text": "(ages 15 and under)",
+            "ref_id": null
+          },
+          {
+            "start": 1584,
+            "end": 1606,
+            "text": "(Banerjee et al. 2014;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 1607,
+            "end": 1621,
+            "text": "Barofsky 2015;",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 1622,
+            "end": 1646,
+            "text": "Finkelstein et al. 2012;",
+            "ref_id": null
+          },
+          {
+            "start": 1647,
+            "end": 1664,
+            "text": "King et al. 2009;",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 1665,
+            "end": 1684,
+            "text": "Levine et al. 2011;",
+            "ref_id": "BIBREF34"
+          },
+          {
+            "start": 1685,
+            "end": 1699,
+            "text": "Newhouse 1993;",
+            "ref_id": "BIBREF31"
+          },
+          {
+            "start": 1700,
+            "end": 1711,
+            "text": "Sheth 2014)",
+            "ref_id": "BIBREF37"
+          },
+          {
+            "start": 1970,
+            "end": 1988,
+            "text": "(Zhou et al. 2011;",
+            "ref_id": null
+          },
+          {
+            "start": 1989,
+            "end": 2019,
+            "text": "Gertler and van der Gaag 1990;",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 2020,
+            "end": 2041,
+            "text": "Sauerborn et al. 1994",
+            "ref_id": "BIBREF36"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In addition to analyzing effects among insured children, we also examine how having an insured parent affects healthcare utilization among children who are ineligible for the insurance themselves. This allows us to see how families adjust their health demands in response to parental insurance coverage. A model of healthcare demand within a household predicts that parents efficiently optimize, equating the ratio of marginal benefits to costs across all family members, rather than separately for each individual member (Jacobson 2000) . If one member becomes insured, the net effect upon uninsured members' utilization is ambiguous if parents reallocate time or financial resources across household members in response to the decreased cost of utilization. The net outcome may be either towards or away from uninsured children, depending upon whether the income or substitution effect dominates. Alternatively, following health insurance enrollment of some members, parents could reallocate resources to increase utilization for uncovered members to ensure equity across their children (Adhvaryu and Nyshadham 2014; Ejrnaes and Portner 2004; Griliches 1979; Hertwig et al. 2002) . The empirical literature measuring the effects of parental health insurance enrollment thus far has generated mixed results and none are based upon randomized studies. 1 To study the effects of insurance on insured and uninsured children, we utilize an age-eligibility cut-off rule that gave coverage only to children under the age of 12.",
+        "cite_spans": [
+          {
+            "start": 522,
+            "end": 537,
+            "text": "(Jacobson 2000)",
+            "ref_id": "BIBREF23"
+          },
+          {
+            "start": 1089,
+            "end": 1118,
+            "text": "(Adhvaryu and Nyshadham 2014;",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 1119,
+            "end": 1144,
+            "text": "Ejrnaes and Portner 2004;",
+            "ref_id": null
+          },
+          {
+            "start": 1145,
+            "end": 1160,
+            "text": "Griliches 1979;",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 1161,
+            "end": 1181,
+            "text": "Hertwig et al. 2002)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 1352,
+            "end": 1353,
+            "text": "1",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "1 This paper is most similar to Aiyar (2016) , who measures the impact of a Vietnamese health insurance program on expenditures for both eligible and ineligible family members. Other non-experimental studies have explored the within-family spillovers of health and nutrition programs on non-participating family members, generally finding positive effects (Basiotis et al. 1998; Ishdorj et al. 2008; Robinson 2013; Ver Ploeg 2009) . A related literature examines how parental insurance eligibility affects health insurance enrollment of eligible children, finding positive spillovers on children's enrollment into Medicaid in the United States (Dubay and Kenney 2003; Sommers 2006; Aizer and Grogger 2003; Busch and Duchovny 2005) . Recent work by Koch (2015) uses income-eligibility thresholds estimates and finds that parents are 11 percentage points less likely to be insured once their children become eligible for health insurance.",
+        "cite_spans": [
+          {
+            "start": 32,
+            "end": 44,
+            "text": "Aiyar (2016)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 356,
+            "end": 378,
+            "text": "(Basiotis et al. 1998;",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 379,
+            "end": 399,
+            "text": "Ishdorj et al. 2008;",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 400,
+            "end": 414,
+            "text": "Robinson 2013;",
+            "ref_id": "BIBREF35"
+          },
+          {
+            "start": 415,
+            "end": 430,
+            "text": "Ver Ploeg 2009)",
+            "ref_id": null
+          },
+          {
+            "start": 644,
+            "end": 667,
+            "text": "(Dubay and Kenney 2003;",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 668,
+            "end": 681,
+            "text": "Sommers 2006;",
+            "ref_id": "BIBREF38"
+          },
+          {
+            "start": 682,
+            "end": 705,
+            "text": "Aizer and Grogger 2003;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 706,
+            "end": 730,
+            "text": "Busch and Duchovny 2005)",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 748,
+            "end": 759,
+            "text": "Koch (2015)",
+            "ref_id": "BIBREF26"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Children ages 12 and older were not eligible for insurance coverage. The data include 1,614 families in Managua, Nicaragua, who were interviewed before and after being randomly offered access to free insurance. Our primary analysis measures the impact of parental health insurance on health care utilization -measured by number of provider visits and choice of health provider -of eligible and ineligible dependents, one year after access to insurance is randomly distributed.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Among families with an insured parent, covered children (under 12 years old) increased healthcare utilization at covered providers by 0.56 visits, with an increase 1.3 visits to all providers. The results suggest no substitution away from other providers, such as pharmacies or public facilities. In contrast, ineligible children (12 years old and older) with an insured parent decrease their total health visits by 1.7, driven primarily by reductions in visits to private providers",
+        "cite_spans": [
+          {
+            "start": 56,
+            "end": 76,
+            "text": "(under 12 years old)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We examine several potential mechanisms to explain these results. First, we find that the results are primarily a result of a parent's enrollment, rather than siblings'. Second, we find no evidence that resources are reallocated in response to improved health of those insured.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "While ultimately the exact mechanisms cannot be identified, the results show that public programs such as government-sponsored health insurance can have sizeable effects on the allocation of resources within a family. While insured children benefit by receiving additional healthcare, ineligible members of a family may be negatively affected because families use shared budget and time constraints to make decisions within their households. These potential spillover effects may change the effectiveness of health policies and programs (Basu and Meltzer 2005) .",
+        "cite_spans": [
+          {
+            "start": 537,
+            "end": 560,
+            "text": "(Basu and Meltzer 2005)",
+            "ref_id": "BIBREF7"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The findings also suggest important complementarities across provider types among children. For insured children, we observe no substitution from pharmacies or private providers in response to health insurance enrollment, but rather a sizable increase in utilization across all providers. These results suggest that reducing the price of healthcare at one provider may increase investments in healthcare across other providers. However, complementarities may also exacerbate negative spillovers, among the uninsured, for example.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We caution that the results may be specific to the Nicaraguan context and healthcare structure. The effects on this specific sample -children of middle-class urban entrepreneurs -may not be generalizable to other populations. The analyses in the paper are also limited in the set of health indicators that are measured within the setting and time frame. The free health insurance was only for six months which may not have been enough time for there to be large effects, and the scope of our study is not able to detect changes in rare events, such as child mortality. This study is also unable to speak to potential longer run effects of health insurance, or whether these results would apply to different subsidies or cost-sharing schemes. However, this paper underscores the importance of considering negative spillovers within families; positive benefits for some may result in net losses for others.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In Nicaragua, formal sector employees are automatically enrolled in the Nicaraguan Social Security Institute's (INSS) health insurance program. The INSS insurance provides subscribers with a comprehensive package of preventive, diagnostic, and curative health services and medications at 17 INSS-contracted facilities in Managua (referred to as EMPs: Empresas M\u00e9dicas Previsionales). 2 There are no co-pays at the time of service; rather, individuals who enroll pay a monthly flat fee of approximately $15 to the Social Security Institute for coverage. In addition to the subscriber, the subscriber's wife is eligible for maternity services, including prenatal, childbirth and postnatal care.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Dependent children under the age of 12 are also fully covered for pediatric care and vaccinations while those over the age of 12 are excluded from coverage. 3 While this insurance plan covers those in the formal sector, this represents only a small proportion of the adult population -just under half a million adults or approximately 13.5 percent of the adult population (INIDE and MINSA 2007) .",
+        "cite_spans": [
+          {
+            "start": 157,
+            "end": 158,
+            "text": "3",
+            "ref_id": null
+          },
+          {
+            "start": 372,
+            "end": 394,
+            "text": "(INIDE and MINSA 2007)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Uninsured individuals have access to free public sector clinics and hospitals run by the Ministry of Health Services (MINSA). However, these services are often under-resourced and the source of complaints of long waiting times, frequent supply stockouts, and general poor quality (Magnoni et al. 2005) . Rather than seeking treatment at MINSA facilities, self-medication from pharmacies for basic care is common. 4 For those who can afford it, higher quality, more expensive private facilities are available. On the other hand, many may be unable to pay the high out of pocket costs and forgo care altogether.",
+        "cite_spans": [
+          {
+            "start": 280,
+            "end": 301,
+            "text": "(Magnoni et al. 2005)",
+            "ref_id": "BIBREF28"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Thus, the INSS health insurance package may not only change the cost but also the quality of healthcare for insured individuals.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "In January 2007, the government of Nicaragua implemented a demonstration project aimed at extending the Nicaraguan Social Security Institute's (INSS) health insurance program to the population of informal sector workers. In addition to potentially improving healthcare access and overall health, enabling middle-class informal-sector workers to seek care at EMPs has the potential to alleviate the overburdened MINSA healthcare system, leaving more resources for the poor. Coverage and cost was designed to be as similar as possible to the standard insurance for formal sector workers, and enrollment into the program was voluntary. Both this paper and Thornton et al. 2010report results from this evaluation. In 2007, a baseline survey was conducted among randomly selected uninsured informal sector workers in the three largest open-air markets in central Managua. 5 The survey asked detailed questions about utilization and spending, conditional on being ill 12 months prior to the survey, for the adult respondent and for any child in the household under the age of 16.",
+        "cite_spans": [
+          {
+            "start": 867,
+            "end": 868,
+            "text": "5",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "At the end of the baseline survey, respondents were either given an informational brochure about the insurance product or the brochure plus a six-month subsidy for insurance worth approximately USD$100, nearly half of the sample's median household income. 6, 7 Respondents could enroll in the insurance plan at the INSS or at local micro- 5 Respondents were selected with the following two methodologies: in the first phase of the survey, prior to the baseline survey a census of market booths was conducted to define the sampling frame of possible respondents. Participants deemed eligible through the census were selected randomly (stratified by gender, marital status, and micro-finance client status) and administered the baseline survey. In the second phase of the survey, interviewers went door to door and sampled each market booth with eligible respondents. Individuals who were between ages 18 and 54, had a government ID, were an owner of the market booth, and lacked health insurance coverage were eligible. Overall completion rates were 51 and 53 percent in the two phases. 6 The study design also assigned respondents into 2-month subsidy group during the first phase of the project; these individuals were not included in the follow-up survey. The baseline survey included respondents in four other smaller markets but because these respondents were not followed over time, they are not included in the analysis (Hatt et al. 2009) . finance institutions, and there was no deadline for enrollment. 8 Upon enrolling, the insurance took effect the first day of the following month. Government ID numbers were collected to match respondents to health insurance enrollment data provided by the INSS.",
+        "cite_spans": [
+          {
+            "start": 256,
+            "end": 258,
+            "text": "6,",
+            "ref_id": null
+          },
+          {
+            "start": 259,
+            "end": 260,
+            "text": "7",
+            "ref_id": null
+          },
+          {
+            "start": 339,
+            "end": 340,
+            "text": "5",
+            "ref_id": null
+          },
+          {
+            "start": 1086,
+            "end": 1087,
+            "text": "6",
+            "ref_id": null
+          },
+          {
+            "start": 1426,
+            "end": 1444,
+            "text": "(Hatt et al. 2009)",
+            "ref_id": "BIBREF19"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "One year after the baseline survey, respondents were approached for a follow-up survey.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Overall, 93 percent of the adult respondents were re-interviewed (N=2608). Of the 2608 adults who were in both rounds of the initial evaluation, 62 percent had at least one child under the age of 16 (N=1614).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "The overall take-up rate of insurance for respondents with insurance-eligible children was 35 percent among those who were offered the six-month subsidy and 2.22 percent among those who were not. 9 The primary sample consists of 2,996 children in 1614 households in both waves of the survey; this sample is 74 percent of all children at baseline. As with the full adult sample in Thornton et al. 2010, there was no differential sample attrition between those who were offered the subsidy and those who were not (available upon request).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Baseline statistics of households (Panel A), parents (adult respondents with at least one child under 16, Panel B), and children (Panel C) are presented in Table 1. Households have on average 4.8 members, including 1.3 children age 11 and under.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 156,
+            "end": 164,
+            "text": "Table 1.",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Average monthly household income is 5,399 C\u00f3rdobas (US$298). Parents have 9.3 years 7 Although the 6-month subsidy is large relative to median income, household disposable income should be unaffected by receiving the subsidy since most households do not purchase the insurance without a subsidy. 8 Thornton et al. (2010) also measures whether the location of enrollment (at a micro-finance facility or the standard INSS enrollment location) affects the enrollment decisions of informal-sector workers, and whether MFI clients have different utilization patterns than non-MFI clients. 9 These take-up rates of health insurance are comparable to the existing literature. The Oregon Health Insurance Experiment found that low-income individuals who won a lottery for Medicaid in the United States increased the probability of enrolling by 25 percentage points compared to similar individuals who had also enrolled in the lottery (Finkelstein et al 2012) . Enrollment in the SKY health insurance program in Cambodia peaked after 6 months at 44 percent in the most heavily subsidized treatment group (Levine et al. 2016) , and a study in Kenya found a 17 percent take-up rate of formal health insurance (Chemin 2014) . of education, and work in their market stall on average 10 hours per day. 76 percent of adults report ever being sick in the past year with a similar percentage ever seeing a health provider (76 percent). The average number of visits to all providers is 4.28.",
+        "cite_spans": [
+          {
+            "start": 84,
+            "end": 85,
+            "text": "7",
+            "ref_id": null
+          },
+          {
+            "start": 926,
+            "end": 950,
+            "text": "(Finkelstein et al 2012)",
+            "ref_id": null
+          },
+          {
+            "start": 1095,
+            "end": 1115,
+            "text": "(Levine et al. 2016)",
+            "ref_id": "BIBREF27"
+          },
+          {
+            "start": 1198,
+            "end": 1211,
+            "text": "(Chemin 2014)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Average health expenditures are C$828 ($46), with a median value of C$161 ($8).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "Children have similar rates of being sick, and utilization of healthcare services as their parents, although total costs are somewhat lower -C$569 ($31), with a median value of C$204 ($11).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. BACKGROUND",
+        "sec_num": null
+      },
+      {
+        "text": "To measure the effects of insurance on health care utilization we follow the strategy used in Thornton et al. 2010, instrumenting insurance enrollment with the randomly offered subsidy. 10 To benchmark the effects on children, the empirical results begin by estimating the effects of the insurance among parents, with the following specification:",
+        "cite_spans": [
+          {
+            "start": 186,
+            "end": 188,
+            "text": "10",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "(1) = \u03b1 + \u03b2 + \u03b3 + \u03b5",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "where Yif represents utilization at health providers within the past year. Enrolled is an indicator of whether or not the parent enrolled in insurance. This specification controls for characteristics potentially correlated with health insurance demand and healthcare utilization, all collected at the baseline. 11",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "We correct for potential selection bias with respect to insurance enrollment decisions in equation 1by using the randomly offered six-month subsidy to instrument for 10 The main outcome variables are measures of healthcare utilization in the past year. The supplemental appendix contains estimates of health insurance on the inverse hyperbolic sine of out-of-pocket expenditures.",
+        "cite_spans": [
+          {
+            "start": 166,
+            "end": 168,
+            "text": "10",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "11 These include: household size, household size squared, the inverse hyperbolic sine of household income, parental years of education, age, age squared, gender, whether the individual was sick in the past year, the number of times sick, total number of health visits, whether the individual had forgone treatment due to lack of money, and survey round and market fixed effects.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "insurance enrollment with the following first stage equation:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "(2) = + + +",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "The estimated parameters from equation (1) can be interpreted as the Local Average Treatment Effect (LATE), or the effect of health insurance among those that were induced to enroll due to the randomly allocated subsidy (Imbens and Angrist 1994) .",
+        "cite_spans": [
+          {
+            "start": 220,
+            "end": 245,
+            "text": "(Imbens and Angrist 1994)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "Parent enrollment is strongly predicted by the subsidy offer (Appendix S1, Column 1).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "Important to the identification strategy is that the subsidy was randomly allocated across parents. This instrumental variables approach yields LATE estimates which specify the impact of heath insurance for children whose parents were induced to enroll as a result of the randomly allocated subsidy. However, policymakers may be also be interested in the effect of offering parents health insurance-that is, the reduced-form effect, estimated with the following specification:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "(6) = + 6 \u210e + 6 \u210e * + + +",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "The variables and controls are the same as in the previous equations.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "Characteristics of children whose parents were and were not offered the subsidy are balanced across the treatment groups (Table 1 , Panel C). Magnitudes of the differences are also small. Characteristics are also balanced by treatment group separately among eligible and ineligible children and across smaller age groups (0-5 and 6-11) (Appendix S2).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 121,
+            "end": 129,
+            "text": "(Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "II. EMPIRICAL STRATEGY",
+        "sec_num": null
+      },
+      {
+        "text": "Before presenting the main effects of the insurance on children, we show the effects of being insured among parents, according to Equation 1, as a benchmark, (Appendices S3 and S4). Enrolled parents are 41 percentage points more likely to attend an EMP (covered provider) and 13.7 percentage points less likely to attend public facilities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "Similarly, parents increase the number of visits to EMPs by 1.3 visits. The overall number of visits increases by 0.8 visits, but this estimate is not statistically significant. 13 Turning to the effects of insurance among children, Table 2 shows that having an enrolled parent increases the likelihood that an eligible child visits a covered provider (EMP). The increase is large at 23 percentage points ( ",
+        "cite_spans": [
+          {
+            "start": 178,
+            "end": 180,
+            "text": "13",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 233,
+            "end": 240,
+            "text": "Table 2",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "III. RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "While the analysis shows that the effects of parental insurance differ by the insurance status of the child, the previous analysis does not explain why these patterns arise. Are we test whether the effect of parental insurance differs by whether the child has an eligible sibling. 17 The results in Table 4 show that the effects of health insurance do not differ by whether the ineligible child has a covered sibling, suggesting that the results are primarily driven by having insured parents. There are no significant added effects of 16 We also conduct falsification checks to determine the sensitivity of the results, where we replace the outcome measures from the follow-up survey with the baseline measures (Appendices S9 and S10). None of the coefficients of interest are significantly different from zero. The exception is that aside from one coefficient on the interaction term for the outcome of whether the child had ever visited an EMP at baseline. We do not believe that this is cause for concern due to the large number of hypotheses tested in this table and because this outcome has a low mean in the sample at baseline (0.028). 17 We estimate: = + + + * + + + where Parent Enrolled is instrumented with random assignment status as in Equation 1, and the interaction is instrumented with random assignment status multiplied by whether the ineligible child has an eligible (covered) sibling. The primary outcomes we examine are visits; all control variables are the same as in Equation 1.",
+        "cite_spans": [
+          {
+            "start": 281,
+            "end": 283,
+            "text": "17",
+            "ref_id": null
+          },
+          {
+            "start": 536,
+            "end": 538,
+            "text": "16",
+            "ref_id": null
+          },
+          {
+            "start": 1143,
+            "end": 1145,
+            "text": "17",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 299,
+            "end": 306,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "IV. POSSIBLE CHANNELS",
+        "sec_num": null
+      },
+      {
+        "text": "having an eligible sibling. 18 An alternative mechanism consistent with the results is that if health insurance improves health, there may be positive health externalities among uninsured members of the household. As a result, ineligible siblings might not require as many visits to healthcare providers. Unfortunately, the data do not contain objective measures of children's health and are restricted to parents' self-reports which may be systematically biased due to increased access to higher qualified providers or increased/decreased health care utilization. In addition, any results presented on the effects of insurance on health status -a function of both preventative and curative care -are not comparable to the health care utilization results, which are conditional on being sick.",
+        "cite_spans": [
+          {
+            "start": 28,
+            "end": 30,
+            "text": "18",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. POSSIBLE CHANNELS",
+        "sec_num": null
+      },
+      {
+        "text": "Nevertheless, we find no significant effects of parent insurance in the likelihood of ever being sick among parents or eligible children (Appendix S13). On the extensive margin, however, eligible children with insured parents are reported to be sick 0.67 times more than those without an insured parent. In contrast, ineligible children with insured parents are reported to be sick 1.06 times less than ineligible children without insured parents. There are several possible explanations for these results. It is possible that health insurance actually made eligible children with insured parents sick more often despite their increased utilization at providers, through iatrogenic illnesses from waiting rooms, for example (Steel et al. 2004) . However, more plausibly, increased healthcare utilization may also have increased parents' knowledge, or salience, of sick episodes, or changed the criterion for which a child is sick enough to attend the doctor.",
+        "cite_spans": [
+          {
+            "start": 724,
+            "end": 743,
+            "text": "(Steel et al. 2004)",
+            "ref_id": "BIBREF39"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. POSSIBLE CHANNELS",
+        "sec_num": null
+      },
+      {
+        "text": "There are several possible explanations for the increase in non-covered provider visits among eligible children with insured parents. The increased overall utilization is not likely due to increased available money for more healthcare -we found no significant effects of the insurance on out-of-pocket expenditures (Appendix S6). The increased utilization could be due to moral hazard, because the price decrease is specific to EMPs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. POSSIBLE CHANNELS",
+        "sec_num": null
+      },
+      {
+        "text": "Increased utilization could also have resulted in additional diagnoses for covered children. Economies of scale in time -taking children to the doctor or visiting a pharmacy -could also explain the results. Unfortunately, data on time costs, or when visits to the different providers took place, were not collected. While the data do not allow us to definitively identify the mechanism, the results are most consistent the Jacobson (2000) model where the substitution effect from cheaper care for insured members dominates the income effect for uninsured members of the household.",
+        "cite_spans": [
+          {
+            "start": 423,
+            "end": 438,
+            "text": "Jacobson (2000)",
+            "ref_id": "BIBREF23"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. POSSIBLE CHANNELS",
+        "sec_num": null
+      },
+      {
+        "text": "This paper estimates the direct and indirect causal effects of health insurance on children's utilization using a randomized allocation of insurance subsidies and an age eligibility cut-off. Children who were covered by their parent's insurance have substantially more visits at covered providers, and increase their total number of visits at all providers combined. In contrast, children who were ineligible for coverage due to an age restriction substantially decreased their overall utilization.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "The results do not support a model in which parents are concerned with equity of resources. Instead, parents appear to be driven by efficiency. Parents respond to health insurance by decreasing utilization among those for whom healthcare is relatively more expensive. The findings suggest that the marginal value of reduced health care costs and/or increased returns to health investments (better quality service at covered providers) for the insured are greater than the loss associated with reduced provider visits for older children. Unfortunately, we lack the data to test whether the change in utilization among eligible and ineligible children is due to economies of scale with respect to travel or time costs, such as parents taking insured children with them to the doctor.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "The findings in this paper have implications for providing families with insurance, rather than separate, individual insurance plans for children or adults. The results suggest that the primary benefit of parental health insurance to children is improved access to care, but only for eligible children.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "Insured children not only substitute from uncovered providers to covered providers but also increase their overall utilization, suggesting important complementarities in healthcare utilization across provider types. Healthcare subsidies could potentially be used to promote further investments children's health. At the same time, negative health shocks or spillovers may be exacerbated and increase health inequalities, particularly if programs are not designed to cover all family members.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "In contrast to results for adults, there is no substitution away from public facilities and towards covered providers. Thus, children's health insurance is unlikely to decrease demand at overburdened public facilities, a stated goal of the program. These findings suggest an unmet need for healthcare among children covered by the program.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "The results of this paper highlight that families allocate resources-including health demands-according to a specified budget and/or time constraints. These changes in health demands may be sizeable as well: in our context, the impact of health insurance on ineligible members is larger than the impact on eligible members, although in opposite directions. While this study is not powered to detect rare or serious ailments among The sample is all children aged 15 and under (N=2996). Children age 12-15 are considered \"Ineligible\" and children under 11 are considered \"Eligible\". Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status and Parent Enrolled*Ineligible is instrumented with random assignment status*Ineligible. The dependent variable in Panel A is whether or not the child has visited various providers over the past year. The dependent variable in Panel B is the number of times the child has visited various providers over the past year. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "Source: Authors' analysis based on data described in paper. and children under 11 are considered \"Eligible\". Above regressions are estimated coefficients from ITT estimates where \"6 Month Subsidy\" is the parent's random assignment status and 6 Month Subsidy*Ineligible is the interaction of these two variables. The dependent variable in Panel A is whether or not the child has visited various providers over the past year. The dependent variable in Panel B is the number of times the child has visited various providers over the past year. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "Source: Authors' analysis based on data described in paper. Source: Authors' analysis based on data described in paper.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "Notes: The sample is all parents (N=1614). Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status. The dependent variable in Panel A is whether or not the parent has visited various providers over the past year. The dependent variable in Panel B is the number of times the parent has visited various providers over the past year. Regressions control for household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, gender, whether the parent was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Source: Authors' analysis based on data described in paper.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table S3: Effects of Insurance Enrollment on Visits Among Parents",
+        "sec_num": null
+      },
+      {
+        "text": "Notes: The sample is all parents with at least one child aged 15 and underat baseline (N=1614). Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status. The dependent variable in Panel A is whether or not the child had any health expenditures at various providers over the past year. The dependent variable in Panel B is the inverse hyperbolic sine of expenditures at various providers over the past year. Note that this specification could not be estimated for EMP expenditures because the sample mean for parents was zero. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. The sample is all children aged 15 and under (N=2996). Children age 12-15 are considered \"Ineligible\" and children under 11 are considered \"Eligible\". Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status and Parent Enrolled*Ineligible is instrumented with random assignment status*Ineligible. The dependent variable in Panel A is the difference in utilization at a given provider between baseline and follow-up. The dependent variable in Panel B is the difference in expenditures at various providers over the past year between baseline and follow-up. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. . Panel A present estimated coefficients from non-linear least square specifications where \"6 Month Subsidy\" is the parent's random assignment status and 6 Month Subsidy*Ineligible is the interaction of these two variables. Panel B presents estimates from an IV Tobit specification where \"Parent Enrolled\" is instrumented with parent's random assignment status and \"Parent Enrolled*Ineligible\" is instrumented with the interaction of the parent's six month subsidy and Ineligible. The dependent variable is the expenditures at various providers over the past year. EMP and public health sector facilities are omitted from Panel B because estimates would not converge. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Source: Authors' analysis based on data described in paper. Notes: \"Treatment\" refers to whether or not the parent respondent was randomly allocated a 6 Month Subsidy for health insurance. Columns 1-4 and 6-9 contain unconditional mean estimates (and sd) for each sample listed for the visits overall, to EMPs, and to private providers (Panel A) or the inverse hyperbolic sine overall, at EMPs, and at private providers (Panel B). Columns 5 and 10 contain the regression-adjusted differences of follow-up measures between the Treatment and Control group, adjusted for round and market fixed effects (i.e., the sampling strategy). Column 11 contains the difference-in-difference estimate between eligible and ineligible children across the treatment and the control groups, adjusted for round and market fixed effects. 95% confidence intervals are displayed between each difference and are calculated based upon standard errors clustered at the family level. The p-value of the t-test on the displayed coefficent is below the 95% confidence interval. Above regressions are estimated coefficients from IV estimates where \"Parent Enrolled\" is instrumented with the parent's random assignment status and Parent Enrolled*Ineligible is the interaction of these two variables. The dependent variable in Panel A is whether or not the child has visited various providers over the past year as of baseline. The dependent variable in Panel B is the number of times the child has visited various providers over the past year. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of household income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Notes: The sample is all children aged 15 and under (N=2996). Children age 12-15 are considered \"Ineligible\" and children under 11 are considered \"Eligible\". Above regressions are estimated coefficients from IV estimates where \"Parent Enrolled\" is instrumented with the parent's random assignment status and Parent Enrolled*Ineligible is the interaction of these two variables. The dependent variable in Panel A is whether or not the child had any health expenditures at various providers over the past year. The dependent variable in Panel B is the inverse hyperbolic sine of expenditures at various providers over the past year. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1 Notes: The sample in Panel A is all children age 11 and under at baseline; the sample in Panel B is all children age 12 and over at baseline. \"Ineligble Sibling\" refers to a sibling in the household age 12 and over at baseline; \"Eligible SIbling\" refers to a sibling age 11 and under at baseline. Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status and \"Ineligible/Eligible Sibling*Parent Enrolled\" is instrumented with \"Inelgible Sibling\" or \"Eligible Sibling\" times random assignment status. The dependent variables are the inverse hyperbolic sine of expenditures at various providers over the past year.Note that the regressions of EMP and public facility expenditures as dependent in Panel B could not be estimated due to insufficient variation. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. Notes: The sample is covered children aged 11 and under (N=2172). Siblings are ineligible if they are 12-15 at baseline. Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status Parent Enrolled*Ineligible Sibling is instrumented with random assignment status*Eligible Sibling. The dependent variable in Panel A is whether or not the child has visited various providers over the past year. The dependent variable in Panel B is the number of times the child has visited various providers over the past year. Regressions control for household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table S4: Effects of Insurance Enrollment on Expenditures Among Parents",
+        "sec_num": null
+      },
+      {
+        "text": "|------------------------Eligible Kids------------------------| |------------------------Ineligible Kids------------------------|",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table S4: Effects of Insurance Enrollment on Expenditures Among Parents",
+        "sec_num": null
+      },
+      {
+        "text": "The services provides include primary and specialist care, medication and laboratory exams, hospitalization, 24-hour emergency care, voluntary family planning counseling and contraception, breast and cervical cancer screenings, HIV and STD counseling, and prevention and treatment of dengue fever and malaria.3 EMPs are only able to be reimbursed for services if they can document that the individual was enrolled in the health insurance; that is, if the child is under 12. Any expenses incurred from services for ineligible children would not have been paid by the INSS program.4 In the data, pharmacies are the most commonly visited type of provider; on average children report 1.8 visits to pharmacies in the past year at the baseline. In contrast, the average number of visits to public and private providers is 0.8 and 1.0 visits, respectively.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "While there is some imbalance in household income across treatment arms, the median values are identical and a Kolmogorov-Smirnov test of the equality of distributions fails to reject the null hypothesis that the income distributions are the same. Trimming the top 1 percent of income values also results in no statistically significant mean differences between groups (not shown).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The coefficient magnitudes on the effects of having insurance on out-of-pocket health expenditures also suggest some substitution away from private facilities and pharmacies, although these estimates are imprecisely measured.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "There are similar significant decreases in overall spending and spending at private facilities for ineligible children in insured households, but no statistically significant effects on out-of-pocket expenditures among eligible children (Appendices S6 and S7).15 The reduced form results presented according to CONSORT guidelines can be found in Appendix S8 .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The results on out-of-pocket expenditures yield similar estimates (Appendix S11). There are also no statistically significant added effects of having an ineligible sibling among age-eligible children (Appendix S12), although the point estimates suggest that having an ineligible sibling may mute the positive effect among covered children. There are similarly no significant differences for covered children with covered siblings.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "Times Sick Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status; Ineligible*Parent Enrolled is instrumented with random assignment status*Ineligible. The dependent variable are various measures of health status: whether the child had a checkup in the past year, whether the child had ever been sick in the past year, and the number of times sick. Regressions control for household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Checkup Ever Sick",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Analysis of 23 Million US Hospitalizations: Uninsured Children Have Higher All-Cause In-hospital Mortality",
+        "authors": [
+          {
+            "first": "Fizan",
+            "middle": [],
+            "last": "Abdullah",
+            "suffix": ""
+          },
+          {
+            "first": "Yiyi",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": ""
+          },
+          {
+            "first": "Thomas",
+            "middle": [],
+            "last": "Lardaro",
+            "suffix": ""
+          },
+          {
+            "first": "Marissa",
+            "middle": [],
+            "last": "Black",
+            "suffix": ""
+          },
+          {
+            "first": "Paul",
+            "middle": [
+              "M"
+            ],
+            "last": "Colombani",
+            "suffix": ""
+          },
+          {
+            "first": "Kristin",
+            "middle": [],
+            "last": "Chrouser",
+            "suffix": ""
+          },
+          {
+            "first": "Peter",
+            "middle": [
+              "J"
+            ],
+            "last": "Pronovost",
+            "suffix": ""
+          },
+          {
+            "first": "David",
+            "middle": [
+              "C"
+            ],
+            "last": "Chang",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Journal of Public Health",
+        "volume": "32",
+        "issue": "2",
+        "pages": "236--244",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Abdullah, Fizan, Yiyi Zhang, Thomas Lardaro, Marissa Black, Paul M. Colombani, Kristin Chrouser, Peter J. Pronovost, and David C. Chang. \"Analysis of 23 Million US Hospitalizations: Uninsured Children Have Higher All-Cause In-hospital Mortality.\" Journal of Public Health 32, no. 2 (2010): 236-244.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Endowments at Birth and Parents' Investments in Children",
+        "authors": [
+          {
+            "first": "Achyuta",
+            "middle": [],
+            "last": "Adhvaryu",
+            "suffix": ""
+          },
+          {
+            "first": "Anant",
+            "middle": [],
+            "last": "Nyshadham",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "The Economic Journal",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Adhvaryu, Achyuta, and Anant Nyshadham. \"Endowments at Birth and Parents' Investments in Children.\" The Economic Journal (2014).",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Parental Medicaid Expansions and Child Medicaid Coverage",
+        "authors": [
+          {
+            "first": "Anna",
+            "middle": [],
+            "last": "Aizer",
+            "suffix": ""
+          },
+          {
+            "first": "Jeffrey",
+            "middle": [],
+            "last": "Grogger",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "NBER Working Paper",
+        "volume": "9907",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Aizer, Anna and Jeffrey Grogger, \"Parental Medicaid Expansions and Child Medicaid Coverage.\" NBER Working Paper 9907, (2003). Cambridge, MA.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "The Spillover Effects of Health Insurance on the Household: Evidence from Vietnam",
+        "authors": [
+          {
+            "first": "Anaka",
+            "middle": [],
+            "last": "Aiyar",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Unpublished",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Aiyar, Anaka, \"The Spillover Effects of Health Insurance on the Household: Evidence from Vietnam.\" Unpublished. (2016).",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Bundling Health Insurance and Microfinance in India: There Cannot be Adverse Selection if There is No Demand",
+        "authors": [
+          {
+            "first": "Abhijit",
+            "middle": [],
+            "last": "Banerjee",
+            "suffix": ""
+          },
+          {
+            "first": "Esther",
+            "middle": [],
+            "last": "Duflo",
+            "suffix": ""
+          },
+          {
+            "first": "Richard",
+            "middle": [],
+            "last": "Hornbeck",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "The American Economic Review",
+        "volume": "104",
+        "issue": "5",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Banerjee, Abhijit, Esther Duflo, and Richard Hornbeck. \"Bundling Health Insurance and Microfinance in India: There Cannot be Adverse Selection if There is No Demand.\" The American Economic Review 104 no.5 (2014): 291.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Universal Health Coverage for the Poor: A Cost-Benefit Analysis of Mexico's Seguro Popular",
+        "authors": [
+          {
+            "first": "Jeremy",
+            "middle": [],
+            "last": "Barofsky",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Brookings Institution Working Paper",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Barofsky, Jeremy. \"Universal Health Coverage for the Poor: A Cost-Benefit Analysis of Mexico's Seguro Popular.\" Brookings Institution Working Paper (2015). Washington, D.C.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Maintaining Nutrition Security and Diet Quality: the Role of the Food Stamp Program and WIC",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Basiotis",
+            "suffix": ""
+          },
+          {
+            "first": "Carol",
+            "middle": [
+              "S"
+            ],
+            "last": "Peter",
+            "suffix": ""
+          },
+          {
+            "first": "Eileen",
+            "middle": [
+              "T"
+            ],
+            "last": "Kramer-Leblanc",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Kennedy",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "Family Economics and Nutrition Review",
+        "volume": "11",
+        "issue": "1",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Basiotis, P. Peter, Carol S. Kramer-LeBlanc, and Eileen T. Kennedy. \"Maintaining Nutrition Security and Diet Quality: the Role of the Food Stamp Program and WIC.\" Family Economics and Nutrition Review 11, no. 1/2 (1998): 4.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Implications of spillover effects within the family for medical cost-effectiveness analysis",
+        "authors": [
+          {
+            "first": "Anirban",
+            "middle": [],
+            "last": "Basu",
+            "suffix": ""
+          },
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Meltzer",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of Health Economics",
+        "volume": "24",
+        "issue": "4",
+        "pages": "751--773",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Basu, Anirban, and David Meltzer. \"Implications of spillover effects within the family for medical cost-effectiveness analysis.\" Journal of Health Economics 24, no. 4 (2005): 751-773.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Family Coverage Expansions: Impact on Insurance Coverage and Health Care Utilization of Parents",
+        "authors": [
+          {
+            "first": "Susan",
+            "middle": [],
+            "last": "Busch",
+            "suffix": ""
+          },
+          {
+            "first": "Noelia",
+            "middle": [],
+            "last": "Duchovny",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of Health Economics",
+        "volume": "24",
+        "issue": "5",
+        "pages": "876--890",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Busch, Susan and Noelia Duchovny, \"Family Coverage Expansions: Impact on Insurance Coverage and Health Care Utilization of Parents,\" Journal of Health Economics 24 no. 5 (2005), 876-890.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Using Informal Risk-Sharing Groups to Extend Formal Health Insurance: Evidence from a Field Experiment",
+        "authors": [
+          {
+            "first": "Matthieu",
+            "middle": [],
+            "last": "Chemin",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chemin, Matthieu. \"Using Informal Risk-Sharing Groups to Extend Formal Health Insurance: Evidence from a Field Experiment\". Unpublished. (2014)",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Health Insurance Eligibility, Utilization of Medical Care, and Child Health",
+        "authors": [
+          {
+            "first": "Janet",
+            "middle": [],
+            "last": "Currie",
+            "suffix": ""
+          },
+          {
+            "first": "Jonathan",
+            "middle": [],
+            "last": "Gruber",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "111",
+        "issue": "",
+        "pages": "431--466",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Currie, Janet, and Jonathan Gruber. \"Health Insurance Eligibility, Utilization of Medical Care, and Child Health,\" Quarterly Journal of Economics 111 (1996): 431-466.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Expanding Public Health Insurance to Parents: Effects on Children's Coverage under Medicaid",
+        "authors": [
+          {
+            "first": "Lisa",
+            "middle": [],
+            "last": "Dubay",
+            "suffix": ""
+          },
+          {
+            "first": "Genevieve",
+            "middle": [],
+            "last": "Kenney",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "1283--1302",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dubay, Lisa, and Genevieve Kenney. \"Expanding Public Health Insurance to Parents: Effects on Children's Coverage under Medicaid,\" Health services research, 38 no. 5 (2003):1283-1302.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Birth Order and the Intrahousehold Allocation of Time and Education",
+        "authors": [
+          {
+            "first": "Mette",
+            "middle": [],
+            "last": "Ejrnaes",
+            "suffix": ""
+          },
+          {
+            "first": "Claus",
+            "middle": [
+              "C"
+            ],
+            "last": "P\u00f6rtner",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Review of Economics and Statistics",
+        "volume": "86",
+        "issue": "",
+        "pages": "1008--1019",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ejrnaes, Mette, and Claus C. P\u00f6rtner. \"Birth Order and the Intrahousehold Allocation of Time and Education.\" Review of Economics and Statistics 86.4 (2004): 1008-1019.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Sources of Advantageous Selection: Evidence from the Medigap Insurance Market",
+        "authors": [
+          {
+            "first": "Hanming",
+            "middle": [],
+            "last": "Fang",
+            "suffix": ""
+          },
+          {
+            "first": "Michael",
+            "middle": [],
+            "last": "Keane",
+            "suffix": ""
+          },
+          {
+            "first": "Dan",
+            "middle": [],
+            "last": "Silverman",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Journal of Political Economy",
+        "volume": "116",
+        "issue": "2",
+        "pages": "303--350",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fang, Hanming, Michael Keane, and Dan Silverman. \"Sources of Advantageous Selection: Evidence from the Medigap Insurance Market.\" Journal of Political Economy. 116 no. 2 (2008): 303-350",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Katherine Baicker, and the Oregon Health Study Group \"The Oregon Health Insurance Experiment: Evidence from the First Year",
+        "authors": [
+          {
+            "first": "Heidi",
+            "middle": [],
+            "last": "Newhouse",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Allen",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "127",
+        "issue": "3",
+        "pages": "1057--1106",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Newhouse, Heidi Allen, Katherine Baicker, and the Oregon Health Study Group \"The Oregon Health Insurance Experiment: Evidence from the First Year.\" Quarterly Journal of Economics. 127 no. 3 (2012):1057-1106",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "The Willingness to Pay for Medical Care: Evidence from Two Developing Countries",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [],
+            "last": "Gertler",
+            "suffix": ""
+          },
+          {
+            "first": "Jacques",
+            "middle": [],
+            "last": "Van Der Gaag",
+            "suffix": ""
+          }
+        ],
+        "year": 1990,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gertler, Paul, and Jacques Van der Gaag. \"The Willingness to Pay for Medical Care: Evidence from Two Developing Countries.\" Johns Hopkins Press, Baltimore. (1990).",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Sibling Models and Data in Economics: Beginnings of a Survey",
+        "authors": [
+          {
+            "first": "Zvi",
+            "middle": [],
+            "last": "Griliches",
+            "suffix": ""
+          }
+        ],
+        "year": 1979,
+        "venue": "Journal of Political Economy",
+        "volume": "87",
+        "issue": "5",
+        "pages": "37--64",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Griliches, Zvi, \"Sibling Models and Data in Economics: Beginnings of a Survey,\" Journal of Political Economy, 87 no. 5 (1979): S37-S64.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Parental Investment: How an Equity Motive Can Produce Inequality",
+        "authors": [
+          {
+            "first": "Ralph",
+            "middle": [],
+            "last": "Hertwig",
+            "suffix": ""
+          },
+          {
+            "first": "Jennifer",
+            "middle": [
+              "Nerissa"
+            ],
+            "last": "Davis",
+            "suffix": ""
+          },
+          {
+            "first": "Frank",
+            "middle": [
+              "J"
+            ],
+            "last": "Sulloway",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Psychological Bulletin",
+        "volume": "128",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hertwig, Ralph, Jennifer Nerissa Davis, and Frank J. Sulloway. \"Parental Investment: How an Equity Motive Can Produce Inequality.\" Psychological Bulletin 128.5 (2002): 728.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Extending Social Insurance to Informal Sector Workers in Nicaragua via Microfinance Institutions: Results from a Randomized Evaluation",
+        "authors": [
+          {
+            "first": "Laurel",
+            "middle": [],
+            "last": "Hatt",
+            "suffix": ""
+          },
+          {
+            "first": "Rebecca",
+            "middle": [],
+            "last": "Thornton",
+            "suffix": ""
+          },
+          {
+            "first": "Barbara",
+            "middle": [],
+            "last": "Magnoni",
+            "suffix": ""
+          },
+          {
+            "first": "Mursaleena",
+            "middle": [],
+            "last": "Islam",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hatt, Laurel, Rebecca Thornton, Barbara Magnoni, and Mursaleena Islam. \"Extending Social Insurance to Informal Sector Workers in Nicaragua via Microfinance Institutions: Results from a Randomized Evaluation.\" Bethesda, MD: Private Sector Partnerships-One project, Abt Associates Inc. (2009).",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Identification and Estimation of Local Average Treatment Effects",
+        "authors": [
+          {
+            "first": "Guido",
+            "middle": [],
+            "last": "Imbens",
+            "suffix": ""
+          },
+          {
+            "first": "Joshua",
+            "middle": [],
+            "last": "Angrist",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Econometrica",
+        "volume": "62",
+        "issue": "2",
+        "pages": "467--475",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Imbens, Guido and Joshua Angrist. \"Identification and Estimation of Local Average Treatment Effects\". Econometrica. 62, no. 2 (1994): 467-475.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Encuesta Nicarag\u00fcense de Demograf\u00eda y Salud (ENDESA) 2006/07, Informe Preliminar [Nicaragua Demographic and Health",
+        "authors": [],
+        "year": 2007,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Instituto Nacional de Informaci\u00f3n de Desarrollo (INIDE) and Ministerio de Salud (MINSA). 2007. Encuesta Nicarag\u00fcense de Demograf\u00eda y Salud (ENDESA) 2006/07, Informe Preliminar [Nicaragua Demographic and Health Survey 2006/07, Preliminary Report]. http://microdata.worldbank.org/index.php/catalog/988.. Last accessed: June 9, 2017.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Intra-household Allocation and Consumption of WIC-Approved Foods: A Bayesian Approach",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Ishdorj",
+            "suffix": ""
+          },
+          {
+            "first": "Helen",
+            "middle": [
+              "H"
+            ],
+            "last": "Ariun",
+            "suffix": ""
+          },
+          {
+            "first": "Justin",
+            "middle": [],
+            "last": "Jensen",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Tobias",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Advances in Econometrics",
+        "volume": "23",
+        "issue": "",
+        "pages": "157--182",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ishdorj, Ariun, Helen H. Jensen, and Justin Tobias. \"Intra-household Allocation and Consumption of WIC-Approved Foods: A Bayesian Approach.\" Advances in Econometrics 23 (2008): 157-182.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "The Family As A Producer of Health-An Extended Grossman Model",
+        "authors": [
+          {
+            "first": "Lena",
+            "middle": [],
+            "last": "Jacobson",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Journal of Health Economics",
+        "volume": "19",
+        "issue": "",
+        "pages": "611--637",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jacobson, Lena. \"The Family As A Producer of Health-An Extended Grossman Model.\" Journal of Health Economics. 19 (2000): 611-637.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Children's Health-Why Health Insurance Matters",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Kaiser Family Foundation",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kaiser Family Foundation. \"Children's Health-Why Health Insurance Matters.\" Washington, DC: KFF, 2002.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Public Policy for the Poor? A Randomised Assessment of the Mexican Universal Health Insurance Programme",
+        "authors": [
+          {
+            "first": "Gary",
+            "middle": [],
+            "last": "King",
+            "suffix": ""
+          },
+          {
+            "first": "Emmanuela",
+            "middle": [],
+            "last": "Gakidou",
+            "suffix": ""
+          },
+          {
+            "first": "Kosuke",
+            "middle": [],
+            "last": "Imai",
+            "suffix": ""
+          },
+          {
+            "first": "Jason",
+            "middle": [],
+            "last": "Lakin",
+            "suffix": ""
+          },
+          {
+            "first": "Ryan",
+            "middle": [
+              "T"
+            ],
+            "last": "Moore",
+            "suffix": ""
+          },
+          {
+            "first": "Clayton",
+            "middle": [],
+            "last": "Nall",
+            "suffix": ""
+          },
+          {
+            "first": "Nirmala",
+            "middle": [],
+            "last": "Ravishankar",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "The Lancet",
+        "volume": "373",
+        "issue": "9673",
+        "pages": "1447--1454",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "King, Gary, Emmanuela Gakidou, Kosuke Imai, Jason Lakin, Ryan T. Moore, Clayton Nall, Nirmala Ravishankar et al. \"Public Policy for the Poor? A Randomised Assessment of the Mexican Universal Health Insurance Programme.\" The Lancet 373, no. 9673 (2009): 1447-1454.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "All Internal in the Family? Measuring Spillovers from Public Health Insurance",
+        "authors": [
+          {
+            "first": "Thomas",
+            "middle": [],
+            "last": "Koch",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Journal of Human Resources",
+        "volume": "",
+        "issue": "",
+        "pages": "959--979",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Koch, Thomas. \"All Internal in the Family? Measuring Spillovers from Public Health Insurance.\" Journal of Human Resources. (2015): 959-979.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Insuring Health or Insuring Wealth? An Experimental Evaluation of Health Insurance in Rural Cambodia",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Levine",
+            "suffix": ""
+          },
+          {
+            "first": "Rachel",
+            "middle": [],
+            "last": "Polimeni",
+            "suffix": ""
+          },
+          {
+            "first": "Ian",
+            "middle": [],
+            "last": "Ramage",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Journal of Development Economics",
+        "volume": "119",
+        "issue": "",
+        "pages": "1--15",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Levine, David, Rachel Polimeni, and Ian Ramage. \"Insuring Health or Insuring Wealth? An Experimental Evaluation of Health Insurance in Rural Cambodia.\" Journal of Development Economics. 119 (2016): 1-15.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Estudio de Factibilidad de la Incorporaci\u00f3n del Sector Laboral Independiente en el Seguro Facultativo de Salud del INSS. Original feasibility study submitted by the Banking on Health Project to the INSS on",
+        "authors": [
+          {
+            "first": "Barbara",
+            "middle": [],
+            "last": "Magnoni",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Natilson",
+            "suffix": ""
+          },
+          {
+            "first": "George",
+            "middle": [],
+            "last": "Bola\u00f1os",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Magnoni, Barbara, N. Natilson, and George Bola\u00f1os. 2005. Estudio de Factibilidad de la Incorporaci\u00f3n del Sector Laboral Independiente en el Seguro Facultativo de Salud del INSS. Original feasibility study submitted by the Banking on Health Project to the INSS on September 28, 2005",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Health Insurance and Access to Primary Care for Children",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [
+              "W"
+            ],
+            "last": "Newacheck",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Jeffrey",
+            "suffix": ""
+          },
+          {
+            "first": "Dana",
+            "middle": [
+              "C"
+            ],
+            "last": "Stoddard",
+            "suffix": ""
+          },
+          {
+            "first": "Michelle",
+            "middle": [],
+            "last": "Hughes",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Pearl",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "New England Journal of Medicine",
+        "volume": "338",
+        "issue": "8",
+        "pages": "513--519",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Newacheck, Paul W., Jeffrey J. Stoddard, Dana C. Hughes, and Michelle Pearl. \"Health Insurance and Access to Primary Care for Children.\" New England Journal of Medicine 338, no. 8 (1998): 513-519.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "Children's Access to Primary Care: Differences by Race, Income, and Insurance Status",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [
+              "W"
+            ],
+            "last": "Newacheck",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Dana",
+            "suffix": ""
+          },
+          {
+            "first": "Jeffrey",
+            "middle": [
+              "J"
+            ],
+            "last": "Hughes",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Stoddard",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "Pediatrics",
+        "volume": "97",
+        "issue": "",
+        "pages": "26--32",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Newacheck, Paul W., Dana C. Hughes, and Jeffrey J. Stoddard. \"Children's Access to Primary Care: Differences by Race, Income, and Insurance Status.\" Pediatrics 97.1 (1996): 26-32.",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "Insurance Experiment Group. Free for all?: Lessons from the RAND Health Insurance Experiment",
+        "authors": [
+          {
+            "first": "Joseph",
+            "middle": [
+              "P"
+            ],
+            "last": "Newhouse",
+            "suffix": ""
+          },
+          {
+            "first": "Rand",
+            "middle": [],
+            "last": "Corporation",
+            "suffix": ""
+          }
+        ],
+        "year": 1993,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Newhouse, Joseph P. and Rand Corporation. Insurance Experiment Group. Free for all?: Lessons from the RAND Health Insurance Experiment. Harvard University Press, 1993.",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Children in the United States with Discontinuous Health Insurance Coverage",
+        "authors": [
+          {
+            "first": "Lynn",
+            "middle": [
+              "M"
+            ],
+            "last": "Olson",
+            "suffix": ""
+          },
+          {
+            "first": "Paul",
+            "middle": [
+              "W"
+            ],
+            "last": "Suk-Fong Tang",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Newacheck",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "New England Journal of Medicine",
+        "volume": "353",
+        "issue": "4",
+        "pages": "382--391",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Olson, Lynn M., Suk-fong Tang, and Paul W. Newacheck. \"Children in the United States with Discontinuous Health Insurance Coverage.\" New England Journal of Medicine. 353 no. 4 (2005): 382-391.",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "The Impact of Health Insurance for Children under Age 6 in Vietnam: A Regression Discontinuity Approach",
+        "authors": [
+          {
+            "first": "Michael",
+            "middle": [],
+            "last": "Palmer",
+            "suffix": ""
+          },
+          {
+            "first": "Sophie",
+            "middle": [],
+            "last": "Mitra",
+            "suffix": ""
+          },
+          {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Mont",
+            "suffix": ""
+          },
+          {
+            "first": "Nora",
+            "middle": [],
+            "last": "Groce",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Social Science & Medicine",
+        "volume": "145",
+        "issue": "",
+        "pages": "217--226",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Palmer, Michael, Sophie Mitra, Daniel Mont, and Nora Groce. \"The Impact of Health Insurance for Children under Age 6 in Vietnam: A Regression Discontinuity Approach.\" Social Science & Medicine. 145 (2015): 217-226.",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "Adverse Selection Based On Observable and Unobservable Factors in Health Insurance",
+        "authors": [
+          {
+            "first": "Rachel",
+            "middle": [],
+            "last": "Polimeni",
+            "suffix": ""
+          },
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Levine",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Polimeni, Rachel and David Levine. \"Adverse Selection Based On Observable and Unobservable Factors in Health Insurance\". Unpublished. (2011).",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "Younger Siblings Can Be Good for Your Health: An Examination of Spillover Benefits from the Supplemental Nutrition Program for Women, Infants, and Children (WIC)",
+        "authors": [
+          {
+            "first": "Christine",
+            "middle": [],
+            "last": "Robinson",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Journal of Family and Economic Issues",
+        "volume": "34",
+        "issue": "2",
+        "pages": "172--184",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Robinson, Christine \"Younger Siblings Can Be Good for Your Health: An Examination of Spillover Benefits from the Supplemental Nutrition Program for Women, Infants, and Children (WIC)\" Journal of Family and Economic Issues, 34 No. 2 (2013): 172- 184.",
+        "links": null
+      },
+      "BIBREF36": {
+        "ref_id": "b36",
+        "title": "The Elasticity of Demand for Health Care in Burkina Faso: Differences Across Age and Income Groups",
+        "authors": [
+          {
+            "first": "Rainer",
+            "middle": [],
+            "last": "Sauerborn",
+            "suffix": ""
+          },
+          {
+            "first": "Adrien",
+            "middle": [],
+            "last": "Nougtara",
+            "suffix": ""
+          },
+          {
+            "first": "Eric",
+            "middle": [],
+            "last": "Latimer",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Health Policy and Planning",
+        "volume": "9",
+        "issue": "",
+        "pages": "185--192",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sauerborn, Rainer, Adrien Nougtara, and Eric Latimer. \"The Elasticity of Demand for Health Care in Burkina Faso: Differences Across Age and Income Groups.\" Health Policy and Planning 9.2 (1994): 185-192.",
+        "links": null
+      },
+      "BIBREF37": {
+        "ref_id": "b37",
+        "title": "Assessing Adverse Selection and Health Care Demand in Micro Health Insurance: Evidence from a Community-Based Microfinance Insurance Model in India",
+        "authors": [
+          {
+            "first": "Ketki",
+            "middle": [],
+            "last": "Sheth",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sheth, Ketki. \"Assessing Adverse Selection and Health Care Demand in Micro Health Insurance: Evidence from a Community-Based Microfinance Insurance Model in India\". Unpublished. (2014).",
+        "links": null
+      },
+      "BIBREF38": {
+        "ref_id": "b38",
+        "title": "Insuring Children or Insuring Families: Do Parental and sibling coverage lead to improved retention of children in medicaid and CHIP?",
+        "authors": [
+          {
+            "first": "Benjamin",
+            "middle": [],
+            "last": "Sommers",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Journal of Health Economics",
+        "volume": "25",
+        "issue": "6",
+        "pages": "154--1169",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sommers, Benjamin. \"Insuring Children or Insuring Families: Do Parental and sibling coverage lead to improved retention of children in medicaid and CHIP?\" Journal of Health Economics 25 no. 6 (2006): 154-1169.",
+        "links": null
+      },
+      "BIBREF39": {
+        "ref_id": "b39",
+        "title": "Iatrogenic illness on a general medical service at a university hospital",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Steel",
+            "suffix": ""
+          },
+          {
+            "first": "Paul",
+            "middle": [
+              "M"
+            ],
+            "last": "Knight",
+            "suffix": ""
+          },
+          {
+            "first": "Caroline",
+            "middle": [],
+            "last": "Gertman",
+            "suffix": ""
+          },
+          {
+            "first": "Jennifer",
+            "middle": [],
+            "last": "Crescenzi",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Anderson",
+            "suffix": ""
+          }
+        ],
+        "year": 1981,
+        "venue": "",
+        "volume": "13",
+        "issue": "",
+        "pages": "638--680",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Steel, Knight, Paul M. Gertman, Caroline Crescenzi, and Jennifer Anderson. \"Iatrogenic illness on a general medical service at a university hospital.\" Quality and Safety in Health Care 13, no. 1 (2004): 76-80. First published in New England Journal of Medicine, 1981, Volume 304, pages 638-42.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null,
+        "text": "Yif represents utilization at health providers within the past year. Parent Enrolled is an indicator of whether or not the child's parent enrolled in insurance.represents the effect of insurance on eligible children under the age of 11, while estimates the spillover effect of insurance on children who were in insured families but ineligible for insurance themselves. The inclusion of baseline family and child level characteristics improves precision; however, the results are not sensitive to the choice of covariates (not shown). The primary specification also includes survey round and market fixed effects to account for the sampling design. Standard errors are clustered at the family level to account for correlations in outcomes of interest between family members. All binary outcomes are estimated using a linear probability model.The insurance enrollment decision is instrumented with the following two equations:Estimates from equations (4) and(5)are presented in Appendix S1. Eligible children whose parent was offered the six-month subsidy were 31 percentage points more likely to have enrolled than eligible children whose parents were not offered the subsidy. No ineligible child was allowed to be enrolled in the health insurance program. The Fstatistics of excluded instruments from equations (4) and (5) are 215 and 217, respectively.",
+        "num": null
+      },
+      "FIGREF1": {
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null,
+        "text": "parents reallocating time or financial resources between household members in response to the price decrease from enrollment? Or are children healthier, and therefore imparting a positive externality on their siblings, reducing the demand for healthcare? First, we examine whether the effects of insurance are in response to having enrolled parents, siblings, or both. While all ineligible children in insured families have an insured parent, not all have an insured sibling. Using the sample of ineligible children (N=824),",
+        "num": null
+      },
+      "FIGREF2": {
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null,
+        "text": "ineligible children, one may assume that reducing healthcare utilization in a resourcepoor setting could potentially have true negative consequences on health. As health insurance programs, including that of the United States, have moved towards covering children, it is important to understand the net benefits and the costs to families from parental health insurance. When considering the effect, and costeffectiveness of health insurance as a social policy, it may be empirically important to account for the positive as well as the negative effects that influence healthcare demands on all members of the household. Thornton, Rebecca, Lauren Hatt., Erica Field, Mursaleena Islam, Freddy Solis Diaz and Martha Azucena Gonzalez. \"Social Security Health Insurance for the Informal Sector in Nicaragua: A Randomized Evaluation.\" Health Economics, 19 (2010):181-206. Todd, James, Carl Armon, Anne Griggs, Steven Poole, and Stephen Berman. \"Increased Rates of Morbidity, Mortality, and Charges for Hospitalized Children with Public or No Health Insurance as Compared with Children with Private Insurance in Colorado and the United States.\" Pediatrics 118, no. 2 (2006): 577-585. Ver Ploeg, Michele. \"Do Benefits of US Food Assistance Programs for Children Spillover to Older Children in the Same Household?\" Journal of Family and Economic Issues 30, no. 4 (2009): 412-427. Zhou, Zhongliang, Yanfang Su, Jianmin Gao, Ling Xu, and Yaoguang Zhang. \"New Estimates of Elasticaity of Demand for Healthcare in Rural China.\" Health Policy 103, no. 2 (2011): 255-265.",
+        "num": null
+      },
+      "FIGREF3": {
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null,
+        "text": "Above are sample averages of selected variables by age groups of children at baseline. Columns 1,4, and 7 show averages for all children within the age category; Columns 2,5,and 8 show the difference in average characteristics between children in the Control group and children in the Treatment group; Columns 3,6, and 9 show the p-value of the difference, conditional on market and round fixed effects. Health providers consist of EMPs, public clinics, pharmacies, private hospitals, private doctors, public hospitals, and laboratory visits. All health and visit variables are reported to be during the past year. All income and expenditure data are in 2008 Cordobas. Children who were not sick in the past year are included as zeros for number of times sick and all visit/spending variables. Forgone treatment in past year due to lack of money was calculated to be zero for children who were not sick in the past year. P-values are based upon robust standard errors, clustered at the family level.*** p<0.01, ** p<0.05, * p<0.1 |----------Age 0-5----------| |----------Age 6-11----------| |----------Age 12-15----------| Any Provider",
+        "num": null
+      },
+      "TABREF0": {
+        "content": "<table><tr><td>, Panel A provides evidence that randomization was reasonably effective,</td></tr><tr><td>with parents in the subsidy and non-subsidy groups having balanced baseline observed</td></tr><tr><td>characteristics (see also Thornton et al., 2010 for results on the full sample of adults). 12</td></tr><tr><td>To study intra-household effects of insurance coverage, the analysis relies on the</td></tr><tr><td>insurance eligibility age-cutoff. Children are categorized into two groups -Eligible</td></tr><tr><td>(those below age 11), and Ineligible (those age 12-15). The empirical strategy compares</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF1": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "Panel A, Column 3), although not as large as the increase in adults own utilization. There is also an increase on the intensive margin with an increase in 0.56 visits to an EMP (Panel B, Column 3). In addition, eligible children with an insured parent increase total utilization at all providers, not just those that are covered by the insurance, by 1.26 additional visits (Panel B, Column 1). Note that the magnitude of the effect size on EMP utilization is about half of that among parents, although there are larger effects on children's total utilization.Age-ineligible children (ages 12-15) with parents enrolled in health insurance experience fairly substantial decreases in the likelihood of visiting providers, and the total number of provider visits, compared to children of the same ages, whose parent is uninsured. Among these children, having an insured parent reduces the likelihood of Column 3), there is a large and significant decrease in utilization among ineligible children in insured families. As a result of health insurance, ineligible children have 0.847 fewer visits overall (Panel B, Column 1), including 0.162 fewer visits at covered providers and 0.292 fewer visits at private facilities (Panel B, Column 5).16",
+        "num": null,
+        "html": null
+      },
+      "TABREF2": {
+        "content": "<table><tr><td/><td>No</td><td>6-Month</td><td/><td/></tr><tr><td/><td>Subsidy</td><td>Subsidy</td><td>Difference</td><td>P-value</td></tr><tr><td>All</td><td>(Control)</td><td>(Treatment)</td><td>(C -T)</td><td>Difference</td></tr></table>",
+        "type_str": "table",
+        "text": "Above are averages for the full sample (Column 1), Control group (Column 2), and the Treatment group who were awarded a 6 month subsidy (Column 3). Income is defined as reported monthly household income. Valid income data are not available for 174 families, and commuting data are not available for 432 families. Health providers consist of EMPs, public clinics, pharmacies, private hospitals, private doctors, public hospitals, and laboratories. All health and visit variables are reported during the past year. All income and expenditure data are in 2008 Cordobas. Children who were not sick in the past year are included as zeros for number of times sick and all visit/spending variables. Forgone treatment in past year due to lack of money was",
+        "num": null,
+        "html": null
+      },
+      "TABREF3": {
+        "content": "<table><tr><td>Any</td><td/><td>Public</td><td>Private</td></tr><tr><td>Provider Pharmacy</td><td>EMP</td><td>Facilities</td><td>Facilities</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF4": {
+        "content": "<table><tr><td/><td>Any</td><td/><td/><td>Public</td><td>Private</td></tr><tr><td/><td>Provider</td><td>Pharmacy</td><td>EMP</td><td>Facilities</td><td>Facilities</td></tr><tr><td>Panel A: Ever Visit</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>6 Month Subsidy</td><td>0.002</td><td>0.004</td><td>0.070***</td><td>0.018</td><td>-0.002</td></tr><tr><td/><td>(0.020)</td><td>(0.025)</td><td>(0.015)</td><td>(0.024)</td><td>(0.023)</td></tr><tr><td>6 Month Subsidy*Ineligible</td><td>-0.055</td><td>-0.042</td><td>-0.064***</td><td>-0.040</td><td>-0.078**</td></tr><tr><td/><td>(0.039)</td><td>(0.040)</td><td>(0.016)</td><td>(0.037)</td><td>(0.032)</td></tr><tr><td>Ineligible</td><td>0.072</td><td>0.008</td><td>0.019</td><td>0.104**</td><td>0.049</td></tr><tr><td/><td>(0.047)</td><td>(0.048)</td><td>(0.017)</td><td>(0.043)</td><td>(0.038)</td></tr><tr><td>Observations</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td></tr><tr><td>R-squared</td><td>0.098</td><td>0.073</td><td>0.052</td><td>0.041</td><td>0.09</td></tr><tr><td>P-value of Enrolled +</td><td/><td/><td/><td/><td/></tr><tr><td>Enrolled*Ineligible</td><td>0.139</td><td>0.296</td><td>0.473</td><td>0.516</td><td>0.002</td></tr><tr><td>Panel B: Number of Visits</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>6 Month Subsidy</td><td>0.392**</td><td>0.104</td><td>0.174***</td><td>0.065</td><td>0.035</td></tr><tr><td/><td>(0.192)</td><td>(0.090)</td><td>(0.048)</td><td>(0.088)</td><td>(0.081)</td></tr><tr><td>6 Month Subsidy*Ineligible</td><td>-0.847***</td><td>-0.226</td><td>-0.162***</td><td>-0.103</td><td>-0.292***</td></tr><tr><td/><td>(0.280)</td><td>(0.142)</td><td>(0.047)</td><td>(0.124)</td><td>(0.106)</td></tr><tr><td>Ineligible</td><td>0.680**</td><td>0.132</td><td>0.035</td><td>0.332**</td><td>0.188</td></tr><tr><td/><td>(0.335)</td><td>(0.168)</td><td>(0.051)</td><td>(0.134)</td><td>(0.132)</td></tr><tr><td>Observations</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td></tr><tr><td>R-squared</td><td>0.105</td><td>0.07</td><td>0.046</td><td>0.033</td><td>0.057</td></tr><tr><td>P-value of Enrolled +</td><td/><td/><td/><td/><td/></tr><tr><td>Enrolled*Ineligible</td><td>0.041</td><td>0.309</td><td>0.408</td><td>0.715</td><td>0.000</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF5": {
+        "content": "<table><tr><td/><td>Any</td><td/><td/><td>Public</td><td>Private</td></tr><tr><td/><td>Provider</td><td>Pharmacy</td><td>EMP</td><td>Facilities</td><td>Facilities</td></tr><tr><td>Panel A: Ever Visit</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>Parent Enrolled</td><td>-0.189</td><td>-0.039</td><td>-0.015</td><td>-0.170</td><td>-0.203</td></tr><tr><td/><td>(0.174)</td><td>(0.176)</td><td>(0.044)</td><td>(0.154)</td><td>(0.139)</td></tr><tr><td>Parent Enrolled*Eligible</td><td/><td/><td/><td/><td/></tr><tr><td>Sibling</td><td>-0.073</td><td>-0.214</td><td>0.086</td><td>0.140</td><td>-0.197</td></tr><tr><td/><td>(0.270)</td><td>(0.273)</td><td>(0.061)</td><td>(0.242)</td><td>(0.196)</td></tr><tr><td>Eligible Sibling</td><td>-0.023</td><td>-0.005</td><td>-0.013</td><td>0.001</td><td>-0.041</td></tr><tr><td/><td>(0.057)</td><td>(0.058)</td><td>(0.012)</td><td>(0.051)</td><td>(0.043)</td></tr><tr><td>Observations</td><td>824</td><td>824</td><td>824</td><td>824</td><td>824</td></tr><tr><td>R-squared</td><td>0.032</td><td>0.019</td><td>0.035</td><td>0.043</td><td>0.014</td></tr><tr><td>P-value of Enrolled +</td><td/><td/><td/><td/><td/></tr><tr><td>Enrolled*EligibleSib</td><td>0.208</td><td>0.231</td><td>0.086</td><td>0.876</td><td>0.005</td></tr><tr><td>Panel B: Number of Visits</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>Parent Enrolled</td><td>-1.972</td><td>-0.307</td><td>-0.016</td><td>-0.618</td><td>-0.981**</td></tr><tr><td/><td>(1.284)</td><td>(0.668)</td><td>(0.065)</td><td>(0.506)</td><td>(0.467)</td></tr><tr><td>Parent Enrolled*Eligible</td><td/><td/><td/><td/><td/></tr><tr><td>Sibling</td><td>0.496</td><td>-0.266</td><td>0.136</td><td>0.810</td><td>0.033</td></tr><tr><td/><td>(1.712)</td><td>(0.910)</td><td>(0.090)</td><td>(0.742)</td><td>(0.541)</td></tr><tr><td>Eligible Sibling</td><td>-0.623</td><td>-0.173</td><td>-0.016</td><td>-0.134</td><td>-0.225</td></tr><tr><td/><td>(0.389)</td><td>(0.195)</td><td>(0.016)</td><td>(0.157)</td><td>(0.151)</td></tr><tr><td>Observations</td><td>824</td><td>824</td><td>824</td><td>824</td><td>824</td></tr><tr><td>R-squared</td><td>0.005</td><td>0.018</td><td>0.029</td><td>0.012</td><td>-0.026</td></tr><tr><td>P-value of Enrolled +</td><td/><td/><td/><td/><td/></tr><tr><td>Enrolled*EligibleSib</td><td>0.202</td><td>0.361</td><td>0.059</td><td>0.738</td><td>0.003</td></tr><tr><td>Notes:</td><td/><td/><td/><td/><td/></tr></table>",
+        "type_str": "table",
+        "text": "The sample is ineligible children aged 12 and over (N=824). A sibling is considered eligible if they are 11 or under. Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status and Eligible Sibling*Parent Enrolled is instrumented with random assignment status*Eligible Sibling. The dependent variable in Panel A is whether or not the child has visited various providers over the past year. The dependent variable in Panel B is the number of times the child has visited various providers over the past year. Regressions control for household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1 Source: Authors' analysis based on data described in paper. Sample in odd columns is all parents with at least one child age 15 and under at baseline; sample in even columns is all children under aged 15 years and under at baseline. Above are coefficients from OLS regressions of whether or not the child's parent enrolled in health insurance on baseline variables. Children are 'Eligible' if they are age 11 or under; children age 12 and over are 'Ineligible' for health insurance and therefore not enrolled. All regressions include market and round fixed effects. Missing income values are imputed to the mean, and an indicator variable is included in the regression. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1.",
+        "num": null,
+        "html": null
+      },
+      "TABREF6": {
+        "content": "<table><tr><td/><td/><td>Difference</td><td>Difference</td><td/><td>Difference</td><td>Difference</td><td/><td>Difference</td><td>Difference</td></tr><tr><td/><td>Mean</td><td>(C-T)</td><td>P-Value</td><td>Mean</td><td>(C-T)</td><td>P-Value</td><td>Mean</td><td>(C-T)</td><td>P-Value</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td></tr><tr><td>Age</td><td>2.81</td><td>-0.13</td><td>0.18</td><td>8.36</td><td>-0.06</td><td>0.47</td><td>13.23</td><td>-0.03</td><td>0.64</td></tr><tr><td>Female</td><td>0.480</td><td>-0.031</td><td>0.340</td><td>0.473</td><td>0.011</td><td>0.700</td><td>0.504</td><td>-0.060</td><td>0.099</td></tr><tr><td>Ever sick</td><td>0.859</td><td>-0.001</td><td>0.951</td><td>0.752</td><td>0.027</td><td>0.304</td><td>0.672</td><td>0.011</td><td>0.855</td></tr><tr><td>Number of times sick</td><td>2.838</td><td>0.080</td><td>0.757</td><td>1.972</td><td>-0.100</td><td>0.486</td><td>1.691</td><td>0.069</td><td>0.639</td></tr><tr><td>Forgone treatment</td><td>0.197</td><td>-0.045</td><td>0.140</td><td>0.183</td><td>-0.029</td><td>0.273</td><td>0.165</td><td>0.010</td><td>0.835</td></tr><tr><td>Ever visit health provider</td><td>0.854</td><td>-0.010</td><td>0.677</td><td>0.741</td><td>0.028</td><td>0.302</td><td>0.665</td><td>0.014</td><td>0.699</td></tr><tr><td>Total number of visits, all providers</td><td>5.157</td><td>-0.181</td><td>0.689</td><td>3.469</td><td>-0.148</td><td>0.648</td><td>2.858</td><td>-0.026</td><td>0.845</td></tr><tr><td>Total health expenditures</td><td>869.31</td><td>204.72</td><td>0.33</td><td>448.80</td><td>75.90</td><td>0.17</td><td>417.63</td><td>27.85</td><td>0.85</td></tr><tr><td>Observations</td><td>919</td><td>--</td><td>--</td><td>1253</td><td>--</td><td>--</td><td>824</td><td>--</td><td>--</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF7": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF11": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF13": {
+        "content": "<table><tr><td/><td/><td>Pharmacy</td><td>EMP</td><td>Providers</td><td>Providers</td></tr><tr><td>Panel A: Nonlinear Least Squares</td><td/><td/><td/><td/><td/></tr><tr><td>Estimates of Expenditures</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>6 Month Subsidy</td><td>0.043</td><td>0.049</td><td>11.267</td><td>2.107*</td><td>-0.130</td></tr><tr><td/><td>(0.115)</td><td>(0.113)</td><td>0.000</td><td>(1.243)</td><td>(0.155)</td></tr><tr><td>6 Month Subsidy*Ineligible</td><td>-0.562***</td><td>-0.327*</td><td>-11.267</td><td>-2.107</td><td>-1.167***</td></tr><tr><td/><td>(0.213)</td><td>(0.184)</td><td>0.000</td><td>0.000</td><td>(0.366)</td></tr><tr><td>Ineligible</td><td>-0.298**</td><td>-0.538***</td><td>-13.000</td><td>-23.506</td><td>0.102</td></tr><tr><td/><td>(0.143)</td><td>(0.125)</td><td>0.000</td><td>0.000</td><td>(0.270)</td></tr><tr><td>Observations</td><td>2,996</td><td>2,996</td><td>2,996</td><td>2,996</td><td>2,996</td></tr><tr><td>R-squared</td><td>0.152</td><td>0.154</td><td>0.001</td><td>0</td><td>0.071</td></tr><tr><td>Panel B: Tobit Estimates of Expenditures</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>Parent Enrolled</td><td>-15.987</td><td>20.026</td><td>-</td><td>-</td><td>-158.181</td></tr><tr><td/><td>(241.807)</td><td>(182.123)</td><td>-</td><td>-</td><td>(150.165)</td></tr><tr><td>Parent Enrolled*Ineligible</td><td>-945.9498***</td><td>-461.187</td><td>-</td><td>-</td><td>-1171.151***</td></tr><tr><td/><td>(458.040)</td><td>(306.545)</td><td>-</td><td>-</td><td>(417.655)</td></tr><tr><td>Ineligible</td><td>172.445</td><td>71.945</td><td>-</td><td>-</td><td>212.1187*</td></tr><tr><td/><td>(141.860)</td><td>(100.934)</td><td>-</td><td>-</td><td>(123.173)</td></tr><tr><td>Observations</td><td>2996</td><td>2996</td><td>-</td><td>-</td><td>2996</td></tr><tr><td>P-value of Enrolled + Enrolled*Ineligible</td><td>0.019</td><td>0.102</td><td>-</td><td>-</td><td>0.001</td></tr></table>",
+        "type_str": "table",
+        "text": "The sample is all children aged 15 and under (N=2996). Children age 12-15 are considered \"Ineligible\" and children under 11 are considered \"Eligible\". Above regressions are estimated coefficients from 2SLS-IV estimates where \"Parent Enrolled\" is instrumented with random assignment status and Parent Enrolled*Ineligible is instrumented with random assignment status*Ineligible. The dependent variable in Panel A is whether or not the child had any health expenditures at various providers over the past year. The dependent variable in Panel B is the inverse hyperbolic sine of expenditures at various providers over the past year. Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects. Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value. Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1",
+        "num": null,
+        "html": null
+      },
+      "TABREF14": {
+        "content": "<table><tr><td>Notes: The sample is all children aged 15 and under (N=2996). Children age 12-15 are considered \"Ineligible\" and children under 11 are</td></tr><tr><td>considered \"Eligible\"</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF16": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF18": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF19": {
+        "content": "<table><tr><td/><td>Any Provider</td><td>Pharmacy</td><td>EMP</td><td colspan=\"2\">Public Facilities Private Facilities</td></tr><tr><td>Panel A: Ever Spend</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>Parent Enrolled</td><td>0.057</td><td>0.030</td><td>0.003</td><td>0.028</td><td>0.011</td></tr><tr><td/><td>(0.049)</td><td>(0.058)</td><td>(0.005)</td><td>(0.018)</td><td>(0.075)</td></tr><tr><td>Parent Enrolled*Ineligible</td><td>-0.026</td><td>-0.104</td><td>-0.003</td><td>0.003</td><td>0.054</td></tr><tr><td/><td>(0.075)</td><td>(0.093)</td><td>(0.005)</td><td>(0.034)</td><td>(0.122)</td></tr><tr><td>Ineligible</td><td>0.003</td><td>0.009</td><td>-0.001</td><td>-0.011</td><td>-0.026</td></tr><tr><td/><td>(0.024)</td><td>(0.029)</td><td>(0.001)</td><td>(0.011)</td><td>(0.038)</td></tr><tr><td>Observations</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td></tr><tr><td>R-squared</td><td>0.674</td><td>0.565</td><td>0.007</td><td>0.016</td><td>0.192</td></tr><tr><td>P-value of Enrolled + Enrolled*Ineligible</td><td>0.644</td><td>0.370</td><td>0.935</td><td>0.343</td><td>0.552</td></tr><tr><td>Panel B: Inv. Hyp. Sin of Expenditures</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>Parent Enrolled</td><td>0.408</td><td>0.243</td><td>0.018</td><td>0.064</td><td>0.041</td></tr><tr><td/><td>(0.368)</td><td>(0.397)</td><td>(0.027)</td><td>(0.082)</td><td>(0.445)</td></tr><tr><td>Parent Enrolled*Ineligible</td><td>-0.320</td><td>-0.766</td><td>-0.019</td><td>0.087</td><td>0.199</td></tr><tr><td/><td>(0.568)</td><td>(0.624)</td><td>(0.028)</td><td>(0.184)</td><td>(0.720)</td></tr><tr><td>Ineligible</td><td>0.109</td><td>0.138</td><td>-0.007</td><td>-0.082</td><td>-0.106</td></tr><tr><td/><td>(0.190)</td><td>(0.203)</td><td>(0.006)</td><td>(0.052)</td><td>(0.229)</td></tr><tr><td>Observations</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td><td>2996</td></tr><tr><td>R-squared</td><td>0.609</td><td>0.521</td><td>0.006</td><td>0.019</td><td>0.2</td></tr><tr><td>P-value of Enrolled + Enrolled*Ineligible</td><td>0.862</td><td>0.345</td><td>0.905</td><td>0.398</td><td>0.707</td></tr><tr><td colspan=\"2\">Source: Authors' analysis based on data described in paper.</td><td/><td/><td/><td/></tr></table>",
+        "type_str": "table",
+        "text": "Robust standard errors in parentheses, clustered at the family level. *** p<0.01, ** p<0.05, * p<0.1",
+        "num": null,
+        "html": null
+      },
+      "TABREF20": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF22": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF23": {
+        "content": "<table><tr><td/><td colspan=\"2\">Any Provider Pharmacy</td><td>EMP</td><td>Public Facilities</td><td>Private Facilities</td></tr><tr><td>Panel A: Ever Visit</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>Parent Enrolled</td><td>0.014</td><td>0.004</td><td>0.222***</td><td>0.067</td><td>0.006</td></tr><tr><td/><td>(0.065)</td><td>(0.082)</td><td>(0.052)</td><td>(0.084)</td><td>(0.081)</td></tr><tr><td>Parent Enrolled*Ineligible Sibling</td><td>-0.009</td><td>0.075</td><td>0.023</td><td>-0.018</td><td>-0.066</td></tr><tr><td/><td>(0.200)</td><td>(0.233)</td><td>(0.113)</td><td>(0.211)</td><td>(0.195)</td></tr><tr><td>Ineligible Sibling</td><td>-0.039</td><td>-0.059</td><td>0.004</td><td>-0.018</td><td>0.007</td></tr><tr><td/><td>(0.038)</td><td>(0.046)</td><td>(0.019)</td><td>(0.042)</td><td>(0.039)</td></tr><tr><td>Observations</td><td>2172</td><td>2172</td><td>2172</td><td>2172</td><td>2172</td></tr><tr><td>R-squared</td><td>0.073</td><td>0.061</td><td>0.144</td><td>0.04</td><td>0.075</td></tr><tr><td>P-value of Enrolled + Enrolled*Ineligible</td><td>0.982</td><td>0.716</td><td>0.016</td><td>0.800</td><td>0.731</td></tr><tr><td>Panel B: Number of Visits</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td>Parent Enrolled</td><td>1.905***</td><td>0.530*</td><td>0.633***</td><td>0.417</td><td>0.257</td></tr><tr><td/><td>(0.686)</td><td>(0.315)</td><td>(0.172)</td><td>(0.306)</td><td>(0.311)</td></tr><tr><td>Parent Enrolled*Ineligible Sibling</td><td>-3.206*</td><td>-0.945</td><td>-0.349</td><td>-0.986</td><td>-0.768</td></tr><tr><td/><td>(1.690)</td><td>(0.812)</td><td>(0.334)</td><td>(0.780)</td><td>(0.624)</td></tr><tr><td>Ineligible Sibling</td><td>0.445</td><td>0.114</td><td>0.042</td><td>0.199</td><td>0.098</td></tr><tr><td/><td>(0.336)</td><td>(0.162)</td><td>(0.069)</td><td>(0.160)</td><td>(0.117)</td></tr><tr><td>Observations</td><td>2172</td><td>2172</td><td>2172</td><td>2172</td><td>2172</td></tr><tr><td>R-squared</td><td>0.067</td><td>0.05</td><td>0.1</td><td>0.027</td><td>0.037</td></tr><tr><td>P-value of Enrolled + Enrolled*Ineligible</td><td>0.402</td><td>0.583</td><td>0.324</td><td>0.430</td><td>0.332</td></tr></table>",
+        "type_str": "table",
+        "text": "*** p<0.01, ** p<0.05, * p<0.1",
+        "num": null,
+        "html": null
+      },
+      "TABREF24": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      }
+    }
+  }
+}

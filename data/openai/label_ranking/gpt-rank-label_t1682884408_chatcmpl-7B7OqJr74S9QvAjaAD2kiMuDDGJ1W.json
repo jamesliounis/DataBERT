@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06640: (It should be noted, however, that one consequence of the early 1 990s crisis was that the Kredittilsynet embarked on a program aimed to improve its efficiency and effectiveness and this may mean that its role in any future crisis would be enhanced.).\n\ns_06690: -40 - for 1981 -1989 , Atiyas and Ersel (1994 ; for 1990-1997, own calculation based on Central Bank data.\n\ns_06740: The findings of an impact assessment of ASA borrowers conducted in 2003 suggests that the average value of physical assets increased by 127% in rural areas and grew by about 150 percent in urban areas over a five year period.\n\ns_06790: If we go by our preferred estimates in the last two columns of Table 1 , it seems that returns of foreign lobbying are lower for the non-Mexico Latin American countries.\n\ns_06840: There are plans to prepare Policy Research Working Papers for the respective country case studies.\n\ns_06890: Schultz (2004) raises a number of concerns about the robustness of the existing cross-country evidence on the demographic determinants of aggregate savings.\n\ns_06940: Nevertheless, these measures have been extensively used and validated in the literature on health and economic outcomes.\n\ns_06990: In the same estimation reported in column 4, we also examine whether the household's prior tenure status has any bearing on its chances of moving out of slums.\n\ns_07040: As Table III .1 shows, competitive pressures on the domestic industry heightened 16 as imports grew to 8.9 million pairs in 1991, 16.6 million pairs in 1992, and 21.8 million pairs in 1993 when they represented around one-third of domestic production.\n\ns_07090: Foi utilizado o m\u00e9todo GMM espacial desenvolvido por Conley (1999) , que permite o uso de vari\u00e1veis instrumentais na presen\u00e7a de autocorrela\u00e7\u00e3o espacial.\n\ns_07140: The primary source for this data is Worldscope.\n\ns_07190: The R-squared in this regression is 0.01, and an F-test fails to reject the null hypothesis of joint insignificance of all variables (p-value: 0.20).\n\ns_07240: However, insofar as our finding is not simply a reflection of the underlying data weaknesses that affect the level and change over time of the indices, there may be significant limitations to the relevance of the WTO for small (poor) countries as a commitment device.\n\ns_07290: Column (1) reports the OLS results for the pooled sample, controlling for productivity levels and growth rates specific to the sample of PC participants.\n\ns_07340: The project includes the following components:\n\ns_07390: The overall framework of the study can be laid out as follows.\n\ns_07440: (1984-88) (1989-93) High group (7 countries) 0.260 0.370 (0.431) (1.019) Note: t-statistics are in parentheses.\n\ns_07490: To project total member numbers into 1988, one should consider that the time series of total participants in defined contribution plans tends to taper off, growing only 1% in 1987 over 1986 (Table 4 .1).\n\ns_07540: Pickett 2' attempted to assess the effects on GDP growth of long-run terms of trade for a sample of twenty SSA low income countries over 1966-86.\n\ns_07590: In Panel 1 of Table 14 , branch clergy consumption and branch GVIO are derived as residuals from the national totals and the state-sector figures presented above.\n\ns_07640: rizes broad guidelines used by the IBRD and IMF.\n\ns_07690: It is the purpose of this paper to see what can be learned about rural transport from the study of zonal data.\n\ns_07740: See World Bank (1988), p.56.\n\ns_07790: of the sample) need detailed examination.\n\ns_07840: 3.13 Table 3 .1 summarizes the estimated costs and procurement methods of the works, goods and services to be financed under the project."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7OqJr74S9QvAjaAD2kiMuDDGJ1W",
+    "object": "chat.completion",
+    "created": 1682884408,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1149,
+      "completion_tokens": 54,
+      "total_tokens": 1203
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07540\", \"data_mentioned\": true, \"reason\": \"SSA low income countries\"}, {\"sent_id\": \"s_07690\", \"data_mentioned\": true, \"reason\": \"zonal data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07540\", \"data_mentioned\": true, \"reason\": \"SSA low income countries\"}, {\"sent_id\": \"s_07690\", \"data_mentioned\": true, \"reason\": \"zonal data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

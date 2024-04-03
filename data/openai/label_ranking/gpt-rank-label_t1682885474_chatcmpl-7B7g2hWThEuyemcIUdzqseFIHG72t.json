@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05566: Both sets of indexes show similar patterns regarding the link between economic development and the content of non-routine cognitive skills.\n\ns_05616: Combined PGA and liquefaction susceptibility classes for the color scheme given in Table 3 and Figure 7 across 250-and 2475-year return period PGA events.\n\ns_05666: Utilizando la instrumentaci\u00f3n de la talla, el modelo de rendimientos estimado es:\n\ns_05716: The paper continues to argue that these transactions, which constitute advance payments, could instead be captured on an ex-post basis through banking or mobile sector innovations such as smart cards or mobile money accounts.\n\ns_05766: In the STEP survey, the variable we use captures the structured vs. unstructured nature of the job, while in the O*Net database the routine cognitive measure comes from the activity \"documenting/recording information\".\n\ns_05816: Sample sizes in the existing literature have been insufficient to draw reliable inferences on which firms benefit most from training (McKenzie, 2020) , and our sample sizes and attrition rates likewise prevent us from measuring accurately heterogeneity in treatment effects by willingness to pay.\n\ns_05866: We also investigate the potential contribution of Google Traffic in a spatial panel estimation exercise that relates traffic congestion to outdoor air pollution in the Dhaka region.\n\ns_05916: This paper aims to provide an account of both elements, along with an assessment of the role that cross-country differences in natural resource endowment and economic geography seem to have in explaining why they vary as much as they do within the region.\n\ns_05966: Another study in this literature is Menon (1996) for Australian manufacturing, focusing on exchange rate pass-through and non-tariff barriers.\n\ns_06016: At a later stage, other social science disciplines came into play as the research on the digital divide evolved.\n\ns_06066: The \u2026ndings support that individuals with higher household income, greater educational attainment, male, and employed report a higher capacity to deal with a \u2026nancial shock, both in developed and emerging countries (with even similar R 2 values among these groups).\n\ns_06116: The hazard rate is greater for men in the multivariate regression, in contrast to the simple plots we showed in section 4.1.2.\n\ns_06166: 26 In line with Gonzales (2011), Gleeson and Gonzales (2012) , and Hall and Greenman (2015) , this might suggest that undocumented migrants are employed in poorer jobs, which might make them less likely to benefit from their migration experience overseas compared to documented migrants.\n\ns_06216: The findings of this study will be relevant to other low-and middle-income countries where low trust and limited knowledge about COVID-19 vaccines exist.\n\ns_06266: Finally, we include the 2017 reference year in the analysis, which is the year with the latest global poverty numbers at the time of writing.\n\ns_06316: It is worth pointing out that the effects of the program are not just related to receiving a cash transfer: compared to eligible households in control villages, enrollment rates increased more in eligible households that did not receive the cash transfer in treated villages (Table 3 , column 3).\n\ns_06366: This paper contributes to several strands of the economic literature.\n\ns_06416: A substantial literature suggests that a CRRA utility function with risk aversion parameter of 1 is consistent with a variety of evidence (see, for example, Chetty (2006) on the United States, and Gendelman and Hern\u00e1ndez-Murillo (2014) for cross country evidence including many developing countries).\n\ns_06466: Schmidt, E., Dorosh, P., and Gilbert, R. 2021 The figure shows the changes in electricity consumption in the respective months following the start of the COVID lockdown in Ghana (April 2020).\n\ns_06516: By and large, the pool of covariates that remains with Lasso estimation reassuringly coincides with covariates found significant in the preceding Logit analysis-save for the notorious dropping of trust in national governments.\n\ns_06566: This was also the virtual program with one of the lowest expenditure shares, suggesting such programs are not only popular, but also relatively cheap.\n\ns_06616: This finding is very encouraging since the separate priceand-quantity calculations, in addition to reducing data work, permit a saving of at least a factor of five in mainframe computer time and cost when compared to a full-fledged disaggregated general equilibrium model.\n\ns_06666: It is appropriate that these be done in the context of a well managed change program.\n\ns_06716: An analysis of economic management during the 1989-1997 period in general and the post 1994 crisis period in particular is also called for, in order to draw policy lessons and to offer some thoughts for a possible stabilization program.\n\ns_06766: For instance Grameen Bank has introduced a system of rating branch offices based on the achievement of specific targets which not only include standard loan recovery, but also factor in social indicators such as the proportion of Grameen children going to school."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7g2hWThEuyemcIUdzqseFIHG72t",
+    "object": "chat.completion",
+    "created": 1682885474,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1324,
+      "completion_tokens": 78,
+      "total_tokens": 1402
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05766\", \"data_mentioned\": true, \"reason\": \"STEP survey\"}, {\"sent_id\": \"s_06416\", \"data_mentioned\": true, \"reason\": \"Chetty\"}, {\"sent_id\": \"s_06616\", \"data_mentioned\": true, \"reason\": \"disaggregated general equilibrium model\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05766\", \"data_mentioned\": true, \"reason\": \"STEP survey\"}, {\"sent_id\": \"s_06416\", \"data_mentioned\": true, \"reason\": \"Chetty\"}, {\"sent_id\": \"s_06616\", \"data_mentioned\": true, \"reason\": \"disaggregated general equilibrium model\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

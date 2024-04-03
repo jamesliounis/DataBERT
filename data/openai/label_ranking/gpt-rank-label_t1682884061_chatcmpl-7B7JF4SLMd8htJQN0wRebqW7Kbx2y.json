@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_08233: Having achieved and documented great success for a quarter of a century, the Michigan program is a leading example of what can be accomplished.\n\ns_08260: 1 Participants for the BPS are drawn from the NPSAS 1 (See description below).\n\ns_08310: www.nature.com/scientificdata www.nature.com/scientificdata/ that includes different variables related to public health, economic interventions, public campaigns and research incentives for a vaccine.\n\ns_08360: We thank the International Genomics of Alzheimer's Project (IGAP) for providing AD metaanalysis summary results data for these analyses.\n\ns_08410: Finally, feature selection is applied and the subjects are classified, using support vector machines.\n\ns_08460: Although biomarker-based trials can add substantial costs on a per subject basis to the trial, these costs might be offset partially or wholly by possible reductions in length of trial, reductions in sample size needed, or both.\n\ns_08510: However, the dataset is one of the most comprehensive collections of information on global human capital in terms of coverage, sample size, level of detail and accuracy with respect to data harmonization.\n\ns_08560: Using a similar RBM panel and methodology as done by the ADNI study, O'Bryant et al.\n\ns_08610: We first calculated the number of urban and rural 100-patient-waivered physicians, 30-patient-waivered physicians, opioid treatment programs, and substance abuse treatment facilities in each state and year from 2004 through 2011 and matched this to information regarding the total grams of buprenorphine dispensed in each state and year.\n\ns_08660: In the TIMSS framework, a design based on multiple matrix sampling technique was used to divide the item pool among a set of student booklets with each student completing one of twelve booklets containing both mathematics and science items.\n\ns_08710: However, the authors suggest that the errors in the observational and modelled datasets can influence skill assessment in different ways; it is assumed that the errors in both types are equivalent.\n\ns_08760: To describe the study population, weighted proportions for each dependent and independent variable were computed using PROC SURVEYFREQ to account for the complex sample design of the BRFSS.\n\ns_08810: For that purpose, a 5-fold crossvalidation (CV) was performed, which resulted in one fold (20%) of the data for validation and the rest for training.\n\ns_08860: The final sample includes 52 young men and 49 young women, 57 of whom were of White British origin, 19 of Black British origin, 16 British Asians and 9 of other ethnic origins.\n\ns_08910: Number of times each distribution was the best fit for various measures.\n\ns_08960: Independent of this study, records of Barrow community members are available on the first day of boating activity launched from the Chukchi Sea shore (C. George, personal communication, 2010).\n\ns_09010: In two of the cases, we used High-schools.com as an alternative source for accessing National Center for Education Statistics high school-level NSLP data from 2015-2016 [62].\n\ns_09060: Recently, a new study on eyewall size estimates using the HURSAT-microwave data compared to the aircraft reconnaissance measurements demonstrates the similarity of in-situ and satellitederived structural profiles [67] .\n\ns_09110: This data-driven formulation finds the optimal combination of these high-dimensional modalities that best characterize the disease progression.\n\ns_09160: During data collection, a study website and help desk provided information and support to sample members.\n\ns_09210: Where the data permit comparisons, Bt cotton was more profitable than its conventional counterpart.\n\ns_09260: Faster individuals were significantly more active than the slower individuals across all groups (p = .01, Table 4 ).\n\ns_09310: The regions that are used to calculate the correlation coefficients mentioned above can be selected from this window either manually, or automatically, using the data of the IBSR mask.\n\ns_09360: c o m / l o c a t e / y n i c l 2011; Liu et al., 2012) .\n\ns_09410: Table 1 also presents the characteristics of study participants by severity of AC."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7JF4SLMd8htJQN0wRebqW7Kbx2y",
+    "object": "chat.completion",
+    "created": 1682884061,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1169,
+      "completion_tokens": 178,
+      "total_tokens": 1347
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08310\", \"data_mentioned\": true, \"reason\": \"scientificdata\"}, {\"sent_id\": \"s_08360\", \"data_mentioned\": true, \"reason\": \"International Genomics of Alzheimer's Project (IGAP)\"}, {\"sent_id\": \"s_08510\", \"data_mentioned\": true, \"reason\": \"global human capital\"}, {\"sent_id\": \"s_08660\", \"data_mentioned\": true, \"reason\": \"TIMSS framework\"}, {\"sent_id\": \"s_08810\", \"data_mentioned\": true, \"reason\": \"5-fold crossvalidation (CV)\"}, {\"sent_id\": \"s_09010\", \"data_mentioned\": true, \"reason\": \"National Center for Education Statistics high school-level NSLP data from 2015-2016\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08310\", \"data_mentioned\": true, \"reason\": \"scientificdata\"}, {\"sent_id\": \"s_08360\", \"data_mentioned\": true, \"reason\": \"International Genomics of Alzheimer's Project (IGAP)\"}, {\"sent_id\": \"s_08510\", \"data_mentioned\": true, \"reason\": \"global human capital\"}, {\"sent_id\": \"s_08660\", \"data_mentioned\": true, \"reason\": \"TIMSS framework\"}, {\"sent_id\": \"s_08810\", \"data_mentioned\": true, \"reason\": \"5-fold crossvalidation (CV)\"}, {\"sent_id\": \"s_09010\", \"data_mentioned\": true, \"reason\": \"National Center for Education Statistics high school-level NSLP data from 2015-2016\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

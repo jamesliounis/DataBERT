@@ -1,0 +1,3466 @@
+{
+  "paper_id": "D34011290",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:05:01.960910Z"
+  },
+  "title": "Citizen Participation and Political Trust in Latin America and the Caribbean A Machine Learning Approach",
+  "authors": [
+    {
+      "first": "Natalia",
+      "middle": [],
+      "last": "Pecorari",
+      "suffix": "",
+      "affiliation": {},
+      "email": "npecorari@worldbank.org"
+    },
+    {
+      "first": "Jose",
+      "middle": [],
+      "last": "Cuesta",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2023-03",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D34011290",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "In recent years, the \"three Cs\"-COVID-19, climate change, and conflict-have exacerbated long-standing development gaps and further destabilized societies around the world. During the pandemic, the number of the extremely poor grew from 648 million to 719 million globally (World Bank, 2022) . Social unrest is rising, especially in middle-income countries, interpersonal trust is at its lowest recorded level globally, and the fallout from COVID-19 has driven the largest increase in global inequality since the Second World War (Yonzan et al., 2022; ACLED, 2022) . The world is becoming more divided and less equal: one in three people is at risk of social exclusion due to their economic status, gender or gender identity, race, religion, ethnicity, nationality, age, sexual orientation, or disability (Cuesta, L\u00f3pez-Noval, and Ni\u00f1o-Zaraz\u00faa, 2022) .",
+        "cite_spans": [
+          {
+            "start": 279,
+            "end": 290,
+            "text": "Bank, 2022)",
+            "ref_id": "BIBREF61"
+          },
+          {
+            "start": 529,
+            "end": 550,
+            "text": "(Yonzan et al., 2022;",
+            "ref_id": "BIBREF62"
+          },
+          {
+            "start": 551,
+            "end": 563,
+            "text": "ACLED, 2022)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 804,
+            "end": 849,
+            "text": "(Cuesta, L\u00f3pez-Noval, and Ni\u00f1o-Zaraz\u00faa, 2022)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The process of development is often slow and nonlinear, as well as inherently complex and challenging. By changing how people live, development affects social systems in often unpredictable and destabilizing ways. When sustained over time, however, it can promote cohesive, inclusive, and resilient societies in which all can participate and thrive. Yet sustainable economic growth is not guaranteed unless progress is also made on social (and environmental) sustainability. Barron et al (2023) argue that such social factors are too often overlooked in analytics, policy dialogue, and the financing of development programs. This partly reflects the limitations and shortcomings of the available data. But there are also methodological difficulties inherent in measuring and unpacking complex social issues, often shaped by long-standing structural factors that interact in intricate ways. Scholars struggle to provide insights as to the strength, dynamics, heterogeneity and causality of these interactions. For example, we know relatively little about the systematic association between social cohesion and resilience, or the extent to which process legitimacy is stronger in contexts with high levels of social inclusion. Another important example: despite many existing theories across disciplines, important questions remain on why people follow social norms, and how new ones are formed (Gross and Vostroknutov, 2021) .",
+        "cite_spans": [
+          {
+            "start": 475,
+            "end": 494,
+            "text": "Barron et al (2023)",
+            "ref_id": null
+          },
+          {
+            "start": 1393,
+            "end": 1423,
+            "text": "(Gross and Vostroknutov, 2021)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In order to help address this methodological gap, this paper evaluates the analytical implications presented by social complexities, and the extent to which different approaches capture such complexities. In particular, we compare how empirical findings vary depending on the use of a) simple econometric models that impose linear relationships in their estimation, versus b) more sophisticated models using machine learning to capture complex non-linearities. Ultimately, we provide insights on the extent to which the significance and precision of results are sensitive to different estimation and prediction methodologies.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "To do so, this paper investigates the relationship between trust in government and citizen participation in the world's most unequal region, with very low levels of trust: Latin America and the Caribbean (LAC): (Rizzo, 2021; Mattes and Moreno, 2018; Alvaredo and Gasparini, 2015) . Low levels of institutional trust in the region are associated with increasing political polarization, unextinguished authoritarian embers, the arbitrary extension of presidential term limits coinciding with corruption-clad short-lived administrations, electoral contestation, frequent attempts at constitutional reforms, misinformation and false news (Keefer and Scartascini 2022). We seek to disentangle how trust in governmental institutions affects people's willingness to participate in political processes, as well as to shed more light on other key factors driving citizen participation. Better understanding of political trust in LAC and how it affects the quality of democracy-captured by strong and meaningful citizen participation-is crucial to understanding how to build more robust democracies with greater political legitimacy (Caceres, 2019; Khan, 2016; Barron et al, 2023) .",
+        "cite_spans": [
+          {
+            "start": 211,
+            "end": 224,
+            "text": "(Rizzo, 2021;",
+            "ref_id": "BIBREF49"
+          },
+          {
+            "start": 225,
+            "end": 249,
+            "text": "Mattes and Moreno, 2018;",
+            "ref_id": "BIBREF42"
+          },
+          {
+            "start": 250,
+            "end": 279,
+            "text": "Alvaredo and Gasparini, 2015)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 1123,
+            "end": 1138,
+            "text": "(Caceres, 2019;",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 1139,
+            "end": 1150,
+            "text": "Khan, 2016;",
+            "ref_id": "BIBREF32"
+          },
+          {
+            "start": 1151,
+            "end": 1170,
+            "text": "Barron et al, 2023)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "This paper defines citizen participation as the extent to which individuals are engaged with the political process. Participation is a form of citizen engagement although it does not cover all possible forms of engagement nor the objectives of that engagement (for example, engagement may simply involve information sharing or building relationships and citizens may seek objectives other than political). In fact, citizen participation, recently defined as a form of social capital (Chetty et al., 2022; Nannicini et al., 2013) , is generally understood as residents' individual and collective efforts to influence community conditions (Adler and Goggin, 2005; Theiss-Morse and Hibbing, 2005) . According to Verba and Nie (1987) , citizen participation can be defined as an activity in which citizens try to influence the government to act in ways that they prefer. These activities are crucial to democracy because they empower citizens to influence the formulation of public policy, and monitor its implementation. Citizen participation also allows government officials to incorporate local expertise into decision-making (Lee and Schachter, 2019; Siebers, Gradus and Grotens, 2019) .",
+        "cite_spans": [
+          {
+            "start": 483,
+            "end": 504,
+            "text": "(Chetty et al., 2022;",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 505,
+            "end": 528,
+            "text": "Nannicini et al., 2013)",
+            "ref_id": "BIBREF45"
+          },
+          {
+            "start": 637,
+            "end": 661,
+            "text": "(Adler and Goggin, 2005;",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 662,
+            "end": 693,
+            "text": "Theiss-Morse and Hibbing, 2005)",
+            "ref_id": "BIBREF54"
+          },
+          {
+            "start": 709,
+            "end": 729,
+            "text": "Verba and Nie (1987)",
+            "ref_id": "BIBREF57"
+          },
+          {
+            "start": 1125,
+            "end": 1150,
+            "text": "(Lee and Schachter, 2019;",
+            "ref_id": "BIBREF40"
+          },
+          {
+            "start": 1151,
+            "end": 1185,
+            "text": "Siebers, Gradus and Grotens, 2019)",
+            "ref_id": "BIBREF52"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "International institutions have increasingly paid attention to citizen participation, incorporating it to different extents into their operations. The World Bank (2013) associates citizen participation with voice, participation, and accountability, and argues that an inclusive society requires institutions, structures, and processes that enable all groups to participate and hold governments accountable. The fact that trust embeds legitimacy into the political system, strengthens democracy, and contributes to increased economic growth-as shown by Zak and Knack, 2001 -may partly explain this increasing attention. Trust in government is one of the most important components in the establishment and long-term viability of political systems (Lee, 2021; Blind, 2007 Blind, , 2010 Hetherington, 2005) and even affects citizens' trust in each other (Holum, 2022; Chanley et al., 2000; Levi and Stoker, 2000) .",
+        "cite_spans": [
+          {
+            "start": 157,
+            "end": 168,
+            "text": "Bank (2013)",
+            "ref_id": "BIBREF60"
+          },
+          {
+            "start": 552,
+            "end": 571,
+            "text": "Zak and Knack, 2001",
+            "ref_id": null
+          },
+          {
+            "start": 745,
+            "end": 756,
+            "text": "(Lee, 2021;",
+            "ref_id": "BIBREF39"
+          },
+          {
+            "start": 757,
+            "end": 768,
+            "text": "Blind, 2007",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 769,
+            "end": 782,
+            "text": "Blind, , 2010",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 783,
+            "end": 802,
+            "text": "Hetherington, 2005)",
+            "ref_id": "BIBREF23"
+          },
+          {
+            "start": 850,
+            "end": 863,
+            "text": "(Holum, 2022;",
+            "ref_id": "BIBREF27"
+          },
+          {
+            "start": 864,
+            "end": 885,
+            "text": "Chanley et al., 2000;",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 886,
+            "end": 908,
+            "text": "Levi and Stoker, 2000)",
+            "ref_id": "BIBREF41"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Following related literature (see for instance Rizzo, 2021) , the term trust will be used throughout this paper to refer to political trust, rather than the related notions of social trust (between citizens), reciprocity, and interpersonal trust (in personal relationships or commercial transactions). We define political trust as the degree to which citizens have faith in governmental institutions to do the right thing (Rothstein and Uslaner, 2005; Vigoda-Gadot et al., 2010; Van der Meer and Zmerli, 2017) . It is worth noting that we are using an umbrella term (\"political\") that combines different kinds of governmental, political and state institutions in which public confidence may and does differ. In the context of this study, political trust will refer to people's confidence in institutions and actors such as the executive, legislature, judiciary, political parties, and the electoral authorities. 1",
+        "cite_spans": [
+          {
+            "start": 47,
+            "end": 59,
+            "text": "Rizzo, 2021)",
+            "ref_id": "BIBREF49"
+          },
+          {
+            "start": 422,
+            "end": 451,
+            "text": "(Rothstein and Uslaner, 2005;",
+            "ref_id": "BIBREF50"
+          },
+          {
+            "start": 452,
+            "end": 478,
+            "text": "Vigoda-Gadot et al., 2010;",
+            "ref_id": "BIBREF58"
+          },
+          {
+            "start": 479,
+            "end": 509,
+            "text": "Van der Meer and Zmerli, 2017)",
+            "ref_id": "BIBREF56"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Two prevailing theories evaluate the link between political trust and citizen participation, but their perspectives differ greatly. On the one hand, the stealth democracy theory posits that trust in government is inversely related to citizen participation. Put another way, citizens only participate when they feel compelled to prevent corrupt politicians from embezzling the public. Individuals' lack of trust in the government may push them to speak out in order to change the behavior of the authorities or replace them. Conversely, people who have confidence in the government see no reason to engage, as they trust those in power to do what is best for society. In sum, trust in government discourages citizen involvement (Hibbing and Theiss-Morse, 2002; Theiss-Morse and Hibbing, 2005; Lee and Schachter, 2019; Lavezzolo and Ramiro, 2018; Muhlberger, 2018) . Deliberative theorists, on the other hand, believe that a trustworthy political system encourages citizens to participate in government processes. If people feel the political system is rigged or uncaring, they are less inclined to engage with it. Apathy stems from a lack of trust, while a responsive government prompts citizen participation (Lee and Schachter, 2019; B\u00e4chtiger et al., 2018; Neblo et al., 2010) . Assessing which (if any) of the two theories most applies to Latin America and the Caribbean is not only an academic exercise but of policy relevance, given that most countries throughout the region display low levels of citizen participation.",
+        "cite_spans": [
+          {
+            "start": 727,
+            "end": 759,
+            "text": "(Hibbing and Theiss-Morse, 2002;",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 760,
+            "end": 791,
+            "text": "Theiss-Morse and Hibbing, 2005;",
+            "ref_id": "BIBREF54"
+          },
+          {
+            "start": 792,
+            "end": 816,
+            "text": "Lee and Schachter, 2019;",
+            "ref_id": "BIBREF40"
+          },
+          {
+            "start": 817,
+            "end": 844,
+            "text": "Lavezzolo and Ramiro, 2018;",
+            "ref_id": "BIBREF37"
+          },
+          {
+            "start": 845,
+            "end": 862,
+            "text": "Muhlberger, 2018)",
+            "ref_id": "BIBREF43"
+          },
+          {
+            "start": 1208,
+            "end": 1233,
+            "text": "(Lee and Schachter, 2019;",
+            "ref_id": "BIBREF40"
+          },
+          {
+            "start": 1234,
+            "end": 1257,
+            "text": "B\u00e4chtiger et al., 2018;",
+            "ref_id": null
+          },
+          {
+            "start": 1258,
+            "end": 1277,
+            "text": "Neblo et al., 2010)",
+            "ref_id": "BIBREF46"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "While a growing body of research links citizen participation and accountability, few comparable empirical studies have investigated the relationship between citizen participation and trust. In one recent paper, Lee and Schachter (2019) investigate the relationship between trust in government and citizen participation in the United States using data from the World Values Survey. However, we did not find similar studies across developing countries in general and the LAC region in particular. 2 Hence, it is not possible to draw any conclusions about whether the above theories are borne out in the region from existing literature. At the global level, the main relationship investigated is between citizens' trust in government and their willingness to obey laws and pay taxes. There is evidence, though, that weak trust in government can (including in developing-economy settings) erode the social contract and lead to citizens disengaging from the state (that is, citizens evade taxes, stop participating in elections, disobey laws, take justice on their own, among others; see Arizti et al. 2010; Kumagai and Iorio, 2020) .",
+        "cite_spans": [
+          {
+            "start": 211,
+            "end": 235,
+            "text": "Lee and Schachter (2019)",
+            "ref_id": "BIBREF40"
+          },
+          {
+            "start": 1083,
+            "end": 1102,
+            "text": "Arizti et al. 2010;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 1103,
+            "end": 1127,
+            "text": "Kumagai and Iorio, 2020)",
+            "ref_id": "BIBREF35"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "We contribute to the literature studying the relationship between trust in government-or political trust-and citizen participation in two ways. First, we develop a quantitative strategy that relies on the use of machine learning methods on micro-level data. Second, we focus the analysis across multiple countries in the Latin America and Caribbean region simultaneously using comparable data. 3 To be clear, we seek neither to construct a formal hypothesis testing nor develop a general theory of political participation. Rather, our study builds on the work of Lee and Schachter (2019) in incorporating a machine learning approach and expanding the analysis to the LAC region. This fills a geographical gap raised by some authors (see Rizzo, 2021) , who also point out the predominance of macro-level, case-based studies that fail to account for citizens' individual perspectives.",
+        "cite_spans": [
+          {
+            "start": 394,
+            "end": 395,
+            "text": "3",
+            "ref_id": null
+          },
+          {
+            "start": 563,
+            "end": 587,
+            "text": "Lee and Schachter (2019)",
+            "ref_id": "BIBREF40"
+          },
+          {
+            "start": 737,
+            "end": 749,
+            "text": "Rizzo, 2021)",
+            "ref_id": "BIBREF49"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Most importantly, our work provides an innovative approach to analyzing the relationship between political trust and citizen participation by investigating nonlinearities and complexities in the way explanatory variables interact and have an impact on the dependent variable-that is, citizen participation in the various forms considered in this study. Looking beyond linearity and simple relationships imposed by traditional econometric models can provide deeper insights into the complexity of such sociopolitical relationships. More concretely, basic Logit models-used as baseline for our analysis-need to be supplemented by decision trees and regularization methods such as Lasso. These methods are especially useful in predicting whether or not an individual in the Latin America and Caribbean region will participate politically based on her trust in government institutions and socioeconomic characteristics. 4 Traditional Logit models are unable to detect complex nonlinear interactions between independent variables. 5 In order to overcome this limitation, we advance the use of decision tree models, which are especially useful for disentangling complex, nonlinear patterns between explanatory variables that influence the outcome variable. Our key finding is that trust variables predict political participation in non-linear ways. Trust is a significant driver of participation for an individual only after certain levels of education, age, and political interest are combined with experiences of discrimination and violence.",
+        "cite_spans": [
+          {
+            "start": 916,
+            "end": 917,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "We rely on data from the Latinobar\u00f3metro 2020 and explore the existence of a relationship between trust in government and citizen participation in the LAC region. We also investigate the extent to which additional factors (for example, socioeconomic, demographic, and attitudinal) might be influencing citizen participation. A large body of literature has identified socioeconomic status as the primary factor determining citizen participation. In this literature, the higher an individual's socioeconomic level, the greater their ability to participate (Lee and Schachter, 2019; Dalton, Burklin and Drummond, 2001; Gastil et al., 2008; Newman, Johnson, and Lown, 2014; Verba and Nie, 1987) .",
+        "cite_spans": [
+          {
+            "start": 554,
+            "end": 579,
+            "text": "(Lee and Schachter, 2019;",
+            "ref_id": "BIBREF40"
+          },
+          {
+            "start": 580,
+            "end": 615,
+            "text": "Dalton, Burklin and Drummond, 2001;",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 616,
+            "end": 636,
+            "text": "Gastil et al., 2008;",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 637,
+            "end": 669,
+            "text": "Newman, Johnson, and Lown, 2014;",
+            "ref_id": "BIBREF47"
+          },
+          {
+            "start": 670,
+            "end": 690,
+            "text": "Verba and Nie, 1987)",
+            "ref_id": "BIBREF57"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The Latinobar\u00f3metro Survey offers a range of questions that allow us to address the aforementioned queries on the relationship between trust and participation, as detailed below in section 3. In particular, we make use of the following indicators contained in the survey: i) trust in governmental institutions (national government, police, the judiciary, electoral body, congress); and ii) citizen participation indicators (signing a petition, taking part in authorized demonstrations, working on an issue that affects you or your community). Even though the judiciary, legislature, and electoral institutions are notionally independent from the government, their influence on and involvement in politics is especially apparent in many Latin American and Caribbean countries (OECD, 2018; Domingo, 2010; Kapiszewski and Taylor, 2008) .",
+        "cite_spans": [
+          {
+            "start": 803,
+            "end": 832,
+            "text": "Kapiszewski and Taylor, 2008)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The paper is structured as follows. In the next section, we describe the methodologies used to examine the relationship between political trust and citizen participation in LAC. In section 3, we describe the data utilized in the analyses and discuss the current state of and trends in trust in government and citizen participation in the region. In section 4, we present the results and in section 5 we discuss how these findings support or reject the stealth and deliberative democracy theories. Finally, in section 6, we conclude and reflect on how machine learning methods can be used in other contexts for similar analyses.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "A logistic regression is used as the baseline for evaluating the hypothesis of a link between political trust and citizen participation in the Latin America and the Caribbean region and to uncover the magnitude and sign of such relationship as well as other factors or characteristics influencing participation. Additionally, machine learning techniques such as Lasso and decision trees are used to i) overcome rigidities in classical Logit models and to regularize the model, that is, to reduce the number of relevant explanatory variables and obtain a simplified model; and ii) capture nonlinearities in the way regressors interact to influence the outcome variable.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methods",
+        "sec_num": "2."
+      },
+      {
+        "text": "In regression analysis, the logistic regression model (Logit model) estimates the parameters of a model where the dependent variable is a binary variable which takes the values of 0 or 1. The independent variables can be either continuous or discrete, having two or more categories, that is, either binary or ordinal explanatory variables can be used (Hastie, Tibshirani and Friedman, 2009; James et al., 2013) . The logistic regression model calculates the likelihood of an event occurring, such as participating or not participating in political activities. The dependent variable is then confined between 0 and 1 because the outcome is a probability:",
+        "cite_spans": [
+          {
+            "start": 351,
+            "end": 390,
+            "text": "(Hastie, Tibshirani and Friedman, 2009;",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 391,
+            "end": 410,
+            "text": "James et al., 2013)",
+            "ref_id": "BIBREF28"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "= ( = 1| ) = ( )",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "The model to be estimated is obtained by applying a logistic transformation on the odds-that is, the probability of success divided by the probability of failure:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "ln ( 1 \u2212 ) = 0 + 1 1 + 2 2 + \u22ef +",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "The beta coefficients in this model are commonly estimated via maximum likelihood estimation (MLE). The estimates of the parameters are obtained through maximizing the log-likelihood function:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "l(\u03b2) = \u2211( =1 \u2212 log(1 + ))",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "The beta coefficients must be interpreted as the predicted change in log odds as a result of a unit change in x. As a result, raising the predictor by one unit (or advancing from one level to the next) increases the odds of the outcome by e \u03b2 .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "In the context of this study, the estimated Logit model is useful in determining the set of statistically significant independent variables relating to citizen involvement. Furthermore, given a set of individual attributes, the probability of citizen engagement can be estimated. In this regard, the Bayes classifier can be used to predict whether a given individual will participate; that is, if the estimated probability is greater than 50 percent, we predict that the individual will participate; if less than 50 percent, we predict that she will not participate.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "Adding a new component to the log-likelihood function gives us the Logistic Lasso approach. The new term represents the sum of the magnitudes of all the coefficients in the model. The new term seeks to regularize the model by penalizing the excess of coefficients:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "(\u03b2) = \u2211 ( =1 \u2212 log(1 + )) \u2212 \u03bb \u2211 (| |) =1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "The parameter lambda is a tuning parameter that controls the size of the penalty. If left to zero, the estimation becomes a standard Logit regression. The addition of the extra penalty term effectively disincentivizes the addition of new regressors. A new regressor may assist in increasing the first term of the log-likelihood function, but it also increases the penalty term. The gain of adding a coefficient is compared against the equivalent increase in the model's overall variance (given by lambda), which is ultimately a balancing act. 6 Lasso estimations operate selecting variables in such a way that characteristics that do not drive the regression's predictive power have their coefficients reduced, while more predictive variables have larger coefficients in spite of the penalty. In the margin, Lasso estimations may turn some coefficients into zero, thus \"selecting\" some regressors and removing others (Zou, Hastie and Tibshirani, 2007; Zou, 2006; Tibshirani, 1996) .",
+        "cite_spans": [
+          {
+            "start": 543,
+            "end": 544,
+            "text": "6",
+            "ref_id": null
+          },
+          {
+            "start": 917,
+            "end": 951,
+            "text": "(Zou, Hastie and Tibshirani, 2007;",
+            "ref_id": "BIBREF65"
+          },
+          {
+            "start": 952,
+            "end": 962,
+            "text": "Zou, 2006;",
+            "ref_id": "BIBREF64"
+          },
+          {
+            "start": 963,
+            "end": 980,
+            "text": "Tibshirani, 1996)",
+            "ref_id": "BIBREF55"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "When the number of regressors p exceeds the number of observations n in the dataset, the Lasso estimation forces the model to select at most n regressors (Zou, Hastie and Tibshirani, 2007) . Furthermore, when a set of variables is highly correlated, Lasso techniques tend to pick one of them arbitrarily, forcing the coefficient of the other variables to zero. These difficulties are overcome by alternative approaches such as ridge and elastic net (Zou and Hastie, 2005) . However, given the low correlation between regressors estimated in our sample (see Annex B), such alternative approaches do not provide superior estimates to Lasso. 7",
+        "cite_spans": [
+          {
+            "start": 154,
+            "end": 188,
+            "text": "(Zou, Hastie and Tibshirani, 2007)",
+            "ref_id": "BIBREF65"
+          },
+          {
+            "start": 449,
+            "end": 471,
+            "text": "(Zou and Hastie, 2005)",
+            "ref_id": "BIBREF63"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logit and Logistic Lasso",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "Decision tree models (DTM) are a supervised learning method that can be used to perform classification tasks as well as regression analyses (Breiman, 2001) . Decision tree models outperform linear regression in terms of prediction. This is because, while linearity simplifies model interpretation in linear regressions, it typically reduces predictive power. Decision trees can meanwhile easily adapt to nonlinearities in the data (Schonlau and Zou, 2020) .",
+        "cite_spans": [
+          {
+            "start": 140,
+            "end": 155,
+            "text": "(Breiman, 2001)",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 431,
+            "end": 455,
+            "text": "(Schonlau and Zou, 2020)",
+            "ref_id": "BIBREF51"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Decision Trees",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "In a tree-based model, the given dataset is recursively divided into two groups according to a certain criterion until a preset stopping condition is satisfied. Decision trees operate by dividing the data into distinct groups based on the data's characteristics. The decision trees will keep splitting the data into groups until there is just a limited amount of data that fits into one label (a classification). The main difference with the previous models (Logit, Lasso) is that the trees allow the different variables to interact with each other and condition the outcome variable. For example, suppose we have a dependent variable y and a set of predictors x1, x2,..,xk. The algorithm will pick a predictor and partition the space on a given point. Afterwards, another partition will be made and so forth. This procedure will be repeated recursively until a stop point has been reached. Ultimately, the algorithm generates a set of relationships between the predictors and the dependent variable similar to tree branches.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Decision Trees",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Decision trees have the advantage of being simple to interpret, make no assumptions about data distribution, and are unaffected by outliers. As such, we will use decision trees to investigate the presence of nonlinearities in the characteristics influencing citizen participation. Additionally, we will compute the variable importance metric, which assesses each variable's relevance within the broader citizen participation model.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Decision Trees",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Given the lack of compelling evidence outside the United States-and the fact that we have no reason to believe that these relationships must necessarily follow simple, linear trends-allowing for nonlinearities relaxes restrictive assumptions made by standard econometric techniques about the relationship between political trust and citizen engagement.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Decision Trees",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The data used in this study comes from the Latinobar\u00f3metro Survey for 2020 (Latinobar\u00f3metro Corporation 2021), the latest year available. The Latinobar\u00f3metro Corporation conducts the annual study to determine individual perceptions on socioeconomic and political issues in Latin American countries. Covering 18 countries in Latin America and the Caribbean, the survey is the largest regional database on citizen attitudes towards democracy. It obtains representative national samples using a stratified random sampling process that is weighted to reflect each country's population. The latest available survey data was released in October 2021 and comprises 20,204 observations that represent more than 600 million inhabitants in the region. Unfortunately, it does not include most of the insular countries in the region, such as Haiti, Trinidad and Tobago, and other small islands in the Caribbean.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "The fieldwork was largely carried out face-to-face between October 26 and December 15, 2020. The only exception was Argentina, where interviews were conducted virtually between April 26 and May 16, 2021, because of local conditions related to the Covid-19 pandemic (Latinobar\u00f3metro Corporation 2021). In ten South American countries along with Mexico, samples of 1,200 representative cases were taken of citizens aged 18 and over (16 years in Brazil), and 1,000 cases in the six countries of Central America and in the Dominican Republic. The 2020 survey comprises a single questionnaire containing 81 questions on perceptions and 30 questions on socioeconomic status.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "Trust in government is one of the independent variables of this study. The survey inquired about respondents' trust in governmental institutions like the national government, the judiciary, congress, and the national electoral body. All these variables are used simultaneously as explanatory variables. We focus on institutional trust rather than generalized support for the system as a whole or confidence in specific leaders. We include also interpersonal trust in the measurement of social trust. The dependent variable in this study is citizen participation, which can take the form of signing a petition, taking part in authorized demonstrations, and working to resolve problems facing the community. Because trust may interact differently with each of these, we will investigate the relationship between trust and all three types of participation separately.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "The analyses conducted include a set of control variables that previous research has shown to predict whether a person will participate (Lee and Schachter, 2019) . These variables are further classified as demographic variables and perception variables. Age, gender, education level, subjective income level, subjective social class, reception of subsidies, employment status, ability to save money, house ownership, internet access, and sewerage access are the variables in the first group. The second set of variables includes the respondent's level of interest in politics, perceived freedom of expression and perceived freedom to join any organization without fear, her experience of discrimination, having been a victim of a crime, and food insecurity status. Annex A includes the full description of the variables.",
+        "cite_spans": [
+          {
+            "start": 136,
+            "end": 161,
+            "text": "(Lee and Schachter, 2019)",
+            "ref_id": "BIBREF40"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "Finally, we explore whether trust is more cyclical than structural. If it is a cyclical phenomenon, people might tend more naturally to compare their well-being to a temporal reference point of themselves. Instead, if it is structural, trust should expectedly not be influenced by the respondent's mood at the time of the interview. 8",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "As Latinobar\u00f3metro does not collect information on the general mood of the respondent at the time of the interview, we control for the optimistic or pessimistic trait of the respondent (proxied by her current satisfaction with life; see Annex E). 9",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "For the majority of variables, missing values account for less than 5 percent of the sample. We test for patterns among those missing values and confirm that missing observations across variables are, in effect, random and are not associated with any of the sample's demographic characteristics. The one exception is trust in the armed forces, for which around 15 percent of observations are missing; as a result, we avoid adding that variable in our regressions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "Trust in the government is low across the LAC region (Table 1) . Less than a third (27.3 percent) of the population has confidence in the national government. The few exceptions include El Salvador (72.4 percent), the Dominican Republic (52.3 percent) and Uruguay (57.4 percent). 10 However, for most countries in the region trust levels are below 40 percent, falling to as low as 10 percent in some cases (Latinobar\u00f3metro Corporation, 2021). Among the worst performers, by the time the 2020 Latinobar\u00f3metro data was collected, Peru had seen three presidents in the previous three years; a US court had convicted Honduras' former president of narcotraffic; and a massive country-wide uprising of the indigenous movement in Ecuador took place against economic reforms of the then administration. Overall, the LAC region has some of the lowest levels globally of trust in the national government, according to the World Bank Social Sustainability Global Database (Cuesta, Madrigal and Pecorari, 2022) . See Figure 1. sector jobs, and corruption. And those perceptions were related to the presence and intensity of uprisings. See Devarajan and Ianchovichina (2018) . 9 As demonstrated there, including the life satisfaction variable has no effect on the results, and the variable does not appear to be significant in any of the three models compared.",
+        "cite_spans": [
+          {
+            "start": 961,
+            "end": 998,
+            "text": "(Cuesta, Madrigal and Pecorari, 2022)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 1127,
+            "end": 1161,
+            "text": "Devarajan and Ianchovichina (2018)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 1164,
+            "end": 1165,
+            "text": "9",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 53,
+            "end": 62,
+            "text": "(Table 1)",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Trust in Government and Citizen Participation in the Latin America and Caribbean Region",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "10 In Uruguay, high levels of trust in the government have prevailed consistently for almost two decades. El Salvador, instead, has seen abrupt surges and declines in trust over the same period, likely responding to the rise and fall of populist governments.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trust in Government and Citizen Participation in the Latin America and Caribbean Region",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "Sources: Latinobar\u00f3metro Corporation (2021); Cuesta, Madrigal and Pecorari (2022) As illustrated in Figure 2 , and in accordance with global trends, trust in national governments has declined since 2009 for most LAC countries. There are a few notable exceptions, such as El Salvador, where confidence climbed by nearly 60 percentage points (from 12.9 to 72.4 percent), and the Dominican Republic, where trust increased by nearly 25 percentage points (from 28.2 to 52.3 percent) between 2017 and 2020. While confidence levels fell in the majority of LAC countries, they rose in a few exceptions and to different extents. On average, however, the trend for trust in national governments has been declining since 2009, with levels in 2020 almost half of those in 2009. When looking at citizen participation variables, the picture becomes more mixed. Signing a petition is relatively rare in the region, with the regional average standing at 20 percent (see Table 1 above). One outlier is Argentina, where nearly half of individuals say they have ever signed a petition. In Brazil and Uruguay, this percentage likewise approaches 35 percent. Over the last two decades, the proportion of people who have ever signed a petition has stayed below 20 percent, having risen only modestly since 2006. Participation in authorized demonstrations is also relatively uncommon, with the regional average reaching only 15 percent of the population (see Table 1 ). Chile leads in this regard, with almost a third of the population reporting having taken part in legal demonstrations-likely reflecting the mass demonstrations in 2019 and 2020 over the cost of public transport and education as well as economic inequality more broadly. Participation in demonstrations in the region has declined over the past twenty years, coming in line with the global average of 12 percent (Cuesta, Madrigal and Pecorari, 2022) .",
+        "cite_spans": [
+          {
+            "start": 45,
+            "end": 81,
+            "text": "Cuesta, Madrigal and Pecorari (2022)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 1857,
+            "end": 1894,
+            "text": "(Cuesta, Madrigal and Pecorari, 2022)",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 100,
+            "end": 108,
+            "text": "Figure 2",
+            "ref_id": "FIGREF1"
+          },
+          {
+            "start": 954,
+            "end": 961,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 1436,
+            "end": 1443,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Trust in Government and Citizen Participation in the Latin America and Caribbean Region",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "Another form of societal participation is working with others to solve problems at the community level on a consistent basis. In this sense, only about a quarter of Latin American and Caribbean citizens appear to be working on issues that impact them or their community regularly. National averages are more or less in line with the regional benchmark, with a narrow intercountry variation. The proportion of persons working to tackle community problems has remained stable since 2000, at roughly 20-25 percent of the population.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trust in Government and Citizen Participation in the Latin America and Caribbean Region",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "Around 26 percent of the Latinobar\u00f3metro respondents have complete secondary education, while only 13 percent have completed tertiary education (see Table A2 in Annex A). In addition, almost 8 percent of respondents are illiterate. When it comes to respondents' perceptions of their own socioeconomic status, the majority of Latin Americans and Caribbeans identify as middle (33.8 percent) or lower middle class (31.7 percent). Less than 2 percent of respondents say they are upper class, while 6 percent claim to be upper middle class.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 149,
+            "end": 157,
+            "text": "Table A2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Respondents' Demographic and Socioeconomic Status",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "In terms of employment, roughly one-fifth of respondents are salaried employees, while about a quarter report being engaged in caring for family and household responsibilities or not working. Notably, one-third of respondents report being self-employed, indicating that vulnerable employment is highly prevalent in the region. 12 See 4. Results",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Respondents' Demographic and Socioeconomic Status",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "Annex C presents the full results for Logit (and Lasso) estimation. 13 For brevity, Table 2 below only reports those related to trust and some selected individual controls. 14 Signing a petition is the dependent variable in model 1 of Table 2 . Trust in government has a significant and negative effect on signing a petition: the odds of signing a petition fall by a factor of 0.15 when trust in government rises by one standard deviation. This indicates that the odds of signing a petition are roughly 14 percent lower for those who have trust in the government. Trust in other people or interpersonal trust, instead, has a significant and positive effect on signing a petition. Interpersonal trust increases the odds of signing a petition by 15 percent.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 84,
+            "end": 91,
+            "text": "Table 2",
+            "ref_id": "TABREF3"
+          },
+          {
+            "start": 235,
+            "end": 242,
+            "text": "Table 2",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Logistic Regressions",
+        "sec_num": "4.1."
+      },
+      {
+        "text": "As (subjective) income and education levels increase, so does the probability of signing a petition. Being older, being employed, receiving a subsidy, having internet access at home, owning the home one lives in, and belonging to a lower socioeconomic class are all associated with a higher probability of signing a petition. Unsurprisingly, interest in politics makes someone more likely to sign a petition. Having been a victim of a crime or having experienced discrimination at least once both enhance the likelihood of signing a petition. Conversely, having experienced food insecurity and being a man are both negatively associated with signing a petition. All these results are statistically significant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logistic Regressions",
+        "sec_num": "4.1."
+      },
+      {
+        "text": "The dependent variable in model 2 in Table 2 is participating in demonstrations. Trust in the police has a significant effect on participation.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 37,
+            "end": 44,
+            "text": "Table 2",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Logistic Regressions",
+        "sec_num": "4.1."
+      },
+      {
+        "text": "The log odds of participating in demonstrations decrease by a factor of 0.24 when trust in police increases by one standard deviation. This indicates that the odds of attending a demonstration are approximately 21 percent lower for people who trust the police. As with signing a petition, a higher (subjective) income and education level each increases the odds of participating. Being older, being employed, belonging to a lower social class, and having an interest in politics all increase the likelihood of participation. Having felt discriminated against or having been the victim of a crime similarly prompts people to join demonstrations. Feeling that the right to speak one's mind is guaranteed decreases one's propensity to take part in demonstrations. However, feeling free to join any organization without fear boosts the likelihood of participation in demonstrations (as it does for signing a petition and getting involved in community work). This suggests that those who believe the political system is free engage more politically. Freedom of association is a collective right, whereas freedom of speech is a civil right connected to the individual. Our findings suggest that political participation might be more closely associated with perceptions around collective, social freedoms than individual freedoms.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logistic Regressions",
+        "sec_num": "4.1."
+      },
+      {
+        "text": "13 Fixed effects at the country level were included in order to capture country-specific idiosyncratic effects that might be affecting political participation. Paraguay was randomly chosen as the base category. These can be observed in table C1 in Annex C. Brazil, Mexico and Guatemala are the countries with statistically significant country fixed effects for all three categories of political participation analyzed. In other countries, significant country-fixed effects are only observed when estimating signing a petition or both in signing a petition and attending demonstrations.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logistic Regressions",
+        "sec_num": "4.1."
+      },
+      {
+        "text": "14 For the purpose of the estimation, we employed the Logit command in Stata 16.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logistic Regressions",
+        "sec_num": "4.1."
+      },
+      {
+        "text": "When it comes to working on community issues, reported in model 3, Table  2 , trust in the judiciary has a significant effect on this type of participation. Concretely, having trust in the country's courts increases the odds of participating by 14 percent. This may be the case because the consequences of involvement in community affairs might, in some cases, derive in some level of judicial involvement-be it informal remedial or formal indictment. This type of exposure might not apply to signing petitions or participating in demonstrations. In addition, trust in elections increases the odds of working for a community problem by almost 11 percent. Arguably, if a person believes that a majority decision is legitimately accepted-as it is the case in credible elections-she might be more inclined to believe that outcomes of collective action undertaken to solve community problems will be legitimately accepted. Put differently, more participation might be expected in a context where people consider that their actions are legitimatized, as is the case with trusted (courts and) elections. Middle or old age, better education, being employed, receiving a subsidy, and owning a home all raise the likelihood of working on a community problem. As in the previous models, having an interest in politics, having felt discriminated against, and having been a victim of a crime all increase the likelihood of participating in community affairs. Notably, believing in freedom of speech and having experienced food insecurity both boost the likelihood. Contrary to the previous models, however, belonging to a lower social class marginally decreases the likelihood of working to resolve community problems, which might capture higher opportunity costs of participation among lower income levels. Banerjee and Duflo (2011) have compellingly demonstrated the argument of the poor's higher opportunity costs in terms of investing in education and agricultural technology or deciding on fertility. Moreover, being a man increases the odds of working for community problems by almost 22 percent. These findings may reflect traditionally gendered social norms: both surrounding participation, as well as the need for time and financial resources for engaging in time-consuming activities like resolving community problems. Hence, being a woman and belonging to a low social class both limit the possibility of participation in community affairs. ",
+        "cite_spans": [
+          {
+            "start": 1796,
+            "end": 1821,
+            "text": "Banerjee and Duflo (2011)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 67,
+            "end": 75,
+            "text": "Table  2",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Logistic Regressions",
+        "sec_num": "4.1."
+      },
+      {
+        "text": "Lasso estimation considerably shrinks the pool of covariates in all three models of political participation. The number of independent variables in model 1 (signing a petition) declines from 23 to 15, thus decreasing the model's complexity. 15 The number of variables in models 2 (participation in demonstrations) and 3 (working on a community problem) is reduced from 23 to 14. By and large, the pool of covariates that remains with Lasso estimation reassuringly coincides with covariates found significant in the preceding Logit analysis-save for the notorious dropping of trust in national governments. The resulting models are presented in Table 3 , below. 16 The following variables remained in the Lasso estimation across all three models of citizen participation: among demographic variables, age, education, income and employment status; among perception variables, having felt discriminated against, having been a victim of a crime, having an interest in politics and feeling free to join any organization without fear. 17",
+        "cite_spans": [
+          {
+            "start": 241,
+            "end": 243,
+            "text": "15",
+            "ref_id": null
+          },
+          {
+            "start": 661,
+            "end": 663,
+            "text": "16",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 644,
+            "end": 651,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Lasso Regressions",
+        "sec_num": "4.2."
+      },
+      {
+        "text": "Differences between Logit and Lasso estimations are more salient for trust variables. While trust in national government played a role in previous Logit estimates in model 1 (signing a petition), Lasso estimates do not select in such a variable. Lasso compares a covariate's contribution to the predictive capacity of the model with the marginal increase in the model's total variance that the covariate produces (see section 2). Given that trust in government has the highest levels of variability when compared to other trust variables, Lasso estimations are more likely to exclude this variable from the model than other types of trust. Also, Lasso estimations select trust in parliament, trust in courts and trust in electoral bodies. However, as was the case in the Logit analysis, such variables are not significant in post-Lasso Logit estimations (see Table 3 ). Lasso estimations in model 2 are consistent with Logit results, picking trust in police as a significant driver of participation in demonstrations. Similarly, in model 3, Lasso estimations align with Logit in selecting trust in courts and trust in electoral bodies as significant drivers.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 859,
+            "end": 866,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Lasso Regressions",
+        "sec_num": "4.2."
+      },
+      {
+        "text": "15 The rigorous approach was employed in order to select the optimal lambda parameter. See Ahrens, Hansen and Schaffer (2020) for details on the rigorous approach.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Lasso Regressions",
+        "sec_num": "4.2."
+      },
+      {
+        "text": "16 For estimation purposes, we used the function rlassoLogit from the LASSOPACK package in Stata 16. Table 3 shows the post-Lasso results obtained by running Logit regressions with the covariates selected by Lasso. Mullainathan and Spiess. (2017) warn that machine learning algorithms produce regression coefficients estimates that are rarely consistent. While the estimated coefficients produced by Lasso cannot be directly interpreted as one does with OLS or Logit regressions, the post-Lasso approach adopted here allows to compare post-Lasso logit results with Logit results. As Hastie, Tibshirani and Wainwright (2016) show, when Lasso correctly recovers the true support S of the real parameters, * , such parameters can be estimated by performing an ordinary least-squares regression restricted to this subset. Note, in addition, that this result extends to logistic regressions. For similar results see also Belloni, Chernozhukov and Hansen (2014) and Sosa-Escudero, Anauati and Brau (2022).",
+        "cite_spans": [
+          {
+            "start": 215,
+            "end": 246,
+            "text": "Mullainathan and Spiess. (2017)",
+            "ref_id": "BIBREF44"
+          },
+          {
+            "start": 583,
+            "end": 623,
+            "text": "Hastie, Tibshirani and Wainwright (2016)",
+            "ref_id": null
+          },
+          {
+            "start": 916,
+            "end": 955,
+            "text": "Belloni, Chernozhukov and Hansen (2014)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 101,
+            "end": 108,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Lasso Regressions",
+        "sec_num": "4.2."
+      },
+      {
+        "text": "17 If participation in community affairs affects the experience of discrimination or being a victim of a crime, an endogeneity problem may arise. However, because those variables refer to the previous 12 months, they are unaffected by current participation, avoiding the problem of endogeneity. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Lasso Regressions",
+        "sec_num": "4.2."
+      },
+      {
+        "text": "We first compute the variable importance score (see figures D1-D3 in Annex D), which identifies the characteristics that are most salient in determining citizen participation. 18 Age, education, having felt discriminated against, having been the victim of a crime and having an interest in politics emerged as the most significant variables in predicting citizen engagement in the Latin America and Caribbean region across all three models. By and large, these results are consistent with Logit and Lasso estimations. There are, however, differences. For example, in Logit and Lasso estimations, being employed was an important factor in determining engagement in its three forms. However, in the case of the decision tree analysis, being employed only has an impact in model 2, and a limited one. Employment status loses significance when it interacts with other individual characteristics such as education and income levels. These variables are now likely capturing most of the effect that was previously attributed to employment.",
+        "cite_spans": [
+          {
+            "start": 176,
+            "end": 178,
+            "text": "18",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Decision Trees",
+        "sec_num": "4.3."
+      },
+      {
+        "text": "The use of tree-based models enables the visualization of nonlinearities in the data, that is, interactions between independent variables that influence the outcomes of the dependent variable. In order to optimize decision tree performance, the trees produced have been pruned with a maximum depth of four nodes. Pruning the tree is not only necessary to improve our understanding of the outcome (allowing for a large number of nodes would make interpreting the results extremely difficult). It also increases the accuracy of the decision tree algorithm, enhancing the model's predictive capacity. Too many or too few nodes both result in lower predictive capacity. The ideal depth of a tree is one that allows the model to remain tractable while achieving an acceptable level of accuracy. 19 The decision tree for model 3, working on a community problem, is presented in figure 5 below. The algorithm predicts that a Latin American and Caribbean citizen will work on a community problem when she/he has an interest in politics, has ever felt discriminated against, is older than 28.5 years and believes that her freedom to join any organization is guaranteed. Additionally, for those who are interested in politics but have not experienced discrimination, the tree predicts engagement if they have some form of tertiary education and are older than 28.5 years. It is important to note that the model contains nonlinearities: the age or education levels only matter in determining citizen engagement if the individual has an interest in politics or has experienced discrimination. As previously stated, education levels appear to capture the impact of employment on participating in community affairs.",
+        "cite_spans": [
+          {
+            "start": 790,
+            "end": 792,
+            "text": "19",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Decision Trees",
+        "sec_num": "4.3."
+      },
+      {
+        "text": "In model 2 (participation in demonstrations), having an interest in politics and having felt discriminated against also appear to be the key individual characteristics driving citizen participation (see figure 4) . In particular, the algorithm predicts that an individual who is interested in politics, has at least completed their secondary education, has an income greater than the average and has experienced discrimination will participate in demonstrations. As before, nonlinearities arise: education and income levels only matter if the individual expresses an interest in politics (see figure 4 below). Also in model 1, having an interest in politics is the key variable driving participation in the form of signing a petition (see figure 3) . The algorithm predicts that an individual in the LAC region will sign a petition if she/he is interested in politics, has an income level above the 35 th percentile, is older than 28.5 years and has internet access.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 203,
+            "end": 212,
+            "text": "figure 4)",
+            "ref_id": null
+          },
+          {
+            "start": 739,
+            "end": 748,
+            "text": "figure 3)",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Decision Trees",
+        "sec_num": "4.3."
+      },
+      {
+        "text": "Source: Author's elaboration using the function DecisionTreeClassifier in the Scikit-Learn 1.1.1 library in Python 3.10.5 Note: The color palette of the nodes indicates the class to which the majority of the samples at each node belong (blue captures class 1 while orange captures class 0). The Gini score computes the likelihood of a randomly selected feature being incorrectly classified. Samples refer to the number of observations that are classified in each node. Value tells how many observations at the given node fall into each category or class, in our case, we have two classes: work to resolve a community problem or not.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 3. Decision tree: Signing a petition",
+        "sec_num": null
+      },
+      {
+        "text": "Source: Author's elaboration using the function DecisionTreeClassifier in the Scikit-Learn 1.1.1 library in Python 3.10.5 Note: The color palette of the nodes indicates the class to which the majority of the samples at each node belong (blue captures class 1 while orange captures class 0). The Gini score computes the likelihood of a randomly selected feature being incorrectly classified. Samples refer to the number of observations that are classified in each node. Value tells how many observations at the given node fall into each category or class, in our case, we have two classes: work to resolve a community problem or not.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 4. Decision tree: Participation in demonstrations",
+        "sec_num": null
+      },
+      {
+        "text": "Source: Author's elaboration using the function DecisionTreeClassifier in the Scikit-Learn 1.1.1 library in Python 3.10.5 Note: The color palette of the nodes indicates the class to which the majority of the samples at each node belong (blue captures class 1 while orange captures class 0). The Gini score computes the likelihood of a randomly selected feature being incorrectly classified. Samples refer to the number of observations that are classified in each node. Value tells how many observations at the given node fall into each category or class, in our case, we have two classes: has worked on a community problem in the past year or not.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 5. Decision tree: Working on a community problem",
+        "sec_num": null
+      },
+      {
+        "text": "Both the standard and machine learning estimates reported above substantiate a common finding: there is no straightforward or simple relationship between political trust and citizen participation in Latin America and the Caribbean. Results are neither linear nor uniform but rather dependent on the type of citizen participation and trust across governmental institutions. In other words, some types of institutional trust matter more than others in driving the participation of citizens in certain activities. This finding has a strong implication when it comes to evaluating the stealth and deliberative democracy theories: it is not possible to conclude in favor of either of them in a systematic way. In other words, neither theory is dominant. Table 4 below maps the results of evaluating both hypotheses, based on the sign and statistical significance of the estimated coefficient between trust in a governmental institution and a specific form of political participation. The Logit model, imposing linear relations across both dimensions, concludes that the stealth democracy theory can be accepted only for trust in national governments when signing a petition and trust in police when participating in demonstrations. By contrast, the deliberative democracy theory holds for involvement in community affairs and trust in courts and trust in the electoral body.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 749,
+            "end": 756,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "None of these results change when controlling for respondents' life satisfaction. The variable is not statistically significant in the Logit estimation and it is not selected in the Lasso nor decision trees-see Annex E). 20 20 Introducing quadratic specifications to trust variables does not change these findings. In fact, some of the previously statistically significant trust variables in linear form stop being so in quadratic forms. Lasso does not select any additional quadratic specification of trust and neither do decision trees. Quadratic specification results are available to the reader upon request. Results are less conclusive for these two theories when considering machine learning estimations. For Lasso models, trust in national governments becomes selected out of the model and trust in other governmental institutions are found to be statistically significant drivers of certain types of citizen participation. Thus, deliberative democracy models are passed for trust in courts and involvement in community affairs; and trust in electoral authorities and working towards solving community problems. At the same time, support for the stealth democracy theory is found with regard to trust in police and participating in demonstrations. Decision tree results conclude that neither of the two theories can explain how the link between trust and participation works. This suggests that political trust by itself exerts limited influence on citizen participation. When it does have an effect on participation, it is only after a complex nonlinear combination with other factors. In other words, political trust can be a driver of political participation only when certain other drivers are combined in some specific ways.",
+        "cite_spans": [
+          {
+            "start": 224,
+            "end": 226,
+            "text": "20",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "While our estimates largely reject simple, linear associations between political trust and citizen participation, explaining what governs the intricate relationships between them is necessarily complex and tentative. We contend that costs constitute a possible mechanism influencing the nonlinearities and complexity of political trust and participation. Costs are broadly understood as individual effort, opportunity costs, financial costs, and the possible consequences of participation-such as violent repression, incarceration, stigmatization and so forth-associated with the decision to participate. Signing a petition is a less costly form of participation compared with attending demonstrations or engaging in community problems. Therefore, trust in the national government may only have an effect when it comes to less costly forms of engagement. However, participating in more costly activities, such as demonstrations or community activism, requires additional and comprehensive levels of trust-including in the police and/or courts. This is so because police and courts may be involved in granting permission for a demonstration, ensuring its peaceful occurrence, or deciding on the legal merits of proposed solutions to local problems that are often long-term and entrenched.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "The notion of costs related to political participation is not new. As an extensive body of literature for the Latin America and the Caribbean region and beyond demonstrates, more demanding forms of political participation typically pursue more ambitious goals (Franklin, 2009; Klein and Regan 2018; Klein, Cuesta, Chagalj, 2022) . According to this literature, governments make decisions based on a cost-benefit analysis. Desired outcomes, such as economic and social stability, legal reforms, and so on, are weighed against the likely costs involved, in the form of political concessions, economic disruptions, and repression and violence. The same is true for citizens: high levels of trust are required to ensure participation in activities with potentially costly consequences. Such activities may include attending a protest or getting involved in community activism. In effect, as our results show, trust in the police, the parliament and the courts do seem to influence more demanding forms of citizen engagement. For example, working to solve community issues may have long, costly legal implications, making it a more demanding form of engagement that requires a stronger level of trust.",
+        "cite_spans": [
+          {
+            "start": 260,
+            "end": 276,
+            "text": "(Franklin, 2009;",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 277,
+            "end": 298,
+            "text": "Klein and Regan 2018;",
+            "ref_id": "BIBREF33"
+          },
+          {
+            "start": 299,
+            "end": 328,
+            "text": "Klein, Cuesta, Chagalj, 2022)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "As is to be expected, this mechanism cannot explain all the complexity of our results. This is for several reasons. Costs vary across agents and across time. The cost of violent repression may be judged to be less costly by a dictator than by a democratic administration. Likewise, different individuals and communities may value the same intervention very differently based on personal circumstances (for example, being completely uninterested in politics) or the history of the community (for example, based on its exposure to crime). Costs cannot be considered in isolation but also against some projected benefits (with reasonable probabilities of occurrence) from the decision to participate. And the valuation of such benefits may vary considerably based on age, gender and labor circumstances. In other words, it might be the net and not gross cost of participation that requires different standards of trust.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "Moreover, our results show that individual characteristics and circumstances matter in explaining the extent of citizen participation in Latin America and the Caribbean. And, contrary to governmental trust, age, gender, education, political interest, interpersonal trust, experiences of discrimination and victimization, and perception of freedom all drive citizen participation in a consistent and homogenous way. These results are in line with higher income, age, and education levels linked with more political engagement in the United States. All of this evidence underlines that socioeconomic position remains salient in determining participation, regardless of the type of citizen engagement, levels of interpersonal trust and whether stealth or deliberative democracy theories are accepted. We contend that the stronger the socioeconomic position of the person, the better placed she is to confront the associated (net) costs of participation. Unsurprisingly, a self-reported lower social class-an indication of low socioeconomic status-makes an individual less likely to participate in more costly civic and political activities, namely working on community issues. Interestingly, being a woman increases the chances of signing a petition whereas being a man increases the probability of working on community issues, again suggesting that the increasing opportunity costs facing women makes them less likely to participate in the costliest activities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "One important limitation of this study is that we do not investigate the effect of political trust on voting, which it is arguably the most fundamental and relevant form of political participation. It is also the form of participation, at least typically, that has an individual low net cost: it is low effort, low opportunity costs or financial investment, and unlikely to yield political consequences (to the extent that voting is secret). Unfortunately, lack of data in the survey used prevents us from including this form of political participation. 21 Based on our findings, we would expect voting to follow a similar pattern to signing a petition given its associated costs. If this prediction is true, voting would be negatively influenced by the level of trust in the incumbent national government and positively driven by trust in electoral authorities. The extent to which those influences remain important from election to election will likely depend on changes in the individual characteristics and political identities of the electorate.",
+        "cite_spans": [
+          {
+            "start": 554,
+            "end": 556,
+            "text": "21",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "Our results also confirm that analytical tools positing simple associations between trust and participation may produce misleadingly strong and conclusive associations than truly exist in the Latin America and the Caribbean region. In short, while the Logit analyses shed some light on the trust and socioeconomic variables that are significant in determining citizen engagement, the construction of decision trees allows us to unpack complex nonlinearities among those variables and their effect on participation. For example, socioeconomic characteristics such as income, age, or education levels are only relevant if certain conditions are met (e.g., having an interest in politics or having experienced discrimination). Individual characteristics such as internet access, on the other hand, will only play a role after a certain age. From both approaches we conclude that, while governmental trust variables are important, they are not the key drivers of participation. Rather, as decision tree estimation makes clear, having an interest in politics and having felt discriminated against seem to be the ultimate factors driving participation in all three models, together with age, income and education levels. Political trust, on the other hand, only plays a subordinate role on its own. The weak correlations between trust and individual, socioeconomic and perception variables confirm that political trust is not markedly influenced by individual characteristics or circumstances (see table B1 in annex B).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": "5."
+      },
+      {
+        "text": "We began the paper by asking whether there is a link between trust in government and citizen engagement in Latin America and the Caribbean and, if so, in which direction the link operates. The quantitative analyses conducted throughout this work demonstrate the existence of a link, but one that is neither simple nor linear, and whose mechanism is far from straightforward. For example, we have found that trust in the national government decreases participation when it comes to signing a petition. But the same trust does not appear to have any significant effect on the other two types of engagement studied: participating in demonstrations and community activism. This could be partially related to the former requiring less effort and commitment, i.e., bearing a lower financial, economic, and political cost than the latter. As such, we argue that trust in governmental institutions will only play a role in determining citizen participation when the expected net costs of participation are sufficiently low or the goals pursued justify costly levels of engagement. A similar pattern emerges when trust in other governmental institutions is taken into account, such as trust in the police, which significantly influences participation in demonstrations but not the other two types of participation; or trust in the judiciary, which only influences citizen engagement in the form of working to solve community problems. By way of explanation, citizens likely weigh the risk of facing police repression when attending a demonstration, or are discouraged from are evaluating actual rather than intended participation or engagement in an unspecified future.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6."
+      },
+      {
+        "text": "getting involved in community activism if they perceive the courts to be corrupt.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6."
+      },
+      {
+        "text": "Our evidence shows that trust in various government institutions affects political participation somewhat, but neither the magnitude nor the direction of the effect is consistent among the three types of participation that were examined in this study. Simply put, neither the stealth nor deliberative democracy theories appear to be fitting explanations behind political participation in Latin America and the Caribbean. However, machine learning approaches are shown to be more precise than overly simplistic theories in unpacking the intricate and complex relationships connecting political trust and citizen engagement, a finding that likely holds not only in Latin America and the Caribbean. Trust is a driver of participation for an individual only after certain levels of education, age, and political interest are combined with experiences of discrimination and violence.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6."
+      },
+      {
+        "text": "These findings have several policy implications. Our results neither directly support nor reject the notion that transformational changes such as curbing corruption, boosting government transparency, strengthening the social contract, or delivering long overdue reforms would be effective in increasing citizen participation in politics. In any case, such changes do not come about on their own. For example, disseminating more information is arguably not enough to effectively increase accountability in a context of low trust (Keefer and Scartascini, 2022). Our findings, instead, suggest a need to focus discussion on whether relatively modest changes can nudge citizens towards participation and trust in the political process. Making political institutions more familiar and closer to citizens, reducing the bureaucratic costs of participation, and promoting grassroots organizations all might boost political participation, particularly if aligned with other drivers. These objectives can be realized by facilitating scrutiny and debate over the political process in the media, cultivating an early interest in politics in schools, holding open days across public institutions, ensuring the right to protest safely, lowering the number of signatures required on petitions to elevate issues to authorities, and providing technical support to neighborhood associations, to mention a few. Lesson from Banerjee and Duflo's (2011) small radical thinking to fight global poverty might also be relevant in the context of citizen participation.",
+        "cite_spans": [
+          {
+            "start": 1404,
+            "end": 1431,
+            "text": "Banerjee and Duflo's (2011)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6."
+      },
+      {
+        "text": "The analyses conducted here can be replicated elsewhere by developing machine learning methods able to \"learn\" from datasets covering other regional or national settings. Future research on the linkages between political trust and citizen engagement in the Latin America and the Caribbean region and in other regions should also consider other emerging forms of political engagement like e-participation-that is, online political activity such as, for example, participating in online surveys, using government digital transparency, or adding political banners to profile pictures on Facebook, among others-in addition to voting. It should also more precisely unpack data on different forms of trust, for example in national versus local governments, or across different branches of the police, armed forces, and judiciary. More detailed information is also needed to capture the types of community problems citizens engage or the type of causes that participation in demonstrations are sought to reverse, which are not currently asked in Latinobar\u00f3metro. Future efforts would also benefit from additional investments in quantifying the costs involved in different types of political participation. Flexible models allowing for nonlinearities capturing systems complexity are also needed. All these recommendations, which are reasonably within reach, are needed before more conclusive findings can be drawn as to the relationship between specific forms of citizen participation and specific categories of political trust. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6."
+      },
+      {
+        "text": "o Sign petition: Sign a petition (have ever done) o Attend demonstration: Take part in authorized demonstrations (have ever done) As reported from the question: Now I want you to look at this card. I am going to read out a variety of political activities that people can undertake and I would like you to tell me, if you have ever done any of them (1), if you would ever do any of them (2), or if you would never do any of them (3).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Dependent variables (citizen participation)",
+        "sec_num": null
+      },
+      {
+        "text": "o Work on a community problem: Work for a problem that affects you or your community (frequently) As reported from the question: How frequently do you do each of the following things? Very frequently, frequently, almost never or never? ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Dependent variables (citizen participation)",
+        "sec_num": null
+      },
+      {
+        "text": "It is worth noting how the term \"political trust\" differs from the related term \"legitimacy\", which refers to acceptance of government decisions regardless of the degree of trust. SeeBarron et al, (2023), for a more detailed discussion.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "One exception isWagle (2006), who uses a structural equation model to study political participation and civic engagement inKathmandu, Nepal. 3 This comparative analysis does not undermine the need for case studies that provide further insights into specific contexts such as, for example, the sudden and dramatic increase in political trust in El Salvador or the effects on trust that Constitutional referendums have (as recently held in Chile), to mention a few examples. Nonetheless, the use of country fixed effects in our empirical analysis aims at controlling for those idiosyncratic factors in specific countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Regularized regression, such as Lasso, can also serve as a model selection technique. As Ahrens, Hansen and Schaffer (2020) point out, regularized regressions tend to select the true model as the sample size increases. In this way, Lasso provides a method for choosing the model when the sample size is large and there are many potential regressors, facilitating model interpretation. In this work, the Lasso method is used for regularization rather than prediction purposes.5 Logit models can still analyze simple nonlinear relationships by, for example, allowing for quadratic specifications among independent variables. While those will also be analyzed in the empirical section of this paper, our primary interest is on complex nonlinear links.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The lambda parameter can be chosen to optimize the overall performance of the model. There are various approaches that can be followed. The traditional approach is to use cross validation to select this tuning parameter. However, when the goal of the analysis is model selection rather than prediction, a rigorous penalization approach is preferable. This is so because the rigorous penalization approach focuses on controlling over-fitting, which frequently results in parsimonious models. For details on these approaches, seeAhrens, Hansen and Schaffer (2020).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Ridge uses the same reasoning as Lasso, but adds a penalty in the form of the sum of the squared beta coefficients; as a result, it never sends the coefficients to zero but instead shrinks them (Le Cessie and Van Houwelingen, 1992). Elastic net, in turn, incorporates both types of penalty, allowing it to benefit from both the Lasso and ridge approaches. In the context of our study, however, given the low correlation between regressors (see table B1 in Annex B) and given that the number of observations exceeds the number of regressors, the Lasso approach is more fitting to our sample than the other techniques.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Analyses of the Arab Spring show that increasing unhappiness sustained for long periods of time was reflected in perceptions of declining standards of living. Those perceptions were, in turn, associated with dissatisfaction with the quality of public services, the shortage of formal-",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Although there is no direct inquiry into informality in the Latinobar\u00f3metro survey of 2020, the self-employment status effectively captures this well-known phenomenon in LAC.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "For the purpose of the estimation, we employed the Scikit-Learn 1.1.1 library in Python 3.10.5, and used the function DecisionTreeClassifier.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In our models, we chose a depth node of four, which arguably results in a tractable tree with good accuracy. The implementation of hyper parameter optimization using the function GridSearchCV in Python 3.9, which passes all combinations of hyperparameters one by one into the model and checks its accuracy, further confirmed a depth of 4 as the optimal depth for models 1 and 3; and a depth of 2 for model 2. However, given a marginal variation in accuracy, we used depth 4 also for model 2.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The reason for this is that Latinobar\u00f3metro does not ask if the respondent voted in the most recent national or local elections. The only related question is whether respondents believe voting is important for the development of the nation and which party they would vote for. However, this is not applicable for our study because we",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Source: Authors' own elaboration",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "Annex E: Estimates after including life satisfactionThe life satisfaction variable is constructed assigning the value 1 if the respondent reported to be very or quite satisfied with his/her life, and 0 if the respondent reported to not be very or at all satisfied with his/her life. As shown in Table E1 , the addition of the life satisfaction variable to the models had no effect on the outcomes. The life satisfaction variable is statistically significant in none of the three models analyzed. In turn, the addition of the life satisfaction variable has no effect on the model selection done by Lasso, and this variable is not selected in any of the three models examined. Furthermore, adding this variable to the decision trees had no effect on the composition or paths of the trees in any of the three models studied. Table E1 . Logistic regressions including life satisfaction indicator",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 295,
+            "end": 303,
+            "text": "Table E1",
+            "ref_id": null
+          },
+          {
+            "start": 822,
+            "end": 830,
+            "text": "Table E1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Annex B: Correlation analysis",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Armed Conflict Location & Event Data Project (ACLED) Codebook",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Acled",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "ACLED (2022). \"Armed Conflict Location & Event Data Project (ACLED) Codebook\"",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "What do we mean by \"civic engagement",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "P"
+            ],
+            "last": "Adler",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Goggin",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of Transformative Education",
+        "volume": "3",
+        "issue": "3",
+        "pages": "236--253",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Adler, R. P., & Goggin, J. (2005). What do we mean by \"civic engagement\"? Journal of Transformative Education, 3(3), 236-253.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Lassopack: Model selection and prediction with regularized regression in Stata",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Ahrens",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Hansen",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Schaffer",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "The Stata Journal",
+        "volume": "20",
+        "issue": "1",
+        "pages": "176--235",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ahrens, A., Hansen, C. & Schaffer, M. (2020). Lassopack: Model selection and prediction with regularized regression in Stata. The Stata Journal, 20(1), 176-235.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Recent Trends in Inequality and Poverty in Developing Countries",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [
+              "& L"
+            ],
+            "last": "Alvaredo",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Gasparini",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Handbook of Income Distribution",
+        "volume": "",
+        "issue": "",
+        "pages": "697--805",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Alvaredo, F. & L. Gasparini (2015). Recent Trends in Inequality and Poverty in Developing Countries. In Atkinson, A. and F. Bourguignon (eds), Handbook of Income Distribution (pp. 697- 805). London: Elsevier.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Results, Performance Budgeting, and Trust in Government",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Arizti",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Brumby",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Manning",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Senderowitsch",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Thomas T. ; A",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Dryzek",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Mansbridge",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Warren",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "World Bank B\u00e4chtiger",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Arizti, P., Brumby, J., Manning, N., Senderowitsch, R. & Thomas T. (2010). Results, Performance Budgeting, and Trust in Government. Washington, DC: World Bank B\u00e4chtiger, A., Dryzek, J., Mansbridge, J., & Warren, M. (2018). The Oxford Handbook of Deliberative Democracy. Oxford University Press.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Social Sustainability in Development: Addressing the 21 st Century Challenges",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [
+              "E"
+            ],
+            "last": "Banerjee",
+            "suffix": ""
+          },
+          {
+            "first": "; P",
+            "middle": [],
+            "last": "Duflo",
+            "suffix": ""
+          },
+          {
+            "first": ".",
+            "middle": [
+              "L"
+            ],
+            "last": "Cord",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Cuesta",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Espinoza",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Larson",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Woolcock",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Banerjee, A. & E. Duflo (2011). Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty, New York: PublicAffairs Barron, P., Cord. L, Cuesta, J., Espinoza, S., Larson G. & Woolcock, M. (2023). Social Sustainability in Development: Addressing the 21 st Century Challenges. Washington, DC: World Bank.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Inference on Treatment Effects after Selection among High-Dimensional Controls",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Belloni",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Chernozhukov",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Hansen",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "The Review of Economic Studies",
+        "volume": "81",
+        "issue": "2",
+        "pages": "608--650",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Belloni, A., Chernozhukov, V., & Hansen, C. (2014). Inference on Treatment Effects after Selection among High-Dimensional Controls. The Review of Economic Studies, 81(2 (287)), 608-650. http://www.jstor.org/stable/43551575",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Building Trust in Government in the Twenty-First Century: Review of Literature and Emerging Issues",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Blind",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Blind, P. (2007). Building Trust in Government in the Twenty-First Century: Review of Literature and Emerging Issues. UNDESA",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Building Trust in Government: Linking Theory with Practice",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Blind",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Building trust in government: Innovations in governance reform in Asia",
+        "volume": "",
+        "issue": "",
+        "pages": "22--53",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Blind, P. (2010). Building Trust in Government: Linking Theory with Practice. In Cheema, G. S., Popovski, V. (Eds.), Building trust in government: Innovations in governance reform in Asia (pp. 22-53). United Nations University Press.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Random Forests",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Breiman",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Machine Learning",
+        "volume": "45",
+        "issue": "",
+        "pages": "5--32",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Breiman, L. (2001). Random Forests. Machine Learning, 45, 5-32.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Determinants of Trust in Government in Latin America",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Caceres",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Revista Mexicana de Econom\u00eda y Finanzas",
+        "volume": "14",
+        "issue": "3",
+        "pages": "329--351",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Caceres, L. (2019). Determinants of Trust in Government in Latin America. Revista Mexicana de Econom\u00eda y Finanzas, 14(3), 329-351.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "The Origins and Consequences of Public Trust in Government: A Time-Series Analysis",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Chanley",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Rudolph",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Rahn",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Public Opinion Quarterly",
+        "volume": "64",
+        "issue": "3",
+        "pages": "239--256",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chanley, V., Rudolph, T. & Rahn, W. (2000). The Origins and Consequences of Public Trust in Government: A Time-Series Analysis. Public Opinion Quarterly, 64(3), 239-256.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Social capital I: measurement and associations with economic mobility",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Chetty",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "O"
+            ],
+            "last": "Jackson",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Kuchler",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "Nature",
+        "volume": "608",
+        "issue": "",
+        "pages": "108--121",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chetty, R., Jackson, M.O., Kuchler, T. et al. (2022). Social capital I: measurement and associations with economic mobility. Nature, 608, 108-121.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Social Exclusion: Concepts, Measurement, and a Global Estimate",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Cuesta",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "L\u00f3pez-Noval",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Ni\u00f1o-Zaraz\u00faa",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "Policy Research Working Paper",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cuesta, J., L\u00f3pez-Noval, B. & Ni\u00f1o-Zaraz\u00faa, M. (2022). \"Social Exclusion: Concepts, Measurement, and a Global Estimate.\" Policy Research Working Paper, World Bank, Washington, DC.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Social Sustainability, Poverty, and Income: An Empirical Exploration. Policy Research Working Papers",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Cuesta",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Madrigal",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Pecorari",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "",
+        "volume": "10085",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cuesta, J., Madrigal, L. & Pecorari, N. (2022). Social Sustainability, Poverty, and Income: An Empirical Exploration. Policy Research Working Papers;10085. World Bank, Washington, DC.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Public opinion and direct democracy",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "J"
+            ],
+            "last": "Dalton",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [
+              "P"
+            ],
+            "last": "Burklin",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Drummond",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Journal of Democracy",
+        "volume": "12",
+        "issue": "4",
+        "pages": "141--153",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dalton, R. J., Burklin, W. P. & Drummond, A. (2001). Public opinion and direct democracy. Journal of Democracy, 12 (4), 141-153.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "A Broken Social Contract, Not High Inequality, Led to the Arab Spring",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Devarajan",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Ianchovichina",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Review of Income and Wealth",
+        "volume": "64",
+        "issue": "s1",
+        "pages": "5--25",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Devarajan, S. and Ianchovichina, E. (2018) A Broken Social Contract, Not High Inequality, Led to the Arab Spring. Review of Income and Wealth, 64(s1): s5-s25.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Judicialization of politics or politicization of the judiciary? Recent trends in Latin America. Democratization",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Domingo",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "11",
+        "issue": "",
+        "pages": "104--126",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Domingo, P. (2010). Judicialization of politics or politicization of the judiciary? Recent trends in Latin America. Democratization, 11(1), 104-126.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Contentious challenges and government responses in Latin America",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "C"
+            ],
+            "last": "Franklin",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Political Research Quarterly",
+        "volume": "62",
+        "issue": "4",
+        "pages": "700--714",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Franklin, J.C. (2009). Contentious challenges and government responses in Latin America. Political Research Quarterly, 62(4), 700-714.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "From group member to democratic citizen: How deliberating with fellow jurors reshapes civic attitudes",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Gastil",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [
+              "W"
+            ],
+            "last": "Black",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [
+              "P"
+            ],
+            "last": "Deess",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Leighter",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Human Communication Research",
+        "volume": "34",
+        "issue": "1",
+        "pages": "137--169",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gastil, J., Black, L. W., Deess, E. P., & Leighter, J. (2008). From group member to democratic citizen: How deliberating with fellow jurors reshapes civic attitudes. Human Communication Research, 34(1), 137-169.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Why do people follow social norms? Current Opinion in Psychology",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Gross",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Vostroknutov",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "44",
+        "issue": "",
+        "pages": "1--6",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gross, J. & Vostroknutov, A. (2021) Why do people follow social norms? Current Opinion in Psychology, 44(1):1-6",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Second Edition",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Hastie",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Tibshirani",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Friedman",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hastie, T., Tibshirani, R. & Friedman, J., (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Second Edition. Springer.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Statistical learning with sparsity. Monographs on statistics and applied probability",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Hastie",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Tibshirani",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Wainwright",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "",
+        "volume": "143",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hastie, T., Tibshirani, R., & Wainwright, M. (2015). Statistical learning with sparsity. Monographs on statistics and applied probability, 143, 143.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Why trust matters: Declining political trust and the demise of American liberalism",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Hetherington",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hetherington, M. (2005). Why trust matters: Declining political trust and the demise of American liberalism. Princeton University Press.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "How trust matters: The changing political relevance of political trust",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Hetherington",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Husser",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "American Journal of Political Science",
+        "volume": "56",
+        "issue": "2",
+        "pages": "312--325",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hetherington, M., & Husser, J. (2012). How trust matters: The changing political relevance of political trust. American Journal of Political Science, 56(2), 312-325.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Stealth democracy: Americans' beliefs about how government should work",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "R"
+            ],
+            "last": "Hibbing",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Theiss-Morse",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hibbing, J. R., & Theiss-Morse, E. (2002). Stealth democracy: Americans' beliefs about how government should work. Cambridge: Cambridge University Press.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Ridge regression: Biased estimation for nonorthogonal problems",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [
+              "E"
+            ],
+            "last": "Hoerl",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "W"
+            ],
+            "last": "Kennard",
+            "suffix": ""
+          }
+        ],
+        "year": 1970,
+        "venue": "Technometrics",
+        "volume": "12",
+        "issue": "1",
+        "pages": "55--67",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hoerl, A. E. & Kennard, R. W. (1970). Ridge regression: Biased estimation for nonorthogonal problems. Technometrics, 12(1), 55-67.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Citizen Participation: Linking Government Efforts, Actual Participation, and Trust in Local Politicians",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Holum",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "International Journal of Public Administration",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1080/01900692.2022.2048667"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Holum, M. (2022). Citizen Participation: Linking Government Efforts, Actual Participation, and Trust in Local Politicians. International Journal of Public Administration, DOI: 10.1080/01900692.2022.2048667",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "An introduction to statistical learning",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "James",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Witten",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Hastie",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Tibshirani",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "James, G., Witten, D., Hastie, T. & Tibshirani, R. (2013). An introduction to statistical learning. New York: springer.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Doing Courts Justice? Studying Judicial Politics in Latin America",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Kapiszewski",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Taylor",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Perspectives on Politics",
+        "volume": "6",
+        "issue": "4",
+        "pages": "741--767",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kapiszewski, D. & Taylor, M. (2008). Doing Courts Justice? Studying Judicial Politics in Latin America. Perspectives on Politics, 6(4), 741-767.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "(2022) TRUST The Key to Social Cohesion and Growth in",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Keefer, P. and Scartascini, C. eds. (2022) TRUST The Key to Social Cohesion and Growth in",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "The Linkage Between Political Trust and the Quality of Government: An Analysis",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Khan",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "International Journal of Public Administration",
+        "volume": "39",
+        "issue": "9",
+        "pages": "665--675",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Khan, H. (2016). The Linkage Between Political Trust and the Quality of Government: An Analysis. International Journal of Public Administration,39(9), 665-675.",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "Dynamics of political protests",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [
+              "R"
+            ],
+            "last": "Klein",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [
+              "M"
+            ],
+            "last": "Regan",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "International Organization",
+        "volume": "72",
+        "issue": "2",
+        "pages": "485--521",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Klein, G.R. & Regan, P.M. (2018). Dynamics of political protests. International Organization, 72(2), 485-521.",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "The Nicaragua Protest Crisis in 2018-2019: Assessing the Logic of Government Responses to Protests",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Klein",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Cuesta",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Chagalj",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "Journal of Politics in Latin America",
+        "volume": "14",
+        "issue": "1",
+        "pages": "55--83",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Klein, G., Cuesta, J. & Chagalj, C. (2021). The Nicaragua Protest Crisis in 2018-2019: Assessing the Logic of Government Responses to Protests. Journal of Politics in Latin America, 14(1), 55- 83.",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "Building Trust in Government through Citizen Engagement",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Kumagai",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Iorio",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kumagai, S. & Iorio, F. (2020). Building Trust in Government through Citizen Engagement. Washington, DC: World Bank.",
+        "links": null
+      },
+      "BIBREF36": {
+        "ref_id": "b36",
+        "title": "Latinobarometro Corporation (2021) Latinobar\u00f3metro Report 2021: Goodbye to Macondo. Latinobarometro",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Latinobarometro Corporation (2021) Latinobar\u00f3metro Report 2021: Goodbye to Macondo. Latinobarometro, Santiago de Chile.",
+        "links": null
+      },
+      "BIBREF37": {
+        "ref_id": "b37",
+        "title": "Stealth democracy and the support for new and challenger parties",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Lavezzolo",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Ramiro",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "European Political Science Review",
+        "volume": "10",
+        "issue": "2",
+        "pages": "267--289",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lavezzolo, S., & Ramiro, L. (2018). Stealth democracy and the support for new and challenger parties. European Political Science Review, 10(2), 267-289.",
+        "links": null
+      },
+      "BIBREF38": {
+        "ref_id": "b38",
+        "title": "ridge estimators in logistic regression",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Le Cessie",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "C"
+            ],
+            "last": "Van Houwelingen",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "Journal of the Royal Statistical Society: Series C (Applied Statistics)",
+        "volume": "41",
+        "issue": "1",
+        "pages": "191--201",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Le Cessie, S. & Van Houwelingen, J. C. (1992). ridge estimators in logistic regression. Journal of the Royal Statistical Society: Series C (Applied Statistics), 41(1), 191-201.",
+        "links": null
+      },
+      "BIBREF39": {
+        "ref_id": "b39",
+        "title": "Government for Leaving No One Behind: Social Equity in Public Administration and Trust in Government",
+        "authors": [
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Lee",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "SAGE Open",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lee, Y. (2021). Government for Leaving No One Behind: Social Equity in Public Administration and Trust in Government. SAGE Open.",
+        "links": null
+      },
+      "BIBREF40": {
+        "ref_id": "b40",
+        "title": "Exploring the Relationship between Trust in Government and Citizen Participation",
+        "authors": [
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Lee",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Schachter",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "International Journal of Public Administration",
+        "volume": "42",
+        "issue": "5",
+        "pages": "405--416",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lee, Y. & Schachter, H. (2019). Exploring the Relationship between Trust in Government and Citizen Participation. International Journal of Public Administration, 42:5, 405-416.",
+        "links": null
+      },
+      "BIBREF41": {
+        "ref_id": "b41",
+        "title": "Political trust and trustworthiness",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Levi",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Stoker",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Annual Review of Political Science",
+        "volume": "3",
+        "issue": "1",
+        "pages": "475--507",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Levi, M. & Stoker, L. (2000). Political trust and trustworthiness. Annual Review of Political Science, 3(1), 475-507.",
+        "links": null
+      },
+      "BIBREF42": {
+        "ref_id": "b42",
+        "title": "Social and political trust in developing countries: sub-Saharan Africa and Latin America",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Mattes",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Moreno",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Oxford Handbook of Social and Political Trust",
+        "volume": "",
+        "issue": "",
+        "pages": "357--382",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mattes, R., & Moreno, A. (2018). Social and political trust in developing countries: sub-Saharan Africa and Latin America. In E. M. Uslaner (Ed.), Oxford Handbook of Social and Political Trust (pp. 357-382). Oxford University Press",
+        "links": null
+      },
+      "BIBREF43": {
+        "ref_id": "b43",
+        "title": "Stealth Democracy: Authoritarianism and Democratic Deliberation",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Muhlberger",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Journal of Public Deliberation",
+        "volume": "14",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Muhlberger, P. (2018). Stealth Democracy: Authoritarianism and Democratic Deliberation. Journal of Public Deliberation, 14(2).",
+        "links": null
+      },
+      "BIBREF44": {
+        "ref_id": "b44",
+        "title": "Machine Learning: An Applied Econometric Approach",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Mullainathan",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Spiess",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Journal of Economic Perspectives",
+        "volume": "31",
+        "issue": "2",
+        "pages": "87--106",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mullainathan, S. & Spiess, J. (2017). \"Machine Learning: An Applied Econometric Approach.\" Journal of Economic Perspectives, 31 (2): 87-106.",
+        "links": null
+      },
+      "BIBREF45": {
+        "ref_id": "b45",
+        "title": "Social capital and political accountability",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Nannicini",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Stella",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Tabellini",
+            "suffix": ""
+          },
+          {
+            "first": "U",
+            "middle": [],
+            "last": "Troiano",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Am. Econ. J. Econ. Policy",
+        "volume": "5",
+        "issue": "",
+        "pages": "222--250",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Nannicini, T., Stella, A., Tabellini, G. & Troiano, U. (2013). Social capital and political accountability. Am. Econ. J. Econ. Policy, 5, 222-250.",
+        "links": null
+      },
+      "BIBREF46": {
+        "ref_id": "b46",
+        "title": "Who wants to deliberate-And why?",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "A"
+            ],
+            "last": "Neblo",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [
+              "M"
+            ],
+            "last": "Esterling",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "P"
+            ],
+            "last": "Kennedy",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "M J"
+            ],
+            "last": "Lazer",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "E"
+            ],
+            "last": "Sokhey",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "American Political Science Review",
+        "volume": "104",
+        "issue": "3",
+        "pages": "566--583",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Neblo, M. A., Esterling, K. M., Kennedy, R. P., Lazer, D. M. J., & Sokhey, A. E. (2010). Who wants to deliberate-And why? American Political Science Review, 104(3), 566-583.",
+        "links": null
+      },
+      "BIBREF47": {
+        "ref_id": "b47",
+        "title": "The \"Daily grind\": Work, commuting, and their impact on political participation",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [
+              "J"
+            ],
+            "last": "Newman",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Johnson",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [
+              "L"
+            ],
+            "last": "Lown",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "American Politics Research",
+        "volume": "42",
+        "issue": "1",
+        "pages": "141--170",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Newman, B. J., Johnson, J., & Lown, P. L. (2014). The \"Daily grind\": Work, commuting, and their impact on political participation. American Politics Research, 42(1), 141-170",
+        "links": null
+      },
+      "BIBREF48": {
+        "ref_id": "b48",
+        "title": "Institutions to make the state deliver in Latin America and the Caribbean",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Oecd",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Rethinking Institutions for Development",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1787/leo-2018-8-en"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "OECD (2018). Institutions to make the state deliver in Latin America and the Caribbean. In Latin American Economic Outlook 2018: Rethinking Institutions for Development, OECD Publishing, Paris, https://doi.org/10.1787/leo-2018-8-en.",
+        "links": null
+      },
+      "BIBREF49": {
+        "ref_id": "b49",
+        "title": "Shaping Political Trust Through Participatory Governance in Latin America",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Rizzo",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "IDB Technical Note",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rizzo, T. (2021). Shaping Political Trust Through Participatory Governance in Latin America. IDB Technical Note 2079.",
+        "links": null
+      },
+      "BIBREF50": {
+        "ref_id": "b50",
+        "title": "All for all: Equality, corruption, and social trust",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Rothstein",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Uslaner",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "World Politics",
+        "volume": "58",
+        "issue": "1",
+        "pages": "41--72",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rothstein, B. & Uslaner, E. (2005). All for all: Equality, corruption, and social trust. World Politics, 58(1), 41-72.",
+        "links": null
+      },
+      "BIBREF51": {
+        "ref_id": "b51",
+        "title": "The Random Forest Algorithm for Statistical Learning",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Schonlau",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Zou",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "The Stata Journal",
+        "volume": "20",
+        "issue": "1",
+        "pages": "3--29",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schonlau, M. & Zou, R. (2020). The Random Forest Algorithm for Statistical Learning. The Stata Journal, 20(1), 3-29.",
+        "links": null
+      },
+      "BIBREF52": {
+        "ref_id": "b52",
+        "title": "Citizen engagement and trust: A study among citizen panel members in three Dutch municipalities",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Siebers",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Gradus",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Grotens",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "The Social Science Journal",
+        "volume": "56",
+        "issue": "4",
+        "pages": "545--554",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Siebers, V., Gradus, R. & Grotens, R. (2019). Citizen engagement and trust: A study among citizen panel members in three Dutch municipalities. The Social Science Journal, 56(4), 545-554.",
+        "links": null
+      },
+      "BIBREF53": {
+        "ref_id": "b53",
+        "title": "Poverty, Inequality and Development Studies with Machine Learning",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Sosa-Escudero",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "V"
+            ],
+            "last": "Anauati",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Brau",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "Econometrics with Machine Learning",
+        "volume": "53",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1007/978-3-031-15149-1_9"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Sosa-Escudero, W., Anauati, M.V. & Brau, W. (2022). Poverty, Inequality and Development Studies with Machine Learning. In: Chan, F., M\u00e1ty\u00e1s, L. (eds) Econometrics with Machine Learning . Advanced Studies in Theoretical and Applied Econometrics, vol 53. Springer, Cham. https://doi.org/10.1007/978-3-031-15149-1_9",
+        "links": null
+      },
+      "BIBREF54": {
+        "ref_id": "b54",
+        "title": "Citizenship and civic engagement",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Theiss-Morse",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "R"
+            ],
+            "last": "Hibbing",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Annual Review of Political Science",
+        "volume": "8",
+        "issue": "",
+        "pages": "227--249",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Theiss-Morse, E., & Hibbing, J. R. (2005). Citizenship and civic engagement. Annual Review of Political Science, 8, 227-249.",
+        "links": null
+      },
+      "BIBREF55": {
+        "ref_id": "b55",
+        "title": "Regression shrinkage and selection via the lasso",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Tibshirani",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "Journal of the Royal Statistical Society: Series B (Methodological)",
+        "volume": "58",
+        "issue": "1",
+        "pages": "267--288",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Tibshirani, R. (1996). Regression shrinkage and selection via the lasso. Journal of the Royal Statistical Society: Series B (Methodological), 58(1), 267-288.",
+        "links": null
+      },
+      "BIBREF56": {
+        "ref_id": "b56",
+        "title": "The Deeply Rooted Concern with Political Trust",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Van Der Meer",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Zmerli",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Handbook on Political Trust",
+        "volume": "",
+        "issue": "",
+        "pages": "1--16",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Van der Meer, T. & Zmerli, S. (2017). The Deeply Rooted Concern with Political Trust. In S. Zmerli and T.W.G. Van der Meer (eds), Handbook on Political Trust (1-16). Chelton, UK: Edward Elgar Publishing.",
+        "links": null
+      },
+      "BIBREF57": {
+        "ref_id": "b57",
+        "title": "Participation in America: Political democracy and social equality",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Verba",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [
+              "H"
+            ],
+            "last": "Nie",
+            "suffix": ""
+          }
+        ],
+        "year": 1987,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Verba, S., & Nie, N. H. (1987). Participation in America: Political democracy and social equality. Illinois, IL: University of Chicago Press.",
+        "links": null
+      },
+      "BIBREF58": {
+        "ref_id": "b58",
+        "title": "Bridging bureaucracy and democracy in Europe: A comparative study of perceived managerial excellence, satisfaction with public services, and trust in governance",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Vigoda-Gadot",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Shoham",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "R"
+            ],
+            "last": "Vashdi",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "European Union Politics",
+        "volume": "11",
+        "issue": "2",
+        "pages": "289--308",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Vigoda-Gadot, E., Shoham, A. and Vashdi, D. R. (2010). Bridging bureaucracy and democracy in Europe: A comparative study of perceived managerial excellence, satisfaction with public services, and trust in governance. European Union Politics, 11(2), 289-308.",
+        "links": null
+      },
+      "BIBREF59": {
+        "ref_id": "b59",
+        "title": "Political participation and civic engagement in Kathmandu: An empirical analysis with structural equations",
+        "authors": [
+          {
+            "first": "U",
+            "middle": [
+              "R"
+            ],
+            "last": "Wagle",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "International Political Science Review",
+        "volume": "27",
+        "issue": "3",
+        "pages": "301--322",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Wagle, U. R. (2006). Political participation and civic engagement in Kathmandu: An empirical analysis with structural equations. International Political Science Review, 27(3), 301-322.",
+        "links": null
+      },
+      "BIBREF60": {
+        "ref_id": "b60",
+        "title": "The World Bank Group Goals: End Extreme Poverty and Promote Shared Prosperity",
+        "authors": [
+          {
+            "first": "World",
+            "middle": [],
+            "last": "Bank",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank (2013). The World Bank Group Goals: End Extreme Poverty and Promote Shared Prosperity. Washington, DC: World Bank.",
+        "links": null
+      },
+      "BIBREF61": {
+        "ref_id": "b61",
+        "title": "Poverty and Shared Prosperity 2022: Correcting Course",
+        "authors": [
+          {
+            "first": "World",
+            "middle": [],
+            "last": "Bank",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank (2022). Poverty and Shared Prosperity 2022: Correcting Course. Washington, DC: World Bank.",
+        "links": null
+      },
+      "BIBREF62": {
+        "ref_id": "b62",
+        "title": "The Impact of COVID-19 on Poverty and Inequality: Evidence from Phone Surveys",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Yonzan",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Cojocaru",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Lakner",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Gerszon Mahler",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [
+              "A"
+            ],
+            "last": "Narayan",
+            "suffix": ""
+          }
+        ],
+        "year": 2022,
+        "venue": "World Bank Data (blog)",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Yonzan, N., Cojocaru, A., Lakner, C., Gerszon Mahler, D., & Narayan. A. (2022). \"The Impact of COVID-19 on Poverty and Inequality: Evidence from Phone Surveys.\" World Bank Data (blog), January 18, 2022. https://blogs.worldbank.org/opendata/impact -covid-19-poverty-and- inequality-evidence-phone-surveys",
+        "links": null
+      },
+      "BIBREF63": {
+        "ref_id": "b63",
+        "title": "Regularization and Variable Selection via the Elastic Net",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Zou",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Hastie",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of the Royal Statistical Society. Series B (Statistical Methodology)",
+        "volume": "67",
+        "issue": "2",
+        "pages": "301--320",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Zou, H. & Hastie, T. (2005). Regularization and Variable Selection via the Elastic Net. Journal of the Royal Statistical Society. Series B (Statistical Methodology), 67(2), 301-320.",
+        "links": null
+      },
+      "BIBREF64": {
+        "ref_id": "b64",
+        "title": "The Adaptive Lasso and Its Oracle Properties",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Zou",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Journal of the American Statistical Association",
+        "volume": "101",
+        "issue": "476",
+        "pages": "1418--1429",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Zou, H. (2006). The Adaptive Lasso and Its Oracle Properties. Journal of the American Statistical Association, 101(476), 1418-1429.",
+        "links": null
+      },
+      "BIBREF65": {
+        "ref_id": "b65",
+        "title": "On the degrees of freedom of the lasso",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Zou",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Hastie",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Tibshirani",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Zou, H., Hastie, T. & Tibshirani, R. (2007). On the degrees of freedom of the lasso. Ann. Statist,",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "1",
+        "text": "Trust in national governments around the world, circa 2020"
+      },
+      "FIGREF1": {
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "2",
+        "text": "Confidence in government over time in LAC 11 See"
+      },
+      "TABREF0": {
+        "content": "<table/>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "Political trust and citizen participation in the Latin America and Caribbean (LAC) region 11"
+      },
+      "TABREF1": {
+        "content": "<table><tr><td/><td colspan=\"5\">Source: Latinobar\u00f3metro Corporation, several years</td><td/></tr><tr><td/><td/><td>Trust</td><td/><td/><td colspan=\"2\">Citizen participation</td></tr><tr><td/><td>Confidence in the National government</td><td>Confidence in National congress/parliament</td><td>Confidence in the judiciary</td><td>Signing a petition</td><td>Taking part in authorized demonstrations</td><td>Working on a problem that affects you or your community</td></tr><tr><td>Total LAC</td><td>27.3%</td><td>20.5%</td><td>25.7%</td><td>19.9%</td><td>14.4%</td><td>25.7%</td></tr><tr><td>Argentina</td><td>23.4%</td><td>18.6%</td><td>16.7%</td><td>47.8%</td><td>18.2%</td><td>31.2%</td></tr><tr><td>Bolivia</td><td>25.3%</td><td>28.3%</td><td>20.3%</td><td>10.3%</td><td>12.1%</td><td>27.9%</td></tr><tr><td>Brazil</td><td>27.1%</td><td>23.9%</td><td>37.0%</td><td>34.8%</td><td>14.2%</td><td>24.6%</td></tr><tr><td>Chile</td><td>17.9%</td><td>13.1%</td><td>15.9%</td><td>25.3%</td><td>31.0%</td><td>27.9%</td></tr><tr><td>Colombia</td><td>26.0%</td><td>15.2%</td><td>24.5%</td><td>24.2%</td><td>16.7%</td><td>31.0%</td></tr><tr><td>Costa Rica</td><td>14.4%</td><td>19.0%</td><td>40.5%</td><td>22.9%</td><td>13.6%</td><td>23.5%</td></tr><tr><td>Dominican Rep.</td><td>52.3%</td><td>34.5%</td><td>36.9%</td><td>12.7%</td><td>18.5%</td><td>31.4%</td></tr><tr><td>Ecuador</td><td>10.0%</td><td>13.0%</td><td>18.1%</td><td>11.1%</td><td>9.5%</td><td>24.3%</td></tr><tr><td>El Salvador</td><td>72.4%</td><td>12.2%</td><td>31.2%</td><td>14.7%</td><td>5.7%</td><td>22.7%</td></tr><tr><td>Guatemala</td><td>22.4%</td><td>20.7%</td><td>21.6%</td><td>9.6%</td><td>7.7%</td><td>16.9%</td></tr><tr><td>Honduras</td><td>11.3%</td><td>12.7%</td><td>17.0%</td><td>9.5%</td><td>9.5%</td><td>23.8%</td></tr><tr><td>Mexico</td><td>27.9%</td><td>23.0%</td><td>24.4%</td><td>16.4%</td><td>9.7%</td><td>17.9%</td></tr><tr><td>Nicaragua</td><td>38.0%</td><td>30.4%</td><td>33.2%</td><td>14.6%</td><td>11.7%</td><td>16.7%</td></tr><tr><td>Panama</td><td>23.3%</td><td>15.8%</td><td>24.1%</td><td>13.2%</td><td>9.3%</td><td>26.4%</td></tr><tr><td>Paraguay</td><td>13.3%</td><td>10.3%</td><td>13.3%</td><td>21.0%</td><td>15.8%</td><td>27.5%</td></tr><tr><td>Peru</td><td>16.6%</td><td>7.4%</td><td>16.7%</td><td>9.5%</td><td>10.4%</td><td>27.2%</td></tr><tr><td>Uruguay</td><td>57.4%</td><td>54.4%</td><td>57.9%</td><td>34.9%</td><td>22.8%</td><td>29.9%</td></tr><tr><td>Venezuela</td><td>19.4%</td><td>19.7%</td><td>18.3%</td><td>20.0%</td><td>18.8%</td><td>27.8%</td></tr></table>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "table A1 in Annex A for trust in police and electoral bodies."
+      },
+      "TABREF2": {
+        "content": "<table><tr><td>50%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>45%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>40%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>35%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>30%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>25%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>20%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>15%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>10%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>5%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>0%</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>1995</td><td>1996</td><td>2002</td><td>2003</td><td>2004</td><td>2005</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td><td>2013</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2020</td></tr></table>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "in Annex A."
+      },
+      "TABREF3": {
+        "content": "<table/>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "Logistic regressions"
+      },
+      "TABREF4": {
+        "content": "<table/>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "Post-Lasso regression results"
+      },
+      "TABREF5": {
+        "content": "<table><tr><td/><td>Logit</td><td>Lasso</td><td>Tree</td></tr><tr><td>Trust in national</td><td/><td/><td/></tr><tr><td>government</td><td/><td/><td/></tr><tr><td>Petition</td><td>Stealth</td><td>Neither</td><td>Neither</td></tr><tr><td>Demonstration</td><td>Neither</td><td>Neither</td><td>Neither</td></tr><tr><td>Community problem</td><td>Neither</td><td>Neither</td><td>Neither</td></tr><tr><td>Trust in police</td><td/><td/><td/></tr><tr><td>Petition</td><td>Neither</td><td>Neither</td><td>Neither</td></tr><tr><td>Demonstration</td><td>Stealth</td><td>Stealth</td><td>Neither</td></tr><tr><td>Community problem</td><td>Neither</td><td>Neither</td><td>Neither</td></tr><tr><td>Trust in</td><td/><td/><td/></tr><tr><td>congress/parliament</td><td/><td/><td/></tr><tr><td>Petition</td><td>Neither</td><td>Neither</td><td>Neither</td></tr><tr><td>Demonstration</td><td>Neither</td><td>Neither</td><td>Neither</td></tr><tr><td>Community problem</td><td>Neither</td><td>Neither</td><td>Neither</td></tr><tr><td>Trust in judiciary</td><td/><td/><td/></tr></table>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "Stealth and deliberative democracy assessment results in Latin America and Caribbean region (selected government institutions)"
+      },
+      "TABREF7": {
+        "content": "<table><tr><td>35(5), 2173-2192.</td></tr><tr><td>Annex A: Variables employed from the</td></tr><tr><td>Latinobar\u00f3metro 2020</td></tr><tr><td>Demographic variables</td></tr><tr><td>o Age: Age of the respondent</td></tr><tr><td>o Sex: Gender of the respondent (1=male; 0=female)</td></tr><tr><td>o Education level: Education level achieved (1=Illiterate, 2=Incomplete Trust variables</td></tr><tr><td>basic education, 3=Complete basic education, 4=Incomplete secondary</td></tr><tr><td>education, 5=Complete secondary education, 6=Incomplete tertiary</td></tr><tr><td>education, 7=Complete tertiary education)</td></tr><tr><td>o Income level: Subjective income group for household (1-10 from lowest</td></tr><tr><td>to highest) o Trust in elections: Has a lot or some trust in the national electoral o Social class: Subjective social class from highest to lowest (1=upper class, institution 2=upper middle class, 3=middle class, 4=low middle class and 5=lower As reported from the question: class) Please look at this card and tell me how much trust you have in each of the following o Receives subsidy: Beneficiary of a subsidy from the state (yes=1; groups/institutions. Would you say you have a lot (1), some (2), a little (3) or no trust no=0) o Employed: Has a job (if self-employed, salaried work or temporarily in(4)?</td></tr><tr><td>out of work, employed takes value of 1; otherwise, 0)</td></tr><tr><td>Perception Variables</td></tr><tr><td>o Interested in politics: Has an interest in politics (Very interested, Fairly</td></tr><tr><td>interested) as reported from the question:</td></tr><tr><td>How interested are you in politics? Very interested, Fairly interested, A</td></tr><tr><td>little interested, Not at all interested)</td></tr><tr><td>o Free to join any organization: Individual believes freedom of political</td></tr><tr><td>participation is guaranteed (fully or somewhat) as reported from the</td></tr><tr><td>question:</td></tr><tr><td>To what extent do you think the following freedoms, rights, are guaranteed</td></tr><tr><td>in (country)? Freedom of political participation (Fully guaranteed,</td></tr><tr><td>Somewhat guaranteed, Not guaranteed, Not at all guaranteed)</td></tr><tr><td>o Free to speak: Individual believes freedom of speech is guaranteed (fully</td></tr><tr><td>or somewhat) as reported from the question:</td></tr><tr><td>To what extent do you think the following freedoms, rights, are guaranteed</td></tr><tr><td>in (country)? Freedom of speech always and everywhere (Fully guaranteed,</td></tr><tr><td>Somewhat guaranteed, Not guaranteed, Not at all guaranteed)</td></tr><tr><td>o Has felt discriminated against: Feels part of a discriminated group (yes) as</td></tr><tr><td>reported from the question:</td></tr><tr><td>Would you describe yourself as part of a discriminated group in (country)or</td></tr><tr><td>not?</td></tr></table>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "Owns a house: Owns the house s/he lives in (yes=1; otherwise, 0) o Has internet: Has internet connection at home (yes=1, no=0) o Has sewerage: Has sewerage system (yes=1, no=0) Has been victim of a crime: Was victim of a crime in the last 12 months, as reported from the question: Have you (1) or a relative (2) been assaulted, attacked, or the victim of a crime in the las 12 months?(you)   o Has experienced food insecurity: Has gone without enough food to eat in the last 12 months, as reported from the question: In the last 12 months, how often have you or your family gone without food? (Sometimes, often) Trust in government: Has a lot or some trust in the national government o Trust in police: Has a lot or some trust in the police o Trust in parliament: Has a lot or some trust in parliament/congress o Trust in courts: Has a lot or some trust in the judicial branch Trust in people: Interpersonal trust (believes one can trust most people) As reported from the question: Generally speaking, would you say that you can trust most people, or that you can never be too careful in dealing with others? (One can trust most people)"
+      },
+      "TABREF8": {
+        "content": "<table><tr><td/><td/><td/><td>Trust</td><td/><td/><td/><td/><td colspan=\"2\">Citizen participation</td></tr><tr><td/><td>Confidence in the national government</td><td>Confidence in national congress/parliament</td><td>Confidence in the judiciary</td><td>Confidence in the police</td><td>Confidence in the national electoral institution</td><td>Interpersonal trust: you can trust most people</td><td>Signing a petition</td><td>Take part in authorized demonstrations</td><td>Work on a problem that affects you or your community</td></tr><tr><td>Total LAC</td><td>27.3%</td><td>20.5%</td><td>25.7%</td><td>36.1%</td><td>32.3%</td><td>12.8%</td><td>19.9%</td><td>14.4%</td><td>25.7%</td></tr><tr><td>Argentina</td><td>23.4%</td><td>18.6%</td><td>16.7%</td><td>38.8%</td><td>16.1%</td><td>16.2%</td><td>47.8%</td><td>18.2%</td><td>31.2%</td></tr><tr><td>Bolivia</td><td>25.3%</td><td>28.3%</td><td>20.3%</td><td>26.7%</td><td>28.1%</td><td>12.9%</td><td>10.3%</td><td>12.1%</td><td>27.9%</td></tr><tr><td>Brazil</td><td>27.1%</td><td>23.9%</td><td>37.0%</td><td>48.3%</td><td>37.3%</td><td>4.7%</td><td>34.8%</td><td>14.2%</td><td>24.6%</td></tr><tr><td>Chile</td><td>17.9%</td><td>13.1%</td><td>15.9%</td><td>32.7%</td><td>45.6%</td><td>17.1%</td><td>25.3%</td><td>31.0%</td><td>27.9%</td></tr><tr><td>Colombia</td><td>26.0%</td><td>15.2%</td><td>24.5%</td><td>37.1%</td><td>55.1%</td><td>13.4%</td><td>24.2%</td><td>16.7%</td><td>31.0%</td></tr><tr><td>Costa Rica</td><td>14.4%</td><td>19.0%</td><td>40.5%</td><td>50.3%</td><td>45.7%</td><td>10.0%</td><td>22.9%</td><td>13.6%</td><td>23.5%</td></tr><tr><td>Dominican Rep.</td><td>52.3%</td><td>34.5%</td><td>36.9%</td><td>31.7%</td><td>32.6%</td><td>15.1%</td><td>12.7%</td><td>18.5%</td><td>31.4%</td></tr><tr><td>Ecuador</td><td>10.0%</td><td>13.0%</td><td>18.1%</td><td>33.8%</td><td>16.0%</td><td>9.7%</td><td>11.1%</td><td>9.5%</td><td>24.3%</td></tr><tr><td>El Salvador</td><td>72.4%</td><td>12.2%</td><td>31.2%</td><td>58.4%</td><td>28.0%</td><td>14.0%</td><td>14.7%</td><td>5.7%</td><td>22.7%</td></tr><tr><td>Guatemala</td><td>22.4%</td><td>20.7%</td><td>21.6%</td><td>28.3%</td><td>18.4%</td><td>16.3%</td><td>9.6%</td><td>7.7%</td><td>16.9%</td></tr><tr><td>Honduras</td><td>11.3%</td><td>12.7%</td><td>17.0%</td><td>27.1%</td><td>13.5%</td><td>15.8%</td><td>9.5%</td><td>9.5%</td><td>23.8%</td></tr><tr><td>Mexico</td><td>27.9%</td><td>23.0%</td><td>24.4%</td><td>22.0%</td><td>36.0%</td><td>18.4%</td><td>16.4%</td><td>9.7%</td><td>17.9%</td></tr><tr><td>Nicaragua</td><td>38.0%</td><td>30.4%</td><td>33.2%</td><td>31.7%</td><td>31.2%</td><td>9.1%</td><td>14.6%</td><td>11.7%</td><td>16.7%</td></tr><tr><td>Panama</td><td>23.3%</td><td>15.8%</td><td>24.1%</td><td>48.2%</td><td>40.0%</td><td>12.6%</td><td>13.2%</td><td>9.3%</td><td>26.4%</td></tr><tr><td>Paraguay</td><td>13.3%</td><td>10.3%</td><td>13.3%</td><td>27.2%</td><td>13.4%</td><td>9.2%</td><td>21.0%</td><td>15.8%</td><td>27.5%</td></tr><tr><td>Peru</td><td>16.6%</td><td>7.4%</td><td>16.7%</td><td>31.2%</td><td>32.3%</td><td>10.8%</td><td>9.5%</td><td>10.4%</td><td>27.2%</td></tr><tr><td>Uruguay</td><td>57.4%</td><td>54.4%</td><td>57.9%</td><td>66.0%</td><td>66.9%</td><td>21.1%</td><td>34.9%</td><td>22.8%</td><td>29.9%</td></tr><tr><td>Venezuela, RB</td><td>19.4%</td><td>19.7%</td><td>18.3%</td><td>13.7%</td><td>21.8%</td><td>5.2%</td><td>20.0%</td><td>18.8%</td><td>27.8%</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">Source: Latinobar\u00f3metro, 2020</td><td/><td/><td/><td/></tr></table>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": ""
+      },
+      "TABREF9": {
+        "content": "<table><tr><td/><td/><td colspan=\"2\">Age groups</td><td/><td/><td/><td colspan=\"2\">Education level</td><td/><td/><td/></tr><tr><td/><td>15-25</td><td>26-40</td><td>41-60</td><td>61+</td><td>Illiterate</td><td>Incomplete basic education</td><td>Complete basic education</td><td>Incomplete secondary education</td><td>Complete secondary education</td><td>Tertiary incomplete</td><td>Tertiary complete</td></tr><tr><td>LAC</td><td>22.7%</td><td>32.9%</td><td>29.4%</td><td>15.0%</td><td>7.6%</td><td>11.7%</td><td>19.5%</td><td>12.4%</td><td>26.3%</td><td>9.0%</td><td>13.3%</td></tr><tr><td>Argentina</td><td>18.6%</td><td>32.0%</td><td>30.2%</td><td>19.2%</td><td>2.1%</td><td>9.0%</td><td>28.8%</td><td>11.9%</td><td>24.2%</td><td>2.6%</td><td>21.4%</td></tr><tr><td>Bolivia</td><td>25.8%</td><td>35.8%</td><td>26.7%</td><td>11.7%</td><td>7.5%</td><td>16.2%</td><td>11.3%</td><td>13.3%</td><td>28.3%</td><td>10.5%</td><td>12.8%</td></tr><tr><td>Brazil</td><td>20.1%</td><td>29.7%</td><td>32.1%</td><td>18.2%</td><td>4.6%</td><td>27.2%</td><td>9.8%</td><td>9.6%</td><td>16.2%</td><td>19.9%</td><td>12.7%</td></tr><tr><td>Chile</td><td>14.5%</td><td>29.9%</td><td>35.6%</td><td>20.0%</td><td>1.7%</td><td>9.3%</td><td>13.0%</td><td>9.6%</td><td>37.5%</td><td>9.5%</td><td>19.3%</td></tr><tr><td>Colombia</td><td>19.0%</td><td>31.9%</td><td>31.5%</td><td>17.7%</td><td>6.1%</td><td>9.0%</td><td>20.4%</td><td>9.5%</td><td>30.9%</td><td>4.1%</td><td>19.6%</td></tr><tr><td>Costa Rica</td><td>22.3%</td><td>33.1%</td><td>30.9%</td><td>13.7%</td><td>4.0%</td><td>7.3%</td><td>32.7%</td><td>16.1%</td><td>16.9%</td><td>10.2%</td><td>12.8%</td></tr><tr><td>Dominican Rep.</td><td>23.6%</td><td>34.7%</td><td>28.8%</td><td>12.9%</td><td>14.0%</td><td>16.6%</td><td>19.4%</td><td>12.3%</td><td>17.7%</td><td>12.8%</td><td>7.2%</td></tr><tr><td>Ecuador</td><td>23.6%</td><td>34.3%</td><td>29.2%</td><td>12.9%</td><td>1.6%</td><td>3.4%</td><td>16.1%</td><td>14.7%</td><td>28.8%</td><td>14.6%</td><td>20.8%</td></tr><tr><td>El Salvador</td><td>23.4%</td><td>31.2%</td><td>28.7%</td><td>16.7%</td><td>14.0%</td><td>29.4%</td><td>18.6%</td><td>5.2%</td><td>19.9%</td><td>5.1%</td><td>7.8%</td></tr><tr><td>Guatemala</td><td>29.0%</td><td>34.0%</td><td>26.0%</td><td>11.0%</td><td>22.0%</td><td>13.7%</td><td>24.3%</td><td>12.8%</td><td>19.2%</td><td>4.1%</td><td>3.9%</td></tr><tr><td>Honduras</td><td>28.7%</td><td>35.1%</td><td>23.6%</td><td>12.5%</td><td>18.9%</td><td>11.8%</td><td>40.4%</td><td>8.1%</td><td>15.6%</td><td>3.2%</td><td>2.0%</td></tr><tr><td>Mexico</td><td>20.6%</td><td>33.1%</td><td>31.5%</td><td>14.8%</td><td>6.2%</td><td>8.2%</td><td>18.3%</td><td>2.9%</td><td>44.2%</td><td>7.3%</td><td>12.9%</td></tr><tr><td>Nicaragua</td><td>36.1%</td><td>33.1%</td><td>21.9%</td><td>9.0%</td><td>23.5%</td><td>14.7%</td><td>22.8%</td><td>13.5%</td><td>16.7%</td><td>4.5%</td><td>4.2%</td></tr><tr><td>Panama</td><td>20.0%</td><td>33.9%</td><td>31.3%</td><td>14.8%</td><td>6.0%</td><td>6.8%</td><td>22.2%</td><td>10.5%</td><td>32.5%</td><td>7.4%</td><td>14.6%</td></tr><tr><td>Paraguay</td><td>26.9%</td><td>33.9%</td><td>27.3%</td><td>11.8%</td><td>2.1%</td><td>13.6%</td><td>18.8%</td><td>13.7%</td><td>41.8%</td><td>6.0%</td><td>4.1%</td></tr><tr><td>Peru</td><td>23.8%</td><td>35.3%</td><td>27.9%</td><td>13.0%</td><td>8.3%</td><td>8.7%</td><td>15.1%</td><td>6.7%</td><td>27.6%</td><td>13.7%</td><td>20.1%</td></tr><tr><td>Uruguay</td><td>15.9%</td><td>27.6%</td><td>32.1%</td><td>24.4%</td><td>1.3%</td><td>5.3%</td><td>17.6%</td><td>34.3%</td><td>10.1%</td><td>16.8%</td><td>14.6%</td></tr><tr><td>Venezuela, RB</td><td>20.4%</td><td>34.3%</td><td>31.8%</td><td>13.5%</td><td>1.8%</td><td>3.9%</td><td>9.5%</td><td>18.0%</td><td>37.7%</td><td>7.0%</td><td>22.0%</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"3\">Source: Latinobar\u00f3metro, 2020</td><td/><td/><td/><td/></tr></table>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": ""
+      },
+      "TABREF10": {
+        "content": "<table><tr><td/><td/><td colspan=\"3\">Subjective social class</td><td/><td/><td/><td/><td colspan=\"2\">Current employment situation</td><td/><td/></tr><tr><td/><td>Upper class</td><td>Upper middle class</td><td>Middle class</td><td>Low middle class</td><td>Lower class</td><td>Self-employed</td><td>Salaried employee in a state company</td><td>Salaried employee in a company private</td><td>Temporarily out of work</td><td>Retired/pensioner</td><td>Don't housework work/responsible for shopping and</td><td>Student</td></tr><tr><td>LAC</td><td>1.9%</td><td>6.0%</td><td>33.8%</td><td>31.7%</td><td>26.6%</td><td>32.2%</td><td>6.9%</td><td>13.4%</td><td>10.0%</td><td>6.3%</td><td>26.9%</td><td>4.3%</td></tr><tr><td>Argentina</td><td>0.1%</td><td>2.8%</td><td>29.0%</td><td>43.6%</td><td>24.6%</td><td>24.7%</td><td>10.3%</td><td>15.6%</td><td>13.4%</td><td>16.0%</td><td>13.8%</td><td>6.2%</td></tr><tr><td>Bolivia</td><td>0.7%</td><td>6.5%</td><td>46.6%</td><td>30.5%</td><td>15.7%</td><td>56.5%</td><td>5.6%</td><td>8.1%</td><td>6.4%</td><td>1.3%</td><td>16.7%</td><td>5.4%</td></tr><tr><td>Brazil</td><td>1.4%</td><td>2.9%</td><td>28.3%</td><td>37.1%</td><td>30.3%</td><td>37.2%</td><td>6.6%</td><td>13.0%</td><td>9.4%</td><td>14.5%</td><td>14.5%</td><td>4.7%</td></tr><tr><td>Chile</td><td>0.0%</td><td>2.5%</td><td>39.8%</td><td>30.9%</td><td>26.8%</td><td>21.4%</td><td>9.4%</td><td>29.7%</td><td>11.8%</td><td>9.9%</td><td>11.0%</td><td>6.9%</td></tr><tr><td>Colombia</td><td>3.0%</td><td>8.5%</td><td>30.4%</td><td>33.8%</td><td>24.3%</td><td>29.3%</td><td>6.1%</td><td>10.0%</td><td>13.9%</td><td>4.6%</td><td>30.1%</td><td>6.0%</td></tr><tr><td>Costa Rica</td><td>2.0%</td><td>8.3%</td><td>42.5%</td><td>30.6%</td><td>16.6%</td><td>21.1%</td><td>7.4%</td><td>18.8%</td><td>13.4%</td><td>8.1%</td><td>27.3%</td><td>3.9%</td></tr><tr><td>Dominican Rep.</td><td>3.5%</td><td>9.7%</td><td>29.5%</td><td>29.0%</td><td>28.4%</td><td>26.1%</td><td>6.4%</td><td>16.4%</td><td>11.7%</td><td>2.1%</td><td>35.8%</td><td>1.5%</td></tr><tr><td>Ecuador</td><td>1.5%</td><td>6.4%</td><td>41.2%</td><td>27.5%</td><td>23.5%</td><td>36.9%</td><td>6.0%</td><td>9.1%</td><td>10.8%</td><td>3.2%</td><td>26.9%</td><td>7.2%</td></tr><tr><td>El Salvador</td><td>3.5%</td><td>8.4%</td><td>26.9%</td><td>30.1%</td><td>31.1%</td><td>25.5%</td><td>5.2%</td><td>15.5%</td><td>12.7%</td><td>2.5%</td><td>35.2%</td><td>3.4%</td></tr><tr><td>Guatemala</td><td>2.0%</td><td>7.6%</td><td>37.2%</td><td>24.6%</td><td>28.6%</td><td>32.1%</td><td>3.3%</td><td>10.6%</td><td>10.9%</td><td>1.7%</td><td>40.3%</td><td>1.1%</td></tr><tr><td>Honduras</td><td>5.0%</td><td>11.3%</td><td>26.9%</td><td>25.9%</td><td>30.9%</td><td>23.3%</td><td>3.7%</td><td>13.6%</td><td>7.3%</td><td>0.9%</td><td>50.3%</td><td>1.0%</td></tr><tr><td>Mexico</td><td>0.9%</td><td>4.5%</td><td>34.5%</td><td>33.6%</td><td>26.6%</td><td>28.8%</td><td>7.9%</td><td>13.7%</td><td>6.3%</td><td>3.8%</td><td>32.8%</td><td>6.8%</td></tr><tr><td>Nicaragua</td><td>5.2%</td><td>7.7%</td><td>22.2%</td><td>26.3%</td><td>38.6%</td><td>34.5%</td><td>4.1%</td><td>9.9%</td><td>14.7%</td><td>3.6%</td><td>32.5%</td><td>0.7%</td></tr><tr><td>Panama</td><td>3.6%</td><td>6.6%</td><td>29.3%</td><td>33.2%</td><td>27.3%</td><td>22.4%</td><td>6.3%</td><td>12.3%</td><td>12.4%</td><td>5.2%</td><td>38.7%</td><td>2.7%</td></tr><tr><td>Paraguay</td><td>0.6%</td><td>2.6%</td><td>39.6%</td><td>29.8%</td><td>27.5%</td><td>48.6%</td><td>5.6%</td><td>9.9%</td><td>2.5%</td><td>2.8%</td><td>26.5%</td><td>4.1%</td></tr><tr><td>Peru</td><td>2.0%</td><td>6.3%</td><td>34.1%</td><td>29.2%</td><td>28.4%</td><td>41.8%</td><td>5.5%</td><td>6.3%</td><td>9.2%</td><td>2.2%</td><td>29.0%</td><td>6.1%</td></tr><tr><td>Uruguay</td><td>0.6%</td><td>4.8%</td><td>42.8%</td><td>36.6%</td><td>15.2%</td><td>21.3%</td><td>9.5%</td><td>21.1%</td><td>10.4%</td><td>20.2%</td><td>13.3%</td><td>4.3%</td></tr><tr><td>Venezuela, RB</td><td>1.1%</td><td>3.8%</td><td>23.4%</td><td>34.1%</td><td>37.6%</td><td>42.3%</td><td>12.8%</td><td>8.5%</td><td>5.5%</td><td>7.0%</td><td>21.4%</td><td>2.5%</td></tr><tr><td/><td/><td/><td/><td/><td/><td colspan=\"3\">Source: Latinobar\u00f3metro, 2020</td><td/><td/><td/><td/></tr></table>",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": ""
+      }
+    }
+  }
+}

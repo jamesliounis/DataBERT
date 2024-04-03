@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_08700: Wilmott et al 27,28 discuss an Index of Agreement (IoA) for comparing observed and modelled time series, and the IoA was used by Warner et al.\n\ns_08750: Therefore, it makes a significant contribution to the current literature on research participation.\n\ns_08800: Data used in the preparation of this article were obtained from two public datasets: the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu) and the Australian Imaging, Biomarkers and Lifestyle (AIBL) study.\n\ns_08850: The latter is based on a cross-sectional web survey that was conducted in 2014 as part of the wider Citizenship Education Longitudinal Study (CELS) (see Keating and Kerr, 2013) .\n\ns_08900: The results are presented in Table 1 and 2.\n\ns_08950: ARM data are the reference irradiance in this study, and the latest data available are used during the breakup forecast.\n\ns_09000: Data are available via Dataverse [50] .\n\ns_09050: Based on this dataset, the TCs composited by their intensification rate and environmental wind shear were analyzed to compare microwave signatures during different intensity regimes [66] .\n\ns_09100: In one such study, Kohannim et.\n\ns_09150: The questions, and the results of the related analyses, are described below.\n\ns_09200: In addition to the references cited in the body of the article, citation details for the studies reported in the tables are included in the list of references.\n\ns_09250: The sample for the current study consists of 611 men and women who underwent a comprehensive physical examination and health history assessment during their clinical visit and subsequently wore the Actiheart activity monitor for a minimum of 3 days between August 2007 and January 2011.\n\ns_09300: For this paper, as in ref.\n\ns_09350: Our analysis dataset was obtained from the ADNI standardized analysis sets described in Wyman et al.\n\ns_09400: Refer to Web version on PubMed Central for supplementary material.\n\ns_09450: GraphPad prism 7 software (GraphPad, USA) was used to perform all statistical analysis and graphics.\n\ns_09500: In a meta-analysis from China [66, 87] , incidences of acute cardiac injury were reported to be 8%; however, in another study, they included only those patients who were discharged from hospital or dead and found 17% incidence of cTnI elevation [88] .\n\ns_09550: Table 1 shows the author, sample size, measures, types of traits, attrition, and ages for each study.\n\ns_09600: 1 Online appendix table A.1 summarizes the key independent variables for both datasets both overall, and separately by gender.\n\ns_09650: We used the full set of ADNI2 baseline dataset (202 subjects, 1 failed with FreeSurfer 5.3.0), which consists of: 40 patients of AD, 37 patients of LMCI, 73 patients of EMCI and 51 subjects of CU.\n\ns_09700: We accounted for the complex sampling design by using the STATA 9.0 statistical software package (3, 7).\n\ns_09750: The PET data acquisition details can be found online in the study protocols of the ADNI project.\n\ns_09800: The study followed a case study research design and interviews were used to collect the data.\n\ns_09850: This data surveys 1737 patients for periods up to 10 years, capturing informative features extracted with Positron Emission Tomography (PET) regions of interest (ROI) scans -e.g.\n\ns_09900: 24 Rauch (2001) provides a comprehensive recent survey."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B75s6ktlmpeNLoW4GWQmhfQ5Jcsv",
+    "object": "chat.completion",
+    "created": 1682883232,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1059,
+      "completion_tokens": 191,
+      "total_tokens": 1250
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08800\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}, {\"sent_id\": \"s_08850\", \"data_mentioned\": true, \"reason\": \"Citizenship Education Longitudinal Study (CELS)\"}, {\"sent_id\": \"s_09000\", \"data_mentioned\": true, \"reason\": \"Dataverse\"}, {\"sent_id\": \"s_09050\", \"data_mentioned\": true, \"reason\": \"TCs composited by their intensification rate and environmental wind shear\"}, {\"sent_id\": \"s_09350\", \"data_mentioned\": true, \"reason\": \"ADNI standardized analysis sets described in Wyman et al.\"}, {\"sent_id\": \"s_09650\", \"data_mentioned\": true, \"reason\": \"ADNI2 baseline dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08800\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}, {\"sent_id\": \"s_08850\", \"data_mentioned\": true, \"reason\": \"Citizenship Education Longitudinal Study (CELS)\"}, {\"sent_id\": \"s_09000\", \"data_mentioned\": true, \"reason\": \"Dataverse\"}, {\"sent_id\": \"s_09050\", \"data_mentioned\": true, \"reason\": \"TCs composited by their intensification rate and environmental wind shear\"}, {\"sent_id\": \"s_09350\", \"data_mentioned\": true, \"reason\": \"ADNI standardized analysis sets described in Wyman et al.\"}, {\"sent_id\": \"s_09650\", \"data_mentioned\": true, \"reason\": \"ADNI2 baseline dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

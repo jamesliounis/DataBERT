@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05072: The aforementioned results seem to weakly contradict the findings of G\u00f6rg et al (2008) who in a sample of Irish firms found that grants tend to have an impact on the intensive margin, but not the extensive margin.\n\ns_05122: The DHS of Morocco for 2003/04 was conducted by the Ministry of Health (MOH) in collaboration with the Measure DHS program, ORC Macro, and the Pan Arab Project for Family Health (PAPFAM).\n\ns_05172: The simulation results corresponding to the four scenarios are shown in the figures below.\n\ns_05222: Participants deemed eligible through the census were selected randomly (stratified by gender, marital status, and micro-finance client status) and administered the baseline survey.\n\ns_05272: For instance, in 2013, according to GWI, 74% of the water tariffs in use in low-and middle-income countries were increasing block tariffs (IBT) and 22% uniform volumetric.\n\ns_05322: This is likely to show that the total extra resources needed is greater than the total available supplemental budget.(SUPBUD).\n\ns_05372: This last table shows that countries with currency collapses during the 1990s, such as Korea, Malaysia, Brazil, and Indonesia, were frequently re-evaluated by rating agencies.\n\ns_05422: Due to the design of the questionnaire, the method circumvents systematic biases as identified for alternative methodologies.\n\ns_05472: (2014) when evaluating the employment effects of imports and instrument FDI inflow to a host country with average FDI inflow to countries that have similar income levels and are located in the same geographic region as the host country.\n\ns_05522: The methodology for data collection was applied in four economies representing different regions: Chile, Ghana, India, and Vietnam.\n\ns_05572: Since the results using the PDII specification lead to similar conclusions to the ones we obtain using the O*NET one, we only discuss the latter because it provides a greater disaggregation of skill groups (5 vs. 3\n\ns_05622: It calculates river channel storage, floodplain storage, river discharge, river water depth, and inundated area for each grid cell at a spatial resolution of 0.25\u00b0 x 0.25\u00b0.\n\ns_05672: Este modelo general se ha utilizado previamente para estimar rendimientos a la salud y educaci\u00f3n, con la talla y a\u00f1os de estudio, respectivamente, como sus medidas, mostrando en lo general la presencia de rendimientos positivos (Croppenstedt y Muller, 2000; Dinda et al.\n\ns_05722: They are subsequently posted to the FMIS at the next highest level (e.g.\n\ns_05772: Previous literature for developed countries has found that increased use of computers increases the demand for analytical and interpersonal skills and reduces the demand for routine skills (Autor et al., 2003; Autor and Dorn, 2013; Goos et al., 2014) .\n\ns_05822: In 2016-2017, Ubfal et al.\n\ns_05872: Here we find very high significance for both level and difference estimates.\n\ns_05922: Second, the group has relatively high rates of upstream (or backward) linkage with China's manufactured exports, which averaged about 30%, higher than the corresponding linkage rates to manufactured exports of India and the United States, at 10% each in 2015 ( Figure 10 ).\n\ns_05972: Similarly, Benassy-Quere et al.\n\ns_06022: The sign and significance of the coefficient of different factors affecting mobile internet adoption are still retained after excluding those observations.\n\ns_06072: Based on novel empirical evidence and quantitative results, we have shown the critical implications of having large shares of \u2026nancially constrained individuals on the size of the STM.\n\ns_06122: Moreover, Column (2) shows that better housing conditions -proxied for by the housing PCA index -also increase the hazard rate by a similar magnitude.\n\ns_06172: Our empirical analysis relies on a conditional mixed process (CMP) model, following Roodman (2011) .\n\ns_06222: In the next section we review the related literature about vaccine hesitancy.\n\ns_06272: Column (4) takes the $1.90 line as given for all countries and updates the $1.90 line with both PPPs and updated CPIs to the 2017 reference year."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7k7bS7POzAJGafy6D5p1kc6zkSy",
+    "object": "chat.completion",
+    "created": 1682885727,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1199,
+      "completion_tokens": 104,
+      "total_tokens": 1303
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05122\", \"data_mentioned\": true, \"reason\": \"DHS of Morocco\"}, {\"sent_id\": \"s_05522\", \"data_mentioned\": true, \"reason\": \"data collection methodology\"}, {\"sent_id\": \"s_05772\", \"data_mentioned\": true, \"reason\": \"FMIS\"}, {\"sent_id\": \"s_06222\", \"data_mentioned\": true, \"reason\": \"vaccine hesitancy\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05122\", \"data_mentioned\": true, \"reason\": \"DHS of Morocco\"}, {\"sent_id\": \"s_05522\", \"data_mentioned\": true, \"reason\": \"data collection methodology\"}, {\"sent_id\": \"s_05772\", \"data_mentioned\": true, \"reason\": \"FMIS\"}, {\"sent_id\": \"s_06222\", \"data_mentioned\": true, \"reason\": \"vaccine hesitancy\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

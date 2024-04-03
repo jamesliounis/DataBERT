@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07401: The first part of the section deals with quantity studies; that is, those whose output is expressed in total yield or yield per acreage unit.\n\ns_07451: Source: OECD/DAC; World Bank, IMF.\n\ns_07501: We define the number of \"effectively covered contributors\" as the 78% of registered persons making at least one contribution in the last 12 months 5 .\n\ns_07551: It also suggests that the type and terms of the new commitments of aid and loans are appropriate from the viewpoint of servicing future obligations and financing current import needs; the average grant element of all new long term commitments increased from less than 20 percent in the early 1980s to 50 percent by the end of the decade (if actual grants are included, the overall grant element of financial flows reached more than 70 percent for SSA).\n\ns_07601: This outcome draws attention to the possibility that a portion of the productivity gains repot.ed in Table 8 may be attrbutable to measurement error.\n\ns_07651: The bid/offer prices currently quoted in the secondary market are in some sense a benchmark in indicating to a country the levels of losses that a few of its creditors are willingly accepting.\n\ns_07701: The significance of the research for operations is to demonstrate the interdependence of' If the state taxes the crop, the bcst policy is agricuiturai pricing poiicy and inarceLting 4o0aid\n\ns_07751: (see Rimuer (1989) and May (1985)\n\ns_07801: With cross-section data the absence of separate information on price and quantity may cause fewer problems than in a time series setting where constancy of price is difficult to justify as a working assun,ption.\n\ns_07851: 4.25 The little reliable data on the financial performance of NUWA available reflect a precarious situation.\n\ns_07901: The information on the tax provisions were taken from published sources so it is quite possible that the tax law has been misinterpreted in some cases.\n\ns_07951: Stated more simply, the general manager of the water utility 1/ This paper is the first of several reports based on the findiags of a research project on willingness to pay for wacer in Anambra State, Nigeria, funded by the World Bank and the USAID Water and Sanitation for Health Project (WASH).\n\ns_08001: 28 It is therefore not surprising that one of the participating banks was already subject to a recent intervention by the CBR.\n\ns_08051: Total subsidy (tax) received or paid by households by income category (million Euro/year) deciles of total per capita household expenditures 1 2 3 4 5 6 7 8 9 10 Total Total subsidy (tax), million Euro per year Scenario 1 3.1 3.3 2.5 3.0 2.9 3.3 2.9 3.6 3.2 4.8 32.6 Scenario 2 2.0 1.8 1.3 1.4 1.4 1.3 1.2 1.3 1.2 1.2 14.1 Scenario 3\n\ns_08101: From the preceding discussion, there are two key ingredients.\n\ns_08151: The Indian population in 1750 is estimated from Maddison (2003: appendix HS-8, Table 8a, p. 256) .\n\ns_08201: For those in the lowest quartile of the ability distribution, access to college is worth very little on average -about 1 percent in consumption-equivalent terms.\n\ns_08278: For example, while the NPSAS database includes disability status of respondents, the purpose of the database is to report student aid information.\n\ns_08328: The file \"Sources.xls\" in the repository reports, for each country, lists the sources used for the economic and public health measures.\n\ns_08378: In addition a recent study compared 42 traits or diseases with available large GWAS where among other findings the authors found evidence that increased BMI causally increases triglyceride levels [21] .\n\ns_08428: This may indicate that we need more features to discriminate MCI subjects from AD subjects, which means we need to decrease the size of the regions corresponding to a decreasing in the parameters w and/or \u03d5.\n\ns_08478: For secondary prevention studies, one might consider diagnostic biomarkers such as CSF Ab, tau, or both or imaging studies such as FDG-PET profile, brain amyloid load, or hippocampal or medial temporal lobe volume.\n\ns_08528: The third empirical dataset that was used for the comparison was that of the UIS which offers 257 data points on educational attainment for 127 countries.\n\ns_08578: Let y i \u2208 {0, 1} denote the class membership of the ith observation and let X i denote the corresponding vector of p classification variables.\n\ns_08628: [49][50][51][52] More research is needed to better understand the relationship between greater access to buprenorphine, greater engagement in appropriate opioid agonist treatment, and a higher number of negative consequences associated with the more widespread availability of buprenorphine."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7WKYKqXoGSZ3UtPfcQxfvyAqlHd",
+    "object": "chat.completion",
+    "created": 1682884872,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1374,
+      "completion_tokens": 52,
+      "total_tokens": 1426
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08528\", \"data_mentioned\": true, \"reason\": \"UIS\"}, {\"sent_id\": \"s_08628\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08528\", \"data_mentioned\": true, \"reason\": \"UIS\"}, {\"sent_id\": \"s_08628\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

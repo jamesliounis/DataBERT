@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03910: Under direct use value they have included: (i) Timber, (ii) Non-timber forest products, (iii) Fodder, (iv) Eco-tourism and (v) Carbon sequestration.\n\ns_03960: When we compare the descriptive statistics reported in Le, Moreno-Dodson, and Rojchaichaninthorn (2008) to the new results obtained with an extended dataset from 1994 to 2009, it can be seen that tax revenues increased by 1.5 percentage points on average; total fiscal revenues increased by 1 percentage point; trade openness increased by 4 percentage points; population grew 0.4 percentage point higher; agriculture values added became lower by 3 percentage points; and both bureaucracy quality index and corruption index improved by 1 index point.\n\ns_04010: Each period, a woman receives a utility ow from household consumption (C ), her number of children (N ), pregnancy status (p), and a time-varying preference shock ( p ) which is iid across time and women.\n\ns_04060: One very striking thing about the data on health inequalities from the World Bank's study is that, for the most part, it is the countries with the lowest average rates of under-five mortality and malnutrition that have the largest gaps between poor and non-poor children.\n\ns_04110: What is important is to seek arrangements that minimize the costs of both pillars while promoting higher efficiency.\n\ns_04160: The regressions use all the available data for all firms in our data set.\n\ns_04210: This is captured in our framework by examining the impact of higher volatility on the shape of the debt Laffer curve.\n\ns_04260: In particular, It is now possible to show that if values of A and R that occurs in the Nash equilibrium are sufficiently large, then this game can be used strategically to yield efficiency in the bilateral lending game between j and k. This entails the use of joint debt liability.\n\ns_04310: The (%) column presents the effect on economic activity that the 2008 oil price volatility increase would have had in the given scenario, while the corresponding GDP loss is stated in the '$-Loss' column.\n\ns_04360: The dependent variable is the district-sector-time fixed effect from the conditional logit in Table ( 3).\n\ns_04410: As stressed in Section 3, most of the EIAs containing a harmonization clause and included in our database involve the EU.\n\ns_04460: Table 4 reports the results.\n\ns_04510: We return to this issue and the potential explanations for the relationship between size and each of these theories, in the context of the regression analyses of Section 4.\n\ns_04560: For example, given the attention they receive in the media, one might imagine the big culprits in relation to diet are too little polyunsaturated fatty acid, and too much processed meat, trans-fatty acids, sugar-sweetened beverages and red meat.\n\ns_04610: Figure   10 shows the results for OECD countries.\n\ns_04660: For instance, Egypt's children and youth, representing more than one-third of the country\u00b4s population, face a higher risk of poverty than the general population; and the gap has widened during the past decade (World Bank, 2011).\n\ns_04710: Fortunately, the M&A FDI data that we exploit in Appendix C are available at a much more detailed sector level, allowing us to obtain a perfect correspondence between the M&A FDI data and the financial vulnerability measures.\n\ns_04760: Figures in brackets are robust standard errors clustered by state.\n\ns_04810: We now turn to the welfare comparison from the simulation using the best fit estimated MLE parameters using the SES data.\n\ns_04860: We control for personal characteristics such as education, age, gender, employment status, experience, and networks (Parker 2009) .\n\ns_04910: Section IV presents main estimation results, and Section V discusses some policy implications.\n\ns_04960: This type of approach is indeed much better suited to producing aggregate results, which usually are fairly accurate, than it is to producing individual country predictions.\n\ns_05010: The empirical model allows us to formally test these ideas and identify the key transmission channels in the data.\n\ns_05060: 2 There is also an important literature that shows that the survival of new export \"relationships\" is an important determinant of export growth, at least in developing countries.\n\ns_05110: Morocco has made some progress in collecting information about ECD, for instance, adding questions about development activities to the ENPSF, but much more comprehensive and frequent national survey data would help identify progress and challenges."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7bc1KPT7ZjcFOV8sjBtzRBLVzoh",
+    "object": "chat.completion",
+    "created": 1682885200,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1238,
+      "completion_tokens": 77,
+      "total_tokens": 1315
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03960\", \"data_mentioned\": true, \"reason\": \"extended dataset\"}, {\"sent_id\": \"s_04710\", \"data_mentioned\": true, \"reason\": \"M&A FDI data\"}, {\"sent_id\": \"s_04810\", \"data_mentioned\": true, \"reason\": \"SES data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03960\", \"data_mentioned\": true, \"reason\": \"extended dataset\"}, {\"sent_id\": \"s_04710\", \"data_mentioned\": true, \"reason\": \"M&A FDI data\"}, {\"sent_id\": \"s_04810\", \"data_mentioned\": true, \"reason\": \"SES data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

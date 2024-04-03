@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06297: The distribution of households between the four different prefectures is presented in Table 1 .\n\ns_06347: where the variables and subscripts in common have similar interpretation as in Equations 1 and 2, and the additional subscript r refers to the district or province according to the level of geographical dis-aggregation used in the analysis (provinces as the baseline estimates and districts as an additional exercise reported in the Appendix).\n\ns_06397: For recent surveys of this literature, see Iversen et al.\n\ns_06447: * Significant at 10 percent level * * Significant at 5 percent level * * * Significant at 1 percent level 2019 Notes: Dependent variable is the log of monthly electricity consumption.\n\ns_06497: As Ahrens, Hansen and Schaffer (2020) point out, regularized regressions tend to select the true model as the sample size increases.\n\ns_06547: where for each virtual activity more than 20 percent of TPOs reported it as having the largest number of applicants.\n\ns_06597: Table 3.7 with Table 3 .2 allows a determination of the range of outcomes bracketed by the fiscal adjustment/fixed current account and the no fiscal adjustment/variable current account cases.\n\ns_06647: Proponents of this approach argue that the benefits of integration could be reaped in a fragmented structure by simply ensuring that there is a high degree of cooperation and information flow between the agencies.\n\ns_06697: Estimation was done for total, portfolio and short term capital flows, using monthly data for 1990-1997 as well as foreign direct investment using quarterly data for the period 1990-19973.\n\ns_06747: Amin et al's (1994) work in thirty six villages in Bangladesh showed that membership in microcredit programs positively affected a woman's decision making role, her marital stability, her control over resources and mobility but has less impact on her attitude regarding marriage and education of their daughters.\n\ns_06797: Section 3 presents the analytical setup.\n\ns_06847: In fact, there is evidence that past diversification initiatives in Central America have been biased toward higher-potential areas and households with stronger asset bases (Tabora 1992) .\n\ns_06897: Again, the impacts are large in South Asia and (especially) Africa, though evidence presented in Section 3 suggests that we should probably be using a lower value of BRD for both these regions, at around 1.2.\n\ns_06947: Evidence either way would be helpful.\n\ns_06997: In the specification presented in column 4 we consider the possibility that households who have moved out of slums have positive unobservable attributes, such as innate ability, that distinguish them from households who did not move out.\n\ns_07047: Both the Panel and later the Appellate Body adopted a similar criterion to that of the EC, in the sense of analyzing compliance with the rules without linking the argument to the existence of a program to curb imports, which as said, was undertaken in the context of a far-reaching unilateral liberalization program undertaken before the Uruguay Round agreements were signed.\n\ns_07097: To be precise, they stem from the 12,5% Census sample of 1991 and 5% Census sample of 2000.\n\ns_07147: It is also interesting to note that the R 2 increases from 0.09 to 0.17 for all ADRs and from 0.04 to 0.20 for listed ADRs from the reduced model with only market development variables to the full model that also includes legal origin and transaction efficiency.\n\ns_07197: A comparison of Tables 2 and 3 suggests that complier households have lower education levels and fewer members than the average household in our sample.\n\ns_07247: If so, it is clear from the trends in actual policy as reflected in the EBRD indices that GATS commitments are a rather weak reed on which to base claims of lock-in or credibility.\n\ns_07297: Here the mean or the percentile of wage elasticity is based on the PC-participants sample.\n\ns_07347: \"Doha Development Agenda and Aid forTrade\" DC 2005- 0016, September 12, 2005 See for example,Hoekman, B. and Prowse, S. (2005) 'Economic policy responses to preference erosion: from trade as aid to aid for trade', World Bank Policy Research Working Paper 3721.Stiglitz and Charlton (2006) 20 The WTO Secretariat has compiled a useful tabulation of proposals.\n\ns_07397: Askari and Cummings (1978) elaborate very well on that.\n\ns_07447: In fact, the import capacity for the high group increased by only 45 percent between 1984-88 and 1989-93 despite this group being by far the largest recipient of ODA debt relief and also the group in which the largest increase in pure grants occurred (92 percent; see panel D in Table 5 ).\n\ns_07497: For example, based on 1991 accounting data for fixed and circulating assets, the three largest Chilean pension fund managers needed an average of 4.75 dollars per contributor per year to generate a 12% annual real return on physical assets and circulating capital 2 ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7TvUp5OYkoqM0Gqa7W3lpYQAMrV",
+    "object": "chat.completion",
+    "created": 1682884723,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1374,
+      "completion_tokens": 55,
+      "total_tokens": 1429
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06847\", \"data_mentioned\": true, \"reason\": \"Tabora 1992\"}] \n\nThe sentence mentions a study conducted by Tabora in 1992, which is a dataset used in the paper."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06847\", \"data_mentioned\": true, \"reason\": \"Tabora 1992\"}] \n\nThe sentence mentions a study conducted by Tabora in 1992, which is a dataset used in the paper.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05929: This paper uses a monthly series of customs-level transaction data for Malawi's imports from the EU between January 2007 to December 2018.\n\ns_05979: The author may be contacted at rchen5@worldbank.org.\n\ns_06029: Pennings (2020) also provide some similar evidence for the United States.1 0 In fact, the contemporaneous correlation between quarterly changes of real GDP and real pensions and family programs spending is 0.09 (statistically not signi\u2026cant).1 1 See Appendix 1 for description of data de\u2026nitions, sources, and time coverage for each country.\n\ns_06079: This section refers to the findings of World Bank (2019) unless noted otherwise.\n\ns_06129: In this paper, we focus particularly on the 2012 round (ELMPS 2012).\n\ns_06179: The data collected from the phone survey were analyzed by identifying correlations and conducting regression analysis.\n\ns_06229: The weights are based on the relevant data set (N = 1,374) or subsample in question (N = 889).\n\ns_06279: Data on vaccination of infants shows that in 2012, 78 percent of children aged 12 months in Guinea had a vaccination card.\n\ns_06329: First, it adds to the literature on intergenerational mobility in general (see Black & Devereux, 2011 , for a survey) but specifically to the literature focusing on the geography of socioeconomic mobility that recently received more attention in part because of the work of Chetty et al.\n\ns_06379: Please see the discussion in section 2 below.\n\ns_06429: Results are shown in Table 1 .\n\ns_06479: In the context of our study, however, given the low correlation between regressors (see table B1 in Annex B) and given that the number of observations exceeds the number of regressors, the Lasso approach is more fitting to our sample than the other techniques.\n\ns_06529: Figure 16 shows how the largest number of applications by virtual program varied across TPOs in the four income groups.\n\ns_06579: Table 3 .2 reports results for the high premium case.\n\ns_06629: They also report having been influenced by broad y similar considerations in making the move towards an integrated approach to regulation and tc having reaped many of the same benefits from this approach.\n\ns_06679: The results, together with the list of instruments, are in Table 9 .\n\ns_06729: Recent evidence from a re-survey of the same households suggests that microcredit has significantly contributed to reducing poverty (Khandker 2003) .\n\ns_06779: This section discusses the data sources and variable construction and provides a description of the pattern of Latin American lobbying and tariff preferences by country and sector.\n\ns_06829: Specifically, it is suggested to undertake the following analyses: descriptive statistical and graphical analyses of the distribution of assets and incomes among households, GIStype mapping techniques along with some simple regressions of spatial relationships, quantitative household analyses, participatory qualitative analyses of assets and livelihoods, and participatory qualitative assessments of existing CA ESSD projects.\n\ns_06879: Since Africa will be prominent in later results in this paper, it is worth exploring further why one finds a low DRD for this region using the BR method.\n\ns_06929: To derive an empirical specification, as in Das and others (2004) , the following assumptions are required.\n\ns_06979: These results are provided in column 4 of Table 6 .\n\ns_07029: 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 Source: INDEC (Instituto Nacional de Estad\u00edsticas y Censos).\n\ns_07079: The plan of the paper is as follows.\n\ns_07129: 19 Table 7 reports the estimated models for 1) All ADRs, and 2) Listed ADRs both for the OLS regression (Panel A) and for the Tobit regression (Panel B)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7A6XfPbw80loAWp6F3FJPXNM9we",
+    "object": "chat.completion",
+    "created": 1682883494,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1150,
+      "completion_tokens": 139,
+      "total_tokens": 1289
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05929\", \"data_mentioned\": true, \"reason\": \"Malawi's imports from the EU\"}, {\"sent_id\": \"s_06129\", \"data_mentioned\": true, \"reason\": \"ELMPS 2012\"}, {\"sent_id\": \"s_06229\", \"data_mentioned\": true, \"reason\": \"relevant data set\"}, {\"sent_id\": \"s_06279\", \"data_mentioned\": true, \"reason\": \"vaccination of infants\"}, {\"sent_id\": \"s_06779\", \"data_mentioned\": true, \"reason\": \"Latin American lobbying and tariff preferences\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05929\", \"data_mentioned\": true, \"reason\": \"Malawi's imports from the EU\"}, {\"sent_id\": \"s_06129\", \"data_mentioned\": true, \"reason\": \"ELMPS 2012\"}, {\"sent_id\": \"s_06229\", \"data_mentioned\": true, \"reason\": \"relevant data set\"}, {\"sent_id\": \"s_06279\", \"data_mentioned\": true, \"reason\": \"vaccination of infants\"}, {\"sent_id\": \"s_06779\", \"data_mentioned\": true, \"reason\": \"Latin American lobbying and tariff preferences\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

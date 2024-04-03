@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07326: (The nature of these will be taken up in detail below.)\n\ns_07376: It is somehow a supplement to previous literature reviews (Askari and Cummings, 1976; Bond, 1983; Chhibber, 1989; Rao, 1989, and Ogbu and Gwetibouo, 1990 ).i To evaluate different studies, we check whether they adequately deal with the issues raised above: effect of prices and exchange rates, ornitted variable misspecification, simultaneity variables biases, asymmnetric supply responses misspecification, and pooling problems when applicable.\n\ns_07426: *: Significant at 10 percent on one-tail test **: Significant at 5 percent on one-tail test ***: Marginal significance level of less than I percent Nevertheless, the last row in Table 8 reports a very interesting result, namely, that the correlation between the high group's import capacity and total grants is stronger than the one between import capacity and pure grants (see Table 6 ).\n\ns_07476: The data available shows that the average spread measured in this way was 1.273 % for the 18 months between August 1990 and January 1992, and the monthly standard deviation of the spread was 0.242 % for that period 1 0 (Dfaz and Valdes-Prieto, 1992) .\n\ns_07526: A cross-country study of SSA, 29 for the period 1967-87, using an augmented production function framework and pooled time series and cross section data study found that differences in levels of or changes in openness accounted for significant differences in economic performance in terms of the level and growth of GDP.\n\ns_07576: A paper prepared by personnel at China's State Statistics Bureau [SSB 1988 ] reports that industrial units at the township (xiang level and above are required to submit monthly reports of GVIO at constant prices.\n\ns_07626: Such additional resources would be used for interest sUp ort in connection with DDSR.\n\ns_07676: For instance, for the example given in Table 1 , col. 5, the summary statistics 6 That is, the difference in II between cols.\n\ns_07776: For a discussion seeStelcner and Moock (1988),Moock, Musgrove, and Stelcner (1989), andFreeman and Norcliffe (1985).\n\ns_07826: A summary of the cost estimates is provided in Table 2 .1.\n\ns_07876: Although the theory developed in this paper could be easily generalized for this case, an empirical application would require measuring the the cost of funds for a foreign company.\n\ns_07926: R CK3-200VENDORS - 9.900 t +7500 U E 0.11003541 _ _ *oo 0.075hCC _S .\n\ns_07976: See Kane / Demirguc-Kunt (2001) 29 See FinancialIzvestia (2005)\n\ns_08026: Ideally we would want to have data on household consumption of electricity at different price levels to estimate the demand for electricity.\n\ns_08076: See Calder\u00f3n and Serv\u00e9n (2007).\n\ns_08126: The Chinese result is driven in part by the available data which focus on the income of Chinese gentry, the top 2 percent of the population.18 Note that the high intercept of the line indicates a very high income share of the very top (people even richer than the top 1 percent).\n\ns_08176: (See Figure 1 on the following page.)\n\ns_08226: This volume gives voice to a small selection of the efforts now happening across the country, many of which have picked up and built upon the seven characteristics of successful programs in college calculus identified in the MAA Notes volume edited by Bressoud, Mesa, and Rasmussen in 2015 [2].\n\ns_08253: Following the tables, we provide a descriptive overview of each survey.\n\ns_08303: The dataset can also be related to datasets tracking more specifically government interventions in the economy 5, 9 .\n\ns_08353: Finally all datasets were combined in a mega analysis also controlling for study.\n\ns_08403: In this study, we used FDG-PET images for AD, MCI and CN subjects, retrieved from the ADNI database.\n\ns_08453: However, available phase 2 data would suggest if these compounds are going to have diseasemodifying effects and improve the course of cognitive decline in this patient population, the effect is going to be quite modest.\n\ns_08503: The WIC 2015 dataset was validated and compared against some empirical datasets namely IPUMS, NSOs, and UIS (see Figure 8 )."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B786T7m6MeAWSzyvNvUhHO7LcHpS",
+    "object": "chat.completion",
+    "created": 1682883370,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1265,
+      "completion_tokens": 112,
+      "total_tokens": 1377
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08303\", \"data_mentioned\": true, \"reason\": \"datasets tracking more specifically government interventions in the economy\"}, {\"sent_id\": \"s_08353\", \"data_mentioned\": true, \"reason\": \"all datasets were combined\"}, {\"sent_id\": \"s_08403\", \"data_mentioned\": true, \"reason\": \"ADNI database\"}, {\"sent_id\": \"s_08503\", \"data_mentioned\": true, \"reason\": \"WIC 2015 dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08303\", \"data_mentioned\": true, \"reason\": \"datasets tracking more specifically government interventions in the economy\"}, {\"sent_id\": \"s_08353\", \"data_mentioned\": true, \"reason\": \"all datasets were combined\"}, {\"sent_id\": \"s_08403\", \"data_mentioned\": true, \"reason\": \"ADNI database\"}, {\"sent_id\": \"s_08503\", \"data_mentioned\": true, \"reason\": \"WIC 2015 dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

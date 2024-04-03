@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04336: Our paper is also related to the literature estimating spillover effects in enrollment decisions.\n\ns_04386: The results are reported in Table 2 .\n\ns_04436: At the conclusion of the survey and experiment, participants were then told about the new EduPay product, provided with some related marketing material and, if they wanted to use this new product, asked to sign two forms: (i) a general information form on the sponsorable student(s) and (ii) an authorization form required by PAPSCU to obtain all relevant information on the student (e.g., their school ID number) from the schools so as to implement EduPay.\n\ns_04486: The analysis in the current paper is based on a survey of firms that was conducted between the second half of 2007 and the first quarter of 2008 in 16 European Union countries, 14 of which included the questions analysed here on the reasons for avoiding wage cuts.\n\ns_04536: The response of de Barros et al.\n\ns_04586: (2012) extend Chan and Tong's (1986) early work on Threshold Autorregresive Models (TAR) to a multivariate setting in order to create a Threshold SVAR (TSVAR) model.\n\ns_04636: The decomposition method outlined earlier allows us to estimate the contribution of each circumstance to the estimated D-Index.\n\ns_04686: Data have been downloaded from the UNCTAD Investment Map website in November 2007.\n\ns_04736: As survey data do not include the year of marriage by generation II, age is used as a proxy with two cut-offs corresponding to a marriage age of 30 (in col. 1 and 2) or 20 (in col. 3 and 4), respectively.\n\ns_04786: 0 As mention earlier, when we use the Townsend-Thai data, we also search over a grid of 20 scaling factors for the mitial distribution of wealth.\n\ns_04836: These data are generated through stratified samples of 2,000 individuals surveyed per country.\n\ns_04886: Instrumental variable spatial autoregressive estimation is performed; the results are shown in Table 4 .\n\ns_04936: For water, sanitation and mobile phones however, we cannot reject the hypothesis that they are equal, and therefore run the regression on the world sample.\n\ns_04986: (2014) provide a further elaboration and present a more complex diagram.\n\ns_05036: For this approach to be valid, the underlying distribution of the predicted probabilities, the propensity score, should approach normality and the mean propensity score for the treated and control groups should be statistically similar.\n\ns_05086: These indicators were selected due to their important contributions to ECD while keeping in mind the limitations of the data.\n\ns_05136: The total effective investment is given by (9) There are many studies that have studied the efficiency of public sector (for example Afonso, Ludger Schuknecht and Tanzi (2005, 2010) etc.).\n\ns_05186: 2011; Gertler and van der Gaag 1990; Sauerborn et al.\n\ns_05236: Table   2 illustrates this diversity by focusing on the distribution of countries along two dimensions: the existence of a separate regulatory agency and some experience with PPP.\n\ns_05286: To answer this question, the states were classified into three categories, depending on the size of their net gain per student.\n\ns_05336: The panel regression results for the country risk are reported in The crises of the 1990s and the speed at which a crisis in one country engulfed the region and even spread around the globe have spawned a still growing literature on contagion.\n\ns_05386: Assuming that the context of a comprehensive list is a better estimate, the response bias could be corrected for.\n\ns_05436: Using sectoral FDI data, Blonigen et al.\n\ns_05486: Second, data was to be collected through a representative survey of citizens who would answer questions about their own experiences (user data).\n\ns_05536: The use of multiple survey years per country allows us to increase the number of observations substantially, and thereby to increase the precision of our estimates in a cross-country regression setting and to control for unobserved heterogeneity across countries."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Lo4t3Zx4wKbIg89idYctpu2VIN",
+    "object": "chat.completion",
+    "created": 1682884220,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1162,
+      "completion_tokens": 55,
+      "total_tokens": 1217
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04836\", \"data_mentioned\": true, \"reason\": \"stratified samples\"}, {\"sent_id\": \"s_05436\", \"data_mentioned\": true, \"reason\": \"sectoral FDI data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04836\", \"data_mentioned\": true, \"reason\": \"stratified samples\"}, {\"sent_id\": \"s_05436\", \"data_mentioned\": true, \"reason\": \"sectoral FDI data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03520: 3 And when discussing the impact of financial structure on growth, the literature, at least until very recently, generally concluded that function matters more than form.\n\ns_03570: Tables 4, 5 and 6 present alternative specifications and robustness checks.\n\ns_03620: In this paper we examine whether the global trends described above have led to an increase in co-dependence in default risk of commercial banks around the world.\n\ns_03670: Only about 6 percent of its exports enjoy preferential accesswhich is significantly below the world average, and low compared to other large traders, such as the European Union (13 percent), United States (22 percent), India (26 percent) and Brazil (15 percent) (Table 4) .\n\ns_03720: They find that the cumulative impact of multipliers over five years is higher during the recession, ranging from 1 to 1.5 (versus 0 to 0.5 during boom periods).\n\ns_03770: But this is just one study, with a fairly narrow empirical base, and we do not have sufficient information to extend it further.\n\ns_03820: For more on current LNG trading trends, seeBanaszak (2001).\n\ns_03870: But coefficient magnitudes are similar to those in the gender-pooled sample of column 6, Table 6 .\n\ns_03920: This section examines each of these categories of losses with the available data.\n\ns_03970: With the new dataset, the total number of observations for tax revenue increases from 982 to 1,437, corresponding to almost 50 percent improvement.\n\ns_04020: Delavande and Kohler (2009) nd that the reported subjective expectations follow basic properties of probabilities and that the assessments of HIV-infection vary meaningfully with observable characteristics associated with dierent levels of HIV prevalence.\n\ns_04070: Comparing the results of different studies is thus somewhat heroic and runs the risk of showing spurious differences due to differences in assumptions.\n\ns_04120: In the absence of hard facts, one falls back on intuition and inference from observed behavior.\n\ns_04170: These trends for China and India are consistent with the evidence in the growing literature on the overall patterns of financial development.\n\ns_04220: Although we do not have firm evidence that verification and enforcement costs of loan contracts increased in the region in the aftermath of the crisis, it is plausible indeed that such costs rose significantly.\n\ns_04270: The probability of the project being successful is p and we will assume that p depends on the effort, e, that the borrower, namely, country j, puts in: p = p(e), p (e) > 0, p (e) < 0.\n\ns_04320: As both variables have been found to be stationary, the test is based on the standard ( ), with selected according to the Bayesian Information Criterion.\n\ns_04370: Both Gustavo J Bobonis & Frederico Finan (2009) and Rafael Lalive & M Alejandra Cattaneo (2009) use random placement of the PROGRESA program to identify large and positive spillover effects in enrollment.\n\ns_04420: The performance of the Poisson estimator has been challenged in the literature on the grounds that Santos Silva and Tenreyro (2006) do not consider the case in which the dependent variable has a substantial proportion of zero values.\n\ns_04470: The second objective was to attempt to unbundle the different features of the EduPay product, in order to determine whether any positive responsiveness to EduPay was driven by the ability to channel funds directly to schools, or whether EduPay simply provided a way for migrants to label that a transfer was intended for education.\n\ns_04520: This is consistent with evidence for the US discussed in Bewley (2004) .\n\ns_04570: But a more important point is that analogous criticisms can be made to this approach as were applied to the first approach discussed in Section 3.\n\ns_04620: Since we estimate properties of a given regime using in part information from another regime, our estimates may be biased.\n\ns_04670: Therefore, the maximum value HOI can take is the average coverage rate by a particular basic service (i.e., ).\n\ns_04720: 78 Rajan and Zingales (1998) , KLK: Kroszner et al."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7iEBzuJWXg1jk7rV1dDNo9cJeUZ",
+    "object": "chat.completion",
+    "created": 1682885610,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1172,
+      "completion_tokens": 127,
+      "total_tokens": 1299
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03970\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_04520\", \"data_mentioned\": true, \"reason\": \"US\"}, {\"sent_id\": \"s_04420\", \"data_mentioned\": true, \"reason\": \"Poisson estimator\"}] \n\nExplanation: \n- s_03970 mentions a new dataset that improves tax revenue observations.\n- s_04520 cites evidence for the US from Bewley (2004).\n- s_04420 mentions a challenge to the Poisson estimator in the literature."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03970\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_04520\", \"data_mentioned\": true, \"reason\": \"US\"}, {\"sent_id\": \"s_04420\", \"data_mentioned\": true, \"reason\": \"Poisson estimator\"}] \n\nExplanation: \n- s_03970 mentions a new dataset that improves tax revenue observations.\n- s_04520 cites evidence for the US from Bewley (2004).\n- s_04420 mentions a challenge to the Poisson estimator in the literature.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

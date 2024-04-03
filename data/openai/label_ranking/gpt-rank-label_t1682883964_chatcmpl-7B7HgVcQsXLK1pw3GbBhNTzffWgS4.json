@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_08259: Although the list provided is not exhaustive, the databases presented in this brief illustrate that information is being collected at important points in time during a student's educational career.\n\ns_08309: The verifications on the first versions of the dataset are listed in the Stata do file \"verif.do\" in the former version of the dataset in the GitHub repository.\n\ns_08359: This method has been widely used, both confirming and refuting suggested causal relationships based on epidemiological findings [19] .\n\ns_08409: This is due to the choice of the clustering algorithm, which is a variant of the DB-SCAN (density-based spatial clustering of applications with noise) called XMT-DBSCAN (Tran et al., 2012) .\n\ns_08459: Based on current data, we know that APOE 34 genotype, low CSF Ab42, and increased PET amyloid tracer binding in the brain, all confer substantially increased risk for the progression of preclinical AD to mild cognitive impairment (MCI) and MCI to AD (Blennow, 2004; De Meyer et al., 2010; Romas et al., 1999; Storandt et al., 2009) .\n\ns_08509: The resulting dataset represents the state of the world education according to ISCED 1997.\n\ns_08559: These experiments were applied to three data sets: (1) FreeSurfer data (98 variables), (2) RBM data (146 variables), and (3) combined FreeSurfer and RBM data (244 variables, a simple concatenation of the two modalities).\n\ns_08609: 18,21 Under DATA2000, physicians (hereafter referred to as \"waivered physicians\") who completed an approved course or who had a board certification in addiction medicine or addiction psychiatry were waivered from the special registration requirements in the Controlled Substances Act.\n\ns_08659: To achieve this will require reliable and valid information obtained through systematic and collaborative research across nations.\n\ns_08709: Although no single set of statistics can quantify model performance perfectly, several, easily-calculated quantities have been chosen that provide relevant information on the important categories of model behaviour.\n\ns_08759: This is the first study to examine factors related to research participation, opportunity, and willingness in a large representative sample in a relatively rural and diverse state.\n\ns_08809: For the cross-sectional analysis, the mean value of all pairwise comparisons of baseline sessions of all AD subjects gave the inter-subject similarity measure.\n\ns_08859: If others (e.g., France and Roberts, 2015; Franceschelli, 2017) have already highlighted how-during times of change and austerity-social class continues to shape the opportunities of young people, our analysis suggests that it can also influence their individual identity and sense-making mechanisms, as well as how they comprehend the social world (Franceschelli, Evans and Schoon, 2016) .\n\ns_08909: Other arguments suggests that the Poisson (the law of rare events, Taylor and Karlin 1998) and the power law (which fits a wide variety of data as demonstrated in point 2) are also common null hypotheses.\n\ns_08959: The analysis of breakup in these studies was typically constrained by the types of observations (ground based, remote sensing) available for a particular location, with little intercomparison between different types of observations and very few long-term studies of changes in breakup dates.\n\ns_09009: Our guiding theoretical considerations informed the development of this variable [27] [28] [29] [41] [42] [43] [44] [45] [46] [47] .\n\ns_09059: A good review of TC rainfall's structure, intensity, and forecasts was recently reported [21] .\n\ns_09109: The PLS problem is given by:\nThe subsequent directions are found by removing the component extracted (deflating the data) both in space, M and the clinical response space, Y as:\nThe solution to this covariance maximization problem is the Singular Value Decomposition (SVD) of the cross covariance matrix.\n\ns_09159: SAMPLING 9 2012/17 BEGINNING POSTSECONDARY STUDENTS LONGITUDINAL STUDY (BPS:12/17) DATA FILE DOCUMENTATION\n\ns_09209: (See also Falck-Zepeda, 1999.)\n\ns_09259: This study examined the relationship between daily activity and age, accounting for mobility, employment, and common age-related health factors, using cumulative activity counts and median counts per minute.\n\ns_09309: For each longitudinal group of data and their derived deformation field and Jacobian determinant, we computed the coefficients given in Eqs.\n\ns_09359: 2 Data used in preparation of this article were obtained from the Alzheimer's Disease\nNeuroimaging Initiative (ADNI) database (adni.loni.ucla.edu).\n\ns_09409: This information could not be gained from previous studies, most of which used BMI as one covariate among others, without reporting its estimate in multivariate models 12, [34] [35] [36] [37] [38] [39] .\n\ns_09459: The libraries were prepared using pooled amplicons with Nextera DNA Flex Library Prep Kit (Illumina, San Diego, CA) and sequenced on an Illumina Nextseq 500 (Illumina, USA) platform with a 2x150 Cycle Kit (Gen Era Diagnostics Inc., Turkey)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7HgVcQsXLK1pw3GbBhNTzffWgS4",
+    "object": "chat.completion",
+    "created": 1682883964,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1413,
+      "completion_tokens": 170,
+      "total_tokens": 1583
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08509\", \"data_mentioned\": true, \"reason\": \"ISCED 1997\"}, {\"sent_id\": \"s_08559\", \"data_mentioned\": true, \"reason\": \"FreeSurfer data\"}, {\"sent_id\": \"s_08559\", \"data_mentioned\": true, \"reason\": \"RBM data\"}, {\"sent_id\": \"s_08559\", \"data_mentioned\": true, \"reason\": \"combined FreeSurfer and RBM data\"}, {\"sent_id\": \"s_08609\", \"data_mentioned\": true, \"reason\": \"DATA2000\"}, {\"sent_id\": \"s_09359\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08509\", \"data_mentioned\": true, \"reason\": \"ISCED 1997\"}, {\"sent_id\": \"s_08559\", \"data_mentioned\": true, \"reason\": \"FreeSurfer data\"}, {\"sent_id\": \"s_08559\", \"data_mentioned\": true, \"reason\": \"RBM data\"}, {\"sent_id\": \"s_08559\", \"data_mentioned\": true, \"reason\": \"combined FreeSurfer and RBM data\"}, {\"sent_id\": \"s_08609\", \"data_mentioned\": true, \"reason\": \"DATA2000\"}, {\"sent_id\": \"s_09359\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

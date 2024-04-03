@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06322: T-tests of means reject the null that there is one group with a different mean than the other, for each of the 6 different classes tested.\n\ns_06372: In this section, I explore a set of correlates of regional IGM with the aim of uncovering a set of stylized facts that help characterize its geography.\n\ns_06422: Please see section 2 below.\n\ns_06472: Cicala (2020) for instance shows that the COVID pandemic led to a substantial increase in electricity consumption by residential customers in the United States.\n\ns_06522: Ultimately, we provide insights on the extent to which the significance and precision of results are sensitive to different estimation and prediction methodologies.\n\ns_06572: First, there is significant heterogeneity in TPOs' size in terms of budget: the budget of the median TPO in high-income countries is 20 times larger than that of the median TPO in low-income countries.\n\ns_06622: Given new product prices, exports and private consumption are estimated as described in the previous section.\n\ns_06672: As already stressed at a number of points in th.is paper, there is a premium on high quality management who can make an integrated supe:rwisory authority a reality.\n\ns_06722: The insignificance of the growth of real GDP variable stands in contrast to some other country studies (see for example Corbo and Desormeaux 1996) and seems to be suggestive of the fact that, the most important pull factor of capital flows is the short run interest rate differential rather than growth opportunities in the economy.\n\ns_06772: For instance, the net contribution of micro-credit on moderate poverty for non-participants is a small decline of 1.1 percentage points between 1991/92 and 1998/99 compared to a decline of 8.5 percentage points by borrowers in the same village.\n\ns_06822: Because the contribution data is only available at the 3-digit ISIC level, we needed to filter our tariff preferences from the 8-digit HS level to the 3-digit ISIC level.\n\ns_06872: Migration has been an important strategy for many rural poor in Central America, accounting for much of the reduction in rural poverty during the 1990s(de Janvry and Sadoulet, 2001).\n\ns_06922: As we will see, even this conceptually straightforward approach faces some severe data limitations, which generate considerable uncertainty about the poverty impacts of demographic change.\n\ns_06972: However, our sample of non-movers is different from the movers (see table 3): since the policy of teachers remaining with the same cohort of students was implemented in larger schools, the non-movers tend to be concentrated in urban areas and come from households that are one-third of a standard deviation richer on average.\n\ns_07022: For four cities in India in the mid 1980s, Lall (1989) shows that this proportion was higher in smaller towns due to lower overall incomes as well as the limited potential for institutional financial support.\n\ns_07072: Summing-up, the determinations by the Appellate Body concluded that Argentina was not able to prove an increase in imports, serious injury and causality.\n\ns_07122: Figure 1 and tables 1-5 illustrate the geographic diversity of Brazil's labor market dynamics over the period 1991-2000, a diversity we seek to explain.\n\ns_07172: Panel A shows summary statistics of the emerging market funds segregated by Morningstar classification.\n\ns_07222: The mean coefficient on X i from one hundred repetitions of this simulation is 0.496, implying proportional attenuation of 0.504 in the estimated cross-sectional relationship between enrollment and log household income.\n\ns_07272: group (d)) so far, i.e., the countries where such multilateral monitoring is most needed.\n\ns_07322: In our empirical analysis, the reduction of information asymmetry is represented by bidding and targets which focused on profits.\n\ns_07372: In the documents that outlined the new negotiations WTO Ministers devoted more space to implementation than to agriculture, services and non-agricultural market access, combined.\n\ns_07422: Given the positive relationship between export crop price and food production Jaeger (1992) observes for a sample of Sub-Saharan African countries (see table 4 in Jaeger, 1992) , he claims that export crop and food crop are complements.\n\ns_07472: For details see Appendix 1.\n\ns_07522: If the information in table 6 is analyzed together with that in table 4, it can be seen that the structure of commissions is misaligned with respect to the structure of costs, as most charges are proportional to wages while few costs are."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7kCjxNkSswXAg6zuwcNkjgl6KWJ",
+    "object": "chat.completion",
+    "created": 1682885732,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1248,
+      "completion_tokens": 53,
+      "total_tokens": 1301
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07422\", \"data_mentioned\": true, \"reason\": \"Sub-Saharan African countries\"}, {\"sent_id\": \"s_07522\", \"data_mentioned\": true, \"reason\": \"table 6\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07422\", \"data_mentioned\": true, \"reason\": \"Sub-Saharan African countries\"}, {\"sent_id\": \"s_07522\", \"data_mentioned\": true, \"reason\": \"table 6\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

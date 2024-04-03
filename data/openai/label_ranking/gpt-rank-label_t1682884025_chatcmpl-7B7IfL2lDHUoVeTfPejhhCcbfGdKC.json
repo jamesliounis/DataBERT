@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02000: This revealed a multiple R of .31 with an adjusted R 2 of 0.71 (F(3,111) = 3.89, p < .011).\n\ns_02050: It is being evaluated in a clinical trial (NCT04335136) for COVID-19 treatment.\n\ns_02100: Data from Guatemala were obtained from the National Cancer Institute (IN-CAN), which is a national referral center for cancer treatment with records of all new patient consultations in their hospitals and clinics.\n\ns_02150: This study also was cited in policy documents.\n\ns_02200: However, evidence is sparse, cross-sectional, and mostly in men.\n\ns_02233: The mean FDG-PET counts were extracted from each ROI and divided by a pons-vermis reference region.\n\ns_02283: These elevation data were used to generate a composite elevation model depicting the study area in 1609.\n\ns_02333: The following analyses were conducted in the cohort (n = 280).\n\ns_02383: Computers 691 and Geosciences, 34, 1284-1306. doi.org/10.1016/j.cageo.2008.02.012.\n\ns_02433: Several sensitivity analyses were performed to determine the robustness of our findings (see Appendix for details).\n\ns_02483: All simulations parameters are provided in Supplementary Table 1 .\n\ns_02533: The results relate to the KYF2 program by showing that the producer's level of local sales within 100 miles of the farm increases the visits to private information providers at the 50% z a -quantile.\n\ns_02583: In the study presented in this article, statistically significant relationships between BPH and the diagnostic parameters of the metabolic syndrome were demonstrated.\n\ns_02633: Yet, some studies, conversely, showed decreased cortisol following stressful life events (Miller et al., 2007; Daskalakis et al., 2013) .\n\ns_02683: The third section describes our methods and data and presents our forecasts of test score distributions and admissions outcomes 25 years from now.\n\ns_02733: We were able to document changes across the entire Lake Superior basin for the decade between the early 1990s and early 2000 using exist-ing land cover data from the U.S. and Canada.\n\ns_02783: Household SES was measured at wave 1 using a composite index created by ECLS-B reflecting mother's and father's education, mother's and father's occupation, and household income.\n\ns_02833: All analyses were conducted through path models in Mplus which allows for the use of sampling weights, adjusts for complex sample designs, and includes procedures for handling missing data (Muth\u00e9n and Muth\u00e9n 2006 ).\n\ns_02883: Data from the supplement show that 44.4 percent of individuals in the U.S. have Internet access, up from 32.7 percent in December 1998.\n\ns_02933: Interested readers can compute the t statistic between estimates from various subgroups presented in the tables using the following formula: Pl.P2 SQRT (set * sel + se2 * se2) where P1 and P2 are the estimates to be compared and se 1 and se2 are their conespcmding standard arms.\n\ns_02983: The calculated values for the participation of teachers in any training programs, the class, the number of pupils in the class and the number of pupils present on the monitoring day, attendance by Director of Studies and Methodologist using the Chi-Square statistical method are higher than the values of the Table by 0 .05, which indicates the weight of these components in monitoring support (see Table 2 ).\n\ns_03033: IRCCS Mondino, Pavia; OU8, University of Naples, Naples; OU9, Centro Neurolesi \"Bonino-Pulejo\", Messina.\n\ns_03083: This assumption can be related again with the regions that in the last years had less intensive production systems.\n\ns_03133: Turner and Weninger(2005) do an empirical test of this theoretical model using data on the participation of \u2026rms in public regulatory meetings.\n\ns_03183: Figure 15 illustrates three probability densities for prices conditional on current prices at, respectively, 74%, 94%, and 114% of the mean generated by a numerical model of competitive storage."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7IfL2lDHUoVeTfPejhhCcbfGdKC",
+    "object": "chat.completion",
+    "created": 1682884025,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1173,
+      "completion_tokens": 122,
+      "total_tokens": 1295
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02100\", \"data_mentioned\": true, \"reason\": \"National Cancer Institute (IN-CAN)\"}, {\"sent_id\": \"s_03133\", \"data_mentioned\": true, \"reason\": \"data on the participation of \u2026rms in public regulatory meetings\"}] \n\nThe sentence s_02100 mentions the dataset \"National Cancer Institute (IN-CAN)\" clearly and unambiguously. The sentence s_03133 mentions a dataset related to \"data on the participation of \u2026rms in public regulatory meetings\" clearly and unambiguously."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02100\", \"data_mentioned\": true, \"reason\": \"National Cancer Institute (IN-CAN)\"}, {\"sent_id\": \"s_03133\", \"data_mentioned\": true, \"reason\": \"data on the participation of \u2026rms in public regulatory meetings\"}] \n\nThe sentence s_02100 mentions the dataset \"National Cancer Institute (IN-CAN)\" clearly and unambiguously. The sentence s_03133 mentions a dataset related to \"data on the participation of \u2026rms in public regulatory meetings\" clearly and unambiguously.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

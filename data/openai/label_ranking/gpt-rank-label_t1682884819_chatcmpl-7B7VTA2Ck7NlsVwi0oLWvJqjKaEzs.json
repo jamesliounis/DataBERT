@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04900: The estimated coefficients turned out to be broadly similar to the above (Table 5 ).\n\ns_04950: The 1994 World Development Report estimated that developing countries spent on average 4% of GDP on 7Note however that we are much more confident about regional or income group averages than we are about individual country results.\n\ns_05000: Table 2 shows that, in line with our hypothesis, higher participation in GVCs is related to lower elasticity of manufacturing exports to REER.\n\ns_05050: In order to confidently address the selection issue in the next section, we highlight results that are consistent across the three different propensity matching approaches.\n\ns_05100: While the contributions of different background characteristics vary over time and across the measures of ECD, a number of consistent patterns stand out.\n\ns_05150: The PWT 8.1 reports the index based on the Barro-Lee method that takes into account both the years of schooling as well as returns on education.\n\ns_05200: Individuals without valid income data were imputed to be the median and regressions were run with a dummy variable indicating the missing value.\n\ns_05250: (2015) ; relying on a meta-analysis of studies measuring households' willingness to pay for cleaner water, they find that it is often less than the cost of providing the service.\n\ns_05300: These figures indicate the size of the adjustment that needs to be made by the losers and the amount of assistance that they would require to ease the transition.\n\ns_05350: For example, Cantor and Packer (1996) and Reisen and Von Maltzan (1997) and (1999) examine the effects of rating changes of sovereign debt and find a significant effect on bond yield spreads.\n\ns_05400: Previous consumption surveys in the same country or consumption shares of neighboring / similar countries can be used to estimate food shares.\n\ns_05450: Another study by Javorcik and Spatareanu (2008) finds that ownership structure can also be a mediating factor.\n\ns_05500: Further details on surveys and variables can be found in the appendices.\n\ns_05550: The dependent variable \u2206 , ,\n\ns_05600: Time period (1986) (1987) (1988) (1989) (1990) (1991) (1992) (1993) (1994) (1995) (1996) (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) to (2016-2035) is shown in Figures 5a and 5b whereas time period (1986) (1987) (1988) (1989) (1990) (1991) (1992) (1993) (1994) (1995) (1996) (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) to (2036-2055) is shown in Figures 5c and 5d .\n\ns_05650: Tambi\u00e9n se document\u00f3 una reducci\u00f3n en la prevalencia de sobrepeso entre ni\u00f1as y ni\u00f1os (Fernald, Gertler y Neufeld, 2008 y 2009 .\n\ns_05700: Such an approach could yield a very high budget coverage despite focusing only on a limited number of transactions.\n\ns_05750: Finally, information on computer use at the household level (technology variable) from 2005 to 2015 comes from the Indonesian National Socio-Economic Survey (Susenas).\n\ns_05800: Due to its simplicity, it has been widely used to inform the debate on the pricing of health products (See Dupas and Miguel (2017) for a recent survey).\n\ns_05850: Brickworks are another frequentlycited source of PM2.5 in the region and their emissions are undoubtedly included in the PM2.5 baseline value reported in Table 5 .\n\ns_05900: Focusing on Figures 6 and 7, the rate of linkages in 2015 was substantially higher for the non-resource rich group in food and beverages and in textiles and apparel than for the benchmark group.\n\ns_05950: Figure 5 displays the dependent variable over product types in our time sample.\n\ns_06000: Given the rapid pace of change in the ICT sector, analysis is confined to the most recently available data for the year 2017, based on cross-sectional estimation.\n\ns_06050: Lastly, as the shock persistence has played a role in the literature in explaining the heterogeneity of the size of the multipliers (Coenen et al, 2012; Romer and Romer, 2016; Alesina et al., 2017;\n\ns_06100: Overall, our ability to put together a comprehensive data set with key dimensions (micro-characteristics of refugees, conflict dynamics, and the conditions in the countries of asylum and origin) has made the analysis of return decisions possible."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7VTA2Ck7NlsVwi0oLWvJqjKaEzs",
+    "object": "chat.completion",
+    "created": 1682884819,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1332,
+      "completion_tokens": 139,
+      "total_tokens": 1471
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05150\", \"data_mentioned\": true, \"reason\": \"PWT 8.1\"}, {\"sent_id\": \"s_05750\", \"data_mentioned\": true, \"reason\": \"Indonesian National Socio-Economic Survey (Susenas)\"}, {\"sent_id\": \"s_05800\", \"data_mentioned\": true, \"reason\": \"health products\"}, {\"sent_id\": \"s_05850\", \"data_mentioned\": true, \"reason\": \"PM2.5\"}, {\"sent_id\": \"s_05950\", \"data_mentioned\": true, \"reason\": \"dependent variable\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05150\", \"data_mentioned\": true, \"reason\": \"PWT 8.1\"}, {\"sent_id\": \"s_05750\", \"data_mentioned\": true, \"reason\": \"Indonesian National Socio-Economic Survey (Susenas)\"}, {\"sent_id\": \"s_05800\", \"data_mentioned\": true, \"reason\": \"health products\"}, {\"sent_id\": \"s_05850\", \"data_mentioned\": true, \"reason\": \"PM2.5\"}, {\"sent_id\": \"s_05950\", \"data_mentioned\": true, \"reason\": \"dependent variable\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

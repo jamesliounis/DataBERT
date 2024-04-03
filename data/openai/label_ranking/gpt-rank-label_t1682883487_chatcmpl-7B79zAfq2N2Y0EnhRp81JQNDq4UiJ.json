@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03429: Table 1 presents the ordinary least squares (OLS) estimates of equations (15) and (18) , along with the values of the ordinary and adjusted R 2 statistics.\n\ns_03479: The rest of the paper is organized as follows.\n\ns_03529: Third, cross-country studies based on aggregate data suggest that plant-dynamics are a key determinant of the depth and duration of crises (Bergoeing et al.\n\ns_03579: The rest of the paper is organized as follows.\n\ns_03629: See also WTO (2010) andStewart (2010).\n\ns_03679: These studies tend to be costly, particularly for complex projects (see World Bank 2011c).\n\ns_03729: In this paper we try to address these two issues.\n\ns_03779: I POLIcY RESEARCH WORKING PAPER 2712\n\ns_03829: An important question is whether the key results (in Table 6 ) on the impact of days to first disbursement on revisions could be driven entirely by selection, since both these variables are statistically significantly related to revisit success.\n\ns_03879: 17.8 million) and this figure was applied in the report.\n\ns_03929: When we compare these results with the correlation values reported in Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , which covered a shorter time period and a smaller sample of countries, it can be seen that the correlation between tax revenues and all other variables drops; it is especially true for GDP per capita.\n\ns_03979: My analysis is most closely related to studies that model fertility decision-making as a sequential process (Heckman and Willis (1974) ) and studies of fertility in environments with non-negligible infant and child mortality risk (Wolpin, 1984; Sah, 1991; Mira, 2007) .\n\ns_04029: \"See (Castro-Leal and others 2000, Sahn and Younger 2000, Yaqub 1999) for recent multicountry BIA studies or survers of the health sector.\n\ns_04079: The paper highlights the differences in approach around the world, belying any claims of uniform solutions (Orszag and Stiglitz 2001) .\n\ns_04129: We then match the SDC Platinum data on the use of capital markets with the Bureau van Dijk Orbis data on annual firm-level balance sheet information for publicly listed companies from 2003 to 2011.\n\ns_04179: 7As shown in the Appendix, results qualitatively similar to those derived below continue to hold in the case where the old debt has seniority.\n\ns_04229: This was the requirement that R be sufficiently large for our solution to work.\n\ns_04279: for ,1,2 ) are presented in the lower panel of Table 4 .\n\ns_04329: Yet numerous studies, particularly in the health literature, have posited a trade-off between free provision and reduced quality of public services (Chris D James, Kara Hanson, Barbara McPake, Dina Balabanova, Davidson Gwatkin, Ian Hopwood, Christina Kirunga, Rudolph Knippenberg, Bruno Meessen, Saul S Morris et al.\n\ns_04379: The next section surveys the literature to highlight our contribution.\n\ns_04429: Here is the mean outcome (e.g.\n\ns_04479: An advantage that this study has over earlier work in this area is the use of cross-country data gathered as part of a harmonised survey designed specifically to examine wage setting practices across firms.\n\ns_04529: Although the empirical analysis to which the literature has given rise is useful and is to be welcomed, current methods for quantifying and implementing the concept with a view to informing the policy discourse face a series of fundamental questions that remain unanswered.\n\ns_04579: 8 The sources of data for government spending and GDP (for both OECD and developing countries) are IFS (IMF), Global Financial Data, Datastream, as well as local sources such as Central Banks.\n\ns_04629: Second, the paper draws on the concept of the human opportunity index (see Barros et al., 2009; Molinas et al., 2010) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B79zAfq2N2Y0EnhRp81JQNDq4UiJ",
+    "object": "chat.completion",
+    "created": 1682883487,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1160,
+      "completion_tokens": 79,
+      "total_tokens": 1239
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04129\", \"data_mentioned\": true, \"reason\": \"SDC Platinum data\"}, {\"sent_id\": \"s_04479\", \"data_mentioned\": true, \"reason\": \"cross-country data\"}, {\"sent_id\": \"s_04579\", \"data_mentioned\": true, \"reason\": \"government spending and GDP\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04129\", \"data_mentioned\": true, \"reason\": \"SDC Platinum data\"}, {\"sent_id\": \"s_04479\", \"data_mentioned\": true, \"reason\": \"cross-country data\"}, {\"sent_id\": \"s_04579\", \"data_mentioned\": true, \"reason\": \"government spending and GDP\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04042: The final column in Table 6 allows us to quantify the impacts of the various variables in terms of their contribution to explaining the gaps in health inequality between the two regions.\n\ns_04092: Most of the discussion covers the accumulation phase of pension systems, although some reference is made to the problems that are likely to be faced during the decumulation phase.\n\ns_04142: 6 We also use the Thomson Reuters' Worldscope database to obtain information on capital expenditures and to check the robustness of the results.\n\ns_04192: Despite the stylized nature of our analysis, the foregoing results are useful to understand some aspects of the crisis in East Asia and the policy responses that it could have led to.\n\ns_04242: Assume there is a joint project whose return is positively correlated with the success of i's project, such that if e < e * , EA \u2212 R + (\u03b4 + [1 \u2212 p(e * )]) < 0.\n\ns_04292: Degrees of freedom are based on 332 observations and respective lag length (selected by BIC).\n\ns_04342: This effect is estimated to be -0.0006 and strongly significant with a t-value of -4.17.\n\ns_04392: Column (7) uses only three-year interval data (1991, 1994, 1997, 2000, 2003, and 2006) to avoid the potential bias associated with fixed effects estimations on data pooled over consecutive years.\n\ns_04442: In the next section we then investigate the extent to which behavior in these lab-in-the-field experiments helps predict takeup of the new EduPay product.\n\ns_04492: 5 The survey was carried out by the national central bank of each country and all countries based the survey on a harmonised questionnaire, which was developed in the context of the Eurosystem Wage Dynamics Network, a research network analysing wage and labour cost dynamics.\n\ns_04542: Key perspectives in this, from Roemer (1998) , Barry (2005) , and Swift (2005) , are summarized by Jusot, Tubeuf and Trannoy (2013) [children's] efforts. \"\n\ns_04592: For OECD countries we use semiannual data on seasonally-adjusted real government spending, seasonally-adjusted real GDP, and government spending forecast errors (F E G ) computed as the di\u00a4erence between forecast series prepared by professional forecasters and actual, \u2026rst-release series of the government spending growth rate.\n\ns_04642: The impact of adding a circumstance A can be given by:\n\ns_04692: Tests for the statistical significance of the difference in estimates can be found at the bottom of Table 4 .\n\ns_04742: As explained in the text, the sample comprises generation III individuals 15-30 and 19-34 years old in 2011 (<14 years or < 18 in 1994) for primary and secondary education, respectively.\n\ns_04792: However, the magnitude of the calibrated parameter A as reported below is comparable to the average amount of informal borrowing found in the Townsend-Thai dataset by those households who borrow informally.\n\ns_04842: In this study we expand on the latter hypothesis.\n\ns_04892: The second approach, which the current paper relies on, is to allow correlated errors in \u03bej and eliminate the IIA assumption.\n\ns_04942: In all cases, we ran regressions both on a full sample of up to 113 countries and then separately for low and middle income as one group and high income countries as another.\n\ns_04992: In the second line of Table 4 , we regress value-added exports on the standard REER.\n\ns_05042: But this literature focuses on products at the tariff line level --see Evennett and Venables (2002) or Besedes and Prusa (2007) for papers showing that growth in the value of new export products or new export markets can account for a large share of export growth in developing countries.\n\ns_05092: However, once again, we lack the data to examine trends among this proportion of children over time.\n\ns_05142: The first set of results refers to the benchmark exercise followed by simulations with other alternatives for labor share.\n\ns_05192: *** p<0.01, ** p<0.05, * p<0.1\n\ns_05242: (2010) and Carvalho and Berg (2011) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7QDObW78PGeX7m5QRtj3DvcDdMu",
+    "object": "chat.completion",
+    "created": 1682884493,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1192,
+      "completion_tokens": 83,
+      "total_tokens": 1275
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04742\", \"data_mentioned\": true, \"reason\": \"primary and secondary education\"}, {\"sent_id\": \"s_04792\", \"data_mentioned\": true, \"reason\": \"Townsend-Thai dataset\"}] \n\nSentence s_04742 mentions primary and secondary education, which are datasets. Sentence s_04792 mentions the Townsend-Thai dataset."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04742\", \"data_mentioned\": true, \"reason\": \"primary and secondary education\"}, {\"sent_id\": \"s_04792\", \"data_mentioned\": true, \"reason\": \"Townsend-Thai dataset\"}] \n\nSentence s_04742 mentions primary and secondary education, which are datasets. Sentence s_04792 mentions the Townsend-Thai dataset.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

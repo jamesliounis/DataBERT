@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06738: TRDEP's borrowers' initial endowment conditions is shown to be higher than BRAC's (average pre-loan landholding is 46 and 30 decimals for TRDEP and BRAC members respectively and the percentage of The Bangladesh Institute of Development Studies (BIDS) carried out an extensive study of the impact of PKSF POs microcredit program using longitudinal data of 3000 households between 1997-2000.\n\ns_06788: The tariff data was aggregated to the 3-digit ISIC classification using the HS 8-digit exports of each Latin American country to the US within a 3-digit ISIC classification as weights (both for the Latin American tariff and for the MFN tariffs).\n\ns_06838: As noted by Narayan and Pritchett (1997) , poverty analyses that focus exclusively on tangible household assets miss a large part of the \"poverty puzzle\", by ignoring the community and social context.\n\ns_06888: In a meta-study of all the cross-country growth regressions with an average of seven regressors (chosen from 67 candidates drawn from the literature on cross-country growth regressions) Sala-I-Martin et al (2004) report that the rate of population growth is only significant in one fifth of cases.\n\ns_06938: Section 2 reviews the literature.\n\ns_06988: Using household survey data, we investigated the determinants of residential mobility in Bhopal, India.\n\ns_07038: u$s 1995 1996 1997 1998 1999 2000 2001 2002 2003 Mill.\n\ns_07088: Both samples represent munic\u00edpio level data.\n\ns_07138: See Karolyi (1998) for an excellent review of the ADR literature.\n\ns_07188: Table 3 for a full list of controls.\n\ns_07238: Determining whether and which of these two possible explanations applies in each of the countries concerned is beyond the scope of this paper, but is clearly an important question for further research.\n\ns_07288: Following Arellano and Bond (1991) , which suggests that properly lagged variables can be used to deal with endogeneity problem in a panel data environment, we take a first difference on the production function to filter out the firmspecific fixed effects; then use the generalized method of moments to estimate the production function.\n\ns_07338: The outlines of an aid for trade initiative were also discussed in a joint IMF/ World Bank paper for the 2005 spring meetings.\n\ns_07388: To recall, most of the studies on supply response use a specification of the following type:\n\ns_07438: 2 1 It is important to note that rather than implying any causality running from the independent variable (grants) to the dependent variable (import capacity), as is the case in standard regression analysis, our results are intended to be interpreted just as simple correlations between the variables (for a methodological discussion see Appendix 2).\n\ns_07488: In the following table, effective covered workers are defined as registered persons that had contributed at least once in the last 12 months.\n\ns_07538: A sample survey of 27 adjusting low income countries in SSA for the period 1988-92 shows that capital goods and intermediate goods accounted for 67% of total impolts, fcod about 16%, fuel 4% and consumer goods only 13%.\n\ns_07588: 5 C of Table 2 ) in 1978 and 1987.2 The stabi!tv of br-rch stricture in both the state and collective segments of industry is a significant factor in analyzing trends in reported energy productivity.\n\ns_07638: Copies are available free from the World Bank, 1818 H Street NW, Washington DC 20433.\n\ns_07688: In simulations corresponding to those reported in Tables 3 and  4 , I doubled a' to 0.134.\n\ns_07738: iii) The state-owned enterprises 01144.7 in 1986.3 Although there is no way to extrapolate backwards from the more recent data to earlier years for the \"core state-owned enterprises\", the anecdotal evidence does seem to point to the fact that the state-owned enterprise sector placed a considerable burden upon the public sector.\n\ns_07788: The reader is referred to Ullah (1988) for a more complete -discussion of the development and use of nonparametric techniques in economics.\n\ns_07838: Limited environmental studies were accordingly carried out with the results summarized below and further described in Annex D. There would be no abstraction of water from an international river basin.\n\ns_07888: Please contact Ann BhaUa, room N1O-06 1, extension 60359.\n\ns_07938: wanted to know what was going on at the household level in the water sector and needed some empirical investigation and analytical work to find -ut."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7NcM8TbdOikkiV9UnLjx7FmR19y",
+    "object": "chat.completion",
+    "created": 1682884332,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1289,
+      "completion_tokens": 92,
+      "total_tokens": 1381
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06738\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06788\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06838\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06888\", \"data_mentioned\": false, \"reason\": null}, {\"s..."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06738\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06788\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06838\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06888\", \"data_mentioned\": false, \"reason\": null}, {\"s...",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

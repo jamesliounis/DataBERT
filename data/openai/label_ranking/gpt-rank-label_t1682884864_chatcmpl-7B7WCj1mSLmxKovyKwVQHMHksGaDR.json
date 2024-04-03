@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06151: We use data from the Egypt Labor Market Panel Survey (ELMPS 2012), which has several major advantages.\n\ns_06201: The most significant published study of attitudes to COVID-19 vaccines across developing countries is that of Sol\u00eds Arce et al.\n\ns_06251: In several cases, this is because of country-level improvements in the data collection.\n\ns_06301: This last finding is important as it provides further evidence on the need to tailor policy interventions for maximum impact.\n\ns_06351: (2018) , is valuable because it can help researchers understand the importance of localized patterns and drivers of IGM, as shown for the case of developed countries.\n\ns_06401: A large literature on intergenerational mobility focuses on the eects of family background on the conditional mean of children's economic outcomes and ignores any information contained in the conditional variance.\n\ns_06451: Results on the DID estimates are presented in Table 2 , while the first difference estimates are shown in Table  A1 in the Appendix.\n\ns_06501: Finally, in section 6, we conclude and reflect on how machine learning methods can be used in other contexts for similar analyses.\n\ns_06551: One may be tempted to speculate that because TPOs in high-income countries adopt a certain strategy or structure, this is likely to be more efficient, or perhaps draw policy recommendations for low-income countries from observed differences in the structure and responses of highincome countries.\n\ns_06601: The greater openness to the external environment induced by the reform increases total factor productivity (TFP) by about 1 percent; its significance may be judged by comparing columns (1) and (2) where the latter takes away the productivity-enhancing effect of outward orientation.\n\ns_06651: ]Tn addition, it will also review some of the common administrative issues that emerged from these countries' experience in bringing their integrated agencies into being.\n\ns_06701: -38 - As our analysis in the preceding sections suggest, Turkey's banks operate in one of the world's most volatile macroeconomic environrnents.\n\ns_06751: 11 Morduch only includes households who fulfil the targeting criteria of the three organizations and labels them 'eligible households' 12 These results are statistically significant at the 95% level.\n\ns_06801: In a related paper Jobst (2002) focuses on the impact that foreign lobbying by Latin American countries had on their export growth to the United States.\n\ns_06851: Because of these factors, it is important to examine levels and changes in well-being along the entire distribution of rural households; including poor and non-poor households (Alwang and others 2002) .\n\ns_06901: Finally, Table 3 gives the analogous results for the natural rate of population increase (CBR-CDR).\n\ns_06951: Returning to tables 5a and 5b, tests for the joint significance of teacher characteristics report F-statistics in the range of 0.06 (English) and 0.72 (Mathematics), both of which are insignificant at the 50-percent level of confidence.\n\ns_07001: Titling activities can have well-documented beneficial effects (e.g., Lanjouw and Levy 2002 , Field and Torero 2002 , Field 2003 .\n\ns_07051: As Graph III.2 shows, this process became stronger in the 1990s when exports temporarily reached 100 million dollars/year.\n\ns_07101: However, several papers find evidence that this convergence process stalled after 1985, with one or two groups of poor states tending towards a lower-income equilibrium than the richer part of Brazil.\n\ns_07151: However, Siegel (2004a Siegel ( , 2004b ) using a sample of Mexican firms, finds that crosslisting is associated with higher probability of asset stealing by controlling shareholders (thus causing significant wealth loss for minority shareholders).\n\ns_07201: Rather, it is based on comparisons between Bono Solidario recipients and non-recipients in the 1998/99 Encuesta de Condiciones de Vida (ECV), a nationally representative household survey, and may therefore be subject to biases associated with endogenous program placement or take-up.\n\ns_07251: What follows begins with an aggregate analysis of the extent to which GATS commitments by the four country groups match actual policies.\n\ns_07301: A final piece of evidence on the importance of information is the correlation between the impact of PCs on productivity levels and competition, as proxied by the markup ratio (row (c)).\n\ns_07351: (Table 4 .1. provides the timetable for a recently completed project.)"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7WCj1mSLmxKovyKwVQHMHksGaDR",
+    "object": "chat.completion",
+    "created": 1682884864,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1231,
+      "completion_tokens": 175,
+      "total_tokens": 1406
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06151\", \"data_mentioned\": true, \"reason\": \"Egypt Labor Market Panel Survey (ELMPS 2012)\"}, {\"sent_id\": \"s_06801\", \"data_mentioned\": true, \"reason\": \"Latin American countries\"}, {\"sent_id\": \"s_07001\", \"data_mentioned\": true, \"reason\": \"Lanjouw and Levy 2002\"}, {\"sent_id\": \"s_07101\", \"data_mentioned\": true, \"reason\": \"Brazil\"}, {\"sent_id\": \"s_07201\", \"data_mentioned\": true, \"reason\": \"Encuesta de Condiciones de Vida (ECV)\"}, {\"sent_id\": \"s_07301\", \"data_mentioned\": true, \"reason\": \"PCs\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06151\", \"data_mentioned\": true, \"reason\": \"Egypt Labor Market Panel Survey (ELMPS 2012)\"}, {\"sent_id\": \"s_06801\", \"data_mentioned\": true, \"reason\": \"Latin American countries\"}, {\"sent_id\": \"s_07001\", \"data_mentioned\": true, \"reason\": \"Lanjouw and Levy 2002\"}, {\"sent_id\": \"s_07101\", \"data_mentioned\": true, \"reason\": \"Brazil\"}, {\"sent_id\": \"s_07201\", \"data_mentioned\": true, \"reason\": \"Encuesta de Condiciones de Vida (ECV)\"}, {\"sent_id\": \"s_07301\", \"data_mentioned\": true, \"reason\": \"PCs\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

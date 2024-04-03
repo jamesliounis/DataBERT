@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_00750: While the inclusion of school fixedeffects (column 8) did reduce the Asian-White gap, the fully specified model (column 9) resulted in only a slight decline in the Asian-White gap compared to the nearly 60% decline in the Black-White and Hispanic-White gaps.\n\ns_00800: In this study, it was found that the poor working relationships among people within the system, contributed to disconnections within the system.\n\ns_00850: Nest reoccupancy may be affected by nest success; in Manitoba, 52 percent of 71 successful nests were reused compared to 14 percent of 63 unsuccessful nests (De Smet, 1992) .\n\ns_00900: The deep learning models was implemented using Caffe (Jia et al., 2014) , and trained on a Nividia Titan X (Pascal) graphics processing unit (GPU).\n\ns_00950: For completeness, we report in fig.\n\ns_01000: The simulation begins at about t=220 s, after first stage seperation.\n\ns_01050: Only a few studies compared farm and nonfarm households using national, representative data sets.\n\ns_01100: Lastly, our measure of age composition was based on teacher report as administrative report is not available in any existing national data set and the measure focuses on age in years, as opposed to months.\n\ns_01150: 2007b) was shown to reduce the track errors, thus providing better input data to the storm intensity models because the intensity forecasts largely depend on the track forecasts.\n\ns_01200: These results are consistent with the results of the disease progression models of Ito and colleagues [6, 7] , although they did not report individual-level analyses apart from ADNI.\n\ns_01250: The WEF produced a white paper in 2016 discussing the needs of digital enterprises and focused on digital business models, digital operating models, digital talent and skills, and digital traction metrics (WEF, 2016) .\n\ns_01300: It is hoped that this review will be useful in pointing the way to further research and potentially to more effective intervention strategies.\n\ns_01350: Supplementary material 1 provides a detailed overview of the sociodemographic information, clinical, and cognitive measures collected at the different follow-up timepoints.\n\ns_01400: In brief, the configurations of the AVHRR Pathfinder SST data are as follows: 18 km (approximately 0.2\u00b0 \u00d7 0.2\u00b0) spatial resolution, 8-day temporal resolution, Hierarchical Data Format (HDF), and 1985~current temporal coverage (Vazquez et al., 1998) .\n\ns_01450: The companion study to ours, which is being conducted at the National Academy of Sciences, will provide more information on career paths of scientists and engineers but not on grant application behavior.\n\ns_01500: Figure 3b shows the WP statistics averaged during 1979 to 2005 across the Southwest, Mid-South, and Southeast in terms of varying \u03b1 from 0.1 to 0.9 in increments of 0.05 for N 0 values of 440, 330, and 220 kg ha -1 .\n\ns_01550: The wave properties, i.e., significant wave heights, peak periods, and mean directions, were provided by the measurements and the extracted results from the simulations by the SWAN model.\n\ns_01600: (which was not certified by peer review)\nThe copyright holder for this preprint this version posted June 29, 2020.\n\ns_01650: A standard dataset with benchmark results should be set up to facilitate development, calibration, and objective evaluation of image analysis methods for MS.\n\ns_01700: The OS and DSS curves were calculated by the Kaplan-Meier method, and differences were formally tested for univariate analyses using log-rank tests.\n\ns_01750: Table 4 shows that the proposed method has the smallest FNR+FPR and MSE among all the methods under Setting 4, indicating that the proposed method performs better than other competing methods in both variable selection and coefficient estimation under the situations with binary covariates.\n\ns_01800: Following our analytic strategy, we also implemented analyses by segregation dimensions and the results were summarized in Tables 3 and 4 .\n\ns_01850: Smith, eds., Analysis of Complex Surveys (New York: John Wiley & Sons, 1989).\n\ns_01900: To be able to take advantage of all the new technologies and to build onto the archive of biosamples and information, the Center for Neurodegenerative Disease Research (CNDR) at the University of Pennsylvania (UPenn) established the Neuropathology, Biomarker, and Genetics Biobank (NBGB) as well as the Integrated Neurodegenerative Disease Database (INDD) to monitor biosamples and data collection.\n\ns_01950: 2020; Gardner and Moallef 2015; Maunder 2004; Tsang et al."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7IZu0ZQeg6Ucnz15xGdph8ky2Lv",
+    "object": "chat.completion",
+    "created": 1682884019,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1303,
+      "completion_tokens": 118,
+      "total_tokens": 1421
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01900\", \"data_mentioned\": true, \"reason\": \"Neuropathology, Biomarker, and Genetics Biobank (NBGB)\"}, {\"sent_id\": \"s_01750\", \"data_mentioned\": true, \"reason\": \"proposed method\"}, {\"sent_id\": \"s_01650\", \"data_mentioned\": true, \"reason\": \"standard dataset\"}, {\"sent_id\": \"s_00800\", \"data_mentioned\": true, \"reason\": \"disconnections within the system\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01900\", \"data_mentioned\": true, \"reason\": \"Neuropathology, Biomarker, and Genetics Biobank (NBGB)\"}, {\"sent_id\": \"s_01750\", \"data_mentioned\": true, \"reason\": \"proposed method\"}, {\"sent_id\": \"s_01650\", \"data_mentioned\": true, \"reason\": \"standard dataset\"}, {\"sent_id\": \"s_00800\", \"data_mentioned\": true, \"reason\": \"disconnections within the system\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

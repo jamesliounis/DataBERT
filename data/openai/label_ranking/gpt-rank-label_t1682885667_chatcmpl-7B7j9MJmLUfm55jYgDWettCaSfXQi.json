@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04921: The advantage of estimating the share equation(Berry, 1994) is that the possible spatial autocorrelation can be dealt with easily in the linear fashion.\n\ns_04971: Looking at the results of our projections, it appears that the largest increases in coverage will occur in telecommunications, particularly mobile phones (table 5.)\n\ns_05021: (2010) as our data do not allow to capture these further complexities.\n\ns_05071: There is also a growing literature using customs data on export promotion and their impact on exporting firms' intensive and extensive margins of exports, where the extensive margin is defined either as the introduction of new export products or entry into new export-market destinations.\n\ns_05121: Section 3 describes the methods we use to assess ECD, quantify inequality, and decompose its origins.\n\ns_05171: The country has a higher investment rate compared to 6 Note that for some countries data for 2015 are not available, in which case the average reflects the average during 2011 -2014.\n\ns_05221: Before presenting the main effects of the insurance on children, we show the effects of being insured among parents, according to Equation 1, as a benchmark, (Appendices S3 and S4).\n\ns_05271: For instance, Ferraro and Price (2013) showed the effectiveness of technical recommendation, pro-social messages and social comparisons sent to consumers.\n\ns_05321: The second is the supplemental component consisting of additional funding to states, depending on the population of special groups which are in need of additional resources to compensate for the cost of reducing their disadvantages relative to the average group of children.\n\ns_05371: For example, if ratings are informative, it will be instructive to analyze whether sovereign ratings are more informative for less transparent countries than for more transparent countries.\n\ns_05421: Therefore, capacity building usually focuses on data collection skills with a long-term perspective to increase data analysis capacity.\n\ns_05471: The economic impacts of FDI have been studied in a large body of literature, through macro, crosscountry analysis as well as micro, firm-level research.\n\ns_05521: However, the case study assumptions approach applied to data collection also has limitations.\n\ns_05571: Several other coefficients become statistically significant in this sample, but the number of observations is too small to draw conclusions.\n\ns_05621: To demonstrate this, we select WWTPs and superimpose changing flooding hazard maps for return period > 50, varying RCP and time period for model MPI-ESM-LR ( Figure 5 ).\n\ns_05671: , 2013) , as\u00ed como resultados positivos sobre la mortalidad infantil.\n\ns_05721: An overview of the changes required from a cash-based system to the introducing of e-payments for low level transactions through commercial banks or mobile money is provided in the matrix below.\n\ns_05771: Finally, for women an increase in the employment rate is associated with an increase in the technology measure (columns 2 and 3 Table 15 ).\n\ns_05821: *** p<0.01, ** p<0.05, * p<0.1\n\ns_05871: Our second exercise tests the impact of motor vehicle emissions on air pollution, using hourly data from the CAMS-3 monitor and a .01-degree square area whose centroid has the coordinates of the monitor (Figure 1) .\n\ns_05921: As in the case of the four external comparators, the larger share of the linkages of non-oil resource rich countries are downstream although the group's upstream linkage rate is also reasonably high with China's exports at about 15%, and significant with those of the United\n\ns_05971: Studies on EU trade and euro usage in trade have mainly been done with a sample of advanced economies and/or trade partners.\n\ns_06021: As shown by Srinuan and Bohlin (2011) and Helbig, Gil-Garcia, and Ferro (2005) , the determinants can be grouped into three categories: (1) physical infrastructure on the supply side; (2) socioeconomic factors on the demand side, such as income and education level; and (3) perspective factors on the demand side shaped by the institutional environment, culture, language, and network effects.\n\ns_06071: On the theoretical front, the literature has mainly relied on di\u00a4erent variants of closed-economy two-agent New Keynesian (TANK) models which prompt consumption to play a dominant role in 1 For example, the \u2026rst phase of the Coronavirus Aid, Relief, and Economic Security (CARES) Act in the United States included one-time tax rebates to individuals, expanded unemployment bene\u2026ts, and the Supplemental Nutrition Assistance Program (SNAP) social transfers that represented about 586 billion dollars, or 2.8 percent of the GDP of 2019.\n\ns_06121: The contribution of the paper, however, is instead to understand factors related to early, voluntary return."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7j9MJmLUfm55jYgDWettCaSfXQi",
+    "object": "chat.completion",
+    "created": 1682885667,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1298,
+      "completion_tokens": 98,
+      "total_tokens": 1396
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05021\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_05121\", \"data_mentioned\": true, \"reason\": \"ECD\"}, {\"sent_id\": \"s_05421\", \"data_mentioned\": true, \"reason\": \"data collection\"}, {\"sent_id\": \"s_05871\", \"data_mentioned\": true, \"reason\": \"hourly data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05021\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_05121\", \"data_mentioned\": true, \"reason\": \"ECD\"}, {\"sent_id\": \"s_05421\", \"data_mentioned\": true, \"reason\": \"data collection\"}, {\"sent_id\": \"s_05871\", \"data_mentioned\": true, \"reason\": \"hourly data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

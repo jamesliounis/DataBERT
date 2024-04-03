@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+tiktoken = "*"
+joblib = "*"
+requests = "*"
+instructorembedding = "*"
+torch = "*"
+tqdm = "*"
+sentence-transformers = "==2.2.2"
+fire = "*"
+pandas = "*"
+qdrant-client = "*"
+openpyxl = "*"
+data_use = {editable = true, path = "."}
+langchain = "==0.0.154"
+backoff = "*"
+doc2json = {editable = true, ref = "fix-date-parsing", git = "https://github.com/avsolatorio/s2orc-doc2json.git"}
+lxml = "*"
+jq = "*"
+pexpect = "*"
+bs4 = "*"
+spacy = "*"
+openai-tools = "==0.0.0.1.dev0"
+pymupdf = "*"
+chromadb = "==0.4.15"
+
+[dev-packages]
+streamlit = "*"
+pypdf = "*"
+chromadb = "*"
+kaggle = "*"
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03233: We tested this theoretical model with data on net exports of a single industry, computers, intellectual property rights, factor endowments, and other controls for 73 countries over the period 1980-2000.\n\ns_03283: This hypothesis can be formally tested by estimating the parameters of the following regression:\n\ns_03333: 10 7 For more details on factor analysis, see, for instance, Johnson and & Wichern (2001) and Reyment &.\n\ns_03383: Source: Computations based on country data as reported to the UN COMTRADE database.\n\ns_03433: A comparison of (2), (14) , and (15) indicates the following relationships between the estimating coe\u00a2 cients and the parameters of the model:\n\ns_03483: Table 2 , which reports the results of the EEI benchmarking, provides revealing insights on how the underlying frictions that affect the development process are themselves affected by financial development.\n\ns_03533: Table 2 presents summary statistics for survivors and exiting firms, disaggregated by time period.\n\ns_03583: Table 2 presents the matrix of pairwise correlations across regions.\n\ns_03633: The theoretical foundations of this so-called -gravity model\u2016 have been solidified in recent years (see Eaton and Kortum, 2002; Anderson and van Wincoop, 2003; Subramanian and Wei, 2007; Helpman, Melitz and Rubinstein, 2008) .\n\ns_03683: SeeRamey (2011) andParker (2011) for an insightful and comprehensive discussion.16 In general, studies using physical indicators of infrastructure stocks find a positive long-run effect of infrastructure on output, productivity, and growth rates, whereas results are more mixed among studies using measures of public capital stock or infrastructure spending flows(Straub 2008, Calder\u00f3n andServ\u00e9n 2010).\n\ns_03733: The individual calculations are explained and defended in an appendix to the paper and are available from the authors.\n\ns_03783: See Tuffano (2001) for a discussion of the merits and importance of clinical studies in this respect.\n\ns_03833: Baseline dataset (Panel A) composed of wife-husband pairs interviewed separately in Jan-Feb 2010.\n\ns_03883: This study attempted to provide indicative country-wide estimates.17 The same CO2 price is applied in China 2030 (WorldBank, 2012).\n\ns_03933: When we compare the findings of Le, Moreno-Dodson, and Rojchaichaninthorn (2008) to the ones reported in Table 5 , it can be seen that all new countries come from the high-effort, high-collection group.\n\ns_03983: The expectations data were collected using a novel bean-counting method, developed by Delavande and Kohler (2009) , which is appropriate for populations with low levels of numeracy.\n\ns_04033: The 42-country World Bank study, which provided the starting point of the paper, reveals significant correlations between inequalities in different indicators of child healthmortality, malnutrition, diarrhoea, and ARI.\n\ns_04083: The remainder of the paper then focuses on the different ways in which funded pillars can be organized.\n\ns_04133: Throughout the paper, we report the data in constant 2011 US dollars.24 Although the size of total assets for the median firm without an issue seems small, this figure is consistent with that calculated byAllen et al.\n\ns_04183: 8 Again, if default never occurs, we assume that e* is set at the lower end of the support of the distribution (e =-Cm) 6 Condition (7) is likely to be met for a large enough level of the initial debt D, or for a relatively large K relative to X.\n\ns_04233: Before going into the construction of the formal model, it may be useful to sketch out the argument in words.\n\ns_04283: For example, assuming there is a shock to ,1 (the first element of ), the effect on the j th variable is given by the first column and j th element of 2 , 1 , 2 , etc.\n\ns_04333: However, the EMIS data on changes in pupil-teacher ratios underlying Scenario 1 are potentially problematic during this period Scenario 2 is identical to Scenario 1, but using the enrollment growth rates reported in the household survey data.\n\ns_04383: In their study using disaggregated data, Chen and Mattoo (2008) use standards harmonization in adjacent industries (i.e., industries classified in the same two-digit sector) as an instrument.\n\ns_04433: The remittance data are from Bangko Sentralng Pilipinas (BSP) and consistent with those also reported by IOM (2010)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7ImFo1YmO5MYV76CtIJ0zeGnHLb",
+    "object": "chat.completion",
+    "created": 1682884032,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1274,
+      "completion_tokens": 155,
+      "total_tokens": 1429
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03833\", \"data_mentioned\": true, \"reason\": \"Jan-Feb 2010\"}, {\"sent_id\": \"s_04033\", \"data_mentioned\": true, \"reason\": \"42-country World Bank study\"}, {\"sent_id\": \"s_04333\", \"data_mentioned\": true, \"reason\": \"EMIS data\"}] \n\nExplanation: \n- s_03833 mentions a dataset composed of wife-husband pairs interviewed separately in Jan-Feb 2010.\n- s_04033 mentions a 42-country World Bank study that reveals significant correlations between inequalities in different indicators of child health.\n- s_04333 mentions EMIS data on changes in pupil-teacher ratios underlying Scenario 1."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03833\", \"data_mentioned\": true, \"reason\": \"Jan-Feb 2010\"}, {\"sent_id\": \"s_04033\", \"data_mentioned\": true, \"reason\": \"42-country World Bank study\"}, {\"sent_id\": \"s_04333\", \"data_mentioned\": true, \"reason\": \"EMIS data\"}] \n\nExplanation: \n- s_03833 mentions a dataset composed of wife-husband pairs interviewed separately in Jan-Feb 2010.\n- s_04033 mentions a 42-country World Bank study that reveals significant correlations between inequalities in different indicators of child health.\n- s_04333 mentions EMIS data on changes in pupil-teacher ratios underlying Scenario 1.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

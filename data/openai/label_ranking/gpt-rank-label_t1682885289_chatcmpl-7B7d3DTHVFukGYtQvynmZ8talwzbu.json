@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07762: one might argue therefore that the model and analysis in this section of the paper is not useful for analyzing the possible effects of future government policy.\n\ns_07812: See Stelcner and Moock (1988),and Moock, Musgrove, and Stelcner (1989).\n\ns_07862: According to recent findings of a Social Sector Survey, 60% of national expenditures for water supply benefited the 20% in the highest income group.\n\ns_07912: -36-These results can be quite sensitive to the degree to which firms finance capital by equity.\n\ns_07962: However, the results of the household survey indicate that people perceive the water available from tanker trucks and small retail water vendors to be better in quality than the water available from the old public system.\n\ns_08012: 22 Second, although the CBR responded effectively and in a coordinated way with other stakeholders in 2004, this episode revealed that the CBR's ability to resolve banks is limited (lack of legal tools), and there are deficiencies and huge risks 23 in enforcing prudential regulations.\n\ns_08062: The proportional impact on the poorest households is largest, and thus we still observe the proportion of households using electricity for heating increasing across income groups and the proportion of households using fuelwood decreasing across income groups.\n\ns_08112: Recent experiences of industrial and emerging countries attest to this conclusion.\n\ns_08162: Once gentry per capita incomes are derived, commoners' incomes are obtained as the residual (using total household disposable income, line d in Table below , minus gentry's total income, and dividing by commoners' total population).\n\ns_08212: The \"value\" is the gain, in terms of consumption, that individuals realize when they move from the no-college economy to the baseline.\n\ns_08289: The term public access refers to data that is available in multiple formats to anyone online including students, parents, faculty, researchers, media, or institutional representatives.\n\ns_08339: Our dataset considers for example elections and enhanced surveillance as key variables, which are to the best of our knowledge not considered by the abovementioned datasets.\n\ns_08389: Including the GWAS meta analysis of biochemical markers of iron status [30] and the International Genomics of Alzheimer's Project (IGAP) [26] .\n\ns_08439: In order to analyze the FDG-PET scans for each task: AD versus CN (Cognitive Normal), MCI versus CN and AD versus MCI, we propose the methodology shown in Figure 1 .\n\ns_08489: This means that the usual chronic dosing studies in pre-or early amyloid-depositing APP transgenic mice with anti-Ab therapy must be accompanied or replaced by studies in which the mice have AD-like Ab loads at the time the treatment is initiated.\n\ns_08539: The comparison between the WIC 2015 datasets and others point at the general difficulty of reconstructing time series based on partial and inconsistent data.\n\ns_08589: (2) The best prediction rates using FreeSurfer were 86.6% for HC vs AD and 74.3% for HC vs MCI, comparable with the most recent studies using MRI as predictors [7, 13, 16] .\n\ns_08639: 54 In contrast, despite the substantial increase in the number of 30patient-waivered physicians in both urban and rural areas, our findings regarding the relationship between 30-patient-waivered physicians and the amount of buprenorphine dispensed in recent years suggest that many of the physicians waivered to treat 30 patients may actually be treating few or no patients with buprenorphine, which is consistent with earlier research findings.\n\ns_08689: This paper examines the performance of the African countries -Botswana, Egypt, Ghana Morocco, Tunisia and South Africa -that participated in TIMSS-2003.\n\ns_08739: In the selection of events, the critical values can be either specified as constant values or calculated from the observations using the series mean and standard deviation to select a small number of events (this amounts to dynamically varying criteria).\n\ns_08789: Relative to White respondents, greater proportions of Black and Hispanic respondents who had never participated in research were willing to participate in health research (58.9% and 58.2%, respectively).\n\ns_08839: The intra-subject similarity and dissimilarity were evaluated to 0.94 and 0.11 for the ROI-based and the prob CNN metrics respectively.\n\ns_08889: The importance of agency also emerges from Freya, a 22-year-old White European who graduated from an elite Oxbridge university and felt empowered to 'manipulate her future' through a combination of luck and privilege.\n\ns_08939: Of course, we could start imagining that arrival and preemption occur on a very large spatial scale, but this is a good example of the utility of looking at spatial and temporal scales.\n\ns_08989: [54] We have compared two empirical measures for breakup progress, melting degree days and cumulative irradiance, and found cumulative irradiance to be the more precise indicator for thermal breakup of landfast sea ice at Barrow."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7d3DTHVFukGYtQvynmZ8talwzbu",
+    "object": "chat.completion",
+    "created": 1682885289,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1340,
+      "completion_tokens": 110,
+      "total_tokens": 1450
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08339\", \"data_mentioned\": true, \"reason\": \"abovementioned datasets\"}, {\"sent_id\": \"s_08539\", \"data_mentioned\": true, \"reason\": \"WIC 2015 datasets\"}, {\"sent_id\": \"s_08589\", \"data_mentioned\": true, \"reason\": \"FreeSurfer\"}, {\"sent_id\": \"s_08839\", \"data_mentioned\": true, \"reason\": \"ROI-based and the prob CNN metrics\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08339\", \"data_mentioned\": true, \"reason\": \"abovementioned datasets\"}, {\"sent_id\": \"s_08539\", \"data_mentioned\": true, \"reason\": \"WIC 2015 datasets\"}, {\"sent_id\": \"s_08589\", \"data_mentioned\": true, \"reason\": \"FreeSurfer\"}, {\"sent_id\": \"s_08839\", \"data_mentioned\": true, \"reason\": \"ROI-based and the prob CNN metrics\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

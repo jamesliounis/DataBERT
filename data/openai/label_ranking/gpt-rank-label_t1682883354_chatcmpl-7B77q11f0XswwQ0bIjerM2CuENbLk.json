@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02326: Data for cerebrospinal fluid or amyloid PET scans on 227 of 280 participants were also downloaded for a supplementary analysis (Supplementary Data).\n\ns_02376: 648 doi.org/10.1002/2015JC011546.\n\ns_02426: The standard errors of our estimates were too large to answer this question, but the coefficient estimates of rurality and family medicine were robust with its size increased, implying that rurality and physician specialty were independently associated with LVC spending (see Appendix Table 3).\n\ns_02476: The COG UK data provided a more thorough application of our model as abundant SARS-CoV-2 sequence data was available at a weekly time-scale ( Figure 2b ).\n\ns_02526: Liu and Peng (2010) noted that the quantile regression model provides a more complete view of how the distribution of the dependent variable (visits) changes with the conditional quantile.\n\ns_02576: In a similar experiment, Rahman et al.\n\ns_02626: et al., 2008; Ouanes et al., 2017a; Sang et al., 2018) .\n\ns_02676: 1 Card and Krueger (1992) and authors' calculations from 2000 Census data.\n\ns_02726: For this analysis we worked with the best available datasets and don't intend this analysis to be the definitive enumeration of land cover change in the Lake Superior basin.\n\ns_02776: First, we repeated all analyses using GA based on reported date of last menstrual period; these analyses included California births.\n\ns_02826: Since this study constitutes secondary data analysis of the ECLS-B's first two rounds of data collection, all the measures used were selected from the ECLS-B study.\n\ns_02876: The MPWEB sample was drawn from that of an existing MP demographic survey, the Methods Panel Survey of Income and Program Participation (MPSIPP).\n\ns_02926: All comparison cited in the text were made using Students' t tests.\n\ns_02976: The quantitative data were analysed and consolidated in tables, represented as row percentages, and calculated using the Chi-Square statistical method.\n\ns_03026: Then, the above parameters have been compared with ranked-A ADNI reference scans in order to define the goodness of the I-ADNI site acquisition.\n\ns_03076: For the final model, higher education and technical assistance were found to be statistically significant at the 0.01 and 0.010 levels, respectively (Table 3).\n\ns_03126: Besley, Pande, and Rao(2005a) , using the same household level data from our paper, study the determinants of participation in village meetings.\n\ns_03176: See also Williams and Wright (1991, chapter 3) .\n\ns_03226: Section 2 discusses the related literatures.\n\ns_03276: The detailed list of countries in the sample, some summary statistics, and the average wholesale dependence of each country are reported in Table 1 .\n\ns_03326: For more extensive surveys of the literature, see, for instance, Maur and Wilson (forthcoming) .\n\ns_03376: As can be seen from data in Table 21 , the 'intra-product' exports accounted on average in 1998 for 35 percent for the first tier group plus Slovakia and only 8 percent for the second group.\n\ns_03426: See alsoGhosal (1996Ghosal ( , 2003aGhosal ( , 2003b.\n\ns_03476: Note: First, a cross-sectional regression model is estimated on country averages, controlling for GDP per capita (squared), population size and density, young and old age dependency ratios, a financial offshore center dummy, a transition country dummy, and a large fuel exporter dummy.\n\ns_03526: The available evidence on the impact of crises on resource allocation typically relies on aggregate data."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B77q11f0XswwQ0bIjerM2CuENbLk",
+    "object": "chat.completion",
+    "created": 1682883354,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1081,
+      "completion_tokens": 54,
+      "total_tokens": 1135
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02476\", \"data_mentioned\": true, \"reason\": \"COG UK data\"}, {\"sent_id\": \"s_02826\", \"data_mentioned\": true, \"reason\": \"ECLS-B study\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02476\", \"data_mentioned\": true, \"reason\": \"COG UK data\"}, {\"sent_id\": \"s_02826\", \"data_mentioned\": true, \"reason\": \"ECLS-B study\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

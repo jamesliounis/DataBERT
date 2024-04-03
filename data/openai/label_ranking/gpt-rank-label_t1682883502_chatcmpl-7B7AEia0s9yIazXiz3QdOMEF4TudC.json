@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07179: Note that this concern is not particular to this evaluation-it could be an issue for any evaluation of a program that requires beneficiaries to comply with certain conditions, and for which data are collected on the basis of household responses in a survey (for example , Schultz 2004, Behrman, Sengupta, and Todd 2005 , and Todd and Wolpin 2003 on PROGRESA;\n\ns_07229: The data used in figure 1 are averages of the country scores over time at the group level.\n\ns_07279: In later empirical application, we use both samples and check if it is true that the pooled sample overstates more the effects of PCs.\n\ns_07329: 5 The purpose of this paper is to explore how the implementation issue has evolved.\n\ns_07379: (1984) is also similar to the above study in terms of variable coverage.\n\ns_07429: This result, based on an incremental analysis, is consistent with one shown in Table 5 (although the latter is based on a mean comparison analysis); that is, the high group appears to be favored by bilateral sources in several respects.\n\ns_07479: Because of the absence of more information about the cost structure, we will present data on the basis of the number of registered persons that paid at least one contribution in the last 12 months.\n\ns_07529: Helleiner 32' has analyzed the country-level data for twenty six SSA countries for the period 1980-90 to examine whether the tt-ms of trade losses suffered by these countries were offset by increased ODA.\n\ns_07579: The most notable example of this occurs in the chemical industry, for which relevant data appear in Table 5 .\n\ns_07629: What considerations should the country take into account?\n\ns_07679: Table 5 , col. 2 provides the mean number of months after October 1 until the cotton is purchased by the CIDT, by zone, as well as statistics on this variable.\n\ns_07729: These functions were estimated for the 1970/71-1988 period; the results are set out in Table 2 .4.\n\ns_07779: The first set of plots was studied for patterns (for example, positive residuals for large values of the variables) that might indicate that the specification was not robust.\n\ns_07829: 3.9, 4.1, 4.4, and Annex 1).\n\ns_07879: The remainder of the paper is divided as follows.\n\ns_07929: When the necessary secondary data are not available, the construction of such a sample frame is simply too time consuming and expensive to be practical for most policy-oriented research efforts in which information is required in a timely manner to support management decisionmaking.\n\ns_07979: 34 See Izvestiia Bizecon Report (2005).\n\ns_08029: 2 In Scenarios 1 and 2 we calculated from the household survey data that this is the amount that would need to be financed either by the government or the energy company in scenarios where it is not covered by a cross-subsidy from high volume to low volume consumers.\n\ns_08079: 3 Key references in this literature are Blanchard and Giavazzi (2004) , Buiter and Grafe (2004) , and Mintz and Smart (2006) .\n\ns_08129: [ Table 2 and Figure 3 about here]\n\ns_08179: The authors address this question by comparing their baseline model to an economy in which college is not directly subsidized.\n\ns_08229: The next paper, \"Resequencing Calculus,\" describes a curricular innovation: the inclusion of topics from several-variable calculus into Calculus 2.\n\ns_08256: 21 Transition and Postsecondary Outcomes Databases\n\ns_08306: They based their data collection on public health institutions, official government sources, peer-reviewed and non-peer reviewed scientific papers, press releases, newspapers articles and social media.\n\ns_08356: We carried out SECA analysis of large scale GWAS meta analysis summary statistics to examine the genetic overlap between AD and each iron measure using the default approach [38] ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7AEia0s9yIazXiz3QdOMEF4TudC",
+    "object": "chat.completion",
+    "created": 1682883502,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1129,
+      "completion_tokens": 32,
+      "total_tokens": 1161
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08256\", \"data_mentioned\": true, \"reason\": \"Transition and Postsecondary Outcomes Databases\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08256\", \"data_mentioned\": true, \"reason\": \"Transition and Postsecondary Outcomes Databases\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

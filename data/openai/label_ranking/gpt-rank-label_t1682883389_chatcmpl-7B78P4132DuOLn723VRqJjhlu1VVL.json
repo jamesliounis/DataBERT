@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03527: Collier and Goderis, 2009, Haltiwanger, Scarpetta and Schweiger, 2008) .\n\ns_03577: A number of papers have examined the correlation structure of equity returns of a subsample of banks.\n\ns_03627: Over and under-trading are derived from a regression of the relevant trade measure on population (column 2), population and per capita GDP (PPP) (column 3), population, per capita GDP (PPP) and a dummy for oil producers (column 4).\n\ns_03677: To overcome this constraint, the MDB Working Group on Infrastructure (2010) proposed to the G20 to launch on Infrastructure Benchmarking Initiative that undertakes ongoing data collection on key infrastructure variables that can be compared across countries and over time.\n\ns_03727: In this paper, we conduct new analyses of the distributive effects of the social and economic rights cases that came out of that five-country survey.\n\ns_03777: Whenever we found missing observations, we cross-checked the time series with other news sources and filled in the missing data or, if this was not possible, deleted the observation leaving 725 observations before taking lags.\n\ns_03827: The next section presents details of the experimental design, the sample of participants and the setting of the experiment.\n\ns_03877: A comprehensive review of such studies is provided in Ostro (1994) , Ostro et al.\n\ns_03927: (2005) , and Le, Moreno-Dodson, and Rojchaichaninthorn (2008) .\n\ns_03977: My analysis diers from these studies both in the empirical approach and in the type of data used in the analysis.\n\ns_04027: Some of these studies have looked at inequalities in child health across the distribution of income (or consumption) using data from surveys like the Living Standards Measurement Survey (LSMS) (Wagstaff 2000; Wagstaff and Watanabe 2000) .\n\ns_04077: Available data show that pension funds in countries that rely on the \"prudent expert\" approach have been able to achieve higher investment returns than pension funds in countries that have imposed quantitative limits on different classes of assets (Davis 1998 , European Commission 1999 .\n\ns_04127: ( , 2007,Eichengreen and Luengnaruemitchai (2006),Neftci and Menager-Xu (2007),Chan et al.\n\ns_04177: The purpose of this paper has been to examine the implications of inefficient financial intermediation (taking the form of high costs of contract enforcealthough not as much as they would if they were to act collectively.\n\ns_04227: There is mounting evidence that the costs on the defaulting nation are huge and prolonged (see, for instance, Cruces and Trebesch, 2011) .\n\ns_04277: Subsequently, various studies (Hamilton, 1996 (Hamilton, , 2003 Hooker, 1996) found direct measures of volatility to be more powerful in explaining the oil-GDP relationship than oil prices in levels.\n\ns_04327: To examine the extent to which NERs at the district and average pupil-teacher ratios in public schools are linked, we use data from EMIS, which contains detailed information on all public schools in Kenya.\n\ns_04377: (2008) and Arkolakis et al.\n\ns_04427: The remainder of the paper is organized as follows.\n\ns_04477: ( , 2012b and Messina et al.\n\ns_04527: A recent selection would include Fleurbaey and Peragine (2013),Ooghe, E., Schokkaert, E. and Van de Gae (2007) andPeragine (2004).\n\ns_04577: Table 3 summarizes our results in the 2x2 matrix discussed in the introduction.\n\ns_04627: The paper uses data from two main sources: (a) the Egypt DHS for 2000 and 2008; and (b) (iii) birth not being assisted by a skilled health professional; (iv) child not having a postnatal checkup within two months after birth; and (v) immunizations within one year after birth.\n\ns_04677: Data are collated through daily searches of Financial Times newswires and internal information sources, other media sources, project data received from industry organizations and investment agencies, and data purchased from market research and publication companies.\n\ns_04727: Descriptive statistics on characteristics of interest for generation II and III individuals by reform status are in table 1 (see appendix table 1 for values of the same variables by state)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B78P4132DuOLn723VRqJjhlu1VVL",
+    "object": "chat.completion",
+    "created": 1682883389,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1238,
+      "completion_tokens": 53,
+      "total_tokens": 1291
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04627\", \"data_mentioned\": true, \"reason\": \"Egypt DHS\"}, {\"sent_id\": \"s_04727\", \"data_mentioned\": true, \"reason\": \"market research and publication companies\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04627\", \"data_mentioned\": true, \"reason\": \"Egypt DHS\"}, {\"sent_id\": \"s_04727\", \"data_mentioned\": true, \"reason\": \"market research and publication companies\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

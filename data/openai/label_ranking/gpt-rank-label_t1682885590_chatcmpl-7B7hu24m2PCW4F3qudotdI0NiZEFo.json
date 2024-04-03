@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05869: While Figure 3 provides a wealth of evidence about traffic conditions around the CAMS-3 station, we should note that this represents only one cell in a grid that covers the Dhaka metro region.\n\ns_05919: Population estimates for the Democratic Republic of Congo are obtained from the World Development Indicators of the World Bank, which is also our source of estimates of income per capita.\n\ns_05969: The other \"anomaly\" for EU wide results where the symmetry does not hold, i.e.,\n\ns_06019: Finally, the overall explanatory power of the regression is slightly lower when income is used (0.45) than when the two affordability dummies are used (0.47).\n\ns_06069: We use Teulings and Zubanov (2014) bias correction by including social transfer shocks nested between times t and h as controls.\n\ns_06119: Our analysis with novel subdistrict-month panel data shows that better security and improved access to utilities, as proxied by nightlight luminosity, at the location of origin increase the likelihood of return.\n\ns_06169: In Table A .14 in the Online Appendix, we report our results unconditional on return migration.\n\ns_06219: As a final step, the weights were raked to match the mean values from the DHS on the following characteristics: gender of the respondent, age group of the respondent, education of the respondent, household size, province, and urban/rural location.\n\ns_06269: For the subsample of countries that use absolute poverty lines (i.e., those countries used in this analysis), Table 3 reports an average value of the delta ratio of 1.15.\n\ns_06319: Section II describes the program, the country context, and the empirical strategy.\n\ns_06369: Figure 10 and 11 maps the same estimates that are summarized in Table 3 .\n\ns_06419: The estimates of gender dierences are reported in Table 6B .\n\ns_06469: We show the results in Table 11 .\n\ns_06519: In particular, we compare how empirical findings vary depending on the use of a) simple econometric models that impose linear relationships in their estimation, versus b) more sophisticated models using machine learning to capture complex non-linearities.\n\ns_06569: The largest number of applicants is observed for Trade Fairs, B2B matching events, and Training on e-commerce,\n\ns_06619: The disaggregated version of the model assumes the productivity index for the specific industries within each group to assume the same value as that for the group as a whole.\n\ns_06669: Northern European experience has been able to shed some light on the three questions posed at the outset of this paper that were central to the debate on integration of financial regulation in transition and developing economies.\n\ns_06719: Thus reserves must be compared with a broad measure of liquid monetary assets in order to determine a country's vulnerability to panic.\n\ns_06769: In recent years the standard Grameen-model has undergone more refinements in order to cater to different niche markets as well as to different life-cycle circumstances.\n\ns_06819: We used the same weights in order to avoid aggregation bias when moving from the tariff line level to the 3-digit ISIC level.\n\ns_06869: Valdes and Mistiaen (2001) claim that: \"This taxonomy helps in guiding the analysis of rural poverty determinants by distinguishing those factors that contribute or constrain the building of the assets of the poor (education, demographics, land, and others) from those influencing the productivity of such assets (the incentive framework, financial policies, overall economic growth, and others).\n\ns_06919: Eastwood and Lipton (1999, 2001 ) use instead changes over time in poverty measures as their dependent variable, for a cross-section of countries, and find evidence of adverse effects of higher fertility on measures of poverty; they find that these effects are transmitted thought both growth and distribution.\n\ns_06969: Subsequent specifications introduce additional controls: Column 2 reports the estimated coefficient including school characteristics, column 3 introduces teacher characteristics and column 4 includes student characteristics.\n\ns_07019: We are particularly interested in the personal and household characteristics that enable slum dwellers to graduate to formal housing categories-in our survey sample, one in five households succeeds in getting out of a slum settlement.\n\ns_07069: The availability of abundant raw material and relatively low wages favored the development of clusters that became highly efficient."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hu24m2PCW4F3qudotdI0NiZEFo",
+    "object": "chat.completion",
+    "created": 1682885590,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1188,
+      "completion_tokens": 84,
+      "total_tokens": 1272
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06219\", \"data_mentioned\": true, \"reason\": \"DHS\"}] \n\nSentence s_06219 mentions the DHS dataset explicitly and unambiguously, as it describes the process of matching weights to the mean values from the DHS. All other sentences either mention tools or methods used for analysis, or do not mention a dataset clearly and unambiguously."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06219\", \"data_mentioned\": true, \"reason\": \"DHS\"}] \n\nSentence s_06219 mentions the DHS dataset explicitly and unambiguously, as it describes the process of matching weights to the mean values from the DHS. All other sentences either mention tools or methods used for analysis, or do not mention a dataset clearly and unambiguously.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,1735 @@
+{
+  "paper_id": "D19898940",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:08.782095Z"
+  },
+  "title": "Fiscal Multipliers in Recessions and Expansions Does It Matter Whether Government Spending Is Increasing or Decreasing?",
+  "authors": [
+    {
+      "first": "Daniel",
+      "middle": [],
+      "last": "Riera-Crichton",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Development Research Group Macroeconomics and Growth Team",
+        "institution": "",
+        "location": {}
+      },
+      "email": ""
+    },
+    {
+      "first": "Carlos",
+      "middle": [
+        "A"
+      ],
+      "last": "Vegh",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Development Research Group Macroeconomics and Growth Team",
+        "institution": "",
+        "location": {}
+      },
+      "email": "cvegh1@jhu.edu"
+    },
+    {
+      "first": "Guillermo",
+      "middle": [],
+      "last": "Vuletin",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Development Research Group Macroeconomics and Growth Team",
+        "institution": "",
+        "location": {}
+      },
+      "email": "gvuletin@brookings.edu"
+    }
+  ],
+  "year": "2014-07",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D19898940",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "Using non-linear methods, this paper finds that existing estimates of government spending multipliers in expansion and recession may yield biased results by ignoring whether government spending is increasing or decreasing. For industrial countries, the problem originates in the fact that, contrary to one's priors, it is not always the case that government spending is going up in recessions (i.e., acting countercyclically). In almost as many cases, government spending is actually going down (i.e., acting procyclically).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Since the economy does not respond symmetrically to government spending increases or decreases, the \"true\" long-run multiplier for bad times (and government spending going up) turns out to be 2.3 compared to 1.3 if we just distinguish between recession and expansion. In the case of developing countries, the bias results from the fact that the multiplier for recessions and government spending going down (the \"when-it-rains-it-pours\" phenomenon) is larger than when government spending is going up.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The recent global \u2026nancial crisis and ensuing recession triggered major \u2026scal stimulus packages throughout the industrial world as well as in several emerging markets. The e\u00a4ectiveness of these \u2026scal packages remains, however, an open question. In fact, the size of the government spending multipliers in the academic literature has varied widely, from negative values to positive values as high as 4.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Why do estimates vary so widely? An obvious explanation is the use of di\u00a4erent methodologies. Indeed, there has been an intense debate in the literature regarding the proper identi\u2026cation of \u2026scal shocks. The widely-used identi\u2026cation method of Blanchard and Perotti (2002) in the context of structural vector-autoregressions models (SVAR), which relies on the existence of a one-quarter lag between output and a \u2026scal response, has been called into question by Ramey (2011) on the basis that what is an orthogonal shock for an SVAR may not be so for private forecasters. In other words, there seems to be, at least for the United States, a non-trivial correlation between orthogonal innovations in an SVAR and private forecasts. To remedy this, Barro and Redlick (2011) and Romer and Romer (2010) have suggested, respectively, the use of a \"natural experiment approach\"(military buildups in the United States) or a narrative approach for the case of taxes.",
+        "cite_spans": [
+          {
+            "start": 245,
+            "end": 273,
+            "text": "Blanchard and Perotti (2002)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 462,
+            "end": 474,
+            "text": "Ramey (2011)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 746,
+            "end": 770,
+            "text": "Barro and Redlick (2011)",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 775,
+            "end": 797,
+            "text": "Romer and Romer (2010)",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Another reason for di\u00a4erent estimates could be that the size of \u2026scal multipliers may depend on various characteristics of the economy in question, including degree of openness, exchange rate regime, and the state of the business cycle. 1 The latter factor appears as particularly relevant for policy makers since, in practice, \u2026scal stimulus is only undertaken in bad times in most industrial countries and hence, one could argue, the relevant multiplier is not an \"average\" multiplier over the business cycle but the one that applies in bad times. In the same vein, since most expansionary policies take place during booms in developing countries (i.e., the well-known procyclical \u2026scal behavior), low multipliers in developing countries could re \u2021ect that such expansionary policies have low impact in booms. 2 There is thus reason to believe that, in both industrial and emerging countries, the size of \u2026scal multipliers could well depend on the economic cycle.",
+        "cite_spans": [
+          {
+            "start": 237,
+            "end": 238,
+            "text": "1",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 812,
+            "end": 813,
+            "text": "2",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "From a technical standpoint, dividing the classical SVAR regression samples into expansions and recessions could severely compromise the number of observations used in the analysis as well as miss inherent non-linearities in the economy's response to \u2026scal stimulus. A potential solution is the use of non-linear, regime-switching type regressions, which have been used in some studies for the United States and other industrial countries. Speci\u2026cally, Fazzari et al. (2012) extend Chan and Tong's (1986) early work on Threshold Autorregresive Models (TAR) to a multivariate setting in order to create a Threshold SVAR (TSVAR) model. In a TSVAR, the parameters are allowed to switch according to whether a threshold variable crosses an estimated threshold (capacity utilization in this case). A possible drawback of this methodology lies in the potential arbitrariness of the threshold selection. In Fazzari et al.",
+        "cite_spans": [
+          {
+            "start": 453,
+            "end": 474,
+            "text": "Fazzari et al. (2012)",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 482,
+            "end": 504,
+            "text": "Chan and Tong's (1986)",
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "(2012), the threshold is estimated from the data but it could still be argued that the selection of the threshold variable itself is arbitrary.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "In a related, but di\u00a4erent, approach, Auerbach and Gorodnichenko (AG) (2010) solve the issue of threshold selection by extending early work by Granger and Teravistra (1993) on Smooth Transition Autoregressive models (STAR) in order to accommodate simultaneous equation analysis in a Smooth Transition Vector Autoregressive model (STVAR). In this model the transition across states is controlled by an underlying smooth logistic distribution with a weight (or probability) given by a moving average of real GDP growth. For the United States, Auerbach and Gorodnichenko (2010) conclude that the spending multiplier is around zero in expansions and 1.5-2.0 in recessions. Using a linear model, the estimate would be around one, thus underestimating it for recessions and overestimating it for expansions. In Auerbach and Gorodnichenko (2012) , they resort to an alternative methodology -advocated by Jorda (2005) and Stock and Watson (2007) -that relies on running a separate regression for each horizon and then constructing the impulse response function. This direct projection method does not impose the dynamic restrictions implicitly embedded in VARs and can easily accommodate non-linearities in the response function. They conclude, for a panel of OECD countries, that the multiplier is around 3.5 during recessions and essentially zero during expansions. This paper tackles the same question (do \u2026scal multipliers depend on the state of the business cycle?) but brings into the picture a new dimension, which we believe is critical for evaluating the size of \u2026scal multipliers in good and bad times. 3 The new dimension is whether government spending is going up or down. To understand intuitively why this may be a critical dimension, notice that when we talk about \u2026scal multipliers in good and bad times, the implicit world that we have in mind is one in which \u2026scal policy is countercyclical (i.e.., government spending increases in bad times and falls in good times), as has traditionally been the case for industrial countries. 4 As illustrated in Table 1 , however, this is not true about 44 percent of the time. 5 Speci\u2026cally, by combining good or bad times with government spending going up or down, Table 1 tells us how much time the economy spends, on average, in each of the possible four states of the world (top \u2026gures in every cell, which add up to 100 percent). For example, cell (1,1) indicates that industrial countries spend, on average, 29 percent of the time in good times with government spending going down. The table thus tells us that industrial countries spend, on average, 56 percent of the time in countercyclical states of the world; that is, the sum of cells (1,1) and (2, 2) . The rest of the time (44 percent), government spending is either going down in bad times (cell (2,1)) or going up in good times (cell (1,2)), which would constitute procyclical \u2026scal policy.",
+        "cite_spans": [
+          {
+            "start": 143,
+            "end": 172,
+            "text": "Granger and Teravistra (1993)",
+            "ref_id": null
+          },
+          {
+            "start": 805,
+            "end": 838,
+            "text": "Auerbach and Gorodnichenko (2012)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 897,
+            "end": 909,
+            "text": "Jorda (2005)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 914,
+            "end": 937,
+            "text": "Stock and Watson (2007)",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 1605,
+            "end": 1606,
+            "text": "3",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 2039,
+            "end": 2040,
+            "text": "4",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 2125,
+            "end": 2126,
+            "text": "5",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 2704,
+            "end": 2707,
+            "text": "(2,",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 2708,
+            "end": 2710,
+            "text": "2)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 2059,
+            "end": 2066,
+            "text": "Table 1",
+            "ref_id": null
+          },
+          {
+            "start": 2214,
+            "end": 2221,
+            "text": "Table 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Furthermore, conditional on being in bad times, government spending is going down 46 percent of the time (bottom \u2026gure in cell (1,2)). Hence, when we compute a multiplier for bad times, we are putting in the same bag very di\u00a4erent situations: the case of government spending going up in bad times (our implicit scenario) and the case of government spending going down in bad times (or procyclical \u2026scal policy). If government spending going up or down did not matter for the size of the multiplier, then this would not be a problem. If it does matter (as we will show), then we would be biasing our estimate. 6 Instead of estimating the multiplier for cell (2, 2) , so to speak, we would be estimating an average of the multiplier for cells (2,1) and (2,2).",
+        "cite_spans": [
+          {
+            "start": 609,
+            "end": 610,
+            "text": "6",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 657,
+            "end": 660,
+            "text": "(2,",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 661,
+            "end": 663,
+            "text": "2)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Our results con\u2026rm our intuition. When we compute multipliers for industrial countries for each of the four states of the world captured in Table 1 , we \u2026nd that the largest multiplier (after 2 and 4 semesters) corresponds to cell (2,2), reaching 2.3 after four semesters. If we ignore the distinction of government spending going up or down, the resulting multiplier is just 1.3. The bias comes from the fact that the long-run multiplier for cell (2,1) is not signi\u2026cantly di\u00a4erent from zero. Hence, ignoring whether government spending is going up or down implicitly gives us an \"average\" of cells (2,1) and (2, 2) .",
+        "cite_spans": [
+          {
+            "start": 610,
+            "end": 613,
+            "text": "(2,",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 614,
+            "end": 616,
+            "text": "2)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 140,
+            "end": 147,
+            "text": "Table 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "While our distinction between government spending going up or down continues to matter for developing countries, the direction of the bias is di\u00a4erent. In contrast to industrial countries, we \u2026nd that the multiplier obtained for the situation captured in cell (2,1) is signi\u2026cantly di\u00a4erent from zero at all time horizons. In contrast, the multiplier for the case of cell (2,2) is not signi\u2026cantly di\u00a4erent from zero on impact and becomes insigni\u2026cant again after about \u2026ve quarters.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "All the results reported so far refer to \u2026scal multipliers computed for the \"median\" expansion and recession. We also looked, however, at what happens in \"extreme\" booms and recessions. For industrial countries, we \u2026nd that the multiplier in extreme recessions is much larger than in typical recessions (almost 70 percent higher). But perhaps the most striking result when considering extreme recessions is that lower government spending reduces output for any time horizon and, more importantly, the multiplier is always larger than one. In particular, the long-run multiplier (i.e., after 4 semesters) reaches 1.69. In terms of the current debate on austerity in the Eurozone, our results would indicate that the remedy could be worse than the disease in the sense that debt-to-GDP ratios would actually increase (even after 2 years) as a result of a \u2026scal contraction.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The paper proceeds as follows. Section 2 discusses the data and our methodology that follows the direct projection method mentioned above. Section 3 presents our estimates in the following order: (i) single (or non-linear) multipliers; (ii) multipliers in expansions and recessions; (iii) multipliers when government spending is going up and down; and (iv) multipliers taking into account both recession/expansion and government spending going up or down. Section 4 presents our estimates for extreme recessions or booms and compares them with our previous estimates (which apply to the median recession or boom). Section 5 concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "For OECD countries we use semiannual data on seasonally-adjusted real government spending, seasonally-adjusted real GDP, and government spending forecast errors (F E G ) computed as the di\u00a4erence between forecast series prepared by professional forecasters and actual, \u2026rst-release series of the government spending growth rate. 7 8 As discussed in detail in AG (2010, 2012), F E G provides a convenient way to identify unanticipated government purchases, which enables us to appropriately estimate \u2026scal multipliers. This surprise government spending shock captures unanticipated innovations in spending.",
+        "cite_spans": [
+          {
+            "start": 329,
+            "end": 332,
+            "text": "7 8",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data and methodology 2.1 Data",
+        "sec_num": "2"
+      },
+      {
+        "text": "Given the absence of readily available government spending forecast error data in developing countries, we use -as has been typical in the SVAR literature -quarterly data on seasonally-adjusted real government spending as well as the identifying assumption that while contemporaneous changes in government spending can a\u00a4ect output in the same quarter, the opposite is not true (i.e., it takes output changes at least one quarter to a\u00a4ect government spending). We also use quarterly seasonally-adjusted real GDP. 9 10 ",
+        "cite_spans": [
+          {
+            "start": 513,
+            "end": 517,
+            "text": "9 10",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data and methodology 2.1 Data",
+        "sec_num": "2"
+      },
+      {
+        "text": "We follow the single-equation approach advocated by Jorda (2005) In particular, LP (i) can be estimated by single-regression techniques (least-squares dummy 7 The list of OECD countries comprises Australia, Austria, Belgium, Canada, Chile, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Japan, Korea, Rep., Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Spain, Sweden, Turkey, United Kingdom, and United States. The sample periods covers 1986-2008. 8 The sources of data for government spending and GDP (for both OECD and developing countries) are IFS (IMF), Global Financial Data, Datastream, as well as local sources such as Central Banks. 9 The list of developing countries comprises Argentina, Botswana, Bulgaria, Chile, China, Cyprus, Czech Republic, Ecuador, Egypt, Hungary, India, Korea, Rep., Latvia, Lithuania, Malta, Mauritius, Mexico, Paraguay, Philippines, Poland, Romania, Russia, Singapore, Slovak Republic, Slovenia, South Africa, Thailand, Turkey, Uruguay, and Venezuela. The sample period covers 1970-2011.",
+        "cite_spans": [
+          {
+            "start": 52,
+            "end": 64,
+            "text": "Jorda (2005)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 157,
+            "end": 158,
+            "text": "7",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 528,
+            "end": 529,
+            "text": "8",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 721,
+            "end": 722,
+            "text": "9",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "1 0 For consistency with our methodology for developing countries, we also computed all multipliers for OECD countries using the same frequency and methodology (described below) that we use for developing countries. The results (not reported for the sake of brevity) are qualitatively the same, though the estimated multipliers are smaller and with larger standard error bands. variables or LSDV in our case), (ii) are more robust to potential misspeci\u2026cations, and (iii) can easily accommodate highly non-linear and \u2021exible speci\u2026cations that may be impractical in a multivariate SVAR context.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "While we use simple non-linear speci\u2026cations to estimate the di\u00a4erent multipliers under expansionary or contractionary \u2026scal policy and along the economic cycle, regime transition in non-linear models can be problematic. By estimating the multipliers individually under each regime, the risk of bias in the coe\u00a2 cients follows from the implicit assumption that the economy never changes regimes. In line with AG (2010), however, we sidestep the problems derived from assuming discrete changes in regimes by using a smooth (continuous) transition model. In that case, and while one regime (recession) has a relatively small number of observations, the smooth transition model allows us to e\u00a4ectively pool more information taking advantage of the variation in the degree of a particular regime so that estimation and inference for each regime is based on a larger set of observations. Since we estimate properties of a given regime using in part information from another regime, our estimates may be biased.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Nevertheless, it is important to note that the bias in our estimates will be toward not \u2026nding di\u00a4erent \u2026scal multipliers across regimes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "In all of our regression analysis, we use robust Driscoll and Kraay (1998) standard errors to correct for potential heteroskedasticity, autocorrelation in the lags, and error correlation across panels.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "In our basic linear speci\u2026cation (Section 3.1), the response of output growth at the horizon h is estimated from the following regression:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "Y i;t+h = i;h + h F E G i;t + h (L) Y i;t 1 + h (L) G i;t 1 + ' 1 T t;h + ' 2 T 2 t;h + i;t;h ;",
+            "eq_num": "(1)"
+          }
+        ],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "where i and t index countries and time, respectively, i is the country \u2026xed e\u00a4ect, and Y and G are the logarithms of real GDP and real government spending. Therefore, Y and We then follow AG (2012) and compute non-linear \u2026scal multipliers in economic expansions and recessions for OECD countries (Sections 3.2 and 4). For this purpose, we modify our linear speci\u2026cation (1) as follows:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "Y i;t+h = i;h + (1 I (x i;t 1 )) E;h F E G i;t + I (x i;t 1 ) R;h F E G i;t + + (1 I (x i;t 1 )) E;h (L) Y i;t 1 + I (x i;t 1 ) R;h (L) Y i;t 1 + + (1 I (x i;t 1 )) E;h (L) G i;t 1 + I (x i;t 1 ) R;h (L) G i;t 1 + +' 1 T t;h + ' 2 T 2 t;h + i;t ;",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "with I (x i;t ) = e x i;t 1 + e x i;t ; > 0:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Following AG (2012), I(:) is a transition function for each country that ranges between 0 (largest expansion) and 1 (deepest recession). x i;t is a normalized variable measuring the state of the business cycle which, using the 7-quarter moving average of the growth rate of output, is then normalized such that E(x i;t ) = 0 and V ar(x i;t ) = 1 for each i. 11 The common practice in this emerging literature (e.g., Owyang Based on the median value of x during expansions and recessions, we capture the median recession using I(:) = 0:7 (and, thus, 1 I(:) = 0:3). By the same token, we capture the median expansion using 1 I(:) = 0:7 (and, thus, I(:) = 0:3). 12 In Section 4, we will then compare the multipliers obtained under typical expansions and recessions with those obtained under extreme expansions and recessions (i.e., for the cases in which I(:) = 0 and I(:) = 1, respectively).",
+        "cite_spans": [
+          {
+            "start": 358,
+            "end": 360,
+            "text": "11",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 416,
+            "end": 422,
+            "text": "Owyang",
+            "ref_id": null
+          },
+          {
+            "start": 659,
+            "end": 661,
+            "text": "12",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "To \u2026x ideas, we now report some numbers regarding the typical and extreme business cycle conditions in OECD and developing countries. In all cases, these \u2026gures refer to median values in each group of countries. In OECD countries, the 7-quarter moving average of the growth rate of output in a typical recession is 0.3 percent, compared to -1.0 percent in an extreme recession. The corresponding \u2026gures for a typical and extreme expansion are 0.9 and 3.2 1 1 As in AG (2012), we calibrate = 1:5. Results hold for small variations in the value of . 1 2 Although the point estimates of the IRF and multipliers are straightforward to calculate (we use the weighted average of E;h and R;h ), standard errors also need to account for the covariance between E;h and R;h . We use the following formulation for the weighted average of the standard errors: ",
+        "cite_spans": [
+          {
+            "start": 455,
+            "end": 456,
+            "text": "1",
+            "ref_id": "BIBREF0"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "a E +b R = q a 2 2 E + b 2 2 R + 2ab 2 E ; R ;",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "Y i;t+h = i;h + P OS h F E G P OS i;t + N EG h F E G N EG i;t + P OS h (L) Y P OS i;t 1 + N EG h (L) Y N EG i;t 1 + + P OS h (L) G P OS i;t 1 + N EG h (L) G N EG i;t 1 + ' 1 T t;h + ' 2 T 2 t;h + i;t;h :",
+            "eq_num": "(3)"
+          }
+        ],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Finally, we look into the possible interaction between recession/expansion and government spending going up or down in Section 3.4 (for typical expansions and recessions) and in Section 4 (for extreme expansions and recessions). For this purpose, we modify our linear speci\u2026cation",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "(1) by including the underlying elements of speci\u2026cations (2) and 3:",
+        "cite_spans": [
+          {
+            "start": 58,
+            "end": 61,
+            "text": "(2)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "Y i;t+h = i;h + (1 I (x i;t 1 )) P OS E;h F E G P OS i;t + I (x i;t 1 ) P OS R;h F E G P OS i;t + + (1 I (x i;t 1 )) N EG E;h F E G N EG i;t + I (x i;t 1 ) N EG R;h F E G N EG i;t + + (1 I (x i;t 1 )) P OS E;h (L) Y P OS i;t 1 + I (x i;t 1 ) P OS R;h (L) Y P OS i;t 1 + + (1 I (x i;t 1 )) N EG E;h (L) Y N EG i;t 1 + I (x i;t 1 ) N EG R;h (L) Y N EG i;t 1 + + (1 I (x i;t 1 )) P OS E;h (L) G P OS i;t 1 + I (x i;t 1 ) P OS R;h (L) G P OS i;t 1 + + (1 I (x i;t 1 )) N EG E;h (L) G N EG i;t 1 + I (x i;t 1 ) N EG R;h (L) G N EG i;t 1 + +' 1 T t;h + ' 2 T 2 t;h + i;t;h :",
+            "eq_num": "(4)"
+          }
+        ],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "We now proceed to report the estimates of the \u2026scal multipliers for both OECD and developing countries using the four empirical speci\u2026cations just outlined.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "We \u2026rst present estimates for the linear (single) multiplier, then for multipliers in recession and expansion, then for multipliers that di\u00a4erentiate between increases and decreases in government spending, and \u2026nally for multipliers that take into account both expansion/recession and government spending going up or down.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimates of spending multipliers",
+        "sec_num": "3"
+      },
+      {
+        "text": "As a natural \u2026rst step -and following speci\u2026cation (1) -we compute the cumulative \u2026scal multiplier for OECD countries, which is illustrated in Figure 1 This linear (or single) multiplier provides us with a benchmark to \u2026rst revisit the AG exercise of computing multipliers in expansions and recessions and later examining whether it matters if government spending is going up or down.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 143,
+            "end": 151,
+            "text": "Figure 1",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Linear multiplier",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "Based on speci\u2026cation (2), we now compute the \u2026scal multipliers in economic expansions and recessions for OECD countries. The multipliers associated with expansion and recession are illustrated in Figure 2 , panels A and B.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 197,
+            "end": 205,
+            "text": "Figure 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Multipliers in recession and expansion",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "As in AG (2012) we \u2026nd that the \u2026scal multiplier in recessions is larger than in expansions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Multipliers in recession and expansion",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "In the case of recessions, the multiplier is 0.73 on impact (and signi\u2026cantly di\u00a4erent from zero) and reaches a peak of 1.28 after four semesters. In contrast, in expansions the multiplier is 0.09 (and not signi\u2026cantly di\u00a4erent from zero) on impact and remains insigni\u2026cant for any horizon.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Multipliers in recession and expansion",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "The nice point to emerge out of this exercise of is that one can think of the single multiplier illustrated in Figure 1 , panel A, as an \"average\"of panels A and B in Figure 2 that masks the estimate that we are presumably most interested in (i.e., the multiplier during recessions when policy makers are trying to stimulate the economy in order to raise output and employment). What happens in developing countries? Figure 3 , panels A and B, shows the \u2026scal multipliers associated with expansion and recession. In line with our \u2026ndings for OECD countries, the \u2026scal multiplier in recessions is larger than in good times (particularly in the medium and long run). Speci\u2026cally, the impact multiplier in recessions and expansions is fairly similar at, respectively, 0.24 and 0.21, and signi\u2026cantly di\u00a4erent from zero. However, the peak multiplier during recessions (0.81) is two times and a half as high as the peak multiplier during expansions (0.32). Furthermore, the multiplier during expansions becomes insigni\u2026cantly di\u00a4erent from zero after 4 quarters, whereas the multiplier during recessions remains signi\u2026cantly di\u00a4erent from zero throughout our estimated horizon.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 111,
+            "end": 119,
+            "text": "Figure 1",
+            "ref_id": "FIGREF6"
+          },
+          {
+            "start": 167,
+            "end": 175,
+            "text": "Figure 2",
+            "ref_id": null
+          },
+          {
+            "start": 417,
+            "end": 425,
+            "text": "Figure 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Multipliers in recession and expansion",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "Following the empirical speci\u2026cation (3), we will \u2026rst evaluate whether government spending going up or down matters for the size of the \u2026scal multiplier (i.e., even before taking into account the stance of the business cycle). For the case of industrial countries, Table 1 indicates that government spending is above the long-term trend 48 percent of the time and below such trend 52 percent of the time. to industrial countries. As discussed below, this could be due to the fact that we see much less countercyclical \u2026scal policy in developing countries compared to industrial countries. 14 A similar pattern emerges for the multiplier when government spending is falling ( Figure   5 , panel A). While the impact multiplier is 0.37 (and signi\u2026cantly di\u00a4erent from zero), it becomes insigni\u2026cant after four quarters.",
+        "cite_spans": [
+          {
+            "start": 590,
+            "end": 592,
+            "text": "14",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 266,
+            "end": 273,
+            "text": "Table 1",
+            "ref_id": null
+          },
+          {
+            "start": 676,
+            "end": 686,
+            "text": "Figure   5",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Multipliers when government spending is increasing/decreasing",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "Motivated by the \u2026ndings from Sections 3.2 and 3.3, we now follow speci\u2026cation (4) and look into the possible interaction between recession/expansion and government spending increasing or decreasing.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "Since we know from Figure 4 that, all else equal, the multiplier is higher when government spending is going up than down, one would conjecture that we are underestimating the mul-tiplier in recessions because, on many occasions, government spending is going down instead of up (which is the implicit expectation). To correct for this \"bias\", one should compute the multiplier only in situations of recessions and government spending going up.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 19,
+            "end": 27,
+            "text": "Figure 4",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "To this e\u00a4ect, Figure 6 depicts the multiplier for OECD countries for each of the four pos- Perhaps not surprisingly, the largest multiplier (in the medium and long run) corresponds to category (iv); that is, recession and increase in government spending ( Figure 6 , panel D). In this case, the impact multiplier is 0.66 (and signi\u2026cantly di\u00a4erent from zero) and reaches 2.32 after four semesters. The long-run (i.e., after 4 semesters) \u2026scal multiplier in this scenario is almost twice as large (2.32 versus 1.28) than the one found in Figure 2 , panel B when we just focused on recessions without distinguishing between government spending going up or down. In sum, we see that, by not di\u00a4erentiating between increases or reductions in government spending, we are underestimating the value of the multiplier when government spending increases in bad times, which is presumably the case that we care about the most.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 15,
+            "end": 23,
+            "text": "Figure 6",
+            "ref_id": null
+          },
+          {
+            "start": 257,
+            "end": 265,
+            "text": "Figure 6",
+            "ref_id": null
+          },
+          {
+            "start": 538,
+            "end": 546,
+            "text": "Figure 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "Conceptually, the multiplier shown in Figure 2 , panel B is an \"average\"of panels C and D in Figure 6 .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 38,
+            "end": 46,
+            "text": "Figure 2",
+            "ref_id": null
+          },
+          {
+            "start": 93,
+            "end": 101,
+            "text": "Figure 6",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "In contrast, the long-run implications of reducing government spending in a recession (Figure 6, panel C) are not signi\u2026cantly di\u00a4erent from zero. In other words, the long term e\u00a4ects of \u2026scal austerity packages that emphasize government spending cuts seem to be relatively small (particularly when executed under typical recessionary environments). The impact multiplier, however, is 0.78 (and signi\u2026cantly di\u00a4erent from zero) and reaches a peak of 0.83 (and significantly di\u00a4erent from zero) after 2 semesters. But after around 3 semesters, the multiplier becomes insigni\u2026cant. This implies that the short and medium term e\u00a4ects of \u2026scal austerity packages that emphasize government spending cuts are not trivial (this result emerges only when distinguishing government increases from decreases). In other words, and all else equal, this implies that the debt-to-GDP ratio will, in principle, barely improve (at least in the short and medium term) as a one dollar spending cut will reduce GDP by around 80 cents within a one year framework. These results are consistent with the \"short-run pain, long-run gain\"",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 86,
+            "end": 93,
+            "text": "(Figure",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "arguments often made when considering the implications of austerity packages. As we will see in Section 4, this is not the case when evaluating the implications of \u2026scal austerity packages in the context of extreme recessionary environments, where the remedy could actually be worse than the disease, and debt to GDP ratios could worsen as a consequence of \u2026scal tightening at all time horizons.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "A similar situation arises when considering expansions, as illustrated in Figure 6 , panel A and B. Recall that when we do not di\u00a4erentiate whether government spending is going up or down, the multiplier is zero (Figure 2, panel A) . Once one makes this distinction, the multiplier when government spending is going up becomes signi\u2026cantly di\u00a4erent from zero after about 1 semester, eventually reaching 1.13, as follows from Figure 6 , panel B. In contrast, panel A indicates that the \u2026scal multiplier is essentially zero at all horizons in the case that government spending is falling during a recession. Table 3 summarizes our results in the 2x2 matrix discussed in the introduction. As discussed above, the largest peak multiplier (2.31) is by far the one that applies to cell (2, 2) where the government is pursuing countercyclical \u2026scal policy in bad times.",
+        "cite_spans": [
+          {
+            "start": 780,
+            "end": 783,
+            "text": "(2,",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 784,
+            "end": 786,
+            "text": "2)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 74,
+            "end": 82,
+            "text": "Figure 6",
+            "ref_id": null
+          },
+          {
+            "start": 212,
+            "end": 231,
+            "text": "(Figure 2, panel A)",
+            "ref_id": null
+          },
+          {
+            "start": 425,
+            "end": 433,
+            "text": "Figure 6",
+            "ref_id": null
+          },
+          {
+            "start": 606,
+            "end": 613,
+            "text": "Table 3",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "What happens in developing countries? Results are shown in Figure 7 . In contrast to the case of industrial countries, the \u2026scal multiplier obtained for recessions when government spending is going down (panel C) is signi\u2026cantly di\u00a4erent from zero at all time horizons. 15 The multiplier is 0.51 on impact, reaches a peak of 0.90 after three quarters and a value of 0.78 in the long run (i.e., after 8 quarters). On the other hand, the multiplier in recessions and government spending going up (panel D) is not signi\u2026cantly di\u00a4erent from zero on impact and becomes insigni\u2026cant again after about \u2026ve quarters. In sum, the signi\u2026cant multiplier observed in recessions (Figure 3 , panel B) seems to be mostly explained by the case in which government spending is contracting (procyclical \u2026scal policy).",
+        "cite_spans": [
+          {
+            "start": 270,
+            "end": 272,
+            "text": "15",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 59,
+            "end": 67,
+            "text": "Figure 7",
+            "ref_id": null
+          },
+          {
+            "start": 667,
+            "end": 676,
+            "text": "(Figure 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "When it comes to expansions, the \u2026scal multiplier is statistically zero at all times horizons when government spending is contracting (panel A) and becomes insigni\u2026cant after only three quarters when government spending is increasing (panel B). Table 4 summarizes our multiplier results for developing countries in the 2x2 matrix discussed in the introduction. As argued above, the most relevant multiplier appears to be the one corresponding to cell (2,1), which is the case of procyclical \u2026scal policy (contractionary \u2026scal policy in bad times).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 245,
+            "end": 252,
+            "text": "Table 4",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "In sum, the picture that emerges for developing countries appears to be that countercyclical \u2026scal policy is rather ine\u00a4ective whereas procyclical \u2026scal policy in bad times is particularly damaging.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fiscal multipliers in recessions and expansions: Does it matter whether government spending is increasing or decreasing?",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "This section evaluates the size of \u2026scal multipliers in more severe/extreme recessions (like the ones recently experienced in some OECD countries) or, alternatively, during extreme booms. 16 First, what happens when we do not di\u00a4erentiate between increases and decreases in government spending? Like in typical expansions, the multiplier in extreme expansions is not signi\u2026cantly di\u00a4erent from zero on impact and remains insigni\u2026cant for any horizon (Figure 8, panel A) . In contrast, however, the \u2026scal multiplier in extreme recessions (panel B) is much larger than in typical recessions; almost 70 percent higher. On impact, the \u2026scal multiplier is smaller than one (0.73) in a typical recession but greater than one (1.21) in an extreme recession. In the long run, while the \u2026scal multiplier is 1.28 in a typical recession, it is 2.13 in an extreme recession. In other words, the size of the \u2026scal multiplier signi\u2026catively increases with the severity of the recession but remains zero during booms.",
+        "cite_spans": [
+          {
+            "start": 188,
+            "end": 190,
+            "text": "16",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 450,
+            "end": 469,
+            "text": "(Figure 8, panel A)",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "A similar pattern emerges during recessions in developing countries (Figure 9, panel B) .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 68,
+            "end": 87,
+            "text": "(Figure 9, panel B)",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "While the impact e\u00a4ect remains essentially the same (0.24 in typical recessions versus 0.26 in extreme recessions), the peak e\u00a4ect increases almost 50 percent (from 0.81 to 1.18) and the long term e\u00a4ect increases by about 85 percent (from 0.39 to 0.72). Still, like in Section 3.2, the multipliers for developing countries are smaller than those observed in the industrial world.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "What happens if we also di\u00a4erentiate between increases and decreases in output? Figure   10 shows the results for OECD countries. Two results are worth noting. First, the size of the \u2026scal multiplier associated with spending increases in extreme recessions ( Figure 10 , panel D)",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 80,
+            "end": 91,
+            "text": "Figure   10",
+            "ref_id": "FIGREF6"
+          },
+          {
+            "start": 259,
+            "end": 268,
+            "text": "Figure 10",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "is almost 40 percent larger than in typical recessions ( Figure 6 , panel D): the impact e\u00a4ect increases from 0.66 to 0.90 and the long term e\u00a4ect increases from 2.32 to 3.20. Maybe even more strikingly, the implications of spending cuts signi\u2026cantly change. While, as discussed in section 3.4, our \u2026ndings for typical recessions were consistent with the \"short-run pain and long-run gain\"arguments often heard when considering the implications of austerity packages, this is not the case when focusing on extreme recessions.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 57,
+            "end": 65,
+            "text": "Figure 6",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "In extreme recessions, cutting spending reduces output for any time horizon ( Figure 10 , panel C) and, more importantly, such e\u00a4ect is always larger than one. While, on impact, the size of the \u2026scal multiplier associated with a spending decrease is, for a typical recession, 0.78, it reaches 1.27 in an extreme recession. Moreover, the long run e\u00a4ect reaches 1.69. In other words, the remedy could be worse than the disease, and debt to GDP ratios could worsen as a consequence of \u2026scal tightening at all time horizons as the denominator decreases at a faster rate than the numerator. This result is consistent with the recent evidence observed in Greece where in spite of strong \u2026scal cuts, the debt-to-GDP ratio has increased rather than decreased.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 78,
+            "end": 87,
+            "text": "Figure 10",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "We see a similar change in the size of \u2026scal multipliers in developing countries ( Figure 11 ).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 83,
+            "end": 92,
+            "text": "Figure 11",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "The peak e\u00a4ect associated with an increase in government spending in an extreme recession (panel D) increases 40 percent (from 0.78 to 1.1). In the same vein, the contractionary e\u00a4ect of a spending cut in extreme recessions (panel C) increases by about 35 percent on impact (from 0.51 to 0.68) and 65 percent in the long run (from 0.78 to 1.29).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Typical versus extreme business cycles",
+        "sec_num": "4"
+      },
+      {
+        "text": "This paper has shown that when computing \u2026scal multipliers in expansion and recession, it is critical also to distinguish between times in which government spending increases and times in which government spending decreases. In the case of industrial countries, failure to do so introduces a downward bias in the estimation of the multiplier in recession because it includes cases in which government spending has gone down in bad times, which in and of itself results in a much lower multiplier in the long run. Speci\u2026cally, the long-run multiplier for recession and government spending going down is 2.3 compared to 1.3 when we just distinguish between recession and expansion.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5"
+      },
+      {
+        "text": "For developing countries, we \u2026nd that ignoring whether government spending is going up or down also biases the estimation but for di\u00a4erent reasons. In this case, the larger multiplier obtains for the case of recession and government spending decreases, which implies that the traditionally procyclical \u2026scal policy followed by developing countries has ampli\u2026ed the business cycle in the downturn (the \"when-it-rains-it-pours phenomenon).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5"
+      },
+      {
+        "text": "When computing multipliers for extreme booms and recessions, we \u2026nd that, in extreme recessions, cutting spending reduces output for any time horizon, with a long-run multiplier of 1.69. Applied to the current debate on austerity in the Eurozone, this would imply that debt-to-GDP ratios would increase in response to cuts in \u2026scal spending.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5"
+      },
+      {
+        "text": "In general, our \u2026ndings raise some intriguing analytical questions. The main question would be why changes in government spending may have an asymmetric e\u00a4ect in recession.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5"
+      },
+      {
+        "text": "Understanding why the e\u00a4ect may be asymmetric in good times is, in principle, much easier because in a situation of full employment, increases in government spending should have no e\u00a4ect whereas reductions should. A second analytical question would be how to explain the di\u00a4erent responses to \u2026scal contraction in industrial and developing countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5"
+      },
+      {
+        "text": "In terms of policy prescriptions, our \u2026ndings stress the importance of computing the \u2026scal multiplier in recession and when government spending is going up (which is presumably the most relevant scenario for policy makers). Failure to do so may greatly bias the relevant estimate and hence misinform policy makers in their decision process.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5"
+      },
+      {
+        "text": "The economy is defined as being in an expansion (recession) if real GDP is above (below) trend. The same definition applies to government spending. Trends were calculated using the HP filter. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1. OECD countries. Using cyclical components of GDP and government spending",
+        "sec_num": null
+      },
+      {
+        "text": "Cumulative multiplier",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Quarter",
+        "sec_num": null
+      },
+      {
+        "text": "See Auerback and Gorodnichenko (2010, 2012) and Ilzetzki, Mendoza, and Vegh (2013).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "On procyclical \u2026scal policy in developing countries, see Kaminsky, Reinhart, and Vegh (2004),Ilzetzki and Vegh (2008), and the references therein.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Our sample includes 52 countries (21 industrial and 31 developing) for the period 1971-2011.4 Of course, the current austerity programs in the Eurozone constitute procyclical \u2026scal policy, which had traditionally been observed only in developing countries.5 We are, of course, implicitly assuming that causation goes from the cycle to \u2026scal policy to tell our story. Our estimates below will, in principle, control for this.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "A simple theoretical example where it would matter is a situation of full employment (i.e., \"good times\") in a sticky-prices model. In such a case, we would expect an increase in government spending to have no e\u00a4ect on output (i.e., a zero multiplier) while a reduction in government spending would lead to a positive multiplier (whatever this may be). In AG's (2010, 2012) view of the world, these two multipliers are implicitly assumed to be the same.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "3 In other words, Y P OS ( Y N EG ) equals Y if F E G > 0 (F E G < 0) and zero otherwise. Similarly, G P OS ( G N EG ) equals G if F E G > 0 (F E G < 0) and zero otherwise.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "4 Recall that if we de\u2026ne countercyclical \u2026scal policy as being in cell (1,1) or (2,2) inTable 1or 2 (that is, contractionary policy in good times and expansionary policy in bad times), we can see that while industrial countries have spent 56 percent of the time in those cells, developing countries have spent only 36 percent of the time. The other side of the coin, of course, is that developing countries have spent 64 percent of the time pursuing procyclical \u2026scal policy -capture by cells (2,1) and (1,2) -compared to 44 percent of the time for industrial countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "5 This provides empirical support to the \"when-it-rains-it-pours\" phenomenon\" identi\u2026ed byKaminsky, Reinhart, and Vegh (2004).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "6 Recall from Section 2 that we de\u2026ne extreme expansions and recessions as those computed for the cases in which I(:) = 0 and I(:) = 1, respectively, where I(:) is the transition function for each country.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Measuring the output responses to \u2026scal policy",
+        "authors": [
+          {
+            "first": "Alan",
+            "middle": [
+              "J"
+            ],
+            "last": "Auerbach",
+            "suffix": ""
+          },
+          {
+            "first": "Yuriy",
+            "middle": [],
+            "last": "Gorodnichenko",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Auerbach, Alan J., and Yuriy Gorodnichenko, 2010. \"Measuring the output responses to \u2026scal policy,\" unpublished manuscript (UC Berkeley).",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Fiscal multipliers in recession and expansion",
+        "authors": [
+          {
+            "first": "Alan",
+            "middle": [
+              "J"
+            ],
+            "last": "Auerbach",
+            "suffix": ""
+          },
+          {
+            "first": "Yuriy",
+            "middle": [],
+            "last": "Gorodnichenko",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Auerbach, Alan J., and Yuriy Gorodnichenko, 2012. \"Fiscal multipliers in recession and expansion,\" NBER Working Paper No. 17447.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Macroeconomic e\u00a4ects from government purchases and taxes",
+        "authors": [
+          {
+            "first": "Robert",
+            "middle": [],
+            "last": "Barro",
+            "suffix": ""
+          },
+          {
+            "first": "Charles",
+            "middle": [],
+            "last": "Redlick",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "126",
+        "issue": "",
+        "pages": "51--102",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Barro, Robert, and Charles Redlick, 2011. \"Macroeconomic e\u00a4ects from government purchases and taxes,\" Quarterly Journal of Economics 126, 51-102.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "An empirical characterization of the dynamic e\u00a4ects of changes in government spending and taxes on output",
+        "authors": [
+          {
+            "first": "Olivier",
+            "middle": [],
+            "last": "Blanchard",
+            "suffix": ""
+          },
+          {
+            "first": "Roberto",
+            "middle": [],
+            "last": "Perotti",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "117",
+        "issue": "4",
+        "pages": "1329--1368",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Blanchard, Olivier and Roberto Perotti (2002), \"An empirical characterization of the dynamic e\u00a4ects of changes in government spending and taxes on output,\" Quarterly Journal of Economics 117 (4), 1329-1368.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "On estimating thresholds in autoregressive models",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [
+              "S"
+            ],
+            "last": "Chan",
+            "suffix": ""
+          },
+          {
+            "first": "Howell",
+            "middle": [],
+            "last": "Tong",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "Journal of Time Series Analysis",
+        "volume": "7",
+        "issue": "",
+        "pages": "179--190",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chan, K. S. and Howell Tong, 1986. \"On estimating thresholds in autoregressive models,\" Journal of Time Series Analysis 7, 179-190.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Consistent covariance matrix estimation with spatially dependent panel data",
+        "authors": [
+          {
+            "first": "John",
+            "middle": [
+              "C"
+            ],
+            "last": "Driscoll",
+            "suffix": ""
+          },
+          {
+            "first": "Aart",
+            "middle": [
+              "C"
+            ],
+            "last": "Kraay",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "The Review of Economics and Statistics",
+        "volume": "80",
+        "issue": "4",
+        "pages": "549--560",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Driscoll, John C., and Aart C. Kraay, 1998. \"Consistent covariance matrix estimation with spatially dependent panel data,\" The Review of Economics and Statistics 80 (4), 549-560.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "State-dependent e\u00a4ects of \u2026scal policy",
+        "authors": [
+          {
+            "first": "Steven",
+            "middle": [
+              "M"
+            ],
+            "last": "Fazzari",
+            "suffix": ""
+          },
+          {
+            "first": "James",
+            "middle": [],
+            "last": "Morley",
+            "suffix": ""
+          },
+          {
+            "first": "Irina",
+            "middle": [],
+            "last": "Panovska",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Australian School of Business Research",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fazzari, Steven M., James Morley, and Irina Panovska, 2012. \"State-dependent e\u00a4ects of \u2026scal policy,\" Australian School of Business Research Paper No. 2012 ECON 27.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Modelling non-linear economic relationships",
+        "authors": [
+          {
+            "first": "Clive",
+            "middle": [
+              "W"
+            ],
+            "last": "Granger",
+            "suffix": ""
+          },
+          {
+            "first": "Timo",
+            "middle": [],
+            "last": "Terasvirta",
+            "suffix": ""
+          }
+        ],
+        "year": 1993,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Granger, Clive W., and Timo Terasvirta, 1993. Modelling non-linear economic relation- ships (Oxford University Press).",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Procyclical \u2026scal policy in developing countries: Truth or \u2026ction?",
+        "authors": [
+          {
+            "first": "Ethan",
+            "middle": [],
+            "last": "Ilzetzki",
+            "suffix": ""
+          },
+          {
+            "first": "Carlos",
+            "middle": [
+              "A"
+            ],
+            "last": "Vegh",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ilzetzki, Ethan, and Carlos A. Vegh, 2008. \"Procyclical \u2026scal policy in developing coun- tries: Truth or \u2026ction?\" NBER Working Paper No. 14191.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "How big (small?) are \u2026scal multipliers",
+        "authors": [
+          {
+            "first": "Ethan",
+            "middle": [],
+            "last": "Ilzetzki",
+            "suffix": ""
+          },
+          {
+            "first": "Enrique",
+            "middle": [
+              "G"
+            ],
+            "last": "Mendoza",
+            "suffix": ""
+          },
+          {
+            "first": "Carlos",
+            "middle": [
+              "A"
+            ],
+            "last": "Vegh",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Journal of Monetary Economics",
+        "volume": "60",
+        "issue": "",
+        "pages": "239--54",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ilzetzki, Ethan, Enrique G. Mendoza, and Carlos A. Vegh, 2013. \"How big (small?) are \u2026scal multipliers? Journal of Monetary Economics 60, 239-54..",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Estimation and inference of impulse responses by local projections",
+        "authors": [
+          {
+            "first": "Oscar",
+            "middle": [],
+            "last": "Jorda",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "American Economic Review",
+        "volume": "95",
+        "issue": "1",
+        "pages": "161--182",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jorda, Oscar, 2005. \"Estimation and inference of impulse responses by local projections,\" American Economic Review 95 (1), 161-182.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "When it rains it pours: Procyclical capital \u2021ows and macroeconomic policies",
+        "authors": [
+          {
+            "first": "Graciela",
+            "middle": [],
+            "last": "Kaminsky",
+            "suffix": ""
+          },
+          {
+            "first": "Carmen",
+            "middle": [
+              "M"
+            ],
+            "last": "Reinhart",
+            "suffix": ""
+          },
+          {
+            "first": "Carlos",
+            "middle": [
+              "A"
+            ],
+            "last": "Vegh",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "NBER Macroeconomics Annual",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kaminsky, Graciela, Carmen M. Reinhart, and Carlos A. Vegh, 2004, \"When it rains it pours: Procyclical capital \u2021ows and macroeconomic policies,\" NBER Macroeconomics Annual.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Are government spending multipliers greater during periods of slack? Evidence from 20th century historical data",
+        "authors": [
+          {
+            "first": "Michael",
+            "middle": [
+              "T"
+            ],
+            "last": "Owyang",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Valerie",
+            "suffix": ""
+          },
+          {
+            "first": "Sarah",
+            "middle": [],
+            "last": "Ramey",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Zubairy",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Owyang, Michael T., Valerie A. Ramey, and Sarah Zubairy, 2013, \"Are government spending multipliers greater during periods of slack? Evidence from 20th century his- torical data,\" NBER Working Paper No. 18769.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Identifying government spending shocks: It's all in the timing",
+        "authors": [
+          {
+            "first": "Valerie",
+            "middle": [
+              "A"
+            ],
+            "last": "Ramey",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "126",
+        "issue": "1",
+        "pages": "1--50",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ramey, Valerie A. 2011. \"Identifying government spending shocks: It's all in the timing,\" Quarterly Journal of Economics 126 (1), 1-50.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "The macroeconomic e\u00a4ects of tax changes: Estimates based on a new measure of \u2026scal shocks",
+        "authors": [
+          {
+            "first": "Christina",
+            "middle": [],
+            "last": "Romer",
+            "suffix": ""
+          },
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Romer",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "American Economic Review",
+        "volume": "100",
+        "issue": "",
+        "pages": "763--801",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Romer, Christina, and David Romer, 2010. \"The macroeconomic e\u00a4ects of tax changes: Estimates based on a new measure of \u2026scal shocks,\" American Economic Review 100, 763-801.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Why has U.S. in \u2021ation become harder to forecast?",
+        "authors": [
+          {
+            "first": "James",
+            "middle": [],
+            "last": "Stock",
+            "suffix": ""
+          },
+          {
+            "first": "Mark",
+            "middle": [],
+            "last": "Watson",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Journal of Money, Banking and Credit",
+        "volume": "39",
+        "issue": "",
+        "pages": "1--33",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Stock, James, and Mark Watson, 2007. \"Why has U.S. in \u2021ation become harder to fore- cast?\" Journal of Money, Banking and Credit 39, 1-33.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "and Stock and Watson (2007), which does not impose the dynamic restrictions implicitly embedded in the SVAR methodology and can conveniently accommodate nonlinearities in the response function. For this purpose, linear \"local projections\" (LP) of output growth on lags and current change of government expenditure and other controls are used for the construction of impulse response functions (IRF). As discussed in Jorda (2005), there are multiple advantages in the use of LP.",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF1": {
+        "text": "capture standard percentage changes (on the left-hand side, the change in Y is of course indexed by h because it is calculated for each horizon h). As in Owyang, Ramey, and Zubairy (2013), T controls for potential time trends. It is important to note that, in this approach, each time horizon in the IRF (captured by h) is obtained from a di\u00a4erent individual equation. We thus obtain the IRF values directly from the h estimated coe\u00a2 cients. Unlike a VAR speci\u2026cation, the estimated coe\u00a2 cients contained in (L) and (L) are not used directly to build the IRF values but only serve as controls, \"cleaning\"the h from the dynamic e\u00a4ects of output and the e\u00a4ects of past government expenditure changes. Following standard practice, spending multipliers are then constructed by multiplying the IRF values by the mean value of Y =G.",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF2": {
+        "text": "where a and b represent the weights and 2 E , 2 R , 2 E ; R are drawn from the variance-covariance matrix of the regression. percent, respectively. In developing countries, the 7-quarter moving average of the growth rate of output in a typical recession is 0.4 percent compared to -2.3 percent in an extreme recession. The corresponding \u2026gures for a typical and extreme expansion are 1.6 and 7.7 percent, respectively. As will become clear below, important policy implications will arise from comparing typical and extreme business cycle conditions, particularly regarding (i) the expansionary e\u00a4ect of government spending under alternative recessionary environments, and (ii) how the e\u00a4ectiveness of austerity packages may crucially depend upon the severity of the recessionary environment.One of the main novelties of this paper is to assess potential asymmetric e\u00a4ects on output of government spending depending on whether government spending is increasing or decreasing.Before interacting this new dimension with the stance of the business cycle, we \u2026rst evaluate in Section 3.3 whether the size of the \u2026scal multiplier may depend on whether government spending is going up or down (without considering the stance of the business cycle). For this purpose, we modify our linear speci\u2026cation (1) splitting each variable depending on whether forecast errors have positive (F E G P OS ) or negative (F E G N EG ) values:13",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF3": {
+        "text": ", panel A. The multiplier is 0.31 on impact (and signi\u2026cantly di\u00a4erent from zero), reaches a peak of 0.41 after one semester and remains signi\u2026cantly di\u00a4erent from zero after four semesters with a value of 0.38.What happens in developing countries?Figure 1, panel B shows the multiplier for this group of countries. The multiplier is 0.26 on impact (and signi\u2026cantly di\u00a4erent from zero), reaches a peak of 0.60 after three quarters, but then becomes insigni\u2026cant after about seven quarters.",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF4": {
+        "text": "shows the \u2026scal multipliers associated with government spending decreases (panel A) and increases (panel B). Interestingly enough, we \u2026nd that the \u2026scal multiplier associated with increases in government spending is larger than the one associated with decreases in government spending. In fact, the multiplier for government spending increases is 0.48 on impact (and signi\u2026cantly di\u00a4erent from zero) and reaches a maximum of about 1.36 after four semesters. In sharp contrast, the multiplier when government spending falls is never signi\u2026cantly di\u00a4erent from zero.When comparing these multipliers to the ones obtained in section 3.2, interesting similarities emerge. The pro\u2026le obtained for the \u2026scal multiplier in periods of expansion(Figure 2, panel A) is similar to the \u2026scal multiplier associated with decreases in government spending(Figure 4, panel A). Both multipliers are not signi\u2026cantly di\u00a4erent from zero. By the same token, the pro\u2026le obtained for the \u2026scal multiplier in recessions(Figure 2, panel B)is similar to the \u2026scal multipliers associated with increases in government spending(Figure 4, panel B).Both \u2026scal multipliers have initial values that are less than 1 (but signi\u2026cantly di\u00a4erent from zero) and long-run values that are larger than 1.A somewhat di\u00a4erent pictures emerges for developing countries. The multiplier when government spending goes up (Figure 5, panel B)is barely signi\u2026cant on impact, reaches a peak of 0.64 after 3 quarters but becomes insigni\u2026cant after around 4 quarters. Hence, increasing government spending seems much less e\u00a4ective in developing countries compared",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": "4"
+      },
+      "FIGREF5": {
+        "text": "sible categories: (i) expansion and reduction in government spending (panel A); (ii) expansion and increase in government spending (panel B); (iii) recession and reduction in government spending (panel C); and (iv) recession and increase in government spending (panel D).",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF6": {
+        "text": "Cumulative spending multiplier +/-confidence intervals. Single multiplier. OECD countries. Panel A. OECD countries. Using spending forecast errors Panel B. Developing countries. Using spending growth rate",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": "1"
+      },
+      "FIGREF7": {
+        "text": "Cumulative spending multiplier +/-90 confidence intervals. Using spending forecast errors. Typical economic expansions versus recessions. OECD countries Panel A. Expansions Panel B. Recessions Cumulative spending multiplier +/-90 confidence intervals. Using spending growth rate. Typical economic expansions versus recessions. Developing countries.",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": "23"
+      },
+      "FIGREF8": {
+        "text": "Cumulative spending multiplier +/-confidence intervals. Using spending forecast errors. Increases (\u2206G>0) versus decreases (\u2206G<0) in spending. OECD countries Panel A. \u2206G<0Panel B. \u2206G>0 Cumulative spending multiplier +/-90 confidence intervals. Using spending growth rate. Increases (\u2206G>0) versus decreases (\u2206G<0) in spending. Developing countries. Cumulative spending multiplier +/-90 confidence intervals. Using spending forecast errors. Typical economic expansions versus recessions, and increases (\u2206G>0) versus decreases (\u2206G<0) in spending. OECD countries.PanelA. Expansions & \u2206G<0 Panel B. Expansions & \u2206G>0 Panel C. Recessions & \u2206G<0 Panel D. Recessions & \u2206G>0 Cumulative spending multiplier +/-confidence intervals. Using spending growth rate. Typical economic expansions versus recessions, and increases (\u2206G>0) versus decreases (\u2206G<0) in spending. Developing countries. Panel A. Expansions & \u2206G<0 Panel B. Expansions & \u2206G>0 Panel C. Recessions & \u2206G<0 Panel D. Recessions & \u2206G>0 -Cumulative spending multiplier +/-90 confidence intervals. Using spending forecast errors. Extreme economic expansions versus recessions. OECD countries Panel A. Expansions Panel B. Recessions Cumulative spending multiplier +/-90 confidence intervals. Using spending growth rate. Extreme economic expansions versus recessions. Developing countries Panel ACumulative spending multiplier +/-confidence intervals. Using spending forecast errors. Extreme economic expansions versus recessions, and increases (\u2206G>0) versus decreases (\u2206G<0) in spending. OECD countries. Panel A. Expansions & \u2206G<0 Panel B. Expansions & \u2206G>0 Panel C. Recessions & \u2206G<0 Panel D. Recessions & \u2206G>0 Cumulative spending multiplier +/-90 confidence intervals. Using spending growth rate. Extreme economic expansions versus recessions, and increases (\u2206G>0) versus decreases (\u2206G<0) in spending. Developing countries. Panel A. Expansions & \u2206G<0 Panel B. Expansions & \u2206G>0 Panel C. Recessions & \u2206G<0 Panel D. Recessions & \u2206G>0",
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "fig_num": "45671891011"
+      },
+      "TABREF0": {
+        "content": "<table/>",
+        "text": ", Ramey, and Zubairy (2013)) has been to evaluate the size of the spending multipliers under what we call \"extreme\" business cycle conditions. That is to say, the impact of \u2026scal policy is evaluated for the largest expansion (i.e., I(:) = 0) and the deepest recession (i.e., I(:) = 1). While relevant under some particular historical circumstances (like the deep recessions currently underway in several Eurozone countries), these extreme conditions are, by de\u2026nition, rather infrequent and do not capture normal expansions or recessions. For this reason, in Section 3.2 we \u2026rst compute the multipliers for what we call typical (or, more precisely, median) expansions and recessions.De\u2026ning a typical recession or expansion is by no means a trivial matter, as we would need to use weighted averages of E;h and R;h in the construction of the IRF and multiplier.",
+        "num": null,
+        "type_str": "table",
+        "html": null
+      },
+      "TABREF1": {
+        "content": "<table/>",
+        "text": "Taken at face value, the policy implication of this \u2026nding is clear: increasing government spending in periods of recessions (as Keynesian considerations would call for) would stimulate output whereas increasing it in times of expansion would have essentially no e\u00a4ects. Further, since we have made no distinction between increases and decreases in government spending,",
+        "num": null,
+        "type_str": "table",
+        "html": null
+      },
+      "TABREF2": {
+        "content": "<table><tr><td/><td/><td colspan=\"2\">Spending policy</td><td/></tr><tr><td/><td/><td colspan=\"2\">Contractionary Expansionary</td><td>Total</td></tr><tr><td>Stance of</td><td>Expansion</td><td>29% 59%</td><td>21% 41%</td><td>50% 100%</td></tr><tr><td>the</td><td/><td/><td/><td/></tr><tr><td>economy</td><td>Recession</td><td>23% 46%</td><td>27% 54%</td><td>50% 100%</td></tr><tr><td/><td>Total</td><td>52%</td><td>48%</td><td>100%</td></tr><tr><td/><td/><td colspan=\"2\">Spending policy</td><td/></tr><tr><td/><td/><td colspan=\"2\">Contractionary Expansionary</td><td>Total</td></tr><tr><td>Stance of</td><td>Good time</td><td>18% 38%</td><td>31% 62%</td><td>49% 100%</td></tr><tr><td>the</td><td/><td/><td/><td/></tr><tr><td>economy</td><td>Bad time</td><td>33% 65%</td><td>18% 35%</td><td>51% 100%</td></tr><tr><td/><td>Total</td><td>51%</td><td>49%</td><td>100%</td></tr></table>",
+        "text": "The economy is defined as being in an expansion (recession) if real GDP is above (below) trend. The same definition applies to government spending. Trends were calculated using the HP filter",
+        "num": null,
+        "type_str": "table",
+        "html": null
+      },
+      "TABREF3": {
+        "content": "<table><tr><td/><td/><td colspan=\"2\">Spending policy</td></tr><tr><td/><td/><td colspan=\"2\">Contractionary Expansionary</td></tr><tr><td>Stance of</td><td>Good time</td><td>impact: \u22480 peak: \u22480</td><td>impact: \u22480 peak: 1.13</td></tr><tr><td>the</td><td/><td/><td/></tr><tr><td>economy</td><td>Bad time</td><td>impact: 0.77 peak: \u22480</td><td>impact: 0.66 peak: 2.31</td></tr><tr><td/><td/><td colspan=\"2\">Spending policy</td></tr><tr><td/><td/><td colspan=\"2\">Contractionary Expansionary</td></tr><tr><td>Stance of</td><td>Good time</td><td>impact: \u22480 peak: \u22480</td><td>impact: \u22480 peak: 0.34</td></tr><tr><td>the</td><td/><td/><td/></tr><tr><td>economy</td><td>Bad time</td><td>impact: 0.55 peak: 0.77</td><td>impact: \u22480 peak: 0.77</td></tr></table>",
+        "text": "",
+        "num": null,
+        "type_str": "table",
+        "html": null
+      }
+    }
+  }
+}

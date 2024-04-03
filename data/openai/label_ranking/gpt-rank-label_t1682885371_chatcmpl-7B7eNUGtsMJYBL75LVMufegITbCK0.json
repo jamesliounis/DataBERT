@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02864: Since SES is related to the length of maternity leave (Human Rights Watch 2011; Kamerman 2000) , this study included maternal SES as a variable in the models.\n\ns_02914: Although the MPWEB tested the Internet as a sole method of data collection, our low response rate combined with technological challenges and limitations indicate that the costs of converting a complex questionnaire to an online survey far outweigh the benefits we may see, even in a multi-mode environment.\n\ns_02964: Fix example, in a recent report, it was maintained that students in compensatory and remedial programs received instruction in smaller groups or classes and spent large amounts of time engaged in seat work activities.36 33The sample of smdents in science classes with either 1 to 15 pupils ix in classes with mat than 30 students was too snail to find a statistically significant difference between the average scores of students in classes of these sizes.\n\ns_03014: Moreover, there was a dynamic in pupil attendance rates and results of their educational activity.\n\ns_03064: This is the first Italian study applying standardized procedures for the collection and analysis of MR imaging for AD.\n\ns_03114: Even with more years and farm types, expanding to a multinomial model with six different types of multifuncitonality might be beyond the ability of a logit model to find significant results.\n\ns_03164: Using the transcript data from the \u2026rst round, to limit the potential for reverse causality, we \u2026nd that villages where discussion about roads dominate the gram sabha also experience a greater improvement in the quality of roads between 2001 and 2005.\n\ns_03214: In 1972/73, for example, a reduction in world wheat production of less than 2% at a time when stocks were almost negligible caused the annual price to more than double, as indicated in Figure 3 .\n\ns_03264: In turn, we report the results from the estimation of the selection equation of the optimal 2-regime, 3-regime, and 4-regime models, followed by a discussion of the estimated Rybczynski coefficients of the model that best fits the data.\n\ns_03314: The rest of the paper will show that these findings are not driven by particular model choices or alternative explanations.\n\ns_03364: 11 In other words, we run four separate factor analysis procedures on each sub-group, with a single estimated factor retained by the data 12 , which will be considered as our indicator.\n\ns_03414: While one may suspect that a fast increase in trade of this network has been induced by production sharing, it is impossible to draw a firm conclusion without a more detailed analysis of specialization patterns as revealed in values of \"export\" and \"import\" RCA indices.\n\ns_03464: 7 These results are available from the authors upon request.\n\ns_03514: Indeed, many commentators (for instance,Haldane, 2010, or Turner, 2010 have suggested that the pre-crisis explosion of finance in the high-income countries was precisely driven by such dynamics.\n\ns_03564: 8 For firms that enter in 1996, we use data from 1997-2000 to backcast their capital stock using the same set of explanatory variables (but using leads rather than lags where appropriate).\n\ns_03614: This paper differs from the existing literature in three respects.\n\ns_03664: As Figure 5 shows, a large proportion of its FDI flowsin 2009, as much as 70 percentis in natural resources.\n\ns_03714: The combination of excess capacity, low returns on investment, high risks and lower growth in advanced economies has been referred to as the -new normal.\u2016 3 If this -new normal\u2016 becomes entrenched, several advanced countries may face a lost decade 4 -with negative consequences for the entire world.\n\ns_03764: Even in the cases we expected to be more regressive (the shaded cells in the table), the situation is not altogether dire.\n\ns_03814: In terms of estimation strategy, we start with the two key contract variables depicted in Exhibit 5, the output (Brent oil reference) price and Kepco bond yield spreads, and successively add explanatory variables to the regression.\n\ns_03864: Column 3 of Table 5 indicates that these variables have similar relationships (with opposite signs) with fraction present-biased, though these relationships are not statistically significant.\n\ns_03914: Studies of the cost of environmental degradation were conducted using a similar methodology in Pakistan, a low income country, and several low and lower-middle income countries in Asia, Africa and Latin America.\n\ns_03964: t-statistics are reported in parenthesis.\n\ns_04014: Income depends on region of residence (Balaka, Mchinji), size of household's land plot (Land High), the age of the woman (t), the number of children (N ), and a time-varying income 10 The majority of respondents in each of the three sites of the MDICP dataset are of dierent tribal groups.\n\ns_04064: This measure was constructed along the lines proposed by Filmer and Pritchett (Filmer and Pritchett 1999) through the use of Principal Components Analysis (PCA)l on a battery of indicators of dwelling characteristics and ownership of consumer durables (e.g., flooring material, roof material, number of rooms in relation to household size, type of drinking water source, and toilet type)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7eNUGtsMJYBL75LVMufegITbCK0",
+    "object": "chat.completion",
+    "created": 1682885371,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1405,
+      "completion_tokens": 28,
+      "total_tokens": 1433
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04014\", \"data_mentioned\": true, \"reason\": \"MDICP dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04014\", \"data_mentioned\": true, \"reason\": \"MDICP dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

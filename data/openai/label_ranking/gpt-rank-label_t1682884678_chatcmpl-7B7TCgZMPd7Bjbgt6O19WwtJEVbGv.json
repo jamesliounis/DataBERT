@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06346: For example,Munoz (2021) and Van der Weide et al.\n\ns_06396: There is a small literature on intergenerational mobility that exploits the information in conditional variance using quantile regressions.\n\ns_06446: We show that while the assessment by Berkouwer et al.\n\ns_06496: Samples refer to the number of observations that are classified in each node.\n\ns_06546: Non-exporters face higher information barriers, and the literature has shown that this is an important margin on which TPO programs can exhibit high returns (Lederman et al., 2016) .\n\ns_06596: The results offer insights into a pattern of adjustment polar to that described in Simulation 2.\n\ns_06646: The purpose of the decision-tree (set out below) is to assist in the process of choice of organizational model.\n\ns_06696: This long run cointegrating relationship is included in our first differences specification as the error correction term, EC.\n\ns_06746: There is also evidence which suggests that households who join microcredit programs a few years after the village group has been established tend to be less poor compared to the members who join at the start of the program (Matin 1998) .\n\ns_06796: For a recent review of this literature seeGrossman and Helpman (2001).4 Studies focused on developing countries include Cadot, de Melo and Olarreaga (2003), Cadot, Grether and Olarreaga (2003), Gawande, Sanguinetti and Bohara, (2003) and Mitra, Thomakus and Ulubasoglu (2002).5 Most of the empirical literature in the US actually mainly explains non-tariff barriers.\n\ns_06846: The study, \"Identifying Drivers of Sustainable Rural Growth and Poverty Reduction,\" is part of ongoing efforts by the Central American Environmentally and Socially Sustainable Development (CA ESSD) Department in the Latin America and Caribbean (LAC) Region of the World Bank to strengthen analyses and strategies for rural development, and to address fundamental policy issues and investment priorities.\n\ns_06896: (Note that the TFR is obtained by aggregating the age specific fertility rates by year for women 15-49 years.)\n\ns_06946: Papers using analysis of variance techniques have shown that the variation in test scores explained by teachers is substantial.\n\ns_06996: Rosenbaum and Rubin (1983) show that matching can be performed instead by conditioning on P(X)-i.e., the \"propensity score-alone rather than on X, where P(X) = Prob(D=1| X) is the probability of participating conditional on X.\n\ns_07046: (emphasis added) Therefore, we reverse the Panel's conclusion in paragraph 8.69 of the Panel Report that safeguard measures imposed after entry into force of the WTO Agreement which meet the requirements of the Agreement on Safeguards necessarily \"satisfy\" the requirements of Article XIX of the GATT 1994, as well as the Panel's finding that the Uruguay Round negotiators \"expressly omitted\" the clause -\"as a result of unforeseen developments and of the effect of the obligations incurred by a Member under this Agreement, including tariff concessions \u2026 \" -from Article 2 of the Agreement on Safeguards\" (WTO 1999a, para.\n\ns_07096: Finally, the regression includes a few variables intended to capture the impact of local amenities on attracting and retaining labor.\n\ns_07146: Related studies also find that firms with ADRs appear in better information environments that are then associated with higher market valuations and significantly larger market reactions to earnings announcements (for example see, Foerster and Karolyi, 1999 , Lang, Lins and Miller, 2003 , and Bailey, Karolyi, and Salva, 2002 , Doidge et al., 2004 .\n\ns_07196: Approximately 54 percent of children in the control group were working at the time of the follow-up survey, a number that is about 8 percentage points higher than at baseline; once again, the ageing of the study population accounts for these patterns.\n\ns_07246: For example, it is not clear whether our finding is a reflection of the methodology underlying the indices used, noncompliance with multilateral commitments, or the limited commercial relevance of the type of commitments that are required under the GATS.\n\ns_07296: Our hypothesis that PCs work better when they provide higher powered incentives is partly supported: higher firm-level wage elasticity is correlated with higher productivity, although the results are statistically significant only for the FE estimates (row (d)).\n\ns_07346: This part of the paper looks at the \"implementation problem,\" or in WTO language, \"implementation-related issues and concerns.\"\n\ns_07396: For a more elaborated relationship between Gov-ernment spending and the RER, seeValdes and Pinckney (1989).\n\ns_07446: This result, which repeated consistently across several regressions, is illustrated by the plot of residuals shown in Appendix 4.\n\ns_07496: The low level of expenses in group annuities, which averages 3.3% of premiums is confirmed by information on the period 1942-62: First (1955) and Second editions, tables 14 and 7 respectively.\n\ns_07546: Tables V and VI show the difference in the debt burden of SSA as a whoie and for a group of 26 low-income debt-distressed SPA countries in the region who are the main focus )f donor assistance."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7TCgZMPd7Bjbgt6O19WwtJEVbGv",
+    "object": "chat.completion",
+    "created": 1682884678,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1428,
+      "completion_tokens": 134,
+      "total_tokens": 1562
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06546\", \"data_mentioned\": true, \"reason\": \"TPO programs\"}, {\"sent_id\": \"s_06746\", \"data_mentioned\": true, \"reason\": \"microcredit programs\"}, {\"sent_id\": \"s_06846\", \"data_mentioned\": true, \"reason\": \"Identifying Drivers of Sustainable Rural Growth and Poverty Reduction\"}, {\"sent_id\": \"s_06946\", \"data_mentioned\": true, \"reason\": \"analysis of variance techniques\"}, {\"sent_id\": \"s_07146\", \"data_mentioned\": true, \"reason\": \"ADRs\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06546\", \"data_mentioned\": true, \"reason\": \"TPO programs\"}, {\"sent_id\": \"s_06746\", \"data_mentioned\": true, \"reason\": \"microcredit programs\"}, {\"sent_id\": \"s_06846\", \"data_mentioned\": true, \"reason\": \"Identifying Drivers of Sustainable Rural Growth and Poverty Reduction\"}, {\"sent_id\": \"s_06946\", \"data_mentioned\": true, \"reason\": \"analysis of variance techniques\"}, {\"sent_id\": \"s_07146\", \"data_mentioned\": true, \"reason\": \"ADRs\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

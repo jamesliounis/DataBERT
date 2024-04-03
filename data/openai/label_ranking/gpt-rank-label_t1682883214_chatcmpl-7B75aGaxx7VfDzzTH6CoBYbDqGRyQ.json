@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03723: The next section of this paper presents our theoretical framework, develops our general hypotheses, and explains our methods.\n\ns_03773: The paper is organized as follows.\n\ns_03823: SeeDellaVigna (2009) andBryan, Karlan and Nelson (2010) for recent reviews of empirical applications.\n\ns_03873: Source: prepared by A. Sagar.\n\ns_03923: (2007),Gupta (2007),Le, Moreno-Dodson, and Rojchaichaninthorn (2008).\n\ns_03973: Later studies use the cross-country data from the latest rounds of the Demographic and Health Surveys (DHS).\n\ns_04023: This section focuses on the results from this study.\n\ns_04073: This paper-a product of the Financial Sector Development Department-is part of a larger effort in the department to study the promotion of pension funds.\n\ns_04123: The analysis in this paper contributes to several strands of the literature.\n\ns_04173: (1999) and Radelet and Sachs (1998) .\n\ns_04223: This paper is an attempt to provide an analytical foundation for such an amendment.\n\ns_04273: Due to limited availability of data, the majority of existing literature analyzes the oil-price-GDP relationship in major OECD economies.\n\ns_04323: Section I explains the combination of survey and administrative data we use in the analysis.\n\ns_04373: (1) Source: Authors' analysis based on data described in the text.\n\ns_04423: This paper contributes to two main literatures.\n\ns_04473: Galu\u0161\u010d\u00e1k et al (2012) , using the same data sets that this paper uses, provide an extensive analysis of the factors that determine the wages of newly-hired employees as opposed to incumbents.\n\ns_04523: (2009) study is again a useful place to start.\n\ns_04573: The paper proceeds as follows.\n\ns_04623: The paper is structured as follows.\n\ns_04673: (2003) for a survey of the literature.\n\ns_04723: The paper is structured as follows.\n\ns_04773: (1987) and references therein.\n\ns_04823: In this section we provide the details of the data used in this study and the empirical methods employed.\n\ns_04873: To address these issues, the paper relies on the instrumental variable spatial autoregressive model (Drukker et al.\n\ns_04923: Annex 1 discusses the variables and their source."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B75aGaxx7VfDzzTH6CoBYbDqGRyQ",
+    "object": "chat.completion",
+    "created": 1682883214,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 792,
+      "completion_tokens": 63,
+      "total_tokens": 855
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03973\", \"data_mentioned\": true, \"reason\": \"Demographic and Health Surveys (DHS)\"}, {\"sent_id\": \"s_04473\", \"data_mentioned\": true, \"reason\": \"same data sets that this paper uses\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03973\", \"data_mentioned\": true, \"reason\": \"Demographic and Health Surveys (DHS)\"}, {\"sent_id\": \"s_04473\", \"data_mentioned\": true, \"reason\": \"same data sets that this paper uses\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

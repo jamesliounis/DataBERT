@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06248: The results for the world in column (3) are presented in the main text in Table 2 .\n\ns_06298: The baseline survey was conducted in this context of the ongoing Ebola crisis.\n\ns_06348: Table A3 in the Appendix provides coresidence rates by country for different age groups.\n\ns_06398: These data sets are suitable for our analysis because they do not suer from any signicant sample truncation arising from coresidency restrictions commonly used to dene household membership in a survey.\n\ns_06448: (2017) for instance, compares corruption experiences of citizens living in close proximity to gold mining firms with the corruption experiences of citizens living in areas close to a yet to be opened mine in a difference-in-difference design to estimate the effect of mining on corruption in Africa.\n\ns_06498: Table 3 shows the post-Lasso results obtained by running Logit regressions with the covariates selected by Lasso.\n\ns_06548: The increase in the use of virtual tools post COVID is mainly driven by TPOs in low-and middle-income countries, as TPOs in high-income countries are expecting to only marginally increase their already high use of virtual tools.\n\ns_06598: Bhagwati and Srinivasan (1975).\n\ns_06648: This, it was argued, enabled the sharing of market intelligence and led to some important synergies.\n\ns_06698: The results of the basic equation estimation for private fixed capital formation are in the first two columns of Table 12 .\n\ns_06748: 10 Montgomery et al compare the performance of BRAC borrowers with the borrowers from a Governmentrun microcredit scheme, the Thana Resource Development and Employment Programme (TRDEP).\n\ns_06798: In our econometric approach, measurement error in lobbying expenditures (such as under-reporting) will be corrected by the use of instrumental variables (see next section).\n\ns_06848: Explaining why the poor are poor in Central America, Valdes and Mistiaen (2001, p.12 ) cite another study that states: \"Most basically it is because they have few assets (both human and physical, including social capital) and also because the productivity of their assets is low.\n\ns_06898: However, his methodology does not allow one to calculate the DRD.8 I know of one large sample survey (in the field at the time of writing) that did collect recall data on mortality for both children and adults, namely the Malawi Integrated Household Survey.\n\ns_06948: Columns 1 and 2, and 5 and 6 report coefficients for the full sample, while the other columns report results for the non-mover sample.\n\ns_06998: The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues.\n\ns_07048: For example, the national economic census of 1994 shows that in 1993 salaries represented 59.3% of gross value added in leather footwear manufacturing, 58.8% in the case of footwear made of fabric, plastic and other materials, and 57.8% in footwear parts manufacturing.\n\ns_07098: A fim de elucidar essa din\u00e2mica, o presente artigo estimou um modelo espacial de demanda e oferta por trabalho no qual descreve as mudan\u00e7as no n\u00edvel de sal\u00e1rios e empregos dos munic\u00edpios.\n\ns_07148: 18 Previous literature has shown a positive relationship between better firm-level attributes and financial and equity performance in developed and emerging markets (see, for example, Gompers, Ishi and Metrick, 2003, and Love, 2003) .\n\ns_07198: The estimates of \u03b4 in regressions of enrollment and drop-outs are significant at conventional levels, while those for new enrollments are not significantly different from zeropresumably, because of smaller sample sizes.\n\ns_07248: However, in assessing possible explanations for the observed pattern of GATS commitments, account needs to be taken of explanatory factors such as geographic proximity to a large market (the European Union), the size of the economy, and engagement in the EU accession process.\n\ns_07298: In effect, this dummy will capture the systematic pattern in the error term of the unobservable in the year before the adoption.\n\ns_07348: The measure of \"customs environment,\" for example, is from a survey of customs users who ranked countries on a scale, taking into account and weighing in an unspecified way the various elements that influence the customs environment.\n\ns_07398: ( World Bank, 1993, p. 2).\n\ns_07448: All the relevant results are presented in Table 7 ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7UMbVFYDsMpavkdRbjidxe1zY5Y",
+    "object": "chat.completion",
+    "created": 1682884750,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 103,
+      "total_tokens": 1345
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06348\", \"data_mentioned\": true, \"reason\": \"Appendix\"}, {\"sent_id\": \"s_06398\", \"data_mentioned\": true, \"reason\": \"survey\"}, {\"sent_id\": \"s_06748\", \"data_mentioned\": true, \"reason\": \"BRAC borrowers\"}, {\"sent_id\": \"s_07048\", \"data_mentioned\": true, \"reason\": \"national economic census of 1994\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06348\", \"data_mentioned\": true, \"reason\": \"Appendix\"}, {\"sent_id\": \"s_06398\", \"data_mentioned\": true, \"reason\": \"survey\"}, {\"sent_id\": \"s_06748\", \"data_mentioned\": true, \"reason\": \"BRAC borrowers\"}, {\"sent_id\": \"s_07048\", \"data_mentioned\": true, \"reason\": \"national economic census of 1994\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

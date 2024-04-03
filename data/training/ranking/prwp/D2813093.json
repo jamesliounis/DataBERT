@@ -1,0 +1,998 @@
+{
+  "paper_id": "D2813093",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:28.453962Z"
+  },
+  "title": "On the Use of Transparent Formulae to Allocate Federal Education Transfers",
+  "authors": [
+    {
+      "first": "Vicente",
+      "middle": [],
+      "last": "Paqueo",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Gladys",
+      "middle": [],
+      "last": "Lopez-Acevedo",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Suhas",
+      "middle": [],
+      "last": "Parandekar\u03d6",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "One of the key questions that naturally arise in discussions of education decentralization is how Federal education resources should be allocated among the various states and within states among communities or schools. In general, there are two approaches: (a) bilateral negotiations between the Federal government and states with little transparency as to the rules; and (b) formula-based distribution. This paper shows that, based on econometric analysis on Federal education transfers data in Mexico, the former approach can lead to allocation results that appear contrary to stated policy objectives like equity improvement and greater social inclusion in education. This paper then argues that contrary to common belief the use of capitation or per student allocation can improve not only efficiency but also equity. In this regard, a theoretical model is presented to analyze this hypothesis. Several variations of the capitation formula are discussed and analysis of the characteristics of the winners and losers of their application are presented, using Mexico as an illustration. World Bank Policy Research Working Paper 3171, December 2003 The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the view of the World Bank, its Executive Directors, or the countries they represent.",
+  "pdf_parse": {
+    "paper_id": "D2813093",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "One of the key questions that naturally arise in discussions of education decentralization is how Federal education resources should be allocated among the various states and within states among communities or schools. In general, there are two approaches: (a) bilateral negotiations between the Federal government and states with little transparency as to the rules; and (b) formula-based distribution. This paper shows that, based on econometric analysis on Federal education transfers data in Mexico, the former approach can lead to allocation results that appear contrary to stated policy objectives like equity improvement and greater social inclusion in education. This paper then argues that contrary to common belief the use of capitation or per student allocation can improve not only efficiency but also equity. In this regard, a theoretical model is presented to analyze this hypothesis. Several variations of the capitation formula are discussed and analysis of the characteristics of the winners and losers of their application are presented, using Mexico as an illustration. World Bank Policy Research Working Paper 3171, December 2003 The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the view of the World Bank, its Executive Directors, or the countries they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "Mexico has achieved remarkable progress in education and has resumed its advance, after faltering in the second half of the eighties. Still, it faces major education deficits in basic education whose resolution has become complicated by the policy of decentralization and increasing postcompulsory education demands. Addressing these deficits fully would require resources far beyond what would be available in the foreseeable future; solving them would need a clear definition of priorities and a long-term strategic perspective.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "Educational equity and productivity under a decentralizing system, however, can be advanced through a series of measures such as I) ensuring basic education a high share of public education spending and restructuring the distribution of post-compulsory education benefits. II)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "Establishing a more equitable and efficient system of distributing education transfers among and within states. III) Experimenting with state performance incentives based on both student enrollment and learning. IV) Instituting an effective accountability framework based on outputs or performance. V) Developing a culture of evaluation and openness to public scrutiny. VI)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "Strengthening of Federal support for intrastate development; and using poverty alleviation and social assistance programs as levers for advancing the education of poor, rural and indigenous children.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "This paper is limited to addressing questions of interstate allocation of Federal education transfers that can be used more effectively in promoting equity, efficiency and resource mobilization.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "Prior to the recent 1998 budgetary changes, interstate allocation of Federal transfers for basic education lacked transparent and firm rules for allocating educational transfers among competing states: bilateral negotiations with Federal Government was the practice. This allocation has given little discretionary authority to the States, which has been linked to inputs (predominantly number of teachers) rather than outputs. It has lacked state's accountability and incentives for performance.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "In 1998, the Government adopted a formula-driven system of allocating Federal Education transfers to states and gave them a lot of autonomy in using those resources. Under the new methodology, states get at least the same amount (adjusted for inflation) as the previous year's;",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "and budgetary increments based on the number of needed schools and teachers. These changes are huge improvements in the transparency and decentralization of education resource allocation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "But, even with these changes, equity and efficiency issues in interstate allocation of Federal education transfers remain important. This is since past distribution patterns persist and, hence, inequities remain as the current formula depends almost totally on past year's allocation. States' accountability and incentives for performance and local contribution to education finance remain weak, if not absent. This paper shows that three formulae appear promising for the purpose of establishing an improved formula-driven interstate and intrastate allocation: i) uniform per student formula: simplest and most transparent; rewards enrollment, but does not explicitly address differential needs of states. II) Productivity adjusted per student formula: maximizes enrollment impact by giving more to states with high enrollment elasticity to subsidy; no equity assurance but at this stage of Mexico's development, it can be favorable to disadvantaged states since they now tend to have higher enrollment elasticities. And III) multi-component formula: divides total transfers into (a) core fund to be distributed on a per student basis; and (b) supplementary fund for extra cost of improving education of selected groups of disadvantaged children (poor, indigenous, rural) . This formula requires more information and is more complex; but it has the flexibility for ensuring a balance between efficiency and equity.",
+        "cite_spans": [
+          {
+            "start": 1247,
+            "end": 1272,
+            "text": "(poor, indigenous, rural)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "Simulations show that adoption of any of the above formulae would tend to improve distribution in favor of low income and educationally lagging states. This paper is organized as follow: Section II introduces the three competing formulas. Section III discusses the simulations. Section IV has the conclusions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "1 Uniform per student allocation This is the simplest, most transparent method. The criticism of it is that it takes into account neither the differential resource needs of states nor their relative productivity. A simulated application of this formula reveals, however, that its use can in fact improve the current situation in regard to equity (see below). Moreover, the formula is promising as far as long-run productivity improvement is concerned, because it rewards and, hence, encourages greater enrollment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II.-On the Allocation of Federal Education Transfers Among States",
+        "sec_num": null
+      },
+      {
+        "text": "The formula applies a simple distribution of federal resources in direct proportion to the number of eligible students in a state, i.e., the population of children of school-going age. The application of the formula involves following a simple sequence.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II.-On the Allocation of Federal Education Transfers Among States",
+        "sec_num": null
+      },
+      {
+        "text": "Step 1 :Take the estimate of school-going age children for each state. For illustrative purposes, it is used the 12 to 14 Age-group estimates provided by CONAPO.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 2 : Compute the share of each state i in the national population of the children of schoolgoing age. This paper used the national population of 12 to 14 years old, as computed by CONAPO. 3.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "2.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 3 : Multiply the total available funds for transfers to states with the respective population shares computed in Step 2 to arrive at each state's share of federal transfers. This paper used the Total Federal transfers for Secondary Education provided by SEP.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "2.",
+        "sec_num": null
+      },
+      {
+        "text": "The impact of Federal education transfers in increasing enrollments differs among states. It can be shown that under this situation, if the Government is aiming at maximizing enrollment, it should adjust the per student formula by factors reflecting the elasticity of enrollment with respect to the Federal subsidy of one state relative to that of another. The uniform per-student allocation formula is a special case that is obtained if the elasticities are uniform for all states. Lopez-Acevedo (1999a) shows that differences in enrollment elasticity among states can be significant at lower secondary education (see table 1 in the annex ). 1 It also shows that given the current pattern of coverage, states which lag behind in enrollment rate and income tend to have higher elasticities. This implies that under this formula those lagging states would be given relatively more Federal transfers per child. In other words, the states with the lowest enrollment rates are likely to show the largest gains for each additional peso of federal subsidy and thus should be favored, if higher overall enrollments and assistance to poorer states are the goals. Efficiency and equity objectives coincide. Thus Formula 2 adds an adjustment to the Formula 1 allocation based on the number of potential students in a state.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "FORMULA 2 Productivity adjusted allocation",
+        "sec_num": null
+      },
+      {
+        "text": "1. It can be shown that enrollment is maximized if a state is allocated an amount that is proportional to its enrollment elasticity with respect to federal education spending. That is, a state i with an enrollment elasticity that is twice that of state j should be given twice as much money.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "FORMULA 2 Productivity adjusted allocation",
+        "sec_num": null
+      },
+      {
+        "text": "Enrollment elasticity here refers to the percentage change in enrollment per percentage increase in Federal education spending per child. The amount of transfers to be allocated to a state i for a given total budget, following the above concept, can be computed using the following steps.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "FORMULA 2 Productivity adjusted allocation",
+        "sec_num": null
+      },
+      {
+        "text": "Step 1. Get estimates of enrollment elasticity for each state i (ALPHAi).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 2. Compute the relative magnitude of the enrollment elasticity in state i (RALPHi) in relation to that of a \"reference state\". That is, RALPHi is equal to ALPHAi divided by the ALPHA of the reference state (Distrito Federal in this paper).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "2.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 3. Divide the given total amount of Federal transfer for the relevant educational level by total enrolment to get per student Federal expenditure for the country as a whole (EXPT).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 4. Define ZETAi = RALPHi * SHAREi and ZETAT = the sum of ZETAi over all states i except the \"reference state\".",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4.",
+        "sec_num": null
+      },
+      {
+        "text": "where SHAREi is the share of state i in total enrollment for the relevant educational level\".",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 5. Compute for the amount of transfers that should be allocated to state i (EXPi) using the following equation:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "EXPi = (ZETAT / EXPT)* RALPHi FORMULA 3 Multi-component method",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "The approach here is to divide the budget for purposes of calculation into several parts, depending on government's policy interest. In a two component model, the budget is divided into two parts: core and supplementary funds. The core fund is divided according to number of students as in (a) above. Supplementary funds, on the other, are allocated in accordance with the number of children with special needs multiplied by the extra cost per student of meeting those needs. This need-based approach is currently used in New Zealand, Victoria (Australia) and other countries to allocate their education budget among schools. In the Mexican context, supplementary funding could be based on the number of rural, indigenous, and poor children residing in a state. As mentioned, econometric analyses of Mexican data strongly suggest that doing so would improve not only equity but also efficiency.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "Although the calculation is based on various components and sub-components, it does not necessarily mean that these funds should be earmarked to finance those individual components.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "In fact, as argued below, giving each state those funds as a global budget or block grant could be more efficient. Hence, it is probably better to allow the states to use the grant as they see fit, for as long as it is used for basic education purposes, and they are held accountable for delivery of clearly specified monitorable outputs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "1. The formula has two components. The first is the base or core funding component, which applies to all students and is distributed among states using uniform per student allocation as in Formula 1. The second is the supplemental component consisting of additional funding to states, depending on the population of special groups which are in need of additional resources to compensate for the cost of reducing their disadvantages relative to the average group of children.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "2. Three special groups are considered here : Rural, Poor, and Indigenous. Note that these groups are not mutually exclusive, so that groups such as poor indigenous people living in rural areas are accounted for by the allocation mechanism. It is assumed here that the extent to which a child is disadvantaged depends cumulatively on the number of unfavorable conditions he is in.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "The distribution of a given total supplemental funding among states is computed as follows.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "3.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 1. Determine the number of rural (RURi), indigenous (INDi) and poor (POORi) children in each state i.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 2. Estimate the per student cost of removing the learning achievement disparity associated with the child's disadvantaged conditions. Denote this compensatory unit cost as CCOSTj for each unfavorable condition j (1= rural, 2 = indigenous, 3 = poor). Assume that this unit cost is the same for all states.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 3. The unconstrained extra amount of resources (EXTRAi) needed by a state i to reduce the learning gap caused by these three sources of disadvantage can be estimated as",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "EXTRAi = CCOST1*RURi + CCOST2*INDi + CCOST3*POORi 6.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 4. Calculate EXTRAT = the SUM of EXTRAi over all states i. This is likely to show that the total extra resources needed is greater than the total available supplemental budget.(SUPBUD). This budget can be prorated on the basis of the compensatory need of a state relative to the total.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 5. To do this, define the relative need of state i for extra resources as RNEEDi = EXTRAi / EXTRAT 8.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "7.",
+        "sec_num": null
+      },
+      {
+        "text": "Step 6. The prorated supplemental amount for state i (PROXTRA) for a given SUPBUD can simply be calculated as PROXTRA = RNEEDi * SUPBUD In the report's simulation, SUPBUD is assumed to be 22 percent of total federal transfers for primary education.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "7.",
+        "sec_num": null
+      },
+      {
+        "text": "The first simulation (Table 1 ) asks the question: What would be the pattern of allocation of Federal transfers for lower secondary education among states, if Formula I (uniform per-student or capitation method) were used, and how would it compare with the actual allocation? To answer this question, the states were classified into three categories, depending on the size of their net gain per student. Category I consists of states with large losses, while Category III is composed of the big gainers. The middle category is a group of relatively small negative and positive gainers. A similar exercise was undertaken, using Formula II (productivity adjusted formula).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 21,
+            "end": 29,
+            "text": "(Table 1",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "III.-Simulations and Results",
+        "sec_num": null
+      },
+      {
+        "text": "Enrollment elasticities with respect to per child transfers were computed for each state, using probit regression equations (see table 1 in the appendix), The results indicate that contrary to the usual concern previously mentioned, application of a uniform per-student formula in Mexico would tend to redistribute Federal transfers from high to low income states. This outcome is even more pronounced in Formula II as shown below. The implication is that since by design Formula II gives more to states whose enrollment elasticity is higher, equity and efficiency objectives coincide, as earlier hypothesized. To illustrate how the multi-component formula (Formula III) can be applied in a situation where learning achievement has become the predominant concern instead of access, the issue of interstate allocation of primary education Federal transfers was chosen.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Simulations and Results",
+        "sec_num": null
+      },
+      {
+        "text": "In the present application of Formula III, it is necessary to determine the split between core and supplementary funding. A practical approach is to use the current percentage of total budget allocated to special programs for these disadvantaged groups of children. In Mexico in 1995, that would be about 22 percent at the primary level, which is what the Federal Government more or less spent for special education programs for rural and indigenous children. It is also necessary to estimate what the \"extra cost\" per student of the special needs of those children. In general, the \"extra cost\" consists of the extra costs of (a) providing access to these children and bovercoming their learning disadvantages. In the current exercise, only the \"extra cost\" per student of the above disadvantaged groups is being considered. Finally, to estimate the number of poor children, the marginality index of CONAPO was used, since it is not possible to get statespecific poverty rates based on income",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Simulations and Results",
+        "sec_num": null
+      },
+      {
+        "text": "The simulation first calculates the supplementary funding requirement of each state, applying the same parameters described in table 2 (in the appendix) to the number of rural, indigenous, and poor children living in each of the 31 states. It then sums up the total supplementary fund required and calculates its percentage distribution among states. Using this distribution, the budget for compensatory programs (22 percent of primary education Federal transfers) is accordingly divided among the states.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Simulations and Results",
+        "sec_num": null
+      },
+      {
+        "text": "The simulation results presented in Table 3 clearly show that like the other formulae, Formula III would also improve equity. The tendency is for the rich states to lose, and the poor states to gain. Analysis of the educational characteristics of the winners and losers further reveals that the biggest gainers tend to be states that are lagging behind the biggest losers in terms of primary terminal efficiency rates and gross lower secondary enrollment rates (Table 5) . With respect to learning achievement test scores, there are no clear patterns. This probably because, as noted,",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 36,
+            "end": 43,
+            "text": "Table 3",
+            "ref_id": "TABREF3"
+          },
+          {
+            "start": 461,
+            "end": 470,
+            "text": "(Table 5)",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "III.-Simulations and Results",
+        "sec_num": null
+      },
+      {
+        "text": "interstate differences in student test scores are small, (Lopez Acevedo,1999c) .",
+        "cite_spans": [
+          {
+            "start": 57,
+            "end": 78,
+            "text": "(Lopez Acevedo,1999c)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Simulations and Results",
+        "sec_num": null
+      },
+      {
+        "text": "Application of Formulae I and II at the primary level would mean losses of about 2.25 billion (1998) pesos for 17 to 19 states (Table 4) . At the secondary level, use of Formula III would lead to losses of about 3.61 billion for 21 states. These figures indicate the size of the adjustment that needs to be made by the losers and the amount of assistance that they would require to ease the transition. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 127,
+            "end": 136,
+            "text": "(Table 4)",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "III.-Simulations and Results",
+        "sec_num": null
+      },
+      {
+        "text": "The above formulae can be criticized in that while they clearly provide incentives for increased enrollment, they do not similarly reward quality of education. Hence, it might be argued that student learning might be undermined as a consequence. The size of this effect is not known empirically. Such concern, however, should not prevent the use of the formulae just because it is not perfect. The formulae should be compared with the existing practice which neither rewards enrollment nor learning outcomes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "In theory, such concern can be dealt with by adding a third component to the calculation of the budget. This component would fund rewards to states according to student learning improvements gained during some specified time period. Even with this type of incentive system, there is concern too that it would be unfair to states with relatively more disadvantaged children.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The assumption of this argument is that the rate of improvement would be more difficult to achieve among poor states, putting them at a competitive disadvantage. But this concern is attenuated by the fact that by design states would get more supplementary funds the greater their number of disadvantaged children. Besides, empirical results from PARE (Lopez-Acevedo, 1999c ) indicate that intervention programs like it have produced rates of improvement among children with initially low learning achievement (specifically, indigenous students) that were remarkably higher than the average student.",
+        "cite_spans": [
+          {
+            "start": 351,
+            "end": 372,
+            "text": "(Lopez-Acevedo, 1999c",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The incentive system can also be designed so that the reward is earmarked for each specific state and kept until it has reached agreed benchmarks. This system could be combined with another approach that links rewards to number of graduates. The problem here, though, is that it is an incentive for passing students at lower learning standards. But this can be addressed by instituting some kind of Federal examination system in which graduates would be assessed, using national standardized tests. States would be rewarded for every graduate who passes the examination.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The above discussion point to the idea that a reasonable system of performance incentives based on learning outcomes for states can be developed. It will not be a simple task. It requires systematic experimentation. But it is worth a try.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, there is the idea of using matching grants as an approach for allocating Federal transfers. This is often proposed as a method for providing incentives to states to allocate more of their budget to improve basic education. This is an important issue to consider in light of the need to mobilize additional resources for the education sector and the decline in states' contribution to its finance. The use of matching grants, however, should be used carefully. First, if used alone, matching grants could widen inequality in education finance. Second, the approach suffers from the same criticisms mentioned above about the use of input-based incentives and allocation formula. Focusing on rewarding states' outputs, as proposed above, would be a better approach because it would implicitly reward states that are able to achieve output benchmarks regardless of whether they did it through increased efficiency or mobilization of additional resources (both monetary and in-kind). Still, used within a broader equity-oriented resource allocation framework (e.g. the above multi-component formula), special matching grants program can be a useful tool for motivating local resource mobilization. To be effective, though, subnational governments should have ample authority to levy local resources. This issue, which could involved fiscal mechanisms, will have to be examined in the context of the government's new federalism approach to governance. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III.-Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "\u2729 Based on Probits of Enrollment of Secondary School Aged Children using ENIGH 1994. The elasticity used is the highest in the range of elasticties across the Mexican states -states with elasticity of a similar magnitude included Guerrero, Hidalgo, Nayarit and San Luis Potos\u00ed. Note that these are point elasticities, evaluated at the mean of federal transfers and enrollment probability for each state, but in the estimation of additional funding, the elasticity is assumed to be constant over the 10% and 20% intervals used as the two scenarios.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "The table presents the elasticity of the probability of enrollment in Secondary School with respect to the amount of federal transfers made to a state for Secondary Schools divided by the population of Secondary School aged children in the state. The states are ranked according to a descending order of federal transfers per child. \u2729 Based on Probits of Enrollment of Secondary School Aged Children using ENIGH 1994. The elasticity used is the highest in the range of elasticties across the Mexican states -states with elasticity of a similar magnitude included Guerrero, Hidalgo, Nayarit and San Luis Potos\u00ed. Note that these are point elasticities, evaluated at the mean of federal transfers and enrollment probability for each state, but in the estimation of additional funding, the elasticity is assumed to be constant over the 10% and 20% intervals used as the two scenarios.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Policy Research Working Paper 1700, World Bank Policy Research Department, Poverty and Human Resources Division",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Alderman",
+            "suffix": ""
+          },
+          {
+            "first": "Jere",
+            "middle": [
+              "R"
+            ],
+            "last": "Harold",
+            "suffix": ""
+          },
+          {
+            "first": "Victor",
+            "middle": [],
+            "last": "Behrman",
+            "suffix": ""
+          },
+          {
+            "first": "Rekha",
+            "middle": [],
+            "last": "Lavy",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Menon",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Alderman, Harold, Jere R. Behrman, Victor Lavy, and Rekha Menon. \"Child Nutrition, Child Health, and School Enrollment: a longitudinal analysis.\" Policy Research Working Paper 1700, World Bank Policy Research Department, Poverty and Human Resources Division, Washington, DC : The World Bank, January 1997",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Public Inputs and Child Schooling in Brazil",
+        "authors": [
+          {
+            "first": "Nancy",
+            "middle": [],
+            "last": "Birdsall",
+            "suffix": ""
+          }
+        ],
+        "year": 1985,
+        "venue": "Journal of Development Economics",
+        "volume": "18",
+        "issue": "",
+        "pages": "67--86",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Birdsall, Nancy. \"Public Inputs and Child Schooling in Brazil.\" Journal of Development Economics 18, 1985 : 67-86.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Conapo CDs, Population data and projections",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Conapo CDs, Population data and projections.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Student Achievement and Schooling Choice in Low-Income Countries. Evidence from Ghana",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [],
+            "last": "Glewwe",
+            "suffix": ""
+          },
+          {
+            "first": "Hanan",
+            "middle": [],
+            "last": "Jacoby",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Journal of Human Resources",
+        "volume": "29",
+        "issue": "",
+        "pages": "843--864",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Glewwe, Paul and Hanan Jacoby. \"Student Achievement and Schooling Choice in Low-Income Countries. Evidence from Ghana.\" Journal of Human Resources 29, 1994 : 843-864.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Programa de Desarrollo Educativo",
+        "authors": [
+          {
+            "first": "Mexico",
+            "middle": [],
+            "last": "Government Of",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "Secretar\u00eda de Educaci\u00f3n P\u00fablica",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Government of Mexico. Programa de Desarrollo Educativo 1995-2000. Secretar\u00eda de Educaci\u00f3n P\u00fablica, Mexico City, 1996.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Risk, financial markets, and human capital in a developing country",
+        "authors": [
+          {
+            "first": "Hanan",
+            "middle": [
+              "G"
+            ],
+            "last": "Jacoby",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Review of Economic Studies",
+        "volume": "64",
+        "issue": "3",
+        "pages": "311--346",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jacoby, Hanan G. \"Risk, financial markets, and human capital in a developing country.\" Review of Economic Studies (U.K.), 64 (3) : 311-35, July 1997",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Determinants of Schooling Attainment and Enrollment Rates in the Phillipines",
+        "authors": [
+          {
+            "first": "Elizabeth",
+            "middle": [
+              "M"
+            ],
+            "last": "King",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Lee",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Lillard",
+            "suffix": ""
+          }
+        ],
+        "year": 1983,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "King, Elizabeth M. and Lee A. Lillard. \"Determinants of Schooling Attainment and Enrollment Rates in the Phillipines.\" Rand Note N-1962-AID. Santa Monica, Calif.: Rand Corporation, 1983",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Inter-generational Educational Mobility : Effects of Family and State in Malaysia",
+        "authors": [
+          {
+            "first": "Lee",
+            "middle": [
+              "A"
+            ],
+            "last": "Lillard",
+            "suffix": ""
+          },
+          {
+            "first": "Robert",
+            "middle": [
+              "J"
+            ],
+            "last": "Willis",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Journal of Human Resources",
+        "volume": "29",
+        "issue": "",
+        "pages": "1126--1166",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lillard, Lee A. and Robert J. Willis. \"Inter-generational Educational Mobility : Effects of Family and State in Malaysia.\" Journal of Human Resources 29, 1994 : 1126-1166.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Learning Achievement and School Cost-Effectiveness:the PARE Program",
+        "authors": [
+          {
+            "first": "Gladys",
+            "middle": [],
+            "last": "Lopez-Acevedo",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "Policy Research Working Paper #",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lopez-Acevedo, Gladys., Learning Achievement and School Cost-Effectiveness:the PARE Program,Policy Research Working Paper #2128;",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Determinants of Primary School Completion and Secondary School Enrollment",
+        "authors": [
+          {
+            "first": "Gladys",
+            "middle": [],
+            "last": "Lopez-Acevedo",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lopez-Acevedo, Gladys.,(1999a), \"Determinants of Primary School Completion and Secondary School Enrollment\", Mexico Poverty Assessment, The World Bank 1999;",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Supply Side Improvement and the Learning Achievement of the Poorest Children in Indigenous Rural Schools: The Case of PARE",
+        "authors": [
+          {
+            "first": "Gladys",
+            "middle": [],
+            "last": "Lopez-Acevedo",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lopez-Acevedo, Gladys.,(1999b), \"Supply Side Improvement and the Learning Achievement of the Poorest Children in Indigenous Rural Schools: The Case of PARE\", Mexico Poverty Assesstment, The World Bank 1999;",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Targeting and Evaluation of the Education Compensatory Programs",
+        "authors": [
+          {
+            "first": "Gladys",
+            "middle": [],
+            "last": "Lopez-Acevedo",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "The Education Decentralization Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lopez-Acevedo, Gladys.,(1999c), \"Targeting and Evaluation of the Education Compensatory Programs\", The Education Decentralization Study, The World Bank, 1998.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Measuring the Opportunity cost of children's time in a developing country",
+        "authors": [
+          {
+            "first": "Andrew",
+            "middle": [
+              "D"
+            ],
+            "last": "Mason",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Shahidur",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Khandker",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mason, Andrew D. and Shahidur R. Khandker. \"Measuring the Opportunity cost of children's time in a developing country.\" Human Capital Development Working Papers 72, World Bank Human Capital Development, Washington, DC : The World Bank, September, 1996.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "The waning Effect of Sibship Composition on School Attainment in Hong Kong",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Post",
+            "suffix": ""
+          },
+          {
+            "first": "Suet-Ling",
+            "middle": [],
+            "last": "Pong",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "Comparative Education Review",
+        "volume": "42",
+        "issue": "",
+        "pages": "99--117",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Post, David and Suet-Ling Pong. \" The waning Effect of Sibship Composition on School Attainment in Hong Kong.\" Comparative Education Review 42, 2 : 99-117.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Fertility, Schooling, and the Economic Contribution of Children in Rural India : An Economic Analysis",
+        "authors": [
+          {
+            "first": "Mark",
+            "middle": [
+              "R"
+            ],
+            "last": "Rosenzweig",
+            "suffix": ""
+          },
+          {
+            "first": "Robert",
+            "middle": [],
+            "last": "Evenson",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Econometrica",
+        "volume": "45",
+        "issue": "5",
+        "pages": "1065--1079",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rosenzweig, Mark R. and Robert Evenson. \"Fertility, Schooling, and the Economic Contribution of Children in Rural India : An Economic Analysis.\" Econometrica, Vol. 45, No. 5, July 1997 : 1065-1079.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "TABREF0": {
+        "text": "Pop. Share of State i = (Population of 12-14 Age in State i) / (National Pop. of 12-14 Age)",
+        "html": null,
+        "type_str": "table",
+        "content": "<table/>",
+        "num": null
+      },
+      "TABREF1": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "content": "<table><tr><td/><td>Average Net Gain</td><td>Per Capita State</td></tr><tr><td>Category</td><td>(1993 Pesos)</td><td>GDP (1993 Pesos)</td></tr><tr><td>High Net Gainers</td><td>353</td><td>1,041</td></tr><tr><td>Medium Net Gainers/Losers</td><td>18</td><td>1,081</td></tr><tr><td>High Net Losers</td><td>-474</td><td>2,062</td></tr></table>",
+        "num": null
+      },
+      "TABREF2": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "content": "<table><tr><td colspan=\"2\">Net Gainers from Formula 2 (Per Child)</td><td/></tr><tr><td/><td>Average Net Gain</td><td>Per Capita State</td></tr><tr><td>Category</td><td>(1993 Pesos)</td><td>GDP (1993 Pesos)</td></tr><tr><td>High Net Gainers</td><td>499</td><td>871</td></tr><tr><td>Medium Net Gainers/Losers</td><td>-32</td><td>1,150</td></tr><tr><td>High Net Losers</td><td>-729</td><td>2,559</td></tr></table>",
+        "num": null
+      },
+      "TABREF3": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "content": "<table><tr><td colspan=\"3\">Net Gainers from Formula 3 (Per Student)</td></tr><tr><td/><td>Average Net Gain</td><td>Per Capita State</td></tr><tr><td>Category</td><td>(1993 Pesos)</td><td>GDP (1993 Pesos)</td></tr><tr><td>High Net Gainers</td><td>227</td><td>967</td></tr><tr><td>Medium Net Gainers/Losers</td><td>-59</td><td>1,135</td></tr><tr><td>High Net Losers</td><td>-375</td><td>2,390</td></tr></table>",
+        "num": null
+      },
+      "TABREF4": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "content": "<table><tr><td colspan=\"2\">Losses of Losers</td><td/><td/><td/><td/></tr><tr><td/><td>All losers</td><td/><td>Big Losers</td><td/><td>Actual</td></tr><tr><td/><td/><td/><td/><td/><td>spending in</td></tr><tr><td/><td/><td/><td/><td/><td>1997</td></tr><tr><td/><td>Loss (1998</td><td>States</td><td>Loss</td><td>States</td><td>(1998 billion</td></tr><tr><td/><td>billion</td><td/><td>(1998</td><td/><td>pesos)</td></tr><tr><td/><td>pesos)</td><td/><td>billion</td><td/><td/></tr><tr><td/><td/><td/><td>pesos)</td><td/><td/></tr><tr><td>Lower</td><td/><td/><td/><td/><td/></tr><tr><td>secondary</td><td/><td/><td/><td/><td/></tr><tr><td>Formula I</td><td>2.23</td><td>19</td><td>1.43</td><td>6</td><td>24</td></tr><tr><td>Formula II</td><td>2.25</td><td>17</td><td>1.86</td><td>6</td><td>24</td></tr><tr><td>Primary</td><td/><td/><td/><td/><td/></tr><tr><td>Formula III</td><td>3.61</td><td>21</td><td>2.53</td><td>8</td><td>44</td></tr></table>",
+        "num": null
+      },
+      "TABREF5": {
+        "text": "Two observations should be made at this point. First, even with the changes introduced by the government in the way Federal transfers are allocated, the need for improving the current allocation formula remains an important issue. The reason for this is that because the new methodology uses mainly an \"inertial formula\" (that is, states get at least the same amount of allocation as the previous year's, adjusted for the rate of inflation), past inequities tend to persist.Moreover, giving States budgetary increments based on the number of new schools and teachers needed tends to penalize more effective resource users and, hence, undermine efficiency. The second observation is that at present individual States have yet to confront the issue of intrastate allocation. Application of the above methodologies to this issue can be useful.",
+        "html": null,
+        "type_str": "table",
+        "content": "<table><tr><td/><td/><td/><td/><td colspan=\"3\">Lower Secondary: gross enrollment</td></tr><tr><td/><td/><td>(%)</td><td/><td/><td>rate (%)</td><td/></tr><tr><td/><td/><td/><td>High</td><td>Big</td><td/><td/></tr><tr><td/><td>Big</td><td>Medium</td><td>gainers</td><td>Losers</td><td>Medium</td><td>High gains</td></tr><tr><td/><td>Losers</td><td/><td/><td/><td/><td/></tr><tr><td>Formula I</td><td>90.0</td><td>77.6</td><td>80</td><td>84.6</td><td>69.4</td><td>69.2</td></tr><tr><td>Formula II</td><td>92.3</td><td>80.1</td><td>77.3</td><td>91</td><td>70.3</td><td>69.1</td></tr><tr><td>Formula III</td><td>86.7</td><td>84.6</td><td>73.6</td><td>88.4</td><td>71.2</td><td>68.1</td></tr></table>",
+        "num": null
+      },
+      "TABREF6": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "content": "<table/>",
+        "num": null
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03961: See Table A2 for the definitions of the variables.\n\ns_04011: Studies using the Malawi Diusion and Ideational Change Project data show that individuals in rural Malawi tend to overestimate both the probability of being HIV-infected (Anglewicz and Kohler, 2009) and the HIV prevalence in their community (Anglewicz, 2007) .\n\ns_04061: These hypotheses are then tested on the data for the 42 countries.\n\ns_04111: This trend is more prevalent in Australia, New Zealand and South Africa, but it is also quite pronounced in Switzerland and the United States and is spreading in other countries with large occupational pension plans (such as Canada, Ireland, the Netherlands and the United Kingdom).\n\ns_04161: The top and the bottom 1 percent of the observations for each independent variable are excluded from the sample in this This table reports the panel regressions of firm attributes on a three-year window around (non-IPO) capital raising issues that took place between 2003 and 2011.\n\ns_04211: A large debt overhang entails indeed well-known economic costs, induced by both illiquidity and disincentive effects (see Krugman (1989) and Sachs (1989) ).14 In the context of our analysis, the short-termf employment and output costs associated with a debt overhang can also be substantial.\n\ns_04261: It is useful to confront a possible mainstream, neoclassical criticism at the outset.\n\ns_04311: Evidently, there exists a strong correlation between all six domestic pre-tax oil prices, as well as between domestic and global oil prices (cf.\n\ns_04361: The dependent variable is formed by the vector of predicted sectordistrict-time fixed effects which were estimated as part of the discrete choice model in Section II.\n\ns_04411: The overall fit of the regressions is consistent with what is found in the literature.\n\ns_04461: These findings are consistent with recent evidence from other domains suggesting that soft commitments in the form of labeling can change spending and saving behaviors.\n\ns_04511: The harmonised questionnaire contained a core set of questions on the firms' wage setting strategies, which were asked in all countries and thus gives us a detailed and comparable picture of these issues across all countries.\n\ns_04561: The conceptual basis and implementation method is stated succinctly by de Barros et al.\n\ns_04611: Finally, we look into the possible interaction between recession/expansion and government spending going up or down in Section 3.4 (for typical expansions and recessions) and in Section 4 (for extreme expansions and recessions).\n\ns_04661: It also highlighted that inequality was highest along racial lines: among the white population, no significant inequities were observed, while nonwhite children from metropolitan areas displayed the highest levels of stunting.\n\ns_04711: Data include the name of the country in which the firm engaging in M&A FDI is located, the name of the destination country, the year of completed transaction, the source sector, the recipient sector, the equity stake, and, sometimes, the deal value.\n\ns_04761: One study finds that, in early adopting states, women's likelihood of inheriting land increased and indicators of female empowerment such as girls' educational attainment and age at marriage improved (Deininger et al.\n\ns_04811: The sample is nationally representative, and it includes eight repeated cross-sections collected between 1976 and 1996.\n\ns_04861: Typically disaggregated categories are more prone to measurement error, and in some disaggregated categories have missing informationinfrastructure spending being a prime example where we see a significant drop in the number of observations.\n\ns_04911: The spatial autoregressive term \u03bb is estimated at 0.3 to 0.4.\n\ns_04961: Instead, since we want to use this regression for projection, our interest is to obtain the best fit possible and the highest explanatory power.\n\ns_05011: Since the underlying data used to construct GVC data is published approximately every five years, we consider five-year average time series instead of annual time series in our panel regressions as well.\n\ns_05061: To summarize the results in Table 3 , the use of export promotion services appears to be very significant in helping firms survive in export markets or become exporters, but it is not significant in causing firms to increase exports as a share of total sales.\n\ns_05111: Anthropometric data were also collected directly through measurement of children.\n\ns_05161: \uf0b7 Starting from 29.0 percent in 2015, savings to GDP rises to 31.9 percent by 2020 \uf0b7 Starting from 0.9 percent in 2015, FDI to GDP rises to 3.0 percent by 2020 \uf0b7 Starting from 25.1 percent in 2015, external debt to GDP rises to 37.4 percent by 2020"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7cIApFpV03iXqrcgfO0l6Czy8WF",
+    "object": "chat.completion",
+    "created": 1682885242,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1290,
+      "completion_tokens": 86,
+      "total_tokens": 1376
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04011\", \"data_mentioned\": true, \"reason\": \"Malawi Diusion and Ideational Change Project data\"}, {\"sent_id\": \"s_04711\", \"data_mentioned\": true, \"reason\": \"M&A FDI\"}, {\"sent_id\": \"s_05111\", \"data_mentioned\": true, \"reason\": \"Anthropometric data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04011\", \"data_mentioned\": true, \"reason\": \"Malawi Diusion and Ideational Change Project data\"}, {\"sent_id\": \"s_04711\", \"data_mentioned\": true, \"reason\": \"M&A FDI\"}, {\"sent_id\": \"s_05111\", \"data_mentioned\": true, \"reason\": \"Anthropometric data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

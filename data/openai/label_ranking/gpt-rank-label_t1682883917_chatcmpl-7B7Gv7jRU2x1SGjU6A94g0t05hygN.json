@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02049: used an artificial intelligence (AI) algorithm to combine chest CT scans with clinical symptoms, exposure history, and laboratory tests to quickly diagnose patients infected with SARS-CoV-2.\n\ns_02099: Data from Costa Rica and Panama were obtained from their National Cancer Registries (Registro Nacional de Tumores de Costa Rica and the Registro Nacional de C\u00e1ncer de Panama, respectively), both of which are certified by IARC and have national coverage.\n\ns_02149: The Dimensions database (www.dimensions.ai) was used for this study.\n\ns_02199: Annualized percent change was computed for volume of white matter (WM) hyperintensities and gray matter (GM), fractional anisotropy of normal appearing WM, and mean diffusivity (MD) of GM in whole brain and memory and executive control function networks.\n\ns_02232: Fitted data from the model estimates in Table 3 and Table 4 are shown in Figure 1 for converters and in Figure 2 for nonconverters.\n\ns_02282: To get an estimate of the portion of total NYC damages in Jamaica Bay caused by Hurricane Sandy, five spatially disaggregated damage data sets [FEMA, 2013;Sandy Funding Tracker, 2016a;US-HUD, 2013;US-SBA, 2012] were referenced.\n\ns_02332: Similar analyses were done with QUICKI and yielded nearly identical results (data not shown).\n\ns_02382: 634 doi.org/10.1016/j.csr.2008.06.008.\n\ns_02432: However, a sensitivity analysis using the log per-patient LVC Medicare spending as an outcome showed similar patterns as our main regression results, implying that the results were not driven by outliers (Appendix Figure 2).\n\ns_02482: We applied our trained and validated CNN/RNN model to empirical global SARS-CoV-2 data from March to July 2020 (GISAID 1 ) and to United Kingdom data from April to December 2020 (COG UK 14 ).\n\ns_02532: The components of the Internet use index are included in the count data model in log-linear form as To assess regional differences in institutional support and information availability for organic production and marketing systems, we used the four USDA SARE regions (see www.sare.org/ about/regions.htm for a listing of states in each region).\n\ns_02582: This is in line with data from the Central Statistical Office in Poland showing a high male mortality in Poland.\n\ns_02632: (Kim and Feldman, 2015; Martocchia et al., 2016) .\n\ns_02682: As one might infer from Figures 5 and 6, these projections are between the estimates with income convergence alone and those with both income and historical test score convergence, closing about 30% of the gap created by the shift to race-neutral admissions.\n\ns_02732: This was accomplished using ArcGIS version 10 geographic information system software (ESRI, 2010) by aggregating specific land cover classes to a less specific common class (i.e.\n\ns_02782: Finally, we assessed whether associations between GA, household SES, and cognitive/academic outcomes differed according to race/ethnicity by adding 3-way interaction terms as well as stratifying by race/ethnicity.\n\ns_02832: These scores are traditionally obtained by researchers using the AQS following the guidelines of Waters and Deane (1985) .\n\ns_02882: Such analyses may help us to better understand who, exactly, does respond via the Internet, and thus the potential for future online research.\n\ns_02932: The following classification variables were used in this repon.\n\ns_02982: To analyze the quantitative data, they were summarized into a table, as a percentage, and calculated using the Chi-Square statistical method.\n\ns_03032: ADNI is the result of efforts of many co-investigators from a broad range of academic institutions and private corporations, and subjects have been recruited from over 50 sites across the U.S. and Canada.\n\ns_03082: It should also be noted that each observation in an ARMS data set is given a weight to indicate how many farms it likely replicates.\n\ns_03132: In Table 2 we present summaries for the occurrence and the fraction of lines dedicated to each of these partitions.\n\ns_03182: Deaton and Laroque (1992, 1995, 1996.15 Cafiero, Bobenrieth, Bobenrieth, and Wright (2009).\n\ns_03232: It also documents the sources of data."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Gv7jRU2x1SGjU6A94g0t05hygN",
+    "object": "chat.completion",
+    "created": 1682883917,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1228,
+      "completion_tokens": 154,
+      "total_tokens": 1382
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02099\", \"data_mentioned\": true, \"reason\": \"National Cancer Registries\"}, {\"sent_id\": \"s_02149\", \"data_mentioned\": true, \"reason\": \"Dimensions database\"}, {\"sent_id\": \"s_02282\", \"data_mentioned\": true, \"reason\": \"Hurricane Sandy\"}, {\"sent_id\": \"s_02482\", \"data_mentioned\": true, \"reason\": \"GISAID\"}, {\"sent_id\": \"s_02532\", \"data_mentioned\": true, \"reason\": \"USDA SARE regions\"}, {\"sent_id\": \"s_03032\", \"data_mentioned\": true, \"reason\": \"ADNI\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02099\", \"data_mentioned\": true, \"reason\": \"National Cancer Registries\"}, {\"sent_id\": \"s_02149\", \"data_mentioned\": true, \"reason\": \"Dimensions database\"}, {\"sent_id\": \"s_02282\", \"data_mentioned\": true, \"reason\": \"Hurricane Sandy\"}, {\"sent_id\": \"s_02482\", \"data_mentioned\": true, \"reason\": \"GISAID\"}, {\"sent_id\": \"s_02532\", \"data_mentioned\": true, \"reason\": \"USDA SARE regions\"}, {\"sent_id\": \"s_03032\", \"data_mentioned\": true, \"reason\": \"ADNI\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

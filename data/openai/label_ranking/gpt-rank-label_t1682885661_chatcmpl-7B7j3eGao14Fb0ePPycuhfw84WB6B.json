@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02471: For each LVC service type, we first identified qualifying patients who were eligible for the service based on diagnoses, demographics, and other criteria from all patients that had received the service.\n\ns_02521: The F1 score was taken as the mean estimate across 100 subsamples of the data where positively selected samples were stratified by fitness.\n\ns_02571: Internet use has a positive marginal effect on visits to private information providers across each quantile, suggesting that expanded efforts to deliver programs through web-based resources are a useful investment for information providers.\n\ns_02621: [61] demonstrated that Sprague-Dawley rats that had received a high fat diet had a larger prostate gland volume and also experienced erectile dysfunction and urinary bladder hyperactivity.\n\ns_02671: Currently, a phase II trial of an 11\u03b2-HSD1 inhibitor (UE2343) as a potential treatment for AD is being conducted (Webster et al., 2017) .\n\ns_02721: Row 3 of Table 1 applies the same race-neutral admissions rule to the first counterfactual SAT distribution, assuming income convergence but no additional progress in test scores.\n\ns_02771: Such an approach helps contrast the relative amount and types of change expected to vary widely across international borders, proximity to the coast, and explicitly by watersheds in the basin.\n\ns_02821: They could also be excluded if the primary survey respondent was not the biological mother (n = 150) or if the birth weight reported on the birth certificate was implausible for GA based on cutoffs established by Alexander et al.\n\ns_02871: The results bring new light on an enduring research issue, namely the relationship between non-maternal child care in the months of life and attachment.\n\ns_02921: Debriefing Questionnaire: We received a total of 79 online respondent debriefing questionnaires and 65 paper non-respondent questionnaires for a debriefing response rate of 41%.\n\ns_02971: Boiferroni adjustments for multiple comparisons were made where appropriate.\n\ns_03021: However, the respondents reported some motivation and procrastination issues, along with reluctance to criticism and feedback provided by their colleagues.\n\ns_03071: An expert tracer from the coordinating center segmented the hippocampi of these images according to the protocol described above.\n\ns_03121: For example, if large farms are more likely to be multifunctional, then their impact may be overshadowed by smaller, non-participating farms that will enter the estimation routine with larger weights.\n\ns_03171: Hence, we can partition the transcripts based on the hierarchical position of the speaker (o\u00a2 cial or villager), the gender 7 of the speaker, and on whether the paragraph contains a decision (for or against).\n\ns_03221: Similarly, comparison of Figures 4 and 11 shows that spikes in corn price occurred when stock-to-use ratios were low.\n\ns_03271: [Insert Table 6 about here] Table 7 presents estimated Rybczynski coefficients for each technological regime.\n\ns_03321: where * 01 t t t \uf03c\uf03cdenote the beginning and end of the time window where parameters are estimated (the estimation window), and ,, ict R is the stock-market return of bank i, from country c, between trading days t -1 and t. In the preferred specification, , ct R is a vector that contains the overall stock-market and banking industry return in country c at time t (two-factor model), but I also estimate a one-factor model that only controls for the stock-market return to characterize the evolution of the whole banking industry.\n\ns_03371: The indicators are derived from a pool of 20 primary indicators collected from different sources: Doing Business (DB), World Development Indicators (WDI), World Economic Forum (WEF), and Transparency International (TI).\n\ns_03421: Central European countries (CEEC'), which are the focus of this analysis, are either WTO members or are in the final stages of the accession process.\n\ns_03471: We regress the squared residuals on powers of the predictions: for = 5; F =1:03 and P rob > F = :39: Thus for = 5, the null hypothesis of homoscedasticity cannot be rejected at the 5% level.\n\ns_03521: In all cases, we first filter these policy variables (effectively we also \"benchmark\" them) using the same set of controls as for FDIs.\n\ns_03571: In addition, we complemented the data with two measures of political connectedness constructed by Mobaraq and Purbasari (2008) .\n\ns_03621: The Merton (1974) distance-todefault measure has been shown to be good predictor of defaults outperforming accountingbased models (Campbell, Hilscher and Szilagyi 2008; Hillegeist, Keating, Cram, and Lundstedt, 2004; Bharath and Shumway, 2008) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7j3eGao14Fb0ePPycuhfw84WB6B",
+    "object": "chat.completion",
+    "created": 1682885661,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1307,
+      "completion_tokens": 56,
+      "total_tokens": 1363
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03571\", \"data_mentioned\": true, \"reason\": \"Mobaraq and Purbasari\"}, {\"sent_id\": \"s_03621\", \"data_mentioned\": true, \"reason\": \"Merton\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03571\", \"data_mentioned\": true, \"reason\": \"Mobaraq and Purbasari\"}, {\"sent_id\": \"s_03621\", \"data_mentioned\": true, \"reason\": \"Merton\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

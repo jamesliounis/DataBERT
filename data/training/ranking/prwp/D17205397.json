@@ -1,0 +1,3118 @@
+{
+  "paper_id": "D17205397",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:03:59.199845Z"
+  },
+  "title": "How Subjective Beliefs about HIV Infection Affect Life-Cycle Fertility Evidence from Rural Malawi",
+  "authors": [
+    {
+      "first": "Gil",
+      "middle": [],
+      "last": "Shapira",
+      "suffix": "",
+      "affiliation": {},
+      "email": "gshapira@worldbank.org"
+    },
+    {
+      "first": "Clement",
+      "middle": [],
+      "last": "Joubert",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Nirav",
+      "middle": [],
+      "last": "Mehta",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Shalini",
+      "middle": [],
+      "last": "Roy",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2013-01-30",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D17205397",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "This paper studies the effect of subjective beliefs about HIV infection on fertility decisions in a context of high HIV prevalence and simulates the impact of different policy interventions, such as HIV testing programs and prevention of mother-to-child transmission, on fertility and child mortality. It develops a model of women's life-cycle, in which women make sequential fertility decisions. Expectations about the life horizon and child survival depend on women's perceived exposure to HIV infection, which is allowed to differ from the actual exposure. In the model, women form beliefs about their HIV status and about their own and their children's survival in future periods. Women update their beliefs with survival to each additional period as well as when their HIV status is revealed by an HIV test.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 6343",
+        "sec_num": null
+      },
+      {
+        "text": "This paper is a product of the Human Development and Public Services Team, Development Research Group. It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world. Policy Research Working Papers are also posted on the Web at http://econ.worldbank.org. The author may be contacted at gshapira@worldbank.org.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 6343",
+        "sec_num": null
+      },
+      {
+        "text": "Model parameters are estimated by maximum likelihood with longitudinal data from the Malawi Diffusion and Ideational Change Project, which contain family rosters, information on HIV testing, and measures of subjective beliefs about own HIV status. The model successfully fits the fertility patterns in the data, as well as the distribution of reported beliefs about own HIV status. The analysis uses the model to assess the effect of HIV on fertility by simulating behavior in an environment without HIV. The results show that the presence of HIV reduces the average number of births a woman has during her life-cycle by 0.15. The paper also finds that HIV testing can reduce the fertility of infected women, leading to a reduction of child mortality and orphan-hood.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 6343",
+        "sec_num": null
+      },
+      {
+        "text": "Both fertility and HIV prevalence rates in Malawi are among the highest in the world, with the total fertility rate at 5.7 births per woman and the HIV prevalence rate at 10.6 percent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Malawian women make fertility decisions in an environment characterized by high adult and child mortality, exacerbated by mother-to-child HIV transmission. Out of a population of about 15 million, it is estimated that 68,000 die annually from AIDS and that 560,000 children under the age of 17 have lost at least one parent to the disease. An important aspect of the environment in Malawi is that women are typically uncertain regarding their own HIV status. An infected person can live for many years with no symptoms, and testing was not widely available until relatively recently. The median survival time after infection, without treatment, is about 10.4 years.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "3 During most of this time, an infected person is in a clinical latency stage and experiences few or no symptoms.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "In addition to being uncertain about own HIV status, women often express beliefs about HIV risk that dier substantially from actual risk. Studies using the Malawi Diusion and Ideational Change Project data show that individuals in rural Malawi tend to overestimate both the probability of being HIV-infected (Anglewicz and Kohler, 2009) and the HIV prevalence in their community (Anglewicz, 2007) . Anglewicz and Kohler (2009) attribute these high risk assessments to overestimated probabilities of transmission. More than 95 percent of respondents believe that transmission from a single instance of unprotected intercourse 1 Malawi Demographic and Health Surveys (2010) 2 UNSAID/WHO/UNICEF Epidemiological Fact Sheets (2008) 3 Todd et al. (2007) . Estimate for infected adults in Eastern and Southern Africa 4 Morgan et al. (2002) , for example, nd median time from infection to AIDS to be 9.4 years and median time from AIDS to death to be 9.2 months in rural Uganda.",
+        "cite_spans": [
+          {
+            "start": 308,
+            "end": 336,
+            "text": "(Anglewicz and Kohler, 2009)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 379,
+            "end": 396,
+            "text": "(Anglewicz, 2007)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 399,
+            "end": 426,
+            "text": "Anglewicz and Kohler (2009)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 727,
+            "end": 728,
+            "text": "3",
+            "ref_id": null
+          },
+          {
+            "start": 729,
+            "end": 747,
+            "text": "Todd et al. (2007)",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 812,
+            "end": 832,
+            "text": "Morgan et al. (2002)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "with an infected person is highly likely or certain; however, studies estimate that it can be as low as 1 per 1,000 encounters in the absence of an increased viral load (Gray et al., 2001 ).",
+        "cite_spans": [
+          {
+            "start": 169,
+            "end": 187,
+            "text": "(Gray et al., 2001",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Women's perceptions of HIV risk and of their own HIV status aect beliefs about their own and their children's life expectancy, which in turn may inuence life-cycle fertility choices. In this paper, I study the determinants of women's reproductive decisions in Malawi, taking into account uncertainty about HIV status and dierences between perceived and actual HIV infection risk. I investigate how HIV aects fertility and simulate the impact of dierent policy interventions, such as HIV testing programs and prevention of mother-tochild transmission, on fertility and child mortality.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "To this end, I develop a dynamic discrete-choice life-cycle fertility model in which expectations about the life horizon and child survival depend on a perceived infection hazard.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "A woman makes annual pregnancy decisions from the time of marriage until she becomes infecund. She maximizes utility, which depends on her number of children, household consumption, and pregnancies, subject to a per-period budget constraint. The woman faces uncertainty regarding future income, HIV status, and the survival of herself and her children in future periods.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "A woman's perceived infection hazard is allowed to dier from her actual infection hazard to reect the misperceptions about HIV risk observed empirically. The perceived hazard rate for each period is a function of a woman's characteristics, such as her age, region of residence, marital status, and schooling level. To account for unobservable factors, the hazard rate also incorporates heterogeneity in the form of a discrete number of unobserved types.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Given that HIV is initially asymptomatic, the model assumes that a woman does not 5 The viral load is high in the few weeks following infection and increases again as an infected person develops AIDS. Infectivity increases with viral load as well as with other conditions, such as the existence of other STDs. Powers et al. (2008) review the studies estimating HIV infectivity and discuss dierent factors that increase infectivity. Note however that even a low transmission rate such as 0.001 can translate into a nontrivial probability of infection during a year of partnership. Gray et al. (2001) nd average frequency of intercourse to be about 106 acts per year, implying about a 10 percent chance of transmission given this transmission rate. 6 The probability of being a certain type is a function of the woman's characteristics and follows a multinomial logit specication. observe realizations of the infection process and therefore does not know her HIV status.",
+        "cite_spans": [
+          {
+            "start": 82,
+            "end": 83,
+            "text": "5",
+            "ref_id": null
+          },
+          {
+            "start": 310,
+            "end": 330,
+            "text": "Powers et al. (2008)",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 580,
+            "end": 598,
+            "text": "Gray et al. (2001)",
+            "ref_id": null
+          },
+          {
+            "start": 747,
+            "end": 748,
+            "text": "6",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "6",
+        "sec_num": null
+      },
+      {
+        "text": "Assuming she knows the mortality process associated with HIV infection, however, survival during each additional period gives her information about her status. Specically, she reduces her subjective probabilities of having become infected in each of the past periods based on the fact that she is still alive. According to these probabilities and given the mortality process, she updates her survival expectations. HIV infection also increases child mortality probabilities through mother-to-child transmission. In the model, the woman also updates expectations about the survival of each of her children depending on the probability assigned to her having been infected at the time of birth.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "6",
+        "sec_num": null
+      },
+      {
+        "text": "Change Project (MDICP) dataset, a rich longitudinal dataset collected in rural areas of three dierent districts of the country. The data contain extensive information on more than 4,000 individuals at the individual and household level. The three sampled regions vary signicantly in several aspects that are potentially relevant for the analysis, such as HIV prevalence rates, polygamy rates, and schooling levels. A unique feature of the MDICP data is that they include measures of subjective expectations regarding a range of outcomes, including the likelihood respondents assigned to being HIV-infected at the time of the interview. The expectations data were collected using a novel bean-counting method, developed by Delavande and Kohler (2009) , which is appropriate for populations with low levels of numeracy. Delavande and Kohler (2009) nd that the reported subjective expectations follow basic properties of probabilities and that the assessments of HIV-infection vary meaningfully with observable characteristics associated with dierent levels of HIV prevalence. I use a subsample of 1006 married women who were interviewed at least once during the 2006 and 2008 rounds, when family rosters and subjective expectations were collected.",
+        "cite_spans": [
+          {
+            "start": 722,
+            "end": 749,
+            "text": "Delavande and Kohler (2009)",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 818,
+            "end": 845,
+            "text": "Delavande and Kohler (2009)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The dynamic fertility model is estimated using the Malawi Diusion and Ideational",
+        "sec_num": null
+      },
+      {
+        "text": "Since 2004, each round of data collection included HIV testing of respondents and the prevalence rate was found to be about seven percent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The dynamic fertility model is estimated using the Malawi Diusion and Ideational",
+        "sec_num": null
+      },
+      {
+        "text": "Although individuals who received 7 HIV prevalence is lower in rural areas than in urban areas. The prevalence in the MDICP sample is lower than the rural 2004 DHS prevalence because the sample does not include peri-urban areas such as positive test results assign signicantly higher likelihood to being infected two years later relative to individuals who received negative test results, some individuals who tested positive later assign a probability of less than one to being infected. I therefore assume that a woman assigns a probability to the accuracy of the test. Given the test result, the woman updates the probabilities assigned to infection and the corresponding probabilities of survival.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "7",
+        "sec_num": null
+      },
+      {
+        "text": "I structurally estimate the model parameters using maximum likelihood and then use the estimated model to perform several counterfactual simulations. First, I simulate life-cycle fertility in an environment with no HIV exposure. The results indicate that the presence of HIV has an average negative eect on fertility. Overall, women in the no-HIV environment have on average 0.15 more births over their life-cycle. However, there is heterogeneity in the eect of the presence of HIV on fertility, with some women decreasing the number of births and fewer women increasing it. I also simulate the eects of prevention of mother-to-child transmission and HIV testing programs on fertility outcomes. Although these programs are not necessarily intended to inuence fertility, they have the potential to aect reproductive choices by altering beliefs about HIV status, life expectancy, and child survival. Such policy interventions are implemented in Malawi and are continuously expanding in scope. I nd these programs to have negligible eects on the overall number of births. However, elimination of mother-to-child transmission will reduce fertility by infected women who respond to child mortality by additional pregnancies either because they have high marginal utility of an additional child or because they assign low likelihood to being infected. I also nd that HIV testing can reduce fertility by HIV-positive women, leading to a reduction in child mortality and orphan hood. However, the eect of testing is limited by the partial updating of beliefs. trading centers (Obare et al., 2009) .",
+        "cite_spans": [
+          {
+            "start": 1568,
+            "end": 1588,
+            "text": "(Obare et al., 2009)",
+            "ref_id": "BIBREF19"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "7",
+        "sec_num": null
+      },
+      {
+        "text": "Several studies analyzed the response of fertility in Sub-Saharan Africa to the HIV/AIDS epidemic and reached mixed conclusions. Young (2005) studies the eect of the HIV/AIDS epidemic on the welfare of future African generations. He concludes that thanks to a negative eect on fertility, the epidemic, on net, will increase future per capita consumption.",
+        "cite_spans": [
+          {
+            "start": 129,
+            "end": 141,
+            "text": "Young (2005)",
+            "ref_id": "BIBREF26"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Related Literature",
+        "sec_num": "1.1"
+      },
+      {
+        "text": "He attributes the reduction in fertility to an unwillingness to engage in unprotected sexual activity and increasing labor opportunities for women because of scarcity of labor. He shows empirically a negative relationship between fertility and HIV prevalence using retrospective fertility histories and seroprevalence in antenatal clinics in South Africa. Using time series cross-country data on fertility and HIV prevalence rates, Young (2007) nds a similar eect. Kalemli-Ozcan (2006) , using similar types of data, shows that regressing total fertility rate on HIV/AIDS prevalence can yield both positive and negative eects with dierent estimation strategies and dierent measures of HIV prevalence.",
+        "cite_spans": [
+          {
+            "start": 432,
+            "end": 444,
+            "text": "Young (2007)",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 465,
+            "end": 485,
+            "text": "Kalemli-Ozcan (2006)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "Later studies use the cross-country data from the latest rounds of the Demographic and Health Surveys (DHS). These surveys are nationally representative and contain results of HIV testing of respondents. Fortson (2009) and Juhn et al. (2008) nd lower fertility rates of HIV-infected women than of HIV-uninfected women; however, they nd no eect of local prevalence rates on the fertility of uninfected women and an overall insignicant aggregate eect of HIV on fertility. Fink and Linnemayr (2009) , linking historical data from World Fertility Surveys (WFS) with the DHS data, argue that while HIV does not have a signicant eect on aggregate fertility levels, it aects dierently women depending on their educational attainment. They nd that, in the presence of HIV, more educated women reduce fertility more than uneducated women. Analyzing the Malawi DHS surveys from 2000 and 2004, together with HIV rates obtained from antenatal clinics, Durevall and Lindskog (2011) conclude that although the HIV/AIDS epidemic has small impact on the number of 8 According to Young (2005) , the positive eect of reduces fertility dominates a negative eect of reduced human capital accumulation by orphans. births a woman experiences it aects timing of fertility. Women in districts with higher HIV prevalence are more likely to give birth at younger ages and are less likely to do so when they are over 29 years.",
+        "cite_spans": [
+          {
+            "start": 204,
+            "end": 218,
+            "text": "Fortson (2009)",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 223,
+            "end": 241,
+            "text": "Juhn et al. (2008)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 470,
+            "end": 495,
+            "text": "Fink and Linnemayr (2009)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 940,
+            "end": 968,
+            "text": "Durevall and Lindskog (2011)",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 1063,
+            "end": 1075,
+            "text": "Young (2005)",
+            "ref_id": "BIBREF26"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "My analysis diers from these studies both in the empirical approach and in the type of data used in the analysis. The data on individuals' subjective beliefs allow me to exploit heterogeneity within communities, which the use of data on local HIV prevalence only does not allow. The structural estimation of a model enables me to perform counterfactual simulations to assess fertility patterns in dierent environments.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "Many economists have studied the determinants of fertility in dierent environments.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "My analysis is most closely related to studies that model fertility decision-making as a sequential process (Heckman and Willis (1974) ) and studies of fertility in environments with non-negligible infant and child mortality risk (Wolpin, 1984; Sah, 1991; Mira, 2007) . Wolpin (1984) presents an estimable dynamic discrete-choice fertility model in an environment where infant survival is uncertain and uses the model to study the response of fertility choices to experienced infant mortality. Mira (2007) Hotz et al. (1997) , Schultz (1997) , and Wolpin (1997) survey the literature on fertility. Mira (2007) . Specically, a woman makes annual decisions of whether to become pregnant beginning at the age of her marriage and ending when she becomes infecund at a xed age F (assumed to be 45). A woman gives birth in the period following the one in which she became pregnant. If never infected, a woman survives with certainty to age T (assumed to be 60). An infected woman might die prior to reaching the terminal model period. HIV infection of a mother at time of birth also increases mortality probabilities of children of ages zero to three. Given that HIV infection is asymptomatic for the majority of the infection duration, women cannot observe their HIV status.",
+        "cite_spans": [
+          {
+            "start": 108,
+            "end": 134,
+            "text": "(Heckman and Willis (1974)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 230,
+            "end": 244,
+            "text": "(Wolpin, 1984;",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 245,
+            "end": 255,
+            "text": "Sah, 1991;",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 256,
+            "end": 267,
+            "text": "Mira, 2007)",
+            "ref_id": null
+          },
+          {
+            "start": 270,
+            "end": 283,
+            "text": "Wolpin (1984)",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 494,
+            "end": 505,
+            "text": "Mira (2007)",
+            "ref_id": null
+          },
+          {
+            "start": 506,
+            "end": 524,
+            "text": "Hotz et al. (1997)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 527,
+            "end": 541,
+            "text": "Schultz (1997)",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 548,
+            "end": 561,
+            "text": "Wolpin (1997)",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 598,
+            "end": 609,
+            "text": "Mira (2007)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "9",
+        "sec_num": null
+      },
+      {
+        "text": "Women are heterogeneous with respect to a group of characteristics that are treated as exogenous and constant determinants of their choices. These characteristics include region of residence, completed schooling level, the size of the household's land plot, age of marriage, and whether a woman is married to a polygamous husband. Women are also of dierent discrete unobserved types, which are incorporated in the model to account for unobservable permanent factors which might aect preferences as well as exposure to HIV.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "9",
+        "sec_num": null
+      },
+      {
+        "text": "Each period, a woman receives a utility ow from household consumption (C ), her number of children (N ), pregnancy status (p), and a time-varying preference shock ( p ) which is iid across time and women. The per-period utility function is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "U (t) = C(t) \u03c6 \u03c6 [1 + exp (\u03bb 1 N (t))] + \u03bb 2,r,e,m,\u00b5 N (t) + \u03bb 3,r,e,m,\u00b5 N (t) 2 \u2212 (\u03bb 4,t + p (t)) p(t) \u2212 (\u03bb 5 + \u03bb 6 t)p(t)p(t \u2212 1), p (t) \u223c iidN 0, \u03c3 2 p .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The utility function exhibits constant relative risk aversion (CRRA) in consumption and includes an interaction term between household consumption and the number of children to reect consumption being divided among more individuals as the household size increases.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The utility is quadratic in the number of children. The parameters related to preference for children, \u03bb 2 and \u03bb 3 , are allowed to vary with region of residence (r), schooling level (e), polygamy (m), and unobserved type (\u00b5).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The utility function also incorporates a nonpecuniary cost (or benet) associated with being pregnant. This cost includes a stochastic preference shock as well as a deterministic age-dependant element (\u03bb 4,t ). The cost of pregnancy changes if a woman was pregnant in the previous period (\u03bb 5 ). The cost of consecutive births is allowed to change with the age of women (\u03bb 6 ).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "The specication of the model implies perfect control over conception and contraception.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "I could have instead introduced a cost of contraceptives, a probability of conception conditional on not wanting to become pregnant and a probability of not conceiving conditional on trying. Using data on births only, however, I cannot separately identify these elements.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "Instead, these elements will be absorbed into the cost of pregnancy (both deterministic and stochastic) and the preference for children. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "It is assumed that households cannot borrow or save, which implies household consumption (C ) equals the household's income (Y ). The household's income is exogenous and stochastic.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Income and Consumption",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "I specify a parsimonious household income function that is appropriate for the context of subsistence agriculture. I assume that the logarithm of income is distributed as",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Income and Consumption",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "ln (Y (t)) = \u03b8 1 + \u03b8 2 Balaka + \u03b8 3 Mchinji + \u03b8 3 Land High + \u03b8 4 N (t) + \u03b8 5 t + \u03b8 6 t 2 + y (t), y (t) \u223c iidN 0, \u03c3 2 y .",
+            "eq_num": "(1)"
+          }
+        ],
+        "section": "Income and Consumption",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "Income depends on region of residence (Balaka, Mchinji), size of household's land plot (Land High), the age of the woman (t), the number of children (N ), and a time-varying income 10 The majority of respondents in each of the three sites of the MDICP dataset are of dierent tribal groups. The tribes dier in their practices of lineage and residence after marriage which might aect preferences for children.",
+        "cite_spans": [
+          {
+            "start": 181,
+            "end": 183,
+            "text": "10",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Income and Consumption",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "shock ( y ).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Income and Consumption",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "Realization of the income shock occurs after the fertility decision is made. Therefore, pregnancy decisions are based on expected income.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "11",
+        "sec_num": null
+      },
+      {
+        "text": "A woman's perceived exposure to HIV infection is modeled as a hazard process. 12 Let h(t) be the probability a woman assigns to getting infected at period t, conditional on being HIV-negative until then. The perceived hazard rate for period t is given by",
+        "cite_spans": [
+          {
+            "start": 78,
+            "end": 80,
+            "text": "12",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Perceived Infection Hazard",
+        "sec_num": "2.4"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "h(t) = 1 1 + exp (\u2212x(t) \u03b2) ,",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Perceived Infection Hazard",
+        "sec_num": "2.4"
+      },
+      {
+        "text": "where x(t) is a vector containing the woman's characteristics, the duration of her marriage, her age and age squared, and a constant. The parameters related to the constant, age and age squared are allowed to dier for unobserved types.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Perceived Infection Hazard",
+        "sec_num": "2.4"
+      },
+      {
+        "text": "The perceived unconditional probability of getting infected at period t, P (t), is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "P (t) = h(t) t\u22121 k=1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "(1 \u2212 h(k)) .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "(3)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "A woman is assumed to know the mortality processes associated with HIV infection (for both adults and children). Survival to each additional period provides her with information about her HIV status. Specically, she reduces the probability of having gotten infected in each past period. Given these probabilities and the mortality process, the woman assigns probabilities to survival to each future period. The woman also updates expectations about the survival of children of ages zero to three in future periods. Conditional on the probabilities she assigns 11 The Malawi Multiple Indicator Cluster Survey 2006 estimates that 27.5 percent of children aged 5 to 11 are involved in at least one hour of economic work or 28 hours of domestic work per week. A more natural specication of the income function might take into account the ages of the children; however, I do not keep track of the ages of children above age 3 in the state space to reduce computational burden.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survival Expectations",
+        "sec_num": "2.5"
+      },
+      {
+        "text": "12 Perceived and actual exposures to HIV infection are treated as exogenous to women's behavior because there is no variation in self reports of sexual behavior by women in the data. All but very few married women report having sex with their husbands and not having extramarital partners.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survival Expectations",
+        "sec_num": "2.5"
+      },
+      {
+        "text": "13 The detailed specication of the perceived infection hazard function is presented in the appendix.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survival Expectations",
+        "sec_num": "2.5"
+      },
+      {
+        "text": "to having been infected at times of giving birth, she assigns probabilities to the survival of each of her children to future periods.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survival Expectations",
+        "sec_num": "2.5"
+      },
+      {
+        "text": "Women's beliefs are also updated by receiving an HIV test result. MDICP respondents did not anticipate being oered HIV testing, and almost all of the respondents agreed to get tested. Because of these features of the data, I abstract from modeling the decision to get tested. Instead, I treat the HIV testing as an unanticipated revelation of HIV status. I rst present the updating of expectations about life horizon without testing and then proceed to discuss the updating with testing.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survival Expectations",
+        "sec_num": "2.5"
+      },
+      {
+        "text": "Updating probabilities assigned to infection in dierent periods:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "Let I(\u03c4, t) be the probability a woman assigns to getting infected at period \u03c4, conditional on being alive at t. The probability assigned to having gotten infected at a past or present period \u03c4 is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "I (\u03c4, t) =",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "Pr (got infected at \u03c4 & alive at t) Pr (alive at t)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "= P (\u03c4 )S (\u03c4, t) 1 \u2212 t k=1 P (k) (1 \u2212 S(k, t)) , t \u2265 \u03c4,",
+            "eq_num": "(4)"
+          }
+        ],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "where S (\u03c4, t) is the probability a woman who gets infected at period \u03c4 survives to period t. The probability assigned at period t to being HIV-positive is given by the summation of the probabilities assigned to infection happening in all periods up to t:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "B(t) = t k=1 I (k, t) .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "( 5)Probabilities assigned to survival in future periods:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "The probability a woman assigns at time t to being alive at the following period is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u03c0 (t, t + 1) = t k=1 Pr (got infected at k) Pr (alive at t + 1 | got infected at k & alive at t) + Pr (not infected at t) = t k=1 I(k, t) S(k, \u03c4 ) S(k, t) + 1 \u2212 B(t).",
+            "eq_num": "(6)"
+          }
+        ],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "Probabilities assigned to child survival:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "Let S \u2212 c (j) (S + c (j))",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "be the probability that a child born to an HIV negative (positive) woman survives to age j. The probability a woman assigns at period t for a child of age a to survive to the following period depends on the probability she assigns to having been infected at the time of the child's birth and is given by ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "= t\u2212a k=1 I(k, t) S + c (a+1) S + c (a) + 1 \u2212 t\u2212a k=1 I(k, t) S \u2212 c (a+1) S \u2212 c (a) .",
+            "eq_num": "(7"
+          }
+        ],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "t test , denoted asB (t test ), i\u015d B(t test ) = (1 \u2212 p test ) B(t test ) + p test 1 {positive test result} ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "where B(t test ) is the probability assigned at period t test to being HIV-positive without having been tested.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "To compute the subjective life expectancies in periods after t test , it is necessary to recover the post-test probabilities women assign to infection in each period. I deneP (t) to be the post-test update of P (t) (dened in Equation 3). These probabilities can be recovered using the fact that a test result does not provide the woman with any new information about when she might have gotten infected. Let G(\u03c4, t test ) be the probability assigned to having gotten infected at \u03c4, conditional on being HIV-positive at t test . This probability does not change after learning the test result. The after-test probability assigned at t test to having gotten infected in a past period \u03c4 can be written a\u015d",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "I (\u03c4, t test ) = Pr (got infected at \u03c4 | HIV-positive at t) Pr (HIV-positive at t) = G (\u03c4, t test )B (t test ) = I(\u03c4, t) B(t)B (t test ) , \u03c4 = 1, ..., t test .",
+            "eq_num": "(8)"
+          }
+        ],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "In addition, similar to Equation 4, the after-test probability assigned at t test to having gotten infected in a past period \u03c4 is also given b\u0177",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "I (\u03c4, t test ) =P (\u03c4 ) S (\u03c4, t) 1 \u2212 t k=1P (k) (1 \u2212 S(k, t)) , \u03c4 = 1, ..., t test .",
+            "eq_num": "(9)"
+          }
+        ],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "By (8) and (9), I getP",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "(\u03c4 ) S (\u03c4, t) 1 \u2212 t k=1P (k) (1 \u2212 S(k, t)) = I(\u03c4, t) B(t)B (t test ) , \u03c4 = 1, ..., t test .",
+            "eq_num": "(10)"
+          }
+        ],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "I can solve forP (1), ...,P (t test ) by solving the system of t test equations with t test unknowns (the solution of the system of equations is presented in the appendix). The probability assigned to infection at a future period t is given b\u0177",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "P (t) = h(t) t\u22121 k=1 1 \u2212P (k) , t > t test .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "Given the vectorP = P (1), ...,P (T \u2212 1) , the perceived probabilities of infection and survival in periods following the test are constructed as in equations (4) to (7).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Updating Survival Expectations without HIV Testing",
+        "sec_num": "2.5.1"
+      },
+      {
+        "text": "The woman's problem can be formulated as a discrete-choice discrete-time stochastic dynamic program. Let \u2126(t) be the state space at time t, consisting of all of the information relevant to decision-making that the woman has available at that time. Specically, it contains the realized preference shock, the number of living children, ages of young children at risk of dying, whether she was pregnant in the previous period, and her testing history ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "V (\u2126(t), t) = \uf8f1 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f2 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f4 \uf8f3 max V 0 (\u2126(t), t) , V 1 (\u2126(t), t) , t = 1, ..., F \u2212 1 EU 0 (t, \u2126(t)) + \u03b4\u03c0 (t, t + 1) E (V (\u2126(t + 1), t + 1 | p(t) = 0, \u2126(t))) , t = F, ..., T \u2212 1 EU 0 (T, \u2126(T )) , t = T V f (\u2126(t), t) = EU f (t, \u2126(t)) + \u03b4\u03c0 (t, t + 1) E (V (\u2126(t + 1), t + 1 | p(t) = f, \u2126(t))) , f = 0, 1, t = 1, ..., F \u2212 1,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "where U 1 (t, \u2126(t)) represents a utility ow at state \u2126(t) with pregnancy, and U 0 (t, \u2126(t))",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "represents the utility ow without pregnancy. The expectation associated with ow utility is taken over the present income shock. The expectation associated with the next-period value function is taken over future income and preference shocks as well as over child survival.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "V 1 (\u2126(t), t) is strictly increasing in p (t); however, V 0 (\u2126(t), t) is constant in p (t) because the preference shock enters the utility ow only if the woman becomes pregnant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "Let \u2126 d (t)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "be the set of deterministic elements of the state space, that is, the set without p (t). For any",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "\u2126 d (t)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "there is a unique critical value",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "* (\u2126 d (t), t) such that V 1 (\u2126(t), t) = V 0 (\u2126(t), t) .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "The solution to the woman's optimization problem is to become pregnant only if the preference shock is bigger than the corresponding critical value.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model Solution",
+        "sec_num": "2.6"
+      },
+      {
+        "text": "There are several channels through which the presence of the HIV/AIDS epidemic can aect fertility outcomes in the framework presented above. These channels are driven by both actual and perceived exposure to infection. They operate simultaneously and can potentially have opposing inuences on the timing and number of births as well as on the experienced child mortality. In terms of the eect of actual HIV infection, the shorter life-span of women's life-cycle will reduce the number of periods during which they can get pregnant and will therefore have an obvious negative eect on the overall average number of births. The increase in child mortality, on the other hand, can increase fertility through a replacement behavior. If there is a decreasing marginal utility from an additional child, the loss of a child will increase fertility in the periods after the loss.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "HIV/AIDS and Fertility Outcomes",
+        "sec_num": "2.7"
+      },
+      {
+        "text": "The impact of the subjective beliefs on fertility outcomes is even more ambiguous. As described in the previous subsection, a woman compares the expected value of lifetime utility with and without a current pregnancy. With higher likelihood assigned to being infected, a woman assigns less likelihood to her and her child's survival and therefore perceives fewer periods during which she would get utility ows from having the additional child. Given that the non-pecuniary cost of pregnancy is not aected by beliefs about HIV status, this implies that the woman would be less likely to get pregnant if she assigns higher probability to being infected. On the other hand, if a woman has high valuation for children, she might choose to increase her fertility when she assigns some probability to being infected. She would do so in expectation that a larger share of her children will not survive. In addition, even without a change in the total number of births a woman gives, the presence of HIV might change the timing of her pregnancies. A woman might assign no or small likelihood to being infected in the present but decide to give birth at younger ages if she perceives a higher likelihood to being infected in the future. This will depend on her perceived hazard rates throughout the fertile stage of her life-cycle. Rumphi in the north. 15 The dierent rounds of the longitudinal dataset contain extensive information on more than 4,000 men and women, at the individual, household and community levels.",
+        "cite_spans": [
+          {
+            "start": 1344,
+            "end": 1346,
+            "text": "15",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "HIV/AIDS and Fertility Outcomes",
+        "sec_num": "2.7"
+      },
+      {
+        "text": "A unique feature of the MDICP dataset is that it includes measures of subjective likelihoods respondents assign to being HIV-positive. The subjective expectations were collected using an elicitation methodology developed by Delavande and Kohler (2009) for a developing country context with low levels of literacy and numeracy. 16 Respondents were provided with ten beans and a plate. They were asked to allocate dierent number of beans on the plate to express the likelihood that dierent events will be realized. The respondents were instructed that zero beans reect certainty that an event will not happen, more beans reect higher likelihood that an event happens, and that ten beans imply certainty about the event happening. The likelihood assigned to being HIV-positive is measured by asking: Pick the number of beans that reects how likely you think it is that you are infected with HIV/AIDS now. Delavande and Kohler (2009) nd that reported subjective expectations follow basic properties of probabilities and that the assessments of HIV-infection vary meaningfully with observable characteristics associated with dierent levels of HIV prevalence.",
+        "cite_spans": [
+          {
+            "start": 224,
+            "end": 251,
+            "text": "Delavande and Kohler (2009)",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 327,
+            "end": 329,
+            "text": "16",
+            "ref_id": null
+          },
+          {
+            "start": 902,
+            "end": 929,
+            "text": "Delavande and Kohler (2009)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "HIV/AIDS and Fertility Outcomes",
+        "sec_num": "2.7"
+      },
+      {
+        "text": "Since 2004, HIV testing has been oered to all respondents during data collection. The take-up rates of the tests were high, above 90 percent in all waves. The HIV prevalence rate in the sample was 6.9 percent Obare et al. (2009) . In 2004, test results were available ve to seven weeks after testing. The testing component of the survey was linked to an experiment that is described and analyzed by Thornton (2008) . Respondents were assigned vouchers 14 data.worldbank.org 15 Detailed information on the Malawi Diusion and Ideational Change Project can be obtained at http://www.malawi.pop.upenn.edu/.",
+        "cite_spans": [
+          {
+            "start": 209,
+            "end": 228,
+            "text": "Obare et al. (2009)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 399,
+            "end": 414,
+            "text": "Thornton (2008)",
+            "ref_id": "BIBREF23"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "HIV/AIDS and Fertility Outcomes",
+        "sec_num": "2.7"
+      },
+      {
+        "text": "16 Attanasio (2009) and Delavande et al. (2010) review existing subjective expectations data from developing countries. decreases with the number of beans, except for the 5-bean category. Fewer than one percent chose the 10-bean category. Table 3 shows the average number of beans. The overall sample average is 1.52 beans. The average number of beans chosen in each region conforms to the ranking of HIV prevalence in the general MDICP sample. The averages are 1.78 beans in Balaka, 1.69 in Mchinji, and 1.16 in Rumphi. The 2004 HIV prevalence rates for these regions are 7.9 percent in Balaka, 6.4 percent in Mchinji, and 4.4 percent in Rumphi . The table also shows that average beliefs decrease with schooling and are higher for women married to a polygamous husband. Respondents were asked to list all of the children ever born to them, but year of birth is missing for children who died more than two years before the interview. I therefore use only birth outcomes reported for the years 2004 to 2007. Depending on the year of marriage, year of birth, and the rounds in which the woman participated, I observe between 1 and 4 potential fertility years for women of ages 16 to 45. In total, I observe 3,148 years of potential fertility with births in 920 of them (29.2 percent). Table 4 shows the annual birth probabilities of married women by 5-year age groups. The annual birth probabilities decrease from 0.405 for ages 16 to 20 to 0.06 for ages 41 to 45. ",
+        "cite_spans": [
+          {
+            "start": 3,
+            "end": 19,
+            "text": "Attanasio (2009)",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 24,
+            "end": 47,
+            "text": "Delavande et al. (2010)",
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 239,
+            "end": 246,
+            "text": "Table 3",
+            "ref_id": "TABREF8"
+          },
+          {
+            "start": 646,
+            "end": 662,
+            "text": ". The table also",
+            "ref_id": null
+          },
+          {
+            "start": 1284,
+            "end": 1291,
+            "text": "Table 4",
+            "ref_id": "TABREF9"
+          }
+        ],
+        "eq_spans": [],
+        "section": "HIV/AIDS and Fertility Outcomes",
+        "sec_num": "2.7"
+      },
+      {
+        "text": "I supplement the use of the MDICP data with statistics about survival after infection and child mortality from other studies that use data from samples with repeated HIV testing and frequent follow-ups. These data provide more precise information on times of infection and death than MDICP does. Hallett et al. (2008) estimate probabilities of survival after infection by tting a Weibull distribution to survival data presented by Todd et al. (2007) 17 The annual birth probability is dened as the proportion of alive and married women of specic age that give birth. 18 Detailed information on the Malawi Second Integrated Household Survey can be obtained from the World Bank's website at http://econ.worldbank.org.",
+        "cite_spans": [
+          {
+            "start": 296,
+            "end": 317,
+            "text": "Hallett et al. (2008)",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 431,
+            "end": 449,
+            "text": "Todd et al. (2007)",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 567,
+            "end": 569,
+            "text": "18",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Mortality Statistics",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "from 5 studies in Eastern and Southern Africa before highly active antiviral therapy. The probability of survival to year t conditional on getting infected at year \u03c4 is estimated as",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Mortality Statistics",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "S (\u03c4, t) = exp \u2212 t \u2212 \u03c4 \u03c8 \u03c4 2 ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Mortality Statistics",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "with \u03c8 \u03c4 reducing with age of infection. (Parameter estimates and median survival time are presented in Table 5 .) The mortality hazard increases with both duration and age of infection. The median survival time of an individual infected at ages 15 to 19 is 13.3 years, while it is 8.4 years for an individual who gets infected at ages 40 to 44.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 104,
+            "end": 111,
+            "text": "Table 5",
+            "ref_id": "TABREF10"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Mortality Statistics",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "Data from dierent longitudinal studies with repeated assessments of HIV status of adults show higher mortality rates of children born to infected women. In these studies, the HIV status of the children was generally not available. Controlling for dierent background characteristics, mortality rates of children born to HIV-infected mothers were estimated to be about three times higher than those for children born to uninfected mothers, with the eect lasting throughout childhood years (Newell et al., 2004) . Crampin et al. (2003) report child mortality rates by status of mother at birth from a retrospective cohort study with more than 10 years of follow-up in Karonga district in Northern Malawi. The rates are reported in Table 6 .",
+        "cite_spans": [
+          {
+            "start": 487,
+            "end": 508,
+            "text": "(Newell et al., 2004)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 511,
+            "end": 532,
+            "text": "Crampin et al. (2003)",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 728,
+            "end": 735,
+            "text": "Table 6",
+            "ref_id": "TABREF11"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Mortality Statistics",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "The main estimation sample contains data on 1006 women from the MDICP dataset. The information on the ith woman consists of up to 4 years of pregnancy choices p i (t), t = t pi , ..., t pi , (3) actual HIV status and survival; and (4) unobserved type probabilities. I proceed by describing the contribution of each of these elements to the likelihood.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation",
+        "sec_num": "4"
+      },
+      {
+        "text": "The perceived infection hazard is estimated using the data on subjective assessments of HIV-status. Let B i (t) be woman i's perceived probability of being HIV-positive at period t and b i (t) be the number of beans she allocates to being HIV-infected in the expectations elicitation exercise. I make the following two assumptions regarding the relationship between a woman's belief and the recorded number of beans. First, I assume that beliefs are reported with some noise. Specically, the reporting error, bi (t), is assumed to be iid across time and women:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Beliefs",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "bi (t) \u223c iidN (0, \u03c3 b ) .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Beliefs",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "Second, I assume that each discrete bean category corresponds to a probability interval.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Beliefs",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "A respondent reports the number of beans corresponding to the interval in which her belief added to the reporting error falls. The reports are assumed to be made according to the 19 As in Delavande and Kohler (2009) following rule:",
+        "cite_spans": [
+          {
+            "start": 179,
+            "end": 181,
+            "text": "19",
+            "ref_id": null
+          },
+          {
+            "start": 188,
+            "end": 215,
+            "text": "Delavande and Kohler (2009)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "19",
+        "sec_num": null
+      },
+      {
+        "text": "20 b i (t) = 0, 1 if B i (t) + bi (t) \u2264 0.15, b i (t) = 2 if 0.15 < B i (t) + bi (t) \u2264 0.25, . . . b i (t) = 10 if 0.95 < B i (t) + bi (t).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "19",
+        "sec_num": null
+      },
+      {
+        "text": "Let \u2126 d i be the set of initial conditions for woman i. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "19",
+        "sec_num": null
+      },
+      {
+        "text": "(t) = 0, 1 | \u2126 d i , type i = j = \u03a6 0.15\u2212B(t | \u2126 d i , type i =j) \u03c3 b , Pr b i (t) = 2 | \u2126 d i , type i = j = \u03a6 0.25\u2212B(t | \u2126 d i , type i =j) \u03c3 b \u2212 \u03a6 0.15\u2212B(t | \u2126 d i , type i =j) \u03c3 b , . . . Pr b i (t) = 10 | \u2126 d i , type i = j = 1 \u2212 \u03a6 0.95\u2212B(t | \u2126 d i , type i =j) \u03c3 b ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "19",
+        "sec_num": null
+      },
+      {
+        "text": "where \u03a6 is the cumulative distribution function of the the standard normal distribution.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "19",
+        "sec_num": null
+      },
+      {
+        "text": "As shown in Figure 1 , the percentage of women reporting each bean category generally decreases with the number of beans. The percentage of women who report ve beans, 8.78 percent , is higher than the two categories below (3.41 percent report four beans and 6.52 20 Figure 3 shows the distributions of reported beliefs in the 2006 and 2008 rounds. There is a big drop in the percentage of women choosing the 0-bean category and the number of women who choose the 1-bean category doubles. My model would not be able to generate this shift. For my empirical analysis, I treat the 0 and 1-bean categories as a single category. percent report three) and is also signicantly higher than the next category (1.59 percent report six). My model is not likely to capture this pattern. I therefore assume that the probability interval corresponding to the ve bean category is larger, implying that some of the women who would allocate 4 or 6 beans to the likelihood of being HIV-positive under the rule described above, report instead 5 beans. The probability of observing 5 beans is assumed to be",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 12,
+            "end": 20,
+            "text": "Figure 1",
+            "ref_id": "FIGREF5"
+          },
+          {
+            "start": 266,
+            "end": 274,
+            "text": "Figure 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "19",
+        "sec_num": null
+      },
+      {
+        "text": "Pr b(t) = 5 | \u2126 d i , \u00b5 i = j = \u03a6 \uf8eb \uf8ed 0.65 \u2212 B t | \u2126 d i , type i = j \u03c3 b \uf8f6 \uf8f8 \u2212 \u03a6 \uf8eb \uf8ed 0.35 \u2212 B t | \u2126 d i , type i = j \u03c3 b \uf8f6 \uf8f8 .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "19",
+        "sec_num": null
+      },
+      {
+        "text": "The parameters of the utility function are estimated using the data on pregnancy outcomes. As described in Section 3.6, the solution to a woman's optimization problem is to become pregnant at period t if the preference shock, pi (t), is bigger than the critical",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fertility",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "value * (\u2126 d i (t), t, type i ).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fertility",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Conditional on the woman's type and the observable elements of the woman's state space at time t, the probability of the woman's choice to become pregnant is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fertility",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Pr p i (t) = 1 | \u2126 d i (t), type i = j = 1 \u2212 \u03a6 * (\u2126 d i (t), t, type i ) \u03c3p , Pr p i (t) = 0 | \u2126 d i (t), type i = j = \u03a6 * (\u2126 d i (t), t, type i ) \u03c3p .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fertility",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Conditional on the set of initial conditions and the unobserved type, the probability of observing a sequence of belief reports is independent from the probability of observing a sequence of fertility outcomes. This is because the set of initial conditions and type map deterministically into the sequence of life-cycle beliefs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Fertility",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Given the assumption of no symptoms, the state space does not contain actual HIV status beyond any HIV test results that women have received. It is therefore not necessary to recover the actual hazard process for estimation of the decision-model parameters. For each possible state, the estimated model generates a probability of becoming pregnant conditional on being alive at that state. I do need an estimate of the actual hazard process for my counterfactual analysis, however. To study the eect of dierent policy interventions on outcomes of lifecycle fertility and child mortality, I include the infection and mortality processes in the simulations.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Actual Infection Process",
+        "sec_num": "4.3"
+      },
+      {
+        "text": "I assume an actual HIV infection hazard rate with a functional form similar to that of the perceived infection hazard described in equation 2. Information about the hazard process is contained in the HIV test results, the age in which the tests were taken, and the ages in which a woman is last observed (regardless of testing histories). I dene H i to be a vector of a woman i's testing and survival information: the oldest age in which she had a negative test result (if ever), the earliest age at which she received a positive test result (if ever), and the latest age in which she is observed in the data. The probability of observing a woman with testing survival history H i , conditional on her type and observable elements of her initial state is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Actual Infection Process",
+        "sec_num": "4.3"
+      },
+      {
+        "text": "Pr H i | \u2126 d i , type i = j .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Actual Infection Process",
+        "sec_num": "4.3"
+      },
+      {
+        "text": "I present the details of how this probability is computed in the appendix.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Actual Infection Process",
+        "sec_num": "4.3"
+      },
+      {
+        "text": "A multinomial logit specication is used for the type probabilities. The probability that woman i is of type j is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Type Distribution",
+        "sec_num": "4.4"
+      },
+      {
+        "text": "Pr type i = j | \u2126 d i = exp(w ti \u03b3j ) 1+ J k=1 exp(w ti \u03b3 k )",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Type Distribution",
+        "sec_num": "4.4"
+      },
+      {
+        "text": ", j = 1, ..., J,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Type Distribution",
+        "sec_num": "4.4"
+      },
+      {
+        "text": "Pr",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Type Distribution",
+        "sec_num": "4.4"
+      },
+      {
+        "text": "type i = 0 | \u2126 d i = 1 1+ J k=1 exp(w ti \u03b3 k ) ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Type Distribution",
+        "sec_num": "4.4"
+      },
+      {
+        "text": "where w ti is a vector of woman's initial conditions, including region of residence, schooling level, age of marriage, whether she is married to a polygamous husband, year of birth, and the number of children she had in the rst period observed interacted with the age she was when rst observed. The last term is included to take into account the fact that not all the women are observed from the time of their marriage. The state in which they are rst observed depends on past decisions and therefore on their unobserved type.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Type Distribution",
+        "sec_num": "4.4"
+      },
+      {
+        "text": "The contribution of woman i to the sample likelihood is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Likelihood Function",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "L i = J j=0 \uf8eb \uf8ed tp t=tp Pr p i (t) | \u2126 d i (t), type i = j \uf8f6 \uf8f8 \uf8eb \uf8ed t b t=t b Pr b i (t) | \u2126 d i , type i = j \uf8f6 \uf8f8 \u00d7 Pr H i | \u2126 d i , type i = j Pr type = j | \u2126 d i .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Likelihood Function",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "5 Estimation Results",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Likelihood Function",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "The model is t with four unobserved types. 21 Recall that the types can dier with respect to their preferences for children, the assigned probabilities to the accuracy of HIV test results, and the perceived and actual exposure to HIV infection. The four types have distinctively dierent beliefs and characteristics. As seen in On average, women of that group assign probabilities of 0.59 and 0.69 to being infected when 21 There were signicant improvements in model t beyond three types. I did not attempt to t the model with more types because of computational burden. they are 20 and 40 years old respectively. Type 3 women are the biggest group, representing 47 percent of the sample.",
+        "cite_spans": [
+          {
+            "start": 43,
+            "end": 45,
+            "text": "21",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Parameter Estimates",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "Tables 7 to 11 report the parameter estimates and their standard errors. As can be seen in Table 7 , the marginal utilities of additional children are positive for the rst child and are decreasing with the stock of surviving children for all women. However, the prole of these marginal utilities varies with region of residence, schooling level, polygamy status and unobserved type. Relative to women with lower levels of education, women who attended secondary school have the highest marginal utility for the rst child but the marginal utility declines at the fastest rate with the number of children. The same is true for women from Rumphi district relative to women from the other two districts and for type 1 women relative to the other types.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 91,
+            "end": 98,
+            "text": "Table 7",
+            "ref_id": "TABREF12"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Parameter Estimates",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "The childbearing costs, which are assumed to depend only on a woman's age, are estimated to be positive and increasing with age. The cost for the youngest age group (less than 20 years) is 25 percent of that for women of ages 20 to 24 and only about one percent of the cost for women of ages 40 to 44. The cost of consecutive pregnancies, on the other hand, is estimated to be decreasing with age.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Parameter Estimates",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "To assess model t, I compare the model's prediction of the distributions of reported beliefs and pregnancy probabilities to the distributions of actual beliefs and pregnancies observed in the data. I simulate each observed woman 100 times. The simulation starts from the age a woman is rst observed and takes as given the observable elements of the state space (her constant characteristics, pregnancy in previous period, and the number and ages of children younger than four years). For each simulation, I draw an unobservable type from the type distribution and preferences shocks. Table 13 compare the fertility and belief reporting outcomes predicted by the model to the actual outcomes observed in the data. Figure 4 shows that the model is able to generate the shape of the reported beliefs distribution. It under-predicts the proportion of women in the lowest bean category by about 4 percentage points and overpredicts the proportions in the 2 and 3-bean categories. As described in section 4, I assume that some of the respondents round and report ve beans instead of four and six. 13.8 percent of belief reports in the data are of the four to six-bean categories; the model predicts 13.6 percent. Table 13 shows the actual and predicted annual pregnancy probabilities by region, schooling level, and polygamy status of the husband.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 584,
+            "end": 592,
+            "text": "Table 13",
+            "ref_id": "TABREF6"
+          },
+          {
+            "start": 713,
+            "end": 721,
+            "text": "Figure 4",
+            "ref_id": "FIGREF15"
+          },
+          {
+            "start": 1207,
+            "end": 1215,
+            "text": "Table 13",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Model Fit",
+        "sec_num": "5.2"
+      },
+      {
+        "text": "Having estimated the structural model parameters, I use the model to perform counterfactual experiments to quantify the eect of the HIV/AIDS epidemic on fertility outcomes in the given environment and to evaluate the impacts of dierent policy interventions. I do so by simulating the women's life-cycle fertility decisions in dierent environments. As with the previous simulations, performed to assess goodness of t, each woman is simulated 100 times.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual Analysis",
+        "sec_num": "6"
+      },
+      {
+        "text": "However, in the counterfactual simulations I also incorporate infection and mortality. That is, women are exposed to HIV infection according to the estimated actual infection hazard process, and, once infected, they are exposed to the mortality process. Survival probabilities of children of ages zero to three depend on the HIV status of the mother at time of birth according to the rates in Table 6 .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 393,
+            "end": 400,
+            "text": "Table 6",
+            "ref_id": "TABREF11"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Counterfactual Analysis",
+        "sec_num": "6"
+      },
+      {
+        "text": "For the counterfactual simulations, I use a younger subsample of the 509 women who were born after 1978. I exclude the older women to have the composition of the sample, in terms of characteristics and types, minimally aected by survival to the time in which women are rst observed. The characteristics of the sample used in the counterfactuals is presented in Table 14 . I dene the baseline environment to be with the levels of perceived and actual hazards of infection estimated by the model, but without any HIV tests. Results of the baseline environment simulation are presented in Panel A of Table15. The table includes the average beliefs and infection rates at dierent points of the women's life-cycle, number of life-cycle births as well as the average number of child mortality experienced by a woman.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 361,
+            "end": 369,
+            "text": "Table 14",
+            "ref_id": "TABREF6"
+          },
+          {
+            "start": 597,
+            "end": 624,
+            "text": "Table15. The table includes",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Counterfactual Analysis",
+        "sec_num": "6"
+      },
+      {
+        "text": "The results are shown for the full sample as well as by type.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual Analysis",
+        "sec_num": "6"
+      },
+      {
+        "text": "To assess how fertility outcomes would have been dierent were there no HIV, I simulate fertility in an environment with no HIV (and no beliefs about HIV). These results are presented in Panel B of Table 15 . Comparison of fertility outcomes in the two environments indicates that HIV has a negative average eect on fertility for the given group of women.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 197,
+            "end": 205,
+            "text": "Table 15",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Counterfactual Analysis",
+        "sec_num": "6"
+      },
+      {
+        "text": "The average number of births during a woman's life in the no-HIV environment is 7.22 in comparison to 7.07 in the baseline environment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual Analysis",
+        "sec_num": "6"
+      },
+      {
+        "text": "Although the total amount of births is lower in the baseline environment, the total incidents of child mortality is higher by seven percent as the percentage of children not surviving to age beyond age 4 increases to 17.5 percent from 15.8 percent in the presence of HIV.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "Eighty-ve percent of the women will experience the same number of births in both environments, three percent will have higher fertility in the HIV environment and twelve percent will experience fewer pregnancies. The women who have higher fertility in the presence of HIV are of two groups. The rst group includes women who are infected with HIV but assign relatively low probability to being infected. They respond to experienced child mortality (due to mother to child transmission) by having additional pregnancies. The second group is of women who have high valuation of children and would increase fertility early in their life-cycle in anticipation that some of their children might die. However, the overall average reduction in fertility in the presence of HIV is largely due to the shorter life-span of women infected with HIV as well as women that choose to reduce fertility as 22 The life-cycle number of births is higher than the national total fertility rate estimated at 6 pregnancies per woman because fertility rates are higher in rural areas of Malawi. they assign lower probabilities to their own as well as their children survival in the future.",
+        "cite_spans": [
+          {
+            "start": 888,
+            "end": 890,
+            "text": "22",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "There is heterogeneity in the eect of HIV on fertility by women's characteristics. The average dierence for type 0 women is only 0.03. Because they do not assign any likelihood to being infected, it is completely due to the increase in mother and child mortality by infected women. Type 1s experience an average of 0.17 fewer pregnancies in the presence of HIV although this group has the highest share of women (8 percent) who actually increase fertility in that environment. Type 3s are the most aected, with a dierence of 0.2 pregnancies.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "Women from Balaka, with the highest HIV prevalence and highest average likelihood women assign to being infected, will have on average 0.31 more births in the no-HIV environment while women from Mchinji and Rumphi will have on average 0.08 and 0.1 more births respectively.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "The fertility outcomes are aected by perceived as well as actual exposure to HIV. As expected, the dierence in the number of births in the two environments depends not only on whether a woman got infected during the fertile stage of her life cycle but also on when in the life cycle she got infected. Women who got infected by age 25 (5.1 percent of the sample) experience 1.57 less births in the baseline environment relative to the no-HIV environment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "Women who got infected by age 45 (11.6 percent of the sample) experience a reduction of 0.84 births and women who did not get infected by the end of their fertile stage, experience an average dierence of 0.06 births.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "To separate the eect of women's shorter life-span on the number of births from the other channels through which HIV can aect fertility (child mortality and survival expectations), I count pregnancies in the no-HIV environment which occurred only in periods in which women would have been alive in the baseline environment. This brings the average number of births down to 7.1, only 0.03 higher than the number in the baseline environment. During these periods, women of types 0 and 1 experience fewer births in the no-HIV environment, by 0.01 and 0.08 respectively. Type 2s and 3s experience more births. Type 2s, who have the highest beliefs about being infected, experience on average 0.19 more births and Type 3s, the largest group in the sample, experience 0.1 more births. Regardless of whether women decrease or increase the number of births in the presence of HIV, most of the divergence in fertility rates happens in the second half of the women's fertile stage of the life-cycle. This is because older women assign higher likelihood to being infected, they are more likely to actually be infected, and the marginal utility from additional child reduces with the number of children.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "In Panel C of Table 15 I present results from a simulation of an environment in which there is no mother-to-child transmission. This simulation can be thought of as an assessment of the potential eect of provision of antiviral treatment that prevents such transmission.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 14,
+            "end": 22,
+            "text": "Table 15",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "22",
+        "sec_num": null
+      },
+      {
+        "text": "In the simulation, child mortality probabilities of children born to HIV-infected women are equated to those of children born to HIV-negative women. The average number of life-cycle births in this environment is 7.05, a slight dierence from the 7.07 births experienced in the baseline environment. Although the reduction in expected and experienced child mortality, less than one percent of women will change the number of births they give.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "23",
+        "sec_num": null
+      },
+      {
+        "text": "To study the impact of HIV testing on fertility outcomes, I simulate life-cycle fertility in counterfactual scenarios in which the respondents are oered a single test in dierent points in their life cycle: at the time of their marriage (age 17 on average), age 25 and age 35. The impact of testing on outcomes depends on how women update their beliefs after learning their test result. This updating depends on the discrepancy between the beliefs and actual HIV status and on the accuracy women assign to test results. The extent to which testing will aect outcomes is expected to be limited given the estimated low probabilities most women assign to the accuracy of test results (presented in Table10). In addition, the impact of testing also depends on the extent to which the updated beliefs alter the relative valuation of women's choices. This can vary with age and the number of children a woman has as life horizon shortens and marginal utility from additional children reduced. It is also important to keep in mind that while the test result gives information about one's status 23 In high-income countries, the rate of mother-to-child transmission has been reduced to less than one percent (unaids.org) . Hallett et al. (2008) ",
+        "cite_spans": [
+          {
+            "start": 1087,
+            "end": 1089,
+            "text": "23",
+            "ref_id": null
+          },
+          {
+            "start": 1199,
+            "end": 1211,
+            "text": "(unaids.org)",
+            "ref_id": null
+          },
+          {
+            "start": 1214,
+            "end": 1235,
+            "text": "Hallett et al. (2008)",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "23",
+        "sec_num": null
+      },
+      {
+        "text": "The perceived probability of getting infected at period t, conditional on not getting infected before is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "h(t) = 1 1 + exp (\u2212x(t) \u03b2)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": ",",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "where",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "x (t) \u03b2 = \u03b2 1 + \u03b2 2,\u00b5 t + \u03b2 3,\u00b5 t 2 + \u03b2 4 Marriage Duration + \u03b2 5 Primary +\u03b2 6 Secondary + \u03b2 7 Land High + \u03b2 8 Poly + \u03b2 9 Balaka + \u03b2 10 Rumphi.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "The parameters related to age and age squared are allowed to vary with unobserved type (\u00b5). As described in section 4.3, the same specication is used for the actual infection hazard process, with h replaced byh and \u03b2 replaced by\u03b2. Leth(t) be the actual HIV infection hazard rate. The functional form is assumed to be similar to that of the perceived infection hazard described in equation 2. The probability of getting infected at t, conditional on being HIV-negative until then, is given b\u1ef9",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "h(t) = 1 1 + exp \u2212x(t) \u03b2 .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "The unconditional probability of getting infected at period t is given b\u1ef9",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "P (t) =h(t) t\u22121 k=1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "1 \u2212h(k) .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "Information about the hazard process is contained in the HIV test results, the age in which the tests were taken, and the ages in which a woman is last observed (regardless of testing histories). Let t i represent the age in which a woman is last observed (and is therefore known to be alive at that age). Let t \u2212 i be the oldest age in which a woman is observed to get a negative test result. Let t + i be the youngest age a woman is observed to receive a positive test result. Let H i = t \u2212 i , t + i , t i be the vector of observed HIV history of woman i, with t \u2212 i (t + i ) equaling zero if a woman is never tested negative (positive). Women's HIV histories belong to one of the following 4 categories:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "1. Never tested:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "The probability of observing a woman who was never tested alive at t i , conditional on her initial conditions and unobserved type, is given by Pr H i = 0, 0, t | \u2126 d i , type i = j = Pr alive at t = 1 \u2212",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "t i k=1P k | \u2126 d i , type i = j 1 \u2212 S(k, t i ) .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "2. Tested only negative:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "The probability of observing a woman who was only tested negative and is alive at t i , conditional on her initial conditions and unobserved type, is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "Pr H i = t \u2212 , 0, t | \u2126 d i , type i = j = Pr negative at t \u2212 , alive at t",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "= t \u2212 k=1 1 \u2212h(k) 1 \u2212 t k=t \u2212 +1h k | \u2126 d i , type i = j k j=t \u2212 +1 1 \u2212h j | \u2126 d i , type i = j 1 \u2212 S k, t = t \u2212 k=1 1 \u2212h(k) \u2212 t k=t \u2212 +1P k | \u2126 d i , type i = j 1 \u2212 S k, t .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.4)",
+        "sec_num": null
+      },
+      {
+        "text": "The probability of observing a woman who if infected by t + and alive at t, conditional on her initial conditions and unobserved type, is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Tested only positive:",
+        "sec_num": "3."
+      },
+      {
+        "text": "Pr H i = 0, t + , t | \u2126 d i , type i = j = Pr got infected before t + , alive at t = t + k=1P k | \u2126 d i , type i = j S k, t .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Tested only positive:",
+        "sec_num": "3."
+      },
+      {
+        "text": "The probability of observing a woman who is known to be HIV-negative until t \u2212 , positive by t + , and alive at t t \u2212 < t + \u2264 t , conditional on her initial conditions and unobserved type, is given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Seroconverter:",
+        "sec_num": "4."
+      },
+      {
+        "text": "Pr H i = t \u2212 , t + , t | \u2126 d i , type i = j = Pr got infected between t \u2212 and t + , alive at t = t + k=t \u2212P k | \u2126 d i , type i = j S k, t .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Seroconverter:",
+        "sec_num": "4."
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Migration, risk perception, and HIV infection in Malawi",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Anglewicz",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Anglewicz, P., Migration, risk perception, and HIV infection in Malawi, Ph.D. thesis, University of Pennsylvania (2007).",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Overestimating HIV infection: The construction and accuracy of subjective probabilities of HIV infection in rural Malawi",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Anglewicz",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Kohler",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Demographic research",
+        "volume": "20",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Anglewicz, P. and H. Kohler, Overestimating HIV infection: The construction and ac- curacy of subjective probabilities of HIV infection in rural Malawi, Demographic research 20 (2009), 65.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Expectations and perceptions in developing countries: their measurement and their use",
+        "authors": [
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Attanasio",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "The American Economic Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Attanasio, O., Expectations and perceptions in developing countries: their measurement and their use, The American Economic Review (2009), 8792.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "The long-term impact of HIV and orphanhood on the mortality and physical well-being of children in rural Malawi",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Crampin",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Floyd",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Glynn",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Madise",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Nyondo",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Khondowe",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Njoka",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Kanyongoloka",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Ngwira",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Zaba",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Aids",
+        "volume": "17",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Crampin, A., S. Floyd, J. Glynn, N. Madise, A. Nyondo, M. Khondowe, C. Njoka, H. Kanyongoloka, B. Ngwira, B. Zaba et al., The long-term im- pact of HIV and orphanhood on the mortality and physical well-being of children in rural Malawi, Aids 17 (2003), 389.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Measuring subjective expectations in developing countries: a critical review and new evidence",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Delavande",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Gin\u00e9",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Mckenzie",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Journal of Development Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Delavande, A., X. Gin\u00e9 and D. McKenzie, Measuring subjective expectations in devel- oping countries: a critical review and new evidence, Journal of Development Economics (2010).",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Subjective Expectations in the Context of HIV/AIDS in Malawi",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Delavande",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Kohler",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Demographic research",
+        "volume": "20",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Delavande, A. and H. Kohler, Subjective Expectations in the Context of HIV/AIDS in Malawi, Demographic research 20 (2009), 817.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Uncovering the impact of the HIV epidemic on fertility in Sub-Saharan Africa: the case of Malawi",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Durevall",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Lindskog",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Journal of Population Economics",
+        "volume": "24",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Durevall, D. and A. Lindskog, Uncovering the impact of the HIV epidemic on fertility in Sub-Saharan Africa: the case of Malawi, Journal of Population Economics 24 (2011), 629655.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "HIV Does Matter for Fertility: Human Capital, Mortality and Family Size",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Fink",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Linnemayr",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fink, G. and S. Linnemayr, HIV Does Matter for Fertility: Human Capital, Mortality and Family Size, Harvard Public School of Health, mimeo (2009).",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "HIV/AIDS and fertility",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Fortson",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "American Economic Journal: Applied Economics",
+        "volume": "1",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fortson, J., HIV/AIDS and fertility, American Economic Journal: Applied Economics 1 (2009), 17094.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Probability of HIV-1 transmission per coital act in monogamous, heterosexual, HIV-1-discordant couples in Rakai",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Wabwire-Mangen",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Lutalo",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Li",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Vancott",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Quinn",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "The Lancet",
+        "volume": "357",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "F. Wabwire-Mangen, T. Lutalo, X. Li, T. vancott and T. Quinn, Probabil- ity of HIV-1 transmission per coital act in monogamous, heterosexual, HIV-1-discordant couples in Rakai, Uganda, The Lancet 357 (2001), 11491153.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Estimating incidence from prevalence in generalised HIV epidemics: methods and validation",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Hallett",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Zaba",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Todd",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Lopman",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Mwita",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Biraro",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Gregson",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Boerma",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "PLoS Medicine",
+        "volume": "5",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hallett, T., B. Zaba, J. Todd, B. Lopman, W. Mwita, S. Biraro, S. Gregson and J. Boerma, Estimating incidence from prevalence in generalised HIV epidemics: methods and validation, PLoS Medicine 5 (2008), e80.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Estimation of a Stochastic Model of Reproduction: An Econometric Approach",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Heckman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Willis",
+            "suffix": ""
+          }
+        ],
+        "year": 1974,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Heckman, J. and R. Willis, Estimation of a Stochastic Model of Reproduction: An Econometric Approach, (1974).",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "The economics of fertility in developed countries, Handbook of population and family economics",
+        "authors": [
+          {
+            "first": "Joseph",
+            "middle": [],
+            "last": "Hotz",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Klerman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Willis",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "",
+        "volume": "1",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Joseph Hotz, V., J. Klerman and R. Willis, The economics of fertility in developed countries, Handbook of population and family economics 1 (1997), 275347.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "HIV and fertility in Africa: First evidence from population based surveys",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Juhn",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Kalemli-Ozcan",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Turan",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Juhn, C., S. Kalemli-Ozcan and B. Turan, HIV and fertility in Africa: First evidence from population based surveys, (2008).",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Reversal\" of the Demographic Transition and Economic Development",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Kalemli-Ozcan",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Aids",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kalemli-Ozcan, S., AIDS,\" Reversal\" of the Demographic Transition and Economic De- velopment: Evidence from Africa, (2006).",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "HIV-1 infection in rural Africa: is there a dierence in median time to AIDS and survival compared with that in industrialized countries?",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Morgan",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Mahe",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Mayanja",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Okongo",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Lubega",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Whitworth",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Aids",
+        "volume": "16",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Morgan, D., C. Mahe, B. Mayanja, J. Okongo, R. Lubega and J. Whitworth, HIV-1 infection in rural Africa: is there a dierence in median time to AIDS and survival compared with that in industrialized countries?, Aids 16 (2002), 597.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Child mortality and HIV infection in Africa: a review",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Newell",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Brahmbhatt",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Ghys",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Aids",
+        "volume": "18",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Newell, M., H. Brahmbhatt and P. Ghys, Child mortality and HIV infection in Africa: a review, Aids 18 (2004), S27.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Acceptance of repeat populationbased voluntary counselling and testing for HIV in rural Malawi",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Obare",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Fleming",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Anglewicz",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Thornton",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Martinson",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Kapatuka",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Poulin",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Watkins",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Kohler",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Sexually transmitted infections",
+        "volume": "85",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Obare, F., P. Fleming, P. Anglewicz, R. Thornton, F. Martinson, A. Kap- atuka, M. Poulin, S. Watkins and H. Kohler, Acceptance of repeat population- based voluntary counselling and testing for HIV in rural Malawi, Sexually transmitted infections 85 (2009), 139.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Rethinking the heterosexual infectivity of HIV-1: a systematic review and meta-analysis, The Lancet infectious diseases",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Powers",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Poole",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Pettifor",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Cohen",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "",
+        "volume": "8",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Powers, K., C. Poole, A. Pettifor and M. Cohen, Rethinking the heterosexual in- fectivity of HIV-1: a systematic review and meta-analysis, The Lancet infectious diseases 8 (2008), 553563.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "The eects of child mortality changes on fertility choice and parental welfare",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Sah",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "Journal of Political Economy",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sah, R., The eects of child mortality changes on fertility choice and parental welfare, Journal of Political Economy (1991), 582606.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Demand for children in low income countries, Handbook of population and family economics",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Schultz",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "",
+        "volume": "1",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schultz, T., Demand for children in low income countries, Handbook of population and family economics 1 (1997), 349430.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "The demand for, and impact of, learning HIV status",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Thornton",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "The American economic review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Thornton, R., The demand for, and impact of, learning HIV status, The American economic review (2008), 18291863.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Time from HIV seroconversion to death: a collaborative analysis of eight studies in six low and middle-income countries before highly active antiretroviral therapy",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Todd",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Glynn",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Marston",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Lutalo",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Biraro",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Mwita",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Suriyanon",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Rangsin",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Nelson",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Sonnenberg",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Aids",
+        "volume": "21",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Todd, J., J. Glynn, M. Marston, T. Lutalo, S. Biraro, W. Mwita, V. Suriyanon, R. Rangsin, K. Nelson, P. Sonnenberg et al., Time from HIV seroconversion to death: a collaborative analysis of eight studies in six low and middle-income countries before highly active antiretroviral therapy, Aids 21 (2007), S55.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Determinants and Consequences of the Mortality and Health of Infants and Children, Handbook of population and family economics",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Wolpin",
+            "suffix": ""
+          }
+        ],
+        "year": 1984,
+        "venue": "The Journal of Political Economy",
+        "volume": "1",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Wolpin, K., An estimable dynamic stochastic model of fertility and child mortality, The Journal of Political Economy (1984), 852874. , Determinants and Consequences of the Mortality and Health of Infants and Chil- dren, Handbook of population and family economics 1 (1997), 483557.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "The Gift of the Dying: The Tragedy of AIDS and the Welfare of Future African Generations*",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Young",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "283327. The solution to the system of equations is given by: P (\u03c4 ) = Num(\u03c4 ) Den(\u03c4 )",
+        "volume": "120",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Young, A., The Gift of the Dying: The Tragedy of AIDS and the Welfare of Future African Generations*, Quarterly Journal of Economics 120 (2005), 423466. , In sorrow to bring forth children: fertility amidst the plague of HIV, Journal of economic growth 12 (2007), 283327. The solution to the system of equations is given by: P (\u03c4 ) = Num(\u03c4 ) Den(\u03c4 ) , \u03c4 = 1, ..., t test \u2212 1",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "P (t test ) = \u03c8 (t test , t test ) 1 \u2212 ttest\u22121 k=1P (k) (1 \u2212 S (k, t test )) , \u03c4 \u2265 t test",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "P (t test ) = \u03c8 (t test , t test ) 1 \u2212 ttest\u22121 k=1P (k) (1 \u2212 S (k, t test )) , \u03c4 \u2265 t test",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "There are many policy interventions aimed at reducing HIV in Malawi and other Sub-Saharan African countries. These include HIV testing programs, information campaigns, and antiviral distribution programs. Evaluating the eects of such policies on outcomes such as number of births, child mortality, and orphan-hood requires an understanding of how women's fertility decisions are aected by the presence of HIV.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF1": {
+        "text": "uses a similar modeling framework and extends it by introducing heterogeneity in infant mortality risk across mothers. Parents in his model learn about a family-specic component of infant mortality risk throughout their life-cycle.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF2": {
+        "text": "choices are inuenced by how the parents adapt to the information received from infant survival and mortality.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF3": {
+        "text": "t + 1) = Pr(mother was HIV-positive at birth) \u00d7 Pr (child alive at t + 1 | mother was HIV-pos at birth & child alive at t) + Pr(mother was HIV-negative at birth) \u00d7 Pr (child alive at t + 1 | mother was HIV-neg at birth & child alive at t)",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF4": {
+        "text": "for a monetary reward, redeemable upon return to temporary Voluntary Consulting and Testing (VCT) sites where results where provided. The VCT sites were set up such that all respondents' homes are within ve kilometers distance from at least one site. Approximately 70 percent of those tested chose to pick up their results. In 2006 and 2008, rapid blood tests were adopted, eliminating the time delay between testing and provision of results.For my analysis, I am using a subsample of married women in their rst marriage, who did not become pregnant from a relationship with men other than their future husbands prior to marriage. I restrict the sample to women in unbroken rst marriages because I abstract from modeling any decisions related to marriage or partnership. I also restrict thesample to include only women who were interviewed in at least one of the 2006 and 2008 rounds. Data collected in these rounds include family rosters, containing information on all children of respondents, and the elicitation of subjective expectations. I exclude women who were born before 1960, because the last age of fertility in the model is assumed to be 44 and 2004 is the earliest year included for fertility outcomes. After excluding additional women for missing information, the estimation sample consists of 1006 women. Tables 1 to 4 and Figures 1 and 2 provide descriptive statistics for the variables used in the analysis. The average age of women in the sample is 26.6 in 2004. 29 percent of the sample resides in Balaka (south), 35 percent in Mchinji (center), and 36 percent in Rumphi (north). The median number of years of schooling is 5. The women in Balaka have the lowest schooling levels with 31 percent of women never having attended school and only three percent having attended some secondary school. The women in Rumphi have the highest schooling levels, with 99 percent of women ever having attended school and 26 percent some secondary school. The average age of marriage in the overall sample is 17.5 and is similar across regions. Polygamy is most prevalent in Rumphi, with 33 percent of the women in the sample from that region married to a polygamous husband. The share of polygamous women is 27 percent in Mchinji and 20 percent in Balaka. As shown inTable 2, HIV testing take-up rates were high in all the rounds: 87.9 percent in 2004, 93.3 percent in 2006, and 94.6 percent in 2008. The percentage of women who tested positive was 2.9 percent in 2004, 3.1 percent in 2006, and 3.7 percent in 2008.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF5": {
+        "text": "depicts the distribution of the likelihood women assigned to being HIV-infected in the 2006 and 2008 rounds (pooled), measured by beans on a scale of zero to ten. Fifty percent of the reports were of zero beans. The percentage of women who chose each category",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "1"
+      },
+      "FIGREF6": {
+        "text": "depicts the distribution of the likelihood women assigned to being HIV-infected after receiving HIV test results. Because the testing component of the survey was conducted after the interview components, these are beliefs reported two years after the tests (the subsequent round of data collection). Because of low HIV prevalence and high attrition of infected women, there are only 18 women who report their beliefs two years after receiving a positive test result. The average number of beans allocated by these women is 4.67 beans, which is signicantly higher then the average of 1.5 beans reported by women who received a negative test result. Most of the women who received a positive test result assign at least some likelihood to not being HIV infected. I obtain information about births from family rosters that were collected in 2006 and 2008.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "2"
+      },
+      "FIGREF7": {
+        "text": "Second Integrated Household Survey The MDICP data do not include detailed measures of household consumption. For this reason, I use the Malawi Second Integrated Household Survey (IHS-2) to impute a better measure of consumption of households in the MDICP sample. The dataset, gathered by the Malawi National Statistics Oce in 2004-2005, is part of the World Bank's Living Standards Measurement Study program. It includes comprehensive data on consumption and expenditures of households, as well as on local prices. Specically, the dataset includes a measure of annual consumption expenditure aggregates in real value. The survey was elded in 26 out of Malawi's 27 districts, including all three MDICP districts. After restricting the sample to households in the districts covered by MDICP and excluding households without a woman as a head of the household or as a wife of the head, the estimation sample includes 612 households. 220 of these households are from Balaka, 188 from Mchinji, and 204 from Rumphi.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF8": {
+        "text": "18",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF9": {
+        "text": "reports of subjective assessments of HIV status b i (t), t = t bi , ..., t bi , up to 3 HIV test results(collected in the 2004, 2006 and 2008 rounds), and a vector of xed characteristics: region of residence, schooling level, year of birth, age of marriage, polygamy status of husband, and household's land.I also use an auxiliary sample containing data on 612 households from the IHS-2 dataset.The information on the jth household consists of household annual aggregate consumption expenditure (y j ), and a vector of household characteristics: region of residence, age of woman (head or wife of the head of the household), number of children, and household's land.The rst step of the econometric implementation involves estimating the parameters of the income function (Equation 1) by ordinary least squares regression using the auxiliary sample. The rest of the model parameters are estimated using maximum likelihood, taking the parameters of the income and survival functions as given. The likelihood function contains the following elements: (1) belief reports probabilities; (2) fertility outcomes probabilities;",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "2"
+      },
+      "FIGREF10": {
+        "text": "It contains the deterministic (and observable) elements of the state space. That is, it contains her permanent characteristics that enter the perceived hazard function. I dene it to also contain the woman's testing variables (timing and results of tests). Although the woman does not forecast getting tested, I treat this information as part of the initial conditions for the econometric implementation. The woman's sequence of life-cycle beliefs are determined given these initial conditions and her unobserved type, and can be written as B t | \u2126 d i , type i = j . The probability of observing b i (t), conditional on the set of woman i's initial conditions and her unobserved type is given by Pr b i",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF11": {
+        "text": "depicts the actual and predicted annual pregnancy probabilities for dierent age groups. The model captures the decline in pregnancy probabilities with age. This pattern is generated by the diminishing marginal utility of additional children and childbearing costs, which increase with age.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "5"
+      },
+      "FIGREF12": {
+        "text": "in the present, women's decisions are also aected by perceived exposure to infection in the future. A woman receiving a negative test result, for example, might not change by much her survival expectations if she believes she is in high risk of getting infected in the periods just after the test.The results of simulating testing at age of marriage and ages 25 and 35 are presented in Panels D, E, and F respectively. 1.3 percent of women are simulated to be infected at the time of their marriage, 4.1 percent at age 25 and 5.7 percent at age 35. At ages 25 and 35, women have already given 3.3 and 6.1 births on average. All three simulations result in a negligible eect on the average number of births and child mortality women experience over their life-cycle. As expected, type 0s and 1s, who assign probabilities of zero and 0.03 to the accuracy of the test result, do not alter their choices. Type 2s all receive negative test results. However, given the probability of 0.21 they assign to the accuracy of the test results and their high perceived risk of infection, the total average number of births they give does not change. Type 3s, who assign the highest probability of 0.76 to the accuracy of the test results, reduce their fertility after receiving a positive test result. The group that received a positive test result at the time of marriage reduced the average number of births by 0.42, from 4.98 to 4.56. The women of type 3 who receive a positive test result at ages 25 and 35 have 0.39 and 0.21 fewer births. The smaller eect at age 35, relative to that when tests were given in earlier ages, is partially due to the fact that mortality from HIV accelerates with age, leaving the women fewer periods during which to make fertility choices. Finally, in Panel G of Table 15 I present a simulation of a scenario in which women are oered a test at age 25. Unlike the former testing simulations, women perceive the test result as accurate and fully update their beliefs after receiving a test result. There is a negligible eect on the overall average number of births and experienced child mortality. There is very little impact on the fertility behavior of women who receive a negative test result. Women who receive a positive test result, however, see an average reduction of 0.19 in the number of births. HIV-positive women of type 0 and 1, who do not reduce fertility in the results presented in Panel E, have 0.07 and 0.05 less births in this environment. Type 3s who receive a positive test result have 0.57 fewer births than in the baseline environment. 7 Conclusion In this paper, I specied and structurally estimated a dynamic model of fertility in an environment with high HIV prevalence. My analysis takes into account uncertainty about HIV status and the discrepancies between perceived and actual exposure to HIV infection. Women's perceptions about their exposure to HIV infection and about their own HIV status aect their beliefs about their own and their children's life expectancy. Beliefs about life expectancies, in turn, aect fertility choices by changing the prole of expected lifetime utilities associated with each choice. I estimate the model parameters by maximum likelihood with longitudinal data from the Malawi Diusion and Ideational Change Project, which contain measures of subjective beliefs about own HIV status. The model ts well the fertility patterns in the data, as well as the distribution of reported beliefs about own HIV status. Model simulations are informative about how HIV aects fertility and about the impact of policies aimed at reducing HIV, such as HIV testing programs and provision of antiviral therapy, on fertility and child mortality. Results show that the presence of HIV reduces fertility, both for women who are infected and who are not infected. The presence of HIV reduces the average number of life-cycle births by 0.15. I also nd that HIV testing is eective at reducing fertility of infected women, leading to a reduction in child mortality and orphan hood; however, the partial updating of beliefs following a test mitigates this eect. I also nd that prevention of mother-to-child transmission through dissemination of antiviral drugs would have a negligible eect on the average number of life-cycle births, although it reduces the incidence of child mortality.",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF13": {
+        "text": "Beliefs by Test Result, 2006 and 2008 pooled",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "2"
+      },
+      "FIGREF14": {
+        "text": "Figure 3: Belief Distribution, by Year",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF15": {
+        "text": "Model Fit: Actual and Predicted Reported Beliefs",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "4"
+      },
+      "FIGREF16": {
+        "text": "Model Fit: Pregnancy Probabilities, by Age Groups",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": "5"
+      },
+      "FIGREF17": {
+        "text": "Updating beliefs after testing (Section 3.5) I want to solve forP (\u03c4 ) , \u03c4 = 1, ..., t test from the system of equations presented in Equation10:P (\u03c4 ) S (\u03c4, t test ) 1 \u2212 ttest k=1P (k) (1 \u2212 S(k, t test )) = G (\u03c4, t test )B (t test ) , \u03c4 = 1, ..., t test IsolatingP (\u03c4 ) : P (\u03c4 ) S (\u03c4, t test ) = 1 \u2212 ttest k=1P (k) (1 \u2212 S(k, t test )) G (\u03c4, t test )B (t test ) , \u03c4 = 1, ..., t test P (\u03c4 ) = 1 \u2212 ttest k=1,k =\u03c4P (k) (1 \u2212 S(k, t test )) G(\u03c4, ttest)B(ttest) S(\u03c4, ttest)+(1\u2212S(\u03c4, ttest))G(\u03c4, ttest)B(ttest) , \u03c4 = 1, ...,t testIntroducing notation:1. \u03c8 (\u03c4, t test ) = G(\u03c4, ttest)B(ttest) S(\u03c4, ttest)+(1\u2212S(\u03c4, ttest))G(\u03c4, ttest)B(ttest) , \u03c4 = 1, ..., t test 2. \u03b6 (\u03c4, t test ) = \u03c8(\u03c4, t test ) (1 \u2212 S(\u03c4, t)) , \u03c4 = 1, ..., t test 3. Num(\u03c4 ) = \u03c8(\u03c4, t test ) ttest\u22121 i=1,i =\u03c4 (1 \u2212 \u03b6(i, t test ))",
+        "type_str": "figure",
+        "uris": null,
+        "num": null,
+        "fig_num": null
+      },
+      "TABREF2": {
+        "text": "Given that some of the women who received positive test results assigned some likelihood to not being infected after the test, I assume that women assign a probability to the accuracy of the test result. Specically, she assigns probability p test to the test result being her actual status and probability 1 \u2212 p test to the test result being uninformative. Therefore, the probability a woman assigns to being HIV-positive when receiving a test result at period",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>)</td></tr><tr><td>2.5.2 Updating Survival Expectations with HIV Testing</td></tr></table>",
+        "num": null
+      },
+      "TABREF3": {
+        "text": "(period and result of each test). It also contains her xed characteristics: her region of residence, schooling level, age of marriage, polygamy status of her husband, and the land owned by the household. Note that life horizon expectations are fully determined by \u2126(t);therefore, there is no need to include the expectations in the state space.Let V (\u2126(t), t) be the value function, that is, the maximized present discounted value of lifetime utility. Let V f (\u2126(t), t) be the alternative-specic value function, that is, the value if choice f is taken, with f indicating pregnancy status. The Bellman equation of the optimization problem is",
+        "type_str": "table",
+        "html": null,
+        "content": "<table/>",
+        "num": null
+      },
+      "TABREF4": {
+        "text": "Malawi Diusion and Ideational Change Project Malawi is a landlocked country located in Southeast Africa. It has a population of about 15 million, comprised of dierent ethnic and religious groups. 81 percent of the population lives in rural areas and relies mostly on subsistence agriculture. 14 The Malawi Diusion and Ideational Change Project (MDICP) data have been collected since 1998 in rural areas of three districts in Malawi: Balaka in the south of the country, Mchinji in the center, and",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>3 Data</td></tr><tr><td>3.1</td></tr></table>",
+        "num": null
+      },
+      "TABREF5": {
+        "text": ", type 0 women, who represent 28 percent of the sample, have the largest share of women with some secondary education and the lowest share of women married to polygamist men. They assign no likelihood to being infected throughout their life cycle. Type 1s, comprising 23 percent of the sample, have the highest share of women with no schooling and the youngest age of marriage. Type 2s, comprising only 2.1 percent of the sample, perceive the highest exposure to HIV infection.",
+        "type_str": "table",
+        "html": null,
+        "content": "<table/>",
+        "num": null
+      },
+      "TABREF6": {
+        "text": "Descriptive Statistics",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>Variable Region: Balaka Mchinji Rumphi</td><td colspan=\"4\">All Balaka Mchinji Rumphi (South) (Center) (North) 0.29 ---0.35 ---0.36 ---</td></tr><tr><td colspan=\"3\">Education: No school 0.14 0.31 Primary 0.73 0.66 Secondary 0.12 0.03</td><td>0.15 0.8 0.05</td><td>0.01 0.73 0.26</td></tr><tr><td>Land&gt;1 hectare</td><td>0.44</td><td>0.19</td><td>0.53</td><td>0.55</td></tr><tr><td>Polygamy</td><td>0.27</td><td>0.2</td><td>0.27</td><td>0.33</td></tr><tr><td>Age of Marriage</td><td>17.54</td><td>17.02</td><td>17.56</td><td>17.93</td></tr><tr><td/><td>(2.25)</td><td>(2.28)</td><td>(2.03)</td><td>(2.35)</td></tr><tr><td>Age 2004</td><td>26.63</td><td>25.99</td><td>25.75</td><td>28.01</td></tr><tr><td colspan=\"3\">(8.09) Number of observations 1006 355 (8.44)</td><td>(7.21) 288</td><td>(8.45) 363</td></tr></table>",
+        "num": null
+      },
+      "TABREF7": {
+        "text": "Test Take-up and Percentage Tested Positive by Year of Test Number of women who were oered to take a HIV test for the given year",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td/><td>2004 % N</td><td>%</td><td>2006</td><td>N</td><td>%</td><td>2008</td><td>N</td></tr><tr><td>Took Test</td><td>87.9% 620 a</td><td colspan=\"3\">93.28% 759 a</td><td colspan=\"3\">94.6% 741 a</td></tr><tr><td colspan=\"8\">Tested positive 2.94% 545 b 3.11% 708 b 3.71% 701 b</td></tr><tr><td>a</td><td/><td/><td/><td/><td/><td/></tr></table>",
+        "num": null
+      },
+      "TABREF8": {
+        "text": "Reported Belief about Own HIV Infection, Measured inBeans: 2006 and2008",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>pooled</td></tr></table>",
+        "num": null
+      },
+      "TABREF9": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>All</td><td>Prob.</td><td colspan=\"6\">: Annual Pregnancy Probabilities Age Group 16-20 21-25 26-30 31-35 36-40 41-45 0.405 0.377 0.307 0.273 0.211 0.06</td></tr><tr><td/><td>N</td><td>412</td><td>778</td><td>698</td><td>539</td><td>370</td><td>351</td></tr><tr><td colspan=\"5\">Region Balaka Prob. 0.414 0.398 0.323</td><td>0.31</td><td>0.281</td><td>0.086</td></tr><tr><td/><td>N</td><td>162</td><td>226</td><td>155</td><td>142</td><td>121</td><td>81</td></tr><tr><td/><td colspan=\"3\">Mchinji Prob. 0.369 0.357</td><td>0.32</td><td>0.267</td><td>0.177</td><td>0.082</td></tr><tr><td/><td>N</td><td>130</td><td>319</td><td>291</td><td>172</td><td>113</td><td>85</td></tr><tr><td/><td colspan=\"7\">Rumphi Prob. 0.433 0.382 0.282 0.253 0.176 0.038</td></tr><tr><td/><td>N</td><td>120</td><td>233</td><td>252</td><td>225</td><td>136</td><td>185</td></tr><tr><td colspan=\"4\">Schooling None Prob. 0.375 0.492</td><td>0.27</td><td>0.263</td><td>0.31</td><td>0.085</td></tr><tr><td/><td>N</td><td>24</td><td>61</td><td>89</td><td>95</td><td>84</td><td>82</td></tr><tr><td/><td colspan=\"7\">Primary Prob. 0.395 0.366 0.315 0.281 0.183 0.053</td></tr><tr><td/><td>N</td><td>332</td><td>596</td><td>520</td><td>381</td><td>262</td><td>247</td></tr><tr><td/><td colspan=\"7\">Secondary Prob. 0.482 0.372 0.292 0.238 0.167 0.045</td></tr><tr><td/><td>N</td><td>56</td><td>121</td><td>89</td><td>63</td><td>24</td><td>22</td></tr><tr><td colspan=\"6\">Polygamy Mono Prob. 0.412 0.388 0.309 0.285</td><td>0.23</td><td>0.077</td></tr><tr><td/><td>N</td><td>354</td><td>605</td><td>511</td><td>396</td><td>235</td><td>196</td></tr><tr><td/><td colspan=\"7\">Poly Prob. 0.362 0.335 0.299 0.238 0.178 0.039</td></tr><tr><td/><td>N</td><td>58</td><td>173</td><td>187</td><td>143</td><td>135</td><td>155</td></tr></table>",
+        "num": null
+      },
+      "TABREF10": {
+        "text": "Parameter Estimates of the Survival-after-Infection Function",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>Age Group 15-19 20-24 25-29 30-34 35-39 40-44 45-49</td></tr></table>",
+        "num": null
+      },
+      "TABREF11": {
+        "text": "Child Mortality Rates per 1000 Person-Year, by Mother HIV status",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>0</td><td>Child's Age 1 2 3-4</td></tr></table>",
+        "num": null
+      },
+      "TABREF12": {
+        "text": "Maximum-Likelihood Parameter Estimates: Preferences",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>Parameter</td><td>Description</td><td>Estimate</td><td>SE</td></tr><tr><td>\u03c6</td><td>CRRA parameter</td><td>1.066</td><td>0.051</td></tr><tr><td>\u03bb 1</td><td>Child-consumption interaction</td><td>-0.166</td><td>0.052</td></tr><tr><td>\u03bb 2 -type 0</td><td>N (t), Number of children, type 0</td><td>767.4</td><td>1282.58</td></tr><tr><td>\u03bb 2 -type 1</td><td>N (t), Number of children, type 1</td><td>1501</td><td>1150.40</td></tr><tr><td>\u03bb 2 -type 2</td><td>N (t), Number of children, type 2</td><td>698.8</td><td>3475.82</td></tr><tr><td>\u03bb 2 -type 3</td><td>N (t), Number of children, type 3</td><td>1082</td><td>1206.99</td></tr><tr><td>\u03bb 2 -Balaka</td><td>N (t), Balaka shifter</td><td>161</td><td>450.07</td></tr><tr><td>\u03bb 2 -Rumphi</td><td>N (t), Rumphi shifter</td><td>637</td><td>563.72</td></tr><tr><td>\u03bb 2 -primary</td><td>N (t), Primary shifter</td><td>-393.6</td><td>624.67</td></tr><tr><td>\u03bb 2 -secondary</td><td>N (t), Secondary shifter</td><td>196.6</td><td>785.85</td></tr><tr><td>\u03bb 2 -poly</td><td>N (t), Polygamy shifter</td><td>-251.5</td><td>420.21</td></tr><tr><td>\u03bb 3 -type 0</td><td>N (t) 2 , type 0 shifter</td><td>-55.08</td><td>98.12</td></tr><tr><td>\u03bb 3 -type 1</td><td>N (t) 2 , type 0 shifter</td><td>-136.9</td><td>85.09</td></tr><tr><td>\u03bb 3 -type 2</td><td>N (t) 2 , type 0 shifter</td><td>-24.78</td><td>302.23</td></tr><tr><td>\u03bb 3 -type 3</td><td>N (t) 2 , type 0 shifter</td><td>-24.76</td><td>89.28</td></tr><tr><td>\u03bb 3 -balaka</td><td>N (t) 2 , Balaka shifter</td><td>17.31</td><td>46.05</td></tr><tr><td>\u03bb 3 -rumphi</td><td>N (t) 2 , Rumphi shifter</td><td>-57.22</td><td>61.50</td></tr><tr><td>\u03bb 3 -primary</td><td>N (t) 2 , Primary shifter</td><td>6.743</td><td>64.29</td></tr><tr><td>\u03bb 3 -secondary</td><td>N (t) 2 , Secondary shifter</td><td>-72.04</td><td>86.07</td></tr><tr><td>\u03bb 3 -poly</td><td>N (t) 2 , Polygamy shifter</td><td>0.7026</td><td>43.84</td></tr><tr><td>\u03bb 4</td><td>Pregnancy, p(t)</td><td>133.6</td><td>4966.52</td></tr><tr><td>\u03bb 4 -age 20-24</td><td>p(t), age 20-24 shifter</td><td>400.3</td><td>706.72</td></tr><tr><td>\u03bb 4 -age 25-29</td><td>p(t), age 25-29 shifter</td><td>2,432</td><td>679.71</td></tr><tr><td>\u03bb 4 -age 30-34</td><td>p(t), age 30-34 shifter</td><td>3,653</td><td>816.29</td></tr><tr><td>\u03bb 4 -age 35-39</td><td>p(t), age 35-39 shifter</td><td>5,624</td><td>1132.3</td></tr><tr><td>\u03bb 4 -age 40-44</td><td>p(t), age 40-44 shifter</td><td>10,680</td><td>2073.07</td></tr><tr><td>\u03bb 5</td><td>Consecutive pregnancy, p(t)p(t \u2212 1)</td><td>8,511</td><td>1799.57</td></tr><tr><td>\u03bb 6</td><td>Consecutive-age interaction, p(t)p(t \u2212 1)t</td><td>-218.7</td><td>92.89</td></tr><tr><td>\u03c3 p</td><td>Standard deviation of preference shock</td><td>6,698</td><td>1291.56</td></tr><tr><td>\u03b4</td><td>Discount factor</td><td>0.8675</td><td>0.073</td></tr></table>",
+        "num": null
+      },
+      "TABREF13": {
+        "text": "Ordinary Least Squares Parameter Estimates: Income Function",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>Parameter</td><td>Description</td><td>Estimate</td><td>SE</td></tr><tr><td>\u03b8 1</td><td>Constant</td><td>10.619</td><td>0.135</td></tr><tr><td>\u03b8 2</td><td>Balaka</td><td>-0.0717</td><td>0.046</td></tr><tr><td>\u03b8 3</td><td>Mchinji</td><td>-0.092</td><td>0.049</td></tr><tr><td>\u03b8 4</td><td>Land High</td><td>0.4295</td><td>0.039</td></tr><tr><td>\u03b8 5</td><td>Number of children, N (t)</td><td>0.0499</td><td>0.011</td></tr><tr><td>\u03b8 6</td><td>Period, t</td><td>0.0118</td><td>0.007</td></tr><tr><td>\u03b8 7</td><td>Period squared, t 2</td><td>-0.0002</td><td>0.0001</td></tr><tr><td>\u03c3 y</td><td>Standard deviation of income shocks</td><td>0.536407</td><td>0.065</td></tr></table>",
+        "num": null
+      },
+      "TABREF14": {
+        "text": "Maximum-Likelihood Parameter Estimates: Infection Hazard Function, Perceived",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>and Actual</td><td/><td/><td/><td/></tr><tr><td/><td colspan=\"2\">Perceived</td><td>Actual</td><td/></tr><tr><td>Parameter</td><td>Estimate</td><td>SE</td><td>Estimate</td><td>SE</td></tr><tr><td>Constant, type 0</td><td>-8.05</td><td>1E+07</td><td>-12.6</td><td>2.448</td></tr><tr><td>Constant, type 1</td><td>-4.298</td><td>0.815</td><td>-9.611</td><td>1.652</td></tr><tr><td>Constant, type 2</td><td>0.1935</td><td>5.164</td><td>-17.51</td><td>1340.9</td></tr><tr><td>Constant, type 3</td><td>-8.311</td><td>2.420</td><td>-11.38</td><td>2.085</td></tr><tr><td>Period, type 0</td><td>-0.08</td><td>2E+07</td><td/><td/></tr><tr><td>Period, type 1</td><td>-0.0414</td><td>0.123</td><td/><td/></tr><tr><td>Period, type 2</td><td>-0.2406</td><td>0.281</td><td/><td/></tr><tr><td>Period, type 3</td><td>0.1208</td><td>0.225</td><td/><td/></tr><tr><td>Period squared, type 0</td><td>-1.88</td><td>9E+06</td><td/><td/></tr><tr><td>Period squared, type 1</td><td>0.0004</td><td>0.004</td><td/><td/></tr><tr><td>Period squared, type 2</td><td>0.0057</td><td>0.009</td><td/><td/></tr><tr><td>Period squared, type 3</td><td>-0.001</td><td>0.006</td><td/><td/></tr><tr><td>Period</td><td/><td/><td>0.1587</td><td>0.223</td></tr><tr><td>Period squared</td><td/><td/><td>-0.0053</td><td>0.007</td></tr><tr><td>Duration of marriage</td><td>0.0662</td><td>0.053</td><td>0.0171</td><td>0.099</td></tr><tr><td>Primary</td><td>0.6926</td><td>0.392</td><td>2.231</td><td>0.672</td></tr><tr><td>Secondary</td><td>0.5547</td><td>0.885</td><td>2.891</td><td>1.054</td></tr><tr><td>Land &gt; 1 hectare</td><td>0.1973</td><td>0.213</td><td>0.3524</td><td>0.441</td></tr><tr><td>Polygamy</td><td>0.3766</td><td>0.296</td><td>0.5221</td><td>0.571</td></tr><tr><td>Balaka</td><td>0.126</td><td>0.319</td><td>2.245</td><td>0.609</td></tr><tr><td>Rumphi</td><td>-2.48</td><td>5.180</td><td>1.824</td><td>1.072</td></tr></table>",
+        "num": null
+      },
+      "TABREF15": {
+        "text": "Maximum-Likelihood Parameter Estimates: Other Parameters Related to Beliefs",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>Parameter</td><td>Description</td><td>Estimate</td><td>SE</td></tr><tr><td>p test , type 0</td><td>Test result accuracy, type 0</td><td>0</td><td>21.236</td></tr><tr><td>p test , type 1</td><td>Test result accuracy, type 1</td><td>0.0301</td><td>0.115</td></tr><tr><td>p test , type 2</td><td>Test result accuracy, type 2</td><td>0.2084</td><td>0.193</td></tr><tr><td>p test , type 3</td><td>Test result accuracy, type 3</td><td>0.7668</td><td>0.222</td></tr><tr><td>\u03c3 b</td><td>Standard deviation of reporting error</td><td>0.25</td><td>0.009</td></tr></table>",
+        "num": null
+      },
+      "TABREF16": {
+        "text": "Maximum Likelihood Parameter Estimates: Type Distribution Parameters",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td/><td>Type 1</td><td/><td>Type 2</td><td/><td>Type 3</td><td/></tr><tr><td>Parameter</td><td>Estimate</td><td>SE</td><td>Estimate</td><td>SE</td><td>Estimate</td><td>SE</td></tr><tr><td>Constant</td><td>-1.748</td><td>2.614</td><td>-5.543</td><td>30.05</td><td>-3.207</td><td>2.593</td></tr><tr><td>Balaka</td><td>-1.275</td><td>1.297</td><td>-0.39</td><td>29.87</td><td>-1.685</td><td>1.324</td></tr><tr><td>Rumphi</td><td>-3.775</td><td>2.453</td><td>5.68</td><td>29.13</td><td>-2.887</td><td>2.086</td></tr><tr><td>Primary</td><td>-0.8293</td><td>1.412</td><td>-3.453</td><td>3.112</td><td>1.31</td><td>1.744</td></tr><tr><td>Secondary</td><td>-1.93</td><td>2.569</td><td>-10.28</td><td>345.8</td><td>-0.4232</td><td>2.914</td></tr><tr><td>Polygamy</td><td>1.688</td><td>1.112</td><td>1.793</td><td>1.011</td><td>1.03</td><td>1.128</td></tr><tr><td>Age of marriage</td><td>0.2263</td><td>0.242</td><td>-0.0397</td><td>0.296</td><td>0.3614</td><td>0.225</td></tr><tr><td>Year of birth</td><td>0.2532</td><td>0.154</td><td>0.125</td><td>0.197</td><td>0.2245</td><td>0.151</td></tr><tr><td>N (t) \u00d7 t</td><td>-0.0011</td><td>0.011</td><td>-2E-05</td><td>0.019</td><td>-0.0036</td><td>0.010</td></tr></table>",
+        "num": null
+      },
+      "TABREF17": {
+        "text": "Predicted Selected Characteristics by Unobserved Type",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>Region Schooling Polygamous Year of Birth Age of Marriage</td><td>Balaka Mchinji Rumphi None Primary Secondary</td><td colspan=\"4\">Type 0 Type 1 Type 2 Type 3 0.27 0.46 0.02 0.24 0.10 0.42 0.01 0.46 0.63 0.11 0.97 0.30 0.18 0.29 0.07 0.05 0.62 0.62 0.93 0.85 0.20 0.09 0.001 0.10 0.25 0.32 0.6 0.25 1971 1981 1975 1979 17.3 17.1 16.9 17.9</td></tr><tr><td colspan=\"3\">Prob. assigned to being HIV-positive : Age 20 0 Age 30 0 Age 40 0</td><td>0.16 0.29 0.39</td><td>0.59 0.65 0.69</td><td>0.01 0.03 0.13</td></tr><tr><td>Share of sample</td><td/><td>0.28</td><td>0.23</td><td>0.02</td><td>0.47</td></tr></table>",
+        "num": null
+      },
+      "TABREF18": {
+        "text": "Model Fit: Actual and Predicted Pregnancy Probabilities",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td colspan=\"2\">Age Group 15-19 20-24 25-29 30-34 35-39 40-44 Region Balaka A 0.414 0.398 0.322 0.312 0.305 0.086 P 0.408 0.381 0.336 0.305 0.250 0.117 N 162 226 155 138 105 58</td></tr><tr><td>Mchinji A 0.369 0.357 P 0.366 0.350 0.308 0.282 0.231 0.32 0.268 0.192 N 130 319 291 168 99</td><td>0.104 0.082 67</td></tr><tr><td colspan=\"2\">Rumphi A 0.433 0.382 0.282 0.256 0.183 P 0.444 0.393 0.290 0.238 0.1743 0.0468 0.043 N 120 233 252 223 131 161</td></tr><tr><td>Schooling None A 0.375 0.492 P 0.474 0.388 0.308 0.307 0.254 0.27 0.264 0.343 N 24 61 89 91 70</td><td>0.085 0.107 59</td></tr><tr><td>Primary A 0.395 0.366 0.315 0.283 0.195 P 0.397 0.367 0.307 0.268 0.207 N 332 596 520 375 241</td><td>0.063 0.062 208</td></tr><tr><td>Secondary A 0.482 0.372 0.292 0.238 0.167 P 0.428 0.388 0.309 0.228 0.177 N 56 121 89 63 24</td><td>0.045 0.036 22</td></tr><tr><td>Polygamy Mono A 0.412 0.388 0.309 0.286 0.243 P 0.414 0.378 0.323 0.280 0.225 N 354 605 511 392 214</td><td>0.083 0.083 156</td></tr><tr><td>Poly A 0.362 0.335 0.299 0.241 P 0.355 0.350 0.264 0.241 0.196 0.19 N 58 173 187 137 121</td><td>0.046 0.053 130</td></tr><tr><td>A = actual, P = predicted, N = number of observations</td><td/></tr></table>",
+        "num": null
+      },
+      "TABREF19": {
+        "text": "Selected Characteristics of Subsample Used for Counterfactual Simulations",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td>Variable Type Region Schooling None 0 1 2 3 Mchinji Balaka Rumphi Primary Secondary Polygamous Number</td><td>All 0.11 0.32 0.02 0.55 0.38 0.31 0.31 0.08 0.76 0.15 0.2 50,900</td><td>0 ----0.05 0.21 0.73 0.05 0.48 0.47 0.15 6,459</td><td>By Type 1 2 --------0.44 0.01 0.43 0.01 0.13 0.98 0.2 0.01 0.69 0.99 0.10 0 0.25 0.53 16,472 850</td><td>3 ----0.43 0.27 0.3 0.02 0.85 0.12 0.18 27,119</td></tr></table>",
+        "num": null
+      },
+      "TABREF20": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "content": "<table><tr><td colspan=\"5\">: Counterfactual Simulations</td><td/></tr><tr><td/><td/><td/><td colspan=\"2\">By Type</td><td/></tr><tr><td/><td>All</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td colspan=\"3\">Panel A: Baseline (HIV, without any HIV tests)</td><td/><td/><td/></tr><tr><td colspan=\"3\">Probability assigned to being HIV-positive:</td><td/><td/><td/></tr><tr><td>Age 17</td><td>0.04</td><td>0</td><td>0.11</td><td>0.50</td><td>0.003</td></tr><tr><td>Age 25</td><td>0.09</td><td>0</td><td>0.23</td><td>0.64</td><td>0.02</td></tr><tr><td>Age 35</td><td>0.16</td><td>0</td><td>0.35</td><td>0.65</td><td>0.07</td></tr><tr><td>HIV prevalence:</td><td/><td/><td/><td/><td/></tr><tr><td>Age 17</td><td>0.01</td><td>0.004</td><td>0.03</td><td>0</td><td>0.006</td></tr><tr><td>Age 25</td><td>0.04</td><td>0.01</td><td>0.10</td><td>0</td><td>0.02</td></tr><tr><td>Age 35</td><td>0.06</td><td>0.02</td><td>0.13</td><td>0</td><td>0.03</td></tr><tr><td>Number of life-cycle births</td><td>7.07</td><td>6.13</td><td>6.28</td><td>6.47</td><td>7.72</td></tr><tr><td>Child Mortality</td><td>1.24</td><td>1.03</td><td>1.22</td><td>1.06</td><td>1.29</td></tr><tr><td>Panel B: No HIV</td><td/><td/><td/><td/><td/></tr><tr><td>Number of life-cycle births</td><td>7.22</td><td>6.16</td><td>6.44</td><td>6.61</td><td>7.90</td></tr><tr><td>Child Mortality</td><td>1.14</td><td>0.99</td><td>1.02</td><td>1.06</td><td>1.24</td></tr><tr><td colspan=\"3\">Panel C: No mother-to-child transmission</td><td/><td/><td/></tr><tr><td>Number of life-cycle births</td><td>7.05</td><td>6.13</td><td>6.24</td><td>6.46</td><td>7.72</td></tr><tr><td>Child Mortality</td><td>1.13</td><td>1.00</td><td>1.00</td><td>1.06</td><td>1.23</td></tr></table>",
+        "num": null
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05667: Estimaci\u00f3n de efecto de PROSPERA considerando el dise\u00f1o original de evaluaci\u00f3n (1997) (1998) (1999) (2000) (1) Notas: Las estimaciones son contrastes en las diferencias pareadas del indicador entre el grupo de exposici\u00f3n y el grupo de comparaci\u00f3n.\n\ns_05717: If the threshold is set at a low value (e.g.\n\ns_05767: We believe the different results obtained when using the Philippines STEP Survey and U.S. O*Net database can be explained by the different levels and rankings of the skills used in each occupation in these two countries.\n\ns_05817: Regressions in Columns 1-5 control for week and location of demonstration sessions when the WTP was elicited.\n\ns_05867: For the Google Traffic (GT) regressions, which use GT data for two periods in 2019, CAMS-3 provides observations from 1 PM, 2 PM or both for 34 days.\n\ns_05917: In comparing these rates with those of African countries across the same international markets, it is important to note, first, that the larger shares of the linkages of the external comparators are downstream (or forward).\n\ns_05967: The goal then is to select L r : transactions within L with the exact same tariff rate applied each time they appear in the data.\n\ns_06017: In 2017-18, ICT policy think tanks in the Global South, including RIA (Research ICT Africa), LIRNEasia (Learning Initiative for Network Economies in Asia), and DIRSI (el Di\u00e1logo Regional sobre la Sociedad de la Informaci\u00f3n / Regional Dialogue on the Information Society), coordinated a global initiative, conducting household surveys to collect information about ICT access and usage at household and individual levels.\n\ns_06067: Panel B presents the di\u00a4erence in STMs between these two groups.\n\ns_06117: As part of this survey, we also collected information on the vulnerability of the surveyed refugees using the subset of common questions from the VAF and VASyr surveys.\n\ns_06167: There is also a well-established academic literature on the determinants and impacts of migration on countries of origin.\n\ns_06217: We follow this with a broader discussion on the generalizability of the results and areas for further research.\n\ns_06267: This method is attractive in light of the Atkinson Commission Report, which was concerned with future ICP rounds shifting the goalposts (World Bank, 2017).\n\ns_06317: The INS released in 2012 a national household survey called the Enqu\u00eate L\u00e9g\u00e8re pour l'Evaluation de la Pauvret\u00e9 (ELEP).\n\ns_06367: Notes: This table shows summary statistics for province level estimates of IGM.\n\ns_06417: 9 RIGRC estimates from the full sample (1950-1989 birth cohorts) for this subgroup shows that the standard IGRC overestimates relative mobility by 37 percent in China, and by 63 percent and 28 percent in India and Indonesia respectively.\n\ns_06467: (2021) and implement a difference-in-difference design by comparing the differences in electricity consumption during the post-COVID months and consumption levels in the same month in the previous years (2018-2019) with the average consumption in the months just before the pandemic (i.e.\n\ns_06517: Additionally, we will compute the variable importance metric, which assesses each variable's relevance within the broader citizen participation model.\n\ns_06567: This could partly reflect the finding that TPOs in high-income countries tend to have broader mandates whereas TPOs in low-income countries mainly focus on export promotion.\n\ns_06617: This paper has developed a framework for examining the consequences of a program of stabilization and trade liberalization in India, where fiscal and current account imbalances needed to be reduced in order to launch the economy on a path of durable growth.\n\ns_06667: This has been especially influential among the Scar dinavian countries that have needed to maximize their use of scarce human resources if they are t be able to participate fully in international regulatory forums.\n\ns_06717: We will then present econometric evidence on the determinants of various components of the capital account.\n\ns_06767: For instance in Khandker's sample, sixty percent of the sampled members have less than twenty decimals of land.\n\ns_06817: 23 This is consistent with anecdotal evidence that the foreign lobbying process has a learning component.\n\ns_06867: Furthermore, important links between policies and risks exist, because policies and investments can either increase risk and exposure to risk, or help households better manage risk and vulnerability to poverty (Siegel and Alwang 1999; Anderson 2001; Varangis and others 2002; Siegel and others 2003) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7gl3BPpYesXpu51Gqx50mhV1Htn",
+    "object": "chat.completion",
+    "created": 1682885519,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1276,
+      "completion_tokens": 167,
+      "total_tokens": 1443
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06317\", \"data_mentioned\": true, \"reason\": \"Enqu\u00eate L\u00e9g\u00e8re pour l'Evaluation de la Pauvret\u00e9 (ELEP)\"}, {\"sent_id\": \"s_06417\", \"data_mentioned\": true, \"reason\": \"IGM\"}, {\"sent_id\": \"s_06617\", \"data_mentioned\": true, \"reason\": \"India\"}, {\"sent_id\": \"s_06867\", \"data_mentioned\": true, \"reason\": \"poverty\"}] \n\nThe sentences with ids s_06317, s_06417, s_06617, and s_06867 mention datasets explicitly and unambiguously. The reason field is filled with the name of the dataset mentioned in each sentence."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06317\", \"data_mentioned\": true, \"reason\": \"Enqu\u00eate L\u00e9g\u00e8re pour l'Evaluation de la Pauvret\u00e9 (ELEP)\"}, {\"sent_id\": \"s_06417\", \"data_mentioned\": true, \"reason\": \"IGM\"}, {\"sent_id\": \"s_06617\", \"data_mentioned\": true, \"reason\": \"India\"}, {\"sent_id\": \"s_06867\", \"data_mentioned\": true, \"reason\": \"poverty\"}] \n\nThe sentences with ids s_06317, s_06417, s_06617, and s_06867 mention datasets explicitly and unambiguously. The reason field is filled with the name of the dataset mentioned in each sentence.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

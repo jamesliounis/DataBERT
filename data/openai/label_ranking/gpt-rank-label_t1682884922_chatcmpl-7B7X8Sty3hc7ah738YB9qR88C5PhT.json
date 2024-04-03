@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01170: These well-tested grids incorporate the unique bay/river configurations and water depths of each area into their digital representations.\n\ns_01220: Clinical assessments were done at 6-month intervals over the duration of each study (Table 1) .\n\ns_01270: The need for an inclusive data collection strategy\nIn order to develop a comprehensive composite digital literacy index to measure the degree of competence amongst the population, we propose that a multidisciplinary data collection instrument is designed and administered by the G20's national research or data collection bodies (informed by a G20 oversight and advisory body).\n\ns_01320: In their general population sample of adults from Baltimore, Chen and colleagues (2000) identified five latent classes with distinct patterns of depressive symptoms, including non-depressed, anhedonic, suicidal, psychomotor, and severely depressed subtypes [23] .\n\ns_01370: [60] [61] [62] [63] To minimize such effects, all sites in the PSYSCAN consortium used 3T scanners, adopted a common image acquisition protocol and underwent a site qualification procedure to ensure that the standard acquisition protocol could be implemented locally (supplementary materials 2).\n\ns_01420: (2000) reported that warm and cold eddies in YB and YR move southwestward with a speed of 0.01 m/s, based on a lag correlation analysis of TOPEX/POSEIDON-ERS SSHA data.\n\ns_01470: o Fill in missing personal information, including gender, where possible from other applications by the same investigator.\n\ns_01520: Th us, all current global and regional climate models incorporate comprehensive land surface models to predict surface-atmosphere exchanges of energy, momentum, water, and other mass constituents (Dickinson et al., 1993; Sellers et al., 1996; Dai et al., 2003) .\n\ns_01570: In general, this was accomplished by sequentially computing wave field, flow field, and bed elevation changes.\n\ns_01620: These findings contribute to the molecular surveillance of COVID-19 and provide venues for future outbreak response and interventions in the country.\n\ns_01670: Although promising results are often reported for images from a single scanner, performance on diverse datasets can be poor due to the different tissue contrasts that may be unknown to the algorithm.\n\ns_01720: It is important to note that the finding that lack of radiation therapy is associated with improved riskadjusted OS is likely to be due to an underlying clinically derived selection bias among patients who undergo radiation.\n\ns_01770: Therefore, it is important to fully integrate data from all complementary sources to improve model prediction and variable selection.\n\ns_01820: The explanation for the statistical significance is that our eigenvector sets are optimal (based on statistical significance), rather than exhaustive [72] .\n\ns_01870: Using the merged NELS/BPS data set, one can project who among the high school class of 1992 received financial aid in their first four years of undergraduate education and the amount that they borrowed.\n\ns_01920: For further details on the SOPs for CSF and other biofluid collection and storage, please see the Alzheimer's Disease Neuroimaging Initiative SOPs which are the same as those used in the CNDR.\n\ns_01970: The DERS-SF was developed from the original 36-item scale (DERS, Gratz and Roemer 2004) .\n\ns_02020: The mean for the instrumentalists learning for 2/3 years was 29.29 (SD = 4.24) and for those learning 4/5 years 30.45 (SD = 5.15).\n\ns_02070: Detection, sampling, and processing methods of samples are directly affecting the accuracy of diagnostic results.\n\ns_02120: Despite the lack of population-based data, our results are consistent with the observation of a decrease in the intestinal-type gastric cancer incidence after migration, which is potentially related to the decline in H. pylori infection rates and other environmental and dietary exposures.\n\ns_02170: The paper positions itself in this direction; applying various tools and techniques of scientometrics, Altmetrics and Google Trends to draw meaning from the huge volume of research papers and online activity surrounding this pandemic.\n\ns_02220: Brain-derived neurotrophic factor (BDNF) may protect against cerebral gray and white matter impairments in older age.\n\ns_02253: 19 Further details about exclusion criteria and study protocols (eg, MR imaging review) applied in ADNI are given elsewhere.\n\ns_02303: We digitized the shorelines, extent of marsh, substrate material type, and all topographic and bathymetric information from H-sheets and other nautical charts.\n\ns_02353: These ROIs included hippocampus, MTL, lateral parietal, posteromedial (precuneus and posterior cingulate cortex), and vPFC."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7X8Sty3hc7ah738YB9qR88C5PhT",
+    "object": "chat.completion",
+    "created": 1682884922,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1278,
+      "completion_tokens": 158,
+      "total_tokens": 1436
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01320\", \"data_mentioned\": true, \"reason\": \"Baltimore\"}, {\"sent_id\": \"s_01420\", \"data_mentioned\": true, \"reason\": \"TOPEX/POSEIDON-ERS SSHA\"}, {\"sent_id\": \"s_01520\", \"data_mentioned\": true, \"reason\": \"land surface models\"}, {\"sent_id\": \"s_01620\", \"data_mentioned\": true, \"reason\": \"COVID-19\"}, {\"sent_id\": \"s_02220\", \"data_mentioned\": true, \"reason\": \"BDNF\"}, {\"sent_id\": \"s_02303\", \"data_mentioned\": true, \"reason\": \"H-sheets\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01320\", \"data_mentioned\": true, \"reason\": \"Baltimore\"}, {\"sent_id\": \"s_01420\", \"data_mentioned\": true, \"reason\": \"TOPEX/POSEIDON-ERS SSHA\"}, {\"sent_id\": \"s_01520\", \"data_mentioned\": true, \"reason\": \"land surface models\"}, {\"sent_id\": \"s_01620\", \"data_mentioned\": true, \"reason\": \"COVID-19\"}, {\"sent_id\": \"s_02220\", \"data_mentioned\": true, \"reason\": \"BDNF\"}, {\"sent_id\": \"s_02303\", \"data_mentioned\": true, \"reason\": \"H-sheets\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

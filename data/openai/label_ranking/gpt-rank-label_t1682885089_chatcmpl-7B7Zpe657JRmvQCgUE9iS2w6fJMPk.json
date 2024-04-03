@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06257: Panel (B) excludes 7 lines derived from surveys conducted more than 10 years before the 2017 ICP reference year: AZE2001, COM2004, JAM2004, KIR2006, SYR2003, UZB2003, VEN2006.\n\ns_06307: As in the previous results, the effects are much higher for the children aged 8 to 12, for whom the effect of the larger transfers reaches 17 percentage points.\n\ns_06357: 4 The key advantage of this data set is that it contains the entire population (or at least a large share of it publicly available) at a point in time, allowing me to analyze mobility at a very disaggregated geographical level.\n\ns_06407: Estimates of equations (1) (conditional mean) and (2) (conditional variance) for our full estimation samples birth cohorts) are reported in Table 2 .\n\ns_06457: The DID estimates are presented in Table 3 and Figure 2 .\n\ns_06507: 16 For estimation purposes, we used the function rlassoLogit from the LASSOPACK package in Stata 16.\n\ns_06557: We focus here on the comparison of TPOs in high-and low-income countries where differences are more striking.\n\ns_06607: The values of these variables are treated as parameters of the disaggregated model.\n\ns_06657: 2.9 Against this background, Finland's decision not to adopt a fully integrated approach to supervision, despite many superficial points of similarity with the other Scandinavian countries, also means that it represents a useful point of comparison.\n\ns_06707: The results are shown in the last two columns of Table 10 .\n\ns_06757: Morduch shows that consumption variability is 47% lower for eligible 11 Grameen households, 54% lower for eligible BRAC households and 51% lower for eligible BRDB households compared to a control group.\n\ns_06807: This mapping process was repeated for each entry found on the FARA report for 33 countries in Latin America.\n\ns_06857: The asset-based approach underlies the livelihoods approach (Carney and others 1999) and has increasingly been advocated by numerous development agencies including IADB, USAID, FAO, IFAD, DFID, CARE, and the Ford Foundation.\n\ns_06907: This section reviews existing evidence on relevant socioeconomic differentials in mortality and fertility.\n\ns_06957: Moreover, in the nested specification, the coefficient and significance for the non-movers sample is identical to that reported before.\n\ns_07007: Life cycle theories of housing demand and savings also suggest consideration of household composition (Deaton 1992, Deaton and Paxson 2000) .\n\ns_07057: (European Confederation of the Footwear Industry, 1995) The US is the country that is more open to imports, and this has resulted in an almost total migration of manufacturing activities to developing countries (Shetty 1995 , American Apparel & Footwear Association, 2004 and US.\n\ns_07107: To address this problem, we merged munic\u00edpios into 4267 Minimum Comparable Areas (MCAs) -consisting of sets of one to three munic\u00edpios whose borders were constant over the study period.\n\ns_07157: This finding is strongly supported when we run the regression for the subsample of firms that have listed ADRs.\n\ns_07207: The enrollment regressions, work regressions and fulltime work regressions include the extended set of controls and canton fixed effects, as described in Table 3 .\n\ns_07257: The index ranges from 1(little progress) to 4.3 (most advanced implementation of reform agenda) and has been compiled on an annual basis for the 1990-2004 period.\n\ns_07307: The PC effects in the pooled sample suffer from two sources of bias: (a) a cross section selection bias, that is, when the selection of better firms to sign PCs results in higher productivity which is wrongly attributed to the effects of the PCs; and, (b) a time series selection bias, that is, when the change in the unobservable of the participants leads to gains which are wrongly attributed to the PCs.\n\ns_07357: The table provides only a few examples from the nine-page list of objectives that will be monitored in connection with the project.\n\ns_07407: (1987) contain an evidence of area expansion dominating yield increase.\n\ns_07457: 296,636 334,530 The data on the ratio of international reserves to months of imports refer to all the countries in the sample."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Zpe657JRmvQCgUE9iS2w6fJMPk",
+    "object": "chat.completion",
+    "created": 1682885089,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1235,
+      "completion_tokens": 104,
+      "total_tokens": 1339
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06357\", \"data_mentioned\": true, \"reason\": \"data set\"}, {\"sent_id\": \"s_06757\", \"data_mentioned\": true, \"reason\": \"Ford Foundation\"}, {\"sent_id\": \"s_07107\", \"data_mentioned\": true, \"reason\": \"Minimum Comparable Areas (MCAs)\"}, {\"sent_id\": \"s_07207\", \"data_mentioned\": true, \"reason\": \"Table 3\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06357\", \"data_mentioned\": true, \"reason\": \"data set\"}, {\"sent_id\": \"s_06757\", \"data_mentioned\": true, \"reason\": \"Ford Foundation\"}, {\"sent_id\": \"s_07107\", \"data_mentioned\": true, \"reason\": \"Minimum Comparable Areas (MCAs)\"}, {\"sent_id\": \"s_07207\", \"data_mentioned\": true, \"reason\": \"Table 3\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

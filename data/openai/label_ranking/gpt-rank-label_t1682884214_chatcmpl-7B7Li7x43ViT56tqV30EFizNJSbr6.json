@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03086: This study contributes to the empirical analysis of factors associated with multifunctionality in U.S. rice production.\n\ns_03136: and the match intensity is de\u2026ned as: Table 6 presents the summaries of the match indicator and match intensity.\n\ns_03186: ( , 2009,Mitchell (2008),Timmer (2008), andGilbert (2008).4 Though Brazil is a major biofuel producer (using sugar cane), its production reportedly has not diverted large acreages from grain production.\n\ns_03236: Redding[29] utilizes data on 20 industries in 7 OECD countries from 1970-1990.\n\ns_03286: The results reported in Figure 10 control for this possibility by adding a dummy variable that indicates if a bank has some foreign or state ownership, using information from Micco and Panizza (2006) , at the cost of importantly reducing the sample to 586 banks.\n\ns_03336: Although general estimates on the yield of these projects is difficult to obtain, Helble, Mann, and Wilson (2009) use detailed data on aid flows to estimate the responsiveness of trade flows to specific types of foreign aid directed to enhancing trade competitiveness in developing countries.\n\ns_03386: As can be seen from Table 12 , these products accounted for significant portions of exports and imports of only a few CEEC in 1997.\n\ns_03436: More recently, there have been several empirical tests of Gibrat's law based on diverse data sets and employing careful statistical techniques.\n\ns_03486: \"Participation\" is understood throughout this paper as akin to, but with a more general meaning than, the traditional definition of \"financial inclusion.\"\n\ns_03536: The results are presented in Table 11 .\n\ns_03586: Other financial studies using the quantile regression approach include Koenker and Bassett (1978) , Engle and Manganelli (2004) , and more recently Adrian and Brunnermeier (2009) and Boyson, Stahel and Stulz (2010) .\n\ns_03636: For example, as Table 5 shows, China accounts for 65 percent of world imports of iron ores and concentrates and 80 percent of its imports come from just three countries -Australia, Brazil and India.\n\ns_03686: Analyzing these questions could be a promising direction for future theoretical and empirical research.\n\ns_03736: Where better data are available, we clarify and correct their estimates.\n\ns_03786: Table 4 reports the most informative regression specifications.\n\ns_03836: The previous commitment savings experiment is described inBrune, Gin\u00e9, Goldberg, and Yang (2011).19 SeeChoi et al.\n\ns_03886: Ostro (1994) reviews worldwide studies and based on that Ostro (1998) estimates concentration-response coefficient for restricted activity days, and Abbey et al (1995) provides estimates of chronic bronchitis associated with particulates (PM10).\n\ns_03936: When we compare the findings of the previous paper with the ones reported in Table 5 , it can be seen that Australia appears as a (new) developed country in the high-effort, high-collection group.\n\ns_03986: To assess model t, I compare the model's prediction of the distributions of reported beliefs and pregnancy probabilities to the distributions of actual beliefs and pregnancies observed in the data.\n\ns_04036: Tables 3  and 4 show the Pearson and Spearman (rank) correlation matrices for the concentration indices.\n\ns_04086: As a result, it is not surprising that the UK financial system has suffered from many scandals, including the BCCI collapse, the Maxwell case, the Lloyds insurance market abuses, the mis-selling of personal pension plans, and the fiasco of Equitable Life.\n\ns_04136: (2008),Demirguc-Kunt et al.\n\ns_04186: The present setting differs from these other papers in that we assume that there exists an initial level of debt which must be fully serviced in good states of nature.\n\ns_04236: The aim of this paper is to construct a theoretical model to illustrate the nature of inefficiency that arises from the limited liability of nations and how this can be mitigated by bringing a more economically resourceful nation into a certain kind of joint liability.\n\ns_04286: Blanchard and Gali (2007) for instance show that relying less on oil in industrial production processes has reduced sensitivity in developed countries."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Li7x43ViT56tqV30EFizNJSbr6",
+    "object": "chat.completion",
+    "created": 1682884214,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1196,
+      "completion_tokens": 99,
+      "total_tokens": 1295
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03236\", \"data_mentioned\": true, \"reason\": \"OECD\"}, {\"sent_id\": \"s_03336\", \"data_mentioned\": true, \"reason\": \"foreign aid\"}, {\"sent_id\": \"s_03636\", \"data_mentioned\": true, \"reason\": \"iron ores and concentrates\"}, {\"sent_id\": \"s_03936\", \"data_mentioned\": true, \"reason\": \"Australia\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03236\", \"data_mentioned\": true, \"reason\": \"OECD\"}, {\"sent_id\": \"s_03336\", \"data_mentioned\": true, \"reason\": \"foreign aid\"}, {\"sent_id\": \"s_03636\", \"data_mentioned\": true, \"reason\": \"iron ores and concentrates\"}, {\"sent_id\": \"s_03936\", \"data_mentioned\": true, \"reason\": \"Australia\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

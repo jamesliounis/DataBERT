@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03822: Nevertheless, we also estimate our basic model in first differences to address potential non-stationarity problems.\n\ns_03872: Owing to smaller sample sizes, some coefficients do not achieve conventional statistical significance levels, such as those on fraction present-biased (for both genders) and on the days to first disbursement indicator (for females).\n\ns_03922: Based on these figures total annual losses from degraded forest land and annual deforestation losses are presented in Table 7 .2.\n\ns_03972: In each panel, columns (1), (4) and 7represents the regression on traditional tax (includes only demographic and macroeconomic indicators).\n\ns_04022: Because of these features of the data, I abstract from modeling the decision to get tested.\n\ns_04072: These methods include cross-country comparative analysis, country-based evaluation studies with controls, benefit-incidence analysis, and decomposition analysis.\n\ns_04122: This is a simple yet comprehensive statement that also covers social equity and redistributive issues since pension benefits cannot be considered adequate if they fail to address the subsistence needs of pensioners.\n\ns_04172: To analyze the capital market financing and performance of firms in China and India, we assemble a new and comprehensive firm-level data set covering firms' security issuances in capital markets around the world as well as balance sheet data.\n\ns_04222: Under the assumption that the idiosyncratic shock Eh is uniformly distributed, the following proposition can also be established.\n\ns_04272: It is however laid out in full and conveys the basic idea of our model.\n\ns_04322: The BIC determines the optimal model which minimizes the log mean squared error plus a log penalty term, which increases in the number of regressors K; and hence , first and second differences.\n\ns_04372: For the pre-FPE period, there is a positive, and significant association between the household head's education and the child's probability of enrollment in government primary school: every additional year of education increased the probability of public school enrollment by 0.7% in column (2) and (3).\n\ns_04422: Results are available upon request.\n\ns_04472: We hypothesized that the willingness of the migrant to use education labels and to directly send money to the school may differ with the information that the most closely connected household receives about the choice the migrant makes.\n\ns_04522: Our findings are qualitatively consistent with those of Du Caju et al.\n\ns_04572: Yet these are not actually the biggest causes of diet-related deaths worldwide: over six times as many deaths are attributable to people consuming too much sodium, and too little fruit, nuts, seeds, vegetables and whole grains (Lim et al., 2014) .\n\ns_04622: Trends were calculated using the HP filter.\n\ns_04672: To estimate the contributions of individual circumstances to total inequality of opportunity, the study applies Shapley value decomposition.\n\ns_04722: The first-stage F -statistic indicates that the instruments are relevant, with a value well above the threshold identified as Staiger and Stock (1997) to qualify an instrument as strong (F \u2248 10).\n\ns_04772: 559 Note: All regressions include village fixed effects as well gender and state specific year of birth fixed effects.\n\ns_04822: The parameter y for both datasets was found by multiplying an estimate of the subsistence level from the data by the scaling factor estimated.\n\ns_04872: We posit that this finding may be consistent with findings from the growth, fiscal policy, and credit market imperfections literature.\n\ns_04922: However, the conventional Hausman exogeneity tests suggest that the spatial instrumental variable estimator is consistent.\n\ns_04972: Unfortunately, the data is simply not available to make such an estimate.\n\ns_05022: Specifically, the point estimates of the elasticity are smaller and the decreasing pattern is less steep than in Table 1 ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7k27fOV3aCftgjzVrhFmwx9NNoM",
+    "object": "chat.completion",
+    "created": 1682885722,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1076,
+      "completion_tokens": 107,
+      "total_tokens": 1183
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04172\", \"data_mentioned\": true, \"reason\": \"pension benefits\"}, {\"sent_id\": \"s_04122\", \"data_mentioned\": true, \"reason\": \"subsistence needs\"}, {\"sent_id\": \"s_04172\", \"data_mentioned\": true, \"reason\": \"firm-level data set\"}, {\"sent_id\": \"s_04572\", \"data_mentioned\": true, \"reason\": \"Lim et al., 2014\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04172\", \"data_mentioned\": true, \"reason\": \"pension benefits\"}, {\"sent_id\": \"s_04122\", \"data_mentioned\": true, \"reason\": \"subsistence needs\"}, {\"sent_id\": \"s_04172\", \"data_mentioned\": true, \"reason\": \"firm-level data set\"}, {\"sent_id\": \"s_04572\", \"data_mentioned\": true, \"reason\": \"Lim et al., 2014\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

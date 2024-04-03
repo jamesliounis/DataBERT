@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04238: At a more general level this paper is concerned with international policy coordinationthough in the model attention is restricted to a special case of this, to wit, one involving banking, investment and sovereign debt.\n\ns_04288: This study will therefore be based on monthly data, unlike Guo and Kliesen (2005) and Rafiq et al.\n\ns_04338: We build on this framework in the following sections to explore the determinants of the changes observed here.\n\ns_04388: Their study provides rich information.\n\ns_04438: Following the lab-in-the-field experiment, our field team explained the new EduPay product developed with BPI with the help of some marketing material.\n\ns_04488: Table 3 presents the percentages of firms in each country that ranked a given reason as very relevant or relevant, and Table 4 shows the overall ranking of the different reasons.\n\ns_04538: (2009) explicitly highlight -with approval -the inclusion of effort and luck among these.\n\ns_04588: The table thus tells us that industrial countries spend, on average, 56 percent of the time in countercyclical states of the world; that is, the sum of cells (1,1) and (2, 2) .\n\ns_04638: Before delving into the analysis of inequality of opportunity, here we provide a descriptive analysis of the relationship between the desirable outcome variables and the circumstance variables described Our analysis shows that there has been a significant reduction in the percentage of births not attended by skilled health professionals and of births not taking place in health facilities during the 2000s (Figure 2) .\n\ns_04688: Some studies resort to data from one source country to get better proxies (e.g.\n\ns_04738: To examine school completion, information from 2,172 generation III individual 15 to 34 years old in 823 generation II households is used (sample two).\n\ns_04788: The second dataset is a specialized but substantial cross sectional survey conducted in Thailand in May 1997 of 2880 households 19 The sample is special in that it was restricted to two provinces in the relatively poor semi arid Northeast and two provinces in the more industrialized central corridor around Bangkok.\n\ns_04838: In summary, the contributions of this paper are as follows: (i) This is the first study to our knowledge that examines the relationship between the composition of government spending on public goods and entrepreneurship.\n\ns_04888: The current paper aims at examining the firm location behavior in Tanzania, which is a country with a land area of more than 900,000 km 2 .\n\ns_04938: This work would however greatly benefit from complementary studies, notably at individual country level.\n\ns_04988: As common to this literature, results also tend to be sensitive to the methodology through which real export series are obtained from nominal values.\n\ns_05038: However, there are at least two problems with the findings reported in Tables 1 and 2 .\n\ns_05088: To ensure that the outcomes of the various surveys used are comparable and to compensate for the finite sample size of a number of surveys, we grouped the data retaining the old breakdown into seven regions based on the distribution of the sample from each survey, in accordance with the different regions in the country.\n\ns_05138: The trend in distortions captures the trend in marginal productivity gaps seen in the previous table.\n\ns_05188: The analyses in the paper are also limited in the set of health indicators that are measured within the setting and time frame.\n\ns_05238: focus on partial performance indicators or efficiency frontiers; concern for partial equilibrium vs general equilibrium effects), on the estimation or computation methods (which deal more or less well with the identification issues that allow a convincing distinction between causality and correlation) as well as on the specific sample composition in terms of time and country coverage (regionally heterogeneous samples (which tend to be largely biased towards Latin America and somewhat Eastern Europe) vs region specific samples; short vs long periods of analysis).\n\ns_05288: It requires systematic experimentation.\n\ns_05338: However, a correlation between the lagged dependent variable and the error term is possible.\n\ns_05388: In this section, the rapid consumption methodology will first be applied to a data set including a full consumption module from Hargeisa, Somalia.\n\ns_05438: (2017) show that distance, the level of development of the host country, and institutions are important mediating factors using panel data for 62 countries from 2005 to 2012."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7NR19qJYxsxCgga7WdIVYbMDqmI",
+    "object": "chat.completion",
+    "created": 1682884321,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1199,
+      "completion_tokens": 152,
+      "total_tokens": 1351
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04738\", \"data_mentioned\": true, \"reason\": \"generation III individual\"}, {\"sent_id\": \"s_04788\", \"data_mentioned\": true, \"reason\": \"cross sectional survey\"}, {\"sent_id\": \"s_04838\", \"data_mentioned\": true, \"reason\": \"government spending\"}, {\"sent_id\": \"s_04888\", \"data_mentioned\": true, \"reason\": \"Tanzania\"}, {\"sent_id\": \"s_05088\", \"data_mentioned\": true, \"reason\": \"seven regions\"}, {\"sent_id\": \"s_05388\", \"data_mentioned\": true, \"reason\": \"Hargeisa, Somalia\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04738\", \"data_mentioned\": true, \"reason\": \"generation III individual\"}, {\"sent_id\": \"s_04788\", \"data_mentioned\": true, \"reason\": \"cross sectional survey\"}, {\"sent_id\": \"s_04838\", \"data_mentioned\": true, \"reason\": \"government spending\"}, {\"sent_id\": \"s_04888\", \"data_mentioned\": true, \"reason\": \"Tanzania\"}, {\"sent_id\": \"s_05088\", \"data_mentioned\": true, \"reason\": \"seven regions\"}, {\"sent_id\": \"s_05388\", \"data_mentioned\": true, \"reason\": \"Hargeisa, Somalia\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

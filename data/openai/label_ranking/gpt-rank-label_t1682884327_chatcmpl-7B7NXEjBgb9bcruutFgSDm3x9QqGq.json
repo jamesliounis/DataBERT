@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05488: Where indicated in each questionnaire, questions attempt to collect data regarding the possibility of completing steps and procedures online and the adoption of electronic systems and/or digitized databases by service providers.\n\ns_05538: For example, Messina, Pica, and Oviedo (2014) find that the task content of occupations is similar between the US and Latin America with respect to abstract and routine tasks (with a correlation coefficient of around 0.5 to 0.6).\n\ns_05588: Figure 2.WWTP (top) and user exposure (bottom) to net change (positive, zero or negative) of flood hazards for all models at return periods greater than 1 in 30, 1 in 50 and 1 in 100 years for RCP 8.5.Time period: (1986Time period: ( -2005 to (2016-2035).\n\ns_05638: Este coeficiente se encuentra en el orden de magnitud del observado para el caso de Estados Unidos en un estudio similar (Akbulut-Yuksel y Kugler, 2016).\n\ns_05688: This would yield useful results early in an FMIS rollout phase, and address some of the cost-benefit issues that are frequently raised (Glenday 2015) .\n\ns_05738: There are differences and similarities between the results using the U.S. O*Net database and our previous analysis, depending on the sub-period.\n\ns_05788: We obtain family-wise adjusted p-values using the implementation by Jones et al.\n\ns_05838: Columns 5-6 re-introduce the S5P NO2 measure, since nitrates from NO2 emissions are a significant source of PM2.5 (Hodan and Barnard 2004) .\n\ns_05888: * The reported results use data from the last two waves.\n\ns_05938: Table A2 presents the product level regression results.\n\ns_05988: Moreover, since the affordability of an access device is often cited as an obstacle to internet usage, the analysis uses data about a country's average cost of an internet-enabled phone from International Data Corporation (IDC) and constructs a dummy variable that equals 1 if the average phone cost is more than the individual's monthly income.\n\ns_06038: (2016) \u2026nd, following Kaplan et al.\n\ns_06088: Our data from the Vulnerability Assessment Framework (VAF) in Jordan comprises two years: 2015 and 2017 (sampled cases: 2,163 and 2,001), which are comparable.\n\ns_06138: In the second column, differences with respect to the group of non-migrants and the associated p-value for a t-test of whether the difference between the two groups is statistically significant.\n\ns_06188: Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) the sources of information people relied on to find out about the COVID-19 vaccine were still unrelated to their willingness to get vaccinated (see column 4 in Tables A4 and A5 in Appendix A).\n\ns_06238: We then consider the subsample of all (n=815) country-year observations, allowing multiple observations per country capturing some within-country variation over time in their values.\n\ns_06288: Hence, the variable of interest is the proportion of children that are enrolled in treated villages and their treatment status.\n\ns_06338: Section II describes data and methodology.\n\ns_06388: (2012) and Hederos et al.\n\ns_06438: * Significant at 10 percent level; * * Significant at 5 percent level; * * * Significant at 1 percent level 2019 2019 Notes: Dependent variable is the log of monthly electricity consumption.\n\ns_06488: In section 3, we describe the data utilized in the analyses and discuss the current state of and trends in trust in government and citizen participation in the region.\n\ns_06538: There is also evidence that TPOs have been successful in helping exporters weather the drop in exports during the global recession in 2009 (Biesebroek and Volpe Martincus, 2016) .\n\ns_06588: The framework developed in Section 2 and used to simulate trade liberalization and fiscal adjustment in Section 3 was calibrated on a data base predating the 1991 reforms.\n\ns_06638: It also has a similar range of responsibilities to the Kredittilsynet (see Box 2.2).\n\ns_06688: In doing so, we follow the approach of Kamin and Wood (1997) applied to the case of Mexico, and a cross section of other Pacific Basin countries."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7NXEjBgb9bcruutFgSDm3x9QqGq",
+    "object": "chat.completion",
+    "created": 1682884327,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1243,
+      "completion_tokens": 95,
+      "total_tokens": 1338
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06538\", \"data_mentioned\": true, \"reason\": \"TPOs\"}, {\"sent_id\": \"s_06588\", \"data_mentioned\": true, \"reason\": \"Kredittilsynet\"}] \n\nSentence s_06538 mentions TPOs, which is a dataset used in the paper. Sentence s_06588 mentions Kredittilsynet, which is a dataset used in the paper."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06538\", \"data_mentioned\": true, \"reason\": \"TPOs\"}, {\"sent_id\": \"s_06588\", \"data_mentioned\": true, \"reason\": \"Kredittilsynet\"}] \n\nSentence s_06538 mentions TPOs, which is a dataset used in the paper. Sentence s_06588 mentions Kredittilsynet, which is a dataset used in the paper.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

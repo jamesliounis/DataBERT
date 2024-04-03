@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06787: 22 Results are very similar to the ones reported in Table   1 .\n\ns_06837: 13 Notwithstanding the forward-looking character of this study, it is also critical that the historical context not be ignored.\n\ns_06887: This follows a method outlined in Gwatkin et al.\n\ns_06937: To estimate such persistent effects requires data from at least 3 points in time, and this is a hard requirement in low-income countries.\n\ns_06987: We estimate (2a-b) as a probit model, correcting for unspecified heteroskedasticity, using data for the 779 households who lived in slums previously or who still resided in a slum during the survey period.\n\ns_07037: Figure II .2 shows that imports increased from less than $5 billion dollars in the late 1980\u00b4s and early 1990\u00b4s, to more than $20 billion dollars in 1994-95, and more than $30 billion dollars in the late 1990\u00b4s.\n\ns_07087: Readers are again referred to the color pdf version of this paper.\n\ns_07137: A discussion of the data and the variables follows in Section 4.\n\ns_07187: To this effect, the government developed a composite welfare index on the basis of information on household composition, education levels, dwelling characteristics, and access to services, aggregated by principal components.\n\ns_07237: Comparing the averages with the most recent EBRD scores reveals that there is divergence between the country groups in the sense that the difference between the index for groups (d) and (a) in 2004 is greater than it is for the whole period.\n\ns_07287: (1989).4 SeeByrd (1991) andLin, Li, Cai (1997), for more details about the implementation of PCs in China.\n\ns_07337: We will look in detail at progress that has been made through a number of instruments that exist in the international community.\n\ns_07387: (1987) are a model of good study in terms of variable coverage.\n\ns_07437: Table 8 reports the results of regressing import capacity on pure grants for the three country groups.\n\ns_07487: To check our estimate of the charges on annuitants we can use information on average spreads provided by Friedman and Warshawsky (1990) .\n\ns_07537: \"Official Debt Reduction: A Comparative Analysis of the Toronto Options, the U.K. Proposal and the Netherlands Initiative\" (mnimeo 1992).\n\ns_07587: Table 13 reports the result of calculations that collapse data for 40 state-sector branches into 15 branches and derive figures for changes in energy productivity for the 15 branches between 1980 and 1985.\n\ns_07637: Creditors choosing a partial exi.\n\ns_07687: Thus while farmers harvest seed cotton and sell it to the CIDT for processing at the ginneries, I measure their output in the modeling exercise as y, =0.419 times their actual output of seed cotton (as given in col. 1 of Table 1) .\n\ns_07737: The model developed in this section is based on paper's by Lizondo (1984) and Pinto (1988) (4) PMN + e PXXO + bPxXu -bC 1 (Xu)-eIo-bl\"-eR(Io) -bC2(Iu) -W(1+L.+) subject to: The cost functions have the following properties:\n\ns_07787: (See Table 3) We use the follr.wing variables in the empirical analysis.\n\ns_07837: The Prime Minister's Office in collaboration with the Department of Environment and the municipalities concerned will conduct or contract the environmental analyses for each proposed solid waste site.\n\ns_07887: This practice does not seem to be followed in the countries that are dealt with in this paper.\n\ns_07937: The lack of a well-defined sample frame is not a problem which is unique to this study.\n\ns_07987: 16 Obviously, these figures reported by the Central Bank must be used with caution in view of the adoption in mid-2004 of a new loan classification system, which for the first time introduces \"the principles of estimated recoverable amount on loans and qualitative judgments on borrowers' creditworthiness\"."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Ms4TUSIijAPTm4X9iIUSqmjk5I",
+    "object": "chat.completion",
+    "created": 1682884286,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1171,
+      "completion_tokens": 195,
+      "total_tokens": 1366
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06937\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_06987\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_07137\", \"data_mentioned\": true, \"reason\": \"data and variables\"}, {\"sent_id\": \"s_07187\", \"data_mentioned\": true, \"reason\": \"composite welfare index\"}, {\"sent_id\": \"s_07437\", \"data_mentioned\": true, \"reason\": \"import capacity\"}, {\"sent_id\": \"s_07687\", \"data_mentioned\": true, \"reason\": \"Table 1\"}, {\"sent_id\": \"s_07787\", \"data_mentioned\": true, \"reason\": \"variables\"}, {\"sent_id\": \"s_07837\", \"data_mentioned\": true, \"reason\": \"environmental analyses\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06937\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_06987\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_07137\", \"data_mentioned\": true, \"reason\": \"data and variables\"}, {\"sent_id\": \"s_07187\", \"data_mentioned\": true, \"reason\": \"composite welfare index\"}, {\"sent_id\": \"s_07437\", \"data_mentioned\": true, \"reason\": \"import capacity\"}, {\"sent_id\": \"s_07687\", \"data_mentioned\": true, \"reason\": \"Table 1\"}, {\"sent_id\": \"s_07787\", \"data_mentioned\": true, \"reason\": \"variables\"}, {\"sent_id\": \"s_07837\", \"data_mentioned\": true, \"reason\": \"environmental analyses\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

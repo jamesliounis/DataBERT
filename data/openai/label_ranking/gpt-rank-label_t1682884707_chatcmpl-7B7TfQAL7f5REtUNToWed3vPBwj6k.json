@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03797: For ease of comparison, we indicate the closest corresponding specifications in the preceding tables (Original Specification).\n\ns_03847: 48 At the top of each column is our assumption regarding revision on the part of attrited observations.\n\ns_03897: The mortality and morbidity coefficients are presented in Table 3 .1 based on these estimates.\n\ns_03947: Note: See Table A7 in the annex for details.\n\ns_03997: The rates are reported in Table 6 .\n\ns_04047: One measure that has the key desirable properties is the concentration index (Wagstaff, Paci, and van Doorslaer 1991; Kakwani, Wagstaff, and Van Doorlsaer 1997) .\n\ns_04097: The main focus of this paper is the promotion, organization and regulation of funded pillars.\n\ns_04147: To obtain information on firm investments, which is not available in the Orbis database, we match the SDC Platinum database on the use of capital markets with the Thomson Reuters' Worldscope database, which also contains balance sheet information for listed firms.\n\ns_04197: What does the model imply, therefore, in terms of policy responses?\n\ns_04247: Suppose j has close trading and business relation with a large nation, such as Germany, that we shall here refer to as nation k. This country being close to j can also observe the effort that j puts into the hydro power project.\n\ns_04297: For the purposes of this study, economic activity constitutes the dependent variable and oil price volatility the key regressor.\n\ns_04347: The remainder of the paper seeks to explain this shift.\n\ns_04397: There is abundant literature on the standards divide (Wilson and Abiola 2003) that indicates the potential detrimental effects of high-income countries' standards on exports from developing economies (Otsuki et al.\n\ns_04447: We then examine the extent to which these choices vary according to the information provided to the most connected household in the Philippines.\n\ns_04497: Section 3 describes the data and presents summary statistics on the frequency of wage cuts and the ranking of the different explanations.\n\ns_04547: But we are then up against the same set of issues as discussed in the previous section -the danger that the value of HOI is taken not as an underestimate but as a point estimate; and that the value of HOI across countries may be determined simply by differences in data availability, not true differences in equality of opportunity.\n\ns_04597: All the results reported so far refer to \u2026scal multipliers computed for the \"median\" expansion and recession.\n\ns_04647: The analysis uses severall tools, including comparison of the distributions of early risks and outcomes across circumstance groups; estimation of the human opportunity index; measurement of the relative contributions of circumstances to inequality of opportunity; and decomposition of changes in inequality of opportunity and factors driving them over time.\n\ns_04697: On the source side, our results mirror those of Manova (2013) .\n\ns_04747: percentage points, consistent with female empowerment reducing fertility as found in the literature (Duflo 2012 ).\n\ns_04797: This could be an explanation for some of the serial correlation in size, profits, and employment that is seen in actual data, even when shocks in the form of set up costs are independent and identically distributed over time and households There would be implications for the cross-sectional dispersion in growth rates.\n\ns_04847: While our findings are fairly positive towards the engagement of the government in certain sectors, we also draw attention to the limitations of the policy implications that can be gleaned from this study.\n\ns_04897: The coefficient is significant at -0.37.\n\ns_04947: For all but water, we obtain very high R2 (0.95 and above) which is our goal given that we want to predict infrastructure values as best as possible.\n\ns_04997: See IMF (2013) for a discussion and comparison of the different approaches used in the literature to obtain REER in value-added terms.Patel et al."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7TfQAL7f5REtUNToWed3vPBwj6k",
+    "object": "chat.completion",
+    "created": 1682884707,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1105,
+      "completion_tokens": 127,
+      "total_tokens": 1232
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04047\", \"data_mentioned\": true, \"reason\": \"concentration index\"}, {\"sent_id\": \"s_04147\", \"data_mentioned\": true, \"reason\": \"Orbis database\"}, {\"sent_id\": \"s_04397\", \"data_mentioned\": true, \"reason\": \"high-income countries' standards\"}, {\"sent_id\": \"s_04747\", \"data_mentioned\": true, \"reason\": \"female empowerment\"}, {\"sent_id\": \"s_04997\", \"data_mentioned\": true, \"reason\": \"IMF\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04047\", \"data_mentioned\": true, \"reason\": \"concentration index\"}, {\"sent_id\": \"s_04147\", \"data_mentioned\": true, \"reason\": \"Orbis database\"}, {\"sent_id\": \"s_04397\", \"data_mentioned\": true, \"reason\": \"high-income countries' standards\"}, {\"sent_id\": \"s_04747\", \"data_mentioned\": true, \"reason\": \"female empowerment\"}, {\"sent_id\": \"s_04997\", \"data_mentioned\": true, \"reason\": \"IMF\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

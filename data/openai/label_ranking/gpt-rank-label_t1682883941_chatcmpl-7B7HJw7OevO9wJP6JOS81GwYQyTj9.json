@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05782: See Appendix B for details on the construction of these variables.26 The only result that survives to adjusting the p-values for the fact that we are testing 8 hypotheses in this\n\ns_05832: In this exercise, we have assessed the potential contributions of three global information sources: the European Space Agency's Sentinel-5P, NASA's MODIS, and Google Traffic.\n\ns_05882: The first column of the table indicates that each of the variables listed is highly correlated with bilateral sources of the import content of a country's exports as well as with bilateral destinations of where some of those exports are processed into further shipment to third countries.\n\ns_05932: According to Bacchetta and Wincoop (2005) , the currency of a monetary union tends to be used most for trade invoicing by members, but our data shows the dominance of dollar invoicing in world trade prevails even in imports from the eurozone.\n\ns_05982: This study exploits a household survey that collects information on information and communications technology access and usage at the household and individual levels in 22 countries in the Global South.\n\ns_06032: Table A.2.2 reports marginal e\u00a4ects from probit regressions in which the dependent variable equals 1 if the individual is HtM and 0 if he/she is not HtM; both one-characteristic-at-a-time and all of them jointly.\n\ns_06082: The next section will discuss how we leverage the different dimensions of this data set for our purposes.\n\ns_06132: Relying on the 2018 data, we also analyze the dynamics of the effects.\n\ns_06182: We use this second literature to feed into the conceptual framework used in the experimental component of our own research.\n\ns_06232: This paper is based on the June 2021 vintage of PovcalNet.\n\ns_06282: Moreover, similar to the findings of Akresh et al.\n\ns_06332: Three sources of data have been typically used to estimate intergenerational mobility: 1cross-sectional samples of adult populations with retrospective questions about parental education, for example, Narayan et al.\n\ns_06382: Similar to this paper, they recognize that the residual from a linear regression of children's education, for example, on a set of variables dening the circumstances is not a clean measure of eort as it partly reects the eects of family background.\n\ns_06432: The dataset contains the billing records of the universe of electricity customers in Rwanda from January 2018 to December 2020.\n\ns_06482: The resulting models are presented in Table 3 , below.\n\ns_06532: So the evolution observed on aggregate (described above) was not common across income groups, but explained by the decline in budget in low-income countries in 2020, and the increase in budget in high-income countries in 2021.\n\ns_06582: By way of background, Table 3 .4 provides information regarding the subsectoral structure of the economy.\n\ns_06632: This economy of scale argument-which might equally be termed the \"small country argument\" -is cited by all the Scandinavian countlics as a significant factor in their adoption of an integrated approach.\n\ns_06682: See Cumby and Obstfeld (1983) for a thorough derivation of the measure.\n\ns_06732: The literature typically uses 'control groups', usually 'eligible non-members' or 'recently joined members' in order to address the problem of the counter-factual.\n\ns_06782: The one explored in this paper is that contribution functions may not necessarily be continuous as generally assumed in the empirical literature.\n\ns_06832: As will be noted in this paper, the asset base approach has much in common with a livelihoods approach.\n\ns_06882: The implied values of DRD for each age group are 1.8, 1.6, 1.2 and 1.0 respectively.\n\ns_06932: This user-cost, evaluated at period t is (see Das and others (2004a)):\n\ns_06982: The estimated parameter is statistically significant, which means that having individual water access in the previous dwelling unit is strongly associated with the probability of moving out of a slum."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7HJw7OevO9wJP6JOS81GwYQyTj9",
+    "object": "chat.completion",
+    "created": 1682883941,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1147,
+      "completion_tokens": 114,
+      "total_tokens": 1261
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06432\", \"data_mentioned\": true, \"reason\": \"universe of electricity customers in Rwanda\"}, {\"sent_id\": \"s_06532\", \"data_mentioned\": true, \"reason\": \"budget in low-income countries in 2020, and the increase in budget in high-income countries in 2021\"}, {\"sent_id\": \"s_06582\", \"data_mentioned\": true, \"reason\": \"Table 3 .4 provides information regarding the subsectoral structure of the economy\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06432\", \"data_mentioned\": true, \"reason\": \"universe of electricity customers in Rwanda\"}, {\"sent_id\": \"s_06532\", \"data_mentioned\": true, \"reason\": \"budget in low-income countries in 2020, and the increase in budget in high-income countries in 2021\"}, {\"sent_id\": \"s_06582\", \"data_mentioned\": true, \"reason\": \"Table 3 .4 provides information regarding the subsectoral structure of the economy\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

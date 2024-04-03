@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06816: This is higher (although not statisically so) than the 32 percent return obtained in the results provided inTable 2, when lobbying expenditures by government agencies and regional chambers of commerce are not included.\n\ns_06866: It has been estimated that about 50% or more of rural households' income in the Central American countries come from rural non-farm employment (RNFE) (Berdegue and others 2001; Reardon and Berdegue 2002; Corral and Reardon 2001) .\n\ns_06916: An econometricdecomposition method on cross-country data is used to estimate the differences in various social indicators between the poor and non-poor; hereafter this is termed the BR method.\n\ns_06966: In Column 1, we include a variable for the number of days absent in the last month reported by the head-teacher and a dummy for whether the school is in a rural location.\n\ns_07016: The underlying intuition of using this information is that households who have higher ability would tend to sort themselves into slums with relatively better public services.\n\ns_07066: Nevertheless for these industries, the turnaround came in 2002 with the devaluation of the peso that lowered imports to a far greater than any of the relief and safeguards measures discussed above (Graphs VI.1 and VI.2).\n\ns_07116: However, the coefficient on this variable was positive, significant and robust.\n\ns_07166: (1998) and was subsequently updated by Pistor (2000) to include transition emerging markets.\n\ns_07216: When variables are child-specific, as is the case with enrollment, child age and gender, the unit of observation is the child, and standard errors are corrected for correlations across children within households.\n\ns_07266: The question explored in this paper is the extent to which trade agreements were used as focal points or commitment devices for service sector policy reform.\n\ns_07316: In many cases, only the level or rate effect was found to be statistically significant; in these cases only the significant term was kept in the final specification, although we kept at least one type of effect (level or rate, depending on which was more statistically robust) for each PC feature.\n\ns_07366: \u2022 substantial support exists, coming from many agencies,\n\ns_07416: Indeed, linited evidence from Indonesia and Malaysia corroborate this fact (Barbier, 1989 (Barbier, , 1991 .\n\ns_07466: Indeed, the last two columns of Table 3 show that the middle group is suffering more from such drying up than the high group, yet the middle group received less grants and ODA debt relief than the high group.\n\ns_07516: If collection costs are 6.86% of reported costs for old age and survivorship (Sunden and Mitchell, 1993) , they would amount to 107.2 million US dollars in 1990, which is a negligible 82 cents per covered worker per year in 1990.\n\ns_07566: A recent survey 43, for example, concluded that the ability of countries to attract investment in manufacturing on the basis of the availability of cheap, unskilled labor has diminished in recent years.\n\ns_07616: The veracity of these data, however, depend substantially on the accuracy of GVIO data for chemicals and machinery -exactly the sectors for which comparison of physical production and value data indicate the possibility of upward bias in the value totals.\n\ns_07666: (vi) how much support can be expected from multilateral and bilateral institutions, to finance a debt reduction operation?\n\ns_07716: The study therefore states certain optimality rules.\n\ns_07766: Finally, the Report discusses the \"structural deficit\".\n\ns_07816: In the applied research it is assumed that the cumulative distribution function, F, is given by the logistic\n\ns_07866: These descriptions will be available for review by World Bank supervision missions.\n\ns_07916: The equity maximization problem is then converted into a value maximization problem which involves the firm discounting its cash flows by a discount rate that is a weighted average of the costs of debt and equity finance.\n\ns_07966: In this sense, Onitsha was an ideal setting for conducting a willingness-to-pay survey in which the price of water was varied.\n\ns_08016: 34 There is little evidence indicating that this figure has changed substantially."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7g645nf4UCGkh4w1QHJlPuqJHl0",
+    "object": "chat.completion",
+    "created": 1682885478,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1181,
+      "completion_tokens": 53,
+      "total_tokens": 1234
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06866\", \"data_mentioned\": true, \"reason\": \"Central American countries\"}, {\"sent_id\": \"s_07416\", \"data_mentioned\": true, \"reason\": \"Indonesia and Malaysia\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06866\", \"data_mentioned\": true, \"reason\": \"Central American countries\"}, {\"sent_id\": \"s_07416\", \"data_mentioned\": true, \"reason\": \"Indonesia and Malaysia\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

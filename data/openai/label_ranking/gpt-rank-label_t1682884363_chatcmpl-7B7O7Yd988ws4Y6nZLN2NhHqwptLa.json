@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02939: First, comparisons resulting in large t statistics may appear to merit special attention.\n\ns_02989: The results of the study can be regarded as a baseline due to several limitations, which include a number of participants, potential bias in school choice and limited availability for observation.\n\ns_03039: From the NA-ADNI database, we extracted MPRAGE ranking of 791 scans acquired by ADNI1 protocol and compared the proportion of MPRAGE assessed of high quality between the I-ADNI and the NA-ADNI.\n\ns_03089: However, the signs and parameter estimates for those variables suggest the effect of these variables on the decision to become multifunctional may be important in a study with a larger sample that includes other crops and profitability which has led to the expansion and consolidation of farms in Arkansas and Missouri (Baldwin et al., 2011).\n\ns_03139: Using these partitions, we are able to more accurately pinpoint the source of these e\u00a4ects.\n\ns_03189: A more promising line of investigation is suggested by Figure 16 , which shows world stock-touse ratios for the sum of the three major grains (corn, wheat, and rice).\n\ns_03239: The rest of this paper is organized as follows.\n\ns_03289: The results reported in Panel C add a dummy that takes the value of one for banks that declared exposure to Lehman in the weeks following its collapse to the baseline specification to control for the possibility that the measure of wholesale dependence may be capturing direct exposure to Lehman, and, therefore, counterparty risk rather than wholesale liquidity dependence.\n\ns_03339: For this exercise, we retain a pool of 18 primary variables collected from different sources, such as WEF's Global Competitiveness Report, Doing Business, the World Development Indicators, 8 and Transparency International.\n\ns_03389: Correlations between export structures reveal some interesting developments.\n\ns_03439: For 1982, we obtain the following parameter estimates (standard errors in parentheses): Thus, we again \u2026nd that there is a statistically signi\u2026cant relationship between the variables determining sunkenness and \u2026rm size dispersion.\n\ns_03489: We now proceed to conduct a simple empirical analysis of aggregate FD indicators.\n\ns_03539: Table 9 presents regressions that include a dummy for whether or not a firm is an entrant, interacted with period dummies and productivity.\n\ns_03589: To compute these correlations, we first calculate value-weighted changes in log default probability, , for each region and then compute correlations over the sample period.\n\ns_03639: However, we would first note that large parts of the current Doha Agenda, such as the market access negotiations in manufacturing, agriculture and services, as well as the domestic support issues in agriculture, remain relevant, perhaps even more so in the context of a rising China.\n\ns_03689: There exists some empirical evidence that private management has been more efficient than public management (Guasch 2004, Foster and Brice\u00f1o-Garmendia 2010) .\n\ns_03739: Da Silva and Terrazas (2011) , for example, find, that, in terms of income, the surveyed population of direct beneficiaries is exactly representative of the overall population of S\u00e3o Paulo.\n\ns_03789: In terms of structural modeling, we avail ourselves of the results in Madan and Unal (2000) who derive credit spreads as a fumction of firm-specific variables in a hazard rate framework.\n\ns_03839: Notes: Both baseline and revisit datasets are at individual level.\n\ns_03889: Table A2 presents a summary.\n\ns_03939: For example, while the estimated coefficient of the corruption index was only -0.560 in Table 1 of Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , it is now -1.273 and statistically more significant.\n\ns_03989: (1997) , Schultz (1997) , and Wolpin (1997) survey the literature on fertility.\n\ns_04039: With data from household and community surveys, one can model the links between child survival and its determinants to estimate the responsiveness or \"elasticity\" of survival to each of its determinants.\n\ns_04089: Most of these reforms have been in the direction of multi-pillar systems, the advantages of which were first articulated by Swiss experts in the early 1960s (Helbling 1991) .\n\ns_04139: The rest of the paper is organized as follows."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7O7Yd988ws4Y6nZLN2NhHqwptLa",
+    "object": "chat.completion",
+    "created": 1682884363,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1204,
+      "completion_tokens": 97,
+      "total_tokens": 1301
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03039\", \"data_mentioned\": true, \"reason\": \"ADNI1\"}, {\"sent_id\": \"s_03339\", \"data_mentioned\": true, \"reason\": \"WEF's Global Competitiveness Report, Doing Business, the World Development Indicators, 8 and Transparency International\"}, {\"sent_id\": \"s_03939\", \"data_mentioned\": true, \"reason\": \"corruption index\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03039\", \"data_mentioned\": true, \"reason\": \"ADNI1\"}, {\"sent_id\": \"s_03339\", \"data_mentioned\": true, \"reason\": \"WEF's Global Competitiveness Report, Doing Business, the World Development Indicators, 8 and Transparency International\"}, {\"sent_id\": \"s_03939\", \"data_mentioned\": true, \"reason\": \"corruption index\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01853: In order to make inferences about the students in each data set, it was important that the respondents drawn from the NELS:88/94 and BPS:90/94 data sets be as close as possible in terms of certain student characteristics, such as age, high school graduation status, and initial Postsecondary Education (PSE) enrollment.\n\ns_01903: A more detailed description of tissue processing and storing has been described previously by CNDR investigators [39, 40] and by other groups [42] .\n\ns_01953: This will allow readers to determine areas where the sample data approximates and thus represents the UK general population and areas where particular sociodemographic may be over-and/or under-represented.\n\ns_02003: The findings are considered in relation to the possible reasons for this, and the implications for education.\n\ns_02053: However, it ACS Infectious Diseases pubs.acs.org/journal/aidcbc Review requires RNA extraction from nasopharyngeal (NP) swabs, which depends on the supply of RNA extraction kits and is relatively cumbersome.\n\ns_02103: The information on anatomic location and histology was somewhat limited in the Central America databases (53 and 67 % unspecified) and SEER database (19 and 58 % unspecified).\n\ns_02153: Initially the bibliographic mapping file was run on the VOSviewer software to identify the most co-cited papers.\n\ns_02203: These consistent findings suggest that dual decliners might be a potentially valuable target group for both preventive interventions and mechanistic studies.\n\ns_02236: Availability of different measures in the same patients, which included a quantified measurement of WMHs, allowed for multimarker comparisons, while fewer comparisons were possible in previous studies.\n\ns_02286: These data are a combination of bathymetric data from NOAA, which in itself is a mixture of data from different decades, and topographic data.\n\ns_02336: Briefly, for an MCI participant who met criteria for probable AD on a given visit, the site physician provided diagnostic data to the ADNI Conversion Committee, which reached a consensus regarding conversion.\n\ns_02386: 711 doi.org/10.1007/s12237-014-9914-2.\n\ns_02436: We explored whether specific PCP characteristics were correlated with observed variation in their attributed Medicare patients' overall LVC spending by using an ordinary least squares (OLS) regression model.\n\ns_02486: Following filtering of the data, the GISAID regions of North America, Europe, and Asia had a sufficient (>= 200) number of samples per month between March to July 2020.\n\ns_02536: Comprehensive data on production and marketing practices, demographic information, and information sources used by U.S. organic farmers were gathered from the Fourth OFRF survey of all certified producers of record as of 2001 (Walz, 2004) .\n\ns_02586: Epidemiological data indicate that about 25% of middle-aged people in developed countries show the symptoms of metabolic syndrome [14, 15] .\n\ns_02636: (2010) ; however, this finding was not replicated in other studies (Saigh et al., 2006) .\n\ns_02686: This is almost certainly too optimistic, as the entire gain over the last 25 years occurred in the first ten years of that period; more recent data indicate a growing black-white test-score gap.\n\ns_02736: Conversely, the Canadian land cover classification had seven forest classes and ten wetland classes compared to only three forest classes and seven wetland classes in the U.S. Finding common classes across data sets required reducing these to just three common wetland classes and three forest classes.\n\ns_02786: Of the 6,150 children who were eligible for the analyses, 5,700 completed 2-year data collection and 3,900 completed kindergarten data collection (Web Figure 1) .\n\ns_02836: For example, Raikes et al.\n\ns_02886: We received daily progress reports from the Census Bureau's Computer Assisted Survey Research Office (CASRO).\n\ns_02936: This method corrects de significance (cr alpha) level fin-de total number of contrasts made with a particular classification variable.\n\ns_02986: As a rule, monitoring data is collected at the offices of Directors of Studies, and such data are provided upon results of observation.\n\ns_03036: Moreover, known group validity by the Mann-Whitney U-test was executed comparing the hippocampal volume of controls and AD patients."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7LYKoeBMBlNmeSEGz64qG9gWLPd",
+    "object": "chat.completion",
+    "created": 1682884204,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1205,
+      "completion_tokens": 195,
+      "total_tokens": 1400
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01853\", \"data_mentioned\": true, \"reason\": \"NELS:88/94 and BPS:90/94\"}, {\"sent_id\": \"s_02103\", \"data_mentioned\": true, \"reason\": \"Central America databases and SEER database\"}, {\"sent_id\": \"s_02436\", \"data_mentioned\": true, \"reason\": \"Medicare\"}, {\"sent_id\": \"s_02486\", \"data_mentioned\": true, \"reason\": \"GISAID\"}, {\"sent_id\": \"s_02536\", \"data_mentioned\": true, \"reason\": \"Fourth OFRF survey\"}, {\"sent_id\": \"s_02586\", \"data_mentioned\": true, \"reason\": \"metabolic syndrome\"}, {\"sent_id\": \"s_02736\", \"data_mentioned\": true, \"reason\": \"Canadian land cover classification and U.S.\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01853\", \"data_mentioned\": true, \"reason\": \"NELS:88/94 and BPS:90/94\"}, {\"sent_id\": \"s_02103\", \"data_mentioned\": true, \"reason\": \"Central America databases and SEER database\"}, {\"sent_id\": \"s_02436\", \"data_mentioned\": true, \"reason\": \"Medicare\"}, {\"sent_id\": \"s_02486\", \"data_mentioned\": true, \"reason\": \"GISAID\"}, {\"sent_id\": \"s_02536\", \"data_mentioned\": true, \"reason\": \"Fourth OFRF survey\"}, {\"sent_id\": \"s_02586\", \"data_mentioned\": true, \"reason\": \"metabolic syndrome\"}, {\"sent_id\": \"s_02736\", \"data_mentioned\": true, \"reason\": \"Canadian land cover classification and U.S.\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

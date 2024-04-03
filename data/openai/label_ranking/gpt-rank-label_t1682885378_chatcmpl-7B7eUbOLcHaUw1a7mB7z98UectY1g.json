@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05364: With respect to understanding better the effects of ratings, there are several potential extensions to this paper.\n\ns_05414: Using the Hargeisa data set, 91% of food consumption (76% for non-food consumption) is captured in the core module.\n\ns_05464: Most of the factors that have been considered in the literature exert significant and expected effects.\n\ns_05514: As discussed in the next section, these key interactions were selected through consultation with experts across the World Bank Group as well as a thorough review of the literature.\n\ns_05564: (2016) use data from STEP surveys to determine if the skill content of jobs is different from that suggested by USbased skill surveys.\n\ns_05614: These combined PGA/liquefaction susceptibility classifications as indicated by their colour shading are collated in Figure 7 (excluding dark green).\n\ns_05664: La estimaci\u00f3n se realiza a partir del modelo general propuesto en la literatura, adaptado para considerar indicadores de salud (en lugar del ingreso) (Akbulut-Yuksel y Kugler, 2016; Corak, 2013),\n\ns_05714: Hashim and Piatti-F\u00fcnfkirchen (2016) have found that frequently large expenditure items are not channeled through the FMIS, in which case any controls would naturally not apply to those budget lines and thus open avenues for engaging in expenditures that were not vetted through the legislative process.\n\ns_05764: On balance, we decided to use the 2015-2016 STEP survey of the Philippines for our main results and the U.S. O*Net database as a robustness exercise.\n\ns_05814: 27 After adjusting the p-values for multiple hypotheses, the p-value for this coefficient becomes 0.043.\n\ns_05864: Research on the relationship between AOD measures and ground-level particulate pollution is well-advanced.\n\ns_05914: In using the four countries as comparators to benchmark the linkages of economic activities in Africa to GVCs, we use population weighted average linkage rates of all four.\n\ns_05964: The asterisks indicate which group the country was considered in based on euro area membership, for the analysis.\n\ns_06014: To further unpack the impact of income on affordability, the analysis tries an alternative specification with inclusion of a few affordability dummies while other covariates remain the same.\n\ns_06064: Speci\u2026cally, LP (i) can be estimated by single-regression techniques, (ii) are more robust to potential misspeci\u2026cations, and (iii) can easily accommodate non-linear speci\u2026cations that may be impractical in a multivariate SVAR context (a feature that proves to be crucial in this paper).\n\ns_06114: With detailed arrival and return information from the ProGres database, we construct an unbalanced individual-level panel.\n\ns_06164: We report the results on the various selection equations in columns (1) to (3), while columns (4a) to (4e) report the results from our structural equation on various outcomes pertaining to the migration experience overseas.\n\ns_06214: However, it is common practice for survey weights to be applied to online experiments to provide an estimate of how generalizable the findings are likely to be.\n\ns_06264: We identify and analyze three relevant indicators, including the CPI expenditure classification, the reference year for the weights, and the spatial coverage of the expenditure weights (also see Section 3.B and Appendix D).\n\ns_06314: The lack of vaccination for children as a consequence of Ebola is documented in many reports and papers.\n\ns_06364: The columns \"Nmin\" and \"Nmean\" report respectively the smallest and average sample size across provinces.\n\ns_06414: There are dramatic dierences in the earlier cohorts across countries: the estimate is negative in China, positive in Indonesia, and a zero eect in India for the 1950s 16 The standard mean eects (see the IGRC estimates in the odd numbered columns of Table 3) show that the inuence of father's education is much higher for daughters in terms of the rst moment (expected years of schooling) in China.\n\ns_06464: Overall, the findings from this paper highlight the effects of the pandemic on households and firms, and the role of relief measures such as subsidies in mitigating the effect of the pandemic on end-users.\n\ns_06514: In this way, Lasso provides a method for choosing the model when the sample size is large and there are many potential regressors, facilitating model interpretation.\n\ns_06564: Finally, they provide a first look at what the post-COVID TPO world may look like, with virtual tools being more prominent."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7eUbOLcHaUw1a7mB7z98UectY1g",
+    "object": "chat.completion",
+    "created": 1682885378,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1255,
+      "completion_tokens": 86,
+      "total_tokens": 1341
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05414\", \"data_mentioned\": true, \"reason\": \"Hargeisa data set\"}, {\"sent_id\": \"s_05764\", \"data_mentioned\": true, \"reason\": \"2015-2016 STEP survey of the Philippines\"}, {\"sent_id\": \"s_06464\", \"data_mentioned\": true, \"reason\": \"pandemic\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05414\", \"data_mentioned\": true, \"reason\": \"Hargeisa data set\"}, {\"sent_id\": \"s_05764\", \"data_mentioned\": true, \"reason\": \"2015-2016 STEP survey of the Philippines\"}, {\"sent_id\": \"s_06464\", \"data_mentioned\": true, \"reason\": \"pandemic\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

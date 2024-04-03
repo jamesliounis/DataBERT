@@ -1,0 +1,1476 @@
+{
+  "paper_id": "D32489519",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:47.408716Z"
+  },
+  "title": "Africa in Manufacturing Global Value Chains Cross-Country Patterns in the Dynamics of Linkages",
+  "authors": [
+    {
+      "first": "Kaleb",
+      "middle": [],
+      "last": "Abreha",
+      "suffix": "",
+      "affiliation": {},
+      "email": "kabreha1@worlbank.org"
+    },
+    {
+      "first": "Emmanuel",
+      "middle": [],
+      "last": "Lartey",
+      "suffix": "",
+      "affiliation": {},
+      "email": "elartey@worldbank.org"
+    },
+    {
+      "first": "Taye",
+      "middle": [],
+      "last": "Mengistae",
+      "suffix": "",
+      "affiliation": {},
+      "email": "tmengistae@gmail.com"
+    },
+    {
+      "first": "Solomon",
+      "middle": [],
+      "last": "Owusu",
+      "suffix": "",
+      "affiliation": {},
+      "email": "solomon.kwekuowusu@gmail.com"
+    },
+    {
+      "first": "Albert",
+      "middle": [],
+      "last": "Zeufack",
+      "suffix": "",
+      "affiliation": {},
+      "email": "azeufack@worldbank.org"
+    }
+  ],
+  "year": "2020-10",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent. Policy Research Working Paper 9439 Africa's linkages in manufacturing global value chains are reasonably high compared with other developing regions. Still, linkage rates have declined steeply in recent years in non-resource rich countries in the region although they have increased sharply in countries that are rich in natural resources. Moreover, the level and dynamics of linkages to manufacturing global value chains vary significantly between countries within each group of natural resource endowments. The current levels, activity structure, and geographic configuration of linkage rates evolved over the past 20 years. In addition, these linkages cut across broad activity categories, including manufacturing textiles and apparel, metal products, transport equipment, and electrical goods. This paper analyzes the sources of the variation in linkage rates in the framework of an estimated gravity and linear probability model. It is shown that the domestic actors in these linkages are typically relatively large establishments (100 or more employees) and have been in operation for five years or longer. These manufacturers are also more likely to have foreign equity holders or foreign technology licenses. These findings should be seen in the light of policies that promote industrialization by facilitating integration into manufacturing global value chains at links that maximize job and productivity gains.",
+  "pdf_parse": {
+    "paper_id": "D32489519",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent. Policy Research Working Paper 9439 Africa's linkages in manufacturing global value chains are reasonably high compared with other developing regions. Still, linkage rates have declined steeply in recent years in non-resource rich countries in the region although they have increased sharply in countries that are rich in natural resources. Moreover, the level and dynamics of linkages to manufacturing global value chains vary significantly between countries within each group of natural resource endowments. The current levels, activity structure, and geographic configuration of linkage rates evolved over the past 20 years. In addition, these linkages cut across broad activity categories, including manufacturing textiles and apparel, metal products, transport equipment, and electrical goods. This paper analyzes the sources of the variation in linkage rates in the framework of an estimated gravity and linear probability model. It is shown that the domestic actors in these linkages are typically relatively large establishments (100 or more employees) and have been in operation for five years or longer. These manufacturers are also more likely to have foreign equity holders or foreign technology licenses. These findings should be seen in the light of policies that promote industrialization by facilitating integration into manufacturing global value chains at links that maximize job and productivity gains.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "Following what Baldwin (2011) called globalization's \"Second Unbundling\" during the 1980s and 1990s, nearly all manufacturing activities are taking place within global value chains (GVCs) , such that many firms in different locations across the globe are involved in tasks ranging from research and development to the final delivery of a specific product (or product set) to end users in the global market.",
+        "cite_spans": [
+          {
+            "start": 181,
+            "end": 187,
+            "text": "(GVCs)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Baldwin notes that the breakdown of the manufacturing process across GVCs straddling international borders has made it easier for developing countries to industrialize than used to be the case. 1 This has been made possible by the delinking of the process of innovation and product development from the production and employment process itself. This breakdown has created opportunities for countries to kick start the industrialization of their economies by initially specializing in lower value-added tasks in which they have comparative advantage along a given GVC while at the same time actively investing in activities that culminate in developing comparative advantage in higher value-added tasks at later stages.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "This is essentially a model that largely fits the path to industrialization that China adopted and has pursued for the past three decades by combining an export-oriented growth strategy with a system of incentives for attracting inward foreign direct investment. The model is believed to have enabled Chinese firms to specialize initially in low value-added segments of GVCs such as assembly ICT manufacturing, where they bundled low-skill labor services with globally recognized brands and advanced technology to sell them to global consumers. This placed Chinese firms at the center of a triangular trade within which they imported parts and components from Japan; Taiwan, China; the Republic of Korea; Singapore; and other East Asian economies, assembled them into finished products and exported them to the United States and European markets.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The apparent success of the model, not only in China, but also in Thailand, and its ongoing emulation in South Asia and other countries in East Asia, including Vietnam and Cambodia, 3 arguably makes it an attractive option for countries in Sub-Saharan Africa to adopt as a path to industrialization, and as a key component of governments' strategies for promoting badly needed job growth. The policy challenges of promoting industrial job growth are thus being framed as one of devising instruments for facilitating entry of domestic firms into manufacturing global value chains (GVCs) at links deemed to maximize the expected gains in jobs and productivity. Yet, the nature of the instruments and the chances of their success are likely to depend on the structure and recent dynamics of existing linkages of the region's economies to manufacturing GVCs. This paper aims to provide an account of both elements, along with an assessment of the role that cross-country differences in natural resource endowment and economic geography seem to have in explaining why they vary as much as they do within the region.",
+        "cite_spans": [
+          {
+            "start": 160,
+            "end": 181,
+            "text": "Vietnam and Cambodia,",
+            "ref_id": null
+          },
+          {
+            "start": 182,
+            "end": 183,
+            "text": "3",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Based on careful benchmarking of indicators of upstream and downstream linkages of local manufacturers in Africa to GVCs, the paper shows that they are reasonably high by the standards of other developing regions. They also differ a great deal between countries in the region and have changed substantially over the past decade at rates that also vary across countries. A key factor in cross-country differences in the linkage rates and how these have changed in recent years is natural resource endowment. It turns out that, as a group, countries that are rich in non-oil natural resources have greater linkages to manufacturing GVCs than those that are classified otherwise. Linkages to manufacturing GVCs have also grown stronger in nonoil resource rich countries but have declined quite steeply for non-resource rich countries of the region as a group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The level and dynamics of linkages to manufacturing GVCs also vary between countries within the resource rich group as they do between the non-resource rich, not only because levels of natural resource endowment differ across countries, but also because the linkages depend also on other factors such as differences in the per capita incomes, size and structure of the broader economy and its location relative to other national and regional economies or trade groupings. These other differences seem to explain, for example, why manufacturers in Rwanda as a non-resource rich country have stronger linkages to GVCs than their counterparts in other countries in the same category, such as Senegal. Similarly, differences in additional factors are likely be part of the reason why linkages of local manufacturers in Ghana are not as strong as those of their counterparts in other resource rich economies such as the Democratic Republic of Congo, South Africa, and Zambia. These additional factors include countries' physical, cultural, political proximity to larger economies, as well as their trade policies and membership in regional trading blocs. An estimated gravity model of sources of the import content of manufactured exports and destinations of the indirect component of those exports highlights and quantifies the role of these factors. Furthermore, using firm-level data from World Bank Enterprise Surveys, the paper shows that the domestic actors in these linkages are typically relatively large establishments of 100 or more employees that have been in operation in for five years or longer. These manufacturers are also more likely to have foreign equity holders or foreign technology licenses.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The next section of the paper describes the conceptual framework and analytic methods underlying these findings. This is followed by an account of the data sources in section 3 and how and why countries are classified in producing those findings. Sections 4, 5, and 6 provide details of the findings. Section 7 concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The term \"value chain\" refers to the sequence of stages of productive or value-creating activities or tasks leading to the delivery of a product as a final good or service (that is, a good or service in end use) and starting from its conception and design via intermediate phases of a production plan and its execution. The concept relates to the analytic technique of value chain analysis, which is a method of identifying cost-saving or product differentiation opportunities across the various stages of production or delivery of a good or service. A value chain is said to be a global value chain (GVC) if it involves processes and tasks carried out in the framework of contractual relations between firms across international borders that are not necessarily in the same region.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conceptual framework",
+        "sec_num": "2.1."
+      },
+      {
+        "text": "In a GVC, firms from different countries are tied together in a vertically integrated system of production (or supply chain) of goods and services at each link of which a participating firm is importing inputs for producing items to export to another link, another participant, in another region or another country. But this system of \"importing to export\" involves more than trade transactions among participating firms, and includes the sharing of blueprints and management practices, through which new ideas and know-how are continuously transferred across national and international borders and regions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conceptual framework",
+        "sec_num": "2.1."
+      },
+      {
+        "text": "The core of the GVC analysis relates to trends in indicators of linkages to a manufacturing GVC along two dimensions, namely, upstream (or backward) linkages and downstream (or forward) linkages. The indicator of upstream linkages to a GVC is the share of import content or Foreign Value Added (FVA) in the country's gross exports. What is left after deducting from the gross exports the FVA component constitutes the country's domestic value-added exports (DVA, for short). The indicator of the country's downstream (or forward) linkages to a GVC is the share in the total value-added exports of that country that is used as intermediate input to other countries' exports to third parties (DVX). A country's overall rate of linkages to a GVC is the sum of the share of FVA in its gross exports and the share of DVX in the same.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "In practice, lack of firm-level data has meant that the measurement and analysis of GVC participation generally and for most African and developing economies particularly is mostly based on the use of projected inter-industry trade data to extract the value-added component of official data on country imports and exports.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "To compute the GVC indicators, we draw on the latest release of the EORA MIRIO database of the University of Sydney. 2 The database is a set of input-output tables covering 189 countries for the period 1990-2015, providing the largest coverage of countries in Sub-Saharan Africa that we are aware of. It also provides information for 26 sectors distributed across five broad sectors of production, namely, agriculture, mining, manufacturing, construction, and tradable services. The series includes observations on the following manufacturing industries 6 (where numbers in parentheses refer to activity classification codes of the database): Food and Beverages (4); Textiles and Wearing Apparel (5); Wood and Paper (6); Petroleum, Chemical and Non-Metallic Mineral Products (7); Metal Products (8); Electrical and Machinery (9); and Transport Equipment (11).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The most recent analyses of GVC linkages in Africa include Allard et al. (2016) and AfDB, OECD, UNDP (2014). Allard et al. (2016) make use of the EORA database to estimate upstream linkages in GVC participation for countries in the region as the outcome of a range of control variables that are also of interest to this study. The report by AfDB, OECD, UNDP (2014), looks specifically at the role of GVC participation in the context of a strategy for the industrialization of an economy. It is also based on estimates of upstream linkages (the share of FVA in country exports) as well as downstream linkages (the share of DVX in county exports) for a wider range of two-digit or three-digit ISIC industries than those reported in Allard et al (2016) . 3 Allard et al (2016) conclude that many countries in the region have comparative advantage in tasks that might have high shares in the value added of final goods in manufacturing industries. This is consistent with the even stronger conclusion of AfDB, OECD, and UNDP (2014), also based on the EORA database, that in Africa as a whole -including North Africa -local manufacturers are more integrated into GVCs than domestic firms in agriculture, mining or services.",
+        "cite_spans": [
+          {
+            "start": 59,
+            "end": 79,
+            "text": "Allard et al. (2016)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 109,
+            "end": 129,
+            "text": "Allard et al. (2016)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 730,
+            "end": 749,
+            "text": "Allard et al (2016)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 752,
+            "end": 753,
+            "text": "3",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The main working hypothesis of this paper is that natural resource endowment and economic geography are major influences on countries' linkages and role in manufacturing GVCs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "These influences can be estimated and identified in the framework of an econometric factorproportions-based gravity model of \"supply-side differences\" between countries as partners in trade in goods and services or trade in tasks. Antras and de Gortari (2016) provide a theoretical structure for such a model with implications for which countries in the region are more likely to participate in specific GVCs and at what stage. 4 An implication of the main prediction of the model in Antras and de Gortari (2016) is that coastal, larger or wealthier countries are more likely to attract downstream production stages in manufacturing GVCs than landlocked or poorer countries. The model to be estimated can be extended by adding equations that can capture empirical regularities that are not necessarily included in Antras and de Gortari (2016) and yet are consistent with it. One such regularity is that countries that are rich in natural resources tend to be less integrated into manufacturing GVCs.",
+        "cite_spans": [
+          {
+            "start": 428,
+            "end": 429,
+            "text": "4",
+            "ref_id": null
+          },
+          {
+            "start": 484,
+            "end": 512,
+            "text": "Antras and de Gortari (2016)",
+            "ref_id": null
+          },
+          {
+            "start": 814,
+            "end": 842,
+            "text": "Antras and de Gortari (2016)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "A key component of the analysis in this paper is the estimation of a model of upstream and downstream linkages of economies across manufacturing GVCs by categories of natural resource endowment. One of the equations of the model, (1), specifies influences on upstream linkages on aggregate at the country level. Equation 2does the same for downstream linkages.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "(1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": ", , = 0 + 1 ln ( , ) + 2 , + 3 , + 4 , + 5 , , + 6 ln\ufffd1 + , , \ufffd + 7 , + 8 , + , + , + , ,",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": ",",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": ", = 0 + 1 ln ( , ) + 2 , + 3 , + 4 , + 5 , , + 6 ln\ufffd1 + , , \ufffd + 7 , + 8 , + , + , + , ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "2.2"
+      },
+      {
+        "text": ", , denotes the value of foreign value-added in gross exports of country to country in year , measuring the degree of backward integration in the bilateral trade relationship between the countries; , , denotes the value of indirect value-added in gross exports of 4 It is also justified by recent extensions of theorems of neoclassical trade theory including the Heckscher-Ohlin theorem and their implications for trade policy. Baldwin and Robert-Nicoud (2014) show that the Heckscher-Ohlin theorem holds appropriately modified to a world of trade in final goods and the tasks involved in their production are also offshored by firms across international borders. The modification to the statement of the H-O theorem is that a country would still specialize in producing and exporting final goods that are intensive in its most abundant factor, but the country's \"endowment\" in a factor now would include the amount of it that would \"shadow migrate\" to the country in question through the offshoring of some tasks by the firms of that country. They also show that the Stolper-Samuelson theorem and the Rybczynski theorem apply to trade including the offshoring of tasks, with some modification. The first of these needs to be modified to define exogenous price changes to be inclusive of the cost savings that offshoring entails, while the exogenous changes in factor endowment that the second relates to must include the \"shadow migration\" of factors that offshoring entails. ",
+        "cite_spans": [
+          {
+            "start": 264,
+            "end": 265,
+            "text": "4",
+            "ref_id": null
+          },
+          {
+            "start": 428,
+            "end": 460,
+            "text": "Baldwin and Robert-Nicoud (2014)",
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "where",
+        "sec_num": null
+      },
+      {
+        "text": "3.1. Country groups: Resource endowment and income levels",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Classification and Comparators",
+        "sec_num": "3."
+      },
+      {
+        "text": "In the analysis, we classify countries by natural resource endowment, population size, and per capita incomes. We also differentiate, first, between oil exporters and others among countries that are rich in natural-resources and, secondly, between low-income countries and middleincome ones among those that are not rich in natural resources. Within each of these groups, we compare trends in the larger economies with a population-weighted average of other economies within the group while benchmarking both against a similarly weighted average of a group of international comparators drawn from outside of the region. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Classification and Comparators",
+        "sec_num": "3."
+      },
+      {
+        "text": "Part of the rationale for the choice of the four countries as external comparators to countries in Africa is that it permits invoking evidence in the literature on drivers of the differences in the experiences of the four countries to help explain trends in the region. In using the four countries as comparators to benchmark the linkages of economic activities in Africa to GVCs, we use population weighted average linkage rates of all four. It is significant in that context that there are sizeable differences between the four with respect to the relative importance of upstream (or backward) integration versus downstream (or forward) integration to manufacturing GVCs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rationale for selection of this group of comparators",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "The four-country comparator group includes countries that have become increasingly integrated to GVCs reasonably rapidly either upstream (Vietnam) or downstream (Indonesia) as well as those that sustained declining or mildly rising backward linkage rates (Cambodia) or forward linkage rates (Bangladesh). It is worth noting that this pattern holds up as well specifically in the context of linkages to manufacturing GVCs ( Figure 1 ). Linkage rates in manufacturing GVCs in 2015 varied across the group even more than economy-wide linkage rates. Of the four,",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 423,
+            "end": 431,
+            "text": "Figure 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Rationale for selection of this group of comparators",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "Vietnam had the highest growth of linkages to manufacturing to GVCs between 1995 and 2015.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rationale for selection of this group of comparators",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "Manufacturing firms in Bangladesh and Indonesia became more integrated to GVCs over the period but at a lower pace of growth in linkage rates of 3 percentage points and 1 percent point respectively. The dynamic, however, was quite different in Cambodia, where the GVC linkage rate in manufacturing declined steeply.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rationale for selection of this group of comparators",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "The relatively high GVC linkage rate of Vietnamese manufacturing reflects the comparatively high import content of its gross manufactured exports and conceals the very small share of DVX in those exports. The high GVC linkage rate of manufacturers in Indonesia similarly reflects a higher share of DVX in their exports, which overshadows the smaller import content of the same exports. The decline in the linkages of Indonesian manufacturing to GCVs over the 20year period also reflects as much a decline in the import content of that country's manufactured exports as the fall in the DVX component of those exports. In Bangladesh, the increase in the GVC linkage rate of manufacturers over the period was entirely due to increase in the import content of their gross exports and not because of any change in the DVX component of those exports.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rationale for selection of this group of comparators",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "Cambodia's significantly higher rate of GVC linkages relative to that of Bangladesh in 2015 mainly reflects Cambodia's higher rate of backward linkages. Nevertheless, Bangladesh had significantly higher forward linkages than Cambodia. Still, the increase in the manufacturing GVC linkage rate of Bangladesh between 1995 and 2015 reflects the country's increased linkages upstream as well as downstream by 3 percentage points in each case. The decline in that country's GVC linkage rate during the two decades therefore mainly reflects a sharp fall in forward linkages (by 7 percentage points).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rationale for selection of this group of comparators",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "This section presents the main findings on the analysis of the association between natural resource endowment and linkages of countries to GVCs by comparing trends in natural resource rich countries as a group to that in non-resource rich countries and external comparators. We preface those findings by the results of the estimation of the influence of other factors on GVC linkages through gravity equations (1) and 2, which provide a sense of why those linkages vary within each group of countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "Parameter estimates are reported in Table 1 and Table 2 for equations (1) and 2respectively. Recall that the first equation relates bilateral flows of FVA to the right-hand side variables listed above, while equation 2 relates to bilateral flows of DVX. Each equation is estimated for the external comparators as a group and for each of the three groups of countries in Africa separately and on the observations pooled together across the three groups. Taken together, the estimates confirm the expected association that local manufacturers' GVC linkages are likely to be greater with counterparts in larger economies, and those that are closer to the country of location physically and culturally, and politically, as is likely to be the case when countries share language, borders, and historical colonial ties, or belong to a common trading bloc. The first column of the table indicates that each of the variables listed is highly correlated with bilateral sources of the import content of a country's exports as well as with bilateral destinations of where some of those exports are processed into further shipment to third countries. The next three columns of each table show that the same variables explain some of the variations that countries within each group have in the rates of linkages to GVCs upstream or downstream. It is worth noting that physical distance from major international markets is as highly correlated with linkage rates of non-resource countries of the region to GVCs as it is with those for the benchmark group of countries but does not seem to be correlated with linkage rates of resource rich countries.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 36,
+            "end": 55,
+            "text": "Table 1 and Table 2",
+            "ref_id": "TABREF8"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "Results of comparison of GVC linkage rates and changes in these rates by country groups are described in Figures 1 through 9 , of which we highlight four main items. 6 First, linkage rates of Africa's manufacturers to global value chains (GVCs) are reasonably high by the standards of the group of external comparators. This applies to natural resource rich countries of the region as well as to non-resource rich ones. However, it is also true that linkages are significantly higher in the non-oil resource rich group than they are for non-resource rich. This pattern is depicted in Figure 2 , which shows an aggregate GVC linkage of rate of 45% for the non-oil resource rich groups in 2015 as compared with 37% for the non-resource rich group and 33% for the benchmark group.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 105,
+            "end": 124,
+            "text": "Figures 1 through 9",
+            "ref_id": null
+          },
+          {
+            "start": 584,
+            "end": 592,
+            "text": "Figure 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "Secondly, linkage rates have declined steeply in recent years in non-resource rich countries of the region while increasing as sharply in natural resource rich countries. This is evident in Figure 2 , which compares changes in upstream and downstream linkage rates between 1995 and 2015 across groups and shows that the overall rate of linkage fell by 7% for the nonresource rich group, while rising by 5 percentage points for non-oil resource rich, by 10% for oil exporters and by 1 % for the external comparators. As a result, on aggregate non-resource rich countries had lower linkage rates to manufacturing GVCs than they had in the 1990s and yet there were some that were integrating more by 2015. On other hand, the non-oil resource rich countries were integrating to manufacturing GVCs even more than the external comparators were by 2015.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 190,
+            "end": 198,
+            "text": "Figure 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "Third, while significant differences exist between the resource groups of countries in linkage rates and changes in these rates, both sets of indicators vary substantially across countries within each group. This is observed in Figures 3, 4 and 5. The first of these presents four country cases within the non-resource rich group and shows, for example, that Rwandan manufacturers have greater linkage rates to GVCs than their counterparts in Senegal. Figure 4 likewise shows higher linkage rates for Zambia than for Ghana. In Figure 5 , linkage rates are higher for Nigeria than for Cameroon among oil exporters. Figure 4 also shows that linkage rates have been falling at different rates among the four countries represented, while Figure 4 shows that not all resource rich countries have seen rising linkage rates after all, as the case of Zambia shows. As already pointed out, part of the cross-country differences in linkage rates within each group is explained by the factors highlighted in Table1 and Table 2 .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 228,
+            "end": 240,
+            "text": "Figures 3, 4",
+            "ref_id": null
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "text": "Figure 4",
+            "ref_id": null
+          },
+          {
+            "start": 527,
+            "end": 535,
+            "text": "Figure 5",
+            "ref_id": null
+          },
+          {
+            "start": 614,
+            "end": 622,
+            "text": "Figure 4",
+            "ref_id": null
+          },
+          {
+            "start": 734,
+            "end": 742,
+            "text": "Figure 4",
+            "ref_id": null
+          },
+          {
+            "start": 997,
+            "end": 1015,
+            "text": "Table1 and Table 2",
+            "ref_id": "TABREF8"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "Fourth, GVC linkage rates and changes in these rates vary upstream as well as downstream by industry within each country and each country group. This is shown in Figures 6, 7, 8 and 9, with variation across the group of external comparators, the non-resource rich group, the non-oil resource rich group, and oil exporters in that order. Focusing on Figures 6 and 7, the rate of linkages in 2015 was substantially higher for the non-resource rich group in food and beverages and in textiles and apparel than for the benchmark group. In addition, the rate was higher for the external comparators than it was for the non-resource rich group in GVCs of wood products and paper, chemical and non-metal mineral products, and metal products, while being about the same between the two groups of countries in the manufacture of electrical goods and machinery and transport equipment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "The higher rate of linkages to GVCs in countries in the non-resource rich group in the manufacture of food and beverages reflects the far higher import content of exports of food and beverages of the non-resource rich group than that of similar exports of the benchmark group. This is because the indirect export component of the same exports as measured by the share of exports of food and beverages that ended up as inputs to the exports of countries of destination to third parties was indeed a little higher for the benchmark group than it was for the nonresource rich group. On the other hand, the import content of exports of textiles and apparel was about the same for the two groups of countries. The higher rate of GVC linkages of producers of those industries in the non-resource rich countries can be explained by the fact that a higher share of their exports of textiles and apparel constituted indirect exports in the sense of being used at their destination as input to further exports to third countries than was the case with exports of textiles and apparel from the benchmark group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "A lower share of indirect exports is also the main reason why the linkage rates of the nonresource rich group were smaller than those of the benchmark group to GVCs of wood products and paper, chemical and non-metal mineral products, and metal products. This is because the import content of exports of these industries for the non-resource rich group was higher or the same as that of the same exports for the benchmark group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "The non-resource rich group had the same rate of linkages to GVCs as the benchmark group in the manufacturing of transport equipment and electrical goods and machinery. The structure of linkages was also the same for the two groups in terms of rates of backward and forward linkages in the case of the manufacture of electrical goods and machinery while being sharply different between the groups in the manufacture of transport equipment. The rate of linkages to GVCs of producers of transport equipment was half as high in backward linkages as it was in forward linkages for the group of external comparators while the proportion of the two dimensions of linkages was 3:2 in favor of backward linkages for non-resource rich group of countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "In terms of the trends in the dynamics of the level and structure of linkages, the overall rate of linkages to manufacturing GVCs declined by 7 percentage points over the same period for non-resource rich countries as a group. Figure 7 shows that the rate fell by large margins across all seven industries among the groups. Figure 10 , where the group's linkage rate with Germany's manufactured exports is seen to be remarkably higher than the average with Western Europe.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 227,
+            "end": 235,
+            "text": "Figure 7",
+            "ref_id": null
+          },
+          {
+            "start": 324,
+            "end": 333,
+            "text": "Figure 10",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Patterns and Trends in Linkages across Manufacturing GVCs",
+        "sec_num": "4."
+      },
+      {
+        "text": "In comparing these rates with those of African countries across the same international markets, it is important to note, first, that the larger shares of the linkages of the external comparators are downstream (or forward). This implies that more than half of the value of manufactured exports of the group ends up at the respective destination as intermediate inputs",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Geography of Linkages across Manufacturing GVCs",
+        "sec_num": "5."
+      },
+      {
+        "text": "to further exports to a third country. Second, the group has relatively high rates of upstream (or backward) linkage with China's manufactured exports, which averaged about 30%, higher than the corresponding linkage rates to manufactured exports of India and the United States, at 10% each in 2015 ( Figure 10 ). Third, it is significant that the group's manufacturing GVC linkages with",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 300,
+            "end": 309,
+            "text": "Figure 10",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Geography of Linkages across Manufacturing GVCs",
+        "sec_num": "5."
+      },
+      {
+        "text": "China and India developed in the past 20 years, during which its linkage rates with the other regions also increased albeit by far smaller amounts, as shown in Figure 10 . Furthermore, the increase in the group's linkage rates to China's manufactured exports was evenly split between upstream and downstream components whereas the increase in linkage rate to India's exports was overwhelmingly downstream. The increase in the linkage rate to US exports was also downstream, with upstream linkages declining substantially over the same period.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 160,
+            "end": 169,
+            "text": "Figure 10",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Geography of Linkages across Manufacturing GVCs",
+        "sec_num": "5."
+      },
+      {
+        "text": "Figures 11, 12, and 14 describe the evolution of the rates of linkage of Africa's economies across the hubs of manufacturing GVCs shown in Figure 10 . In Figure 11 , the focus is on linkage rates of non-resource rich countries, for which rates are 2 to 3 times smaller than those shown in Figure 10 for the external comparator group. The overall linkage rate for the non-resource rich group is highest to China's manufactured exports, although, at 42%, is much lower than that of the comparator group. manufacturing GVCs and shows that these are all substantially smaller than those of the external comparators as depicted in Figure 11 , but that they are substantially higher than those of the non-resource rich countries. Thus in 2015, the overall linkage rate of non-oil resource rich countries was highest with China's exports at about 85%, second highest with US exports at 66%, followed by 35% and 29 % with the exports of Western Europe and India respectively.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 139,
+            "end": 148,
+            "text": "Figure 10",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 154,
+            "end": 163,
+            "text": "Figure 11",
+            "ref_id": null
+          },
+          {
+            "start": 289,
+            "end": 298,
+            "text": "Figure 10",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 626,
+            "end": 635,
+            "text": "Figure 11",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Geography of Linkages across Manufacturing GVCs",
+        "sec_num": "5."
+      },
+      {
+        "text": "As in the case of the four external comparators, the larger share of the linkages of non-oil resource rich countries are downstream although the group's upstream linkage rate is also reasonably high with China's exports at about 15%, and significant with those of the United",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Geography of Linkages across Manufacturing GVCs",
+        "sec_num": "5."
+      },
+      {
+        "text": "States. In a similar fashion to the cases of the external comparators and the non-resource rich group, linkage rates of non-oil resource rich countries to the exports of China and India also developed in the past 20 years, during which downstream linkages to the exports of Western Europe and the United States increased significantly although upstream linkages to those two hubs did not increase or declined. Figure 13 shows that GVC linkage rates of manufactures in oil exporting countries are comparable to those of non-oil exporting resource rich countries. The two groups also have similar patterns of variation across the major global markets. Not surpassingly, Figure 13 Figure 14) . It is worth noting that both sets of linkages developed in the 20 years leading up to 2015.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 410,
+            "end": 419,
+            "text": "Figure 13",
+            "ref_id": null
+          },
+          {
+            "start": 668,
+            "end": 677,
+            "text": "Figure 13",
+            "ref_id": null
+          },
+          {
+            "start": 678,
+            "end": 688,
+            "text": "Figure 14)",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Geography of Linkages across Manufacturing GVCs",
+        "sec_num": "5."
+      },
+      {
+        "text": "China also happens to have very high downstream linkages along manufacturing GVCs with major hubs of global trade including Western Europe (at 54% in 2015), East Asia (at 61%), and India (at 74%) and the four external comparators vis-\u00e0-vis Africa (Figure 14) . By comparison, China's 2015 average downstream linkage rate with the four comparators of Africa, while sizeable, is quite small at 14%. Yet, as is evident in Figure 14 , China's linkages to Africa along manufacturing GVCs was 10 times smaller than its linkages with the four comparators, and almost insignificant by comparison. Figure 15 shows ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 247,
+            "end": 258,
+            "text": "(Figure 14)",
+            "ref_id": null
+          },
+          {
+            "start": 419,
+            "end": 428,
+            "text": "Figure 14",
+            "ref_id": null
+          },
+          {
+            "start": 589,
+            "end": 598,
+            "text": "Figure 15",
+            "ref_id": "FIGREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Geography of Linkages across Manufacturing GVCs",
+        "sec_num": "5."
+      },
+      {
+        "text": "Global or otherwise, a value chain defines a series of transactions taking place at the level of the firm or business establishment. Typically, we consider a business establishment to be part of a global value chain if it is exporting downstream goods that it has produced using imported inputs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "To identify instances of participation in GVCs from cases of non-participation in the production activities of the population of establishments in an economy, we analyze the factors that affect participation at the firm level. For this purpose, we use data from the World Bank Enterprise Surveys and estimate a linear probability model of firms' GVC participation:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "(3) ( = 1 | ) =",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "where equals 1 if a firm operates along a GVC and 0 otherwise. We adopt two definitions of GVC participation. The first one is a standard definition in which a given firm is considered active in GVC if it is exporting and importing. Alternatively, we follow a less exclusive definition where a manufacturer is deemed to be operating along a GVC either if it exports any part of its output produced without necessarily using imported inputs, or if it does not necessarily export any part of its output that is produced using imported inputs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "The covariates include age group; employment size categories; foreign ownership (equal to 1 if there is any foreign ownership in the establishment and 0 otherwise); technology license (equal to 1 if the firm uses technology licensed from a foreign company and 0 otherwise), and indicators of industry classification.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Defining GVC participants as those enterprises simultaneously exporting and importing, the results show that manufacturers along GVCs are relatively large enterprises of 100 or more employees almost everywhere and have been in business for five years or longer. They are also more likely to have foreign equity or more likely to hold a foreign technical license than other enterprises in many countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Participants in GVCs are more likely to have foreign equity than other manufacturers in countries such as Indonesia and Vietnam among the four external comparators (Table 4) , Kenya, Senegal, and Uganda among the non-resource rich group (Table 5) ; Ghana and Zambia among the non-oil resource rich group and Cameroon and Nigeria among oil exporters (Table 6 ).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 164,
+            "end": 173,
+            "text": "(Table 4)",
+            "ref_id": "TABREF10"
+          },
+          {
+            "start": 237,
+            "end": 246,
+            "text": "(Table 5)",
+            "ref_id": "TABREF11"
+          },
+          {
+            "start": 349,
+            "end": 357,
+            "text": "(Table 6",
+            "ref_id": "TABREF12"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Countries in which they are more likely than other manufacturers to operate under a foreign technology license include Vietnam among the four external comparators, Uganda among the non-resource rich group, South Africa among the non-oil resource rich group, and",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Cameroon and Nigeria among the oil exporters.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "The textile and apparel manufacturers are integrated into GVCs under this definition in all four countries that constitute the external comparators, in Kenya and Senegal among the nonresource rich group in the region, in Ghana, South Africa, and Zambia among the non-oil resource rich group, but not in any of the oil exporting group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "By contrast, Vietnam is the only country among the external comparators where transport equipment is manufactured along GVCs, to which no country in Africa is linked.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Similarly, Indonesia is the only country among the external comparators where electrical goods and machinery are manufactured along GVCs on a significant scale, whereas there are no linkages to GVCs in the industry in any of the three African country groups.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "On the other hand, none of the external comparators is a significant player in manufacturing GVCs of metal products, unlike the case of several countries in the region,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "including Kenya among non-resource rich group, Cameroon among the oil exporting group, and",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Ghana, South Africa, and Zambia among the non-oil resource rich group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Likewise, none of the four external comparators is a significant link in GVCs of chemicals and non-mineral products, unlike several countries in the region, including C\u00f4te d'Ivoire and Kenya, among the non-resource rich group of countries in the region; Ghana, South Africa and Zambia, among the non-oil resource rich group; and Cameroon among the oil exporting group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "On the alternative definition of manufacturing along a GVC where participation is defined by being either exporter or importer, producers typically employ at least 20 workers but will not necessarily have been in business for long prior to that. 7 Here also participants in GVCs are more likely to have foreign equity or more likely hold a foreign technical license than other enterprises in many countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Countries in which manufacturers along GVCS is more likely to have foreign equity than ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Establishment-Level Analysis of GVC Participation",
+        "sec_num": "6."
+      },
+      {
+        "text": "Based on the EORA database (UNCTAD 2013), this paper shows that African economies have reasonably high rates of linkages compared with those of China, the rest of East Asia, Germany, India, the United States, and the rest of Western Europe across broad categories of manufacturing GVCs, including those in textiles and apparel, metal products, transport equipment, and electrical goods. Results from the analyses of the World Bank Enterprise Surveys show that domestic actors in these linkages are typically relatively large manufacturers of 100 or more employees that have been in operation in their respective industries five years or longer.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "7."
+      },
+      {
+        "text": "As participants in GVCs, these manufacturers are more likely to have foreign equity holders or hold foreign technology licenses than other enterprises. At the same time, linkage rates across manufacturing GVCs do vary significantly between countries within Africa and have changed substantially over the past decade. A major factor in cross-country variation in linkage rates within the region is natural resource endowment, with countries that are rich in non-oil natural resources having greater linkages to manufacturing GVCs. Linkages to manufacturing GVCs have also increased over the period in non-oil resource rich countries but have declined quite steeply for non-resource rich countries as a group. This development needs to be seen against the premise that governments' efforts across Africa for promoting job growth through industrialization would succeed only in as far as they facilitate entry of domestic firms into manufacturing GVCs at links deemed to maximize expected gains in jobs and productivity.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "7."
+      },
+      {
+        "text": "The level and dynamics of linkage rates to manufacturing GVCs also vary between countries within the resource rich group and between the non-resource rich. This is partly due to differences in the levels of natural resource endowment across countries. It is also because linkage rates depend on other factors such as differences in the per capita incomes, size and structure of the broader economy and its location in relation to other national and regional economies or trade groupings. These other differences seem to explain, for example, why some non-resource rich countries have stronger linkages to GVCs than others. Additional factors include countries' physical, cultural, political proximity to larger economies, their trade policies, and membership in regional trading blocs. An estimated gravity model of sources of the import content of manufactured exports and destinations of the indirect export component highlights and quantifies the roles of these other factors.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "7."
+      },
+      {
+        "text": "Source: Authors computation using data from EORA database.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "7."
+      },
+      {
+        "text": "Source: Authors computation using data from EORA database. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "7."
+      },
+      {
+        "text": "Taglioni and Winkler (2016).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The database can be accessed at https://worldmrio.com.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The industries covered in AfDB, OECD, UNDP (2014) include textiles and apparel, food and beverages, electrical goods and machinery, transport equipment, wood and paper, and the catchall category of \"other manufacturing\".",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Our population estimates come from the CEPII gravity dataset, except those for the Democratic Republic of Congo. Population estimates for the Democratic Republic of Congo are obtained from the World Development Indicators of the World Bank, which is also our source of estimates of income per capita.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "As a rule, extreme outliers observed in all three indicators are dealt with by winsorizing at the (1, 99) percentiles. The exception is indicators in the country-sector data, in which case the proportionate share of DVX in gross exports and GVC participation rate are each winsorized at the (1, 90) percentiles.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Tables of regression results based on this alternative definition of participation in a GVC are available from the authors on request.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "* The reported results use data from the last two waves.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Standard errors in parentheses. Standard errors are clustered at the industry-region-firm level. * p < 0.10, ** p < 0.05, *** p < 0.01. Source: Authors estimation using data from World Bank Enterprise Surveys.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "African Economic Outlook 2014: Global Value Chains and Africa's Industrialization",
+        "authors": [
+          {
+            "first": "Oecd",
+            "middle": [],
+            "last": "Afdb",
+            "suffix": ""
+          },
+          {
+            "first": "Undp",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "AfDB, OECD and UNDP. (2014). African Economic Outlook 2014: Global Value Chains and Africa's Industrialization.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Trade Integration and Global Value Chains in Sub-Saharan Africa",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Allard",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "I C"
+            ],
+            "last": "Kriljenko",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Gonzalez-Garcia",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Kitsios",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Trevino",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Pursuit of the Missing Link. IMF Africa Department",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Allard C., Kriljenko, J.I.C., Chen, W., Gonzalez-Garcia, J., Kitsios, E., & Trevino, J. (2016). Trade Integration and Global Value Chains in Sub-Saharan Africa: In Pursuit of the Missing Link. IMF Africa Department, Washington, DC.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "On the Geography of Global Value Chains",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Antras",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "De Gortran",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Antras, P., & de Gortran, A. (2016). On the Geography of Global Value Chains. https://scholar.harvard.edu/files/antras/files/gvc_ag_latest_draft.pdf",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Trade and Industrialization After Globalization's 2nd Unbundling: How Building and Joining a Supply Chain are Different and Why It Matters",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Baldwin",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Baldwin, R. (2011). Trade and Industrialization After Globalization's 2nd Unbundling: How Building and Joining a Supply Chain are Different and Why It Matters,\" NBER Working Paper 17716, NBER, December.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Trade-in-Goods and Trade-in-Tasks: An Integrating Framework",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Baldwin",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Robert-Nicoud",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "Journal of International Economics",
+        "volume": "92",
+        "issue": "",
+        "pages": "51--62",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Baldwin, R., & Robert-Nicoud, F. (2014). Trade-in-Goods and Trade-in-Tasks: An Integrating Framework, Journal of International Economics, 92:51-62.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "The Great Convergence",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Baldwin",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Baldwin, R. (2016), The Great Convergence, Cambridge MA: Harvard University Press.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Comparative Advantage and Heterogeneous Firms",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Bernard",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Redding",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Schott",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Review of Economic Studies",
+        "volume": "74",
+        "issue": "1",
+        "pages": "31--66",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bernard, A., Redding, S., & Schott, P. (2007). Comparative Advantage and Heterogeneous Firms. Review of Economic Studies, 74(1): 31-66.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Regional Economic Outlook: Sub-Saharan Africa",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Imf",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "IMF. 2012. Regional Economic Outlook: Sub-Saharan Africa. Washington, October.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Trade Interconnectedness: The World with Global Value Chains",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "___",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "___. 2013a. Trade Interconnectedness: The World with Global Value Chains. August ___.2013b. Regional Economic Outlook: Sub-Saharan Africa. Washington, October ___. 2014. Regional Economic Outlook: Sub-Saharan Africa. Washington, October.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Accounting for Intermediates: Production Sharing and Trade in Value Added",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Johnson",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Noguera",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Journal of International Economics",
+        "volume": "86",
+        "issue": "2",
+        "pages": "224--236",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Johnson, R., & Noguera, G. (2012). Accounting for Intermediates: Production Sharing and Trade in Value Added,\" Journal of International Economics, 86(2): 224-236.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Do the Asian Drivers Undermine Export-oriented Industrialization in SSA?",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Kaplinsky",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Morris",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "World Development",
+        "volume": "36",
+        "issue": "2",
+        "pages": "254--273",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kaplinsky R., & Morris M. (2008). Do the Asian Drivers Undermine Export-oriented Industrialization in SSA? World Development, 36(2): 254-273.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Making Global Value Chains Work for Development. Trade and Development",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Taglioni",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Winkler",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Taglioni, D., & Winkler, D. (2016). Making Global Value Chains Work for Development. Trade and Development. Washington, DC: World Bank Group.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Industry Global Value Chains, Connectivity and Regional Smart Specialization in Europe-An Overview of Theoretical Approaches and Mapping Methodologies",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Todeva",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Rakhmatullin",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "JRC Science for Policy Report",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Todeva, E., & Rakhmatullin, R. (2016). Industry Global Value Chains, Connectivity and Regional Smart Specialization in Europe-An Overview of Theoretical Approaches and Mapping Methodologies. JRC Science for Policy Report, European Commission.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "fig_num": "12",
+        "text": "describes patterns in linkage rates of non-oil resource rich countries to",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF1": {
+        "fig_num": null,
+        "text": "others under the alternative definition include Indonesia and Vietnam among the external comparators; Malawi and Uganda among the non-resource rich group; the Democratic Republic of Congo and Zambia among the non-oil resource rich group and Cameroon and Nigeria among oil exporters.Countries in which they are more likely than other enterprises to operate under a foreign technology license include Bangladesh and Indonesia among the external comparators, Uganda among the non-resource rich group, Zambia among the non-oil resource rich group, and Nigeria among the oil exporters.Under this definition also, the textile and apparel industries are integrated to GVCs across all external comparators. The set of countries in the region that are in the same position is also unchanged, as textile and apparel manufacturers are integrated to GVCs in Kenya and Uganda among the non-resource rich group in the region, in Ghana, South Africa, and Zambia among the non-oil resource rich group, though none of the countries in the oil exporting group.The use of the alternative definition significantly alters our assessment of the degree of integration of specific countries to other categories of manufacturing GVCs. Thus, Indonesia and Vietnam are assessed to be significant players in the manufacturing GVCs in transport equipment among the external comparators as are Malawi and C\u00f4te d'Ivoire among non-resource rich countries of the region, and the Democratic Republic of Congo, Ghana, and Zambia among the non-oil resource rich group. The group of significant players along GVCs of electrical goods and machinery also changes with only Bangladesh among the external comparators, only C\u00f4te d'Ivoire among the non-resource rich group of countries of the region, with South Africa and Zambia among the non-oil resource rich group and none among oil exporters. Three of the four external comparators, namely, Bangladesh, Cambodia, and Vietnam are all integrated to manufacturing GVCs in metal products under the alternative definition along with Kenya among non-resource rich countries of the region, South Africa and Zambia among the non-oil resource rich group, and none among the oil exporting group. The corresponding lineup of participants in GVCs in the manufacturing of chemicals and non-metal mineral products now includes only Indonesia among the external comparators; Malawi and Kenya, among the nonresource rich group of countries in the region; the Democratic Republic of Congo, South Africa, and Zambia, among the non-oil resource rich group, and Cameroon among the oil exporting group.",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF2": {
+        "fig_num": null,
+        "text": "Authors computation using data from EORA database. Source: Authors computation using data from EORA database. Authors computation using data from EORA database.Source: Authors computation using data from EORA database.",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF3": {
+        "fig_num": null,
+        "text": "Figure 5. Linkage to manufacturing GVCs (%): Oil rich country cases",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF4": {
+        "fig_num": "10",
+        "text": "Percentage Rates of Backward and Forward Integration to Manufacturing GVCs by Sources and Destination of Imports and Exports of Intermediate Inputs: Group of Benchmark Countries (1995 vs. 2015Source: Authors computation using data from EORA database.",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF5": {
+        "fig_num": null,
+        "text": "Authors computation using data from EORA database.",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF6": {
+        "fig_num": "1314",
+        "text": "Backward and Forward Integration to Manufacturing GVCs by Sources and Destinations of Imports and Exports of Intermediate Inputs: Africa, Oil Exporting Countries (1995 vs. 2015) Source: Authors computation using data from EORA database. Backward and Forward Integration to Manufacturing GVCs by Sources and Destinations of Imports and Exports of Intermediate Inputs: China (1995 vs. 2015) Source: Authors computation using data from EORA database.",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF7": {
+        "fig_num": "15",
+        "text": "Percentage Rates of Backward and Forward Integration to Manufacturing GVCs by Sources and Destination of Imports and Exports of Intermediate Inputs: Western Europe (1995 vs. 2015) Source: Authors computation using data from EORA database.",
+        "uris": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "TABREF0": {
+        "content": "<table><tr><td>between country and ;</td><td colspan=\"3\">, stands for population weighted bilateral geographic</td></tr><tr><td colspan=\"2\">distance between and in kilometers;</td><td/><td>, is a dummy variable equal to unity if</td></tr><tr><td colspan=\"2\">countries and are contiguous;</td><td>,</td><td>is a dummy variable for common official or</td></tr><tr><td colspan=\"2\">primary language in countries and ;</td><td colspan=\"2\">, is a dummy variable equal to one if country was</td></tr><tr><td>ever a colony of country ;</td><td colspan=\"3\">, , is a dummy variable equal to one if country and country</td></tr><tr><td colspan=\"4\">belong to a common regional trade agreement area or a monetary union;</td><td>, , is a trade</td></tr><tr><td colspan=\"4\">weighted applied tariff rate country 's exports face when shipped to country ;</td><td>, and</td></tr><tr><td colspan=\"2\">, are the GDPs of countries and ; and</td><td>,</td><td>, are outward and inward multilateral</td></tr><tr><td>resistance terms respectively.</td><td/><td/></tr></table>",
+        "text": "country to country in year , measuring the extent of forward integration in the bilateral trade",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF1": {
+        "content": "<table><tr><td>includes the following: (a) Benin, The Gambia, Liberia, Madagascar, Malawi, Mozambique,</td></tr><tr><td>Senegal, and Zimbabwe, all in Southern Africa and West Africa, and (b) Burundi, Eritrea, Ethiopia,</td></tr><tr><td>Rwanda, Somalia, Sudan, Tanzania, and Uganda in East Africa.</td></tr><tr><td>Indicators of GVC linkages are analyzed at the group and country levels by benchmarking</td></tr><tr><td>observations against those of external comparators comprising Bangladesh, Cambodia,</td></tr><tr><td>Indonesia, and Vietnam. These countries have been chosen for the benchmark group for being</td></tr><tr><td>comparable to the larger countries in the region in terms of population size and incomes per</td></tr><tr><td>capita and for being in the process of industrializing in some sense. Their population sizes in 2017</td></tr><tr><td>The list of oil exporting countries includes Angola, Cameroon, Chad, Equatorial Guinea,</td></tr><tr><td>Gabon, Nigeria, and the Republic of Congo. The other (non-oil) resource-rich economies are</td></tr><tr><td>Botswana, Burkina Faso, Central African Republic, Democratic Republic of Congo, Ghana, Guinea,</td></tr><tr><td>Mali, Namibia, Niger, Sierra Leone, South Africa, and Zambia. There are no low-income countries</td></tr><tr><td>among resource rich countries. The fact that all economies in the group are middle income largely</td></tr><tr><td>obviates the need to sub-classify within the category in terms of per capita income.</td></tr></table>",
+        "text": "The following are middle-income countries among those that are not rich in natural resources: Cabo Verde, C\u00f4te d'Ivoire, Kenya, Lesotho, Mauritius, S\u00e3o Tom\u00e9 and Pr\u00edncipe, the Seychelles, and Eswatini. The list of low-income economies in the non-resource rich group",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF2": {
+        "content": "<table/>",
+        "text": "As a group, the external comparators have quite high rates of linkage to manufacturing GVCs across six major markets of international trade, namely, Western Europe, the United States, China, India, the rest of East Asia and Germany within Western Europe. In 2015, the group's overall linkage rate along manufacturing GVCs was highest with India at about 85%, China at 76%,",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF3": {
+        "content": "<table/>",
+        "text": "The group's linkage rates to manufactured exports of Western Europe and the United States are also only about half of the corresponding linkage rates of the external comparators. Yet, very much like the case of the comparator group, linkages of the non-resource rich group to manufactured exports of Western Europe and the United States are predominantly downstream.Further, as in the case of the benchmark group, linkages of non-resource rich countries to manufactured exports of China and India developed in the past 20 years, during which downstream linkages to exports of Western Europe and the United States also increased significantly while upstream linkages to the two regions decreased.",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF4": {
+        "content": "<table><tr><td>We should note that our data on China's linkages across manufacturing GVCs are</td></tr><tr><td>incomplete in that we do not have entries on that country's downstream linkages to</td></tr></table>",
+        "text": "also shows that the linkages of oil exporters with the major hubs of manufacturing GVCs are overwhelmingly downstream. Indeed, while a significant share of those rates reflects upstream linkages with China, very few of the linkages with Western Europe, the rest of East Asia and the United States relate to imports of inputs for the group's manufactured exports. As in the cases of the external comparators and the rest of the region, nearly all oil exporters' linkages to manufactured exports of China and India developed over the past 20 years, during which the group's upstream linkages with Western Europe and the United States declined substantially. Figures 14 and 15 provide a sense of the relative weight of Africa and the four external comparators as links to manufacturing GVCs from the standpoints of the economies of China and Western Europe, that is, as sources and destination of manufactured intermediate input to and from those two major hubs of global trade.",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF5": {
+        "content": "<table><tr><td>Western Europe's linkages to Germany's manufactured exports were predominantly</td></tr><tr><td>downstream but included a large upstream component. The region's linkages to manufactured</td></tr><tr><td>exports of China, the United States, and India were almost evenly divided between upstream and</td></tr><tr><td>downstream components with upstream linkages being slightly higher. Upstream and</td></tr><tr><td>downstream linkages of Western Europe's to US manufactured exports and the upstream</td></tr><tr><td>linkages to Germany's manufactured exports have declined significantly in the past 20 years,</td></tr><tr><td>during which the downstream linkage to German exports has grown by an even larger amount,</td></tr><tr><td>and the region's linkages with manufactured exports of China and India developing over the</td></tr><tr><td>period.</td></tr></table>",
+        "text": "that Africa does not account for a significant share of exports of manufactured intermediate inputs from Western Europe in comparison with China, India or the four comparators just as it is not as important a source of Western Europe's imports of inputs to its manufactured exports. Figure 15 also shows that in 2015 Western Europe's highest linkagesacross manufacturing GVCs were with Germany, the exports of which constituted the import content and indirect exports of that region's total manufactured exports. Western Europe's linkages were also high with manufactured exports of China and those of the United States at 34% and 25% respectively that year. At 8%, the region's linkages with India's manufactured exports were smaller but still substantial. By contrast, West European manufactured exports have had relatively few linkages with Africa and the four external comparators.",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF6": {
+        "content": "<table/>",
+        "text": "The current geographic configuration of these linkages evolved over the last 25 years, during which linkages of China and India to the United States, Western Europe, and the rest of the developing world developed. The paper shows that Africa accounts only for a tiny fraction of the volume of trade in manufactures of any one of China, Western Europe, or the United States, with linkage rates to Africa along manufacturing GVCs consequently being extremely low. Yet Africa's manufacturing GVC linkage rate with the three larger economies is comparable to the corresponding linkage rates to economies of other developing regions including the external comparators namely, Bangladesh, Cambodia, Indonesia, and Vietnam.",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF7": {
+        "content": "<table><tr><td colspan=\"11\">Table 1. Import of Foreign Value-added (FVA) by Source (based on 5-year interval)</td></tr><tr><td/><td/><td/><td/><td>(1)</td><td/><td/><td>(2)</td><td/><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td/><td/><td/><td/><td>All</td><td colspan=\"3\">Oil Exporters</td><td colspan=\"3\">Non-Oil Exporters</td><td>Resource Poor</td><td>Benchmarks</td></tr><tr><td colspan=\"2\">Log (Distance)</td><td/><td/><td>-0.411 ***</td><td/><td/><td>-0.059</td><td/><td>-0.079</td><td>-0.517 ***</td><td>-0.701 **</td></tr><tr><td/><td/><td/><td/><td>(0.090)</td><td/><td/><td>(0.339)</td><td/><td>(0.185)</td><td>(0.112)</td><td>(0.278)</td></tr><tr><td colspan=\"3\">Log (1 + Tariff)</td><td/><td>-1.297 ***</td><td/><td colspan=\"2\">-0.418 **</td><td colspan=\"2\">-1.274 ***</td><td>-1.657 ***</td><td>-1.711 *</td></tr><tr><td/><td/><td/><td/><td>(0.303)</td><td/><td/><td>(0.210)</td><td/><td>(0.488)</td><td>(0.360)</td><td>(0.992)</td></tr><tr><td colspan=\"2\">Contiguity</td><td/><td/><td>0.921 ***</td><td/><td/><td>1.230 *</td><td/><td>1.289 ***</td><td>0.757 **</td><td>-0.324</td></tr><tr><td/><td/><td/><td/><td>(0.252)</td><td/><td/><td>(0.661)</td><td/><td>(0.385)</td><td>(0.373)</td><td>(0.623)</td></tr><tr><td colspan=\"3\">Common Language</td><td/><td>0.445 ***</td><td/><td/><td>0.348</td><td/><td>0.442 ***</td><td>0.463 ***</td><td>0.000</td></tr><tr><td/><td/><td/><td/><td>(0.087)</td><td/><td/><td>(0.238)</td><td/><td>(0.156)</td><td>(0.116)</td><td>(.)</td></tr><tr><td colspan=\"6\">West Europe Common Colonizer East Asia Benchmark NRR oil Exporters -0.322 *** (0.107) Common Currency -0.143</td><td colspan=\"2\">NRR Non-Oil Exporters -0.592 ** (0.265) 0.229</td><td>Resource Poor</td><td>Sub -0.470 ** Saharan (0.215) Africa 0.040</td><td>India</td><td>USA -0.261 ** Germany (0.133) -0.132</td><td>-0.373 (0.244) 0.000</td></tr><tr><td/><td/><td/><td colspan=\"5\">Backward Integration (2015) (0.211) (0.558)</td><td colspan=\"3\">Forward Integration (2015) (0.377)</td><td>(0.288)</td><td>(.)</td></tr><tr><td colspan=\"3\">RTA Membership</td><td colspan=\"3\">\u0394 GVC (2015/1995) 0.524 ***</td><td/><td>0.403</td><td colspan=\"3\">\u0394 Backward Integration (2015/1995) 0.502 *** 0.544 ***</td><td>0.483</td></tr><tr><td colspan=\"3\">Western Europe</td><td colspan=\"5\">\u0394 Forward Integration (2015/1995) (0.117) (0.392) 2.760 *** 3.193 ***</td><td colspan=\"2\">(0.168) GVC (2015) 2.513 ***</td><td>(0.175) 2.742 ***</td><td>(0.370) 2.768 ***</td></tr><tr><td/><td/><td/><td/><td>(0.127)</td><td/><td/><td>(0.459)</td><td/><td>(0.225)</td><td>(0.166)</td><td>(0.280)</td></tr><tr><td colspan=\"3\">Eastern Europe</td><td/><td>1.200 ***</td><td/><td colspan=\"2\">1.821 ***</td><td/><td>0.753 **</td><td>1.266 ***</td><td>0.051</td></tr><tr><td/><td/><td/><td/><td>(0.173)</td><td/><td/><td>(0.503)</td><td/><td>(0.355)</td><td>(0.207)</td><td>(0.438)</td></tr><tr><td colspan=\"3\">North America</td><td/><td>3.237 ***</td><td/><td colspan=\"2\">3.245 ***</td><td/><td>2.789 ***</td><td>3.300 ***</td><td>3.853 ***</td></tr><tr><td/><td/><td/><td/><td>(0.218)</td><td/><td/><td>(0.748)</td><td/><td>(0.422)</td><td>(0.276)</td><td>(0.519)</td></tr><tr><td>China</td><td/><td/><td/><td>4.597 ***</td><td/><td colspan=\"2\">4.199 ***</td><td/><td>3.958 ***</td><td>4.813 ***</td><td>4.217 ***</td></tr><tr><td>70.00 100.00 90.00 Japan 80.00</td><td/><td/><td/><td>(0.174) 4.304 *** (0.167)</td><td/><td colspan=\"2\">(0.690) 4.136 *** (0.708)</td><td/><td>(0.314) 3.793 *** (0.331)</td><td>(0.221) 4.385 *** (0.205)</td><td>87.1</td><td>(0.595) 4.091 *** (0.504)</td></tr><tr><td colspan=\"2\">0.00 30.00 60.00 East Asia 50.00 40.00 India 20.00 10.00 South Asia</td><td>1.9</td><td>1.0</td><td>0.5 2.268 *** (0.151) 3.850 *** (0.182) 0.551 ***</td><td colspan=\"3\">0.4 1.889 *** 0.1 (0.627) 3.241 *** (0.634) 0.350</td><td>0.2</td><td>33.7 1.840 *** (0.318) 3.333 *** (0.306) 0.290</td><td>8.0</td><td>25.3 2.372 *** (0.180) 4.087 *** (0.230) 0.589 ***</td><td>1.741 *** (0.438) 3.901 *** (0.624) -0.331</td></tr><tr><td>-10.00 -20.00 LAC</td><td colspan=\"4\">East Asia Benchmark NRR oil (0.160) Exporters 1.112 *** (0.163)</td><td colspan=\"2\">NRR Non-Oil Exporters</td><td>Resource (0.525) Poor 0.637 (0.621)</td><td>Sub Saharan Africa</td><td>China (0.332) 0.704 ** (0.324)</td><td>India</td><td>USA (0.194) 1.285 *** Germany (0.199)</td><td>(0.518) 0.903 *** (0.309)</td></tr><tr><td>MENA</td><td/><td/><td colspan=\"5\">Backward Integration (2015) 1.030 *** 1.031 ***</td><td colspan=\"3\">Forward Integration (2015) 1.070 ***</td><td>0.971 ***</td><td>1.368 ***</td></tr><tr><td/><td/><td/><td colspan=\"3\">\u0394 GVC (2015/1995) (0.103)</td><td/><td>(0.347)</td><td colspan=\"3\">\u0394 Backward Integration (2015/1995) (0.198) (0.129)</td><td>(0.237)</td></tr><tr><td colspan=\"2\">Observations Adjusted R 2</td><td/><td colspan=\"5\">\u0394 Forward Integration (2015/1995) 7351 646 0.531 0.590</td><td colspan=\"2\">2206 GVC (2015) 0.573</td><td>4499 0.489</td><td>1607 0.527</td></tr><tr><td colspan=\"2\">F-Statistic</td><td/><td/><td>204.216</td><td/><td/><td>25.082</td><td/><td>75.975</td><td>126.406</td><td>34.257</td></tr><tr><td>P-value</td><td/><td/><td/><td>0.000</td><td/><td/><td>0.000</td><td/><td>0.000</td><td>0.000</td><td>0.000</td></tr></table>",
+        "text": "Standard errors in parentheses. Standard errors are clustered at exporter-importer pairs. Exporter-year fixed effects are included in the regressions. The regression is run on data for the whole sectors combined. Column (1) does not include the benchmark countries. To avoid dummy variable trap, the SSA region is excluded from the regressions.",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF8": {
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td/><td>All</td><td colspan=\"3\">Oil Exporters Non-Oil Exporters Resource Poor</td><td>Benchmarks</td></tr><tr><td>Log (Distance)</td><td>-0.256 ***</td><td>-0.453</td><td>-0.244</td><td>-0.197 **</td><td>-0.654 **</td></tr><tr><td/><td>(0.076)</td><td>(0.335)</td><td>(0.164)</td><td>(0.090)</td><td>(0.263)</td></tr><tr><td>Log (1 + Tariff)</td><td>-1.325 ***</td><td>-1.378 ***</td><td>-0.962</td><td>-1.394 ***</td><td>-2.103 **</td></tr><tr><td/><td>(0.241)</td><td>(0.528)</td><td>(0.637)</td><td>(0.256)</td><td>(1.026)</td></tr><tr><td>Contiguity</td><td>0.808 ***</td><td>1.170 **</td><td>0.928 ***</td><td>0.829 ***</td><td>-0.445</td></tr><tr><td/><td>(0.197)</td><td>(0.533)</td><td>(0.323)</td><td>(0.278)</td><td>(0.763)</td></tr><tr><td>Common Language</td><td>0.360 ***</td><td>0.266</td><td>0.319 **</td><td>0.396 ***</td><td>0.000</td></tr><tr><td/><td>(0.074)</td><td>(0.227)</td><td>(0.141)</td><td>(0.093)</td><td>(.)</td></tr><tr><td>Common Colonizer</td><td>-0.234 ***</td><td>-0.694 **</td><td>-0.406 **</td><td>-0.137</td><td>-0.681 ***</td></tr><tr><td/><td>(0.083)</td><td>(0.294)</td><td>(0.164)</td><td>(0.102)</td><td>(0.258)</td></tr><tr><td>Common Currency</td><td>-0.133</td><td>0.347</td><td>-0.361</td><td>0.342</td><td>0.000</td></tr><tr><td/><td>(0.165)</td><td>(0.470)</td><td>(0.244)</td><td>(0.244)</td><td>(.)</td></tr><tr><td>RTA Membership</td><td>0.632 ***</td><td>0.250</td><td>0.443 **</td><td>0.747 ***</td><td>0.378</td></tr><tr><td/><td>(0.102)</td><td>(0.271)</td><td>(0.176)</td><td>(0.139)</td><td>(0.416)</td></tr><tr><td>Western Europe</td><td>3.235 ***</td><td>4.548 ***</td><td>3.133 ***</td><td>3.062 ***</td><td>3.775 ***</td></tr><tr><td/><td>(0.111)</td><td>(0.394)</td><td>(0.202)</td><td>(0.143)</td><td>(0.293)</td></tr><tr><td>Eastern Europe</td><td>1.736 ***</td><td>2.103 ***</td><td>1.587 ***</td><td>1.733 ***</td><td>1.096 ***</td></tr><tr><td/><td>(0.139)</td><td>(0.490)</td><td>(0.271)</td><td>(0.174)</td><td>(0.368)</td></tr><tr><td>North America</td><td>3.374 ***</td><td>5.460 ***</td><td>3.269 ***</td><td>3.046 ***</td><td>4.299 ***</td></tr><tr><td/><td>(0.174)</td><td>(0.678)</td><td>(0.333)</td><td>(0.214)</td><td>(0.558)</td></tr><tr><td>China</td><td>4.301 ***</td><td>6.541 ***</td><td>4.023 ***</td><td>4.044 ***</td><td>4.635 ***</td></tr><tr><td/><td>(0.176)</td><td>(0.594)</td><td>(0.341)</td><td>(0.203)</td><td>(0.479)</td></tr><tr><td>Japan</td><td>3.911 ***</td><td>5.377 ***</td><td>3.792 ***</td><td>3.693 ***</td><td>4.060 ***</td></tr><tr><td/><td>(0.175)</td><td>(0.670)</td><td>(0.343)</td><td>(0.218)</td><td>(0.362)</td></tr><tr><td>East Asia</td><td>2.628 ***</td><td>3.957 ***</td><td>2.461 ***</td><td>2.467 ***</td><td>2.212 ***</td></tr><tr><td/><td>(0.132)</td><td>(0.597)</td><td>(0.282)</td><td>(0.156)</td><td>(0.428)</td></tr><tr><td>India</td><td>3.207 ***</td><td>4.398 ***</td><td>3.020 ***</td><td>3.080 ***</td><td>3.905 ***</td></tr><tr><td/><td>(0.154)</td><td>(0.559)</td><td>(0.328)</td><td>(0.189)</td><td>(0.633)</td></tr><tr><td>South Asia</td><td>0.243 **</td><td>0.741</td><td>-0.097</td><td>0.287 *</td><td>0.360</td></tr><tr><td/><td>(0.121)</td><td>(0.456)</td><td>(0.225)</td><td>(0.151)</td><td>(0.452)</td></tr><tr><td>LAC</td><td>0.895 ***</td><td>2.079 ***</td><td>0.586 **</td><td>0.803 ***</td><td>1.221 ***</td></tr><tr><td/><td>(0.128)</td><td>(0.523)</td><td>(0.242)</td><td>(0.156)</td><td>(0.300)</td></tr><tr><td>MENA</td><td>0.763 ***</td><td>1.650 ***</td><td>0.611 ***</td><td>0.706 ***</td><td>1.206 ***</td></tr><tr><td/><td>(0.093)</td><td>(0.322)</td><td>(0.181)</td><td>(0.116)</td><td>(0.215)</td></tr><tr><td>Observations</td><td>8700</td><td>891</td><td>2617</td><td>5192</td><td>1511</td></tr><tr><td>Adjusted R 2</td><td>0.614</td><td>0.604</td><td>0.634</td><td>0.598</td><td>0.603</td></tr><tr><td>F-Statistic</td><td>201.784</td><td>81.244</td><td>67.512</td><td>115.090</td><td>60.425</td></tr><tr><td>P-value</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr></table>",
+        "text": "Indirect Value-added (DVX) of Exports by Destination (based on 5-year interval)Standard errors in parentheses. Standard errors are clustered at exporter-importer pairs. Exporter-year fixed effects are included in the regressions. The regression is run on data for the whole sectors combined. Column (1) does not include the benchmark countries. To avoid dummy variable trap, the SSA region is excluded from the regressions.",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF9": {
+        "content": "<table><tr><td/><td/><td colspan=\"3\">Resource Rich Group of Countries</td><td/><td/><td colspan=\"3\">Non-Resource Rich Countries</td><td/></tr><tr><td/><td colspan=\"2\">Oil Exporters</td><td colspan=\"3\">Non-Oil Resource Rich</td><td colspan=\"2\">Middle Income</td><td/><td>Low Income</td><td/></tr><tr><td/><td colspan=\"2\">Cameroon Nigeria</td><td>Congo,</td><td colspan=\"3\">Ghana Zambia C\u00f4te</td><td colspan=\"4\">Kenya Ethiopia Malawi Tanzania</td></tr><tr><td/><td/><td/><td>Dem. Rep.</td><td/><td/><td>d'Ivoire</td><td/><td/><td/><td/></tr><tr><td>Full sample:</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td># Survey waves</td><td>3</td><td>3</td><td>3</td><td>2</td><td>3</td><td>2</td><td>2</td><td>2</td><td>3</td><td>2</td></tr><tr><td>available</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td># Survey waves used</td><td>3</td><td>3</td><td>2*</td><td>2</td><td>2*</td><td>2</td><td>2</td><td>2</td><td>2*</td><td>2</td></tr><tr><td># Observations</td><td>931</td><td>8220</td><td>888</td><td>1214</td><td>1204</td><td>887</td><td>1438</td><td>1492</td><td>673</td><td>1232</td></tr><tr><td># Enterprises</td><td>799</td><td>7619</td><td>673</td><td>1166</td><td>1052</td><td>742</td><td>1199</td><td>1120</td><td>582</td><td>1117</td></tr><tr><td># Exporters</td><td>192</td><td>608</td><td>72</td><td>207</td><td>185</td><td>99</td><td>437</td><td>129</td><td>86</td><td>182</td></tr><tr><td># Importers</td><td>379</td><td>1024</td><td>160</td><td>379</td><td>425</td><td>217</td><td>415</td><td>270</td><td>158</td><td>337</td></tr><tr><td># Exporters or</td><td>434</td><td>1417</td><td>230</td><td>466</td><td>511</td><td>258</td><td>587</td><td>344</td><td>193</td><td>430</td></tr><tr><td>importers</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td># Exporters and</td><td>133</td><td>207</td><td>26</td><td>118</td><td>92</td><td>52</td><td>259</td><td>52</td><td>47</td><td>88</td></tr><tr><td>importers</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td># Holders of</td><td>55</td><td>445</td><td>24</td><td>89</td><td>141</td><td>16</td><td>146</td><td>151</td><td>65</td><td>101</td></tr><tr><td>Technology Licensee</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+        "text": "Description of World Bank Enterprise Surveys on GVC Participation: Selected Countries in Sub Sharan Africa",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF10": {
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr><tr><td/><td>Bangladesh</td><td>Cambodia</td><td>Indonesia</td><td>Vietnam</td></tr><tr><td>Firm Age: 5-15 Years</td><td>-0.057</td><td>0.050</td><td>0.006</td><td>0.502 **</td></tr><tr><td/><td>(0.100)</td><td>(0.039)</td><td>(0.024)</td><td>(0.237)</td></tr><tr><td>Firm Age: 15 or more Years</td><td>0.000</td><td>0.057</td><td>-0.020</td><td>0.576 **</td></tr><tr><td/><td>(.)</td><td>(0.036)</td><td>(0.024)</td><td>(0.231)</td></tr><tr><td>Firm Size: 20-100 Workers</td><td>-0.066</td><td>-0.014</td><td>0.039 ***</td><td>0.076</td></tr><tr><td/><td>(0.100)</td><td>(0.009)</td><td>(0.012)</td><td>(0.061)</td></tr><tr><td>Firm Size: 100 or more Workers</td><td>0.200</td><td>0.047</td><td>0.271 ***</td><td>0.269 ***</td></tr><tr><td/><td>(0.122)</td><td>(0.031)</td><td>(0.036)</td><td>(0.069)</td></tr><tr><td>Public Company</td><td>0.177</td><td>0.000</td><td>0.069</td><td>0.015</td></tr><tr><td/><td>(0.166)</td><td>(.)</td><td>(0.172)</td><td>(0.099)</td></tr><tr><td>Foreign Ownership</td><td>0.303 **</td><td>0.035</td><td>0.294 ***</td><td>0.252 ***</td></tr><tr><td/><td>(0.146)</td><td>(0.034)</td><td>(0.064)</td><td>(0.094)</td></tr><tr><td>Technology License</td><td>-0.000</td><td>0.040</td><td>0.036</td><td>0.070</td></tr><tr><td/><td>(0.184)</td><td>(0.045)</td><td>(0.038)</td><td>(0.097)</td></tr><tr><td>Industry:</td><td/><td/><td/><td/></tr><tr><td>Chemical &amp; Non-Metal Products</td><td>0.128</td><td>-0.003</td><td>0.034</td><td>0.158</td></tr><tr><td/><td>(0.138)</td><td>(0.023)</td><td>(0.029)</td><td>(0.110)</td></tr><tr><td>Construction</td><td/><td>-0.016</td><td>-0.241 ***</td><td/></tr><tr><td/><td/><td>(0.019)</td><td>(0.049)</td><td/></tr><tr><td>Electrical &amp; Machinery</td><td>0.173</td><td>-0.004</td><td>0.206 *</td><td>0.003</td></tr><tr><td/><td>(0.285)</td><td>(0.018)</td><td>(0.112)</td><td>(0.139)</td></tr><tr><td>Metal Products</td><td>0.009</td><td>0.004</td><td>-0.056</td><td>0.166</td></tr><tr><td/><td>(0.084)</td><td>(0.010)</td><td>(0.060)</td><td>(0.110)</td></tr><tr><td>Other Services</td><td/><td>0.003</td><td/><td/></tr><tr><td/><td/><td>(0.013)</td><td>0.052 **</td><td/></tr><tr><td/><td/><td/><td>(0.025)</td><td/></tr><tr><td>Services</td><td/><td>-0.016</td><td/><td/></tr><tr><td/><td/><td>(0.021)</td><td/><td/></tr><tr><td>Textiles &amp; Apparel</td><td>0.497 ***</td><td>0.321 ***</td><td>0.093 ***</td><td>0.449 ***</td></tr><tr><td/><td>(0.121)</td><td>(0.104)</td><td>(0.033)</td><td>(0.119)</td></tr><tr><td>Transport Equipment</td><td>0.024</td><td/><td>0.342</td><td>0.812 ***</td></tr><tr><td/><td>(0.082)</td><td/><td>(0.416)</td><td>(0.096)</td></tr><tr><td>Wood &amp; Paper</td><td/><td>0.007</td><td>0.038</td><td>0.011</td></tr><tr><td/><td/><td>(0.010)</td><td>(0.032)</td><td>(0.107)</td></tr><tr><td>Constant</td><td>0.024</td><td>-0.056 *</td><td>-0.045</td><td>-0.584 **</td></tr><tr><td/><td>(0.082)</td><td>(0.034)</td><td>(0.029)</td><td>(0.252)</td></tr><tr><td>Observations</td><td>102</td><td>232</td><td>774</td><td>202</td></tr><tr><td>Adjusted R 2</td><td>0.232</td><td>0.349</td><td>0.286</td><td>0.258</td></tr></table>",
+        "text": "OLS Estimates of Linear Probability Model of a Manufacturer Being Exporter and Importer: External ComparatorsStandard errors in parentheses. Standard errors are clustered at the industry-region-firm level . * p < 0.10, ** p < 0.05, *** p < 0.01. Source: Authors estimation using data from World Bank Enterprise Surveys.",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF11": {
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td/><td colspan=\"2\">C\u00f4te d'Ivoire Kenya</td><td>Malawi</td><td>Senegal</td><td>Uganda</td></tr><tr><td>Firm Age: 5-15 Years</td><td>0.112 ***</td><td>0.150 **</td><td>0.158 **</td><td>-0.067</td><td>0.033</td></tr><tr><td/><td>(0.036)</td><td>(0.073)</td><td>(0.068)</td><td>(0.051)</td><td>(0.053)</td></tr><tr><td>Firm Age: 15 or more Years</td><td>0.008</td><td>0.217 ***</td><td>0.047</td><td>-0.099 *</td><td>0.100</td></tr><tr><td/><td>(0.035)</td><td>(0.064)</td><td>(0.064)</td><td>(0.054)</td><td>(0.070)</td></tr><tr><td>Firm Size: 20-100 Workers</td><td>0.077</td><td>0.146 ***</td><td>0.091 *</td><td>0.123 **</td><td>0.027</td></tr><tr><td/><td>(0.048)</td><td>(0.047)</td><td>(0.047)</td><td>(0.060)</td><td>(0.046)</td></tr><tr><td>Firm Size: 100 or more</td><td>0.232 ***</td><td>0.429 ***</td><td>0.309 ***</td><td>0.445 ***</td><td>0.310 ***</td></tr><tr><td>Workers</td><td/><td/><td/><td/><td/></tr><tr><td/><td>(0.077)</td><td>(0.058)</td><td>(0.073)</td><td>(0.132)</td><td>(0.105)</td></tr><tr><td>Foreign Ownership</td><td>0.073</td><td>0.201 ***</td><td>0.121 *</td><td>0.118</td><td>0.158 *</td></tr><tr><td/><td>(0.053)</td><td>(0.067)</td><td>(0.071)</td><td>(0.130)</td><td>(0.087)</td></tr><tr><td>Technology License</td><td>0.100</td><td>0.100 *</td><td>0.095</td><td>0.103</td><td>0.168 **</td></tr><tr><td/><td>(0.125)</td><td>(0.057)</td><td>(0.073)</td><td>(0.063)</td><td>(0.083)</td></tr><tr><td>Industry:</td><td/><td/><td/><td/><td/></tr><tr><td>Textiles &amp; Apparel</td><td>0.032</td><td>0.161 **</td><td>0.135</td><td>0.150 ***</td><td>0.046</td></tr><tr><td/><td>(0.045)</td><td>(0.068)</td><td>(0.097)</td><td>(0.054)</td><td>(0.107)</td></tr><tr><td>Wood &amp; Paper</td><td>0.033</td><td>0.202 ***</td><td>0.011</td><td>0.103 **</td><td>-0.072</td></tr><tr><td/><td>(0.054)</td><td>(0.072)</td><td>(0.065)</td><td>(0.045)</td><td>(0.051)</td></tr><tr><td>Chemical &amp; Non-Metal</td><td>0.171 **</td><td>0.224 ***</td><td>0.049</td><td>0.067</td><td>-0.020</td></tr><tr><td>Products</td><td/><td/><td/><td/><td/></tr><tr><td/><td>(0.078)</td><td>(0.070)</td><td>(0.086)</td><td>(0.073)</td><td>(0.091)</td></tr><tr><td>Metal Products</td><td>0.140 *</td><td>0.116</td><td>0.173</td><td>0.019</td><td>0.006</td></tr><tr><td/><td>(0.084)</td><td>(0.091)</td><td>(0.143)</td><td>(0.020)</td><td>(0.064)</td></tr><tr><td>Electrical &amp; Machinery</td><td>0.066</td><td>0.240 ***</td><td>-0.100</td><td>0.210</td><td>0.017</td></tr><tr><td/><td>(0.090)</td><td>(0.081)</td><td>(0.064)</td><td>(0.182)</td><td>(0.123)</td></tr><tr><td>Transport Equipment</td><td>-0.177 **</td><td>0.043</td><td>0.304</td><td/><td/></tr><tr><td/><td>(0.083)</td><td>(0.103)</td><td>(0.268)</td><td/><td/></tr><tr><td>Other Manufacturing</td><td/><td>0.250 ***</td><td/><td/><td/></tr><tr><td/><td/><td>(0.079)</td><td/><td/><td/></tr><tr><td>Construction</td><td>-0.014</td><td/><td>-0.227 **</td><td/><td/></tr><tr><td/><td>(0.049)</td><td/><td>(0.102)</td><td/><td/></tr><tr><td>Services</td><td>-0.028</td><td/><td>0.338 *</td><td>0.029</td><td/></tr><tr><td/><td>(0.046)</td><td/><td>(0.177)</td><td>(0.042)</td><td/></tr><tr><td>Other Services</td><td>-0.012</td><td/><td>-0.022</td><td/><td/></tr><tr><td/><td>(0.074)</td><td/><td>(0.072)</td><td/><td/></tr><tr><td>Constant</td><td>-0.084 **</td><td>-0.197 ***</td><td>-0.126</td><td/><td>0.011</td></tr><tr><td/><td>(0.036)</td><td>(0.065)</td><td>(0.079)</td><td/><td>(0.062)</td></tr><tr><td>Observations</td><td>258</td><td>394</td><td>220</td><td>257</td><td>242</td></tr><tr><td>Adjusted R 2</td><td>0.199</td><td>0.249</td><td>0.202</td><td>0.226</td><td>0.193</td></tr></table>",
+        "text": "OLS Estimates of Linear Probability Model of a Manufacturer Being Exporter and Importer: Non-Resource Rich Group",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      },
+      "TABREF12": {
+        "content": "<table><tr><td/><td/><td colspan=\"2\">Non-oil Resource Rich</td><td/><td colspan=\"2\">Oil Exporters</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr><tr><td/><td>Congo,</td><td>Ghana</td><td>South</td><td>Zambia</td><td>Cameroon</td><td>Nigeria</td></tr><tr><td/><td>Dem. Rep.</td><td/><td>Africa</td><td/><td/><td/></tr><tr><td>Firm Age: 5-15 Years</td><td>-0.017</td><td>0.009</td><td>0.074</td><td>0.074 **</td><td>0.013</td><td>-0.012</td></tr><tr><td/><td>(0.023)</td><td>(0.054)</td><td>(0.065)</td><td>(0.030)</td><td>(0.076)</td><td>(0.013)</td></tr><tr><td>Firm Age: 15 or more Years</td><td>0.062 *</td><td>0.065</td><td>0.054</td><td>0.048</td><td>0.029</td><td>-0.015</td></tr><tr><td/><td>(0.035)</td><td>(0.058)</td><td>(0.058)</td><td>(0.036)</td><td>(0.076)</td><td>(0.013)</td></tr><tr><td>Firm Size: 20-100 Workers</td><td>-0.002</td><td colspan=\"2\">0.159 *** 0.134 ***</td><td>0.090 ***</td><td>0.108 **</td><td>0.006</td></tr><tr><td/><td>(0.031)</td><td>(0.048)</td><td>(0.039)</td><td>(0.028)</td><td>(0.050)</td><td>(0.009)</td></tr><tr><td>Firm Size: 100 or more Workers</td><td>0.243 ***</td><td colspan=\"2\">0.303 *** 0.109 ***</td><td>0.280 ***</td><td>0.186 ***</td><td>0.052 *</td></tr><tr><td/><td>(0.080)</td><td>(0.088)</td><td>(0.037)</td><td>(0.057)</td><td>(0.067)</td><td>(0.031)</td></tr><tr><td>Public Company</td><td>0.000</td><td>-0.096</td><td>-0.087</td><td>0.273 **</td><td>0.096</td><td>-0.105</td></tr><tr><td/><td>(.)</td><td>(0.204)</td><td>(0.089)</td><td>(0.131)</td><td>(0.094)</td><td>(0.091)</td></tr><tr><td>Foreign Ownership</td><td>0.022</td><td>0.170 **</td><td>0.045</td><td>0.135 ***</td><td>0.332 ***</td><td>0.422 ***</td></tr><tr><td/><td>(0.052)</td><td>(0.070)</td><td>(0.057)</td><td>(0.039)</td><td>(0.067)</td><td>(0.047)</td></tr><tr><td>Technology License</td><td>0.073</td><td>0.073</td><td>0.126 **</td><td>-0.003</td><td>0.195 ***</td><td>0.033 **</td></tr><tr><td/><td>(0.081)</td><td>(0.062)</td><td>(0.055)</td><td>(0.036)</td><td>(0.075)</td><td>(0.016)</td></tr><tr><td>Industry:</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Textiles &amp; Apparel</td><td>0.006</td><td>0.088</td><td>-0.019</td><td>0.051</td><td>-0.038</td><td>0.026 *</td></tr><tr><td/><td>(0.041)</td><td>(0.081)</td><td>(0.062)</td><td>(0.040)</td><td>(0.064)</td><td>(0.014)</td></tr><tr><td>Wood &amp; Paper</td><td>-0.045</td><td>-0.033</td><td>-0.014</td><td>-0.032</td><td>0.033</td><td>0.004</td></tr><tr><td/><td>(0.034)</td><td>(0.053)</td><td>(0.054)</td><td>(0.037)</td><td>(0.060)</td><td>(0.012)</td></tr><tr><td>Chemical &amp; Non-Metal</td><td>0.021</td><td>0.156 **</td><td>0.087</td><td>0.087 *</td><td>0.285 ***</td><td>0.008</td></tr><tr><td>Products</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>(0.056)</td><td>(0.075)</td><td>(0.061)</td><td>(0.051)</td><td>(0.081)</td><td>(0.014)</td></tr><tr><td>Metal Products</td><td>-0.029</td><td>-0.084</td><td>0.157 **</td><td>-0.013</td><td>0.142 *</td><td>-0.002</td></tr><tr><td/><td>(0.038)</td><td>(0.052)</td><td>(0.072)</td><td>(0.053)</td><td>(0.077)</td><td>(0.013)</td></tr><tr><td>Electrical &amp; Machinery</td><td>-0.070 **</td><td>0.114</td><td>0.100</td><td>0.113</td><td>0.056</td><td>0.032</td></tr><tr><td/><td>(0.033)</td><td>(0.153)</td><td>(0.065)</td><td>(0.076)</td><td>(0.126)</td><td>(0.044)</td></tr><tr><td>Transport Equipment</td><td>-0.088</td><td>-0.154</td><td>-0.053</td><td>0.462</td><td>-0.378</td><td>0.109</td></tr><tr><td/><td>(0.080)</td><td>(0.102)</td><td>(0.077)</td><td>(0.302)</td><td>(0.271)</td><td>(0.152)</td></tr><tr><td>Other Manufacturing</td><td>-0.055</td><td>0.151</td><td>-0.047</td><td/><td>-0.216 ***</td><td>-0.024</td></tr><tr><td/><td>(0.063)</td><td>(0.381)</td><td>(0.059)</td><td/><td>(0.064)</td><td>(0.208)</td></tr><tr><td>Construction</td><td>-0.054</td><td/><td>-0.104 ***</td><td>-0.063</td><td>-0.075</td><td>0.034</td></tr><tr><td/><td>(0.038)</td><td/><td>(0.032)</td><td>(0.065)</td><td>(0.065)</td><td>(0.097)</td></tr><tr><td>Services</td><td>-0.155</td><td/><td colspan=\"2\">-0.121 ** -0.243 ***</td><td>0.062</td><td>0.187</td></tr><tr><td/><td>(0.097)</td><td/><td>(0.053)</td><td>(0.053)</td><td>(0.174)</td><td>(0.117)</td></tr><tr><td>Other Services</td><td/><td/><td>-0.111 **</td><td/><td>0.025</td><td>0.150 ***</td></tr><tr><td/><td/><td/><td>(0.047)</td><td/><td>(0.138)</td><td>(0.051)</td></tr><tr><td>Constant</td><td>0.033</td><td>0.029</td><td>-0.087</td><td>-0.043 *</td><td>0.000</td><td>0.041 ***</td></tr><tr><td/><td>(0.033)</td><td>(0.061)</td><td>(0.056)</td><td>(0.026)</td><td>(0.083)</td><td>(0.014)</td></tr><tr><td>Observations</td><td>349</td><td>363</td><td>361</td><td>658</td><td>325</td><td>3390</td></tr><tr><td>Adjusted R 2</td><td>0.147</td><td>0.214</td><td>0.037</td><td>0.153</td><td>0.268</td><td>0.133</td></tr></table>",
+        "text": "OLS Estimates of a Linear Probability Model of a Manufacturer Being Exporter and Importer: Non-Oil-Resource Rich Group",
+        "html": null,
+        "type_str": "table",
+        "num": null
+      }
+    }
+  }
+}

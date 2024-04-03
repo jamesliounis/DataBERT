@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06983: This is also reflected in our survey data from Bhopal.\n\ns_07033: Graph VI.1b Imports of Non Sports Footwear 1995 1996 1997 1998 1999 2000 2001 2002 2003 Mill.\n\ns_07083: Most of these are in the tradition of Barro and Sala-i-Martin (1991) , and are concerned with the detection of convergence in per capita income levels or growth rates across the subnational units.\n\ns_07133: To test these hypotheses, we create a unique database using a number of data sources.\n\ns_07183: On the other hand, a joint test shows that the age dummies are clearly significant (p-value: <0.001).6 In a similar regression that includes a dummy variable for baseline enrollment and the interaction between baseline enrollment and lottery winners, the coefficients on both variables are insignificant individually and jointly.\n\ns_07233: Table 3 displays the GATS commitment indices for these 4 sub-groups of transition economies, using the same methodology as in tables 1 and 2.\n\ns_07283: Since the data set has detailed information about the plan and the market prices of the two primary materials while it does not tell about those of energy and other intermediate inputs, the computation of the price indexes for intermediate inputs is based on the assumption that the inflation rate for intermediate inputs were the same as that of materials.\n\ns_07333: This part of our work was in part sparked by a Japanese contribution to the WTO 7 discussion that brought forward the idea that institutions have comparative advantages, their different structures and capacities should be taken into account in determining which of the international community's different instruments are best suited to different parts of the development challenge.\n\ns_07383: To corroborate, for example, the elasticities are 0.293 and 0.122 for precipitation and research/ha, respectively, in Peterson (1978) .\n\ns_07433: The second section of the paper sets the stage by presenting the facts; that is, it analyzes the allocation of grants and bilateral ODA debt forgiveness during 1984-93 to the 32 countries in our sample.\n\ns_07483: (Trends in pensions 1992, Table 9 .16).\n\ns_07533: Akiyam., T. and D. Larson.\n\ns_07583: Data in Table 6 show a rising trend for coal prices paid by electric power plants beginning as early as 1978/79.\n\ns_07633: As mentioned earlier, the innovation under the so-called Brady Plan was to formally include official sector support in financing packages such as the one shown above.\n\ns_07683: Calculations are discussed in the text.\n\ns_07733: Any study that aims to understand the macroeconomy by examining the data available must take the parallel economy and the effect of the black market premium on macroeconomic variables into account.\n\ns_07783: The diagnostic techniques involve searching the data for single observations or sets of observations that differ significantly from the 'average' data point and may have an excessive influence on the regression results.\n\ns_07883: This is a general issue that is relevant to the current effective tax rate literature as applied to LDCs.\n\ns_07933: In addition to the research in Onitsha--part of which is presented in this paper--surveys were conducted in Enugu and in rural areas in collaboration with the Department of Economics, University of Nigeria, Nsukka.\n\ns_07983: As Laeven (2004) notes, the introduction and design of a DIS is usually the outcome of a complex interplay between various political constituencies and stakeholders with often conflicting interests.\n\ns_08033: However, one may be concerned that the inclusion of income and household characteristics which may partly determine 20 Lampietti, Julian, Anthony Kolb, Sumila Gulyani, and Vahram Avenesyan (2001) .\n\ns_08083: 3 The rest of the paper is organized as follows.\n\ns_08133: The source is Malanima (2006: p. 31) , who uses the tax census data from 1811.\n\ns_08183: This result is mainly driven by a positive correlation between initial wealth and other individual characteristics, as implied by the model-estimation procedure."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7J8M8jhQKo8HfL9whd5fJhAhLk5",
+    "object": "chat.completion",
+    "created": 1682884054,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1161,
+      "completion_tokens": 122,
+      "total_tokens": 1283
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07133\", \"data_mentioned\": true, \"reason\": \"database\"}, {\"sent_id\": \"s_07433\", \"data_mentioned\": true, \"reason\": \"sample\"}, {\"sent_id\": \"s_07583\", \"data_mentioned\": true, \"reason\": \"Table 6\"}, {\"sent_id\": \"s_07933\", \"data_mentioned\": true, \"reason\": \"surveys\"}, {\"sent_id\": \"s_08133\", \"data_mentioned\": true, \"reason\": \"tax census data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07133\", \"data_mentioned\": true, \"reason\": \"database\"}, {\"sent_id\": \"s_07433\", \"data_mentioned\": true, \"reason\": \"sample\"}, {\"sent_id\": \"s_07583\", \"data_mentioned\": true, \"reason\": \"Table 6\"}, {\"sent_id\": \"s_07933\", \"data_mentioned\": true, \"reason\": \"surveys\"}, {\"sent_id\": \"s_08133\", \"data_mentioned\": true, \"reason\": \"tax census data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

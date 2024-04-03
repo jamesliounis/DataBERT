@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_00652: [2007] and de Boyer Mont egut et al.\n\ns_00702: Scientists have\nTo address some of these problems, Lefohn and tried to determine the various parameters of ozone Runeckles (1987) proposed a cumulative exposure exposure that are most important to plants includ-index (CEI) that weights each hourly reading acing level of exposure, hour of the day, duration cording to a sigmoidal weighting scheme.\n\ns_00752: Additionally, by replicating the methodological approach utilized by Quinn and Cooc (2015), we respond to increased calls for replication in the educational research literature (Makel & Plucker, 2014).\n\ns_00802: The aim of this study was to determine what may be learned about system-wide change from an exploration of the LLP.\n\ns_00852: They use native and tame grasslands, pastures, hayland, cropland, deserts, riparian areas, irrigated agriculture, and shrubsteppe (Stewart, 1975; Woffinden, 1975; Powers and Craig, 1976; Fitzner, and others, 1977; Blair, 1978; Wakeley, 1978; Johnsgard, 1979; Lardy, 1980; Schmidt, 1981; Gilmer and Stewart, 1983; Green and Morrison, 1983; Konrad and Gilmer, 1986; Kimsey and Conley, 1988; MacLaren and others, 1988; Roth and Marzluff, 1989; Bechard and others, 1990; Black, 1992; Niemuth, 1992; Faanes and Lingle, 1995; Houston, 1995; Zelenak and Rotella, 1997; Leary and others, 1998; McConnell and others, 2008; Ng and others, 2017) .\n\ns_00902: \", and \"larger than pMCI?\".\n\ns_00952: In Section 4 we draw our conclusions and discuss the implications of our findings.\n\ns_01002: The problem when using this model is the determination of the accommodation coefficient.\n\ns_01052: With the Tukey-Kramer test, two means are significantly different from each other when ( ) where i y and j y are the means for group i and j, s is the root mean square error also known as the pooled standard deviation, n i and n j are the number of observations in the ith and jth group, and ( ; , ) q k v \u03b1 is the critical value for the studentized distribution of k normally distributed variables with v degrees of freedom at the \u03b1 significance level.\n\ns_01102: With the aforementioned specifications in mind, we estimated a series of regression models (one for each outcome) separately by age cohort.\n\ns_01152: In the following sections, we present current research progress in three TC basins.\n\ns_01202: As examples of this, we used the meta-database to examine the placebo arm of a clinical trial restricted to more severe samples and to less severe samples (Box 1).\n\ns_01252: When data is collected with the aims to prepare a composite digital literacy index, the relevant sets of data describing the discipline are better referred to as dimensions.\n\ns_01302: Accordingly, most recent population-based research has used different survey instruments to define the presence of mood and anxiety disorders based on these criteria, either in the form of a categorical diagnosis or as symptom severity levels on a unidimensional scale.\n\ns_01352: 23, 24 This also suggests that overfitting may be taking place; which is when a machine learning model is fitted to noise in the data rather than to an underlying pattern of interest.\n\ns_01402: The reconstructed JES SSTA data are analyzed using the CEOF analysis.\n\ns_01452: Finally, the data set we received from NIH did not include the amount of funding requested.\n\ns_01502: Th e climate conditions driving the standalone GOSSYM simulation were taken from the North American Regional Reanalysis (NARR) (Mesinger et al., 2006) .\n\ns_01552: As shown in Figure 6 , the hypothetical computational period for evaluation of the To uc hi en F e n g sh a n\n\ns_01602: (which was not certified by peer review)\nThe copyright holder for this preprint this version posted June 29, 2020. .\n\ns_01652: As indicated in the section on image acquisition, results are also influenced by the choice of imaging parameters, and so tissue contrast and spatial resolution should be optimized.\n\ns_01702: This report adheres to the Strengthening the Reporting of Observational Studies in Epidemiology guidelines.\n\ns_01752: Such multi-source data are also common for electronic medical record (EMR) systems adopted by most health care and medical facilities nowadays, which contain diverse-source patient information, e.g., demographics, medication status, laboratory tests, medical imaging and text notes.\n\ns_01802: We will use 2005-2009 American Community Survey (ACS) to obtain a set of social indicators and apply principal component analysis to reduce the total number of variables.\n\ns_01852: The conceptualization of one juncturebeing academically prepared for collegeis based on previous work with the NELS data."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7KY43eo516P0GPBrTVxMS4jLFjt",
+    "object": "chat.completion",
+    "created": 1682884142,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1385,
+      "completion_tokens": 66,
+      "total_tokens": 1451
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01502\", \"data_mentioned\": true, \"reason\": \"North American Regional Reanalysis (NARR)\"}, {\"sent_id\": \"s_01802\", \"data_mentioned\": true, \"reason\": \"2005-2009 American Community Survey (ACS)\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01502\", \"data_mentioned\": true, \"reason\": \"North American Regional Reanalysis (NARR)\"}, {\"sent_id\": \"s_01802\", \"data_mentioned\": true, \"reason\": \"2005-2009 American Community Survey (ACS)\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

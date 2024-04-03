@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04581: 11 The common practice in this emerging literature (e.g., Owyang Based on the median value of x during expansions and recessions, we capture the median recession using I(:) = 0:7 (and, thus, 1 I(:) = 0:3).\n\ns_04631: First, the paper analyzes the relationship between early risks and outcomes and circumstances at birth and compares the distributions of outcomes across circumstance groups.\n\ns_04681: This result, coupled with the empirical findings of Bilir et al.\n\ns_04731: In households where the mother had benefited from the HSAA, females spent some 34% more on study (col. 7) and 12% less on household chores (col. 4) than male siblings if other factors are controlled for.\n\ns_04781: In related work, Paulson and Townsend (2001) estimate with the same data as here a version of the Evans and Jovanovic (1989) model allowing the mean of unobserved ability to be a linear function of wealth and education They find the magnitude of both coefficients to be small 8 .\n\ns_04831: The benchmark estimation result is provided in column 2 of table 3 where we now include the composition of government spending -the share of spending on social and public goods.\n\ns_04881: Other explanatory variables included in X are summarized in Table 3 .\n\ns_04931: For all but the mobile phone data, our data base is organized as an unbalanced panel with observations every 5 years from 1960 to 2000 and includes all independent low, middle and high income countries with population of more than 500,000 in 2000 for which data was available (113 countries).\n\ns_04981: Unless otherwise stated, the data sources and country coverage are given in the Appendix.\n\ns_05031: Thus in Table 3a we report the results of two separate logit regressions.\n\ns_05081: The resulting data are nationally representative after the application of sample weights.\n\ns_05131: The labor share of income for Bangladesh as sourced from the GTAP database is close but somewhat lower compared to the mean/median of lower-middle income countries for which the data is available in the PWT 8.1.\n\ns_05181: We examine several potential mechanisms to explain these results.\n\ns_05231: (2005),Estache and Wodon (2014) and more recentlyWhittington et al.\n\ns_05281: Section III discusses the simulations.\n\ns_05331: The table reports panel estimates with robust standard errors, using the White correction for heteroskedasticity.\n\ns_05381: Iteratively, the coefficients are updated based on re-estimation using imputed values for missing data drawn from the posterior distribution of the model.\n\ns_05431: In fact, the extent of gravity in FDI is comparable to the extent of gravity in trade that has been found in the literature (see, for example, Head and Mayer, 2013) .\n\ns_05481: The methodology is based on the application of topic-specific questionnaires to build a comprehensive data set.\n\ns_05531: We also construct indexes comparable to those thatAutor and Handel (2013) created for the US using the PDII survey.\n\ns_05581: A recently developed Global Width Database for Large Rivers (GWD-LR) is also incorporated into it (Yamazaki et al., 2011) .\n\ns_05631: Este estudio se centra en el an\u00e1lisis de la informaci\u00f3n recolectada como parte de la Encuesta de Evaluaci\u00f3n de los Hogares 2017 (ENCEL 2017) y de las rondas previas de la ENCEL y ENCASEH 1997.\n\ns_05681: Budget execution systems across all countries can be mapped into one of the above quadrants, and the challenge this paper seeks to address is how to navigate from a sub-optimal situation to the quadrant that facilitates both control and the necessary flexibility.\n\ns_05731: The rest of the paper is organized as follows.\n\ns_05781: Columns (2)-(4) show the coefficient of an OLS regression of each covariate on an indicator for the respective treatment, and the associated standard error."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7G6E0sxqmK6boVDCfTn0RUo2NCn",
+    "object": "chat.completion",
+    "created": 1682883866,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1148,
+      "completion_tokens": 158,
+      "total_tokens": 1306
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04931\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_04981\", \"data_mentioned\": true, \"reason\": \"data sources\"}, {\"sent_id\": \"s_05431\", \"data_mentioned\": true, \"reason\": \"literature\"}, {\"sent_id\": \"s_05581\", \"data_mentioned\": true, \"reason\": \"Global Width Database for Large Rivers (GWD-LR)\"}, {\"sent_id\": \"s_05631\", \"data_mentioned\": true, \"reason\": \"Encuesta de Evaluaci\u00f3n de los Hogares 2017 (ENCEL 2017) and ENCEL and ENCASEH 1997\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04931\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_04981\", \"data_mentioned\": true, \"reason\": \"data sources\"}, {\"sent_id\": \"s_05431\", \"data_mentioned\": true, \"reason\": \"literature\"}, {\"sent_id\": \"s_05581\", \"data_mentioned\": true, \"reason\": \"Global Width Database for Large Rivers (GWD-LR)\"}, {\"sent_id\": \"s_05631\", \"data_mentioned\": true, \"reason\": \"Encuesta de Evaluaci\u00f3n de los Hogares 2017 (ENCEL 2017) and ENCEL and ENCASEH 1997\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

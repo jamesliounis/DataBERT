@@ -1,0 +1,2126 @@
+{
+  "paper_id": "D5795993",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:05:11.049068Z"
+  },
+  "title": "Teacher Shocks and Student Learning",
+  "authors": [
+    {
+      "first": "James",
+      "middle": [],
+      "last": "Habyarimana",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "",
+        "institution": "Pramila Krishnan (Cambridge University",
+        "location": {}
+      },
+      "email": "jph35@georgetown.edu"
+    }
+  ],
+  "year": "2005-04-26",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "A large literature examines the link between shocks to households and the educational attainment of children.We use new data to estimate the impact of shocks to teachers on student learning in Mathematics and English. Using absenteeism in the 30 days preceding the survey as a measure of these shocks we find large impacts: A 5-percent increase in the teacher's absence rate reduces learning by 4 to 8 percent of average gains over the year. This reduction in learning achievement likely reflects both the direct effect of increased absenteeism and the indirect effects of less lesson preparation and lower teaching quality when in class. We document that health problems-primarily teachers' own illness and the illnesses of their family members-account for more than 60 percent of teacher absences; not surprising in a country struggling with an HIV/AIDS epidemic. The relationship between shocks to teachers and student learning suggests that households are unable to substitute adequately for teaching inputs. Excess teaching capacity that allows for the greater use of substitute teachers could lead to larger gains in student learning.",
+  "pdf_parse": {
+    "paper_id": "D5795993",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "A large literature examines the link between shocks to households and the educational attainment of children.We use new data to estimate the impact of shocks to teachers on student learning in Mathematics and English. Using absenteeism in the 30 days preceding the survey as a measure of these shocks we find large impacts: A 5-percent increase in the teacher's absence rate reduces learning by 4 to 8 percent of average gains over the year. This reduction in learning achievement likely reflects both the direct effect of increased absenteeism and the indirect effects of less lesson preparation and lower teaching quality when in class. We document that health problems-primarily teachers' own illness and the illnesses of their family members-account for more than 60 percent of teacher absences; not surprising in a country struggling with an HIV/AIDS epidemic. The relationship between shocks to teachers and student learning suggests that households are unable to substitute adequately for teaching inputs. Excess teaching capacity that allows for the greater use of substitute teachers could lead to larger gains in student learning.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "The relationship between schooling inputs and educational outcomes continues to receive wide attention in discussions about how to improve educational outcomes. Educational investment, particularly in poor countries, depends a good deal on publicly provided resources to schools. However, it is also influenced by inputs at the household level. For some resources, such as textbooks and other educational materials, parents are able to substitute at home what is not provided in the school. For other resources, such substitution may be harder.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Consensus is building that teachers constitute a school-level resource that parents find hard to substitute for at home. It is possible that parents do not have the time or skills to teach their children at home. Further, the agency costs of hiring teachers in a market may be high and such costs may be accentuated due to low overall levels of learning in low-income countries. Perhaps not surprisingly then, the literature consistently finds that teachers contribute significantly to levels and growth in learning achievement; however, considerable debate continues about the specific attributes of teachers that matter.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "A key problem has been identification; in particular, it is hard to separate the effects of household resources from school inputs on learning achievement. Parallel work on the contribution of households focus on how household-level shocks affect educational attainment (two examples are Jacoby and Skoufias 1997; de Janvry and others 2005). To our knowledge though, there has been little work on how school-level shocks might affect learning achievement, even though it provides a means of identifying the impact of school resources.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "We address this gap by examining the effect of shocks that teachers faced on student learning. The study focuses on Zambia, where the impact of AIDS and other illnesses seem to be the reason for much of the observed absenteeism of teachers. 1 The paper isolates the effect of the shocks that teachers face during an academic year-primarily their own illness and the illnesses of family members-on student learning. These shocks, as measured by episodes of teacher absence, led to large losses in learning achievement. A shock associated with a 5 percent increase in teacher absence reduced learning achievement by 4 to 8 percent of average gains in English and Mathematics during the academic year studied. The size of the estimated impact is substantial and, in addition to the losses due to time away from class, probably reflects lower teaching quality when in class and less lesson preparation when at home.",
+        "cite_spans": [
+          {
+            "start": 241,
+            "end": 242,
+            "text": "1",
+            "ref_id": "BIBREF0"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The impact is robust to controls for student absenteeism. The estimated impact of student absenteeism is of the same magnitude as the effect of shocks to teachers. Since every teacher teaches many students, this raises the possibility that excess teaching capacity, which allows for the greater use of substitute teachers, could significantly increase learning achievement. The protective effect of such insurance could have larger impacts on learning achievement than insuring and supporting students and their families. Moreover, in countries with a high HIV/AIDS burden, substantial welfare gains could accrue through a reduction in the frequency or impact of shocks associated with absenteeism. For example, Bell, Devarajan and Gersbach (2003) posit huge declines in human capital due to the effects of the HIV/AIDS epidemic on affected economies. The results presented in this paper provide strong micro-foundations for this assumption and challenge conclusions that find a small (or no) impact of the HIV epidemic on the education sector (Bennell 2005 ).",
+        "cite_spans": [
+          {
+            "start": 712,
+            "end": 747,
+            "text": "Bell, Devarajan and Gersbach (2003)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 1044,
+            "end": 1057,
+            "text": "(Bennell 2005",
+            "ref_id": "BIBREF2"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "To contextualize our empirical results, we present a model where households determine the optimal path of educational attainment given teacher and other school inputs (Das and others 2004) . In this framework, teachers possess three attributes-observable characteristics (age, gender and experience), unobserved non-time varying attributes (such as ability or motivation) and unobserved time varying attributes (such as the health status). As households try to optimize over future time periods, they face uncertainty related to two school-based inputs: uncertainty in the quality of the teacher (non-time varying) and timing and severity of shocks to the teacher (time-varying).",
+        "cite_spans": [
+          {
+            "start": 167,
+            "end": 188,
+            "text": "(Das and others 2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The model shows how variation in the non-time varying and time-varying attributes affect learning achievement. It thus allows us to advance the prominent role of households in determining their children's cognitive achievement. In addition, it clarifies the identification assumptions required to estimate the impact of teacher-level shocks on student learning. In particular, one contribution is to show that the impact of teacher-level shocks on learning is identified only if non-time varying heterogeneity for both students and teachers is adequately dealt with through the estimation procedure.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The empirical results are based on a rich teacher-student matched data set from Zambia that we collected in 2002. In addition to school, teacher, and student characteristics, the data include test scores for a sample of pupils over two years. This panel of test scores allows us to deal with omitted variable bias associated with student tracking, but does not account for unobserved changes in teacher characteristics. To do so, we exploit a tradition in which some teachers stay with the same student cohort throughout primary school. By restricting attention to the sample of pupils with the same teacher in both years, and this is the basis of our identification strategy, we address concerns that arise from unobserved child and teacher heterogeneity.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "For students who remained with the same teacher, there is a large and significant effect of negative shocks to the teacher on learning. This result is robust across specifications. It is also robust to a number of identification problems common to estimating the impact of school inputs on learning, which we discuss below. However, the results obtained on the sample of students who remained with the same teacher do not extend to those who switched teachers during the two years of the study. We suggest two reasons for this finding. The first is selective matching of students and teachers, and the second is higher precautionary educational spending among households whose children switched teachers. Although we are able to show that the differential impact among the movers and non-movers did not arise from differences in the sample of students, we are unable to distinguish between these two suggested channels.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The remainder of the paper is organized as follows. Section 2 reviews the literature. Section 3 outlines the theory. Section 4 presents the empirical specification and econometric concerns. Section 5 discusses the data used and section 6 presents the results and robustness tests for the sample of children who stayed with the same teacher. Section 7 focuses on the sample of children who switched teachers and section 8 concludes with some caveats and a discussion of the policy implications.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Interest in teacher attributes on student learning has recently emerged in the educational production function literature. Papers using analysis of variance techniques have shown that the variation in test scores explained by teachers is substantial. Hanushek, Kain and Rivkin (1998), using data from Tennessee schools, find evidence of significant teacher effects. Park and Hannum (2002) , using student-teacher matched data from China, find that variation due to teacher effects explains about 25 percent of variation in test scores. More traditional regression-based studies also validate this finding. Rockoff (2004) using a 12-year panel of teacher-student data from two school districts in New Jersey finds significant teacher fixed effects. A one standard deviation change in the teacher fixed effect (unobserved quality) is associated with gains in Mathematics and reading of 0.26 and 0.16 standard deviations respectively. Less is known about the specific attributes of teachers that affect student learning. Limited evidence on teacher experience and training is provided by Rockoff (2004) and Angrist and Lavy (2001) , who find that both experience and training have a positive impact on learning achievement.",
+        "cite_spans": [
+          {
+            "start": 366,
+            "end": 388,
+            "text": "Park and Hannum (2002)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 1085,
+            "end": 1099,
+            "text": "Rockoff (2004)",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 1104,
+            "end": 1127,
+            "text": "Angrist and Lavy (2001)",
+            "ref_id": "BIBREF0"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature Review",
+        "sec_num": "2"
+      },
+      {
+        "text": "Closer to the results presented here are the studies by Jacobson (1989) and Ehrenberg and others (1991) . Jacobson (1989) describes an interesting policy experiment in which a pot of money was set aside and teachers' claims on the pot were proportional to sick leave days not taken. This policy reduced the number of sick days taken by 30 percent and increased the share of teachers with perfect attendance from 8 percent to 34 percent. 2 Data was not available to evaluate the impact of this policy on student performance. Ehrenberg and others (1991) study the effect of teacher absenteeism on school level pass-rates using variation in school district leave policies as an instrument for absenteeism. They find no direct effects of absenteeism on pass-rates, although they do find that higher teacher absenteeism is associated with higher student absenteeism.",
+        "cite_spans": [
+          {
+            "start": 56,
+            "end": 71,
+            "text": "Jacobson (1989)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 76,
+            "end": 103,
+            "text": "Ehrenberg and others (1991)",
+            "ref_id": null
+          },
+          {
+            "start": 106,
+            "end": 121,
+            "text": "Jacobson (1989)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 437,
+            "end": 438,
+            "text": "2",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature Review",
+        "sec_num": "2"
+      },
+      {
+        "text": "Our paper focuses on identifying the impact of negative shocks on learning achievement using absenteeism as a plausible measure of shocks rather than the impact of absenteeism per se. Negative shocks that result in higher absenteeism may also lead to less supplementary inputs by the teacher. A teacher who is sick is likely to be absent more often and also likely to spend less time on lesson preparation. Our estimates thus capture the joint effect of absence from the classroom and lower inputs due to the shock. The policy implications (discussed below) vary accordingly.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature Review",
+        "sec_num": "2"
+      },
+      {
+        "text": "The institutional context presents another source of difference. It is likely that the nature and severity of shocks that teachers experience varies dramatically across the United States and low-income countries. In a country like Zambia, with very high HIV prevalence, shocks due to illnesses and funerals can lead to long absences and substantial declines in teaching performance. The difference in absenteeism is striking. Absence rates in U.S.-based studies of 5 percent (or in Jacobson's case an average of 7 days per year) are low compared to those in low-income countriesan ongoing study finds averages of 20 percent and above in Sub-Saharan Africa, 25 percent in India and 11 percent and above in Latin America (Chaudhury and Hammer 2005; Chaudhury and others 2004; World Bank 2003; Glewwe and others 2001). 3 In Zambia, the percentage of teachers absent from school at the time of a surprise visit was closer to 18 percent and average days of absence fall just under 21 days during the year. 4 In addition, in the U.S. the policy of providing substitute teachers minimizes disruption. Although evidence on teacher absenteeism in low income countries is sparse, the use of substitute teachers is low. Thus, both the extent of shocks and the ability of schools to cope is accentuated in our data.",
+        "cite_spans": [
+          {
+            "start": 816,
+            "end": 817,
+            "text": "3",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 1001,
+            "end": 1002,
+            "text": "4",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature Review",
+        "sec_num": "2"
+      },
+      {
+        "text": "Finally, the impact of teacher shocks is identified only for the sample of children who remained with the same teacher over two years. For children who changed teachers between the first and the second year of the study, heterogeneity in non-time varying teacher attributes such as motivation, confounds the interpretation of the estimate. This requires data that matches specific students and teachers, a requirement that is hard to fulfill in most countries; Ehrenberg and others (1991) for instance use district level data, which could partially explain the lack of a relationship between teacher absence and student learning in their study.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature Review",
+        "sec_num": "2"
+      },
+      {
+        "text": "The model is based on Das and others (2004a) . It is extended here to explicitly focus on the implications of uncertainty in teacher inputs on household decisions about educational inputs and cognitive achievement, as measured by test scores. The model assumes a household (with a single child attending school) that derives (instantaneous) utility from the cognitive achievement of the child T S and the consumption of other goods X. The household maximizes an intertemporal utility function U(.), additive over time and states of the world with discount rate \u03b2(< 1) subject to an intertemporal budget constraint (IBC) relating assets in the current period to assets in the previous period, current expenditure and current income. Finally, cognitive achievement is determined by a production function relating current achievement (T S t ) to past achievement (T S t\u22121 ), household educational inputs (z t ), teacher inputs (m t ), non-time varying child characteristics (\u00b5) and non time-varying teacher and school characteristics (\u03b7). We impose the following structure on preferences and the production function for cognitive achievement:",
+        "cite_spans": [
+          {
+            "start": 22,
+            "end": 44,
+            "text": "Das and others (2004a)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Theory",
+        "sec_num": "3"
+      },
+      {
+        "text": "[A1] Household utility is additively separable, increasing, and concave in cognitive achievement and other goods.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Theory",
+        "sec_num": "3"
+      },
+      {
+        "text": "[A2] The production function for cognitive achievement is given by T S t = F (T S t\u22121 , m t , z t , \u00b5, \u03b7) where F (.) is concave in its arguments.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Theory",
+        "sec_num": "3"
+      },
+      {
+        "text": "Max (Xt,zt) U \u03c4 = E \u03c4 T t=\u03c4 \u03b2 t\u2212\u03c4 [u(T S t ) + v(X t )] s.t.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "(1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "A t+1 = (1 + r).(A t + y t \u2212 P t X t \u2212 z t )",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "T S t = F (T S t\u22121 , m t , z t , \u00b5 t , \u03b7)",
+            "eq_num": "(3)"
+          }
+        ],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "A T +1 = 0",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "Here u and v are concave in each of its arguments. The intertemporal budget constraint (2) links asset levels A t+1 at t + 1 with initial assets A t , private spending on educational inputs z t , income y t and the consumption of other goods X t . The price of educational inputs is the numeraire, the price of other consumption goods is P t , and r is the interest rate. The production function constraint (3) dictates how inputs are converted to educational outcomes and the boundary condition (4) requires that at t = T the household must have zero assets so that all loans are paid back and there is no bequest motive. 5 We assume that teacher inputs consist of two parts, and both are outside the control of the household-inputs conditional on quality m q t and shocks to these inputs \u00b5 t . The shocks are zero in expectation (E(\u00b5 t ) = 0) so that m t = m q t + \u00b5 t . Teacher inputs conditional on quality m q t are assumed to be unknown, but at the time the household makes its decision it knows the underlying distribution of quality and the stochastic process related to \u00b5 t (but not the actual level). The two sources of uncertainty in this model are uncertainty about the quality of teachers and uncertainty about shocks to teacher inputs.",
+        "cite_spans": [
+          {
+            "start": 407,
+            "end": 410,
+            "text": "(3)",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 496,
+            "end": 499,
+            "text": "(4)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 623,
+            "end": 624,
+            "text": "5",
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "Maximization of (1) subject to (2) and (3) provides a decision rule related to T S t , characterizing the demand for cognitive achievement. To arrive at this decision rule, we define a price for cognitive achievement as the \"user-cost\" of increasing the stock in one period by one unit, i.e., the relevant (shadow) price in each period for the household. This user-cost, evaluated at period t is (see Das and others (2004a)):",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u03c0 t = 1 F zt (.) \u2212 F T S t (.) (1 + r)F z t+1 (.)",
+            "eq_num": "(5)"
+          }
+        ],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "The first term measures the cost of taking resources at t and transforming it into one extra mark in the test. When implemented through a production function, the price is no longer constant-if the production function is concave, the higher the initial levels of cognitive achievement, the greater the cost of buying an extra unit as reflected in the marginal value, F z t (.). Of the additional unit bought in period t, the amount left to sell in period t + 1 is F T St (.) and the second term thus measures the present value of how much of this one unit will be left in the next period expressed in monetary terms. The standard first-order Euler condition related to the optimal path of educational outcomes between period t and t + 1 is then:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u2202U \u2202T S t \u03c0 t = \u03b2E t \u2202U \u2202T S t+1 \u03c0 t+1",
+            "eq_num": "(6)"
+          }
+        ],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "Intuitively this expression (ignoring uncertainty for the moment) suggests that if the user-cost of test scores increases in one period t + 1 relative to t, along the optimal path this would increase the marginal utility at t + 1, so that T S t+1 will be lower. This is a standard Euler equation stating that along the optimal path, cognitive achievement will be smooth, so that the marginal utilities of educational outcomes will be equal in expectations, appropriately discounted and priced. Finally, the concavity of the production function will limit the willingness of households to boost education \"too rapidly\" since the cost is increasing in household inputs. Thus, under reasonable restrictions, the optimal path will be characterized by a gradual increase in educational achievement over time (for an explicit derivation see Deaton and Muellbauer 1980; and Foster 1995) .",
+        "cite_spans": [
+          {
+            "start": 835,
+            "end": 862,
+            "text": "Deaton and Muellbauer 1980;",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 863,
+            "end": 879,
+            "text": "and Foster 1995)",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "This general framework allows us to make predictions about the impact of information about teacher quality and of shocks to teacher inputs. First, any shock in teacher inputs will affect the path of test scores over time. Secondly, uncertainty ex ante about teacher quality may result in fluctuations ex post in outcomes. For example, if at t + 1 teacher quality is better than expected, then households will have relatively overspent on educational inputs, boosting outcomes in t + 1 beyond the anticipated smooth path. It also implies that the (ex post observable) change in teacher quality between t and t +1 matters for describing the change in outcomes and these changes should be included in an empirical specification.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "The uncertainty faced by households may also result in ex ante responses, affecting outcomes as well as the impact of shocks on outcomes. To see this, consider the first-order condition affecting choices between spending on educational inputs and on other goods before teacher quality is known. The optimal decision rule equates the marginal utility of spending on other goods to the expected value of spending on educational inputs (taking into account the intertemporal decision rule in (6)), or:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u2202U \u2202X t P t = E t\u22121 \u2202U \u2202T S t \u03c0 t",
+            "eq_num": "(7)"
+          }
+        ],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "In general, whether increased risk in teacher quality will increase or reduce household spending on educational inputs will depend on risk preferences and the nature and shape of the cognitive production function. In particular, given P t , if increasing risk increases the right-hand side of equation (7) , households will spend less on other goods X t and more on teaching inputs z t than before. Two implications emerge. First, the expected path of educational outcomes would be higher-although this will not necessarily have an impact on the changes in outcomes between two periods. Secondly, the ex post impact of shocks to teacher inputs in a particular period may be different depending on the extent of risk faced by households ex ante. 6 Appendix 2 develops the circumstances under which an increase in the ex-ante risk faced by households leads to a decrease in the impact of ex post shocks due to a commensurate increase in ex ante household investment. For the environment studied in this paper, this implies that the sample of students who switched teachers (and thus faced greater uncertainty regarding teacher quality) would be less susceptible to shocks in teacher inputs, for instance through the teacher's or her family's ill health. Note that this difference in the estimated impact of the shock arises even if movers are randomly assigned to teachers. Thus, to the extent the households increase their ex ante educational investment due to precautionary motives, we expect to find a larger coefficient of teacher-level shocks on student learning for children who stayed with the same teacher compared to children who switched. 7 8 ",
+        "cite_spans": [
+          {
+            "start": 302,
+            "end": 305,
+            "text": "(7)",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 745,
+            "end": 746,
+            "text": "6",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 1647,
+            "end": 1650,
+            "text": "7 8",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Under [A1] and [A2] the household problem is",
+        "sec_num": null
+      },
+      {
+        "text": "To derive an empirical specification, as in Das and others (2004) , the following assumptions are required.",
+        "cite_spans": [
+          {
+            "start": 44,
+            "end": 65,
+            "text": "Das and others (2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "[ A1] Household utility is additively separable and of the CRRA form.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "[",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "A2] T S t = (1 \u2212 \u03b4)T S t\u22121 + F (w t , z t , \u00b5, \u03b7)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "where the Hessian of F (.) is negative semi-definite.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "Under assumption [ A1] (6) can be written as:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "T S t T S t\u22121 \u2212\u03c1 \u03b2\u03c0 t\u22121 \u03c0 t = 1 + e t",
+            "eq_num": "(8)"
+          }
+        ],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "where e t is an expectation error, uncorrelated with information at t \u22121. Taking logs, the expression for child i is:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "ln T S it T S it\u22121 = 1 \u03c1 ln \u03b2 \u2212 1 \u03c1 ln( \u03c0 it \u03c0 it\u22121 ) + 1 \u03c1 ln(1 + e it )",
+            "eq_num": "(9)"
+          }
+        ],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "or, the growth path is determined by the path of user-costs, and a term capturing expectational surprises.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "The key issue is how changes in the two types of teacher inputs m q t and \u00b5 t impact the optimal path of cognitive achievement. To provide a direct measure of the impact of shocks in teacher inputs on the growth path of cognitive achievement, we add a direct measure of the shock in Equation 9. If there is an (unanticipated) shock \u00b5 t to teacher inputs ex post, then the change in the growth path is given by ln(",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "T S t\u22121 +\u00b5 t Fm T S t\u22121",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "), which depends on the relative size of the terms in brackets. In light of the above, our empirical specification is given by:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "ln T S ijkt T S ijkt\u22121 = \u03b1 o + \u03b1 1 \u00b5 jkt + \u03b1 2 \u2206t jkt + \u03b1 3 \u2206X jkt + {\u2206m q t + ijkt }",
+            "eq_num": "(10)"
+          }
+        ],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "where T S ijkt is the test score of child i with teacher j in school k at time t; \u00b5 jkt is a measure of a shock to teacher inputs of teacher j in school k; \u2206t jkt represents a vector of changes in observable teacher characteristics and \u2206X jkt represents a vector of changes in other variables thought to affect the relative user-cost of boosting cognitive achievement. The more negative is \u03b1 1 , the larger the impact of shocks on test scores. Finally, the error term consists of changes to unobserved teacher characteristics \u2206m q t and a child-level shock ijkt .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Model and Identification",
+        "sec_num": "4"
+      },
+      {
+        "text": "The identification assumption implicit in Equation 10is that cov(\u00b5 jkt , {\u2206m q t + \u03b5 ijkt }) = 0, i.e, the error term in the equation is not correlated with teacher-level shocks. Consider the non-movers sample first. For this sample, \u2206m q t = 0 so that \u03b1 1 is identified if cov(\u00b5 jkt , ijkt ) = 0, i.e., teacherlevel shocks are orthogonal to student-level shocks. This assumption breaks down if, for instance, the shocks that teachers are susceptible to are covariate with shocks that students face-a drought in a village would likely affect both student and teachers equally, biasing our results away from zero.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identification Among \"Non-Movers\"",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "There is also an additional specification error if households are unable to substitute for teaching inputs. In this case, unobserved teacher characteristics still have a persistent effect on student performance and m q t will enter independently in the error term of Equation (10) above. While the Euler model considered here explicitly rules out such persistence (for instance, through lagged-stock adjustment), we discuss the robustness of our results to the omitted-variables and specification errors below.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identification Among \"Non-Movers\"",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "For the sample of movers, an additional source of bias is introduced through selective matching. Thus, if cov(\u2206m q t , \u00b5 jkt ) = 0, so that the change in unobserved teacher quality is correlated with teacher-level shocks, then \u03b1 1 captures both the effect of shocks and changes in teacher quality for the movers. If children who changed teachers (movers) did so from very bad to bad teachers (so that \u2206m q t is positive), but these (unobservably) bad teachers are more absent than the average in the sample, the covariance condition implies that our estimated impact for the movers is biased towards zero. Note that there is a difference in interpretation between the selective matching and the precautionary spending channel developed in the theory and appendix 2. For the latter, even when cov(\u2206m q t , \u00b5 jkt ) = 0 so that there is no bias in the coefficient, the impact of teacher shocks is still closer to zero for the sample of movers-this is due to heterogeneity in the treatment impact and accordingly has different estimation implications.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identification Among \"Movers\"",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Estimating the impact of teacher shocks requires data both on the extent of these shocks and a means of distinguishing the uncertainty faced by households in terms of teacher inputs. The primary measure of shocks to teacher inputs used in this paper is teacher absenteeism. As will be shown below, this absenteeism arises from a number of factors, largely unpredictable for the households, such as illness and attendance at funerals. We first estimate the impact of teacher shocks for the non-movers and discuss the robustness of our results to the concerns raised above. We then show that the results do not extend to the sample of movers. We are unable, however, to distinguish between the selective matching (which results in a bias in the estimates) and precautionary spending (which results in heterogeneity in the impact of teacher shocks) channels.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identification Among \"Movers\"",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "The data are from Zambia, a landlocked country with a population of 10 million in Sub-Saharan Africa. The educational environment is discussed in some detail in Das and others (2004a) and Das and others (2004b) . For our purposes, an important factor is the overall decline in GDP per capita in the country from the mid-1970s due to a decline in worldwide copper prices, the country's main export (per-capita income declined almost 5 percent annually between 1974 and 1990). The decline in per capita income has had an impact on educational attainment. For instance, net primary school enrolment currently at 72 percent is historically low, following a moderate decline over the previous decade. Although the government responded to deterioration in the education profile with an investment program at the primary and \"basic\" level in 2000, a continuing problem has been the inability of the government to hire and retain teachers in schools.",
+        "cite_spans": [
+          {
+            "start": 161,
+            "end": 183,
+            "text": "Das and others (2004a)",
+            "ref_id": null
+          },
+          {
+            "start": 188,
+            "end": 210,
+            "text": "Das and others (2004b)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "5"
+      },
+      {
+        "text": "An exacerbating factor is the HIV/AIDS epidemic. A recent report (Grassly and others 2003) calculates that the number of teachers lost to HIV/AIDS has increased from 2 per day in 1996 to 4 or more a day in 1998, representing two-thirds of each year's output of newly trained teachers. Not surprisingly, teacher attrition has received a lot of attention, both in the popular press and in institutional reports (our data and that from the census of schools in 2002 corroborates the high rates of attrition (Das and others 2004b)). Further, absenteeism rates are high, primarily due to illness and funerals. Grassly and others (2003) for instance, find that absenteeism arising from illness-related reasons will lead to the loss of 12,450 teacher-years over the next decade. The resulting teacher-shortage has led to class sizes above the 40 children per teacher norm (particularly in rural areas), teachers teaching double shifts, and limited possibilities for substitutions when teachers are absent.",
+        "cite_spans": [
+          {
+            "start": 65,
+            "end": 90,
+            "text": "(Grassly and others 2003)",
+            "ref_id": null
+          },
+          {
+            "start": 605,
+            "end": 630,
+            "text": "Grassly and others (2003)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "5"
+      },
+      {
+        "text": "In 2002 we surveyed 182 schools in four provinces of the country. 9 The choice of schools was based on a probability-proportional-to-size sampling scheme, where each of 35 districts in the four provinces was surveyed and schools were randomly chosen within districts with probability weights determined by grade 5 enrollment in the school year 2001. Thus, every enrolled student in grade 5 in the district had an equal probability of being in a school that participated in the survey. As part of the survey, questionnaires were administered to teachers and head-teachers with information on a host of topics including their demographics, personal characteristics, absenteeism, outside options and classroom conditions. In addition, we also collected information at the level of the school including financing and the receipts of educational inputs during the academic year. Of these 182 schools, we use 177 for our analysis-for two schools we do not have the relevant school information, and examiners regarded the test scores for three schools in the first year as suspect.",
+        "cite_spans": [
+          {
+            "start": 66,
+            "end": 67,
+            "text": "9",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "5"
+      },
+      {
+        "text": "An extensive module linking teacher characteristics to student performance formed an integral part of the survey. As part of this student-teacher matching we collected information on the identity of each student's teacher in the current (2002) and the previous year (2001). Based on this information, we can identify the non-movers in 2001 and 2002; this sub-sample represents 26 percent of the students tested both in 2001 and 2002. We administered a questionnaire to all matched teachers present on the day of the survey, resulting in information on 541 teachers in 182 schools. Every teacher interviewed is hence matched to a student, either by virtue of currently teaching the student or having taught the student in the previous year. We collected information on the current teacher for 85 percent of the students and on the past teacher for 62 percent of these students since some teachers had left the school. 10 Consequently our sample drops as we include present and past teacher controls. Moreover, this change is probably not random-particularly in the case of the present teacher, it is very likely that we lose information on those who are prone to high absenteeism.",
+        "cite_spans": [
+          {
+            "start": 917,
+            "end": 919,
+            "text": "10",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "5"
+      },
+      {
+        "text": "To assess learning achievement, a maximum of 20 students in grade 5 were randomly chosen from every school in 2001 and an achievement test was administered in Mathematics and English. 11 The same tests were administered in 2002 to the same students leading to the construction of a two-year panel of test scores. Sampled children were also asked to complete a student questionnaire in every year with information on basic assets and demographic information for the household.",
+        "cite_spans": [
+          {
+            "start": 184,
+            "end": 186,
+            "text": "11",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "5"
+      },
+      {
+        "text": "Our source of variation for shocks to teacher inputs is variation in teacher absenteeism, where absence is defined as a teacher being away from school during regular school hours. 12 Unfortunately, schools in Zambia (and in most other low-income countries) do not maintain records of teacher's time away from school. To the extent that such records are available, they tend to under-estimate absence by 5-10 percent (Chaudhury and others 2004). Our information on absences is instead based on three different measures that we collected as part of the school survey; spot absence, selfreported absence during the last 30 days and the head-teacher's report of teacher absence during the last 30 days. The most satisfactory measure is the head teacher's report, whereby head teachers provided independent reports of teacher absence over the last 30 days for the entire matched teacher sample. As an indicator for teacher shocks, this is a noisy measure and as usual, measurement error implies that our estimates are likely to be biased towards zero. 13 Table 1 summarizes the school, teacher and student samples. The schools are evenly divided among rural and urban locations, with an average of 23 teachers teaching 912 pupils in every school. There are more female teachers, the majority have teaching certificates and about half have been teaching for five years or more. Absenteeism is a big problem. Head-teachers reported that 304 out of 725 teachers were absent at least once during the last month. Two-thirds of the students live with both parents (7 percent of the children had lost both parents, and another 14 percent had lost one parent), and parental education is relatively high-a majority of the mothers reported studying to levels \"more than primary schooling\" and among fathers, this proportion increases to 72 percent. Despite the high levels of parental and teacher education, learning gains over the academic year were low. On average, children answered only 3.2 questions more in Mathematics from a starting point of 17.2 correct answers (from 45 questions) and 2.4 more in English starting from 11.1 correct answers (from 33 questions). In terms of the standardized score, children gained 0.42 standard deviations in Mathematics and 0.40 in English. 14 Table 2 summarizes our data on head-teacher reports of absenteeism. Teacher illness accounted for 35 percent of all absence episodes, and illnesses in the family and funerals for another 27 percent, suggesting that health-related issues are a major source of shocks to teacher inputs. The head-teacher reported a median absence duration of two days for teacher and family illness and three days for funerals. Table 3 disaggregates the teacher and student characteristics by \"more\" and \"less\" absent teachers, restricting attention to the sample of non-movers (table 1 in appendix 3 provides a similar table for the full sample). While there are some differences in teacher characteristics, these differences are not significant at the usual confidence levels. In terms of student characteristics, there are no differences between the students with less and more absent teachers (an exception is the proportion of students that live within 15 minutes of their schools). Note in particular, that there is no statistically significant difference in the number of days the student was absent (1.42 versus 1.47) across less and more absent teachers. Finally, the characteristics of the sample change somewhat as we progressively exclude those teachers and students on whom we have no information-those excluded tend on average to be male teachers and teachers in rural areas. Table 4 shows differences between non-movers and movers: Schools with non-movers are larger and are more urban. These differences are significant at the usual levels. Teachers who teach nonmovers are more urban (significant), female (significant), more experienced (significant) and have more training (significant). Similarly, there a significant differences in the student characteristics.",
+        "cite_spans": [
+          {
+            "start": 180,
+            "end": 182,
+            "text": "12",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 1050,
+            "end": 1057,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 2272,
+            "end": 2279,
+            "text": "Table 2",
+            "ref_id": "TABREF1"
+          },
+          {
+            "start": 2681,
+            "end": 2688,
+            "text": "Table 3",
+            "ref_id": "TABREF2"
+          },
+          {
+            "start": 3643,
+            "end": 3650,
+            "text": "Table 4",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "5"
+      },
+      {
+        "text": "Non-movers are more likely to be living with both parents (insignificant), have a higher proportion of mothers and fathers with primary or higher education (significant), are 0.3 standard deviations richer than movers (significant) and have higher test scores in 2001 (significant). In essence, the sample of non-movers is primarily urban. We examine the implications in Section 7.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "5"
+      },
+      {
+        "text": "We estimate equation 10using ordinary least squares, with the head-teacher report of the number of days absent as our measure of shocks to teacher inputs. Further, since each teacher teaches 5.5 children on average, we cluster this regression at the teacher level. Restricting attention to the sample of non-movers, the impact of teacher shocks on student learning is given by the coefficient \u03b1 in equation (10) .",
+        "cite_spans": [
+          {
+            "start": 407,
+            "end": 411,
+            "text": "(10)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results: Non-Movers Sample",
+        "sec_num": "6"
+      },
+      {
+        "text": "Tables 5a and 5b report coefficients based on four different specifications for English and Mathematics. For all specifications, the dependent variable is the change in \"knowledge\" of the student (English, table 5a and Math, table 5b) as measured by the standardized score. The coefficients can therefore be directly interpreted as changes in standard deviations of the original \"knowledge\" distribution. In Column 1, we include a variable for the number of days absent in the last month reported by the head-teacher and a dummy for whether the school is in a rural location. Subsequent specifications introduce additional controls: Column 2 reports the estimated coefficient including school characteristics, column 3 introduces teacher characteristics and column 4 includes student characteristics. 15 Recall that including teacher and student characteristics reduces our sample, since we could not interview teachers absent on the day of the visit. Columns 5-7 reproduce the results of columns 1-3, but estimated on this reduced sample.",
+        "cite_spans": [
+          {
+            "start": 801,
+            "end": 803,
+            "text": "15",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 196,
+            "end": 234,
+            "text": "(English, table 5a and Math, table 5b)",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Results: Non-Movers Sample",
+        "sec_num": "6"
+      },
+      {
+        "text": "The estimated impact of teacher shocks is stable across different specifications, but not across different samples. Looking across from column 4 to column 7 (which all use the same restricted sample), the coefficients for English vary between -0.033 and -0.035 standard deviations, a variation of less than 10 percent. The results are remarkably similar for Mathematics, where the variation is between -0.030 and -0.036. The significance of these results vary; in most specifications they are significant at either the 5 percent or the 10 percent level of significance.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results: Non-Movers Sample",
+        "sec_num": "6"
+      },
+      {
+        "text": "This stability across specifications and subjects does not hold across samples. Thus, for the full sample the results for both English and Mathematics are halved to -0.015 (English) and -0.017 (Mathematics), although the estimated impact is still significant at the 5 percent level for English and the 10 percent level for Mathematics. The comparison between column 1 and column 5 (or column 2 and column 6) suggests that this change is due to a change in the sample rather than the inclusion of additional variables. Sticking with the same set of variables but restricting the sample to only those for whom we observe teacher and student characteristics increases the coefficients to the levels given by column 3 and column 4.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results: Non-Movers Sample",
+        "sec_num": "6"
+      },
+      {
+        "text": "What explains the lack of stability across samples? According to the head-teachers reports, the rate of absenteeism for those absent on the day of the survey is almost twice as high compared to those who were present (3.1 vs 1.6 ). The reduced sample excludes the more absent teachers. If the impact of teacher shocks on student learning is linear in the extent of the shock, excluding these teachers from the sample should not affect our estimates. On the other hand, if the marginal impact of the shock decreases with the extent of the shock, a prediction that follows directly from a production function that is concave in teaching inputs, excluding those with severe shocks will lead to an increase in the size of the estimated impact (we estimate the sharp drop-off at low levels of teacher shocks, but not the levelling off later on). It is plausible that these non-linearities drive the differences in estimated impacts across our samples. For both Mathematics and English, we find a sharp drop-off in learning as absenteeism rates increase from 0 to 10 percent, but the comparison between those with 10 percent and those with greater than 10 percent absenteeism rates is less clear-cut. 16 Unfortunately, the small size of our sample does not permit us to investigate these non-linearities further.",
+        "cite_spans": [
+          {
+            "start": 1195,
+            "end": 1197,
+            "text": "16",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results: Non-Movers Sample",
+        "sec_num": "6"
+      },
+      {
+        "text": "Thus, across the entire sample range, teacher shocks associated with a 5 percent increase in absenteeism (1 day out of 20) reduce learning achievement by 0.015 and 0.017 standard deviations. Given that average learning during the year in both English and Mathematics was 0.40 standard deviations, the estimated impact is between 3.7 and 4 percent decrease in learning for every additional day that the teacher was absent among the non-movers. At the 95 percent level of confidence, the bounds for these estimates are 2.2 to 5.3 percent for English and 1.7 and 6.4 percent for Mathematics, both of which are compatible with a one-for-one decline in learning achievement. Using the specifications with teacher controls, and mindful of the accompanying sample selection, the impact is higher at low levels of the shock, where the marginal effect could be as high as 8 percent declines in learning for shocks associated with a 5 percent increase in absenteeism.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results: Non-Movers Sample",
+        "sec_num": "6"
+      },
+      {
+        "text": "Covariate shocks between teachers and students could lead to omitted variable bias in our estimates. This is particularly plausible in rural settings, where the village may face an unanticipated shock leading to greater absence among teachers, but also lower school attendance among pupils. In fact, Jacoby and Skoufias (1997) show that it is precisely shocks that are covariate across villages and unanticipated that lead to the largest declines in school participation. Under this scenario, the coefficient on teacher shocks picks up the additional impact of the shocks on the students, biasing our estimate away from zero. Fortunately, among the sample of non-movers, 65 percent of the students come from urban locations. This makes it less likely that covariate shocks are driving our results.",
+        "cite_spans": [
+          {
+            "start": 300,
+            "end": 326,
+            "text": "Jacoby and Skoufias (1997)",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness to Omitted Variables",
+        "sec_num": "6.1"
+      },
+      {
+        "text": "Stronger evidence comes from looking at the relationship between student and teacher absenteeism. To the extent that teacher-level and student-level shocks are covariate, there should be some association between student and teacher absenteeism. Moreover, including student absenteeism in the regression should lead to a decrease in the estimated impact of teacher shocks. We do not find evidence in support. Table 3 showed that there was no difference in student absenteeism between teachers who were less and more absent (1.42 versus 1.47 days). Continuing in the same vein, table 6 computes a two-way contingency table, where the columns are teachers who were more or less absent and the rows are students who were more or less absent. A simple measure of association test cannot reject the null hypothesis of no assortative matching-that is, there appears to be no correlation between student absenteeism and teacher absenteeism in our estimated sample. Finally, columns 4 in tables 5a and 5b include the average number of days that the student was absent as an additional regressor. While the impact of student absenteeism is large and significant in the case of English and less so for Mathematics, there is no change in the estimated impact of teacher shocks on learning. Thus, to the extent that covariate shocks will be picked up (at least to some extent) by student absenteeism, confidence in our results is strengthened by both the lack of correlation between student and teacher absence on the one hand, and the stability of the estimates to the inclusion of this additional regressor.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 408,
+            "end": 415,
+            "text": "Table 3",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness to Omitted Variables",
+        "sec_num": "6.1"
+      },
+      {
+        "text": "A further worry is that households are constrained in their response to (poor) teaching inputs. In and of itself, this does not bias the coefficient. However, if in addition, unobserved teacher characteristics have a cumulative effect on student learning, the estimate could pick up this effect as well. Suppose unmotivated teachers are more absent. As long as the lack of motivation affects only the scores in the first year (that is, it is a one-time negative shock), it does not impact on the change in scores between the first and the second year. However, if teacher motivation affects how much students learn in every year, our measure of teacher shocks would pick up both intrinsic motivation as well as time-varying shocks to teaching inputs. Even with such cumulative effects, the estimated coefficient is still identified if households are able to respond to teacher motivation-the impact of lower motivation would be attenuated through greater household participation. We have less to say about how the combination of cumulative teacher effects and household-level constraints may bias our coefficients. To estimate such persistent effects requires data from at least 3 points in time, and this is a hard requirement in low-income countries. Nevertheless, suggestive evidence along two fronts indicates that these persistent impacts are not critical to our findings.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness to Household Constraints and Specification Bias",
+        "sec_num": "6.2"
+      },
+      {
+        "text": "First, to the extent that teacher effects are cumulative, we should also find that the first-year test scores are correspondingly low for students associated with more absent teachers. This is not the case. Table 7 reports results of a regression of baseline test scores on the number of days absent and teacher characteristics. Columns 1 and 2, and 5 and 6 report coefficients for the full sample, while the other columns report results for the non-mover sample. For both Mathematics and English, we fail to find any association between baseline test scores and the head-teacher report of absenteeism. For both subjects, the point estimates and the significance is very low.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 207,
+            "end": 214,
+            "text": "Table 7",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness to Household Constraints and Specification Bias",
+        "sec_num": "6.2"
+      },
+      {
+        "text": "Second, we find no supporting evidence in observables. Returning to tables 5a and 5b, tests for the joint significance of teacher characteristics report F-statistics in the range of 0.06 (English) and 0.72 (Mathematics), both of which are insignificant at the 50-percent level of confidence. Further, the inclusion (or not) of teacher characteristics does not alter the estimated impact of teacher shocks.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness to Household Constraints and Specification Bias",
+        "sec_num": "6.2"
+      },
+      {
+        "text": "In the case of the non-movers, the choice of sample \"differences-out\" the non-time varying unobservable inputs of the teacher and the estimate accurately captures the effect of time-varying shocks to teaching inputs on learning. However, our sample of non-movers is different from the movers (see table 3): since the policy of teachers remaining with the same cohort of students was implemented in larger schools, the non-movers tend to be concentrated in urban areas and come from households that are one-third of a standard deviation richer on average. A priori, one may expect that the effect of teacher shocks is lower in the sample of non-movers compared to moversto the extent that wealth and urbanization capture substitution possibilities (more wealthy and more urban households are more likely to hire private tutors), negative shocks should have a larger impact on movers than non-movers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Movers: A Puzzle and Potential Reconciliations",
+        "sec_num": "7"
+      },
+      {
+        "text": "Our results, however, do not support such a view. Tables 8a and 8b replicate the specifications reported in tables 5a and 5b; in addition, we include an additional specification for the full sample where we interact a dummy variable for whether the student was a non-mover with the head-teacher report of absence. Both in the separate and the nested specifications, head-teachers reports of absence have no impact on learning among children who moved. Moreover, in the nested specification, the coefficient and significance for the non-movers sample is identical to that reported before. We discuss three potential reconciliations for this result. Table 9 explores whether intrinsic differences in the sample account for our results, by excluding children with very different backgrounds from the nested specification. We implement this by the analog of a propensity score matching technique. We first estimate the probability that a student is a mover based on household, teacher and school characteristics and use this regression to predict the probability of moving. We then look only at the area of \"common support\", that is, we only keep in the sample those children whose predicted probabilities are found in both the sample of movers and the sample of children with same-teachers. Again, we find no difference in the estimated coefficients for English and a decline in Mathematics among the non-movers; the estimated coefficients for the movers remains very small and insignificant.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 648,
+            "end": 655,
+            "text": "Table 9",
+            "ref_id": "TABREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Movers: A Puzzle and Potential Reconciliations",
+        "sec_num": "7"
+      },
+      {
+        "text": "Section 3 and 4 discussed two other channels for this result-selective matching and precautionary investment. In particular, if cov(\u2206m q t , \u00b5 t ) > 0, i.e., time-varying shocks are positively correlated with changes in unobserved teacher characteristics, our results are biased towards zero for the movers. Alternatively, even if cov(\u2206m q t , \u00b5 t ) = 0, the estimated impact will be less for movers compared to non-movers in the presence of precautionary investment by households.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Selective Matching and Precautionary Investment",
+        "sec_num": "7.2"
+      },
+      {
+        "text": "It is hard to assess how plausible this is, and narratives for both channels are possible. Although we cannot directly test the relevance and importance of the selection versus the precautionary investment effect, one option is to use observable past teacher characteristics to check whether changes in observed teacher characteristics satisfy the covariance requirement. That is, we can check whether among the movers, positive movements were correlated with higher absence reports. For two important variables-whether the teacher holds a certificate and teacher experience-we do not find any correlation between teacher shocks and movements. Of course, it could still be that the correlation is in unobservables that do not co-vary positively with these observed characteristics; verifying (or not) the importance of selective matching versus precautionary investment remains an important agenda for our future research.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Selective Matching and Precautionary Investment",
+        "sec_num": "7.2"
+      },
+      {
+        "text": "This paper uses a household optimization framework to identify the impact of teacher-level shocks on students' learning gains. Our data from Zambia show that shocks to teacher inputs have a substantial effect on student learning. In our preferred specification, shocks associated with a 5 percent increase in the teacher's absence rate resulted in a decline in learning of 3.75 percent (English) and 4 percent (Mathematics) of the average gains across the two years. The identification strategy is based on a restriction of the sample, whereby we focus only on those students who remained with the same teacher in the two concurrent years that they were tested. This allows us to rule out changes in unobserved teacher characteristics as a confounding factor in the estimation procedure. We argue that the estimates thus arrived at are robust to omitted variable and misspecification bias.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "What are the implications of this finding? To improve educational outcomes, governments should concentrate on providing resources at the school-level that cannot easily be substituted for by households. In a previous paper (Das and others 2004), we documented that educational funding is an important determinant of learning achievement. However, because schools spend the money received from the government on resources such as textbooks, there is a high degree of substitutability between public and private funding. Increases in the former crowd-out the latter. Contrariwise, this paper argues that households are unable to insure themselves against teacher-level shocks. Moreover, the estimated impact of teacher-level and student-level shocks are of roughly the same magnitude. This confirms findings from other studies that teachers matter and further, raises the possibility that insurance at the school-level may be more beneficial than at the household-level. This is a policy priority worth investigating further.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "Throughout we have assumed that the learning decline is the impact of negative shocks that result in higher teacher absence rather than the impact of absenteeism per se. Our interpretation is that the learning declines reflect the joint effect of from time away from class, decreased teaching quality when in class and less lesson preparation when at home. In attributing all teacher absence to negative shocks, we have probably been overly generous-it is likely that at least some portion of teacher absence is due to shirking rather than illness. If so, incentive schemes should work. In the United States, Jacobson's work (Jacobson 1989 and Jacobson 1991) shows that payment incentives do lead to declines in absenteeism. However, the welfare impacts are less certain. Jacobson (1989) documents how a payment incentive scheme led to a decline in teacher absenteeism. Nevertheless, one year later a fact-finding mission concludes that:",
+        "cite_spans": [
+          {
+            "start": 625,
+            "end": 643,
+            "text": "(Jacobson 1989 and",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 644,
+            "end": 658,
+            "text": "Jacobson 1991)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 772,
+            "end": 787,
+            "text": "Jacobson (1989)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "\"While the District's attendance statistics for the past several school years may lead some to conclude that attendance improved (...) the fact finder does not believe the record before him established that improved attendance rate (...) raised the quality of teachers or teaching in the District. In fact, the District and Association expressed their agreement that they knew of no way to measure the effectiveness of a sick teacher who came to work to assure receiving a higher share of EIT money vs. that of a sick teacher who stayed home to recuperate while a substitute taught his/her classes (...) I conclude that an attendance based criterion for the 1987/88 EIT distribution simply would not serve to promote the \"excellence in teaching\" envisioned by the State Legislature and the Governor (PERB 1988: 9-10).\"",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "The situation in low-income countries may be very different. Certainly, studies in India (Chaudhury and others 2005) suggest that teacher absenteeism is largely due to shirking rather than illness. Jacobson's work however, cautions us in extrapolating views from one continent to another. If teachers in Zambia and other Sub-Saharan countries are absent because they shirk and incentive schemes and greater accountability lead both to greater attendance and better performance, then such schemes can lead to better learning outcomes. However, if teachers' utility functions are altruistic so that most absenteeism is \"genuine\", incentive schemes might hurt teacher motivation. This conflict between treating teachers as \"professionals\" who respond to monetary incentives and thinking of them as \"dedicated to students' needs\" remains at the center of a contentious debate in the United States. Although research in low-income countries is at a nascent stage, with absenteeism rates approaching 25 percent in some countries, steps towards a deeper understanding are critical.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "Our findings also raise a methodological issue. The results obtained on the cohort of children who stayed with the same teacher, do not extend to the entire sample. The policy of retaining the same teacher for the student-cohort was implemented only for larger schools, so non-movers come from more urban schools where the teachers are better (more experienced and better trained), families are richer and parents are more educated. With better access to markets for private tuition and home schooling, we expected the impact of teacher shocks to be lower among the sample of children who are non-movers. Intriguingly we found no impact of teacher shocks on student learning among the movers in our sample. We suggested two reasons for this finding. If the sample of children who switched teachers were not randomly assigned, selective matching might bias our estimate. A second interesting possibility was the role of uncertainty in teaching inputs on household investments. The model shows that greater uncertainty in teaching inputs leads to an ex ante response among households through greater precautionary spending. Faced with greater uncertainty in teaching inputs, the movers would have higher precautionary spending and thus be less susceptible to ex post shocks.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "We would have liked to directly test which of these mechanisms is responsible for the difference in estimates. Do households really undertake precautionary schooling investments? That is, do parents of movers spend more time or money with their children than those of non-movers? Unfortunately, our data on household inputs does not allow us to investigate this directly. Although we surveyed households matched to these schools (see Das and others 2004a), these were all rural households and our sample of non-movers is too small to draw any meaningful inferences.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "If we believe that households play an important role in determining educational outcomes of their children, this paper suggests a direction for future work. Using a model allowing for household responses to teacher and school inputs allows for richer insights than standard production function approaches. The impact of current year shocks on learning achievement depends on other sources of uncertainty (non time-varying attributes of the teacher in this paper) and this has important implications for future evaluation work. 17 Currently there is little research on the link between household and school inputs, and none on the precautionary motive discussed in this paper. Evidence either way would be helpful.",
+        "cite_spans": [
+          {
+            "start": 527,
+            "end": 529,
+            "text": "17",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "The word processed describes informally produced works that may not be commonly available through library systems.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion and Caveats",
+        "sec_num": "8"
+      },
+      {
+        "text": "We collected a spot measure of teacher absence by checking attendance on the day of the survey for all teachers in small schools and a non-random sample of 20 teachers in larger schools. Since this is a prevalence rate, a spot absence rate of 20 percent does not distinguish between all teachers being absent 20 percent of the time, or half the teachers being absent 40 percent of the time. If half of the teachers have an absenteeism incidence of 40 percent and the other half are always present, to distinguish between the two types of teachers with 95 percent confidence, we would require at least 6 visits (assuming that absence follows a Bernouli process). We also collected a self-reported absence profile over the last 30 days for teachers matched to pupils. This measure is biased because it is missing for teachers absent on the day. Also, it is plausible that low-quality teachers may report absenteeism in different ways than high-quality teachers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 1: Measuring Teacher Absence",
+        "sec_num": "9"
+      },
+      {
+        "text": "The differences between the measures appear to be in line with expectations regarding the bias and noise entailed in self-reported or spot absenteeism measures. The extent of these differences can be partially assessed by using the sampling differences between the different measures of absenteeism. For instance we can check for a selection effect in the self-reported measure (we don't have a report for those who were absent on the day) by comparing the reports of the head-teacher for the sample who were present on the day of the survey and those who were not. Using the head-teacher's report, teachers who were absent on the day of the survey miss an average of 2.39 days compared to 1.5 days for teachers who were present. This difference is significant at the 5-percent level, also suggesting problems with the spot measure based on those absent at the time of the visit.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 1: Measuring Teacher Absence",
+        "sec_num": "9"
+      },
+      {
+        "text": "We also find evidence of reporting bias in the self-reported measure. To investigate the reporting biases of the self-report, we divide teachers into those who had pupils with high and low learning gains, and examine the correlation between the self-report and the head-teacher report for these two groups. If there are self-reporting biases, the correlation between the two reports should be higher for the teachers with high-performing children compared to teachers with low-learning gains. The correlation between self-reported and head-teacher for the \"good\" teachers is 0.39 compared to 0.28 for the \"bad\" teachers. Gains in English suggest a similar, albeit weaker result. This pattern is broadly consistent with \"bad\" teachers under-reporting duration of absence assuming that the head-teacher's report is the true measure.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 1: Measuring Teacher Absence",
+        "sec_num": "9"
+      },
+      {
+        "text": "To develop the circumstances under which greater ex ante risk leads to larger household investment, we introduce risk in a specific way. Let m t = m q t + a + \u00b5 t , whereby a = a > 0 if the teacher is of high quality, and a = \u2212a if the teacher is of low quality. Increases in a would then imply an increase in risk in the sense of a standard increase in mean-preserving spread. A sufficient condition for household spending on education to increase in risk is that \u2202U \u2202T S t \u03c0 t is decreasing and convex in m t . We continue to impose (as in Das and others (2004a) ) the following assumptions:",
+        "cite_spans": [
+          {
+            "start": 542,
+            "end": 564,
+            "text": "Das and others (2004a)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 2: Ex Ante Risk and Household Investment",
+        "sec_num": "10"
+      },
+      {
+        "text": "[ A1] Household utility is additively separable and of the CRRA form.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 2: Ex Ante Risk and Household Investment",
+        "sec_num": "10"
+      },
+      {
+        "text": "[ A2] T S t = (1 \u2212 \u03b4)T S t\u22121 + F (w t , z t , \u00b5, \u03b7) where the Hessian of F (.) is negative semi-definite. Under [ A1] marginal utility is defined as T S \u2212\u03c1 t , with \u03c1 the coefficient of relative risk aversion. Using [ A2] and the implicit function theorem with (5), we have",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 2: Ex Ante Risk and Household Investment",
+        "sec_num": "10"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "d\u03c0 t dm t = \u2212 F z t m t F 2 zt 0 if F ztmt 0",
+            "eq_num": "(11)"
+          }
+        ],
+        "section": "Appendix 2: Ex Ante Risk and Household Investment",
+        "sec_num": "10"
+      },
+      {
+        "text": "The sign of the cross partial depends on whether the household can respond to changes to teacher inputs. If F ztmt = 0, households are unable to respond to changes in teacher inputs. This might be a consequence of credit constraints, inability of parents to substitute either via a lack of ability/time and the absence of markets for private tuition. If, however, households are able to respond to changes in teacher inputs and household and teacher inputs are technical substitutes (F ztmt < 0), increases in teacher inputs at t will increase the relative user-cost of boosting cognitive achievement at t. The reverse is true if teacher and household inputs are technical complements (F ztmt > 0).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 2: Ex Ante Risk and Household Investment",
+        "sec_num": "10"
+      },
+      {
+        "text": "\u2202U \u2202T S t \u03c0t will be decreasing in m t if teacher and household inputs are technical substitutes and if households are risk averse:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "It follows directly that",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "d \u2202U \u2202T S t \u03c0t dm t = \u2212 \u2202\u03c0t \u2202mt . \u2202U \u2202T St + \u2202 2 U \u2202T S 2 t .F mt .\u03c0 t \u03c0 2 t < 0",
+            "eq_num": "(12)"
+          }
+        ],
+        "section": "It follows directly that",
+        "sec_num": null
+      },
+      {
+        "text": "In (12) , the first term in the numerator is negative if inputs are technical substitutes and the second term is negative if households are risk averse. Furthermore, it can be shown that a sufficient condition for \u2202U \u2202T S t \u03c0 t to be convex in teacher inputs is that inputs are technical substitutes, households are risk averse, the marginal utility of additional cognitive achievement is convex, and the user-cost is concave in m (it increases at a decreasing rate). Convex marginal utility is satisfied under CRRA .The user-cost is concave in m if F z F mmz \u2265 2(F zm ) 218 . Reported coefficients estimated from a regression of changes in test scores on days absent. School controls include funding received in the current year, dummies for location, changes in the head teacher, parents teachers association (PTA) chairperson, private schools and changes in PTA fees Pupil characteristics include pupil sex, age, whether the pupil lives with both biological parents, dummies that take the value of 1 if the mother/father have more than primary schooling and a measure of household wealth. F-test performs the joint test that current and past teacher characteristics are significantly different from zero. Standard errors are clustered at the teacher level. The full sample of pupils that took both tests is used in these estimations. School controls include funding received in the current year, dummies for location, changes in the head teacher, parents teachers association (PTA) chairperson, private schools and changes in PTA fees Pupil characteristics include pupil sex, age, whether the pupil lives with both biological parents, dummies that take the value of 1 if the mother/father have more than primary schooling and a measure of household wealth. F-test performs the joint test that current and past teacher characteristics are significantly different from zero. Standard errors are clustered at the teacher level. The full sample of pupils that took both tests is used in these estimations. ",
+        "cite_spans": [
+          {
+            "start": 3,
+            "end": 7,
+            "text": "(12)",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "It follows directly that",
+        "sec_num": null
+      },
+      {
+        "text": "(3) The sample of non-movers and matched movers that took both tests is used in these estimations. Matching is done using a propensity score estimated using child and school characteristics. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Tables",
+        "sec_num": null
+      },
+      {
+        "text": "This is in marked contrast to say, India, where incentives to teachers to perform well seem to be the reason for absenteeism and hence the nature of the problem and its impact are considerably different.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Interestingly though, the courts decided not to implement the incentive scheme for a second year since it resulted in a large number of \"walking-wounded\"-teachers who came into work despite being sick!3 In fact, even private sector absence in India at 10 percent is double that reported for public schools in the US.4 Note that this one-time measure is unable to distinguish between teachers who are frequently absent from those who are absent infrequently.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "As discussed inDas et al. (2004a), an alternative assumption, that the benefits from the child's cognitive achievement are only felt in the future, would not change the model. Moreover, the results are unaffected if one assumes that households care about the (instantaneous) flow from educational outcomes (rather than the stock of cognitive achievement) provided that this flow is linear in the stock.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Note that the latter possibility only arises due to the fact that households may influence educational outcomes via their own inputs; if outcomes were only produced by teacher inputs, then there would be no difference in observed outcomes conditional on the uncertainty faced by parents about teacher quality, since ex ante no actions could have been taken to avoid this.7 This result may at first seem counter intuitive: Producing cognitive achievement using household inputs is a risky activity. So, responding to increased risk by spending more on the risky activity may go against the basic results discussed inSandmo (1969). However, since the produced commodity also enters the utility function, these results do not hold, and under reasonable conditions, households may choose to invest more in the activity in response to more uncertainty, as a means of guaranteeing a reasonable amount of the produced commodity for consumption. The argument is similar to the analysis of precautionary savings, where the choice is between consuming more today compared to tomorrow, as inDeaton (1992). In the basic model, convexity of marginal utility is then sufficient for increased savings in response to increased uncertainty in income, even though the risk related to future utility has increased, affecting the marginal benefit to savings.8 If the price of boosting cognitive achievement were constant, then convexity of marginal utility is sufficient. If not, then as long as user-costs increase only at a decreasing rate in teacher inputs, households will still spend more on household-level educational inputs when risk increases. In this formulation credit markets are perfect so that there are no bounds on At+1 apart from (4); the perfect credit market assumption is relaxed in our discussion of the empirical results. To see how the theory is affected, seeDas et al. (2004a).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Lusaka, Northern, Copperbelt and Eastern provinces were surveyed. These four provinces account for 58 percent of the total population in Zambia.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "As in a number of other countries in the region, student teachers are typically used to teach a class for a year before returning to teacher training college to complete their training.11 In schools with less than 20 students in grade 5, the entire grade was sampled.12 Ideally we would like to measure the time that teachers spend away from the classroom when they should be teaching. This would include absence episodes while teachers are in school. Glewwe, Kremer and Moulin.(2001) find that teachers are in school but absent from class 12 percent of the time. We focus only on time away from school.13 Absences and their reasons are broadly similar for different methods used to collect absenteeism data. Appendix 1 provides a discussion of these alternative measures.Despite the measurement error associated with a 30-day recall period as a measure of year-long shocks, there are established precedents in household surveys. Most household survey modules on illness, for instance, restrict themselves to recall periods of 30-days or less. Nevertheless, these measures have been extensively used and validated in the literature on health and economic outcomes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We used item response theory methods to arrive at a scaled score for every student; essentially the method constructs optimal weights for every question and estimates a latent variable, interpreted as the \"knowledge\" of the child, using a maximum likelihood estimation procedure. Differencing across the base and final year, the estimated change in \"knowledge\" is used as the dependent variable in our regressions (see Das and others 2004a for details). The distribution of knowledge in the base year is standardized to have mean zero and variance 1, so that the coefficients of the regression can be interpreted as the impact of the independent variable on standard deviations of estimated (change in) knowledge.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "School controls include the funding received by the school during the current year (a flow), whether the headteacher changed (a change in stock), whether the head of the parent-teacher association changed, the change in parent-teacher association fees and dummies for whether the school is private (there are four such schools in our sample) and whether the school is in a rural region (proxying for different input prices).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Of the 136 teachers associated with the sample of non-movers, head-teachers reported 0 absenteeism for 69 teachers and 10 percent or lower absenteeism rates for 40 during the 30-day recall period. Head-teachers report absences of greater than 10 percent for 27 teachers. Consequently, most of the variation in our data comes from the difference between those with 0 absenteeism and those with 10 percent or lower absenteeism rates.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Suppose that an experiment were designed to study the effect of absenteeism on learning achievement. The \"treatment on the treated\" estimator will represent the average effect, averaged across children who changed and remained with the same teacher. This paper suggests that the external validity of the experiment may be compromised due to this important source of heterogeneity-an empirical implication is to try and capture information on this and other changes that have occurred during the year of the experiment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Concavity of the user-cost is not a necessary condition: even with convexity of user-cost, sufficiently high risk aversion or substantial convexity of marginal utility could result in the convexity of\u2202U \u2202T S t \u03c0 t .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "Base Specification Base Specification ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "annex",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Does Teacher Training Affect Learning? Evidence from Matched Comparisons in Jerusalem Public Schools",
+        "authors": [
+          {
+            "first": "Joshua",
+            "middle": [],
+            "last": "Angrist",
+            "suffix": ""
+          },
+          {
+            "first": "Victor",
+            "middle": [],
+            "last": "Lavy",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Journal of Labor Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "343--369",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Angrist, Joshua and Victor Lavy. 2001. \"Does Teacher Training Affect Learning? Evidence from Matched Comparisons in Jerusalem Public Schools.\" Journal of Labor Economics, 343- 369.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "The Long Run Economic Costs of AIDS. Theory and an Application to South Africa",
+        "authors": [
+          {
+            "first": "Clive",
+            "middle": [],
+            "last": "Bell",
+            "suffix": ""
+          },
+          {
+            "first": "Shanta",
+            "middle": [],
+            "last": "Devarajan",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Gersbach",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Policy Research Working Paper",
+        "volume": "3518",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bell, Clive, Shanta Devarajan and Gersbach, H. 2003. \"The Long Run Economic Costs of AIDS. Theory and an Application to South Africa.\" Policy Research Working Paper 3518, World Bank, Washington, D.C.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "The Impact of the AIDS Epidemic on Teachers in Sub Saharan Africa",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [],
+            "last": "Bennell",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of Development Studies",
+        "volume": "41",
+        "issue": "3",
+        "pages": "440--466",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bennell, Paul, 2005. \"The Impact of the AIDS Epidemic on Teachers in Sub Saharan Africa\" Journal of Development Studies, 41 (3): 440-466.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Teacher and Health Care Provider Absenteeism: A Multi-Country Study",
+        "authors": [
+          {
+            "first": "Nazmul",
+            "middle": [],
+            "last": "Chaudhury",
+            "suffix": ""
+          },
+          {
+            "first": "Jeffrey",
+            "middle": [],
+            "last": "Hammer",
+            "suffix": ""
+          },
+          {
+            "first": "Michale",
+            "middle": [],
+            "last": "Kremer",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Muralidharan",
+            "suffix": ""
+          },
+          {
+            "first": "Halsey",
+            "middle": [],
+            "last": "Rogers",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chaudhury, Nazmul., Jeffrey Hammer, Michale Kremer,K. Muralidharan and Halsey Rogers. 2004. \"Teacher and Health Care Provider Absenteeism: A Multi-Country Study.\" World Bank: Washington, DC. Processed.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Ghost Doctors: Absenteeism in Bangladeshi Health Facilities",
+        "authors": [
+          {
+            "first": "Nazmul",
+            "middle": [],
+            "last": "Chaudhury",
+            "suffix": ""
+          },
+          {
+            "first": "Jeffrey",
+            "middle": [],
+            "last": "Hammer",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "World Bank Economic Review",
+        "volume": "18",
+        "issue": "3",
+        "pages": "423--464",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chaudhury, Nazmul and Jeffrey Hammer. \"Ghost Doctors: Absenteeism in Bangladeshi Health Facilities.\" World Bank Economic Review, 18(3): 423-41.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "When Can School Inputs Improve Test Scores",
+        "authors": [
+          {
+            "first": "Jishnu",
+            "middle": [],
+            "last": "Das",
+            "suffix": ""
+          },
+          {
+            "first": "Stefan",
+            "middle": [],
+            "last": "Dercon",
+            "suffix": ""
+          },
+          {
+            "first": "James",
+            "middle": [],
+            "last": "Habyarimana",
+            "suffix": ""
+          },
+          {
+            "first": "Pramila",
+            "middle": [],
+            "last": "Krishnan",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Policy Research Working Paper",
+        "volume": "3217",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Das, Jishnu, Stefan Dercon, James Habyarimana, and Pramila Krishnan. 2004a. \"When Can School Inputs Improve Test Scores\" Policy Research Working Paper 3217, World Bank, Wash- ington, D.C.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Public and Private Funding in Zambian Basic Education: Rules Vs. Discretion\". Africa Human Development Working Paper Series #62",
+        "authors": [
+          {
+            "first": "Jishnu",
+            "middle": [],
+            "last": "Das",
+            "suffix": ""
+          },
+          {
+            "first": "Stefan",
+            "middle": [],
+            "last": "Dercon",
+            "suffix": ""
+          },
+          {
+            "first": "James",
+            "middle": [],
+            "last": "Habyarimana",
+            "suffix": ""
+          },
+          {
+            "first": "Pramila",
+            "middle": [],
+            "last": "Krishnan",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Das, Jishnu, Stefan Dercon, James Habyarimana, and Pramila Krishnan. 2004b. \"Public and Private Funding in Zambian Basic Education: Rules Vs. Discretion\". Africa Human Develop- ment Working Paper Series #62. Washington D.C.: The World Bank.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Can Conditionnal Cash Transfers Serve as Safety Nets to Keep Children at School and out of the Labor Market",
+        "authors": [
+          {
+            "first": "Alain",
+            "middle": [],
+            "last": "De Janvry",
+            "suffix": ""
+          },
+          {
+            "first": "Frederico",
+            "middle": [],
+            "last": "Finan",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "de Janvry, Alain, Frederico Finan, Elisabeth Sadoulet, and Renos Vakis. November 2004. \"Can Conditionnal Cash Transfers Serve as Safety Nets to Keep Children at School and out of the Labor Market?\" University of California. Berkeley. Processed.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Understanding Consumption",
+        "authors": [
+          {
+            "first": "Angus",
+            "middle": [],
+            "last": "Deaton",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deaton, Angus. 1992. Understanding Consumption. Oxford: Clarendon Press.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Economics and Consumer Behavior",
+        "authors": [
+          {
+            "first": "Angus",
+            "middle": [],
+            "last": "Deaton",
+            "suffix": ""
+          },
+          {
+            "first": "John",
+            "middle": [],
+            "last": "Muellbauer",
+            "suffix": ""
+          }
+        ],
+        "year": 1980,
+        "venue": "Cambridge",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deaton, Angus, and John Muellbauer. 1980. \"Economics and Consumer Behavior.\" Cam- bridge. UK: Cambridge University Press.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "School District Leave Policies, Teacher Absenteeism, and Student Achievement",
+        "authors": [
+          {
+            "first": "Robert",
+            "middle": [
+              "G"
+            ],
+            "last": "Ehrenberg",
+            "suffix": ""
+          },
+          {
+            "first": "Ehrenberg",
+            "middle": [
+              "R A"
+            ],
+            "last": "Rees",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Ehrenberg",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "Journal of Human Resources",
+        "volume": "26",
+        "issue": "1",
+        "pages": "72--105",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ehrenberg, Robert. G, Ehrenberg R. A, Rees, D and Ehrenberg E, 1991. \"School District Leave Policies, Teacher Absenteeism, and Student Achievement\" Journal of Human Resources, 26(1): 72-105",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Prices, Credit Markets and Child Growth in Low-Income Rural Areas",
+        "authors": [
+          {
+            "first": "Andrew",
+            "middle": [],
+            "last": "Foster",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "The Economic Journal",
+        "volume": "105",
+        "issue": "430",
+        "pages": "551--570",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Foster, Andrew. 1995. \"Prices, Credit Markets and Child Growth in Low-Income Rural Areas\" The Economic Journal 105 (430): 551-570.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Textbooks and Test scores: Evidence from a Prospective Evaluation in Kenya",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [],
+            "last": "Glewwe",
+            "suffix": ""
+          },
+          {
+            "first": "Michael",
+            "middle": [],
+            "last": "Kremer",
+            "suffix": ""
+          },
+          {
+            "first": "Sylvie",
+            "middle": [],
+            "last": "Moulin",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Glewwe, Paul, Michael Kremer and Sylvie Moulin. 2001. \"Textbooks and Test scores: Evidence from a Prospective Evaluation in Kenya\", University of Minnesota. Processed.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "The economic impact of HIV/AIDS on the education sector in Zambia",
+        "authors": [
+          {
+            "first": "Nicholas",
+            "middle": [
+              "C"
+            ],
+            "last": "Grassly",
+            "suffix": ""
+          },
+          {
+            "first": "Elisabetta",
+            "middle": [],
+            "last": "Desai",
+            "suffix": ""
+          },
+          {
+            "first": "Alfred",
+            "middle": [],
+            "last": "Pegurri",
+            "suffix": ""
+          },
+          {
+            "first": "Irene",
+            "middle": [],
+            "last": "Sikazwe",
+            "suffix": ""
+          },
+          {
+            "first": "Clement",
+            "middle": [],
+            "last": "Malambo",
+            "suffix": ""
+          },
+          {
+            "first": "Don",
+            "middle": [],
+            "last": "Siamatowe",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Bundy",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "AIDS",
+        "volume": "17",
+        "issue": "7",
+        "pages": "1039--1044",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Grassly, Nicholas C., Kamal Desai, Elisabetta Pegurri, Alfred Sikazwe, Irene Malambo, Clement Siamatowe, and Don Bundy. 2003. \"The economic impact of HIV/AIDS on the edu- cation sector in Zambia.\" AIDS 17(7):1039-1044.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "The Economics of Schooling: Production and Efficiency in Public Schools",
+        "authors": [
+          {
+            "first": "Eric",
+            "middle": [],
+            "last": "Hanushek",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "Journal of Economic Literature XXIV",
+        "volume": "",
+        "issue": "",
+        "pages": "1141--1177",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hanushek, Eric. 1986. \"The Economics of Schooling: Production and Efficiency in Public Schools\", Journal of Economic Literature XXIV, 1141-1177.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Teachers, schools and academic achievement\" NBER Working Paper, Number w6691",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Hanushek",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Kain",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Rivkin",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hanushek, E., Kain, J. and Rivkin, S., 1998 \"Teachers, schools and academic achievement\" NBER Working Paper, Number w6691.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Risk, Financial Markets, and Human Capital in a Developing Country",
+        "authors": [
+          {
+            "first": "Hanan",
+            "middle": [
+              "G"
+            ],
+            "last": "Jacoby",
+            "suffix": ""
+          },
+          {
+            "first": "Emmanuel",
+            "middle": [],
+            "last": "Skoufias",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Review of Economic Studies",
+        "volume": "64",
+        "issue": "3",
+        "pages": "311--335",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jacoby, Hanan G., and Emmanuel Skoufias. 1997. \"Risk, Financial Markets, and Human Cap- ital in a Developing Country.\" Review of Economic Studies 64(3): 311-335.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "The Effects of Pay Incentives on Teacher Absenteeism",
+        "authors": [
+          {
+            "first": "Stephen",
+            "middle": [],
+            "last": "Jacobson",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "Journal of Human Resources",
+        "volume": "243",
+        "issue": "2",
+        "pages": "280--286",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jacobson, Stephen. 1989. \"The Effects of Pay Incentives on Teacher Absenteeism.\" Journal of Human Resources 243(2): 280-286.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Attendance Incentives and Teacher Absenteeism",
+        "authors": [
+          {
+            "first": "Stephen",
+            "middle": [],
+            "last": "Jacobson",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "Planning and Changing",
+        "volume": "21",
+        "issue": "2",
+        "pages": "78--93",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jacobson, Stephen. 1991. \"Attendance Incentives and Teacher Absenteeism.\" Planning and Changing 21(2): 78-93.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Do Teachers Affect Learning in Developing Countries?: Evidence from Student-Teacher data from China",
+        "authors": [
+          {
+            "first": "Albert",
+            "middle": [],
+            "last": "Park",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Hannum",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Park, Albert and Hannum E, 2002. \"Do Teachers Affect Learning in Developing Countries?: Evidence from Student-Teacher data from China\", Harvard University. Processed.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "The Impact of Teachers on Student Achievement: Evidence from Panel Data",
+        "authors": [
+          {
+            "first": "Jonah",
+            "middle": [
+              "E"
+            ],
+            "last": "Rockoff",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "American Economic Review",
+        "volume": "94",
+        "issue": "2",
+        "pages": "247--252",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rockoff, Jonah E. 2004. \"The Impact of Teachers on Student Achievement: Evidence from Panel Data\", American Economic Review, 94(2): 247-252.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Capital risk, Consumption and Portfolio Choice",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Sandmo",
+            "suffix": ""
+          }
+        ],
+        "year": 1969,
+        "venue": "Econometrica",
+        "volume": "37",
+        "issue": "",
+        "pages": "586--599",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sandmo, A., 1969, \"Capital risk, Consumption and Portfolio Choice\", Econometrica, 37: 586- 599.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "On the Specification and Estimation of the Production Function for Cognitive Achievement",
+        "authors": [
+          {
+            "first": "Petra",
+            "middle": [],
+            "last": "Todd",
+            "suffix": ""
+          },
+          {
+            "first": "Kenneth",
+            "middle": [],
+            "last": "Wolpin",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "The Economic Journal",
+        "volume": "113",
+        "issue": "",
+        "pages": "3--33",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Todd, Petra and Kenneth Wolpin. 2003. \"On the Specification and Estimation of the Produc- tion Function for Cognitive Achievement\", The Economic Journal 113 (February): F3-33.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Making Services Work for the Poor",
+        "authors": [],
+        "year": 2003,
+        "venue": "World Development Report",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank.2003. World Development Report 2004: Making Services Work for the Poor. Washington, D.C.: The World Bank.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "Note :Standard errors in parentheses. Significantly different from zero at 90 (*); 95 (**); 99 (***) percent confidence. Dependent variable defined as change in test scores in English. Reported coefficients estimated from a regression of changes in test scores on days absent. School controls include funding received in the current year, dummies for location, changes in the head teacher, parents teachers association (PTA) chairperson, private schools and changes in PTA fees Pupil characteristics include pupil sex, age, whether the pupil lives with both biological parents, dummies that take the value of 1 if the mother/father have more than primary schooling and a measure of household wealth. F-test performs the joint test that current and past teacher characteristics are significantly different from zero. Standard errors are clustered at the teacher level. The full sample of pupils that took both tests is used in these estimations. Standard errors in parentheses. Significantly different from zero at 90 (*); 95 (**); 99 (***) percent confidence. Dependent variable defined as change in test scores in Math.",
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "fig_num": null
+      },
+      "FIGREF1": {
+        "text": "Standard errors in parentheses. Significantly different from zero at 90 (*); 95 (**); 99 (***) percent confidence. Dependent variable is standardized baseline score in English (columns 1-4) and Mathematics (columns 5-8). Reported coefficients estimated from a regression of test scores in 2001 on days absent and teacher characteristics. Standard errors are clustered at the teacher level. The full sample of pupils that took both tests is used in these estimations.",
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "fig_num": null
+      },
+      "FIGREF2": {
+        "text": "errors in parentheses. Significantly different from zero at 90 (*); 95 (**); 99 (***) percent confidence. Dependent variable is change in English test scores. School controls include funding received in the current year, dummies for location, changes in the head teacher, parents teachers association (PTA) chairperson, private schools and changes in PTA fees Pupil characteristics include pupil sex, age, whether the pupil lives with both biological parents, dummies that take the value of 1 if the mother/father have more than primary schooling and a measure of household wealth. F-test performs the joint test that current and past teacher characteristics are significantly different from zero. Standard errors are clustered at the teacher level. The full sample of pupils that took both tests is used in these estimations. Standard errors in parentheses. Significantly different from zero at 90 (*); 95 (**); 99 (***) percent confidence. Dependent variable is change in Mathematics test scores.",
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "fig_num": null
+      },
+      "FIGREF3": {
+        "text": "Standard errors in parentheses. Significantly different from zero at 90 (*); 95 (**); 99 (***) percent confidence. Dependent variable defined as change in test scores in English or Mathematics. Reported coefficients estimated from a regression of changes in test scores on days absent and province dummies. Current and Past Teacher controls include teacher gender, a dummy for 5 or more years of teaching experience and the possession of a teaching certificate. Other controls include funding received in the current year, dummies for location, changes in the head teacher, parents teachers association (PTA) chairperson, private schools and changes in PTA fees. F-test performs the joint test that current and past teacher characteristics are significantly different from zero. Standard errors are clustered at the teacher level.",
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "fig_num": null
+      },
+      "TABREF0": {
+        "text": "The data used to construct this table comes from surveys of schools, matched teachers present during the survey team visit, and sampled pupils.",
+        "html": null,
+        "content": "<table><tr><td>Number of male teachers</td></tr></table>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF1": {
+        "text": "The data used to construct this table comes from head teacher reports of absence for teachers matched to the pupils tested in 2001 and 2002. Head teachers were asked to report the primary reason for any absence episode in the 30 days prior to the survey team visit.",
+        "html": null,
+        "content": "<table><tr><td># episodes</td><td>Fraction of HT</td><td>Mean days</td><td>Median</td></tr><tr><td/><td>absence</td><td>absent</td><td>days</td></tr><tr><td/><td>episodes</td><td/><td>absent</td></tr></table>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF2": {
+        "text": "",
+        "html": null,
+        "content": "<table><tr><td/><td>Teachers</td><td>Teacher</td><td>Diff.</td><td>Teacher</td><td>Teacher</td><td>Teacher</td><td>Teacher</td></tr><tr><td/><td>Not</td><td>Absent</td><td>Significant</td><td>not</td><td>Absent</td><td>not absent</td><td>Absent</td></tr><tr><td/><td>Absent</td><td/><td/><td>absent</td><td/><td/><td/></tr><tr><td>Proportion rural</td><td>0.20</td><td>0.14</td><td>No</td><td>0.17</td><td>0.14</td><td>0.14</td><td>0.14</td></tr><tr><td/><td>(0.05)</td><td>(0.04)</td><td/><td>(0.06)</td><td>(0.05)</td><td>(0.06)</td><td>(0.06)</td></tr><tr><td>Proportion male</td><td>0.33</td><td>0.22</td><td>No</td><td>0.28</td><td>0.17</td><td>0.27</td><td>0.11</td></tr><tr><td/><td>(0.06)</td><td>(0.06)</td><td/><td>(0.07)</td><td>(0.06)</td><td>(0.07)</td><td>(0.05)</td></tr><tr><td>Proportion with &gt;</td><td>0.75</td><td>0.63</td><td>No</td><td>0.74</td><td>0.62</td><td>0.78</td><td>0.60</td></tr><tr><td>5 years of</td><td>(0.06)</td><td>(0.07)</td><td/><td>(0.06)</td><td>(0.08)</td><td>(0.07)</td><td>(0.08)</td></tr><tr><td>experience</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Proportion with</td><td>0.98</td><td>0.98</td><td>No</td><td>0.98</td><td>0.98</td><td>0.97</td><td>0.97</td></tr><tr><td>teacher certificate</td><td>(0.02)</td><td>(0.02)</td><td/><td>(0.02)</td><td>(0.02)</td><td>(0.03)</td><td>(0.03)</td></tr><tr><td>Number of</td><td>55</td><td>59</td><td/><td>47</td><td>42</td><td>37</td><td>35</td></tr><tr><td>observations</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Student</td><td>Teachers</td><td>Teacher</td><td>Diff.</td><td>Teacher</td><td>Teacher</td><td>Teacher</td><td>Teacher</td></tr><tr><td>Characteristics</td><td>Not</td><td>Absent</td><td>Significant</td><td>Not</td><td>Absent</td><td>Not</td><td>Absent</td></tr><tr><td/><td>Absent</td><td/><td/><td>Absent</td><td/><td>Absent</td><td/></tr><tr><td>Proportion living</td><td>0.64</td><td>0.61</td><td>No</td><td>0.63</td><td>0.62</td><td>0.66</td><td>0.63</td></tr><tr><td>with both parents</td><td>(0.03)</td><td>(0.03)</td><td/><td>(0.03)</td><td>(0.04)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>Proportion,</td><td>0.60</td><td>0.67</td><td>No</td><td>0.60</td><td>0.64</td><td>0.64</td><td>0.66</td></tr><tr><td>mother has more</td><td>(0.03)</td><td>(0.03)</td><td/><td>(0.03)</td><td>(0.04)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>than primary</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>schooling</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Proportion, father</td><td>0.77</td><td>0.77</td><td>No</td><td>0.77</td><td>0.75</td><td>0.80</td><td>0.76</td></tr><tr><td>has more than</td><td>(0.03)</td><td>(0.03)</td><td/><td>(0.03)</td><td>(0.03)</td><td>(0.03)</td><td>(0.03)</td></tr><tr><td>primary schooling</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Proportion living</td><td>0.40</td><td>0.50</td><td>Yes</td><td>0.39</td><td>0.48</td><td>0.40</td><td>0.48</td></tr><tr><td>within 15 minutes</td><td>(0.03)</td><td>(0.03)</td><td/><td>(0.03)</td><td>(0.04)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>of school</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Asset index</td><td>0.25</td><td>0.26</td><td>No</td><td>0.26</td><td>0.21</td><td>0.33</td><td>0.27</td></tr><tr><td/><td>(0.06)</td><td>(0.06)</td><td/><td>(0.06)</td><td>(0.07)</td><td>(0.07)</td><td>(0.08)</td></tr><tr><td>Student</td><td>1.42</td><td>1.47</td><td>No</td><td>1.42</td><td>1.57</td><td>1.32</td><td>1.50</td></tr><tr><td>Absenteeism</td><td>(0.10)</td><td>(0.15)</td><td/><td>(0.10)</td><td>(0.17)</td><td>(0.11)</td><td>(0.16)</td></tr><tr><td>Number of</td><td>271</td><td>280</td><td/><td>238</td><td>192</td><td>203</td><td>165</td></tr><tr><td>observations</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Note:</td><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF3": {
+        "text": "The data used to construct this table comes from surveys of schools, matched teachers present during the survey team visit, and sampled students.",
+        "html": null,
+        "content": "<table><tr><td>School Characteristics</td><td>Non-Same Teacher</td><td>Same Teacher</td><td>Difference</td></tr><tr><td/><td>Schools</td><td>Schools</td><td>significant</td></tr><tr><td>Number of male teachers</td><td>7.29</td><td>9.52</td><td>Yes</td></tr><tr><td/><td>(0.51)</td><td>(0.66)</td><td/></tr><tr><td>Number of female teachers</td><td>7.94</td><td>19.90</td><td>Yes</td></tr><tr><td/><td>(1.12)</td><td>(1.61)</td><td/></tr><tr><td>Proportion of schools in rural location</td><td>0.64</td><td>0.34</td><td>Yes</td></tr><tr><td/><td>(0.05)</td><td>(0.05)</td><td/></tr><tr><td>Proportion of schools that are private</td><td>0.01</td><td>0.04</td><td>No</td></tr><tr><td/><td>(0.01)</td><td>(0.02)</td><td/></tr><tr><td>Number of observations</td><td>86</td><td>91</td><td/></tr><tr><td>Current Teacher Characteristics</td><td>New Teachers</td><td>Same Teacher</td><td>Difference</td></tr><tr><td/><td/><td/><td>Significant</td></tr><tr><td>Proportion rural</td><td>0.31</td><td>0.19</td><td>Yes</td></tr><tr><td/><td>(0.03)</td><td>(0.04)</td><td/></tr><tr><td>Proportion male</td><td>0.48</td><td>0.31</td><td>Yes</td></tr><tr><td/><td>(0.03)</td><td>(0.04)</td><td/></tr><tr><td>Proportion with &gt; 5 years of experience</td><td>0.44</td><td>0.70</td><td>Yes</td></tr><tr><td/><td>(0.03)</td><td>(0.04)</td><td/></tr><tr><td>Proportion with teacher certificate</td><td>0.74</td><td>0.97</td><td>Yes</td></tr><tr><td/><td>(0.03)</td><td>(0.02)</td><td/></tr><tr><td>Days absent in the previous month</td><td>1.68</td><td>1.94</td><td>No</td></tr><tr><td/><td>(0.25)</td><td>(0.38)</td><td/></tr><tr><td>Number of observations</td><td>283</td><td>119</td><td/></tr><tr><td>Student Characteristics</td><td>Movers</td><td>Non-movers</td><td>Difference</td></tr><tr><td/><td/><td/><td>Significant</td></tr><tr><td>Proportion living with both parents</td><td>0.64</td><td>0.62</td><td>No</td></tr><tr><td/><td>(0.01)</td><td>(0.02)</td><td/></tr><tr><td>Proportion, mother has more than</td><td>0.53</td><td>0.62</td><td>Yes</td></tr><tr><td>primary schooling</td><td>(0.01)</td><td>(0.02)</td><td/></tr><tr><td>Proportion, father has more than</td><td>0.70</td><td>0.76</td><td>Yes</td></tr><tr><td>primary schooling</td><td>(0.01)</td><td>(0.02)</td><td/></tr><tr><td>Proportion living within 15 minutes of</td><td>0.45</td><td>0.44</td><td>No</td></tr><tr><td>school</td><td>(0.01)</td><td>(0.02)</td><td/></tr><tr><td>Asset index</td><td>-0.13</td><td>0.19</td><td>Yes</td></tr><tr><td/><td>(0.02)</td><td>(0.04)</td><td/></tr><tr><td>Student Absenteeism</td><td>1.55</td><td>1.43</td><td>No</td></tr><tr><td/><td>(0.05)</td><td>(0.08)</td><td/></tr><tr><td>Number of observations</td><td>1592</td><td>598</td><td/></tr><tr><td>Note:</td><td/><td/><td/></tr></table>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF4": {
+        "text": "The table above shows actual and predicted frequencies under the null hypothesis that the columns and rows in the table are independent.",
+        "html": null,
+        "content": "<table><tr><td>More absent teachers</td></tr><tr><td>Less absent teachers</td></tr></table>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF5": {
+        "text": "",
+        "html": null,
+        "content": "<table><tr><td>Non-movers</td><td/></tr><tr><td>Full Sample</td><td/></tr><tr><td>Non-movers</td><td/></tr><tr><td>Full Sample</td><td>(1)</td></tr></table>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF6": {
+        "text": "",
+        "html": null,
+        "content": "<table/>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF7": {
+        "text": "",
+        "html": null,
+        "content": "<table><tr><td>(1)</td></tr></table>",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF8": {
+        "text": "The data used to construct this table comes from surveys of matched teachers present during the survey team visit and sampled pupils. Pupil characteristics are calculated for the entire sample of pupils tested in 2001 and 2002",
+        "html": null,
+        "content": "<table><tr><td>Proportion rural</td></tr></table>",
+        "num": null,
+        "type_str": "table"
+      }
+    }
+  }
+}

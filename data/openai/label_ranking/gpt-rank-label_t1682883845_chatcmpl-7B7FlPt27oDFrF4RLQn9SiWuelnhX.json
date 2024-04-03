@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07130: In the following section we describe how our principal dependent variables are constructed.\n\ns_07180: 4 One possible concern with the analysis in this paper is the extent to which respondents might answer strategically during the survey.\n\ns_07230: Annex table 2 reports the sectoral breakdown of the summary indicators reported in table 1 -health, transport and cultural services tend to be among sectors where the fewest commitments are made.\n\ns_07280: For the empirical application, we deleted any observations missing the dependent variable or covering too short a period (less than 8 years).\n\ns_07330: Table 5 .1 lists in aggregated categories the range of activities involved.\n\ns_07380: (1987) in the previous section holds here.\n\ns_07430: During They conclude that:\n\ns_07480: Sources: Habitat (1991) up to 1990. averaging AFPs according to their number of affiliates; For September 1992, SAFP Bulletin N' 110 for September 1992 averaging AFPs according to their number of contributors in March 1992.\n\ns_07530: Its major findings can be summed up as follows:\n\ns_07580: The problems explored in this paper arise primarily from thea interaction between the growing complexity of industrial organization and market structure and a statistical network designed to collect information ior the pre-reform system of industrial olanning and administration.\n\ns_07630: The introduction of such features represented the beginnings of what is commonly understood to be the 'Brady-type\" approach today.\n\ns_07680: For instance, Table 3 , cols.\n\ns_07730: We regress 17in Marshall and Schmidt-Hebbel (1989) or alternatively equation 4in the appendix of the Zimbabwe paper.).\n\ns_07780: Several recent studies have identified these general patterns.\n\ns_07830: 4 .18 Due to the lack of disaggregated data, detailed cost analysis has not been possible.\n\ns_07880: This issue, however, goes beyond the scope of this paper.\n\ns_07930: Because of the uncertainty introduced by the lack of a welldefined sample frame, the surveys were designed to include as many cross-checks on the data obtained from the various interviews as possible.\n\ns_07980: 27 SeeLaeven (2004) for example of U.S. p. 2 -3\n\ns_08030: The evidence presented in this paper suggests that the impact of electricity tariff reforms on household choice of space heating fuels and the level of fuelwood consumption should be carefully monitored.\n\ns_08080: Zagler and Durnecker (2003) survey this literature.\n\ns_08130: The rest of the book gives the data on Chinese GDP and taxes from which one can calculate total household disposable income, and when combining this information with the estimates of gentry total income and its share in the Chinese population, calculate gentry's (upper's and lower's) per capita incomes (see the last line in the table below).\n\ns_08180: One of the authors of this Economic Brief (Athreya) and Janice Eberly of Northwestern University have estimated that subsidies reduce the direct cost of attending a public university by between 40 percent and 50 percent.\n\ns_08230: And the greater accountability of public universities to those who fund them implies that high rates of D, F, or Withdraw (DFW), which might have been unremarkable 20 years ago, are no longer acceptable.\n\ns_08257: For each group of databases, a table is provided highlighting key features of the surveys.\n\ns_08307: The authors use an artificial intelligence company to scrap the press related to COVID-19 and to extract some information on the dates and scales of implementation of a wide range of public health measures, e.g."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7FlPt27oDFrF4RLQn9SiWuelnhX",
+    "object": "chat.completion",
+    "created": 1682883845,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1048,
+      "completion_tokens": 26,
+      "total_tokens": 1074
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08257\", \"data_mentioned\": true, \"reason\": \"databases\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08257\", \"data_mentioned\": true, \"reason\": \"databases\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02743: It is beyond the scope of this effort to comprehensively assess mechanisms for this change, but it was visually evident, using Google Earth and Bing Maps imagery, that timber harvesting has occurred proximate to areas with the greatest amount of coniferous forest change.\n\ns_02793: We also standardized scale scores to a normal distribution (mean = 0, standard deviation (SD), 1) in order to interpret results in terms of standarddeviation differences between groups.\n\ns_02843: Selecting cases with a valid value of W2C0 for working mothers yielded a sample size of approximately 3850.\n\ns_02893: Internet surveys have proven useful for specific types of samples, however the Bureau conducts many demographic surveys which represent the country as a whole.\n\ns_02943: This is somewhat misleading, since the size of the t statistic depends not only on de observed differences in means or percentage being compared but also on the number of respondents in tie categories used fox conparison, and on the degree of variability among respondents within categcries.\n\ns_02993: Several tools were used to collect the data, including: classroom observations, lesson checklists (evaluation forms), lesson plans evaluation forms, interviews for teachers and parents, focus group survey questionnaires.\n\ns_03043: It will now be possible to compare the brain structural features of patients studied in these Memory Clinics with those of patients studied in other worldwide ADNI initiatives.\n\ns_03093: According to the model estimates, the operator educational level has a major impact on the adoption of multifunctional practices (figure 2).\n\ns_03143: Where g are village level \u2026xed e\u00a4ects, t are preference \u2026xed e\u00a4ects, and X ig is the matrix of individual and household level variables described in Table   3 .\n\ns_03193: See the Granger causality tests inSanders, Irwin, and Merrin (2008).\n\ns_03243: At least two distinct literatures are related to our model and empirical application.\n\ns_03293: Finally, some recent papers have tried to assess the role of different mechanisms in the transmission of the crisis.\n\ns_03343: When correcting the data-generating process to obtain a sample with an important amount of zero-value observations -a situation closer to ours -Martin and Pham find that the ET-Tobit and the two-stage sample selection estimates have a lower bias than those obtained with the PPML estimator.\n\ns_03393: It follows from our detailed analysis that values of 'import'\n\ns_03443: Both OLS and the asymptotically more e\u00a2 cient 1 2 For the 1982 cross-section, F = :07 < F :95\n\ns_03493: For the relevant analysis and suggestions for \"redemption\" see, for example,Eichengreen and Hausmann (1999); Calvo and Reinhart (2002);Eichengreen and Hausmann (2002);and Eichengreen, Hausmann, and Panizza (2005).\n\ns_03543: Columns 1 and 3 present OLS specifications, whilst columns 2 and 4 present Fixed Effects models, which effectively estimate deviations from growth trends.\n\ns_03593: In the table we also report the number of banks covered by both BANKSCOPE and DATASTREAM as well as the number of banks that remain after we impose data filters described above.\n\ns_03643: Post-mortems of the failing Doha negotiations, for example by Schwab (2011) , have highlighted the divergent interests of the new powers (notably China and India) and the traditional ones (such as the EU and US).\n\ns_03693: For an insightful discussion of the role of the government in balance sheet recessions, also seeKoo (2009).\n\ns_03743: Table 2 summarizes the results of our investigation for Brazil's health cases.\n\ns_03793: In Sections 5 and 6, we summarize the results of our empirical analysis.\n\ns_03843: In Panel A, each column presents results from regression of given dependent variable on indicator for days to first disbursement (targeted) <=6 and a constant.\n\ns_03893: The estimated annual cost of rangeland degradation for the two methods is summarized in Table  6 .3.\n\ns_03943: The estimation results are reported in Table 3 Panel A."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7QjwzVhiMyCGCEWlscj6wJ43JoZ",
+    "object": "chat.completion",
+    "created": 1682884525,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1169,
+      "completion_tokens": 77,
+      "total_tokens": 1246
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03743\", \"data_mentioned\": true, \"reason\": \"health cases\"}, {\"sent_id\": \"s_03893\", \"data_mentioned\": true, \"reason\": \"rangeland degradation\"}, {\"sent_id\": \"s_03943\", \"data_mentioned\": true, \"reason\": \"Table 3\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03743\", \"data_mentioned\": true, \"reason\": \"health cases\"}, {\"sent_id\": \"s_03893\", \"data_mentioned\": true, \"reason\": \"rangeland degradation\"}, {\"sent_id\": \"s_03943\", \"data_mentioned\": true, \"reason\": \"Table 3\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

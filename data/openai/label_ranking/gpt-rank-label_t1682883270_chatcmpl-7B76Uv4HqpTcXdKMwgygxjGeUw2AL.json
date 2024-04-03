@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04924: The model developed below is from Fay (2000) and seeks to ask the question of what infrastructure levels will be required in the future, either as consumption goods, or as input into production function.\n\ns_04974: (2013) which are publicly available.\n\ns_05024: This is where the contribution of our paper lies.\n\ns_05074: Field data for the 2012 group, the reference year of the panel, were collected between March and July 2012.\n\ns_05124: The tables below summarizes the findings when the quantitative exercises of section 3.2 are repeated using the alternative values of the parameters.\n\ns_05174: 2008; Robinson 2013; Ver Ploeg 2009) .\n\ns_05224: See Estache and Grifell-Tatje (2013) for a detailed quantitative diagnostic.\n\ns_05274: The simulation first calculates the supplementary funding requirement of each state, applying the same parameters described in table 2 (in the appendix) to the number of rural, indigenous, and poor children living in each of the 31 states.\n\ns_05324: See, for example,Kaminsky and Reinhart (2000a).\n\ns_05374: Six techniques are presented in the next section and perform their estimation on the data set from Hargeisa.\n\ns_05424: The structure of this paper is as follows.\n\ns_05474: Notes: 1) Cells with a check mark represent data collected by the team and published in this paper.\n\ns_05524: Section 2 contains a review of the literature and discusses the contribution of this paper.\n\ns_05574: These are based on a readily available dataset created for use at the global scale (Zorn and Koks, 2019) using a calibrated geospatial prediction model (Zhu, Baise and Thompson, 2017) .\n\ns_05624: , 2018; Uribe-Carvajal et al.\n\ns_05674: This paper is a product of the Governance Global Practice and the Health, Nutrition and Population Global Practice.\n\ns_05724: In order to check the sensitivity of our results to the use of a different data source, we follow previous literature in defining skills measures using the U.S. O*Net database.\n\ns_05774: Our paper shows some of the promise and limits of doing so.\n\ns_05824: In Section 3, we introduce the data sources for our analysis.\n\ns_05874: The next section of the paper describes the conceptual framework and analytic methods underlying these findings.\n\ns_05924: The data covers the universe of Malawian imports (about 3.3 million transactions in total) and is obtained from the Malawi National Statistical Office (NSO).\n\ns_05974: The results section first presents the results from the basic model (1) specification applied to the entire sample and conducts the checks for robustness.\n\ns_06024: The rest of the paper proceeds as follows.\n\ns_06074: A limited number of other papers, e.g.\n\ns_06124: Our paper contributes to the literature in at least two ways."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B76Uv4HqpTcXdKMwgygxjGeUw2AL",
+    "object": "chat.completion",
+    "created": 1682883270,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 915,
+      "completion_tokens": 93,
+      "total_tokens": 1008
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05574\", \"data_mentioned\": true, \"reason\": \"Zorn and Koks, 2019\"}, {\"sent_id\": \"s_05724\", \"data_mentioned\": true, \"reason\": \"U.S. O*Net database\"}, {\"sent_id\": \"s_05924\", \"data_mentioned\": true, \"reason\": \"Malawi National Statistical Office (NSO)\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05574\", \"data_mentioned\": true, \"reason\": \"Zorn and Koks, 2019\"}, {\"sent_id\": \"s_05724\", \"data_mentioned\": true, \"reason\": \"U.S. O*Net database\"}, {\"sent_id\": \"s_05924\", \"data_mentioned\": true, \"reason\": \"Malawi National Statistical Office (NSO)\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

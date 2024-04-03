@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01706: The geographic and socioeconomic diversity of the SEER registries make our findings likely to be generalizable across care settings and patient populations in the United States.\n\ns_01756: Tables 7 and 8 to the presence of AD [22, 1, 4, 47, 46, 12, 48] .\n\ns_01806: This pattern has been reported by several studies using a spatial perspective [8, 14, 48] .\n\ns_01856: Each respondent in the NELS data set was matched with a respondent in the BPS data set based on age, sex, raceethnicity, SES, and the characteristics of their first postsecondary enrollment status (e.g., full-or part-time or type of institution).\n\ns_01906: Moreover, the value of biobanks is greatly enhanced if they link all the multidimensional clinical and laboratory information of each case, which is accomplished, optimally, using systematic and standardized operating procedures, and in the framework of multidisciplinary teams with the support of a flexible and user-friendly database system that facilitates the sharing of information of all the teams in the network.\n\ns_01956: Previous literature has demonstrated the excellent psychometric properties of the GAD-7 across various clinical and non-clinical populations (Kertz et al.\n\ns_02006: This study draws on existing data from three secondary schools in a large English Local Authority.\n\ns_02056: At present, clinical trials on nafamostat (such as NCT04473053) are being evaluated.\n\ns_02106: Registry standardization (e.g., IARC CANREG5) may also help improve missing and incomplete data on anatomical subsite and histology, which is common, even in the high-quality Costa Rica and US SEER databases.\n\ns_02156: The study attempts to answer the following research questions:\n\uf0b7 What are the key papers that captures the most relevant research, areas and topics on COVID-19?\n\ns_02206: Met carriers had slower annual accrual of hippocampal MD (median (IQR) 1.26% (0.92) vs. 1.85% (1.09) for right hippocampus, stronger for women, and 1.45% (1.06) vs. 1.97% (1.22) for left hippocampus, stronger for men) compared to val homozygotes.\n\ns_02239: 26 In the present study, CSF-A\u03b2 was used as an indirect, quantitative measure of amyloid pathology.\n\ns_02289: The presence of \"grass\" (likely eel grass) on the 1877 bed was mapped and is included in the Mannings-n data.\n\ns_02339: Supplementary Table 1 reports lower FDG metabolism in a stepwise manner from CN to MCI to AD for global cerebrum, lateral parietal, posteromedial parietal, and hippocampus ROIs.\n\ns_02389: 595 References\n596 Bennett, D. C., O'Donnell, J., Bohlen, W. F., & Houk A.\n\ns_02439: These findings could inform a model of health system characteristics that lead to LVC.\n\ns_02489: Finally, to make inferences in full 29903 bp genomes, we performed sliding window analyses across approximately 10,000 simulated genomes and then trained a long short-term memory (LSTM) RNN to predict if the genome was under positive selection and the population fitness (Online Methods).\n\ns_02539: The explanatory variables included in the count data model for information sources include total gross organic farming income (OrganicIncome) and farm size measured as the acreage farmed organically (OrganicAcres).\n\ns_02589: Conclusions: in the study presented in this article, statistically significant relationships between BPH and the diagnostic parameters of the metabolic syndrome were demonstrated.\n\ns_02639: PTSD has been shown to be associated with an increased risk of dementia in both genders over an average of 8 years of follow-up (hazard ratio: 1.73[1.47, 2.02]) (Flatt et al., 2017) .\n\ns_02689: Table 2 presents an identical analysis under the assumption that black application rates come to resemble those seen today among whites with similar SAT scores.\n\ns_02739: The first bi-national land cover classification was developed for a single time step (1985)(1986)(1987) by the Canadian Forest Service to model breeding bird distribution in the Great Lakes basin (Venier et al., 2004).\n\ns_02789: The distributions of GA, SES, and covariates were similar in the 2-year and kindergarten analytical cohorts compared with the eligible target population.\n\ns_02839: Figure 2 illustrates the direct significant paths found, and Table 3 presents the decomposition of effects.\n\ns_02889: They tested an Internet survey using the National Survey of Recent College Graduates (NSRCG)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7O2DommzO9qxWF5p1P3rcRxVdec",
+    "object": "chat.completion",
+    "created": 1682884358,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1302,
+      "completion_tokens": 75,
+      "total_tokens": 1377
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01856\", \"data_mentioned\": true, \"reason\": \"NELS\"}, {\"sent_id\": \"s_02106\", \"data_mentioned\": true, \"reason\": \"SEER\"}, {\"sent_id\": \"s_02739\", \"data_mentioned\": true, \"reason\": \"Canadian Forest Service\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01856\", \"data_mentioned\": true, \"reason\": \"NELS\"}, {\"sent_id\": \"s_02106\", \"data_mentioned\": true, \"reason\": \"SEER\"}, {\"sent_id\": \"s_02739\", \"data_mentioned\": true, \"reason\": \"Canadian Forest Service\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

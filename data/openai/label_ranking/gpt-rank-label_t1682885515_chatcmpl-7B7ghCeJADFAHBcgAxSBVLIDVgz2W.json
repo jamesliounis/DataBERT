@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04417: Following Redding and Venables (2004) , the total value x ijt of exports from country i to country j in year t can be written as follows:\n\ns_04467: Robust standard errors in parentheses, clustered at the individual level.\n\ns_04517: The adverse selection model (Weiss 1980 (Weiss , 1990 would suggest that firms employing a higher share of high-skilled workers should be more concerned about their employees leaving.\n\ns_04567: When presented with these findings, how might policy makers react?\n\ns_04617: In line with AG (2010), however, we sidestep the problems derived from assuming discrete changes in regimes by using a smooth (continuous) transition model.\n\ns_04667: D(S) is the dissimilarity index estimated with the set of circumstances S. ( \u222a { 1}) is the dissimilarity index calculated with set of circumstances S and the circumstance C1.\n\ns_04717: This financial development measure, using unit-level data (Rabe-Hesketh and Skrondal, 2012).\n\ns_04767: This was subsequently adopted on a national scale in 2005.\n\ns_04817: The parameters over which to search are again the production parameters (,B, a, p, a, (), the scaling factor s and the skewness m of H(., m).\n\ns_04867: The focus on country-years rather than countries is also appropriate as it fits the logic of the GEM sampling methodology (Estrin and Mickiewicz, 2011) .\n\ns_04917: In Hungary, road availability is found to be a significant determinant of investment (Boudier-Bensebaa, 2005) .\n\ns_04967: Thus, whereas we are reasonably confident on the overall estimates, we do not recommend relying on individual country level estimates except in a very indicative manner.\n\ns_05017: Specifically, we control for initial conditions by including lagged GDP and use exportweighted GDP of the country's main trading partners which gives a sense of the demand for the country's exports in a particular year.\n\ns_05067: In addition, the surveys provide information on firm capabilities, such as whether firms have a website or use email to communicate with clients, which we used to control for changes in firm capabilities between 2006 and 2010.\n\ns_05117: Sample weights are used throughout all the analyses to make statistics nationally representative.\n\ns_05167: This paper investigates whether the country will be able to maintain such high levels of growth going forward.\n\ns_05217: (2010) also measures whether the location of enrollment (at a micro-finance facility or the standard INSS enrollment location) affects the enrollment decisions of informal-sector workers, and whether MFI clients have different utilization patterns than non-MFI clients.\n\ns_05267: 28 From a more technical viewpoint, it is quite important to appreciate the extent to which the conclusions differ according to the modeling methods (e.g.\n\ns_05317: The size of this effect is not known empirically.\n\ns_05367: While examining the determinants of this time-varying relationship is beyond the scope of this paper, we will now examine whether hikes in interest rates in financial centers are transmitted more strongly to vulnerable economies.\n\ns_05417: A household consumption questionnaire records consumption and expenditures for a comprehensive list of food and non-food items.\n\ns_05467: In this sub-section, we focus on China's outward investment; given the available information in the CGIT data set, we can differentiate China's investment across types and sectors.\n\ns_05517: Even within this limited scope, the initial plan for data collection was very ambitious as it entailed two respondent data groups.\n\ns_05567: These findings could be driven by the fact that the level of development may be correlated with the speed at which the demand for skills and the adoption of new technologies take place.\n\ns_05617: As these were created at the global scale, we note that they may underestimate the hazard in local areas for fault lines not captured in historical catalogues."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7ghCeJADFAHBcgAxSBVLIDVgz2W",
+    "object": "chat.completion",
+    "created": 1682885515,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1111,
+      "completion_tokens": 54,
+      "total_tokens": 1165
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05417\", \"data_mentioned\": true, \"reason\": \"household consumption questionnaire\"}, {\"sent_id\": \"s_05467\", \"data_mentioned\": true, \"reason\": \"CGIT data set\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05417\", \"data_mentioned\": true, \"reason\": \"household consumption questionnaire\"}, {\"sent_id\": \"s_05467\", \"data_mentioned\": true, \"reason\": \"CGIT data set\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03184: This figure and the associated argument draw on the work ofDawe (2009).\n\ns_03234: Table 4 shows the estimations for various samples, depending on the selection variables.\n\ns_03284: The focus of the paper is the estimation and characterization of the evolution of these coefficients during a 10 (trading) days windows following each of the two events under study.\n\ns_03334: Column 1a in Table 5 reports sample-selection estimates using this procedure.\n\ns_03384: Detailed analysis of the values of RCA indices over time would provide an answer as to the cause.\n\ns_03434: For example, for the 1982 cross section with A=S included in the right-hand side of (15), the Chow F = :21 < F :95 4;242 = 2:41; and the probability level at which the F-test rejects the equality of coe\u00a2 cients across the two sub-samples is .93; similarly, in (18) the Chow F = :33 < F :95 4;242 = 2:41; and the probability level at which the F-test rejects the equality of coe\u00a2 cients is .85.\n\ns_03484: 2 See for example Merton and Bodie (2004) .\n\ns_03534: The baseline regressions presented in columns 1 and 3 merely control for connectedness, while the extended specifications presented in columns 2 and 4 additionally include interactions between connectedness and productivity.\n\ns_03584: In particular we are interested in whether there have been structural shifts in co-dependence over the sample period from 1998 to 2010.\n\ns_03634: 2 These figures may exaggerate China's dominance because trade is measured in gross terms rather than valued added terms (see Johnson and Noguera, forthcoming).3 Across countries and sectors, China features consistently as the most important supplier and often by a substantial amount.\n\ns_03684: compressors, which have to be imported (Pauschert 2009) .\n\ns_03734: In the next section we summarize the results of our investigation for the five countries included in the Gauri and Brinks study, and then compare these results to our theoretical expectations.\n\ns_03784: This paper also contributes to the nascent empirical literature on structural models of credit spreads.\n\ns_03834: In Table 9 we explore whether estimated effects differ across males and females in the sample, estimating regressions analogous to column 6, Table 6 , but where the sample is restricted to females (column 1) and males (column 2).\n\ns_03884: This requires data on who is exposed, the health impacts of that exposure and the value attached to those impacts.\n\ns_03934: Similar to the case in Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , we re-index each of these measures in this paper such that lower numbers indicate a higher bureaucracy quality or lower corruption.\n\ns_03984: Results of the baseline environment simulation are presented in Panel A of Table15.\n\ns_04034: The second part of the paper was concerned with the issue of how to respond to this evidence.\n\ns_04084: Centralized collection of contributions has been pursued in a number of countries, but the results have been less than satisfactory, most notably in Kazakhstan and\n\ns_04134: Our data on capital raising activity come from the Thomson Reuters' SDC Platinum database, which provides transactionlevel information on new issues of common and preferred equity and publicly and privately placed bonds with an original maturity of more than one year.\n\ns_04184: The figure also illustrates an important implication of the analysis: if, at the initial level of C, D* is the optimal value of initial debt (that is, the value for which dV/dD = 0), at the new value of C the initial D* will be too high because it will be located on the wrong side of the debt Laffer curve (point A').\n\ns_04234: See also Bolton and Jeanne (2011) .\n\ns_04284: These results are supportive of the findings from the analysis in previous sections, particularly the impulse response functions (Section 3.6).\n\ns_04334: In the Kenyan context, Milu Charles Muyanga, John Olwande, Esther Mueni & Stella Wambugu (2010) apply propensity score matching methods to a panel data set of rural households to estimate a 7% increase in net enrollment spread across public and private primary schools with the largest response coming from higher income groups.\n\ns_04384: Column (6) controls for the potential bias associated with fixed effects estimation on data pooled over consecutive years (Anderson and Yotov 2011) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Jk6abWmftReB59V4HhVAfjH1ub",
+    "object": "chat.completion",
+    "created": 1682884092,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1258,
+      "completion_tokens": 82,
+      "total_tokens": 1340
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04334\", \"data_mentioned\": true, \"reason\": \"panel data set\"}, {\"sent_id\": \"s_03934\", \"data_mentioned\": true, \"reason\": \"corruption\"}, {\"sent_id\": \"s_04134\", \"data_mentioned\": true, \"reason\": \"Thomson Reuters' SDC Platinum database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04334\", \"data_mentioned\": true, \"reason\": \"panel data set\"}, {\"sent_id\": \"s_03934\", \"data_mentioned\": true, \"reason\": \"corruption\"}, {\"sent_id\": \"s_04134\", \"data_mentioned\": true, \"reason\": \"Thomson Reuters' SDC Platinum database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,1263 @@
+{
+  "paper_id": "D5800545",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:05:11.312071Z"
+  },
+  "title": "Household savings and residential mobility in informal settlements *",
+  "authors": [
+    {
+      "first": "Somik",
+      "middle": [
+        "V"
+      ],
+      "last": "Lall",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Development Research Group, World Bank",
+        "institution": "",
+        "location": {
+          "settlement": "Washington, Delhi",
+          "country": "India"
+        }
+      },
+      "email": ""
+    },
+    {
+      "first": "Ajay",
+      "middle": [],
+      "last": "Suri",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Uwe",
+      "middle": [],
+      "last": "Deichmann",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Development Research Group, World Bank",
+        "institution": "",
+        "location": {
+          "settlement": "Washington, Delhi",
+          "country": "India"
+        }
+      },
+      "email": ""
+    }
+  ],
+  "year": "",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "Strategies to help the one billion people worldwide who live in informal settlements have mainly focused on slum upgrading, sites and services programs and tenure security. In contrast, there has been less attention on what enables slum dwellers to transition into the formal housing sector, which has the dual benefits of improving service access and escaping social stigma. In this paper we investigate residential mobility among slum dwellers in Bhopal, India. Our analysis shows that one in five households succeeds in getting out of a slum settlement, and a major determinant is the household's ability to save on a regular basis. Due to limited outreach of institutional housing finance, most slum dwellers rely solely on household savings for purchasing a house. These findings underscore the urgent need to improve savings instruments for slum dwellers and to downmarket housing finance to reach the poorest residents of rapidly growing cities in developing countries.",
+  "pdf_parse": {
+    "paper_id": "D5800545",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "Strategies to help the one billion people worldwide who live in informal settlements have mainly focused on slum upgrading, sites and services programs and tenure security. In contrast, there has been less attention on what enables slum dwellers to transition into the formal housing sector, which has the dual benefits of improving service access and escaping social stigma. In this paper we investigate residential mobility among slum dwellers in Bhopal, India. Our analysis shows that one in five households succeeds in getting out of a slum settlement, and a major determinant is the household's ability to save on a regular basis. Due to limited outreach of institutional housing finance, most slum dwellers rely solely on household savings for purchasing a house. These findings underscore the urgent need to improve savings instruments for slum dwellers and to downmarket housing finance to reach the poorest residents of rapidly growing cities in developing countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the view of the World Bank, its Executive Directors, or the countries they represent. Policy Research Working Papers are available online at http://econ.worldbank.org.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "An estimated one-third of all urban residents live in informal settlements or slums-the vast majority in developing countries. Conditions in such areas vary widely from dismal, temporary shelter in squatter settlements to relatively well-constructed, informal housing that may persist for many decades. Common characteristics include uncertain tenure status, poor basic services such as water and sanitation, low-grade construction and overcrowded living conditions. Apart from physical deprivation, slum dwellers also often face more subtle disadvantages such as poor integration with the rest of the city and the social stigma attached to an inferior residential location.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "With continuing rapid growth of urban areas, improving the life of slum dwellers is high on the agenda of national governments and the international community. The Millennium Development Goals, for instance, advocate significant improvements in the lives of at least 100 million slum dwellers by 2020 (United Nations 2005) . Over the last several decades, strategies to achieve better living conditions of slum dwellers have included sites and services programs, resettlement to new housing developments, and land titling. We will not discuss the merits of these strategies in detail in this paper. Each strategy has had its share of success stories and failures. Given the scale of the problem, we argue instead that all available options need to be at the disposal of policy makers and adapted to local conditions, including strategies that enable slum dwellers to leave informal settlements. This is the focus of this paper in which we investigate what enables people to move out of a slum area into the formal housing market. For many households, slum areas are not just temporary residences, but are homes for many decades. Yet, some residents manage to move out into the formal housing market. The main question in this paper is why some households manage to use the informal housing market as a stepping stone towards improved housing, while for others, slums essentially become poverty traps. More specifically, in this paper we investigate the determinants of residential mobility in Bhopal, India, using a comprehensive household level data set. We are particularly interested in the personal and household characteristics that enable slum dwellers to graduate to formal housing categories-in our survey sample, one in five households succeeds in getting out of a slum settlement. We find that in the absence of formal housing finance options, the ability of households to accumulate savings significantly improves their chances for moving out of slums.",
+        "cite_spans": [
+          {
+            "start": 301,
+            "end": 322,
+            "text": "(United Nations 2005)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In the following section we briefly review policies to address the problem of inadequate shelter in developing country cities and present descriptive results from an urban household survey in Bhopal, India. Following that we discuss the role of savings in housing mobility in Section 3. Section 4 presents the analytical approach, followed by the empirical results of our analysis. Section 5 concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Rapid urban population growth and the inability of local governments to provide sufficient serviced land has resulted in a large number of people residing in informal settlements in the developing world. Globally, almost one billion people live in slums according to UN estimates (United Nations 2003) . To address this problem, development agencies and national governments have supported a range of shelter related programs (Werlin 1999, Sivam and Karuppannan 2002; Mukhija 2002; Buckley and Kalarickal 2004) . Initially, policies favored sites and services programs where infrastructure could be provided relatively cheaply on newly developed land. In Indian cities, most settlement sites were at the urban periphery, where the cost of network services extension is considerable and commuting to urban jobs expensive. Resettlement programs were managed within relatively low budgets by providing a low level of services. With the persistence of large slum areas and the realization that many slums could not be simply removed, urban upgrading projects became more widespread. Retrofitting existing settlements with better services is usually more expensive, but it avoids the social disruption of moving residents into new greenfield developments.",
+        "cite_spans": [
+          {
+            "start": 267,
+            "end": 301,
+            "text": "UN estimates (United Nations 2003)",
+            "ref_id": null
+          },
+          {
+            "start": 426,
+            "end": 449,
+            "text": "(Werlin 1999, Sivam and",
+            "ref_id": null
+          },
+          {
+            "start": 450,
+            "end": 467,
+            "text": "Karuppannan 2002;",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 468,
+            "end": 481,
+            "text": "Mukhija 2002;",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 482,
+            "end": 510,
+            "text": "Buckley and Kalarickal 2004)",
+            "ref_id": "BIBREF2"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Housing mobility",
+        "sec_num": "2."
+      },
+      {
+        "text": "The question of resettlement versus in-situ upgrading raises a dilemma. Moving slum dwellers to new housing in other parts of the city can destroy the social networks on which slum dwellers rely for income and other support. Even if entire communities get moved, residents may lose their access to jobs and services that were available in the old, often more centrally located informal settlement. With slum upgrading, on the other hand, service quality may be improved, but the social stigma attached to living in a slum location remains, even after living conditions have improved. Perlman (2003) provides evidence from slums in Rio de Janeiro to suggest that the stigma of having a residential address in a squatter settlement has adverse consequences on the probability of getting a job. There is also a growing body of analytic work showing that neighborhood attributes may affect economic and social outcomes through the behaviors, attitudes or characteristics of others who live within the same area. Examples are the ability of neighbors to provide job referrals or peer group effects on educational performance of children.",
+        "cite_spans": [
+          {
+            "start": 584,
+            "end": 598,
+            "text": "Perlman (2003)",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Housing mobility",
+        "sec_num": "2."
+      },
+      {
+        "text": "Therefore, in addition to such direct interventions, there needs to be a consideration of processes that may lead to a more natural conversion or transition from slums into the formal housing markets. Providing tenure security allows residents to use housing as collateral for investment in their dwelling unit or in economic activities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Housing mobility",
+        "sec_num": "2."
+      },
+      {
+        "text": "Titling activities can have well-documented beneficial effects (e.g., Lanjouw and Levy 2002 , Field and Torero 2002 , Field 2003 . But they tend to be costly, are subject to lengthy legal challenges, may encourage selling out to better off residents, and often reward those who illegally occupied land owned by the state or others. Development agencies therefore often shy away from full-scale land titling projects. Housing policy reform can help overcome housing supply constraints by removing burdensome and ineffective barriers to housing investment. This includes regulatory reform such as removal of floor-area ratios and financial sector restructuring (Diamond 2000; Bertaud, Buckley and Owens 2003; Bertaud and Bruckner 2004) . Such reform may lead to lower housing prices and greater affordability, making formal dwellings accessible to lower income residents.",
+        "cite_spans": [
+          {
+            "start": 70,
+            "end": 91,
+            "text": "Lanjouw and Levy 2002",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 92,
+            "end": 115,
+            "text": ", Field and Torero 2002",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 116,
+            "end": 128,
+            "text": ", Field 2003",
+            "ref_id": null
+          },
+          {
+            "start": 659,
+            "end": 673,
+            "text": "(Diamond 2000;",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 674,
+            "end": 706,
+            "text": "Bertaud, Buckley and Owens 2003;",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 707,
+            "end": 733,
+            "text": "Bertaud and Bruckner 2004)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Housing mobility",
+        "sec_num": "2."
+      },
+      {
+        "text": "To complement policy development aimed at direct intervention and regulatory reform, it is equally important to understand how people manage to transition from slums into the formal housing market in the absence of targeted policies or projects. This paper identifies characteristics of slum dwellers who manage to move out of informal settlements and discusses policies that may support this transition. Among these factors we specifically consider the role of savings. The Indian housing market can be classified into several broad segments: an informal market, composed of dwelling units in squatter settlements, but also including resettlement layouts and unauthorized layouts; and a formal market, composed of publicly produced housing units and private developers. Although the focus of our study is on a comparison of slums versus more formal housing, these categorizations hide considerable heterogeneity in the structural and regulatory characteristics of different types of housing supply mechanisms that are common to most Indian cities (see also, e.g., Sivam 2002 Sivam , 2003 . Table 1 shows the distribution of our sample across housing categories encountered in Bhopal. About 30 percent live in notified and non-notified slum and squatter settlements. Although squatter settlements are spontaneous developments to start with, their consolidation is driven by organized groups of landgrabbers. While squatter housing may be initially developed by households on open lands in close proximity to employment centers, these settlements get consolidated by groups who construct dwellings for sale and rental purposes. Figure 2 shows the distribution of welfare levels across households in six broad housing categories, where the welfare measure is per capita annual household consumption in Rupees. There is significant variance within each housing category with households in slums having the lowest consumption expenditures. 3, unauthorized colonies (4), public housing (5,6,7&8), private housing (9) and historic core (10), see Table 1 .",
+        "cite_spans": [
+          {
+            "start": 1065,
+            "end": 1075,
+            "text": "Sivam 2002",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 1076,
+            "end": 1088,
+            "text": "Sivam , 2003",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 1091,
+            "end": 1098,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 1627,
+            "end": 1635,
+            "text": "Figure 2",
+            "ref_id": "FIGREF2"
+          },
+          {
+            "start": 2040,
+            "end": 2047,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Housing mobility",
+        "sec_num": "2."
+      },
+      {
+        "text": "For many of these slum residents, informal settlements are by no means transitional homes. The average length of residence in a slum in our sample is about 21 years ( Figure 3 ). Some households have lived in the same slum dwelling for more than two generations. In addition to information about the current dwelling unit, we also have some indication of housing history. Residents were asked about the type of housing, tenure status, and access to basic services in their previous residences. Table 3 shows the destination housing categories for slum dwellers who moved out. Almost 20 percent moved to private housing (category 9). Eighteen percent moved to resettlement areas, 11 percent to unauthorized colonies and about 35 percent to various types of publicly provided housing developments. Average duration of stay in a slum for those who moved out was 16.5 years. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 167,
+            "end": 175,
+            "text": "Figure 3",
+            "ref_id": null
+          },
+          {
+            "start": 494,
+            "end": 501,
+            "text": "Table 3",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Housing mobility",
+        "sec_num": "2."
+      },
+      {
+        "text": "Looking at the distribution in Table 2 , we are interested in examining the factors that distinguish households who move out of slums from those who do not. An obvious point of departure is housing finance in an environment where formal credit tends to be accessible only to wealthier households. Apart from informal credit suppliersmoneylenders, pawnbrokers or friends and relatives-personal savings constitute a large proportion of housing finance, particularly for low-income households who are often employed in the informal sectors. For four cities in India in the mid 1980s, Lall (1989) shows that this proportion was higher in smaller towns due to lower overall incomes as well as the limited potential for institutional financial support. In Delhi, for instance, about 14 % of informal sector households had access to formal housing finance, while in two small towns-Cuttack and Quilon-the share was less than seven percent. Own savings, in contrast, provided housing finance for between 38% in Lucknow to almost 95% in Cuttack.",
+        "cite_spans": [
+          {
+            "start": 581,
+            "end": 592,
+            "text": "Lall (1989)",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 31,
+            "end": 38,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Savings behavior and lumpy expenditures",
+        "sec_num": "3."
+      },
+      {
+        "text": "This situation seems to have changed little in the last 20 years. Even though there has been some liberalization and reform in the housing and finance sectors, these developments have mostly benefited middle and higher income households (Sivam and Karuppannan 2002) . This is also reflected in our survey data from Bhopal. We find that most of the 1652 sample households who own their dwelling unit had to rely solely on personal savings to finance their ho mes. Access to housing finance is very limited, with 74 percent of all survey households relying only on own sources for financing their homes (Table 4 ). In addition, 14.5 percent rely on informal non-commercial borrowing to finance housing purchases. Similar to Igel and Srinivas (1996) , we distinguish informal credit by transactional credit suppliers, such as money lenders or pawnbrokers, from personal loans from family or other closely related persons who do not charge interest. Personal savings thus present the only way to home ownership for most lowincome households. Among the sample households in Bhopal, almost thirty percent manage to save regularly, either through chit fund savings or other forms. The proportion is higher in better off households. For instance, among households in public and private housing, between 43 and 58 percent of households report to save regularly. More than 60 percent of households that save do so on a monthly basis.",
+        "cite_spans": [
+          {
+            "start": 237,
+            "end": 265,
+            "text": "(Sivam and Karuppannan 2002)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 722,
+            "end": 746,
+            "text": "Igel and Srinivas (1996)",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 601,
+            "end": 609,
+            "text": "(Table 4",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Savings behavior and lumpy expenditures",
+        "sec_num": "3."
+      },
+      {
+        "text": "We now turn to an empirical analysis of factors that explain why some households are successful in moving out of slums while others are not. Our model estimates the household's decision to move out of slums as a function of savings behavior and a set of other household and dwelling unit characteristics. The structural equation underlying the observed behavior is a decision model where households choose to move, if the benefits from moving are higher than the benefits from staying in a slum. This is expressed as",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Strategy and Findings",
+        "sec_num": "4."
+      },
+      {
+        "text": "i i i i i i i i DU H S D \u03b5 \u03b3 \u03b2 \u03b1 + + \u2032 + \u2032 = ' * (1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Strategy and Findings",
+        "sec_num": "4."
+      },
+      {
+        "text": "where D i * is household i's net benefit from moving, S i represents savings behavior, H i is a vector of household characteristics, DU i is a vector of dwelling unit characteristics that influence the household's decision, and \u03b5 i is a normally-distributed error term with mean zero and variance \u03c3. Household characteristics include mother tongue and gender of the household head. Mother tongue is a proxy for ethnicity to test whether slum residents of the majority Hindi speaking population in Bhopal are significantly more or less likely to move out of slums than migrants from other parts of the country who tend to speak a different language. Life cycle theories of housing demand and savings also suggest consideration of household composition (Deaton 1992, Deaton and Paxson 2000) . A commonly used measure is the household dependency ratio defined as the number of non-working household members over those that are employed or self-employed.",
+        "cite_spans": [
+          {
+            "start": 751,
+            "end": 775,
+            "text": "(Deaton 1992, Deaton and",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 776,
+            "end": 788,
+            "text": "Paxson 2000)",
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Strategy and Findings",
+        "sec_num": "4."
+      },
+      {
+        "text": "Dwelling unit characteristics include the characteristics of the previous dwelling unit for movers and of the current dwelling unit for non-movers, such as availability of an individual water source and toilet facility in the dwelling unit and whether the household owned their home.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Strategy and Findings",
+        "sec_num": "4."
+      },
+      {
+        "text": "We do not observe the latent variable D i * directly. Instead we only observe the outcome of the household's evaluation of (1), which is revealed in the choice made by the household to move or stay:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Strategy and Findings",
+        "sec_num": "4."
+      },
+      {
+        "text": "D i = 1 if D i * > 0 (2a) D i = 0 if D i * \u2264 0 (2b)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Strategy and Findings",
+        "sec_num": "4."
+      },
+      {
+        "text": "We estimate (2a-b) as a probit model, correcting for unspecified heteroskedasticity, using data for the 779 households who lived in slums previously or who still resided in a slum during the survey period. Summary statistics for all variables are presented in Table 5 and Table 6 provides the estimation results. We present several specifications. In column 1 we use savings behavior as the only factor influencing a household's decision to move out of slums. The variable identifies households that manage to regularly save a portion of their income either in some form of a revolving or chit fund savings scheme or in some other type of saving.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 260,
+            "end": 267,
+            "text": "Table 5",
+            "ref_id": "TABREF5"
+          },
+          {
+            "start": 272,
+            "end": 279,
+            "text": "Table 6",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "The estimated parameters show that regular savings are a significant and important predictor of a household's probability of moving out of slums. The estimated marginal effect of 0.17 suggests that engaging in regular savings increases a household's probability of moving out of a slum by 17 percent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "In column 2, we report results fo r savings behavior after controlling for household characteristics, and in column 3 we add the skill level of the head of household. In both specifications, saving remains a highly significant explanatory variable for the ability to move out of a slum. The skill level variable takes the value of one when the head of household is an unskilled worker, relative to a moderately and high skilled worker.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "Households headed by unskilled workers are less likely to move into the formal housing market. Results for other household head characteristics suggest that non-Hindi speakers are more likely to move out of slums. This variable serves as a proxy for migrants, because Bhopal natives tend to be Hindi speakers. A possible reason why migrants do better is that they ma y be more entrepreneurial than native slum dwellers, as reflected by their decision to move across cities or regions in search of better opportunities. While we can not offer conclusive evidence on why migrants may move out of slums at a higher rate, the survey information shows that migrants in the sample have higher educational attainment compared to natives, and most have moved to Bhopal in search of employment opportunities. Migrants may thus use slums as an initial residence after arrival before moving on into the formal housing market. Dependency ratios do not have any effect on household mobility in these estimations. Interestingly, male household heads are less likely to move out of slums, a noteworthy finding given that almost half the households in the sample are headed by females. The coefficient is significant throughout the specifications. We have no clear explanation for this result.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "In the specification presented in column 4 we consider the possibility that households who have moved out of slums have positive unobservable attributes, such as innate ability, that distinguish them from households who did not move out. While we do not have any direct measure of innate ability, the survey does include information on the quality of services that each household received at its initial dwelling unit. The underlying intuition of using this information is that households who have higher ability would tend to sort themselves into slums with relatively better public services. We use two indicators to measure the quality of service delivery -whether the dwelling unit had a toilet within the house and whether it had an individual water connection. In the empirical examination, we find that both these service measures are highly correlated.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "We therefore only use individual water access in the econometric analysis. These results are provided in column 4 of Table 6 . The results suggest that households with individual water access are about 14 percent more likely to move out of slums compared to other slum dwellers. The estimated parameter is statistically significant, which means that having individual water access in the previous dwelling unit is strongly associated with the probability of moving out of a slum. As before, even after controlling for unobservable ability, savings behavior is still positive and significant.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 117,
+            "end": 124,
+            "text": "Table 6",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "In the same estimation reported in column 4, we also examine whether the household's prior tenure status has any bearing on its chances of moving out of slums.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "Our hypothesis is that households who own dwellings in slums have already made lumpy housing expenditures and would incur significant transaction costs in trading or selling their properties, as very few have clean titles to their dwelling units. In fact, in our current sample of existing slum dwellers, we find that 90 percent of residents in non-notified settlements that report owning their dwelling unit have no documentation of ownership.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "For owners living in notified squatter settlements, 83 percent have some type of ownership documentation. Of these, 80 percent only have a 'Patta', which is a certificate of land occupancy for a limited period of time. This suggests that owners of property in slum areas, while attaining a certain security of tenure, are unable to capitalize on the value of their dwelling in order to trade up into the formal housing market. Uncertain title status therefore presents a barrier to mobility. Indeed, our results show that ownership of a dwelling unit in a slum reduces the probability of moving out by about 16 percent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": null
+      },
+      {
+        "text": "To examine the robustness of the previous set of estimates, we use propensity score matching based on the probability of undertaking regular savings to construct a comparison group of households who do not save regularly (Leuven and Sianesi 2003) .",
+        "cite_spans": [
+          {
+            "start": 221,
+            "end": 246,
+            "text": "(Leuven and Sianesi 2003)",
+            "ref_id": "BIBREF12"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness Tests",
+        "sec_num": null
+      },
+      {
+        "text": "Propensity score matching is often use in impact analysis to compare beneficiaries of some form of intervention (i.e., program participants) with others who did not receive such benefits. Using the two groups, we match households with regular savings with a comparison group of households who do not save (i.e., non-participants). One would ideally like to match a participant with a non-participant using the entire dimension of observable attributes X-i.e., a match occurs if there are two individuals, one in each of the two samples, for whom the values in X are identical (Jalan and Ravallion 1999) .",
+        "cite_spans": [
+          {
+            "start": 576,
+            "end": 602,
+            "text": "(Jalan and Ravallion 1999)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness Tests",
+        "sec_num": null
+      },
+      {
+        "text": "However, this is impractical as it would be very difficult to find individuals who match on each observable attribute. Rosenbaum and Rubin (1983) show that matching can be performed instead by conditioning on P(X)-i.e., the \"propensity score-alone rather than on X, where P(X) = Prob(D=1| X) is the probability of participating conditional on X. If outcomes without the intervention are independent of participation given X then they are also independent of participation given P(X).",
+        "cite_spans": [
+          {
+            "start": 119,
+            "end": 145,
+            "text": "Rosenbaum and Rubin (1983)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness Tests",
+        "sec_num": null
+      },
+      {
+        "text": "We use a standard probit model to calculate the propensity score for each observation in the participant and the comparison-group. In addition to the variables used to predict housing mobility in Table 6 , we also include information on education, job security and assets while calculating propensity scores. These are measured as education attainment of the household head's father (whether father has completed primary school), agricultural land holdings, and whether or not the household head had a job with the government or a public sector organization. People with higher education attainment are likely to have a better understanding of the future benefits of savings as they discount benefits over a longer horizon. As the household head's own education attainment is likely to be endogenous, we use education attainment of the father of the household head as an instrument. Owning agricultural land holdings provides a safety net, increases options for consumption smoothing and may thus allow the household to save on a regular basis. Finally, having a government or a public sector job is an indication of job stability, which increases the potential for regular savings.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 196,
+            "end": 203,
+            "text": "Table 6",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness Tests",
+        "sec_num": null
+      },
+      {
+        "text": "Propensity score results are provided in Table 7 . We use a Gaussian kernel density estimator and a bandwidth of 0.06, along with bootstrapped standard errors (1000 repetitions). Once we estimate the density for the non-participants, we exclude those nonparticipants for whom the estimated density is equal to zero. As reported in Table 8, average treatment effects based on kernel matching on the predicted z-score confirm the validity of the results of the previous estimates of regular savings impact on housing mobility. Households who save regularly are about 11.4 percent more likely to move out of a slum. (Table 7) Gaussian Kernel, bandwidth 0.06, bootstrapped standard errors",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 41,
+            "end": 48,
+            "text": "Table 7",
+            "ref_id": "TABREF7"
+          },
+          {
+            "start": 331,
+            "end": 339,
+            "text": "Table 8,",
+            "ref_id": "TABREF8"
+          },
+          {
+            "start": 613,
+            "end": 622,
+            "text": "(Table 7)",
+            "ref_id": "TABREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness Tests",
+        "sec_num": null
+      },
+      {
+        "text": "In this paper, we examined why some people manage to use the informal housing market as an intermediate step towards improved housing, while others remain stuck for generations. Using household survey data, we investigated the determinants of residential mobility in Bhopal, India. Our main finding is that in situations with limited access to institutional housing finance in general, and for slum dwellers in particular, the ability of households to save regularly significantly improves their chances for moving out of slums.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "While service improvements or in situ slum upgrading are welfare improving strategies that do not require relocation, the current scale of upgrading activities undertaken by governments and donors in most countries is miniscule compared to the scale of the problem. As a consequence, mobility out of slums appears to be a valid welfare enhancing strategy. In addition to the benefits from improved housing characteristics, moving out of slums can also have positive impacts on children's education attainment through peer groups and social interaction, reduced exposure to crime, and improved referral networks for job searchers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "These findings confirm the need to confront two important challenges: (a) what strategies can be implemented to improve the savings potential of slum dwellers, many of whom work in the informal sector and have irregular incomes, and (b) how can financial institutions increase outreach so that savings can be complemented by credit based financial assistance? The fact that a small but significant share of low income slum households manage to save regularly-about 13 percent in our sample for Bhopaldemonstrates that there is a potential for encouraging wealth accumulation among the poor. This can take the form of appropriate savings accounts or credit based mechanisms given the demonstrated ability of even poor households to set aside or repay funds on a regular basis. Finding adaptable means to support such households represents a public policy challenge as well as a business opportunity for private sector financial institutions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "While we do not aim to provide an overview of strategies that can be used to promote savings, it may be useful to consider the potential of financial instruments that are flexible in terms of payment amounts and frequency, along with simple deposit and withdrawal systems that reduce transaction costs (see also Smets 1999) . Public guarantee schemes may be required but must be designed to reduce moral hazard both among banks and borrowers. Further, given the volatility in incomes and high opportunity cost of time for informal sector workers, a door to door collection and servicing system as used in many rural-based microfinance models may be particularly useful.",
+        "cite_spans": [
+          {
+            "start": 312,
+            "end": 323,
+            "text": "Smets 1999)",
+            "ref_id": "BIBREF19"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "The welfare costs of land use regulations in India",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Bertaud",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "M"
+            ],
+            "last": "Buckley",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Owens",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "World Bank Urban Research Symposium",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bertaud, A., R.M. Buckley and K. Owens (2003), \"The welfare costs of land use regulations in India.\" World Bank Urban Research Symposium 2003.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Analyzing Building Height Restrictions: Predicted Impacts, Welfare Costs, and a Case Study of Bangalore",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Bertaud",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "K"
+            ],
+            "last": "Bruckner",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Policy Research Paper",
+        "volume": "3290",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bertaud, A. and J. K. Bruckner (2004), Analyzing Building Height Restrictions: Predicted Impacts, Welfare Costs, and a Case Study of Bangalore, Policy Research Paper 3290, World Bank, Washington, DC..",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Shelter strategies for the urban poor: Idiosyncratic and successful, but hardly mysterious",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "M"
+            ],
+            "last": "Buckley",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Policy Research Working Paper",
+        "volume": "3427",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Buckley, R.M. and J. Kalarickal (2004), Shelter strategies for the urban poor: Idiosyncratic and successful, but hardly mysterious, Policy Research Working Paper 3427, World Bank, Washington, DC.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Understanding consumption",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Deaton",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deaton, A. (1992), Understanding consumption, Clarendon Press, Oxford.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Growth and saving among individuals and households",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Deaton",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Paxson",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "",
+        "volume": "82",
+        "issue": "",
+        "pages": "212--225",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deaton, A. and C. Paxson (2000), Growth and saving among individuals and households, Review of Economics and Statistics, 82, 2:212-225.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "A guide to assessing housing finance in a developing country, Housing and Land Thematic Group",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Diamond",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Diamond, D. (2000), A guide to assessing housing finance in a developing country, Housing and Land Thematic Group, World Bank, Washington, D.C., mimeo.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Do Property Titles Increase Credit Access Among the Urban Poor? Evidence from a Nationwide Titling Program' Mimeo",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Field",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Torero",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Field, E. and M. Torero (2002), 'Do Property Titles Increase Credit Access Among the Urban Poor? Evidence from a Nationwide Titling Program' Mimeo, Princeton University.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "The co-option of low-income borrowers by informal credit supplies",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Igel",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Srinivas",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "Third World Planning Review",
+        "volume": "18",
+        "issue": "",
+        "pages": "287--305",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Igel, B. and H. Srinivas (1996), The co-option of low-income borrowers by informal credit supplies, Third World Planning Review, 18, 3:287-305.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Income Gains to the Poor from Workfare: Estimates for Argentina's Trabajar Program",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Jalan",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jalan, J. and M. Ravallion (1999), \"Income Gains to the Poor from Workfare: Estimates for Argentina's Trabajar Program,\" World Bank Policy Research Working Paper 2149.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Informal sector savings: the vital parameters",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [
+              "D"
+            ],
+            "last": "Lall",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "Resource Mobilization: International Experience of the Informal Sector, Society for Development Studies",
+        "volume": "",
+        "issue": "",
+        "pages": "63--99",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lall, V. D. (1989), \"Informal sector savings: the vital parameters,\" Chapter 2, pp 63-99, in Lall, V. D. (ed), Resource Mobilization: International Experience of the Informal Sector, Society for Development Studies: New Delhi.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Untitled: A study of formal and informal property rights in urban Ecuador",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "O"
+            ],
+            "last": "Lanjouw",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [
+              "I"
+            ],
+            "last": "Levy",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Economic Journal",
+        "volume": "112",
+        "issue": "",
+        "pages": "986--1019",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lanjouw, J.O. and P.I. Levy (2002), Untitled: A study of formal and informal property rights in urban Ecuador, Economic Journal, 112, 482:986-1019.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "PSMATCH2: Stata module to perform full Mahalanobis and propensity score matching, common support graphing, and covariate imbalance testing",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Leuven",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Sianesi",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Leuven, E. and B. Sianesi. (2003), PSMATCH2: Stata module to perform full Mahalanobis and propensity score matching, common support graphing, and covariate imbalance testing, http://ideas.repec.org/c/boc/bocode/s432001.html, Version 1.2.3.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "An analytical framework for urban upgrading: Property rights, property values and physical attributes",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Mukhija",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Habitat International",
+        "volume": "26",
+        "issue": "",
+        "pages": "553--570",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mukhija, V. (2002), An analytical framework for urban upgrading: Property rights, property values and physical attributes, Habitat International, 26, 553-570.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Livelihoods, chronic poverty and social mobility in Rio's Favelas",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Perlman",
+            "suffix": ""
+          }
+        ],
+        "year": 1969,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Perlman, J. (2003); \"Livelihoods, chronic poverty and social mobility in Rio's Favelas: 1969-2002\" Paper presented at World Bank Urban Research Symposium 2003.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Rosenbaum",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Rubin",
+            "suffix": ""
+          }
+        ],
+        "year": 1983,
+        "venue": "Biometrika",
+        "volume": "70",
+        "issue": "",
+        "pages": "41--55",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rosenbaum, P., and D. Rubin, (1983), \"The Central Role of the Propensity Score in Observational Studies for Causal Effects,\" Biometrika, 70: 41-55.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Constraints affecting the efficiency of the urban residential land market in developing countries: A case study of India",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Sivam",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Habitat International",
+        "volume": "26",
+        "issue": "",
+        "pages": "523--537",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sivam, A. (2002), Constraints affecting the efficiency of the urban residential land market in developing countries: A case study of India, Habitat International, 26, 523-537.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Housing supply in Delhi",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Sivam",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Cities",
+        "volume": "20",
+        "issue": "",
+        "pages": "135--141",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sivam, A. (2003), Housing supply in Delhi, Cities, 20, 2:135-141.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Role of state and market in housing delivery for low-income groups in India",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Sivam",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Karuppannan",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Journal of Housing and the Built Environment",
+        "volume": "17",
+        "issue": "",
+        "pages": "69--88",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sivam, A. and S. Karuppannan (2002), Role of state and market in housing delivery for low-income groups in India, Journal of Housing and the Built Environment, 17, 69-88.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Housing finance trapped in a dilemma of perceptions: Affordability criteria for the urban poor in India questioned",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Smets",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Housing Studies",
+        "volume": "14",
+        "issue": "",
+        "pages": "821--838",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Smets, P. (1999), Housing finance trapped in a dilemma of perceptions: Affordability criteria for the urban poor in India questioned, Housing Studies, 14, 6:821-838.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "The slum upgrading myth",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Werlin",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Urban Studies",
+        "volume": "36",
+        "issue": "",
+        "pages": "1523--1534",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Werlin, H. (1999), The slum upgrading myth, Urban Studies, 36, 9:1523-1534.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "The challenge of slums. Global report on human settlements",
+        "authors": [],
+        "year": 2001,
+        "venue": "United Nations Human Settlements Programme",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "United Nations (2003), The challenge of slums. Global report on human settlements 2001, United Nations Human Settlements Programme, Nairobi.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Investing in development, United Nations Development Programme",
+        "authors": [],
+        "year": 2005,
+        "venue": "United Nations",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "United Nations (2005), Investing in development, United Nations Development Programme, New York.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "text": "Our empirical analysis is based on a detailed, multi-purpose household survey of residents in the city of Bhopal in the central Indian state of Madhya Pradesh. The survey of 2508 households was conducted between August and October 2003 and is designed to be representative of the Bhopal Municipal Corporation area across all welfare and housing categories. Approximate household locations were captured using global positioning systems receivers. Figure 1 shows the distribution of the sample in the Bhopal municipal area. The survey includes questions on welfare status, housing quality, tenure status and mobility, education attainment, skill levels, savings behavior, and asset holdings, as well as questions on quality of access to infrastructure services."
+      },
+      "FIGREF1": {
+        "fig_num": "1",
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "text": "Geographic distribution of sample households within municipal wards"
+      },
+      "FIGREF2": {
+        "fig_num": "2",
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "text": "Distribution of household welfare levels by housing categorySource: Bhopal Urban Household Survey 2003; housing categories: slums (1&2), resettlement areas"
+      },
+      "FIGREF3": {
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "text": "Duration of stay in slums: Bhopal"
+      },
+      "FIGREF4": {
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null,
+        "text": "Only 6.4 percent of sample households have used formal housing loans to purchase their dwelling units. For current slum dwellers, only 3.1 percent of households who own their home have been able to access housing finance from specialized financial institutions such as the Housing Development Finance Corporation (HDFC). The situation is slightly better for households who have moved out of slums -5.4 percent have been able to access formal housing finance institutions."
+      },
+      "TABREF0": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "",
+        "content": "<table><tr><td/><td>Number of</td><td/></tr><tr><td>Housing category</td><td>sample</td><td>Percent</td></tr><tr><td/><td>households</td><td/></tr><tr><td>1 Non-notified squatter settlement</td><td>221</td><td>8.8</td></tr><tr><td>2 Notified squatter settlement</td><td>519</td><td>20.7</td></tr><tr><td>3 Resettlement area</td><td>80</td><td>3.2</td></tr><tr><td>4 Unauthorized colony</td><td>184</td><td>7.3</td></tr><tr><td>5 BDA/MPHB plots</td><td>122</td><td>4.9</td></tr><tr><td>6 BDA/MPHB flats</td><td>132</td><td>5.3</td></tr><tr><td>7 Cooperative housing</td><td>85</td><td>3.4</td></tr><tr><td>8 Employer housing</td><td>357</td><td>14.2</td></tr><tr><td>9 Private builder's / colonies</td><td>306</td><td>12.2</td></tr><tr><td>10 Core/historical city area</td><td>502</td><td>20.0</td></tr><tr><td>Total</td><td>2508</td><td>100.0</td></tr></table>"
+      },
+      "TABREF1": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "From the housing history data, we can classify househo lds as having been slum or non-slum dwellers in their previous residences if they have moved within the city. Thus, we can identify if households have moved out of slums during their residence in Bhopal. The transition matrix(Table 2)summarizes the housing history data for the sample households and shows the extent of spatial mobility out of slums. Overall, 21 percent of slum households have moved to improved housing. Almost 80 percent of slum dwellers still live in a slum, while about seven percent moved from a non-slum area into a slum area. Note that this table only includes moves within Bhopal. We do not include residents who moved to Bhopal from other cities and we have no information about those who moved out of Bhopal.",
+        "content": "<table/>"
+      },
+      "TABREF2": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "",
+        "content": "<table><tr><td/><td colspan=\"2\">Current Dwelling Unit</td><td/></tr><tr><td>Previous Dwelling Unit</td><td>Slum</td><td>Non Slum</td><td>Total</td></tr><tr><td>Slum</td><td>614</td><td>165</td><td>779</td></tr><tr><td/><td>78.8</td><td>21.2</td><td>100.0</td></tr><tr><td>Non Slum</td><td>126</td><td>1,603</td><td>1,729</td></tr><tr><td/><td>7.3</td><td>92.7</td><td>100.0</td></tr><tr><td>Total</td><td>740</td><td>1,768</td><td>2,508</td></tr><tr><td/><td>29.5</td><td>70.5</td><td>100.0</td></tr><tr><td colspan=\"2\">Source: Bhopal Household Survey 2003</td><td/><td/></tr><tr><td colspan=\"3\">Note: Numbers in italics are row percentages</td><td/></tr></table>"
+      },
+      "TABREF3": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "",
+        "content": "<table><tr><td/><td>Number of</td><td/></tr><tr><td>Housing category</td><td>sample</td><td>Percent</td></tr><tr><td/><td>households</td><td/></tr><tr><td>3 Resettlement area</td><td>30</td><td>18.2</td></tr><tr><td>4 Unauthorized colony</td><td>18</td><td>10.9</td></tr><tr><td>5 BDA/MPHB plots</td><td>17</td><td>10.3</td></tr><tr><td>6 BDA/MPHB flats</td><td>13</td><td>7.9</td></tr><tr><td>7 Cooperative housing</td><td>5</td><td>3.0</td></tr><tr><td>8 Employer housing</td><td>23</td><td>13.9</td></tr><tr><td>9 Private builder's / colonies</td><td>32</td><td>19.4</td></tr><tr><td>10 Core/historical city area</td><td>27</td><td>16.4</td></tr><tr><td>Total</td><td>165</td><td>100.0</td></tr><tr><td>Source: Bhopal Household Survey 2003</td><td/><td/></tr></table>"
+      },
+      "TABREF4": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "Given the limited outreach of housing finance institutions, own savings or liquidating other assets therefore remains the only option for many households. Housing represents a significant lumpy expenditure for most households. This is particularly true for slum dwellers. On average, households who moved out of slums paid Rs. 102,000 for their new dwelling units; compared to Rs. 163,000 for households who have never been slum dwellers (on average, this is about five times the annual per capita consumption estimate).",
+        "content": "<table><tr><td/><td/><td>Non slum</td><td/><td/></tr><tr><td>Source of finance</td><td>All households</td><td>households</td><td colspan=\"2\">Slum households</td></tr><tr><td/><td/><td/><td>Current</td><td>Moved Out</td></tr><tr><td>Home loan (HDFC, HUDCO, etc.)</td><td>6.4</td><td>8.1</td><td>3.1</td><td>5.4</td></tr><tr><td>Formal loan (without collateral)</td><td>1.9</td><td>2.4</td><td>0.6</td><td>3.6</td></tr><tr><td>Informal loan / money lender</td><td>3.3</td><td>2.4</td><td>5.0</td><td>3.6</td></tr><tr><td>Informal borrowing (no interest)</td><td>14.5</td><td>14.4</td><td>13.7</td><td>18.8</td></tr><tr><td>Own Savings</td><td>73.9</td><td>72.6</td><td>77. 6</td><td>68.8</td></tr><tr><td colspan=\"3\">Source: Bhopal Urban Household Survey 2003</td><td/><td/></tr></table>"
+      },
+      "TABREF5": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "",
+        "content": "<table><tr><td>Variable</td></tr></table>"
+      },
+      "TABREF6": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "",
+        "content": "<table><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Savings</td><td>Controlling</td><td>2 + head of</td><td>3 + previous</td></tr><tr><td/><td>for HH</td><td>household</td><td>dwelling</td></tr><tr><td/><td>character-</td><td>skill level</td><td>unit</td></tr><tr><td/><td>istics</td><td/><td>conditions</td></tr></table>"
+      },
+      "TABREF7": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "",
+        "content": "<table><tr><td>: Propensity Score Matching (Savings)</td><td/></tr><tr><td>Variable</td><td>Coefficient</td></tr><tr><td/><td>(standard errors)</td></tr><tr><td>Household head is an unskilled worker</td><td>-0.61</td></tr><tr><td/><td>(4.15)**</td></tr><tr><td>Male head of household</td><td>0.115</td></tr><tr><td/><td>(0.93)</td></tr><tr><td>Non Hindi Speaker</td><td>-0.22</td></tr><tr><td/><td>(1.38)</td></tr><tr><td>Tenure in previous dwelling unit</td><td>0.045</td></tr><tr><td/><td>(0.37)</td></tr><tr><td>Individual water access in previous home</td><td>0.331</td></tr><tr><td/><td>(2.52)*</td></tr><tr><td>Father of household head has primary education</td><td>0.16</td></tr><tr><td/><td>(1.07)</td></tr><tr><td>Household own agriculture property</td><td>0.028</td></tr><tr><td/><td>(0.10)</td></tr><tr><td>Household head has government job</td><td>0.731</td></tr><tr><td/><td>(5.41)**</td></tr><tr><td>Constant</td><td>-1.299</td></tr><tr><td/><td>(9.01)**</td></tr><tr><td>Observations</td><td>779</td></tr><tr><td>Log Likelihood</td><td>-266.078</td></tr><tr><td>Absolute value of z statistics in parentheses</td><td/></tr><tr><td>* significant at 5%; ** significant at 1%</td><td/></tr></table>"
+      },
+      "TABREF8": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "text": "",
+        "content": "<table><tr><td/><td>Mean of</td><td>Mean of</td><td>Average</td></tr><tr><td/><td>matched</td><td>matched</td><td>treatment</td></tr><tr><td/><td>treated</td><td>controls</td><td>effect</td></tr><tr><td>Moving out of slums</td><td>36.19</td><td>25.02</td><td>11.43</td></tr><tr><td/><td/><td/><td>(6.81)*</td></tr><tr><td colspan=\"3\">* Significant at the 0.05% level. Propensity scores estimated as a probit model</td><td/></tr></table>"
+      }
+    }
+  }
+}

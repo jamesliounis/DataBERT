@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04875: Section III discusses our empirical methodology and data.\n\ns_04925: Canning (1998) , shows that per capita infrastructure levels are nonstationary, which implies that running the regressions in levels may produce misleading results unless the variable variables used in the regressions are cointegrated.\n\ns_04975: In our empirical analysis, we use a panel framework covering 46 countries over the period 1996-2012 to formally investigate the questions above.\n\ns_05025: However, this literature has tended to rely on data on exporting firms or product-level trade flow data.\n\ns_05075: The 2012 data comprised the baseline round of the survey.\n\ns_05125: The most recent year for which data is available is 2011, which is used to arrive at the labor share of 0.51 for Bangladesh.\n\ns_05175: 2011; Newhouse 1993; Sheth 2014) .\n\ns_05225: See van denBerg and Danilenko (2011) for a description of the IBNET data set.\n\ns_05275: This paper used the national population of 12 to 14 years old, as computed by CONAPO.\n\ns_05325: (See, for example, McKinnon and Pill (1997) and Dooley (1998) ).\n\ns_05375: Using the full consumption data simulations with respect to their relative bias and relative standard error.\n\ns_05425: These observations are summarized below:\n\ns_05475: Detailed information about all case assumptions, questionnaire definitions, and samples are provided under Data Notes in Appendix A.\n\ns_05525: To analyze if this could be affecting the results, Table 6 .\n\ns_05575: In this report, we make use of an accurate dataset to identify the number and locations of Chinese wastewater treatment plants exposed to changing probabilities flooding in the context of climate change, as well as those plants that are exposed to significant earthquakes.\n\ns_05625: , 2008; Grantham-McGregor et al.\n\ns_05675: 2017 , Piatti-F\u00fcnfkirchen and Schneider 2018 , Chakraborty et al.\n\ns_05725: (2014) and Michaels et al.\n\ns_05775: This paper contributes to two main literatures.\n\ns_05825: In the following tables, we present summary statistics for CAMS-3 measures and predicted values, along with sample sizes for each case.\n\ns_05875: Source: Authors computation using data from EORA database.\n\ns_05925: The paper also uses unpublished and novel data of Malawian imports from the European Union (EU), spanning between January 2007 to December 2018 at the 8-digit level of the Harmonized System (HS).\n\ns_05975: The abovementioned studies focus on assessing the determinants of fixed-internet access and usage, many in developed countries.\n\ns_06025: We use individual-level data from the World Bank's Global Findex which is a comprehensive data- respectively.\n\ns_06075: (2014) ; Ruiz and Vargas-Silva (2015) ; Borjas and Monras (2017) ; Tumen (2016) ; and Alix-Garcia et al."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B77IMovbYAvec1WdmWd4lQEFKzSb",
+    "object": "chat.completion",
+    "created": 1682883320,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 943,
+      "completion_tokens": 89,
+      "total_tokens": 1032
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05225\", \"data_mentioned\": true, \"reason\": \"IBNET data set\"}, {\"sent_id\": \"s_05925\", \"data_mentioned\": true, \"reason\": \"Malawian imports from the European Union (EU)\"}, {\"sent_id\": \"s_06025\", \"data_mentioned\": true, \"reason\": \"World Bank's Global Findex\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05225\", \"data_mentioned\": true, \"reason\": \"IBNET data set\"}, {\"sent_id\": \"s_05925\", \"data_mentioned\": true, \"reason\": \"Malawian imports from the European Union (EU)\"}, {\"sent_id\": \"s_06025\", \"data_mentioned\": true, \"reason\": \"World Bank's Global Findex\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

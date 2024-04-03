@@ -1,0 +1,3698 @@
+{
+  "paper_id": "D33586392",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:53.943499Z"
+  },
+  "title": "Addressing Vaccine Hesitancy Survey and Experimental Evidence from Papua New Guinea",
+  "authors": [
+    {
+      "first": "Christopher",
+      "middle": [],
+      "last": "Hoy",
+      "suffix": "",
+      "affiliation": {},
+      "email": "choy@worldbank.org."
+    },
+    {
+      "first": "Terence",
+      "middle": [],
+      "last": "Wood",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Ellen",
+      "middle": [],
+      "last": "Moscoe",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Rinku",
+      "middle": [],
+      "last": "Murgai",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Aneesa",
+      "middle": [],
+      "last": "Arur",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Stephanie",
+      "middle": [],
+      "last": "Laryea",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Jane",
+      "middle": [
+        "Millicent"
+      ],
+      "last": "Sprouster",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Judy",
+      "middle": [],
+      "last": "Yang",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Ratu",
+      "middle": [],
+      "last": "Namedre",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Samantha",
+      "middle": [],
+      "last": "De Martino",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Salwa",
+      "middle": [],
+      "last": "Purnamasari",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "David",
+      "middle": [],
+      "last": "Gould",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Luke",
+      "middle": [],
+      "last": "Mckenzie",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Da",
+      "middle": [
+        "Woon"
+      ],
+      "last": "Chung",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2021-11",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D33586392",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "High vaccination rates are widely considered an essential component in managing the pandemic. Initially, a major constraint was a lack of supply of vaccines, especially in low-and middleincome countries (Rouw et al., 2021) . As vaccines started to become more readily available throughout 2021, it became clear that limited demand also posed a significant challenge in some countries, with many people unwilling to be vaccinated for COVID-19 even when provided the opportunity (Africa CDC, 2021; Sol\u00eds Arce et al., 2021) . Many low-and middle-income countries that received COVID-19 vaccines through the global COVAX facility were unable to fully disperse their first batch of vaccines before they expired. In addition to structural barriers and limitations of the health system, a key reason for the lack of use of COVID-19 vaccines was hesitancy among eligible populations (Mwai, 2021) . This raises the question as to what governments could be doing to address people's hesitancy about receiving a COVID-19 vaccine in these settings.",
+        "cite_spans": [
+          {
+            "start": 203,
+            "end": 222,
+            "text": "(Rouw et al., 2021)",
+            "ref_id": "BIBREF33"
+          },
+          {
+            "start": 477,
+            "end": 495,
+            "text": "(Africa CDC, 2021;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 496,
+            "end": 520,
+            "text": "Sol\u00eds Arce et al., 2021)",
+            "ref_id": "BIBREF35"
+          },
+          {
+            "start": 875,
+            "end": 887,
+            "text": "(Mwai, 2021)",
+            "ref_id": "BIBREF24"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In this paper we report on the findings of research studying drivers of vaccine hesitancy as well as research on ways of increasing people's willingness to get a COVID-19 vaccine. Our data comes from a combination of a broadly representative phone survey and an online randomized survey experiment in Papua New Guinea (PNG). PNG is an ideal setting to examine this issue as COVID-19 vaccination rates are among the lowest in the world (Howes, 2021) ; existing evidence suggests there are extremely high levels of vaccine hesitancy (Fox, 2021; Pogo et al., 2021) and this issue is viewed by many commentators as the binding constraint on the country's pathway out of the pandemic (Howes, 2021) . The phone survey used in this paper covered over 2,500 households and was conducted in May and early June 2021. The survey included questions about people's willingness to get a COVID-19 vaccine and the factors that could be contributing to this, such as beliefs about the behavior of others and people's most trusted sources of information about the vaccine. The results were weighted to match the general population based on the most recent nationally representative survey that included a measure of household welfare, which is the 2016-18 Demographic and Health Survey (DHS). The online randomized survey experiment was conducted in late June and throughout July 2021 with around 2,400 participants and trialed whether messages informed by the findings of the phone surveys could reduce people's hesitancy about getting the COVID-19 vaccine. Specifically, the treatments that were tested referred to expert advice, social norms and the relative safety of the vaccine.",
+        "cite_spans": [
+          {
+            "start": 435,
+            "end": 448,
+            "text": "(Howes, 2021)",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 531,
+            "end": 542,
+            "text": "(Fox, 2021;",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 543,
+            "end": 561,
+            "text": "Pogo et al., 2021)",
+            "ref_id": "BIBREF30"
+          },
+          {
+            "start": 679,
+            "end": 692,
+            "text": "(Howes, 2021)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "There is wide-ranging research about the potential drivers of vaccine hesitancy in general and existing work highlights that people's beliefs, along with social norms, often play a crucial role in determining their willingness to get vaccinated (for reviews of existing work see: Brewer et al., 2017; Dub\u00e9 et al., 2015; Larson et al., 2014) . For example, people's beliefs about the effectiveness of a vaccine in preventing illness (compared to the risk of negative side effects) and their own concerns about being infected are expected to influence whether they are willing to get vaccinated. Similarly, prior studies have shown that vaccine hesitancy appears to be related to the behavior of others and people's most trusted information sources, particularly whether people trust misinformation on social media (Africa CDC, 2021; Ahearn, 2021) . In addition, some evidence shows that a relationship exists between previously being vaccinated for another disease (which suggests having trusted a vaccine at some point in the past) and willingness to get a newly developed vaccine (Brewer et al., 2017) . The vaccine hesitancy literature includes mixed effects of determinants such as socioeconomic status and education, which have different relationships to hesitancy depending on country and other contextual factors (Larson et al., 2014.) This underscores the importance of empirical evidence from a range of countries, and especially evidence that can illuminate pathways underlying these relationships.",
+        "cite_spans": [
+          {
+            "start": 280,
+            "end": 300,
+            "text": "Brewer et al., 2017;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 301,
+            "end": 319,
+            "text": "Dub\u00e9 et al., 2015;",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 320,
+            "end": 340,
+            "text": "Larson et al., 2014)",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 813,
+            "end": 831,
+            "text": "(Africa CDC, 2021;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 832,
+            "end": 845,
+            "text": "Ahearn, 2021)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 1081,
+            "end": 1102,
+            "text": "(Brewer et al., 2017)",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 1319,
+            "end": 1341,
+            "text": "(Larson et al., 2014.)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The central findings of the representative phone survey in PNG illustrate the importance of trust in the COVID-19 vaccine and social norms in driving behavior. Less than one in five adults were planning to get the COVID-19 vaccine and the main reason people provided for not wanting to get vaccinated was concerns about side effects. Trusting the COVID-19 vaccine and believing it has important health benefits were positively correlated with people's willingness to get vaccinated. Similarly, believing others will get vaccinated and encouraging others to get the vaccine were also positively associated with people wanting to get the COVID-19 vaccine. However, there was no clear relationship between other potential explanators of vaccine hesitancy, such as being concerned about COVID-19, people's most trusted source of information about the COVID-19 vaccine, their history of receiving vaccines for other diseases (for example, measles or polio), and their willingness to be vaccinated. This survey also showed that overwhelmingly the most common way people say they would become more likely to get the COVID-19 vaccine is by hearing from health experts, particularly in the form of face-to-face communication.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The online randomized survey experiment builds on the results of the phone survey by showing that providing a short message about the relative safety of the COVID-19 vaccine (designed with the aim of building trust in the vaccine) substantially increased people's willingness to get vaccinated. Only 19.3 percent of respondents in the control group (that is, where no intervention was provided) stated they would be willing to get the vaccine, whereas 30.6 percent of respondents that received the relative safety treatment said they would get vaccinated, representing an over 50 percent increase. The two other intervention arms that were provided (referring to expert advice and social norms) did not have a consistent impact on people's willingness to get vaccinated. The main findings of the online randomized survey experiment did not vary substantially across the demographics of respondents, though female respondents and those in the Southern region were more likely to respond to the social norms treatment. These types of respondents were also less likely to participate in the online experiment relative to the general population. As a result, after population weights were applied (in terms of sex, age and location) the social norms treatment became statistically significant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "By considering the findings of the representative phone survey alongside the online randomized survey experiment, this study provides rich insights into key factors underpinning vaccine hesitancy. Drawing on the combination of the phone survey and the experiment also affords increased ability to assess the generalizability of our results. Both the phone survey and the experiment present very similar descriptive statistics that show there are high levels of COVID-19 vaccine hesitancy in PNG, primarily because of respondents being concerned about side effects from the vaccine, and that people claim health experts are the most likely to be able to change their mind. These patterns hold across the surveys, even though different platforms were used (that is, phone and online) at different points in time, and also hold across most demographic characteristics. As a result, the findings are robust to alternative approaches to weighting (or analyzing the data without survey weights). This suggests that the main findings are likely to hold across the general population in PNG and potentially in other countries facing similar challenges.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "There are several implications that flow from our findings for policy makers as they work to address vaccine hesitancy. We provide comprehensive evidence that building greater trust in COVID-19 vaccines is pivotal to ensure that a high share of the population is willing to get vaccinated. In addition, we show that simple messages, of a kind that could be easily disseminated, about the relative safety of COVID-19 vaccines can substantially increase people's stated willingness to be vaccinated. We also show that local health workers have a crucial role in building this trust. In addition, our findings point to existing explanations for vaccine hesitancy that should potentially receive less attention. Most notably, we show it is unlikely that misinformation on social media is the key driver of vaccine hesitancy in PNG. Furthermore, our results illustrate that people's concerns about COVID-19 and their history of vaccination is unrelated to their willingness to receive a vaccine for COVID-19. Collectively, these findings suggest communication campaigns should recognize the distinct nature of the hesitancy people have around COVID-19 vaccines and greater efforts should be made to communicate that getting vaccinated is the single best way to prevent severe illness or death from COVID-19.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "We make two notable contributions to the existing literature on vaccine hesitancy in this paper. Firstly, we are among the first to conduct a detailed examination of people's hesitancy regarding COVID-19 vaccines using both causal and descriptive evidence in a low-and middle-income country. Existing studies in these settings typically do not go beyond reporting on the level of willingness to receive the COVID-19 vaccine and the main reasons respondents state for their hesitancy about getting vaccinated (Africa CDC, 2021; Sol\u00eds Arce et al., 2021) . We provide new insights by clearly identifying the most plausible drivers of hesitancy regarding the COVID-19 vaccine and testing the elasticity of people's willingness to get vaccinated to different messages. The combination of these descriptive and experimental findings helps shed light on both the issues likely to be reducing demand for COVID-19 vaccines and the degree to which it is possible to increase demand through communication campaigns.",
+        "cite_spans": [
+          {
+            "start": 508,
+            "end": 526,
+            "text": "(Africa CDC, 2021;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 527,
+            "end": 551,
+            "text": "Sol\u00eds Arce et al., 2021)",
+            "ref_id": "BIBREF35"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Secondly, by closely aligning the design and implementation of broadly representative phone surveys with an online randomized survey experiment, we provide additional insights about the generalizability of the findings. Prior work on COVID-19 vaccine hesitancy has tended to involve either observational data from phone surveys (Sol\u00eds Arce et al., 2021) or online experiments (Palm et al., 2021) in isolation. In contrast, we asked the same questions to the more broadly representative phone survey samples of respondents as were asked to participants in the online randomized survey experiment. By comparing the results of these different survey techniques we were able to better estimate the effects of the treatments on a broader share of the population. Furthermore, the similarities in descriptive results across the distinct approaches illustrate the robustness of our general findings. This paper is structured as follows. In the next section we review the related literature about vaccine hesitancy. This is followed by an overview of the setting and methodology used. We then present the results of the representative phone survey and online randomized survey experiment separately, as well as analysis that draws on both. We conclude with a discussion of the implications of our findings.",
+        "cite_spans": [
+          {
+            "start": 328,
+            "end": 353,
+            "text": "(Sol\u00eds Arce et al., 2021)",
+            "ref_id": "BIBREF35"
+          },
+          {
+            "start": 376,
+            "end": 395,
+            "text": "(Palm et al., 2021)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Existing work on vaccine hesitancy comes in two forms. In the first, observational studies are used either to simply quantify levels of vaccine hesitancy or to identify beliefs and traits associated with negative perceptions of vaccination. The second body of literature involves either inference from observational studies or experimental evidence used for the sake of understanding the causes of vaccine hesitancy and learning about means of reducing it. Almost all the published studies in both sets of literature come from prior to the COVID-19 pandemic. The vast majority of available work is from developed countries (Dub\u00e9 et al., 2015; Sol\u00eds Arce et al., 2021) .",
+        "cite_spans": [
+          {
+            "start": 623,
+            "end": 642,
+            "text": "(Dub\u00e9 et al., 2015;",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 643,
+            "end": 667,
+            "text": "Sol\u00eds Arce et al., 2021)",
+            "ref_id": "BIBREF35"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Related Literature",
+        "sec_num": "2."
+      },
+      {
+        "text": "Reflecting the focus of this paper, and the availability of relevant research, our literature review here is broken into two parts. First, we review the small number of descriptive, observational studies of attitudes toward COVID-19 vaccines that come from developing countries. 2 This literature, while small, is the most relevant for situating the findings of our observation phone survey study. Second, we review the more explicitly causal literature that attempts to explain why vaccine hesitancy exists, and whether it can be changed. Here, we do not limit our coverage either to COVID-19 or developing countriesneither have been studied enough. Rather we cast our net wider, covering vaccines for other diseases, and studies from developed countries. We use this second literature to feed into the conceptual framework used in the experimental component of our own research.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Related Literature",
+        "sec_num": "2."
+      },
+      {
+        "text": "The most significant published study of attitudes to COVID-19 vaccines across developing countries is that of Sol\u00eds Arce et al. (2021). Their paper reports on results from surveys conducted in 13 countries, spanning the Americas, Africa, South Asia, and Europe. All countries except the Russian Federation, Colombia and the United States are low or lower-middle income countries. One clear takeaway from the study is just how much variation there is between countries in willingness to take the COVID-19 vaccine. Also striking is the fact that surveyed willingness to take the COVID-19 vaccine is higher -on average over 80 percent -in the low, and lower-middle income countries, than it is in either Russia or the United States (Sol\u00eds Arce et al., 2021 , p. 1389 . Although results varied between countries, women tended to be somewhat less willing to be vaccinated than men, and younger respondents marginally more willing (Sol\u00eds Arce et al., 2021 , p. 1387 .",
+        "cite_spans": [
+          {
+            "start": 729,
+            "end": 753,
+            "text": "(Sol\u00eds Arce et al., 2021",
+            "ref_id": "BIBREF35"
+          },
+          {
+            "start": 754,
+            "end": 763,
+            "text": ", p. 1389",
+            "ref_id": null
+          },
+          {
+            "start": 925,
+            "end": 949,
+            "text": "(Sol\u00eds Arce et al., 2021",
+            "ref_id": "BIBREF35"
+          },
+          {
+            "start": 950,
+            "end": 959,
+            "text": ", p. 1387",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Descriptive surveys of views on COVID-19 vaccines in developing countries",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "Between-country variation in attitudes to COVID-19 vaccines is a similar standout point in another large study focused on 15 countries in Africa (Africa CDC, 2021) . Stated willingness to take a COVID-19 vaccine varied from 94 percent in Ethiopia to 59 percent in the Democratic Republic of Congo (Africa CDC, 2021, p. 10) . The types of people most likely to state they would be vaccinated also varied between the surveyed countries. However, older people were more likely to state they were willing to be vaccinated in most countries. In the plurality of countries differences were not clear between genders. Where differences were present it was usually the case that men were more favorably disposed to the COVID-19 vaccine than women (Africa CDC, 2021, pp. 22-65) .",
+        "cite_spans": [
+          {
+            "start": 145,
+            "end": 163,
+            "text": "(Africa CDC, 2021)",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 297,
+            "end": 322,
+            "text": "(Africa CDC, 2021, p. 10)",
+            "ref_id": null
+          },
+          {
+            "start": 739,
+            "end": 768,
+            "text": "(Africa CDC, 2021, pp. 22-65)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Descriptive surveys of views on COVID-19 vaccines in developing countries",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "With respect to rationales for people's beliefs, the most common explanation for wanting the vaccine in the 13-country international study was protecting oneself from the illness. The most common reason for not wanting the vaccine was concern about side effects (Sol\u00eds Arce et al., 2021 , p. 1387 . Concerns about vaccine safety also stood out as an issue in the Africa-focused study (Africa CDC, 2021) . In addition, the Africa-focused study found that participants' beliefs about vaccines more broadly, and whether vaccines in general were safe, were clearly correlated with their stated willingness to take a COVID-19 vaccine (Africa CDC, 2021, p. 11) . This finding fits with a larger, pre-COVID global literature which found that people's contemporary willingness to be vaccinated is strongly related to past vaccine behavior (Brewer et al., 2017, p. 165 ).",
+        "cite_spans": [
+          {
+            "start": 262,
+            "end": 286,
+            "text": "(Sol\u00eds Arce et al., 2021",
+            "ref_id": "BIBREF35"
+          },
+          {
+            "start": 287,
+            "end": 296,
+            "text": ", p. 1387",
+            "ref_id": null
+          },
+          {
+            "start": 384,
+            "end": 402,
+            "text": "(Africa CDC, 2021)",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 629,
+            "end": 654,
+            "text": "(Africa CDC, 2021, p. 11)",
+            "ref_id": null
+          },
+          {
+            "start": 831,
+            "end": 859,
+            "text": "(Brewer et al., 2017, p. 165",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Descriptive surveys of views on COVID-19 vaccines in developing countries",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "In the 13-country international study, health care workers and the local health system were consistently found to be the most trusted source of guidance about COVID-19 vaccination (Sol\u00eds Arce et al., 2021 , p. 1386 . Although no equivalent question was asked in the Africa study, responses to a question about who should be responsible for approving the vaccine point to comparatively high levels of trust in health care workers (Africa CDC, 2021, p. 12) . One further finding from the Africa study is particularly notable: social media was a common source of information on COVID-19 in many of the surveyed countries, and using social media as a source of information was associated with increased vaccine hesitancy and an increased likelihood of believing vaccine-related conspiracy theories (Africa CDC, 2021, p. 14) .",
+        "cite_spans": [
+          {
+            "start": 159,
+            "end": 204,
+            "text": "COVID-19 vaccination (Sol\u00eds Arce et al., 2021",
+            "ref_id": null
+          },
+          {
+            "start": 205,
+            "end": 214,
+            "text": ", p. 1386",
+            "ref_id": null
+          },
+          {
+            "start": 429,
+            "end": 454,
+            "text": "(Africa CDC, 2021, p. 12)",
+            "ref_id": null
+          },
+          {
+            "start": 794,
+            "end": 819,
+            "text": "(Africa CDC, 2021, p. 14)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Descriptive surveys of views on COVID-19 vaccines in developing countries",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "Some approaches that have been shown to increase vaccine uptake, such as mandates and incentive schemes (Dub\u00e9 et al., 2015; Eskola et al., 2014) are beyond the scope of this research. Other approaches, on the other hand, like campaigns designed to provide people with accurate information about COVID-19 vaccines are more feasible for PNG with the support of government and development partners. Moreover, existing studies of people's knowledge of COVID-19 vaccines in PNG point to a clear knowledge deficit and a desire to learn more (Fox, 2021; Pogo et al., 2021) .",
+        "cite_spans": [
+          {
+            "start": 104,
+            "end": 123,
+            "text": "(Dub\u00e9 et al., 2015;",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 124,
+            "end": 144,
+            "text": "Eskola et al., 2014)",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 535,
+            "end": 546,
+            "text": "(Fox, 2021;",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 547,
+            "end": 565,
+            "text": "Pogo et al., 2021)",
+            "ref_id": "BIBREF30"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing vaccine preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Although complex schemas have been developed of the factors that may potentially influence people's views of vaccines (Brewer et al., 2017) , one clear division in potential approaches to changing views noted in the literature is between information on the safety of vaccines and the risks of illness, and information that emphasizes community norms favoring vaccine uptake (Palm et al., 2021) .",
+        "cite_spans": [
+          {
+            "start": 118,
+            "end": 139,
+            "text": "(Brewer et al., 2017)",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 374,
+            "end": 393,
+            "text": "(Palm et al., 2021)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing vaccine preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Observational studies provide good grounds for anticipating information on vaccine safety and disease risk to be effective in reducing vaccine hesitancy. In line with the findings from developing countries on attitudes to COVID-19 vaccines outlined above, a common finding in much work on attitudes to vaccinations is that people's reluctance to be vaccinated stems in part from fear of vaccines or their perceived side effects (Brewer et al., 2017; Kang et al., 2017; Karlsson et al., 2021) . Similarly, a common finding in observational studies is that when people perceive an illness to be more threatening, and the vaccine efficacious in reducing that threat, they are more willing to be vaccinated (Karlsson et al., 2021; Palm et al., 2021) .",
+        "cite_spans": [
+          {
+            "start": 428,
+            "end": 449,
+            "text": "(Brewer et al., 2017;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 450,
+            "end": 468,
+            "text": "Kang et al., 2017;",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 469,
+            "end": 491,
+            "text": "Karlsson et al., 2021)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 703,
+            "end": 726,
+            "text": "(Karlsson et al., 2021;",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 727,
+            "end": 745,
+            "text": "Palm et al., 2021)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing vaccine preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Although observational studies provide evidence that information on the relative risk of vaccines and diseases will increase people's willingness to be vaccinated, experimental studies have returned mixed results. Positive treatment effects have been found in some studies (for example, Palm et al., 2021) , other experiments have failed to find clear evidence of the efficacy of information treatments (Brewer et al., 2017; Dub\u00e9 et al., 2015) , while some studies have found adverse effects, at least in certain groups (Nyhan and Reifler, 2015; Nyhan et al., 2014) .",
+        "cite_spans": [
+          {
+            "start": 287,
+            "end": 305,
+            "text": "Palm et al., 2021)",
+            "ref_id": "BIBREF29"
+          },
+          {
+            "start": 403,
+            "end": 424,
+            "text": "(Brewer et al., 2017;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 425,
+            "end": 443,
+            "text": "Dub\u00e9 et al., 2015)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 520,
+            "end": 545,
+            "text": "(Nyhan and Reifler, 2015;",
+            "ref_id": "BIBREF27"
+          },
+          {
+            "start": 546,
+            "end": 565,
+            "text": "Nyhan et al., 2014)",
+            "ref_id": "BIBREF28"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing vaccine preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Broader non-vaccine-related work in social science suggests that beliefs about social norms, and in particular beliefs about what most other people are doing, will be an effective means of changing vaccine attitudes. Norms have been found to shape human actions and interactions in many ways (Tankard and Paluck, 2016) . And there is some evidence from earlier vaccine work suggesting that norms are important in influencing views, although their potential use as a tool for increasing vaccine uptake remains a comparatively new research area (Brewer et al., 2017; Dub\u00e9 et al., 2015) . One of the few currently published experimental papers on attitudes to COVID-19 vaccines finds that in the United States, norm-based appeals emphasizing vaccination update among others increase people's propensity to state they will be vaccinated (Palm et al., 2021) .",
+        "cite_spans": [
+          {
+            "start": 292,
+            "end": 318,
+            "text": "(Tankard and Paluck, 2016)",
+            "ref_id": "BIBREF36"
+          },
+          {
+            "start": 543,
+            "end": 564,
+            "text": "(Brewer et al., 2017;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 565,
+            "end": 583,
+            "text": "Dub\u00e9 et al., 2015)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 833,
+            "end": 852,
+            "text": "(Palm et al., 2021)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing vaccine preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "On the basis of this existing literature the following two hypotheses were chosen for testing in the experimental component of our study. H1: Information on the safety of the vaccine and dangers of COVID-19 will increase people's stated intention to be vaccinated.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing vaccine preferences",
+        "sec_num": "2.2"
+      },
+      {
+        "text": ": Information suggesting that vaccine use is becoming the norm in PNG (that is, that the vaccine is being taken by a significant and growing number of people in the country) will increase people's stated intention to be vaccinated.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "H2",
+        "sec_num": null
+      },
+      {
+        "text": "These hypotheses address two potential avenues for increasing vaccination intentions, even without addressing supply-side considerations such as delivery method and cost, or individual-level factors such as the financial and non-financial/hassle costs associated with getting vaccinated. By increasing the potential benefit from the vaccine via increased perceived effectiveness and decreased risk (H1), the safety and efficacy messages may increase stated intention without changing other beliefs related to the vaccine. Or, by reinforcing the emerging social norm, the messages may indirectly increase confidence in the vaccine through the signal of the social norm, and at the same time impose a cost of deviating from this norm (H2). 3.1 Background about COVID-19 and vaccination rates in PNG PNG is the second largest fragile state in East Asia and the Pacific (after Myanmar) with a population of almost 10 million people, over a third of which live below the extreme poverty line (World Bank, 2021) . The country is diverse, with over 800 languages spoken, and large pockets of the population are geographically isolated due to mountainous terrain and remote islands (Filer and Wood, 2021) . On average, adults have completed less than five years of schooling, which is one of the reasons that PNG ranks in the bottom 20 percent of countries globally in terms of the United Nations Human Development Index (United Nations Development Programme, 2020). 3 Provision of public services, such as access to basic health care facilities, is poor (Howes et al., 2014) . PNG also has among the lowest vaccination rates in the world for a range of diseases, which contributed to a polio outbreak in the country in 2018 (Howes and Mambon, 2021; Morgan et al., 2020) . In addition, vaccination rates have fallen considerably in recent years (Howes and Mambon, 2021) .",
+        "cite_spans": [
+          {
+            "start": 994,
+            "end": 1005,
+            "text": "Bank, 2021)",
+            "ref_id": "BIBREF39"
+          },
+          {
+            "start": 1174,
+            "end": 1196,
+            "text": "(Filer and Wood, 2021)",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 1547,
+            "end": 1567,
+            "text": "(Howes et al., 2014)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 1717,
+            "end": 1741,
+            "text": "(Howes and Mambon, 2021;",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 1742,
+            "end": 1762,
+            "text": "Morgan et al., 2020)",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 1837,
+            "end": 1861,
+            "text": "(Howes and Mambon, 2021)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "H2",
+        "sec_num": null
+      },
+      {
+        "text": "Since the start of 2021, the COVID-19 situation in PNG has dramatically deteriorated. The cumulative total of confirmed cases grew from 834 and 9 related deaths on January 1 to 17,775 confirmed cases and 192 COVID-19 related deaths by August 2. Most of these cases were reported between the end of February and start of June (see Figure 2 ). The actual case numbers are likely to have been much higher due to low overall testing, underreporting and limited contact tracing capacity (World Health Organization, 2021). PNG's Prime Minister, James Marape, claimed that one in three or four Papua New Guineans may have been infected with COVID-19 in March (McGuirk, 2021) . Although the epidemiological curve of confirmed COVID-19 cases began to flatten throughout July and August, it is unclear the extent to which this is simply due to limited testing (around a third of COVID-19 tests are positive), and it is believed that community transmission remains widespread in much of PNG (World Health Organization, 2021).",
+        "cite_spans": [
+          {
+            "start": 634,
+            "end": 667,
+            "text": "COVID-19 in March (McGuirk, 2021)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 330,
+            "end": 338,
+            "text": "Figure 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "H2",
+        "sec_num": null
+      },
+      {
+        "text": "3 There were only four countries outside Sub-Saharan Africa with a lower Human Development Index ranking in 2018 than PNG (the Syrian Arab Republic, Afghanistan, the Republic of Yemen, and Haiti), three of which were undergoing severe conflict. To assist in addressing the rising number of cases, PNG received its first shipment of COVID-19 vaccines through the COVAX Facility in April. This consisted of 132,000 doses of the AstraZeneca vaccine that were licensed and manufactured by Serum Institute of India. Additional doses of the AstraZeneca vaccine were provided by the Australian government and in May doses of the Sinopharm vaccine (primarily being made available to Chinese citizens) that were provided by the Chinese government began to be administrated (both vaccines require two doses). It is estimated that tens of thousands of doses of the AstraZeneca vaccine provided through COVAX and by the Australian government expired at the end of July and were not used (ABC News, 2021a). Vaccines are not mandatory, but are free of charge (National Control Centre for COVID-19, 2021) . In instances, employers in some urban centers have been offering workers small incentives to promote vaccination (ABC News, 2021b).",
+        "cite_spans": [
+          {
+            "start": 1074,
+            "end": 1089,
+            "text": "COVID-19, 2021)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 2 -COVID-19 cases and Vaccinations in PNG in 2021",
+        "sec_num": null
+      },
+      {
+        "text": "Throughout the first four months since they have become available, the number of vaccinations administered daily has generally grown, but the overall vaccination rate remains low. Less than 1 percent of the population had received at least one dose of a COVID-19 vaccine as of August 2, 2021. Around 86,000 people had received at least one dose and 18,000 have been fully vaccinated. In April and May, priority was given to health and other essential workers. In late May, the general population was able to gain access to the COVID-19 vaccine, primarily in the Southern region where there had been a greater number of cases and more access points were available (particularly in the largest city of Port Moresby). However there are over 100 vaccination sites located across Papua New Guinea, with vaccination sites situated in all of the country's provinces (National Control Centre for COVID-19, 2021). The bulk of vaccination sites are located in hospitals or local health centers. Although vaccination sites are located across the country, Papua New Guinea's geography is such that accessibility is less than ideal. By the end of July, around 61,000 of the people who had been vaccinated were either health or other essential workers, with the remaining around 25,000 people being from the broader population.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 2 -COVID-19 cases and Vaccinations in PNG in 2021",
+        "sec_num": null
+      },
+      {
+        "text": "The limited existing evidence on attitudes to COVID-19 vaccines in Papua New Guinea points to very high vaccine hesitancy rates by international standards. A nationwide study of health care workers conducted in 2021 found that only 56 percent were willing to be vaccinated against COVID-19. When the same survey was extended to a convenience sample drawn from the public, it found only 39 percent of people were willing to take the vaccine (Pogo et al., 2021, p. 17) . Among both survey groups combined (data are not provided in which health care workers are separated), concerns about vaccine safety were very prevalent (Pogo et al., 2021, p. 18) . Social media was found to be the most common source of information on the vaccine, although local health authorities and health workers were the most trusted (Pogo et al., 2021, p. 23) . Belief in vaccine misinformation and misunderstandings were common, even among health care workers (Pogo et al., 2021, p. 20) . The role of social media as a source of information, and misinformation, on COVID-19, has been noted by health care practitioners and journalists working in PNG as a major concern, with high-profile examples of existing misinformation being spread by social media (Ahearn, 2021) .",
+        "cite_spans": [
+          {
+            "start": 440,
+            "end": 466,
+            "text": "(Pogo et al., 2021, p. 17)",
+            "ref_id": null
+          },
+          {
+            "start": 621,
+            "end": 647,
+            "text": "(Pogo et al., 2021, p. 18)",
+            "ref_id": null
+          },
+          {
+            "start": 808,
+            "end": 834,
+            "text": "(Pogo et al., 2021, p. 23)",
+            "ref_id": null
+          },
+          {
+            "start": 936,
+            "end": 962,
+            "text": "(Pogo et al., 2021, p. 20)",
+            "ref_id": null
+          },
+          {
+            "start": 1229,
+            "end": 1243,
+            "text": "(Ahearn, 2021)",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Existing evidence about vaccine hesitancy in PNG",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "Similar findings have emerged from the other two surveys conducted on attitudes to COVID-19 in Papua New Guinea thus far. A survey of 281 University of Papua New Guinea students found that 48 percent of respondents would not take a vaccine while a further 46 percent were unsure (Fox, 2021, p. 1 ). An online survey conducted by one of PNG's largest newspapers found only 22 percent of participants were willing to be vaccinated, although the survey involved self-selection, meaning its utility as a gauge of broader public attitudes is limited (Munoz, 2021, p. 1) . Using a similar, convenience sample approach a UNICEF U-report poll found less than a third of participants were willing to be vaccinated (UNICEF, 2021).",
+        "cite_spans": [
+          {
+            "start": 279,
+            "end": 295,
+            "text": "(Fox, 2021, p. 1",
+            "ref_id": null
+          },
+          {
+            "start": 545,
+            "end": 564,
+            "text": "(Munoz, 2021, p. 1)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Existing evidence about vaccine hesitancy in PNG",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "This section provides details about the data collection methodology and empirical analysis we conducted for the phone survey and online randomized survey experiment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "4."
+      },
+      {
+        "text": "To collect information about levels of vaccine hesitancy and what factors could be contributing to it, a phone survey covering 2,533 households was in the field from May 26 to June 6, 2021. The most recent data available for mobile phone penetration estimates usage at 32 percent of the population (World Bank, 2021). The phone survey used geographic quotas based on the most recent tower that mobile phones had been connected through to ensure there was coverage across all provinces and districts in PNG. To address concerns that the population with access to mobile phones may be disproportionally wealthier, efforts were made to oversample phone users that do not send text messages and/or rely on others to transfer them credit to pay for their phone use. These attributes have been shown to be far more common among poorer phone users in PNG (Himelein and McPherson, 2021) .",
+        "cite_spans": [
+          {
+            "start": 848,
+            "end": 878,
+            "text": "(Himelein and McPherson, 2021)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Phone survey data collection and analysis",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "The responses provided by participants in the phone survey were weighted to match the characteristics of the 2016-18 Demographic and Health Survey (DHS) in PNG (National Statistical Office of PNG and ICF, 2019). The DHS is the most recent nationally representative data set including a measure of welfare and therefore this survey was used as the base for the reweighting. The mobile phone survey weights were designed to follow the distribution of the sample by province and urban/rural location. The weights were calibrated to the DHS distribution. This addressed issues with oversampling related to the number of calls but did not adjust for differences in the distribution of the wealth index or for differences in demographic variables. To adjust for differences in the distribution of the wealth index, the DHS and mobile phone survey data were appended, and a logit model was run with the mobile phone survey equal to one and the DHS equal to zero. The dependent variables were the wealth index, square of the wealth index, and the cube of the wealth index. The inverse of the prediction was then taken and collapsed into deciles, and these deciles were multiplied with the calibrated weights. These weights were then winsorized 4 at the top 0.5 percentile to address any outliers, adjusted to account for households with multiple mobile phones (and therefore higher probabilities of selection), and calibrated again using the region and urban/rural location. This further adjusted the weights for differences in the distributions between the phone survey and the DHS, but only adjusted for differences in the demographics to the extent that they were correlated with wealth. As a final step, the weights were raked to match the mean values from the DHS on the following characteristics: gender of the respondent, age group of the respondent, education of the respondent, household size, province, and urban/rural location. The resulting weights were based on the household level as the DHS is a representative household survey. It is important to recognize that the low rates of phone ownership means that reweighting of responses is unlikely to be able to fully take into account unobserved characteristics of the population without access to a phone.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Phone survey data collection and analysis",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "The phone survey asked a series of questions about the potential drivers of COVID-19 vaccine hesitancy along with questions about the level of hesitancy (see Appendix B). High levels of vaccine hesitancy were anticipated because a prior phone survey had captured preliminary data about willingness to be vaccinated in the event that an approved vaccine became available at no cost. As such the focus of the phone survey drawn on in this paper was more on understanding what was driving the high levels of hesitancy as opposed to examining the prevalence of vaccine hesitancy in PNG. To achieve this aim, an array of questions were included allowing for a detailed examination of the extent to which different factors influence vaccine hesitancy. These questions were sourced directly from a combination of COVID-19 vaccine hesitancy surveys that the World Bank, UNICEF and WHO had undertaken in PNG or in other low-and middle-income countries. The phone survey went to the field as the national rollout of the vaccine was beginning and as a result the vaccine questions were asked assuming respondents could potentially have already received their first dose.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Phone survey data collection and analysis",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "The data collected from the phone survey were analyzed by identifying correlations and conducting regression analysis. The descriptive findings were calculated using household weights derived from the 2016-18 DHS to ensure the overall findings were broadly nationally representative, and throughout the paper household-weighted findings are reported on unless otherwise stated. The regression analysis involved using ordinary least squares (OLS) to estimate the effect on willingness to be vaccinated (the dependent variable) from a dummy variable for a given potential driver of vaccine hesitancy (the independent variable) after controlling for demographic characteristics of respondents.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Phone survey data collection and analysis",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "The online randomized survey experiment was conducted via Facebook from June 24 to July 26, 2021. Participants were recruited using Facebook advertisements and taken to a chatbot in Facebook messenger to complete the survey. The sample was drawn from all Facebook accounts in PNG and was stratified by demographic groups (based on age, gender and regions) to ensure adequate representation in the sample. There were almost one million social media users in PNG in January 2021 -over 10 percent of the entire population or almost 20 percent of the adult population (that is, those aged 18 years or older) (Hoodsuite, 2021) . The survey questions measured basic demographics, vaccine intentions/take-up and behavioral dimensions such as social norms, trust, and role models (see Appendix B). This allowed for an estimate of the overall levels of intention to be vaccinated. Although the online experiment itself was not repeated in the phone survey, all of the questions in the Facebook experiment were also included in the phone survey.",
+        "cite_spans": [
+          {
+            "start": 604,
+            "end": 621,
+            "text": "(Hoodsuite, 2021)",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Online randomized survey experiment methodology",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "The treatments in the online experiment were based on questions trialed in other settings and were also informed by the results of the phone survey. A series of Facebook experiments about vaccine hesitancy were run by the World Bank in the first half of 2021 in the Middle East and North Africa using a range of behaviorally informed messages. These treatments were the starting point for this study. However, questions were tailored to suit the PNG context based on extensive consultation with stakeholders. In addition, treatments were only included in the experiment if the findings of the phone survey suggested there was a positive correlation between a potential driver of vaccine hesitancy and people's willingness to be vaccinated. This resulted of the three treatments (expert advice, social norms and relative safety) are shown below (see Figure 3 ).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 849,
+            "end": 857,
+            "text": "Figure 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Online randomized survey experiment methodology",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Almost 2,400 people participated in the survey experiment and respondents were randomly allocated into four groups (the three treatment groups and the control group). Forty percent of participants were allocated to the control group and the remaining 60 percent being split between the three treatment groups. Questions about intention to get vaccinated were not asked of people who were already vaccinated (the treatment could not retrospectively impact these participants). As such, each of the treatment groups had fewer than 400 participants, which resulted in less statistical power to detect treatment effects than would have been ideal (Haaland et al., forthcoming) . However, it was still possible to detect a treatment effect in the order of 8 to 10 percentage points. 5",
+        "cite_spans": [
+          {
+            "start": 643,
+            "end": 672,
+            "text": "(Haaland et al., forthcoming)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 3 -Design of randomized survey experiment",
+        "sec_num": null
+      },
+      {
+        "text": "Randomization of the treatments ensured that the impact of each message could be determined by comparing averages of answers to questions about vaccine hesitancy between the treatment and control groups. The randomization was successful, as there were very few statistically significant differences between treatment and control groups across demographic characteristics (see Table 1 ). Even though there were no noteworthy imbalances between the demographic characteristics of respondents, we still controlled for these variables in our regressions. Throughout the body of the paper, when reporting on experiment results, we present the sample average treatment results (that is, based on the raw data without weighting) unless otherwise stated. Notes: ***, **, and * indicate significance at the 1, 5, and 10 percent critical level. The values displayed for t-tests are the differences in the means across the groups.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 376,
+            "end": 383,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Figure 3 -Design of randomized survey experiment",
+        "sec_num": null
+      },
+      {
+        "text": "The aim of the phone survey and online experiment was to be able to learn about how to address vaccine hesitancy among a broader population in PNG, beyond just the survey respondents. Both surveys collected samples of respondents that are somewhat representative of the population that has access to their respective communication channels (i.e. the phone survey is somewhat representative of the population with access to a phone and the online experiment is somewhat representative of the population with access to the internet). Efforts were made to oversample poorer respondents in the case of the phone survey (see Section 4.1 for details) and ensure respondents participated across PNG in the online experiment (i.e. survey quotas were applied at the regional level). As such both surveys did not rely solely on random sampling, which means they somewhat, but not perfectly, represent the population that has access to their respective communication channels. To be able to make inferences about a broader population, it was necessary to weight responses to better reflect the demographics of the national population (such as age, sex and location) (see Table 2 ). Reweighting does not mean either survey perfectly reflected the views of all people in PNG as those who have access to the internet and phones may be systematically different. However, to the extent that these differences are correlated with demographic characteristics, survey weights can correct for them. To make comparisons between the insights that the phone survey and online experiment reveal about the general population in PNG it is necessary to apply a common approach to the survey weights. As mentioned in the preceding subsections, the phone survey was designed with the intention of household weights being used based on the 2016-18 DHS, which would allow for representative analysis at the household level about a range of COVID-19 related topics. In contrast, the online experiment, as is standard practice for this type of work, was designed for data analysis to be primarily conducted at the individual level without applying any survey weights (Haaland et al., forthcoming) . However, it is common practice for survey weights to be applied to online experiments to provide an estimate of how generalizable the findings are likely to be.",
+        "cite_spans": [
+          {
+            "start": 2134,
+            "end": 2163,
+            "text": "(Haaland et al., forthcoming)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 1160,
+            "end": 1167,
+            "text": "Table 2",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Making inferences about the general population using the phone survey and online experiment",
+        "sec_num": "4.3"
+      },
+      {
+        "text": "Inverse probability weights at the individual level based on the 2011 population census were calculated for both the phone survey and online experiment so as to be able to compare representative findings across the two surveys. Respondents to the phone survey and online experiment were disproportionally more likely to be male and younger than the national population and their geographic location also differed (see Table 2 ). Inverse probability weights were used to adjust for these differences. For example, weights greater than one were applied to female, older respondents in the Southern region and weights of less than one were applied to younger men in the Momase region (see balance table once weights are applied for the online survey experiment as well as a full list of weights for the two surveys in Appendix A, Tables A1-A3). The weights were calculated at the individual level (as opposed to household) because the questions about vaccine hesitancy focused on an individual's willingness to get vaccinated and their reasons behind this.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 418,
+            "end": 425,
+            "text": "Table 2",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Making inferences about the general population using the phone survey and online experiment",
+        "sec_num": "4.3"
+      },
+      {
+        "text": "This section presents the descriptive results from the phone survey and the control group in the online experiment. It also highlights what the phone survey reveals in terms of the drivers of vaccine hesitancy. In addition, this section details the efficacy of the treatments used in the online randomized survey experiment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Findings",
+        "sec_num": "5."
+      },
+      {
+        "text": "This subsection presents broadly representative, descriptive findings from the phone survey and the control group in the online experiment, using the same approach to weighting (that is, inverse probability weighting at the individual level as discussed in Section 4.3). Both the phone survey and online experiment show there were high levels of vaccine hesitancy in PNG, which respondents stated was primarily due to concerns about side effects from the COVID-19 vaccine. Respondents stated that health experts were the most likely to be able to increase their willingness to get vaccinated.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Descriptive results from the phone survey and online experiment",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "Awareness of the existence of COVID-19 in general in PNG is very high, however there is a much more limited understanding of the number of cases and COVID-19 related deaths. A prior representative phone survey in PNG showed more than 95 percent of respondents were aware of the existence of COVID-19 (World Bank 2020). In the phone survey we focus on in this paper, around 9 out of 10 respondents were aware of specific actions the government has taken to address COVID-19 in regard to the health and/or education sectors. However, when asked to estimate COVID-19 cases numbers and deaths across PNG or within their province, almost 80 percent of respondents stated they were unsure. The remaining respondents that provided an estimate were remarkably accurate. On average, respondents provided very similar estimates of the perceived number of COVID-19 cases in their province as what was actually the case in terms of reported figures (see Figure 4 ).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 942,
+            "end": 950,
+            "text": "Figure 4",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Awareness of COVID-19 (based solely on the phone survey)",
+        "sec_num": "5.1.1"
+      },
+      {
+        "text": "Note: This chart is based on answers provided by the 20 percent of respondents that did not select unsure to question 22 in Appendix B. AROB -Autonomous Region of Bougainville, NCD -National Capital District.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 4 -Reported and perceived number of COVID-19 cases by province",
+        "sec_num": null
+      },
+      {
+        "text": "A significant minority of respondents in both surveys had not heard of a vaccine for COVID-19 being available in PNG. Respondents were asked \"Do you know if a vaccine for COVID-19 is available in this country?\" and 27.3 percent of phone survey respondents and 18.0 percent of participants in the online survey experiment (in the control group) answered no. As expected, having knowledge of a vaccine for COVID-19 was more common among those with higher levels of education in both the phone survey and Note: These charts are based on answers to question 1 and 32 (control group only) in Appendix B.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Awareness of COVID-19 vaccines (based on both the phone survey and online experiment)",
+        "sec_num": "5.1.2"
+      },
+      {
+        "text": "The phone survey and control group in the online experiment revealed very high levels of vaccine hesitancy in PNG. Only a small minority of Papua New Guineans were planning on getting vaccinated. Most respondents stated they were unwilling to get or not sure about getting a COVID-19 vaccine (see Figure 6 ). There were no large differences in willingness to get vaccinated between respondents with different demographic characteristics, except that men were slightly more likely to be willing to get vaccinated (see Figures A1-A4 in Appendix A). This finding is consistent with existing work showing that vaccine hesitancy does not tend to be primarily associated with socioeconomic status or education levels (Larson et al, 2014.) . Respondents were asked \"Have you been vaccinated for COVID-19?\" and \"Are you planning to be vaccinated?\" Because the focus of this paper is on vaccine hesitancy, we restrict our analysis to respondents who were aware of the vaccine but were yet to get vaccinated. Among this subset of respondents, a very similar share in the phone survey and control group in the online experiment stated they would get vaccinated (only 18.2 and 18.4 percent). Respondents to the phone survey were much more likely to state that they would not get vaccinated (53.3 percent), whereas participants from the control group in the online experiment were more likely to state they were unsure (55.5 percent). 5.1.4 Reasons for vaccine hesitancy (based on both the phone survey and online experiment)",
+        "cite_spans": [
+          {
+            "start": 711,
+            "end": 732,
+            "text": "(Larson et al, 2014.)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 297,
+            "end": 305,
+            "text": "Figure 6",
+            "ref_id": "FIGREF5"
+          },
+          {
+            "start": 517,
+            "end": 530,
+            "text": "Figures A1-A4",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Levels of vaccine hesitancy (based on both the phone survey and online experiment)",
+        "sec_num": "5.1.3"
+      },
+      {
+        "text": "In both the phone survey and online experiment, the main reason people stated they did not want to be (or were unsure about being) vaccinated was that they were worried about side effects from the COVID-19 vaccine (see Figure 7) . The same options were provided in both surveys. However, in the online experiment respondents were asked to select the main reason they were not prepared to get vaccinated, whereas in the phone survey respondents could select all that applied (see Figures 5a and  5b) . Around four-fifths (78%) of respondents selected worried about side effects as a reason for hesitancy in the phone survey and around half (48%) selected this as the main reason in the online experiment. Health experts were by far the most likely group of people to be able to reduce recipients' vaccine hesitancy, according to phone survey respondents and participants in the control group in the online experiment (see Figure 8 ). Respondents that did not plan on being vaccinated or were unsure were asked \"Would you be more likely to receive the COVID-19 vaccine if any of the following individuals/authorities receive or recommend the vaccine?\" in both surveys based on the same list of groups of people. In the phone survey where respondents could select all that applied, around half (48%) of respondents selected health workers. In the online experiment where respondents selected the main group most likely to change respondents' minds, around two-thirds (66%) of respondents selected health workers. In addition, phone survey respondents were asked their most preferred way of receiving information about the vaccine and around four out of five (80.1%) respondents stated face-to-face communication from health workers (see Figure A5 in Appendix A). Collectively, these results provide evidence that advice from health experts about the COVID-19 vaccine is likely to positively influence people's willingness to get vaccinated. 5.2 Drivers of vaccine hesitancy according to the phone survey (based solely on the phone survey)",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 219,
+            "end": 228,
+            "text": "Figure 7)",
+            "ref_id": "FIGREF6"
+          },
+          {
+            "start": 479,
+            "end": 498,
+            "text": "Figures 5a and  5b)",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 921,
+            "end": 929,
+            "text": "Figure 8",
+            "ref_id": "FIGREF7"
+          },
+          {
+            "start": 1734,
+            "end": 1743,
+            "text": "Figure A5",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Levels of vaccine hesitancy (based on both the phone survey and online experiment)",
+        "sec_num": "5.1.3"
+      },
+      {
+        "text": "This subsection presents findings from the phone survey regarding the factors that are most likely driving vaccine hesitancy in PNG. The five potential drivers of vaccine hesitancy, which are focused on one by one below, are discussed in the related literature section (Section 2). The findings show that people's lack of trust in the COVID-19 vaccine and social norms are the most plausible sources of vaccine hesitancy.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Levels of vaccine hesitancy (based on both the phone survey and online experiment)",
+        "sec_num": "5.1.3"
+      },
+      {
+        "text": "People's willingness to get vaccinated was closely associated with their level of trust in the COVID-19 vaccine (see Figure A6 in Appendix A). Over 60 percent (62.4%) of respondents who planned on getting vaccinated stated they trusted the COVID-19 vaccine, whereas around two percent (2.1%) of people who did not plan on being vaccinated said they trusted the COVID-19 vaccine. Correspondingly, only five percent (5.1%) of respondents that planned on getting vaccinated stated they did not trust the COVID-19 vaccine whereas almost three-quarters (73.7%) of respondents that did not plan on being vaccinated said they did not trust the COVID-19 vaccine. Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) respondents that Tables A4 and A5 in Appendix A).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 117,
+            "end": 126,
+            "text": "Figure A6",
+            "ref_id": "FIGREF5"
+          },
+          {
+            "start": 812,
+            "end": 828,
+            "text": "Tables A4 and A5",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Trust in the COVID-19 vaccine",
+        "sec_num": "5.2.1"
+      },
+      {
+        "text": "Very similar patterns exist when examining the relationship between respondents' willingness to get vaccinated and whether they thought the COVID-19 vaccine was important for their health (see Figure  A7 in Appendix A). For example, almost 70 percent (68.4%) of respondents who planned on getting vaccinated stated they thought the COVID-19 vaccine was important for their health, whereas 3% of people who did not plan on being vaccinated thought this was the case. There is also a high correlation (correlation coefficient = 0.81) between the answers to the questions about trusting the COVID-19 vaccine and whether people think the COVID-19 vaccine is important for their health. This suggests a relationship between trust in the vaccine, fear of side effects, and a belief the vaccine has health benefits.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 193,
+            "end": 203,
+            "text": "Figure  A7",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Trust in the COVID-19 vaccine",
+        "sec_num": "5.2.1"
+      },
+      {
+        "text": "People's willingness to get vaccinated was positively correlated with their beliefs about the behavior of others (see Figure A8 in Appendix A). Over 60 percent (60.4%) of respondents who planned on getting vaccinated stated that most of their family and friends would do so, whereas around 4 percent (4.2%) of people who did not plan on being vaccinated stated this would occur. Correspondingly, less than 3 percent (2.6%) of respondents that planned on getting vaccinated stated they did not think most of their family and friends would do so whereas over 40 percent (41.4%) of respondents that did not plan on being vaccinated stated most of their family and friends would definitely not get vaccinated (another 54.4% were unsure). Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) respondents that thought their family and friends would get vaccinated were 65.9 percentage points more likely to plan on being vaccinated (see column 2 in Tables A4 and A5 in Appendix A). A similar, but weaker, relationship existed when asking people their beliefs about whether most people in PNG would be vaccinated (see Figure A9 in Appendix A).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 118,
+            "end": 127,
+            "text": "Figure A8",
+            "ref_id": "FIGREF7"
+          },
+          {
+            "start": 1198,
+            "end": 1207,
+            "text": "Figure A9",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Social norms",
+        "sec_num": "5.2.2"
+      },
+      {
+        "text": "People's willingness to get vaccinated was also strongly related to whether they would encourage a family member to get vaccinated (see Figure A10 in Appendix A). For example, almost 60 percent (57.4%) of respondents who planned on getting vaccinated stated they would encourage a family member to get vaccinated, whereas around three percent (3.1%) of people who did not plan on being vaccinated said this was the case. This suggests that people's level of vaccine hesitancy is not only shaped by others behavior, but is also likely to impact the behavior of others.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 136,
+            "end": 146,
+            "text": "Figure A10",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Social norms",
+        "sec_num": "5.2.2"
+      },
+      {
+        "text": "The extent to which people were concerned about COVID-19 appears to be entirely unrelated to their willingness to get vaccinated. Almost three-quarters (72.4%) of all respondents were very worried or somewhat worried about someone in their household getting COVID-19, however this did not vary greatly based on people's willingness to get vaccinated (see Figure A11) . Similarly, around half (50.6%) of all respondents stated that COVID-19 was a big threat to their household finances, and this was not positively associated with willingness to get vaccinated (see Figure A12 in Appendix A). Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) respondents' level of concern about COVID-19 was still unrelated to their willingness to get vaccinated (see column 3 in Tables A4 and A5 in Appendix A). In addition, the number of preventive actions people take to avoid getting COVID-19 is unrelated to their willingness to get vaccinated (see Figure A13 in Appendix A). Specifically, on average people stated they take 2.4 out of a list of five actions to prevent getting COVID-19 and there were no statistically significant differences across whether people intended to get vaccinated or not.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 355,
+            "end": 366,
+            "text": "Figure A11)",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 565,
+            "end": 575,
+            "text": "Figure A12",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 1027,
+            "end": 1037,
+            "text": "Figure A13",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Concern about COVID-19",
+        "sec_num": "5.2.3"
+      },
+      {
+        "text": "The sources of information that respondents trust most for information about the COVID-19 vaccine and COVID-19 in general were unrelated to their willingness to get vaccinated. The three most trusted sources of information about the COVID-19 vaccine across all respondents were health clinics, newspapers and the radio, which collectively make up around three-quarters (73.6%) of respondents' top choices. This did not vary greatly by people's willingness to get vaccinated (see Figure A14 ). For example, around 30 percent (30.5%) of respondents not planning on getting the vaccine stated that health clinics were their most trusted source of information about the COVID-19 vaccine and around 35 percent (35.5%) of respondents that do plan on getting vaccinated selected this answer. Similar patterns exist when focusing on respondents' answers in terms of whether they have access to these information sources or what their main source of information is (see Figure A15 in Appendix A). Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) the sources of information people relied on to find out about the COVID-19 vaccine were still unrelated to their willingness to get vaccinated (see column 4 in Tables A4 and A5 in Appendix A). In addition, relying on the internet as the main or most trusted source of information about the COVID-19 vaccine was quite uncommon (9.4% and 7.9% of all respondents respectively) and appeared to be largely unrelated to levels of vaccine hesitancy.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 479,
+            "end": 489,
+            "text": "Figure A14",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 961,
+            "end": 971,
+            "text": "Figure A15",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Sources of information",
+        "sec_num": "5.2.4"
+      },
+      {
+        "text": "There was no evidence to suggest that survey respondents who had previously been vaccinated for another disease (for example, measles or polio) were more willing to get the COVID-19 vaccine (see Figure A16 in Appendix A). In fact, there appears to be a slightly negative relationship (that is, people who have previously been vaccinated for another disease were less willing to receive the COVID-19 vaccine). Around 40 percent (42.0%) of respondents planning on getting the vaccine stated they had previously been vaccinated for another disease, whereas almost 50 percent (48.0%) of respondents that do not plan on getting vaccinated for COVID-19 said they had previously been vaccinated for another disease. Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) people who had previously been vaccinated were still not more likely to want to get vaccinated (see column 5 in Tables A4 and A5 in Appendix A). Similar results hold in terms of whether people encouraged their children to get vaccinated (see Figure A17 in Appendix A).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 195,
+            "end": 205,
+            "text": "Figure A16",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 1091,
+            "end": 1101,
+            "text": "Figure A17",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "History of vaccination",
+        "sec_num": "5.2.5"
+      },
+      {
+        "text": "These results suggest that trust in the COVID-19 vaccine and social norms are likely to be partly driving vaccine hesitancy in PNG, whereas concern about COVID-19, information sources and vaccination history are unlikely to be key drivers. This is summarized in Figure 9 , which shows a clear relationship between trust in the COVID-19 vaccine and social norms with willingness (and unwillingness) to get vaccinated and no such pattern for these other potential drivers. This figure is based on separate regressions controlling for background characteristics (see Tables A4 and A5 in Appendix A). When variables for all potential drivers are included in the same regression (along with the background characteristics) very similar results exist.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 262,
+            "end": 270,
+            "text": "Figure 9",
+            "ref_id": null
+          },
+          {
+            "start": 564,
+            "end": 580,
+            "text": "Tables A4 and A5",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Summary of the findings about the potential drivers of vaccine hesitancy",
+        "sec_num": "5.2.6"
+      },
+      {
+        "text": "Note: This chart is based on answers to question 8, 10, 13, 29 and 30 in Appendix B.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 9 -Relationship between potential drivers of vaccine hesitancy and willingness to get the COVID-19 vaccine",
+        "sec_num": null
+      },
+      {
+        "text": "This subsection presents findings from the online randomized survey experiment that examined whether particular messages would increase people's willingness to get vaccinated in PNG. The results show the treatment that highlighted the health benefits from being vaccinated (the relative safety treatment) was able to reduce vaccine hesitancy. On the other hand, there was no evidence that referring to expert advice had any effect, while the social norms treatment's efficacy was contingent on survey weights being applied.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results of the online randomized survey experiment",
+        "sec_num": "5.3"
+      },
+      {
+        "text": "The online randomized survey experiment showed the relative safety treatment was able to increase people's willingness to get vaccinated, but when survey weights were not applied there was no effect from the other two treatments (expert advice and social norms). Only 19.3 percent of respondents in the control group were willing to get vaccinated, whereas 30.6 percent of respondents in the relative safety treatment were willing to get vaccinated (20.9% and 21.1% in the expert advice and social norms treatment groups respectively) (see Figure 10a ). After controlling for background characteristics of respondents, the treatment effect for the relative safety treatment is still large and statistically significant (see Table A6 in Appendix A). A similar effect from the relative safety treatment holds in terms of respondents' reduction in being certain they will not be vaccinated (see Figure 10b ). Almost 30 percent (28.9%) of respondents in the control group stated they were unwilling to get vaccinated whereas this figure was less than 20 percent (17.0%) in the relative safety treatment group (26.4% and 23.8% in the expert advice and social norms treatment groups respectively). There was some indication that the social norms group reduced people's unwillingness to get the vaccine however this was only weakly statistically significant. There was no significant effect from the expert advice treatment. Similar results hold after controlling for the background characteristics of respondents (see Table A7 in Appendix A).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 540,
+            "end": 550,
+            "text": "Figure 10a",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 724,
+            "end": 732,
+            "text": "Table A6",
+            "ref_id": null
+          },
+          {
+            "start": 892,
+            "end": 902,
+            "text": "Figure 10b",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 1512,
+            "end": 1520,
+            "text": "Table A7",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Overall impact of the treatment on vaccine hesitancy without applying survey weights",
+        "sec_num": "5.3.1"
+      },
+      {
+        "text": "The relative safety treatment had statistically significant effects across most of the demographic characteristics of respondents (see Figure A18 in Appendix A). The effect of this treatment was strongest among younger respondents, women and people with less education. There is some evidence the social norms treatment had statistically significant effects on women and respondents in the Southern region.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 135,
+            "end": 145,
+            "text": "Figure A18",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Weighted treatment effects on vaccine hesitancy",
+        "sec_num": "5.3.2"
+      },
+      {
+        "text": "To provide an estimate of the impact of the treatment on a more broadly representative population, weighted treatment effects were calculated using inverse probability weights (as discussed in Section ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Weighted treatment effects on vaccine hesitancy",
+        "sec_num": "5.3.2"
+      },
+      {
+        "text": ". The impact of the relative safety treatment remains of a similar magnitude as those presented in Section 5.3.2 as this treatment had similar effects across respondents with different demographic characteristics (see Figure A19 in Appendix A). In contrast, the impact of the social norms treatment becomes substantially larger and is now statistically significant. This is primarily because female respondents and those in the Southern region were under-sampled in the online experiment and the weights corrected for this. Similar results hold after controlling for the background characteristics of respondents (see Table A8 in Appendix A).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 218,
+            "end": 228,
+            "text": "Figure A19",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 618,
+            "end": 626,
+            "text": "Table A8",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "4.3)",
+        "sec_num": null
+      },
+      {
+        "text": "In this section we first outline the areas that our findings suggest policy makers should and should not prioritize to address COVID-19 vaccine hesitancy. We follow this with a broader discussion on the generalizability of the results and areas for further research.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion and conclusion",
+        "sec_num": "6."
+      },
+      {
+        "text": "Our study highlights three key areas for policy makers to prioritize as they attempt to reduce vaccine hesitancy. Firstly, it provides comprehensive evidence that boosting people's trust in COVID-19 vaccines appears to be a fundamental step in increasing people's willingness to get vaccinated. The phone survey showed strong correlations between willingness to get vaccinated and trust in the vaccine as well as believing it has important health benefits. The online experiment illustrates that information about the relative safety of COVID-19 vaccines substantially increases willingness to get vaccinated and reduces opposition to receiving the vaccine. Collectively, these results suggest that many people make some form of basic \"cost benefit analysis\" about whether the consequences of COVID-19 justify the risk of being vaccinated. Further evidence that this is the case can be seen by the fact that respondents who believed many people had died from COVID-19 in PNG were much more likely to want to get the vaccine (see Figure A20 in Appendix A). The implication for policy makers from this is that they should prioritize efforts to inform the general population that COVID-19 vaccines can be effective at preventing severe illness, there are very low risks of developing negative side effects and becoming ill with COVID-19 results in a non-trivial chance of death for those who are unvaccinated.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 1029,
+            "end": 1039,
+            "text": "Figure A20",
+            "ref_id": "FIGREF11"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Issues to focus on to address vaccine hesitancy",
+        "sec_num": "6.1"
+      },
+      {
+        "text": "Importantly, unlike much of the existing work based on other vaccines and coming from studies in highincome countries (for example, see Dai et al., 2021) , the information treatment used in the relative safety treatment was clearly effective in reducing COVID-19 vaccine hesitancy. This is good news. It suggests that at least some of the apprehension about COVID-19 vaccines present in PNG stems simply from the fact that people do not feel they know enough about the new vaccine, as opposed to entrenched \"anti-vaccination\" positions of the sort found in other countries. As a result, it may prove feasible to shift people's views on COVID-19 vaccines in Papua New Guinea.",
+        "cite_spans": [
+          {
+            "start": 136,
+            "end": 153,
+            "text": "Dai et al., 2021)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues to focus on to address vaccine hesitancy",
+        "sec_num": "6.1"
+      },
+      {
+        "text": "Secondly, the importance of social norms in shaping people's willingness to be vaccinated is reaffirmed by the findings of the phone survey. The phone survey illustrated that most people who were willing to be vaccinated believed their family and friends would also be vaccinated. People intending to be vaccinated were also likely to recommend vaccination to others. Those who were not willing to be vaccinated did not think their family and friends would either. At present it appears that PNG is in a lowlevel equilibrium whereby few people are willing to get vaccinated, partly because few people are willing to get vaccinated. Vaccine hesitancy and supply are interrelated through this mechanism, which highlights the need to pair communications with other policies that will encourage vaccine take-up, in order to create a virtuous cycle where increasing take-up shifts norms and encourages more take-up. The fact the social norms treatment's effects were primarily to be found in subsets of the survey sample (particularly women) suggests there is scope for developing more effective normative appeals. It is possible that different types of information may be more effective in transmitting a norm-based message, and there is a strong case for further research in this area. However, it may well be that some sectors of the population will ultimately need to see firsthand their family, friends and others in their community receiving the vaccine before norms become truly effective in shaping attitudes. Although this would be a discouraging finding for those who hope to use information interventions to help increase vaccine uptake, it would be a positive finding in another sense: vaccinating those who are already willing to be vaccinated may itself help to change the attitudes of others as they see their fellow community members safely taking the vaccine.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues to focus on to address vaccine hesitancy",
+        "sec_num": "6.1"
+      },
+      {
+        "text": "Thirdly, health workers have a prominent role to play in increasing people's willingness to receive a vaccine for COVID-19. The phone survey illustrated that around 80 percent of respondents said they would be more willing to get the vaccine if health workers recommended it, which is a much higher share of respondents than those that would listen to the recommendations of others, such as family and friends or religious leaders. Importantly, the phone survey showed that the way people would like to receive this information is face to face, suggesting that communication from local health workers will have the biggest influence on people's take-up of the vaccine. In addition, the online experiment's results, and the failure of Treatment A, which presented the views of \"national and international experts\", strongly suggest that generic advice from experts will not serve as an adequate substitute for specific matter of fact advice received from trusted local health workers. One potential complicating factor facing authorities is that vaccine hesitancy is comparatively high among health workers (Pogo et al., 2021) . This suggests that high priority should be given to educating local health workers about the benefits of the COVID-19 vaccine (including the low risk of side effects) so they can become advocates in their community for vaccination.",
+        "cite_spans": [
+          {
+            "start": 1106,
+            "end": 1125,
+            "text": "(Pogo et al., 2021)",
+            "ref_id": "BIBREF30"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues to focus on to address vaccine hesitancy",
+        "sec_num": "6.1"
+      },
+      {
+        "text": "While the focus of this paper is on vaccine hesitancy and the potential for communications to increase vaccine take-up, it is important to acknowledge that individual-level decisions around vaccine take-up represent only one barrier to vaccination. Structural barriers, such as travel time to a facility, ability to take time off work to recover from side effects, and logistical challenges involved in planning and scheduling vaccinations are an important impediment. Historically marginalized populations, including poor and rural communities, may express low COVID-19 vaccination intentions due to their assumptions about how these structural factors impact their access; thus policies should explicitly address how they will overcome these issues.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues to focus on to address vaccine hesitancy",
+        "sec_num": "6.1"
+      },
+      {
+        "text": "This study illustrates that three areas that are often cited as contributing to vaccine hesitancy may play less of an instrumental role than commonly thought. First, misinformation about COVID-19 on social media does not appear to be a major driver of vaccine hesitancy in PNG, despite misinformation being present online. The phone survey showed that the vast majority of respondents did not rely on the internet as their main or most trusted source of information about the COVID-19 vaccine. In addition, there was no relationship between willingness to get the vaccine and relying on the internet as a trusted source of information about the COVID-19 vaccine. Therefore, these results suggest that it is likely other factors are driving widespread vaccine hesitancy. As such, policy makers both within the government and NGOs (Choudhury, 2021; Radio New Zealand International, 2021 ; Save the Children Australia, 2021) should not focus disproportionately on the issue of misinformation on social media.",
+        "cite_spans": [
+          {
+            "start": 829,
+            "end": 846,
+            "text": "(Choudhury, 2021;",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 847,
+            "end": 884,
+            "text": "Radio New Zealand International, 2021",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues that are unlikely to be major contributions to vaccine hesitancy",
+        "sec_num": "6.2"
+      },
+      {
+        "text": "Second, people in PNG already appear to be concerned about catching COVID-19. However, this concern is not related to their stated willingness to be vaccinated. On the other hand, willingness to be vaccinated is related to views on the vaccine itself. These findings suggest that the COVID-19 vaccine is not seen by most people as a way to minimize the threat that COVID-19 presents to people's lives and livelihoods, or that it is perceived as having risks that outweigh its benefits. As such, efforts to simply further raise people's concerns about COVID-19 are unlikely to generate greater demand for the vaccine. Rather, it is likely policy makers need to explicitly highlight that receiving the COVID-19 vaccine can reduce people's concerns about COVID-19 by preventing severe illness and death.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues that are unlikely to be major contributions to vaccine hesitancy",
+        "sec_num": "6.2"
+      },
+      {
+        "text": "Third, people's prior history of vaccination does not appear to be linked to their willingness to receive a COVID-19 vaccine. The phone survey showed that, on average, less than half of respondents had previously received a vaccination (for example, for measles or polio) and this was not positively associated with willingness to get a vaccine. In fact, there was a slightly negative relationship. Similarly, there was no relationship with getting one's children vaccinated and willingness to get the COVID-19 vaccine. Collectively, these findings suggest that hesitancy about the COVID-19 vaccine is quite distinct from hesitancy about vaccines in general. The implication that flows from this for policy makers is to develop a unique communication strategy for mass vaccination against COVID-19, as opposed to rolling them into existing efforts to minimize hesitancy about vaccines in general. 6",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues that are unlikely to be major contributions to vaccine hesitancy",
+        "sec_num": "6.2"
+      },
+      {
+        "text": "There is good reason to believe the results presented in this paper will have good external validity across PNG. We draw on different survey platforms (that is, phone and online) to collect data about broadly representative samples of the population and they point to similar conclusions. The phone surveys capture responses in every province and distinct in PNG and the online experiment also has widespread geographic coverage. When weighting techniques are applied to adjust for differences between the demographics of respondents and the general population (for example, in terms of age, gender, education levels, and so on, and so forth) the overall conclusions are qualitatively similar. The weighted and raw results about the main outcome of willingness to get vaccinated are similar across the phone survey and online experiment. By drawing on administrative data based on the history of phone use in PNG, we were also better able to sample poorer respondents than would be the case by simply relying on random digit dialing, which is common practice in other low-and middle-income countries (Global Poverty Research Lab, 2020). The close to monopoly status of the main telecommunications company in PNG allowed this approach of oversampling poorer respondents to be more effective than efforts along these lines elsewhere in the world (Himelein and McPherson, 2021) .",
+        "cite_spans": [
+          {
+            "start": 1344,
+            "end": 1374,
+            "text": "(Himelein and McPherson, 2021)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Generalizability of findings",
+        "sec_num": "6.3"
+      },
+      {
+        "text": "The findings of this study will be relevant to other low-and middle-income countries where low trust and limited knowledge about COVID-19 vaccines exist. They are consistent with a key theoretical explanation for people's willingness to get vaccinated that has empirical support in more developed settings. Specifically, the results of the phone survey and the online experiment show that trust in the vaccine drives people's willingness to get vaccinated as people balance whether the risks associated with vaccination (that is, rare negative side effects) are worth taking given the preventive health benefits from the vaccine (that is, minimizing the risk of severe illness and death from COVID-19). We have shown that, consistent with this model, information can raise trust in vaccines in some instances. The instances may, potentially, be quite specific -PNG is a low-income country, where COVID-19 vaccinations are not yet common. Nevertheless, our findings will serve as important starting point for research engaging with vaccine hesitancy elsewhere in the developing world, as countries try to quickly increase vaccination rates.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Generalizability of findings",
+        "sec_num": "6.3"
+      },
+      {
+        "text": "There is scope to build on our findings. One obvious fruitful area for future research will be expanding our approach to other developing countries. As we noted in the literature review, one salient fact emerging from existing descriptive studies on attitudes to COVID-19 vaccination, is just how much variation there is in vaccine hesitancy between countries (Africa CDC, 2021; Sol\u00eds Arce et al., 2021) . Given such variation, it may be the case that the sources of vaccine hesitancy, and the best means of overcoming it, may vary from country to country. In more authoritarian states, for example, it could be the case that government health workers are not as well trusted. Given potential variation between developing countries, we encourage further research, particularly experimental research elsewhere.",
+        "cite_spans": [
+          {
+            "start": 360,
+            "end": 378,
+            "text": "(Africa CDC, 2021;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 379,
+            "end": 403,
+            "text": "Sol\u00eds Arce et al., 2021)",
+            "ref_id": "BIBREF35"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues for further research",
+        "sec_num": "6.4"
+      },
+      {
+        "text": "There is also scope to test the effectiveness of different messages delivered using different media. We have shown clearly that information provided via the internet can help shift people's views on COVID-19 vaccinations. This is an important starting point. Yet, in a country like Papua New Guinea, where the bulk of the population do not currently have access to social media, the main task of increasing people's willingness to be vaccinated will fall to individuals delivering information in person. Health workers, both because of the nature of their job, and the high levels of trust revealed in the phone survey, will be excellent candidates to deliver information on vaccines. What needs to be learnt now is which specific types of messages are most likely to increase trust in vaccines when delivered in person by health workers. As programs are rolled out in the field, an experimental approach could be adopted to ensure as much is learnt as possible about how vaccine hesitancy can be improved in practice.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues for further research",
+        "sec_num": "6.4"
+      },
+      {
+        "text": "We believe there is also scope to learn more about the most effective interventions involving norms. We used one particular phrase designed to suggest that vaccine uptake was common. This had some effect, at least on a subset of the population. However, there are many ways to suggest a community norm exists. It may be the case that other phrases and approaches are more effective at this task. There is scope for further research trying to discover which approaches are most effective at evoking community norms.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues for further research",
+        "sec_num": "6.4"
+      },
+      {
+        "text": "Finally, from a more theoretical perspective, there is scope for further work investigating why some of our experimental treatments were quite effective in reducing vaccine hesitancy, in contrast to the treatments in many studies from OECD countries. It would be very useful to learn whether differences stem from different country contexts, different experimental treatments, or differing types of opposition to vaccines -perhaps our experiment was successful simply because vaccine hesitancy in PNG is genuine hesitancy associated with trying a new medical intervention as opposed to being an entrenched position associated with particular world views. There is a need for more learning in this area. Note: This chart is based on answers to question 3 and 11 in Appendix B. Note: This chart is based on answers to question 3 and 31 in Appendix B.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues for further research",
+        "sec_num": "6.4"
+      },
+      {
+        "text": ".3",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Reference list",
+        "sec_num": "7."
+      },
+      {
+        "text": ".4",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Reference list",
+        "sec_num": "7."
+      },
+      {
+        "text": ".5",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Reference list",
+        "sec_num": "7."
+      },
+      {
+        "text": ".6",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Reference list",
+        "sec_num": "7."
+      },
+      {
+        "text": ".7",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Reference list",
+        "sec_num": "7."
+      },
+      {
+        "text": "Share of respondents previously vaccinated",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Reference list",
+        "sec_num": "7."
+      },
+      {
+        "text": "Planning on being vaccinated Not planning on being vaccinated Unsure about being vaccinated ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Reference list",
+        "sec_num": "7."
+      },
+      {
+        "text": "In addition to the work reviewed here, some ongoing COVID-19-related work is taking place at present in developing country contexts. For example see details at: https://www.worldbank.org/en/events/2021/06/22/reaching-herd-immunity-behaviorally-using-social-media-insightsto-inform-covid-19-vaccination-efforts; https://www.worldbank.org/en/data/interactive/2020/11/11/covid-19-high-frequency-monitoringdashboard; and https://development-data-hub-s3-public.s3.amazonaws.com/ddhfiles/1235981/covid-whatsnew.pdf?deliveryName=DM111830.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Winsorizing involves the transformation of statistics by limiting extreme values in the statistical data to reduce the effect of possibly spurious outliers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "This is likely to be required in settings like PNG as vaccinating adults is rather uncommon (for example, the seasonal flu vaccine is not widely available) and existing campaigns tend to focus on reducing parents' hesitancy about vaccinating their children.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Note: This chart is based on answers to question 8, 10, 13, 29 and 30 in Appendix B.***, **, and * indicate significance at the 1, 5, and 10 percent critical level. Standard errors in parentheses.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Note: This chart is based on answers to question 34 in Appendix B.***, **, and * indicate significance at the 1, 5, and 10 percent critical level. Standard errors in parentheses.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": " Tables  Table A1 -Balance table (with inverse probability I don't think it will work; I am worried about the side effects; I already had COVID-19; I am not enough at risk of contracting COVID-19; In general, I don't trust vaccines; It is against my religion; I am worried to get infected with COVID-19 at the health facility; Health facility too far or too hard to get to; It will take too long to get vaccinated/ I don't have time to get vaccinated; Other (specify).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 1,
+            "end": 58,
+            "text": "Tables  Table A1 -Balance table (with inverse probability",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "APPENDIX A -Additional Figures and",
+        "sec_num": null
+      },
+      {
+        "text": "Family and friends; Religious leaders; Doctors/nurses/pharmacist/health workers; Community leaders; Equivalent of a traditional healer; Scientists and epidemiologists; Celebrities and social media influencers; Other.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Would you be more likely to receive the COVID-19 vaccine if any of the following individuals/authorities receive or recommend the vaccine?",
+        "sec_num": "5."
+      },
+      {
+        "text": "Videos of high-profile people talking about the vaccine; Videos with people who have received the vaccine sharing their experience; Face-to-Face communication with prominent leaders in my community; Church leaders providing correct information during church services; Direct information from health workers; Use people in the community to disseminate information so that their own people can understand; Face-to-Face communication from health care workers; I don't think any of these strategies would work; Other.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How would you like to receive information about the COVID-19 vaccine? [MULTI SELECT]",
+        "sec_num": "6."
+      },
+      {
+        "text": "Videos of high-profile people talking about the vaccine; Videos with people who have received the vaccine sharing their experience; Face-to-Face communication with prominent leaders in my community; Church leaders providing correct information during church services; Direct information from health workers; Use people in the community to disseminate information so that their own people can understand; Face-to-Face communication from health care workers; I don't think any of these strategies would work; Other.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "What is your single most preferred way to receive information about the COVID-19 vaccine?",
+        "sec_num": "7."
+      },
+      {
+        "text": "Yes; No; Unsure.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Do you trust the COVID-19 vaccine?",
+        "sec_num": "8."
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Papua New Guinea vaccine program opened to all adults, border protection ramped up to keep Delta strain out",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Abc News",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "ABC News. (2021a) 'Papua New Guinea vaccine program opened to all adults, border protection ramped up to keep Delta strain out'. https://www.abc.net.au/news/2021-07-03/papua-new-guinea- vaccine-program-open-to-all-adults/100265400. (Accessed 06/10/2021).",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Thousands of COVID jabs set to expire in PNG",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Abc News",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "ABC News. (2021b) 'Thousands of COVID jabs set to expire in PNG'. https://www.abc.net.au/radionational/programs/breakfast/thousands-of-covid-jabs-set-to- expire-in-png/13438428. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "COVID 19 Vaccine Perceptions: A 15 country study'. Addis Ababa: Africa Centres for Disease Control and Prevention",
+        "authors": [
+          {
+            "first": "Cdc",
+            "middle": [],
+            "last": "Africa",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Africa CDC. (2021) 'COVID 19 Vaccine Perceptions: A 15 country study'. Addis Ababa: Africa Centres for Disease Control and Prevention.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Social media \"bullshit\" threatens control of COVID-19 outbreak in PNG",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Ahearn",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ahearn, S. (2021) 'Social media \"bullshit\" threatens control of COVID-19 outbreak in PNG'. https://devpolicy.org/social-media-bullshit-threatens-control-of-covid-19-outbreak-in-png- 20210323-3/. (Accessed 8/9/2021).",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Increasing Vaccination: Putting Psychological Science Into Action",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [
+              "T"
+            ],
+            "last": "Brewer",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [
+              "B"
+            ],
+            "last": "Chapman",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "J"
+            ],
+            "last": "Rothman",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Leask",
+            "suffix": ""
+          },
+          {
+            "first": "& A",
+            "middle": [],
+            "last": "Kempe",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Psychological Science in the Public Interest",
+        "volume": "18",
+        "issue": "3",
+        "pages": "149--207",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Brewer, N. T., G. B. Chapman, A. J. Rothman, J. Leask & A. Kempe. (2017) 'Increasing Vaccination: Putting Psychological Science Into Action', Psychological Science in the Public Interest, 18(3): 149-207.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Fake news on social media is hampering vaccine efforts in Papua New Guinea",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [
+              "R"
+            ],
+            "last": "Choudhury",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Choudhury, S. R. (2021) 'Fake news on social media is hampering vaccine efforts in Papua New Guinea'. https://www.cnbc.com/2021/04/09/papua-new-guinea-png-covid-19-outbreak-vaccine- campaign.html. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Behavioural nudges increase COVID-19 vaccinations",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Dai",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Saccardo",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "A"
+            ],
+            "last": "Han",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "Nature",
+        "volume": "597",
+        "issue": "",
+        "pages": "404--409",
+        "other_ids": {
+          "DOI": [
+            "10.1038/s41586-021-03843-2"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Dai, H., Saccardo, S., Han, M.A. et al. (2021) Behavioural nudges increase COVID-19 vaccinations. Nature 597, 404-409. https://doi.org/10.1038/s41586-021-03843-2 (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Strategies intended to address vaccine hesitancy: Review of published reviews",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Dub\u00e9",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "E"
+            ],
+            "last": "Gagnon & N",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Macdonald",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Vaccine",
+        "volume": "33",
+        "issue": "34",
+        "pages": "4191--4203",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dub\u00e9, E., D. Gagnon & N. E. MacDonald. (2015) 'Strategies intended to address vaccine hesitancy: Review of published reviews', Vaccine, 33(34): 4191-4203.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Report of the SAGE working group on vaccine hesitancy",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Eskola",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Liang",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Reingold",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Chaudhuri",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Dub\u00e9",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Gellin",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Goldstein",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Larson",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [
+              "E"
+            ],
+            "last": "Macdonald",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Manzo",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Eskola, J., X. Liang, A. Reingold, M. Chaudhuri, E. Dub\u00e9, B. Gellin, S. Goldstein, H. Larson, N. E. MacDonald, M. Manzo, et al. (2014) 'Report of the SAGE working group on vaccine hesitancy'. Geneva: World Health Organization.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Geographical constituents of human well-being in Papua New Guinea: A district-level analysis",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [
+              "T"
+            ],
+            "last": "Filer",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Wood",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "Development Policy Centre Discussion Paper",
+        "volume": "",
+        "issue": "92",
+        "pages": "1--64",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Filer, C. & T. Wood. (2021) 'Geographical constituents of human well-being in Papua New Guinea: A district-level analysis', Development Policy Centre Discussion Paper, 2021(92): 1-64.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Vaccine hesitancy in PNG: results from a survey",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Fox",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fox, R. (2021) 'Vaccine hesitancy in PNG: results from a survey'. https://devpolicy.org/vaccine-hesitancy- in-png-results-from-a-survey-20210624/. (Accessed 27/08/21).",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Remote Surveying in a Pandemic: Handbook'. Washington DC: Innovations for Poverty Action",
+        "authors": [],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Global Poverty Research Lab. (2020) 'Remote Surveying in a Pandemic: Handbook'. Washington DC: Innovations for Poverty Action.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Designing Information Provision Experiments",
+        "authors": [
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Haaland",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Roth",
+            "suffix": ""
+          },
+          {
+            "first": "& J",
+            "middle": [],
+            "last": "Wohlfart",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "Journal of Economic Literature",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Haaland, I., C. Roth & J. Wohlfart. (forthcoming) 'Designing Information Provision Experiments', Journal of Economic Literature.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Improved targeting for mobile phone surveys: A public-private data collaboration",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [
+              "L"
+            ],
+            "last": "Himelein",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Mcpherson",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Himelein, K. & L. McPherson. (2021) 'Improved targeting for mobile phone surveys: A public-private data collaboration'. https://blogs.worldbank.org/impactevaluations/improved-targeting-mobile- phone-surveys-public-private-data-collaboration-guest. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Digital 2021: Papua New Guinea",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Hoodsuite",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hoodsuite. (2021) 'Digital 2021: Papua New Guinea'. https://datareportal.com/reports/digital-2021- papua-new-guinea. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "PNG's and Fiji's distinct COVID-19 crises",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Howes",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Howes, S. (2021) 'PNG's and Fiji's distinct COVID-19 crises'. https://devpolicy.org/pngs-and-fijis-distinct- covid-19-crises-20210707/. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "A lost decade? Service delivery and reforms in Papua New Guinea",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Howes",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Mako",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Swan",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Walton",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Webster & C. Wiltshire",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "The National Research Institute and the Development Policy Centre",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Howes, S., A. Mako, A. Swan, G. Walton, T. Webster & C. Wiltshire. (2014) 'A lost decade? Service delivery and reforms in Papua New Guinea 2002 -2012'. Canberra: The National Research Institute and the Development Policy Centre.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "PNG's plummeting vaccination rates: now the lowest in the world",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [
+              "K"
+            ],
+            "last": "Howes",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Mambon",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Howes, S. & K. Mambon. (2021) 'PNG's plummeting vaccination rates: now the lowest in the world?'. https://devpolicy.org/pngs-plummeting-vaccination-rates-now-lowest-in-world-20210830/. (Accessed 30/8/21).",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Facilitators and barriers of parental attitudes and beliefs toward school-located influenza vaccination in the United States: Systematic review",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [
+              "J"
+            ],
+            "last": "Kang",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "K M"
+            ],
+            "last": "Culp & K",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Abbas",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Vaccine",
+        "volume": "35",
+        "issue": "16",
+        "pages": "1987--1995",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kang, G. J., R. K. Culp & K. M. Abbas. (2017) 'Facilitators and barriers of parental attitudes and beliefs toward school-located influenza vaccination in the United States: Systematic review', Vaccine, 35(16): 1987-1995.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Fearing the disease or the vaccine: The case of COVID-19",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [
+              "C"
+            ],
+            "last": "Karlsson",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Soveri",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Lewandowsky",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Karlsson",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Karlsson",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Nolvi",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Karukivi",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "& J"
+            ],
+            "last": "Lindfelt",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Antfolk",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "Personality and Individual Differences",
+        "volume": "172",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Karlsson, L. C., A. Soveri, S. Lewandowsky, L. Karlsson, H. Karlsson, S. Nolvi, M. Karukivi, M. Lindfelt & J. Antfolk. (2021) 'Fearing the disease or the vaccine: The case of COVID-19', Personality and Individual Differences, 172: 110590.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Understanding vaccine hesitancy around vaccines and vaccination from a global perspective: a systematic review of published literature",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [
+              "J"
+            ],
+            "last": "Larson",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Jarrett",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Eckersberger",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "M"
+            ],
+            "last": "Smith",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Paterson",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Vaccine",
+        "volume": "32",
+        "issue": "19",
+        "pages": "2150--2159",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Larson, H.J., Jarrett, C., Eckersberger, E., Smith, D.M. and Paterson, P., (2014) 'Understanding vaccine hesitancy around vaccines and vaccination from a global perspective: a systematic review of published literature, 2007-2012.' Vaccine, 32(19), pp.2150-2159.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Australia gives COVID-19 shots to virus-hit Papua New Guinea",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Mcguirk",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "McGuirk, R. (2021) 'Australia gives COVID-19 shots to virus-hit Papua New Guinea'. https://apnews.com/article/world-news-papua-new-guinea-australia-coronavirus-pandemic- scott-morrison-4a2a943fe62131607f02efe029e988d2. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Strengthening routine immunization in Papua New Guinea: a cross-sectional provincial assessment of front-line services",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [
+              "J"
+            ],
+            "last": "Morgan",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [
+              "P M"
+            ],
+            "last": "Saweri",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Larme",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Peach",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Melepia",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Au",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "J L"
+            ],
+            "last": "Scoullar",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Reza",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [
+              "M"
+            ],
+            "last": "Vallely",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [
+              "I"
+            ],
+            "last": "Mcpake",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "20",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Morgan, C. J., O. P. M. Saweri, N. Larme, E. Peach, P. Melepia, L. Au, M. J. L. Scoullar, M. S. Reza, L. M. Vallely, B. I. McPake, et al. (2020) 'Strengthening routine immunization in Papua New Guinea: a cross-sectional provincial assessment of front-line services', BMC Public Health, 20(1): 100.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "COVID-19 vaccination rollout in Papua New Guinea needs a boost",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Munoz",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Munoz, G. (2021) 'COVID-19 vaccination rollout in Papua New Guinea needs a boost'. https://www.businessadvantagepng.com/covid-19-vaccination-rollout-in-papua-new-guinea- needs-a-boost/. (Accessed 30/8/21).",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Covid-19 vaccines: Why some African states can't use their vaccines",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Mwai",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mwai, P. (2021) 'Covid-19 vaccines: Why some African states can't use their vaccines'. https://www.bbc.com/news/56940657. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "COVID-19 Vaccination Sites in Papua New Guinea",
+        "authors": [],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "National Control Centre for COVID-19. (2021) 'COVID-19 Vaccination Sites in Papua New Guinea'. https://covid19.info.gov.pg/covid-19-vaccination-sites-in-papua-new-guinea/. (Accessed 06/10/21).",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Papua New Guinea Demographic and Health Survey 2016-18'",
+        "authors": [],
+        "year": 2019,
+        "venue": "National Statistical Office of PNG & ICF",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "National Statistical Office of PNG & ICF. (2019) 'Papua New Guinea Demographic and Health Survey 2016-18'. Port Moresby.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Does correcting myths about the flu vaccine work? An experimental evaluation of the effects of corrective information",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [
+              "J"
+            ],
+            "last": "Nyhan",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Reifler",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Vaccine",
+        "volume": "33",
+        "issue": "3",
+        "pages": "459--464",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Nyhan, B. & J. Reifler. (2015) 'Does correcting myths about the flu vaccine work? An experimental evaluation of the effects of corrective information', Vaccine, 33(3): 459-464.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Effective Messages in Vaccine Promotion: A Randomized Trial",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Nyhan",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Reifler",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "L"
+            ],
+            "last": "Richey & G",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Freed",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "Pediatrics",
+        "volume": "133",
+        "issue": "4",
+        "pages": "835--842",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Nyhan, B., J. Reifler, S. Richey & G. L. Freed. (2014) 'Effective Messages in Vaccine Promotion: A Randomized Trial', Pediatrics, 133(4): e835-e842.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "The Effect of Frames on COVID-19 Vaccine Resistance",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Palm",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [
+              "& J T"
+            ],
+            "last": "Bolsen",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Kingsland",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "Frontiers in Political Science",
+        "volume": "",
+        "issue": "41",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Palm, R., T. Bolsen & J. T. Kingsland. (2021) 'The Effect of Frames on COVID-19 Vaccine Resistance', Frontiers in Political Science, 3(41).",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "COVID-19 vaccine hesitancy in essential workers and the community in Papua New Guinea: an exploratory mixed-methods study",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Pogo",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Ropa",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Smaghi",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Sumun",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Lapun",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Landime",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Williams",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Pukienei",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Housen",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Flint",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Pogo, M., B. Ropa, B. Smaghi, S. Sumun, D. Lapun, J. Landime, M. Williams, A. Pukienei, T. Housen, J. Flint, et al. (2021) 'COVID-19 vaccine hesitancy in essential workers and the community in Papua New Guinea: an exploratory mixed-methods study'. Port Moresby: National Department of Health.",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "PNG opens vaccine rollout to 18-yr-olds",
+        "authors": [],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Radio New Zealand. (2021) 'PNG opens vaccine rollout to 18-yr-olds'. https://www.rnz.co.nz/international/pacific-news/446270/png-opens-vaccine-rollout-to-18-yr- olds. (Accessed 06/10/21).",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Don't rely on Facebook for accurate vaccine info, PNG leader advises",
+        "authors": [],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Radio New Zealand International. (2021) 'Don't rely on Facebook for accurate vaccine info, PNG leader advises'. https://www.rnz.co.nz/international/pacific-news/439564/don-t-rely-on-facebook-for- accurate-vaccine-info-png-leader-advises. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "Global COVID-19 Vaccine Access: A Snapshot of",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Rouw",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Wexler",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "& J"
+            ],
+            "last": "Kates",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Michaud",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rouw, A., A. Wexler, J. Kates & J. Michaud. (2021) 'Global COVID-19 Vaccine Access: A Snapshot of Inequality'. https://www.kff.org/policy-watch/global-covid-19-vaccine-access-snapshot-of- inequality/. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "Fighting COVID online in PNG",
+        "authors": [],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Save the Children Australia. (2021) 'Fighting COVID online in PNG'. https://www.savethechildren.org.au/our-stories/fighting-covid-online-in-png. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "COVID-19 vaccine acceptance and hesitancy in low-and middle-income countries",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "S"
+            ],
+            "last": "Sol\u00eds Arce",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "S"
+            ],
+            "last": "Warren",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [
+              "F"
+            ],
+            "last": "Meriggi",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Scacco",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Mcmurry",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Voors",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Syunyaev",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "A"
+            ],
+            "last": "Malik",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Aboutajdine",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Adeojo",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "Nature Medicine",
+        "volume": "27",
+        "issue": "8",
+        "pages": "1385--1394",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sol\u00eds Arce, J. S., S. S. Warren, N. F. Meriggi, A. Scacco, N. McMurry, M. Voors, G. Syunyaev, A. A. Malik, S. Aboutajdine, O. Adeojo, et al. (2021) 'COVID-19 vaccine acceptance and hesitancy in low-and middle-income countries', Nature Medicine, 27(8): 1385-1394.",
+        "links": null
+      },
+      "BIBREF36": {
+        "ref_id": "b36",
+        "title": "Norm Perception as a Vehicle for Social Change",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "E E L"
+            ],
+            "last": "Tankard",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Paluck",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Social Issues and Policy Review",
+        "volume": "10",
+        "issue": "1",
+        "pages": "181--211",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Tankard, M. E. & E. L. Paluck. (2016) 'Norm Perception as a Vehicle for Social Change', Social Issues and Policy Review, 10(1): 181-211.",
+        "links": null
+      },
+      "BIBREF37": {
+        "ref_id": "b37",
+        "title": "Pre-Questions for Vaccine Hesitancy Survey",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Unicef",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "UNICEF. (2021) 'Pre-Questions for Vaccine Hesitancy Survey'. https://png.ureport.in/opinion/5016/. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF38": {
+        "ref_id": "b38",
+        "title": "Human Development Report: Papua New Guinea",
+        "authors": [],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "United Nations Development Programme. (2020) 'Human Development Report: Papua New Guinea'. http://hdr.undp.org/en/countries/profiles/PNG. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF39": {
+        "ref_id": "b39",
+        "title": "Papua New Guinea High Frequency Phone Survey on COVID-19: Results from Round 1",
+        "authors": [
+          {
+            "first": "World",
+            "middle": [],
+            "last": "Bank",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank. (2020). Papua New Guinea High Frequency Phone Survey on COVID-19: Results from Round 1. World Bank, Washington, DC. World Bank. (2021) 'World Bank World Development Indicators'. http://data.worldbank.org/data- catalog/world-development-indicators. (Accessed 12/03/2020).",
+        "links": null
+      },
+      "BIBREF40": {
+        "ref_id": "b40",
+        "title": "Papua New Guinea Coronavirus Disease 2019 (COVID-19) Health Situation Report #84",
+        "authors": [],
+        "year": 2021,
+        "venue": "World Health Organization",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Health Organization. (2021) 'Papua New Guinea Coronavirus Disease 2019 (COVID-19) Health Situation Report #84'. https://covid19.info.gov.pg/files/Situation%20Report/PNG%20COVID- 19%20Health%20Situation%20Report%2084.pdf. (Accessed 09/09/2021).",
+        "links": null
+      },
+      "BIBREF41": {
+        "ref_id": "b41",
+        "title": "Do you think the COVID-19 vaccine is important for your health? Yes; No; Unsure. 10. To what extent do you agree with the following statement: I believe that most of my family and friends will get the COVID vaccine when they are able to receive it",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Do you think the COVID-19 vaccine is important for your health? Yes; No; Unsure. 10. To what extent do you agree with the following statement: I believe that most of my family and friends will get the COVID vaccine when they are able to receive it.",
+        "links": null
+      },
+      "BIBREF42": {
+        "ref_id": "b42",
+        "title": "To what extent do you agree with the following statement: I believe that most people in Papua New Guinea will get the COVID vaccine when they are able to receive it",
+        "authors": [],
+        "year": null,
+        "venue": "Strongly Agree; Agree, Neither Agree nor Disagree; Disagree; Strongly Disagree. 11",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Strongly Agree; Agree, Neither Agree nor Disagree; Disagree; Strongly Disagree. 11. To what extent do you agree with the following statement: I believe that most people in Papua New Guinea will get the COVID vaccine when they are able to receive it.",
+        "links": null
+      },
+      "BIBREF43": {
+        "ref_id": "b43",
+        "title": "Not much threat; No threat at all. 15. In the last week, did you avoid handshakes or physical greetings? Yes; No. 16. In the last week, how often did you wash your hands with soap after being in public? All the time",
+        "authors": [],
+        "year": null,
+        "venue": "Strongly Agree; Agree, Neither Agree nor Disagree; Disagree; Strongly Disagree. 12. Would you encourage a family member to have the COVID-19 vaccine? Yes; No; Unsure. 13",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Strongly Agree; Agree, Neither Agree nor Disagree; Disagree; Strongly Disagree. 12. Would you encourage a family member to have the COVID-19 vaccine? Yes; No; Unsure. 13. How do you feel about the possibility that you or someone in your household might become seriously ill from COVID-19 (coronavirus disease)? [READ OUT OPTIONS] Very worried; Somewhat worried; Not too worried; Not worried at all. 14. How much of a threat would you say coronavirus is to your household's finances? A big threat; A mild threat; Not much threat; No threat at all. 15. In the last week, did you avoid handshakes or physical greetings? Yes; No. 16. In the last week, how often did you wash your hands with soap after being in public? All the time; Most of the time; Half the time; Some of the time; Never; Have not been in public during the last week. 17. In the last week, how often did you wear a face mask when in public places?",
+        "links": null
+      },
+      "BIBREF44": {
+        "ref_id": "b44",
+        "title": "In the last week, did you avoid groups of more than 10 people, such as family gatherings, parties, church, funerals, etc.? Yes; No. 19",
+        "authors": [],
+        "year": null,
+        "venue": "All the time; Most of the time; Half the time; Some of the time; Never; Have not been in public during the last week",
+        "volume": "18",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "All the time; Most of the time; Half the time; Some of the time; Never; Have not been in public during the last week. 18. In the last week, did you avoid groups of more than 10 people, such as family gatherings, parties, church, funerals, etc.? Yes; No. 19. In the last week, did you reduce the number of times you went to the market or grocery store? Yes; No. 20. In the last week, did you travel in crowded public transport? Yes; No. 21. To the best of your knowledge, how many COVID-19 cases have there been in Papua New Guinea to date?",
+        "links": null
+      },
+      "BIBREF45": {
+        "ref_id": "b45",
+        "title": "To the best of your knowledge, how many COVID-19 cases have there been in",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "1-99; 100-999; 1000-9999; 10000-20000; More than 20000 22. To the best of your knowledge, how many COVID-19 cases have there been in [INSERT PROVINCE] to date?",
+        "links": null
+      },
+      "BIBREF46": {
+        "ref_id": "b46",
+        "title": "To the best of your knowledge, how many deaths due to COVID-19 have there been in Papua New Guinea to date?",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "1-99; 100-999; 1000-9999; 10000-20000; More than 20000 23. To the best of your knowledge, how many deaths due to COVID-19 have there been in Papua New Guinea to date?",
+        "links": null
+      },
+      "BIBREF47": {
+        "ref_id": "b47",
+        "title": "To the best of your knowledge, how many deaths due to COVID-19 have there been in",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "1-9; 10-99; 100-999; 1000-2000; More than 2000 24. To the best of your knowledge, how many deaths due to COVID-19 have there been in [INSERT PROVINCE] to date?",
+        "links": null
+      },
+      "BIBREF48": {
+        "ref_id": "b48",
+        "title": "Internet (including Facebook and other social media)",
+        "authors": [],
+        "year": null,
+        "venue": "SMS; Newspaper; TV; Health clinic",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Internet (including Facebook and other social media); SMS; Newspaper; TV; Health clinic;",
+        "links": null
+      },
+      "BIBREF49": {
+        "ref_id": "b49",
+        "title": "Other government; Informational pamphlet; Church; Community leaders; Family and friends",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Teachers; Other government; Informational pamphlet; Church; Community leaders; Family and friends;",
+        "links": null
+      },
+      "BIBREF50": {
+        "ref_id": "b50",
+        "title": "Other (specify)",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Other (specify).",
+        "links": null
+      },
+      "BIBREF51": {
+        "ref_id": "b51",
+        "title": "Internet (including Facebook and other social media)",
+        "authors": [],
+        "year": null,
+        "venue": "SMS; Newspaper; TV; Health clinic",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Internet (including Facebook and other social media); SMS; Newspaper; TV; Health clinic;",
+        "links": null
+      },
+      "BIBREF52": {
+        "ref_id": "b52",
+        "title": "Other government; Informational pamphlet; Church; Community leaders; Family and friends",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Teachers; Other government; Informational pamphlet; Church; Community leaders; Family and friends;",
+        "links": null
+      },
+      "BIBREF53": {
+        "ref_id": "b53",
+        "title": "Other (specify)",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Other (specify). 27. Where did you hear about the availability of the COVID-19 vaccine in this country?",
+        "links": null
+      },
+      "BIBREF54": {
+        "ref_id": "b54",
+        "title": "Poster / billboard / flyer; radio; television; SMS; phone; newspaper",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Poster / billboard / flyer; radio; television; SMS; phone; newspaper;",
+        "links": null
+      },
+      "BIBREF55": {
+        "ref_id": "b55",
+        "title": "Facebook/Twitter/social media",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Facebook/Twitter/social media;",
+        "links": null
+      },
+      "BIBREF56": {
+        "ref_id": "b56",
+        "title": "health care worker; NGO worker",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "health care worker; NGO worker; other outreach; local authority; neighbors / family; traditional healer / pastor / faith-based healer; other (specify).",
+        "links": null
+      },
+      "BIBREF57": {
+        "ref_id": "b57",
+        "title": "What is your main source of information on the COVID-19 vaccine? Radio",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "What is your main source of information on the COVID-19 vaccine? Radio;",
+        "links": null
+      },
+      "BIBREF58": {
+        "ref_id": "b58",
+        "title": "Internet (including Facebook and other social media)",
+        "authors": [],
+        "year": null,
+        "venue": "SMS; Newspaper; TV; Health clinic",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Internet (including Facebook and other social media); SMS; Newspaper; TV; Health clinic;",
+        "links": null
+      },
+      "BIBREF59": {
+        "ref_id": "b59",
+        "title": "Other government; Informational pamphlet; Church; Community leaders; Family and friends",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Teachers; Other government; Informational pamphlet; Church; Community leaders; Family and friends;",
+        "links": null
+      },
+      "BIBREF60": {
+        "ref_id": "b60",
+        "title": "Other (specify)",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Other (specify).",
+        "links": null
+      },
+      "BIBREF61": {
+        "ref_id": "b61",
+        "title": "What information source do you trust the most to tell you the truth about the Covid-19 vaccine? Radio",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "29. What information source do you trust the most to tell you the truth about the Covid-19 vaccine? Radio;",
+        "links": null
+      },
+      "BIBREF62": {
+        "ref_id": "b62",
+        "title": "Internet (including Facebook and other social media)",
+        "authors": [],
+        "year": null,
+        "venue": "SMS; Newspaper; TV; Health clinic",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Internet (including Facebook and other social media); SMS; Newspaper; TV; Health clinic;",
+        "links": null
+      },
+      "BIBREF63": {
+        "ref_id": "b63",
+        "title": "Other government; Informational pamphlet; Church; Community leaders; Family and friends",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Teachers; Other government; Informational pamphlet; Church; Community leaders; Family and friends;",
+        "links": null
+      },
+      "BIBREF64": {
+        "ref_id": "b64",
+        "title": "Other (specify)",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Other (specify).",
+        "links": null
+      },
+      "BIBREF65": {
+        "ref_id": "b65",
+        "title": "Have you been vaccinated for COVID-19 (at least one dose)? Yes; No. 34. [CONTROL] Do you plan to get the COVID-19 vaccine? Yes; No; Unsure. 34. [EXPERT ADVICE] The COVID vaccines available in PNG are considered safe and highly effective by national and international experts. Do you plan to get the COVID-19 vaccine? Yes; No; Unsure. 34. [SOCIAL NORMS] Papua New Guineans are getting vaccinated against COVID-19! More than 20,000 have done it so far",
+        "authors": [],
+        "year": null,
+        "venue": "Have you ever received any vaccination, such as against diseases like polio or measles? Yes; No. 31",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Have you ever received any vaccination, such as against diseases like polio or measles? Yes; No. 31. Have your kids ever received any vaccine, such as against diseases like polio or measles? Yes; No. Online experiment 32. Do you know if a vaccine for COVID-19 is available in this country? Yes; No. 33. Have you been vaccinated for COVID-19 (at least one dose)? Yes; No. 34. [CONTROL] Do you plan to get the COVID-19 vaccine? Yes; No; Unsure. 34. [EXPERT ADVICE] The COVID vaccines available in PNG are considered safe and highly effective by national and international experts. Do you plan to get the COVID-19 vaccine? Yes; No; Unsure. 34. [SOCIAL NORMS] Papua New Guineans are getting vaccinated against COVID-19! More than 20,000 have done it so far. Help us protect our communities! Do you plan to get the COVID-19 vaccine? Yes; No; Unsure. 34. [RELATIVE SAFETY] COVID-19 vaccines are safe -there have been no severe side effects reported, compared to hundreds of deaths due to COVID-19 in PNG. Do you plan to get the COVID-19 vaccine? Yes; No; Unsure. 35. What is your biggest concern with regards to the COVID-19 vaccine? Side effects; I am not worried about COVID-19; It may not work; I am against vaccines in general; I already had COVID-19",
+        "links": null
+      },
+      "BIBREF66": {
+        "ref_id": "b66",
+        "title": "Who of the following do you trust the most to give you health and medical advice? Family; Friends",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "36. Who of the following do you trust the most to give you health and medical advice? Family; Friends; Religious leaders;",
+        "links": null
+      },
+      "BIBREF67": {
+        "ref_id": "b67",
+        "title": "Doctors/nurses/pharmacists; Community leaders; Scientists and epidemiologists; Celebrities and social media influencers",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Doctors/nurses/pharmacists; Community leaders; Scientists and epidemiologists; Celebrities and social media influencers; Political leaders.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "num": null,
+        "fig_num": "1",
+        "uris": null,
+        "text": "Conceptual framework for determinants of vaccine uptake3. SettingThis section provides background information about the COVID-19 outbreak and vaccination rates in PNG as well as summarizes the details of some existing work on vaccine hesitancy in PNG.",
+        "type_str": "figure"
+      },
+      "FIGREF1": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "8",
+        "type_str": "figure"
+      },
+      "FIGREF3": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "No other demographic characteristic was consistently associated with awareness of a COVID-19 vaccine being available across both surveys.",
+        "type_str": "figure"
+      },
+      "FIGREF4": {
+        "num": null,
+        "fig_num": "5",
+        "uris": null,
+        "text": "Awareness of the existence of a COVID-19 vaccine in PNG a) Phone survey (late May/early June 2021) b) Online experiment (late June/July 2021)",
+        "type_str": "figure"
+      },
+      "FIGREF5": {
+        "num": null,
+        "fig_num": "6",
+        "uris": null,
+        "text": "Levels of vaccine hesitancy in PNG survey (late May/early June 2021) b) Online experiment (late June/July 2021) Note: These charts are based on answers to question 3 and 34 (control group only) in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF6": {
+        "num": null,
+        "fig_num": "7",
+        "uris": null,
+        "text": "Top three reasons for vaccine hesitancy in PNG a) Phone survey (late May/early June 2021) b) Online experiment (late June/July 2021) Note: These charts are based on answers to question 4 and 35 (control group only) in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF7": {
+        "num": null,
+        "fig_num": "8",
+        "uris": null,
+        "text": "Top three groups in people who could change respondents' minds about getting the vaccine a) Phone survey (late May/early June 2021) b) Online experiment (late June/July 2021) Note: These charts are based on answers to question 5 and 36 (control group only) in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF8": {
+        "num": null,
+        "fig_num": "10",
+        "uris": null,
+        "text": "Treatment effects on people's willingness to get vaccinated a) Share of respondents willing to get vaccinated b) Share of respondents unwilling to get vaccinated Note: This chart is based on answers to question 34 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF9": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "",
+        "type_str": "figure"
+      },
+      "FIGREF10": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Willingness to get vaccinated disaggregated by different demographic characteristics of respondents (Phone survey) a) Sex of respondents b) Location of respondents c) Age of respondents d) Education level of respondents Note: This chart is based on answers to question 3 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF11": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Unwillingness to get vaccinated disaggregated by different demographic characteristics of respondents (Phone survey) a) Sex of respondents b) Location of respondents c) Age of respondents d) Education level of respondents",
+        "type_str": "figure"
+      },
+      "FIGREF12": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Willingness to get vaccinated disaggregated by different demographic characteristics of respondents (Online experiment) a) Sex of respondents b) Location of respondents c) Age of respondents d) Education level of respondents",
+        "type_str": "figure"
+      },
+      "FIGREF13": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Unwillingness to get vaccinated disaggregated by different demographic characteristics of respondents (Online experiment) a) Sex of respondents b) Location of respondents c) Age of respondents d) Education level of respondents Note: This chart is based on answers to question 34 (control group only) in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF14": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "People's most preferred way of receiving information about the vaccineNote: This chart is based on answers to question 7 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF15": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "",
+        "type_str": "figure"
+      },
+      "FIGREF16": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Respondents' answers to the question \"Do you trust the COVID-19 vaccine?\", disaggregated by willingness to get the COVID-19 vaccine Note: This chart is based on answers to question 3 and 8 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF17": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Whether people thought the COVID-19 vaccine was important for their health disaggregated by their willingness to get vaccinatedNote: This chart is based on answers to question 3 and 9 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF18": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Respondents' agreement with the statement \"Most of my family and friends will get vaccinated\", disaggregated by willingness to get the COVID-19 vaccine Note: This chart is based on answers to question 3 and 10 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF20": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Whether people would encourage a family member to get vaccinated disaggregated by their willingness to get vaccinatedNote: This chart is based on answers to question 3 and 12 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF21": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Respondents' level of concern about them or someone in their household getting COVID-19, disaggregated by willingness to get the COVID-19 vaccineNote: This chart is based on answers to question 3 and 13 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF22": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Whether people stated that COVID-19 is a big threat to their household finances disaggregated by their willingness to get vaccinatedNote: This chart is based on answers to question 3 and 14 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF23": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Preventive actions people took to avoid getting COVID-19 disaggregated by their willingness to get vaccinated",
+        "type_str": "figure"
+      },
+      "FIGREF24": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Respondents' most trusted source of information about the COVID-19 vaccine, disaggregated by willingness to get the COVID-19 vaccineNote: This chart is based on answers to question 3 and 29 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF25": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "People's main source of information about the COVID-19 vaccine disaggregated by their willingness to get vaccinated Note: This chart is based on answers to question 3 and 28 in Appendix B. that selected this answer Main source of information about COVID-19 vaccine",
+        "type_str": "figure"
+      },
+      "FIGREF26": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Share of respondents that have previously been vaccinated for another disease, disaggregated by willingness to get the COVID-19 vaccineNote: This chart is based on answers to question 3 and 30 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF27": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Whether people encouraged their children to get vaccinated disaggregated by their willingness to get vaccinated",
+        "type_str": "figure"
+      },
+      "FIGREF28": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "of respondents d) Education level of respondentsNote: This chart is based on answers to question 34 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF29": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Treatment effects on people's willingness to get vaccinated a) Share of respondents willing to get vaccinated b) Share of respondents unwilling to get vaccinated Note: This chart is based on answers to question 34 in Appendix B.",
+        "type_str": "figure"
+      },
+      "FIGREF30": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "",
+        "type_str": "figure"
+      },
+      "FIGREF31": {
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "People's beliefs about the number of COVID-19 related deaths in PNG disaggregated by their willingness to get vaccinatedNote: This chart is based on answers to question 3 and 23 in Appendix B.",
+        "type_str": "figure"
+      },
+      "TABREF0": {
+        "num": null,
+        "content": "<table><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>t-test</td><td>t-test</td><td>t-test</td></tr><tr><td colspan=\"4\">5 This is based on a statistical power calculation with an alpha of 0.05 and beta of 0.2.</td><td/><td/><td/></tr></table>",
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF1": {
+        "num": null,
+        "content": "<table><tr><td>Online experiment</td><td>Phone survey</td><td>National</td></tr><tr><td>(unweighted)</td><td>(unweighted)</td><td>population*</td></tr></table>",
+        "text": "Based on the 2011 Census as it provides data at the individual level.",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF3": {
+        "num": null,
+        "content": "<table><tr><td/><td>.5</td><td/><td/><td/><td/><td>.8</td><td/><td/><td/></tr><tr><td>Share of respondents that selected this answer</td><td>.1 .2 .3 .4</td><td>0.29</td><td>0.19</td><td>0.49</td><td>Share of respondents that selected this answer</td><td>.2 .4 .6</td><td>0.20</td><td>0.12</td><td>0.66</td></tr><tr><td/><td>0</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></tr><tr><td/><td/><td>Family and Friends</td><td>Religious leaders</td><td>Health experts</td><td/><td/><td>Family and Friends</td><td>Religious leaders</td><td>Health experts</td></tr></table>",
+        "text": "trusted the vaccine were 69.3 percentage points more likely to plan on being vaccinated (see column 1 in",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF6": {
+        "num": null,
+        "content": "<table><tr><td>Share of respondents unwilling to get vaccinated</td><td>.46 .48 .5 .52 .54</td><td>Share of respondents unwilling to get vaccinated</td><td>.4 .45 .5 .55</td><td/><td/></tr><tr><td/><td>18-39 years</td><td>40+ years</td><td colspan=\"2\">Post-secondary school</td><td colspan=\"2\">Secondary school or less</td></tr><tr><td/><td>.3</td><td/><td>.3</td><td/><td/></tr><tr><td>Share of respondents willing to get vaccinated</td><td>.1 .15 .2 .25</td><td>Share of respondents willing to get vaccinated</td><td>.1 .15 .2 .25</td><td/><td/></tr><tr><td/><td/><td/><td>.05</td><td/><td/></tr><tr><td/><td>Female</td><td>Male</td><td>Highlands</td><td>Islands</td><td>Momase</td><td>Southern</td></tr><tr><td/><td>.25</td><td/><td>.3</td><td/><td/></tr><tr><td>Share of respondents willing to get vaccinated</td><td>.1 .15 .2</td><td>Share of respondents willing to get vaccinated</td><td>.15 .2 .25</td><td/><td/></tr><tr><td/><td/><td/><td>.1</td><td/><td/></tr><tr><td/><td>18-39 years old</td><td>40 years old or more</td><td>Tertiary education</td><td/><td colspan=\"2\">Secondary education or less</td></tr></table>",
+        "text": "Note: This chart is based on answers to question 34 (control group only) in Appendix B.",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF10": {
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"10\">How much of a threat is COVID-19 to your household finances?</td><td/></tr><tr><td/><td colspan=\"4\">Planning on being vaccinated</td><td colspan=\"5\">Not planning on being vaccinated</td><td colspan=\"2\">Unsure</td></tr><tr><td/><td>A big threat</td><td/><td colspan=\"2\">42.6</td><td>A big threat</td><td/><td/><td>49.4</td><td>A big threat</td><td/><td/><td>58.2</td></tr><tr><td colspan=\"2\">A mild threat</td><td/><td>35.7</td><td/><td>A mild threat</td><td/><td>26.5</td><td/><td>A mild threat</td><td>19.3</td><td/></tr><tr><td colspan=\"2\">Not much threat</td><td>21.6</td><td/><td colspan=\"2\">Not much threat</td><td/><td>22.6</td><td colspan=\"2\">Not much threat</td><td>21.5</td><td/></tr><tr><td colspan=\"2\">No threat at all</td><td>0.2</td><td/><td colspan=\"2\">No threat at all</td><td>1.5</td><td/><td colspan=\"2\">No threat at all</td><td>1.1</td><td/></tr><tr><td/><td>0</td><td>20</td><td>40</td><td>60</td><td>0</td><td>20</td><td>40</td><td>60</td><td>0</td><td>20</td><td>40</td><td>60</td></tr><tr><td/><td/><td/><td colspan=\"7\">Share of respondents that selected this answer</td><td/><td/></tr><tr><td>Number of actions taken to avoid COVID-19</td><td>1.9 2 2.1 2.2 2.3</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>1.8</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td colspan=\"4\">Planning on being vaccinated</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td colspan=\"5\">Not planning on being vaccinated</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td colspan=\"4\">Unsure about being vaccinated</td><td/><td/><td/></tr></table>",
+        "text": "Note: This chart is based on answers to question 3,15, 16, 17, 18, 19 and 20 in Appendix B.",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF12": {
+        "num": null,
+        "content": "<table><tr><td/><td>(1)</td><td>(1) (1) (1)</td><td>(2)</td><td>(2) (2)</td><td>(2)</td><td colspan=\"2\">(3) (3)</td><td>(3)</td><td>(4) (3)</td><td>(5) (4)</td><td>(4)</td><td>(4)</td><td>(6)</td></tr><tr><td/><td/><td>(1)</td><td colspan=\"2\">(2)</td><td/><td>(3)</td><td/><td colspan=\"2\">(4)</td><td>(5)</td><td/><td>(6)</td></tr><tr><td>Trust vaccine Expert advice treatment Expert advice treatment Expert advice treatment</td><td colspan=\"3\">0.693*** 0.0244 -0.0124 0.0397</td><td/><td/><td/><td/><td/><td/><td colspan=\"3\">0.458*** 0.0344 0.0207 -0.0114</td></tr><tr><td>Trust vaccine</td><td colspan=\"3\">(0.0202) (0.0279) (0.0305) -(0.0272)</td><td/><td/><td/><td/><td/><td/><td colspan=\"3\">(0.0251) -0.404*** (0.0288) (0.0293) (0.0289)</td></tr><tr><td/><td/><td colspan=\"2\">0.522***</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Social norms Social norms treatment Social norms treatment Social norms treatment</td><td/><td>(0.0288)</td><td colspan=\"5\">0.659*** 0.0159 -0.0559 0.0858**</td><td/><td/><td colspan=\"3\">0.362*** (0.0376) 0.0902** 0.0159 -0.0514</td></tr><tr><td/><td/><td/><td colspan=\"5\">(0.0209) (0.0292) (0.0312) (0.0290)</td><td/><td/><td colspan=\"3\">(0.0253) (0.0300) (0.0305) (0.0295)</td></tr><tr><td>Social norms</td><td/><td/><td colspan=\"3\">-0.443***</td><td/><td/><td/><td/><td/><td/><td>-0.181***</td></tr><tr><td>Concern about COVID Relative safety treatment Relative safety treatment Relative safety treatment</td><td/><td/><td colspan=\"2\">(0.0297)</td><td/><td colspan=\"4\">-0.0554* 0.106*** -0.107*** 0.104***</td><td colspan=\"3\">-0.0517** (0.0378) 0.102*** -0.106*** 0.103***</td></tr><tr><td/><td/><td/><td/><td/><td/><td colspan=\"4\">(0.0218) (0.0298) (0.0298) (0.0288)</td><td colspan=\"3\">(0.0164) (0.0294) (0.0300) (0.0297)</td></tr><tr><td>Concern about COVID</td><td/><td/><td/><td/><td/><td colspan=\"2\">0.0102</td><td/><td/><td/><td/><td>0.0206</td></tr><tr><td>Been vaccinated Male Male Male</td><td colspan=\"9\">-0.0319 0.0776* -0.0168 (0.0264) 0.0340 0.0956** 0.0553 -0.0603 0.0129 0.0987*** 0.118***</td><td colspan=\"3\">-0.0222 (0.0245) 0.0640** -0.0271 0.0616**</td></tr><tr><td>Been vaccinated</td><td colspan=\"9\">(0.0193) -0.0717** (0.0315) (0.0316) (0.0279) (0.0310) (0.0330) (0.0332) (0.0302) (0.0265) (0.0278)</td><td colspan=\"3\">(0.0145) -0.0755*** (0.0240) (0.0244) (0.0218)</td></tr><tr><td>Trust internet Over 40 years Over 40 years Over 40 years</td><td colspan=\"6\">-0.00228 0.0558 0.0697* -0.0109 -0.0119 -0.0205</td><td colspan=\"3\">(0.0233) -0.0554 0.0349 -0.0636*</td><td colspan=\"3\">-0.0483 -0.0135 0.00876 (0.0217) 0.0281 -0.0321</td></tr><tr><td>Trust internet</td><td colspan=\"9\">(0.0322) (0.0352) (0.0344) (0.0322) (0.0297) (0.0310) (0.0328) (0.0327) (0.0303)</td><td colspan=\"3\">(0.0365) (0.0273) 0.0624 -0.000163 (0.0249) (0.0253) (0.0238)</td></tr><tr><td>Male Highlands region Highlands region Highlands region</td><td colspan=\"12\">0.0248 0.0704 -0.105 -0.0689 0.0683** 0.0700** 0.0702** 0.0730** 0.0354 (0.0442) (0.0408) -0.0358 -0.0188 -0.00437 -0.0632 -0.0533 0.0605 -0.132*** 0.0363 -0.0666*</td></tr><tr><td>Male</td><td colspan=\"12\">(0.0203) (0.0210) (0.0260) (0.0260) (0.0260) (0.0193) -0.0390 -0.0721* -0.0742* -0.0787* -0.0759* -0.0496 (0.0494) (0.0503) (0.0524) (0.0392) (0.0541) (0.0537) (0.0525) (0.0399) (0.0383) (0.0392) (0.0416) (0.0311)</td></tr><tr><td>Under 35 years Islands region Islands region Islands region</td><td colspan=\"12\">0.0164 (0.0291) (0.0297) 0.0304 0.0154 -0.0722 -0.0239 0.0443 0.0246 -0.159** 0.0394* 0.0452* 0.0473* 0.0138 (0.0315) (0.0314) (0.0315) (0.0289) -0.0816 -0.0796* 0.0662 0.0467 -0.0191 -0.127***</td></tr><tr><td>Under 35 years</td><td colspan=\"12\">(0.0154) (0.0159) (0.0198) (0.0198) (0.0199) (0.0148) -0.00586 -0.0175 -0.0260 -0.0247 -0.0308 -0.00270 (0.0506) (0.0529) (0.0543) (0.0404) (0.0554) (0.0565) (0.0544) (0.0411) (0.0460) (0.0487) (0.0494) (0.0374)</td></tr><tr><td>Rural Momase region Momase region Momase region</td><td colspan=\"9\">-0.00774 -0.0294 (0.0221) (0.0226) 0.00354 -0.0807 0.0254 0.0278 0.000459 -0.155*** -0.0171 (0.0240) (0.0239) -0.0110 -0.0731 0.0614 0.00284</td><td colspan=\"3\">-0.0101 (0.0241) (0.0221) -0.0268 -0.0622 0.0336 -0.0969**</td></tr><tr><td>Rural</td><td colspan=\"12\">(0.0251) (0.0259) (0.0322) (0.0321) (0.0321) (0.0239) -0.00892 0.00578 -0.00602 -0.0100 -0.00703 -0.00331 (0.0460) (0.0473) (0.0490) (0.0365) (0.0503) (0.0505) (0.0491) (0.0372) (0.0404) (0.0419) (0.0436) (0.0328)</td></tr><tr><td colspan=\"13\">Complete Secondary School Secondary school or less Secondary school or less 0.0141 -0.0275 (0.0358) (0.0368) -0.0407* -0.0521* -0.0527* -0.0509* -0.0283 (0.0391) (0.0388) (0.0389) (0.0357) --0.0566* -0.0611* -0.0539* 0.0421 0.00693 -0.00419 Secondary school or less -0.0892*** -0.0832** -0.0723** -0.0777***</td></tr><tr><td colspan=\"13\">(0.0161) (0.0166) (0.0206) (0.0206) (0.0207) (0.0153) Complete Secondary School 0.00731 0.0182 0.0264 0.0278 0.0237 0.00906 0.0959*** (0.0274) (0.0280) (0.0288) (0.0220) (0.0300) (0.0300) (0.0288) (0.0224) (0.0269) (0.0281) (0.0280) (0.0220)</td></tr><tr><td>Richest 20% Richest 20% Constant Constant Constant</td><td colspan=\"12\">0.0343 (0.0198) (0.0205) (0.0254) (0.0254) (0.0256) (0.0190) 0.0557** 0.0656** 0.0695** 0.0726** 0.0360 (0.0230) (0.0235) (0.0249) (0.0249) (0.0250) (0.0229) 0.0171 --0.00815 -0.00658 -0.0139 0.0182 0.167** 0.258*** 0.249*** 0.317*** 0.221*** 0.249*** 0.161*** 0.344*** 0.172*** 0.282*** 0.279*** 0.236*** (0.0525) (0.0533) (0.0555) (0.0431) (0.0574) (0.0570) (0.0556) (0.0439) (0.0412) (0.0414) (0.0443) (0.0351)</td></tr><tr><td>Constant Observations Observations Observations</td><td colspan=\"12\">0.0858** 0.0711* 0.205*** 0.172*** 0.154*** 0.123*** (0.0318) (0.0329) (0.0452) (0.0420) (0.0406) (0.0341) 0.0000312 (0.0284) (0.0290) (0.0308) (0.0307) (0.0309) (0.0284) 917 878 896 1521 917 878 896 1521 915 876 891 1514</td></tr><tr><td>Observations Constant</td><td/><td colspan=\"4\">1843 0.621*** 0.626*** 1843 (0.0454) (0.0466)</td><td colspan=\"4\">1843 0.560*** 0.610*** 1843 (0.0548) (0.0507)</td><td colspan=\"3\">1843 0.569*** 0.656*** 1843 (0.0491) (0.0510)</td></tr><tr><td>Observations</td><td/><td>1843</td><td colspan=\"2\">1843</td><td/><td colspan=\"2\">1843</td><td colspan=\"2\">1843</td><td colspan=\"2\">1843</td><td>1843</td></tr></table>",
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      }
+    }
+  }
+}

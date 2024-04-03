@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_09754: Demographic and clinical information of these patients are described in Table 1 .\n\ns_09804: Table 3 represents the data collected from the participants' responses.\n\ns_09854: This was repeated 3 times to form 3 different partitions of the dataset, which were then used for cross-validation.\n\ns_09904: In Table 6 we reproduce a sample of Saxenien's findings on the degree of connectedness of these admittedly elite Indian professionals to those in India.\n\ns_09954: Thus, c4 = 86.7-0.0000022 p1 +0.137p2-0.713 c3\nThis can be represented as a F-statistic = 9.38 and p value = 0.01 Table 5 : Highest paid high school principals (estimates).\n\ns_00006: The request is evaluated by a data access committee composed of NIH program staff.\n\ns_00056: Therefore, the results from model 5 fitted to the aggregate data set indicate that respondents with both HSSLRA and CLRA experiences have 4.50 times greater odds of matriculating into an MD/PhD program than respondents not reporting an LRA experience.\n\ns_00106: (2006) for more information on these assessments.\n\ns_00156: We demonstrate our method on a clinically acquired MRI dataset for stroke patients [31] and on a simulated sparse dataset derived from the ADNI dataset [27] .\n\ns_00206: In the present study, it was observed that Argentina and Colombia have a CDR Table 1 do not show any striking discrepancies in the mortality profile due to COVID-19 in the countries selected in our study, we find that only by decomposing the population with respect to sex the first differences emerge.\n\ns_00253: First, descriptive statistics for the demographic, clinical and cognitive characteristics of the patient population were computed.\n\ns_00303: At the beginning most of these longitudinal studies provided first analyses based on cross-sectional data.\n\ns_00353: Values for the equivalency of each of the energy sources and the quantity of carbon dioxide (CO 2 ) emitted as they are consumed were used to convert the quantities of fuel to megagrams of CO 2 emissions (U.S. EPA, 2013b).\n\ns_00403: In comparison, in this current study in the DIAN cohort using PiB as the tracer, we observed a substantially larger annual rate of 0.02\u00b10.03 in SUVR in a cohort that is a mixture of MCI (CDR = 0.5) and asymptomatic participants using similar reference region.\n\ns_00453: All analyses were conducted using an object-oriented software package called OxEdit (Doornik, 2003) in order to obtain DINA model estimations using expectation-maximization (EM) algorithm.\n\ns_00503: We term the statistically downscaled data ''CGCM'' after the GCM these data are based on, and we term the dynamically downscaled data ''WRFc'' after the mesoscale model these data are based on.\n\ns_00553: \u2022 Encourage and support empirical investigations and ethical analyses to investigate emerging concepts of privacy among cultures and age groups and the risk tolerance of patients and families for participating in genetic and phenotyping studies that involve longitudinal participation and data sharing (with attendant risks to the privacy of their personal data).\n\ns_00603: The authors accurately point to several limitations in the study.\n\ns_00645: [2007], who observed temperature Journal of Geophysical Research: Oceans 10.1002/2014JC010533 inversions of up to 0.6 C in the plume area.\n\ns_00695: The RKLS vari-observations, measured in parts per million, able comes from the National Resources Inventory weighting the observations using a sigmoidal pat-(USDA, SCS) and measures differences in soil tern (see Lefohn and Runeckles, 1987) .\n\ns_00745: We handled missing data through case wise deletion and report weighted sample sizes that account for the complex sampling structure of the ECLS-K:2011.\n\ns_00795: Ethical research procedures included receiving approval from the relevant authorities, acquiring written informed consent from the participants, anonymity of places and people, and confidentiality of sources.\n\ns_00845: Estimates of home-range size ranged from 3.14 to 8.09 square kilometers (km 2 ) in the Columbia River Basin and Great Basin regions of the Western United States Janes, 1985; Olendorff, 1993) .\n\ns_00895: Our deep learning model was trained based on the ADNI 1 data and validated on the independent cohort of ADNI GO and ADNI 2.\n\ns_00945: See Appendix A for a more in depth discussion on this issue."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B78u7RUuMI431I3irfzAQc7meYYa",
+    "object": "chat.completion",
+    "created": 1682883420,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1261,
+      "completion_tokens": 54,
+      "total_tokens": 1315
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_00156\", \"data_mentioned\": true, \"reason\": \"ADNI dataset\"}, {\"sent_id\": \"s_00895\", \"data_mentioned\": true, \"reason\": \"ADNI 1 data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_00156\", \"data_mentioned\": true, \"reason\": \"ADNI dataset\"}, {\"sent_id\": \"s_00895\", \"data_mentioned\": true, \"reason\": \"ADNI 1 data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

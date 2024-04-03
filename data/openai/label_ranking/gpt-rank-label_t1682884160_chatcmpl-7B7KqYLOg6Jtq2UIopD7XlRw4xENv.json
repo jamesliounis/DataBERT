@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06885: aggregate time series or cross-sectional regressions have the potential to reveal the more subtle indirect effects of demographic change, this approach brings its own problems.\n\ns_06935: More traditional regression-based studies also validate this finding.\n\ns_06985: where D i * is household i's net benefit from moving, S i represents savings behavior, H i is a vector of household characteristics, DU i is a vector of dwelling unit characteristics that influence the household's decision, and \u03b5 i is a normally-distributed error term with mean zero and variance \u03c3.\n\ns_07035: The process that was triggered by the trade liberalization program is presented in Graph III.1, which shows total imports of footwear and footwear parts.\n\ns_07085: Revista Econ\u00f4mica do Nordeste, Fortaleza, v.32, N.ESP., p.524-545, 2001 .\n\ns_07135: Panel A of this table shows results for OLS regressions with robust errors for all ADRs and listed ADRs, while Panel B provides the Tobit regression results in which the dependent variable is constrained to lie between -1 and +1.\n\ns_07185: National identification numbers of respondents and other adults in the household were collected in the baseline and follow-up surveys, and the private banks in Banred provided data on the payments made to all persons with these identification numbers, on a monthly basis.\n\ns_07235: Table 6 ranks countries -not groups -according to their GATS commitment index and reports their most recent EBRD index score as well as the average EBRD score for the period as a whole (1990) (1991) (1992) (1993) (1994) (1995) (1996) (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) .\n\ns_07285: Rows under \"OLS, pooled\" relate to OLS(l) above, and \"FE, pooled\" FE(2) above:\n\ns_07335: Examples of objectives are listed in the Annex Table below.\n\ns_07385: The remainder of the paper is organized as follows.\n\ns_07435: This paper evaluates the effect these initiatives had on recipient countries based on data accumulated during 1989-93.\n\ns_07485: 22 Table 2 in A. Sunden and 0.\n\ns_07535: This section examines the past trends and pattern of external resource flows, assesses the debt burden and the various initiatives taken so far and !ooks at the future prospects.\n\ns_07585: Energy data for 40 branches of industry in 1980 and 1985 are reproduced in Table 12 , where I find no significant inconsistency between implied and publisned data for branch GVIO (readers should ignore the discrepancy for branch 7, which is trivial in size, and in the residual branch 40).\n\ns_07635: To summarize, therefore, the secondary market price is a less than perfect indicator in estimating the total amnount of discount at which the country can hope to retire all or most of its debt, for the following reasons:\n\ns_07685: 1 and 2.5 In Table 3 , a comparison between the gains in producers' surplus from a S Col. 4 of Table 3 is derived by finding numerically the p 1 that solves the (non-linear) equation:\n\ns_07735: z. general, the most reliable data sources available were used, but there is no guarantee that the measurement of any given variable was consistent over time.\n\ns_07785: These results led to the hypothesis that an aggregate model based on a pooled sample could be estimated.\n\ns_07835: The Government, with the assistance of the implementing agencies, would prepare an evaluation report describing the status of progress regarding the items to be covered by the Mid-Term Review, and submit it to IDA at least one month before the Mid-Term Review.\n\ns_07885: The discussion below applies j2/ As surveyed in Section II, several of the countries may give other tax incentives to non-tax holiday firms thus making post-holiday tax regimes different than the tax regime faced by associated taxpaying companies.\n\ns_07935: Not only did respondents report in the bidding game that they would pay substantial amounts for water from the piped distribution system, but it is clear from the data collected in the questionnaire on current water use practices (and from the study of water vending) that households were already paying a lot for water.\n\ns_07985: The paper starts with a brief description of the Russian DIS, followed by an overview of the banking system's structure and some observations on the sequencing followed for adopting the DIS and the political economy of its adoption.\n\ns_08035: Table 3 presents the results of the analysis of welfare losses associated with higher electricity prices.\n\ns_08085: See also Easterly and Serv\u00e9n (2003) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7KqYLOg6Jtq2UIopD7XlRw4xENv",
+    "object": "chat.completion",
+    "created": 1682884160,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1293,
+      "completion_tokens": 182,
+      "total_tokens": 1475
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07435\", \"data_mentioned\": true, \"reason\": \"data accumulated during 1989-93\"}, {\"sent_id\": \"s_07535\", \"data_mentioned\": true, \"reason\": \"external resource flows\"}, {\"sent_id\": \"s_07585\", \"data_mentioned\": true, \"reason\": \"Energy data for 40 branches of industry in 1980 and 1985\"}, {\"sent_id\": \"s_07935\", \"data_mentioned\": true, \"reason\": \"data collected in the questionnaire on current water use practices\"}, {\"sent_id\": \"s_07985\", \"data_mentioned\": true, \"reason\": \"Russian DIS\"}, {\"sent_id\": \"s_08035\", \"data_mentioned\": true, \"reason\": \"analysis of welfare losses associated with higher electricity prices\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07435\", \"data_mentioned\": true, \"reason\": \"data accumulated during 1989-93\"}, {\"sent_id\": \"s_07535\", \"data_mentioned\": true, \"reason\": \"external resource flows\"}, {\"sent_id\": \"s_07585\", \"data_mentioned\": true, \"reason\": \"Energy data for 40 branches of industry in 1980 and 1985\"}, {\"sent_id\": \"s_07935\", \"data_mentioned\": true, \"reason\": \"data collected in the questionnaire on current water use practices\"}, {\"sent_id\": \"s_07985\", \"data_mentioned\": true, \"reason\": \"Russian DIS\"}, {\"sent_id\": \"s_08035\", \"data_mentioned\": true, \"reason\": \"analysis of welfare losses associated with higher electricity prices\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

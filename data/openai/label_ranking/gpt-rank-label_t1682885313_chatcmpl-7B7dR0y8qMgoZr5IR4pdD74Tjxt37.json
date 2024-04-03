@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04063: 1 Typically these studies have been undertaken on a piecemeal basis by different authors with little regard for comparability of assumptions with other studies.\n\ns_04113: (35 pages) Financial Sector Development\n\ns_04163: (forthcoming), and references therein.\n\ns_04213: To show that indeed dhh/dCm < 0 if Ch follows a uniform distribution, note first that S9 [-] = S9 [IIhnhlE] FRom 15,\n\ns_04263: Assuming that the cost of each unit of effort is c, country j then faces the following problem.\n\ns_04313: Using the same realized volatility measure, Rafiq et al.\n\ns_04363: In the second step, we estimate how this fixed value of enrolling in a particular sector that is common across all households, \u03b4 m j,t , is affected by changes in observable school-level attributes and the enrollment behaviour of others.\n\ns_04413: where n it and p it are the number of varieties and prices in country i in year t, Y jt , and P jt is the expenditure and price index of country j in year t. T ijt represents the iceberg transport costs in year t.\n\ns_04463: Randomization occurred by computer, and was a simple random draw, without stratification, since no baseline data were available to stratify on at the time of assigning questionnaires to different treatments.\n\ns_04513: The results corroborate the findings using bargaining coverage.\n\ns_04563: Thus the partitioning of influences on outcomes into legitimate and illegitimate has now been undertaken empirically in a large number of contributions across many countries.\n\ns_04613: The corresponding \u2026gures for a typical and extreme expansion are 0.9 and 3.2 1 1 As in AG (2012), we calibrate = 1:5.\n\ns_04663: While Section 4 looked at the availability of and access to these services and its trends during the 2000s, Educational Attainment by Age Level this section focuses on measuring the degree of inequality in access to these services and how each circumstance contributes to the disparity.\n\ns_04713: 46 Some descriptive statistics can be found in Appendix B, Table 7 .\n\ns_04763: Finally, to estimate the incidence of HSAA-induced health effects, measured as the need of treating diseases that could have been prevented with proper care, we use 1,399 generation III individuals 0 to 18 years old in 625 generation II households (sample three).\n\ns_04813: As in the Townsend-Thai dataset, if we look at the distribution of welfare gains in Figures 10e and 10e, page 47 , there is a significant fraction of agents who end up losing about half of their annual wealth.\n\ns_04863: A word of caution applies to the following results.\n\ns_04913: The firm location literature particularly focuses on accessibility to fundamental transport infrastructure, such as highway and ports (e.g., Boudier-Bensebaa, 2005; Cie\u015blik and Ryan, 2004; Milner et al., 2006; Belderbos and Carree, 2002; Deichmann et al., 2005) .\n\ns_04963: This paper sets out to estimate the change in demand for infrastructure services that will spring from the expected structural change and growth in income the world is expected to undergo in the next 7 years.\n\ns_05013: Indeed, we show that, using measures of REER that correct for GVC participation developed in the literature Johnson, 2013, and Bayoumi et al., 2013) , we do not find the same decreasing pattern of elasticity over time.\n\ns_05063: Kernel density matching utilizes the distribution of the predicted probabilities of treatment to construct the treatment and control groups.\n\ns_05113: Underlying the calculation of the dissimilarity index and the calculation of the least advantaged/most advantaged simulations are regression analyses.\n\ns_05163: 6 The relationship between the two variables is positive and highly significant.\n\ns_05213: At the end of the baseline survey, respondents were either given an informational brochure about the insurance product or the brochure plus a six-month subsidy for insurance worth approximately USD$100, nearly half of the sample's median household income.\n\ns_05263: 29 This is not a fool proof tool but, for many countries, it provides regulators with much more data."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7dR0y8qMgoZr5IR4pdD74Tjxt37",
+    "object": "chat.completion",
+    "created": 1682885313,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1191,
+      "completion_tokens": 53,
+      "total_tokens": 1244
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04913\", \"data_mentioned\": true, \"reason\": \"transport infrastructure dataset\"}, {\"sent_id\": \"s_04963\", \"data_mentioned\": true, \"reason\": \"infrastructure services dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04913\", \"data_mentioned\": true, \"reason\": \"transport infrastructure dataset\"}, {\"sent_id\": \"s_04963\", \"data_mentioned\": true, \"reason\": \"infrastructure services dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

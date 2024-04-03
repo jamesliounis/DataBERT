@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03268: [Insert Table 1 about here] Table 2 presents the list of countries that are located at the top and the bottom of the distribution of countries ranked according to their net exports of computers in 2000.\n\ns_03318: The point estimates of the differential returns 1, t \uf064 , and the corresponding CADR are reported in Panel C. Henceforth, all reported differential returns and CADR will come from this baseline specification unless stated otherwise.\n\ns_03368: Alberto Portugal-Perez and John S. Wilson All regressions include time and importer fixed effects.\n\ns_03418: Taking into account the significance of trade in parts and components, the share of trade with a 'double' comparative advantage as well as the significance of networks in their trade, one may distinguish between two groups.\n\ns_03468: 16 1 3 We perform the Bickel (1978) version of the Breusch-Pagan test on (18) .\n\ns_03518: 2) However, for several depth indicators, including bank deposits, life insurance premia, pension fund assets and domestic public debt, the dynamic paths followed by the lower income countries also cross the cross-section paths from below, suggesting the presence of leap frogging effects.\n\ns_03568: The results are generally consistent with the literature on firm growth: younger firms, smaller firms and more productive firms grow faster (see for example, Bigsten and Gebreeyesus, 2007) .\n\ns_03618: , that takes on a value of one if a country in our sample has experienced a banking crises in a given year.\n\ns_03668: Second, the challenges for an open system from the -decline of the west\u2016 should not be underestimated.\n\ns_03718: Developing a project ideally requires an array of institutional, legal, social, environment, financial, regulatory, and engineering studies.\n\ns_03768: The areas where it is easiest to measure the distributive effect of litigationdirect effects on litigants, especially in individual casesand thus where much of the literature has focused, are the areas where effects are most likely regressive and least important in the overall public policy context.\n\ns_03818: Section 6 repeats the analysis in a simultaneous equation framework to explicitly take into account the bilateral monopoly and to separate direct from indirect risk effects acting through their impact on Kepco.\n\ns_03868: Much of the seemingly puzzling evidence regarding intertemporal choices of the poor, and several explanations for it, are nicely summarized in Banerjee and Duflo (2011).2 Ashraf et al (2006), Duflo, Kremer, and Robinson (2011), Dupas and Robinson (2011),Brune et al (2011).\n\ns_03918: The outdoor air pollution losses were estimated for the inhabitants of cities with a population of over 100 thousand (due to data limitations); inadequate water supply, sanitation and hygiene costs were estimated for the whole population of India; and indoor air pollution costs were estimated for the households that use solid fuel for cooking (about 75 percent of all households).\n\ns_03968: The results confirm the ones presented in Bird (2007) , Fox, et al.\n\ns_04018: The subjective expectations were collected using an elicitation methodology developed by Delavande and Kohler (2009) for a developing country context with low levels of literacy and numeracy.\n\ns_04068: This column is derived by applying the coefficient of each independent variable to the regional difference in the means of that variable.\n\ns_04118: The financial pressures caused by demographic aging are often used as an argument for moving from unfunded to funded pension systems.\n\ns_04168: In particular, we pool the information on firm size at two points in time, 2003 and 2010, for all firms in our sample and estimate quantile regressions on a constant, a dummy variable that takes the value of one for users of capital markets between 2003 and 2010, a dummy variable that takes the value of one for observations in 2010, and a term with the interaction of these two dummy variables.\n\ns_04218: enforcement and verification costs), an adverse expected shock to productivity, and higher volatility of productivity shocks, on the optimal level of debt.\n\ns_04268: In case anybody takes this to go to the other extreme of ignoring evidence while making policy, we should warn against the pitfalls of this by reminding the reader of the most celebrated case of ignoring evidence, namely, Aristotle's steadfast belief that women have blacker blood than men and also fewer teeth, and basing many gendered suggestions on this \"fundamental difference.\"\n\ns_04318: For the purposes of this study it is essential to investigate to which extent shocks to realized volatility explain the -step-ahead IP forecast error variance ( ) 2 .\n\ns_04368: Households indexed by i maximize utility by choosing between three schooling options j = {N, G, P }, i.e.\n\ns_04418: Interestingly, the dummy variable controlling for the existence of a South-South EIA becomes significant, suggesting that South-South integration-long characterized by low complementarities and little trade creation-has significant trade effects in our sample period.\n\ns_04468: Rapoport and Docquier (2006) provide an excellent summary of different theories of remitting, and note that a key feature of remittances is that distance makes informational problems more pervasive and hence strategic behavior more likely than is the case with many other types of transfers."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hFzaTvHd44vwptSV8KCg8V0GUj",
+    "object": "chat.completion",
+    "created": 1682885549,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1403,
+      "completion_tokens": 61,
+      "total_tokens": 1464
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03968\", \"data_mentioned\": true, \"reason\": \"Bird (2007)\"}, {\"sent_id\": \"s_04468\", \"data_mentioned\": true, \"reason\": \"Rapoport and Docquier (2006)\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03968\", \"data_mentioned\": true, \"reason\": \"Bird (2007)\"}, {\"sent_id\": \"s_04468\", \"data_mentioned\": true, \"reason\": \"Rapoport and Docquier (2006)\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

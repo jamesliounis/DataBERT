@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07119: Other variables of interest are statistically significant in the 2SLS specification, but less so in the spatial GMMs.\n\ns_07169: \u2022 Legal Origin Dummy Variables: A dummy variable that identifies the legal code of the country as common law (English), civil law (French), or Germanic (German) as described by La Porta et al.\n\ns_07219: 6 Attrition is most likely to introduce biases in estimation when there are large differences between attrited and other households (Fitzgerald, Gottschalk and Moffitt 1998) , or when attrition is correlated with treatment status (Angrist 1997; Angrist et al.\n\ns_07269: Our interest is in part to determine whether there are common or consistent differences between the set of countries that were and that were not EU accession candidates, and more specifically, given that the EU is a deep integration agreement, whether the WTO could play a similar role as a focal point/lock-in mechanism as the EU for those countries where EU accession is not in the cards.\n\ns_07319: 4 In our data set, the share of state enterprises under PCs grew from 8 percent in 1986 to 42 percent in 1987; it then skyrocketed to 88 percent by 1989.\n\ns_07369: Comparison of these agreements with development project experience revealed that significant investment was needed -more than a year's development budget in many of the poorer WTO Members.\n\ns_07419: The primary objective of this paper was to review the literature dealing with the impact of prices and macroeconomic policies on agricultural supply.\n\ns_07469: Furthermore, the net transfer from official sources also allowed private creditors to withdraw resources at a rate of about $0.6 billion a year (panel A in Table 5 last column).1 7 It is important to note that, as suggested earlier, ODA debt forgiveness does not necessarily free resources to be used in importing more, and that it could also lead to smaller imports if substitution between ODA debt relief and other net flows takes place.\n\ns_07519: Individual country time series show that a substantial share of administrative costs are proportional to the number of effective covered workers served, not to the volume of funds or the level of covered wages.\n\ns_07569: By 1992, the region accounted for 48 percent of IDA's worldwide net disbursements compared with just 31 percent as recently as 1985.As a result of the large increase in IDA disbursements,net flows from the World Bank to SSA grew from $1.3 billion a year in 1985 to $2 billion in 1992.\n\ns_07619: These data show that the arithmetic average, of annual physical output growth for nine major commodities lags behind the reported growth of output value at constant prices for every year beginning with 1979/80.\n\ns_07669: These, together with banks portfolio strategies and regulatory regimes affect creditors' expectations on whether countries are able and willing to service debt obligations.\n\ns_07719: For practical reasons, therefore, the study of rural transport is largely restricted to data reported at a geographical level just below that of the region in which production occurs (termed zones productrices in the case of the CIDT) or to special studies of particular road projects.\n\ns_07769: The evidence that is available concerning these two factors indicates that in excluding them from our measure of the consolidated deficit we may be underestimating the claims that the public sector makes on resources.\n\ns_07819: The Peru Living Standards Survey provided information on the current debt position of each household, and on the source and termns of loans obtained in the past year.\n\ns_07869: The following analysis focuses on describing what were identified as the project benefits and risks, describing first the benefits and beneficiaries of the project, and where possible quantifying the benefits and calculating the economic rate of return.\n\ns_07919: The theory in this paper assumes that the sale of an asset by a firm reduces the base used to calculate depreciation writeoffs.\n\ns_07969: At the time of the survey, households in Onitsha were paying water vendors about N 30 million annually (US$7 million).\n\ns_08019: 15 Moody's, Banking System Outlook, October, 2005.\n\ns_08069: Last, we compare the coverage and targeting 16 Komives et.\n\ns_08119: 2 1 0 0 1, , 1 , 1 ( ) 1 (1 )( ) ( ) i r i H F pk pk \u03b1 \u03b3 \u03b3 \u03b4 \u03b1 \u03b1 \u03b3 \u03b4 \u03b3 \u03b4 \uf8eb \uf8f6 \uf8eb \uf8f6 \u2212 \u2261 + \u2212 \uf8ec \uf8f7 \uf8ec \uf8f7 + \u2212 \u2212 + + \uf8ed \uf8f8 \uf8ed \uf8f8 ,\n\ns_08169: This point has been previously noted byJackson (1994) andHoffman et al.\n\ns_08219: Two important features of this experiment are that 1) it simply redirects, but does not increase, existing public funding, and 2) it perfectly preserves current college investment decisions since no funds are diverted from the switchers.\n\ns_08296: 10 Data collected from the NPSAS is used by the federal government to guide policy making regarding financial aid.\n\ns_08346: A research assistant double checked manually, re-reading all the lines reported in ACAPS country per country, that the coded measures were accurate between October 25 and November 6, 2020."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hzxrFyKFZTmXjgmAG0rwlmD5mZ",
+    "object": "chat.completion",
+    "created": 1682885595,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1414,
+      "completion_tokens": 53,
+      "total_tokens": 1467
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08296\", \"data_mentioned\": true, \"reason\": \"NPSAS\"}] \n\nThe sentence s_08296 explicitly mentions NPSAS, which is a dataset, and is therefore included in the output."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08296\", \"data_mentioned\": true, \"reason\": \"NPSAS\"}] \n\nThe sentence s_08296 explicitly mentions NPSAS, which is a dataset, and is therefore included in the output.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

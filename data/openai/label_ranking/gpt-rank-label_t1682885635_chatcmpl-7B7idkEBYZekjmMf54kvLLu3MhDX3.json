@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06020: However, with regards to mobile internet, existing studies have a few limitations.\n\ns_06070: Existing empirical studies vary among several critical dimensions including the identi\u2026cation strategy, scope of the social transfer metric, econometric methodology, and country(ies) analyzed.\n\ns_06120: Notes: Using the average CEI for the district (see footnote in Figure 4 for details), we defined high-conflict districts as those districts where the average CEI fell in top 10 percentile.\n\ns_06170: In our data set, 80% of return migrants had one migration episode, 15% had two migration episodes and less than 5% had more than two migration episodes.\n\ns_06220: Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) respondents' level of concern about COVID-19 was still unrelated to their willingness to get vaccinated (see column 3 in Tables A4 and A5 in Appendix A).\n\ns_06270: For 2017, we use the official 2017 PPPs for most economies, as published by the ICP.\n\ns_06320: In Figure 10 we present the average test scores by age for the treated and control villages for respectively the baseline and the endline.\n\ns_06370: Figure A16 and Figure A17 in the Appendix show estimates by sub-population rather than the gap between them for countries with data for at least 4 decades, suggesting that the gap has been increasing in favor of women because of an increase (decrease) more than proportional for them in upward (downward) mobility.\n\ns_06420: In the online appendix, we discuss the estimates for four subsamples dened by gender and rural/urban location of a child (see Table A .1 in the online appendix section OA.1).\n\ns_06470: (2022) that the (initial) design of the subsidies was (plausibly) regressive, our back-of-envelop calculations based on administrative data on actual consumption suggest that the eventual extension of the subsidy period for low-income households made the program progressive than regressive.\n\ns_06520: Second, we focus the analysis across multiple countries in the Latin America and Caribbean region simultaneously using comparable data.\n\ns_06570: Note that the median TPO had a stable budget over the period as discussed above, so this implies that expenditure on research also marginally increased.\n\ns_06620: The choice of production structure was conditioned by the absence of reliable estimnates of substitution parameters and the simplification required by disaggregation.Krueger (1981), for example, argues that a Cobb Douglas formulation is a reasonable choice.\n\ns_06670: As in Norway the desire to achieve more effective regulation of financial conglomerates was one of the primary factors influencing the Danish decision to move to a fully integrated approach.\n\ns_06720: As our analysis of the decomposition of capital flows in section II.2 showed, the C'entral Bank's accumulation of reserves over the 1995-1997 period was quite large, which was consistent with its constant real exchange rate policy.\n\ns_06770: After the \"big four\", the next largest NGO 2 has 0.7 million clients and there are only ten NGOs who have more than 100,000 borrowers.\n\ns_06820: Finally, contrary to the empirical literature for the United States described above we found very low values for the estimates of the weight granted to social welfare in the government's objective function (around two times the weight granted to foreign lobbying contributions), which underscores the importance of foreign (and domestic) lobbying in determining US trade policies.\n\ns_06870: It is important to examine the relative contributions of these assets, and identify the combinations of productive, social, and location-specific assets that help poor households take advantage of prospects for poverty-reducing growth.\n\ns_06920: The calculations assume that BRD=DRD.\n\ns_06970: 13 Table 1 summarizes the school, teacher and student samples.\n\ns_07020: For instance, among households in public and private housing, between 43 and 58 percent of households report to save regularly.\n\ns_07070: According toCerutti (2003), between 1991 and 2000 the industry invested a total of 541 million dollars, or an annual average of 54 million dollars, a figure equivalent to 5% of the production value and 13% of the value added.\n\ns_07120: There is some evidence of convergence in incomes between states over the periods 1939 -1985 (Azzoni 2001 ) and 1970 -1985 (Ferreira and Diniz 1995 .\n\ns_07170: \u2022 Number of analysts: As reported by I/B/E/S.\n\ns_07220: The results in Table 7 show that this is indeed the case: None of the estimated BDH lottery effects are anywhere near conventional levels of significance, and the coefficients for conditioned and unconditioned households are essentially indistinguishable from each other."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7idkEBYZekjmMf54kvLLu3MhDX3",
+    "object": "chat.completion",
+    "created": 1682885635,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1305,
+      "completion_tokens": 243,
+      "total_tokens": 1548
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06120\", \"data_mentioned\": true, \"reason\": \"CEI\"}, {\"sent_id\": \"s_06170\", \"data_mentioned\": true, \"reason\": \"migration\"}, {\"sent_id\": \"s_06220\", \"data_mentioned\": true, \"reason\": \"COVID-19\"}, {\"sent_id\": \"s_06270\", \"data_mentioned\": true, \"reason\": \"ICP\"}, {\"sent_id\": \"s_06320\", \"data_mentioned\": true, \"reason\": \"test scores\"}, {\"sent_id\": \"s_06420\", \"data_mentioned\": true, \"reason\": \"gender\"}, {\"sent_id\": \"s_06470\", \"data_mentioned\": true, \"reason\": \"subsidy\"}, {\"sent_id\": \"s_06520\", \"data_mentioned\": true, \"reason\": \"Latin America and Caribbean\"}, {\"sent_id\": \"s_06720\", \"data_mentioned\": true, \"reason\": \"capital flows\"}, {\"sent_id\": \"s_06970\", \"data_mentioned\": true, \"reason\": \"school\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06120\", \"data_mentioned\": true, \"reason\": \"CEI\"}, {\"sent_id\": \"s_06170\", \"data_mentioned\": true, \"reason\": \"migration\"}, {\"sent_id\": \"s_06220\", \"data_mentioned\": true, \"reason\": \"COVID-19\"}, {\"sent_id\": \"s_06270\", \"data_mentioned\": true, \"reason\": \"ICP\"}, {\"sent_id\": \"s_06320\", \"data_mentioned\": true, \"reason\": \"test scores\"}, {\"sent_id\": \"s_06420\", \"data_mentioned\": true, \"reason\": \"gender\"}, {\"sent_id\": \"s_06470\", \"data_mentioned\": true, \"reason\": \"subsidy\"}, {\"sent_id\": \"s_06520\", \"data_mentioned\": true, \"reason\": \"Latin America and Caribbean\"}, {\"sent_id\": \"s_06720\", \"data_mentioned\": true, \"reason\": \"capital flows\"}, {\"sent_id\": \"s_06970\", \"data_mentioned\": true, \"reason\": \"school\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_09705: The independent variables used in this analysis came from data collected when participants were enrolled in the eighth grade.\n\ns_09755: Although the data used in different studies are not identical, they all come from the ADNI database; therefore, they share a similar acquisition and preprocessing procedure, allowing comparisons to be made.\n\ns_09805: The study used a mixed methods approach of quantitative and qualitative research by analyzing the collected data..\n\ns_09855: Full details on the procedure can be found in Algorithm 1.\n\ns_09905: 50 Statistics are un-published tabulations from the Survey of Earned Doctorates, Division of Science Resources Statistics.\n\ns_09955: As we see in Table 2 the constant terms is statistically significant and twice the value as reflected in Table 1 .\n\ns_00007: 2011; Kasari and Lawton 2010; McPheeters et al.\n\ns_00057: Table 1 displays comparisons between respondents who entered MD/PhD programs (n = 3056) and respondents who did not (n = 233,376) regarding HSSLRA and CLRA participation, sex, race/ethnicity, parental occupation, and MCAT score.\n\ns_00107: Our multivariate regression models, reported in Table 2, examined whether each of these domains explained the effect of having a teenage father on children's cognitive and behavior scores at age 2.\n\ns_00157: During pre-processing the scans for both datasets were intensity normalized, affinely-aligned, and skull-stripped using existing toolboxes [4, 21, 35] .\n\ns_00207: The limitations of the present study and suggestions for future research are addressed.\n\ns_00254: Crosstab statistics was then performed to describe the development of the different MCI categories over a 2-year period.\n\ns_00304: The Rancho Bernardo Study started as a survey of heart disease risk factors in adults who were older than 30 y and lived in the southern California community of Rancho Bernardo, that has progressively accumulated a lot of data (not only on CV system) from this cohort across the last 40 years 59,65 ( Table 2 ).\n\ns_00354: 1 (National Research Council, 1997).\n\ns_00404: PVC and using white matter as reference region also led to larger effect size (Table 4 ).\n\ns_00454: As Leighton and Gierl (2007) stated, recent CDM studies have been applied for posthoc analyses and item analyses rather than constructing the tests (Chapter 7).\n\ns_00504: We used statistically downscaled and high resolution climate projections.\n\ns_00554: Because of the size and complexity of the effort, it was overseen by the Office of AIDS Research, which coordinated work among NIH Institutes and ensured that grants made under the rubric of HIV/AIDS research were germane to the problems at hand.\n\ns_00604: The thresholds correspond to 1% -10%, 11% -50% and 51% -100% categories of gene expression values of the entire integrated dataset.\n\ns_00646: [2012], the impact of the total BL in the WTNA (river, precipitation and subduction induced) on CI can be estimated by comparing the standard CI in the Clear-River experiment, to a CI computed at constant salinity (33.85 PSU).\n\ns_00696: Using this data, we incorpo-held for ambient (as oposed to experimental) evrate information on actual farm production prac-els of ozone exposure tices into an economic model that allows estimation of the impacts of air pollution on corn and soybean yields.\n\ns_00746: Our primary model was as follows: Where ScienceAchievement is the standardized science test score in either the spring of kindergarten or the spring of first grade for student i, and the covariates are binary indicators of gender or race/ethnicity.\n\ns_00796: Triangulation was applied across the four data sources, namely principals, district officials, facilitators and academics, to search for convergent evidence.\n\ns_00846: Vyas and others (2017) compared the foraging preferences of Ferruginous Hawks on the poisoned colonies compared to an adjacent, unpoisoned colony.\n\ns_00896: For up-to-date information, see www.adni-info.org."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B79kVZMa7wWu9hQqY7maFZgusZg4",
+    "object": "chat.completion",
+    "created": 1682883472,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1163,
+      "completion_tokens": 105,
+      "total_tokens": 1268
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_09755\", \"data_mentioned\": true, \"reason\": \"ADNI database\"}, {\"sent_id\": \"s_00157\", \"data_mentioned\": true, \"reason\": \"datasets\"}, {\"sent_id\": \"s_00304\", \"data_mentioned\": true, \"reason\": \"Rancho Bernardo Study\"}, {\"sent_id\": \"s_00846\", \"data_mentioned\": true, \"reason\": \"Ferruginous Hawks\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_09755\", \"data_mentioned\": true, \"reason\": \"ADNI database\"}, {\"sent_id\": \"s_00157\", \"data_mentioned\": true, \"reason\": \"datasets\"}, {\"sent_id\": \"s_00304\", \"data_mentioned\": true, \"reason\": \"Rancho Bernardo Study\"}, {\"sent_id\": \"s_00846\", \"data_mentioned\": true, \"reason\": \"Ferruginous Hawks\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

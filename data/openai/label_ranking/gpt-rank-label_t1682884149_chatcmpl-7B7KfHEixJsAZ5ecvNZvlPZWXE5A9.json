@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03135: We present the results in Table 11 .\n\ns_03185: (2009).35 SeeVerleger (2009) for related findings for the market for crude oil.\n\ns_03235: Elias [11] and Young [34] ).\n\ns_03285: Furthermore, the evidence in this paper is robust to the standard criticism that it is difficult to separate trade links and financial links at the aggregate level to determine the channels of contagion.\n\ns_03335: Table 1 reports the final loading factors associated to each primary variable, as well as the percentage of variance explained by each identified factor.\n\ns_03385: There are several indications of it.\n\ns_03435: 12 Table 2 presents estimates of (15) and (18) using the pooled data from the 1982, 1987, and 1992 censuses.\n\ns_03485: In the first stage, we take the medians for each country of its FD indicators over the whole sample period and then conduct a cross-section estimate over the medians.\n\ns_03535: Moreover, it is available for a larger number of observations.\n\ns_03585: This table describes the country-level variables used in the analyses in this paper.\n\ns_03635: As shown in Table 1 and discussed in Subramanian (2011) , within the next twenty years China is likely to be economically dominant: by 2030, its market-based GDP is projected to equal that of the US, its PPP-based GDP by then to be twice that of the US, China's trade in goods to be nearly two times that of the US and Europe, and the renminbi stands a good chance of nipping at the heels of the dollar, if not eclipsing it, as the main reserve currency.\n\ns_03685: This paper is organized as follows: Section II discusses why advanced economies with excess capacity should continue to invest in infrastructure under the current economic circumstances.\n\ns_03735: In order to test these ideas, we take the results of the Gauri and Brinks investigationa list of cases for each of the five countries in the areas of health and education, plus an estimate of the number of people directly and indirectly benefited by this litigationand extend the analysis with detailed estimates of the share of benefits going to disadvantaged classes in each of those countries.\n\ns_03785: 4 See, e.g.,Smith and Warner (1979),Green (1984) andJohn (1987) for more on this point.\n\ns_03835: See the discussion in Appendix B for further details.\n\ns_03885: These data are presented in Table 5 .2, along with unit figures for disability adjusted life years (DALYs) lost to illness and mortality.\n\ns_03935: This paper employs a cross-country study to estimate tax capacity from a sample of 110 developing and developed countries during 1994-2009 and the two sub-periods of 1994-2001 and 2002-09 .\n\ns_03985: The author may be contacted at gshapira@worldbank.org.\n\ns_04035: Bidani and Ravallion (1997) also report the results of cross-country regressions aimed at shedding light on the effects of public expenditure and income on health gaps between the poor and the nonpoor.\n\ns_04085: This is a useful simplified key, although it should be borne in mind that the relationship between collection and asset fees is nonlinear.\n\ns_04135: This table reports the quantile and mean regressions of sales on a constant, a dummy variable for 2010, a dummy variable for issuing firms, and an interaction term with these two dummies.\n\ns_04185: It has been used to examine a variety of other issues, including the real and financial effects of contagious shocks (as in Agenor, Aizenman and Hoffmaister (1998)), and the welfare costs of financial openness.\n\ns_04235: 21 This is distinct from another form of inefficiency widely discussed in the international debt literature, that associated with 'loan pushing' (Darity and Horn, 1986; Basu and Morita, 2006) .\n\ns_04285: This is in line with results by Mork et al.\n\ns_04335: Note that the reduction in fees per pupil observed in columns (1) and (2) may reflect a price change at a given school, or a shift in demand from low-cost to higher-cost schools."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7KfHEixJsAZ5ecvNZvlPZWXE5A9",
+    "object": "chat.completion",
+    "created": 1682884149,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1192,
+      "completion_tokens": 51,
+      "total_tokens": 1243
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03885\", \"data_mentioned\": true, \"reason\": \"DALYs\"}, {\"sent_id\": \"s_03935\", \"data_mentioned\": true, \"reason\": \"tax capacity\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03885\", \"data_mentioned\": true, \"reason\": \"DALYs\"}, {\"sent_id\": \"s_03935\", \"data_mentioned\": true, \"reason\": \"tax capacity\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06591: More generally, the paper, while primarily shedding light on economic reforms in India, develops an empirical methodology at different levels of aggregation for economies attempting a transition to outward orientation and closer integration into the world economy in the face of revenue and balance-of-payments constraints.\n\ns_06641: Moreover some ofthese issues arise in an especially acute forn under an integrated approach so it is important to address these.\n\ns_06691: The recent literature on capital flows to developing countries has shown that capital inflows are associated with the appreciation of the real exchange6.\n\ns_06741: First the underlying thread of the 'positive' argument, that access to an important household resource (credit) enhances a female's status within the household is both intuitively appealing and resonates with the theoretical literature on bargaining models of the household (Lundberg and Pollack 1993) .\n\ns_06791: 25 The first two columns in Table 3 Table 3 are consistent with the ones reported so far.\n\ns_06841: See Varangis and others 2003 for some examples of payments for environmental services in coffee growing areas in Central America Box 1.3 Sectoral and Spatial Linkages Start (2001) points out that besides the obvious production and consumption linkages, there are other important sectoral (agricultural and non-agricultural) and spatial (rural-urban) links that have a major impact on economic performance.\n\ns_06891: 11 The implied value of DRD is 2.2.\n\ns_06941: The comparison between column 1 and column 5 (or column 2 and column 6) suggests that this change is due to a change in the sample rather than the inclusion of additional variables.\n\ns_06991: Propensity score results are provided in Table 7 .\n\ns_07041: With this argument, the EC disqualified the important increase in imports recorded between 1991 and 1993 (Table III .1).\n\ns_07091: The paper began by mapping the heterogeneity of labor market outcomes across Brazil during the 1990s.\n\ns_07141: This is constructed using the Morningstar database described above.\n\ns_07191: The main results in the paper are two.\n\ns_07241: 1 51.9 58.7 54.5 18.4 45.9 Standard deviation 3.2 3.0 6.1 3.1 1.8 3.2 4.3 9.2 2.4 3.1 4.7 4.9 2.0 Mean 50.2 66.6 60.5 2.4 50.9 67.2 65.5 4.6 50.5 66.9 63.0 3.5 46.0 * \"EU\" is an artificial benchmark schedule that ignores country-specific factors.\n\ns_07291: This supports with a much larger sample our earlier findings (Shirley and Xu 1997) , and suggests that PCs are ineffective in competitive firms as well as natural monopolies.\n\ns_07341: Table 5 .1 and Figure 5 .1 report that the level of support is substantial, and government-business-related categories have been increasing rapidly.\n\ns_07391: There is an urgent need for quality data to undertake serious quantitative studies.\n\ns_07441: Furthermore, Table 5 shows (panel A) that for the sample countries as a group, import capacity increased by 75 percent between 1984-88 and 1989-93, an increase slightly smaller than the one occurring in pure grants during the same period (77 percent), and that in absolute terms the increase in import capacity was larger than the one occurring in pure grants ($3.2 billion and $2.6 billion, respectively).\n\ns_07491: The term structure was almost flat for the period for which we repon data 9 This is more than life expectancy at 65, because of early retzrement.\n\ns_07541: 33 , The study showed that twelve of the 26 countries either enjoyed terms of trade improvements or ODA increases that more than compensated for terms of trade losses over the 1980s.\n\ns_07591: Table 14 presents trial estimates of energy consumption and productivity change for 15 branches of collective industry during 1980/85.\n\ns_07641: In summary, collateral requirements are as follows:\n\ns_07691: In the case of African countries, information with which to study the effect of transport policy on agricultural response at the farm level is largely unavailable, either because it has not been collected or because governments treat it as confidential.\n\ns_07741: See Green (1987),Huq (1989),Killick (1978), and Rimmer (forthcoming).\n\ns_07791: The results below are based on a nonparametric approach (described in appendix B)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7PuD9ZZQyE41XyPxmapaWClYKsK",
+    "object": "chat.completion",
+    "created": 1682884474,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1290,
+      "completion_tokens": 124,
+      "total_tokens": 1414
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07391\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_07441\", \"data_mentioned\": true, \"reason\": \"grants\"}, {\"sent_id\": \"s_07591\", \"data_mentioned\": true, \"reason\": \"energy consumption\"}] \n\nIn sentence s_07391, the reason \"data\" is mentioned explicitly. In sentence s_07441, the reason \"grants\" is mentioned explicitly. In sentence s_07591, the reason \"energy consumption\" is mentioned explicitly."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07391\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_07441\", \"data_mentioned\": true, \"reason\": \"grants\"}, {\"sent_id\": \"s_07591\", \"data_mentioned\": true, \"reason\": \"energy consumption\"}] \n\nIn sentence s_07391, the reason \"data\" is mentioned explicitly. In sentence s_07441, the reason \"grants\" is mentioned explicitly. In sentence s_07591, the reason \"energy consumption\" is mentioned explicitly.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

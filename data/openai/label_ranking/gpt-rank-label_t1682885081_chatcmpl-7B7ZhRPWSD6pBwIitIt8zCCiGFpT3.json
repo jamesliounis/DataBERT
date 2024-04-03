@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03757: The aggregation of thousands of individual medications cases, as in Brazil, Colombia or Costa Rica, can ultimately have a large effect, but in order to get thousands of cases it is necessary to radically democratize access to the courts (see, e.g., Wilson 2009) , thus extending the potential benefits further down the socio-economic gradient.\n\ns_03807: Buying patterns as communicated to us by Goldman Sachs (Greg Randolph Ras Gas spreads and Middle-Eastern bond returns also offers support for such clientele based explanations (specifications 3 to 6, Table 8 ).\n\ns_03857: Our findings should therefore be tested for robustness using similar research designs in other time periods and contexts.\n\ns_03907: The results of the estimation of health losses associated with indoor air pollution are presented in Table 5 .3.\n\ns_03957: Panel A in each table presents the results obtained from the specifications with population growth as a proxy for the demographic characteristics of countries, while Panel B includes agedependency ratios instead of population growth.\n\ns_04007: A unique feature of the MDICP dataset is that it includes measures of subjective likelihoods respondents assign to being HIV-positive.\n\ns_04057: The strongest correlation is with income per capita measured at the survey year in PPPs, but bear in mind that the sample size differs across correlations.\n\ns_04107: The cost of transition, the demographic structure of a country, the state of development of its financial markets, and the political acceptability of pension reform all are important variables that must be, and are, taken into account in shaping pension reform programs.\n\ns_04157: 27 We compute this type of event studies for each of the firm-level attributes analyzed above using dummy variables that estimate a three-year window around the use of capital markets.\n\ns_04207: Note that, in contrast to the original model in Agenor and Aizenman (1998), we do not account for aggregate shocks.\n\ns_04257: This paper shows that the answer is yes and it also illustrates the design of a contract that can achieve this.\n\ns_04307: where denotes a predictable drift term with finite variance, corresponds to volatility and denotes standard Brownian Motion.\n\ns_04357: Figure 1: Predicted enrollment by household head's education, before and after FPE, based on the multinomial logit in Table 3 , column 2.\n\ns_04407: Regarding EIA variables, the interest of columns (1) and (2) is to highlight how the replacement of time-invariant importer and exporter effects by interacted importer-year, exporter-year, and country-pair effects affects estimates.\n\ns_04457: Individuals who took part in this exercise were then subsequently offered the opportunity to use a new financial product, EduPay, developed by the authors in collaboration with the Bank of the Philippine Islands (BPI).\n\ns_04507: (2010) have exploited differences in workforce composition to assess the consistency of the observed patterns with labour market theories of downward wage rigidity indirectly, using administrative data.\n\ns_04557: These difficulties are the subject of a large literature and debate.\n\ns_04607: To this e\u00a4ect, Figure 6 depicts the multiplier for OECD countries for each of the four pos- Perhaps not surprisingly, the largest multiplier (in the medium and long run) corresponds to category (iv); that is, recession and increase in government spending ( Figure 6 , panel D).\n\ns_04657: In this paper, we use two variables available in the DHS and that are important for determining and supplementing iron deficiency anemia during pregnancy: (i) whether the mother has had blood tests during her pregnancy; and (ii)\n\ns_04707: In the last two columns, we use an alternative database to look at the overall effects of SFD and DFD on the relative number of majority-owned foreign affiliates located in developing countries at the end of the year 2006.\n\ns_04757: The value and nature of assets which a female brought to a marriage is an important determinant of women's bargaining power in Ethiopia (Kumar and Quisumbing 2012) and Tanzania (Peterman 2011) .\n\ns_04807: A trend from the 1990-1995 data was used to extrapolate labor share for 1996.\n\ns_04857: The base empirical model is as follows: Where i denotes individuals, j denotes country, and t denotes time.\n\ns_04907: The results indicate significant agglomeration economies.\n\ns_04957: * significant at 10%; ** significant at 5%; *** significant at 1%."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7ZhRPWSD6pBwIitIt8zCCiGFpT3",
+    "object": "chat.completion",
+    "created": 1682885081,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1212,
+      "completion_tokens": 53,
+      "total_tokens": 1265
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04657\", \"data_mentioned\": true, \"reason\": \"DHS\"}] \n\nThe sentence s_04657 mentions the DHS dataset, which is important for determining and supplementing iron deficiency anemia during pregnancy."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04657\", \"data_mentioned\": true, \"reason\": \"DHS\"}] \n\nThe sentence s_04657 mentions the DHS dataset, which is important for determining and supplementing iron deficiency anemia during pregnancy.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

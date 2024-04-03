@@ -1,0 +1,2003 @@
+{
+  "paper_id": "D32904031",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:49.640245Z"
+  },
+  "title": "Invoicing Currency and Symmetric Pass-Through of Exchange Rates and Tariffs Evidence from Malawian Imports from the EU",
+  "authors": [
+    {
+      "first": "Angella",
+      "middle": [
+        "Faith"
+      ],
+      "last": "Montfaucon",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2021-03",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D32904031",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "Trade prices are a principal channel through which movements in the exchange rate and changes in trade policy affect domestic variables for an open economy. Symmetric passthrough of tariffs and exchange rates to prices could allow the response of import prices to exchange rates to be used to predict the effect of changes in tariffs (Feenstra, 1989) . This can be useful in the analysis of trade policy. The currencies in which transactions in international trade are invoiced reveals one of the key mechanisms that explain heterogeneity in exchange rate and by extension tariff pass-through. An increase in tariffs may lead foreign exporters to that country to lower prices and therefore the tariff is less than fully passed through in prices, and the importing country experiences a terms-of-trade gain. These issues are of particular relevance to developing economies given that most trade takes place in the U.S dollar, they have relatively higher tariffs, and they are subject to relatively larger exchange rate changes.",
+        "cite_spans": [
+          {
+            "start": 334,
+            "end": 350,
+            "text": "(Feenstra, 1989)",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "This paper contributes to the empirical literature on simultaneous pass-through of exchange rate and tariff when trading with developing countries, and what role invoicing currencies play. In comparison with the literature, the contribution is twofold. First, the paper provides evidence on pass-through rates on exports from high-income to low-income countries, namely from various European Union (EU) countries to Malawi. Second, it does so using very detailed data that allow identifying i) the country of origin and the product being exported (as in most of the related literature), ii) the exchange rate but also the tariff duty affecting the good's price in the destination country (while most of the literature typically focuses on exchange rate pass-through due to a lack of good data on applied tariffs), and iii) the currency of invoicing for the good (which is relatively rare information at that level of disaggregation). Thanks to these rich data, we are able to i) estimate exchange rate and tariff pass-through within an integrated framework at a high level of disaggregation, and ii) estimate pass-through rates for various groups of countries (Economic and Monetary Union (EMU) members and non-EMU EU members), various currencies of invoicing (euro and the 1 U.S. dollar) and various sectors. The paper uses a simple pricing equation, under imperfect competition and assume a Calvo price adjustment process.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Malawi has strong ties with the EU dating back to 1975 when the EU signed the Lom\u00e9 I Convention between 46 African, Caribbean and Pacific (ACP) countries and 9 EU countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Since then, Malawi has signed subsequent ACP-EU Lom\u00e9 Conventions at five-year intervals.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The European Union remains Malawi's largest world-trading partner in terms of total trade.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Between 2007 and 2018, imports from the EU displayed an increasing trend, averaging 17 percent of total Malawian imports. Malawi mainly imports chemicals, machinery/appliances and transport equipment from the EU. 1 Malawi benefits from preferential treatment and its exports to the EU market enjoy quota and duty-free access under the Everything But Arms (EBA) agreement. This important partnership means that trade with the EU is representative of the country's overall trade, especially with more advanced countries. Further, this also inevitably leaves Malawi susceptible to shocks that may take place in the region and leaves EU exporters' profits to in part depend on Malawi's trade and exchange rate policies.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The results show that although the symmetry hypothesis holds for the bilateral exchange rate, this is no longer consistently the case for products invoiced in various currencies and when the invoicing currency exchange rate is used. In general, the dollar has the highest invoicing share in imports from the EU although there is higher euro invoicing among EMU products. On average, the pass-through of exchange rate and tariff shocks on to Malawian consumers is high. Specifically, using the bilateral exchange rate initially suggests that there is symmetry, but when invoicing currencies are considered, exchange rate pass-through (ERPT) of euro-priced goods is lower compared to dollar invoiced products, and higher than the tariff pass-through (TPT) for imports from the EMU. Therefore, the symmetry hypothesis often made in macroeconomic models no longer holds. This may be that since tariffs are more predictable than exchange rates, firms optimally increase prices in response to changes in tariffs than in response to similar favorable movements in exchange rates, thus making prices more responsive to tariffs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The findings show no evidence that TPT differs across the various currencies. When either the euro or the dollar exchange rates are used, again tariffs take up the most explanatory power in the changes in import prices of EMU products, but there is clarity on which exchange rate matters. The symmetry assumption holds with the euro exchange rate in EMU products but tariffs affect import prices more than the dollar exchange rates. However, symmetry holds with either the euro or the dollar exchange rates in imports from non-EMU countries as both are vehicle currencies to non-EMU states. Thus, in order to predict the effects of trade policy based on import prices' responses to exchange rates, bilateral exchange rates are not suitable for capturing exchange rate pass-through and pass-through of \"non-dominant\" currencies is still high, for small developing countries such as Malawi.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "These results using the bilateral exchange rate are in line with simultaneous estimation of exchange rate and tariff pass-through that has been done by Feenstra (1989) for the U.S. auto industry, where the symmetry hypothesis was empirically tested and found to hold. We use similar assumptions on imperfect competition, but go further by considering the currency of invoicing, motivated by recent literature that shows that when a vehicle currency such as the U.S dollar is used, there is greater exchange rate pass-through to import prices of that exchange rate compared to the bilateral exchange rate . Another study in this literature is Menon (1996) for Australian manufacturing, focusing on exchange rate pass-through and non-tariff barriers. The non-tariff barriers were found to explain the variation in pass-through. These symmetry studies however remain surprisingly limited and have mainly been for advanced economies. Among the few developing country studies is Mallick and Marques (2008) for India, who find that on average exchange rate pass-through is a dominant effect compared to tariff rate pass-through in explaining changes in India's import prices. Similarly, Benassy-Quere et al. (2018) found diversions from the symmetry assumption while Bouveta et al. (2017) similarly found diversions to symmetry in the context of global value chains (GVCs). Our diversions stem from the invoicing of products, which has not yet been considered in these analyses and is relevant given the now-known importance of currency invoicing in ERPT.",
+        "cite_spans": [
+          {
+            "start": 152,
+            "end": 167,
+            "text": "Feenstra (1989)",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 642,
+            "end": 654,
+            "text": "Menon (1996)",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 974,
+            "end": 1000,
+            "text": "Mallick and Marques (2008)",
+            "ref_id": "BIBREF23"
+          },
+          {
+            "start": 1181,
+            "end": 1208,
+            "text": "Benassy-Quere et al. (2018)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 1261,
+            "end": 1282,
+            "text": "Bouveta et al. (2017)",
+            "ref_id": "BIBREF2"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Although both tariffs and exchange rates affect exporters' mark-ups, the symmetry hypothesis has not been explored in the context of invoicing currency. On invoice currencies and exchange rate pass-through, empirical literature concludes that pass-through varies among products invoiced in different currencies and market structure. 2 Small open economy studies include Boz et al. (2017) and who study imports of Turkey and Colombia respectively. They conclude that the dollar exchange rate quantitatively dominates the bilateral exchange rate in pass-through to prices in the former and the dominant currency pass-through is high in the latter. Subsequent studies on exchange rate pass through have dealt with the invoice currency choice in relation to the exchange rate using transaction level data (Devereux et al. (2017a) ; ), the invoice currency choice and its determinants (Ligtharty and Werner (2012) ; Gopinath (2016)) or the tariff pass-through behavior separately (Hayakawa and Ito (2015) ). However, the paper further demonstrates that even when the dollar has the highest share, other vehicle currency ERPT matters as much as the \"dominant\" currency, hence the focus on the euro.",
+        "cite_spans": [
+          {
+            "start": 370,
+            "end": 387,
+            "text": "Boz et al. (2017)",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 801,
+            "end": 825,
+            "text": "(Devereux et al. (2017a)",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 880,
+            "end": 908,
+            "text": "(Ligtharty and Werner (2012)",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 975,
+            "end": 999,
+            "text": "(Hayakawa and Ito (2015)",
+            "ref_id": "BIBREF18"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Studies on EU trade and euro usage in trade have mainly been done with a sample of advanced economies and/or trade partners. One key factor is due to the lack of data that details invoicing currencies used for both advanced and developing economies. L. S. Goldberg and Tille (2005) found that non-euro area countries have higher U.S. dollar invoicing while euro area countries are more likely to invoice in the euro. L. S. Goldberg (2008) found that the euro is mainly used by countries with geographic proximity to the euro area, but not extensively used elsewhere. Kamps (2006) empirically showed that a country's membership or prospective membership of the EU increases the probability of choosing the euro as an invoicing currency. Ligtharty and Werner (2012) found that the euro tends to be chosen more frequently and has overtaken the U.S. dollar as a role of vehicle currency in Norwegian imports. This demonstrates that the euro is likely to continue to become important in international trade and would have implications, perhaps similar to, the dollar in explaining exchange rate pass-through. This paper brings these aspects in the literature together extending these studies to analyze the use of the euro in producer currency pricing and as a vehicle currency by EMU and non-EU European exporters in trading with a developing country and implications for ERPT and TPT. The paper also uses unpublished and novel data of Malawian imports from the European Union (EU), spanning between January 2007 to December 2018 at the 8-digit level of the Harmonized System (HS). Although importers are not identified, the data allows for careful construction of unit values measured at the level of a transaction, extending beyond the traditional use of aggregate level data.",
+        "cite_spans": [
+          {
+            "start": 256,
+            "end": 281,
+            "text": "Goldberg and Tille (2005)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 423,
+            "end": 438,
+            "text": "Goldberg (2008)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 567,
+            "end": 579,
+            "text": "Kamps (2006)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 736,
+            "end": 763,
+            "text": "Ligtharty and Werner (2012)",
+            "ref_id": "BIBREF22"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The rest of this paper is organized as follows: a conceptual framework model is presented in section 2; section 3 outlines the data handling, data sources and the descriptive analysis. In section 4 and 5 the empirical estimations and results on exchange rate and tariff pass-through and invoice currency choice are discussed respectively. Finally, Section 6 concludes this paper.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The conceptual framework is made of a simple pricing equation, under producer currency pricing and imperfect competition. Imperfect competition is the only conceivable market structure to investigate incomplete pass-through since a producer under perfect competition has no margin to adjust their price to exchange rate or tariff shocks (Feenstra (1989) ; Menon (1996) ; Devereux et al. (2017a) ). The price of an imported product paid by consumers in the destination country decomposes as:",
+        "cite_spans": [
+          {
+            "start": 337,
+            "end": 353,
+            "text": "(Feenstra (1989)",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 356,
+            "end": 368,
+            "text": "Menon (1996)",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 371,
+            "end": 394,
+            "text": "Devereux et al. (2017a)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "P M = (1 + T ) * ER * \u03c0 * C (1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "where: P M = is the consumer import price of tradables (in the importer's currency) C = is the marginal cost of production (in the exporter's currency) \u03c0 = the optimal mark-up ER = the exchange rate (number of importer currency units per unit of the exporter's currency)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "T = import duty",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "The exporter is assumed to set a price as a mark-up, \u03c0 on production costs C. The profit mark-up is theorized to depend on macroeconomic conditions, price of competing products in the domestic market and in the import market. As well documented in the literature survey by P. K. Goldberg and Knetter (1997) , incomplete pass-through implies that the difference between the estimated coefficient and full pass-through is offset by changes in the markup when a cost measure is included as a control variable. Based on the findings of Hayakawa and Ito (2015) and the theoretical model of Feenstra (1989) , incomplete pass-through means that an increase in T or ER induces the firm to decrease \u03c0 to reduce the impact of the shock on consumers prices. This is optimal if the price elasticity of demand is increasing so that the exporter is willing to reduce its mark-up when exchange rates or tariffs inflate consumer prices (Knetter, 1989) . In this case, \u03c0 is a decreasing function of both 1 + T and ER so that the overall elasticity of PC with respect to both these variables is expected to be lower than 1. Based on this, let us introduce a reduced-form estimated equation of the form:",
+        "cite_spans": [
+          {
+            "start": 279,
+            "end": 306,
+            "text": "Goldberg and Knetter (1997)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 532,
+            "end": 555,
+            "text": "Hayakawa and Ito (2015)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 585,
+            "end": 600,
+            "text": "Feenstra (1989)",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 920,
+            "end": 935,
+            "text": "(Knetter, 1989)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "ln(P M ) = \u03b1 ln(1 + T ) + \u03b2 ln ER + Controls",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "Standard theories of (optimal) incomplete pass-through would predict that the elasticity of PM with respect to (1 + T ) is equal to its elasticity to ER (i.e. \u03b1 = \u03b2 ). In cases of prices being rigid in local currency and/or the marginal cost of producing being elastic to 1 + T and ER with different intensities, \u03b1 may not equal \u03b2. An unexplored aspect is that these theories are based on the assumption that the exchange rate in the pricing equation is the exporters exchange rate. However, it has been shown in the growing body of literature that most of the world's trade is invoiced in a vehicle currency, especially the U.S. dollar.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "Therefore, the coefficient \u03b2, which is on the exporter currency exchange rate could be capturing movements in both a bilateral exchange rate against the exporter's currency and a depreciation against the invoicing currency. In the cases where the exchange rate is a vehicle currency, do we expect the relationship between \u03b1 and \u03b2 to still hold?",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Exchange Rates and Tariffs in the Mark-Up",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "The exchange rate pass-through in the short-run will depend on the currency of invoicing and will be high. If prices are flexible, the currency the transaction is invoiced does not matter, since the exporter can adjust their price in whichever currency to achieve the desired markup. With rigid prices however, then the invoicing currency will matter, even for the degree of pass-through that takes place after a price change (Devereux et al., 2017a) . Let \u03b4 k i be the fraction of a small economy's (h) imports from country i, invoiced in k currency in a given period. Where k = h if invoiced in the importers' currency (local currency pricing, LCP); k = i if invoiced in the exporters' currency (producer currency pricing, PCP); k = v if invoiced in a vehicle currency (vehicle currency pricing, VCP). If exporters choose PCP or VCP, then P M is dependent on the effect of ER depending on the exchange rate between the importers currency and the invoice currency choice. As demonstrated by L. S. Goldberg and Tille (2005) , exporters are not restricted to invoice entirely in one currency, and this is supported in the data. Such that for any one product, an exporter will have",
+        "cite_spans": [
+          {
+            "start": 426,
+            "end": 450,
+            "text": "(Devereux et al., 2017a)",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 998,
+            "end": 1023,
+            "text": "Goldberg and Tille (2005)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "\u03b4 h i + \u03b4 i i + \u03b4 v i = 1.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Under rigid prices, the invoicing currency matters as the firm chooses \u03c0 based on its expected revenue under LCP (P LCP /E(ER)) or based on the expected level of demand under PCP (Q(E(ER))P P CP )). An exporter with higher exchange rate pass-through is more likely to invoice transactions in their own currency, or in a vehicle currency while a firm with low pass-through is more likely to invoice in the importer's currency (See for instance and Devereux et al. (2017a) ). Gopinath et al. (2008) show that even when exporters have the same desired pass-through, the invoicing currency will differ depending on the differences in the frequency with which they adjust. Gopinath et al. (2010) show that if a firm's short-run price flexibility is constrained by a Calvo staggered pricing process, then it will follow LCP (PCP, VCP) when the empirical exchange rate pass-through coefficient is less than (greater than) 0.5.",
+        "cite_spans": [
+          {
+            "start": 447,
+            "end": 470,
+            "text": "Devereux et al. (2017a)",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 474,
+            "end": 496,
+            "text": "Gopinath et al. (2008)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 668,
+            "end": 690,
+            "text": "Gopinath et al. (2010)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "Since standard theories of optimal (incomplete) pass-through would predict that the elasticity of PM with respect to (1 + T ) is equal to its elasticity to ER, we take this as an indication that the firm will likewise follow LCP (PCP, VCP) when the empirical tariff pass-through coefficient is less than (greater than) 0.5. Shocks in either tariffs or exchange rates should induce exporters to switch across invoicing strategies. We thus test whether pass-through rates of exchange rate and tariff changes are significantly different depending on the invoicing currency. Thus, in terms of our notation, we should anticipate that a given product from an exporter constrained by a Calvo price adjustment process, it will be invoiced in PCP or VCP when",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "cov(\u2206 \u03c4 p gt , \u2206 \u03c4 e it ) \u2206 \u03c4 e it > 0.5",
+            "eq_num": "(3)"
+          }
+        ],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "and",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "cov(\u2206 \u03c4 p gt , \u2206 \u03c4 ln (1 + T gt ) \u2206 \u03c4 ln (1 + T gt ) > 0.5",
+            "eq_num": "(4)"
+          }
+        ],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "3 Data",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "This paper uses a monthly series of customs-level transaction data for Malawi's imports from the EU between January 2007 to December 2018. The data covers the universe of Malawian imports (about 3.3 million transactions in total) and is obtained from the Malawi National Statistical Office (NSO). The data contains individual transactions made within each month at the HS-8-digit product level. Each transaction contains information on exporting country, the currency in which each transaction was invoiced in, the before tariff value of the transaction, all the applicable import taxes for the transaction and the quantity of the products. The import taxes vary based on various factors including the importing institution/firm, trade agreements with exporting countries, types of good and any other change in trade policy.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Customs Data",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "A key challenge with the data in a single month, transactions of products with very similar characteristics have different tariff rates. Since the data does not provide importer and exporter identifiers, in order to have consistent prices and tariffs for each time the product appears in the data, we provide evidence in the next section on the mechanism to ensure that we are observing actual changes in tariff rates as opposed to changes due to importer characteristics or other unobservable information from the data.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Customs Data",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "The sample includes 28 EU member countries (See Table A1 in the Appendix). 3 Each country is grouped into one of two groups apart from being a member of the EU: (1) Eurozone member (henceforth referred to as EMU) and (2) Non-Members, which includes prospective members, which are countries that have either committed to join the euro area or are preparing to join for the countries and also includes those that are part of the EU but have negotiated to opt out of the euro area (henceforth referred to as non-EMU). 4 Over the years, EU share in Malawian imports has been between 15-25 percent. An average of nearly 17 percent of Malawian imports originated from the EU in the study period, of which the share of EMU and non-EMU was nearly 50:50 (Figure 1 ), although for some of the years in the sample, the EMU share among imports from the EU was slightly higher. Nearly 80 percent of all imported products from the EU is from 7 of the 28 countries in the 2007-2018 period. The largest share in value of imports from the EU (World) is the UK with 27 percent (5.7 percent), then Germany with 11 percent (2.1 percent), followed by Denmark, the Netherlands and France accounting for 10 percent (1.3 percent), 9 percent (1.7 percent) and 8 percent (1.3 percent) respectively.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 48,
+            "end": 56,
+            "text": "Table A1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 745,
+            "end": 754,
+            "text": "(Figure 1",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Trade Patterns",
+        "sec_num": null
+      },
+      {
+        "text": "Malawi's main imports in the 2007-2018 period (in value terms) were products of the chemicals or allied industries (25.6 percent of all imports) and machinery and electrical products (17.0 percent of all imports) of which 17.5 percent and 24.4 percent respectively, were imported from the EU. Chemicals or allied industries also accounted for the majority share among imports from the EU (26.9 percent) of this, 76 percent were from the EMU member countries ( Figure 2 ). EMU countries were also the origin of 73 percent of machinery and electrical imports from the EU and had a larger share in all products except plastics and rubbers, wood, rawhides and transportation.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 460,
+            "end": 468,
+            "text": "Figure 2",
+            "ref_id": "FIGREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Trade Patterns",
+        "sec_num": null
+      },
+      {
+        "text": "According to Bacchetta and Wincoop (2005) , the currency of a monetary union tends to be used most for trade invoicing by members, but our data shows the dominance of dollar invoicing in world trade prevails even in imports from the eurozone. Although a larger proportion of euro invoiced products from the EU were from the EMU (84 percent), the U.S. dollar surpasses the euro in terms of the total value share of imports for both EMU and non-EMU countries. On average, between 2004 and 2018, just over 40 percent of imports from the EMU was invoiced in the euro while the U.S dollar took up nearly half of all the import value. The dollar share for non-EMU countries however is higher (nearly 60 percent), while the euro share is notably lower (less than 10 percent), consistent with L. S. Goldberg and Tille (2005) . Boz et al. (2020) find that countries that joined the European Union (EU), EU candidate countries, and other European countries have experienced marked increases in the use of the euro as an invoicing currency. In both cases, the remainder of currencies apart from the euro and the dollar were their own currencies or in rare cases, another vehicle currency apart from the dollar and the euro. There were about 18 currencies in total used by EMU countries in invoicing products exported to Malawi, and about 30 currencies used in total in all the imports from the EU, including the South African rand and the Malawi kwacha itself.",
+        "cite_spans": [
+          {
+            "start": 13,
+            "end": 41,
+            "text": "Bacchetta and Wincoop (2005)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 791,
+            "end": 816,
+            "text": "Goldberg and Tille (2005)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 819,
+            "end": 836,
+            "text": "Boz et al. (2020)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency Patterns",
+        "sec_num": null
+      },
+      {
+        "text": "A product breakdown on currency invoicing reveals that the dollar dominates in most products except for food, machinery and electrical products and transportation, 5 where the euro dominates in the first two (48.9 percent and 47.5 percent respectively) and the pound is the most used for transportation (42.6 percent, Figure 3 ). 6 Interestingly, at both the EU and EMU level, mineral products have a higher share of Malawi Kwacha invoicing of just over 30 percent in both cases. All these statistics are unlike Norwegian imports in which the euro was reported to have overtaken the U.S. dollar Ligtharty and Werner (2012) . ",
+        "cite_spans": [
+          {
+            "start": 595,
+            "end": 622,
+            "text": "Ligtharty and Werner (2012)",
+            "ref_id": "BIBREF22"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 318,
+            "end": 326,
+            "text": "Figure 3",
+            "ref_id": "FIGREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Invoice Currency Patterns",
+        "sec_num": null
+      },
+      {
+        "text": "Although the world has been heading towards free trade, developing countries such as Malawi still have considerably high tariffs. These tariffs have also been slightly increasing.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "On average, import duties ranged from 0 -30 percent over the time span in the sample, with more volatile changes in products within animals and vegetables for instance, relative to machinery and electrical products ( Figure 4 ). Rates are the highest overall with food products and have been increasing across products. Since customs level data is used, it means that in a single month, a product with the same HS-8 code, from the same country invoiced in the same currency can be imported several times and different tariff rates can be applied to each transaction. In addition, similar products may be measured using different units of measurement. This implies that in a month, there are several transactions of similar characteristics with a different tariff rate and we need to define a product and its related price that can be tracked over time in order to conduct panel estimation with a monthly series. We can do this by closely following Devereux et al. (2017a) . 7",
+        "cite_spans": [
+          {
+            "start": 948,
+            "end": 971,
+            "text": "Devereux et al. (2017a)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 217,
+            "end": 225,
+            "text": "Figure 4",
+            "ref_id": "FIGREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "In any given month t, let L be a set of transactions with the same HS 8-digit code (HS ), from the same exporting country (exp), invoiced in the same currency (cur ) and measured in the same units (u). Such that L = (HS, exp, cur, u). For a given l \u2208 L, the unit price per transaction of m value in Malawi kwacha (MWK)and q quantity will be:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "p l = m l q l",
+            "eq_num": "(5)"
+          }
+        ],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "As it is possible that in a month, transactions within the set L have different tariff rates applied, we define R as the set of all possible tariff rates applied to the transactions of L. Then for any r \u2208 R, we can define L r as:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "L = (HS, exp, cur, u) be a set of transactions in t such that L r = {l \u2208 L having tariff r} where L = U r\u2208R L r .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "The goal then is to select L r : transactions within L with the exact same tariff rate applied each time they appear in the data. To arrive at a consensus for the tariff rate without having to average the rates within the set L, we select the tariff rate and transactions that most represent the transactions in the set. 8 We definer as the r \u2208 R, the sub-sample of transactions with the most commonly used tariff rate applied. This is then the selected tariff rate that will be analyzed. The transactions that fit in these criteria can be observed at most once in a month and enables empirical analysis using a large panel data set.",
+        "cite_spans": [
+          {
+            "start": 321,
+            "end": 322,
+            "text": "8",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "We can now define a product g which corresponds to L r . There are 29,367 unique g products which corresponds to 3,382 HS 8-digit codes, 29 different invoicing currencies and the 28 exporting EU countries. Each g product appears in about 20 percent of the months.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "We can then proceed to construct a price index for this product. First, we calculate the quantity weight \u03b1, for each transaction l within g :",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "\u03b1 lg = q lg l\u2208g q g (6)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "q lg is the quantity of each transaction l within g and q g is the quantity all transactions g. Then the quantity weighted price for g will be:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "p g = l\u2208g (\u03b1 lg * p l )",
+            "eq_num": "(7)"
+          }
+        ],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "p l is as defined in equation 5.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Import Duty",
+        "sec_num": null
+      },
+      {
+        "text": "Overall Pass-TRhrough",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Econometric Specification",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "We are now ready to estimate equation 2 for the product g by taking the change in the natural log of variables over time. Note that by construction, we do not observe pass-through that is triggered purely by exchange rate movements without any price adjustments undertaken by the exporter. We estimate pass-through conditional on a price change, and because we have detailed information on the country of origin of the imported HS-8 digit good, the bilateral exchange rate can be used unlike the case for the aggregate price index (Gopinath, 2016) . Equation 8 will estimate tariff and exchange rate pass-through for products from EMU and non-EMU countries and across HS-2 product categories.",
+        "cite_spans": [
+          {
+            "start": 531,
+            "end": 547,
+            "text": "(Gopinath, 2016)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Econometric Specification",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "\u2206 \u03c4 p gt = \u03b1\u2206 \u03c4 ln (1 + T gt ) + \u03b2\u2206 \u03c4 ln e it + \u03b8\u03c0 it + \u03b1 n + \u03b3 t + u it + t (8)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Econometric Specification",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "where \u03c4 is the last month the product g was imported, such that \u2206 \u03c4 represents the cumulative change over the duration for which subsequent imports of product g are observed, 9",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Econometric Specification",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "\u2206 \u03c4 p gt is ln P gt \u2212 ln P g\u03c4 , the change in the log of import price of g, \u2206 \u03c4 ln (1 + T gt ) is ln(1 + T gt ) \u2212 ln(1 + T g\u03c4 ), the change in the log of the tariff rate applied to product g, \u2206 \u03c4 e it is ln e it \u2212 ln e i\u03c4 , the change in the log of the nominal exchange rate (ER) expressed in MWK per unit of foreign currency such that a positive (negative) value corresponds to depreciation (appreciation), \u03c0 it is the monthly foreign country in inflation using the consumer price index to control for exporting country's aggregate prices; \u03b1 n are product fixed effects, \u03b3 t are time fixed effects and t is the error term.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Econometric Specification",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Based on our prior discussion, we expect the cumulative tariff pass-through. \u03b1 to equal the cumulative exchange rate pass-through, \u03b2. Figure 5 displays the dependent variable over product types in our time sample. The frequency and magnitude of price changes are heterogeneous across products, with prices of goods such as chemicals and machinery having lower magnitude changes than products such as animals and food products. Notably, this coincides with Figure 4 , with products that have more frequency in the import duty rate paid on them also having more frequent changes in their price changes. However, we do not see significant difference in the magnitude of price changes at the product level after adopting the floating exchange rate period in May 2012. This we will control for using time fixed effects.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 134,
+            "end": 142,
+            "text": "Figure 5",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 456,
+            "end": 464,
+            "text": "Figure 4",
+            "ref_id": "FIGREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Econometric Specification",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "The coefficient on the bilateral exchange rate is an average of potentially heterogeneous exchange rate pass-through (ERPT) to import prices: on one hand is the coefficient from EU countries that invoice in the euro and on the other hand is the coefficient from countries that invoice in USD. The conceptual discussion suggests that pass-through rates will be associated with different currency types. To test these hypotheses, we introduce dummy variables for whether a specific product is priced in the euro or the dollar, and include a full set of interaction terms with the exchange rate similar to Devereux et al. (2017a), but we add the tariff. where k is the currency to be analyzed, D k takes the value 1 if a product is invoiced in k and 0 otherwise, \u03c6 1 and\u03c6 2 are ERPT and TPT of products not invoiced in k respectively, \u03b2 k and \u03b1 k directly pick up estimates for goods invoiced in k. In this case, D k represents D U SD , D EU R , D GBP : dummy variables for observations of transactions invoiced in the U.S. dollar, the euro and the pound respectively. Figure 6 plots the changes in the log of price and tariff for products invoiced in various currencies. As tariffs are product specific, the tariff changes are broadly the same across currencies, but the price changes are not. Thus, we can expect that the magnitude of price change with respect to a tariff change will differ for products invoiced in different currencies.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 1066,
+            "end": 1074,
+            "text": "Figure 6",
+            "ref_id": "FIGREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Invoice Currency and Pass-Through",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u2206 \u03c4 p gt = \u03b1 + k (\u2126 k D k ) + \u03c6 1 (\u03a0 k (1 \u2212 D k )\u2206 \u03c4 e it ) + k (\u03b2 k (\u2206 \u03c4 e it * D k )) + \u03c6 2 (\u03a0 k (1 \u2212 D k )\u2206 \u03c4 ln (1 + T gt ) + k (\u03b1 k (\u2206 \u03c4 ln (1 + T gt ) * D k )) + \u03b8\u2206 \u03c4 Z it + t",
+            "eq_num": "(9)"
+          }
+        ],
+        "section": "Invoice Currency and Pass-Through",
+        "sec_num": null
+      },
+      {
+        "text": "This is based on our theoretical underpinnings discussed in section 2, where we expect the coefficients on the exchange rate and tariff to be equal. Assuming a product is exported by firms constrained by the Calvo pricing adjustment, then products invoiced in PCP or VCP will have both \u03b1 and \u03b2 > 0.5 (see equation 3 and 4). Finally, we include the exchange rate of the euro and the USD in our baseline specification, and we test whether (i) the symmetry still holds with the bilateral exchange rate when the euro and dollar exchange rates are in the equation; (ii) whether the symmetry with tariff hold with the dollar or the euro exchange rate in addition or instead of the bilateral exchange rate. We do this by estimating equation 10 \u2206 \u03c4 p gt = \u03b1\u2206 \u03c4 ln (1 + T gt ) + \u03b2 1 \u2206 \u03c4 ln e it + \u03b2 2 \u2206 \u03c4 ln e usd,t + \u03b2 3 \u2206 \u03c4 ln e euro,t + \u03b8\u03c0 it + \u03b1 n + \u03b3 t + u it + t (10)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency and Pass-Through",
+        "sec_num": null
+      },
+      {
+        "text": "5 Results",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Invoice Currency and Pass-Through",
+        "sec_num": null
+      },
+      {
+        "text": "Estimations from equation 8 are presented in Table 1 . The cumulative tariff passthrough (TPT) from an increase in import duty on an HS-8 product from an EU country is on average 93 percent. The cumulative exchange rate pass-through (ERPT) from a depreciation in the bilateral exchange rate between MWK and the exporting EU country is on average 90 percent. The difference between these two pass-through coefficients however is not statistically significant from zero, thus \u03b1 is equal to \u03b2 for the EU wide results. Notably, the coefficient for the tariff pass-through is around 14 percent higher for EMU and lower for non-EMU countries, and this difference is statistically significant. On the contrary, exchange rate pass-through rates are not statistically different between EMU and non-EMU countries. We expect the difference to matter for the invoice currency of products more than EMU membership of exporting country. The close to complete pass-through is comparable to results of Colombia, which is another developing country study on invoice currency and exchange rate pass-through by . Table A2 presents the product level regression results. The results are generally in line with theory, with some heterogeneity across sectors and whether products are from the EMU or non-EMU EU country. When analyzing for the EU as a whole, tariff pass-through coefficients are generally not statistically different from exchange rate pass-through coefficients. There are three main exceptions: for wood and raw hides leather articles, tariff pass-through coefficients are lower than exchange rates. This result is driven solely by non-EMU countries, where the exchange rate pass-through to import prices is around 166 percent while the tariff pass-through is around half of that (Table A2) . The relatively higher ERPT compared to other sectors is contrary with findings by sector for Casas (2019) for Colombia, who finds that manufacturers of apparel, leather, and wood products use the fewest imported inputs and therefore have the lowest ERPT into prices.",
+        "cite_spans": [
+          {
+            "start": 1880,
+            "end": 1892,
+            "text": "Casas (2019)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 45,
+            "end": 52,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 1094,
+            "end": 1102,
+            "text": "Table A2",
+            "ref_id": "TABREF1"
+          },
+          {
+            "start": 1774,
+            "end": 1784,
+            "text": "(Table A2)",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Overall Pass-Through",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "The other \"anomaly\" for EU wide results where the symmetry does not hold, i.e.,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Overall Pass-Through",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "where \u03b1 is not equal to \u03b2, is found with chemicals and allied industries (driven by non-EMU results) and machinery and electrical products (driven by EMU results), in which the tariff pass-through rates are higher than the exchange rates. The ERPT findings are in line with the findings of Casas (2019) for these sectors and the higher tariff pass-through compared to exchange rate pass-through are in line with (Mallick & Marques, 2008) . Thus, importers pay more for a tariff increase compared to a depreciation for these products. The result for the food industry is masked in the EU-wide estimates but evident in the EMU results.",
+        "cite_spans": [
+          {
+            "start": 412,
+            "end": 437,
+            "text": "(Mallick & Marques, 2008)",
+            "ref_id": "BIBREF23"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Overall Pass-Through",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "Contrary to Casas (2019) , the exchange rate pass-through is among the lowest but the tariff pass-through is very high, consistent with the high tariffs on these products.",
+        "cite_spans": [
+          {
+            "start": 12,
+            "end": 24,
+            "text": "Casas (2019)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Overall Pass-Through",
+        "sec_num": "5.1"
+      },
+      {
+        "text": "In our benchmark regression and the main result of the paper, we first delve into the role of bilateral exchange rates in the import prices of transactions in USD and the euro from EMU and non-EMU EU countries. The tariff pass-through to dollar invoiced products does not differ statistically from that of euro invoiced imports, both from the EMU and non-EMU countries. However, the exchange rate pass-through of the bilateral exchange rate significantly differs between euro and dollar invoiced imports from the EMU, with dollar invoiced products having pass-through of 18.5 percentage points higher than euro invoiced products ( Figure 7) . For the non-EMU countries however, there is no difference in the passthrough of the exchange rate between euro and dollar invoiced products. This is expected since both the euro and the dollar are vehicle currencies for the non-EMU states, while the euro is the exporter currency (producer currency pricing) in the case of the EMU.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 631,
+            "end": 640,
+            "text": "Figure 7)",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "The Bilateral Exchange Rate and the Invoicing Currency",
+        "sec_num": "5.2"
+      },
+      {
+        "text": "The symmetry hypothesis holds for euro invoiced products from non-EMU, but does not for EMU originating goods, with tariff pass-through of 41.4 percentage points higher than the exchange rate. However, the hypothesis holds for dollar invoiced products from both EMU and non-EMU countries, which is expected as both are vehicle currencies for these countries. -For all the sectors, we find that the symmetry holds between the pass-through of the bilateral exchange rates and tariff for products invoiced in the euro and the dollar (Table 2) . 10",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 530,
+            "end": 539,
+            "text": "(Table 2)",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "The Bilateral Exchange Rate and the Invoicing Currency",
+        "sec_num": "5.2"
+      },
+      {
+        "text": "The responses to an exchange rate and tariff shock are not statistically distinguishable from zero for all sectors, within and outside the EMU for imports from the EU. Notable exceptions are found in textiles and footwear as well as stone, glass and metal products. In these cases, the tariff pass-through is significantly higher than the ERPT for euro invoiced products from non-EMU states (Table A3 ). The results are generally in line with the predictions of the Calvo pricing theory, in that the empirical coefficients are larger than 0.5 for both euro and U.S. dollar-invoiced products (which are PCP and VCP currencies) and for both TPT and ERPT.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 391,
+            "end": 400,
+            "text": "(Table A3",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "The Bilateral Exchange Rate and the Invoicing Currency",
+        "sec_num": "5.2"
+      },
+      {
+        "text": "There is generally no difference in tariff pass-through for euro-priced goods and dollarpriced goods from the EMU except for machinery and electrical products where the euro priced TPT is higher and textiles, footwear and headgear where the TPT for the euro invoiced products is lower (Table 2, last 2 columns). We however do not find statistical difference in ERPT coefficients between products invoiced in the two currencies. For the non-EMU EU products, the difference in tariff pass-through between the euro and dollar estimates is both large and statistically significant for 2 of the 9 sectors: stone, glass and metal products and wood and raw hides leather products. In both cases, euro invoiced products have higher coefficients.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Bilateral Exchange Rate and the Invoicing Currency",
+        "sec_num": "5.2"
+      },
+      {
+        "text": "For all the sectors, the rate of ERPT is not statistically different between euro and U.S. dollar invoiced products with the exception of textiles, footwear and headgear. These results are comparable to those of (Devereux et al., 2017b) who use the same specification, in that the pass-through of both dollar and euro invoiced products were higher (higher than the local currency priced products), despite the euro not having a large share in the Canadian imports. In their paper, textile and footwear was also an anomaly. Malawi being a small, developing country however, these results allow us to differentiate between vehicle currencies or producer currency versus vehicle currencies in the case of EMU countries, as there is little evidence of Malawi kwacha invoicing in Malawian imports. ",
+        "cite_spans": [
+          {
+            "start": 212,
+            "end": 236,
+            "text": "(Devereux et al., 2017b)",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Bilateral Exchange Rate and the Invoicing Currency",
+        "sec_num": "5.2"
+      },
+      {
+        "text": "When we include the euro and the dollar exchange rates, first, the results of Table 1 no longer consistently hold ( see Table 3 ). First, when we include the dollar exchange rate alone, the symmetry hypothesis does not hold in the EMU estimation, but does so with non-EMU estimations. Specifically, we find that the tariff pass-through is again much larger than the exchange rate pass-through for EMU products, by 21 percentage points. When we include only the euro exchange rate, we have the inverse result. That is, the symmetry hypothesis holds for EMU products but does not for imports from non-EMU countries, where the tariff pass-through is in this case 18 percentage points lower than the exchange rate pass-through.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 78,
+            "end": 88,
+            "text": "Table 1 no",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 120,
+            "end": 127,
+            "text": "Table 3",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "The Euro and Dollar Exchange Rates",
+        "sec_num": "5.3"
+      },
+      {
+        "text": "We can thus infer that the pass-through of producer currency pricing is higher than vehicle currency pricing for EMU products. Since both the euro and the US dollar are vehicle currencies for non-EMU countries, the higher euro pass-through may be associated with proximity to the euro (Ligtharty & Werner, 2010) .",
+        "cite_spans": [
+          {
+            "start": 285,
+            "end": 311,
+            "text": "(Ligtharty & Werner, 2010)",
+            "ref_id": "BIBREF21"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Euro and Dollar Exchange Rates",
+        "sec_num": "5.3"
+      },
+      {
+        "text": "When we include the dollar exchange rate, the bilateral exchange rate has a lower pass-through to products from the EMU countries (64 percent compared to 89 percent in the baseline, note that this is effectively the euro exchange rate) but the coefficient on the dollar exchange rate itself is no longer statistically different from zero. This is the case although more than half of imports from the EMU are in the dollar, a diversion from the findings of who find that the dollar exchange rate knocks out the effect of the bilateral exchange rate for Colombia and becomes the \"dominant\" effect. The tariff pass-through is roughly the same and still very high. Consequently, the symmetry hypothesis between the dollar exchange rate and the TPT rate does not hold. Notably, the symmetry hypothesis still holds with the bilateral exchange rate, even when the dollar exchange rate is included in the regression. The last three columns of Table 3 shed some light on this.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 935,
+            "end": 942,
+            "text": "Table 3",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "The Euro and Dollar Exchange Rates",
+        "sec_num": "5.3"
+      },
+      {
+        "text": "We observe that this dominant effect is there for the non-EMU countries, where the dollar exchange rate not only has the sole explanatory power to prices from EMU among the bilateral and euro exchange rates, but also the one where the symmetry hypothesis holds, as it did in the baseline, thus making the bilateral exchange rate in the overall pass-through estimates in Table 1 . Consequently, the dollar exchange rate effect is identical to the effect of tariffs for imports from non-EMU states. On the other hand, the tariff effect is no longer equivalent to the bilateral exchange rate effect when we include the dollar exchange rate.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 370,
+            "end": 377,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "The Euro and Dollar Exchange Rates",
+        "sec_num": "5.3"
+      },
+      {
+        "text": "The EMU result seems to suggest that tariffs are key in determining import prices for these products compared to the dollar exchange rate.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Euro and Dollar Exchange Rates",
+        "sec_num": "5.3"
+      },
+      {
+        "text": "Using highly disaggregated customs level data, this paper provides, to my knowledge, the first empirical evidence on the role of invoicing currencies in both exchange rate and tariff pass-through to import prices for a developing country. This paper contributes to the large empirical literature on exchange rate (and tariff) pass-through. Thanks to these rich data, we are able to i) estimate exchange rate and tariff pass-through within an integrated framework at a high level of disaggregation, and ii) estimate pass-through rates for various groups of countries (Economic and Monetary Union (EMU) members and non-EMU EU members), various currencies of invoicing (euro and the U.S dollar) and various sectors.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6"
+      },
+      {
+        "text": "The results show that, on average, the pass-through rate of exchange rate and tariff shocks on to Malawian consumers is high with some variations across products, countries and invoicing currencies. In particular, we find that the pass-through of tariffs and bilateral exchange rates are identical, with generally no difference in tariff pass-through to euro-priced goods compared to dollar invoiced products except for a few sectors. There is a difference however in exchange rate pass-through of euro invoiced import prices from the EMU, being nearly 20 percentage points lower than dollar invoiced products. Consequently, the symmetry hypothesis no longer holds for EMU products invoiced in the euro and tariff pass-through coefficients are much higher than ERPT coefficients (over 40 percent). When either the euro or the dollar exchange rates are used, again tariffs take up the most explanatory power in the changes in import prices of EMU products exported to Malawi, but there is clarity on which exchange rate matters.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6"
+      },
+      {
+        "text": "The symmetry assumption holds with the euro exchange rate in EMU products but tariffs affect import prices more than the dollar exchange rates. This is despite that the dollar has a larger share in currency invoicing of imports from the EU from both EMU and non-EMU countries. However, since euro invoicing by members of the EMU surpasses that of non-members (including prospective members), we find that the dollar exchange rate matters more than the euro or the bilateral exchange rate for non-EMU countries' products.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6"
+      },
+      {
+        "text": "Symmetry holds with either the euro or the dollar exchange rates in these products as both are vehicle currencies to non-EMU states.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6"
+      },
+      {
+        "text": "The implications are that although the symmetry hypothesis holds for the bilateral exchange rate even for products invoiced in various currencies, ultimately this is no longer the case when the invoicing currency exchange rate is used. Pass-through substantially increases when the analysis accounts for invoicing currencies, allowing us to assess what matters more for import prices. Thus, in order to predict the effects of trade policy based on import prices' responses to exchange rates, bilateral exchange rates are not suitable for capturing exchange rate pass-through. It is also insufficient to account for simply the share of invoicing in imports, as the differences between producer and vehicle currency pricing also persist for prices, and pass-through of \"\"non-dominant\" currencies is still high, for small developing countries such as Malawi. Table A1 has lists all the EU countries in the sample. The asterisks indicate which group the country was considered in based on euro area membership, for the analysis. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 856,
+            "end": 864,
+            "text": "Table A1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Concluding Remarks",
+        "sec_num": "6"
+      },
+      {
+        "text": "National Statistics Office, https://eeas.europa.eu/delegations/malawi/1477/malawi-and-eu\u02d9en",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "See for instanceDevereux et al. (2017a),Zhang (2017)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Brexit: As indicated by the European Commission, the U.K is still being treated as part of the EU in the sample period, so it remains part of the EU for this analysis.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Since some countries joined the euro area during the sample period, we do not group member states solely based on the dates joined but also based on the number of observations in the two periods. For instance, if a country joined the euro area in 2014 but all transactions in the data are prior to that period, then this country is accounted for as a non-member state.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "This is mainly due to car imports that are mainly sourced from the U.K and Japan, (especially since Malawi also drives on the left). Zooming in on products from the EMU, the euro share in machinery and electrical products is nearly 60 percent and that of transportation is 62.3 percent, with the dollar dominating in most of the other products.6 SeeFigure A1in the Appendix. This may be in line with product differentiation, which is theorized to be invoiced in the exporters' currency (L. S.Goldberg, 2008).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Our data differs from that of the study byDevereux et al. (2017a) in that we are also analyzing import duty on each transaction. Since the only information missing is the importer identifier, it is assumed that the differences in tariff arise based on importer characteristics.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We take those with the same tariff and have the highest count in the set and in case of equality in the number of transactions with the same rate, we take the set with the highest transaction value. All the other transactions in the set are discarded and the process starts again for the next set and so on. After this process, about 3.5 percent of transactions were discarded during this procedure.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "It is possible that the interval between product observations is affected by the pass-through, but given the data set, this is unlikely to be a critical factor and would not be likely to impart a significant bias to the estimated mean pass-through, and not the relationship between pass-through and invoice currency(Devereux et al., 2017a).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We do not show the column with the differences between the coefficients as they are all not statistically different from zero, i.e. they are equal.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "A theory of the currency denomination of international trade",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Bacchetta",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [
+              "V"
+            ],
+            "last": "Wincoop",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of International Economics",
+        "volume": "67",
+        "issue": "",
+        "pages": "295--319",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bacchetta, P., & Wincoop, E. V. (2005). A theory of the currency denomination of interna- tional trade. Journal of International Economics, 67, 295-319.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Trade and Currency Weapons",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Benassy-Quere",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Bussi\u00e8re",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Wibaux",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "CEPII Working Paper",
+        "volume": "",
+        "issue": "7112",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Benassy-Quere, A., Bussi\u00e8re, M., & Wibaux, P. (2018). Trade and Currency Weapons. CEPII Working Paper, (7112). https://ideas.repec.org/p/ces/ceswps/ 7112.html",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Tariff and exchange rate pass-through for chinese exports: A firmlevelanalysis across customs regimes",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Bouveta",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Ma",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Asschec",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "China Economic Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1016/j.chieco.2017.08.013"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Bouveta, F., C.Ma, A., & Asschec, A. (2017). Tariff and exchange rate pass-through for chinese exports: A firmlevelanalysis across customs regimes. China Economic Review. https://doi.org/http://dx.doi.org/10.1016/j.chieco.2017.08.013",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Patterns in invoicing currency in global trade. IMF Working Papers WP/20/126",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Patterns in invoicing currency in global trade. IMF Working Papers WP/20/126. https://www.imf.org",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Global trade and the dollar",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Boz",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Gopinath",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Plagborg-M\u00f8ller",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Boz, E., Gopinath, G., & Plagborg-M\u00f8ller, M. (2017). Global trade and the dollar. NBER Working Paper 23988. http://www.nber.org/papers/w23988",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Industry heterogeneity and exchange rate pass-through. BIS Working Papers No 787",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Casas",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Casas, C. (2019). Industry heterogeneity and exchange rate pass-through. BIS Working Pa- pers No 787. https://www.bis.org",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Dollar pricing redux",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Casas",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Diez",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Gopinath",
+            "suffix": ""
+          },
+          {
+            "first": "P.-O",
+            "middle": [],
+            "last": "Gourinchas",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "BIS Working Papers No",
+        "volume": "653",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Casas, C., Diez, F., Gopinath, G., & Gourinchas, P.-O. (2017). Dollar pricing redux. BIS Working Papers No 653. https://www.bis.org",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Dominant currency paradigm: A new model for small open economies",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Casas",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [
+              "J"
+            ],
+            "last": "Diez",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Gopinath",
+            "suffix": ""
+          },
+          {
+            "first": "P.-O",
+            "middle": [],
+            "last": "Gourinchas",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Casas, C., Diez, F. J., Gopinath, G., & Gourinchas, P.-O. (2017). Dominant currency paradigm: A new model for small open economies. IMF Working Paper No. 17/264. https : //www.imf.org",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Importers and exporters in exchange rate pass-through and currency invoicing",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "B"
+            ],
+            "last": "Devereux",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Dong",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Tomlin",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Journal of International Economics",
+        "volume": "105",
+        "issue": "",
+        "pages": "187--204",
+        "other_ids": {
+          "DOI": [
+            "10.1016/j.jinteco.2016.12.011"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Devereux, M. B., Dong, W., & Tomlin, B. (2017a). Importers and exporters in exchange rate pass-through and currency invoicing. Journal of International Economics, 105, 187-204. https://doi.org/10.1016/j.jinteco.2016.12.011",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Importers and exporters in exchange rate pass-through and currency invoicing",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "B"
+            ],
+            "last": "Devereux",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Dong",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Tomlin",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Journal of International Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Devereux, M. B., Dong, W., & Tomlin, B. (2017b). Importers and exporters in exchange rate pass-through and currency invoicing. Journal of International Economics, 105, Accepted Manuscript.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Symmetric pass-through of tariffs and exchange rates under imperfect competition: An empirical test",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "C"
+            ],
+            "last": "Feenstra",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "Journal of International Economics",
+        "volume": "27",
+        "issue": "",
+        "pages": "25--45",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Feenstra, R. C. (1989). Symmetric pass-through of tariffs and exchange rates under imperfect competition: An empirical test. Journal of International Economics, 27, 25-45.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Observations on currency invoicing of international trade",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [
+              "S"
+            ],
+            "last": "Goldberg",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Goldberg, L. S. (2008). Observations on currency invoicing of international trade. https : //www.newyorkfed.org",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Vehicle currency use in international trade",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [
+              "S"
+            ],
+            "last": "Goldberg",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Tille",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Goldberg, L. S., & Tille, C. (2005). Vehicle currency use in international trade. Federal Reserve Bank opf New York Staff Report no. 200. https://www.newyorkfed.org",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Goods prices and exchange rates: What have we learned",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [
+              "K"
+            ],
+            "last": "Goldberg",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "M"
+            ],
+            "last": "Knetter",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Journal of Economic Literature",
+        "volume": "35",
+        "issue": "",
+        "pages": "1243--1272",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Goldberg, P. K., & Knetter, M. M. (1997). Goods prices and exchange rates: What have we learned? Journal of Economic Literature, 35, 1243-1272.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "The international price system",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Gopinath",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Jackson Hole Symposium",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gopinath, G. (2016). The international price system. 2015 Jackson Hole Symposium. https: //scholar.harvard.edu",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Currency choice and exchange rate passthrough (tech. rep",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Gopinath",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Itskhoki",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Rigobon",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gopinath, G., Itskhoki, O., & Rigobon, R. (2008). Currency choice and exchange rate pass- through (tech. rep.). https://www.princeton.edu",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Currency choice and exchange rate passthrough",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Gopinath",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Itskhoki",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Rigobon",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "American Economic Review",
+        "volume": "100",
+        "issue": "",
+        "pages": "304--340",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gopinath, G., Itskhoki, O., & Rigobon, R. (2010). Currency choice and exchange rate pass- through. American Economic Review, 100, 304-36.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Tariff pass-through of the world-wide trade: Empirical evidence at tariff-line level (tech. rep",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Hayakawa",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Ito",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "ERIA Discussion Paper Series ERIA-DP-2015-34",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hayakawa, K., & Ito, T. (2015). Tariff pass-through of the world-wide trade: Empirical evi- dence at tariff-line level (tech. rep.). ERIA Discussion Paper Series ERIA-DP-2015-34. http://www.eria.org",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "The euro as invoicing currency in international trade",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Kamps",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "European Central Bank Working Paper Series",
+        "volume": "665",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kamps, A. (2006). The euro as invoicing currency in international trade. European Central Bank Working Paper Series, 665. https://www.ecb.europa.eu",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Price discrimination by u.s. and german exporters",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Knetter",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "American Economic Review",
+        "volume": "79",
+        "issue": "",
+        "pages": "198--210",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Knetter, M. (1989). Price discrimination by u.s. and german exporters. American Economic Review, 79, 198-210.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Has the euro affected the choice of invoicing currency?",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "E"
+            ],
+            "last": "Ligtharty",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "E V"
+            ],
+            "last": "Werner",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ligtharty, J. E., & Werner, S. E. V. (2010). Has the euro affected the choice of invoicing currency?",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Has the euro affected the choice of invoicing currency? European Central Bank Working Paper NO 1414",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "E"
+            ],
+            "last": "Ligtharty",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "E V"
+            ],
+            "last": "Werner",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ligtharty, J. E., & Werner, S. E. V. (2012). Has the euro affected the choice of invoicing currency? European Central Bank Working Paper NO 1414. https://www.ecb.europa. eu",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Passthrough of exchange rate and tariffs into import prices of india: Currency depreciation versus import liberalization",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Mallick",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Marques",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Review of International Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mallick, S., & Marques, H. (2008). Passthrough of exchange rate and tariffs into import prices of india: Currency depreciation versus import liberalization. Review of International Economics.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "The degree and determinants of exchange rate pass-through: Market structure, non-tariff barriers and multinational corporations",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Menon",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "The Economic Journal",
+        "volume": "106",
+        "issue": "",
+        "pages": "434--444",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Menon, J. (1996). The degree and determinants of exchange rate pass-through: Market struc- ture, non-tariff barriers and multinational corporations. The Economic Journal, 106, 434-444.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Monetary policy spillovers through invoicing currencies",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Zhang, T. (2017). Monetary policy spillovers through invoicing currencies. http://faculty. chicagobooth.edu",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "num": null,
+        "fig_num": "1",
+        "text": "Share of EU in all Imports (left) and EMU share among EU products (Right) in Malawi Imports Source: Authors' estimations.",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF1": {
+        "num": null,
+        "fig_num": "2",
+        "text": "% Share in Value of Imports from the EU (2007-2018) Source: National Statistical Office of Malawi (NSO).",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF2": {
+        "num": null,
+        "fig_num": "3",
+        "text": "% Share of currency invoicing in imports from the EU byProduct (2007Product ( -2018 Source: National Statistical Office of Malawi (NSO).",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF3": {
+        "num": null,
+        "fig_num": "4",
+        "text": "Average Import Duty on Imports from the EU(2007)(2008)(2009)(2010)(2011)(2012)(2013)(2014)(2015)(2016)(2017)(2018) Source: National Statistical Office of Malawi (NSO). Design: Defining Product g and Its Price",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF4": {
+        "num": null,
+        "fig_num": "5",
+        "text": "Average Change in the log of Price by Product (2007-2018) Source: Author Calculations from National Statistical Office of Malawi (NSO).",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF5": {
+        "num": null,
+        "fig_num": "6",
+        "text": "Average Change in Import Price and Tariff by Invoice Currency Source: National Statistical Office of Malawi (NSO).",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF6": {
+        "num": null,
+        "fig_num": "7",
+        "text": "Perc. Change in import price from 1 per. Change in Tariff rate/exchange rate Source: Author Calculations from National Statistical Office of Malawi (NSO).",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF7": {
+        "num": null,
+        "fig_num": null,
+        "text": "Percentage Share of Invoicing Currencies in Imports from the EMU (2007-2018) Source: National Statistical Office of Malawi (NSO).",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "FIGREF8": {
+        "num": null,
+        "fig_num": null,
+        "text": "Percentage Share of dollar and euro invoicing in imports from the EU (2007-2018) Source: National Statistical Office of Malawi (NSO).",
+        "uris": null,
+        "type_str": "figure"
+      },
+      "TABREF0": {
+        "num": null,
+        "html": null,
+        "text": "Robust standard errors are in parentheses. Asterisk(s) denote(s) the significance level: *** for 1%, ** for 5%, and * for 10%. The standard errors are clustered at the HS8 level. Difference between coefficients obtained from Lincom in Stata which computes point estimates, standard errors, p-values etc for linear combinations of coefficients.",
+        "type_str": "table",
+        "content": "<table><tr><td colspan=\"4\">: Tariff and Exchange Rate Pass-Through</td></tr><tr><td/><td>EU</td><td colspan=\"2\">EMU Non-EMU</td></tr><tr><td>\u03b1\u2206 \u03c4 ln (1 + T gt )</td><td colspan=\"3\">0.93*** 1.02*** 0.89***</td></tr><tr><td/><td>(0.01)</td><td>(0.02)</td><td>(0.01)</td></tr><tr><td>\u03b2\u2206 \u03c4 ln e it</td><td colspan=\"3\">0.90*** 0.89*** 0.95***</td></tr><tr><td/><td>(0.06)</td><td>(0.08)</td><td>(0.09)</td></tr><tr><td>\u03b1 -\u03b2</td><td>0.02</td><td>0.14</td><td>-0.06</td></tr><tr><td/><td>(0.06)</td><td>(0.08)</td><td>(0.09)</td></tr><tr><td colspan=\"2\">No. of g Products 9,083</td><td>5,106</td><td>3,977</td></tr><tr><td>Observations</td><td>90991</td><td>40750</td><td>50241</td></tr><tr><td>Adj. R 2</td><td>0.13</td><td>0.10</td><td>0.16</td></tr><tr><td>Time FEs</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Product FEs</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Note:</td><td/><td/><td/></tr></table>"
+      },
+      "TABREF1": {
+        "num": null,
+        "html": null,
+        "text": "Tariff (\u03b1)  and Exchange Rate ( \u03b2) Pass-Through by Sector and Currency euro \u2212 \u03b1 usd \u03b2 euro \u2212 \u03b2 usd",
+        "type_str": "table",
+        "content": "<table><tr><td/><td/><td/><td>EMU</td><td/><td/></tr><tr><td/><td/><td>usd</td><td/><td>euro</td><td/></tr><tr><td colspan=\"6\">Sector \u03b1 Animal and Vegetable \u03b1 \u03b2 \u03b1 \u03b2 0.895*** 0.555 1.168*** 0.524 0.272</td><td>-0.0316</td></tr><tr><td/><td colspan=\"2\">(0.0598) (0.539)</td><td>(0.344)</td><td>(0.495)</td><td>(0.343)</td><td>(0.690)</td></tr><tr><td>Chemicals</td><td colspan=\"5\">0.933*** 1.118*** 1.047*** 0.732*** 0.114</td><td>-0.385</td></tr><tr><td/><td>(0.224)</td><td>(0.241)</td><td>(0.105)</td><td>(0.237)</td><td>(0.247)</td><td>(0.296)</td></tr><tr><td>Foodstuffs</td><td colspan=\"2\">0.877*** 0.105</td><td colspan=\"2\">1.432*** 0.321</td><td>0.556**</td><td>0.217</td></tr><tr><td/><td>(0.167)</td><td>(0.426)</td><td>(0.218)</td><td>(0.905)</td><td>(0.271)</td><td>(1.021)</td></tr><tr><td colspan=\"6\">Machinery and Electrical 0.976*** 0.820*** 1.090*** 0.692*** 0.114</td><td>-0.128</td></tr><tr><td/><td colspan=\"2\">(0.0945) (0.234)</td><td colspan=\"2\">(0.0451) (0.172)</td><td>(0.105)</td><td>(0.261)</td></tr><tr><td>Plastics and Rubbers</td><td colspan=\"5\">0.935*** 1.406*** 0.941*** 0.926** 0.00622</td><td>-0.480</td></tr><tr><td/><td>(0.120)</td><td>(0.394)</td><td colspan=\"2\">(0.0828) (0.393)</td><td>(0.146)</td><td>(0.478)</td></tr><tr><td>Stone, Glass, Metals</td><td colspan=\"5\">1.011*** 1.643*** 1.158*** 0.983*** 0.147</td><td>-0.660</td></tr><tr><td/><td>(0.151)</td><td>(0.404)</td><td colspan=\"2\">(0.0562) (0.286)</td><td>(0.159)</td><td>(0.439)</td></tr><tr><td>Textiles, Footwear</td><td colspan=\"5\">1.282*** 1.272** 0.948*** 1.200*** -0.334*</td><td>-0.0714</td></tr><tr><td/><td>(0.157)</td><td>(0.505)</td><td colspan=\"2\">(0.0872) (0.442)</td><td>(0.177)</td><td>(0.626)</td></tr><tr><td>Transportation</td><td colspan=\"5\">0.841*** 0.961*** 0.977*** 0.682** 0.136</td><td>-0.279</td></tr><tr><td/><td colspan=\"2\">(0.0652) (0.336)</td><td colspan=\"2\">(0.0818) (0.336)</td><td>(0.0999)</td><td>(0.390)</td></tr><tr><td>Wood, rawhides</td><td colspan=\"4\">0.982*** 1.666*** 0.921*** 0.838</td><td>-0.0611</td><td>-0.828</td></tr><tr><td/><td>(0.274)</td><td>(0.505)</td><td colspan=\"2\">(0.0724) (0.532)</td><td>(0.284)</td><td>(0.661)</td></tr><tr><td/><td/><td colspan=\"2\">Non-EMU</td><td/><td/></tr><tr><td/><td/><td>usd</td><td/><td>euro</td><td/></tr><tr><td>Sector</td><td>\u03b1</td><td>\u03b2</td><td>\u03b1</td><td>\u03b2</td><td colspan=\"2\">\u03b1 euro \u2212 \u03b1 usd \u03b2 euro \u2212 \u03b2 usd</td></tr><tr><td>Animal and Vegetable</td><td colspan=\"2\">2.005** 1.338</td><td colspan=\"2\">1.368*** -0.0151</td><td>-0.638</td><td>-1.353</td></tr><tr><td/><td>(0.906)</td><td>(0.972)</td><td>(0.382)</td><td>(0.824)</td><td>(0.863)</td><td>(1.035)</td></tr><tr><td>Chemicals</td><td colspan=\"2\">1.108*** 0.631*</td><td colspan=\"3\">1.429*** -0.00183 0.321</td><td>-0.633</td></tr><tr><td/><td>(0.109)</td><td>(0.329)</td><td>(0.229)</td><td>(0.662)</td><td>(0.254)</td><td>(0.689)</td></tr><tr><td>Foodstuffs</td><td colspan=\"2\">1.129*** 0.696</td><td colspan=\"2\">1.193*** 2.119</td><td>0.0644</td><td>1.423</td></tr><tr><td/><td>(0.162)</td><td>(0.495)</td><td>(0.225)</td><td>(2.424)</td><td>(0.282)</td><td>(2.430)</td></tr><tr><td colspan=\"5\">Machinery and Electrical 0.913*** 0.606** 1.089*** 0.535</td><td>0.176</td><td>-0.0708</td></tr><tr><td/><td colspan=\"2\">(0.0738) (0.249)</td><td>(0.135)</td><td>(0.393)</td><td>(0.154)</td><td>(0.450)</td></tr><tr><td>Plastics and Rubbers</td><td colspan=\"2\">0.868*** 0.598</td><td colspan=\"2\">0.755*** 0.846*</td><td>-0.113</td><td>0.247</td></tr><tr><td/><td>(0.131)</td><td>(0.582)</td><td>(0.158)</td><td>(0.504)</td><td>(0.203)</td><td>(0.720)</td></tr><tr><td>Stone, Glass, Metals</td><td colspan=\"2\">0.843*** 0.878</td><td colspan=\"2\">1.271*** -0.686</td><td>0.429**</td><td>-1.564</td></tr><tr><td/><td>(0.105)</td><td>(0.548)</td><td>(0.134)</td><td>(0.840)</td><td>(0.169)</td><td>(0.974)</td></tr><tr><td>Textiles, Footwear</td><td colspan=\"4\">0.979*** 1.671*** 0.961*** -1.993</td><td>-0.0179</td><td>-3.665***</td></tr><tr><td/><td colspan=\"2\">(0.0895) (0.606)</td><td>(0.180)</td><td>(1.296)</td><td>(0.199)</td><td>(1.403)</td></tr><tr><td>Transportation</td><td colspan=\"4\">0.861*** 0.975*** 0.635*** 0.681</td><td>-0.225</td><td>-0.294</td></tr><tr><td/><td colspan=\"2\">(0.0492) (0.296)</td><td>(0.216)</td><td>(0.421)</td><td>(0.221)</td><td>(0.486)</td></tr><tr><td>Wood, raw hides</td><td colspan=\"4\">0.921*** 2.040*** 1.393*** 0.687</td><td>0.472***</td><td>-1.353</td></tr><tr><td/><td>(0.132)</td><td>(0.473)</td><td colspan=\"2\">(0.0875) (2.070)</td><td>(0.161)</td><td>(2.122)</td></tr></table>"
+      },
+      "TABREF2": {
+        "num": null,
+        "html": null,
+        "text": "Pass-Through of euro and dollar exchange rates",
+        "type_str": "table",
+        "content": "<table><tr><td/><td>EMU</td><td colspan=\"2\">Non-EMU EMU</td><td colspan=\"2\">Non-EMU EMU</td><td colspan=\"3\">non-EMU non-EMU non-EMU</td></tr><tr><td>\u03b1\u2206 \u03c4 ln (1 + T gt )</td><td colspan=\"2\">1.024*** 0.891***</td><td colspan=\"2\">1.024*** 0.891***</td><td colspan=\"2\">1.025*** 0.891***</td><td>0.891***</td><td>0.891***</td></tr><tr><td/><td colspan=\"2\">(0.0212) (0.0140)</td><td colspan=\"2\">(0.0212) (0.0140)</td><td colspan=\"2\">(0.0212) (0.0140)</td><td>(0.0140)</td><td>(0.0140)</td></tr><tr><td>\u03b2 1 \u2206 \u03c4 ln e it</td><td/><td/><td/><td/><td colspan=\"2\">0.644*** 0.185</td><td>0.210</td><td>-0.00924</td></tr><tr><td/><td/><td/><td/><td/><td>(0.224)</td><td>(0.229)</td><td>(0.272)</td><td>(0.287)</td></tr><tr><td>\u03b2 2 \u2206 \u03c4 ln e usd,t</td><td colspan=\"2\">0.816*** 1.025***</td><td/><td/><td>0.243</td><td>0.846***</td><td/><td>0.690**</td></tr><tr><td/><td colspan=\"2\">(0.0773) (0.0882)</td><td/><td/><td>(0.215)</td><td>(0.239)</td><td/><td>(0.280)</td></tr><tr><td>\u03b2 3 \u2206 \u03c4 ln e euro,t</td><td/><td/><td colspan=\"2\">0.908*** 1.069***</td><td/><td/><td>0.848***</td><td>0.384</td></tr><tr><td/><td/><td/><td colspan=\"2\">(0.0828) (0.0920)</td><td/><td/><td>(0.295)</td><td>(0.346)</td></tr><tr><td colspan=\"3\">\u03b1 \u2212 \u03b2 2 \u2206 \u03c4 ln e usd,t 0.208*** -0.134</td><td/><td/><td colspan=\"2\">0.782*** 0.0455</td><td/><td/></tr><tr><td/><td colspan=\"2\">(0.0798) (0.0896)</td><td/><td/><td>(0.216)</td><td>(0.239)</td><td/><td/></tr><tr><td>\u03b1 \u2212 \u03b2 3 \u2206 \u03c4 ln e euro,t</td><td/><td/><td>0.115</td><td>-0.178*</td><td/><td/><td>0.0427</td><td>0.201</td></tr><tr><td/><td/><td/><td colspan=\"2\">(0.0854) (0.0933)</td><td/><td/><td>(0.295)</td><td>(0.280)</td></tr><tr><td>\u03b1 \u2212 \u03b2 1 \u2206 \u03c4 ln e it</td><td/><td/><td/><td/><td>0.270</td><td>0.7056***</td><td/><td>0.679</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"2\">(0.2602) (0.2296)</td><td/><td>(0.413)</td></tr><tr><td>Observations</td><td>41163</td><td>50241</td><td>41163</td><td>50241</td><td>40750</td><td>50241</td><td>50241</td><td>50241</td></tr><tr><td colspan=\"2\">No.of g Products 5,106</td><td>3977</td><td>5,106</td><td>3977</td><td>5,106</td><td>3977</td><td>5,106</td><td>3977</td></tr><tr><td>R 2</td><td>0.212</td><td>0.230</td><td>0.212</td><td>0.230</td><td>0.213</td><td>0.230</td><td>0.230</td><td>0.230</td></tr><tr><td colspan=\"9\">Note: Robust standard errors are in parentheses. Asterisk(s) denote(s) the significance level: *** for 1%,</td></tr><tr><td colspan=\"9\">** for 5%, and * for 10%. Difference between coefficients obtained from Lincom in Stata. Product and</td></tr><tr><td/><td/><td/><td colspan=\"3\">time fixed effects are included.</td><td/><td/><td/></tr><tr><td/><td/><td/><td colspan=\"3\">Source: Authors' estimation.</td><td/><td/><td/></tr></table>"
+      },
+      "TABREF3": {
+        "num": null,
+        "html": null,
+        "text": "",
+        "type_str": "table",
+        "content": "<table><tr><td/><td/><td colspan=\"2\">: EU Countries in the sample</td><td/></tr><tr><td>Name</td><td colspan=\"4\">EU Member Eurozone Prospective Members Non-Members</td></tr><tr><td>Austria</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Belgium</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Bulgaria</td><td>*</td><td/><td>*</td><td/></tr><tr><td>Croatia</td><td>*</td><td/><td>*</td><td/></tr><tr><td>Cyprus</td><td>*</td><td/><td/><td/></tr><tr><td>Czech Republic</td><td>*</td><td/><td>*</td><td/></tr><tr><td>Denmark</td><td>*</td><td/><td/><td>*</td></tr><tr><td>Estonia</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Finland</td><td>*</td><td>*</td><td/><td/></tr><tr><td>France</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Germany</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Greece</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Hungary</td><td>*</td><td/><td>*</td><td/></tr><tr><td>Ireland</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Italy</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Latvia</td><td>*</td><td/><td/><td/></tr><tr><td>Lithuania</td><td>*</td><td/><td>*</td><td/></tr><tr><td>Luxembourg</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Malta</td><td>*</td><td/><td/><td/></tr><tr><td>Netherlands</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Poland</td><td>*</td><td/><td>*</td><td/></tr><tr><td>Portugal</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Romania</td><td>*</td><td/><td>*</td><td/></tr><tr><td colspan=\"2\">Slovak Republic *</td><td>*</td><td/><td/></tr><tr><td>Slovenia</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Spain</td><td>*</td><td>*</td><td/><td/></tr><tr><td>Sweden</td><td>*</td><td/><td>*</td><td/></tr><tr><td colspan=\"2\">United Kingdom *</td><td/><td/><td>*</td></tr><tr><td>Total</td><td>28</td><td>17</td><td>9</td><td>2</td></tr></table>"
+      },
+      "TABREF4": {
+        "num": null,
+        "html": null,
+        "text": "Tariff (\u03b1)  and Exchange Rate ( \u03b2) Pass-Through by Sector Robust standard errors are in parentheses. Asterisk(s) denote(s) the significance level: *** for 1%, ** for 5%, and * for 10%. Difference between coefficients obtained from Lincom in Stata. Product and time fixed effects are included.",
+        "type_str": "table",
+        "content": "<table><tr><td>Sector</td><td>HS</td><td>\u03b1</td><td>(s.e)</td><td>\u03b2</td><td>(s.e)</td><td>\u03b1 -\u03b2</td><td>(s.e)</td><td colspan=\"2\">N.obs R 2</td></tr><tr><td/><td/><td/><td colspan=\"2\">EU</td><td/><td/><td/><td/></tr><tr><td>Animal and Vegetable</td><td colspan=\"4\">01-15 0.961*** (0.144) 0.575</td><td colspan=\"2\">(0.463) 0.386</td><td colspan=\"3\">(0.452) 1146 0.388</td></tr><tr><td>Chemicals</td><td colspan=\"9\">28-38 1.092*** (0.0547) 0.678*** (0.144) 0.414*** (0.157) 10237 0.211</td></tr><tr><td>Foodstuffs</td><td colspan=\"6\">16-24 1.008*** (0.0840) 0.617** (0.260) 0.390</td><td colspan=\"3\">(0.269) 3676 0.288</td></tr><tr><td colspan=\"7\">Machinery and Electrical 84-85 0.956*** (0.0238) 0.759*** (0.0985) 0.197*</td><td colspan=\"3\">(0.101) 31459 0.190</td></tr><tr><td>Plastics and Rubbers</td><td colspan=\"6\">39-40 0.920*** (0.0442) 0.961*** (0.213) -0.0407</td><td colspan=\"3\">(0.221) 6554 0.235</td></tr><tr><td>Stone, Glass, Metals</td><td colspan=\"9\">68-83 0.996*** (0.0302) 0.987*** (0.177) 0.00972 (0.180) 8597 0.310</td></tr><tr><td>Textiles, Footwear</td><td colspan=\"6\">50-67 0.892*** (0.0350) 1.187*** (0.210) -0.294</td><td colspan=\"3\">(0.213) 5102 0.317</td></tr><tr><td>Transportation</td><td colspan=\"6\">86-89 0.839*** (0.0297) 0.774*** (0.163) 0.0647</td><td colspan=\"3\">(0.166) 7815 0.335</td></tr><tr><td>Wood, raw hides</td><td colspan=\"9\">41-49 0.871*** (0.0434) 1.405*** (0.263) -0.534** (0.269) 4781 0.264</td></tr><tr><td/><td/><td/><td>EMU</td><td/><td/><td/><td/><td/></tr><tr><td>Animal and Vegetable</td><td colspan=\"4\">01-15 0.916*** (0.0899) 0.660*</td><td colspan=\"2\">(0.365) 0.256</td><td colspan=\"2\">(0.363) 789</td><td>0.370</td></tr><tr><td>Chemicals</td><td colspan=\"6\">28-38 1.021*** (0.0931) 0.893*** (0.177) 0.129</td><td colspan=\"3\">(0.200) 6283 0.143</td></tr><tr><td>Foodstuffs</td><td colspan=\"4\">16-24 1.151*** (0.160) 0.471</td><td colspan=\"2\">(0.308) 0.679*</td><td colspan=\"3\">(0.349) 2427 0.268</td></tr><tr><td colspan=\"10\">Machinery and Electrical 84-85 1.054*** (0.0391) 0.710*** (0.140) 0.344** (0.145) 13097 0.206</td></tr><tr><td>Plastics and Rubbers</td><td colspan=\"6\">39-40 0.937*** (0.0676) 1.129*** (0.291) -0.193</td><td colspan=\"3\">(0.301) 3374 0.237</td></tr><tr><td>Stone, Glass, Metals</td><td colspan=\"6\">68-83 1.128*** (0.0520) 1.045*** (0.240) 0.0831</td><td colspan=\"3\">(0.243) 3952 0.330</td></tr><tr><td>Textiles, Footwear</td><td colspan=\"6\">50-67 1.081*** (0.0974) 1.257*** (0.344) -0.176</td><td colspan=\"3\">(0.347) 1594 0.380</td></tr><tr><td>Transportation</td><td colspan=\"6\">86-89 0.923*** (0.0537) 0.718*** (0.251) 0.204</td><td colspan=\"3\">(0.251) 2737 0.387</td></tr><tr><td>Wood, raw hides</td><td colspan=\"6\">41-49 0.932*** (0.0739) 1.083*** (0.406) -0.151</td><td colspan=\"3\">(0.417) 1630 0.292</td></tr><tr><td/><td/><td/><td colspan=\"2\">Non-EMU</td><td/><td/><td/><td/></tr><tr><td>Animal and Vegetable</td><td colspan=\"4\">01-15 1.110*** (0.229) 0.0950</td><td colspan=\"2\">(0.957) 1.015</td><td colspan=\"2\">(0.918) 296</td><td>0.563</td></tr><tr><td>Chemicals</td><td colspan=\"9\">28-38 1.101*** (0.0652) 0.507** (0.245) 0.594** (0.260) 3952 0.303</td></tr><tr><td>Foodstuffs</td><td colspan=\"4\">16-24 0.929*** (0.0769) 0.668*</td><td colspan=\"2\">(0.362) 0.261</td><td colspan=\"3\">(0.373) 1240 0.412</td></tr><tr><td colspan=\"7\">Machinery and Electrical 84-85 0.911*** (0.0288) 0.825*** (0.146) 0.0864</td><td colspan=\"3\">(0.149) 18362 0.188</td></tr><tr><td>Plastics and Rubbers</td><td colspan=\"6\">39-40 0.915*** (0.0591) 0.732** (0.303) 0.183</td><td colspan=\"3\">(0.316) 3180 0.276</td></tr><tr><td>Stone, Glass, Metals</td><td colspan=\"6\">68-83 0.938*** (0.0365) 0.986*** (0.273) -0.0477</td><td colspan=\"3\">(0.276) 4644 0.322</td></tr><tr><td>Textiles, Footwear</td><td colspan=\"6\">50-67 0.853*** (0.0346) 1.260*** (0.278) -0.407</td><td colspan=\"3\">(0.282) 3505 0.326</td></tr><tr><td>Transportation</td><td colspan=\"6\">86-89 0.794*** (0.0361) 0.836*** (0.229) -0.0420</td><td colspan=\"3\">(0.231) 5078 0.327</td></tr><tr><td>Wood, raw hides</td><td colspan=\"9\">41-49 0.857*** (0.0515) 1.657*** (0.371) -0.799** (0.379) 3149 0.283</td></tr><tr><td>Note:</td><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF5": {
+        "num": null,
+        "html": null,
+        "text": "Tariff (\u03b1)  and Exchange Rate ( \u03b2) Pass-Through by Invoice Currency and Sector",
+        "type_str": "table",
+        "content": "<table><tr><td/><td/><td>EMU</td><td/><td/><td/><td/></tr><tr><td/><td>USD</td><td/><td/><td>euro</td><td/><td/></tr><tr><td>Sector</td><td>\u03b1</td><td>\u03b2</td><td>\u03b1 \u2212 \u03b2</td><td>\u03b1</td><td>\u03b2</td><td>\u03b1 \u2212 \u03b2</td></tr><tr><td>Animal and Vegetable</td><td colspan=\"2\">0.895*** 0.555</td><td>0.571</td><td colspan=\"2\">1.168*** 0.524</td><td>0.875</td></tr><tr><td/><td colspan=\"2\">(0.0598) (0.539)</td><td colspan=\"2\">(0.751) (0.344)</td><td>(0.495)</td><td>(0.885)</td></tr><tr><td>Chemicals</td><td colspan=\"6\">0.933*** 1.118*** -0.248 1.047*** 0.732*** 0.252</td></tr><tr><td/><td>(0.224)</td><td>(0.241)</td><td colspan=\"2\">(0.468) (0.105)</td><td>(0.237)</td><td>(0.420)</td></tr><tr><td>Foodstuffs</td><td colspan=\"2\">0.877*** 0.105</td><td>0.756</td><td colspan=\"2\">1.432*** 0.321</td><td>1.095</td></tr><tr><td/><td>(0.167)</td><td>(0.426)</td><td colspan=\"2\">(0.614) (0.218)</td><td>(0.905)</td><td>(1.119)</td></tr><tr><td colspan=\"7\">Machinery and Electrical 0.976*** 0.820*** -0.0864 1.090*** 0.692*** 0.155</td></tr><tr><td/><td colspan=\"2\">(0.0945) (0.234)</td><td colspan=\"3\">(0.311) (0.0451) (0.172)</td><td>(0.244)</td></tr><tr><td>Plastics and Rubbers</td><td colspan=\"6\">0.935*** 1.406*** -0.0925 0.941*** 0.926** 0.394</td></tr><tr><td/><td>(0.120)</td><td>(0.394)</td><td colspan=\"3\">(0.714) (0.0828) (0.393)</td><td>(0.731)</td></tr><tr><td>Stone, Glass, Metals</td><td colspan=\"6\">1.011*** 1.643*** -0.782 1.158*** 0.983*** 0.0249</td></tr><tr><td/><td>(0.151)</td><td>(0.404)</td><td colspan=\"3\">(0.555) (0.0562) (0.286)</td><td>(0.450)</td></tr><tr><td>Textiles, Footwear</td><td colspan=\"3\">1.282*** 1.272** 0.776</td><td colspan=\"3\">0.948*** 1.200*** 0.513</td></tr><tr><td/><td>(0.157)</td><td>(0.505)</td><td colspan=\"3\">(0.639) (0.0872) (0.442)</td><td>(0.558)</td></tr><tr><td>Transportation</td><td colspan=\"6\">0.841*** 0.961*** -0.463 0.977*** 0.682** -0.0482</td></tr><tr><td/><td colspan=\"2\">(0.0652) (0.336)</td><td colspan=\"3\">(0.503) (0.0818) (0.336)</td><td>(0.479)</td></tr><tr><td>Wood, raw hides</td><td colspan=\"5\">0.982*** 1.666*** -0.885 0.921*** 0.838</td><td>-0.118</td></tr><tr><td/><td>(0.274)</td><td>(0.505)</td><td colspan=\"3\">(0.978) (0.0724) (0.532)</td><td>(0.906)</td></tr><tr><td/><td/><td>Non-EMU</td><td/><td/><td/><td/></tr><tr><td/><td>USD</td><td/><td/><td>euro</td><td/><td/></tr><tr><td>Sector</td><td>\u03b1</td><td>\u03b2</td><td>\u03b1 \u2212 \u03b2</td><td>\u03b1</td><td>\u03b2</td><td>\u03b1 \u2212 \u03b2</td></tr><tr><td>Animal and Vegetable</td><td colspan=\"2\">2.005** 1.338</td><td>0.571</td><td colspan=\"2\">1.368*** -0.0151</td><td>0.120</td></tr><tr><td/><td>(0.906)</td><td>(0.972)</td><td colspan=\"2\">(0.751) (0.382)</td><td>(0.824)</td><td>(1.328)</td></tr><tr><td>Chemicals</td><td colspan=\"2\">1.108*** 0.631*</td><td colspan=\"4\">-0.0790 1.429*** -0.00183 0.876</td></tr><tr><td/><td>(0.109)</td><td>(0.329)</td><td colspan=\"2\">(0.398) (0.229)</td><td>(0.662)</td><td>(0.697)</td></tr><tr><td>Foodstuffs</td><td colspan=\"2\">1.129*** 0.696</td><td>0.210</td><td colspan=\"2\">1.193*** 2.119</td><td>-1.149</td></tr><tr><td/><td>(0.162)</td><td>(0.495)</td><td colspan=\"2\">(0.587) (0.225)</td><td>(2.424)</td><td>(2.372)</td></tr><tr><td colspan=\"4\">Machinery and Electrical 0.913*** 0.606** 0.376</td><td colspan=\"2\">1.089*** 0.535</td><td>0.623</td></tr><tr><td/><td colspan=\"2\">(0.0738) (0.249)</td><td colspan=\"2\">(0.274) (0.135)</td><td>(0.393)</td><td>(0.451)</td></tr><tr><td>Plastics and Rubbers</td><td colspan=\"2\">0.868*** 0.598</td><td colspan=\"3\">0.0653 0.755*** 0.846*</td><td>-0.295</td></tr><tr><td/><td>(0.131)</td><td>(0.582)</td><td colspan=\"2\">(0.635) (0.158)</td><td>(0.504)</td><td>(0.678)</td></tr><tr><td>Stone, Glass, Metals</td><td colspan=\"2\">0.843*** 0.878</td><td colspan=\"3\">0.0888 1.271*** -0.686</td><td>2.082**</td></tr><tr><td/><td>(0.105)</td><td>(0.548)</td><td colspan=\"2\">(0.604) (0.134)</td><td>(0.840)</td><td>(0.958)</td></tr><tr><td>Textiles, Footwear</td><td colspan=\"5\">0.979*** 1.671*** -0.291 0.961*** -1.993</td><td>3.356**</td></tr><tr><td/><td colspan=\"2\">(0.0895) (0.606)</td><td colspan=\"2\">(0.650) (0.180)</td><td>(1.296)</td><td>(1.456)</td></tr><tr><td>Transportation</td><td colspan=\"5\">0.861*** 0.975*** -0.0980 0.635*** 0.681</td><td>-0.0291</td></tr><tr><td/><td colspan=\"2\">(0.0492) (0.296)</td><td colspan=\"2\">(0.379) (0.216)</td><td>(0.421)</td><td>(0.431)</td></tr><tr><td>Wood, raw hides</td><td colspan=\"5\">0.921*** 2.040*** -0.386 1.393*** 0.687</td><td>1.438</td></tr><tr><td/><td>(0.132)</td><td>(0.473)</td><td colspan=\"3\">(0.617) (0.0875) (2.070)</td><td>(2.070)</td></tr></table>"
+      }
+    }
+  }
+}

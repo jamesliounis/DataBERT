@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05439: The work byHelpman, Melitz and Yeaple (2004) is extended in numerous studies including, for example,Yeaple (2009) andChen and Moore (2010).\n\ns_05489: Finally, the paper discusses lessons learned and next steps for improving its methodology and expanding data coverage to a larger number of countries.\n\ns_05539: As seen in Table 8 and Table 9 , the results are very similar for both samples, as the magnitudes of the main estimated coefficients are very close.\n\ns_05589: Based on the Gumbel distribution parameters of the baseline period (Hu et al., 2016, Section 3.4 .1), we calculate the 'equivalent' river water depth of the baseline for each AOGCM as a way of reducing bias.\n\ns_05639: , 1984; Jedrychowski, Maugeri y Jedrychowska-Bianchi, 2002; Carter et al.\n\ns_05689: by using a web-portal interface with the system.\n\ns_05739: We based this analysis on four sources of data -the Indonesian National Labor Force Survey, the Indonesian National Socio-Economic Survey, the STEP Survey for Philippines, and the UN Comtrade database.\n\ns_05789: *** p<0.01, ** p<0.05, * p<0.1 Column (1) shows the mean and standard deviation for the control group of the TIOLI sample.\n\ns_05839: However, before these sources come into widespread use, empirical tests are needed to assess their operational utility, including accuracy testing against benchmarks provided by ground-based measurement.\n\ns_05889: Based on the EORA database (UNCTAD 2013), this paper shows that African economies have reasonably high rates of linkages compared with those of China, the rest of East Asia, Germany, India, the United States, and the rest of Western Europe across broad categories of manufacturing GVCs, including those in textiles and apparel, metal products, transport equipment, and electrical goods.\n\ns_05939: Second, it does so using very detailed data that allow identifying i) the country of origin and the product being exported (as in most of the related literature), ii) the exchange rate but also the tariff duty affecting the good's price in the destination country (while most of the literature typically focuses on exchange rate pass-through due to a lack of good data on applied tariffs), and iii) the currency of invoicing for the good (which is relatively rare information at that level of disaggregation).\n\ns_05989: Model (1) includes the income variable, which is an important explanatory factor for ICT adoption in general according to the literature.\n\ns_06039: This is the \u2026rst paper to provide evidence on the size and mechanism behind the aggregate STM for emerging markets.\n\ns_06089: Results are shown in Table 9 .\n\ns_06139: First, we estimate the model by focusing on migrants who belong to the lowest 33 rd percentile of the distribution of migration duration (those who have 2 years of migration or less) and we report the corresponding results in column (4a).\n\ns_06189: On the basis of this existing literature the following two hypotheses were chosen for testing in the experimental component of our study.\n\ns_06239: We use the CPI data used in PovcalNet (Lakner et al.\n\ns_06289: This result is confirmed in columns 2 and 5 of Table 3 .\n\ns_06339: This paper expands over them in terms of country coverage of the region and cross-country comparability.\n\ns_06389: The empirical analysis uses exceptionally rich data free of sample truncation because of the nonresident children at the time of the survey.\n\ns_06439: Saltane, V., Ereshchenko, V., Hovhannisyan, S., and Mensah, J. T. (2022).\n\ns_06489: While those will also be analyzed in the empirical section of this paper, our primary interest is on complex nonlinear links.\n\ns_06539: To explore this, we correlated changes in total government expenditure (using IMF data) with changes in TPO budgets and found a small positive coefficient, but that is not statistically significant, suggesting that this may not be the main rationale behind changes in TPO budgets during the pandemic.\n\ns_06589: The data base, thus updated to 1992-93, may be used to simulate the effects of a range of policy reforms.\n\ns_06639: A similar structure was followed in."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7OFIZmR6Wym0BAPC1vSDjoKs7qg",
+    "object": "chat.completion",
+    "created": 1682884371,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1211,
+      "completion_tokens": 129,
+      "total_tokens": 1340
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"Indonesian National Labor Force Survey\"}, {\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"Indonesian National Socio-Economic Survey\"}, {\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"STEP Survey for Philippines\"}, {\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"UN Comtrade database\"}] \n\nExplanation: The sentence mentions four datasets explicitly and unambiguously."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"Indonesian National Labor Force Survey\"}, {\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"Indonesian National Socio-Economic Survey\"}, {\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"STEP Survey for Philippines\"}, {\"sent_id\": \"s_05739\", \"data_mentioned\": true, \"reason\": \"UN Comtrade database\"}] \n\nExplanation: The sentence mentions four datasets explicitly and unambiguously.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

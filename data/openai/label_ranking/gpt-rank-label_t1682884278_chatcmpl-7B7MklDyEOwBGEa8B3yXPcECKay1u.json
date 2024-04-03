@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05537: The list of variables chosen to mimic the O*NET structure are reported in Table 1 .\n\ns_05587: This analysis is undertaken for changing flooding, under climate scenarios, and earthquake exposure of a spatially accurate wastewater treatment plants (WWTP) database for China, covering a total of 1,346 assets with additional attributes quantifying the treatment capacity and users dependent on each plant.\n\ns_05637: , 2013; Desmond y Casale, 2017) .\n\ns_05687: A rough estimation of this proportion is 20: 80, with larger countries being more skewed toward high-value transactions.\n\ns_05737: Panel A of Table 2 provides some descriptive statistics on ICT adoption at the household level across the 33 provinces of the country.\n\ns_05787: In Table 8 , we then test for selection effects by studying how WTP correlates with attendance, before examining the causal effect of prices on attendance.\n\ns_05837: Since traffic congestion is a major source of air pollution in the study area, we use Google Traffic to develop a spatial panel database of high-resolution traffic congestion measures for the Dhaka region.\n\ns_05887: Taglioni and Winkler (2016).\n\ns_05937: Using highly disaggregated customs level data, this paper provides, to my knowledge, the first empirical evidence on the role of invoicing currencies in both exchange rate and tariff pass-through to import prices for a developing country.\n\ns_05987: Going beyond other microlevel data sets such as the Living Standards Measurement Study and the Global Findex database, this data set collects rich, in-depth information on ICT access and usage from the demand side.\n\ns_06037: 3 numerically in order to analyze the extent to which a standard calibrated TANK model is able to match key empirical regularities shown in Section 2 in terms of the size, main macroeconomic variables involved, and temporal pro\u2026le of the STM for both the developed and the Latin American samples.\n\ns_06087: Thus, we adopt a pragmatic approach that combines different sources and types of data.\n\ns_06137: See the Data Appendix B.2 for a description of the Monadic Conflict Onset and Incidence data set from the Uppsala Conflict Data Project (UCDP).20 Labor Force participation rate, employment in agriculture, industry, and services come from Key indicators of the Labor Market Database of the International Labor Organization.\n\ns_06187: This figure is based on separate regressions controlling for background characteristics (see Tables A4 and A5 in Appendix A).\n\ns_06237: The rest of the paper is organized as follows.\n\ns_06287: This may be an indication that the baseline study took place at a moment in which children had been out of school for a while.\n\ns_06337: In particular, I use 91 samples of population and housing censuses from 24 countries, which are run to compute the total population and contain an educational attainment question in their questionnaire.\n\ns_06387: There is a small literature that exploits the information in conditional variance by estimating quantile regression models of intergenerational mobility.\n\ns_06437: Section 6 concludes the paper with a summary of findings.\n\ns_06487: The dependent variable in model 2 in Table 2 is participating in demonstrations.\n\ns_06537: The bottom panel of Figure 14 provides the same information by income group.\n\ns_06587: Data for those years are used as inputs into the model and its predicted outcomes for the principal macroeconomic aggregates are expressed as a proportion of GDP 2 6 .\n\ns_06637: As noted earlier this meant that there were a number of sub-optimal practices (such as reporting to old and new boards) that had to be retained for a time.\n\ns_06687: Error correction versions of the estimation are summarized in Table 13 .\n\ns_06737: Two facets of these trends are worth highlighting."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7MklDyEOwBGEa8B3yXPcECKay1u",
+    "object": "chat.completion",
+    "created": 1682884278,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1072,
+      "completion_tokens": 156,
+      "total_tokens": 1228
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05587\", \"data_mentioned\": true, \"reason\": \"wastewater treatment plants (WWTP) database\"}, {\"sent_id\": \"s_05937\", \"data_mentioned\": true, \"reason\": \"customs level data\"}, {\"sent_id\": \"s_06137\", \"data_mentioned\": true, \"reason\": \"Monadic Conflict Onset and Incidence data set from the Uppsala Conflict Data Project (UCDP)\"}, {\"sent_id\": \"s_06337\", \"data_mentioned\": true, \"reason\": \"population and housing censuses\"}, {\"sent_id\": \"s_06587\", \"data_mentioned\": true, \"reason\": \"GDP\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05587\", \"data_mentioned\": true, \"reason\": \"wastewater treatment plants (WWTP) database\"}, {\"sent_id\": \"s_05937\", \"data_mentioned\": true, \"reason\": \"customs level data\"}, {\"sent_id\": \"s_06137\", \"data_mentioned\": true, \"reason\": \"Monadic Conflict Onset and Incidence data set from the Uppsala Conflict Data Project (UCDP)\"}, {\"sent_id\": \"s_06337\", \"data_mentioned\": true, \"reason\": \"population and housing censuses\"}, {\"sent_id\": \"s_06587\", \"data_mentioned\": true, \"reason\": \"GDP\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

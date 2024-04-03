@@ -1,0 +1,2734 @@
+{
+  "paper_id": "D33838420",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:57.834332Z"
+  },
+  "title": "What the Mean Measures of Mobility Miss Learning About Intergenerational Mobility from Conditional Variance",
+  "authors": [
+    {
+      "first": "Md",
+      "middle": [],
+      "last": "Nazmul",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Ahsan",
+      "middle": [
+        "M"
+      ],
+      "last": "Shahe",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Emran",
+      "middle": [],
+      "last": "Hanchen",
+      "suffix": "",
+      "affiliation": {},
+      "email": "hanchen.jiang@unt.edu"
+    },
+    {
+      "first": "Jiang",
+      "middle": [
+        "Forhad"
+      ],
+      "last": "Shilpi",
+      "suffix": "",
+      "affiliation": {},
+      "email": "fshilpi@worldbank.org"
+    },
+    {
+      "first": "Md",
+      "middle": [
+        "Nazmul"
+      ],
+      "last": "Ahsan",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "",
+        "institution": "Saint Louis University",
+        "location": {
+          "addrLine": "M. Shahe Emran"
+        }
+      },
+      "email": ""
+    },
+    {
+      "first": "Matthew",
+      "middle": [],
+      "last": "Lindquist",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "",
+        "institution": "University of North Texas",
+        "location": {
+          "addrLine": "Forhad Shilpi, World Bank"
+        }
+      },
+      "email": ""
+    },
+    {
+      "first": "Charlie",
+      "middle": [],
+      "last": "Rafkin",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "",
+        "institution": "University of North Texas",
+        "location": {
+          "addrLine": "Forhad Shilpi, World Bank"
+        }
+      },
+      "email": ""
+    }
+  ],
+  "year": "2022-06",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D33838420",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "To understand the role of family background in intergenerational mobility, a large literature has focused on the conditional mean of children's economic outcomes given parent's economic status, while ignoring the information contained in conditional variance. This paper explores the effects of family background on the conditional variance of children's outcomes in the context of intergenerational educational mobility using data from three large developing countries (China, India, and Indonesia). The empirical analysis uses exceptionally rich data free of sample truncation because of the nonresident children at the time of the survey. Evidence from all three countries suggests a strong influence of father's education on the conditional variance of children's schooling. The analysis finds substantial heterogeneity across countries, gender, and geography (rural/ urban). Cohort-based estimates suggest that the effects of father's education on the conditional variance have changed qualitatively; in some cases, a positive effect in the 1950s cohort turns into a substantial negative effect in the 1980s cohort. A methodology is developed to incorporate the effects of family background on the conditional variance along with the standard conditional mean effects. This paper derives risk-adjusted measures of relative and absolute mobility by accounting for an estimate of the risk premium for the conditional variance faced by a child. The estimates of risk-adjusted relative and absolute mobility for China, India, and Indonesia suggest that the existing evidence using the standard measures of mobility substantially underestimates the effects of family background on children's educational opportunities, and thus gives a false impression of high educational mobility. The magnitude of underestimation is especially large for the children born into the most disadvantaged households where fathers have no schooling, while it is negligible for the children of college educated fathers. The standard (but partial) measures may lead to an incorrect ranking of regions and groups in terms of relative mobility. Compared to the risk-adjusted measures, the standard measures are likely to underestimate the gender gap and rural-urban gap in educational opportunities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "This paper is a product of the Development Research Group, Development Economics. It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world. Policy Research Working Papers are also posted on the Web at http://www.worldbank.org/prwp. The authors may be contacted at fshilpi@worldbank.org.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "(1) Introduction A large economic and sociological literature provides estimates of intergenerational persistence in economic status. A higher persistence across generations is interpreted as inequality of economic opportunities for children as their life chances are tied down closely to the socioeconomic status of their parents irrespective of their own choices and eort. The bulk of the measures used for understanding the transmission of economic status from one generation to the next are based on a conditional expectation function. The focus is on estimating the expected value of an indicator of socioeconomic status of children (e.g., permanent income, education ) conditional on parent's (usually father's) socioeconomic status (for surveys, see Solon (1999) , Bjorklund and Salvanes (2011) , Iversen et al. (2019) , and Torche (2019) ).",
+        "cite_spans": [
+          {
+            "start": 757,
+            "end": 769,
+            "text": "Solon (1999)",
+            "ref_id": "BIBREF34"
+          },
+          {
+            "start": 772,
+            "end": 801,
+            "text": "Bjorklund and Salvanes (2011)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 804,
+            "end": 825,
+            "text": "Iversen et al. (2019)",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 832,
+            "end": 845,
+            "text": "Torche (2019)",
+            "ref_id": "BIBREF35"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "This vast and growing literature largely neglects any information contained in the conditional variance of children's economic outcomes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "2 This is a reasonable approach under two conditions: (i) the conditional variance of the relevant economic outcome does not vary in any systematic way with parental economic status, geographic location, gender, race and ethnicity etc.; (ii) parents and children are approximately risk neutral. A large body of evidence accumulated over many decades rejects risk neutrality, and strongly suggests an important role for risk aversion in economic choices under uncertainty (see, for example, Eeckhoudt et al. (2005) ). There is no systematic evidence in the literature on the rst condition, but there are a variety of economic mechanisms that can make the conditional variance a function of parent's economic status and geographic location, for example. Conditional variance in children's schooling may vary across the households in a village because of their dierent abilities to cope with adverse weather shocks. With better access to credit and insurance markets, the highly educated (high income) households are better able to deal with negative shocks such as ood and drought without any disruption to children's education. In contrast, such a negative income shock may force the uneducated poor parents to take the children out of school and 2 Although largely ignored in the literature on intergenerational mobility, some studies in the related but distinct literature on inequality of opportunity (IOP) account for the fact that conditional variance is likely to depend on the circumstances a child is born into (see, for example, Bjorklund et al. (2012) ). But their focus is very dierent. Please see the discussion in section 2 below. There is a small literature that exploits the information in conditional variance by estimating quantile regression models of intergenerational mobility.",
+        "cite_spans": [
+          {
+            "start": 490,
+            "end": 513,
+            "text": "Eeckhoudt et al. (2005)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 1537,
+            "end": 1560,
+            "text": "Bjorklund et al. (2012)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "But the focus there is not on understanding the inuence of parental socioeconomic status on conditional variance of children's outcomes. Please see section 2 below for a detailed discussion. send them for child labor. This adds an element of uncertainty (on top of ability dierences) for the children born into disadvantaged households, resulting in a higher conditional variance in completed schooling. The conditional variance of children's schooling attainment is likely to decline with the education of parents when such economic shocks (income or health shocks) are the primary sources behind the observed variance in the data. In this case, children born to higher educated parents not only have higher expected years of schooling (as found in numerous studies of intergenerational educational mobility), but also a lower variance in schooling attainment. Under the plausible assumption of risk aversion, this implies being born to higher educated parents brings double advantages for children part of which is ignored by the existing measures of intergenerational mobility.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "We analyze the relationship between family background and conditional variance of children's outcome in the context of intergenerational educational mobility. We make two contributions to the literature. First, using data from three large developing countries (China, India, and Indonesia, with 42 percent of world population in 2000 (2.56 billion)), we provide the rst empirical evidence that the conditional variance of children's schooling is systematically related to his/her family background as captured by father's education.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "3 Second, we develop a methodology that combines the eects of father's education on both the mean and conditional variance of children's schooling. We propose new measures of relative and absolute mobility that adjust the standard mean eects by the risk premium associated with the conditional variance in educational outcomes faced by children. With risk neutrality, our proposed measures reduce to the canonical measures of intergenerational educational mobility widely used in the current literature (see, for example, Hertz et al. (2008) , Azam and Bhatt (2015) , and Narayan et al. (2018) ). But, under the more plausible assumption of risk aversion, the measures of mobility developed in this paper incorporate the eects of family background operating through conditional variance.",
+        "cite_spans": [
+          {
+            "start": 522,
+            "end": 541,
+            "text": "Hertz et al. (2008)",
+            "ref_id": null
+          },
+          {
+            "start": 544,
+            "end": 565,
+            "text": "Azam and Bhatt (2015)",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 572,
+            "end": 593,
+            "text": "Narayan et al. (2018)",
+            "ref_id": "BIBREF31"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "For our empirical analysis, we use household survey data from China Family Panel Studies (CFPS) 2010, India Human Development Survey (IHDS) 2012, and Indonesia Family Life 3 We are not aware of any studies on intergenerational mobility that estimates the eects of parent's economic status on the conditional variance of children's economic outcomes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 10074",
+        "sec_num": null
+      },
+      {
+        "text": "4 The estimates from the full sample (1950-1989 birth cohorts) suggest that the conditional variance in children's schooling declines with father's education in all three countries, thus conrming the conjecture that the children born to more educated fathers enjoy double advantages in the form of a lower variance in addition to a higher expected (mean) schooling attainment.",
+        "cite_spans": [
+          {
+            "start": 37,
+            "end": 62,
+            "text": "(1950-1989 birth cohorts)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survey (IFLS) 2014.",
+        "sec_num": null
+      },
+      {
+        "text": "We nd evidence of substantial heterogeneity across countries, geographic location (rural vs. urban), gender, and birth cohorts. Conditional variance in children's schooling is the highest in India (18.76) and the lowest in Indonesia (13.58), with China in between (16.83).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survey (IFLS) 2014.",
+        "sec_num": null
+      },
+      {
+        "text": "The inuence of father's education on conditional variance of children's schooling follows a reverse cross-country pattern: Indonesia (-0.51), China (-0.48), and India (-0.38). Conditional variance is higher in the rural areas in a country, but the inuence of father's education on conditional variance is smaller in magnitude. The rural-urban dierence is specially striking in India where the estimate is negative and large (-0.77) in the urban sample but small and statistically not signicant (10 percent level) in the rural sample (-0.022). In contrast, the rural-urban dierence is small in China: -0.55 (urban) and -0.52 (rural). We also nd substantial gender dierences with a larger negative eect on sons. The gender dierences in India are the starkest: the estimated eect is negative in the sons sample, but positive in the daughters sample.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Survey (IFLS) 2014.",
+        "sec_num": null
+      },
+      {
+        "text": "The results from cohort-based analysis suggest that the negative eect of father's education on conditional variance has become stronger over time in all three countries. In the rural and daughter's samples in India and Indonesia, the estimate turned from positive in the 1950s cohort to a strong negative eect in the 1980s cohort.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "We check some alternative explanations for the observed relations between conditional variance in children's education and father's education. We provide evidence that functional 4 These surveys are chosen to ensure that the estimates are not biased because of sample truncation due to coresidency restrictions. It is well known that truncations biases the estimated variance downward (Cohen (1991) ). Recent evidence suggests that coresidency causes substantial downward bias in the estimate of relative educational mobility as measured by IGRC; see Emran et al. (2018) .",
+        "cite_spans": [
+          {
+            "start": 385,
+            "end": 398,
+            "text": "(Cohen (1991)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 551,
+            "end": 570,
+            "text": "Emran et al. (2018)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "6",
+        "sec_num": null
+      },
+      {
+        "text": "5 Government policies and social norms can make the relation between father's education and conditional variance of children's schooling positive. For example. gender based social norms such as son preference and Purdah may results in low conditional variance in low educated households as parents target a reference level of schooling for the daughters, and the girls' schooling attainment bunches around that reference point. This can also give rise to a positive eect in the conditional variance regression. Please see section 2 below. form mis-specication is not responsible for the observed relations.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "6",
+        "sec_num": null
+      },
+      {
+        "text": "7 Taking advantage of data on cognitive ability in IFLS 2014 in Indonesia, we explore whether the estimated eect of father's education is largely due to omitted ability heterogeneity of children. We nd that the inclusion of quadratic controls for ability reduces the magnitude of the impact of father's education on conditional variance, but the estimates still remain substantial and statistically signicant at the 1 percent level.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "6",
+        "sec_num": null
+      },
+      {
+        "text": "For relative mobility, the estimates of risk adjusted IGRC (RIGRC) suggest that the workhorse measure of relative mobility in the literature, IGRC, substantially underestimates the impact of family background. The estimates for the full sample (1950-1989 cohorts) suggest that the extent of underestimation on average is 26 percent in China, 41 percent in India, and 10.4 percent in Indonesia.",
+        "cite_spans": [
+          {
+            "start": 244,
+            "end": 263,
+            "text": "(1950-1989 cohorts)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "6",
+        "sec_num": null
+      },
+      {
+        "text": "Accounting for the inuence of family background on conditional variance of schooling makes a dramatic dierence in the estimated relative and absolute mobility for the children born to the most disadvantaged households (fathers with no schooling). 9 RIGRC estimates from the full sample (1950-1989 birth cohorts) for this subgroup shows that the standard IGRC overestimates relative mobility by 37 percent in China, and by 63 percent and 28 percent in India and Indonesia respectively. In contrast, the gap between the RIGRC and IGRC estimates for the subgroup with college educated fathers is small. Absolute mobility is also substantially overestimated for the most disadvantaged subgroup without risk adjustments: conditional mean of years of schooling is overestimated by 48 percent in China, 127 percent in India, and 25 percent in Indonesia. Again, for absolute mobility of the children of college educated father, the risk adjustments does not make any substantial dierence. The upshot is that while the standard estimates of relative and absolute mobility seem to capture reasonably well 7 Based on recent evidence, we allow for a quadratic mobility CEF in place of a linear functional form (see Becker et al. (2015 Becker et al. ( , 2018 , , Ahsan et al. (2021) ). We nd that allowing for a quadratic CEF does not change the relation between the conditional variance in children's schooling and father's education in any signicant manner.",
+        "cite_spans": [
+          {
+            "start": 286,
+            "end": 311,
+            "text": "(1950-1989 birth cohorts)",
+            "ref_id": null
+          },
+          {
+            "start": 1203,
+            "end": 1222,
+            "text": "Becker et al. (2015",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 1223,
+            "end": 1245,
+            "text": "Becker et al. ( , 2018",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 1250,
+            "end": 1269,
+            "text": "Ahsan et al. (2021)",
+            "ref_id": "BIBREF0"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "8 The smaller magnitude of underestimation in Indonesia despite a large inuence of father's education on the conditional variance noted earlier reects the fact that the ratio of the conditional variance to the conditional mean is much smaller. This ratio is important in determining the risk premium. Please see section (5) below. 9 Note that IGRC, the measure of relative mobility in the workhorse linear model, does not vary with father's education level. But the risk adjusted measure RIGRC varies across low and high educated households because of dierences in the conditional variance and the conditional mean. the educational opportunities of children born to college educated fathers, a failure to account for the eects of family background on conditional variance vastly overstates the educational opportunities of the most disadvantaged children with father having no schooling.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "Ignoring the conditional variance can also lead to wrong conclusions in inter-group comparisons. For example, In India, the urban and rural daughters appear to enjoy similar relative mobility according to the standard IGRC estimates (0.60 (urban) and 0.59 (rural)), but the RIGRC estimates reveal a substantial disadvantage faced by the rural daughters (0.92 (rural) and 0.79 (urban)). The estimates of both RIGRC and IGRC for decade wise birth cohorts show that the evolution of intergenerational educational mobility has been very dierent in China compared to India and Indonesia. China has become less mobile from the 1950s to the 1980s while mobility has improved monotonically from the 1950s to the 1980s in India and Indonesia, and the magnitude is substantial. While both measures pick the trend correctly, the standard IGRC substantially underestimates the improvements over time in India.",
+        "cite_spans": [
+          {
+            "start": 359,
+            "end": 366,
+            "text": "(rural)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "The rest of the paper is organized as follows. The next section discusses the relevant conceptual issues with a focus on the economic mechanisms that can give rise to a negative or positive eect of father's education on the conditional variance of children's schooling, and lays out the estimating equations. Section (3) is devoted to a discussion of the surveys and data sets used for our analysis: CFPS 2014 (China), IHDS 2012 (India), and IFLS 2014 for Indonesia. These three surveys are dierent from many other household surveys available in developing countries as the samples do not suer from signicant truncation. This is important as truncation of a sample is expected to reduce the estimate variance. Section (4) reports the evidence on the conditional variance. In section (5), we develop a methodology for estimating relative mobility that takes into account both the conditional mean and conditional variance, and provide estimates of the risk adjusted relative mobility measure. The paper concludes with summary of the ndings and points out the central contributions of the paper to the literature.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "(2) Conceptual Issues and Estimating Equations The standard estimating equation for intergenerational educational mobility is:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "S c i = \u03b1 + \u03b2S p i + \u03b5 i ; E(\u03b5 i ) = 0 (1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "where S i is the years of schooling of child i and superscripts c and p stand for child and parents respectively. The focus of the analysis is the parameter \u03b2 which is known as intergenerational regression coecient (IGRC, for short) in the literature. In a more realistic setting where the credit and insurance markets are imperfect (or missing), we would expect that the conditional variance would reect the interactions of a child's ability with the credit constraint and risk coping strategies of a household. First, consider the implications of credit market imperfections in the absence of income or health shocks. We consider two types of credit market imperfections. In the rst case, the poor (less educated)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "households pay a higher interest rate but can borrow as much as they want for educational investment (i.e., no quantitative credit rationing).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "11 In this case, the poor (less educated) parents invest less, given the ability of a child, because of a higher interest rate, but the investment dierences across children from the same family (or similar family background where fathers have the same education) are determined solely by the ability dierences among the children. We thus expect lower average level of education for the children of less educated parents, but the conditional variance should not depend in any signicant way on father's education in this case. The second model of credit market imperfections focuses on the quantitative credit rationing, a special case of which is self nancing by the parents (the case of missing credit market for investment in education). When the parents have limited investment funds, they might choose to invest in the most able child to maximize the expected income (?). Since the probability of success is higher for a child with high cognitive ability, it may be optimal for the parents to reallocate investment funds from other children, specially when returns to education are convex.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "12 Such investment choices would increase the variance of children's schooling in the less educated credit constrained families as the less able children's education level is depressed and the education level of the high ability child is pushed up.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "Negative income shocks can amplify the eects of a binding credit constraint, as the family may need to allocate the funds earmarked for education investment to buy food. It is not uncommon for one sibling to drop out of school in response to a negative shock to supplement family income through child labor, while the more promising sibling continues with his/her study. However, as emphasized by Behrman et al. (1982) , equity concerns for a low ability child may dominate the income maximizing motive, leading to a compensating investment allocation where the low ability child gets a larger share of the educational investment. If compensating investment rather than the reinforcing investment is the overriding behaviorial response of parents facing scarcity, then we would expect lower conditional variance for the children born to low educated fathers.",
+        "cite_spans": [
+          {
+            "start": 397,
+            "end": 418,
+            "text": "Behrman et al. (1982)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "8",
+        "sec_num": null
+      },
+      {
+        "text": "Government policies and social norms can also aect the conditional variance of children's education. When government policies such as free and compulsory primary schooling are well designed and implemented, it ensures that the children from the poor socioeconomic background attain primary schooling irrespective of a child's ability. This will reduce the conditional variance in the poor households by eectively eliminating the lower tail of the counterfactual schooling distribution of children without any government policy interventions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "12 There is emerging evidence that returns to education function is convex in many developing countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "See Kingdon (2007) on India, and Fasih et al. (2012) for cross-country evidence.",
+        "cite_spans": [
+          {
+            "start": 4,
+            "end": 18,
+            "text": "Kingdon (2007)",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 33,
+            "end": 52,
+            "text": "Fasih et al. (2012)",
+            "ref_id": "BIBREF19"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "13 There is a large sociological literature on reinforcing vs. compensating parental investments in children's education. But most of the literature focuses on the developed countries. See, for example, Conley (2004) .",
+        "cite_spans": [
+          {
+            "start": 203,
+            "end": 216,
+            "text": "Conley (2004)",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "Merit based scholarships provided by schools or government programs on the other hand can relax the credit constraints only for the most able child in a poor family and thus increase the conditional variance by expanding the upper tail of educational attainment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "Social norms can create reference points for the desired level of education of children which may vary signicantly by gender, specially in the older cohorts. For example, strong son preference and Purdah may imply that girls in poor households go to school only if schooling is easily accessible and, more importantly, free. They drop out after primary schooling because secondary and higher schooling requires substantial private investments by the parents and the high schools may be far away. We might thus observe low conditional variance in the households with less educated parents because of bunching around primary schooling or other thresholds determined by social norms, particularly for daughters. The richer and more educated households may invest substantially in daughter's education even with son preference, and their investment would be more closely aligned with the ability of a child irrespective of gender. The preceding discussion thus suggests that depending on government policy and social norms, we may in fact observe an increasing conditional variance with father's education, specially for daughters in rural areas.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "To understand the potential inuence of family background as captured by father's education, we estimate the following equation for conditional variance:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "V (\u03b5 i ) = \u03b8 0 + \u03b8 1 S p i + \u03c5 i ; E(\u03c5 i ) = 0",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "We are not aware of any studies on intergenerational mobility that provide estimates of equation 2. In the related but distinct literature on inequality of opportunity that grew out of Roemer's seminal work (Roemer (1998) , Roemer and Trannoy (2016) ) , there are a number of studies that estimate equation 2; see, for example, Bjorklund et al. (2012) and Hederos et al. (2017) in the context of income mobility in Sweden. However, their focus is very dierent, they are interested in estimating a clean measure of eort in order to decompose the observed income of children into two parts: one due to the circumstances a child is born into, and the other due to a child's own eort. Similar to this paper, they recognize that the residual from a linear regression of children's education, for example, on a set of variables dening the circumstances is not a clean measure of eort as it partly reects the eects of family background.",
+        "cite_spans": [
+          {
+            "start": 207,
+            "end": 221,
+            "text": "(Roemer (1998)",
+            "ref_id": "BIBREF33"
+          },
+          {
+            "start": 224,
+            "end": 249,
+            "text": "Roemer and Trannoy (2016)",
+            "ref_id": "BIBREF32"
+          },
+          {
+            "start": 328,
+            "end": 351,
+            "text": "Bjorklund et al. (2012)",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 356,
+            "end": 377,
+            "text": "Hederos et al. (2017)",
+            "ref_id": "BIBREF22"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "14 As measure of eort, they use the sterilized residual from the regression of the residual squared (the residual from the earlier stage) on circumstances.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "There is a small literature on intergenerational mobility that exploits the information in conditional variance using quantile regressions. See, for example, Grawe 2004 (3) Data and Variables",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "We use the following household surveys for our empirical analysis: China Family Panel Studies (CFPS) for China, India Human Development Survey (IHDS) for India, and Indonesia",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "Family Life Survey (IFLS) for Indonesia. These data sets are suitable for our analysis because they do not suer from any signicant sample truncation arising from coresidency restrictions commonly used to dene household membership in a survey. A truncated sample is likely to underestimate the conditional variance, for example when the data miss observations on highly educated children who left the natal house for college.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "The data for China come from the China Family Panel Study (CFPS) 2010 wave, which has a unique T- and Bhatt (2015) and Azam (2016) . Our sample includes not only the non-resident fathers but also other non-resident family members, and non-resident children of household heads in particular.",
+        "cite_spans": [
+          {
+            "start": 119,
+            "end": 130,
+            "text": "Azam (2016)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "The data for Indonesia come from Indonesia Family Life Survey (IFLS) 2014 wave. IFLS's household roaster, nonresident parents module, and mother's marriage module allow us to construct father-children pairs whose education information is not subject to truncation bias.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "More details about the sample construction procedure, readers are referred to Ahsan, Emran,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "Shilpi 2021and Mazumder et al. (2019) .",
+        "cite_spans": [
+          {
+            "start": 15,
+            "end": 37,
+            "text": "Mazumder et al. (2019)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "The summary statistics for our main estimation samples are reported in Table 1 . We rst report the average years of schooling for both father and children in our full sample born between 1950 and 1989 across three countries respectively. The average years of schooling for fathers is 4.24 in China, 3.63 in India, and 6.21 in Indonesia. The average years of schooling for children is 7.52 in China, 6.50 in India, and 9.52 in Indonesia. Therefore, Indonesia has the best education outcome for both fathers and children among the three countries while India has the lowest mean education for both generations.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 71,
+            "end": 78,
+            "text": "Table 1",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "We also report the summary statistics for our four main sub-samples: urban, rural, sons, and daughters in the following panels respectively. In each country, there is consistent ruralurban gap in education for both generations. Children in urban China and urban India have about 3 more years of schooling than children in rural areas, while the gap is smaller in Indonesia (2 years). All three countries exhibit dierent degree of gender gap in schooling among children: 1.3 years in China, 2.3 years in India, and 0.6 years in Indonesia. Gender gap in Indonesia is much smaller, consistent with a large literature showing that girls in Indonesia do not face any signicant disadvantages compared to the boys.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "Estimates of equations (1) (conditional mean) and (2) (conditional variance) for our full estimation samples birth cohorts) are reported in Table 2 . The estimates for the mobility equation 1are in odd columns and those for the conditional variance equation 2are in even columns. The evidence is consistent across the three countries: conditional variance of children's schooling is a negative function of father's education. Estimates from the mobility equation show that father's education has a substantial positive inuence on the expected schooling of children, consistent with a large literature that focuses solely on the mean eects.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 140,
+            "end": 147,
+            "text": "Table 2",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "When considered together, the evidence on the mobility and conditional variance equations suggests that being born to a higher educated father is equivalent to winning an education lottery with higher mean (expected years of schooling) and a lower variance. (4.1) Heterogeneity: Rural vs. Urban, and Sons vs. Daughters",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "The top panel of Table 3 reports the estimates of equations (1) and (2) separately for rural and urban samples. The evidence suggests striking rural/urban dierences which vary across countries. Conditional variance on average is higher in rural areas, although the rural-urban gap is small in China.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 17,
+            "end": 24,
+            "text": "Table 3",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "15 In India, the eects of father's education on conditional variance is large in urban sample (\u22120.77), but we cannot reject the null hypothesis of no inuence in the rural sample (\u22120.02). As we discuss below this null eect hides important gender dierences in the rural areas. The estimates are similar in magnitude across rural and urban areas in the case of China (\u22120.55 (urban) and \u22120.52 (rural)), and in Indonesia, the urban estimate is much larger ( \u22120.71 (urban) and \u22120.29 (rural)).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "The lower panel of Table 3 contains the estimates for the son's and daughter's samples.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 19,
+            "end": 26,
+            "text": "Table 3",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "In India, the estimate for sons is negative, and large in magnitude (-0.93), but the estimate in the daughter's sample is positive and numerically much smaller (0.33) (both estimates are signicant at the 1 percent level). The evidence in Table 3 thus suggests that the idea that being born into a highly educated household confers you double dividends is valid only for the sons in India. However, the evidence below on the evolution of educational mobility across cohorts shows that this conclusion is valid only for the older cohorts (see below). In China,",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 238,
+            "end": 245,
+            "text": "Table 3",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "15 The higher conditional variance in rural areas is consistent with the observation that the rural economy is more exposed to weather shocks and the credit and insurance markets are less developed.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "higher education of a father lowers the conditional variance of schooling for both sons and daughters, but the magnitude of the impact is substantially larger for sons (-0.48 for sons, and -0.36 for daughters). The evidence is dierent in Indonesia: there is no signicant dierence across gender.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(4) Evidence on Conditional Variance",
+        "sec_num": null
+      },
+      {
+        "text": "In the online appendix, we discuss the estimates for four subsamples dened by gender and rural/urban location of a child (see Table A .1 in the online appendix section OA.1). The evidence on India suggests that the rural daughters face very dierent educational prospects:",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 126,
+            "end": 133,
+            "text": "Table A",
+            "ref_id": "TABREF14"
+          }
+        ],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "the impact of father's education is positive and numerically large for this subgroup, while the eect is negative in the other three subgroups. The nding that the rural daughters are qualitatively dierent from the other three groups also holds in China: there is no signicant impact on conditional variance of rural daughter's schooling, while the eect is negative and signicant in the other three subgroups.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "( 42) The Evolution of Conditional Variance: Evidence from Decade-wise Birth Cohorts Table 4 reports the estimates for equations (1) and (2) for decade-wise birth cohorts: 1950-1959, 1960-1969, 1970-1979, 1980-1989 If we focus only on the mean eect as is done in the existing literature, the evidence suggests that relative mobility has improved in India and Indonesia over time, while it has worsened in China. However, the impacts on the conditional variance shows a much stronger role of the family background in the recent decades which counteracts the improvements in the mean eects. In all three countries, the inuence of father's education on the conditional variance is negative and substantial in magnitude in the 1980s, suggesting that the children born to educated parents gain in terms of a much lower conditional variance, in additional to a higher conditional mean. There are dramatic dierences in the earlier cohorts across countries: the estimate is negative in China, positive in Indonesia, and a zero eect in India for the 1950s 16 The standard mean eects (see the IGRC estimates in the odd numbered columns of Table 3) show that the inuence of father's education is much higher for daughters in terms of the rst moment (expected years of schooling) in China. The gender advantages thus are opposite in terms of the mean vs. conditional variance eects. We discuss a simple summary measure of relative mobility that combines these two aspects in section 5 below.",
+        "cite_spans": [
+          {
+            "start": 172,
+            "end": 214,
+            "text": "1950-1959, 1960-1969, 1970-1979, 1980-1989",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 85,
+            "end": 92,
+            "text": "Table 4",
+            "ref_id": "TABREF7"
+          },
+          {
+            "start": 1129,
+            "end": 1137,
+            "text": "Table 3)",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "cohort. The estimate turns negative and signicant in Indonesia in the 1960s, and in India a decade later in the 1970s. The inuence of family background on conditional variance has increased dramatically, and relative mobility is substantially overestimated in both countries in the recent decades if we ignore the impact on conditional variance. In section 5 ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "i = \u03b1 + \u03b2S p i + \u03b4 (S p i ) 2 + \u03b6 i",
+            "eq_num": "(3)"
+          }
+        ],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "If the true conditional expectation function is given by equation (3 the linear equation 1, the error term is \u03b5 i = \u03b4 (S p i ) 2 + \u03b6 i , and the conditional variance of \u03b5 i is a function of father's education simply because of a misspecied functional form. To check this, we estimate the mobility equation 3 ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "= S c i \u2212 E(S c i ).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "So we can rewrite W (S c i ) = W (E(S c i ) + i ). Using the intergenerational mobility equation",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "(1) above, E(S c i ) = \u03b1 + \u03b2S p i , which implies W (S c i ) = W (\u03b1 + \u03b2S p i + i ).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "We have the following:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "EW (S c i ) = W (\u03b1 + \u03b2S p i \u2212 \u03a0 i )",
+            "eq_num": "(4)"
+          }
+        ],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "where \u03a0 i is the risk premium which depends on the variance of \u03b5 i . Using second order Taylor series expansions around the conditional mean on both sides of equation 4, the risk premium can be approximately written as: ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "\u03a0 i 1 2 \u03c3 2 i (\u03b1 + \u03b2S p i ) R (5) where V ar(\u03b5 i ) = \u03c3 2 i ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "i 1 2 \u03b8 0 +\u03b8 1 S p i \u03b1 +\u03b2S p i R",
+            "eq_num": "(6)"
+          }
+        ],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "Combining (4) and (6), we have:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "EW (S c i ) W \uf8eb \uf8ed\u03b1 +\u03b2S p i \u2212 1 2 \u03b8 0 +\u03b8 1 S p i \u03b1 +\u03b2S p i R \uf8f6 \uf8f8",
+            "eq_num": "(7)"
+          }
+        ],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "Since W (.) is a monotonically increasing function, the rankings remain the same if we us\u00ea",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "\u03b1 +\u03b2S p i \u2212 1 2 \u03b8 0 +\u03b8 1 S p i \u03b1 +\u03b2S p i R instead of the RHS of equation (7).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "We propose measures of absolute and relative mobility based on\u03b1+\u03b2S p",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "i \u2212 1 2 \u03b8 0 +\u03b8 1 S p i \u03b1 +\u03b2S p i R.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "This has some important advantages compared to the measures of mobility based on equation 7above, as we will see below. Let",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "\u03a8 i (S p i ) =\u03b1 +\u03b2S p i \u2212 1 2 \u03b8 0 +\u03b8 1 S p i \u03b1 +\u03b2S p i R (8) \u03a8 i (S p i )",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "is our measure of absolute mobility for child i which shows the risk adjusted expected years of schooling of children conditional on father's schooling (called RES i for short). 18",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "The measure of relative mobility is:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "RIGRC i = \u2202\u03a8 \u2202S p i =\u03b2 \u2212 R 2 \u03b1 +\u03b2S p i \uf8ee \uf8f0\u03b8 1 \u2212\u03b2 \u03b8 0 +\u03b8 1 S p i \u03b1 +\u03b2S p i \uf8f9 \uf8fb",
+            "eq_num": "(9)"
+          }
+        ],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "An important advantage of the measures of relative and absolute mobility in equations 8and 9 19 This implies that the conventional argument that 1 \u2212 \u03b2 can be interpreted as a measure of mobility (while \u03b2 is a measure of intergenerational persistence) may not be useful in this context. We propose the inverse of RIGRC for such an interpretation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "To operationalize equations (8) and (9), we need an estimate of the CRRA coecient R.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "A substantial literature suggests that a CRRA utility function with risk aversion parameter of 1 is consistent with a variety of evidence (see, for example, Chetty (2006) on the United States, and Gendelman and Hern\u00e1ndez-Murillo (2014) for cross country evidence including many developing countries). We will thus set R = 1 for our estimation below. 21",
+        "cite_spans": [
+          {
+            "start": 157,
+            "end": 170,
+            "text": "Chetty (2006)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "Note that when the inuence of father's education on the conditional variance is negative (i.e., \u03b8 1 < 0), the second term in equation 9is unambiguously positive, and the estimate of risk adjusted relative immobility is necessarily larger than the standard estimate. However, the term in brackets can be negative even when \u03b8 1 > 0, for example, when the conditional variance term",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "\u03b8 0 +\u03b8 1 S p i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "is large (more likely in rural areas subject to weather shocks to agriculture). When comparing dierent groups, the risk adjusted estimates may be very dierent from the canonical IGRC estimates even if the impact of father's education on the conditional variance (i.e.,\u03b8 1 ) is similar across groups, because of dierences in the magnitudes of\u03b8 0 across groups. In contrast, the RIGRC estimates from a linear mobility model vary with father's education level because the risk premium is dierent across dierent levels of parental education. As noted earlier, the risk premium depends on the ratio of conditional variance to conditional 20 Note that we use the linear mobility CEF as the default specication for the mobility equation because it is almost universally used in the existing studies on intergenerational educational mobility with a few recent exceptions. As noted earlier, recent evidence suggests that the mobility CEF is likely to be concave or convex in many cases. In such cases, relative mobility varies across the distribution without any risk adjustments, and one can nd that the marginal eect of father's education on children's schooling is larger than 1, especially in the lower tail (for concave CEF) or the upper tail (for convex CEF). Thus, in a nonlinear model, using the inverse of the marginal eect of father's schooling as a measure of mobility seems more appropriate.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "21 While a CRRA coecient of 1 across countries helps understand the role played by the inuence of family background on conditional variance, one might prefer to use dierent estimates of the CRRA coecient for dierent countries when the focus is on interregional and intergroup dierences within the same country. mean. Figures 1A (China) , 1B (India), and 1C (Indonesia) present the graphs of the estimated conditional mean and conditional variance functions using the full sample . The graphs show that the ratio of conditional variance to conditional mean is large in the low educated households, and the ratio declines with father's education. This suggests that the risk premium at the lower end of the distribution is substantially higher, and we expect risk adjustments to substantially reduce the estimates of both relative mobility (RIGRC larger than the IGRC) and absolute mobility (RES lower than ES) of the most disadvantaged children.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 317,
+            "end": 335,
+            "text": "Figures 1A (China)",
+            "ref_id": "FIGREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "The estimates of the risk adjusted relative and absolute mobility for the full sample are reported in Table 5 along Table 4 ) show that a failure to take into account the eects on conditional variance overestimates the expected years of schooling for this subgroup of children by 48 percent in China, and by about 26 percent in India and Indonesia. A second important conclusion that comes out of the evidence is that, for the children of college educated fathers, the standard estimates are reasonably close to the risk adjusted estimates. For example, the standard IGRC overestimates relative mobility of the children of college educated fathers by 6.2 percent and absolute mobility by 4.1 percent in India, and the corresponding numbers for Indonesia are 5.6 percent and 2.1 percent. The biases in the corresponding estimates for China are larger, but even then, the biases are about half of that found for the subgroup where fathers have no schooling. The evidence thus suggests that the failure to consider the implications of family background for the second moment of data may not be as consequential for the children born into highly educated households.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 102,
+            "end": 115,
+            "text": "Table 5 along",
+            "ref_id": "TABREF8"
+          },
+          {
+            "start": 116,
+            "end": 123,
+            "text": "Table 4",
+            "ref_id": "TABREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "The estimates of the risk adjusted and standard measures of relative and absolute mobility across the distribution for rural vs. urban areas are reported in Table 6A for all three countries.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 157,
+            "end": 165,
+            "text": "Table 6A",
+            "ref_id": "TABREF9"
+          }
+        ],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "The estimates of gender dierences are reported in Table 6B . The evidence suggests that the standard measures of mobility consistently overestimate the educational opportunities for the disadvantaged children (father with low education). The risk adjustments make a big dierence specially for the rural areas and the daughters. Since the risk adjusted relative mobility varies across the distribution, it does not provide us with a summary statistic such as IGRC which can be easily compared across countries, regions, and dierent social groups. For such comparisons, we calculate a weighted RIGRC using the proportion of children as weights. As a summary measure of relative mobility, weighted RIGRC may be specially useful for policymakers.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 50,
+            "end": 58,
+            "text": "Table 6B",
+            "ref_id": "TABREF10"
+          }
+        ],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "The weighted RIGRC for various sub-samples dened by gender and geography (rural/urban) are reported in the odd numbered columns in Table 7 for our main estimation sample of 1950-1989 birth cohorts. For ease of comparison, the corresponding canonical IGRC estimates are in the even numbered columns. The estimates show that the RIGRC estimates are uniformly larger than the corresponding IGRC estimates, and the dierence is substantial in magnitude. For example, the estimates for the aggregate sample in row 1 of Table 7 suggest that the magnitude of underestimation in the standard IGRC estimate is 26 percent in China, 41 percent in India and 10.4 in Indonesia. The cross-country rankings do not change when we use RIGRC instead of IGRC estimates.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 131,
+            "end": 138,
+            "text": "Table 7",
+            "ref_id": "TABREF11"
+          },
+          {
+            "start": 513,
+            "end": 520,
+            "text": "Table 7",
+            "ref_id": "TABREF11"
+          }
+        ],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "However, when comparing dierent subgroups (based on gender and geography), the rankings based on the weighted RIGRC may be dierent (compared to the rankings based on standard IGRC). For example, in India, the rural-urban gap in educational mobility seems negligible according to the standard IGRC estimates (a 4.6 percent higher estimate in rural areas), but the gap is much larger according to the weighted RIGRC estimates (20 percent larger estimate in rural). Similarly, the standard IGRC estimates suggest no signicant gender gap in India, while the RIGRC estimates reveal a substantially lower relative mobility for the daughters. In India, the urban and rural daughters enjoy similar educational mobility according to the standard IGRC estimates with a slight advantage in favor of the rural daughters (a 2.9 percent higher IGRC estimate for urban daughters). But the weighted RIGRC estimates reveal a substantial disadvantage faced by the rural daughters (a 16.5 percent higher estimate for rural daughters).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "The estimates for decade wise birth cohorts show that the evolution of intergenerational educational mobility has been very dierent in China compared to India and Indonesia (see Table 8 ). China has become less mobile from the 1960s to the 1980s after experiencing a slight improvement from 1950s to 1960s. In contrast, the estimates of both weighted RIGRC and IGRC suggest that mobility has improved from the 1950s to the 1980s in India and Indonesia.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 178,
+            "end": 185,
+            "text": "Table 8",
+            "ref_id": "TABREF12"
+          }
+        ],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "While both measures pick the time trend correctly, the standard IGRC underestimates the improvements substantially, especially in India.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "20",
+        "sec_num": null
+      },
+      {
+        "text": "A large literature on intergenerational mobility focuses on the eects of family background on the conditional mean of children's economic outcomes and ignores any information contained in the conditional variance. We provide evidence on three large developing countries (China, India, and Indonesia) that suggests a strong inuence of father's education on the conditional variance of children's schooling. We nd substantial heterogeneity across countries, gender, and geography (rural/urban). Cohort based estimates suggest that the eect of father's education on the conditional variance has changed qualitatively, in some cases a positive eect in the 1950s cohort turning into a substantial negative eect in the 1980s cohort.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(6) Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The evidence on the eects of family background on the mean and conditional variance suggests that being born into a more educated father brings in double advantages for children in the form of a lower expected variance in schooling in addition to the standard higher expected years of schooling. We develop a methodology to incorporate the inuence of family background on the conditional variance along with the standard conditional mean estimates. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(6) Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(6) Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) The RIGRC refers to the Risk Adjusted Intergenerational Regression Coefficient. The RES refers to the Risk Adjusted Expected Schooling. The Linear ES refers to the Expected Schooling from a linear CEF mobility model. And the IGRC is the Intergenerational Regression Coefficient from a linear CEF mobility model. (1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort. (3) (2) The weights are the proportion of children at each level of father's education. (1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. 3 Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(6) Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(6) Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. (1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "(6) Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "OA2. Robustness Check: Linear vs. Quadratic CEF Model",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "OA2. Robustness Check: Linear vs. Quadratic CEF Model",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "OA2. Robustness Check: Linear vs. Quadratic CEF Model",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. Notes:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "OA2. Robustness Check: Linear vs. Quadratic CEF Model",
+        "sec_num": null
+      },
+      {
+        "text": "(1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) Each row uses a subsample of children who were born in the given birth cohort and the given category. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "OA2. Robustness Check: Linear vs. Quadratic CEF Model",
+        "sec_num": null
+      },
+      {
+        "text": "This suggests that the positive eect in the full sample found earlier for rural India and the daughters in India is driven by the earlier cohorts.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Among many studies relying on this specication, please seeHertz et al. (2008) andNarayan et al. (2018) for cross country evidence,Azam and Bhatt (2015), Emran and Shilpi (2015) and Asher et al. (2018) on India, Knight et al. (2011), Golley and Kong (2013), and Emran and Sun (2015) on China. For recent surveys of this literature, see Iversen et al. (2019), Torche (2019), and Emran and Shilpi (2021).11 This model of credit market imperfections is adopted byBecker et al. (2018) in their recent theoretical analysis of intergenerational mobility.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "This measure is similar to the other measures of absolute mobility based on the conditional mean function; see, for example, Chetty et al. (2014) in the context of intergenerational income mobility.19 This, however, does not mean an explosive process, as the magnitude of RIGRC declines with father's education.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Complementarities and Intergenerational Educational Mobility: Theory and Evidence from Indonesia. MPRA Paper 111125",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Ahsan",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Emran",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Shilpi",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ahsan, N., Emran, M. S., and Shilpi, F. (2021). Complementarities and Intergenerational Ed- ucational Mobility: Theory and Evidence from Indonesia. MPRA Paper 111125, University Library of Munich, Germany.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Intergenerational Mobility in India: Estimates from New Methods and Administrative Data. Working paper",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Asher",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Novosad",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Rafkin",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Asher, S., Novosad, P., and Rafkin, C. (2018). Intergenerational Mobility in India: Estimates from New Methods and Administrative Data. Working paper, World Bank.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Like Father, Like Son? Intergenerational Educational Mobility in India",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Azam",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Bhatt",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Demography",
+        "volume": "52",
+        "issue": "6",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Azam, M. and Bhatt, V. (2015). Like Father, Like Son? Intergenerational Educational Mobility in India. Demography, 52(6):19291959.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "A Theory of Intergenerational Mobility",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Becker",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "D"
+            ],
+            "last": "Kominers",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Murphy",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Spenkuch",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "MPRA Paper",
+        "volume": "66334",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Becker, G., Kominers, S. D., Murphy, K., and Spenkuch, J. (2015). A Theory of Intergenera- tional Mobility. MPRA Paper 66334, University Library of Munich, Germany.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "A Theory of Intergenerational Mobility",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [
+              "S"
+            ],
+            "last": "Becker",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "D"
+            ],
+            "last": "Kominers",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [
+              "M"
+            ],
+            "last": "Murphy",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "L"
+            ],
+            "last": "Spenkuch",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Journal of Political Economy",
+        "volume": "126",
+        "issue": "S1",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Becker, G. S., Kominers, S. D., Murphy, K. M., and Spenkuch, J. L. (2018). A Theory of Intergenerational Mobility. Journal of Political Economy, 126(S1):725.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Parental Preferences and Provision for Progeny",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Behrman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Pollak",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Taubman",
+            "suffix": ""
+          }
+        ],
+        "year": 1982,
+        "venue": "Journal of Political Economy",
+        "volume": "90",
+        "issue": "1",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Behrman, J., Pollak, R., and Taubman, P. (1982). Parental Preferences and Provision for Progeny. Journal of Political Economy, 90(1):5273.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Equality of opportunity and the distribution of long-run income in Sweden",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Bjorklund",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Jantti",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Roemer",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Social Choice and Welfare",
+        "volume": "39",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bjorklund, A., Jantti, M., and Roemer, J. (2012). Equality of opportunity and the distribution of long-run income in Sweden. Social Choice and Welfare, 39(2):675696.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Education and Family Background: Mechanisms and Policies",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Bjorklund",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [
+              "G"
+            ],
+            "last": "Salvanes",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "3",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bjorklund, A. and Salvanes, K. G. (2011). Education and Family Background: Mechanisms and Policies. In Hanushek, E., Machin, S., and Woessmann, L., editors, Handbook of the Economics of Education, volume 3, pages 201247. Elsevier.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Nonlinearities in intergenerational earnings mobility: Consequences for crosscountry comparisons",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Bratsberg",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "R\u00f8ed",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Raaum",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Naylor",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Ja\u00b2ntti",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Eriksson",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "O\u00b2sterbacka",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Economic Journal",
+        "volume": "117",
+        "issue": "519",
+        "pages": "72--92",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bratsberg, B., R\u00f8ed, K., Raaum, O., Naylor, R., Ja\u00b2ntti, M., Eriksson, T., and O\u00b2sterbacka, E. (2007). Nonlinearities in intergenerational earnings mobility: Consequences for cross- country comparisons. Economic Journal, 117(519):C72C92.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Where is the land of Opportunity? The Geography of Intergenerational Mobility in the United States",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Chetty",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Hendren",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Kline",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Saez",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "The Quarterly Journal of Economics",
+        "volume": "129",
+        "issue": "4",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chetty, R., Hendren, N., Kline, P., and Saez, E. (2014). Where is the land of Opportunity? The Geography of Intergenerational Mobility in the United States. The Quarterly Journal of Economics, 129(4):15531623.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Truncated and Censored Samples: Theory and Applications",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [
+              "C"
+            ],
+            "last": "Cohen",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cohen, A. C. (1991). Truncated and Censored Samples: Theory and Applications. Boca Raton, FL: CRC Press.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "The Pecking Order: Which Siblings Succeed and Why",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Conley",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Conley, D. (2004). The Pecking Order: Which Siblings Succeed and Why. Pantheon Books, New York.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Economic and Financial Decisions under Risk",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Eeckhoudt",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Gollier",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Schlesinger",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Eeckhoudt, L., Gollier, C., and Schlesinger, H. (2005). Economic and Financial Decisions under Risk. Princeton University Press.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "When Measure Matters: Coresidency, Truncation Bias, and Intergenerational Mobility in Developing Countries",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Emran",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Greene",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Shilpi",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Journal of Human Resources",
+        "volume": "53",
+        "issue": "3",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Emran, M. S., Greene, W., and Shilpi, F. (2018). When Measure Matters: Coresidency, Truncation Bias, and Intergenerational Mobility in Developing Countries. Journal of Human Resources, 53(3):589607.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Is Gender Destiny? Gender Bias and Intergenerational Educational Mobility in India",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Emran",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Jiang",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Shilpi",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "GLO Discussion Paper Series",
+        "volume": "807",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Emran, M. S., Jiang, H., and Shilpi, F. (2021). Is Gender Destiny? Gender Bias and Intergen- erational Educational Mobility in India. GLO Discussion Paper Series 807, Global Labor Organization (GLO).",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Gender Bias and Intergenerational Educational Mobility : Theory and Evidence from China and India",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Emran",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Jiang",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [
+              "J"
+            ],
+            "last": "Shilpi",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Emran, M. S., Jiang, H., and Shilpi, F. J. (2020). Gender Bias and Intergenerational Edu- cational Mobility : Theory and Evidence from China and India. Policy Research working paper WPS 9250, World Bank Group.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Gender, Geography, and Generations: Intergenerational Educational Mobility in Post-Reform India",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Emran",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Shilpi",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "World Development",
+        "volume": "72",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Emran, M. S. and Shilpi, F. (2015). Gender, Geography, and Generations: Intergenerational Educational Mobility in Post-Reform India. World Development, 72:362380.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Economic approach to intergenerational mobility: Measures, methods, and challenges in developing countries",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Emran",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Shilpi",
+            "suffix": ""
+          }
+        ],
+        "year": 2021,
+        "venue": "Social mobility in developing countries: Concepts, methods, and determinants",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Emran, M. S. and Shilpi, F. (2021). Economic approach to intergenerational mobility: Mea- sures, methods, and challenges in developing countries. In Iversen, V., Krishna, A., and Sen, K., editors, Social mobility in developing countries: Concepts, methods, and determinants.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Magical transition? intergenerational educational and occupational mobility in rural China",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "S"
+            ],
+            "last": "Emran",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Sun",
+            "suffix": ""
+          }
+        ],
+        "year": 1988,
+        "venue": "",
+        "volume": "7316",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Emran, M. S. and Sun, Y. (2015). Magical transition? intergenerational educational and occupational mobility in rural China : 1988-2002. Policy Research Working Paper Series 7316, The World Bank.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Heterogeneous returns to education in the labor market",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Fasih",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Kingdon",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [
+              "A"
+            ],
+            "last": "Patrinos",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Sakellariou",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Soderbom",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Policy Research Working Paper Series",
+        "volume": "6170",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fasih, T., Kingdon, G., Patrinos, H. A., Sakellariou, C., and Soderbom, M. (2012). Hetero- geneous returns to education in the labor market. Policy Research Working Paper Series 6170, The World Bank.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Inequality in Intergenerational Mobility of Education in China",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Golley",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "T"
+            ],
+            "last": "Kong",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "China & World Economy",
+        "volume": "21",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Golley, J. and Kong, S. T. (2013). Inequality in Intergenerational Mobility of Education in China. China & World Economy, 21:1537.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Reconsidering the Use of Nonlinearities in Intergenerational Earnings Mobility as a Test for Credit Constraints",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [
+              "D"
+            ],
+            "last": "Grawe",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Journal of Human Resources",
+        "volume": "",
+        "issue": "3",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Grawe, N. D. (2004). Reconsidering the Use of Nonlinearities in Intergenerational Earnings Mobility as a Test for Credit Constraints. Journal of Human Resources, 39(3).",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Gender and inequality of opportunity in Sweden",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Hederos",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "J\u00e4ntti",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Lindahl",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Social Choice and Welfare",
+        "volume": "49",
+        "issue": "3",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hederos, K., J\u00e4ntti, M., and Lindahl, L. (2017). Gender and inequality of opportunity in Sweden. Social Choice and Welfare, 49(3):605635.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "The Inheritance of Educational Inequality: International Comparisons and Fifty-Year Trends. The B.E",
+        "authors": [],
+        "year": null,
+        "venue": "Journal of Economic Analysis & Policy",
+        "volume": "7",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "The Inheritance of Educational Inequality: International Comparisons and Fifty-Year Trends. The B.E. Journal of Economic Analysis & Policy, 7(2):148.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Beyond poverty escapes \u2212 social mobility in developing countries: A review article",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Iversen",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Krishna",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Sen",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "World Bank Research Observer",
+        "volume": "34",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Iversen, V., Krishna, A., and Sen, K. (2019). Beyond poverty escapes \u2212 social mobility in developing countries: A review article. World Bank Research Observer, 34(2):239273.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "The progress of school education in India",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [
+              "G"
+            ],
+            "last": "Kingdon",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Oxford Review of Economic Policy",
+        "volume": "23",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kingdon, G. G. (2007). The progress of school education in India. Oxford Review of Economic Policy, 23(2):168195.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Is the Past Still Holding Us Back? A Study on Intergenerational Education Mobility in India",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [
+              "K V"
+            ],
+            "last": "Kishan",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kishan, P. K. V. (2018). Is the Past Still Holding Us Back? A Study on Intergenerational Education Mobility in India. IIMA Working Papers WP 2018-01-03, Indian Institute of Management Ahmedabad, Research and Publication Department.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Educational Inequality in China: The Intergenerational Dimension. University of Western Ontario, Centre for Human Capital and Productivity (CHCP) Working Papers",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Knight",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Sicular",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Yue",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Knight, J., Sicular, T., and Yue, X. (2011). Educational Inequality in China: The Inter- generational Dimension. University of Western Ontario, Centre for Human Capital and Productivity (CHCP) Working Papers 201113, University of Western Ontario.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Intergenerational Human Capital Spillovers: Indonesia's School Construction and Its Eects on the Next Generation",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Mazumder",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Rosales-Rueda",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Triyana",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "AEA Papers and Proceedings",
+        "volume": "109",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mazumder, B., Rosales-Rueda, M., and Triyana, M. (2019). Intergenerational Human Capital Spillovers: Indonesia's School Construction and Its Eects on the Next Generation. AEA Papers and Proceedings, 109:243249.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "A Very Uneven Playing Field: Economic Mobility in the United States. Working Papers",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Mitnik",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Bryant",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Grusky",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mitnik, P., Bryant, V., and Grusky, D. (2018). A Very Uneven Playing Field: Economic Mobility in the United States. Working Papers 2018-097, Human Capital and Economic Opportunity Working Group.",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "Fair Progress? Economic Mobility across Generations Around the World",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Narayan",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "V"
+            ],
+            "last": "Der Weide",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Cojocaru",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Lakner",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Redaelli",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "G"
+            ],
+            "last": "Mahler",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "G N"
+            ],
+            "last": "Ramasubbaiah",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Thewissen",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Number 28428 in World Bank Publications",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Narayan, A., der Weide, R. V., Cojocaru, A., Lakner, C., Redaelli, S., Mahler, D. G., Rama- subbaiah, R. G. N., and Thewissen, S. (2018). Fair Progress? Economic Mobility across Generations Around the World. Number 28428 in World Bank Publications. The World Bank.",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Equality of Opportunity: Theory and Measurement",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Roemer",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Trannoy",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Journal of Economic Literature",
+        "volume": "54",
+        "issue": "4",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Roemer, J. and Trannoy, A. (2016). Equality of Opportunity: Theory and Measurement. Journal of Economic Literature, 54(4):12881332.",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "Equality of Opportunity",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "E"
+            ],
+            "last": "Roemer",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Roemer, J. E. (1998). Equality of Opportunity. Harvard University Press.",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "Intergenerational mobility in the labor market",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Solon",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Handbook of Labor Economics",
+        "volume": "3",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Solon, G. (1999). Intergenerational mobility in the labor market. In Ashenfelter, O. and Card, D., editors, Handbook of Labor Economics, volume 3 of Handbook of Labor Economics, pages 17611800. Elsevier.",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "Educational mobility in developing countries",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Torche",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "WIDER Working Paper Series",
+        "volume": "",
+        "issue": "",
+        "pages": "2019--88",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Torche, F. (2019). Educational mobility in developing countries. WIDER Working Paper Series 2019-88.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "on the United States and Kishan (2018) on India. The focus in this approach on estimating dierent conditional mean functions corresponding to the quantiles of children's education. Grawe (2004) provides an interesting analysis of the pitfalls in relying on functional form of the CEF to learn about credit constraints in the context of income mobility. His analysis suggests that a quantile regression approach can be useful in understanding the existence of credit constraints.",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF1": {
+        "text": ". The evidence shows interesting pattern in the evolution of the inuence of family background on conditional variance of children's schooling.",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF2": {
+        "text": "below, we combine the conditional mean and conditional variance eects to provide risk adjusted relative and absolute mobility measures. The estimates disaggregated across gender and geography, and for dierent cohorts are reported in the online appendix Tables A.2, and A.3 (please see online appendix section OA.1). Again, the evidence suggests important heterogeneity across gender and rural-urban locations. The inuence of family background on conditional variance in early cohorts is negative in the urban and son's samples for India and China, but there is no signicant eect in Indonesia. It is positive and numerically substantial in the rural and daughters samples for India and Indonesia, but no signicant eect in China. The estimate turned negative in the 1980s even in the rural and daughters samples in all three countries.",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF3": {
+        "text": "(4.3) Robustness Checks The evidence discussed above suggests that the conditional variance of children's school depends systematically on father's education, and there are substantial heterogeneity across countries, regions (rural/urban), gender, and cohorts. We rst check whether the observed patterns in conditional variance of children's schooling are primarily driven by functional form misspecication. As noted briey earlier, there is a growing theoretical and empirical literature that suggests that the intergenerational educational mobility equation is quadratic (Becker et al. (2018) , Emran et al. (2020) ): 17 S c",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF4": {
+        "text": "), but we estimate 17 Most of the studies on intergenerational income mobility use a specication linear in logs.Bratsberg et al. (2007) nds that it is convex in Norway, Denmark, and Finland, but closer to linear in the United States and the United Kingdom. However,Chetty et al. (2014) report evidence of a concave relation (see theirFigure 1)in the United States, and a recent analysis byMitnik et al. (2018) provides evidence that the income mobility equation is convex in the United States.",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF5": {
+        "text": "and the impact of father's education on the conditional variance dened in terms of \u03b6 i . The estimates for various samples are reported in Tables A.4-a.8 in the online appendix section OA.2. The evidence suggests strongly that the relations between family background and conditional variance of children's schooling uncovered in Tables 2-4 are not driven by functional form misspecication of the mobility CEF. The next question we address is whether the estimated impact of father's education largely reects the omitted cognitive ability heterogeneity of children. For this analysis, we take advantage of the IFLS-2014 survey in Indonesia which collected data on multiple indicators of cognitive ability of a child (measurement taken in 2014 when the children are adult): raven test scores and two memory tests. We construct an index of cognitive ability in two steps. First, we construct the rst principal component of the dierent measures of cognitive ability. In the second step, we regress the rst principal component on age and age squared of a child to take out the Flynn eect. The residual from this regression is our index of cognitive ability of a child. We control for the ability index and its squared in the regression for conditional variance in equation (2) above. The estimates for the full sample are reported in online appendix Table A.4 (see online appendix section OA.3). The main message that comes out is that the estimated eects of father's education on conditional variance of schooling of children are not driven by omitted ability heterogeneity. Even though ability controls reduce the estimated coecient, the inuence of father's education still remains substantial and statistically signicant at the 1 percent level. The estimates for other subsamples are available from the authors. (5) Combining the Mean and Conditional Variance Eects: New (and More Complete) Measures of Relative and Absolute MobilityThe evidence presented above suggests strongly that it is important to understand the inuence of family background on the conditional variance in addition to the standard mean eects. In this section, we develop an approach that combines the mean and variance eects using standard results from the theory of decisions under uncertainty.Assume a concave payo function (utility function) dened over the possible schooling outcomes of a child i, W (S c i ). Denote the expected schooling as E(S c i ), and i",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF6": {
+        "text": "is that they are readily comparable to the standard estimates of mobility (they are measured in the same units: years of schooling). A second important feature of the proposed measures is that they yield the standard measures of relative and absolute mobility currently used in the literature under risk neutrality. For example, consider the workhorse measure of relative educational mobility in the current literature called IGRC, estimated as the parameter \u03b2 in equation (1). For the risk neutral case, we have R = 0, and relative mobility is equal to \u03b2 (IGRC). Under risk aversion, the extent of underestimation when we omit the eects of family background on the conditional variance is given by the second term.It also important to appreciate some of the dierences between the standard measures and the risk-adjusted measures proposed here. Even though all the estimates of \u03b2 as a measure of relative mobility we are aware of fall in the open interval (0, 1), the risk adjusted measures may not be contained in this interval. For example, when the ratio of conditional variance to conditional mean is large, the risk premium in equation (9) can be large enough to make RIGRC estimate greater than 1.",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF7": {
+        "text": "Estimates of Risk Adjusted Measures: Mobility across the Distribution of Father's EducationThe standard measure of relative mobility in the workhorse linear model given by the slope of the mobility equation, IGRC, does not vary across the distribution of father's schooling.",
+        "fig_num": "1",
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF8": {
+        "text": "with the standard estimates for ease of comparison. Figures 2A (China), 2B (India), and 2C (Indonesia) present the graphs of RIGRC and IGRC estimates, and the corresponding estimates of absolute mobility (RES and ES) are in Figures 3A (China), 3B (India) and 3C (Indonesia). Consistent with the discussion above, the evidence conrms that accounting for risk reveals much worse educational opportunities for the children born to fathers with low or no education. The gap between the RIGRC and IGRC estimates is the largest for the children of fathers with no schooling, and the same is true for the gap between ES (expected years of schooling) and RES (risk adjusted expected years of schooling). For relative mobility, the canonical IGRC estimate underestimates the inuence of family background for this most disadvantaged subgroup of children by 41 percent in China, 63 percent in India, and 28 percent in Indonesia. A comparison of the RES estimates with the ES estimates (see",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF9": {
+        "text": "(5.2) Estimates of Risk Adjusted Measures: Relative Mobility across Countries, Regions, and Gender",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF10": {
+        "text": "Based on the standard results from the theory of decisions under uncertainty, we adjust the canonical measure of intergenerational relative and absolute mobility by an estimate of the risk premium associated with the conditional variance in schooling attainment faced by children. The risk premium is determined by the ratio of conditional variance to conditional mean along with the coecient of relative risk aversion. The estimates of the risk adjusted relative and absolute mobility for China, India and Indonesia suggest that the current practice of ignoring the conditional variance results in substantial underestimation of the eects of family background on children's educational opportunities. More important, the magnitude of underestimation in the standard measures is the largest for the most disadvantaged children born into households where fathers have no schooling. The existing literature on intergenerational educational mobility thus substantially overestimates the intergenerational educational mobility of disadvantaged children. The standard (but partial) measure may lead to incorrect ranking of countries in terms of relative mobility. The standard measure of relative mobility (IGRC) is likely to underestimate the gender gap and rural-urban gap in educational opportunities.",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF11": {
+        "text": "(2) The weights are the proportion of children at each level of father's education.",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "FIGREF12": {
+        "text": "Figure 1. Conditional Mean and Variance of Child's Schooling Against Father's Schooling",
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null,
+        "uris": null
+      },
+      "TABREF4": {
+        "text": "The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia.",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td>INDIA</td><td/><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Mean</td><td>SD</td><td>Mean</td><td>SD</td><td>Mean</td><td>SD</td></tr><tr><td/><td/><td/><td colspan=\"2\">Full Sample</td><td/><td/></tr><tr><td>Father's Edu</td><td>4.124</td><td>4.370</td><td>3.633</td><td>4.540</td><td>6.213</td><td>3.854</td></tr><tr><td>Children's Edu</td><td>7.521</td><td>4.430</td><td>6.501</td><td>5.168</td><td>9.524</td><td>4.154</td></tr><tr><td>Observations</td><td colspan=\"2\">N=94159</td><td colspan=\"2\">N=86748</td><td colspan=\"2\">N=18356</td></tr><tr><td/><td/><td/><td>Urban</td><td/><td/><td/></tr><tr><td>Father's Edu</td><td>5.089</td><td>4.662</td><td>5.233</td><td>5.035</td><td>7.717</td><td>4.023</td></tr><tr><td>Children's Edu</td><td>9.376</td><td>4.173</td><td>8.446</td><td>5.048</td><td>10.836</td><td>3.876</td></tr><tr><td>Observations</td><td colspan=\"2\">N=35308</td><td colspan=\"2\">N=31216</td><td colspan=\"2\">N=5919</td></tr><tr><td/><td/><td/><td>Rural</td><td/><td/><td/></tr><tr><td>Father's Edu</td><td>3.546</td><td>4.078</td><td>2.734</td><td>3.962</td><td>5.497</td><td>3.554</td></tr><tr><td>Children's Edu</td><td>6.408</td><td>4.202</td><td>5.408</td><td>4.907</td><td>8.899</td><td>4.136</td></tr><tr><td>Observations</td><td colspan=\"2\">N=58851</td><td colspan=\"2\">N=55532</td><td colspan=\"2\">N=12437</td></tr><tr><td/><td/><td/><td>Sons</td><td/><td/><td/></tr><tr><td>Father's Edu</td><td>4.086</td><td>4.373</td><td>3.689</td><td>4.495</td><td>6.177</td><td>3.839</td></tr><tr><td>Children's Edu</td><td>8.169</td><td>4.143</td><td>7.557</td><td>4.972</td><td>9.822</td><td>4.022</td></tr><tr><td>Observations</td><td colspan=\"2\">N=46791</td><td colspan=\"2\">N=46701</td><td colspan=\"2\">N=8558</td></tr><tr><td/><td/><td/><td colspan=\"2\">Daughters</td><td/><td/></tr><tr><td>Father's Edu</td><td>4.163</td><td>4.367</td><td>3.569</td><td>4.590</td><td>6.245</td><td>3.867</td></tr><tr><td>Children's Edu</td><td>6.880</td><td>4.609</td><td>5.269</td><td>5.120</td><td>9.264</td><td>4.249</td></tr><tr><td>Observations</td><td colspan=\"2\">N=47368</td><td colspan=\"2\">N=40047</td><td colspan=\"2\">N=9798</td></tr><tr><td>Notes: (1)</td><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF5": {
+        "text": "The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia.",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Yrs Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td></tr><tr><td>Father's Edu</td><td>0.383***</td><td>-0.483***</td><td>0.621***</td><td>-0.379***</td><td>0.497***</td><td>-0.514***</td></tr><tr><td/><td>(0.014)</td><td>(0.036)</td><td>(0.005)</td><td>(0.028)</td><td>(0.011)</td><td>(0.052)</td></tr><tr><td>Constant</td><td colspan=\"6\">5.943*** 18.823*** 4.244*** 20.134*** 6.437*** 16.784***</td></tr><tr><td/><td>(0.152)</td><td>(0.424)</td><td>(0.043)</td><td>(0.144)</td><td>(0.113)</td><td>(0.429)</td></tr><tr><td>Observations</td><td>94,159</td><td>94,159</td><td>86,748</td><td>86,748</td><td>18356</td><td>18356</td></tr><tr><td>R-squared</td><td>0.142</td><td>0.009</td><td>0.298</td><td>0.006</td><td>0.212</td><td>0.011</td></tr><tr><td>Mean of \u0305</td><td>7.521</td><td>16.83</td><td>6.501</td><td>18.76</td><td>9.523</td><td>13.587</td></tr><tr><td>Notes: (1)</td><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF6": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Yrs Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.356***</td><td>-0.548***</td><td>0.563***</td><td>-0.772***</td><td>0.468***</td><td>-0.707***</td></tr><tr><td/><td>(0.013)</td><td>(0.053)</td><td>(0.007)</td><td>(0.034)</td><td>(0.016)</td><td>(0.065)</td></tr><tr><td>Constant</td><td colspan=\"6\">7.564*** 17.449*** 5.498*** 21.478*** 7.225*** 16.935***</td></tr><tr><td/><td>(0.147)</td><td>(0.586)</td><td>(0.074)</td><td>(0.250)</td><td>(0.171)</td><td>(0.598)</td></tr><tr><td>Observations</td><td>35,308</td><td>35,308</td><td>31,216</td><td>31,216</td><td>5919</td><td>5919</td></tr><tr><td>R-squared</td><td>0.158</td><td>0.013</td><td>0.316</td><td>0.029</td><td>0.236</td><td>0.027</td></tr><tr><td>Mean of \u0305</td><td>9.376</td><td>14.66</td><td>8.446</td><td>17.44</td><td>10.835</td><td>11.475</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.321***</td><td>-0.524***</td><td>0.589***</td><td>-0.022</td><td>0.467***</td><td>-0.294***</td></tr><tr><td/><td>(0.014)</td><td>(0.044)</td><td>(0.007)</td><td>(0.040)</td><td>(0.012)</td><td>(0.069)</td></tr><tr><td>Constant</td><td colspan=\"6\">5.271*** 17.799*** 3.798*** 18.702*** 6.331*** 15.967***</td></tr><tr><td/><td>(0.165)</td><td>(0.342)</td><td>(0.048)</td><td>(0.177)</td><td>(0.115)</td><td>(0.516)</td></tr><tr><td>Observations</td><td>58,851</td><td>58,851</td><td>55,532</td><td>55,532</td><td>12437</td><td>12437</td></tr><tr><td>R-squared</td><td>0.097</td><td>0.013</td><td>0.226</td><td>0.000</td><td>0.161</td><td>0.003</td></tr><tr><td>Mean of \u0305</td><td>6.408</td><td>15.94</td><td>5.408</td><td>18.64</td><td>8.899</td><td>14.351</td></tr><tr><td/><td/><td/><td colspan=\"2\">Sons</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.329***</td><td>-0.476***</td><td>0.595***</td><td>-0.927***</td><td>0.461***</td><td>-0.522***</td></tr><tr><td/><td>(0.014)</td><td>(0.048)</td><td>(0.006)</td><td>(0.025)</td><td>(0.013)</td><td>(0.066)</td></tr><tr><td>Constant</td><td colspan=\"6\">6.824*** 17.033*** 5.361*** 20.974*** 6.971*** 16.259***</td></tr><tr><td/><td>(0.142)</td><td>(0.547)</td><td>(0.049)</td><td>(0.165)</td><td>(0.133)</td><td>(0.516)</td></tr><tr><td>Observations</td><td>46,791</td><td>46,791</td><td>46,701</td><td>46,701</td><td>8558</td><td>8558</td></tr><tr><td>R-squared</td><td>0.121</td><td>0.009</td><td>0.290</td><td>0.038</td><td>0.194</td><td>0.012</td></tr><tr><td>Mean of \u0305</td><td>8.169</td><td>15.09</td><td>7.557</td><td>17.55</td><td>9.821</td><td>13.03</td></tr><tr><td/><td/><td/><td colspan=\"2\">Daughters</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.438***</td><td>-0.364***</td><td>0.643***</td><td>0.334***</td><td>0.528***</td><td>-0.483***</td></tr><tr><td/><td>(0.015)</td><td>(0.052)</td><td>(0.006)</td><td>(0.040)</td><td>(0.013)</td><td>(0.061)</td></tr><tr><td>Constant</td><td colspan=\"6\">5.057*** 19.099*** 2.974*** 16.306*** 5.964*** 16.892***</td></tr><tr><td/><td>(0.174)</td><td>(0.347)</td><td>(0.048)</td><td>(0.200)</td><td>(0.123)</td><td>(0.499)</td></tr><tr><td>Observations</td><td>47,368</td><td>47,368</td><td>40,047</td><td>40,047</td><td>9798</td><td>9798</td></tr><tr><td>R-squared</td><td>0.172</td><td>0.006</td><td>0.332</td><td>0.004</td><td>0.231</td><td>0.010</td></tr><tr><td>Mean of \u0305</td><td>6.880</td><td>17.58</td><td>5.269</td><td>17.50</td><td>9.263</td><td>13.875</td></tr></table>"
+      },
+      "TABREF7": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Yrs Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td></tr><tr><td>1980-1989</td><td>0.420***</td><td>-0.766***</td><td>0.551***</td><td>-0.644***</td><td>0.424***</td><td>-0.478***</td></tr><tr><td/><td>(0.034)</td><td>(0.101)</td><td>(0.007)</td><td>(0.034)</td><td>(0.013)</td><td>(0.050)</td></tr><tr><td>1970-1979</td><td>0.398***</td><td>-0.445***</td><td>0.582***</td><td>-0.294***</td><td>0.492***</td><td>-0.299***</td></tr><tr><td/><td>(0.021)</td><td>(0.055)</td><td>(0.007)</td><td>(0.041)</td><td>(0.015)</td><td>(0.065)</td></tr><tr><td>1960-1969</td><td>0.292***</td><td>-0.435***</td><td>0.650***</td><td>0.053</td><td>0.586***</td><td>-0.328**</td></tr><tr><td/><td>(0.015)</td><td>(0.046)</td><td>(0.009)</td><td>(0.056)</td><td>(0.024)</td><td>(0.139)</td></tr><tr><td>1950-1959</td><td>0.292***</td><td>-0.275***</td><td>0.681***</td><td>0.028</td><td>0.521***</td><td>0.462**</td></tr><tr><td/><td>(0.017)</td><td>(0.070)</td><td>(0.011)</td><td>(0.077)</td><td>(0.036)</td><td>(0.228)</td></tr></table>"
+      },
+      "TABREF8": {
+        "text": "The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia.(2)The RIGRC refers to the Risk Adjusted IGRC. The RES refers to the Risk Adjusted Expected Schooling. The Linear ES refers to the Expected Schooling from a linear CEF mobility model. And the IGRC is the Intergenerational Regression Coefficient from a linear CEF mobility model.",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td/><td>CHINA</td><td/><td/><td>INDIA</td><td/><td colspan=\"2\">INDONESIA</td><td/></tr><tr><td/><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td></tr><tr><td>No Sch</td><td>0.525</td><td>4.359</td><td>5.943</td><td>1.013</td><td>1.872</td><td>4.244</td><td>0.637</td><td>5.134</td><td>6.437</td></tr><tr><td/><td colspan=\"9\">(0.019) (0.195) (0.152) (0.011) (0.069) (0.043) (0.014) (0.140) (0.113)</td></tr><tr><td>Primary</td><td>0.457</td><td>7.272</td><td>8.239</td><td>0.752</td><td>6.109</td><td>7.350</td><td>0.562</td><td>8.691</td><td>9.418</td></tr><tr><td/><td colspan=\"9\">(0.019) (0.126) (0.111) (0.006) (0.042) (0.035) (0.012) (0.082) (0.075)</td></tr><tr><td>Junior High</td><td>0.440</td><td>8.615</td><td>9.386</td><td>0.686</td><td>9.674</td><td>10.455</td><td>0.546</td><td>10.351</td><td>10.908</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.122) (0.111) (0.005) (0.047) (0.043) (0.012) (0.077) (0.072)</td></tr><tr><td>Senior High</td><td>0.428</td><td>9.915</td><td>10.534</td><td>0.673</td><td>11.031</td><td>11.698</td><td>0.535</td><td>11.971</td><td>12.399</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.134) (0.125) (0.005) (0.053) (0.049) (0.011) (0.087) (0.083)</td></tr><tr><td>College</td><td>0.417</td><td>11.604</td><td>12.064</td><td>0.660</td><td>13.028</td><td>13.561</td><td>0.525</td><td>14.089</td><td>14.386</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.168) (0.160) (0.005) (0.063) (0.060) (0.011) (0.114) (0.110)</td></tr><tr><td>IGRC</td><td>0.383</td><td/><td/><td>0.621</td><td/><td/><td>0.497</td><td/><td/></tr><tr><td/><td>(0.014)</td><td/><td/><td>(0.005)</td><td/><td/><td>(0.011)</td><td/><td/></tr><tr><td>Notes: (1)</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF9": {
+        "text": "The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) The RIGRC refers to the Risk Adjusted Intergenerational Regression Coefficient. The RES refers to the Risk Adjusted Expected Schooling. The Linear ES refers to the Expected Schooling from a linear CEF mobility model. And the IGRC is the Intergenerational Regression Coefficient from a linear CEF mobility model.",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td/><td>CHINA</td><td/><td/><td>INDIA</td><td/><td colspan=\"2\">INDONESIA</td><td/></tr><tr><td/><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td></tr><tr><td/><td/><td/><td/><td/><td>Urban</td><td/><td/><td/><td/></tr><tr><td>No Sch</td><td>0.446</td><td>6.411</td><td>7.564</td><td>0.833</td><td>3.545</td><td>5.498</td><td>0.593</td><td>6.053</td><td>7.225</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.174) (0.147) (0.012) (0.102) (0.074) (0.020) (0.203) (0.171)</td></tr><tr><td>Primary</td><td>0.411</td><td>8.970</td><td>9.700</td><td>0.681</td><td>7.255</td><td>8.314</td><td>0.533</td><td colspan=\"2\">9.400 10.033</td></tr><tr><td/><td colspan=\"9\">(0.014) (0.114) (0.104) (0.008) (0.060) (0.052) (0.017) (0.104) (0.096)</td></tr><tr><td>Junior High</td><td colspan=\"9\">0.401 10.187 10.768 0.629 10.512 11.130 0.518 10.974 11.436</td></tr><tr><td/><td colspan=\"9\">(0.013) (0.105) (0.099) (0.007) (0.052) (0.048) (0.017) (0.082) (0.078)</td></tr><tr><td>Senior High</td><td colspan=\"9\">0.393 11.377 11.836 0.618 11.758 12.256 0.507 12.511 12.840</td></tr><tr><td/><td colspan=\"9\">(0.013) (0.112) (0.107) (0.007) (0.056) (0.052) (0.016) (0.089) (0.086)</td></tr><tr><td>College</td><td colspan=\"9\">0.385 12.933 13.260 0.605 13.591 13.946 0.498 14.521 14.712</td></tr><tr><td/><td colspan=\"9\">(0.013) (0.139) (0.134) (0.007) (0.067) (0.064) (0.016) (0.130) (0.127)</td></tr><tr><td>IGRC</td><td>0.356</td><td/><td/><td>0.563</td><td/><td/><td>0.468</td><td/><td/></tr><tr><td/><td>(0.013)</td><td/><td/><td>(0.007)</td><td/><td/><td>(0.016)</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td>Rural</td><td/><td/><td/><td/></tr><tr><td>No Sch</td><td>0.473</td><td>3.583</td><td>5.271</td><td>0.973</td><td>1.336</td><td>3.798</td><td>0.583</td><td>5.071</td><td>6.331</td></tr><tr><td/><td colspan=\"9\">(0.021) (0.220) (0.165) (0.016) (0.082) (0.048) (0.016) (0.144) (0.115)</td></tr><tr><td>Primary</td><td>0.402</td><td>6.177</td><td>7.195</td><td>0.711</td><td>5.362</td><td>6.741</td><td>0.523</td><td>8.357</td><td>9.134</td></tr><tr><td/><td colspan=\"9\">(0.017) (0.121) (0.103) (0.009) (0.057) (0.046) (0.014) (0.090) (0.081)</td></tr><tr><td>Junior High</td><td>0.384</td><td>7.355</td><td>8.157</td><td>0.648</td><td>8.730</td><td>9.685</td><td>0.509</td><td colspan=\"2\">9.903 10.536</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.102) (0.088) (0.008) (0.073) (0.065) (0.013) (0.092) (0.085)</td></tr><tr><td>Senior High</td><td>0.372</td><td>8.488</td><td>9.119</td><td colspan=\"6\">0.636 10.013 10.862 0.500 11.416 11.937</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.106) (0.094) (0.008) (0.084) (0.076) (0.013) (0.110) (0.103)</td></tr><tr><td>College</td><td>0.362</td><td colspan=\"8\">9.588 10.081 0.623 11.901 12.628 0.492 13.398 13.806</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.128) (0.117) (0.007) (0.101) (0.093) (0.013) (0.146) (0.139)</td></tr><tr><td>IGRC</td><td>0.321</td><td/><td/><td>0.589</td><td/><td/><td>0.467</td><td/><td/></tr><tr><td/><td>(0.014)</td><td/><td/><td>(0.007)</td><td/><td/><td>(0.012)</td><td/><td/></tr><tr><td>Notes: (1)</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF10": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td/><td>CHINA</td><td/><td/><td>INDIA</td><td/><td colspan=\"2\">INDONESIA</td><td/></tr><tr><td/><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td></tr><tr><td/><td/><td/><td/><td/><td>Sons</td><td/><td/><td/><td/></tr><tr><td>No Sch</td><td>0.424</td><td>5.576</td><td>6.824</td><td>0.899</td><td>3.405</td><td>5.361</td><td>0.576</td><td>5.805</td><td>6.971</td></tr><tr><td/><td colspan=\"9\">(0.018) (0.173) (0.142) (0.009) (0.069) (0.049) (0.017) (0.160) (0.133)</td></tr><tr><td>Primary</td><td>0.387</td><td>7.994</td><td>8.800</td><td>0.721</td><td>7.358</td><td>8.338</td><td>0.520</td><td>9.066</td><td>9.740</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.108) (0.097) (0.007) (0.039) (0.034) (0.014) (0.092) (0.085)</td></tr><tr><td>Junior High</td><td>0.376</td><td>9.137</td><td>9.788</td><td>0.664</td><td>10.798</td><td>11.315</td><td>0.506</td><td>10.605</td><td>11.124</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.106) (0.098) (0.006) (0.040) (0.038) (0.014) (0.086) (0.081)</td></tr><tr><td>Senior High</td><td>0.367</td><td>10.251</td><td>10.776</td><td>0.651</td><td>12.112</td><td>12.506</td><td>0.497</td><td>12.109</td><td>12.509</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.122) (0.115) (0.006) (0.047) (0.045) (0.014) (0.100) (0.095)</td></tr><tr><td>College</td><td>0.360</td><td>11.704</td><td>12.093</td><td>0.638</td><td>14.045</td><td>14.292</td><td>0.488</td><td>14.079</td><td>14.354</td></tr><tr><td/><td colspan=\"9\">(0.015) (0.161) (0.154) (0.006) (0.059) (0.057) (0.013) (0.135) (0.130)</td></tr><tr><td>IGRC</td><td>0.329</td><td/><td/><td>0.595</td><td/><td/><td>0.461</td><td/><td/></tr><tr><td/><td>(0.014)</td><td/><td/><td>(0.006)</td><td/><td/><td>(0.013)</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td>Daughters</td><td/><td/><td/><td/></tr><tr><td>No Sch</td><td>0.638</td><td>3.169</td><td>5.057</td><td>1.180</td><td>0.232</td><td>2.974</td><td>0.694</td><td>4.547</td><td>5.964</td></tr><tr><td/><td colspan=\"9\">(0.024) (0.241) (0.174) (0.024) (0.099) (0.048) (0.018) (0.158) (0.123)</td></tr><tr><td>Primary</td><td>0.524</td><td>6.585</td><td>7.685</td><td>0.767</td><td>4.737</td><td>6.189</td><td>0.599</td><td>8.369</td><td>9.134</td></tr><tr><td/><td colspan=\"9\">(0.017) (0.155) (0.133) (0.009) (0.061) (0.048) (0.014) (0.085) (0.077)</td></tr><tr><td>Junior High</td><td>0.501</td><td>8.120</td><td>8.999</td><td>0.697</td><td>8.360</td><td>9.405</td><td>0.580</td><td>10.135</td><td>10.720</td></tr><tr><td/><td colspan=\"9\">(0.017) (0.147) (0.132) (0.007) (0.074) (0.065) (0.014) (0.082) (0.076)</td></tr><tr><td>Senior High</td><td>0.486</td><td>9.599</td><td>10.313</td><td>0.685</td><td>9.741</td><td>10.691</td><td>0.567</td><td>11.854</td><td>12.305</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.157) (0.144) (0.007) (0.082) (0.074) (0.014) (0.098) (0.093)</td></tr><tr><td>College</td><td>0.476</td><td>11.041</td><td>11.627</td><td>0.673</td><td>11.776</td><td>12.620</td><td>0.557</td><td>14.101</td><td>14.419</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.179) (0.168) (0.007) (0.097) (0.089) (0.013) (0.135) (0.130)</td></tr><tr><td>IGRC</td><td>0.438</td><td/><td/><td>0.643</td><td/><td/><td>0.528</td><td/><td/></tr><tr><td/><td>(0.015)</td><td/><td/><td>(0.006)</td><td/><td/><td>(0.013)</td><td/><td/></tr><tr><td>Notes:</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF11": {
+        "text": "The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) The weights are the proportion of children at each level of father's education.",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td></tr><tr><td/><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td></tr><tr><td>All</td><td>0.484</td><td>0.383</td><td>0.876</td><td>0.621</td><td>0.568</td><td>0.497</td></tr><tr><td>Urban</td><td>0.420</td><td>0.356</td><td>0.721</td><td>0.563</td><td>0.527</td><td>0.468</td></tr><tr><td>Rural</td><td>0.436</td><td>0.321</td><td>0.863</td><td>0.589</td><td>0.532</td><td>0.467</td></tr><tr><td>Sons</td><td>0.402</td><td>0.329</td><td>0.800</td><td>0.595</td><td>0.524</td><td>0.461</td></tr><tr><td>Daughters</td><td>0.571</td><td>0.438</td><td>0.980</td><td>0.643</td><td>0.607</td><td>0.528</td></tr><tr><td>Urban Sons</td><td>0.351</td><td>0.312</td><td>0.651</td><td>0.524</td><td>0.498</td><td>0.443</td></tr><tr><td>Urban Daughters</td><td>0.486</td><td>0.402</td><td>0.791</td><td>0.597</td><td>0.551</td><td>0.489</td></tr><tr><td>Rural Sons</td><td>0.357</td><td>0.270</td><td>0.829</td><td>0.592</td><td>0.487</td><td>0.431</td></tr><tr><td>Rural Daughters</td><td>0.519</td><td>0.375</td><td>0.921</td><td>0.580</td><td>0.571</td><td>0.500</td></tr><tr><td>Notes: (1)</td><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF12": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td></tr><tr><td/><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td></tr><tr><td>1980-1989</td><td>0.507</td><td>0.420</td><td>0.705</td><td>0.551</td><td>0.468</td><td>0.424</td></tr><tr><td>1970-1979</td><td>0.493</td><td>0.398</td><td>0.822</td><td>0.582</td><td>0.540</td><td>0.492</td></tr><tr><td>1960-1969</td><td>0.369</td><td>0.292</td><td>0.993</td><td>0.650</td><td>0.704</td><td>0.586</td></tr><tr><td>1950-1959</td><td>0.399</td><td>0.292</td><td>1.054</td><td>0.681</td><td>0.597</td><td>0.521</td></tr></table>"
+      },
+      "TABREF13": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td></tr><tr><td/><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban</td><td/><td/></tr><tr><td>1980-1989</td><td>0.398</td><td>0.344</td><td>0.630</td><td>0.524</td><td>0.466</td><td>0.427</td></tr><tr><td>1970-1979</td><td>0.396</td><td>0.343</td><td>0.685</td><td>0.537</td><td>0.461</td><td>0.422</td></tr><tr><td>1960-1969</td><td>0.323</td><td>0.273</td><td>0.771</td><td>0.575</td><td>0.617</td><td>0.516</td></tr><tr><td>1950-1959</td><td>0.334</td><td>0.260</td><td>0.788</td><td>0.580</td><td>0.622</td><td>0.554</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural</td><td/><td/></tr><tr><td>1980-1989</td><td>0.453</td><td>0.359</td><td>0.674</td><td>0.512</td><td>0.439</td><td>0.397</td></tr><tr><td>1970-1979</td><td>0.405</td><td>0.300</td><td>0.789</td><td>0.538</td><td>0.512</td><td>0.470</td></tr><tr><td>1960-1969</td><td>0.298</td><td>0.213</td><td>0.913</td><td>0.576</td><td>0.649</td><td>0.555</td></tr><tr><td>1950-1959</td><td>0.308</td><td>0.210</td><td>0.995</td><td>0.620</td><td>0.511</td><td>0.451</td></tr><tr><td/><td/><td/><td colspan=\"2\">Sons</td><td/><td/></tr><tr><td>1980-1989</td><td>0.469</td><td>0.393</td><td>0.622</td><td>0.505</td><td>0.450</td><td>0.407</td></tr><tr><td>1970-1979</td><td>0.431</td><td>0.357</td><td>0.394</td><td>0.275</td><td>0.499</td><td>0.455</td></tr><tr><td>1960-1969</td><td>0.311</td><td>0.256</td><td>0.906</td><td>0.633</td><td>0.626</td><td>0.529</td></tr><tr><td>1950-1959</td><td>0.310</td><td>0.240</td><td>1.035</td><td>0.704</td><td>0.585</td><td>0.502</td></tr><tr><td/><td/><td/><td colspan=\"2\">Daughters</td><td/><td/></tr><tr><td>1980-1989</td><td>0.543</td><td>0.447</td><td>0.783</td><td>0.585</td><td>0.482</td><td>0.438</td></tr><tr><td>1970-1979</td><td>0.553</td><td>0.439</td><td>0.913</td><td>0.605</td><td>0.580</td><td>0.529</td></tr><tr><td>1960-1969</td><td>0.425</td><td>0.326</td><td>1.105</td><td>0.653</td><td>0.758</td><td>0.626</td></tr><tr><td>1950-1959</td><td>0.499</td><td>0.349</td><td>1.275</td><td>0.620</td><td>0.612</td><td>0.555</td></tr></table>"
+      },
+      "TABREF14": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"5\">.1: Intersections of Geography and Gender</td><td/></tr><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Yrs Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban Sons</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.312***</td><td>-0.400***</td><td>0.524***</td><td>-1.007***</td><td>0.443***</td><td>-0.714***</td></tr><tr><td/><td>(0.012)</td><td>(0.062)</td><td>(0.008)</td><td>(0.035)</td><td>(0.020)</td><td>(0.096)</td></tr><tr><td>Constant</td><td colspan=\"6\">8.152*** 15.510*** 6.456*** 20.780*** 7.640*** 16.389***</td></tr><tr><td/><td>(0.131)</td><td>(0.604)</td><td>(0.084)</td><td>(0.309)</td><td>(0.208)</td><td>(0.808)</td></tr><tr><td>Observations</td><td>17,823</td><td>17,823</td><td>16,697</td><td>16,697</td><td>2649</td><td>2649</td></tr><tr><td>R-squared</td><td>0.136</td><td>0.007</td><td>0.307</td><td>0.058</td><td>0.224</td><td>0.028</td></tr><tr><td>Mean of \u0305</td><td>9.732</td><td>13.48</td><td>9.264</td><td>15.39</td><td>11.043</td><td>10.902</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban Daughters</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.402***</td><td>-0.640***</td><td>0.597***</td><td>-0.384***</td><td>0.489***</td><td>-0.694***</td></tr><tr><td/><td>(0.015)</td><td>(0.059)</td><td>(0.008)</td><td>(0.049)</td><td>(0.019)</td><td>(0.075)</td></tr><tr><td>Constant</td><td colspan=\"6\">6.956*** 18.774*** 4.463*** 20.284*** 6.884*** 17.225***</td></tr><tr><td/><td>(0.180)</td><td>(0.610)</td><td>(0.085)</td><td>(0.309)</td><td>(0.190)</td><td>(0.739)</td></tr><tr><td>Observations</td><td>17,485</td><td>17,485</td><td>14,519</td><td>14,519</td><td>3270</td><td>3270</td></tr><tr><td>R-squared</td><td>0.184</td><td>0.018</td><td>0.336</td><td>0.007</td><td>0.247</td><td>0.026</td></tr><tr><td>Mean of \u0305</td><td>9.013</td><td>15.50</td><td>7.504</td><td>18.33</td><td>10.667</td><td>11.851</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural Sons</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.270***</td><td>-0.631***</td><td>0.592***</td><td>-0.793***</td><td>0.431***</td><td>-0.323***</td></tr><tr><td/><td>(0.016)</td><td>(0.053)</td><td>(0.008)</td><td>(0.039)</td><td>(0.015)</td><td>(0.083)</td></tr><tr><td>Constant</td><td colspan=\"6\">6.267*** 16.681*** 4.972*** 20.436*** 6.901*** 15.577***</td></tr><tr><td/><td>(0.166)</td><td>(0.551)</td><td>(0.058)</td><td>(0.199)</td><td>(0.137)</td><td>(0.596)</td></tr><tr><td>Observations</td><td>28,968</td><td>28,968</td><td>30,004</td><td>30,004</td><td>5909</td><td>5909</td></tr><tr><td>R-squared</td><td>0.077</td><td>0.017</td><td>0.227</td><td>0.021</td><td>0.146</td><td>0.004</td></tr><tr><td>Mean of \u0305</td><td>7.208</td><td>14.49</td><td>6.608</td><td>18.25</td><td>9.273</td><td>13.798</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural Daughters</td><td/><td/></tr><tr><td>Father's Edu</td><td>0.375***</td><td>-0.275***</td><td>0.580***</td><td>0.793***</td><td>0.500***</td><td>-0.231***</td></tr><tr><td/><td>(0.014)</td><td>(0.069)</td><td>(0.009)</td><td>(0.050)</td><td>(0.017)</td><td>(0.089)</td></tr><tr><td>Constant</td><td colspan=\"6\">4.281*** 16.972*** 2.431*** 13.383*** 15.530*** 5.816***</td></tr><tr><td/><td>(0.179)</td><td>(0.212)</td><td>(0.052)</td><td>(0.227)</td><td>(0.596)</td><td>(0.134)</td></tr><tr><td>Observations</td><td>29,883</td><td>29,883</td><td>25,528</td><td>25,528</td><td>6528</td><td>6528</td></tr><tr><td>R-squared</td><td>0.128</td><td>0.004</td><td>0.260</td><td>0.022</td><td>0.177</td><td>0.002</td></tr><tr><td>Mean of \u0305</td><td>5.632</td><td>15.98</td><td>3.997</td><td>15.52</td><td>9.273</td><td>13.798</td></tr></table>"
+      },
+      "TABREF15": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Yrs Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td><td>Yrs. Sch.</td><td>Res. Sq.</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban</td><td/><td/></tr><tr><td>1980-1989</td><td>0.344***</td><td>-0.845***</td><td>0.524***</td><td>-0.841***</td><td>0.427***</td><td>-0.561***</td></tr><tr><td/><td>(0.027)</td><td>(0.128)</td><td>(0.010)</td><td>(0.048)</td><td>(0.018)</td><td>(0.072)</td></tr><tr><td>1970-1979</td><td>0.343***</td><td>-0.550***</td><td>0.537***</td><td>-0.658***</td><td>0.422***</td><td>-0.476***</td></tr><tr><td/><td>(0.019)</td><td>(0.095)</td><td>(0.010)</td><td>(0.053)</td><td>(0.023)</td><td>(0.091)</td></tr><tr><td>1960-1969</td><td>0.273***</td><td>-0.465***</td><td>0.575***</td><td>-0.634***</td><td>0.516***</td><td>-0.957***</td></tr><tr><td/><td>(0.014)</td><td>(0.056)</td><td>(0.012)</td><td>(0.072)</td><td>(0.039)</td><td>(0.194)</td></tr><tr><td>1950-1959</td><td>0.260***</td><td>-0.521***</td><td>0.580***</td><td>-0.690***</td><td>0.554***</td><td>0.243</td></tr><tr><td/><td>(0.019)</td><td>(0.091)</td><td>(0.016)</td><td>(0.100)</td><td>(0.055)</td><td>(0.287)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural</td><td/><td/></tr><tr><td>1980-1989</td><td>0.359***</td><td>-0.787***</td><td>0.512***</td><td>-0.456***</td><td>0.397***</td><td>-0.384***</td></tr><tr><td/><td>(0.038)</td><td>(0.106)</td><td>(0.009)</td><td>(0.048)</td><td>(0.015)</td><td>(0.064)</td></tr><tr><td>1970-1979</td><td>0.300***</td><td>-0.549***</td><td>0.538***</td><td>0.051</td><td>0.470***</td><td>-0.086</td></tr><tr><td/><td>(0.021)</td><td>(0.060)</td><td>(0.011)</td><td>(0.059)</td><td>(0.017)</td><td>(0.091)</td></tr><tr><td>1960-1969</td><td>0.213***</td><td>-0.514***</td><td>0.576***</td><td>0.631***</td><td>0.555***</td><td>0.182</td></tr><tr><td/><td>(0.015)</td><td>(0.053)</td><td>(0.014)</td><td>(0.077)</td><td>(0.031)</td><td>(0.174)</td></tr><tr><td>1950-1959</td><td>0.210***</td><td>-0.115</td><td>0.620***</td><td>0.584***</td><td>0.451***</td><td>0.589**</td></tr><tr><td/><td>(0.017)</td><td>(0.079)</td><td>(0.018)</td><td>(0.112)</td><td>(0.047)</td><td>(0.287)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Sons</td><td/><td/></tr><tr><td>1980-1989</td><td>0.393***</td><td>-0.774***</td><td>0.505***</td><td>-0.860***</td><td>0.407***</td><td>-0.485***</td></tr><tr><td/><td>(0.033)</td><td>(0.113)</td><td>(0.008)</td><td>(0.038)</td><td>(0.017)</td><td>(0.071)</td></tr><tr><td>1970-1979</td><td>0.357***</td><td>-0.493***</td><td>0.548***</td><td>-0.956***</td><td>0.455***</td><td>-0.306***</td></tr><tr><td/><td>(0.022)</td><td>(0.072)</td><td>(0.009)</td><td>(0.041)</td><td>(0.019)</td><td>(0.075)</td></tr><tr><td>1960-1969</td><td>0.256***</td><td>-0.394***</td><td>0.633***</td><td>-0.785***</td><td>0.529***</td><td>-0.528**</td></tr><tr><td/><td>(0.015)</td><td>(0.058)</td><td>(0.011)</td><td>(0.057)</td><td>(0.031)</td><td>(0.210)</td></tr><tr><td>1950-1959</td><td>0.240***</td><td>-0.383***</td><td>0.704***</td><td>-0.608***</td><td>0.502***</td><td>0.040</td></tr><tr><td/><td>(0.017)</td><td>(0.082)</td><td>(0.013)</td><td>(0.077)</td><td>(0.056)</td><td>(0.329)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Daughters</td><td/><td/></tr><tr><td>1980-1989</td><td>0.447***</td><td>-0.724***</td><td>0.585***</td><td>-0.262***</td><td>0.438***</td><td>-0.473***</td></tr><tr><td/><td>(0.036)</td><td>(0.111)</td><td>(0.009)</td><td>(0.050)</td><td>(0.016)</td><td>(0.063)</td></tr><tr><td>1970-1979</td><td>0.439***</td><td>-0.315***</td><td>0.605***</td><td>0.470***</td><td>0.529***</td><td>-0.263***</td></tr><tr><td/><td>(0.022)</td><td>(0.072)</td><td>(0.010)</td><td>(0.057)</td><td>(0.018)</td><td>(0.086)</td></tr><tr><td>1960-1969</td><td>0.326***</td><td>-0.388***</td><td>0.653***</td><td>0.984***</td><td>0.626***</td><td>-0.049</td></tr><tr><td/><td>(0.017)</td><td>(0.062)</td><td>(0.012)</td><td>(0.074)</td><td>(0.030)</td><td>(0.171)</td></tr><tr><td>1950-1959</td><td>0.349***</td><td>0.059</td><td>0.620***</td><td>1.126***</td><td>0.555***</td><td>0.918***</td></tr><tr><td/><td>(0.021)</td><td>(0.110)</td><td>(0.020)</td><td>(0.119)</td><td>(0.045)</td><td>(0.256)</td></tr></table>"
+      },
+      "TABREF16": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td/><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td><td>Weighted</td><td>Canonical</td></tr><tr><td/><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td><td>RIGRC</td><td>IGRC</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban Sons</td><td/><td/></tr><tr><td>1980-1989</td><td>0.385</td><td>0.330</td><td>0.585</td><td>0.499</td><td>0.462</td><td>0.421</td></tr><tr><td>1970-1979</td><td>0.362</td><td>0.315</td><td>0.618</td><td>0.500</td><td>0.459</td><td>0.417</td></tr><tr><td>1960-1969</td><td>0.288</td><td>0.251</td><td>0.687</td><td>0.528</td><td>0.551</td><td>0.458</td></tr><tr><td>1950-1959</td><td>0.250</td><td>0.210</td><td>0.736</td><td>0.565</td><td>0.541</td><td>0.521</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban Daughters</td><td/><td/></tr><tr><td>1980-1989</td><td>0.415</td><td>0.359</td><td>0.668</td><td>0.540</td><td>0.469</td><td>0.432</td></tr><tr><td>1970-1979</td><td>0.434</td><td>0.373</td><td>0.741</td><td>0.566</td><td>0.463</td><td>0.427</td></tr><tr><td>1960-1969</td><td>0.356</td><td>0.294</td><td>0.840</td><td>0.609</td><td>0.659</td><td>0.556</td></tr><tr><td>1950-1959</td><td>0.428</td><td>0.312</td><td>0.917</td><td>0.581</td><td>0.689</td><td>0.586</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural Sons</td><td/><td/></tr><tr><td>1980-1989</td><td>0.422</td><td>0.339</td><td>0.607</td><td>0.478</td><td>0.420</td><td>0.381</td></tr><tr><td>1970-1979</td><td>0.359</td><td>0.271</td><td>0.745</td><td>0.538</td><td>0.462</td><td>0.427</td></tr><tr><td>1960-1969</td><td>0.242</td><td>0.178</td><td>0.904</td><td>0.606</td><td>0.567</td><td>0.494</td></tr><tr><td>1950-1959</td><td>0.263</td><td>0.180</td><td>1.079</td><td>0.684</td><td>0.559</td><td>0.455</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural Daughters</td><td/><td/></tr><tr><td>1980-1989</td><td>0.484</td><td>0.381</td><td>0.730</td><td>0.532</td><td>0.456</td><td>0.411</td></tr><tr><td>1970-1979</td><td>0.446</td><td>0.326</td><td>0.819</td><td>0.522</td><td>0.560</td><td>0.514</td></tr><tr><td>1960-1969</td><td>0.350</td><td>0.247</td><td>0.905</td><td>0.521</td><td>0.698</td><td>0.593</td></tr><tr><td>1950-1959</td><td>0.367</td><td>0.251</td><td>0.947</td><td>0.496</td><td>0.451</td><td>0.463</td></tr></table>"
+      },
+      "TABREF17": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td>Mobility CEF Specification</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td></tr><tr><td>Outcome Var</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td></tr><tr><td>Father's Edu</td><td colspan=\"6\">-0.483*** -0.484*** -0.379*** -0.379*** -0.514*** -0.508***</td></tr><tr><td/><td>(0.036)</td><td>(0.037)</td><td>(0.028)</td><td>(0.028)</td><td>(0.052)</td><td>(0.052)</td></tr><tr><td>Constant</td><td colspan=\"6\">18.823*** 18.821*** 20.134*** 20.099*** 16.784*** 16.728***</td></tr><tr><td/><td>(0.424)</td><td>(0.431)</td><td>(0.144)</td><td>(0.146)</td><td>(0.429)</td><td>(0.428)</td></tr><tr><td>Observations</td><td>94,159</td><td>94,159</td><td>86,748</td><td>86,748</td><td>18356</td><td>18356</td></tr><tr><td>R-squared</td><td>0.009</td><td>0.009</td><td>0.006</td><td>0.005</td><td>0.011</td><td>0.011</td></tr><tr><td>Mean of \u0305</td><td>16.83</td><td>16.83</td><td>18.76</td><td>18.72</td><td>13.587</td><td>13.569</td></tr></table>"
+      },
+      "TABREF18": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td>Mobility CEF Specification</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td></tr><tr><td>Outcome Var</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"6\">-0.548*** -0.546*** -0.772*** -0.773*** -0.707*** -0.707***</td></tr><tr><td/><td>(0.053)</td><td>(0.054)</td><td>(0.034)</td><td>(0.033)</td><td>(0.065)</td><td>(0.065)</td></tr><tr><td>Constant</td><td colspan=\"6\">17.449*** 17.436*** 21.478*** 21.452*** 16.935*** 16.930***</td></tr><tr><td/><td>(0.586)</td><td>(0.593)</td><td>(0.250)</td><td>(0.251)</td><td>(0.598)</td><td>(0.599)</td></tr><tr><td>Observations</td><td>35,308</td><td>35,308</td><td>31,216</td><td>31,216</td><td>5919</td><td>5919</td></tr><tr><td>R-squared</td><td>0.013</td><td>0.013</td><td>0.029</td><td>0.029</td><td>0.027</td><td>0.027</td></tr><tr><td>Mean of \u0305</td><td>14.66</td><td>14.66</td><td>17.44</td><td>17.41</td><td>11.475</td><td>13.568</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"2\">-0.524*** -0.528***</td><td>-0.022</td><td>-0.023</td><td colspan=\"2\">-0.294*** -0.294***</td></tr><tr><td/><td>(0.044)</td><td>(0.044)</td><td>(0.040)</td><td>(0.039)</td><td>(0.069)</td><td>(0.069)</td></tr><tr><td>Constant</td><td colspan=\"6\">17.799*** 17.810*** 18.702*** 18.660*** 15.967*** 15.931***</td></tr><tr><td/><td>(0.342)</td><td>(0.339)</td><td>(0.177)</td><td>(0.178)</td><td>(0.516)</td><td>(0.515)</td></tr><tr><td>Observations</td><td>58,851</td><td>58,851</td><td>55,532</td><td>55,532</td><td>12437</td><td>12437</td></tr><tr><td>R-squared</td><td>0.013</td><td>0.013</td><td>0.000</td><td>0.000</td><td>0.003</td><td>0.003</td></tr><tr><td>Mean of \u0305</td><td>15.94</td><td>15.94</td><td>18.64</td><td>18.60</td><td>14.351</td><td>14.314</td></tr><tr><td/><td/><td/><td colspan=\"2\">Sons</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"6\">-0.476*** -0.478*** -0.927*** -0.934*** -0.522*** -0.516***</td></tr><tr><td/><td>(0.048)</td><td>(0.049)</td><td>(0.025)</td><td>(0.025)</td><td>(0.066)</td><td>(0.066)</td></tr><tr><td>Constant</td><td colspan=\"6\">17.033*** 17.033*** 20.974*** 20.960*** 16.259*** 16.216***</td></tr><tr><td/><td>(0.547)</td><td>(0.554)</td><td>(0.165)</td><td>(0.166)</td><td>(0.516)</td><td>(0.514)</td></tr><tr><td>Observations</td><td>46,791</td><td>46,791</td><td>46,701</td><td>46,701</td><td>8558</td><td>8558</td></tr><tr><td>R-squared</td><td>0.009</td><td>0.009</td><td>0.038</td><td>0.039</td><td>0.012</td><td>0.012</td></tr><tr><td>Mean of \u0305</td><td>15.09</td><td>15.08</td><td>17.55</td><td>17.52</td><td>13.03</td><td>13.025</td></tr><tr><td/><td/><td/><td colspan=\"2\">Daughters</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"2\">-0.364*** -0.365***</td><td>0.334***</td><td>0.335***</td><td colspan=\"2\">-0.483*** -0.477***</td></tr><tr><td/><td>(0.052)</td><td>(0.052)</td><td>(0.040)</td><td>(0.040)</td><td>(0.061)</td><td>(0.061)</td></tr><tr><td>Constant</td><td colspan=\"6\">19.099*** 19.095*** 16.306*** 16.296*** 16.892*** 16.824***</td></tr><tr><td/><td>(0.347)</td><td>(0.351)</td><td>(0.200)</td><td>(0.200)</td><td>(0.499)</td><td>(0.499)</td></tr><tr><td>Observations</td><td>47,368</td><td>47,368</td><td>40,047</td><td>40,047</td><td>9798</td><td>9798</td></tr><tr><td>R-squared</td><td>0.006</td><td>0.006</td><td>0.004</td><td>0.004</td><td>0.010</td><td>0.010</td></tr><tr><td>Mean of \u0305</td><td>17.58</td><td>17.58</td><td>17.50</td><td>17.49</td><td>13.875</td><td>13.846</td></tr></table>"
+      },
+      "TABREF19": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td>Mobility CEF Specification</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td></tr><tr><td>Outcome Var</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban Sons</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"6\">-0.400*** -0.399*** -1.007*** -1.009*** -0.714*** -0.715***</td></tr><tr><td/><td>(0.062)</td><td>(0.063)</td><td>(0.035)</td><td>(0.035)</td><td>(0.096)</td><td>(0.096)</td></tr><tr><td>Constant</td><td colspan=\"6\">15.510*** 15.498*** 20.780*** 20.778*** 16.389*** 16.393***</td></tr><tr><td/><td>(0.604)</td><td>(0.610)</td><td>(0.309)</td><td>(0.308)</td><td>(0.808)</td><td>(0.805)</td></tr><tr><td>Observations</td><td>17,823</td><td>17,823</td><td>16,697</td><td>16,697</td><td>2649</td><td>2649</td></tr><tr><td>R-squared</td><td>0.007</td><td>0.007</td><td>0.058</td><td>0.058</td><td>0.028</td><td>0.028</td></tr><tr><td>Mean of \u0305</td><td>13.48</td><td>13.47</td><td>15.39</td><td>15.38</td><td>10.902</td><td>10.901</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban Daughters</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"6\">-0.640*** -0.638*** -0.384*** -0.385*** -0.694*** -0.691***</td></tr><tr><td/><td>(0.059)</td><td>(0.060)</td><td>(0.049)</td><td>(0.049)</td><td>(0.075)</td><td>(0.076)</td></tr><tr><td>Constant</td><td colspan=\"6\">18.774*** 18.761*** 20.284*** 20.268*** 17.225*** 17.196***</td></tr><tr><td/><td>(0.610)</td><td>(0.616)</td><td>(0.309)</td><td>(0.311)</td><td>(0.739)</td><td>(0.744)</td></tr><tr><td>Observations</td><td>17,485</td><td>17,485</td><td>14,519</td><td>14,519</td><td>3270</td><td>3270</td></tr><tr><td>R-squared</td><td>0.018</td><td>0.018</td><td>0.007</td><td>0.007</td><td>0.026</td><td>0.026</td></tr><tr><td>Mean of \u0305</td><td>15.50</td><td>15.50</td><td>18.33</td><td>18.31</td><td>11.851</td><td>11.845</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural Sons</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"6\">-0.631*** -0.633*** -0.793*** -0.805*** -0.323*** -0.319***</td></tr><tr><td/><td>(0.053)</td><td>(0.052)</td><td>(0.039)</td><td>(0.038)</td><td>(0.083)</td><td>(0.083)</td></tr><tr><td>Constant</td><td colspan=\"6\">16.681*** 16.688*** 20.436*** 20.425*** 15.577*** 15.530***</td></tr><tr><td/><td>(0.551)</td><td>(0.547)</td><td>(0.199)</td><td>(0.200)</td><td>(0.596)</td><td>(0.596)</td></tr><tr><td>Observations</td><td>28,968</td><td>28,968</td><td>30,004</td><td>30,004</td><td>5909</td><td>5909</td></tr><tr><td>R-squared</td><td>0.017</td><td>0.017</td><td>0.021</td><td>0.022</td><td>0.004</td><td>0.004</td></tr><tr><td>Mean of \u0305</td><td>14.49</td><td>14.48</td><td>18.25</td><td>18.20</td><td>13.798</td><td>13.773</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural Daughters</td><td/><td/></tr><tr><td>Father's Edu</td><td colspan=\"2\">-0.275*** -0.281***</td><td>0.793***</td><td>0.793***</td><td colspan=\"2\">-0.231*** -0.237***</td></tr><tr><td/><td>(0.069)</td><td>(0.069)</td><td>(0.050)</td><td>(0.049)</td><td>(0.089)</td><td>(0.090)</td></tr><tr><td>Constant</td><td colspan=\"6\">16.972*** 16.989*** 13.383*** 13.370*** 15.857*** 15.837***</td></tr><tr><td/><td>(0.212)</td><td>(0.211)</td><td>(0.227)</td><td>(0.227)</td><td>(0.620)</td><td>(0.620)</td></tr><tr><td>Observations</td><td>29,883</td><td>29,883</td><td>25,528</td><td>25,528</td><td>6528</td><td>6528</td></tr><tr><td>R-squared</td><td>0.004</td><td>0.004</td><td>0.022</td><td>0.022</td><td>0.002</td><td>0.002</td></tr><tr><td>Mean of \u0305</td><td>15.98</td><td>15.98</td><td>15.52</td><td>15.51</td><td>13.798</td><td>14.534</td></tr></table>"
+      },
+      "TABREF20": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td>Mobility CEF Specification</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td></tr><tr><td>Outcome Var</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td></tr><tr><td>1980-1989</td><td colspan=\"6\">-0.766*** -0.772*** -0.644*** -0.644*** -0.478*** -0.478***</td></tr><tr><td/><td>(0.101)</td><td>(0.106)</td><td>(0.034)</td><td>(0.033)</td><td>(0.050)</td><td>(0.050)</td></tr><tr><td>1970-1979</td><td colspan=\"6\">-0.445*** -0.452*** -0.294*** -0.291*** -0.299*** -0.297***</td></tr><tr><td/><td>(0.055)</td><td>(0.056)</td><td>(0.041)</td><td>(0.041)</td><td>(0.065)</td><td>(0.065)</td></tr><tr><td>1960-1969</td><td colspan=\"2\">-0.435*** -0.441***</td><td>0.053</td><td>0.061</td><td>-0.328**</td><td>-0.324**</td></tr><tr><td/><td>(0.046)</td><td>(0.047)</td><td>(0.056)</td><td>(0.054)</td><td>(0.139)</td><td>(0.139)</td></tr><tr><td>1950-1959</td><td colspan=\"2\">-0.275*** -0.281***</td><td>0.028</td><td>0.022</td><td>0.462**</td><td>0.470**</td></tr><tr><td/><td>(0.070)</td><td>(0.068)</td><td>(0.077)</td><td>(0.073)</td><td>(0.228)</td><td>(0.228)</td></tr></table>"
+      },
+      "TABREF21": {
+        "text": "",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">CHINA</td><td colspan=\"2\">INDIA</td><td colspan=\"2\">INDONESIA</td></tr><tr><td>Mobility CEF Specification</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td><td>Linear</td><td>Quadratic</td></tr><tr><td>Outcome Var</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td><td>Res. Sq.</td></tr><tr><td/><td/><td/><td colspan=\"2\">Urban</td><td/><td/></tr><tr><td>1980-1989</td><td colspan=\"6\">-0.845*** -0.846*** -0.841*** -0.843*** -0.561*** -0.561***</td></tr><tr><td/><td>(0.128)</td><td>(0.136)</td><td>(0.048)</td><td>(0.047)</td><td>(0.072)</td><td>(0.073)</td></tr><tr><td>1970-1979</td><td colspan=\"6\">-0.550*** -0.551*** -0.658*** -0.657*** -0.476*** -0.470***</td></tr><tr><td/><td>(0.095)</td><td>(0.099)</td><td>(0.053)</td><td>(0.053)</td><td>(0.091)</td><td>(0.090)</td></tr><tr><td>1960-1969</td><td colspan=\"6\">-0.465*** -0.470*** -0.634*** -0.631*** -0.957*** -0.957***</td></tr><tr><td/><td>(0.056)</td><td>(0.057)</td><td>(0.072)</td><td>(0.070)</td><td>(0.194)</td><td>(0.194)</td></tr><tr><td>1950-1959</td><td colspan=\"4\">-0.521*** -0.524*** -0.690*** -0.694***</td><td>0.243</td><td>0.229</td></tr><tr><td/><td>(0.091)</td><td>(0.091)</td><td>(0.100)</td><td>(0.096)</td><td>(0.287)</td><td>(0.287)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Rural</td><td/><td/></tr><tr><td>1980-1989</td><td colspan=\"6\">-0.787*** -0.787*** -0.456*** -0.458*** -0.384*** -0.386***</td></tr><tr><td/><td>(0.106)</td><td>(0.101)</td><td>(0.048)</td><td>(0.047)</td><td>(0.064)</td><td>(0.065)</td></tr><tr><td>1970-1979</td><td colspan=\"2\">-0.549*** -0.553***</td><td>0.051</td><td>0.057</td><td>-0.086</td><td>-0.086</td></tr><tr><td/><td>(0.060)</td><td>(0.060)</td><td>(0.059)</td><td>(0.057)</td><td>(0.091)</td><td>(0.091)</td></tr><tr><td>1960-1969</td><td colspan=\"2\">-0.514*** -0.514***</td><td>0.631***</td><td>0.656***</td><td>0.182</td><td>0.184</td></tr><tr><td/><td>(0.053)</td><td>(0.053)</td><td>(0.077)</td><td>(0.074)</td><td>(0.174)</td><td>(0.177)</td></tr><tr><td>1950-1959</td><td>-0.115</td><td>-0.150**</td><td>0.584***</td><td>0.577***</td><td>0.589**</td><td>0.594**</td></tr><tr><td/><td>(0.079)</td><td>(0.075)</td><td>(0.112)</td><td>(0.105)</td><td>(0.287)</td><td>(0.287)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Sons</td><td/><td/></tr><tr><td>1980-1989</td><td colspan=\"6\">-0.774*** -0.784*** -0.860*** -0.863*** -0.485*** -0.487***</td></tr><tr><td/><td>(0.113)</td><td>(0.119)</td><td>(0.038)</td><td>(0.038)</td><td>(0.071)</td><td>(0.072)</td></tr><tr><td>1970-1979</td><td colspan=\"6\">-0.493*** -0.500*** -0.956*** -0.957*** -0.306*** -0.303***</td></tr><tr><td/><td>(0.072)</td><td>(0.073)</td><td>(0.041)</td><td>(0.041)</td><td>(0.075)</td><td>(0.075)</td></tr><tr><td>1960-1969</td><td colspan=\"4\">-0.394*** -0.399*** -0.785*** -0.783***</td><td>-0.528**</td><td>-0.532**</td></tr><tr><td/><td>(0.058)</td><td>(0.058)</td><td>(0.057)</td><td>(0.056)</td><td>(0.210)</td><td>(0.209)</td></tr><tr><td>1950-1959</td><td colspan=\"4\">-0.383*** -0.388*** -0.608*** -0.630***</td><td>0.040</td><td>0.059</td></tr><tr><td/><td>(0.082)</td><td>(0.080)</td><td>(0.077)</td><td>(0.072)</td><td>(0.329)</td><td>(0.331)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Daughters</td><td/><td/></tr><tr><td>1980-1989</td><td colspan=\"6\">-0.724*** -0.728*** -0.262*** -0.262*** -0.473*** -0.469***</td></tr><tr><td/><td>(0.111)</td><td>(0.113)</td><td>(0.050)</td><td>(0.049)</td><td>(0.063)</td><td>(0.064)</td></tr><tr><td>1970-1979</td><td colspan=\"2\">-0.315*** -0.322***</td><td>0.470***</td><td>0.471***</td><td colspan=\"2\">-0.263*** -0.262***</td></tr><tr><td/><td>(0.072)</td><td>(0.073)</td><td>(0.057)</td><td>(0.057)</td><td>(0.086)</td><td>(0.086)</td></tr><tr><td>1960-1969</td><td colspan=\"2\">-0.388*** -0.396***</td><td>0.984***</td><td>0.986***</td><td>-0.049</td><td>-0.048</td></tr><tr><td/><td>(0.062)</td><td>(0.061)</td><td>(0.074)</td><td>(0.072)</td><td>(0.171)</td><td>(0.169)</td></tr><tr><td>1950-1959</td><td>0.059</td><td>0.051</td><td>1.126***</td><td>1.121***</td><td>0.918***</td><td>0.919***</td></tr><tr><td/><td>(0.110)</td><td>(0.108)</td><td>(0.119)</td><td>(0.121)</td><td>(0.256)</td><td>(0.256)</td></tr></table>"
+      },
+      "TABREF22": {
+        "text": "The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) The RIGRC refers to the Risk Adjusted Intergenerational Marginal Effect. The RES refers to the Risk Adjusted Expected Schooling. The Linear ES refers to the Expected Schooling from a linear CEF mobility model. And the IGRC is the Intergenerational Regressional Coefficient from a linear CEF mobility model.",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td/><td>CHINA</td><td/><td/><td>INDIA</td><td/><td colspan=\"2\">INDONESIA</td><td/></tr><tr><td/><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td></tr><tr><td/><td/><td/><td/><td/><td>Urban Sons</td><td/><td/><td/><td/></tr><tr><td>No Sch</td><td>0.373</td><td>7.200</td><td>8.152</td><td>0.733</td><td>4.847</td><td>6.456</td><td>0.552</td><td>6.568</td><td>7.640</td></tr><tr><td/><td colspan=\"9\">(0.014) (0.151) (0.131) (0.012) (0.108) (0.084) (0.024) (0.243) (0.208)</td></tr><tr><td>Primary</td><td>0.352</td><td>9.369</td><td>10.023</td><td>0.630</td><td>8.211</td><td>9.078</td><td>0.503</td><td>9.710</td><td>10.298</td></tr><tr><td/><td colspan=\"9\">(0.013) (0.106) (0.098) (0.009) (0.061) (0.055) (0.021) (0.124) (0.116)</td></tr><tr><td>Junior High</td><td>0.346</td><td>10.415</td><td>10.958</td><td>0.588</td><td>11.242</td><td>11.700</td><td>0.490</td><td>11.199</td><td>11.627</td></tr><tr><td/><td colspan=\"9\">(0.013) (0.104) (0.098) (0.009) (0.050) (0.048) (0.021) (0.100) (0.095)</td></tr><tr><td>Senior High</td><td>0.340</td><td>11.444</td><td>11.894</td><td>0.578</td><td>12.408</td><td>12.749</td><td>0.481</td><td>12.654</td><td>12.956</td></tr><tr><td/><td colspan=\"9\">(0.013) (0.115) (0.109) (0.008) (0.056) (0.054) (0.021) (0.113) (0.108)</td></tr><tr><td>College</td><td>0.335</td><td>12.795</td><td>13.142</td><td>0.567</td><td>14.124</td><td>14.322</td><td>0.472</td><td>14.559</td><td>14.728</td></tr><tr><td/><td colspan=\"9\">(0.012) (0.144) (0.138) (0.008) (0.071) (0.069) (0.020) (0.166) (0.161)</td></tr><tr><td>IGRC</td><td>0.312</td><td/><td/><td>0.524</td><td/><td/><td>0.443</td><td/><td/></tr><tr><td/><td>(0.012)</td><td/><td/><td>(0.008)</td><td/><td/><td>(0.020)</td><td/><td/></tr><tr><td/><td/><td/><td/><td colspan=\"3\">Urban Daughters</td><td/><td/><td/></tr><tr><td>No Sch</td><td>0.527</td><td>5.607</td><td>6.956</td><td>0.944</td><td>2.191</td><td>4.463</td><td>0.628</td><td>5.633</td><td>6.884</td></tr><tr><td/><td colspan=\"9\">(0.019) (0.220) (0.180) (0.019) (0.133) (0.085) (0.024) (0.231) (0.190)</td></tr><tr><td>Primary</td><td>0.471</td><td>8.574</td><td>9.371</td><td>0.722</td><td>6.216</td><td>7.449</td><td>0.557</td><td>9.150</td><td>9.816</td></tr><tr><td/><td colspan=\"9\">(0.017) (0.134) (0.121) (0.010) (0.079) (0.067) (0.020) (0.110) (0.102)</td></tr><tr><td>Junior High</td><td>0.456</td><td>9.963</td><td>10.578</td><td>0.661</td><td>9.646</td><td>10.434</td><td>0.540</td><td>10.795</td><td>11.281</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.118) (0.110) (0.009) (0.077) (0.070) (0.020) (0.088) (0.083)</td></tr><tr><td>Senior High</td><td>0.446</td><td>11.315</td><td>11.785</td><td>0.648</td><td>10.954</td><td>11.628</td><td>0.529</td><td>12.398</td><td>12.747</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.122) (0.116) (0.009) (0.084) (0.077) (0.019) (0.103) (0.099)</td></tr><tr><td>College</td><td>0.438</td><td>12.639</td><td>12.993</td><td>0.635</td><td>12.878</td><td>13.419</td><td>0.519</td><td>14.493</td><td>14.701</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.143) (0.137) (0.009) (0.099) (0.093) (0.019) (0.156) (0.153)</td></tr><tr><td>IGRC</td><td>0.402</td><td/><td/><td>0.597</td><td/><td/><td>0.489</td><td/><td/></tr><tr><td/><td>(0.015)</td><td/><td/><td>(0.008)</td><td/><td/><td>(0.019)</td><td/><td/></tr><tr><td>Notes: (1)</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF23": {
+        "text": "The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia. (2) The RIGRC refers to the Risk Adjusted Intergenerational Marginal Effect. The RES refers to the Risk Adjusted Expected Schooling. The Linear ES refers to the Expected Schooling from a linear CEF mobility model. And the IGRC is the Intergenerational Regressional Coefficient from a linear CEF mobility model.",
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td/><td>CHINA</td><td/><td/><td>INDIA</td><td/><td colspan=\"2\">INDONESIA</td><td/></tr><tr><td/><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td><td>RIGRC</td><td>RES</td><td>Linear ES</td></tr><tr><td/><td/><td/><td/><td/><td>Rural Sons</td><td/><td/><td/><td/></tr><tr><td>No Sch</td><td>0.378</td><td>4.936</td><td>6.267</td><td>0.916</td><td>2.917</td><td>4.972</td><td>0.525</td><td>5.773</td><td>6.901</td></tr><tr><td/><td colspan=\"9\">(0.021) (0.206) (0.166) (0.014) (0.084) (0.058) (0.019) (0.165) (0.137)</td></tr><tr><td>Primary</td><td>0.338</td><td>7.071</td><td>7.889</td><td>0.719</td><td>6.894</td><td>7.932</td><td>0.481</td><td>8.770</td><td>9.489</td></tr><tr><td/><td colspan=\"9\">(0.018) (0.105) (0.092) (0.009) (0.050) (0.043) (0.016) (0.100) (0.091)</td></tr><tr><td>Junior High</td><td>0.326</td><td>8.067</td><td>8.699</td><td>0.660</td><td>10.318</td><td>10.892</td><td>0.470</td><td>10.195</td><td>10.783</td></tr><tr><td/><td colspan=\"9\">(0.018) (0.087) (0.078) (0.008) (0.063) (0.058) (0.016) (0.102) (0.095)</td></tr><tr><td>Senior High</td><td>0.317</td><td>9.031</td><td>9.510</td><td>0.647</td><td>11.624</td><td>12.076</td><td>0.462</td><td>11.592</td><td>12.076</td></tr><tr><td/><td colspan=\"9\">(0.017) (0.101) (0.092) (0.008) (0.074) (0.070) (0.016) (0.123) (0.116)</td></tr><tr><td>College</td><td>0.310</td><td>9.971</td><td>10.321</td><td>0.634</td><td>13.544</td><td>13.852</td><td>0.455</td><td>13.425</td><td>13.801</td></tr><tr><td/><td colspan=\"9\">(0.017) (0.133) (0.126) (0.008) (0.093) (0.089) (0.015) (0.168) (0.160)</td></tr><tr><td>IGRC</td><td>0.270</td><td/><td/><td>0.592</td><td/><td/><td>0.431</td><td/><td/></tr><tr><td/><td>(0.016)</td><td/><td/><td>(0.008)</td><td/><td/><td>(0.015)</td><td/><td/></tr><tr><td/><td/><td/><td/><td colspan=\"3\">Rural Daughters</td><td/><td/><td/></tr><tr><td>No Sch</td><td>0.580</td><td>2.299</td><td>4.281</td><td>1.073</td><td>-0.322</td><td>2.431</td><td>0.637</td><td>4.453</td><td>5.816</td></tr><tr><td/><td colspan=\"9\">(0.028) (0.262) (0.179) (0.035) (0.119) (0.052) (0.023) (0.174) (0.134)</td></tr><tr><td>Primary</td><td>0.463</td><td>5.355</td><td>6.529</td><td>0.682</td><td>3.703</td><td>5.330</td><td>0.559</td><td>7.993</td><td>8.814</td></tr><tr><td/><td colspan=\"9\">(0.018) (0.155) (0.128) (0.013) (0.087) (0.065) (0.019) (0.097) (0.087)</td></tr><tr><td>Junior High</td><td>0.439</td><td>6.705</td><td>7.652</td><td>0.623</td><td>6.934</td><td>8.229</td><td>0.543</td><td>9.645</td><td>10.312</td></tr><tr><td/><td colspan=\"9\">(0.017) (0.141) (0.120) (0.011) (0.118) (0.100) (0.018) (0.108) (0.100)</td></tr><tr><td>Senior High</td><td>0.423</td><td>7.997</td><td>8.776</td><td>0.613</td><td>8.169</td><td>9.388</td><td>0.533</td><td>11.258</td><td>11.811</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.146) (0.127) (0.011) (0.133) (0.116) (0.018) (0.140) (0.132)</td></tr><tr><td>College</td><td>0.413</td><td>9.251</td><td>9.900</td><td>0.603</td><td>9.992</td><td>11.128</td><td>0.524</td><td>13.370</td><td>13.810</td></tr><tr><td/><td colspan=\"9\">(0.016) (0.164) (0.147) (0.011) (0.158) (0.141) (0.018) (0.196) (0.187)</td></tr><tr><td>IGRC</td><td>0.375</td><td/><td/><td>0.580</td><td/><td/><td>0.500</td><td/><td/></tr><tr><td/><td>(0.014)</td><td/><td/><td>(0.009)</td><td/><td/><td>(0.017)</td><td/><td/></tr><tr><td>Notes: (1)</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01951: At the time of writing, this is the largest known data collection exercise on COVID-19 and mental wellbeing in NI.\n\ns_02001: Analysis of variance showed that there were statistically significant differences in performance between the non-instrumentalists and instrumentalists at Key Stage 2 (age 11) (see Table 1 for details).\n\ns_02051: 25 RT-PCR tests showed that SARS-CoV-2 genomes were detected on the surfaces of the workplace in COVID-19 quarantine centers as well as in the air particles of the intensive care units (ICUs).\n\ns_02101: In Central America, a total of 19,741 incident gastric adenocarcinomas were identified from the available data sources of variable intervals during the 1985-2011 period (Table 1) .\n\ns_02151: One of the useful method that can do so is based on cocitation analysis which captures frequency with which two documents are cited together (Small, 1973) .\n\ns_02201: Within each cohort, participants were divided into four groups: memory decliners alone, gait decliners alone, dual decliners, or neither (healthy agers).\n\ns_02234: Therefore, the number of patients available for analysis differed depending on the set of biomarkers examined.\n\ns_02284: Users of this free online resource are able to download the results of a benefit-cost analysis, the underlying GIS layers corresponding to each scenario, and this technical report.\n\ns_02334: Table 1 indicates values for the MMSE, AD assessment scale-cognitive subscale, the clinical dementia rating-sum of boxes, and previously derived ADNI factor scores for executive function (24) and memory (25) .\n\ns_02384: Valle-Levinson et al., 2003; Whitney et al., 2016).\n\ns_02434: More detailed analysis of patient panel size and LVC could help to inform patient empanelment discussions.\n\ns_02484: In addition, common population genetic statistics, such as Tajima's D 12 (TajD) and Fay and Wu's H 13 (FWuH) can be integrated at the sliding window stage to improve inferences.\n\ns_02534: Machado and Santos Silva (2005) suggest averaging out the noise that was artificially added to the data.\n\ns_02584: The results were deemed significant at p < 0.05.\n\ns_02634: In a cross-sectional study examining the links between cardiovascular risk factors and A\u03b2 brain burden as determined by Pittsburgh Compound B-positron emission tomography (PiB-PET), an association has been found between plasma cortisol and A\u03b2 brain burden (Toledo et al., 2012) .\n\ns_02684: We use existing estimates of the speed of regression toward the mean income across generations to project the future black-white family income gap, and extrapolate from past trends in test score convergence between black and white students to project the conditional-on-income test score gap.\n\ns_02734: Also, marked effects of forest fragmentation on bird communities have been well documented (Andren, 1994;Hagan et al., 1996), yet we still have few tools or programs to effectively measure changes in habitat fragmentation over time or changes in forest age and structure over large extents (Jaeger, 2000;Jaeger et al., 2008;Riiters et al., 2004;Wickham et al., 2007).\n\ns_02784: Sampling weights were not applied in our main analyses because our primary interest was in obtaining internally valid estimates of relationships between GA, household SES, and outcome scores among study participants rather than in ensuring that our findings were representative of 2001 US births.\n\ns_02834: When the data are analyzed using these weights, the results are representative of all children born in the U.S. in the year 2001 (Nord et al.\n\ns_02884: The MPWEB instrument was based on a modified version of the National Science Foundation's Survey of Doctorate Recipients (SDR), and asked about work experience, principal employer, career related experiences and recent education.\n\ns_02934: However, the majority ce the tables and figures present teacher-reported data and the table or figure titles make this ckar.\n\ns_02984: The monitoring effectiveness was then evaluated by the Pedagogical Council of a school-participant on the basis of the data, as well as a survey of teachers.\n\ns_03034: After the assessment of the homoscedasticity with the Bartlett test, MPRAGE phantom acquisition scans were compared among different I-ADNI sites using the analysis of the variance (ANOVA).\n\ns_03084: Greater numbers of observations could be generated by using a series of years and this might add needed variability to the sample.\n\ns_03134: There is some evidence analyzing the match between the preferences of individuals and the outcomes of commmunity-based decisions, a process known in that literature as \"preferencetargetting\"(Mansuri and Rao 2004)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7JccnpMANuhy3qQ4lIUmrjlXa8x",
+    "object": "chat.completion",
+    "created": 1682884084,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1308,
+      "completion_tokens": 137,
+      "total_tokens": 1445
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01951\", \"data_mentioned\": true, \"reason\": \"COVID-19\"}, {\"sent_id\": \"s_02101\", \"data_mentioned\": true, \"reason\": \"Central America\"}, {\"sent_id\": \"s_02734\", \"data_mentioned\": true, \"reason\": \"bird communities\"}, {\"sent_id\": \"s_02884\", \"data_mentioned\": true, \"reason\": \"National Science Foundation's Survey of Doctorate Recipients (SDR)\"}, {\"sent_id\": \"s_03034\", \"data_mentioned\": true, \"reason\": \"I-ADNI\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01951\", \"data_mentioned\": true, \"reason\": \"COVID-19\"}, {\"sent_id\": \"s_02101\", \"data_mentioned\": true, \"reason\": \"Central America\"}, {\"sent_id\": \"s_02734\", \"data_mentioned\": true, \"reason\": \"bird communities\"}, {\"sent_id\": \"s_02884\", \"data_mentioned\": true, \"reason\": \"National Science Foundation's Survey of Doctorate Recipients (SDR)\"}, {\"sent_id\": \"s_03034\", \"data_mentioned\": true, \"reason\": \"I-ADNI\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

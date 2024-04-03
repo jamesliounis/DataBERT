@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06223: See Tables A.6 and A.7 for the full set of results.\n\ns_06273: This result is in line with the previous literature on cash transfers, which is large and has been reviewed extensively (Fiszbein and Schady 2009; Snilstveit et al.\n\ns_06323: In this Appendix I provide details on the sample construction and some additional tables and graphs.\n\ns_06373: See, for example, Grawe 2004 (3) Data and Variables\n\ns_06423: Sections 3 and 4 describe, respectively, the data and empirical strategy for the paper.\n\ns_06473: The paper is structured as follows.\n\ns_06523: The authors may be contacted at agrover1@ifc.org.\n\ns_06573: A compilation of the key analytical and empirical contributions appears inGrossman (1996).17 See, for example,Chenery, Robinson, and Syrquin 1986).\n\ns_06623: 1.4 Accordingly this paper-drawing on Northern European experience-has been written to assist transition and developing countries address three policy-related issues:\n\ns_06673: See for exampleCalvo, Leiderman and Reinhart (1993),and Fernandez-Arias and Montiel (1995.\n\ns_06723: This paper is structured as follows.\n\ns_06773: The paper is organized as follows.\n\ns_06823: See for example: deJanvry and Sadoulet 2000;Echeverria 2001bAshley and Maxwell 2001; IFAD 2001;Valdes and Mistiaen, 2001;USAID 2001; IFPRI 2002; Richards and others 2002; ODI 2003).\n\ns_06873: For further description and discussion of the data sources and estimation methods are discussed in Chen and Ravallion (2004) , which is the source of this figure.\n\ns_06923: As discussed inDas et al.\n\ns_06973: The papers carry the names of the authors and should be cited accordingly.\n\ns_07023: Total Source: Authors' elaboration based on INDEC.\n\ns_07073: This paper must be viewed as an initial step in a large research agenda.\n\ns_07123: These results are available from authors on request.\n\ns_07173: The main results in this paper are summarized in Tables 4 and 5 The first (top) panel in Table 4 focuses on enrollment.\n\ns_07223: Source: Authors' calculations.\n\ns_07273: is more closely related to this paper.\n\ns_07323: A recent study by Wilson, Mann and Otsuki (Wilson, Mann, Otsuki 2005b) quantified the conceptual experiment of improving trade facilitation processes in countries where they are least efficient.\n\ns_07373: In our sample, Binswanger et al.\n\ns_07423: This paper evaluates these efforts based on limited data accumulated over 1989-93."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B75l2wgCsE2Efa0Ansgufn4I644x",
+    "object": "chat.completion",
+    "created": 1682883225,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 895,
+      "completion_tokens": 62,
+      "total_tokens": 957
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07373\", \"data_mentioned\": true, \"reason\": \"Wilson, Mann, Otsuki 2005b\"}, {\"sent_id\": \"s_07323\", \"data_mentioned\": true, \"reason\": \"Binswanger et al.\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07373\", \"data_mentioned\": true, \"reason\": \"Wilson, Mann, Otsuki 2005b\"}, {\"sent_id\": \"s_07323\", \"data_mentioned\": true, \"reason\": \"Binswanger et al.\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

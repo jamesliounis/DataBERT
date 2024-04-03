@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04091: Whether people (or at least a substantial proportion) are \"myopic\" in their saving behavior should be empirically verifiable, but in fact there are no hard data to support or reject such assertions.\n\ns_04141: We focus the analysis on some key performance indicators (described in Appendix Table   1 ).\n\ns_04191: The present paper examines the implications of this type of inefficiency for debt relief in an economy in which there exists a direct link between bank credit and the supply side, through firms' working capital needs.\n\ns_04241: For a more recent discussion of joint liability in lending, seeGhatak and Guinnane (1999).15 There is a related concept in which bank monitoring (not quite a peer) provides information to capital markets, where monitoring is weak.\n\ns_04291: However, running similar time series analysis as for the countries in our original sample, results suggest that Norway's economic activity does suffer from increased oil price volatility: The Granger-causality test confirms that oil price volatility has a causal impact on economic activity.\n\ns_04341: We lack data on teacher salaries for more than one point in time, however starting teacher salaries increased substantially during this period, likely pushing up the average.\n\ns_04391: These statistics provide the number of North-South EIAs and the share of Northern imports from the South covered by these EIAs in 1990 EIAs in , 1999 EIAs in , and 2006 : Northern imports from the South.\n\ns_04441: The third objective was to examine how use of these features varies with the degree of asymmetric information between the migrant and the recipient.\n\ns_04491: We would like to thank a referee for highlighting the different possible interpretations of these results.\n\ns_04541: A number of specific questions can be raised on the dissimilarity index and the implicit weights used for small and large departures from the average.\n\ns_04591: The sample periods covers 1986-2008.\n\ns_04641: From the estimation of the above regression one obtains estimates of the parameters { }, denoted as \ufffd , \ufffd, where m denotes the sample size.\n\ns_04691: At the most disaggregated level, the underlying data that we use to estimate models (1) and (2) correspond to 7604 greenfield FDI projects in a new production or processing facility made by 3919 parent companies located in 83 source (developed and developing) countries, in 13 broad manufacturing sectors of 125 (developed and developing) destination countries during the period 2003-2006.\n\ns_04741: Results for completion of primary and secondary education in table 4 point towards considerable bias against females compared to males in the same household for primary (-0.36) or secondary (-0.17) completion.\n\ns_04791: Section 7 reports the simulations at the estimated and calibrated values for each dataset.\n\ns_04841: They credit this insignificant result to multicollinearity between the constraints to executive measure and GDP per capita.\n\ns_04891: The recent literature focuses on the impact of local taxation on firms' locational choice of investment (e.g., Brulhart, Jametti and Schmidheiny, 2012; Mare and Graham, 2013) .\n\ns_04941: For lack of comparable data across countries, we excluded ports, airports, and canals -which represent a small share of overall infrastructure endowments -and oil and gas.\n\ns_04991: Using this framework, we run regressions on 46 countries for the period 1996-2012.\n\ns_05041: Blundell and Costa Dias (2002) suggest that a combination of differences-in-differences with propensity matching can help solve the inherent bias in this type of program evaluation exercise.\n\ns_05091: Table 1 (in annex 1) shows health outcomes over time and their relationship with different circumstances.\n\ns_05141: The table below shows the marginal productivity in industry and services relative to agriculture for Bangladesh which have been computed using labor shares of income at sector level from the GTAP database.\n\ns_05191: 1 This paper is most similar to Aiyar (2016) , who measures the impact of a Vietnamese health insurance program on expenditures for both eligible and ineligible family members.\n\ns_05241: Post, (2014) or Estache, Garous and Seroa da Motta (2016) .\n\ns_05291: \u2729 Based on Probits of Enrollment of Secondary School Aged Children using ENIGH 1994."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7PkWX6UsXBpHT3gcGpbdugHJy3I",
+    "object": "chat.completion",
+    "created": 1682884464,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1212,
+      "completion_tokens": 153,
+      "total_tokens": 1365
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04741\", \"data_mentioned\": true, \"reason\": \"primary and secondary education\"}, {\"sent_id\": \"s_04941\", \"data_mentioned\": true, \"reason\": \"overall infrastructure endowments\"}, {\"sent_id\": \"s_04991\", \"data_mentioned\": true, \"reason\": \"46 countries\"}, {\"sent_id\": \"s_05141\", \"data_mentioned\": true, \"reason\": \"Bangladesh\"}] \n\nThe sentences with ids s_04741, s_04941, s_04991, and s_05141 mention datasets clearly and unambiguously. The reason field is filled with the name of the dataset mentioned in each sentence."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04741\", \"data_mentioned\": true, \"reason\": \"primary and secondary education\"}, {\"sent_id\": \"s_04941\", \"data_mentioned\": true, \"reason\": \"overall infrastructure endowments\"}, {\"sent_id\": \"s_04991\", \"data_mentioned\": true, \"reason\": \"46 countries\"}, {\"sent_id\": \"s_05141\", \"data_mentioned\": true, \"reason\": \"Bangladesh\"}] \n\nThe sentences with ids s_04741, s_04941, s_04991, and s_05141 mention datasets clearly and unambiguously. The reason field is filled with the name of the dataset mentioned in each sentence.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

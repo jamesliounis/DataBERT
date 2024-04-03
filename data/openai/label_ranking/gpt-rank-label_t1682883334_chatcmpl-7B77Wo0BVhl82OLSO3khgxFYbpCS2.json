@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07375: This section is a review of empirical studies.\n\ns_07425: Import capacity is defined later in the paper.\n\ns_07475: (Beller and Lawrence, Table 4 .7).\n\ns_07525: (A paper presented at the Coriference in Gothenburg, Sweden, September 6-8, 1992.)\n\ns_07575: NOTE: this can perhaps be extended to 1986 (using data in TJNJ 1988, pp.\n\ns_07625: Please contact Yolanda Arellano, room Q5-113, extension 31379 (22 pages).\n\ns_07675: As can be seen from the data in Tables 1 and 2 , this condition is easily met for all zones, with p -c = 350 CFA francs and the largest value of a't 1 being 76.3 CFA francs.\n\ns_07725: Huq (1989), p.242.20 World Bank data.\n\ns_07775: Advances in statistical research have made it possible to implement a set of data diagnostic tests to reveal statistical problems arising from imperfect data or highly influential sets of observations.\n\ns_07825: Similarly, it attempts to assess the viability of the piloted system and the sustainability of the proposed investments in the water and sanitation sub-sector, using the available data from Arusha, Moshi, and Tanga, where semi-autonomous Urban Water and Sewerage Departments (UWSDs) were recently established (para.\n\ns_07875: Of the 54 LDC tax systems described in a Price Waterhouse survey (19861, 27 Much of the current literature on capital formation and effective tax ratesl has concentrated on investment tax credits, accelerated depreciation, and statutory tax rate abatements as tax incentives (see, for example, King and Fullerton (1984] and Boadway, bruce and Mintz [1984] ).\n\ns_07925: The fieldwork for this study was conducted over a three-day period in July 1987 (this time was spent developing and pretesting questionnaires and training enumerators), and a tenay period in August 1987 (during which the survey work was conducted).4_ The Anambra State Water Corporation made available ten enumerators for the study and an experienced water supply engineer.\n\ns_07975: These figures were calculated based on the information provided by the Bank for International Settlements [Statistics on payment and settlement systems in selected countries -Figures for 2004 -Preliminary version], by the European Central Bank (2005), the Central Bank of Brazil, and various internet resources for population data.\n\ns_08025: Such data are not available in the survey data we use in this paper, so we are not able to investigate this relationship.\n\ns_08075: These studies typically are based on the estimation of aggregate production functions augmented with infrastructure stocks (for example, Serv\u00e9n 2003, 2007; Canning 1999; Demetriades and Mamuneas 2000; R\u00f6ller and Waverman 2001) , or on empirical growth equations, including measures of public infrastructure or public investment among the explanatory variables (Aschauer 1998; Calder\u00f3n and Serv\u00e9n 2004b; Easterly and Rebelo 1993; Esfahani and Ramirez 2003) .\n\ns_08125: The source of both data is Maddison (2002) which is turn based on Maddison (1971: pp.\n\ns_08175: These surveys also include data on the students' \"expected family contributions\" from their federal student aid applications, which determine how much federal aid students are eligible to receive.\n\ns_08225: Collectively, these nine papers sample some of the activity surrounding calculus instruction today.\n\ns_08252: The information reflected in the databases discussed below reflect a variety of survey methods.\n\ns_08302: Their dataset requires some reading to qualify whether, and at which scale, a given measure is implemented.\n\ns_08352: This study utilizes summary data from the two largest GWAS meta analysis discovery cohorts for both AD and biochemical markers of iron status (total sample sizes of 54,162 and 23,986 respectively [26, 30] ) to compute comprehensive GPS.\n\ns_08402: ENB/114606/2009 and PTDC/EEI-SII/2312/2012.\n\ns_08452: The National Institutes of Health has funded several prevention trials including Women's Health Initiative-Memory Study (WHIMS), the Alzheimer's Disease Anti-inflammatory Prevention Trial (ADAPT), Ginkgo Evaluation of Memory Study (GEM) and PreAdvise (Craig et al., 2005; Kryscio et al., 2004; Martin et al., 2002; Snitz et al., 2009 ).\n\ns_08502: The new base-year dataset of most recent information on population by level of educational attainment by age and sex was developed and documented in Bauer et al.\n\ns_08552: The trends for some of the identified analytes follow those in the published literature and are summarized below."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B77Wo0BVhl82OLSO3khgxFYbpCS2",
+    "object": "chat.completion",
+    "created": 1682883334,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1327,
+      "completion_tokens": 68,
+      "total_tokens": 1395
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08352\", \"data_mentioned\": true, \"reason\": \"GWAS meta analysis discovery cohorts\"}, {\"sent_id\": \"s_08502\", \"data_mentioned\": true, \"reason\": \"dataset of most recent information on population by level of educational attainment by age and sex\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08352\", \"data_mentioned\": true, \"reason\": \"GWAS meta analysis discovery cohorts\"}, {\"sent_id\": \"s_08502\", \"data_mentioned\": true, \"reason\": \"dataset of most recent information on population by level of educational attainment by age and sex\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

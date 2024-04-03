@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03653: For instance, the U.S. ITC (2011) estimated, based on a survey of more than five thousand U.S. IP-intensive firms, that the losses to U.S. industry from IPR infringement in China totaled roughly $48 billion in 2009 and that U.S. companies spent nearly $5 billion that year to combat this infringement.\n\ns_03703: Christiano, Eichenbaum, and Rebelo (2011) , for example, show that the government spending multiplier can be in excess of three when the interest rate is held constant, such as at a zero lower bound in a model with sticky prices.\n\ns_03753: While much of the literature is concerned with Provision cases (Bergallo 2005; Ferraz 2011 ; Yamin and Gloppen 2011), Gauri and Brinks show that, with the exception of Brazil, legal petitions requesting direct state provision of a particular good form the minority of social and economic rights cases in every country in their study.\n\ns_03803: Campbell and Perron (1991) have pointed out that unit root tests are biased in favor of the null hypothesis (existence of a unit root) if the time series suffers from structural breaks such as the emerging market crises of1997-1998.\n\ns_03853: Table 7 presents a summary of magnitudes of these key relationships, using the coefficients from\n\ns_03903: Concentrationresponse coefficients from Ostro (1994 Ostro ( , 1998 and Abbey et al (1995) have been applied to estimate these effects.\n\ns_03953: But, as indicated in and endorsed by Musgrave (1987) and Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , this measure is more suitable for studies focusing on countries with similar economic structures and at the same level of income.\n\ns_04003: The table includes the average beliefs and infection rates at dierent points of the women's life-cycle, number of life-cycle births as well as the average number of child mortality experienced by a woman.\n\ns_04053: The paper then goes on to outline a simple stylized model that might help explain this variation in health inequalities across countries.\n\ns_04103: Various guarantees covering aspects such as performance.\n\ns_04153: (1999),Cooley and Quadrini (2001),Guiso et al.\n\ns_04203: Consequently, the association between the contractual value of the initial debt and its expected value has the typical inverted U (or concave) shape that characterizes the debt Laffer curve (see Krugman (1988 Krugman ( , 1989 and Sachs (1989) ).\n\ns_04253: If k does not pull out of the project, its return is A \u2212 R + \u03b4 + [1 \u2212 p(e * )]).\n\ns_04303: Lardic and Mignon (2006) show that standard cointegration is rejected for most of the twelve European sample countries, while asymmetric cointegration is determined to be of major relevance in explaining the impact of oil price shocks.\n\ns_04353: As can be seen from Figure 1 , which plots the predicted probability of enrolling in the two sectors before and after FPE based on the multinomial logit in columnn (2), these average effects imply big and significant changes following FPE at both the top and the bottom of the socio-economic distribution.\n\ns_04403: The specification used here is more consistent with theory and involves the use of fixed effects by importer, exporter, and year (Baldwin and Taglioni 2006; Feenstra 2004) .\n\ns_04453: Moreover, the last row of Table 2 shows that for all but one outcome we cannot reject the null hypothesis of equality of the three forms of directing the remittance for education purposes.\n\ns_04503: The questions posed to the firms in our survey were based to a large extent on the classification of the potential reasons by Campbell and Kamlani (1997) .\n\ns_04553: The modern flowering of the equality of opportunity literature in economics owes much to the work of Roemer (1998) , who is recognized for example by the authors of the World Development Report 2006 (see World Bank, 2005 Bourguignon, Ferreira and Walton, 2007) .\n\ns_04603: 1 2 Although the point estimates of the IRF and multipliers are straightforward to calculate (we use the weighted average of E;h and R;h ), standard errors also need to account for the covariance between E;h and R;h .\n\ns_04653: Finally, the paper assesses the changes in inequality of opportunity in Egypt during the 2000s and the factors driving the observed trends.\n\ns_04703: On the source side, we observe that the magnitude of the coefficients on the SFD-ED and SFD-TANG interaction terms slightly decreases in column (3) relative to those in column (2).\n\ns_04753: At a descriptive level doing so points towards significantly lower levels of fertility (2.78 vs. 3.46) but insignificant differences in survival rates or sex ratios and we will check this in a regression framework.\n\ns_04803: More specifically, if we group the parameters m, C 1 l, C 21 , C 3 for Subsample 1 and m, C 12 , C 22 , C3 for Subsample 2, with m and C 3 common across subsamples, then the likelihood of the sample in the two regions is determined.\n\ns_04853: A key feature of this literature has been the size of government -specifically the size of government spending -which several studies have found to have a negative relationship with entrepreneurship (see Aidis et al., 2012 for a review of the literature)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7XK7nQIMystjmicXSa1duzfFjSH",
+    "object": "chat.completion",
+    "created": 1682884934,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1484,
+      "completion_tokens": 23,
+      "total_tokens": 1507
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04853\", \"data_mentioned\": false, \"reason\": null}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04853\", \"data_mentioned\": false, \"reason\": null}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06715: Source: BIS, The Maturity, Sectoral and Nationality Distribution of Intemational Bank Lending, various issues.\n\ns_06765: An important part of the consortium funding arrangement and the move toward program funding has been to improve the predictability of resource flows -for instance BRAC secured financing for its Rural Development Programme for a five-year period from the donor consortium.\n\ns_06815: Because half of the lobbying expenditures we identified as being trade-related were undertaken by government agencies or other generic business associations, it seems important to check the results when these are included.\n\ns_06865: This inequality is most evident in terms of landholdings, but other key productive, social and locational assets are also unequally distributed among households and geographical areas (Attanasio and Szekeley 2001; de Janvry 2002) .\n\ns_06915: (Notice that the correlation with poverty is stronger for the birth rate; the simple correlation coefficient is 0.77, versus 0.51 for the death rates in Figure 2 .)\n\ns_06965: We first estimate the probability that a student is a mover based on household, teacher and school characteristics and use this regression to predict the probability of moving.\n\ns_07015: Our model estimates the household's decision to move out of slums as a function of savings behavior and a set of other household and dwelling unit characteristics.\n\ns_07065: Due to the atomization that characterizes the industry, statistics are not as accurate as for other sectors.\n\ns_07115: Further investigation is needed to understand the degree to which this represents 'pull' factors -attraction to growing areas, vs. 'push' factors -e.g.\n\ns_07165: This table provides summary statistics of key firm attributes for the firms that are held by the emerging market mutual funds.\n\ns_07215: In a regression of a dummy variable for enrollment at baseline on the log of total household expenditure in the BDH evaluation sample, without controls, the coefficient on expenditure is 0.108, with a standard error of 0.016;\n\ns_07265: While this might be part of the explanation, a comparison of rankings based on the apparent depth of GATS commitments and the average level at which the countries concerned bound their goods tariffs reveals that the (non-EU candidate) countries with high levels of GATS commitments tend to have the lowest average level of bound tariffs (Table 7) .\n\ns_07315: *, ** and * represent significance levels of 10, 5 and I per cent respectively..\n\ns_07365: Table 5 .5 reports that savings can be significant, almost 40 percent of administrative costs.\n\ns_07415: However, the same table indicates that with a restricted sample of annual crop producing countries the correlation between the two variables alluded to above is negative (in fact, not significantly different from zero).\n\ns_07465: To study this possibility, which is most relevant for our purposes, we proceed in two steps.\n\ns_07515: The cost figure for pensioners must be transformed into a cost per year in active life to make an appropriate comparison with the other figures presented in this paper.\n\ns_07565: A survey of the literature reveals that several factors influence private investment.\n\ns_07615: These data can also be used to compute the 'energy savings' arising from the presence of lower unit energy consumption coefficients in 1985 than existed in 1980.\n\ns_07665: The timing of a debt buyback scheme is crucial, in that it should optimally take place when the discount on the debt is the greatest and does not yet reflect expectations of an improvement in the country's economic and financial profile.\n\ns_07715: The next section presents a conceptual framework for looking at rural transport and state marketing, 2 and uses it to organize some basic facts about the operations of the CIDT.\n\ns_07765: -AG + A 1 Yt + AaWt + A 3 D79 + A,D73, + et Ragression Aa A.\n\ns_07815: See Cornia (1987),Everett and Savara (1986),Herz (1989), Hossain (1987), IDB (1988),Tendler (1983), United Nations (1985, and WorldBank (1989).\n\ns_07865: A sensitivity analysis has been carried out to measure the effect of these risks on the expected returns of the project.\n\ns_07915: (The latter source of finance is ignored to simplify the presentation.)"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7fVmTYh8vw4UVNJ7TTgNlShFzAC",
+    "object": "chat.completion",
+    "created": 1682885441,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1206,
+      "completion_tokens": 157,
+      "total_tokens": 1363
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06865\", \"data_mentioned\": true, \"reason\": \"Attanasio and Szekeley\"}, {\"sent_id\": \"s_07215\", \"data_mentioned\": true, \"reason\": \"BDH evaluation sample\"}, {\"sent_id\": \"s_07415\", \"data_mentioned\": true, \"reason\": \"annual crop producing countries\"}, {\"sent_id\": \"s_07615\", \"data_mentioned\": true, \"reason\": \"energy savings\"}] \n\nThe sentences with ids s_06865, s_07215, s_07415, and s_07615 mention datasets clearly and unambiguously. The reason field is filled with the name of the dataset mentioned in each sentence."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06865\", \"data_mentioned\": true, \"reason\": \"Attanasio and Szekeley\"}, {\"sent_id\": \"s_07215\", \"data_mentioned\": true, \"reason\": \"BDH evaluation sample\"}, {\"sent_id\": \"s_07415\", \"data_mentioned\": true, \"reason\": \"annual crop producing countries\"}, {\"sent_id\": \"s_07615\", \"data_mentioned\": true, \"reason\": \"energy savings\"}] \n\nThe sentences with ids s_06865, s_07215, s_07415, and s_07615 mention datasets clearly and unambiguously. The reason field is filled with the name of the dataset mentioned in each sentence.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

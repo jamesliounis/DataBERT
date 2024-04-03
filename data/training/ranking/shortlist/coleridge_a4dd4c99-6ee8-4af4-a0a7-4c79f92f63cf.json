@@ -1,0 +1,47 @@
+{
+  "doc_id": "a4dd4c99-6ee8-4af4-a0a7-4c79f92f63cf",
+  "query": "What dataset was used in the paper?",
+  "k": 50,
+  "shortlist": [
+    "The next four papers describe a variety of recent department-wide efforts to improve the teaching and learning of calculus, at San Diego State University, the University of Illinois-Chicago, Colorado State University, and the University of Hartford.",
+    "Our second article has an analytical flavor, crunching data from the US Department of Education's High School Longitudinal Study, which began in 2009 to follow students who were then entering the ninth grade.",
+    "Collectively, these nine papers sample some of the activity surrounding calculus instruction today.",
+    "This volume gives voice to a small selection of the efforts now happening across the country, many of which have picked up and built upon the seven characteristics of successful programs in college calculus identified in the MAA Notes volume edited by Bressoud, Mesa, and Rasmussen in 2015 [2].",
+    "Although this is not a new idea, the work of Axtell and collaborators represents the first real attempt to bring this to scale, and the article includes evidence of the effectiveness of this approach.",
+    "The last two papers describe efforts to boost active learning.",
+    "The next paper, \"Resequencing Calculus,\" describes a curricular innovation: the inclusion of topics from several-variable calculus into Calculus 2.",
+    "And the greater accountability of public universities to those who fund them implies that high rates of D, F, or Withdraw (DFW), which might have been unremarkable 20 years ago, are no longer acceptable.",
+    "The presidents of the member societies of the Conference Board of the Mathematical Sciences, including AMS, MAA, and SIAM, have endorsed a statement [3] calling for the incorporation of effective active learning in all post-secondary mathematics instruction.",
+    "Though each intervention is distinctive, all share a recognition that high DFW rates are not acceptable, that what has been done is no longer working, and that sustained improvement requires multiple changes and strong departmental support.",
+    "Having achieved and documented great success for a quarter of a century, the Michigan program is a leading example of what can be accomplished.",
+    "The MAA's Progress through Calculus study [1] has discovered that among Ph.D.-granting mathematics departments, 40% describe the use of active learning in the calculus classroom as \"very important,\" and 35% are experimenting with at least some sections taught with active learning approaches.",
+    "We begin with one of the oldest and most successful efforts at improving calculus, the calculus program at the University of Michigan.",
+    "The team that now runs this program offers a view into its inner workings.",
+    "\"Calculus Students Flipped Out\" chronicles an experiment with a flipped class and documents clear gains by the students.",
+    "In \"Calculus Challenges,\" we see how Jacksonville University has used discovery learning, writing, and judicious use of technology to engage their calculus students.",
+    "Two-thirds of our departments of mathematics have recently implemented changes, are now implementing changes, or plan to change strategies for student placement within the precalculus through single-variable calculus sequence.",
+    "At each institution, changes have occurred on multiple fronts, including greater collaboration among faculty instructors, better preparation of graduate teaching assistants, and a variety of approaches to the introduction of active learning.",
+    "Authors Joe Champion and Vilma Mesa present disturbing evidence that by the time students enter the ninth grade, their mathematical knowledge, course placement, socio-economic status, and ethnicity almost completely predict whether they will complete a calculus course before graduation from high school.",
+    "The present challenge is to work on a departmental level, operating on multiple fronts to address the many ways in which calculus instruction and student support can be improved.",
+    "There is a great deal of experimentation across the board.",
+    "All these factors have led to a great search for answers.",
+    "Exploding enrollments in the sciences and engineering bring less well-prepared students into these courses.",
+    "Departments across the country yearn for clear direction on how to incorporate active learning into their courses at all levels.",
+    "Calculus courses are increasingly problematic in our colleges and universities.",
+    "The strongest students no longer study single-variable calculus in college.",
+    "Budget cuts force larger classes."
+  ],
+  "embedding_config": {
+    "client": "INSTRUCTOR(\n  (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: T5EncoderModel \n  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False})\n  (2): Dense({'in_features': 1024, 'out_features': 768, 'bias': False, 'activation_function': 'torch.nn.modules.linear.Identity'})\n  (3): Normalize()\n)",
+    "model_name": "hkunlp/instructor-large",
+    "cache_folder": null,
+    "model_kwargs": {},
+    "embed_instruction": "Represent the sentence for retrieval optimized for answering questions on the mention of data; Input: ",
+    "query_instruction": "Represent the question for retrieving the most relevant sentence mentioning data; Input: "
+  },
+  "vectorstore_cls": "Qdrant",
+  "doc_options": {
+    "skip_urls": true,
+    "min_sentence_len": 25
+  }
+}

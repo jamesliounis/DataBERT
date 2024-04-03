@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03650: The case for a multilateral approach is clear.\n\ns_03700: 26 In 2009, about 70 percent of traded capital goods from low-income countries were sourced from high-income countries (see Table 1 ).\n\ns_03750: While our conclusion sounds like it directly contradicts existing empirical findings (e.g., Ferraz 2011; Da Silva & Terrazas, 2011) , this is partly because we focus on indirect beneficiaries, while they look at the characteristics of individual litigants.\n\ns_03800: The picture changes for credit spread changes because decomposed oil prices become statistically significant as compared to the non-decomposed variable (see Table 4 , specification 8).\n\ns_03850: (2008),Andreoni and Sprenger (2010) and Noor (2011), who note that proper inference about time discounting requires information about the curvature of the utility function.8 The correlation between test scores, cognitive load and short-term patience inBenjamin et al.\n\ns_03900: Because of a lack of data, the losses here are approximated by the value of \"lost\" output related to the salinity, with some simple adjustment for changes in cropping patterns.\n\ns_03950: Our dataset includes 110 developing and developed countries and covers the period of 1994-2009.\n\ns_04000: Table 13 compare the fertility and belief reporting outcomes predicted by the model to the actual outcomes observed in the data.\n\ns_04050: With better data one could try to \"drill down\" further to see how much of the changes at the community level were related to health sector changes.\n\ns_04100: There are currently proposals under discussion for a significant decrease in its level to reflect the fall in interest rates and the increase in longevity.\n\ns_04150: (Allen et al., 2005 ), but a firm-level survey suggests that bank financing has spurred firm growth (Ayyagari et al., 2010) .\n\ns_04200: It would be more involved, however, if some costs were asssumed to accrue after the information about the idiosyncratic shock is obtained.\n\ns_04250: In this section we illustrate the working of our model for a special case, to wit, one in which most choices are binary.\n\ns_04300: , is a vector of constants, \u03a6 i is a matrix of coefficients and a vector of white noise error terms with covariance matrix \u03a3.\n\ns_04350: The table reports estimates of Equation (5), the second step of the Bayer-Timmins procedure.\n\ns_04400: # : The last column reports the total effect of EIA and harmonization by summing the values of the coefficients on the dummy for the concurrent year and on the lagged dummy.\n\ns_04450: 6 We examine the determinants of take-up via probit regressions of the form:\n\ns_04500: In particular, the categorisation used by Campbell and Kamlani (1997) was used as the main basis for the selection of questions put to the firms.\n\ns_04550: In fact, as one of us has argued elsewhere (Wagstaff, 2013) , the whole empirical approach used by de Barros et al.\n\ns_04600: A potential solution is the use of non-linear, regime-switching type regressions, which have been used in some studies for the United States and other industrial countries.\n\ns_04650: The first component of HOI, , the coverage rate, can be calculated using household survey data.\n\ns_04700: Indeed, columns (2) show a strong relationship between FDI and the interactions of financial development with the ED young measure whereas in column (3) the coefficients on the interactions of financial development with the ED mature measure are not statistically significant at the 5% level.\n\ns_04750: Results suggest far-reaching impacts on spouses' bargaining power in existing marriages and outcome variables such as domestic violence (Stevenson and Wolfers 2006) and female labor force participation (Stevenson and Wolfers 2007) .\n\ns_04800: Data on the number of entrepreneurs as a fraction of the Thai population come from successive rounds of the national level income and expenditures socio-economic survey, the SES mentioned earlier, administered by the National Statistics Office.\n\ns_04850: As stated earlier, we use the random country-year effects probit model."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7VNc2s54h1wrMbIgL8R1Zffx0Ae",
+    "object": "chat.completion",
+    "created": 1682884813,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1178,
+      "completion_tokens": 126,
+      "total_tokens": 1304
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03900\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_03950\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_04000\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_04500\", \"data_mentioned\": true, \"reason\": \"Campbell and Kamlani (1997)\"}, {\"sent_id\": \"s_04800\", \"data_mentioned\": true, \"reason\": \"SES\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03900\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_03950\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_04000\", \"data_mentioned\": true, \"reason\": \"data\"}, {\"sent_id\": \"s_04500\", \"data_mentioned\": true, \"reason\": \"Campbell and Kamlani (1997)\"}, {\"sent_id\": \"s_04800\", \"data_mentioned\": true, \"reason\": \"SES\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

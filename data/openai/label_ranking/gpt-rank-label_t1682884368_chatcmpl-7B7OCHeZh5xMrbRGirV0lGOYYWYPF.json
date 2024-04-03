@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04189: Clearly, this value of E* can be less than the lower support of the distribution, -In that case,\n\ns_04239: The paper does not go into institutional details of how this may be done but constructs a theoretical model to motivate such a legal-institutional change.\n\ns_04289: For instance, Figure 8 suggests that domestic oil consumption-production ratios may also play a role in determining the level of sensitivity.\n\ns_04339: The table reports the marginal effects of a change in these regressors on the probability of enrollment.\n\ns_04389: We use the template provided by Piermartini and Budetta (2009) and update it by adding some recent North-South EIAs that they did not review.\n\ns_04439: Section 3describes the setting, baseline sample, and lab-in-the-field experiment.\n\ns_04489: Our results are based on data collected prior to the economic downturn experienced by European countries in recent years.\n\ns_04539: And, conditional on a consensus or close to a consensus on these questions, can the inequalities be partitioned empirically in a fashion that is credible and meaningful for policy?\n\ns_04589: To remedy this, Barro and Redlick (2011) and Romer and Romer (2010) have suggested, respectively, the use of a \"natural experiment approach\"(military buildups in the United States) or a narrative approach for the case of taxes.\n\ns_04639: Where D is a dissimilarity index that measures the inequality in access rates to a given basic service for groups defined by circumstances, compared with the average access rate to the same service for the population as a whole (Barros et al.\n\ns_04689: Thanks to these various data sources, we are able to undertake a much more thorough investigation of the effects of financial development on FDI than what currently exists in the literature.\n\ns_04739: To test for HSAA-induced impacts on time allocation and education expenses, we use data from 1,226 generation III individuals from 6 to 18 years old in 557 generation II households (sample one).\n\ns_04789: 22Paulson and Townsend (2001) provide a much more extensive discussion of the original data, the derivation of variables to match those of the LEB model, additional maximum likelihood estimates of the LEB model and the relationship of LEB estimates to those of various other models of occupation choice.\n\ns_04839: However, some insightful findings can be gleaned from the results.\n\ns_04889: To deal with the potential endogeneity caused by infrastructure placement as well as spatial autocorrelation among neighboring locations, the instrumental variable spatial autoregressive model was applied.\n\ns_04939: Thus, since infrastructure stocks tend to change reasonably slowly over time and have a long life span, we include lagged value of the dependant variable in the regression in order to increase explanatory power.\n\ns_04989: Our results confirm in a cross section the recent findings by Amiti et al.\n\ns_05039: For example, using this type of data Volpe and Carballo (2008) found in a sample of Peruvian firms that export promotion affects exports mainly along the extensive margin, both in terms of markets and products, but has little impact on the intensive margins of exports.\n\ns_05089: A recent metaanalysis synthesizing the findings from 24 studies in 15 countries found that Sesame Street productions are a scalable and effective intervention (Mares & Pan, 2013) .\n\ns_05139: In order to test the sensitivity of the main results of the model, I repeat the quantitative exercises with a higher value of labor share of income.\n\ns_05189: 2010report results from this evaluation.\n\ns_05239: The evidence from a sample spanning over 10 years (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) (2006) (2007) suggests that this decision impacted both bidder participation and bidding strategies.\n\ns_05289: The elasticity used is the highest in the range of elasticties across the Mexican states -states with elasticity of a similar magnitude included Guerrero, Hidalgo, Nayarit and San Luis Potos\u00ed.\n\ns_05339: The other variables that we use in this paper, stock returns, interest rates, and credit ratings, were downloaded from Bloomberg.\n\ns_05389: Based on ex post simulations, the approach is demonstrated to yield reliable estimates of per capita consumption and poverty using data from a regular household budget survey collected in Hargeisa, Somaliland."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7OCHeZh5xMrbRGirV0lGOYYWYPF",
+    "object": "chat.completion",
+    "created": 1682884368,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1226,
+      "completion_tokens": 53,
+      "total_tokens": 1279
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04739\", \"data_mentioned\": true, \"reason\": \"HSAA\"}, {\"sent_id\": \"s_04989\", \"data_mentioned\": true, \"reason\": \"Amiti et al.\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04739\", \"data_mentioned\": true, \"reason\": \"HSAA\"}, {\"sent_id\": \"s_04989\", \"data_mentioned\": true, \"reason\": \"Amiti et al.\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02965: Tin table below shows the scales created and the input variables for each.\n\ns_03015: Therefore, in this study, we used quantitative and qualitative approaches to reveal the contextual and dynamic nature of the primary school teacher's experience in monitoring (monitoring support) of educational activities at the specified educational level (Creswell & Poth, 2018) .\n\ns_03065: Details of the protocols adopted by the different I-ADNI sites are represented in Supplementary Table 4a .\n\ns_03115: 1 shows the estimated distribution of the total number of rice farmers participating in multifunctional practices for the different states.\n\ns_03165: Chattopadhaya and Du \u2021o2004b examine the role of political reservations for women on the match between women's preferences and the decisions of gram panchayats, Rao and Ibanez2005 and Labonne and Chase2007 study the match between preferences of households and the outcomes of commity-based decision making showing some elite dominance.3 Also see the Fung and Wright2003 edited volume that has several case-studies of deliberative decision making.\n\ns_03215: The answer must depend on the facts of each case, including the diversity of food supplies, dependability of traditional suppliers, and cost of the program.\n\ns_03265: The most reliable inferences across sectors that can be obtained from this study are roughly consistent with Leamer [24] and Harrigan [16] .\n\ns_03315: To show this, the figures in panels A.1, B.1, and C.1 display the average impact of the event in each type of banks (akin to that reported in Figure 4 for the whole banking system).\n\ns_03365: However, Martin and Pham (2008) notice that the data-generating process used by SS-T does not produce zero-values properly.\n\ns_03415: One way of capturing their importance is by first assessing the extent of these flows within each important part category and then focusing on selected networks of production and distribution.\n\ns_03465: The higher is the rate of entry, the smaller are size inequalities (Simon and Bonini, 1958; Davies and Lyons, 1982) .\n\ns_03515: To make the data as comparable as possible across countries, we control for economic development (based on the level and square of GDP per capita) as well as various other factors that can be considered to be exogenous (at least in the short-term) to FD policy and the FD process itself, including: 17 population (size, density, young and old dependency ratios) and country-specific characteristics (fuel exporter, offshore financial center, transition country).\n\ns_03565: To conserve space, we only report the coefficients on our preferred productivity proxies, but the regressions include all explanatory variables that are included in table 3, unless indicated otherwise.\n\ns_03615: The results are reported in To explore further the systematic variation in changes in bank default risk, we follow the methodology of Heston and Rouwenhorst (1994) and decompose changes in default risk into three components: global effect, country effects and asset size effects.\n\ns_03665: But a closer look reveals that many of these agreements have had a limited impact in creating preferential trade (WTO, 2011) reflected in the fact that only 16 per cent of goods trade actually takes place on preferential terms.\n\ns_03715: 9 The OECD (2006) estimates that global annual investment in telecommunications, land transport, water, and electricity will average 3.5 percent of GDP or approximately US$2 trillion in 2009 prices for OECD countries.\n\ns_03765: We know that the vast majority of SUS users have low incomes: Ribeiro et al (2006) For high cost treatments, however, we assume that the SE profile of SUS users of these treatments roughly reflects the social distribution of these diseases in society.\n\ns_03815: The view of the firm as a nexus of contracts, first formulated in the seminal papers by Alchian and Demsetz (1972) and Jensen and Meckling (1976) , underlies much of modern corporate finance.\n\ns_03865: Appendix Table 3 reports the results.\n\ns_03915: Information of the salinity level (slight, moderate, strong) was not available at the time of the study.\n\ns_03965: 1994-2009 1994-2001 2002-2009 In general, the results support the previous papers' findings, determining the factors affecting of tax and fiscal revenues.\n\ns_04015: It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world.\n\ns_04065: By applying these means (and a constant) to the coefficients reported in Table 5 , we obtain predicted concentration indices for the two regions of 0.106 and 0.\n\ns_04115: The minimum return is credited alongside the required age-related contributions.\n\ns_04165: This data set covers issues by 3,884 firms from China and 6,483 firms from India."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7fFlvNSNIgfdLdsL5ruNOfBUOl7",
+    "object": "chat.completion",
+    "created": 1682885425,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1335,
+      "completion_tokens": 28,
+      "total_tokens": 1363
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04165\", \"data_mentioned\": true, \"reason\": \"China and India dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04165\", \"data_mentioned\": true, \"reason\": \"China and India dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

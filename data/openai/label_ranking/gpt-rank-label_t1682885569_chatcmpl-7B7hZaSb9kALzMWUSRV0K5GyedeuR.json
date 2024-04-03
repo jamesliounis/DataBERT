@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_08295: Others are housed at universities with research centers of national scope.\n\ns_08345: We are aware that collecting data from other sources might lead to the importation of any measurement issues they bring with them.\n\ns_08395: In addition we test for the converse scenario, whether those at a high genetic risk for AD have higher peripheral iron levels throughout life, using SNPs identified by the AD GWAS meta analysis discovery cohort [26] (from the International Genomics of Alzheimer's Project, IGAP n=54,162) in an independent population based target sample with available iron measures (n=8893).\n\ns_08445: Those regions form a feature space and the most important ones are selected by ranking their mutual information with the target output.\n\ns_08495: These ongoing and planned trials should provide an answer to the questions raised above as to whether targeting Ab in symptomatic AD patients will have any efficacy at all.\n\ns_08545: We will compare the WIC 2015 reconstruction to two types of dataset on educational attainment: empirical and reconstructed.\n\ns_08595: Its application to multimodal imaging and biomarker data has considerable potential for discovering biomarkers and enhancing mechanistic understanding of AD and MCI.\n\ns_08645: 66,67 For that reason, our estimate of the number of additional patients represented by the greater number of grams of buprenorphine dispensed is probably quite conservative.\n\ns_08695: In particular, the performance of students from the participating African countries is compared to that of countries in Asia such as Malaysia, Singapore, Japan, Chinese Taipei, Singapore and Republic of Korea that were at the same level of development as Ghana in the 1960s.\n\ns_08745: Similarly, Refsgaard and Henriksen 24,25 presented a generalised framework for quality assurance guidelines for hydrological models, including a consistent terminology (for terms such as model confirmation, code verification, model calibration, and model validation), a methodological foundation for bridging the gap between scientific philosophy and pragmatic modelling, and some application examples as well.\n\ns_08795: * P < 0.05; ** P < 0.01; *** P < 0.001.\n\ns_08845: The proposed visualization method extends the framework of [8] .\n\ns_08895: These wider patterns were also apparent in our in-depth interviews with young people, some of whom who were brimming with optimism about their own life.\n\ns_08945: By looking at patterns in the parameters, Rosenzweig was able to start sorting out different scales and mechanisms behind the SPARs.\n\ns_08995: Brief periods of temperatures above 0\u00b0C were observed as early as April (e.g., 2002April (e.g., , 2003April (e.g., , 2004April (e.g., , 2005April (e.g., , 2009, at a time of ice growth and increase in snow depth and clearly before the onset of appreciable melt.\n\ns_09045: Without the organizational variable in Model 1, the regression residuals in that model exhibit significant spatial autocorrelation.\n\ns_09095: QuikSCAT scatterometer data were used to derive climatology of storm sizes at the 23 kt radius as well as an outer radius using a wind structure model [33] .\n\ns_09145: The imaging features are then combined together with low-dimensional biomarkers such as APOE carrier status to train the binary classifier for AD/NL classification.\n\ns_09195: Table 53 shows the variables used for the poststratification, the values of the control totals, and the average weight-adjustment factors for each variable for the cross-sectional weights.\n\ns_09245: Additional studies are warranted to estimate the potential pecuniary benefits more precisely using on-farm results based on farmer decisions.\n\ns_09295: In the fully adjusted model, the estimated relative loss of activity counts for each increased year of age was 1.3%, compared with 2.0% in the unadjusted model.\n\ns_09345: Once the ROI is selected, the deformation vectors can be shown in a separate window (see Fig.\n\ns_09395: It should therefore be kept in mind that the classification accuracy measures reported in Section 5 are inherently lowered by diagnosis uncertainty, assuming that automatic classification errors and diagnosis errors are weakly correlated, which is reasonable given that ADNI diagnosis was not based on morphometry.\n\ns_09445: Odds ratios (OR) and 95% confidence intervals are adjusted for age, gender, race, systolic blood pressure, antihypertensive medications, LDL cholesterol, lipid-lowering medications, glomerular filtration rate, diabetes and smoke.\n\ns_09495: To determine the titer of the passage 2 virus a focus forming assay (FFA) was performed as described previously [22] ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hZaSb9kALzMWUSRV0K5GyedeuR",
+    "object": "chat.completion",
+    "created": 1682885569,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1268,
+      "completion_tokens": 81,
+      "total_tokens": 1349
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08545\", \"data_mentioned\": true, \"reason\": \"educational attainment\"}, {\"sent_id\": \"s_09145\", \"data_mentioned\": true, \"reason\": \"APOE carrier status\"}] \n\nSentence s_08545 mentions a dataset on educational attainment. Sentence s_09145 mentions a dataset on APOE carrier status."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08545\", \"data_mentioned\": true, \"reason\": \"educational attainment\"}, {\"sent_id\": \"s_09145\", \"data_mentioned\": true, \"reason\": \"APOE carrier status\"}] \n\nSentence s_08545 mentions a dataset on educational attainment. Sentence s_09145 mentions a dataset on APOE carrier status.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

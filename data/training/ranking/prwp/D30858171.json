@@ -1,0 +1,2615 @@
+{
+  "paper_id": "D30858171",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:36.593784Z"
+  },
+  "title": "From Ghana to America The Skill Content of Jobs and Economic Development",
+  "authors": [
+    {
+      "first": "Salvatore",
+      "middle": [
+        "Lo"
+      ],
+      "last": "Bello",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Maria",
+      "middle": [],
+      "last": "Laura",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Sanchez",
+      "middle": [],
+      "last": "Puerta",
+      "suffix": "",
+      "affiliation": {},
+      "email": "msanchezpuerta@worldbank.org"
+    },
+    {
+      "first": "Hernan",
+      "middle": [],
+      "last": "Winkler",
+      "suffix": "",
+      "affiliation": {},
+      "email": "hwinkler@worldbank.org"
+    },
+    {
+      "first": "Salvatore",
+      "middle": [],
+      "last": "Lo Bello",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Maria",
+      "middle": [],
+      "last": "Laura Sanchez Puerta",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Alvaro",
+      "middle": [],
+      "last": "Gonzalez",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Jesko",
+      "middle": [],
+      "last": "Hentschel",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Piotr",
+      "middle": [],
+      "last": "Lewandowski",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Andrew",
+      "middle": [],
+      "last": "Mason",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "David",
+      "middle": [],
+      "last": "Newhouse",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "David",
+      "middle": [],
+      "last": "Robalino",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2019-02",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D30858171",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "There is a growing body of literature that investigates trends in the skill content of jobs in developed and developing countries. One of the main findings of this literature is that jobs are becoming less intensive in routine tasks across the world. This phenomenon is associated with a host of negative outcomes, including lower earnings and job opportunities for workers with routine skills and increasing wage inequality (Autor et al., 2006; Goos, Manning, and Salomons, 2009; Bussolo, Torre, and Winkler, 2018 ).",
+        "cite_spans": [
+          {
+            "start": 425,
+            "end": 445,
+            "text": "(Autor et al., 2006;",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 446,
+            "end": 480,
+            "text": "Goos, Manning, and Salomons, 2009;",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 481,
+            "end": 514,
+            "text": "Bussolo, Torre, and Winkler, 2018",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "To estimate the task content of jobs, most studies rely on measures tailored for the US economy, where occupations are ranked by the tasks they typically require. These occupation-level measures are then applied to other countries under the assumption that the task content of occupations is the same as in the United States (see, for example, Apella and Zunino, 2018; Arias et al., 2014) . This is a strong assumption, considering that jobs may require different skill sets across countries. For instance, manufacturing jobs in developed countries may be more intensive in routine manual tasks if the production technology is more capital intensive than in developing countries, where such jobs may be more intensive in non-routine manual tasks.",
+        "cite_spans": [
+          {
+            "start": 344,
+            "end": 368,
+            "text": "Apella and Zunino, 2018;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 369,
+            "end": 388,
+            "text": "Arias et al., 2014)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "This paper is not based on this strong assumption. We use skill surveys from developing countries -i.e. the Skills Toward Employability and Productivity (STEP) surveys -to create indicators of the task content of jobs comparable to those based on O*NET for the US. 1 We find that both sets of measures are consistent regarding the relative non-routine cognitive (i.e. non-routine analytical and non-routine interpersonal tasks) and routine manual task content of jobs across countries and over time. However, occupations relatively more intensive in routine cognitive and non-routine manual tasks are not necessarily the same according to O*NET and STEP. This implies that the estimated trends in the task content of jobs will depend on whether the O*NET or STEP measures are used. In fact, while according to the O*NET indicators only one developing country in our sample shows evidence of job de-routinization, all the countries with sufficiently long-time coverage experience such phenomenon according to the STEP indicators.",
+        "cite_spans": [
+          {
+            "start": 265,
+            "end": 266,
+            "text": "1",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "This research also contributes to the literature on the drivers of the skill content of jobs by using the World Bank's International Income Distribution Dataset (I2D2). I2D2 covers more than 150 countries and several years of household survey data. By applying the skill-intensity measures to each occupation, we estimate cross-country regressions and find that the positive correlation between economic development and the intensity of jobs in non-routine cognitive skills weakens or disappears once other factors are accounted for. ICT adoption is consistently correlated with job de-routinization. The magnitudes of the estimated coefficients are also economically significant:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "An increase of 50 percentage points in internet penetration -roughly the increase experienced by developing countries since the early 1990s -is associated with a decline in the routine cognitive intensity of jobs equivalent to 42 percent of the decline in this measure experienced by Ghana since the 1990s. Higher levels of exports, in contrast, are accompanied by an increasing routinization of the labor market. These findings are robust to several specifications.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Interaction terms suggest that ICT adoption coupled with high population growth -the demographic dividend -seem to be stronger predictors of the increase in the share of jobs intensive in non-routine cognitive skills. We also find that the change in the demand for skills associated with ICT is linked to labor market disruptions. ICT adoption is followed by lower employment growth in countries with a higher share of routine jobs, which are more susceptible to being replaced by this technology.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The rest of this paper is structured as follows. Section 2 contains a review of the literature and discusses the contribution of this paper. Section 3 describes the data, while Section 4 presents the methodology and the estimated trends in the skill content of jobs. Section 5 investigates the drivers of the skill content of jobs across countries, while Section 6 estimates the impacts of ICT adoption on employment. Finally, Section 7 concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "While the canonical model assumes a one-to-one link between skills and tasks, there is a rising body of literature that emphasizes the distinction between these two concepts. In particular, while a task is a unit of work activity that produces output, skills are the workers' endowments of capabilities to perform several tasks (Acemoglu and Autor, 2011) . Since the seminal work of Autor, Levy, and Murnane (2003) , there has been a steady increase in the number of articles studying the task content of jobs. For example, and Goos, Manning, and Salomons (2009) document the process of employment and wage polarization affecting labor markets in the US and Europe since the 1980s and 1990s. This process is characterized by job and wage growth being higher at the tails of the skill and wage distribution than at the middle. They argue that new technologies that allowed the automation of routine jobs (which tend to be in the middle of the wage distribution) and increased the demand for non-routine tasks (which tend to be at the top and bottom of the wage distribution) fostered this process.",
+        "cite_spans": [
+          {
+            "start": 328,
+            "end": 354,
+            "text": "(Acemoglu and Autor, 2011)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 383,
+            "end": 414,
+            "text": "Autor, Levy, and Murnane (2003)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 528,
+            "end": 562,
+            "text": "Goos, Manning, and Salomons (2009)",
+            "ref_id": "BIBREF18"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": "2."
+      },
+      {
+        "text": "There is also a growing and large body of research on the task content of jobs in developing countries. Even for developing countries, these studies use US-based skill measures such as the O*NET or other broader occupational categories. Using a broad occupational classification , World Bank (2016) shows that labor market de-routinization is pervasive in the developing world. In comparison, studies that used more detailed data on skills show a more nuanced picture. Hardy, Keister, and Lewandowski (2016) find that in contrast to the US, jobs that are intensive in middleskill, routine, cognitive tasks increased in most Central and Eastern European countries. They also find that improvements in educational attainment and a decline in the share of agricultural jobs, rather than technology, were the main drivers of these changes. Accordingly, Apella and Zunino (2017) find that the evolution of the skill content of jobs in Argentina and Uruguay was more similar to that of Central and Eastern European countries than to that of rich countries. Maloney and Molina (2016) use the same aggregate classification of World Bank (2016) and find that only in two, out of twenty-one, developing countries there is evidence of labor market de-routinization. Aedo et al. (2013) estimate trends for 30 countries at different stages of development and find that the share of jobs intensive in non-routine, cognitive tasks is higher in richer countries.",
+        "cite_spans": [
+          {
+            "start": 279,
+            "end": 298,
+            "text": ", World Bank (2016)",
+            "ref_id": "BIBREF30"
+          },
+          {
+            "start": 469,
+            "end": 507,
+            "text": "Hardy, Keister, and Lewandowski (2016)",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 849,
+            "end": 873,
+            "text": "Apella and Zunino (2017)",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 1051,
+            "end": 1076,
+            "text": "Maloney and Molina (2016)",
+            "ref_id": "BIBREF23"
+          },
+          {
+            "start": 1255,
+            "end": 1273,
+            "text": "Aedo et al. (2013)",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": "2."
+      },
+      {
+        "text": "To our knowledge, there are only three studies that use data on the task content of occupations from developing countries instead of relying on data from the US. Dicarlo et al. (2016) use data from STEP surveys to determine if the skill content of jobs is different from that suggested by USbased skill surveys. Messina, Pica, and Oviedo (2014) analyze trends in the task content of jobs in four Latin American countries but do not investigate the drivers of such trends. Finally, Hardy et al. (2018) investigate the task content of jobs using country-specific skills surveys for 46 economies, mostly in the developed world. They analyze if the findings are different from those obtained when using US data from O*NET and investigate the drivers of the heterogeneity in the skill content of jobs across countries but not over time. They find that ICT capital intensity, robot use and the position of the country in the global value chain (i.e. a high share of foreign value added in the production of final goods and services) are negatively correlated with the share of routine jobs.",
+        "cite_spans": [
+          {
+            "start": 162,
+            "end": 183,
+            "text": "Dicarlo et al. (2016)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 312,
+            "end": 344,
+            "text": "Messina, Pica, and Oviedo (2014)",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 481,
+            "end": 500,
+            "text": "Hardy et al. (2018)",
+            "ref_id": "BIBREF22"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": "2."
+      },
+      {
+        "text": "This research contributes to this literature by analyzing trends in the skill content of jobs and their drivers, as well as the consequences for employment creation in developing economies. The use of multiple survey years per country allows us to increase the number of observations substantially, and thereby to increase the precision of our estimates in a cross-country regression setting and to control for unobserved heterogeneity across countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": "2."
+      },
+      {
+        "text": "The empirical parameters are estimated using several data sets. First, it relies on the STEP surveys to measure the task content of jobs. In addition to socio-economic, demographic, employment, education and family background information, the surveys contain a series of harmonized questions on specific tasks that the respondent uses in his or her job. We use the STEP surveys for 11 developing countries (Armenia, Bolivia, Colombia, Georgia, Ghana, FYR Macedonia, Philippines, Serbia, Sri Lanka, Ukraine and Vietnam), collected between 2012 and 2016. 2 These surveys are representative of the working age population in urban areas. While it collects information on all individuals in the household, it randomly selects an individual between 15 to 64 years old to answer the complete questionnaire, which includes detailed employment and skills questions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "This research is also based on data from the International Income Distribution Data Set (I2D2).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "The I2D2 is a data set of harmonized household surveys which are comparable across countries and time. It currently covers more than 150 countries and has more than 1,000 surveys. The time coverage goes from 1960 until 2016, but it varies by country. Appendix 1 shows the country and time coverage of the sample used in this paper, which excludes the pre-1990 samples. Finally, we use several variables from the World Development Indicators (WDI), including GDP per capita PPP (both growth and level), ICT users (as a share of total population), population by age, exports and imports (both as a share of GDP).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3."
+      },
+      {
+        "text": "To estimate our skill indexes, we first construct a conceptual link between tasks and skill categories following the same approach used by Autor, Levy, and Murnane (2003) , Acemoglu and Autor (2011) , Handel (2012) , Spitz-Oener (2006) and several other studies.",
+        "cite_spans": [
+          {
+            "start": 139,
+            "end": 170,
+            "text": "Autor, Levy, and Murnane (2003)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 173,
+            "end": 198,
+            "text": "Acemoglu and Autor (2011)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 201,
+            "end": 214,
+            "text": "Handel (2012)",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 217,
+            "end": 235,
+            "text": "Spitz-Oener (2006)",
+            "ref_id": "BIBREF28"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "4."
+      },
+      {
+        "text": "Within this approach, two main methods can be distinguished in the literature. The first one relies on occupational level task indexes estimated by experts, who rank occupations based on worker interviews. The O*NET data set is the outcome of such analysis for the US economy, with 44 different scores being assigned to each detailed level occupation. The second approach, instead, relies on direct worker-level information on the specific tasks performed on the job. It was pioneered by Handel (2008) , who developed and used the STAMP survey (that later became the PDII), for the US. This approach allows observation of the tasks at a more disaggregated level, making within-occupation analyses possible. Our methodology falls into this second category, as we employ task information at the worker-level, exploiting the STEP surveys for several developing countries. As our objective is to compare our findings with the counterfactual results that one would obtain using the US classifications, we employ two different specifications, each of which as close as possible to the O*NET and to the PDII specifications, respectively. Since the results using the PDII specification lead to similar conclusions to the ones we obtain using the O*NET one, we only discuss the latter because it provides a greater disaggregation of skill groups (5 vs. 3 ",
+        "cite_spans": [
+          {
+            "start": 488,
+            "end": 501,
+            "text": "Handel (2008)",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 1337,
+            "end": 1345,
+            "text": "(5 vs. 3",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology",
+        "sec_num": "4."
+      },
+      {
+        "text": "The O*NET specification refers back to the study of Autor, Levy, and Murnane (2003) . This specification uses 5 different skill categories: Non-Routine Analytical, Non-Routine Interpersonal, Routine Cognitive, Routine Manual, Non-Routine Manual. In the original work of Autor et al. (2003) , they make a map between DOT (the predecessor of O*NET) variables and these five skill brackets, with a single variable eliciting the information for each of them. In general, the five indexes measure the following:",
+        "cite_spans": [
+          {
+            "start": 52,
+            "end": 83,
+            "text": "Autor, Levy, and Murnane (2003)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 270,
+            "end": 289,
+            "text": "Autor et al. (2003)",
+            "ref_id": "BIBREF12"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0b7 Non-routine cognitive analytical tasks (analytic reasoning skills).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0b7 Non-routine cognitive interpersonal tasks (interactive, communication and managerial skills). \uf0b7 Routine cognitive tasks (adaptability to work requiring limits, tolerances or standards).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0b7 Routine manual tasks (repetitive physical movements).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0b7 Non-routine manual tasks (physical movements requiring adaptability and dexterity).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Given that the O*NET is based on variables that are specific for the US, and such classification has not been repeated in developing countries, matching it using STEP surveys is not straightforward. We select the STEP variables which provide a good approximation for each of the five skill groups. The list of variables chosen to mimic the O*NET structure are reported in Table 1 .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 372,
+            "end": 379,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Regarding non-routine analytical skills, we select three STEP variables to measure the task \"Analyzing data/information\": 1) \"Number of types of document typically read\"; 2) \"Length of longest document typically read\" , and; 3) \"Number of math tasks performed\". We use one variable to measure the task \"Thinking creatively\", namely \"How often the job requires thinking for at least 30 minutes\".",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "With regards to non-routine interpersonal skills, the task \"Guiding subordinates\" is elicited by a dummy variable capturing whether the job involves supervising co-workers. \"Establishing personal relationships\" is proxied by using the variable \"How important interaction with people other than co-workers is\".",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "To estimate the routine cognitive content of jobs, we use three STEP variables: 1) \"How often your work involves learning new things\" (mapped to the O*NET task \"Importance of repeating the same task\" (inverse)); 2) \"How much autonomy you have in your work\" (mapped to \"Structured vs. unstructured work\"), and; 3) \"How repetitive your work is\" (mapped to \"Importance of repeating the same task\").",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "The routine manual content of jobs is estimated using the following variables: 1) a binary outcome capturing whether the work involves operating machines (mapped to \"Controlling machines and processes\", and; 2) a categorical variable measuring the how physically demanding the work is.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, the non-routine manual content of jobs is approximated using two dummy variables: 1) \"Does the job involve driving?\" (\"Operating vehicles\"), and; 2) \"Does the job involve repairing items/instruments?\" (\"Control/Feel objects\"; \"Manual dexterity\"). To construct the indexes using STEP, each variable is standardized over the entire population of the pooled STEP surveys for all countries, where all countries are equally weighted. We then sum up all standardized variables, constructing a skill index which varies at the worker-level. For instance, for the non-routine manual category, we construct a skill index that is the sum of the two standardized components (\"Operating Vehicles\" and \"Control/Feel Objects; Manual dexterity\").",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "These skill indexes are standardized over the entire distribution, using the sampling weights.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, the indexes are collapsed at the occupational level (1-digit), using again the sampling weights. These occupation-specific indexes are calculated both for the pooled STEP sample and for each specific STEP country. The final skill indexes vary at the level of occupations, with a scale that depends on the underlying distribution. For the sake of concreteness, a 1-unit differential across occupations in a given skill is interpreted as 1 standard deviation of the whole distribution of that skill among the employed workforce of all STEP countries. When applying these indexes to other developing countries that do not have a STEP survey, we use those calculated for the pooled sample (i.e. not the country-specific ones).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Using the STEP surveys to measure skills, rather than relying on O*NET, has the obvious advantage that it allows us to investigate whether the skill content of jobs differs across countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Given that we can independently estimate occupation-specific skill indexes, we do not need to assume that different countries use the same technology or have the same labor force. Nonetheless, a couple of caveats need to be made: first, the mapping between tasks in the STEP variables and skills is not trivial; second, we need to assume that workers do not differ in their way of reporting the tasks performed at work (which may be problematic in the case of subjective opinions); and third, by excluding rural areas, the sample under-represents the agricultural sector, which represents a significant fraction of employment in the developing world.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Our analysis is based on the ISCO-08 occupational classification at the 1-digit level. We do not use a higher level of disaggregation for two reasons. First, because for most of the countries covered in STEP surveys, the sample size is not large enough to make reliable inferences using more detailed occupations, as many of the cells would contain very few observations or be empty.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Second, since the second goal of this paper is to make comparisons across countries and across time, it is not feasible to harmonize the occupational classifications for all the household surveys (which are around 600 in this study). This is because in addition to changes in the ISCO over time, many countries use their own-specific occupational categories that are difficult to map to ISCO at finer disaggregation levels. Appendix 3 shows that while the level of aggregation may affect the estimation of the routine cognitive content of jobs using O*NET, it does not seem to lead to different conclusions for the other four skill categories. Figure 1 and Figure 2 display the relationship between the task content of jobs and the level of GDP per capita across countries included in the STEP sample, using the STEP-and US-based indexes, respectively. Both sets of indexes show similar patterns regarding the link between economic development and the content of non-routine cognitive skills. In particular, countries with higher levels of GDP per capita tend to have jobs with a higher content of non-routine cognitive skills. Both methodologies also suggest that GDP per capita is negatively correlated with the intensity of routine manual skills. In contrast, there are important differences with regards to the intensity of jobs in routine cognitive and non-routine manual tasks. US-based measures suggest that the intensity of jobs in routine cognitive tasks increases with economic development, and that the opposite is true for the intensity of jobs in routine manual tasks. However, STEP-based measures of non-routine tasks increase with economic development, and both routine manual and routine cognitive tasks decline with economic development. Note: Each point shows the skill content of jobs using STEP-based indexes per country and year. The horizontal axis measures GDP per capita in PPP from WDI. When looking at the total changes in the task content of jobs in all 11 countries, there are certain differences across countries and some key stylized facts emerge. In most countries, US-and STEPbased indexes show an increase in the non-routine cognitive content of jobs and a decline in the routine intensity ( Figure 3 ). However, while the non-routine manual content of jobs increased in seven countries according to the STEP-based indexes, only three countries experienced such increase according to the O*NET-based index. Moreover, in the countries where this index declined according to both measures (as in the Philippines, Serbia and Ukraine), the decline was smaller in magnitude according to the STEP-based index than according to the O*NET-based one. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 644,
+            "end": 652,
+            "text": "Figure 1",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 657,
+            "end": 665,
+            "text": "Figure 2",
+            "ref_id": "FIGREF1"
+          },
+          {
+            "start": 2225,
+            "end": 2233,
+            "text": "Figure 3",
+            "ref_id": "FIGREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "categories).",
+        "sec_num": null
+      },
+      {
+        "text": "Note: Each bar shows the change in the task content of jobs using STEP-based (panel a) and O*NET (panel b) indexes per country.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "b. US-based",
+        "sec_num": null
+      },
+      {
+        "text": "In summary, O*NET-and STEP-based measures generate similar results in terms of the stock and changes in the non-routine cognitive, as well as in the routine manual task content of jobs. They are also in general consistent with regards to changes in the routine cognitive task content of jobs, both in levels and trends. In contrast, they generate opposite results with regards to the non-routine manual content (both in levels and trends) and the routine cognitive content (in levels) of jobs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "b. US-based",
+        "sec_num": null
+      },
+      {
+        "text": "This section explores the drivers of the changing skill content of jobs by assigning the task content of each occupation estimated using the STEP surveys and O*NET, to the corresponding occupations in the I2D2 data set. We exclude the agricultural sector and agricultural workers from the I2D2 data set since they are under-represented in the STEP surveys.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "What drives the skill content of jobs across countries? a. Extending the sample to other countries",
+        "sec_num": "5."
+      },
+      {
+        "text": "This exercise relies on the assumption that the task content of occupations of developing countries not covered by STEP surveys is similar to that of those with a STEP survey. While the data do not allow to test this assumption, we proceed by first checking if the basic correlations between the skill indexes and the level of GDP per capita still hold for the extended sample. Figure 4 and Figure   5 show the correlation of the skill content of jobs with the level of economic development, using the O*NET-and STEP-based methodology, respectively. The patterns are very similar to those of Figure 1 and Figure 2 , respectively. The non-routine cognitive and interpersonal task intensity tends to increase with the level of GDP per capita, while routine manual task intensity tends to decline. Accordingly, the non-routine manual content tends to increase with GDP per capita according to the STEP-based indexes, while the opposite is true for O*NET-based ones. While according to the O*NET-based index the routine cognitive intensity increases with the level of development, it declines when using the STEP-based indexes, which is more consistent with the findings for developed countries and the prediction that new technologies are more likely to displace this type of occupations. Since poorer countries are more likely to have a skill content of jobs more similar to that of other poorer countries than to that of the US, these correlations suggest that using STEP-based indexes provides more accurate estimates of the skill content of jobs for developing countries than US-based ones. When looking at changes over time, both measures show the same patterns with regards to the non-routine cognitive, non-routine interpersonal and routine manual task content of jobs ( Figure   6 ). The correlation is also positive, but considerably smaller, for the routine cognitive task content of jobs. However, O*NET and STEP measures do not necessarily lead to the same conclusions regarding the evolution of the non-routine manual content of jobs over time, since the correlation coefficient is relatively low. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 378,
+            "end": 386,
+            "text": "Figure 4",
+            "ref_id": "FIGREF3"
+          },
+          {
+            "start": 391,
+            "end": 401,
+            "text": "Figure   5",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 592,
+            "end": 600,
+            "text": "Figure 1",
+            "ref_id": "FIGREF0"
+          },
+          {
+            "start": 605,
+            "end": 613,
+            "text": "Figure 2",
+            "ref_id": "FIGREF1"
+          },
+          {
+            "start": 1775,
+            "end": 1785,
+            "text": "Figure   6",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "What drives the skill content of jobs across countries? a. Extending the sample to other countries",
+        "sec_num": "5."
+      },
+      {
+        "text": "To further understand the drivers of the skill content of jobs, we use a labor supply and demand framework (Table 2) . We argue that changes in labor supply such as educational upgrading, increasing female labor force participation and the demographic transition could affect the skill content of jobs in the economy. The secular increase in educational attainment in developing countries could be one of the factors behind the rise of jobs intensive in non-routine cognitive skills, and the fall of low-skill jobs. The increasing participation of women in the labor force may also be an important driver if they are more likely to have jobs that are not intensive in physical work. Finally, the changing age structure may affect the skill content of jobs through different channels. First, aging societies may be more likely to incorporate labor-saving technologies (Acemoglu and Restrepo (2018) ), and thereby more likely to experience a decline in job routinization. Second, a higher share of the elderly in the population may also increase the demand for certain types of goods or services that may be more intensive in non-routine manual tasks, such as the care industry. Third, given that lifelong learning institutions are not widespread in most developing countries, skills tend to be acquired through formal education before young people enter the labor market. Thereby, larger young cohorts would contribute disproportionately to the stock of skills in the labor force.",
+        "cite_spans": [
+          {
+            "start": 867,
+            "end": 896,
+            "text": "(Acemoglu and Restrepo (2018)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 107,
+            "end": 116,
+            "text": "(Table 2)",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "b. Empirical model",
+        "sec_num": null
+      },
+      {
+        "text": "The changing skill content of jobs may also reflect changes in the demand for labor, or the stage of economic development. As countries become richer, their bundle of consumption goods and services typically changes (Seale and Regmi (2006) ). When firms upgrade the quality of their products and production processes, this may increase the demand for non-routine cognitive skills (Bresnahan, Brynjolfsson, and Hitt (2002) ). The skill content of jobs may also depend on the stage of the business cycle (Foote and Ryan (2015) ).",
+        "cite_spans": [
+          {
+            "start": 216,
+            "end": 239,
+            "text": "(Seale and Regmi (2006)",
+            "ref_id": "BIBREF27"
+          },
+          {
+            "start": 380,
+            "end": 421,
+            "text": "(Bresnahan, Brynjolfsson, and Hitt (2002)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 502,
+            "end": 524,
+            "text": "(Foote and Ryan (2015)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "b. Empirical model",
+        "sec_num": null
+      },
+      {
+        "text": "The structure of the economy can shape the type of skills that are more demanded in the labor market. For example, the emergence of the high school movement was in part a response to the decline of the agricultural sector and the rise of manufacturing (Autor (2015) ). B\u00e1r\u00e1ny and Siegel (2018) argue that the process of job polarization is not a recent phenomenon, but it has been taking place since the 1950s and it is connected to the transition from manufacturing to services. This is because manufacturing jobs tend to be in the middle of the distribution, thereby an increase in the sector's productivity implies that workers reallocate to both low-and high-skilled services through changes in the demand and supply of labor.",
+        "cite_spans": [
+          {
+            "start": 252,
+            "end": 265,
+            "text": "(Autor (2015)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 269,
+            "end": 293,
+            "text": "B\u00e1r\u00e1ny and Siegel (2018)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "b. Empirical model",
+        "sec_num": null
+      },
+      {
+        "text": "Last, but not least, technology and trade are likely the two potential drivers that received most of the scrutiny in the empirical literature. New technologies may lead to rapid decline in the demand for routine labor, and an increase in the demand for non-routine labor (see, for instance, Acemoglu and Autor (2011)). Increasing exports may in contrast increase the demand for routine labor, since the tradeable sector is typically more intensive in this type of labor (Marcolin, Miroudot, and Squicciarini (2016) ). An increase in imports through offshoring may reduce the demand for routine labor. Table 3 shows some descriptive statistics for these covariates, while Appendix A1 displays the country-year coverage of the sample. Table 2 . Drivers of trends in the skill content of jobs (from t-1 to t). o Exports (% of GDP) (change, from t-1 to t) Table 3 . Descriptive statistics.",
+        "cite_spans": [
+          {
+            "start": 470,
+            "end": 514,
+            "text": "(Marcolin, Miroudot, and Squicciarini (2016)",
+            "ref_id": "BIBREF24"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 601,
+            "end": 608,
+            "text": "Table 3",
+            "ref_id": null
+          },
+          {
+            "start": 733,
+            "end": 740,
+            "text": "Table 2",
+            "ref_id": null
+          },
+          {
+            "start": 852,
+            "end": 859,
+            "text": "Table 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "b. Empirical model",
+        "sec_num": null
+      },
+      {
+        "text": "Note: each figure is the average change between each country's first and last year in the sample, divided by the length of the period (in years).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Labor supply factors",
+        "sec_num": null
+      },
+      {
+        "text": "We estimate the following equation:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Labor supply factors",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u2206 , , \u2211 \u2206 , , \u2211 \u2206 , , , ,",
+            "eq_num": "(1)"
+          }
+        ],
+        "section": "Labor supply factors",
+        "sec_num": null
+      },
+      {
+        "text": "Where stands for each of the five tasks considered, namely non-routine analytical, non-routine interpersonal, routine cognitive, routine manual and non-routine manual. Equation 1 unobserved heterogeneity across observations, by using an interaction of four dummy variables indicating the level of income of the country with year dummy variables. 4 This set of dummy variables controls for different non-parametric trends in the skill content of jobs across broad levels of income. We also control for the lagged level of GDP per capita to account for different linear trends in the skill content of jobs by level of economic development. The sample is an unbalanced panel of countries with annual frequency (see Appendix 1).",
+        "cite_spans": [
+          {
+            "start": 346,
+            "end": 347,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Labor supply factors",
+        "sec_num": null
+      },
+      {
+        "text": "We estimate equation (1) applying, alternatively, the skill scores based on O*NET and the average STEP indexes from the pooled sample to all the countries. In addition to including GDP in first 4 We use the World Bank income level classification. differences to capture economic growth, we include the lagged level of GDP to capture different trends in the skill content of jobs by level of economic development.",
+        "cite_spans": [
+          {
+            "start": 194,
+            "end": 195,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "c. Results",
+        "sec_num": null
+      },
+      {
+        "text": "In general, the results in Table 4 show that the association between GDP per capita and the skill content of jobs is weak once we control for unobserved heterogeneity across countries, time trends and time-variant country characteristics, in contrast to the strong link found when using crosssectional data. There is no association between non-routine cognitive skills and GDP growth or levels. The link between GDP growth and the routine cognitive and non-routine manual skill content of jobs is significant only when using O*NET measures but vanishes when using STEPbased indexes. Only the routine manual skill content of jobs has a significant and positive link with GDP growth, a finding consistent with occupations intensive in routine manual tasks being concentrated in more volatile industries over the business cycle (Foote and Ryan, 2015 ).",
+        "cite_spans": [
+          {
+            "start": 825,
+            "end": 846,
+            "text": "(Foote and Ryan, 2015",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 27,
+            "end": 34,
+            "text": "Table 4",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "c. Results",
+        "sec_num": null
+      },
+      {
+        "text": "There are some common patterns between the estimated coefficients associated with the rest of the covariates using the STEP-and O*NET-based measures. First, an increase in internet penetration is associated with an increase in the non-routine cognitive skills content of jobs and with a decline in the routine manual and cognitive content of jobs. An increase in the exports share of GDP is associated with a decline in the non-routine cognitive skills content of jobs, and with an increase in the routine content of jobs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "c. Results",
+        "sec_num": null
+      },
+      {
+        "text": "Some differences between both sets of skill measures emerge, particularly regarding the drivers of the routine cognitive and the non-routine manual skill content of jobs. The correlation between the latter and internet use has a different sign depending on whether the STEP or O*NET methodology is used. Accordingly, the same holds for the correlation between the age structure of the labor force and the routine cognitive content of jobs (although the relationship is not statistically significant when using STEP-based measures).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "c. Results",
+        "sec_num": null
+      },
+      {
+        "text": "Note: OLS coefficients from a cross-country regression using the skill content of jobs (in first differences) as the dependent variable (multiplied by 100).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "The results in Table 4 could be affected by the O*NET and STEP indexes not being appropriate measures for developing countries and developed countries, respectively. To overcome this limitation, we estimate the same equation using only the STEP indexes and restricting the sample to developing countries ( Table 5 ). The three main findings still hold in this sample. First, trends in the skill content of jobs are not related to economic growth or income levels once we control for other factors. Second, higher internet use is correlated with an increase in share of jobs intensive in non-routine cognitive skills, and with a decrease in the share of jobs intensive in routine tasks.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 15,
+            "end": 22,
+            "text": "Table 4",
+            "ref_id": null
+          },
+          {
+            "start": 306,
+            "end": 313,
+            "text": "Table 5",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "Third, an increase in the exports-to-GDP ratio has exactly the opposite relationship than internet use has with the skill content of jobs. More precisely, the ratio is linked to a decline in the share of jobs intensive in non-routine skills, and with an increase in the share of jobs intensive in routine tasks.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "These associations are also large in magnitude. An increase of 50 percentage points in the share of internet users -roughly the increase experienced by developing countries since the early 1990sis associated with an increase in the non-routine interpersonal task intensity of jobs equivalent to about 5 percent of its standard deviation during the period. As a reference, such level is about a third of the increase experienced by Vietnam in this skill measure from 1992 to 2010. Accordingly, the same increase in internet use is associated with a decline in the routine cognitive intensity equivalent to 3.5 percent of its standard deviation, or 42 percent of the decline in this task measure experienced by Ghana since the 1990s. The role of exports, albeit statistically significant, is smaller in magnitude. An increase of about 7 percentage points in the ratio of exports to GDP -roughly the increase experienced by developing countries since the early 1990s -is associated with an increase in the routine cognitive task intensity of jobs equivalent to about 7 percent of the decline experienced by Vietnam in this skill measure. In other words, higher exports may have partially offset the de-routinization process. Table 5 . Drivers of the trends in the skill content of jobs, developing countries sample (STEP index)",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 1222,
+            "end": 1229,
+            "text": "Table 5",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "Note: OLS coefficients from a cross-country regression using the skill content of jobs (in first differences) as the dependent variable (multiplied by 100).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "These findings could be driven by the fact that the level of development may be correlated with the speed at which the demand for skills and the adoption of new technologies take place. Poorer countries tend to grow faster, and thereby increase their human and physical capital faster than other countries as well. To analyze if this could be affecting the results, Table 6 . Drivers of the skill content of jobs, developing countries sample (STEP index). Controlling for income group trends.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 366,
+            "end": 373,
+            "text": "Table 6",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "Note: OLS coefficients from a cross-country regression using the skill content of jobs (in first differences) as the dependent variable (multiplied by 100).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "The finding that the share of working age population is not significantly correlated with the skill content of jobs is surprising given that in most countries the extent of lifelong learning institutions is limited, particularly in developing countries. Thereby it is expected that most of the skill upgrading in the labor force is driven by the new entrants. Table 7 . Drivers of the skill content of jobs: Demography and Technology. Developing countries sample.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 360,
+            "end": 367,
+            "text": "Table 7",
+            "ref_id": "TABREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "Note: OLS coefficients from a cross-country regression using the skill content of jobs (in first differences) as the dependent variable (multiplied by 100).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 4. Drivers of the trends in the skill content of jobs, all countries",
+        "sec_num": null
+      },
+      {
+        "text": "One of the limitations of the STEP surveys is that they cover urban areas only, which leads to an under-representation of the agricultural sector. This could introduce a bias to our estimates if most of the changes in the task content of jobs is driven by a transition out of agriculture. To assess to what extent the exclusion of agriculture is driving the results, we re-calculate the O*NET-based indexes including the agricultural sector and occupations in the I2D2 data set. We then estimate the cross-country equations using these indexes. As seen in Table 8 and Table 9 , the results are very similar for both samples, as the magnitudes of the main estimated coefficients are very close.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 556,
+            "end": 563,
+            "text": "Table 8",
+            "ref_id": "TABREF9"
+          },
+          {
+            "start": 568,
+            "end": 575,
+            "text": "Table 9",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness check: The role of the agricultural sector",
+        "sec_num": null
+      },
+      {
+        "text": "Thereby, the main findings do not seem to be driven by the exclusion of the agricultural sector.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness check: The role of the agricultural sector",
+        "sec_num": null
+      },
+      {
+        "text": "(1) (2) (3) (4) Note: OLS coefficients from a cross-country regression using the skill content of jobs (in first differences) as the dependent variable (multiplied by 100). Table 9 . Robustness checks: Including agricultural employment, developing country sample.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 173,
+            "end": 180,
+            "text": "Table 9",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness check: The role of the agricultural sector",
+        "sec_num": null
+      },
+      {
+        "text": "Note: OLS coefficients from a cross-country regression using the skill content of jobs (in first differences) as the dependent variable (multiplied by 100).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness check: The role of the agricultural sector",
+        "sec_num": null
+      },
+      {
+        "text": "(1) (2) (3) ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness check: The role of the agricultural sector",
+        "sec_num": null
+      },
+      {
+        "text": "To assess if the imputation of task scores to countries beyond those covered by a STEP survey affects the results, we conduct a robustness check where we estimate the main equation using the original sample of countries with a STEP survey. Given that the number of observations is significantly smaller, we estimate more parsimonious specifications by replacing year dummy variables with decade dummy variables. In addition, we exclude GDP per capita (both in levels and changes) as control variables in the full model.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness check: Limiting the sample to countries with a STEP survey",
+        "sec_num": null
+      },
+      {
+        "text": "As seen in Table 10 , the estimated coefficients associated with internet use and exports have in general the same signs as those of Table 5 , although the latter are no longer statistically significant.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 11,
+            "end": 19,
+            "text": "Table 10",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 133,
+            "end": 140,
+            "text": "Table 5",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness check: Limiting the sample to countries with a STEP survey",
+        "sec_num": null
+      },
+      {
+        "text": "Increased internet use is associated with increases (decreases) in the non-routine (routine) task intensity of jobs. Several other coefficients become statistically significant in this sample, but the number of observations is too small to draw conclusions. Table 10 . Robustness check: Restricting the sample to countries with a STEP survey.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 258,
+            "end": 266,
+            "text": "Table 10",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Robustness check: Limiting the sample to countries with a STEP survey",
+        "sec_num": null
+      },
+      {
+        "text": "Note: Sample includes countries covered by the STEP survey only. Dummy variables for each decade are included as covariates.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Robustness check: Limiting the sample to countries with a STEP survey",
+        "sec_num": null
+      },
+      {
+        "text": "Changes in the demand for skills coming from trade and technology shocks can have disruptive effects in the labor market, especially when workers cannot easily move across occupations. There is a large body of literature showing that, even in developed countries with flexible labor markets, trade and technology shocks have significant impacts on employment levels (see, for instance, Autor, Dorn, and Hanson (2013) and Acemoglu and Restrepo (2017) ). In this section, we focus on the impact of ICT on employment rates and test the following prediction. Since ICT is more likely to replace routine tasks, countries where jobs are more intensive in these tasks would be more likely to experience a decline in employment as ICT adoption rises.",
+        "cite_spans": [
+          {
+            "start": 386,
+            "end": 416,
+            "text": "Autor, Dorn, and Hanson (2013)",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 421,
+            "end": 449,
+            "text": "Acemoglu and Restrepo (2017)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": "We first create an index bundling both routine cognitive and routine manual tasks into one. Then, we estimate the following equation:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u2206 , ,",
+            "eq_num": ", \u2206 , , , \u2206 , , \u2206 , ,"
+          }
+        ],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": ",",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": "The dependent variable \u2206 , ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": "is the annual change in the employment rate from t-1 to t. The parameter of interest is , which we expect to be negative.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": "The estimates in Table 11 show evidence consistent with the hypothesis that ICT has a negative impact on employment rates in countries where the stock of jobs is more intensive in routine tasks.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 17,
+            "end": 25,
+            "text": "Table 11",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": "The magnitudes of the coefficients are different across age groups, but there is no clear pattern since they also vary across specifications. The size of the effects is also relatively large. Our preferred estimate in column (2) for all age groups indicates that when internet penetration increases by 10 percentage points, employment rate growth is 2 percentage points lower in a country with a relatively high level of routine labor (Sri Lanka) with respect to one with a low level of routine labor (Argentina).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How do labor markets cope with the changing demand for skills?",
+        "sec_num": "6."
+      },
+      {
+        "text": "Note: OLS coefficients from a cross-country regression using the employment rate as the dependent variable.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 11. Changes in employment rates by levels of exposure to ICT",
+        "sec_num": null
+      },
+      {
+        "text": "This paper contributes to a growing body of literature investigating the skill content of jobs. While most articles impute US-based measures of the task content of occupations to other countries, we use harmonized data on the task content of jobs for 11 developing countries. We find that indexes based on the US and on developing countries lead to similar conclusions regarding the stock, changes and drivers of the non-routine cognitive and routine manual content of jobs. However, the former does not provide a close approximation of the routine cognitive and non-routine manual skill content of jobs. We also uncover three new stylized facts. First, while developed countries tend to have jobs more intensive in cognitive skills than developing countries, income (both in growth and levels) is not significantly associated with the skill content of jobs once other factors are accounted for. Second, while ICT adoption is linked to job de-routinization, international trade is an offsetting force. Last, ICT adoption is correlated with lower employment growth in countries with a high share of occupations intensive in routine tasks.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "7."
+      },
+      {
+        "text": "These findings have important policy implications. First, they question the implicit assumption that the task content of occupations is similar across countries. Thereby, they highlight the importance of making the data collection of the task content of occupations more systematic and frequent in the developing world. Second, the steady increase in the non-routine cognitive content",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "7."
+      },
+      {
+        "text": "of jobs in developing countries shows the importance of policies to improve educational attainment and quality so that labor supply can keep up with demand. Third, the fact that ICT adoption -rather than GDP growth per se -is strongly linked to the demand for non-routine cognitive skills highlights that the type -rather than just the magnitude -of economic growth matters for the quality of jobs. Fourth, while new technologies may increase the skills intensity of jobs on average, they can displace routine workers with limited capacity to find another job. This highlights the importance of social protection systems, of reducing the barriers to job mobility and of strengthening lifelong learning systems to facilitate the process of finding a new job and protecting the incomes of displaced workers during a technological shock.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "7."
+      },
+      {
+        "text": "In general, both STEP and O*NET measures lead to similar conclusions regarding which occupations have a higher intensity in non-routine analytical and interpersonal as well as routine manual tasks, as shown by the positive correlation between them ( Figure A2 1) . In other words, the occupations with a high content of these tasks tend to be the same in the US and in developing countries. The correlation between the routine cognitive task content of occupations also tends to be similar across occupations in the US and developing countries, although to a lower extent. In contrast, large differences emerge when comparing the non-routine manual content of occupations. Except for the Philippines, in most countries the correlation coefficients are either small or negative.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 250,
+            "end": 262,
+            "text": "Figure A2 1)",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Appendix 2. Measuring the skill content of jobs a. Cross-sectional comparisons",
+        "sec_num": null
+      },
+      {
+        "text": "These findings are consistent with those of existing studies that rely on a more disaggregated classification of occupations. For example, Messina, Pica, and Oviedo (2014) find that the task content of occupations is similar between the US and Latin America with respect to abstract and routine tasks (with a correlation coefficient of around 0.5 to 0.6). In contrast, the manual content of occupations is more heterogeneous across countries. They arrive to these conclusions while using between 6 and 10 times the number of occupational categories of our study. Although the skills' definitions are not strictly comparable, these results are also consistent with those of Dicarlo et al. (2016) , as they find that the non-routine cognitive content of occupations is similar between developing countries and the US. They arrive to this conclusion using a much more disaggregated occupational classification. 5",
+        "cite_spans": [
+          {
+            "start": 139,
+            "end": 171,
+            "text": "Messina, Pica, and Oviedo (2014)",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 673,
+            "end": 694,
+            "text": "Dicarlo et al. (2016)",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix 2. Measuring the skill content of jobs a. Cross-sectional comparisons",
+        "sec_num": null
+      },
+      {
+        "text": "Note: each bar shows the Spearman correlation of the skill content of jobs at the 1-digit ISCO level. The task content measures are estimated using STEP (for each country) and O*NET (for the US).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure A2 1. Skill content of jobs by occupation -Spearman correlation between O*NET and STEP measures",
+        "sec_num": null
+      },
+      {
+        "text": "The cross-sectional differences between the skill content of jobs according to O*NET-and STEP-based indexes leads to different trends as well. Figure A2 2 illustrates the cases of Bolivia, Ghana, Sri Lanka and Vietnam, as the data for these countries cover a period (roughly 25 years) long enough to capture trends. As expected, the evolution of the non-routine analytical and interpersonal as well as the routine manual task content tends to follow the same pattern according to both STEP and O*NET indexes and are consistent with the process of job",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 143,
+            "end": 152,
+            "text": "Figure A2",
+            "ref_id": "FIGREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "b. Trends",
+        "sec_num": null
+      },
+      {
+        "text": "polarization. An important difference exists with respect to the non-routine manual content of jobs, which increases in every country according to the STEP-based measures -which is consistent with job polarization -but it fell over time according to O*NET (except for Ghana). Discrepancies between the two indexes are driven by the fact that for the STEP-based index, occupations intensive in non-routine analytical tasks also tend to be intensive in non-routine manual tasks, the opposite holds for O*NET-based measures. For example, while managers tend to use relatively more non-routine manual tasks than other occupations according to the STEP indexes, they are one of the occupations with the lowest non-routine manual scores according to the O*NET-based index (Figure A2 3) . Table A2 1 and Table A2 2 illustrate the sources of these discrepancies by analyzing specific examples of detailed occupations in Bolivia and Vietnam. In both countries, chief executives, senior officials and legislators have the highest levels of non-routine analytical and interpersonal skills at work, in terms of reading, using math, supervising, creativity and contacts with clients.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 766,
+            "end": 779,
+            "text": "(Figure A2 3)",
+            "ref_id": "FIGREF1"
+          },
+          {
+            "start": 782,
+            "end": 805,
+            "text": "Table A2 1 and Table A2",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "b. Trends",
+        "sec_num": null
+      },
+      {
+        "text": "At the same time, they are more likely to drive and operate a vehicle while at work, which is one of the components used to measure non-routine manual tasks. Accordingly, electrical workers, whose jobs seemed to be relatively intensive in reading and math, are also more likely than other workers to carry out non-routine manual tasks such as repairing.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "b. Trends",
+        "sec_num": null
+      },
+      {
+        "text": "Two forces may help explain the differences in the evolution of the non-routine manual content of jobs. First, workers performing non-routine cognitive tasks in developing countries may also be more likely than other workers to own assets -such as cars -required to carry out non-routine manual tasks. Second, differences in the use of non-routine analytical skills within middle-skill occupations such as electricians and machine operators may be larger in developing countries than in developed economies when compared to the average job. Low-tier jobs in developing countries may be relatively less intensive in both non-routine cognitive and manual tasks when compared to low-tier jobs in developed countries. This is consistent with occupations being less specialized in developing countries. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "b. Trends",
+        "sec_num": null
+      },
+      {
+        "text": "We also construct indexes comparable to those thatAutor and Handel (2013) created for the US using the PDII survey. Since the results are very similar to those that mimic the O*NET, we do not report them, but they are available from the authors upon request.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Azerbaijan, Bosnia-Herzegovina, Kenya, Kosovo and Lao People's Democratic Republic are also covered by a STEP survey but, since we do not have harmonized repeated cross-sections with the required variables for these countries, they are excluded from the sample.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Non-Routine Manual, STEP",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Non-Routine Manual, US",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We use the lagged level of GDP to capture different trends in the skill content of jobs by level of economic development.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In contrast, they find that the non-routine interpersonal content of occupations, while positively correlated to that of the US, it is much weaker than suggested by our findings. However, this could be explained by the fact that the variables that we use to construct the non-routine interpersonal index is more like that ofAutor and Handel (2013) than the one used byDiCarlo et al. (2016).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "interpreting the results for changes in the routine cognitive content of jobs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "annex",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Skills, Tasks and Technologies: Implications for Employment and Earnings. Handbook of Labor Economics",
+        "authors": [
+          {
+            "first": "Daron",
+            "middle": [],
+            "last": "Acemoglu",
+            "suffix": ""
+          },
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Autor",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "2410--2415",
+        "other_ids": {
+          "DOI": [
+            "10.1016/S0169-7218"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Acemoglu, Daron, and David Autor. 2011. Skills, Tasks and Technologies: Implications for Employment and Earnings. Handbook of Labor Economics. https://doi.org/10.1016/S0169- 7218(11)02410-5.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Robots and Jobs: Evidence from US Labor Markets",
+        "authors": [
+          {
+            "first": "Daron",
+            "middle": [],
+            "last": "Acemoglu",
+            "suffix": ""
+          },
+          {
+            "first": "Pascual",
+            "middle": [],
+            "last": "Restrepo",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "SSRN Electronic Journal",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.2139/ssrn.2940245"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Acemoglu, Daron, and Pascual Restrepo. 2017. \"Robots and Jobs: Evidence from US Labor Markets.\" SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2940245.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Demographics and Automation",
+        "authors": [],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.2139/ssrn.3138621"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "---. 2018. \"Demographics and Automation.\" SSRN. https://doi.org/10.2139/ssrn.3138621.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "From Occupations to Embedded Skills: A Cross-Country Comparison",
+        "authors": [
+          {
+            "first": "Cristian",
+            "middle": [],
+            "last": "Aedo",
+            "suffix": ""
+          },
+          {
+            "first": "Jesko",
+            "middle": [],
+            "last": "Hentschel",
+            "suffix": ""
+          },
+          {
+            "first": "Javier",
+            "middle": [],
+            "last": "Luque",
+            "suffix": ""
+          },
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Moreno",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Aedo, Cristian, Jesko Hentschel, Javier Luque, and Martin Moreno. 2013. From Occupations to Embedded Skills: A Cross-Country Comparison. The World Bank.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Nonstandard Forms of Employment in Developing Countries : A Study for a Set of Selected Countries in Latin America and the Caribbean and Europe and Central Asia",
+        "authors": [
+          {
+            "first": "Ignacio",
+            "middle": [],
+            "last": "Apella",
+            "suffix": ""
+          },
+          {
+            "first": "Gonzalo",
+            "middle": [],
+            "last": "Raul",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Zunino",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Policy Research Working Paper",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Apella, Ignacio Raul, and Gonzalo Zunino. 2018. \"Nonstandard Forms of Employment in Developing Countries : A Study for a Set of Selected Countries in Latin America and the Caribbean and Europe and Central Asia.\" Policy Research Working Paper; Vol. WPS 8581. http://documents.worldbank.org/curated/en/246711536777440870/Nonstandard-Forms-of- Employment-in-Developing-Countries-A-Study-for-a-Set-of-Selected-Countries-in-Latin- America-and-the-Caribbean-and-Europe-and-Central-Asia.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Cambio Teconol\u00f3gico y Mercado de Trabajo En Argentina y Uruguay. Un An\u00e1lisis de Contenido de Tareas",
+        "authors": [
+          {
+            "first": "Ignacio",
+            "middle": [],
+            "last": "Apella",
+            "suffix": ""
+          },
+          {
+            "first": "Gonzalo",
+            "middle": [],
+            "last": "Zunino",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Revista de Econom\u00eda",
+        "volume": "24",
+        "issue": "2",
+        "pages": "79--121",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Apella, Ignacio, and Gonzalo Zunino. 2017. \"Cambio Teconol\u00f3gico y Mercado de Trabajo En Argentina y Uruguay. Un An\u00e1lisis de Contenido de Tareas.\" Revista de Econom\u00eda 24 (2): 79-121.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Back to Work: Growing with Jobs in Europe and Central Asia",
+        "authors": [
+          {
+            "first": "Omar",
+            "middle": [
+              "S"
+            ],
+            "last": "Arias",
+            "suffix": ""
+          },
+          {
+            "first": "Carolina",
+            "middle": [],
+            "last": "S\u00e1nchez-P\u00e1ramo",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Mar\u00eda",
+            "suffix": ""
+          },
+          {
+            "first": "Indhira",
+            "middle": [],
+            "last": "D\u00e1valos",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Santos",
+            "suffix": ""
+          },
+          {
+            "first": "Carola",
+            "middle": [],
+            "last": "Erwin R Tiongson",
+            "suffix": ""
+          },
+          {
+            "first": "Natasha",
+            "middle": [],
+            "last": "Gruen",
+            "suffix": ""
+          },
+          {
+            "first": "Gady",
+            "middle": [],
+            "last": "De Andrade Falc\u00e3o",
+            "suffix": ""
+          },
+          {
+            "first": "Cesar",
+            "middle": [
+              "A"
+            ],
+            "last": "Saiovici",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Cancho",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Arias, Omar S, Carolina S\u00e1nchez-P\u00e1ramo, Mar\u00eda E D\u00e1valos, Indhira Santos, Erwin R Tiongson, Carola Gruen, Natasha de Andrade Falc\u00e3o, Gady Saiovici, and Cesar A Cancho. 2014. Back to Work: Growing with Jobs in Europe and Central Asia. The World Bank.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Why Are There Still So Many Jobs? The History and Future of Workplace Automation",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [
+              "H"
+            ],
+            "last": "Autor",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Journal of Economic Perspectives",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1257/jep.29.3.3"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Autor, David H. 2015. \"Why Are There Still So Many Jobs? The History and Future of Workplace Automation.\" Journal of Economic Perspectives. https://doi.org/10.1257/jep.29.3.3.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "The Growth of Low-Skill Service Jobs and the Polarization of the US Labor Market",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [
+              "H"
+            ],
+            "last": "Autor",
+            "suffix": ""
+          },
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Dorn",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "American Economic Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1257/aer.103.5.1553"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Autor, David H., and David Dorn. 2013. \"The Growth of Low-Skill Service Jobs and the Polarization of the US Labor Market.\" American Economic Review. https://doi.org/10.1257/aer.103.5.1553.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [
+              "H"
+            ],
+            "last": "Autor",
+            "suffix": ""
+          },
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Dorn",
+            "suffix": ""
+          },
+          {
+            "first": "Gordon",
+            "middle": [
+              "H"
+            ],
+            "last": "Hanson",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "American Economic Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1257/aer.103.6.2121"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Autor, David H., David Dorn, and Gordon H. Hanson. 2013. \"The China Syndrome: Local Labor Market Effects of Import Competition in the United States.\" American Economic Review. https://doi.org/10.1257/aer.103.6.2121.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Putting Tasks to the Test: Human Capital, Job Tasks, and Wages",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [
+              "H"
+            ],
+            "last": "Autor",
+            "suffix": ""
+          },
+          {
+            "first": "Michael",
+            "middle": [
+              "J"
+            ],
+            "last": "Handel",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Journal of Labor Economics",
+        "volume": "31",
+        "issue": "S1",
+        "pages": "59--96",
+        "other_ids": {
+          "DOI": [
+            "10.1086/669332"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Autor, David H., and Michael J. Handel. 2013. \"Putting Tasks to the Test: Human Capital, Job Tasks, and Wages.\" Journal of Labor Economics 31 (S1): S59-96. https://doi.org/10.1086/669332.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "The Polarization of the U.S. Labor Market",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [
+              "H"
+            ],
+            "last": "Autor",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Lawrence",
+            "suffix": ""
+          },
+          {
+            "first": "Melissa",
+            "middle": [
+              "S"
+            ],
+            "last": "Katz",
+            "suffix": ""
+          },
+          {
+            "first": "Eli",
+            "middle": [],
+            "last": "Kearney",
+            "suffix": ""
+          },
+          {
+            "first": "Amitabh",
+            "middle": [],
+            "last": "Berman",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Chandra",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "In American Economic Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1257/000282806777212620"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Autor, David H., Lawrence F. Katz, Melissa S. Kearney, Eli Berman, and Amitabh Chandra. 2006. \"The Polarization of the U.S. Labor Market.\" In American Economic Review. https://doi.org/10.1257/000282806777212620.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "The Skill Content of Recent Technological Change: An Empirical Exploration",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [
+              "H"
+            ],
+            "last": "Autor",
+            "suffix": ""
+          },
+          {
+            "first": "Frank",
+            "middle": [],
+            "last": "Levy",
+            "suffix": ""
+          },
+          {
+            "first": "Richard",
+            "middle": [
+              "J"
+            ],
+            "last": "Murnane",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1162/003355303322552801"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Autor, David H., Frank Levy, and Richard J. Murnane. 2003. \"The Skill Content of Recent Technological Change: An Empirical Exploration.\" Quarterly Journal of Economics. https://doi.org/10.1162/003355303322552801.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Job Polarization and Structural Change",
+        "authors": [
+          {
+            "first": "Zs\u00f3fia",
+            "middle": [
+              "L"
+            ],
+            "last": "B\u00e1r\u00e1ny",
+            "suffix": ""
+          },
+          {
+            "first": "Christian",
+            "middle": [],
+            "last": "Siegel",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "American Economic Journal: Macroeconomics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1257/mac.20150258"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "B\u00e1r\u00e1ny, Zs\u00f3fia L., and Christian Siegel. 2018. \"Job Polarization and Structural Change.\" American Economic Journal: Macroeconomics. https://doi.org/10.1257/mac.20150258.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Information Technology, Workplace Organization, and the Demand for Skilled Labor: Firm-Level Evidence",
+        "authors": [
+          {
+            "first": "Timothy",
+            "middle": [
+              "F"
+            ],
+            "last": "Bresnahan",
+            "suffix": ""
+          },
+          {
+            "first": "Erik",
+            "middle": [],
+            "last": "Brynjolfsson",
+            "suffix": ""
+          },
+          {
+            "first": "Lorin",
+            "middle": [
+              "M"
+            ],
+            "last": "Hitt",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1162/003355302753399526"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Bresnahan, Timothy F., Erik Brynjolfsson, and Lorin M. Hitt. 2002. \"Information Technology, Workplace Organization, and the Demand for Skilled Labor: Firm-Level Evidence.\" Quarterly Journal of Economics. https://doi.org/10.1162/003355302753399526.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Does Job Polarization Explain the Rise in Earnings Inequality? Evidence from Europe",
+        "authors": [
+          {
+            "first": "Maurizio",
+            "middle": [],
+            "last": "Bussolo",
+            "suffix": ""
+          },
+          {
+            "first": "Ivan",
+            "middle": [],
+            "last": "Torre",
+            "suffix": ""
+          },
+          {
+            "first": "Hernan Jorge",
+            "middle": [],
+            "last": "Winkler",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bussolo, Maurizio, Ivan Torre, and Hernan Jorge Winkler. 2018. \"Does Job Polarization Explain the Rise in Earnings Inequality? Evidence from Europe.\" The World Bank.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "The Skill Content of Occupations across Low and Middle Income Countries: Evidence from Harmonized Data",
+        "authors": [
+          {
+            "first": "Emanuele",
+            "middle": [],
+            "last": "Dicarlo",
+            "suffix": ""
+          },
+          {
+            "first": "Salvatore",
+            "middle": [
+              "Lo"
+            ],
+            "last": "Bello",
+            "suffix": ""
+          },
+          {
+            "first": "Sebastian",
+            "middle": [],
+            "last": "Monroy-Taborda",
+            "suffix": ""
+          },
+          {
+            "first": "Ana",
+            "middle": [],
+            "last": "Maria",
+            "suffix": ""
+          },
+          {
+            "first": "Oviedo",
+            "middle": [],
+            "last": "Maria",
+            "suffix": ""
+          },
+          {
+            "first": "Laura",
+            "middle": [],
+            "last": "Sanchez-Puerta",
+            "suffix": ""
+          },
+          {
+            "first": "Indhira",
+            "middle": [],
+            "last": "Santos",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "IZA Discussion Paper",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dicarlo, Emanuele, Salvatore Lo Bello, Sebastian Monroy-Taborda, Ana Maria, Oviedo Maria, Laura Sanchez-Puerta, and Indhira Santos. 2016. \"The Skill Content of Occupations across Low and Middle Income Countries: Evidence from Harmonized Data.\" IZA Discussion Paper. https://doi.org/DOI:",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Labor Market Polarization Over the Business Cycle",
+        "authors": [
+          {
+            "first": "Christopher",
+            "middle": [
+              "L"
+            ],
+            "last": "Foote",
+            "suffix": ""
+          },
+          {
+            "first": "Richard W",
+            "middle": [],
+            "last": "Ryan",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "NBER Macroeconomics Annual",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1086/680656"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Foote, Christopher L, and Richard W Ryan. 2015. \"Labor Market Polarization Over the Business Cycle.\" NBER Macroeconomics Annual. https://doi.org/10.1086/680656.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Job Polarization in Europe",
+        "authors": [
+          {
+            "first": "Maarten",
+            "middle": [],
+            "last": "Goos",
+            "suffix": ""
+          },
+          {
+            "first": "Alan",
+            "middle": [],
+            "last": "Manning",
+            "suffix": ""
+          },
+          {
+            "first": "Anna",
+            "middle": [],
+            "last": "Salomons",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "In American Economic Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1257/aer.99.2.58"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Goos, Maarten, Alan Manning, and Anna Salomons. 2009. \"Job Polarization in Europe.\" In American Economic Review. https://doi.org/10.1257/aer.99.2.58.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Tasks and Skills in European Labor Markets",
+        "authors": [
+          {
+            "first": "Szymon",
+            "middle": [],
+            "last": "G\u00f3rka",
+            "suffix": ""
+          },
+          {
+            "first": "Wojciech",
+            "middle": [],
+            "last": "Hardy",
+            "suffix": ""
+          },
+          {
+            "first": "Roma",
+            "middle": [],
+            "last": "Keister",
+            "suffix": ""
+          },
+          {
+            "first": "Piotr",
+            "middle": [],
+            "last": "Lewandowski",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "IBS Research Report",
+        "volume": "3",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "G\u00f3rka, Szymon, Wojciech Hardy, Roma Keister, and Piotr Lewandowski. 2017. \"Tasks and Skills in European Labor Markets.\" Background Paper for Growing United, IBS Research Report 3: 2017.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Measuring Job Content: Skills, Technology, and Management Practices",
+        "authors": [
+          {
+            "first": "Michael",
+            "middle": [
+              "J"
+            ],
+            "last": "Handel",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1787/5k8zk8pcq6td-en"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Handel, Michael J. 2008. Measuring Job Content: Skills, Technology, and Management Practices. University of Wisconsin-Madison, Institute for Research on Poverty. ---. 2012. \"Trends in Job Skill Demands in OECD Countries.\" OECD Social, Employment and Migration Working Papers. https://doi.org/10.1787/5k8zk8pcq6td-en.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Technology or Upskilling? Trends in the Task Composition of Jobs in Central and Eastern Europe",
+        "authors": [
+          {
+            "first": "Wojciech",
+            "middle": [],
+            "last": "Hardy",
+            "suffix": ""
+          },
+          {
+            "first": "Roma",
+            "middle": [],
+            "last": "Keister",
+            "suffix": ""
+          },
+          {
+            "first": "Piotr",
+            "middle": [],
+            "last": "Lewandowski",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.2139/ssrn.2886290"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Hardy, Wojciech, Roma Keister, and Piotr Lewandowski. 2016. \"Technology or Upskilling? Trends in the Task Composition of Jobs in Central and Eastern Europe.\" SSRN. https://doi.org/10.2139/ssrn.2886290.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "THE GLOBAL DISTRIBUTION OF ROUTINE AND NON-ROUTINE WORK\u2022",
+        "authors": [
+          {
+            "first": "Wojciech",
+            "middle": [],
+            "last": "Hardy",
+            "suffix": ""
+          },
+          {
+            "first": "Piotr",
+            "middle": [],
+            "last": "Lewandowski",
+            "suffix": ""
+          },
+          {
+            "first": "Albert",
+            "middle": [],
+            "last": "Park",
+            "suffix": ""
+          },
+          {
+            "first": "Du",
+            "middle": [],
+            "last": "Yang",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hardy, Wojciech, Piotr Lewandowski, Albert Park, and Du Yang. 2018. \"THE GLOBAL DISTRIBUTION OF ROUTINE AND NON-ROUTINE WORK\u2022.\"",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Are Automation and Trade Polarizing Developing Country Labor Markets, Too?",
+        "authors": [
+          {
+            "first": "William",
+            "middle": [
+              "F"
+            ],
+            "last": "Maloney",
+            "suffix": ""
+          },
+          {
+            "first": "Carlos",
+            "middle": [],
+            "last": "Molina",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Maloney, William F, and Carlos Molina. 2016. Are Automation and Trade Polarizing Developing Country Labor Markets, Too? The World Bank.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Routine Jobs, Employment and Technological Innovation in Global Value Chains",
+        "authors": [
+          {
+            "first": "Luca",
+            "middle": [],
+            "last": "Marcolin",
+            "suffix": ""
+          },
+          {
+            "first": "S\u00e9bastien",
+            "middle": [],
+            "last": "Miroudot",
+            "suffix": ""
+          },
+          {
+            "first": "Mariagrazia",
+            "middle": [],
+            "last": "Squicciarini",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1787/5jm5dcz2d26j-en"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Marcolin, Luca, S\u00e9bastien Miroudot, and Mariagrazia Squicciarini. 2016. \"Routine Jobs, Employment and Technological Innovation in Global Value Chains.\" Working Paper. https://doi.org/10.1787/5jm5dcz2d26j-en.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Trade, Technology, Skills and Jobs Exploring the Road Ahead for Developing East Asia",
+        "authors": [
+          {
+            "first": "Andrew",
+            "middle": [
+              "D"
+            ],
+            "last": "Mason",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Kehayova",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Yang",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mason, Andrew D., V. Kehayova, and J. Yang. 2018. \"Trade, Technology, Skills and Jobs Exploring the Road Ahead for Developing East Asia.\"",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Background Paper for the World Bank LAC Chief Economist Office Study on Wage Inequality",
+        "authors": [
+          {
+            "first": "Juli\u00e1n",
+            "middle": [],
+            "last": "Messina",
+            "suffix": ""
+          },
+          {
+            "first": "Giovanni",
+            "middle": [],
+            "last": "Pica",
+            "suffix": ""
+          },
+          {
+            "first": "Ana",
+            "middle": [
+              "Mar\u00eda"
+            ],
+            "last": "Oviedo",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Messina, Juli\u00e1n, Giovanni Pica, and Ana Mar\u00eda Oviedo. 2014. \"From Occupations to Skills: Changes in Skill Demand in LAC.\" Unpublished Manuscript. Washington, DC: World Bank. Background Paper for the World Bank LAC Chief Economist Office Study on Wage Inequality. Piketty.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Modeling International Consumption Patterns",
+        "authors": [
+          {
+            "first": "James",
+            "middle": [
+              "L"
+            ],
+            "last": "Seale",
+            "suffix": ""
+          },
+          {
+            "first": "Anita",
+            "middle": [],
+            "last": "Regmi",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Review of Income and Wealth",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1111/j.1475-4991.2006.00204.x"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Seale, James L., and Anita Regmi. 2006. \"Modeling International Consumption Patterns.\" Review of Income and Wealth. https://doi.org/10.1111/j.1475-4991.2006.00204.x.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Technical Change, Job Tasks, and Rising Educational Demands: Looking Outside the Wage Structure",
+        "authors": [
+          {
+            "first": "Alexandra",
+            "middle": [],
+            "last": "Spitz-Oener",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Journal of Labor Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1086/499972"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Spitz-Oener, Alexandra. 2006. \"Technical Change, Job Tasks, and Rising Educational Demands: Looking Outside the Wage Structure.\" Journal of Labor Economics. https://doi.org/10.1086/499972.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Jordan Jobs Diagnostics",
+        "authors": [
+          {
+            "first": "Hernan",
+            "middle": [],
+            "last": "Winkler",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Winkler, Hernan. 2018. \"Jordan Jobs Diagnostics.\" Washington, DC.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "World Development Report -Digital Dividends",
+        "authors": [
+          {
+            "first": "Bank",
+            "middle": [],
+            "last": "World",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1017/CBO9781107415324.004"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "World, Bank. 2016. \"World Development Report -Digital Dividends.\" The World Bank. https://doi.org/10.1017/CBO9781107415324.004. Number of survey- years Argentina 2003 2014 12 Jamaica 1996 2002 4 Armenia 1998 2013 2 Jordan 2000 2016 15 Austria 2004 2011 8 Latvia 2005 2011 7 Bangladesh 2000 2015 5 Lebanon 2004 2011 2 Belgium 2004 2011 8 Lithuania 1998 2011 14 Belize 1996 1999 4 Luxembourg 2004 2011 8 Bhutan 2003 2012 3 Mauritius 1999 2012 13 Bolivia 1997 2014 14 Mexico 1992 2006",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "The task content of jobs across countries, STEP-based indexes.",
+        "num": null,
+        "fig_num": "1"
+      },
+      "FIGREF1": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "The tasks content of jobs across countries, US-based indexes.Note: Each point shows the skill content of jobs using O*NET-based indexes per country and year. The horizontal axis measures GDP per capita in PPP from WDI.",
+        "num": null,
+        "fig_num": "2"
+      },
+      "FIGREF2": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Changes in the skill content of jobs",
+        "num": null,
+        "fig_num": "3"
+      },
+      "FIGREF3": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Skill content of jobs (STEP-based) by level of GDP per capita, all countries, latest year.Note: Each point shows the skill content of jobs using STEP-based indexes per country and year. The horizontal axis measures GDP per capita in PPP from WDI.",
+        "num": null,
+        "fig_num": "4"
+      },
+      "FIGREF4": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Skill content of jobs (O*NET-based) by level of GDP per capita, all countries, latest year.Note: Each point shows the skill content of jobs using O*NET indexes per country and year. The horizontal axis measures GDP per capita in PPP from WDI.",
+        "num": null,
+        "fig_num": "5"
+      },
+      "FIGREF6": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Correlation between STEP-and O*NET-based changes in the skill content of jobs, extended sampleNote: Sample includes 104 countries that are assigned, alternatively, the skills scores of the pooled STEP country and O*NET. Changes are computed over the first and last year of each country in the sample. The changes are re-scaled by the length of the time covered, so that they can be interpreted as yearly changes. Each bar is the value of the Spearman correlation coefficient.",
+        "num": null,
+        "fig_num": "6"
+      },
+      "FIGREF7": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Industry Value added (% of GDP) (change, from t-1 to t) o Services Value added (% of GDP) (change, from t-1 to t)",
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF8": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "estimates annual changes in the skill content of jobs as a function of annual changes in labor demand (\u2206 , , ) and labor supply (\u2206 , , ) factors. The term , is a control variable that captures",
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF9": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Figure A2 2. Trends in the skill content of jobs, 1990-2015 a. Bolivia -STEP b. Bolivia -O*NET",
+        "num": null,
+        "fig_num": null
+      },
+      "FIGREF10": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Non-Routine Manual vs. Non-Routine Analytical content of occupations a. STEP-based index b. O*NET-based index Note: Each point represents the average skill content of each occupation (and by country in the left figure). STEP-based measures are reported for all countries in the STEP sample.",
+        "num": null,
+        "fig_num": "3"
+      },
+      "FIGREF12": {
+        "uris": null,
+        "type_str": "figure",
+        "text": "Source: O*NET 1-digit and STEP 1-digit are the measures estimated in this paper. O*NET (disaggregated) comes from different sources. Apella and Zunino (2018) for Latin America and Europe and Central Asia (standard employment); G\u00f3rka et al. (2017) for the European Union; Mason, Kehayova, and Yang (2018) for East Asia; Winkler (2018) for Jordan. to the three indexes Same trends according to O*NET and O*NET 1-digit Different trends according to O*NET and O*NET 1",
+        "num": null,
+        "fig_num": null
+      },
+      "TABREF0": {
+        "content": "<table><tr><td>Skill Bracket</td><td>STEP Task</td><td>n Questio</td><td>O*Net Task Corresponding</td><td>Coding</td></tr><tr><td/><td>Type of document</td><td>m5a_q0</td><td/><td>Summation of</td></tr><tr><td/><td>read</td><td>5</td><td/><td>\"Yes\" (0-5)</td></tr><tr><td/><td>Length of longest</td><td>m5a_q0</td><td>Analyzing</td><td/></tr><tr><td>Non-routine Analytical</td><td>document typically read Math tasks</td><td>4*m5a_ q06 m5a_q1 8</td><td>data/information</td><td>Categorical (0-5) Summation of \"Yes\" (0-5)</td></tr><tr><td/><td>Thinking for at least 30 minutes to do tasks.</td><td>m5b_q1 0</td><td>Thinking creatively</td><td>Categorical (1-5)</td></tr><tr><td>Non-routine Interperson al</td><td>Supervising coworkers Contact with clients</td><td>m5b_q1 3 m5b_q0 5*m5b_ q06</td><td colspan=\"2\">Guiding subordinates Dummy Establishing personal relationships Categorical (0-10)</td></tr><tr><td/><td>How often your work involves learning new things</td><td>m5b_q1 7</td><td>Importance of repeating the same task (inverse)</td><td>Categorical (0-5)</td></tr><tr><td>Routine Cognitive</td><td>Autonomy</td><td>m5b_q1 4</td><td>Structured vs unstructured work</td><td>Categorical (1-10)</td></tr><tr><td/><td>Repetitiveness</td><td>m5b_q1 6</td><td>Importance of repeating the same task</td><td>Categorical (1-4)</td></tr><tr><td>Routine</td><td>Operate</td><td>m5b_q0 9</td><td>Controlling Machines and processes</td><td>Dummy</td></tr><tr><td>Manual</td><td>Physical demanding</td><td>m5b_q0 3</td><td>-</td><td>Categorical (1-10)</td></tr><tr><td>Non-Routine Manual</td><td>Driving Repair</td><td>m5b_q0 7 m5b_q0 8</td><td>Operating vehicles Control/Feel objects; Manual dexterity</td><td>Dummy Dummy</td></tr><tr><td colspan=\"5\">Note: the question codes are for Wave2 of the STEP Questionnaire (they do not coincide with the codes of Wave1).</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF6": {
+        "content": "<table><tr><td>( 1 )</td><td>( 2 )</td><td>( 3 )</td><td>( 4 )</td><td>( 5 )</td></tr></table>",
+        "type_str": "table",
+        "text": "controls for different non-parametric trends across income groups. The coefficients associated with internet access and exports are not significantly different to the ones fromTable 5. Moreover, the coefficients associated with changes in the sectoral structure of the economy continue to be statistically insignificant.",
+        "num": null,
+        "html": null
+      },
+      "TABREF7": {
+        "content": "<table><tr><td>( 1 )</td><td>( 2 )</td><td>( 3 )</td><td>( 4 )</td><td>( 5 )</td></tr></table>",
+        "type_str": "table",
+        "text": "explores this hypothesis by interacting the change in the working-age population share with the change in internet use. It shows that, in fact, the roles of demography and the adoption of digital technologies are only relevant when they take place simultaneously. In other words, only countries that experience both an increase in the share of the working age population and an increase in internet penetration simultaneously witness an increase in the non-routine cognitive skill content of jobs.",
+        "num": null,
+        "html": null
+      },
+      "TABREF9": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF13": {
+        "content": "<table><tr><td/><td/><td colspan=\"4\">Non-Routine Analytical and Interpersonal</td><td/><td colspan=\"2\">Non-Routine manual</td></tr><tr><td/><td>Type of document read</td><td>Length of longest document read typically</td><td>Math tasks</td><td>Thinking for do tasks. at least 30 minutes to</td><td>Supervising coworkers</td><td>Contact with clients</td><td>Driving</td><td>Repair</td></tr><tr><td>High Analytical and</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Intepersonal content</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Chief executives, senior officials and legislators</td><td>100%</td><td>93%</td><td>65%</td><td>100%</td><td>100%</td><td>93%</td><td>46%</td><td>0%</td></tr><tr><td>Production and specialized services managers</td><td>82%</td><td>57%</td><td>73%</td><td>56%</td><td>86%</td><td>70%</td><td>27%</td><td>16%</td></tr><tr><td>Science and engineering professionals</td><td>70%</td><td>81%</td><td>76%</td><td>63%</td><td>72%</td><td>54%</td><td>17%</td><td>16%</td></tr><tr><td>Legal, social and cultural professionals</td><td>59%</td><td>56%</td><td>32%</td><td>54%</td><td>78%</td><td>89%</td><td>8%</td><td>12%</td></tr><tr><td>Hospitality, retail and other services managers</td><td>55%</td><td>33%</td><td>78%</td><td>31%</td><td>93%</td><td>81%</td><td>13%</td><td>13%</td></tr><tr><td>Electrical and electronic trades workers</td><td>54%</td><td>53%</td><td>50%</td><td>23%</td><td>38%</td><td>34%</td><td>8%</td><td>48%</td></tr><tr><td>Average</td><td>70%</td><td>62%</td><td>62%</td><td>55%</td><td>78%</td><td>70%</td><td>20%</td><td>18%</td></tr><tr><td>Low Analytical and</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Intepersonal content</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Refuse workers and other elementary workers</td><td>23%</td><td>21%</td><td>44%</td><td>5%</td><td>28%</td><td>22%</td><td>2%</td><td>0%</td></tr><tr><td>Labourers in mining,</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>construction, manufacturing</td><td>23%</td><td>26%</td><td>40%</td><td>15%</td><td>25%</td><td>45%</td><td>14%</td><td>3%</td></tr><tr><td>and transport</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Food processing, wood working,</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>garment and other craft and</td><td>22%</td><td>18%</td><td>47%</td><td>19%</td><td>22%</td><td>49%</td><td>4%</td><td>6%</td></tr><tr><td>related trades workers</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Cleaners and helpers</td><td>21%</td><td>15%</td><td>25%</td><td>20%</td><td>28%</td><td>52%</td><td>0%</td><td>0%</td></tr><tr><td>Stationary plant and machine operators</td><td>17%</td><td>19%</td><td>33%</td><td>14%</td><td>14%</td><td>40%</td><td>8%</td><td>13%</td></tr><tr><td>Agricultural, forestry and fishery labourers</td><td>14%</td><td>16%</td><td>41%</td><td>14%</td><td>19%</td><td>51%</td><td>2%</td><td>1%</td></tr><tr><td>Average</td><td>20%</td><td>19%</td><td>38%</td><td>14%</td><td>23%</td><td>43%</td><td>5%</td><td>4%</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF14": {
+        "content": "<table><tr><td/><td/><td colspan=\"4\">Non-Routine Analytical and Interpersonal</td><td/><td colspan=\"2\">Non-Routine manual</td></tr><tr><td/><td>Type of document read</td><td>Length of longest document read typically</td><td>Math tasks</td><td>Thinking for do tasks. at least 30 minutes to</td><td>Supervising coworkers</td><td>Contact with clients</td><td>Driving</td><td>Repair</td></tr><tr><td>High Analytical and</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Intepersonal content</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Chief executives, senior officials and legislators</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>64%</td><td>0%</td></tr><tr><td>Hospitality, retail and other services managers</td><td>96%</td><td>50%</td><td>50%</td><td>96%</td><td>86%</td><td>93%</td><td>24%</td><td>0%</td></tr><tr><td>Numerical and material recording clerks</td><td>85%</td><td>56%</td><td>72%</td><td>52%</td><td>61%</td><td>61%</td><td>40%</td><td>4%</td></tr><tr><td>Administrative and commercial managers</td><td>81%</td><td>56%</td><td>95%</td><td>93%</td><td>82%</td><td>86%</td><td>49%</td><td>10%</td></tr><tr><td>Science and engineering professionals</td><td>78%</td><td>91%</td><td>97%</td><td>89%</td><td>88%</td><td>53%</td><td>34%</td><td>11%</td></tr><tr><td>Stationary plant and machine operators</td><td>75%</td><td>72%</td><td>60%</td><td>52%</td><td>30%</td><td>33%</td><td>35%</td><td>12%</td></tr><tr><td>Average</td><td>86%</td><td>71%</td><td>79%</td><td>80%</td><td>74%</td><td>71%</td><td>41%</td><td>6%</td></tr><tr><td>Low Analytical and</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Intepersonal content</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Cleaners and helpers</td><td>28%</td><td>19%</td><td>37%</td><td>30%</td><td>9%</td><td>22%</td><td>1%</td><td>0%</td></tr><tr><td>Legal, social, cultural and related associate professionals</td><td>24%</td><td>46%</td><td>53%</td><td>71%</td><td>29%</td><td>40%</td><td>3%</td><td>1%</td></tr><tr><td>Personal service workers</td><td>21%</td><td>15%</td><td>55%</td><td>39%</td><td>18%</td><td>23%</td><td>1%</td><td>0%</td></tr><tr><td>Food processing, wood working,</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>garment and other craft and</td><td>19%</td><td>15%</td><td>82%</td><td>60%</td><td>26%</td><td>25%</td><td>11%</td><td>1%</td></tr><tr><td>related trades workers</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Agricultural, forestry and fishery labourers</td><td>5%</td><td>0%</td><td>50%</td><td>46%</td><td>39%</td><td>22%</td><td>11%</td><td>0%</td></tr><tr><td>Food preparation assistants</td><td>0%</td><td>0%</td><td>29%</td><td>43%</td><td>22%</td><td>42%</td><td>0%</td><td>0%</td></tr><tr><td>Average</td><td>16%</td><td>16%</td><td>51%</td><td>48%</td><td>24%</td><td>29%</td><td>4%</td><td>0%</td></tr></table>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      },
+      "TABREF15": {
+        "content": "<table/>",
+        "type_str": "table",
+        "text": "",
+        "num": null,
+        "html": null
+      }
+    }
+  }
+}

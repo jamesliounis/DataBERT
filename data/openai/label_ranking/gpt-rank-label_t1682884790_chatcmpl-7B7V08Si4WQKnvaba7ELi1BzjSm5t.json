@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06199: We draw on different survey platforms (that is, phone and online) to collect data about broadly representative samples of the population and they point to similar conclusions.\n\ns_06249: For this paper, we use monthly CPI series from the November 2020 IFS vintage averaged into annual CPI series.5 We have verified this information with the revised 2011 PPPs.6 Countries that collect prices to compute PPPs as part of the ICP exercise are referred to as benchmark countries.\n\ns_06299: The endline study tested them at the end of a school year so some of the improvement may be due to a time-of-the-year effect.\n\ns_06349: (2018) use household survey data that covers the 96% of the world population; (2) panel data long enough in its time dimension to include the socioeconomic or educational attainment of two generations, for example, Celhay, Sanhueza, and Zubizarreta (2010) use the Chilean CASEN to estimate mobility in schooling and income;\n\ns_06399: The weighted RIGRC for various sub-samples dened by gender and geography (rural/urban) are reported in the odd numbered columns in Table 7 for our main estimation sample of 1950-1989 birth cohorts.\n\ns_06449: where DID \u03c9 essentially measures the changes in electricity consumption during the COVID months relative to the typical consumption levels in the same periods during the previous years.\n\ns_06499: We first compute the variable importance score (see figures D1-D3 in Annex D), which identifies the characteristics that are most salient in determining citizen participation.\n\ns_06549: TPOs whether they adopted different virtual tools during the pandemic, and whether they were planning to continue to use these new virtual tools post COVID.\n\ns_06599: The 1978/79 table was the last official matrix constructed at the time of study.\n\ns_06649: Over time (and as noted earlier in the paper) there should be more radical experimentation with different organizational forms that cut across cultures and emphasize functional rather than the earlier institutional breakclowns of staff.\n\ns_06699: The Treasury data show larger foreign liabilities of the banks than Central Bank data.\n\ns_06749: The bottom line is that the literature on targeting suggests that microfinance programs are reasonably successful at reaching the poor, and that those households who fall above the stipulated landholding criterion tend to be marginally above the poverty line and are susceptible to transient poverty in certain years.\n\ns_06799: Most of the paper excludes these contributions, except for the section on robustness tests, where these contributions are included in the econometric analysis.\n\ns_06849: It also leads us to use both quantitative and qualitative analyses to better understand the complex relationships between assets-context-behavior-outcomes.\n\ns_06899: Given the data problems noted in the last section, it would be unwise to insist on a single point estimate of either the DRD or BRD.\n\ns_06949: To the extent that such records are available, they tend to under-estimate absence by 5-10 percent (Chaudhury and others 2004).\n\ns_06999: In the empirical examination, we find that both these service measures are highly correlated.\n\ns_07049: This trade diversion effects were heightened by the devaluation of the Real in early 1999 which caused regional footwear imports to reach close to 25 million pairs/year (Graph VI.2a) a figure that was higher than those recorded for all years before 1998.\n\ns_07099: Is this a causal relationship?\n\ns_07149: The methodology and the major results are reported in Section 5.\n\ns_07199: In making comparisons between the BDH and PROGRESA programs it is therefore important to correct for differences in the composition of the samples.Schultz (2004) reports PROGRESA program effects by single grade a child was enrolled at baseline.\n\ns_07249: What the index does do is provide one -arbitrary -way of weighting commitments and allowing cross-country comparisons, thus permitting an assessment of the degree to which there is uniformity in GATS commitments across EU members.\n\ns_07299: See the appendix for details.\n\ns_07349: Our approach is a practical one.\n\ns_07399: (1987) .18 For studies using the Nerlove Model, lagged output (area) is significant where included and so are weather (rainfall) and technological change (captured by time trend)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7V08Si4WQKnvaba7ELi1BzjSm5t",
+    "object": "chat.completion",
+    "created": 1682884790,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1194,
+      "completion_tokens": 53,
+      "total_tokens": 1247
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06349\", \"data_mentioned\": true, \"reason\": \"household survey data\"}, {\"sent_id\": \"s_06949\", \"data_mentioned\": true, \"reason\": \"absence records\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06349\", \"data_mentioned\": true, \"reason\": \"household survey data\"}, {\"sent_id\": \"s_06949\", \"data_mentioned\": true, \"reason\": \"absence records\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

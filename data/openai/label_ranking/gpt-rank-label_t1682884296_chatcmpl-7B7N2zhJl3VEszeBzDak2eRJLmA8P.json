@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_08037: To assess the predictive accuracy of the model we first compare the actual proportion of household using each fuel observed in the data with the multinomial logit model's prediction.\n\ns_08087: This has potentially adverse This paper-a product of the Macroeconomics and Growth Team, Development Research Group-is part of a larger effort in the department to understand the macroeconomic impact of fiscal policy.\n\ns_08137: Goldsmith's (1984) estimates.\n\ns_08187: Put another way, the high current payoffs to college completion contain a clear signal about the importance of college preparation.\n\ns_08237: \"Calculus Students Flipped Out\" chronicles an experiment with a flipped class and documents clear gains by the students.\n\ns_08264: Definitions of terms used in the tables include the following: \u2022 Target Population: The intended group of study.\n\ns_08314: The Response2covid19 dataset complements the efforts made by other researchers in different manners.\n\ns_08364: We acknowledge the Genetics of Iron Status Consortium as the source of the iron meta-analysis SNP association data.\n\ns_08414: In this paper, we propose a methodology to au-tomatically extract features that represent interesting regions of the brain and, consequently, reducing the dimensionality of the space.\n\ns_08464: In the first stage, premorbid biomarkers for the pathology of AD would be used to select patients or enrich a sample for likelihood of progression to AD in a reasonable time-frame.\n\ns_08514: This was implemented by applying a dynamic panel data model, autoregressive of order 1 with fixed effects, which was estimated with 2-step generalized method of moments (GMM) over the period 1980-2005.\n\ns_08564: Their characteristics are summarized in Table 1 .\n\ns_08614: Rural 100-patient-waivered physicians were also significantly associated (p < 0.05, 2008-2011) with higher amounts of buprenorphine per capita being dispensed within a state.\n\ns_08664: From the time of its inception in 1959, IEA has conducted more than 16 crossnational studies on achievement in a number of curricular areas including mathematics and science.\n\ns_08714: 33 Stow et al 34 reviewed several skill approaches and metrics, including univariate comparison of predictions and observations such as RMSE and average error (used by the authors), average absolute error (which is related to the authors' central frequency) and reliability index, correlation coefficient, and modelling efficiency (not used by the authors because they are difficult to interpret).\n\ns_08764: The current study investigated associations between key factors (rural/urban, race/ethnicity, age, education, poverty level, employment status, marital status, access to health care, and health status) and i) health research participation, ii) opportunities to participate in health research, and iii) willingness to participate in health research from a representative sample of adults in Arkansas.\n\ns_08814: We used the T1w MRI available in each of these studies.\n\ns_08864: The CELS web survey (2014), which was conducted a few years after the start of the 2008 recession, suggests that a high proportion of young people in England have remained optimistic about their own personal future.\n\ns_08914: In a similar spirit, Cohen (1968) derived two biological models of SADs which produce a broken stick distribution (MacArthur 1957\n\ns_08964: [26] Breakup dates and the period of disappearance of pressure ridges at UIC-NARL are summarized in Table 1 and shown in Figure 8 (Appendix A).\n\ns_09014: Including the organizational environment variable in Model 2 also better accounts for spatial dependence in the predictors of open campus policy holding-as seen in the comparison of the Moran's I tests of the model regression residuals in both models.\n\ns_09064: Use of AMSU data as part of an ensemble shows great promise for more accurate TC structure retrieval; a combination of the ADT and two different AMSU intensity estimates makes up the satellite consensus (SATCON) method of TC intensity estimation [57] , which has the highest skill of all satellite-based intensity estimation methods [58] .\n\ns_09114: al [4] combine FDG-PET-derived numerical summaries, MRI-derived volume measures, CSF biomarkers, APOE genotype, and subject demographics for the task of discriminating MCI from AD.\n\ns_09164: NPSAS statisticians freshened the institution sample using IPEDS:2009-10 IC, EF, E12, and C files when available.\n\ns_09214: Most of the studies present their results in terms of total welfare effects and the distribution of those effects under various scenarios, or assumptions, regarding parameters they see as important."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7N2zhJl3VEszeBzDak2eRJLmA8P",
+    "object": "chat.completion",
+    "created": 1682884296,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1267,
+      "completion_tokens": 104,
+      "total_tokens": 1371
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08314\", \"data_mentioned\": true, \"reason\": \"Response2covid19 dataset\"}, {\"sent_id\": \"s_08814\", \"data_mentioned\": true, \"reason\": \"T1w MRI\"}, {\"sent_id\": \"s_09114\", \"data_mentioned\": true, \"reason\": \"FDG-PET-derived numerical summaries, MRI-derived volume measures, CSF biomarkers, APOE genotype, and subject demographics\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08314\", \"data_mentioned\": true, \"reason\": \"Response2covid19 dataset\"}, {\"sent_id\": \"s_08814\", \"data_mentioned\": true, \"reason\": \"T1w MRI\"}, {\"sent_id\": \"s_09114\", \"data_mentioned\": true, \"reason\": \"FDG-PET-derived numerical summaries, MRI-derived volume measures, CSF biomarkers, APOE genotype, and subject demographics\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

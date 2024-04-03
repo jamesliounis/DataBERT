@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05684: This strategy could also be useful for countries where state of the art systems has been put in place, but the budget coverage remains low.\n\ns_05734: Their finding is relevant for our study, where the share of households with a computer is used as a proxy for the level of technological development accessible by firms.\n\ns_05784: See, for example, the article in The Economist (2018) reporting a state of emergency in regions of the country where most of our first sample operates.\n\ns_05834: 1 The remainder of the paper is organized as follows.\n\ns_05884: Results of comparison of GVC linkage rates and changes in these rates by country groups are described in Figures 1 through 9 , of which we highlight four main items.\n\ns_05934: As demonstrated by L. S. Goldberg and Tille (2005) , exporters are not restricted to invoice entirely in one currency, and this is supported in the data.\n\ns_05984: Furthermore, to detect if any potential observations have a significant impact on the model, model (1) is retested by excluding observations with Pearson residual value more than 2, deviance residual value more than 2, and leverage value more than 3 times the average leverage.\n\ns_06034: 3 It is worth noting that the empirical evidence obtained from properly adding interaction terms to empirical speci\u2026cation (3) with respect to country-varying variables , , and (see Sections 4 and 5 for measurement details) delivers the model-based sign estimates.\n\ns_06084: Table 7 provides a formal test of the descriptive statistics reported in section 4.1.\n\ns_06134: For the post-World War II era, the data is collected from various data sources including Europa World Year Book series, ministries of foreign affairs of various countries, Statesman's Year Book, and the Code Diplomatique.\n\ns_06184: This subsection presents broadly representative, descriptive findings from the phone survey and the control group in the online experiment, using the same approach to weighting (that is, inverse probability weighting at the individual level as discussed in Section 4.3).\n\ns_06234: Jolliffe and Prydz (2016) selected surveys conducted as close as possible to the 2011 ICP reference year, such that only one survey per country is used for deriving the IPL.\n\ns_06284: Age differences in the treatment effect are confirmed in the regressions presented in columns 3-6 of Table 3 .\n\ns_06334: (2020) use full-count census data for individual countries focusing on a much larger set of correlates.\n\ns_06384: The summary statistics for our main estimation samples are reported in Table 1 .\n\ns_06434: These studies range from the effects on food security (Amare et al., 2021; Abay et al., 2020) , wel-fare (Adams-Prassl et al., 2020; Schmidt et al., 2021) , firms (Cong et al., 2021) , employment (Cortes and Forsythe, 2020; Albanesi and Kim, 2021; Klein, 2022) , energy use(Cicala, 2020), water consumption (Irwin et al., 2021 ), pollution(Zhang et al., 2021 , as well as the effectiveness of the government policies during this period (Gentilini et al., 2020) .\n\ns_06484: In the context of this study, the estimated Logit model is useful in determining the set of statistically significant independent variables relating to citizen involvement.\n\ns_06534: A 2021-22 survey of trade promotion organizations conducted by the World Bank to understand how the COVID-19 pandemic affected their functioning suggests four main findings.\n\ns_06584: The implementation of the disaggregated model is as follows.\n\ns_06634: The most recent rationale for the integrated regulator model can be found in Briault's paper (1999) .\n\ns_06684: al (1992 and Atiyas and Ersel (1994) .\n\ns_06734: However, several studies also show that between 15-30 percent of microcredit members are from 'non-target' households measured in terms of land (Mustafa et al 1996 , Montgomery et al 1996 , Zaman 1998 , Khandker 1998 .\n\ns_06784: Table 1 provides results for the estimation of a stochastic version of (10) for our sample of Latin American countries.\n\ns_06834: For example, the pervasiveness of rural poverty in the Central American countries and the location of poor rural households is largely the result of historical factors (see for example, de Janvry and Sadoulet 2000; Attanasio and Szekeley 2001; Morley 2001; Franko 2003; Plataforma Agraria 2003; World Bank 2002c) .\n\ns_06884: developing and transition countries; the data are reported in World Bank (2004) (though I supplemented this source with data from PovcalNet)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Ju0UfkNvLnfAK6xciAiCq1d9Sj",
+    "object": "chat.completion",
+    "created": 1682884102,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1332,
+      "completion_tokens": 72,
+      "total_tokens": 1404
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05934\", \"data_mentioned\": true, \"reason\": \"LSMS\"}, {\"sent_id\": \"s_06434\", \"data_mentioned\": true, \"reason\": \"citizen involvement\"}] \n\nSentence s_05934 mentions LSMS dataset and sentence s_06434 mentions citizen involvement dataset."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05934\", \"data_mentioned\": true, \"reason\": \"LSMS\"}, {\"sent_id\": \"s_06434\", \"data_mentioned\": true, \"reason\": \"citizen involvement\"}] \n\nSentence s_05934 mentions LSMS dataset and sentence s_06434 mentions citizen involvement dataset.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_09930: The foregoing sections have reviewed available measures of international human capital flows for the three countries, provided a (hopefully) comprehensive list of the channels through which such flows could help or hinder the development of their software industries, and applied parts of the framework to look at some specific episodes that we think have been especially important for the countries in this project.\n\ns_09980: Again, Jonathan Kozol has documented this in his work regarding \"apartheid education\" in this country.\n\ns_00032: First, it allows for the easy definition of an experiment using relational database technology to ensure the reference data are defined.\n\ns_00082: While more rigorous research has examined the impact of student participation in research at the postsecondary level (Lopatto, 2004; Russell et al., 2007; Hernandez et al., 2012) , the body of literature examining outcomes pertaining to high school research participation remains somewhat limited.\n\ns_00132: Little past research on this relationship is available.\n\ns_00182: Table 2 shows the average and median Dice scores for both Vox-elMorph and SparseVM with the cross correlation loss function.\n\ns_00232: Specifically, Argentina and Colombia countries report similar figures for infection: 1.28 and 1.17 million cases, and 34,782 deaths in Argentina and 33,491 in Colombia.\n\ns_00279: [33] if we had included a more comprehensive nonamnestic assessment.\n\ns_00329: 158 The studies on COPD, however, are scanty and have been performed on small samples of patients, thus more data from more studies are still needed to better characterize hypogonadism in older men with COPD.\n\ns_00379: Assuming an average of 4.8 Mg of CO 2 emissions per motor vehicle per year (U.S. EPA, 2013b), this is equivalent to eliminating the annual CO 2 emissions of %7500 cars.\n\ns_00429: In addition, we also estimated the number of participants per arm needed to detect a 25% and 50% reduction in amyloid accumulation rate due to treatment with 80% power and a two-tailed type-I error of p = 0.05 in a 12-month placebo-controlled randomized clinical trial.\n\ns_00479: Like most of the CDMs, the DINA model requires a Q-matrix (Tatsuoka, 1985) that shows the relationship among items (i,...,I) and attributes (k,...,K).\n\ns_00529: The species distribution models predicted to climate data from 1981-2000 and 2040-2049 to create current and future projections, respectively, of species occurrence.\n\ns_00579: Most successful efforts are initially grounded in consultations and workshops among diverse members of the investigator community.\n\ns_00629: As the authors suggest, the endometrial genetic profile changes throughout the menstrual cycle; true risk of infection may primarily depend on protein expression during the window of implantation.\n\ns_00671: The Net TCHP change is a reduction similar to Figure 8c in terms of seasonal and spatial distribution (not shown).\n\ns_00721: First, the NCLAN studies reported trolling for weather, soil characteristics and manrelationships between yield and seasonal mean agement practices, using farm-level data for the concentrations of ozone.\n\ns_00771: Background The science workforce has been and continues to be characterized by an over-representation of White males (Hrabowski, 2011;Riegle-Crumb & King, 2010;Shen, 2013).\n\ns_00821: The perspective that the district office is a catalyst for system-wide change in districts is supported empirically (Kaufman, Grimm & Miller, 2012; Zavadsky, 2012) .\n\ns_00871: In Washington, Idaho, and Utah, several studies revealed that nests were <10 m above the ground in western juniper or Utah juniper trees (Howard, 1975; Woffinden, 1975; Howard and Wolfe, 1976; Powers and Craig, 1976; Fitzner and others, 1977; Smith and Murphy, 1978; Woffinden and Murphy, 1983; Hansen, 1994) .\n\ns_00921: Although these representations have been investigated and achieved promising performance, as handcrafted features they might be not optimal and less discriminative for the AD diagnosis.\n\ns_00971: Therefore, statistical robustness is expected only for low values of the threshold.\n\ns_01021: After providing the input PMP is able to calculate the following data:\n\u2022 pressure (including hydrostatic pressure)\n\u2022 pipeline pressure drops \u2022 required pressurization mass \u2022 masses of all components \u2022 temperatures of the ullage and liquid \u2022 propellant loss (evaporation, venting)\n\u2022 Net Positive Suction Pressure (NPSP)\nDuring the simulation, pressure in the tanks will start to vary because of tank drainage and propellant boil off.\n\ns_01071: With equal group sizes, the appropriate test is the Tukey test, while with unequal group sizes the appropriate test to compare multiple means is the Tukey-Kramer test.\n\ns_01121: All estimates were weighted to be nationally representative and estimated within the 50 imputed data sets."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Xdtsr3dpCO9XDsUBXw9nokDQUC",
+    "object": "chat.completion",
+    "created": 1682884953,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1363,
+      "completion_tokens": 157,
+      "total_tokens": 1520
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_00182\", \"data_mentioned\": true, \"reason\": \"Vox-elMorph\"}, {\"sent_id\": \"s_00429\", \"data_mentioned\": true, \"reason\": \"amyloid accumulation rate\"}, {\"sent_id\": \"s_00529\", \"data_mentioned\": true, \"reason\": \"climate data\"}, {\"sent_id\": \"s_00771\", \"data_mentioned\": true, \"reason\": \"ozone\"}, {\"sent_id\": \"s_00821\", \"data_mentioned\": true, \"reason\": \"district office\"}, {\"sent_id\": \"s_00871\", \"data_mentioned\": true, \"reason\": \"western juniper or Utah juniper trees\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_00182\", \"data_mentioned\": true, \"reason\": \"Vox-elMorph\"}, {\"sent_id\": \"s_00429\", \"data_mentioned\": true, \"reason\": \"amyloid accumulation rate\"}, {\"sent_id\": \"s_00529\", \"data_mentioned\": true, \"reason\": \"climate data\"}, {\"sent_id\": \"s_00771\", \"data_mentioned\": true, \"reason\": \"ozone\"}, {\"sent_id\": \"s_00821\", \"data_mentioned\": true, \"reason\": \"district office\"}, {\"sent_id\": \"s_00871\", \"data_mentioned\": true, \"reason\": \"western juniper or Utah juniper trees\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

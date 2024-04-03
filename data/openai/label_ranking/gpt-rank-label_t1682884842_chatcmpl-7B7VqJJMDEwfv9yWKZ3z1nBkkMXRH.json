@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_09927: All three countries produce impressive levels of high-end human capital; country-specific inefficiencies had meant that the human capital was poorly utilized and thus relatively cheap; and the software sector, for reasons that other papers in this volume examine, has proved relatively effective in taking advantage of this cost advantage.\n\ns_09977: The controlling variables are again specified in the respective models.\n\ns_00029: The large number of papers that have resulted from the ADNI dataset has encouraged us to try to find ways to aggregate imaging data in NDAR even though specifying data collection protocols to achieve consistency is not yet appropriate for ASD.\n\ns_00079: The SRS data were used to determine whether the respondent enrolled in an MD/PhD program at the time of medical school matriculation, for the years 2001-2011, allowing a minimum of 5 years for the most recent PMQ respondents in 2006 to choose the MD/PhD career path at matriculation, as MCAT examinees who ultimately matriculate in medical school may not do so for quite a few years after the initial MCAT attempt.\n\ns_00129: Findings in this section are drawn from the left side of Table 1.\n\ns_00179: Unsupervised methods [16, 18, 24, 25] have been shown to work well on research quality, high resolution scans.\n\ns_00229: The first route relies in some robust assumptions that maybe not be justified, given that seasonality may play a part in COVID-19 mortality.\n\ns_00276: The TMT-B and the COWAT were scored by the demographic norms by Heaton et al.\n\ns_00326: 142 Subsequently, the decline of sex steroids was unequivocally proved when the data from longitudinal analyses became available.\n\ns_00376: We are also likely to be underestimating N reductions from WSIN in field operations for the same reason, but we include estimates of N reductions in Table 5 .\n\ns_00426: A large white matter region of interest (ROI) has been proposed as an reference region to provide improved discrimination between clinically defined groups [16] ; and a smaller \"core\" white matter reference region was reported to improve the detection of changes in tracer retention in longitudinal studies within the Alzheimer's Disease Neuroimaging Initiative (ADNI) [ 18 F]florbetapir data [17] .\n\ns_00476: As shown in Table 6 , Items 4, 24, and 25 (the three with the lowest guessing and slipping parameter estimates) are the most informative items for Korean and Turkish samples.\n\ns_00526: Given that we expected high spatial correlation for monthly temperature and precipitation, we interpolated the 36-km data to the 8-km grid [25] .\n\ns_00576: A complementary funding approach is to target specific questions or problems that need to be answered or specific technologies that are needed by end users and then to solicit responsive proposals.\n\ns_00626: Over the past several months, new developments in molecular virology and immunobiology of SARS-CoV-2 have improved understanding of the novel coronavirus.\n\ns_00668: Combined monthly fields of Rrs at 9 km horizontal resolution from Terra and Aqua MODIS at 443 nm, 488 nm, 555 nm and 667 nm from 2000 to 2010 were obtained [Feldman and McClain, 2014].\n\ns_00718: Leduc and Sakamoto (1988) conclude that ies of this type is reliance on an unsuitable measure \"70 percent of damage to vegetation by air pollut-of ozone exposure, namely a 7-or 12-hour mean ants in the U.S. results from 03 concentrations,\" index.\n\ns_00768: The ECLS-K:2011 science assessment included questions pertaining to the physical sciences, life sciences, environmental sciences, and scientific inquiry (Tourangeau et al., 2015a;2015b).\n\ns_00818: Data triangulation from all four sources, namely principals, district officials, facilitators and academics, confirmed that the LLP enabled the building of more collegial relationships between principals and district officials.\n\ns_00868: Coates and others (2014) also suggested that when changes to and loss of the natural sagebrush community from anthropogenic alterations become high enough, Red-tailed Hawks and Ferruginous Hawks may begin to nest on artificial structures such as transmission lines, signaling the deterioration of natural habitat and the need for mitigating measures.\n\ns_00918: This has also been demonstrated in Fig.\n\ns_00968: We limit the analysis to the area characterized by u 95 > 15 ms , for a temporal 15 coordinate (t 6 ) and for at least one couple of spatial coordinates (\u03c6, \u03bb) within the region inside the closed solid line in fig.\n\ns_01018: The mission specific input can be defined as a function of time.\n\ns_01068: If a pairwise t-test is applied to compare multiple means, then the confidence level would not be (1-\u03b1 ) but rather (1-k\u03b1 ) , where \u03b1 is the significant level and k is the number of groups compared.\n\ns_01118: Moreover, missing data patterns did not differ greatly across the two cohorts (all standardized mean differences were 10% of a standard deviation or less)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7VqJJMDEwfv9yWKZ3z1nBkkMXRH",
+    "object": "chat.completion",
+    "created": 1682884842,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1370,
+      "completion_tokens": 50,
+      "total_tokens": 1420
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_00029\", \"data_mentioned\": true, \"reason\": \"ADNI\"}, {\"sent_id\": \"s_00818\", \"data_mentioned\": true, \"reason\": \"LLP\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_00029\", \"data_mentioned\": true, \"reason\": \"ADNI\"}, {\"sent_id\": \"s_00818\", \"data_mentioned\": true, \"reason\": \"LLP\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07609: Yet data for major enterprises show a rising treiid for unit energy requirements; power consumption per ton of raw coal rises in every year [Energy 1986, pp.\n\ns_07659: Procedure for use of IBRD Resources IBRD support for debt and debt service reduction (DDSR) is decided on a case by case basis.\n\ns_07709: Similarly, t, is given as follows: (1) divide col. 2 of Table 1 by 0.419; (2) multiply col. 3 of Table I by 0.26 and divide by 0.067 to account for the differences in costs per km per ginned cotton equivalent from the depot to the ginnery and from the ginnery to the port (see Table 2 on a'); (3) add the outcomes from the preceding two steps to get an adjusted tj.\n\ns_07759: The early analyses (Christ (1968) , Blinder and Solow (1974) The strand of the literature concerning the relationship between fiscal deficits and inflation is referred to as the \"public finance approach to inflation\", 31 and is based on the work of Phelps (1973) , Dornbusch (1977) , and Buiter (1983 Buiter ( , 1985 , among others.\n\ns_07809: Equations 22and 23show that the only information required to estimate the conditional means and the derivatives is the joint density function f(y,x).\n\ns_07859: Fourthly, the analyses will consider the effects of the proposed facility and access routes on affected populations including meaningful two-way dialogue with these populations.\n\ns_07909: Table 1 provides a summary of various tax provisions in each country.\n\ns_07959: * -water volumes reported in this paper are \"imperial gallons.\"\n\ns_08009: 11 Standard & Poor's, \"The Russian Federation\", Bank Industry Risk Analysis, June 28, 2005.\n\ns_08059: The importance of income/expenditures in household fuel choice is well documented.\n\ns_08109: Information on these expenditures is generally hard to obtain, but anecdotal evidence suggests that they tend to be compressed even more sharply than investment at times of fiscal retrenchment.\n\ns_08159: This can be contrasted with Maddison's (2004) Income distribution data.\n\ns_08209: At one end of the distribution, nearly half of the population appears to place no value on access to college.\n\ns_08286: Definitions of disability and the types of disability reported vary widely across the various databases, making it difficult to interpret findings and examine trends across educational contexts.\n\ns_08336: To do so, the principal investigator used the \"tsline\" function in Stata to graph the time series of the indices to check that there was no unexpected break in the tendencies.\n\ns_08386: Several studies previously reported an increased frequency of the HFE H63D (rs1799945) mutation in AD patients [25] , but these findings have not been replicated in the largest AD GWAS meta analysis [26] .\n\ns_08436: Finally a classifier is used to identify the subjects.\n\ns_08486: Though the original amyloid hypothesis has been expanded to encompass the likely possibility that multiple different types of Ab aggregates (intracellular aggregates, oligomers, fibrils, and protofibrils) contribute to the cascade (Walsh and Selkoe, 2004) , the essential tenants of this hypothesis remain the same.\n\ns_08536: In this paper, we present how the reconstructed data can be used to show descriptively different phenomena, related to the three most common gaps in education that are of geographical, gender and generational order.\n\ns_08586: The results may provide important information about potential surrogate biomarkers for therapeutic trials.\n\ns_08636: In this article, we examine the influence of the 2006 legislation between 2004 and 2011, specifically the relationship between the amount of buprenorphine that each state dispenses annually per capita and the number of physicians waivered to treat up to 100 patients at a time with buprenorphine, the number of physicians waivered to treat up to 30 patients at a time with buprenorphine, the number of methadone-dispensing opioid treatment programs treating individuals receiving buprenorphine, and the number of non-methadonedispensing substance abuse treatment facilities treating individuals receiving buprenorphine (all these are per capita).\n\ns_08686: Ghana obtained low mean scale scores of 255 and 276 in science and mathematics respectively, placing the nation second from the bottom of the overall results table (Table 1).\n\ns_08736: This method has been programmed for data periods of either 15 or 29 days of continuous data time series.\n\ns_08786: Sociodemographic variables included age, sex, race/ ethnicity, marital status, education, employment status, and federal poverty level (FPL) ( Table 1).\n\ns_08836: This problem of robustness in CNN training may exists for many medical applications in which the number of samples is not sufficient for the network to learn stable meaningful features."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7bJxmk3NEG3rmrxkuIcyzboXI8W",
+    "object": "chat.completion",
+    "created": 1682885181,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1339,
+      "completion_tokens": 79,
+      "total_tokens": 1418
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08636\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}, {\"sent_id\": \"s_08686\", \"data_mentioned\": true, \"reason\": \"Table 1\"}, {\"sent_id\": \"s_08786\", \"data_mentioned\": true, \"reason\": \"Table 1\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08636\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}, {\"sent_id\": \"s_08686\", \"data_mentioned\": true, \"reason\": \"Table 1\"}, {\"sent_id\": \"s_08786\", \"data_mentioned\": true, \"reason\": \"Table 1\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07228: Therefore we also present a ranking of all countries jointly, using the same data as in table 5, which takes account of the information hidden by the averages (see also Annex Source: EBRD (2004) .\n\ns_07278: Table 2 reports the benchmark results of how PCs affected the productivity level and growth rate, both for the pooled and the participants samples.\n\ns_07328: Source: The World Bank, Project Appraisal Document\n\ns_07378: Oxford University Press, New York, 284 pp.\n\ns_07428: The results in Table 9 , when compared with those in Table 7 , show that for the high group total grants are more significantly and positively correlated to multilateral net lending than pure grants, especially during 1989-93 ($0.06 per $1 of additional grants, with a marginal significance level-one-tail--of 9 percent; see Table 7 , last column).\n\ns_07478: This paper fails to report quality indices because of lack of data, and should be thought of as a modest stepping-stone towards that end.\n\ns_07528: The volume data on total food imports for the same period shows a similar trend -down from 11.0 million tonv to 7.7 million tons.\n\ns_07578: We therefore focus our attention on Panel 2 of Table 14 , in which branch energy consumption for collective industries is derived as a residual, and then combined with published data on collective sector branch output to obtain productivity figures.\n\ns_07628: The presentation which follows is a condensed account of what sas emerged from numerous iterations of proposals and cour erproposals between a debtor country and its Bank Advisory Committee, until something could be agreed on which reasonably satisfied both parties' interests.\n\ns_07678: The result corresponding to Table 4 , cols.\n\ns_07728: We first consider in detail the data that are available for Ghana and construct a measure of the consolidated public sector deficit from the income and expenditure accounts of the government.\n\ns_07778: It accounts for a substantial fraction 1 For more recent literature see Bromley (1978) , Cornia (1987) , Hallak and Caillods (1982) , Hart (1987) , House (1984) , IDB (1987a) , Mattera (1985) , Moser and Marsie-Hazen (1984) , Sethuraman (1981) , Stewart (1987) , and Tokman (1978) .\n\ns_07828: The production and financial data from the beneficiary towns, including the pilot schemes, formed the basis of the projections and analysis.\n\ns_07878: See Auerbach (19831 for a discussion of this.\n\ns_07928: For example, in perhaps the most carefully conduct2d study of household water expenditures among the urban poor, it was found that the poorest households in Port-au-Prince, Haiti sometimes spend 20 percent of their income on water (Fass, 1988, p. 175) .\n\ns_07978: 26 SeeLaeven (2004), p. 1.\n\ns_08028: As the first two columns of Table 9 show, the estimated model predicts the proportion of households using each alternative remarkably well.\n\ns_08078: Roubini and Sachs (1989) andde Haan, Sturn, and Sikken (1996) document the experience of industrial countries, andHicks (1991) summarizes the facts on developing countries.\n\ns_08128: Estimated from Allen (2003, Figure 9, p. 428) .\n\ns_08178: To study this possibility, Athreya and his coauthors consider an experiment in which college is no longer subsidized for those who always enroll, and the funds that were accruing to this group are divided among those who from stocks as an investment in the broad nature of its financial returns, it clearly differs from stocks as a target for public support.\n\ns_08228: The last two papers describe efforts to boost active learning.\n\ns_08255: Some databases have been revised over time; others are modified to conduct focused inquiries and reports to address current research questions and information needs.\n\ns_08305: Our reading of the ACAPS dataset translates the information reported in the ACAPS dataset and scales the selected measures.\n\ns_08355: Because the analysis is restricted to those SNPs which are most highly associated in dataset 1, we also repeated the analysis with the iron GWAS summary statistics as dataset 1 (in case of a scenario where SNPs strongly affecting iron phenotypes had an effect on AD risk, but SNPs strongly affecting AD risk did not affect iron phenotypes).\n\ns_08405: This paper is organized as follows: section 2 explains each step of the proposed methodology and section 3 presents the dataset used in this paper as well the results obtained for the proposed methodology and for the classification task using the voxel intensity."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B79YbwzQRIs3q6uEVhE2X1LxiJCd",
+    "object": "chat.completion",
+    "created": 1682883460,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1288,
+      "completion_tokens": 135,
+      "total_tokens": 1423
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08355\", \"data_mentioned\": true, \"reason\": \"ACAPS dataset\"}, {\"sent_id\": \"s_08305\", \"data_mentioned\": true, \"reason\": \"selected measures from ACAPS dataset\"}, {\"sent_id\": \"s_08355\", \"data_mentioned\": true, \"reason\": \"iron GWAS summary statistics dataset\"}, {\"sent_id\": \"s_08355\", \"data_mentioned\": true, \"reason\": \"AD risk dataset\"}, {\"sent_id\": \"s_08405\", \"data_mentioned\": true, \"reason\": \"dataset used in this paper\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08355\", \"data_mentioned\": true, \"reason\": \"ACAPS dataset\"}, {\"sent_id\": \"s_08305\", \"data_mentioned\": true, \"reason\": \"selected measures from ACAPS dataset\"}, {\"sent_id\": \"s_08355\", \"data_mentioned\": true, \"reason\": \"iron GWAS summary statistics dataset\"}, {\"sent_id\": \"s_08355\", \"data_mentioned\": true, \"reason\": \"AD risk dataset\"}, {\"sent_id\": \"s_08405\", \"data_mentioned\": true, \"reason\": \"dataset used in this paper\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

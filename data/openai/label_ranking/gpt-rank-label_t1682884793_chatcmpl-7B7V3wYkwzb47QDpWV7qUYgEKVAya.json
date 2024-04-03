@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07449: The results include a more restrictive model (A), that forces the relationship to be the same for the entire sample period, and less restrictive ones (B and C) that allow for a break-point in 1989, when ODA debt forgiveness began increasing.\n\ns_07499: Source: EBRI (1992) page 161 dividing the tomal taxable earnings of covered workers for 1990. and then inflating bv 4% to consider nominal wage growth.\n\ns_07549: Akiyama and Larson 2' have empirically tested the valid of this argumnent by estimating the elasticity of export revenue (ERV) with respect to volume, which is the percentage change in export revenue when export quantity is increased by one percent.\n\ns_07599: Provincial and local statisticai bureaux then adjust these submissions on the basis of coefficients derived from sample surveys or surveys of key enterprises.\n\ns_07649: As a result, the less well reserved bank might choose to lend new money while the wellreserved bank might initially try to free ride, or prefer to exit if the exit price is attractive.\n\ns_07699: Nonetheless, some examples suggest what to look for and what to expect from different schemes tllat may be encountered in practice.\n\ns_07749: The measures of the deficit discussed to this point have largely been pragmatic ones in that they provide measures that are for the most part practicable given the average level of data availability.\n\ns_07799: costs, and other characteristics of factors employed by the firm will be available in cross-section or time series data sets.\n\ns_07849: D. Future Project Preparation (US$ 3.1 million) -Studies would be carried out for the preparation of future projects in the urban sector, in support of which community-based pilot interventions in other towns would be carried out.\n\ns_07899: The analysis of the previous section is repeated by finding the optimal choices for capital taking into account both personal taxes and financial policy.\n\ns_07949: As illustrated, respondents generally rePorted that they were willing to pay substantial amounts for water.-For example, at a price of N 0.25 per drum (about N 5.4 per 1000 gallons) about 87 percent of the sample households reported that they would connect to the piped distribution system.\n\ns_07999: 1 ), which represents about 0.6 percent of the individual deposit base.\n\ns_08049: 23 Household per capita expenditures are used instead of income, due to a large number of missing observations on reported income.\n\ns_08099: For example, Rioja (2003a Rioja ( , 2003b shows that if maintenance expenditures are too low, new investment in infrastructure can be growth-and welfare-reducing-while additional O&M spending has the opposite effect.\n\ns_08149: They are also bad data judged by the modern World Bank standards since those three surveys from the mid-20th-century would now be given low grades on the Deininger-Squire scale assessing the quality of income distribution data (Deininger and Squire, 1996: pp.\n\ns_08199: Since variations across enrollees' ability to complete college and accumulate human capital are inherently unobservable, the authors calibrate their model to be consistent with observed earnings and collegecompletion outcomes.\n\ns_08249: Budget cuts force larger classes.\n\ns_08276: The disability types and descriptions included in the tables below come directly from the survey administrators.\n\ns_08326: The dataset is based on manual recording of policy measures implemented all around the world.\n\ns_08376: To investigate whether a similar effect exists for AD we tested a larger number of iron-affecting variants against the most recent GWAS meta analysis on AD risk.\n\ns_08426: Figure 2 shows an example of a coherence matrix.\n\ns_08476: If we can gain the scientifically based consensus among the many stakeholders, then we can collectively develop a road map that addresses the obstacles highlighted in this review that block conducting the necessary preventative studies.\n\ns_08526: The latest version (Barro and Lee 2013 ) is using more census data from national statistics offices, as it has turned out to be the most reliable data source.\n\ns_08576: These results are very encouraging in the following sense: (1) Elastic net classifiers outperformed SVMs in terms of overall accuracy and area under ROC (AUROC) in almost all the cases, while the performances of EN25, EN50 and EN75 did not di3er significantly (paired samples test on AUROC p > 0.06 in all cases).\n\ns_08626: We found the number of waivered physicians in each state, and whether they were waivered to treat up to 30 or 100 patients, from the Substance Abuse and Mental Health Services Administration's Buprenorphine Waiver Notification System, which contains information about all buprenorphine-waivered physicians."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7V3wYkwzb47QDpWV7qUYgEKVAya",
+    "object": "chat.completion",
+    "created": 1682884793,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1284,
+      "completion_tokens": 50,
+      "total_tokens": 1334
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08326\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_08526\", \"data_mentioned\": true, \"reason\": \"census data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08326\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_08526\", \"data_mentioned\": true, \"reason\": \"census data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07270: Moreover, although there is greater commonality among the set of transition economies than would be the case for a random sample of countries, similar values do not necessarily imply similar levels of openness, as no effort is made to map commitments by sector across countries.\n\ns_07320: The advantage of using the pooled sample is the increase in sample size; the disadvantage is the upward cross-section bias that results because good firms may select into PCs.\n\ns_07370: Japan Paper-based versus Electronic-Data-Input Administrative costs\n\ns_07420: The second part is concemed with studies using acreage as output. \"\n\ns_07470: Nevertheless, these results complement each other; that is, the one in the previous section reters to annuial averages over 1984-93, while the one discussed here refers to increments over time.\n\ns_07520: An important conclusion is that the charges in private annuity markets are very considerable, confirming the results of Friedman and Washawsky (1990) .\n\ns_07570: This inference is strengthened by the results of recent cross-country analysis iinking openness with GDP growth.\n\ns_07620: Under these conditions, it is entirely possible that data supposedly based on fixed 1990 prices could contain a substantial component based on (much higher) current prices.\n\ns_07670: A successful resolution is defined in this case as a minimum of \"free ridc.ship\" on the part of commercial banks.\n\ns_07720: For this value of at, the movement to revenue maximization (Table 4 , col. 1) brings a relatively small increase in revenue from the current situation (Table 3 , col. 1), but a relatively large decrease in producer surplus and a relatively large potential gain in producers' surplus from optimal pricing (Table 4, col. 2).\n\ns_07770: The early peaks in revenue collection seen in Figure   2 .2 (1970/71 and in 1974/75) correspond to those years in which export duties peaked.\n\ns_07820: Our concern arises from two sources: the data have high measured leverage, and the regression residuals are large in absolute value.\n\ns_07870: Such evidence would consist of (i) a land title, or (ii) a letter of offer from the Ministry of Lands, with adequate site specifications attached, confirming that the land has been allocated to the respective project town.\n\ns_07920: Atuop + Z (uo + (ul uo)[(l.a)/(l+i)]t* t) for t < t*.\n\ns_07970: This New Onitsha Water Scheme was inaugurated in January, i988, soon after the field work for this willingness-to-pay study was completed.\n\ns_08020: In contrast, the total volume of deposits under RUR 100,000.-as of 1 July 2005 was equal to 39.1% of total deposits.\n\ns_08070: 3.5 2.4 1.9 0.5 0.8 -0.7 -0.4 -2.6 -2.1 -8 0 Scenario 4 4.0 2.8 2.0 0.0 0.0 -1.6 -1.5 -2.6 -3.1 -5.0 0 Scenario 5 2.2 1.9 1.0 1.1 0.6 0.9 1.0 1.6 0.7 0.4 1.\n\ns_08120: It provides also an indication of the public sector's contribution to aggregate demand and thus its stance from the viewpoint of short-term stabilization-although the primary deficit may be preferable for this purpose, and even more so if estimated in structural terms, correcting for the effects of cyclical conditions.\n\ns_08170: Income distribution data.\n\ns_08220: This helps ensure that the value of college is not overstated.\n\ns_08297: Content on the B&B includes general information about advanced degree attainment and employment, but also inquires specifically about teacher related trends such as preparation and persistence at employment within the field.\n\ns_08347: School closures were directly taken from the UNESCO dataset which indicates on which scale schools are closed (local level, national-level or no school closures).\n\ns_08397: Group 1 is GERAD1 together with WTCCC21958 British Birth Cohort, Group 2 is AddNeuroMed (second batch) with DCR, Group 3 is AddNeuroMed (first batch) and Group 4 is ADNI.\n\ns_08447: The subjects were chosen to obey a certain criteria: the Clinical Dementia Rating (CDR) should be 0.5 or higher for AD patients, 0.5 for MCI patients and 0 for normal controls.\n\ns_08497: In reality, these aforementioned trials were not exclusively primary prevention trials, with varying mixtures of enrolled participants ranging from subjects without AD pathology to others with varying degrees of preclinical AD pathology and others with MCI."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7im814lA3Hxvq5hhaw6pl5YoSCJ",
+    "object": "chat.completion",
+    "created": 1682885644,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1320,
+      "completion_tokens": 77,
+      "total_tokens": 1397
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08397\", \"data_mentioned\": true, \"reason\": \"GERAD1 together with WTCCC21958 British Birth Cohort, AddNeuroMed (second batch) with DCR, AddNeuroMed (first batch) and ADNI\"}] \n\nSentence s_08397 mentions multiple datasets clearly and unambiguously."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08397\", \"data_mentioned\": true, \"reason\": \"GERAD1 together with WTCCC21958 British Birth Cohort, AddNeuroMed (second batch) with DCR, AddNeuroMed (first batch) and ADNI\"}] \n\nSentence s_08397 mentions multiple datasets clearly and unambiguously.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06444: Six main results emerge from the paper.\n\ns_06494: 2010; Kumagai and Iorio, 2020) .\n\ns_06544: We divide our sample into four groups: high-income countries (17 TPOs), upper-middle-income countries (20 TPOs), lower-middle-income countries (11 TPOs) and low-income countries (9 TPOs).\n\ns_06594: Earlier work with a similar framework,Mitra and Tendulkar (1986), suggests that these are not significant in tariff reform at a broad level of aggregation.\n\ns_06644: This debate lies beyond the scope of this paper, although it should be noted that only the United Kingdom, of the countries surveyed, has created a unified regulator with both prudential and c .nduct of business responsibilities.\n\ns_06694: The rest of the paper is organized in three main parts.\n\ns_06744: It is interesting to compare this figure with Copestake's (1992) evaluation of India's Integrated Rural Development Project (IRDP) where the proportion of non poor households ranged up to 36%.\n\ns_06794: The second column provides estimates with the endogeneity correction and the third column adds a constant to the endogeneity correction.\n\ns_06844: A considerable body of development literature that praises the diversification of livelihood strategies of poor rural households, implying that diversification can increase incomes and/or reduce risks (Ellis 1998 ).\n\ns_06894: Similarly to the death rate, we know less about the conditional mean birth rates, though recent analyses of DHS data have provided some valuable new information.\n\ns_06944: Table 7 reports results of a regression of baseline test scores on the number of days absent and teacher characteristics.\n\ns_06994: Although the focus of our study is on a comparison of slums versus more formal housing, these categorizations hide considerable heterogeneity in the structural and regulatory characteristics of different types of housing supply mechanisms that are common to most Indian cities (see also, e.g., Sivam 2002 Sivam , 2003 .\n\ns_07044: In November, the Appellate Body stated the following: \"The Appellate Body recommends that the DSB request that Argentina bring its safeguard measures found in this Report and in the Panel Report as modified by this Report, to be inconsistent with the Agreement on Safeguards, into conformity with its obligations under that Agreement\".\n\ns_07094: Tables 4 and 5 show also that about two-thirds of employment is in the metropolitan agglomerations.\n\ns_07144: (2004) , and Bradshaw, Bushee and Miller (2003) .\n\ns_07194: The sample for the evaluation of the BDH program in this paper was drawn from the Selben rosters of four of the twenty-two provinces in the country: Carchi, Imbabura, Cotopaxi, and Tungurahua.\n\ns_07244: The pre-Doha level of commitment for the EU-15 as a whole was 47 percent (top of last column of table 1) when measured as an average across the 8 (2 times 4 modes) \"cells\" for which commitments can be made for each of the 155 sub-sectors distinguished in the GATS.\n\ns_07294: Using the FE estimators for the participants sample of Table 4 , we calculated the combined effects, reported in Table 5 .\n\ns_07344: \"2005 Joint WTO/OECD Report on Trade-Related Technical Assistance and Capacity Building\".\n\ns_07394: Although Peterson affirms that it does not find significant differences between DCs and LDCs countries, Chhibber (1988) indicates that there is a significant difference if one disaggregates further such as in comparing low yield countries with high yield countries.\n\ns_07444: (These regressions are reported in Appendix 5.)\n\ns_07494: The evidence for AFPs is summarized-in Table 7 in the form of two cost ratios:\n\ns_07544: Coleman, et al '\u00b0 have recently analyzed the impact of cocoa export increases in major Sub-Saharan producing countries, on world prices and production of cocoa using a large si-uiltaneous equation model of the world cocoa market consisting of three blocks: supply, demand and price determination.\n\ns_07594: This paper-aproduct of theTransition and Macro-Adjustmnent Division, Policy Research Deparmnenitis parn of the division's research initiative, Indusurial Reforms and Productivity in Clinese Enterprises.\n\ns_07644: However, a few general principles have been established as a result of experience accumulated to date, and countries which are currently in discussions with their cu.nmercial creditors are attempting to approach the issue based on these principles."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Rw6yLf5b5925u6pbEwge2Aou45",
+    "object": "chat.completion",
+    "created": 1682884600,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1253,
+      "completion_tokens": 51,
+      "total_tokens": 1304
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06894\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_07194\", \"data_mentioned\": true, \"reason\": \"BDH program\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06894\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_07194\", \"data_mentioned\": true, \"reason\": \"BDH program\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

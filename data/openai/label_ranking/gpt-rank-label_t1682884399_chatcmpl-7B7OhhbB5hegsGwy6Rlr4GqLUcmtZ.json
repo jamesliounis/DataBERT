@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02890: The paper debriefing questionnaires from those who did not attempt to access the survey online show that the vast majority of people did not attempt to access the survey because they didn't have time.\n\ns_02940: Given time limitations, users of NELS:88 data should exercise caudal in interpreting findings kr certain groups.\n\ns_02990: Most of the empirical studies on this issue that we have considered have used a quantitative approach to analyzing the results.\n\ns_03040: Results: Results on Phantom and Volunteers scans showed that I-ADNI acquisition parameters were comparable with those one of the ranked-A ADNI scans.\n\ns_03090: The final estimated model only includes those variables significant in the preliminary model, or whose importance was emphasized in previous studies.\n\ns_03140: In Table 9 we decompose the discussion by the gender of the speaker.\n\ns_03190: For major grains, confirmation of this result is the subject of ongoing empirical research.\n\ns_03240: Table 1 presents the summary statistics.\n\ns_03290: This magnitude is large in absolute terms and also compared to the 3.3 percent decline relative to pre-event trend documented for the whole banking sector in Panel B of The previous results come from a one-factor model that only controls for market returns.\n\ns_03340: We provide some statistics of the derived indicators across regions and years.\n\ns_03390: In order to obtain some insights into dynamics, the last two lines of Table 9 Change in Slovakia's export basket may reflect redirection from the Czech markets rather than deep industrial restructuring.\n\ns_03440: The parametric restrictions that are implied by the model are con\u2026rmed by these data.\n\ns_03490: We average all data for 2005-07 and add each crash variable separately to the regressions of private credit to GDP.\n\ns_03540: The remainder of this paper is organized as follows.\n\ns_03590: In this paper we use three complementary measures.\n\ns_03640: To recap those numbers, the ratio of trade to GDP for the US rarely exceeded 15 percent during Pax Americana compared with China's current ratio of 57 percent (Table 3) .\n\ns_03690: 30 Source: Foster and Brice\u00f1o-Garmenida (2010).\n\ns_03740: But much of the qualitative literature on the judicialization of health in Brazil describes how after a significant number of cases for a particular medication, the states stop opposing judicial claims for that medication and begin supplying it routinely (Hoffman and Bentes 2008) , thus producing indirect policy effects.\n\ns_03790: Using a sample of daily data from January 1997 to March 2000, we find that off-taker credit quality and, more importantly, the market's assessment of the output buyer's economic prospects drive project bond credit spreads and the:r pricing.\n\ns_03840: Table 6 presents the results of ordinary-least squares regressions relating revision behavior to variables capturing all these potential determinants as well as baseline characteristics.\n\ns_03890: Based on the current status of worldwide research, the risk ratios, or concentration-response coefficients from Pope et al (2002) were considered likely to be the best available evidence of the mortality effects of ambient particulate pollution (PM 2.5).\n\ns_03940: al., 2005; Piancastelli, 2001 ).\n\ns_03990: The main estimation sample contains data on 1006 women from the MDICP dataset.\n\ns_04040: We therefore report some results for all four income measures, and in the regressions opt for the WDI data to limit the loss of observations.\n\ns_04090: Other benefits for active workers could include provisions allowing pre-retirement withdrawals for housing, education, health care and various emergencies (e.g., funeral or wedding '0 These structural problems include the impact of adverse selection due to asymmetric information and socioeconomic factors (Friedman and Warshawsky 1990 , Blake 1999 , Brown 1999 , James and Vittas 2000 ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7OhhbB5hegsGwy6Rlr4GqLUcmtZ",
+    "object": "chat.completion",
+    "created": 1682884399,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1103,
+      "completion_tokens": 28,
+      "total_tokens": 1131
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03990\", \"data_mentioned\": true, \"reason\": \"MDICP dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03990\", \"data_mentioned\": true, \"reason\": \"MDICP dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

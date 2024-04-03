@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01884: It is based primarily on student-reported data.\n\ns_01934: Most of the fields included in this table are drop-down menus to avoid typing errors or the use of nonstandardized categories.\n\ns_01984: (2020; preprint) , an accurate comparison of household composition was not achievable from the NI Census data.\n\ns_02034: A multiple regression on the average points score for all qualifying examinations taken at KS4 with KS2 mathematics and English scores and playing an instrument or not as the predictors revealed a multiple R of .69 with an adjusted R 2 of .48 (F(3,603) = 186.99, p < .0001).\n\ns_02084: There are more than 15 clinical trials ongoing assessing the safety and efficacy of nitric oxide, and it seems that nitric oxide is effective in improving blood oxygen saturation.\n\ns_02134: For the subsite analysis, pylorus C16.4 and fundus C16.1 locations were grouped as fundus, and corpus C16.2, lesser curvature C16.5, and greater curvature C16.6 were grouped as corpus.\n\ns_02184: Influential papers were distinguished by using Altmetric score which is a weighted count of all the online attention of a research paper.\n\ns_02267: Structural MR images (1.5 T) were acquired at multiple ADNI sites based on a standardized protocol.\n\ns_02317: Approximately 20,000 individual sounding points were digitized to describe the interior of the bay, and were paired with contour lines and specific elevation points derived from Bien and Vermule [1891b], Bien and Vermeule [1891a], Dorr [1860], Gilbert [1855a], Gilbert [1856a], Gilbert [1856b], Gilbert and Sullivan [1857], Powell [1891], and Wilson [1897].\n\ns_02367: As expected, cognitive scores were lower and the proportion of non-ApoE e4 versus ApoE e4 increased from CN to MCI to AD participants as well as from MCI-S to MCI-P in a step-wise manner (data not shown).\n\ns_02417: That matches the modeled\n\ns_02467: We had a nationally representative, stratified random sample of 38,516 physicians.\n\ns_02517: The F1 score (harmonic mean of precision and recall) was computed 100 times across subsamples of 100 neutral (n = 3000) and positive (n = 3000) simulated genomes.\n\ns_02567: The third section outlines the econometric model and is followed by the data and variable descriptions.\n\ns_02617: The control group consisted of 154 patients (60.3 \u00b1 6.2) recruited from basic health care units in Szczecin.\n\ns_02667: Besides, in a mouse model of AD, elevated cortisol has been linked to exacerbated A\u03b2 peptide and tau pathology in the brain (Green et al., 2006) .\n\ns_02717: We implement this by assigning the admission profile observed for whites to blacks, in effect assuming that both black and white students will face the admission probabilities indicated by the solid line in Figure 2 .\n\ns_02767: The greatest change was a 4.9% difference (610,811 ha) in area of mixed forest and a corresponding decrease (3.9%; 493,560 ha) in the proportion of coniferous forest types (Table 3) representing a nearly 17% change (increase) in mixed forest and a 22% change (decrease) in coniferous forest types.\n\ns_02817: Results from 3 studies in Taiwan (13), Sweden (14) , and the United States (public school children in Georgia) (15) showed that lower childhood SES exacerbated associations between preterm birth and lower school test scores in adolescence (13, 14) as well as lower firstgrade statewide test scores (15) .\n\ns_02867: This procedure was recommended by ECLS-B researchers as an effective way of calculating path coefficients.\n\ns_02917: Studies have been conducted to evaluate the use of electronic surveys, both via e-mail and the Internet.\n\ns_02967: A small difference =pared across a large number of respondents could result in a large t statistic.\n\ns_03017: The objects of this study were teachers of government-owned schools in Kyiv, Odesa, Ternopil and Kharkiv.\n\ns_03067: ICV showed homogeneous variances across scanners except for Siemens scanners at 3.0 Tesla (p = 0.039).\n\ns_03117: However, as we subsequently discuss, a multinomial logit model could have application."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7gSIMSaYXwkYiixmKWmWIldbeMR",
+    "object": "chat.completion",
+    "created": 1682885500,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 192,
+      "total_tokens": 1434
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02317\", \"data_mentioned\": true, \"reason\": \"Bien and Vermule [1891b], Bien and Vermeule [1891a], Dorr [1860], Gilbert [1855a], Gilbert [1856a], Gilbert [1856b], Gilbert and Sullivan [1857], Powell [1891], and Wilson [1897]\"}, {\"sent_id\": \"s_02717\", \"data_mentioned\": true, \"reason\": \"Figure 2\"}, {\"sent_id\": \"s_02817\", \"data_mentioned\": true, \"reason\": \"Taiwan (13), Sweden (14), and the United States (public school children in Georgia) (15)\"}, {\"sent_id\": \"s_03017\", \"data_mentioned\": true, \"reason\": \"Kyiv, Odesa, Ternopil and Kharkiv\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02317\", \"data_mentioned\": true, \"reason\": \"Bien and Vermule [1891b], Bien and Vermeule [1891a], Dorr [1860], Gilbert [1855a], Gilbert [1856a], Gilbert [1856b], Gilbert and Sullivan [1857], Powell [1891], and Wilson [1897]\"}, {\"sent_id\": \"s_02717\", \"data_mentioned\": true, \"reason\": \"Figure 2\"}, {\"sent_id\": \"s_02817\", \"data_mentioned\": true, \"reason\": \"Taiwan (13), Sweden (14), and the United States (public school children in Georgia) (15)\"}, {\"sent_id\": \"s_03017\", \"data_mentioned\": true, \"reason\": \"Kyiv, Odesa, Ternopil and Kharkiv\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

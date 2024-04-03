@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03671: WTO Document WT/TPR/S/230, World Trade Organization, 4 June 2010.\n\ns_03721: Estimates from different types of power plants in India indicate that more than 60 percent and sometimes up to 90 percent of the cost estimates of turn-key power plants and substations are related to a few key mechanical devices, such as turbines and 27 The National Export Initiative (NEI) was created on March 11, 2010, by Executive Order.\n\ns_03771: Finally, it is worth returning to some of the existing hypotheses regarding the sources of the (supposed) anti-poor bias of courts, which we alluded to at the outset.\n\ns_03821: In Table 6 , we replicate the simultaneous equation analysis in first differences.\n\ns_03871: The summary statistics bear this out.\n\ns_03921: 305-1425 billion, with a mean estimate of about Rs.865 billion (Table 5 .4) or 1.3 percent of GDP in 2009.\n\ns_03971: A simple correlation matrix among these variables indicates the expected signs (see Table A5 in the Annex).\n\ns_04021: The parameters of the utility function are estimated using the data on pregnancy outcomes.\n\ns_04071: Examples for each are presented.\n\ns_04121: This may explain the high ratio of contributors to affiliates, which exceeds 75 percent in Mexico against less than 50 percent in Argentina and Chile.\n\ns_04171: The dependent variable pools the data on total assets at two points in time, 2003 and 2010, for all firms with data on both years.\n\ns_04221: Proposition 4 An increase in em, which is equivalent to a (mean-preserving) increase in volatility, has qualitatively similar effects on the shape of the debt Laffer curve as those associated with an increase in intermediation costs or lower exrpected output.\n\ns_04271: The value of this access is sufficiently high that it is assumed that members of the group will not renege.)\n\ns_04321: With these results Cunado and Gracia (2005) verify the existence of a significant negative oil-GDP relationship in Asian developing countries -including Malaysia, a net oil exporter.\n\ns_04371: The analysis of education expenditure and enrollment is based on two consecutive, nationallyrepresentative, cross-sectional, household surveys conducted by the Kenya National Bureau of\n\ns_04421: We report the total trade effect by summing coefficients on the contemporaneous and lagged dummies, with standard errors computed using the Delta method.\n\ns_04471: We see this is generally true across the different outcomes and tests: appears to be lower when a social excuse is provided for using education labeling or direct payment.\n\ns_04521: 14 Firm size is associated with a higher probability of a firm reporting many of the reasons as relevant or very relevant (Table 5 ).\n\ns_04571: Indeed, it is nothing more than standard inequality decomposition analysis which has been conducted in economics and development economics for a long time (Kanbur, 2007) .\n\ns_04621: 4 Recall that if we de\u2026ne countercyclical \u2026scal policy as being in cell (1,1) or (2,2) inTable 1or 2 (that is, contractionary policy in good times and expansionary policy in bad times), we can see that while industrial countries have spent 56 percent of the time in those cells, developing countries have spent only 36 percent of the time.\n\ns_04671: Figure 11 presents the decomposition of the changes in HOI into scale and distribution effects.\n\ns_04721: (2011) , Chor and Manova (2012) or Manova (2013) for an application of this approach in the fields of economic growth or international trade.\n\ns_04771: * significant at 10%; ** significant at 5%; *** significant at 1%.\n\ns_04821: It allows 1 See for example Gallup, Radelet and Warner (1998) and Dollar and Kraay (2002) for evidence that growth helps reduce poverty and the concerns of Ravallion (2001 Ravallion ( , 2002 about their approach.\n\ns_04871: We use individual controls that have been established in the literature as significant determinants of entrepreneurial activity."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7j6auiMKfoLOsORWffErgCb4yz7",
+    "object": "chat.completion",
+    "created": 1682885664,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1171,
+      "completion_tokens": 54,
+      "total_tokens": 1225
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04371\", \"data_mentioned\": true, \"reason\": \"education expenditure and enrollment\"}, {\"sent_id\": \"s_04871\", \"data_mentioned\": true, \"reason\": \"entrepreneurial activity\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04371\", \"data_mentioned\": true, \"reason\": \"education expenditure and enrollment\"}, {\"sent_id\": \"s_04871\", \"data_mentioned\": true, \"reason\": \"entrepreneurial activity\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

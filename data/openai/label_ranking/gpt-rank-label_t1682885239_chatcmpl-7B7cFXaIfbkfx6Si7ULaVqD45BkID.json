@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02711: Our approach ascribes both peer groups and any other school-level components of test score variation to school quality (Rothstein, 2004) .\n\ns_02761: Although these classifications were useful for modeling breeding bird distribution, multiple time steps were not available to permit assessment of land use change.\n\ns_02811: SES was measured at the family level in the Taiwanese and Swedish studies and at the neighborhood level in the US study.\n\ns_02861: Children were sampled by occurrence of birth within a set of primary sampling units defined by counties or county groups.\n\ns_02911: The sample for the 1998 Company Organization Survey (COS) reported that they were interested and had the ability to report online, but only 27 percent actually did so (Sedivi, Nichols, and Kanarek, 2000).\n\ns_02961: 21bu 3McKnight, C., Crosswhite, F., Dossey, J., Kifer, E., Swafion, J., Travers, K. and Cooney, T., The\n\ns_03011: At this stage, a sample of teachers who responded to an official request from the Departments of Education and declared their participation in our study (a total of 87 people) was formed.\n\ns_03061: The sample of patients enrolled in the I-ADNI can be considered representative of those attending memory clinics [26, 27] .\n\ns_03111: Also, sample size could be greatly enhanced by expanding the model to incorporate different farm types rather than have it be solely a rice model.\n\ns_03161: These matched topics are then studied both as indicators, and in their level of intensity, to understand the types of households who are more likely to have their preferences discussed in the gram sabha.\n\ns_03211: In another interpretation that more closely reflects written sketches by von and Robles, Torero, and von Braun (2009) , the \"price band\" that they mention appears to be irrelevant; indeed, the function of the floor price is not discussed.\n\ns_03261: The analyses focus on the computer industry, which has received a lot of attention in the technology adoption and growth literature.\n\ns_03311: In addition to the overall increase in the use of wholesale funds documented in the previous section, the table shows that there is important heterogeneity in this use across countries.\n\ns_03361: Using detailed data on transit, documentation, and ports and customs delays on Africa's exports collected by Doing Business at the World Bank, Freund and Rocha (2010) find that that transit delays have the most economically and statically significant effect on African exports.\n\ns_03411: Since the purpose of this analysis is to identify a country's 'revealed comparative advantage' in production sharing, we modify this approach in three ways.\n\ns_03461: When we do \u2026nd a di\u00a4erence, it appears that the statistical signi\u2026cance and quantitative importance of the variables that determine tangible sunk costs are actually enhanced when intangible sunk costs are taken into account.\n\ns_03511: While caveats of course apply (the lack of significance may simply reflect the limited quality of the indicator), this mixed result could suggest that while relationship lending and the use of collateral can remedy for informational problems in banking, informational frictions are more difficult to circumvent in the case of capital markets.\n\ns_03561: On the one hand, the improvement in the contribution of the cross term in conjunction with the decreased contribution of the within term suggests that those firms that experienced the largest declines in productivity also suffered the largest reductions in market share, although the magnitude of the cross term may be upwards biased because of measurement error.\n\ns_03611: Hawkesby, Marsh and Stevens (2005) analyze co-movements in equity returns for a set of US and European large complex financial institutions using several statistical techniques and find a high degree of commonality.\n\ns_03661: 14 Not surprisingly, WTO members that depend heavily on world markets for food have pushed for disciplines on export controls and taxes (e.g.Japan and Switzerland in 2000, and Congo, Jordan, and Korea in 2001).\n\ns_03711: Fishback and Kachanovskaya (2010) estimate the multiplier effects of different types of government spending during the New Deal and find that public works had the highest multiplier equal to 1.7.\n\ns_03761: We have not done so here, as the data challenges for such an undertaking would be daunting to say the least.\n\ns_03811: 2 Brealey, Cooper and Habib (1996) contains an excellent survey of the economic issues involved in project finance.\n\ns_03861: For differential selection on this variable to fully explain the coefficient in column 6, Table 6 , revision towards sooner of individuals selecting out of the sample due to having days to first disbursement less than or equal to six would have to have been lower by 1,117.67 MK.\n\ns_03911: Research in the United States in the 1990s and most recently by Pope et al (2002) provides strong evidence that it is particulates of less than 2.5 microns (PM2.5) that have the largest health effects."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7cFXaIfbkfx6Si7ULaVqD45BkID",
+    "object": "chat.completion",
+    "created": 1682885239,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1347,
+      "completion_tokens": 55,
+      "total_tokens": 1402
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02911\", \"data_mentioned\": true, \"reason\": \"Company Organization Survey (COS)\"}, {\"sent_id\": \"s_03811\", \"data_mentioned\": true, \"reason\": \"project finance\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02911\", \"data_mentioned\": true, \"reason\": \"Company Organization Survey (COS)\"}, {\"sent_id\": \"s_03811\", \"data_mentioned\": true, \"reason\": \"project finance\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

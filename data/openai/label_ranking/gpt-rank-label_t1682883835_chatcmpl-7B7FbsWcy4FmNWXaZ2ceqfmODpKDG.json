@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03380: A quick glance at the correlation matrix leads to the observation that the composition of imports appears to be more similar than the composition of exports.\n\ns_03430: We have employed in \u2021uence diagnostic techniques to identify observations that could be considered as outliers with respect to the true underlying regression model or observations that exert a strong in \u2021uence on the position of the \u2026tted regression.\n\ns_03480: Table 3 reports the results of adding the policy controls to the regressions, using the subset of FD indicators over which policy variables were found to have the most significant impacts.\n\ns_03530: Results are omitted to conserve space, but available from the authors upon request.\n\ns_03580: The first table in the appendix, Table A1 , provides an overview of the definitions and sources of these variables.\n\ns_03630: On the one hand, in a survey of studies on renminbi misalignment conducted by Cline and Williamson (2008) , 17 of the 18 studies concluded that the renminbi is undervalued; the average estimate of the undervaluation was 19 percent for the 2000-07 period as a whole and considerably higher for the 2004-07 period.\n\ns_03680: 8 For a detailed discussion, see Schwartz, Andres, and Dragoiu (2009) .\n\ns_03730: This theoretical framework has at least one important implication for the literature.\n\ns_03780: It turns out that the regression residuals exhibit high serial correlation for any number of explanatory variables and their lags (specification 1, Table 2 ).\n\ns_03830: Table 1 provides some summary statistics of baseline survey responses.\n\ns_03880: The figures summarized in Table 4 .1.\n\ns_03930: When we compare the findings of Le, Moreno-Dodson, and Rojchaichaninthorn (2008) and the ones reported in Table 5 , it can be seen that Canada is a new developed country in the low-effort, low-collection group.\n\ns_03980: Fink and Linnemayr (2009) , linking historical data from World Fertility Surveys (WFS) with the DHS data, argue that while HIV does not have a signicant eect on aggregate fertility levels, it aects dierently women depending on their educational attainment.\n\ns_04030: Estimates of this are also available from the WDI and again the most recent data are used.\n\ns_04080: The argument in favor of multi-pillar structures that underlies the approach of this paper is the premnise that the evaluation of the merits and demerits of different pension pillars suffers from what may be called \"empirical agnosia\".\n\ns_04130: To conduct the analysis, we rely on our merged data set that combines the SDC Platinum database on the use of capital markets with firm-level balance sheet information on the post-IPO period from Orbis and Worldscope.\n\ns_04180: Section II describes the analytical framework, which combines the costly state verification approach pioneered by Townsend (1979) and the model of limited enforceability of contracts used in the external debt literature, as in Eaton et al.\n\ns_04230: (See Arnott and Stiglitz, 1991) The Basic Model\n\ns_04280: presents a summary of the simulated scenarios.\n\ns_04330: 2006 , Bruno Meessen, Lucy Gilson & Abdelmajid Tibouti 2011 , Samia Laokri, Olivier Weil, K Maxime Drabo, S Mathurin Dembel\u00e9, Beno\u00eet Kafando & Bruno Dujardin 2013 , Mylene Lagarde & Natasha Palmer 2008 .\n\ns_04380: The data come from the above-mentioned CEPII database.\n\ns_04430: Related work by Ambler et al.\n\ns_04480: In contrast to our summary statistics above, we now exploit the full information in the data in a multivariate analysis.\n\ns_04530: Of particular interest is a line of analysis established by the work of de Barros et al.\n\ns_04580: Given the absence of readily available government spending forecast error data in developing countries, we use -as has been typical in the SVAR literature -quarterly data on seasonally-adjusted real government spending as well as the identifying assumption that while contemporaneous changes in government spending can a\u00a4ect output in the same quarter, the opposite is not true (i.e., it takes output changes at least one quarter to a\u00a4ect government spending)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7FbsWcy4FmNWXaZ2ceqfmODpKDG",
+    "object": "chat.completion",
+    "created": 1682883835,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1214,
+      "completion_tokens": 52,
+      "total_tokens": 1266
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03980\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_04380\", \"data_mentioned\": true, \"reason\": \"CEPII database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03980\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_04380\", \"data_mentioned\": true, \"reason\": \"CEPII database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

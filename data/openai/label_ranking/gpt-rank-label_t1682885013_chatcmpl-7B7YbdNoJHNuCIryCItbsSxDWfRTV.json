@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04905: x consists of location-specific observables, including a measurement of agglomeration economies and infrastructure variables.\n\ns_04955: Aggregating over the population, national per capita demand of infrastructure service for consumption, lC, will then be given as:\n\ns_05005: Importantly, the finding that GVC participation reduces REER elasticity is quite robust and continues to hold when we use industry-level data which are less likely to suffer from endogeneity problems.\n\ns_05055: The penultimate row contains the results for the whole sample of firms, whereas the last row contains the results for the sub-sample of firms that were exporters in 2006.\n\ns_05105: To assess the state of ECD, we first undertake descriptive analyses of the level of ECD outcomes in Morocco over time and differences by subgroups.\n\ns_05155: The aggregate participation rate is the weighted average of the male and the female participation rates.\n\ns_05205: Above regressions are estimated coefficients from ITT estimates where \"6 Month Subsidy\" is the parent's random assignment status and 6 Month Subsidy*Ineligible is the interaction of these two variables.\n\ns_05255: 4 For discussions of the impact of policies on institutional choices in the sector, see for instance, Gerlach and Fraceys (2010) , Teismand and Edelenbos (2011) , Herrera, V. and A.E.\n\ns_05305: This is an important issue to consider in light of the need to mobilize additional resources for the education sector and the decline in states' contribution to its finance.\n\ns_05355: In that case, the error term in our equations would be in first differences and correlated with the lagged endogenous variable by construction.\n\ns_05405: This will be used to assess the performance of the rapid consumption methodology compared to the traditional full consumption.\n\ns_05455: A study by Farole and Winkler (2014) , using World Bank Enterprise Surveys data, shows three types of mediating factors: firms' absorptive capacity, investors' spillover potential measured by the share of FDI output sold domestically, and host-country institutional factors.\n\ns_05505: as well as data on obtaining IDs.\n\ns_05555: First, because for most of the countries covered in STEP surveys, the sample size is not large enough to make reliable inferences using more detailed occupations, as many of the cells would contain very few observations or be empty.\n\ns_05605: Here we subtract the inundation value for each grid (spatial resolutions: 2.5 min x 2.5 min) and estimate the total flooded area between period 1 as defined by the difference between 1986-2005 and 2016-2035, and period 2 as defined by the difference between 1986-2005 and 2036-2055, for both pathways RCP4.5 and RCP8.5.\n\ns_05655: En encuestas longitudinales en las que ha transcurrido un largo periodo de tiempo desde su inicio, en este caso 20 a\u00f1os, se espera una p\u00e9rdida de datos importante.\n\ns_05705: The paper proposes utilizing innovations in the banking sector to maintain financial accountability for these transactions.\n\ns_05755: 2005 -2010 and 2011 -2015 , Susenas 2005 -2010 , 2015 Philippines STEP survey, and 2011 -2015 , and UN Comtrade database 2005 -2010 .\n\ns_05805: Credit: respondent was allowed to pay in 3 installments Regressions in column (2) also include fixed effects for demonstration session.\n\ns_05855: Section 4 uses econometric modeling to test the relationships between locally-monitored air pollution and measures provided by Sentinel-5P, MODIS and Google Traffic.\n\ns_05905: Part of the rationale for the choice of the four countries as external comparators to countries in Africa is that it permits invoking evidence in the literature on drivers of the differences in the experiences of the four countries to help explain trends in the region.\n\ns_05955: To test these hypotheses, we introduce dummy variables for whether a specific product is priced in the euro or the dollar, and include a full set of interaction terms with the exchange rate similar to Devereux et al.\n\ns_06005: (2019) and Hasbi and Dubus (2020) , this analysis tries to estimate the probability of using mobile internet through the following model:\n\ns_06055: In line with the literature available for developed countries which relies on liquid wealth (as opposed to total wealth which also includes illiquid assets, e.g.\n\ns_06105: 20 The regression specification is E(returns lmt) = \u03b4 l exp(\u03b2 1 + \u03b2 2 f oodsec lt + \u03b2 3 housing lt + \u03c4 t )where delta l is the location specific fixed effect and all other variables are defined as in equation 3.Since the VAF and VASyr surveys were only conducted during the 2015-2017 period, we only estimate the regression for this subset of years."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7YbdNoJHNuCIryCItbsSxDWfRTV",
+    "object": "chat.completion",
+    "created": 1682885013,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1335,
+      "completion_tokens": 112,
+      "total_tokens": 1447
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05455\", \"data_mentioned\": true, \"reason\": \"World Bank Enterprise Surveys\"}, {\"sent_id\": \"s_05705\", \"data_mentioned\": true, \"reason\": \"banking sector innovations\"}, {\"sent_id\": \"s_05755\", \"data_mentioned\": true, \"reason\": \"Susenas\"}, {\"sent_id\": \"s_05855\", \"data_mentioned\": true, \"reason\": \"Sentinel-5P, MODIS and Google Traffic\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05455\", \"data_mentioned\": true, \"reason\": \"World Bank Enterprise Surveys\"}, {\"sent_id\": \"s_05705\", \"data_mentioned\": true, \"reason\": \"banking sector innovations\"}, {\"sent_id\": \"s_05755\", \"data_mentioned\": true, \"reason\": \"Susenas\"}, {\"sent_id\": \"s_05855\", \"data_mentioned\": true, \"reason\": \"Sentinel-5P, MODIS and Google Traffic\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

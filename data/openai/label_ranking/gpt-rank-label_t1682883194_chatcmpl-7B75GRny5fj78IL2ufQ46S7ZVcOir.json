@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01240: (2014) , SIEMENS (2017), Covello (2010) , McKinsey and Company (2014), Ridsdale et al.\n\ns_01290: Each table provides a summary of the sample, the sample size, the authors, and the study design in the first column, the age group of the sample in the second column, the timeframe of interviews in the third column, and the main findings in the fourth column.\n\ns_01340: The data from these subjects will be used to quantify within-and between-scanner heterogeneity, to identify the determinants of this variance, to quantify the effects on the data, and to develop post-hoc calibration methods to attenuate these effects.\n\ns_01390: The SST dataset was mentioned above in Subsection 3.3.1.\n\ns_01440: The report calls on federal agencies to better track gender differences in the grants they award by maintaining a data system that stores information on all grant applications and investigators.\n\ns_01490: [2004] for the data source and analysis procedure).\n\ns_01540: Ding et al., 2006ab, Ding and .\n\ns_01590: CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.\n\ns_01640: A relevant review can be found here [35] .\n\ns_01690: Herein, we have reported on the characteristic epidemiology of mcGTCs by using available population-level data.\n\ns_01740: We encounter multi-source or multi-modality data frequently in many real data applications.\n\ns_01790: The statistical procedures developed by Iceland and colleagues [35] were applied to the 2010 Census Summary File 1 race/ethnicity data and we aggregated tract data into counties to obtain the fifteen segregation measures for all US counties.\n\ns_01840: The estimates presented in this report were produced using the merged data from the National Education Longitudinal Study and Beginning Postsecondary Longitudinal Study (NEB) Data Analysis System (DAS).\n\ns_01890: There are five data tables (autopsy, microscopic study, inventory, genetics, and biofluids) that are used for input, visualization, and extraction of data from the NBGB, as described in the corresponding sections that follow.\n\ns_01940: Further details are below:\n\ns_01990: Details of the statistical significance for each variable are given in Table 2 .\n\ns_02040: Sources: ClinicalTrials.gov, chictr.org.cn, clinicaltrialsregister.eu, and ctri.nic.in.\n\ns_02090: We reviewed published data from available resources, including the published literature, International Agency on Cancer Research (IARC), hospital-based cancer registries, and Ministry of Health (MOH) data.\n\ns_02140: This data set of 9146 papers were further used for analysis.\n\ns_02190: Methods: This case-control study used data from Clinical Data Analysis and Reporting System (CDARS), a population-wide databased managed by Hong Kong Hospital Authority.\n\ns_02223: Additional Contributions: Natalie L. Marchant, PhD, provided helpful discussion about the study.\n\ns_02273: More detail can be found in .\n\ns_02323: Data used in the preparation of this article were obtained from the ADNI database (adni.loni.usc.edu).\n\ns_02373: doi.org/10.1029/2010JC006893.\n\ns_02423: Consistent with the findings of Starfield et al."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B75GRny5fj78IL2ufQ46S7ZVcOir",
+    "object": "chat.completion",
+    "created": 1682883194,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1011,
+      "completion_tokens": 353,
+      "total_tokens": 1364
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01390\", \"data_mentioned\": true, \"reason\": \"SST dataset\"}, {\"sent_id\": \"s_01440\", \"data_mentioned\": true, \"reason\": \"federal agencies grant data system\"}, {\"sent_id\": \"s_01790\", \"data_mentioned\": true, \"reason\": \"2010 Census Summary File 1 race/ethnicity data\"}, {\"sent_id\": \"s_01840\", \"data_mentioned\": true, \"reason\": \"National Education Longitudinal Study and Beginning Postsecondary Longitudinal Study (NEB) Data Analysis System (DAS)\"}, {\"sent_id\": \"s_01890\", \"data_mentioned\": true, \"reason\": \"five data tables (autopsy, microscopic study, inventory, genetics, and biofluids)\"}, {\"sent_id\": \"s_02040\", \"data_mentioned\": true, \"reason\": \"ClinicalTrials.gov, chictr.org.cn, clinicaltrialsregister.eu, and ctri.nic.in\"}, {\"sent_id\": \"s_02090\", \"data_mentioned\": true, \"reason\": \"International Agency on Cancer Research (IARC), hospital-based cancer registries, and Ministry of Health (MOH) data\"}, {\"sent_id\": \"s_02140\", \"data_mentioned\": true, \"reason\": \"data set of 9146 papers\"}, {\"sent_id\": \"s_02190\", \"data_mentioned\": true, \"reason\": \"Clinical Data Analysis and Reporting System (CDARS)\"}, {\"sent_id\": \"s_02323\", \"data_mentioned\": true, \"reason\": \"ADNI database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01390\", \"data_mentioned\": true, \"reason\": \"SST dataset\"}, {\"sent_id\": \"s_01440\", \"data_mentioned\": true, \"reason\": \"federal agencies grant data system\"}, {\"sent_id\": \"s_01790\", \"data_mentioned\": true, \"reason\": \"2010 Census Summary File 1 race/ethnicity data\"}, {\"sent_id\": \"s_01840\", \"data_mentioned\": true, \"reason\": \"National Education Longitudinal Study and Beginning Postsecondary Longitudinal Study (NEB) Data Analysis System (DAS)\"}, {\"sent_id\": \"s_01890\", \"data_mentioned\": true, \"reason\": \"five data tables (autopsy, microscopic study, inventory, genetics, and biofluids)\"}, {\"sent_id\": \"s_02040\", \"data_mentioned\": true, \"reason\": \"ClinicalTrials.gov, chictr.org.cn, clinicaltrialsregister.eu, and ctri.nic.in\"}, {\"sent_id\": \"s_02090\", \"data_mentioned\": true, \"reason\": \"International Agency on Cancer Research (IARC), hospital-based cancer registries, and Ministry of Health (MOH) data\"}, {\"sent_id\": \"s_02140\", \"data_mentioned\": true, \"reason\": \"data set of 9146 papers\"}, {\"sent_id\": \"s_02190\", \"data_mentioned\": true, \"reason\": \"Clinical Data Analysis and Reporting System (CDARS)\"}, {\"sent_id\": \"s_02323\", \"data_mentioned\": true, \"reason\": \"ADNI database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

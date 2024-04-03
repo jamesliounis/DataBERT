@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02762: A standardized, bi-national classification of land cover, updated at regular intervals (i.e.\n\ns_02812: Because of the known socioeconomic disparities across racial/ethnic groups in the United States, future studies should specifically examine whether relationships among preterm birth, SES, and cognitive development vary across racial/ethnic groups.\n\ns_02862: The three hypotheses of the study proposing direct and indirect effects of length of maternity leave on attachment were estimated by path analysis of the analytical model presented in Fig.\n\ns_02912: There are varying estimates of the numbers and types of people who currently have Internet access.\n\ns_02962: This oversampling was sponsored by the Office of Bilingual Education and Minority Language Affairs (OBEMLA).\n\ns_03012: The results of the study are preliminary due to several limitations, which include a small number of participants, potential bias in school choice and limited opportunities for observation.\n\ns_03062: These segmentations were considered the reference standard.\n\ns_03112: While the binary logit provides a point of departure for the analysis, future investigations should consider using a multinomial logit model.\n\ns_03162: Table 6 presents the summary of preference matching.\n\ns_03212: Fortunately, the topic is not a new one.\n\ns_03262: [Insert Table 9 about here]\n\ns_03312: Panel A -Cross country summary statistics for the ratio of retail deposits to liabilities.\n\ns_03362: In the second stage, we re-run the factor analysis procedure on each of the four identified sub-groups in order to prevent the noise caused by adding variables that are unimportant.\n\ns_03412: On the import side, the geographical patterns of CEEC are remarkably similar to each other although the second tier CEECs tend to concentrate less on the EU than the first wave candidates (Table 7) .\n\ns_03462: This paper departs from mainstream practice by focusing on the observed inter-industry di\u00a4erences in the dispersion of \u2026rm sizes-the variance equivalent component of concentration.\n\ns_03512: Similarly, as information becomes more abundant and governance arrangements improve, monitoring costs come down and monitoring can increasingly rely on third parties (rating agencies, market analysts, investment advisors, external auditors), statistical methods (scoring systems, value-at-risk calculations), and accounting and disclosure standards.\n\ns_03562: The second column uses TFP estimated by means of the Solow method, while the third column uses TFP estimated by means of the ACF procedure.\n\ns_03612: Our original data from both BankScope and Datastream covers 2,294 publicly traded banks across 86 countries.\n\ns_03662: scandium and yttrium) it accounts for more than 70 percent of the world's exports, as well as of other key raw materials, such as various forms of bauxite, magnesium, and zinc, where again it accounts for a large share of world exports.\n\ns_03712: 12 For Brazil,Ferreira and Araujo (2008) find that a debt financed increase in the infrastructure stock of 1 percent of GDP in one year would have effectively paid for itself through tax revenues after 20 years.\n\ns_03762: If we simply examined the characteristics of direct beneficiaries, we would likely conclude, as does the existing literature on this topic, that they do not over-represent the poor.\n\ns_03812: As a result, our analysis reconciles continuous time corporate default models with the dominant view of the firm in corporate finance and provides evidence in favor of the Madan and Unal (2000) default risk model.\n\ns_03862: Table 4 shows the results of a regression of the difference between the natural log of the allocation to sooner and later on the rate of return r and observable characteristics of the participants.\n\ns_03912: There is substantial research evidence from around the world that outdoor urban air pollution has significant negative impacts on public health and results in premature deaths, chronic bronchitis, and respiratory disorders.\n\ns_03962: See World Development Report (1997),World Bank Global Monitoring Report (2005), The United Nations report on Financing for Development(2002), The UN Secretary-General's Report to the Preparatory Committee for Financing for Development(2002)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7cqqWe4eKpj59GvLckHIYx61WgH",
+    "object": "chat.completion",
+    "created": 1682885276,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1139,
+      "completion_tokens": 99,
+      "total_tokens": 1238
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03612\", \"data_mentioned\": true, \"reason\": \"BankScope and Datastream\"}, {\"sent_id\": \"s_03962\", \"data_mentioned\": true, \"reason\": \"World Development Report (1997),World Bank Global Monitoring Report (2005), The United Nations report on Financing for Development(2002), The UN Secretary-General's Report to the Preparatory Committee for Financing for Development(2002)\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03612\", \"data_mentioned\": true, \"reason\": \"BankScope and Datastream\"}, {\"sent_id\": \"s_03962\", \"data_mentioned\": true, \"reason\": \"World Development Report (1997),World Bank Global Monitoring Report (2005), The United Nations report on Financing for Development(2002), The UN Secretary-General's Report to the Preparatory Committee for Financing for Development(2002)\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

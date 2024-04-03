@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04679: The rest of the paper proceeds as follows.\n\ns_04729: Further support for this is provided by studies showing that (i) greater female bargaining power helped reduce fertility and child mortality in India (Dyson and Moore 1983) ; (ii) receipt of pensions by females but not males affected girls' anthropometric status in South Africa (Duflo 2003 );\n\ns_04779: The rest of the paper is organized as follows.\n\ns_04829: We use the available data from the GEM data which are consistent and comparable across time.\n\ns_04879: As discussed above, the spatial autocorrelation is significant in our data; therefore, the ordinary least squares estimator is not likely to be unbiased in any case.\n\ns_04929: Table 1 offers a quick review of access to infrastructure services across low, middle and high income groups, showing how infrastructure stocks or access increases along with income.\n\ns_04979: Specifically, the first row in Table 4 presents the same results as in Table 1 but for a shorter time series and less countries due to data availability.\n\ns_05029: As highlighted by Rosenbaum and Robin (1984) , the bias in the estimation of the treatment effects is proportional to the difference in the mean of the predicted probabilities of treatment across treated and control groups.\n\ns_05079: The paper relies on four different surveys conducted in Morocco: \uf0b7 Demographic and Health Survey (DHS) of 2003/04 \uf0b7 Multiple Indicator Cluster Survey (MICS) of 2006/07 \uf0b7 National Population and Family Health Survey (ENPSF) of 2011 \uf0b7 National Human Development Observatory (ONDH) panel baseline round of 2012 8 All these surveys are relatively similar in nature.\n\ns_05129: This can also be seen by comparing the five year average rates shown in table below to the corresponding table presented in section 3.1.\n\ns_05179: While the data do not allow us to definitively identify the mechanism, the results are most consistent the Jacobson (2000) model where the substitution effect from cheaper care for insured members dominates the income effect for uninsured members of the household.\n\ns_05229: Gerlach and Franceys (2010) and Whittington et al (2015) remind us that research has a long record of identifying issues that reflect poor choices of tools, of processes and of policies.\n\ns_05279: For illustrative purposes, it is used the 12 to 14 Age-group estimates provided by CONAPO.\n\ns_05329: As instruments, we use lagged values of the lagged dependent variable, as suggested by Anderson and Hsiao (1982) .\n\ns_05379: Christiaensen et al, 2010;Christiaensen et al, 2011.\n\ns_05429: The above finding is summarized below:\n\ns_05479: The collected data were also cross-referenced with other publicly available databases from nongovernmental, civil society, and international organizations.\n\ns_05529: The rest of this paper is structured as follows.\n\ns_05579: We firstly assemble a data set for wastewater treatment works (2,743 assets) from the Chinese Ministry of the Environment (Ministry of the Environment, 2013).\n\ns_05629: Fuente: estimaciones de los autores con datos ENCEL y ENCASEH Figura C2.2.\n\ns_05679: This shows on the same plot the cumulative share of the number and volume of transactions.\n\ns_05729: Section 5 presents the methodology and Sections 6 to 8 explain the results, distinguishing between the 2005-2010 and 2011-2015 sub-periods, and including some additional estimation exercises.\n\ns_05779: *** p<0.01, ** p<0.05, * p<0.1 Column (1) shows the mean and standard deviation for the control group of the BDM sample.\n\ns_05829: To mobilize this huge information resource, one of the authors has developed an algorithm that maps region-scale Google Traffic displays into a panel database of traffic measures for a reference grid with arbitrary cell size.\n\ns_05879: This is followed by an account of the data sources in section 3 and how and why countries are classified in producing those findings."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7A3K0rx701pV91RGbvWgDwakrDU",
+    "object": "chat.completion",
+    "created": 1682883491,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1163,
+      "completion_tokens": 54,
+      "total_tokens": 1217
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05079\", \"data_mentioned\": true, \"reason\": \"Morocco DHS\"}, {\"sent_id\": \"s_05579\", \"data_mentioned\": true, \"reason\": \"Chinese Ministry of the Environment\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05079\", \"data_mentioned\": true, \"reason\": \"Morocco DHS\"}, {\"sent_id\": \"s_05579\", \"data_mentioned\": true, \"reason\": \"Chinese Ministry of the Environment\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

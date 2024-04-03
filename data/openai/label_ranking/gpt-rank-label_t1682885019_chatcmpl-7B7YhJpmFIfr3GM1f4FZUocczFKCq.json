@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06155: *** p<0.01, ** p<0.05, * p<0.1 Notes: Data comes from the 2018 ELMPS survey.\n\ns_06205: After controlling for background characteristics of respondents, the treatment effect for the relative safety treatment is still large and statistically significant (see Table A6 in Appendix A).\n\ns_06255: 2016 for a similar argument made earlier).\n\ns_06305: We also contribute to the literature on differential parental choices depending on children's ability as we find some evidence that parents send their highest ability children to school (Akresh et al.\n\ns_06355: Columns 5and 6give the number of observations used to estimate the country-specific IGM statistics (children whose parental education is reported in the censuses).\n\ns_06405: Shilpi 2021and Mazumder et al.\n\ns_06455: This paper examines the effect of the COVID pandemic on electricity consumption patterns among households and firms in Sub-Saharan Africa using administrative data on billing records from Ghana and Rwanda.\n\ns_06505: Sources: Latinobar\u00f3metro Corporation (2021); Cuesta, Madrigal and Pecorari (2022) As illustrated in Figure 2 , and in accordance with global trends, trust in national governments has declined since 2009 for most LAC countries.\n\ns_06555: The existing literature has shown that returns to export promotion are higher along the extensive margins, rather than the intensive margin (Volpe Martincus and Carballo, 2008) .\n\ns_06605: A more complete procedure of the kind described and implemented inMitra (1994) would have required updating all the parameters and exogenous variables of the model.\n\ns_06655: The question of how the integration of the constituent agencies can be implemented effectively is broached in Section III.\n\ns_06705: Therefore there could be substantial amount of short-term flows which were captured by the official statistics on \"short-term\" capital inflows.\n\ns_06755: As such, the experiences of scaling-up discussed here draw primarily upon these large MFIs.\n\ns_06805: As a robustness check we provide results including government agencies lobbying expenditures and other business associations that we could not allocate to any specific industry with the data provided by the DOJ.\n\ns_06855: For example, access to high-quality land has different implications for well-being depending on its location relative to markets and other infrastructure or on access to credit and high-quality inputs.\n\ns_06905: An instructive exception is for the United States, where the National Longitudinal Mortality Study (NLMS) surveyed over one million adults from multiple waves of the Current Populations Surveys, thus allowing mortality data to be linked directly to socio-economic data including incomes.\n\ns_06955: Differencing across the base and final year, the estimated change in \"knowledge\" is used as the dependent variable in our regressions (see Das and others 2004a for details).\n\ns_07005: To address this problem, development agencies and national governments have supported a range of shelter related programs (Werlin 1999, Sivam and Karuppannan 2002; Mukhija 2002; Buckley and Kalarickal 2004) .\n\ns_07055: Export Import Table III .1: Imports of Finished Footwear Source: Authors' elaboration based on the WTO (1999).\n\ns_07105: estimated traditional regressions of growth with microdata for 19 Brazilians states.\n\ns_07155: These results are consistent with the commonly cited explanation by industry professionals which argues that transactionrelated factors play an important role in the choice of a firm's ADR security over the domestic security for an investor.\n\ns_07205: To date, what evidence there is on this point has relied on simulations, not on differences in the way cash transfer programs have been implemented or perceived by beneficiaries (Todd and Wolpin 2003; Bourguignon, Ferreira, and Leite 2003) .\n\ns_07255: This finding also holds if we do not use the average EBRD index of actual policy -which may be \"biased\" insofar as these are countries where reform may have started late, and, as noted above, they acceded to the WTO towards the end of the 1990s or later.\n\ns_07305: As before, we also controlled for PCparticipants-sample-specific growth rate and reverse causality ( D, 1 ).\n\ns_07355: The resultant electronic \"single window\" for all border processing and clearance related formalities will make a significant contribution to the achievement o f the government's trade facilitation objectives by lowering transaction costs and reducing clearance times."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7YhJpmFIfr3GM1f4FZUocczFKCq",
+    "object": "chat.completion",
+    "created": 1682885019,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1237,
+      "completion_tokens": 55,
+      "total_tokens": 1292
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06455\", \"data_mentioned\": true, \"reason\": \"COVID pandemic\"}, {\"sent_id\": \"s_06905\", \"data_mentioned\": true, \"reason\": \"National Longitudinal Mortality Study\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06455\", \"data_mentioned\": true, \"reason\": \"COVID pandemic\"}, {\"sent_id\": \"s_06905\", \"data_mentioned\": true, \"reason\": \"National Longitudinal Mortality Study\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03651: For example, in the United States, China has by far the highest share of imports in eight out of the ten most protected sectors, ranging from 22 percent in man-made fibers (HS 55) to 76 percent in footwear (HS 64).\n\ns_03701: Guajardo, Leigh, and Pescatori (2011) find that a 1 percent of GDP fiscal consolidation reduces real private consumption over the next two years by 0.75 percent, while real GDP declines by 0.62 percent.\n\ns_03751: We now know that there are many more, especially in the years since that study (see, e.g., Ferraz 2011, conservatively estimating 40,000 cases per year), but for our purposes the number of litigants is less important than the number of expected beneficiaries, and their distribution across social strata.\n\ns_03801: While we obtain results that, by and large, mirror the ones in Table 5 , several new effects appear.\n\ns_03851: We chose an indicator of six days or less, which captures a third of the revisited sample, in order to balance concerns about power (which might argue for a specification that is linear in the targeted lag) against the prediction of a non-linear relationship between targeted lag and revision that comes from a model of hyperbolic time discounting.\n\ns_03901: This mainly reflects differences in terms of who is affected by the different pollutants but also the availability of data.\n\ns_03951: Panel A: Population growth used as proxy for demographic characteristic Panel B: Age dependency used as proxy for demographic characteristic Note: The estimation technique is panel OLS with regional and time dummies.\n\ns_04001: The characteristics of the sample used in the counterfactuals is presented in Table 14 .\n\ns_04051: Table 2 reports the concentration indices for the health outcome variables for the 42 countries, along with averages for the sample of countries and three regional groupings-Asia, the Near East and North Africa (AsiaMNA); Latin America and the Caribbean (LAC); and Sub-Saharan Africa (SSA).\n\ns_04101: Although pension funds are neither necessary nor sufficient for capital market development (Vittas 2000) , there is nevertheless considerable empirical evidence showing a close correlation between pension funds ('and other institutional investors) and capital market development\".\n\ns_04151: This paper contributes to this literature by studying how widespread the use of capital markets by firms is, as well as the firm dynamics around the capital raising activity, in comparison to a relevant control group of publicly listed firms.\n\ns_04201: In particular, although reducing the face value of debt could make both lenders and borrowers better off-as emphasized by Krugman (1988) and Sachs (1989) in their analysis of the debt overhang in a more general context-a higher degree of financial sector inefficiency may prevent any welfare gain.\n\ns_04301: Furthermore, a set of 'leaping' economies is selected, namely India (IND), South Korea (KOR) and Malaysia (MYS), as they have experienced immense economic growth throughout the considered data period .\n\ns_04351: This can be seen by comparing column (2) to (5) and (3) to (6), respectively.\n\ns_04401: The dataset provides all NTMs notified by WTO members at the WTO up to 2004 at the HS6-digit level.\n\ns_04451: In the first column we see that individuals who choose to remit more money via the direct payment option during the game are significantly more likely to take up the EduPay product.\n\ns_04501: Dunlop (1944) , Shishter (1943) , and Oswald (1986) ).\n\ns_04551: The extent of inequality of opportunity reported to policy makers will be dependent on whether or not the data set collects certain types of information.\n\ns_04601: For the case of industrial countries, Table 1 indicates that government spending is above the long-term trend 48 percent of the time and below such trend 52 percent of the time.\n\ns_04651: This implies that two countries that have identical coverage or average access rate of a particular service may have different HOI if the access to that service on one country is more concentrated among children of a certain set of circumstances.\n\ns_04701: In columns (2) to (3) we replace our ED variable with ED measures which have been calculated by Rajan and Zingales (1998) for young firms (firms that went public less than 10 years ago) and mature firms (firms that have been public for at least 10 years).\n\ns_04751: To do so, we use data for three generations of individuals in three Indian states, one of which implemented inheritance reforms in 1994.\n\ns_04801: As mentioned before, Jeong (1999) constructs a measure of wealth from the SES data using observations on household assets and the value of owner occupied housing units.\n\ns_04851: We follow the literature in controlling for macroeconomic measures of development and institutions."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7W5qJTmYbKRhVg3AY0HdgExcdhB",
+    "object": "chat.completion",
+    "created": 1682884857,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1320,
+      "completion_tokens": 27,
+      "total_tokens": 1347
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04401\", \"data_mentioned\": true, \"reason\": \"WTO dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04401\", \"data_mentioned\": true, \"reason\": \"WTO dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

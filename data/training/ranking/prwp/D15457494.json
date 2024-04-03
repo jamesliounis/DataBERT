@@ -1,0 +1,2415 @@
+{
+  "paper_id": "D15457494",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:03:51.104605Z"
+  },
+  "title": "Has the Global Banking System Become More Fragile over Time?",
+  "authors": [
+    {
+      "first": "Deniz",
+      "middle": [],
+      "last": "Anginer",
+      "suffix": "",
+      "affiliation": {},
+      "email": "danginer@worldbank.org"
+    },
+    {
+      "first": "Asli",
+      "middle": [],
+      "last": "Demirguc-Kunt",
+      "suffix": "",
+      "affiliation": {},
+      "email": "ademirguckunt@worldbank.org"
+    }
+  ],
+  "year": "2011-10",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D15457494",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "The last decade has seen a tremendous transformation in the global financial sector.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Globalization, innovations in communications technology and de-regulation have led to significant growth of financial institutions around the world. These trends had positive economic benefits and have led to increased productivity, increased capital flows, lower borrowing costs, and better price discovery and risk diversification. But the same trends have also led to greater linkages across financial institutions around the world as well as an increase in exposure of these institutions to common sources of risk. The recent financial crisis has demonstrated that financial institutions around the world are highly inter-connected and that vulnerabilities in one market can easily spread to other markets outside of national boundaries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In this paper we examine whether the global trends described above have led to an increase in co-dependence in default risk of commercial banks around the world. The growing expansion of financial institutions beyond national boundaries over the past decade has resulted in these institutions competing in increasingly similar markets, exposing them to common sources of market and credit risk. During the same period, rapid development of new financial instruments has created new channels of inter-dependency across these institutions. Both increased interconnections and common exposure to risk makes the banking sector more vulnerable to economic, liquidity and information shocks. There is substantial theoretical literature that models the various channels through which such shocks can culminate in a systemic banking crisis (see for instance Bhattacharya and Gale 1987 , Allen and Gale 2000 , Diamond and Rajan 2005 ; and focusing on the recent crisis, , Danielsson, Shin, and Zigrand 2009 , Battiston et al. 2009 To examine whether the global banking sector has become more interdependent and more fragile to shocks, we construct a default risk measure for all publicly traded banks using the Merton (1974) contingent claim model. We compute weekly time series of default probabilities for over 1,800 banks in over 60 countries and examine the evolution of the correlation structure of default risk over the 1998 -2010 time period.",
+        "cite_spans": [
+          {
+            "start": 850,
+            "end": 876,
+            "text": "Bhattacharya and Gale 1987",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 877,
+            "end": 898,
+            "text": ", Allen and Gale 2000",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 899,
+            "end": 923,
+            "text": ", Diamond and Rajan 2005",
+            "ref_id": null
+          },
+          {
+            "start": 961,
+            "end": 997,
+            "text": ", Danielsson, Shin, and Zigrand 2009",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 998,
+            "end": 1021,
+            "text": ", Battiston et al. 2009",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 1202,
+            "end": 1215,
+            "text": "Merton (1974)",
+            "ref_id": "BIBREF38"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Our empirical findings show that there has been a substantial increase in co-dependence in default risk of publicly traded banks starting around the beginning of 2004 leading up to the 3 global financial crisis starting in the summer of 2007. Although we observe an overall trend towards convergence in default risk globally, this trend has been much stronger for North American and European banks. We also find that increase in co-dependence has been higher for banks that are larger (with greater than 50 billion in assets). We also examine variation in codependence across countries. We find that countries that are more integrated, have liberalized financial systems and weak banking supervision have higher co-dependence in their banking sector.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Increased co-dependence in credit risk in the banking sector has important implications for capital regulations. In the aftermath of the sub-prime crisis of 2007/08, there has been renewed interest in macro-prudential regulation and supervision of the financial system. There has also been a growing consensus to adjust capital requirements to better reflect an individual bank\"s contribution to the risk of the financial system as a whole (Brunnermeier, Crockett, Goodhart, Persaud, and Shin 2009 , Financial Stability Forum 2009a , 2009b . Recently a number of papers have tried to measure and quantify systemic risk inherent in the global banking sector. Adrian and Brunnermeier (2009) , Huang, Zhou, and Zhou (2009) , Chan-Lau and Gravelle (2005), Avesani et al. (2006), and Elsinger and Lehar (2008) , use a portfolio credit risk approach to compute the contribution of an individual bank to the risk of a portfolio of banks. Our paper is related to this strand of literature, but our focus is not on quantifying systemic risk of large financial institutions but rather to examine time series trends for a large cross-section of banks.",
+        "cite_spans": [
+          {
+            "start": 440,
+            "end": 497,
+            "text": "(Brunnermeier, Crockett, Goodhart, Persaud, and Shin 2009",
+            "ref_id": null
+          },
+          {
+            "start": 498,
+            "end": 531,
+            "text": ", Financial Stability Forum 2009a",
+            "ref_id": null
+          },
+          {
+            "start": 532,
+            "end": 539,
+            "text": ", 2009b",
+            "ref_id": null
+          },
+          {
+            "start": 658,
+            "end": 688,
+            "text": "Adrian and Brunnermeier (2009)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 691,
+            "end": 719,
+            "text": "Huang, Zhou, and Zhou (2009)",
+            "ref_id": "BIBREF31"
+          },
+          {
+            "start": 752,
+            "end": 778,
+            "text": "Avesani et al. (2006), and",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 779,
+            "end": 791,
+            "text": "Elsinger and",
+            "ref_id": null
+          },
+          {
+            "start": 792,
+            "end": 804,
+            "text": "Lehar (2008)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "A number of papers have examined the correlation structure of equity returns of a subsample of banks. De Nicolo and Kwast (2002) find rising correlations between bank stock returns in the U. S. from 1988 S. from and 1999 S. from . Schuler (2002 find similar results for Europe using a sample from 1980 to 2001. Hawkesby, Marsh and Stevens (2005) analyze co-movements in equity returns for a set of US and European large complex financial institutions using several statistical techniques and find a high degree of commonality. This paper is also related to the literature that studies contagion in financial markets (see among others Forbes and Rigobon 2002, Kee-Hong Bae and Stulz 2003) and also the literature that examines the impact of globalization on convergence of asset prices (Bekeart and Wang 2009 , Longin and Solnik 1995 , Bekaert and Harvey 2000 , and Bekaert, Hodrick and Zhang 2009 . This paper differs from the existing literature in three respects. First, our empirical analyses cast a wider net than the existing literature which focuses only in a particular region or a country and covers a shorter time period. Second we examine time series trends in codependence and test for structural changes over time. Finally, we examine cross-country differences in co-dependence and link the differences to measures of financial and economic openness and regulatory frameworks in different countries.",
+        "cite_spans": [
+          {
+            "start": 105,
+            "end": 128,
+            "text": "Nicolo and Kwast (2002)",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 191,
+            "end": 203,
+            "text": "S. from 1988",
+            "ref_id": null
+          },
+          {
+            "start": 204,
+            "end": 220,
+            "text": "S. from and 1999",
+            "ref_id": null
+          },
+          {
+            "start": 221,
+            "end": 244,
+            "text": "S. from . Schuler (2002",
+            "ref_id": null
+          },
+          {
+            "start": 311,
+            "end": 345,
+            "text": "Hawkesby, Marsh and Stevens (2005)",
+            "ref_id": "BIBREF28"
+          },
+          {
+            "start": 634,
+            "end": 644,
+            "text": "Forbes and",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 645,
+            "end": 675,
+            "text": "Rigobon 2002, Kee-Hong Bae and",
+            "ref_id": null
+          },
+          {
+            "start": 676,
+            "end": 687,
+            "text": "Stulz 2003)",
+            "ref_id": null
+          },
+          {
+            "start": 785,
+            "end": 807,
+            "text": "(Bekeart and Wang 2009",
+            "ref_id": null
+          },
+          {
+            "start": 808,
+            "end": 832,
+            "text": ", Longin and Solnik 1995",
+            "ref_id": "BIBREF37"
+          },
+          {
+            "start": 833,
+            "end": 858,
+            "text": ", Bekaert and Harvey 2000",
+            "ref_id": null
+          },
+          {
+            "start": 859,
+            "end": 896,
+            "text": ", and Bekaert, Hodrick and Zhang 2009",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Policymakers may be able to draw important implications from our analysis. Codependence in bank default risk has important consequences for systemic stability. We find increasing co-dependence in banks located in different national jurisdictions. Although we do find that strong banking supervision tends to reduce co-dependence in a given country, our results call for banking supervisory co-operation at a global level. This is especially true for larger banks which have grown more interconnected over the past decade.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The rest of the paper is organized as follows. Section 2 describes the data sources and describes the construction of the Merton (1974) default risk measure. Section 3 presents the empirical results, and finally Section 4 concludes.",
+        "cite_spans": [
+          {
+            "start": 122,
+            "end": 135,
+            "text": "Merton (1974)",
+            "ref_id": "BIBREF38"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The key variables for our analysis come from BANKSCOPE which provides bank-level balance sheet information, and DATASTREAM which provides information on stock prices, market capitalization and stock volume. We use weekly market data and annual accounting information in creating our credit risk measure. All data items are in US dollars to make comparisons across countries possible. We compute default probabilities implied from the structural credit risk model of Merton (1974) . This approach treats the equity value of a company as a call option on the company\"s assets. The probability of default is computed using the \"distance-to-default\" measure, which is the difference between the asset value of the firm and the face value of its debt, scaled by the standard deviation of the firm\"s asset value. The Merton (1974) distance-todefault measure has been shown to be good predictor of defaults outperforming accountingbased models (Campbell, Hilscher and Szilagyi 2008; Hillegeist, Keating, Cram, and Lundstedt, 2004; Bharath and Shumway, 2008) . Although the Merton distance-to-default measure is more commonly used in bankruptcy prediction in the corporate sector, Merton (1977) points out the applicability of the contingent claims approach to pricing deposit insurance in the banking context. Bongini, Laeven, and Majnoni (2002) , Bartram, Brown and Hundt (2008) and others have used the Merton model to measure default probabilities of commercial banks.",
+        "cite_spans": [
+          {
+            "start": 466,
+            "end": 479,
+            "text": "Merton (1974)",
+            "ref_id": "BIBREF38"
+          },
+          {
+            "start": 811,
+            "end": 824,
+            "text": "Merton (1974)",
+            "ref_id": "BIBREF38"
+          },
+          {
+            "start": 937,
+            "end": 975,
+            "text": "(Campbell, Hilscher and Szilagyi 2008;",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 976,
+            "end": 1023,
+            "text": "Hillegeist, Keating, Cram, and Lundstedt, 2004;",
+            "ref_id": "BIBREF30"
+          },
+          {
+            "start": 1024,
+            "end": 1050,
+            "text": "Bharath and Shumway, 2008)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 1173,
+            "end": 1186,
+            "text": "Merton (1977)",
+            "ref_id": "BIBREF39"
+          },
+          {
+            "start": 1303,
+            "end": 1338,
+            "text": "Bongini, Laeven, and Majnoni (2002)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 1341,
+            "end": 1372,
+            "text": "Bartram, Brown and Hundt (2008)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "We follow Campbell, Hilscher and Szilagyi (2008) and Hillegeist et al. (2004) to calculate",
+        "cite_spans": [
+          {
+            "start": 10,
+            "end": 48,
+            "text": "Campbell, Hilscher and Szilagyi (2008)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 53,
+            "end": 77,
+            "text": "Hillegeist et al. (2004)",
+            "ref_id": "BIBREF30"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "Merton\"s distance-to-default. The market equity value of a company is modeled as a call option on the company\"s assets:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "12 2 1 21 ( ) ( ) (1 ) log( / ) ( ( / 2)) T rT T E A A AA A A V V e N d X e N d e V V X r T d T d d T s s s - \u00b6 - - \u00b6 = - + - + - \u00b6 - = =- (1) Above E V",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "is the market value of a bank.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "A V is the value of bank\"s assets. X is the face value of debt maturing at time T. r is the risk-free rate and \u00b6 is the dividend rate expressed in terms of",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "A V .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "A s is the volatility of the value of assets, which is related to equity volatility through the following equation:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "( ) 1 ( ) / T E A A E V e N d V ss - \u00b6 =",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "We simultaneously solve the above two equations to find the values of",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "A V and A s .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "We use the market value of equity for E V and short-term plus one half long-term liabilities to proxy for the face value of debt X. We have found similar results using short term debt plus currently due portion of long term liabilities plus demand deposits as the default barrier. Since the accounting information is on an annual basis, we linearly interpolate the values for all dates over the period, using end of year values for accounting items. The interpolation method has the advantage of producing a smooth implied asset value process and avoids jumps in the implied default probabilities at year end. E s is the standard deviation of 6 weekly equity returns over the past 12 months. In calculating standard deviation, we require the company to have at least 36 non-zero and non-missing returns over the previous 12 months. T equals one year, and r is the one-year treasury bill rate, which we take to be the risk free rate.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "The dividend rate, d, is the sum of the prior year\"s common and preferred dividends divided by the market value of assets. We use the Newton method to simultaneously solve the two equations above. For starting values for the unknown variables we use, AE V V X =+ , and",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "() A E E E V V X ss =+",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": ". Once we determine asset values,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "A V",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": ", we then compute asset returns as in Hillegeist et al. (2004) :",
+        "cite_spans": [
+          {
+            "start": 38,
+            "end": 62,
+            "text": "Hillegeist et al. (2004)",
+            "ref_id": "BIBREF30"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "( ) , , 1 max 1, t A t A t V V r m - =-",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "As expected returns cannot be negative, if asset returns are below zero they are set to the risk-free rate. 1 Merton\"s distance-todefault is finally computed as:",
+        "cite_spans": [
+          {
+            "start": 108,
+            "end": 109,
+            "text": "1",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "( ) ( ) ( ) 2 log / / 2 AA A V X T MertonDD T ms s + - \u00b6 - =-",
+            "eq_num": "(3)"
+          }
+        ],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "The default probability is the normal transform of the distance-to-default measure, defined as: The summary statistics for the distance-to-default measure are provided in Table 1 . In the table we also report the number of banks covered by both BANKSCOPE and DATASTREAM as well as the number of banks that remain after we impose data filters described above. In all, we have 1,942 banks in 68 countries for which we are able to calculate Merton DD measure. Figure 1 plots the value weighted average distance-to-default measure over time. Table 2 provides annual average distance-to-default measure for different regions. In the analyses that follow we focus on log changes in default probability: .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 171,
+            "end": 178,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 457,
+            "end": 465,
+            "text": "Figure 1",
+            "ref_id": null
+          },
+          {
+            "start": 538,
+            "end": 545,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "In addition we use a number of country level variables to explain co-dependence in the banking sector across countries. These measures relate to financial development, financial structure, as well as to financial and economic integration. We also use measures of banking regulation and supervision as explanatory variables. The first table in the appendix, Table A1 , provides an overview of the definitions and sources of these variables. Table A2 presents 7 summary statistics. In the next section we explain the various measures of co-dependence used in the analyses.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 357,
+            "end": 365,
+            "text": "Table A1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 440,
+            "end": 448,
+            "text": "Table A2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Data Sources and Credit Risk Measure",
+        "sec_num": "2."
+      },
+      {
+        "text": "Co-dependence in the Banking Sector",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3.",
+        "sec_num": null
+      },
+      {
+        "text": "There are a number of different approaches to measuring co-dependence. In this paper we use three complementary measures. The first is the variance ratio calculated as the ratio of the average variance of changes in log probability of default divided by the variance of the average changes in log default probability:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "The variance ratio increases as correlations in changes in default risk between banks increase. If the correlations are one, then the log variance ratio takes on a value of zero. The variance ratio has been previously used by Ferreira and Gama (2005) and Bakert and Wang The second measure we use is derived from quantile regressions, which estimate the functional relationship among variables at different quantiles (Koenker and Hallock 2001) .",
+        "cite_spans": [
+          {
+            "start": 226,
+            "end": 250,
+            "text": "Ferreira and Gama (2005)",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 417,
+            "end": 443,
+            "text": "(Koenker and Hallock 2001)",
+            "ref_id": "BIBREF35"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "Quantile regression allows for a more accurate estimation of the credit risk co-dependence during stress periods by taking into account nonlinear relationships when there is a large negative shock. We model the changes in a default risk of a particular bank as a function of changes in default risk of all banks:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "8",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "The estimation of a quantile regression relies on the minimization of the sum of residuals.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "The residuals are weighted asymmetrically depending on the quantile, , estimated (Koenker and Hallock 2001) . Other financial studies using the quantile regression approach include Koenker and Bassett (1978) , Engle and Manganelli (2004) , and more recently Adrian and Brunnermeier (2009) and Boyson, Stahel and Stulz (2010) . Figure 3 plots the betas calculated by estimating equation 5for each year for all the banks in our sample using the 0.90 quantile.",
+        "cite_spans": [
+          {
+            "start": 81,
+            "end": 107,
+            "text": "(Koenker and Hallock 2001)",
+            "ref_id": "BIBREF35"
+          },
+          {
+            "start": 181,
+            "end": 207,
+            "text": "Koenker and Bassett (1978)",
+            "ref_id": "BIBREF34"
+          },
+          {
+            "start": 210,
+            "end": 237,
+            "text": "Engle and Manganelli (2004)",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 258,
+            "end": 288,
+            "text": "Adrian and Brunnermeier (2009)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 293,
+            "end": 324,
+            "text": "Boyson, Stahel and Stulz (2010)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 327,
+            "end": 335,
+            "text": "Figure 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "In contrast to the second measure which focuses on large changes in default risk in the banking sector, our final measure focuses on collective behavior that may precede these very large changes. Asset correlations increase dramatically during crisis periods when there are large swings in asset prices (see for instance Ang and Chen 2002) . In other words, correlations tend to increase when the magnitudes of changes in prices are large. Since we are interested in interdependence in the banking sector, we also want to analyze periods when co-dependence may be high even when the magnitude of changes in default risk is low. With the final measure,",
+        "cite_spans": [
+          {
+            "start": 321,
+            "end": 339,
+            "text": "Ang and Chen 2002)",
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "following Harmon et al. 2011, we focus on the fraction of banks whose default risk moves in the same direction. This measure can more accurately capture collective behavior and mimicry that may culminate in a crisis. We slightly modify the methodology used by Harmon et al.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "(2011) and measure the 52 week rolling standard deviation of the fraction of banks that have positive change in their default probability in a given week:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "Above is an indicator function. First we compute the fraction of banks with a positive increase in credit risk and then compute the time series standard deviation of this measure. If the changes in credit risk are random across banks then the standard deviation will be zero. As codependence increases so does our measure. Figure 4 plots this co-movement measure calculated on an annual basis using all banks in our sample.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 323,
+            "end": 331,
+            "text": "Figure 4",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Co-dependence Measures",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "Before examining time-series variation in co-dependence for the three measures we have outlined above, we first explore commonality in changes in default for the whole sample period.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Commonality in Default Risk",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "We begin by examining correlation in changes in default risk between different regions. To compute these correlations, we first calculate value-weighted changes in log default probability, , for each region and then compute correlations over the sample period. Table 2 presents the matrix of pairwise correlations across regions. The correlations are fairly high across regions except for the Middle and North Africa region. The correlations range from -8%",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 261,
+            "end": 268,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Commonality in Default Risk",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "to over 90% with an average of 50%. Next, we conduct a standard principal components analysis on the covariance of weekly changes in default probabilities. The results are reported in To explore further the systematic variation in changes in bank default risk, we follow the methodology of Heston and Rouwenhorst (1994) and decompose changes in default risk into three components: global effect, country effects and asset size effects. The rationale for including asset size is the substantial increase in bank size and concentration over the sample period we study (Demirguc-Kunt and Huizianga 2010). The larger banks tend operate beyond national borders and compete in similar markets and activities. As larger banks tend to engage in risk-transfer with other banks of similar size, they share many linkages and are exposed to significant counter-party risk. For these reasons there maybe commonality in default risk in larger banks distinct from the rest of the banking sector. Following Demirguc-Kunt and Huizianga (2010), we classify banks into three size categories: banks with assets less than 10 billion, assets between 10 to 50 billion and assets greater than 50 billion. We model log changes in default probability as follows:",
+        "cite_spans": [
+          {
+            "start": 290,
+            "end": 319,
+            "text": "Heston and Rouwenhorst (1994)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Commonality in Default Risk",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "Above is a dummy variable equal to one, if bank belongs to size group , and zero otherwise. is a dummy variable equal to one, if bank is headquartered in country , and zero otherwise. In total we have three size groups ( ) and 47 countries ( ). Following Heston and Rouwenhorst (1994) , we impose restrictions in order to avoid multi-collinearity when estimating the parameters of the model. In particular, we impose the country and size effects weighted by the number of banks to be zero: and with and equal to the number of banks in each size category j and country k, respectively. For each period t, we run a cross-sectional regression to estimate the coefficients, , and . For each individual bank belonging to country k and in size group j, the proportion of systematic variance explained by country effects is approximately given by:",
+        "cite_spans": [
+          {
+            "start": 255,
+            "end": 284,
+            "text": "Heston and Rouwenhorst (1994)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Commonality in Default Risk",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "The proportion of systematic variance explained by size and global effects are computed in a similar fashion. Table 5 shows the results from this decomposition.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 110,
+            "end": 117,
+            "text": "Table 5",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Commonality in Default Risk",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "We report averages by region to save space. On average the global effect accounts for 20% of the systematic variation in changes in default risk. Asset size accounts for modest portion of systematic variation, on average 7%. But for larger banks with assets greater than fifty billion dollars, size accounts for 26% of the systematic variation. These results indicate that that there is a significant global component to changes in default risk in the banking sectors across different countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Commonality in Default Risk",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "In this section, we examine time series variation of co-dependence in the banking sector. In particular we are interested in whether there have been structural shifts in co-dependence over the sample period from 1998 to 2010. Following Bakeart and Wang (2009) we use trend tests to detect potential changes in co-dependence. We compute the variance ratio ( ) for each region over 52 week rolling intervals. 2 We use the following empirical model:",
+        "cite_spans": [
+          {
+            "start": 407,
+            "end": 408,
+            "text": "2",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Time Series Analyses",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "Where is a dummy variable that takes on a value of one over the specified time period, and t is the linear time trend. In estimating the coefficients, we correct for auto correlation. We split the sample into three intervals. The results from the empirical model in equation (8) are reported in Table 6 . There is an increase in co-dependence during the crises period (July 2007 to December 2009) for all regions.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 295,
+            "end": 302,
+            "text": "Table 6",
+            "ref_id": "TABREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Time Series Analyses",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "In fact there is not a single country which did not see an increase in co-dependence during this period. However we do see variation in the magnitude of the increase across countries and to some extent regions. For the time period leading up to the crises (January 2004 to June 2007), we see much greater variation. There was an increase in co-dependence throughout most of the developed world. Banks in United States, Japan and especially European Union have seen a significant rise in co-dependence. Banks located in developing countries on the other hand have seen a decline in co-dependence over the same time period. As with the crisis period, we again see much variation across countries. It is these cross-sectional differences that we explore next.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Time Series Analyses",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "In this section we examine the cross-country differences in default risk co-dependence. A number of papers have linked commonality in asset returns and asset liquidity to financial and trade liberalization. 4 We are interested in whether policies that lead to financial and economic openness and greater integration also increase co-dependence. We are also interested in the extent to which banking de-regulation and banking supervision has led to changes in codependence. The empirical model we use to test these relationships is the following:",
+        "cite_spans": [
+          {
+            "start": 207,
+            "end": 208,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Cross-country Analyses",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "Our dependent variable is the variance ratio, , calculated for each country i for each year t. We obtain similar results using the co-movement measure or the quantile betas described in Section 3.1. Since correlations increase during crises periods, we include a dummy variable,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Cross-country Analyses",
+        "sec_num": "3.4"
+      },
+      {
+        "text": ", that takes on a value of one if a country in our sample has experienced a banking crises in a given year. We use the banking crisis definition and the data provided in Leaven and Valencia (2010) . is a vector of country level variables that measure economic/financial openness and banking regulation/supervision. is a vector of country level controls. We use GDP per capita, GDP per capita growth to control for levels of economic and financial development. Previous literature has shown that more developed countries tend to have lower commonality in asset prices and liquidity (see for instance Karolyi, Lee and Van Dijk 2009) . To 13 control for differences in financial structure, we use stock market capitalization over GDP and bank deposits over GDP (Beck, Demirg\u00fc\u00e7-Kunt, and Levine, 2000) . We may expect to see differences in co-dependence in bank vs. market based systems. We also include liquid assets ratio and capital ratio to control for the funding liquidity of the domestic financial system (Beck and Demirg\u00fc\u00e7-Kunt 2004) . Overall liquidity in the financial system may reduce or eliminate some channels of contagion which increase co-dependence. Finally we control for the log of the number of banks in the sample, since correlation may be mechanically linked to the number of cross-sectional observations (Morck 2000). We also exclude countries with less than 7 banks from the analyses. The regressions include country fixed effects ( ) and we report robust standard errors clustered at the country level.",
+        "cite_spans": [
+          {
+            "start": 170,
+            "end": 196,
+            "text": "Leaven and Valencia (2010)",
+            "ref_id": null
+          },
+          {
+            "start": 599,
+            "end": 630,
+            "text": "Karolyi, Lee and Van Dijk 2009)",
+            "ref_id": null
+          },
+          {
+            "start": 758,
+            "end": 797,
+            "text": "(Beck, Demirg\u00fc\u00e7-Kunt, and Levine, 2000)",
+            "ref_id": null
+          },
+          {
+            "start": 1008,
+            "end": 1037,
+            "text": "(Beck and Demirg\u00fc\u00e7-Kunt 2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Cross-country Analyses",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "Cross-sectional regression results are reported in Table 7 . As expected we find the coefficient on the bank-crises dummy to be significant and positive. That is co-dependence increases significantly during crises periods. As mentioned earlier, consistent with the prior literature we find gdp per capita growth to reduce co-dependence, although the level of GDP per capita is insignificant. We find stock market capitalization over GDP to increase co-dependence.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 51,
+            "end": 58,
+            "text": "Table 7",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Cross-country Analyses",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "One possible explanation is that more market based systems have more potential channels of contagion. Surprisingly, the coefficient on the liquid assets ratio is negative and significant. The capital assets ratio is insignificant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Cross-country Analyses",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "As mentioned earlier we are particularly interested in the impact of financial and economic openness and integration on co-dependence. We are also interested in the extent to which banking de-regulation and banking supervision can explain cross-country differences in co-dependence. We use a number of different variables to measure integration and financial openness. The first measure is stock market turnover which has a positive statistically significant effect on co-dependence. Trade over GDP has been previously used in the literature to measure economic integration (Bekaert and Wang 2009) . We do not find it to be significant after controls. The Chin-Ito measure quantifies capital control policies and other regulations and restrictions on capital flows (Chin and Ito 2008) . It shows up positive and significant. We also consider the impact of social and political integration. We use the KOF political and social globalization index (Dreher et al. 2000) . 5 Political integration variable shows up as significant and positive while the social integration variable is insignificant.",
+        "cite_spans": [
+          {
+            "start": 574,
+            "end": 597,
+            "text": "(Bekaert and Wang 2009)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 765,
+            "end": 784,
+            "text": "(Chin and Ito 2008)",
+            "ref_id": null
+          },
+          {
+            "start": 946,
+            "end": 966,
+            "text": "(Dreher et al. 2000)",
+            "ref_id": null
+          },
+          {
+            "start": 969,
+            "end": 970,
+            "text": "5",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Cross-country Analyses",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "Next we examine the impact of deregulation and financial liberalization on codependence. We use the database created by Abiad Detragiatche and Tressel 2010 well. We use the deposit insurance coverage ratio (Beck and Demirg\u00fc\u00e7-Kunt 2004) as a proxy for moral hazard. We find a positive and significant relationship between moral hazard and codependence. Overall, our results suggest that countries which are more integrated, and which have liberalized financial systems and weak banking supervision also have higher co-dependence in their banking sector.",
+        "cite_spans": [
+          {
+            "start": 206,
+            "end": 235,
+            "text": "(Beck and Demirg\u00fc\u00e7-Kunt 2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Cross-country Analyses",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "This paper examines time-series and cross-country variations in default risk co-dependence in the global banking sector. We compute weekly changes in default probabilities based on the Merton (1974) model for over 1,800 banks in over 70 countries. We show that systematic default risk has a significant global component in the banking sector accounting for 20% of the 15 systematic variation. During the global financial crisis, there has been a uniform increase in codependence across all countries. However, we do find cross-sectional differences in the magnitude of the increase across different countries. We also find that there has been a significant increase in default risk co-dependence over the three year period leading up to the financial crisis. During this time period we find even greater cross-country variation, with banks located in the developed countries (and especially banks located in the US and the European Union) seeing an increase co-dependence while banks located in developing countries seeing a decrease. Examining the 1998-2010 time period, we find that countries which are more integrated, and which have liberalized financial systems and weak banking supervision and greater safety net coverage also have higher co-dependence in their banking sector. The results in this paper have important policy implications. Most importantly, our results support an increase in scope for international supervisory co-operation, as well as capital charges for too-connectedto-fail\" institutions that can impose significant externalities.",
+        "cite_spans": [
+          {
+            "start": 185,
+            "end": 198,
+            "text": "Merton (1974)",
+            "ref_id": "BIBREF38"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "4."
+      },
+      {
+        "text": "This figure shows the weekly weighted-average distance-to-default of all banks satisfying the data requirements outlined in Section 2 of the paper. Market capitalizations of the banks are used as weights.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 1. Global Distance-to-Default",
+        "sec_num": null
+      },
+      {
+        "text": "This figure shows the variance ratio calculated as the ratio of the average variance of changes in log probability of default divided by the variance of the average changes in log default probability (equation 4) for all banks in the dataset. Variance ratio is calculated each year using weekly data.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 2. Variance Ratio",
+        "sec_num": null
+      },
+      {
+        "text": "This figure shows the Beta coefficient estimates from the quantile regression specified in equation 5of the paper. The coefficient is estimated each year using the 0.90 th quantile.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 3. Quantile Regression Estimates",
+        "sec_num": null
+      },
+      {
+        "text": "This figure shows the co-movement measure (specified in equation 6of the paper) calculated as the 52 week rolling standard deviation of the fraction of banks that have positive change in their default probability in a given week. The co-movement measure is computed each year using weekly data.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 4. Co-movement Measure",
+        "sec_num": null
+      },
+      {
+        "text": "This figure shows the percentage of banks in a given week that have simultaneous worst change in default risk over a 12 month time period. We compute log changes in default probability each week for each bank in our dataset. Each year, we then count the number of banks that had their worst change in log default probability in the same week. We then divide this count by the total number of banks in the dataset in that particular year. This table shows the summary statistics for the distance-to-default measure for countries for which we have at least one observation. Our original data from both BankScope and Datastream covers 2,294 publicly traded banks across 86 countries. Of these banks, 1,942 of them satisfy our requirement that 1) they have at least 36 weekly non-zero volume and non-missing returns over the previous 12 months, 2) they have non-missing liabilities and market capitalization, in order to compute distance-to-default. This table shows the weighted-average distance-to-default measure for 9 different regions computed each year. We calculate weighted-average distance-to-default by market capitalization each week for each region. We then compute arithmetic averages across 52 weeks in a given year. In this table, we report the systematic variance attributable to global, country and size effects. We use Heston & Rouwenhorst (1994) \"s method to decompose the systematic variance of changes in log default probability ( ). Each week we run 30 a cross-sectional regression of onto a constant and 47 country dummy variables and 3 size dummy variables:",
+        "cite_spans": [
+          {
+            "start": 1333,
+            "end": 1360,
+            "text": "Heston & Rouwenhorst (1994)",
+            "ref_id": "BIBREF29"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Figure 5. Clustering in Default Risk",
+        "sec_num": null
+      },
+      {
+        "text": ". In the regression, is a dummy variable equal to one, if bank belongs to size group , and zero otherwise. is a dummy variable equal to one, if bank is headquartered in country , and zero otherwise. We impose restrictions in order to avoid multi-collinearity when estimating the parameters of the model. In particular, we impose the country and size effects weighted by the number of banks to be zero: and with and equal to the number of banks in each size category j and country k, respectively. For each period t, we run a cross-sectional regression to estimate the coefficients, , and . For each individual bank belonging to country k and in size group j, the proportion of systematic variance explained by country effects is approximately given by:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Country",
+        "sec_num": null
+      },
+      {
+        "text": "The proportion of systematic variance explained by size and global effects are computed in a similar fashion. 2009) we use trend tests to detect potential changes in co-dependence. First, the variance ratio ) is computed for each region each week over 52 week rolling intervals. We use log changes in default probability and include banks with at least 26 observations to experienced a banking crises in a given year. We use the banking crisis definition and the data provided in Leaven and Valencia (2010) . is a vector of country level controls, includes GDP per capita, GDP per capita growth, stock market capitalization over GDP, bank deposits over GDP, liquid assets ratio, capital ratio and log of the number of banks. These variables are described in detail in the appendix. In the regressions, we exclude countries with less than 7 banks. The regressions include country fixed effects ( ) and we report robust standard errors clustered at the country level. ",
+        "cite_spans": [
+          {
+            "start": 110,
+            "end": 115,
+            "text": "2009)",
+            "ref_id": null
+          },
+          {
+            "start": 480,
+            "end": 506,
+            "text": "Leaven and Valencia (2010)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Country",
+        "sec_num": null
+      },
+      {
+        "text": "This table describes the country-level variables used in the analyses in this paper. The data sources are provided under the \"Source\" column.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table A1. Country-Level Variables Used in the Empirical Analyses",
+        "sec_num": null
+      },
+      {
+        "text": "We obtain similar results if we use a 6% equity premium instead of asset returns as inCHS (2008).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We obtain similar results using the co-movement measure or the quantile betas described in Section 3.1. 3 http://invest.bnpparibas.com/cid3162415/bnp-paribas-investment-partners-temporaly-suspends-the-calculation-ofthe-net-asset-value-of-the-following-funds-parvest-dynamic-abs-bnp-paribas-abs-euribor-and-bnp-paribas-abseonia.html?pid=769",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "See for instanceKarolyi, Lee and Van Dijk (2009) andBekaert and Wang (2009).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "KOF means \"Konjunkturforschungsstelle\" -Swiss Economic Institute.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "compute the variance ratio. We then run the following regression:Where is a dummy variable that takes on a value of one over the specified time period, and t is the linear time trend. In estimating the coefficients, we correct for auto correlation using Newey-West with three lags. 3  3  3  3  3  3  3  3  3  3  3  3 3 3 ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 282,
+            "end": 316,
+            "text": "3  3  3  3  3  3  3  3  3  3  3  3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "annex",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "A new database of financial reforms",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Abiad",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Detragiache",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Tressel",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "IMF Staff Papers",
+        "volume": "57",
+        "issue": "2",
+        "pages": "281--302",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Abiad, A., Detragiache, E. and Tressel, T. (2010). \"A new database of financial reforms. IMF Staff Papers\", 57 (2), 281-302.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "CoVaR",
+        "authors": [
+          {
+            "first": "Tobias",
+            "middle": [],
+            "last": "Adrian",
+            "suffix": ""
+          },
+          {
+            "first": "Markus",
+            "middle": [
+              "K"
+            ],
+            "last": "Brunnermeier",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Federal Reserve Bank of New York Staff Report",
+        "volume": "348",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Adrian, Tobias and Markus K. Brunnermeier (2009), \"CoVaR.\" Federal Reserve Bank of New York Staff Report 348.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Financial Intermediary Leverage and Value at Risk",
+        "authors": [
+          {
+            "first": "Tobias",
+            "middle": [],
+            "last": "Adrian",
+            "suffix": ""
+          },
+          {
+            "first": "Hyun",
+            "middle": [],
+            "last": "Shin",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Federal Reserve Bank of New York Sta\u00a4 Report",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Adrian, Tobias and Hyun Shin (2008). \"Financial Intermediary Leverage and Value at Risk,\" Federal Reserve Bank of New York Sta\u00a4 Report No. 338.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Financial Contagion",
+        "authors": [
+          {
+            "first": "Franklin",
+            "middle": [],
+            "last": "Allen",
+            "suffix": ""
+          },
+          {
+            "first": "Douglas",
+            "middle": [],
+            "last": "Gale",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Journal of Political Economy",
+        "volume": "108",
+        "issue": "",
+        "pages": "1--33",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Allen, Franklin and Douglas Gale (2000) \"Financial Contagion\", Journal of Political Economy , 108, 1-33.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Asymmetric Correlations of Equity Portfolios",
+        "authors": [
+          {
+            "first": "Andrew",
+            "middle": [],
+            "last": "Ang",
+            "suffix": ""
+          },
+          {
+            "first": "Joseph",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Journal of Financial Economics",
+        "volume": "63",
+        "issue": "",
+        "pages": "443--494",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ang, Andrew and Joseph Chen (2002) \"Asymmetric Correlations of Equity Portfolios\", Journal of Financial Economics , 63, 443-494",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "A new risk indicator and stress testing tool: A multifactor Nth-to-default CDS basket",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Avesani",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "G"
+            ],
+            "last": "Pascual",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Li",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Avesani, R., Pascual, A. G., Li, J., (2006).\"A new risk indicator and stress testing tool: A multifactor Nth-to-default CDS basket\". IMF Working Paper No. 06/105.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Liaisons Dangereuses: Increasing Connectivity, Risk Sharing and Systemic Risk",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Battiston",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Delli",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Gatti",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Gallegati",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Greenwald",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Battiston, S., D. Delli Gatti, M. Gallegati, B. Greenwald, and J. Stiglitz. (2009). \"Liaisons Dangereuses: Increasing Connectivity, Risk Sharing and Systemic Risk\", NBER Working Paper No. 15611",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "A New Database on the Structure and Development of the Financial Sector",
+        "authors": [
+          {
+            "first": "Ross",
+            "middle": [],
+            "last": "Levine",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "The World Bank Economic Review",
+        "volume": "14",
+        "issue": "",
+        "pages": "597--605",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Levine, Ross, (2000), \"A New Database on the Structure and Development of the Financial Sector\" The World Bank Economic Review 14, 597- 605.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Aggregate idiosyncratic volatility",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Bekaert",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "J"
+            ],
+            "last": "Hodrick",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bekaert, G., R. J. Hodrick, and X. Zhang, (2010), \"Aggregate idiosyncratic volatility\", Working Paper, Columbia University.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Globalization and Asset Prices",
+        "authors": [
+          {
+            "first": "Geert",
+            "middle": [],
+            "last": "Bekaert",
+            "suffix": ""
+          },
+          {
+            "first": "Xiaozheng",
+            "middle": [],
+            "last": "Wang",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bekaert, Geert, and Xiaozheng Wang, (2009),\" Globalization and Asset Prices\", Working Paper, Columbia University.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Inflation Risk and the Inflation Risk Premium",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Bekaert",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Wang",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Economic Policy",
+        "volume": "25",
+        "issue": "",
+        "pages": "755--806",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bekaert G. and Wang X. (2010), \"Inflation Risk and the Inflation Risk Premium\", Economic Policy, 25(64), October, p. 755-806.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Forecasting Default with the Merton Distance to Default Model",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [
+              "T"
+            ],
+            "last": "Bharath",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Shumway",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Review of Financial Studies",
+        "volume": "21",
+        "issue": "3",
+        "pages": "1339--1369",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bharath, S. T., and T. Shumway (2008): \"Forecasting Default with the Merton Distance to Default Model,\" Review of Financial Studies, 21(3), 1339-1369.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Preference Shocks, Liquidity, and Central Bank Policy",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Bhattacharya",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Gale",
+            "suffix": ""
+          }
+        ],
+        "year": 1987,
+        "venue": "New Approaches to Monetary Economics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bhattacharya, S., and D. Gale, (1987), \"Preference Shocks, Liquidity, and Central Bank Policy\", in W. A. Barnett and K. J. Singleton (eds.), New Approaches to Monetary Economics, Cambridge University Press, Cambridge.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "How good is the market at assessing bank fragility? A horse race between different indicators",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Bongini",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [
+              "& G"
+            ],
+            "last": "Laeven",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Majnoni",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Journal of Banking & Finance",
+        "volume": "5",
+        "issue": "26",
+        "pages": "1011--1028",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bongini, P., Laeven, L. & G. Majnoni (2002) \"How good is the market at assessing bank fragility? A horse race between different indicators\", Journal of Banking & Finance , (26)5: 1011-1028.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Hedge Fund Contagion and Liquidity Shocks",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Boyson",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Stahel",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Stulz",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Journal of Finance",
+        "volume": "65",
+        "issue": "5",
+        "pages": "1789--1816",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Boyson, N., C. Stahel, and R. Stulz (2010): \"Hedge Fund Contagion and Liquidity Shocks,\" Journal of Finance, 65(5), 1789-1816.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "The Fundamental Principles of Financial Regulation",
+        "authors": [
+          {
+            "first": "Markus",
+            "middle": [],
+            "last": "Brunnermeier",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          },
+          {
+            "first": "Andrew",
+            "middle": [],
+            "last": "Crockett",
+            "suffix": ""
+          },
+          {
+            "first": "Charles",
+            "middle": [],
+            "last": "Goodhart",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Geneva Reports on the World Economy",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Brunnermeier, Markus, K, Andrew Crockett, Charles Goodhart, Avinash Persuad, and Hyun Shin, (2009). \"The Fundamental Principles of Financial Regulation,\" Geneva Reports on the World Economy, 11.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "In search of distress risk",
+        "authors": [
+          {
+            "first": "John",
+            "middle": [
+              "Y"
+            ],
+            "last": "Campbell",
+            "suffix": ""
+          },
+          {
+            "first": "Jens",
+            "middle": [],
+            "last": "Hilscher",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Journal of Finance",
+        "volume": "63",
+        "issue": "",
+        "pages": "2899--2939",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Campbell, John Y., Jens Hilscher, and Jan Szilagyi, (2008),\" In search of distress risk\", Journal of Finance 63, 2899-2939.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "The END: A New Indicator of Financial and NonFinancial Corporate Sector Vulnerability",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "A"
+            ],
+            "last": "Chan-Lau",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Gravelle",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chan-Lau, J. A., and T. Gravelle, (2005), \"The END: A New Indicator of Financial and NonFinancial Corporate Sector Vulnerability,\" IMF Working Paper No. 05/231",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "A New Measure of Financial Openness",
+        "authors": [
+          {
+            "first": "Menzie",
+            "middle": [
+              "D"
+            ],
+            "last": "Chinn",
+            "suffix": ""
+          },
+          {
+            "first": "Hiro",
+            "middle": [],
+            "last": "Ito",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Journal of Comparative Policy Analysis",
+        "volume": "10",
+        "issue": "",
+        "pages": "309--322",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chinn, Menzie D. and Hiro Ito (2008). \"A New Measure of Financial Openness\". Journal of Comparative Policy Analysis 10, 309 -322.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Risk Appetite and Endogenous Risk",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Danielsson",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [
+              "S"
+            ],
+            "last": "Shin",
+            "suffix": ""
+          },
+          {
+            "first": "J.-P",
+            "middle": [],
+            "last": "Zigrand",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Danielsson, J., H.S. Shin, and J.-P. Zigrand (2009), \"Risk Appetite and Endogenous Risk,\" mimeo.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Systemic risk and financial consolidation. Are they related ?",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "De Nicolo",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Kwast",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Journal of Banking and Finance",
+        "volume": "26",
+        "issue": "",
+        "pages": "861--880",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "De Nicolo, G. and M. Kwast (2002), Systemic risk and financial consolidation. Are they related ? Journal of Banking and Finance 26, 861-880.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Are banks too-big-too fail or too big to save? International Evidence from equity prices and CDS spreads",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Demirguc-Kunt",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Huizinga",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Demirguc-Kunt, A., and Huizinga, H. (2010). \"Are banks too-big-too fail or too big to save? International Evidence from equity prices and CDS spreads\", World Bank Policy Research Paper Number 5360.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Liquidity risk, liquidity creation and financial fragility: A theory of banking",
+        "authors": [
+          {
+            "first": "Douglas",
+            "middle": [
+              "W"
+            ],
+            "last": "Diamond",
+            "suffix": ""
+          },
+          {
+            "first": "Raghuram",
+            "middle": [
+              "G"
+            ],
+            "last": "Rajan",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Journal of Political Economy",
+        "volume": "109",
+        "issue": "",
+        "pages": "287--327",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Diamond, Douglas W., and Raghuram G. Rajan, (2001), \"Liquidity risk, liquidity creation and financial fragility: A theory of banking\", Journal of Political Economy 109, 287-327.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "CAViaR: conditional autoregressive value at risk by regression quantiles",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Engle",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Manganelli",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Journal of Business & Economic Statistics",
+        "volume": "22",
+        "issue": "",
+        "pages": "367--381",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Engle, R., Manganelli, S. (2004). \"CAViaR: conditional autoregressive value at risk by regression quantiles\". Journal of Business & Economic Statistics 22, 367-381.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Have World, Country, And Industry Risks Changed Over Time? An Investigation Of The Volatility Of Developed Stock Markets",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "A"
+            ],
+            "last": "Ferreira",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [
+              "M"
+            ],
+            "last": "Gama",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of Financial and Quantitative Analysis",
+        "volume": "40",
+        "issue": "",
+        "pages": "195--222",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ferreira, M. A. and P. M. Gama (2005) \" \"Have World, Country, And Industry Risks Changed Over Time? An Investigation Of The Volatility Of Developed Stock Markets\", Journal of Financial and Quantitative Analysis, 40, 195-222.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "No Contagion, Only Interdependence: Measuring Stock Market Comovements",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Forbes",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Rigobon",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "57",
+        "issue": "",
+        "pages": "2223--2261",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Forbes, K., and R. Rigobon (2002): \"No Contagion, Only Interdependence: Measuring Stock Market Comovements,\" The Journal of Finance, 57(5), 2223-2261.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Book Review: The Big Short Shrift",
+        "authors": [
+          {
+            "first": "Gary",
+            "middle": [
+              "B"
+            ],
+            "last": "Gorton",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Journal of Economic Literature",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gorton, Gary B., (2011) \"Book Review: The Big Short Shrift \", Journal of Economic Literature, forthcoming.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Comovements in the Price of Securities Issued by Large Complex Financial Institutions",
+        "authors": [
+          {
+            "first": "Christian",
+            "middle": [],
+            "last": "Hawkesby",
+            "suffix": ""
+          },
+          {
+            "first": "Ian",
+            "middle": [],
+            "last": "Marsh",
+            "suffix": ""
+          },
+          {
+            "first": "Ibrahim",
+            "middle": [],
+            "last": "Stevens",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Bank of England Working Paper",
+        "volume": "",
+        "issue": "256",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hawkesby, Christian, Ian Marsh, Stevens Ibrahim, (2005), \"Comovements in the Price of Securities Issued by Large Complex Financial Institutions,\" Bank of England Working Paper no. 256, (London: Bank of England).",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Does Industrial Structure Explain the Benefits of International Diversification?",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Heston",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Rouwenhorst",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Journal of Financial Economics",
+        "volume": "36",
+        "issue": "",
+        "pages": "3--27",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Heston, S. and G. Rouwenhorst, (1994).\" Does Industrial Structure Explain the Benefits of International Diversification?\" Journal of Financial Economics 36, 3-27.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "Assessing the probability of bankruptcy",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Hillegeist",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Keating",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Cram",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Lundstedt",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Review of Accounting Studies",
+        "volume": "9",
+        "issue": "",
+        "pages": "5--34",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hillegeist, S., E. Keating, D. Cram, and K. Lundstedt (2004): \"Assessing the probability of bankruptcy,\" Review of Accounting Studies , 9, 5-34",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "A framework for assessing the systemic risk of major financial institutions",
+        "authors": [
+          {
+            "first": "Xin",
+            "middle": [],
+            "last": "Huang",
+            "suffix": ""
+          },
+          {
+            "first": "Hao",
+            "middle": [],
+            "last": "Zhou",
+            "suffix": ""
+          },
+          {
+            "first": "Haibin",
+            "middle": [],
+            "last": "Zhu",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Journal of Banking and Finance",
+        "volume": "33",
+        "issue": "",
+        "pages": "2036--2049",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Huang, Xin, Hao Zhou, and Haibin Zhu (2009), \"A framework for assessing the systemic risk of major financial institutions,\" Journal of Banking and Finance 33, 2036-2049.",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Why Are We in a Recession? The Financial Crisis is the Symptom Not the Disease!\" Mimeo",
+        "authors": [
+          {
+            "first": "Ravi",
+            "middle": [],
+            "last": "Jagannathan",
+            "suffix": ""
+          },
+          {
+            "first": "Mudit",
+            "middle": [],
+            "last": "Kapoor",
+            "suffix": ""
+          },
+          {
+            "first": "Ernst",
+            "middle": [],
+            "last": "Schaumberg",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jagannathan, Ravi, Mudit Kapoor, and Ernst Schaumberg (2009). \"Why Are We in a Recession? The Financial Crisis is the Symptom Not the Disease!\" Mimeo, Northwestern University and India School of Business (November).",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "Regression Quantiles",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Koenker",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Bassett",
+            "suffix": ""
+          }
+        ],
+        "year": 1978,
+        "venue": "Econometrica",
+        "volume": "46",
+        "issue": "1",
+        "pages": "33--50",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Koenker, R. and Bassett, G. (1978) \"Regression Quantiles\", Econometrica, 46(1), 33-50.",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "Quantile regression",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Koenker",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [
+              "F"
+            ],
+            "last": "Hallock",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Journal of Economic Perspectives",
+        "volume": "15",
+        "issue": "",
+        "pages": "143--156",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Koenker, R. and K.F. Hallock, (2001).\" Quantile regression\", Journal of Economic Perspectives 15, 143-156.",
+        "links": null
+      },
+      "BIBREF36": {
+        "ref_id": "b36",
+        "title": "Resolution of Banking Crises: the Good, the Bad, and the Ugly",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Laeven",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Valencia",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "IMF Working Paper",
+        "volume": "",
+        "issue": "146",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Laeven L. and Valencia F.,(2010) \"Resolution of Banking Crises: the Good, the Bad, and the Ugly\", IMF Working Paper, no. 146.",
+        "links": null
+      },
+      "BIBREF37": {
+        "ref_id": "b37",
+        "title": "Is the Correlation in International Equity Returns Constant: 1960 to 1990?",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Longin",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Solnik",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "Journal of International Money and Finance",
+        "volume": "14",
+        "issue": "1",
+        "pages": "3--26",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Longin, F., Solnik, B., (1995), \"Is the Correlation in International Equity Returns Constant: 1960 to 1990?\", Journal of International Money and Finance 14 (1), 3-26.",
+        "links": null
+      },
+      "BIBREF38": {
+        "ref_id": "b38",
+        "title": "On the Pricing of Corporate Debt: The Risk Structure of Interest Rates",
+        "authors": [
+          {
+            "first": "Robert",
+            "middle": [
+              "C"
+            ],
+            "last": "Merton",
+            "suffix": ""
+          }
+        ],
+        "year": 1974,
+        "venue": "The Journal of Finance",
+        "volume": "29",
+        "issue": "",
+        "pages": "449--470",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Merton, Robert C., (1974): \"On the Pricing of Corporate Debt: The Risk Structure of Interest Rates,\" The Journal of Finance 29, 449-470.",
+        "links": null
+      },
+      "BIBREF39": {
+        "ref_id": "b39",
+        "title": "On the pricing of contingent claims and the Modigliani-Miller theorem",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "C"
+            ],
+            "last": "Merton",
+            "suffix": ""
+          }
+        ],
+        "year": 1977,
+        "venue": "Journal of Financial Economics",
+        "volume": "15",
+        "issue": "2",
+        "pages": "241--250",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Merton, R.C. (1977). \"On the pricing of contingent claims and the Modigliani-Miller theorem\". Journal of Financial Economics, 15, No. 2, 241-250.",
+        "links": null
+      },
+      "BIBREF40": {
+        "ref_id": "b40",
+        "title": "Illiquidity component of credit risk",
+        "authors": [
+          {
+            "first": "Stephen",
+            "middle": [],
+            "last": "Morris",
+            "suffix": ""
+          },
+          {
+            "first": "Hyun",
+            "middle": [
+              "Song"
+            ],
+            "last": "Shin",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Morris, Stephen, and Hyun Song Shin, (2009),\" Illiquidity component of credit risk\", Working paper, Prince-ton University.",
+        "links": null
+      },
+      "BIBREF41": {
+        "ref_id": "b41",
+        "title": "The threat of systemic risk in European banking: Centre for European Economic Research (ZEW)",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Schuler",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schuler M., (2003).\" The threat of systemic risk in European banking: Centre for European Economic Research (ZEW)\", discussion paper, September, Mannheim.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "text": "in examining convergence of asset prices in international markets. Figure 2 plots variance ratio calculated on annual basis for all banks in our sample.",
+        "fig_num": "2010"
+      },
+      "FIGREF1": {
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "text": "Table 4. The first principal component explains more than 60 percent of the variation, while the first three principal components explain close to 90 percent. The principal component analyses results suggest that there is a significant amount of commonality in the variation of default risk changes. Furthermore, the first principal component consists of a roughly uniform weighting of default risk changes for countries in our sample. The first principal component, thus, resembles a global factor affecting the default risk changes of all banks. Consistent with this result we observe significant clustering of changes in bank default probabilities. Figure 5 shows the percentage of banks that had their worst change in default risk in the same week over a 12 month time period. If the changes in credit risk are independent we would expect to see an even distribution of worst changes in default risk for banks over time. In other words we would expect to see a flat line with no spikes. Instead, we see significant clustering. The extent of clustering during the recent financial crisis is especially dramatic.",
+        "fig_num": null
+      },
+      "FIGREF2": {
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "text": "Time period from June 2007 to December 2009 corresponds roughly to the global financial crises. Although it is difficult pin down the exact date, it was towards the end of June 2007 when the first significant signs of the crisis began to appear. Market uncertainty increased and spreads started to widen significantly as subprime mortgage backed securities were discovered in portfolios of banks and hedge funds around the world. Few weeks later, BNP ceased redemptions in three of its funds due to \"complete evaporation of liquidity\" in the markets. 3 January 2004 to June 2007 is the period leading up the subprime crisis. It was around the beginning of 2004 when there began a substantial increase in subprime lending, growth of so-called shadow banking(Gorton 2011), increase in leverage of major financial institutions and reliance in short-term borrowing Shin 2011, Morris   and as well as increase in global imbalances(Jagannathan, Kapoor and Schaumburg   2009) that culminated in a crisis starting the summer of 2007.",
+        "fig_num": null
+      },
+      "FIGREF3": {
+        "num": null,
+        "uris": null,
+        "type_str": "figure",
+        "text": "that quantifies financial reforms over a thirty year time period. Results under models 6 and 7 show that reforms that have led to international capital liberalization and stock market liberalization have increased co-dependence. Reforms that have led to stronger bank supervision, however, have decreased co-dependence (model 8). We also examine the impact of bank concentration as measured by assets of 3 largest banks as a share of assets of all commercial banks. As mentioned earlier, there has been a substantial increase in concentration in both developing and developed countries. As the recent crisis has demonstrated, large complex financial institutions can cause systemic disruptions affecting all other financial institutions. We find concentration to increase co-dependence. This is in contrast toBeck, Demirg\u00fc\u00e7-Kunt, and Levine (2006) who    show that countries with a more concentrated banking system are less likely to suffer a systemic banking crisis. Finally, we examine the impact of moral hazard on co-dependence. If there is an implicit guarantee provided by the State to cover losses stemming from a systemic crisis, banks will have incentives to take on correlated risks (Acharya 2005). Guaranteed banks will not have incentives to diversify their operations, since the guarantee takes effect only if other banks fail as",
+        "fig_num": null
+      },
+      "TABREF0": {
+        "num": null,
+        "type_str": "table",
+        "content": "<table/>",
+        "text": "",
+        "html": null
+      },
+      "TABREF2": {
+        "num": null,
+        "type_str": "table",
+        "content": "<table/>",
+        "text": "",
+        "html": null
+      },
+      "TABREF4": {
+        "num": null,
+        "type_str": "table",
+        "content": "<table><tr><td colspan=\"4\">This Proportion of Variance Explained</td></tr><tr><td colspan=\"2\">Component Eigenvalue</td><td>Marginal</td><td>Cumulative</td></tr><tr><td>Comp1</td><td>5.582</td><td>0.6202</td><td>0.6202</td></tr><tr><td>Comp2</td><td>1.809</td><td>0.2010</td><td>0.8213</td></tr><tr><td>Comp3</td><td>0.612</td><td>0.0679</td><td>0.8892</td></tr><tr><td>Comp4</td><td>0.404</td><td>0.0449</td><td>0.9341</td></tr><tr><td>Comp5</td><td>0.246</td><td>0.0274</td><td>0.9615</td></tr></table>",
+        "text": "table reports the first five components from a principle components analysis of default risk. First, we compute valueweighted average changes in log default probability for banks in our dataset. The market capitalizations are used as weights. We then perform a principal component decomposition. Eigenvalues, marginal and cumulative proportion variances are reported respectively.",
+        "html": null
+      },
+      "TABREF5": {
+        "num": null,
+        "type_str": "table",
+        "content": "<table/>",
+        "text": "",
+        "html": null
+      },
+      "TABREF7": {
+        "num": null,
+        "type_str": "table",
+        "content": "<table/>",
+        "text": "Time-series AnalysisThis table shows the regression estimates from equation (8) in the paper. Following Bakeart and Wang (",
+        "html": null
+      }
+    }
+  }
+}

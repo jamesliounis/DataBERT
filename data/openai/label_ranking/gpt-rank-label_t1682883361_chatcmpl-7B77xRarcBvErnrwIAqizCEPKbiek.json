@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04826: We use the International Monetary Fund's Government Finance Statistics (GFS) database that contains government spending data comparable across countries.\n\ns_04876: The chi-square test statistics are estimated at 9.86, 2.68 and 4.44 for the column (1), (2) and (3) models.\n\ns_04926: Table 4 presents the regressions that were subsequently used for the projections.\n\ns_04976: As data are available only for selected years, we also rely on time-series constructed by Duval et al.\n\ns_05026: For the sake of completeness, we report these results in the relevant results table discussed in the next section.\n\ns_05076: Data were compiled between November 8, 2010 and March 7, 2011.\n\ns_05126: The PWT 8.1 data is available for the period 1990 -2010.\n\ns_05176: 2009 ; Currie and Gruber 1996; Newacheck et al.\n\ns_05226: For a detailed discussion, see Cherchye et al.\n\ns_05276: Lopez-Acevedo (1999a) shows that differences in enrollment elasticity among states can be significant at lower secondary education (see table 1 in the annex ).\n\ns_05326: The rest of the paper is organized as follows.\n\ns_05376: This step is followed by the actual data collection.\n\ns_05426: We obtain the PTA data from the WTO RTA database and the World Bank PTA data, which provide contents and enforcement dates of PTAs across countries.\n\ns_05476: First, the paper discusses the current knowledge gaps and the project's contribution to the existing literature and evidence.\n\ns_05526: This research is also based on data from the International Income Distribution Data Set (I2D2).\n\ns_05576: These are based on a readily available dataset created for use at the global scale using a calibrated geospatial prediction model.\n\ns_05626: , 2004; Behrman y Hoddinott, 2005 ; Cecchini y Soares, 2015).\n\ns_05676: The authors may be contacted at mpiatti@worldbank.org.\n\ns_05726: (2003) , Acemoglu and Autor (2011) , Autor and Dorn (2013) and Autor (2014) for the U.S., Goos and Manning (2007) for the United Kingdom, and Goos et al.\n\ns_05776: Section 2 describes our sample, the context, the intervention and the data.\n\ns_05826: To cite one example, Table 6 reports statistics for the period 1 PM -2 PM that include daily observations for Sentinel-5P and hourly observations for CAMS-3 and Google Traffic.\n\ns_05876: (2016) make use of the EORA database to estimate upstream linkages in GVC participation for countries in the region as the outcome of a range of control variables that are also of interest to this study.\n\ns_05926: Our data differs from that of the study byDevereux et al.\n\ns_05976: The study adds to the literature in the following ways: (1) it is one of the first studies to explore determinants of mobile internet adoption in developing countries, (2) it uses nationally representative household-level data that follow a consistent methodology across countries allowing for cross-country comparisons, which is a rarity in the literature, and (3) it establishes a significant relationship between a few demand side variables and mobile internet adoption, which present significant policy implications.\n\ns_06026: 31 Figure 6 compares STMs, on impact, from the calibrated TANK model (dotted bars) with the empirical estimates shown previously in Section 2 (solid bars)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B77xRarcBvErnrwIAqizCEPKbiek",
+    "object": "chat.completion",
+    "created": 1682883361,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1056,
+      "completion_tokens": 98,
+      "total_tokens": 1154
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05426\", \"data_mentioned\": true, \"reason\": \"WTO RTA database and the World Bank PTA data\"}, {\"sent_id\": \"s_05526\", \"data_mentioned\": true, \"reason\": \"International Income Distribution Data Set (I2D2)\"}, {\"sent_id\": \"s_05926\", \"data_mentioned\": true, \"reason\": \"study byDevereux et al.\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05426\", \"data_mentioned\": true, \"reason\": \"WTO RTA database and the World Bank PTA data\"}, {\"sent_id\": \"s_05526\", \"data_mentioned\": true, \"reason\": \"International Income Distribution Data Set (I2D2)\"}, {\"sent_id\": \"s_05926\", \"data_mentioned\": true, \"reason\": \"study byDevereux et al.\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

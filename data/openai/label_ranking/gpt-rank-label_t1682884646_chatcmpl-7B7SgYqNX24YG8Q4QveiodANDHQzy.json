@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07645: From 1982 to 1989, banks attempted to offer relief to debtors on a case-bycase basis using reschrdulings and so-called concerted new money operations.\n\ns_07695: where for each block of Tables 3 and 4 .\n\ns_07745: Very little data is available 10 Note that the data presented on the central government exclude capital expenditure financed through external project aid and the corresponding grants and loans.\n\ns_07795: Table Blcontains information on the variables entering the rural model; the format of is identical to that of urban areas.27 We present results for the case where dummy variables are used to distinguish schooling levels.\n\ns_07845: The estimated disbursement profile for the duration of the project is given in Annex G. To facilitate payments from the Credit, three Special Accounts (A, B and C) would be established in a commercial bank and would be operated and maintained on terms and conditions satisfactory to IDA.\n\ns_07895: -32-Although personal taxation and debt finance complicate the analysis, the results easily generalize.\n\ns_07945: The necessary detailed, up-to-date population data are not available in most urban areas in developing countries--and particularly in squatter settlements--to implement survey research designs in which every member of the urban population has a known probability of being selected.\n\ns_07995: Source: CBR Banking Supervision report 2005, 2004 and 2003 In an environment like the one described above, deposit insurance can not, by itself, be a panacea and stimulate savings in the domestic banking system.\n\ns_08045: We select households that use only electricity as the base case scenario and report the variables which affect full or partial use of fuelwood for space heating.\n\ns_08095: The key role of O&M has been duly recognized in recent analytical literature.\n\ns_08145: For 1750, from Bergier and Matthieu (2002: Mean income in $PPP.\n\ns_08195: Athreya and his coauthors stress also that their findings should not be read as a sweeping statement about, or indictment of, college education nor as an exhortation to enter the stock market.\n\ns_08245: Exploding enrollments in the sciences and engineering bring less well-prepared students into these courses.\n\ns_08272: 13 Longitudinal Databases of College Graduates The B&B surveys graduates on employment and educational experiences after completion of a bachelor's degree.\n\ns_08322: The checks on the previous versions of the dataset were done on March 30, April 17, 2020, between May 25 and May 29, between June 29 and July 3 and between July 24 and 31, 2020.\n\ns_08372: The GWAS meta-analysis results for AD (meta analysis N=74,046) [26] and iron measures (iron, transferrin, transferrin saturation and ferritin, meta analysis N=23,986) [30] were used to test for an excess of SNPs associated in the AD and iron phenotype data Due to the larger sample size the AD GWAS summary statistics were initially used as dataset 1, and each of the iron measures as dataset 2, providing the greatest possible power.\n\ns_08422: The idea is to perform a pairwise comparison between the partitions obtained by XMT-DBSCAN for each subject of a population.\n\ns_08472: A recent report estimated that the current annual worldwide costs of care for those with AD is approximately 1% of the world's GDP (U.S. $600 billion/year; Alzheimer's Disease International, 2010).\n\ns_08522: Countryspecific differentials in fertility by level of education for the base year were obtained from the literature and from census and survey data (see also K.C.\n\ns_08572: With these observations, this paper has the following aims: (1) investigate the predictive power of a new set of proteomic analytes from an RBM panel, (2) study whether or not combining structural MRI and proteomic data can enhance prediction rates, and (3) employ a principled sparse learning method, elastic net logistic regression [5] , in the study to maximize prediction accuracy while optimizing the selection of disease sensitive biomarkers.\n\ns_08622: By exploiting the variation in the number of buprenorphine providers over time and within states, we used the model to estimate the amount of buprenorphine that each provider type contributed to the total.\n\ns_08672: The use of psychometric scaling techniques based on Item Response Theory (IRT) makes it possible for population estimates to be generated even though students do not respond to all the items or even the same items.\n\ns_08722: Also, they describe multivariate comparisons (eg, cost functions), multivariate pattern evaluation, and comparison of spatial maps; these the authors have not used because they are limited to point data.\n\ns_08772: However, weighting the survey data to be representative of the state's population should compensate for any potential selection biases in sampling.\n\ns_08822: The goals of this work are to assess whether the visualization method initially developed for natural images is suitable for 3D medical images and to exploit it to better understand the decisions taken by classification networks."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7SgYqNX24YG8Q4QveiodANDHQzy",
+    "object": "chat.completion",
+    "created": 1682884646,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1355,
+      "completion_tokens": 57,
+      "total_tokens": 1412
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08372\", \"data_mentioned\": true, \"reason\": \"AD GWAS meta-analysis results\"}, {\"sent_id\": \"s_08372\", \"data_mentioned\": true, \"reason\": \"iron measures meta-analysis results\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08372\", \"data_mentioned\": true, \"reason\": \"AD GWAS meta-analysis results\"}, {\"sent_id\": \"s_08372\", \"data_mentioned\": true, \"reason\": \"iron measures meta-analysis results\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

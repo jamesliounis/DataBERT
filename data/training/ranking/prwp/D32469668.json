@@ -1,0 +1,3070 @@
+{
+  "paper_id": "D32469668",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:47.343331Z"
+  },
+  "title": "Global Technology for Local Monitoring of Air Pollution in Dhaka",
+  "authors": [
+    {
+      "first": "Susmita",
+      "middle": [],
+      "last": "Dasgupta",
+      "suffix": "",
+      "affiliation": {},
+      "email": "sdasgupta@worldbank.org"
+    },
+    {
+      "first": "M",
+      "middle": [],
+      "last": "Khaliquzzaman",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "David",
+      "middle": [],
+      "last": "Wheeler",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2020-10",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D32469668",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "Outdoor air pollution is a major source of health damage in developing countries. The World Health Organization (2016) attributes about 3.3 million annual premature deaths to outdoor air pollution in low-and middle-income countries: 72% from heart disease and strokes, 14% from chronic obstructive pulmonary disease, and 14% from lung cancer. The World Bank (2016) estimates welfare losses from ambient fine particulate and ozone pollution at 4.8% of GDP equivalent in East Asia, 3.5% in South Asia, 2.1% in the Middle East and North Africa, 1.6% in Latin America and 1.5% in Sub-Saharan Africa.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Pollution problems are essentially geographic, because their incidence and impacts depend on the spatial distributions of economic activities, topography, weather and households. Although researchers and policy makers are sensitive to this spatial component, incomplete information has hindered their attempts to identify and implement cost-effective strategies for pollution control. Local pollution is often poorly measured because monitoring systems are sparse, costly and difficult to maintain. Since this problem is pervasive in developing countries, rigorous empirical analyses of alternative strategies are rare. For decision making, policy makers need frequently updated information on the sources, dispersion and distributional implications of pollution.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In recent years, several new global information sources have offered a potential escape from this information trap. For example, high-resolution satellite imagery permits frequently-updated observations of polluting aerosols worldwide. Appropriately mobilized and interpreted, data from such sources could elevate the state of the art in pollution research, policy analysis and implementation. However, before these sources come into widespread use, empirical tests are needed to assess their operational utility, including accuracy testing against benchmarks provided by ground-based measurement. This paper assesses the potential for low-cost augmentation of ground-based air quality monitoring in Dhaka, Bangladesh, with more comprehensive coverage from global information sources. We test the potential contributions of two satellite information platforms: Sentinel-5P, operated by the European Space Agency (ESA), and NASA's MODIS. Our assessment includes four dimensions:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "(1) Goodness-of-fit to ground-monitoring data; (2) spatial resolution; (3) update frequency; and (4) cost. We also investigate the potential contribution of Google Traffic in a spatial panel estimation exercise that relates traffic congestion to outdoor air pollution in the Dhaka region. 1 The remainder of the paper is organized as follows. Section 2 introduces prior research on the health impacts of PM2.5 and NO2. In Section 3, we introduce the data sources for our analysis. Section 4 uses econometric modeling to test the relationships between locally-monitored air pollution and measures provided by Sentinel-5P, MODIS and Google Traffic. Section 5 assesses the predictive accuracy of the estimated models. Section 6 discusses the relative benefits and costs of the new data sources, while Section 7 summarizes and concludes the paper.",
+        "cite_spans": [
+          {
+            "start": 289,
+            "end": 290,
+            "text": "1",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Our analysis focuses on two health-critical air pollutants, fine particulates (PM2.5) and NO2, that are measured by ground monitoring in Dhaka. Among widely-measured air pollutants, the international health community currently believes particulate air pollution to be the most damaging. It is a complex mixture of small and large particles of varying origin and chemical composition. Over time, health research has narrowed its focus from all particles, to particles less than 10 microns in diameter (PM10), to fine particles whose diameters are less than 2.5 microns (PM2.5). 2 Coal-fired power plants and motor vehicles are the largest sources of PM2.5 (WHO 1997 , World Resources 1998 . Fine particles are more dangerous because they can penetrate deeply into the lungs, settling in areas where natural clearance mechanisms cannot remove them. The constituent elements of small particles also tend to be more chemically active and therefore more damaging (WHO 1997 , World Resources 1998 . Many studies have found that exposure to particulates is strongly associated with mortality and morbidity (Wells 1994; World Bank 1996; Cropper et al. 1997; Ostro 1999; Kappos et al. 2004; Pui et al. 2014; Boldo et al. 2006; Lua et al. 2015; Franklin et al. 2007) . Identified health effects range in severity from coughing and bronchitis to heart disease and lung cancer. In addition, the research has found no \"critical threshold\" that governs safe exposure to particulate pollution. Damage increases with exposure, starting at very low concentration levels.",
+        "cite_spans": [
+          {
+            "start": 655,
+            "end": 664,
+            "text": "(WHO 1997",
+            "ref_id": null
+          },
+          {
+            "start": 665,
+            "end": 687,
+            "text": ", World Resources 1998",
+            "ref_id": null
+          },
+          {
+            "start": 958,
+            "end": 967,
+            "text": "(WHO 1997",
+            "ref_id": null
+          },
+          {
+            "start": 968,
+            "end": 990,
+            "text": ", World Resources 1998",
+            "ref_id": null
+          },
+          {
+            "start": 1099,
+            "end": 1111,
+            "text": "(Wells 1994;",
+            "ref_id": "BIBREF44"
+          },
+          {
+            "start": 1112,
+            "end": 1128,
+            "text": "World Bank 1996;",
+            "ref_id": null
+          },
+          {
+            "start": 1129,
+            "end": 1149,
+            "text": "Cropper et al. 1997;",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 1150,
+            "end": 1161,
+            "text": "Ostro 1999;",
+            "ref_id": "BIBREF32"
+          },
+          {
+            "start": 1162,
+            "end": 1181,
+            "text": "Kappos et al. 2004;",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 1182,
+            "end": 1198,
+            "text": "Pui et al. 2014;",
+            "ref_id": "BIBREF34"
+          },
+          {
+            "start": 1199,
+            "end": 1217,
+            "text": "Boldo et al. 2006;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 1218,
+            "end": 1234,
+            "text": "Lua et al. 2015;",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 1235,
+            "end": 1256,
+            "text": "Franklin et al. 2007)",
+            "ref_id": "BIBREF12"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Prior Research",
+        "sec_num": "2."
+      },
+      {
+        "text": "Extensive research has also considered the health impacts of NO2, with particular attention to respiratory problems for children and cardio/pulmonary problems for the elderly. These impacts have been studied both singly and in combination with other air pollutants (Brauer et al. 2002 (Brauer et al. , 2007 Cesaroni et al. 2008; Chen et al. 2012; Gauderman et al. 2005; Gehring et al. 2002 Gehring et al. , 2006 Hoeck et al. 2002; Morgenstern et al. 2007; Naess et al. 2007; Nafstad et al. 2004; Sunyer et al. 2006) . The findings highlight significant associations with rhinitis, asthma, bronchitis and other respiratory illnesses, as well as cardiovascular morbidity and mortality.",
+        "cite_spans": [
+          {
+            "start": 265,
+            "end": 284,
+            "text": "(Brauer et al. 2002",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 285,
+            "end": 306,
+            "text": "(Brauer et al. , 2007",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 307,
+            "end": 328,
+            "text": "Cesaroni et al. 2008;",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 329,
+            "end": 346,
+            "text": "Chen et al. 2012;",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 347,
+            "end": 369,
+            "text": "Gauderman et al. 2005;",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 370,
+            "end": 389,
+            "text": "Gehring et al. 2002",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 390,
+            "end": 411,
+            "text": "Gehring et al. , 2006",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 412,
+            "end": 430,
+            "text": "Hoeck et al. 2002;",
+            "ref_id": null
+          },
+          {
+            "start": 431,
+            "end": 455,
+            "text": "Morgenstern et al. 2007;",
+            "ref_id": "BIBREF29"
+          },
+          {
+            "start": 456,
+            "end": 474,
+            "text": "Naess et al. 2007;",
+            "ref_id": null
+          },
+          {
+            "start": 475,
+            "end": 495,
+            "text": "Nafstad et al. 2004;",
+            "ref_id": null
+          },
+          {
+            "start": 496,
+            "end": 515,
+            "text": "Sunyer et al. 2006)",
+            "ref_id": "BIBREF42"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Prior Research",
+        "sec_num": "2."
+      },
+      {
+        "text": "Recent research has also suggested that PM2.5 and NO2 pollution aggravate Covid-19 infections and increase fatalities because fine particulates and nitrogen dioxide cause lung inflammation and compromise immune systems (Andr\u00e9e 2020; Liang et al. 2020; Xiao et al. 2020) .",
+        "cite_spans": [
+          {
+            "start": 219,
+            "end": 232,
+            "text": "(Andr\u00e9e 2020;",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 233,
+            "end": 251,
+            "text": "Liang et al. 2020;",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 252,
+            "end": 269,
+            "text": "Xiao et al. 2020)",
+            "ref_id": "BIBREF50"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Prior Research",
+        "sec_num": "2."
+      },
+      {
+        "text": "Accumulating research on health damage from PM2.5, NO2 and other air pollutants has led developing-country policy makers to consider more stringent pollution control measures. However, limited air pollution monitoring has left considerable uncertainty about location-specific pollution impacts and the design of locationally-targeted, cost-effective measures for addressing the problem.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Prior Research",
+        "sec_num": "2."
+      },
+      {
+        "text": "Budgetary and technical constraints have prevented adoption of extensive air pollution monitoring systems in Dhaka. Thus, the spatial distributions, intensities and impacts of PM2.5, NO2 and other air pollutants have remained matters for speculation. Air pollutants are monitored for the area surrounding the Darussalam (CAMS-3) station, which provides the hourly data used for this study. 3 The CAMS-3 station is located in a residential/commercial area of Mirpur, Dhaka where traffic and wind-blown pollutants from brick kilns to the northwest are the main sources of air pollution. Figure 1 displays the location of the station, along with the surrounding .01-degree cell that we use to bound comparative observations from satellite and Google Traffic data. For this exercise, we use hourly observations for PM2.5 and NO2. ",
+        "cite_spans": [
+          {
+            "start": 390,
+            "end": 391,
+            "text": "3",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 585,
+            "end": 593,
+            "text": "Figure 1",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Local Air Pollution Monitoring Data",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "The European Space Agency (ESA) has operated its Sentinel-5P platform since October 2017, with repeat observation frequencies of 5 days in equatorial latitudes and 2-3 days in mid-latitudes. Sentinel-5P provides coverage of nitrogen dioxide (NO2), ozone (O3), carbon monoxide (CO), and sulphur dioxide (SO2). To illustrate, Figure 2 displays spatial variations in average Sentinel-5P NO2 measures for the Dhaka region from September 2018 to August 2019. The ESA has provided open-source access to the Sentinel-5P database since July 2018, and the entire database is now available on Google Earth Engine (GEE) for rapid extraction of daily imagery for specific locations. For comparison with readings from Dhaka's CAMS-3 monitor, we have used GEE to extract two measures for the cell displayed in Figure 1 : daily averages of tropospheric column density for NO2 and an absorbing aerosol index.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 324,
+            "end": 332,
+            "text": "Figure 2",
+            "ref_id": "FIGREF1"
+          },
+          {
+            "start": 796,
+            "end": 804,
+            "text": "Figure 1",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Sentinel-5P",
+        "sec_num": null
+      },
+      {
+        "text": "Sentinel-5P is a new system, so validation studies remain scarce. In a rare exception, a study for the eastern United States by Kaltenbaugh (2019) finds significant correlations between ground station measures of NO2 and Sentinel-5P's tropospheric NO2 measure. ",
+        "cite_spans": [
+          {
+            "start": 128,
+            "end": 146,
+            "text": "Kaltenbaugh (2019)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sentinel-5P",
+        "sec_num": null
+      },
+      {
+        "text": "We have also used Google Earth Engine to acquire daily measures of aerosol optical depth (AOD) from the Moderate Resolution Imaging Spectroradiometers (MODIS) onboard NASA's Aqua and Terra satellites. AOD measurement is based on the log difference of the light arriving at the ground and the light arriving at the top of the atmosphere. The difference is attributed to particulate matter in the air, and has been extensively employed for analysis of air pollution. Since 2000, NASA's MODIS satellites have provided AOD measures with 8-to 16-day repeat observation frequency.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "MODIS",
+        "sec_num": null
+      },
+      {
+        "text": "Research on the relationship between AOD measures and ground-level particulate pollution is well-advanced. Recent work includes applications for the United States (Lee et al. 2016) , China (Xie et al. 2015; Lv et al. 2016; Hu et al. 2019) , Turkey (\u00d6zg\u00fcr and Wang 2019) and India (Sathe et al. 2019) . The results are somewhat mixed, but generally support the utility of AOD as a proxy for ground-based particulate measures.",
+        "cite_spans": [
+          {
+            "start": 163,
+            "end": 180,
+            "text": "(Lee et al. 2016)",
+            "ref_id": "BIBREF23"
+          },
+          {
+            "start": 189,
+            "end": 206,
+            "text": "(Xie et al. 2015;",
+            "ref_id": "BIBREF51"
+          },
+          {
+            "start": 207,
+            "end": 222,
+            "text": "Lv et al. 2016;",
+            "ref_id": "BIBREF27"
+          },
+          {
+            "start": 223,
+            "end": 238,
+            "text": "Hu et al. 2019)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 280,
+            "end": 299,
+            "text": "(Sathe et al. 2019)",
+            "ref_id": "BIBREF39"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "MODIS",
+        "sec_num": null
+      },
+      {
+        "text": "Traffic congestion increases average vehicle transit time, which translates to higher polluting emissions per vehicle. Traffic congestion is a major source of outdoor air pollution in Dhaka. 4 We develop an index of traffic congestion using Google Traffic, which provides real-time traffic reports for the Dhaka metro region. Although desktop monitors do not show this, Google Traffic continuously produces a map large enough to cover the entire metro region at .001-degree resolution. However, Google provides no facility for georeferenced downloads of the map. To mobilize this huge information resource, one of the authors has developed an algorithm that maps region-scale Google Traffic displays into a panel database of traffic measures for a reference grid with arbitrary cell size.",
+        "cite_spans": [
+          {
+            "start": 191,
+            "end": 192,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Traffic Data",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "Google Traffic provides a four-color measure of vehicle speed. We use this information to compute hourly average speeds (km/hr) in 2019 for the .01-degree cell that surrounds the CAMS-3 monitoring station. Our data are drawn from 2,241 hourly Google Traffic images for two periods in 2019: Jan. 1 -Feb. 8 and June 15 -Sept. 28. We convert these files to geoTIFF format and estimate vehicle speeds by color code using trip routings for a sample of real-time Google Traffic information. In each hour, we compute the weighted average speed for the cell in two steps. First, we calculate the share of colored pixels in each category. Then we weight the speeds in Table 1 by the color pixel shares and compute the composite weighted average speed for the hour. Figure 3 provides a summary of traffic data for the .01-degree cell surrounding the CAMS-3 monitoring station. The figure displays hourly median and 1st-quartile traffic speeds. Several features of the display are evident. First, each day the average speed varies from about 15 km/hr to 37 km/hr. Second, a regular pattern recurs from Sunday to Thursday: Average traffic speed reaches maximum levels from midnight to 4 AM; falls rapidly to a minimum from 8 to 10 AM; rises to somewhat higher speeds from noon to 4PM; falls to another minimum from 8 to 11 PM; and then rises rapidly. Third, the pattern on Friday and Saturday is distinctly different: Average speed falls steadily from around 4 AM until 8-11 PM. Finally, the worst traffic conditions are somewhat more volatile on Friday and Saturday, with more rapid afternoon declines in the first quartile measure.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 659,
+            "end": 666,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 756,
+            "end": 764,
+            "text": "Figure 3",
+            "ref_id": "FIGREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Traffic Data",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "While Figure 3 provides a wealth of evidence about traffic conditions around the CAMS-3 station, we should note that this represents only one cell in a grid that covers the Dhaka metro region. Within each of several hundred cells, Google Traffic permits the calculation of average speeds by day and hour. Such information was simply unavailable before the advent of Google Traffic, and it provides systematic evidence that can support a much finer-grained approach to traffic analysis and transport planning for the Dhaka region. The data reveal a common annual pattern, with temperature, rainfall, humidity and wind speed peaking in the late spring and summer, while reaching troughs in the late fall and winter. Within the general pattern, temperature peaks first, followed by rainfall, humidity and wind speed. Atmospheric pressure displays the opposite pattern.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 6,
+            "end": 14,
+            "text": "Figure 3",
+            "ref_id": "FIGREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Traffic Data",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "The weather variables are highly correlated at this aggregative level, but our econometric tests employ hourly measures. Table 2 shows that at the hourly level, the correlations of temperature, rainfall, humidity and wind speed are generally very weak. Pressure is the exception, displaying relatively high correlations with three of the four other variables. Overall, we do not expect collinearity to play a major role in our econometric tests. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 121,
+            "end": 128,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Traffic Data",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "Our first exercise tests the relationship between CAMS-3 data and measures obtained from the Sentinel-5P and MODIS satellite platforms. On observation days, these platforms pass over Dhaka during different time intervals. Sentinel-5P (S5P) transits during 1-2 PM and MODIS transits during 9 AM -2 PM. For our econometric tests, we generate matching CAMS-3 data by computing average measures for the corresponding intervals.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Satellite Measures",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "We also incorporate matching weather data in our models. For these tests, the results should be interpreted as atmospheric effects of weather variables that cause satellite measures to deviate from CAMS-3 measures. We estimate the following model in log form to minimize outlier effects: ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Satellite Measures",
+        "sec_num": "4.1"
+      },
+      {
+        "text": "(1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "= 0 + 1 + 2 + 0 + 0 +",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "where (measured at date/time t): P = Pollutant concentration measured by CAMS-3 [PM 2.5 (ug/m 3 ); NO2 (ppb)] M = Average satellite-based measure for the .01-degree cell surrounding CAMS-3 H = Average humidity (%) T = Average temperature (C) W = Average wind speed (km/hr) \u03b5 = Random error term Table 3 reports our estimation results. Our primary estimates use variable levels, but we also include estimates for time-differences to test the possible effect of serial correlation. 6 Columns 1-2 test the relationship between CAMS-3 NO2 measures and Sentinel-5P's measure of tropospheric column NO2 density. The S5P measure has very high significance. On the other hand, the cloud cover and weather variables have no consistent patterns of significance.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 295,
+            "end": 302,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "Columns 3-8 test the relationship between CAMS-3 PM2.5 and three satellite measures, controlling for weather variables. As the results show, the weather variables introduce deviations between ground-and satellite-based measures that vary in size and significance across estimates. We focus on the comparative significance of the satellite-based estimates as indicators of ground-level PM2.5.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "Columns 3-4 report level and difference results for S5P's absorbing aerosol index. We find no significance for this variable.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "Columns 5-6 re-introduce the S5P NO2 measure, since nitrates from NO2 emissions are a significant source of PM2.5 (Hodan and Barnard 2004) . Here we find very high significance for both level and difference estimates.",
+        "cite_spans": [
+          {
+            "start": 114,
+            "end": 138,
+            "text": "(Hodan and Barnard 2004)",
+            "ref_id": "BIBREF18"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "Columns 7-8 test the relationship between CAMS-3 PM2.5 and MODIS Aerosol Optical Depth (AOD). We find very high significance for MODIS AOD, although we should note that relatively sparse observations yield many fewer degrees of freedom for the AOD case.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "In summary, we find that CAMS-3 PM2.5 is strongly related to Sentinel-5P NO2 and MODIS AOD; CAMS-3 NO2 is strongly related to Sentinel-5P NO2. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "Our second exercise tests the impact of motor vehicle emissions on air pollution, using hourly data from the CAMS-3 monitor and a .01-degree square area whose centroid has the coordinates of the monitor (Figure 1) . Within that area, we use the previously-described methodology to compute hourly average traffic speed, which is an inverse index of congestion: emitting vehicles occupying road space in that area. Among the weather variables, prior experimentation showed that only temperature, humidity and wind speed have consistent and highly-significant effects. We therefore exclude rainfall and pressure from the final estimation model. We specify it in log form to minimize outlier effects.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 203,
+            "end": 213,
+            "text": "(Figure 1)",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Traffic, Weather and Air Pollution",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "(1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Traffic, Weather and Air Pollution",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "= 0 + 1 + 2 + 0 + 0 +",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Traffic, Weather and Air Pollution",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "where ( Table 4 reports our results for PM2.5 and NO2 readings from the CAMS-3 monitor. Our primary estimates use variable levels, but we also include estimates for time-differenced 7 variables to test the possible effect of serial correlation on the parameter estimates. The time-differenced version provides a weaker test of the weather variables, whose dominant variation is seasonal rather than hourly. Table 4 shows that all variables in the two levels equations are highly significant, while traffic speed has similar parameter estimates and high significance in the difference equations. As expected, weather-related variations in measured pollution are statistically weaker in the timedifference variant. We summarize the overall implications of our results in Table 5 , which reports pollution predictions across the full range of traffic speeds. The second and third columns report predicted PM2.5 and NO2 for the CAMS-3 area at mean values of the weather variables. The predictions for least congestion (40 km/hr) provide baseline values for PM2.5 and NO2 that incorporate weather effects, vehicular emissions on uncongested roads, and emissions from other sources. 8 Our results suggest very large incremental effects for traffic congestion: From the least-to most-congested cases, PM2.5 more than doubles, from 55 to 124 ug/m 3 . The proportional change is even greater for NO2, which increases from 12 to 31 ppb. Table 5 : Predicted NO2 and PM2.5 for the CAMS-3 area 8 We focus on vehicle emissions as a PM2.5 source in this paper, and our results provide strong evidence that the link between daily traffic fluctuations and fluctuations in PM2.5 is highly significant. However, our results do not imply that vehicle emissions have unique significance for PM2.5 pollution in Dhaka. Brickworks are another frequentlycited source of PM2.5 in the region and their emissions are undoubtedly included in the PM2.5 baseline value reported in Table 5 . This value is already much higher than the WHO reference standard for PM2.5; vehicle emissions simply add another highly-significant component to the total. ",
+        "cite_spans": [
+          {
+            "start": 1177,
+            "end": 1178,
+            "text": "8",
+            "ref_id": null
+          },
+          {
+            "start": 1481,
+            "end": 1482,
+            "text": "8",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 8,
+            "end": 15,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          },
+          {
+            "start": 407,
+            "end": 414,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          },
+          {
+            "start": 769,
+            "end": 776,
+            "text": "Table 5",
+            "ref_id": null
+          },
+          {
+            "start": 1427,
+            "end": 1434,
+            "text": "Table 5",
+            "ref_id": null
+          },
+          {
+            "start": 1950,
+            "end": 1957,
+            "text": "Table 5",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Traffic, Weather and Air Pollution",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "We assess the empirical implications of our results by predicting air pollution measures for the monitoring sources and comparing their performance. In the following tables, we present summary statistics for CAMS-3 measures and predicted values, along with sample sizes for each case.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Predictive Performance",
+        "sec_num": "5."
+      },
+      {
+        "text": "Our exercise in matching, estimation and prediction has produced widely-varying sample sizes. To cite one example, Table 6 reports statistics for the period 1 PM -2 PM that include daily observations for Sentinel-5P and hourly observations for CAMS-3 and Google Traffic. For daily matching, we have computed means for CAMS-3 and Google Traffic observations at 1 and 2 PM. The result of this necessary matching exercise is great disparity in available daily observations. For the Sentinel-5P regression, there are 362 CAMS-3 observations, along with predictions from 434 and 406 observations for the S5P aerosol index and tropospheric NO2 measure. For the Google Traffic (GT) regressions, which use GT data for two periods in 2019, CAMS-3 provides observations from 1 PM, 2 PM or both for 34 days. Predictions are produced from 93 days during which GT data are available for 1 PM, 2 PM or both. N  362  434  406  34  93  min  11  13  14  14  21  p10  22  25  25  23  23  p25  35  31  31  31  26  p50  55  43  44  84  36  p75  87  70  70  125  116  p90  132  100  102  176  152  p95  151  115  113  196  160  p99  210  137  130  297  210  max  306  190  173  297  210 Tables 6 to 8 present summary statistics for CAMS-3 air pollution measures and predictions from the global technologies for the same times and weather conditions. The common pattern is clear: Increases from minimum to maximum measures for the global technologies translate to increases from safe to hazardous levels in local pollution. At the high end, another pattern emerges: Beyond the 90th percentile, observed values are generally greater than predicted values. This implies that large positive outliers are more common when predicted pollution is higher, but the predicted values are already quite hazardous. To illustrate, consider the maximum Google Traffic prediction of PM 2.5 in Table 6 : 210 ug/m 3 . This far exceeds the WHO health standard (WHO 2005) and matches the 99th-percentile measure for CAMS-3. However, a few large positive outliers drive the CAMS-3 maximum to 306. This may reflect random technical variation, measurement error, or spikes in nearby emissions that our methodology cannot capture. Note: The CAMS-3 columns in Table 7 differ from those in Table 6 because the comparison data samples differ. In summary, our results show that all three global technologies (Sentinel-5P, MODIS, Google Traffic), when combined with commonly-available weather data, provide statistically-robust and conservative PM2.5 predictions that identify hazardous conditions with high likelihood. At the same time, some global technologies perform better than others in our analysis. In the higher percentiles, predictions from MODIS AOD and the Google Traffic congestion index come closer to the CAMS-3 observations than the Sentinel-5P aerosol index or NO2 measure.",
+        "cite_spans": [
+          {
+            "start": 1920,
+            "end": 1930,
+            "text": "(WHO 2005)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 115,
+            "end": 122,
+            "text": "Table 6",
+            "ref_id": "TABREF7"
+          },
+          {
+            "start": 894,
+            "end": 1165,
+            "text": "N  362  434  406  34  93  min  11  13  14  14  21  p10  22  25  25  23  23  p25  35  31  31  31  26  p50  55  43  44  84  36  p75  87  70  70  125  116  p90  132  100  102  176  152  p95  151  115  113  196  160  p99  210  137  130  297  210  max  306  190  173  297  210",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 1856,
+            "end": 1863,
+            "text": "Table 6",
+            "ref_id": "TABREF7"
+          },
+          {
+            "start": 2214,
+            "end": 2221,
+            "text": "Table 7",
+            "ref_id": "TABREF8"
+          },
+          {
+            "start": 2243,
+            "end": 2250,
+            "text": "Table 6",
+            "ref_id": "TABREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Predictive Performance",
+        "sec_num": "5."
+      },
+      {
+        "text": "Our PM2.5 results are basically replicated for NO2, with some notable differences. Google Traffic nearly matches CAMS-3 in the higher percentiles, while the predictions from Sentinel-5P are notably conservative beyond the 90th percentile. By implication, Sentinel-based inferences about hazard levels on the ground might be drawn from percentiles rather than absolute numbers. In any case, Sentinel-5P clearly has two useful roles to play: It can identify areas polluted by non-traffic sources, and it is available globally while Google Traffic is limited to major urban areas in some countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Predictive Performance",
+        "sec_num": "5."
+      },
+      {
+        "text": "To summarize, we find that Sentinel-5P, MODIS and Google Traffic all provide useful information for air pollution monitoring in the Dhaka metro region. MODIS, S5P and Google Traffic all track CAMS-3 PM2.5 with high significance; S5P and Google Traffic perform similarly for CAMS-3 NO2. Google Traffic can track air pollution in metro Dhaka at higher spatial resolution, but for vehicular sources only. MODIS and S5P capture the effects of emissions from other sources. The two satellite platforms also measure pollution at all locations, while Google Traffic is often confined to the major metro areas of developing countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Application Benefits and Costs",
+        "sec_num": "6."
+      },
+      {
+        "text": "Use of the three information sources does involve trade-offs in the dimensions of spatial resolution, update frequency and cost. The effective spatial resolution of Google traffic is 100 m. Outputs from Google Earth Engine are rasters with 1 km pixels, built from Sentinel-5P imagery with 5.5 km resolution and MODIS imagery with 250 m resolution. While the underlying MODIS imagery is higher-resolution, its repeat observation frequency is much lower than Sentinel's. Information from all three sources is available at no acquisition cost, but translating the raw data into usable outputs requires knowledge of Javascript, GIS technology, and a modular programming language (Python or R).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Application Benefits and Costs",
+        "sec_num": "6."
+      },
+      {
+        "text": "Overall, the evidence from Dhaka suggests that these three information sources should be viewed as complements rather than substitutes. Taken together, they can provide a powerful adjunct to traditional information systems that provided much more limited coverage while imposing replacement and maintenance costs that are difficult for many urban governments to sustain.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Application Benefits and Costs",
+        "sec_num": "6."
+      },
+      {
+        "text": "This paper has assessed the potential for low-cost augmentation of ground-based air quality monitoring in Dhaka, Bangladesh, with information from more comprehensive global information sources. At present, systematic local monitoring data are confined to areas near Dhaka's Darussalam (CAMS-3) station (Figure 1) . In this exercise, we have assessed the potential contributions of three global information sources: the European Space Agency's Sentinel-5P, NASA's MODIS, and Google Traffic.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 302,
+            "end": 312,
+            "text": "(Figure 1)",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Summary and Conclusions",
+        "sec_num": "7."
+      },
+      {
+        "text": "Our tests for Sentinel-5P (S5P) and MODIS use daily measures for the .01-degree cell surrounding the CAMS-3 monitoring station. We match the satellite measures with CAMS-3 observations during the satellites' overpass times for Dhaka. Our tests for the CAMS-3 measure of fine particulates (PM2.5) use the MODIS measure of aerosol optical depth (AOD) and two S5P measures: the absorbing aerosol index (AI) and tropospheric NO2 density. We obtain highlysignificant results for MODIS AOD and S5P NO2, controlling for the effects of three weather variables: temperature, humidity and wind speed. We perform an equivalent test for the CAMS-3 NO2 measure and find high significance for S5P's tropospheric NO2 density.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary and Conclusions",
+        "sec_num": "7."
+      },
+      {
+        "text": "Since traffic congestion is a major source of air pollution in the study area, we use Google Traffic to develop a spatial panel database of high-resolution traffic congestion measures for the Dhaka region. We test the relationship between traffic congestion and air pollution by matching hourly pollution data from CAMS-3 with hourly weather data and hourly Google Traffic congestion in the surrounding .01-degree cell (Figure 1) . Controlling for the weather variables, we obtain highlysignificant results and predictive fits that exceed the accuracy of satellite-based measures in the majority of cases.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 419,
+            "end": 429,
+            "text": "(Figure 1)",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Summary and Conclusions",
+        "sec_num": "7."
+      },
+      {
+        "text": "We conclude that all three global technologies can provide useful information for air pollution monitoring in the Dhaka metro region. Our results also suggest that they should be viewed as complements rather than substitutes. MODIS, S5P and Google Traffic all track CAMS-3 PM2.5 with high significance; S5P and Google Traffic perform similarly for CAMS-3 NO2. Google Traffic can track air pollution in metro Dhaka at higher spatial resolution, but for vehicular sources only. MODIS and S5P capture the effects of emissions from other sources. The two satellite platforms also measure pollution at all locations, while Google Traffic is often confined to the major metro areas of developing countries.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary and Conclusions",
+        "sec_num": "7."
+      },
+      {
+        "text": "In a global study,Dora et al. (2011) find that urban road transport often accounts for more than 50% of dangerous outdoor air pollutants (e.g., fine particulates, nitrogen oxides, carbon monoxide, ozone, sulphur dioxide).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Large particles usually contain dust and smoke from industrial processes, construction, agriculture and road traffic, as well as plant pollen and other natural sources. Smaller particles generally originate from combustion of fossil fuels. These particles include soot from vehicle exhaust, which is often coated with chemical contaminants or metals, and fine sulfate and nitrate aerosols that form when sulfur dioxide and nitrogen oxide emissions condense in the atmosphere.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "At present, air pollution monitoring is confined to a few locations in Dhaka. The metro area has three air monitoring stations. CAMS-3, located at (23.78N 90.36E), became operational in 2012 and is currently the best source of air quality information. The city has two other air monitoring stations in close proximity to CAMS-3: CAMS-1, located at (23.76N 90.39E), has operated intermittently since 2002; CAMS-2, located at (23.76N 90.39E), has operated since 2008.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "For discussion of air pollution from traffic sources, seeKhaliquzzaman et al. 2020, RSTP 2015",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "https://www.worldweatheronline.com",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We use one-day differences for this exercise.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We use one-hour differences for this exercise.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Particulate Matter and COVID-19 Incidence: Evidence from the Netherlands",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Andr\u00e9e",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Andr\u00e9e, B. 2020. Particulate Matter and COVID-19 Incidence: Evidence from the Netherlands. World Bank.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Effects of various meteorological conditions and spatial emission resolutions on the ozone concentration and ROG/NOx limitation in the Milan area",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Baertsch-Ritter",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Keller",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Dommen",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Prevot",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Atmos. Chem. Phys",
+        "volume": "4",
+        "issue": "",
+        "pages": "423--438",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Baertsch-Ritter, N., J. Keller, J. Dommen, and A. Prevot. 2004. Effects of various meteorological conditions and spatial emission resolutions on the ozone concentration and ROG/NOx limitation in the Milan area. Atmos. Chem. Phys 4: 423-438.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Health Impact Assessment of Long-term Exposure to PM 2.5 in 23 European Cities",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Boldo",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "European Journal of Epidemiology",
+        "volume": "21",
+        "issue": "6",
+        "pages": "449--458",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Boldo, E. et al. 2006. Health Impact Assessment of Long-term Exposure to PM 2.5 in 23 European Cities. European Journal of Epidemiology 21(6): 449-458.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Air pollution and the development of asthma, allergy and infections in a birth cohort",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Brauer",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Hoek",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Smit",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "De Jongste",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Gerritsen",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Postma",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Kerkhof",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Brunekreef",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Eur Respir J",
+        "volume": "29",
+        "issue": "5",
+        "pages": "878--888",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Brauer M., G. Hoek, H. Smit, J. de Jongste, J. Gerritsen, D. Postma, M. Kerkhof and B. Brunekreef. 2007. Air pollution and the development of asthma, allergy and infections in a birth cohort. Eur Respir J 29(5): 878-888.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Air pollution from traffic and the development of respiratory infections and asthmatic and allergic symptoms in children",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Brauer",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Hoek",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Vliet",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Meliefste",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Fischer",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Wijga",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Koopman",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Neijens",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Gerritsen",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Kerkhof",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Heinrich",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Bellander",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Brunekreef",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Am J Respir Crit Care Med",
+        "volume": "166",
+        "issue": "8",
+        "pages": "1092--1098",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Brauer M., G. Hoek, P. van Vliet, K. Meliefste, P. Fischer, A. Wijga, L. Koopman, H. Neijens, J. Gerritsen, M. Kerkhof, J. Heinrich, T. Bellander, and B. Brunekreef. 2002. Air pollution from traffic and the development of respiratory infections and asthmatic and allergic symptoms in children. Am J Respir Crit Care Med 166(8): 1092-1098.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Estimating long-term average particulate air pollution concentrations: application of traffic indicators and geographic information systems",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Brauer",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Hoek",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Vliet",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Meliefste",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Fischer",
+            "suffix": ""
+          },
+          {
+            "first": "U",
+            "middle": [],
+            "last": "Gehring",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Epidemiology",
+        "volume": "14",
+        "issue": "2",
+        "pages": "228--239",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Brauer M., G. Hoek, P. van Vliet, K. Meliefste, P. Fischer, and U. Gehring, et al. 2003. Estimating long-term average particulate air pollution concentrations: application of traffic indicators and geographic information systems. Epidemiology 14(2): 228-239.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Comparison between various indices of exposure to traffic-related air pollution and their impact on respiratory health in adults",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Cesaroni",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Badaloni",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Porta",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Occupational and Environmental Medicine",
+        "volume": "65",
+        "issue": "",
+        "pages": "683--690",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cesaroni G., C. Badaloni, D. Porta, et al. 2008. Comparison between various indices of exposure to traffic-related air pollution and their impact on respiratory health in adults. Occupational and Environmental Medicine 65:683-690.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Associations between short-term exposure to nitrogen dioxide and mortality in 17 Chinese cities",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Samoli",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Wong",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Huang",
+            "suffix": ""
+          },
+          {
+            "first": "Z",
+            "middle": [],
+            "last": "Wang",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Kan",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Environment International",
+        "volume": "45",
+        "issue": "15",
+        "pages": "32--38",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chen R., E. Samoli, C. Wong, H. Huang, Z. Wang, B. Chen and H. Kan. 2012. Associations between short-term exposure to nitrogen dioxide and mortality in 17 Chinese cities. Environment International 45(15): 32-38.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "The Health Effects of Air Pollution in Delhi",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Cropper",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Simon",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Alberini",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Sharma",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cropper, M., N. Simon, A. Alberini and P. Sharma, 1997, The Health Effects of Air Pollution in Delhi, India, World Bank Policy Research Working Paper, No. 1860, December.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Effect of Wind Speed and Relative Humidity on Atmospheric Dust Concentrations in Semi-Arid Climates",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Csavina",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Field",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [],
+            "last": "F\u00e9lix",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Corral-Avitia",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "S\u00e1ez",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "Sci Total Environ",
+        "volume": "487",
+        "issue": "",
+        "pages": "82--90",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Csavina, J., J. Field, O. F\u00e9lix, A. Corral-Avitia, A. S\u00e1ez, et al. 2014. Effect of Wind Speed and Relative Humidity on Atmospheric Dust Concentrations in Semi-Arid Climates. Sci Total Environ 487: 82-90.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Sustainable Transport: A Sourcebook for Policy-makers in Developing Cities",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Dora",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Hosking",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Mudu",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Fletcher",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dora, C., J. Hosking, P. Mudu, E. Fletcher, et al. 2011. Sustainable Transport: A Sourcebook for Policy-makers in Developing Cities. WHO/BMZ.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Dependence of urban air pollutants on meteorology",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Elminir",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Sci Total Environ",
+        "volume": "350",
+        "issue": "",
+        "pages": "225--237",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Elminir, H. 2005. Dependence of urban air pollutants on meteorology. Sci Total Environ 350: 225-237.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Association between PM 2.5 and all-cause and specific-cause mortality in 27 US communities",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Franklin",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Zekz",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Schwartz",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "",
+        "volume": "17",
+        "issue": "",
+        "pages": "279--287",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Franklin, M., A. Zekz and J. Schwartz. 2007. Association between PM 2.5 and all-cause and specific-cause mortality in 27 US communities. 17: 279-287.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Childhood asthma and exposure to traffic and nitrogen dioxide",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Gauderman",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Avol",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Lurmann",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Kuenzli",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Gilliland",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Peters",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Mcconnell",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Epidemiology",
+        "volume": "16",
+        "issue": "6",
+        "pages": "737--743",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gauderman, W., E. Avol, F. Lurmann, N. Kuenzli, F. Gilliland, J. Peters and R. McConnell. 2005. Childhood asthma and exposure to traffic and nitrogen dioxide. Epidemiology 16(6): 737- 743.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Traffic-related air pollution and respiratory health during the first 2 yrs of life",
+        "authors": [
+          {
+            "first": "U",
+            "middle": [],
+            "last": "Gehring",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Cyrys",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Sedlmeir",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Brunekreef",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Bellander",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Fischer",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Bauer",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Reinhardt",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Wichmann",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Heinrich",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Eur Respir J",
+        "volume": "19",
+        "issue": "4",
+        "pages": "690--698",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gehring, U., J. Cyrys, G. Sedlmeir, B. Brunekreef, T. Bellander, F. Fischer, C. Bauer, D. Reinhardt, H. Wichmann, and J. Heinrich. 2002. Traffic-related air pollution and respiratory health during the first 2 yrs of life. Eur Respir J 19(4): 690-698.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Long-term exposure to ambient air pollution and cardiopulmonary mortality in women",
+        "authors": [
+          {
+            "first": "U",
+            "middle": [],
+            "last": "Gehring",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Heinrich",
+            "suffix": ""
+          },
+          {
+            "first": "U",
+            "middle": [],
+            "last": "Kramer",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Grote",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Hochadel",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Sugiri",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Kraft",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Rauchfuss",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Eberwein",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Wichmann",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Epidemiology",
+        "volume": "17",
+        "issue": "5",
+        "pages": "545--551",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gehring U., J. Heinrich, U. Kramer, V. Grote, M. Hochadel, D. Sugiri, M. Kraft, K. Rauchfuss, H. Eberwein and H. Wichmann. 2006. Long-term exposure to ambient air pollution and cardiopulmonary mortality in women. Epidemiology 17(5): 545-551.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "The Influence of Meteorological Conditions on PM10 Concentrations in Kathmandu Valley",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Giri",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Murthy",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Adhikary",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Int. J. Environ. Res",
+        "volume": "2",
+        "issue": "",
+        "pages": "49--60",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Giri, D., K. Murthy and P. Adhikary. 2008. The Influence of Meteorological Conditions on PM10 Concentrations in Kathmandu Valley. Int. J. Environ. Res 2: 49-60.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Influence of meteorological conditions on PM 2.5 and PM 2.5 concentrations during the monsoon season in Hanoi",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Hien",
+            "suffix": ""
+          },
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Bac",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Tham",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Nhan",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Vinh",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Atmospheric Environment",
+        "volume": "36",
+        "issue": "",
+        "pages": "3473--3484",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hien, P., V. Bac, H. Tham, D. Nhan and L. Vinh. 2002. Influence of meteorological conditions on PM 2.5 and PM 2.5 concentrations during the monsoon season in Hanoi, Vietnam. Atmospheric Environment 36: 3473-3484.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Evaluating the Contribution of PM 2.5 Precursor Gases and Re-entrained Road Emissions to Mobile Source PM 2.5 Particulate Matter Emissions",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Hodan",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Barnard",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "USEPA, 13th International Emission Inventory Conference",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hodan, W. and W. Barnard. 2004. Evaluating the Contribution of PM 2.5 Precursor Gases and Re-entrained Road Emissions to Mobile Source PM 2.5 Particulate Matter Emissions. USEPA, 13th International Emission Inventory Conference, Clearwater, Florida.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Satellite-based highresolution mapping of ground-level PM 2.5 concentrations over East China using a spatiotemporal regression kriging model",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Hu",
+            "suffix": ""
+          },
+          {
+            "first": "Z",
+            "middle": [],
+            "last": "Hu",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Zhong",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Xu",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Zhao",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Wu",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Science of The Total Environment",
+        "volume": "672",
+        "issue": "",
+        "pages": "479--490",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hu, H., Z. Hu, K. Zhong, J. Xu, F. Zhang, Y. Zhao and P. Wu. 2019. Satellite-based high- resolution mapping of ground-level PM 2.5 concentrations over East China using a spatiotemporal regression kriging model. Science of The Total Environment. 672:479-490.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Comparison of Satellite and Ground-Based NO2 Measurements in the Mid-Atlantic Region during the 2018 OWLETS-2 Campaign",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Kaltenbaugh",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kaltenbaugh, A. 2019. Comparison of Satellite and Ground-Based NO2 Measurements in the Mid-Atlantic Region during the 2018 OWLETS-2 Campaign. Department of Atmospheric and Ocean Science, University of Maryland.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Health effects of particles in ambient air",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Kappos",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "International Journal of Hygiene and Environmental Health",
+        "volume": "207",
+        "issue": "4",
+        "pages": "399--407",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kappos, A. et al. 2004. Health effects of particles in ambient air. International Journal of Hygiene and Environmental Health 207(4): 399-407.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Thirty Years' Quest for Emission Reduction and Energy Efficiency Improvement of Brick Kilns in Bangladesh",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Khaliquzzaman",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "S"
+            ],
+            "last": "Harinath",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "A"
+            ],
+            "last": "Ferdousi",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "M M H"
+            ],
+            "last": "Khan",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "International Journal of Environmental Monitoring and Analysis",
+        "volume": "8",
+        "issue": "1",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Khaliquzzaman, M., Harinath, A. S., Ferdousi, S. A., & Khan, S. M. M. H. (2020). Thirty Years' Quest for Emission Reduction and Energy Efficiency Improvement of Brick Kilns in Bangladesh. International Journal of Environmental Monitoring and Analysis, 8(1), 11.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Enhancing the Applicability of Satellite Remote Sensing for PM 2.5 Estimation Using MODIS Deep Blue AOD and Land Use Regression in California, United States",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Lee",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Chatfield",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Strawa",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Environmental Science & Technology",
+        "volume": "50",
+        "issue": "12",
+        "pages": "6546--6555",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lee, H., R. Chatfield and A. Strawa. 2016. Enhancing the Applicability of Satellite Remote Sensing for PM 2.5 Estimation Using MODIS Deep Blue AOD and Land Use Regression in California, United States. Environmental Science & Technology. 50(12) : 6546-6555.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "The Impact of Meteorological Factors on PM 2.5 Variations in Hong Kong",
+        "authors": [
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Li",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Feng",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Liang",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "IOP Conference Series: Earth and Environmental Science",
+        "volume": "78",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Li, X, Y. Feng and H. Liang. 2017. The Impact of Meteorological Factors on PM 2.5 Variations in Hong Kong. IOP Conference Series: Earth and Environmental Science 78.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Urban Air Pollution May Enhance COVID-19 Case-Fatality and Mortality Rates in the United States",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Liang",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Shi",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Zhao",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Liu",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Schwartz",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Gao",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Sarnat",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "medRxiv",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Liang, D., L. Shi, J. Zhao, P. Liu, J. Schwartz, S. Gao, J. Sarnat et al. \"Urban Air Pollution May Enhance COVID-19 Case-Fatality and Mortality Rates in the United States.\" medRxiv (2020).",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Systematic review and meta-analysis of the adverse health effects of ambient PM 2.5 and PM10 pollution in the Chinese population",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Lua",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Environmental Research",
+        "volume": "136",
+        "issue": "",
+        "pages": "196--204",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lua, F. et al. 2015. Systematic review and meta-analysis of the adverse health effects of ambient PM 2.5 and PM10 pollution in the Chinese population. Environmental Research 136: 196-204.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Improving the Accuracy of Daily",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [
+              "Y"
+            ],
+            "last": "Lv",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Hu",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Chang",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Russell",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Bai",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lv, B. Y. Hu, H. Chang, A. Russell and Y. Bai. 2016. Improving the Accuracy of Daily PM 2.5",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Distributions Derived from the Fusion of Ground-Level Measurements with Aerosol Optical Depth Observations, a Case Study in North China",
+        "authors": [],
+        "year": null,
+        "venue": "Environmental Science & Technology",
+        "volume": "50",
+        "issue": "9",
+        "pages": "4752--4759",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Distributions Derived from the Fusion of Ground-Level Measurements with Aerosol Optical Depth Observations, a Case Study in North China. Environmental Science & Technology 50(9): 4752-4759.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Respiratory health and individual estimated exposure to traffic-related air pollutants in a cohort of young children",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Morgenstern",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Zutavern",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Cyrys",
+            "suffix": ""
+          },
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Brockow",
+            "suffix": ""
+          },
+          {
+            "first": "U",
+            "middle": [],
+            "last": "Gehring",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Koletzko",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Bauer",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Reinhardt",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Wichmann",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Heinrich",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Occup Environ Med",
+        "volume": "64",
+        "issue": "1",
+        "pages": "8--16",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Morgenstern V., A. Zutavern, J. Cyrys, I. Brockow, U. Gehring, S. Koletzko, C. Bauer, D. Reinhardt, H. Wichmann and J. Heinrich. 2007. Respiratory health and individual estimated exposure to traffic-related air pollutants in a cohort of young children. Occup Environ Med 64(1): 8-16.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "Relation between concentration of air pollution and cause-specific mortality: four-year exposures to nitrogen dioxide and particulate matter pollutants in 470 neighborhoods in Oslo, Norway",
+        "authors": [
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Naess",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Nafstad",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Aamodt",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Claussen",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Rosland",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Am J Epidemiol",
+        "volume": "165",
+        "issue": "4",
+        "pages": "435--443",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Naess O., P. Nafstad, G. Aamodt, B. Claussen and P. Rosland. 2007a. Relation between concentration of air pollution and cause-specific mortality: four-year exposures to nitrogen dioxide and particulate matter pollutants in 470 neighborhoods in Oslo, Norway. Am J Epidemiol 165(4): 435-443.",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "Effect of Meteorology on the Atmospheric Concentrations of Traffic-Related Pollutants in Erzurum",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Ocak",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Turalioglu",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Turkey. J. Int. Environmental Application & Science",
+        "volume": "3",
+        "issue": "",
+        "pages": "325--335",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ocak, S. and F. Turalioglu. 2008. Effect of Meteorology on the Atmospheric Concentrations of Traffic-Related Pollutants in Erzurum, Turkey. J. Int. Environmental Application & Science 3:325-335.",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Air Pollution and Health Effects: A Study of Medical Visits among Children",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Ostro",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Eskeland",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Sanchez",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Feyzioglu",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Environmental Health Perspectives",
+        "volume": "107",
+        "issue": "1",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ostro, B., G. Eskeland, J. Sanchez, and T. Feyzioglu, 1999, \"Air Pollution and Health Effects: A Study of Medical Visits among Children in Santiago, Chile,\" Environmental Health Perspectives, Vol. 107, Number 1, January.",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "Using MODIS derived aerosol optical depth to estimate groundlevel PM 2.5 concentrations over Turkey",
+        "authors": [
+          {
+            "first": "Z",
+            "middle": [],
+            "last": "\u00d6zg\u00fcr",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Wang",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1016/j.apr.2019.05.005"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "\u00d6zg\u00fcr, Z. and Y. Wang. 2019. Using MODIS derived aerosol optical depth to estimate ground- level PM 2.5 concentrations over Turkey. Atmospheric Pollution Research 2019, Online May 2019: https://doi.org/10.1016/j.apr.2019.05.005",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "PM 2.5 in China: Measurements, sources, visibility and health effects, and mitigation",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Pui",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          },
+          {
+            "first": "Z",
+            "middle": [],
+            "last": "Zhili",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "Particuology",
+        "volume": "13",
+        "issue": "",
+        "pages": "1--26",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Pui, D., S. Chen and Z. Zhili. 2014. PM 2.5 in China: Measurements, sources, visibility and health effects, and mitigation. Particuology. 13: 1-26.",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "Assessment of Ground-Level Ozone and its Variability with Meteorological Parameters at Karaikal",
+        "authors": [
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Punithavathy",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Vijayalakshmi",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Jeyakumar",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "India. Universal Journal of Environmental Research and Technology",
+        "volume": "5",
+        "issue": "",
+        "pages": "233--240",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Punithavathy, I., S. Vijayalakshmi and S. Jeyakumar. 2015. Assessment of Ground-Level Ozone and its Variability with Meteorological Parameters at Karaikal, India. Universal Journal of Environmental Research and Technology 5: 233-240.",
+        "links": null
+      },
+      "BIBREF36": {
+        "ref_id": "b36",
+        "title": "Climate impact on ambient PM 2.5 elemental concentration in the United States: A trend analysis over the last 30 years",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Requia",
+            "suffix": ""
+          },
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Jhun",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Coull",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Koutrakis",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Environment International",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Requia, W., I. Jhun, B. Coull and P. Koutrakis. 2019. Climate impact on ambient PM 2.5 elemental concentration in the United States: A trend analysis over the last 30 years. Environment International, 131.",
+        "links": null
+      },
+      "BIBREF37": {
+        "ref_id": "b37",
+        "title": "Government of the People's Republic of Bangladesh, Ministry of Communications",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Rstp",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "Revised Strategic Transport Plan (RSTP)",
+        "volume": "",
+        "issue": "",
+        "pages": "2015--2035",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "RSTP. 2015. Revised Strategic Transport Plan (RSTP), 2015-2035. Government of the People's Republic of Bangladesh, Ministry of Communications, Dhaka Transport Co- 21",
+        "links": null
+      },
+      "BIBREF38": {
+        "ref_id": "b38",
+        "title": "Ordination Board",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ordination Board.",
+        "links": null
+      },
+      "BIBREF39": {
+        "ref_id": "b39",
+        "title": "Application of Moderate Resolution Imaging Spectroradiometer (MODIS) Aerosol Optical Depth (AOD) and Weather Research Forecasting (WRF) model meteorological data for assessment of fine particulate matter (PM 2.5) over India",
+        "authors": [
+          {
+            "first": "Y",
+            "middle": [
+              "S"
+            ],
+            "last": "Sathe",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Kulkarni",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Gupta",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Kaginalkar",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Islam",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Gargava",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Atmospheric Pollution Research",
+        "volume": "10",
+        "issue": "2",
+        "pages": "418--434",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sathe, Y. S. Kulkarni, P. Gupta, A.Kaginalkar, S. Islam and P. Gargava. 2019. Application of Moderate Resolution Imaging Spectroradiometer (MODIS) Aerosol Optical Depth (AOD) and Weather Research Forecasting (WRF) model meteorological data for assessment of fine particulate matter (PM 2.5) over India. Atmospheric Pollution Research 10(2): 418-434.",
+        "links": null
+      },
+      "BIBREF40": {
+        "ref_id": "b40",
+        "title": "Impact of temperature on oxidant photochemistry in urban, polluted rural and remote environments",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Sillman",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Samson",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "J. Geophys. Res",
+        "volume": "100",
+        "issue": "D6",
+        "pages": "11--497",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sillman, S. and P. Samson. 1995. Impact of temperature on oxidant photochemistry in urban, polluted rural and remote environments, J. Geophys. Res. 100 (D6): 11 497-11 508.",
+        "links": null
+      },
+      "BIBREF41": {
+        "ref_id": "b41",
+        "title": "Influencing Factors of PM 2.5 Pollution: Disaster Points of Meteorological Factors",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Sun",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Zhou",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Wu",
+            "suffix": ""
+          },
+          {
+            "first": "Z",
+            "middle": [],
+            "last": "Gong",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Int J Environ Res Public Health",
+        "volume": "16",
+        "issue": "20",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sun, R., Y. Zhou, J. Wu and Z. Gong. 2019. Influencing Factors of PM 2.5 Pollution: Disaster Points of Meteorological Factors. Int J Environ Res Public Health 16(20): 3891.",
+        "links": null
+      },
+      "BIBREF42": {
+        "ref_id": "b42",
+        "title": "Chronic bronchitis and urban air pollution in an international study",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Sunyer",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Jarvis",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Gotschi",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Garcia-Esteban",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Jacquemin",
+            "suffix": ""
+          },
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Aguilera",
+            "suffix": ""
+          },
+          {
+            "first": "U",
+            "middle": [],
+            "last": "Ackerman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Marco",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Forsberg",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Gislason",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Heinrich",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Norback",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Villani",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Kunzli",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Occup Environ Med",
+        "volume": "63",
+        "issue": "12",
+        "pages": "836--843",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sunyer J., D. Jarvis, T. Gotschi, R. Garcia-Esteban, B. Jacquemin, I. Aguilera, U. Ackerman, R. de Marco, B. Forsberg, T. Gislason, J. Heinrich, D. Norback, S. Villani and N. Kunzli. 2006. Chronic bronchitis and urban air pollution in an international study. Occup Environ Med 63(12): 836-843.",
+        "links": null
+      },
+      "BIBREF43": {
+        "ref_id": "b43",
+        "title": "Correlations between fine particulate matter (PM 2.5) and meteorological variables in the United States: implications for the sensitivity of PM 2.5 to climate change",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Tai",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Mickley",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Jacob",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Atmos. Environ",
+        "volume": "44",
+        "issue": "",
+        "pages": "3976--3984",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Tai, A., L. Mickley and D. Jacob. 2010. Correlations between fine particulate matter (PM 2.5) and meteorological variables in the United States: implications for the sensitivity of PM 2.5 to climate change. Atmos. Environ. 44: 3976-3984.",
+        "links": null
+      },
+      "BIBREF44": {
+        "ref_id": "b44",
+        "title": "Valuing the Health Effects of Air Pollution: Application to Industrial Energy Efficiency Projects in China",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Wells",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Xu",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Johnson",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Wells, G., X. Xu, and T. Johnson, 1994, \"Valuing the Health Effects of Air Pollution: Application to Industrial Energy Efficiency Projects in China,\" World Bank.",
+        "links": null
+      },
+      "BIBREF45": {
+        "ref_id": "b45",
+        "title": "The Cost of Air Pollution: Strengthening the Economic Case for Action",
+        "authors": [],
+        "year": 2016,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank and Institute for Health Metrics and Evaluation. 2016. The Cost of Air Pollution: Strengthening the Economic Case for Action. Washington, DC. WHO (World Health Organization). 2016. Fact Sheet. Available online at http://www.who.int/mediacentre/factsheets/fs313/en/.",
+        "links": null
+      },
+      "BIBREF46": {
+        "ref_id": "b46",
+        "title": "Air quality guidelines for particulate matter, ozone, nitrogen dioxide and sulfur dioxide. Global update 2005, Summary of risk assessment",
+        "authors": [],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "WHO (World Health Organization). 2005. Air quality guidelines for particulate matter, ozone, nitrogen dioxide and sulfur dioxide. Global update 2005, Summary of risk assessment. WHO/SDE/PHE/OEH/06.02.",
+        "links": null
+      },
+      "BIBREF47": {
+        "ref_id": "b47",
+        "title": "China: Chongqing Industrial Pollution Control and Reform Project",
+        "authors": [],
+        "year": 1996,
+        "venue": "Staff Appraisal Report",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank, 1996, \"China: Chongqing Industrial Pollution Control and Reform Project,\" Staff Appraisal Report, World Bank.",
+        "links": null
+      },
+      "BIBREF48": {
+        "ref_id": "b48",
+        "title": "Assessment of Exposure to Indoor Air Pollutants",
+        "authors": [],
+        "year": 1997,
+        "venue": "World Health Organization",
+        "volume": "",
+        "issue": "78",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Health Organization, 1997, Assessment of Exposure to Indoor Air Pollutants, WHO Regional Publications, European Series, No. 78.",
+        "links": null
+      },
+      "BIBREF49": {
+        "ref_id": "b49",
+        "title": "World Resources, 1998-99, A Guide to the Global Environment: Environmental Change and Human Health",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Resources, 1998-99, A Guide to the Global Environment: Environmental Change and Human Health, (New York, Oxford: Oxford University Press).",
+        "links": null
+      },
+      "BIBREF50": {
+        "ref_id": "b50",
+        "title": "Exposure to air pollution and COVID-19 mortality in the United States",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Xiao",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "C"
+            ],
+            "last": "Nethery",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "B"
+            ],
+            "last": "Sabath",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Braun",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Dominici",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Xiao, W., Nethery, R.C., Sabath, M.B., Braun, D., Dominici, F., 2020. Exposure to air pollution and COVID-19 mortality in the United States. https://projects.iq.harvard.edu/files/covid- pm/files/pm_and_covid_mortality.pdf",
+        "links": null
+      },
+      "BIBREF51": {
+        "ref_id": "b51",
+        "title": "Daily Estimation of Ground-Level PM 2.5 Concentrations over Beijing Using 3 km Resolution MODIS AOD",
+        "authors": [
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Xie",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Wang",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [
+              "W"
+            ],
+            "last": "Zhang",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Dong",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Lv",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Bai",
+            "suffix": ""
+          }
+        ],
+        "year": 1920,
+        "venue": "Environ. Sci. Technol",
+        "volume": "49",
+        "issue": "",
+        "pages": "12280--12288",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Xie, Y., Y. Wang, K. Zhang. W. Dong, B. Lv and Y. Bai. 2015. Daily Estimation of Ground- Level PM 2.5 Concentrations over Beijing Using 3 km Resolution MODIS AOD. Environ. Sci. Technol. 49(20): 12280-12288.",
+        "links": null
+      },
+      "BIBREF52": {
+        "ref_id": "b52",
+        "title": "Air Pollution and Daily Mortality in Residential Areas of Beijing, China",
+        "authors": [
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Xu",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Gao",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Dockery",
+            "suffix": ""
+          },
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Archives of Environmental Health",
+        "volume": "49",
+        "issue": "",
+        "pages": "216--238",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Xu, X. , J. Gao, D. Dockery, and Y. Chen, 1994, \"Air Pollution and Daily Mortality in Residential Areas of Beijing, China\" Archives of Environmental Health, vol 49, Number 4, 216- 22.",
+        "links": null
+      },
+      "BIBREF53": {
+        "ref_id": "b53",
+        "title": "Pollution characteristics and influencing factors of atmospheric particulate matter (PM 2.5) in Chang-Zhu-Tan area",
+        "authors": [
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Wulin",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "IOP Conf. Series: Earth and Environmental Science",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Zhang, Y. and J. Wulin. 2018. Pollution characteristics and influencing factors of atmospheric particulate matter (PM 2.5) in Chang-Zhu-Tan area. IOP Conf. Series: Earth and Environmental Science,108.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "uris": null,
+        "fig_num": "1",
+        "num": null,
+        "text": "Darussalam (CAMS-3) monitoring station and .01-degree surrounding cell",
+        "type_str": "figure"
+      },
+      "FIGREF1": {
+        "uris": null,
+        "fig_num": "2",
+        "num": null,
+        "text": "Sentinel-5P: Average NO2 measure, September 2018 -August 2019.",
+        "type_str": "figure"
+      },
+      "FIGREF2": {
+        "uris": null,
+        "fig_num": "3",
+        "num": null,
+        "text": "Darussalam (CAMS-3) monitor area: hourly median and q1 traffic speeds Source: Google Traffic3.4 Weather DataMany studies have assessed the effect of weather variables on air pollution(Zhang and Wulin 2018;Sun et al. 2019;Li et al. 2017;Tai et al. 2010;Requia et al. 2019;Baertsch-Ritter et al. 2004;Csavina et al. 2014;Elminir 2005;Giri et al. 2008;Hien et al. 2002; Hosseinibalam and Azadeh 2012;Ocak and Turalioglu 2008;Punithavathy et al. 2015;Sillman and Samson 1995). This research focuses on temperature, precipitation, humidity, wind speed and atmospheric pressure, whose roles vary geographically in size and significance.Figure 4displays their monthly ranks (maximum value 12) for Dhaka during the period 2010-2019, drawing on data from World Weather Online.5",
+        "type_str": "figure"
+      },
+      "FIGREF3": {
+        "uris": null,
+        "fig_num": "4",
+        "num": null,
+        "text": "Monthly average weather variables, 2010-2019",
+        "type_str": "figure"
+      },
+      "FIGREF4": {
+        "uris": null,
+        "fig_num": null,
+        "num": null,
+        "text": "measured at date/time t): P = Pollutant concentration measured by CAMS-3 [PM 2.5 (ug/m 3 ); NO2 (ppb)] S = Average traffic speed (km/hr) in the .01-degree cell surrounding CAMS-3 H = Humidity (%) T = Temperature (C) W = Wind speed (km/hr) \u03b5 = Random error term",
+        "type_str": "figure"
+      },
+      "TABREF0": {
+        "content": "<table/>",
+        "num": null,
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF2": {
+        "content": "<table/>",
+        "num": null,
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF4": {
+        "content": "<table><tr><td colspan=\"2\">All variables in log form</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td colspan=\"2\">CAMS-3 NO2</td><td/><td/><td colspan=\"2\">CAMS-3 PM 2.5</td><td/><td/></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td/><td>Level</td><td>Diff</td><td>Level</td><td>Diff</td><td>Level</td><td>Diff</td><td>Level</td><td>Diff</td></tr><tr><td>Sentinel-5P NO2</td><td>0.447</td><td>0.328</td><td/><td/><td>0.232</td><td>0.291</td><td/><td/></tr><tr><td/><td colspan=\"2\">(3.86)** (5.99)**</td><td/><td/><td colspan=\"2\">(4.81)** (6.08)**</td><td/><td/></tr><tr><td>Sentinel-5P Aerosol</td><td/><td/><td>0.109</td><td>0.114</td><td/><td/><td/><td/></tr><tr><td/><td/><td/><td>(1.73)</td><td>(1.81)</td><td/><td/><td/><td/></tr><tr><td>MODIS AOD</td><td/><td/><td/><td/><td/><td/><td>0.270</td><td>0.568</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td colspan=\"2\">(3.15)** (3.19)**</td></tr><tr><td>Cloud Cover (%)</td><td>-0.103</td><td>0.125</td><td>-0.046</td><td>0.038</td><td>-0.024</td><td>0.056</td><td>-0.072</td><td>-0.072</td></tr><tr><td/><td>(1.35)</td><td colspan=\"2\">(2.75)** (1.56)</td><td>(1.00)</td><td>(0.79)</td><td>(1.52)</td><td>(2.45)*</td><td>(1.36)</td></tr><tr><td>Humidity (%)</td><td>0.576</td><td>-0.620</td><td>-1.086</td><td>0.033</td><td>-1.026</td><td>0.171</td><td>-1.125</td><td>-1.226</td></tr><tr><td/><td>(1.82)</td><td>(1.85)</td><td colspan=\"2\">(9.66)** (0.15)</td><td colspan=\"2\">(9.38)** (0.79)</td><td colspan=\"2\">(8.15)** (2.98)**</td></tr><tr><td>Temperature (C)</td><td>-1.135</td><td>-0.929</td><td>-2.039</td><td>0.656</td><td>-1.758</td><td>1.126</td><td>-2.373</td><td>-4.475</td></tr><tr><td/><td>(2.15)*</td><td>(0.95)</td><td colspan=\"2\">(9.31)** (0.96)</td><td colspan=\"2\">(7.80)** (1.48)</td><td colspan=\"2\">(8.04)** (2.28)*</td></tr><tr><td>Wind Speed (km/hr)</td><td>0.272</td><td>0.122</td><td>-0.370</td><td>-0.279</td><td>-0.180</td><td>-0.144</td><td>-0.518</td><td>-0.375</td></tr><tr><td/><td>(1.83)</td><td>(1.45)</td><td colspan=\"4\">(6.35)** (3.67)** (2.78)** (1.90)</td><td colspan=\"2\">(4.67)** (1.67)</td></tr><tr><td>Constant</td><td>3.375</td><td>0.020</td><td>16.132</td><td>-0.000</td><td>14.420</td><td>0.003</td><td>16.382</td><td>0.075</td></tr><tr><td/><td>(1.44)</td><td>(0.52)</td><td colspan=\"2\">(17.29)** (0.01)</td><td colspan=\"2\">(14.74)** (0.08)</td><td colspan=\"2\">(11.98)** (1.18)</td></tr><tr><td>Observations</td><td>289</td><td>213</td><td>304</td><td>250</td><td>280</td><td>216</td><td>78</td><td>27</td></tr><tr><td>R-squared</td><td>0.10</td><td>0.19</td><td>0.55</td><td>0.08</td><td>0.57</td><td>0.21</td><td>0.73</td><td>0.61</td></tr><tr><td colspan=\"3\">Absolute value of t statistics in parentheses</td><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"3\">* significant at 5%; ** significant at 1%</td><td/><td/><td/><td/><td/><td/></tr></table>",
+        "num": null,
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF5": {
+        "content": "<table><tr><td colspan=\"3\">: Darussalam (CAMS-3) monitor readings:</td><td/><td/></tr><tr><td colspan=\"3\">Hourly traffic and weather determinants</td><td/><td/></tr><tr><td colspan=\"2\">All variables in log form</td><td/><td/><td/></tr><tr><td/><td colspan=\"2\">PM 2.5</td><td>NO2</td><td/></tr><tr><td/><td>Level</td><td>Difference</td><td>Level</td><td>Difference</td></tr><tr><td>Traffic Speed</td><td>-0.355</td><td>-0.405</td><td>-0.422</td><td>-0.357</td></tr><tr><td/><td>(4.02)**</td><td>(6.04)**</td><td>(6.21)**</td><td>(7.22)**</td></tr><tr><td>Humidity</td><td>-1.013</td><td>0.234</td><td>-0.729</td><td>0.295</td></tr><tr><td/><td>(12.38)**</td><td>(0.99)</td><td>(11.79)**</td><td>(1.63)</td></tr><tr><td>Temperature</td><td>-3.701</td><td>-1.674</td><td>-1.861</td><td>-0.271</td></tr><tr><td/><td>(24.20)**</td><td>(3.91)**</td><td>(14.77)**</td><td>(0.83)</td></tr><tr><td>Wind Speed</td><td>-0.436</td><td>-0.135</td><td>-0.493</td><td>-0.051</td></tr><tr><td/><td>(9.04)**</td><td>(1.93)</td><td>(12.35)**</td><td>(0.90)</td></tr><tr><td>Constant</td><td>22.870</td><td>-0.026</td><td>14.381</td><td>-0.004</td></tr><tr><td/><td>(35.34)**</td><td>(1.16)</td><td>(28.80)**</td><td>(0.21)</td></tr><tr><td>Observations</td><td>565</td><td>485</td><td>1,013</td><td>964</td></tr><tr><td>R-squared</td><td>0.75</td><td>0.18</td><td>0.56</td><td>0.07</td></tr><tr><td colspan=\"3\">Absolute value of t statistics in parentheses</td><td/><td/></tr><tr><td colspan=\"2\">* significant at 5%; ** significant at 1%</td><td/><td/><td/></tr></table>",
+        "num": null,
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF7": {
+        "content": "<table><tr><td colspan=\"3\">: CAMS-3 PM2.5 vs predictions from Sentinel-5P and Google Traffic</td></tr><tr><td>Units: ug/m 3</td><td/><td/></tr><tr><td colspan=\"3\">Collection period (Dhaka time): 1 PM -2 PM</td></tr><tr><td/><td>Sentinel-5P</td><td>Google Traffic</td></tr><tr><td/><td>Aerosol</td><td>NO2</td></tr><tr><td>CAMS-3</td><td>Prediction</td><td>Prediction CAMS-3 Prediction</td></tr></table>",
+        "num": null,
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF8": {
+        "content": "<table><tr><td/><td colspan=\"4\">: CAMS-3 PM2.5 vs predictions from MODIS and Google Traffic</td></tr><tr><td/><td>Units: ug/m 3</td><td/><td/><td/></tr><tr><td/><td colspan=\"4\">Collection period (Dhaka time): 9 AM -2 PM</td></tr><tr><td/><td colspan=\"2\">MODIS</td><td colspan=\"2\">Google Traffic</td></tr><tr><td/><td/><td/><td>CAMS-</td><td/></tr><tr><td/><td colspan=\"2\">CAMS-3 Prediction</td><td colspan=\"2\">3 Prediction</td></tr><tr><td>N</td><td>402</td><td>90</td><td>50</td><td>107</td></tr><tr><td>min</td><td>11</td><td>22</td><td>13</td><td>20</td></tr><tr><td>p10</td><td>24</td><td>46</td><td>21</td><td>25</td></tr><tr><td>p25</td><td>35</td><td>64</td><td>31</td><td>29</td></tr><tr><td>p50</td><td>67</td><td>99</td><td>59</td><td>39</td></tr><tr><td>p75</td><td>121</td><td>136</td><td>176</td><td>136</td></tr><tr><td>p90</td><td>187</td><td>166</td><td>232</td><td>180</td></tr><tr><td>p95</td><td>217</td><td>192</td><td>289</td><td>200</td></tr><tr><td>p99</td><td>293</td><td>244</td><td>309</td><td>219</td></tr><tr><td>max</td><td>343</td><td>244</td><td>309</td><td>237</td></tr></table>",
+        "num": null,
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      },
+      "TABREF9": {
+        "content": "<table><tr><td/><td colspan=\"4\">: CAMS-3 NO2 vs predictions from Sentinel-5P and Google Traffic</td></tr><tr><td/><td>Units: ppb</td><td/><td/><td/></tr><tr><td/><td colspan=\"4\">Collection period (Dhaka time): 1 PM -2 PM</td></tr><tr><td/><td colspan=\"2\">Sentinel-5P</td><td colspan=\"2\">Google Traffic</td></tr><tr><td/><td colspan=\"3\">CAMS-3 Prediction CAMS-3</td><td>Prediction</td></tr><tr><td>N</td><td>379</td><td>406</td><td>65</td><td>93</td></tr><tr><td>min</td><td>0.01</td><td>2</td><td>5</td><td>6</td></tr><tr><td>p10</td><td>5</td><td>5</td><td>7</td><td>7</td></tr><tr><td>p25</td><td>6</td><td>6</td><td>9</td><td>8</td></tr><tr><td>p50</td><td>9</td><td>7</td><td>11</td><td>11</td></tr><tr><td>p75</td><td>12</td><td>9</td><td>17</td><td>22</td></tr><tr><td>p90</td><td>19</td><td>12</td><td>26</td><td>27</td></tr><tr><td>p95</td><td>25</td><td>13</td><td>32</td><td>29</td></tr><tr><td>p99</td><td>40</td><td>17</td><td>48</td><td>43</td></tr><tr><td>max</td><td>48</td><td>19</td><td>48</td><td>43</td></tr></table>",
+        "num": null,
+        "text": "",
+        "html": null,
+        "type_str": "table"
+      }
+    }
+  }
+}

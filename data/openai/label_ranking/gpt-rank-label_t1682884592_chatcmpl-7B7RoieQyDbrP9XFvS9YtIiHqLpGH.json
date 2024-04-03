@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03944: The data points for the years of 1994, 1998, 2003, and 2009 are reported in the following figures.\n\ns_03994: Kalemli-Ozcan (2006) , using similar types of data, shows that regressing total fertility rate on HIV/AIDS prevalence can yield both positive and negative eects with dierent estimation strategies and dierent measures of HIV prevalence.\n\ns_04044: Table 7 shows the derivation of predicted values of the under-five mortality concentration index for the two regions, along with the results of a decomposition which help us pinpoint the sources of the differences in health inequality between them.\n\ns_04094: Singapore) and still others with a T regime (e.g.\n\ns_04144: 5 To do so, we compile transaction-level information on new capital raising issues of common and preferred equity from 1990 to 2011 and on corporate bond issues from 2000 to 2011 from Thomson Reuters' Security Data Corporation (SDC) Platinum database.\n\ns_04194: For simplicity of exposition, and because they would not modify the key results discussed below, we abstract from these considerations.\n\ns_04244: 28 See Greenwald and Stiglitz (2003) .\n\ns_04294: Based on this, this study employs the Realized Volatility (RV) measure as suggested by Andersen et al.\n\ns_04344: Both data sets are nationally representative and span the period before and after the enactment of FPE.\n\ns_04394: Columns (3)-(8) focus on country pairs that signed an EIA.\n\ns_04444: Thaler and Shefrin, 1981).\n\ns_04494: Although the data collection predates the onset of the European crisis, the survey provides unique and valuable information on the extent and rationale for wage rigidity, and enables us to evaluate the importance of different explanations for avoiding wage cuts.\n\ns_04544: \"\u2026although the six variables employed in this chapter are a richer set of circumstances than those used in any previous study known to the authors, it is still possible to think of other relevant variables that are not observed.\n\ns_04594: Table 4 summarizes our multiplier results for developing countries in the 2x2 matrix discussed in the introduction.\n\ns_04644: Section 2 presents a brief literature review of the early risk factors and associated health and education outcomes for children.\n\ns_04694: (2005) , Di Giovanni (2005) , Hijzen et al.\n\ns_04744: Figure 1 plots the density distribution of birth years for the sample, pointing towards an average age of 79, 49, and 19 years for individuals in generations I, II, and III, when data were collected.\n\ns_04794: Thus, we identify the production parameters by dividing the observations into two subsamples containing the households in the northeast 18See Jeong (1999) and Jeong and Townsend (2000) for details.\n\ns_04844: Results for most of the control variables are consistent with findings in the literature.\n\ns_04894: Particularly, the literature suggests that transport connectivity is crucial to the locational choices of firms.\n\ns_04944: A Chow test of structural change allows us to determine whether the estimated relationship is the same for developing countries and the high income sample.\n\ns_04994: The computed point estimates are consistent with previous results: The average GVC participation of 36.05 in the five-year average sample of the second panel of Table 2 predicts an elasticity of -1.06 14 , in line with the elasticity estimated in column (1) of Table 2 .\n\ns_05044: Using 2006 data (i.e., pre-treatment data), we use a Logit model to explain the probability that a firm used export promotion services.\n\ns_05094: The descriptive analyses of the state of ECD for each indicator are based on the mean value of an outcome for a population, specifically the average share or percentage experiencing that outcome.\n\ns_05144: The LTGM is developed as a spreadsheet-based tool and comes pre-populated with data for most countries."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7RoieQyDbrP9XFvS9YtIiHqLpGH",
+    "object": "chat.completion",
+    "created": 1682884592,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1124,
+      "completion_tokens": 75,
+      "total_tokens": 1199
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04344\", \"data_mentioned\": true, \"reason\": \"FPE\"}, {\"sent_id\": \"s_04744\", \"data_mentioned\": true, \"reason\": \"generations\"}, {\"sent_id\": \"s_04994\", \"data_mentioned\": true, \"reason\": \"GVC participation\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04344\", \"data_mentioned\": true, \"reason\": \"FPE\"}, {\"sent_id\": \"s_04744\", \"data_mentioned\": true, \"reason\": \"generations\"}, {\"sent_id\": \"s_04994\", \"data_mentioned\": true, \"reason\": \"GVC participation\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06152: Second, we estimate the model by considering returnees who belong to the middle 33 rd percentile of the distribution with 3 to 5 years of migration and we report results in column (4b).\n\ns_06202: The treatments in the online experiment were based on questions trialed in other settings and were also informed by the results of the phone survey.\n\ns_06252: We show that the IPL is robust to choosing a broader set of countries, a broader set of national poverty lines, and using an equivalent poverty line-a line that retains the global poverty rate in a pre-specified reference year (Kakwani and Son, 2016) .\n\ns_06302: In our data, the main reasons given for not sending children to school are 35 percent because of its cost and another 13 percent because of the need for the child to work (at home, field or in town).4 The baseline survey was conducted during the Ebola crisis, but the question on enrollment refers to the situation just before the Ebola crisis.\n\ns_06352: The parameters \u03b3 b o , \u03b3 b y , \u03b8 t again refer respectively to fixed effects by decade-cohort of the generation above that co-resides with individual i, decade-cohort of the individual i, and census year.\n\ns_06402: We provide evidence that functional 4 These surveys are chosen to ensure that the estimates are not biased because of sample truncation due to coresidency restrictions.\n\ns_06452: To this end, we estimate the dynamic model specified in equation (1) for the various user categories as well as the full sample.\n\ns_06502: For example, suppose we have a dependent variable y and a set of predictors x1, x2,..,xk.\n\ns_06552: This is outside the scope of this paper, but is part of the research agenda of the World Bank.\n\ns_06602: Government Consumption Table 2 .3 also reports the breakdown of Government consumption by sector.\n\ns_06652: The Danish example is perhaps the most striking in this regard.\n\ns_06702: Celasun and Tansel (1993) show that there has been a strong link between real interest rates and private saving, which indicates that private savings will come at a high cost.\n\ns_06752: There have been attempts to cater for the 'selectivity bias' problem but with varying degrees of success.\n\ns_06802: In such a case the returns to foreign lobbying are higher (although not statistically so) than those reported in columns (5) and (6) Finally, note that lobbying only explains a very small part of the tariff preference variation.\n\ns_06852: A recent ODI Briefing Paper on \"Options for Rural Poverty Reduction in Central America\" states: \"The main hope for agriculture as an engine of growth may lie with diversification.\n\ns_06902: Estimates with more comprehensive coverage are provided by Gwatkin (2000) , who reports death rates by age group for the poorest 20% of the population of the developing world.\n\ns_06952: Section 4 presents the empirical specification and econometric concerns.\n\ns_07002: In column 2, we report results fo r savings behavior after controlling for household characteristics, and in column 3 we add the skill level of the head of household.\n\ns_07052: In the context of its description of the \"facts and background of the procedure\" before the Special Group \"Argentina -Measures that affect imports of footwear, textiles, apparel and other articles,\" the EC alleged that \"In fact, Argentina was applying a safeguard measure without complying with any of the procedures established in the WTO Agreement applicable as from January 1 st 1995.\"\n\ns_07102: These papers seek to measure the marginal impact of government investments on income and on poverty, with particular attention to the returns to investment in less-favored areas.\n\ns_07152: (2002) and Lang, Lins and Miller (2004) who report higher analyst coverage (a proxy for higher recognition) for ADR issuers.\n\ns_07202: 13 The reported CLAD estimates are based on regressions with the full set of controls, with a continuous variable in age instead of the age fixed effects; the reason for this is that we had convergence problems when we included either the age dummies or the canton fixed effects.\n\ns_07252: The Annex to this paper summarizes the criteria that qualify countries for the top score.\n\ns_07302: \", **, and *** represents significance levels of 10, 5, and I percent.\n\ns_07352: Their measure of use of information technology took into account the speed and cost of internet access and the extent of its use in the economy as a whole."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7WjxIJcvgHYqQUvajsvoD0JjlJD",
+    "object": "chat.completion",
+    "created": 1682884897,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1241,
+      "completion_tokens": 93,
+      "total_tokens": 1334
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07102\", \"data_mentioned\": true, \"reason\": \"less-favored areas\"}, {\"sent_id\": \"s_07152\", \"data_mentioned\": true, \"reason\": \"ADR issuers\"}] \n\nSentence s_07102 mentions \"less-favored areas\" as a dataset used in the paper. Sentence s_07152 mentions \"ADR issuers\" as a dataset used in the paper."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07102\", \"data_mentioned\": true, \"reason\": \"less-favored areas\"}, {\"sent_id\": \"s_07152\", \"data_mentioned\": true, \"reason\": \"ADR issuers\"}] \n\nSentence s_07102 mentions \"less-favored areas\" as a dataset used in the paper. Sentence s_07152 mentions \"ADR issuers\" as a dataset used in the paper.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

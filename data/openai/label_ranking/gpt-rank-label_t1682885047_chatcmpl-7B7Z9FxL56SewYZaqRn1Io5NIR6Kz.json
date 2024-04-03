@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04956: It is however substantially higher than Easterly and Rebelo's (1993) findings that in the 1980s, public investment in water and sanitation in developing countries absorbed about 0.4% of GDP in middle income countries.\n\ns_05006: If we take the slope estimated for the REER in the first line of column (2) of the second panel ofTable 2, -1.75, and, then correct it using the positive estimated slope on the interaction term for participation in GVCs, 0.019, and the average participation in GVCs, 36.05, we have -1.75+0.019x36.05 = -1.06.\n\ns_05056: Concluding Remarks There is a growing literature on the impact of export promotion services and subsidies.\n\ns_05106: This work assessed a number of different measures of ECD, but many were available only once or twice within a decade.\n\ns_05156: The calibrated model is then used to perform several quantitative exercises that feature different scenarios on how the drivers of growth evolve over time.\n\ns_05206: Regressions control for baseline measures of household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, age of child, age of child squared, gender, whether the child was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects.\n\ns_05256: Country Diagnostic estimated in 2008 that QFD reached 0.6% on average in the region, based on a large sample of countries.\n\ns_05306: Finally, to estimate the number of poor children, the marginality index of CONAPO was used, since it is not possible to get statespecific poverty rates based on income\n\ns_05356: Most of the previous research has focused on quantifying the effects of changes in ratings of a country on sovereign risk as measured by the yield spread of domestic instruments relative to developed country benchmark instruments.\n\ns_05406: (FGT0) is 57.4% for the reference distribution.\n\ns_05456: On domestic investment, Wang (2010) uses data from 50 countries over 1970 to 2004 and finds that FDI had a negative contemporaneous effect on domestic investment but a positive cumulative effect on domestic investment.\n\ns_05506: Therefore, surveys aimed at collecting data from a representative sample of households would be the optimal approach to retrieve data about citizen-government interactions based on the respondents' own experiences.\n\ns_05556: This research contributes to this literature by analyzing trends in the skill content of jobs and their drivers, as well as the consequences for employment creation in developing economies.\n\ns_05606: For instance, the highest from Model BCC-CSM1-1 projects the number of assets exposed to net increase flooding hazards is 472 and a potential 17.5 million users could be affected for RCP 4.5 at return period 30 by 2035.\n\ns_05656: El estudio de carga global de la enfermedad refleja el perfil epidemiol\u00f3gico nacional y su evoluci\u00f3n en el tiempo.\n\ns_05706: Some practical implications of what this may entail are addressed in the FMIS deployment architecture chapter.\n\ns_05756: Finally, measurements of trade in goods are taken from the UN Comtrade database from 2005 to 2015.\n\ns_05806: Table A1 compares the characteristics of those who enter into the demand study by attending the demonstration sessions to those who did the baseline survey by phone, but then did not attend any demonstration sessions.\n\ns_05856: Columns 7-8 test the relationship between CAMS-3 PM2.5 and MODIS Aerosol Optical Depth (AOD).\n\ns_05906: Based on careful benchmarking of indicators of upstream and downstream linkages of local manufacturers in Africa to GVCs, the paper shows that they are reasonably high by the standards of other developing regions.\n\ns_05956: L. S. Goldberg and Tille (2005) found that non-euro area countries have higher U.S. dollar invoicing while euro area countries are more likely to invoice in the euro.\n\ns_06006: Third, only specific country or regional data are used in the few studies analyzing the demandside factors affecting mobile internet adoption.\n\ns_06056: See Giambatista and Pennings (2017) for further details of this equivalence.\n\ns_06106: Gibson and McKenzie (2011) use a cross-section survey of top high-school performers of cohorts from 1976 to 2004 in Tonga, Papua New Guinea, and New Zealand to assess the determinants of migration and return decisions.\n\ns_06156: Our total sample consists of 14,897 observations: 12,804 individuals are non-migrants, 1,346 are return migrants (out of whom 481 had an undocumented migration), and 747 individuals are current migrants."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Z9FxL56SewYZaqRn1Io5NIR6Kz",
+    "object": "chat.completion",
+    "created": 1682885047,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1296,
+      "completion_tokens": 51,
+      "total_tokens": 1347
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05906\", \"data_mentioned\": true, \"reason\": \"GVCs\"}, {\"sent_id\": \"s_05956\", \"data_mentioned\": true, \"reason\": \"LSMS\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05906\", \"data_mentioned\": true, \"reason\": \"GVCs\"}, {\"sent_id\": \"s_05956\", \"data_mentioned\": true, \"reason\": \"LSMS\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

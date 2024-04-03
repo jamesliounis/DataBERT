@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07402: Concerning the pooling issue, what was said about Binswanger et al.\n\ns_07452: Several examples of this are provided in footnotes.\n\ns_07502: Note that this is different from economies of scale, because it is likely that joint collection may be the most efficient technique regardless of the number of workers at any one employer.\n\ns_07552: This, together with country specific evidence, undermines the traditional presumption that openness does not work in the SSA region.\n\ns_07602: The data marked 'A,\" identified as based on 1980 prices, are much smaller than the figures marked \"b,\" which appear initially without price attribution, but are also used to compile a total described as based on 1980 prices in a separate source (Agriculture 1988, p. 314 -this is a table of 1987 gross output for township and village industry by province \"at 1980 prices\"; although the line for Shanghai is blank, the national totals and data for other provinces are virtually identical with figures in TVP 1988, p. 26, which makes no mention of a price base].\n\ns_07652: In 1988 and 1989, former Finance Minister Miyazawa of Japan, President Mitterand of France and US Treasury Secretary Brady made proposals to include debt and debt service reduction more formally in the debt management strategy and to promote some form of official support for such transactions.\n\ns_07702: For operational purposes, the significance of the study is to clarify the relation that exists between different marketing board pricing systems and the method of implementing the schemes on the one hand, and, on the other, the implicit incentives for transport use, producer surplus and returns to transport investments.\n\ns_07752: This see ion of the study examines the implications of fisca) and exchange rate policies for the external sector in Ghana, in particular, the implications for the real exchange rate, the black market premium, and the trade balance.\n\ns_07802: In a representative diagram the information is: In diagram Cl, the relevant sample is all firms, ordered from largest to smallest according to the size of the estimated marginal revenue product of the relevant factor (in this case, capital).\n\ns_07852: Sensitivity analysis was carried out for the project components with quantifiable benefits in order to identify the variables which pose the major risk to the success of the project.\n\ns_07902: For example, the usual assumptions include the following: (i) real capital good prices increase at a constant rate over time, (ii) capital depreciates 1/ The notions of the effective tax rate and the cost of capital are fairly well known now in the literature so they are only briefly defined here.\n\ns_07952: However, the general magnitude of the results presented in Figures 6-8 should be correct.\n\ns_08002: Whereas some immediate and possibly temporary benefits can be attributed to the new DIS in terms of containing the underlying structural and solvency problems is some deposit-taking institutions, it is also potentially costly in terms of significant new fiscal contingencies.\n\ns_08052: We thus include in the analysis housing characteristics such as: dwelling type (house or apartment), whether the household owns the dwelling, age of the dwelling, and the size of the living area.\n\ns_08102: 45 Balassone and Franco (2000) , Buiter (2001) and Calmfors and Corsetti (2003) emphasize its limitations.\n\ns_08152: For population, see Milanovic (2006, p. 461) .\n\ns_08202: Individuals in the bottom quartile value college the least, on average, while those in the top quartile value it the most, on average, although the gains do not rise quite as sharply as in the case of ability.\n\ns_08279: Data obtained from the NSSE focuses on two main features of quality in higher education; student effort toward academics and student participation in university offered activities.\n\ns_08329: We checked that the coding was accurate using the \"tabulate\" function in Stata for all coded measures.\n\ns_08379: Results shown for P\u22640.5 threshold only, but no significant association or heterogeneity between datasets was observed at any P value threshold.\n\ns_08429: We start by searching the most coherent cluster in matrix C and obtain a region R corresponding to the union of all clusters with an overlapping over 50% to the most coherent cluster found.\n\ns_08479: Whether a therapy is safe enough will also be influenced by the conditions of use, whether one is considering a true primary prevention trial, a trial in preclinical AD, or a trial in established symptomatic AD, as the risk to benefit profile will shift toward tolerating greater risk with advancing clinical disease.\n\ns_08529: Barro and Lee (2013) still is most comprehensive as it provides many education indicators by age and sex and over a long time period from 1950 to 2010 whereas the WIC 2015 dataset only goes back to 1970.\n\ns_08579: To have a balanced data set among di3erent diagnostic groups, we included all HC and AD participants and a randomly selected set of 110 (out of 388) MCI participants in this study.\n\ns_08629: We used the National Survey of Substance Abuse Treatment Services (N-SSATS), an annual survey of all substance abuse treatment facilities in the United States, to identify methadone-dispensing opioid treatment programs and non-methadone-dispensing substance abuse treatment facilities in each state treating patients with buprenorphine."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Wo4R2BRWgDv6qHzmhd1UheJzah",
+    "object": "chat.completion",
+    "created": 1682884902,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1423,
+      "completion_tokens": 155,
+      "total_tokens": 1578
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08529\", \"data_mentioned\": true, \"reason\": \"Barro and Lee (2013)\"}, {\"sent_id\": \"s_08579\", \"data_mentioned\": true, \"reason\": \"National Survey of Substance Abuse Treatment Services (N-SSATS)\"}, {\"sent_id\": \"s_08629\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}] \n\nThe sentences s_08529, s_08579, and s_08629 mention datasets clearly and unambiguously. The datasets mentioned are Barro and Lee (2013), National Survey of Substance Abuse Treatment Services (N-SSATS), and buprenorphine, respectively."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08529\", \"data_mentioned\": true, \"reason\": \"Barro and Lee (2013)\"}, {\"sent_id\": \"s_08579\", \"data_mentioned\": true, \"reason\": \"National Survey of Substance Abuse Treatment Services (N-SSATS)\"}, {\"sent_id\": \"s_08629\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}] \n\nThe sentences s_08529, s_08579, and s_08629 mention datasets clearly and unambiguously. The datasets mentioned are Barro and Lee (2013), National Survey of Substance Abuse Treatment Services (N-SSATS), and buprenorphine, respectively.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

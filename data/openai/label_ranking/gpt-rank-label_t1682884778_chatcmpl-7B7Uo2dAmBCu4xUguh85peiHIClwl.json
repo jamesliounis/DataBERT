@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03699: The World Bank's Global Monitoring Report (2009a) notes that, -A pattern is beginning to emerge of increases in import licensing, import tariffs and surcharges, and trade remedies to support industries facing difficulties early on in the crisis.\u2016 Luckily, contrary to the Great Depression of the 1930s, the 2008-09 recession has not triggered a negative spiral of -beggar-thy-neighbor\u2016 policies.\n\ns_03749: In Brazil, Gauri and Brinks identified over seven thousand cases in the four sampled Brazilian states (Rio de Janeiro, Rio Grande do Sul, Bahia, and Goias), the great majority of which involved claims for medications.\n\ns_03799: Given the high frequency of the data, it comes as no surprise that daily credit spreads exhibit a large degree of persistence: the coefficient on lagged spreads is close to unity (Table 2 ).\n\ns_03849: In sum, the patterns in the first 6 columns of Table 6 provide support for a model of hyperbolic discounting as an account of some respondents' behavior.\n\ns_03899: Previous studies have estimated the use values for two categories: direct use value and indirect use value.\n\ns_03949: SeeTable A2in the Annex for detailed definitions.16 SeeLe, Moreno-Dodson, and Rojchaichaninthorn (2008) for detailed information on variables and their expected effects on taxes.\n\ns_03999: Information about the hazard process is contained in the HIV test results, the age in which the tests were taken, and the ages in which a woman is last observed (regardless of testing histories).\n\ns_04049: One recent study that does adopt such an approach is that of Bhuiya and others (2001) , who consider the impact on differentials in child mortality (mortality between the ages of one and five) of an MCH program delivered by the International Centre for Diarrhoeal Disease (ICDDRB).\n\ns_04099: Multi-pillar structures have long characterized some of the more advanced OECD countries, especially Switzerland and the Netherlands in Continental Europe and most Anglo-American countries around the world.\n\ns_04149: Notably, all these differences between users and non-users are associated with the 7 These findings are consistent with a growing literature that highlights that the top firms in a country play a particularly important role in more aggregate outcomes.\n\ns_04199: [_IhnhnhJ Applying the second-order condition for maximization yields\n\ns_04249: 22 It is possible that j and k belong to the same currency union, as in the case with Germany and Cyprus or they 22 The idea of how an uninvolved third party can alter the relation between two economic agents has had a long, if somewhat sporadic, history (see, for instance, Akerlof, 1976; Basu 1986 Basu , 2000 Hatlebakk, 2002; Villanger, 2005) .\n\ns_04299: The classical approach, such as by Mork (1989) , which considers oil price innovations in levels, fails to remain statistically significant in subsequent sample periods.\n\ns_04349: A large literature examining school choice finds that test scores are a good summary of the dimensions parents care about when enrolling in a particular school (Sandra E Black 1999 , Mark Schneider & Jack Buckley 2002 , Alejandra Mizala & Miguel Urquiola 2013 .\n\ns_04399: The first two columns follow a standard approach in the literature and test for the mean effect of North-South agreements on North-South trade without distinguishing between forms of integration.\n\ns_04449: We include here gender, the number of children in the Philippines, whether the individual has their spouse in the Philippines, whether they have nephews and nieces of school-age in the Philippines, their own education level, whether they have been in Italy longer than the median of 7 years, whether they earn less than the median of 800 euros per month, and the amount they report having sent to the Philippines for educational purposes in the past 12 months.\n\ns_04499: The list of possible reasons for avoiding wage cuts that firms were asked to assess in the survey was drawn from the extensive literature on wage setting and flexibility.\n\ns_04549: Of course the above example with parents and children takes us back to other examples in Cohen (1989) , which highlighted difficulties in Dworkin's (1981a Dworkin's ( , 1981b attempts to introduce the notion of responsibility into egalitarian philosophy by drawing a distinction between preferences and resources.\n\ns_04599: Our sample includes 52 countries (21 industrial and 31 developing) for the period 1971-2011.4 Of course, the current austerity programs in the Eurozone constitute procyclical \u2026scal policy, which had traditionally been observed only in developing countries.5 We are, of course, implicitly assuming that causation goes from the cycle to \u2026scal policy to tell our story.\n\ns_04649: Once the level of HOI for each outcome variable is estimated for 2000 and 2008, it is possible to decompose the changes in the index by scale and distribution effects and try to understand the drivers of the estimated change over time (Barros et al., 2009) .\n\ns_04699: Access to these data means that we can estimate our difference-in-differences approach, examine simultaneously the various effects of SFD and DFD on FDI, test whether external funds raised in source and destination countries are complements or substitutes, and look at the effects of financial development at both the intensive and extensive margins of FDI.\n\ns_04749: 2010) , in most contexts they will also affect gendered patterns of wealth.\n\ns_04799: or in terms of the estimated parameters,\n\ns_04849: We include several individual level controls from the GEM data set and macroeconomic controls from the World Bank Development Indicators (WDI).\n\ns_04899: where \u03bb is a spatial autoregressive dependence in district share s. \u03c1 represents possible autocorrelation in error term \u03be. W and M are spatial weighting matrices."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Uo2dAmBCu4xUguh85peiHIClwl",
+    "object": "chat.completion",
+    "created": 1682884778,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1550,
+      "completion_tokens": 90,
+      "total_tokens": 1640
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03699\", \"data_mentioned\": false}, {\"sent_id\": \"s_03749\", \"data_mentioned\": false}, {\"sent_id\": \"s_03799\", \"data_mentioned\": false}, {\"sent_id\": \"s_03849\", \"data_mentioned\": false}, {\"sent_id\": \"s_03899\", \"data_mentioned\": false}, {\"sent_..."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03699\", \"data_mentioned\": false}, {\"sent_id\": \"s_03749\", \"data_mentioned\": false}, {\"sent_id\": \"s_03799\", \"data_mentioned\": false}, {\"sent_id\": \"s_03849\", \"data_mentioned\": false}, {\"sent_id\": \"s_03899\", \"data_mentioned\": false}, {\"sent_...",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

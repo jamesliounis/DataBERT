@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05465: The value of each index is based on the average value of sub-indices.16 Table A.5 reports the summary statistics of the Investing across Borders data.\n\ns_05515: The pilot stage of the project has produced and tested a data collection methodology that could eventually be refined and scaled to a larger number of countries.\n\ns_05565: For example, and Goos, Manning, and Salomons (2009) document the process of employment and wage polarization affecting labor markets in the US and Europe since the 1980s and 1990s.\n\ns_05615: With these parameters, we estimate the return period of the annual maxima for 1970-2100 and 1970-2099.\n\ns_05665: Adicionalmente, se realiz\u00f3 un an\u00e1lisis considerando el dise\u00f1o del experimento original de 1997-2000.\n\ns_05715: This suggests that there are very high returns in terms of fiscal control for capturing high-value transactions, but the return diminishes rapidly as the value of the transaction declines.\n\ns_05765: In this study we use the share of households with a computer as a proxy for the technological development accessible by firms in each province.\n\ns_05815: First, the logistical difficulties implementing BDM resulted in a smaller than desired sample size, more participants assigned to treatment than control, and lower take-up of training, all of which reduce statistical power.\n\ns_05865: Air pollutants are monitored for the area surrounding the Darussalam (CAMS-3) station, which provides the hourly data used for this study.\n\ns_05915: The covariates include age group; employment size categories; foreign ownership (equal to 1 if there is any foreign ownership in the establishment and 0 otherwise); technology license (equal to 1 if the firm uses technology licensed from a foreign company and 0 otherwise), and indicators of industry classification.\n\ns_05965: The sample includes 28 EU member countries (See Table A1 in the Appendix).\n\ns_06015: 10 Annex 2 contains detailed country-level information on smartphone ownership and smartphone uptake rates.\n\ns_06065: Panel A shows that the calibrated TANK model is largely able to account for the observed empirical evidence.\n\ns_06115: Formally, we estimate the following specification:\n\ns_06165: Notes: This table presents geographical transition matrices for non-migrants (Panel A) and return migrants (Panel B) between the region of birth and the geographical region in 2012.\n\ns_06215: We conclude with a discussion of the implications of our findings.\n\ns_06265: Second, the 15 countries were selected based on data showing that, for countries with per capita household final consumption expenditure at the level of these countries, national poverty lines were uncorrelated to per capita household final consumption expenditure .\n\ns_06315: To test whether high-ability children benefitted more from the program than the low ability, we add an interaction term between the treatment and the continuous Raven score variable, measured at baseline.\n\ns_06365: The parameters \u03b3 b o , \u03b3 b y , \u03b8 t refer respectively to fixed effects by decade-cohort of the individual i, decade-cohort of the generation above that co-resides with individual i, and census year.\n\ns_06415: Section (4) reports the evidence on the conditional variance.\n\ns_06465: For each customer and year-month, it records the amount (kWh) of electricity consumed, the monetary value in Ghana Cedis (GHS), meter type (postpaid vs prepaid), and location (district) of the customer.\n\ns_06515: 14 Signing a petition is the dependent variable in model 1 of Table 2 .\n\ns_06565: This is because high-income countries tend to have larger budgets but also a significantly larger number of employees.\n\ns_06615: For the application to India, however, the data for the 72 sectors were actually made consistent, thus permitting a disaggregated fully general equilibrium model to be solved simultaneously.\n\ns_06665: The final steps towards full integration in the early 1990s were discussed in the Scandinavian press and debated in the respective ministries bul."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7fOpebE9TYHp9MUYuuJXVbjyHK6",
+    "object": "chat.completion",
+    "created": 1682885434,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1126,
+      "completion_tokens": 135,
+      "total_tokens": 1261
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05465\", \"data_mentioned\": true, \"reason\": \"Investing across Borders\"}, {\"sent_id\": \"s_05865\", \"data_mentioned\": true, \"reason\": \"Darussalam (CAMS-3) station\"}, {\"sent_id\": \"s_05965\", \"data_mentioned\": true, \"reason\": \"Table A1\"}, {\"sent_id\": \"s_06015\", \"data_mentioned\": true, \"reason\": \"smartphone ownership\"}, {\"sent_id\": \"s_06465\", \"data_mentioned\": true, \"reason\": \"electricity consumed\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05465\", \"data_mentioned\": true, \"reason\": \"Investing across Borders\"}, {\"sent_id\": \"s_05865\", \"data_mentioned\": true, \"reason\": \"Darussalam (CAMS-3) station\"}, {\"sent_id\": \"s_05965\", \"data_mentioned\": true, \"reason\": \"Table A1\"}, {\"sent_id\": \"s_06015\", \"data_mentioned\": true, \"reason\": \"smartphone ownership\"}, {\"sent_id\": \"s_06465\", \"data_mentioned\": true, \"reason\": \"electricity consumed\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

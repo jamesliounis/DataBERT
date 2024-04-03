@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05635: Fuente: estimaciones realizadas a partir de la informaci\u00f3n de la Encuesta de Evaluaci\u00f3n de los Hogares (ENCEL) 2017, complementada con informaci\u00f3n del panel ENCEL 1997-2000\n\ns_05685: Dorotinsky and Yasuhiko (2002) map out the various avenues of how FMIS systems can contribute to the larger PFM objectives (Dorotinsky and Matsuda 2002) .\n\ns_05735: The interaction between the instrument and the share of households with a computer is positive and significant in 2005-2010 and significant in 2011-2015 only in column (4).\n\ns_05785: Column (10) presents results from a pooled regression including both samples.\n\ns_05835: This paper assesses the potential for low-cost augmentation of ground-based air quality monitoring in Dhaka, Bangladesh, with more comprehensive coverage from global information sources.\n\ns_05885: This pattern is depicted in Figure 2 , which shows an aggregate GVC linkage of rate of 45% for the non-oil resource rich groups in 2015 as compared with 37% for the non-resource rich group and 33% for the benchmark group.\n\ns_05935: Since the data does not provide importer and exporter identifiers, in order to have consistent prices and tariffs for each time the product appears in the data, we provide evidence in the next section on the mechanism to ensure that we are observing actual changes in tariff rates as opposed to changes due to importer characteristics or other unobservable information from the data.\n\ns_05985: This paper is a product of the World Bank's World Development Report 2021 Team, Development Economics.\n\ns_06035: We provide new empirical evidence on the size of STMs for a range of countries based on a consistent methodology.\n\ns_06085: within Low conflict or within High conflict) reference category is statistically significant.\n\ns_06135: Nonetheless, in this section, we replicate our analysis using the most recent publicly available survey as a robustness check.\n\ns_06185: As we noted in the literature review, one salient fact emerging from existing descriptive studies on attitudes to COVID-19 vaccination, is just how much variation there is in vaccine hesitancy between countries (Africa CDC, 2021; Sol\u00eds Arce et al., 2021) .\n\ns_06235: We obtain a total of 1,438 country-year observations of national poverty rates from the World Bank's Poverty and Equity Database and the Organization for Economic Development and Co-operation (OECD) (see Table B .1 for more details).\n\ns_06285: We used the 2012 ELEP household survey that is representative of the population, and we find that vaccination rates increased from 70 to 78 percent of children between 2007 and 2012.\n\ns_06335: In this paper, I estimate intergenerational mobility in education for LAC countries at a disaggregated regional level using data from 91 censuses.\n\ns_06385: The rest of the paper is organized as follows.\n\ns_06435: We complement the electricity data with monthly data on temperature and total precipitation from the Copernicus Climate Change Service.\n\ns_06485: This fills a geographical gap raised by some authors (see Rizzo, 2021) , who also point out the predominance of macro-level, case-based studies that fail to account for citizens' individual perspectives.\n\ns_06535: Although the export promotion literature has shown that a focus on small exporters may generate higher returns (Volpe Martincus and Carballo, 2010).\n\ns_06585: Section 3 answers the policy questions posed in the introduction to the paper using data pertaining to the pre-reform period.\n\ns_06635: This was the experience of the Scandinavian merged agencies as well as the UK FSA where a first year turnover rate of 13% was registered (some staff did not want to extend their commute times to the relatively remote location of Canary Wharf).\n\ns_06685: Preliminary data suggest that the appreciation of the currency in real terms in the first half of the 1998 was around 8-10%.\n\ns_06735: Naved (1994) 14 finds that the women credit-program participants in her sample felt their status had improved due to the fact that they were seen as income earners for the family through their access to credit.\n\ns_06785: One characteristic of the foreign lobbying expenditure data is the high concentration by sector and country.\n\ns_06835: The asset-based approach can be used to explore relationships between: assets, context, behavior, outcomes (see de Janvry and Sadoulet (2001))."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7KnOuHAXkO28T68titVW1EEC3E6",
+    "object": "chat.completion",
+    "created": 1682884157,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1235,
+      "completion_tokens": 55,
+      "total_tokens": 1290
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06235\", \"data_mentioned\": true, \"reason\": \"Poverty and Equity Database\"}, {\"sent_id\": \"s_06335\", \"data_mentioned\": true, \"reason\": \"91 censuses\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06235\", \"data_mentioned\": true, \"reason\": \"Poverty and Equity Database\"}, {\"sent_id\": \"s_06335\", \"data_mentioned\": true, \"reason\": \"91 censuses\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

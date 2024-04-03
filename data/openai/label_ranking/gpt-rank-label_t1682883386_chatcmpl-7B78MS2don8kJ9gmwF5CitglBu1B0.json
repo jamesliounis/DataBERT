@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02277: An updated model grid we have produced under National Parks Service funding subsequent to the modeling done for this project utilizes the most up-to-date bathymetric data for the inlet, collected by Stony Brook's Roger Flood and others around ~2010 and only recently made public.\n\ns_02327: This data set consisted of 264 volumetric regions derived from preprocessed T1 images using techniques previously described (27, 28) .\n\ns_02377: 671 doi.org/10.1007/BF02693915.\n\ns_02427: (Figure 2 and Appendix Table 2) Logit regression results were consistent with the above findings (Appendix Figure 5 and Appendix Table 3).\n\ns_02477: With that said, we analyzed selection across pooled continental or country (UK) data to reduce biases driven by artificial over representation of lineages in specific locales.\n\ns_02527: Researchers implementing this technique using data from the Agricultural Resource Management Survey can exploit information about farmers' earnings in the previous year.\n\ns_02577: In a study by Burke et al.\n\ns_02627: et al., 2008; Tatomir et al., 2014; Geerlings et al., 2015; Vogel et al., 2016) .\n\ns_02677: selective colleges and universities are calculated from the aforementioned Expanded College and Beyond data set, which describes the cohort entering college in the fall of 1995; we compute denominators for application rates by comparing these data to data on 1995 SAT-takers.\n\ns_02727: We then summarized and compared these land cover types for each time period across a common set of watersheds derived from elevation data (Hollenhorst et al., 2007) for the entire Lake Superior basin.\n\ns_02777: Multivariable analyses with generalized estimating equations (GEE) based on the normal distribution were used to estimate differences in scores for each outcome accounting for clustering of subjects by ECLS-B-designed sample clusters using an exchangeable correlation structure.\n\ns_02827: As seen in Table 1 , the total number of children in the ECLS-B is about 10,700, but only the children of mothers considered \"working mothers\" by the first round of data collection at 9 months were included in this study.\n\ns_02877: The U.S. Census Bureau's Demographic Surveys Division (DSD) is committed to testing alternative methods of data collection, and thus conducted the Methods Panel Web (MPWEB) survey.\n\ns_02927: Sometims the data in the tables or figures are stucknt-reported information and the soume of data reported for these numbers is the student survey only.\n\ns_02977: 45-47) , a data collection process (Mishra, 2005) , a type of evaluation based on the collection of specific information (Noh, 2006) .\n\ns_03027: Furthermore, considering exclusively I-ADNI scanners, post-hoc comparisons revealed a significant higher ICV for the UO6 (p < 0.05 with Bonferroni correction) compared to that obtained from all other I-ADNI units, with the 1.5T.\n\ns_03077: This study uses data collected for rice farms in 2006.\n\ns_03127: There is a large literature on processes that aggregate individual preferences -particularly on voting behaviors, but the literature on deliberative processes is relatively sparse: Osborne, Rosenthal, and Turner(2000) study participation in meetings from a theoretical perspective.\n\ns_03177: The implementation proposal (von Braun and Torero 2009) quotes the results of Robles et al.\n\ns_03227: To overcome this drawback, Harrigan and Zakrajsek [18] work with a larger sample, which includes data for up to 28 OECD and non-OECD countries and 12 industries from 1970-1992.\n\ns_03277: Section 3 describes the empirical methodology and data sources.\n\ns_03327: Tables and Graphs   Table A1\n\ns_03377: \"(Michalopoulos, 1999, p. 22).\n\ns_03427: For advertising we employ the 1982, 1987, and 1992 input-output tables from the Bureau of Economic Analysis (BEA).\n\ns_03477: The data come from a variety of sources including IFS, BIS, WDI, S&P, Bankscope, Axco, and national sources."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B78MS2don8kJ9gmwF5CitglBu1B0",
+    "object": "chat.completion",
+    "created": 1682883386,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1196,
+      "completion_tokens": 50,
+      "total_tokens": 1246
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03227\", \"data_mentioned\": true, \"reason\": \"OECD\"}, {\"sent_id\": \"s_03427\", \"data_mentioned\": true, \"reason\": \"BEA\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03227\", \"data_mentioned\": true, \"reason\": \"OECD\"}, {\"sent_id\": \"s_03427\", \"data_mentioned\": true, \"reason\": \"BEA\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

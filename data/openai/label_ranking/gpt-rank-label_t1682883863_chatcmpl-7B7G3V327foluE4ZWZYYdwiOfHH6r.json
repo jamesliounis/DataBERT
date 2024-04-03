@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03331: Table A1 in the Appendix shows the loading factors of the diagnostic procedure as well as other statistics, The loading factors estimated in the explanatory analysis show a clear regrouping of the primary variables of hard infrastructure into two sub-groups that we call physical infrastructure and information and communications technology (ICT) because of the variables considered in each of them.\n\ns_03381: to 79 percent in 1998 and the share in imports from 76 percent to 82 percent over the same period (Table 6 ).\n\ns_03431: 3 The paper's empirical \u2026ndings are robust to reasonable changes in model speci\u2026cation as well as to variations in the measures of \u2026rm size dispersion and sunk costs.\n\ns_03481: The main stylized patterns that emerge from the econometric analysis of the available data are discussed in what follows.\n\ns_03531: Figure 4 displays the same decomposition using a 3-year time window used to minimize measurement error and avoid underestimation of the contributions of entry and exit.\n\ns_03581: The key variables for our analysis come from BANKSCOPE which provides bank-level balance sheet information, and DATASTREAM which provides information on stock prices, market capitalization and stock volume.\n\ns_03631: For example, the level of imperial preferences in 1936 was about 6-12 percent and was estimated to be twice that level in the preceding decade (McDougall and Hutt, 1954) .\n\ns_03681: Using data from Uganda,Reinikka and Svensson (1999), for example, find that unreliable provision of electricity is a significant deterrent to investment.22 Before road improvements, women had to spend an average of two hours per day collecting and carrying wood for fuel.\n\ns_03731: Using data from the government and the World Bank, we estimate that 36.3% of these students were from the lowest two income 27 quintiles (detailed calculations are in the appendix).\n\ns_03781: This paper represents a first attempt to fill this gap in the literature.\n\ns_03831: See, e.g., Thaler, (1981 ) Loewenstein (1987 and Benzion et al.\n\ns_03881: Roy et al (2009) in a special study about lead phase out report that measured lead blood levels are still high in the Indian population.\n\ns_03931: This section also compares the new results with the ones reported in Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , which was covering a shorter time period.\n\ns_03981: 15 The dierent rounds of the longitudinal dataset contain extensive information on more than 4,000 men and women, at the individual, household and community levels.\n\ns_04031: Are the data consistent with these predictions?\n\ns_04081: This can be reduced by using properly diversified portfolios and more sophisticated annuity products (Bodie and Crane 1998 , Burtless 1998 , Alier and Vittas 2001 .\n\ns_04131: (2012) , Freund and Pierola (2012) , and di Giovanni and Levchenko (2012).\n\ns_04181: Section V draws some of the policy implications of the analysis.\n\ns_04231: The aim of this paper is to illustrate one which is of great contemporary relevance by using tools of modern theoretical economics.\n\ns_04281: Hence, for each country a time series of continuous daily oil prices is obtained, with , where = [June, 1. ,1983; June, 2. ,1983; .\n\ns_04331: They replicate findings from, e.g., T. Paul Schultz (2004) who finds significant positive effects of Mexico's PROGRESA cash transfer program on enrollment, but demonstrate that these effects are subject to strongly diminishing returns as the size of the transfer is increased.\n\ns_04381: Therefore, to perform this investigation, we rely on the NTM dataset used by Disdier et al.\n\ns_04431: Figure 1 shows the CDFs of the total amount remitted under the four choice structures.\n\ns_04481: On average, the response rates are comparable to those of similar surveys likeCampbell and Kamlani, (1997);Agell and Lundborg, (2003); orFranz and Pfeiffer, (2006).8 The employment adjusted weights account for the unequal probabilities of firms receiving and responding to the questionnaire across strata and also for the average firm size (measured as the number of employees) in the population in each stratum.\n\ns_04531: 2003) , to more recent applications in specific contexts like health (for example, Jusot, Tubeuf and Trannoy, 2013) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7G3V327foluE4ZWZYYdwiOfHH6r",
+    "object": "chat.completion",
+    "created": 1682883863,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1253,
+      "completion_tokens": 52,
+      "total_tokens": 1305
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04331\", \"data_mentioned\": true, \"reason\": \"PROGRESA\"}, {\"sent_id\": \"s_04381\", \"data_mentioned\": true, \"reason\": \"NTM dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04331\", \"data_mentioned\": true, \"reason\": \"PROGRESA\"}, {\"sent_id\": \"s_04381\", \"data_mentioned\": true, \"reason\": \"NTM dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

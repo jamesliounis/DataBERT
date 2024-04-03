@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05880: This section presents the main findings on the analysis of the association between natural resource endowment and linkages of countries to GVCs by comparing trends in natural resource rich countries as a group to that in non-resource rich countries and external comparators.\n\ns_05930: In comparison with the literature, the contribution is twofold.\n\ns_05980: Section 3 describes the data used.\n\ns_06030: As it has been common in this literature, we now analyze which are the main macroeconomic variables involved behind the \u2026ndings of Panels A and B in Figure 1 .\n\ns_06080: We make progress on the first part by combining different sources and types of data.\n\ns_06130: As shown in the descriptive statistics in Table A .2 in the Online Appendix, these events coincide with greater undocumented migration in the 1980s.\n\ns_06180: The descriptive findings were calculated using household weights derived from the 2016-18 DHS to ensure the overall findings were broadly nationally representative, and throughout the paper household-weighted findings are reported on unless otherwise stated.\n\ns_06230: We use these lines with the 2017 PPPs in the rest of the paper.\n\ns_06280: These results are confirmed in the regressions presented in Table 4 , derived from Equation 2, in which we investigate the effect for each sub-treatment arm.\n\ns_06330: This paper contributes to this goal by creating the estimates of mobility at a disaggregated geographical level and making them available in an online data appendix for future research.\n\ns_06380: Please see section 2 below for a detailed discussion.\n\ns_06430: The rest of the paper is organized as follows.\n\ns_06480: See Ahrens, Hansen and Schaffer (2020) for details on the rigorous approach.\n\ns_06530: Surveys of firms around the world, namely the World Bank's Business Pulse Surveys, documented their responses to the COVID shock including their access to and use of government support programs (e.g., Constantinescu et al., 2022; Cirera et al., 2021) .\n\ns_06580: Much of this analysis is aggregative in nature and does not easily lend itself to the level of disaggregation required for the issues investigated in this paper.\n\ns_06630: One motivation behind this most recent reorganization is to facilitate the emergence of a matrix structure in which \"centers of expertise\" is developed with the at lity to collect know-how that can be applied across a number of different departments.\n\ns_06680: A more formal analysis of the interactions of fiscal policy and other key variables is undertaken by Agenor, McDermott, and Ucer (1997) which confirms the above analysis.\n\ns_06730: Khandker (2003) uses the panel data discussed above to suggest that there is some positive externality due to micro-credit programs but that the overall spill-over benefits are somewhat limited.\n\ns_06780: Finally, the sixth column provides our preferred estimate of a and corrects for both for heteroskedasticity and endogeneity of our righthand-side variable, as well as controlling for any industry or country specific effect.\n\ns_06830: 7 To date, much of the focus on mapping efforts and spatial analyses for Central Americahas centered on identifying ecological zones and environmentally sensitive areas (see WorldBank and CCAD 2001; Vreugdenhil and others 2002).\n\ns_06880: Starting again with mortality, Table 1 gives the implied impacts ( DRD.\n\ns_06930: The educational environment is discussed in some detail in Das and others (2004a) and Das and others (2004b) .\n\ns_06980: We use a Gaussian kernel density estimator and a bandwidth of 0.06, along with bootstrapped standard errors (1000 repetitions).\n\ns_07030: Table II .1 provides information on ad-valorem tariff rates as well as the fraction of tariff lines covered with import licenses.\n\ns_07080: (Azzoni 2001; Ferreira 1998 ; Pontual e Porto J\u00fanior 2000)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7FidEpwFSeb8TcnQGqf49hpGe4n",
+    "object": "chat.completion",
+    "created": 1682883842,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1121,
+      "completion_tokens": 50,
+      "total_tokens": 1171
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06180\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_07030\", \"data_mentioned\": true, \"reason\": \"import licenses\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06180\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_07030\", \"data_mentioned\": true, \"reason\": \"import licenses\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

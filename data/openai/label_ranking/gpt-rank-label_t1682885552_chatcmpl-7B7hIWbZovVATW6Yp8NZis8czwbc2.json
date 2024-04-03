@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04518: 18 The results for the effect of employee turnover on the reported answers are presented in Panel C of Table 7 .\n\ns_04568: The strong suggestion in the motivating discussion of the study is that with this focus there is likely to be a strong consensus on the policy objectives: \"This study defines basic opportunities as a subset of goods and services for children, such as access to education, to safe water, or to vaccinations, that are critical in determining opportunity for economic advancement in life.\n\ns_04618: 1 0 For consistency with our methodology for developing countries, we also computed all multipliers for OECD countries using the same frequency and methodology (described below) that we use for developing countries.\n\ns_04668: Similarly, D(C1,C2)\u2265D(C1).\n\ns_04718: In some cases, these broad sectors may not include data on subsectors, for which Rajan and Zingales (1998) and Kroszner et al.\n\ns_04768: Robust standard errors clustered by state in brackets.\n\ns_04818: We also restrict attention to households who had no recorded transaction with a financial institution in the month prior to the interview, a crude 1'1n particular, we used the MATLAB routine fmincon starting from a variety of predetermined guesses \"See their technical appendix for more information about the estimation technique and its drawbacks ' 7 See Jeong(1999) for details or its use in Deaton and Paxson (2000) or Schultz (1997) .\n\ns_04868: Thus in table 3, from columns 3 to 6, we increase the lag of the spending variables by one year.\n\ns_04918: (2012) also apply the same concept for the case of Chinese railways, calculating the distance from counties to straight lines connecting historic cities and ports, which can be arguably treated as exogenous.\n\ns_04968: Assuming a Cobb-Douglas, we can rewrite the first order condition as:\n\ns_05018: Figure 1 focuses on a sample of Central Eastern European countries and provides some suggestive preliminary evidence to motivate our analysis.\n\ns_05068: The last column gives the t-statistic on the difference between treated and non-treated firms in the change in export intensity from 2006-2010.\n\ns_05118: Essentially, the probability of an outcome, for instance, attending ECCE, is predicted based on the coefficients from the logit regression and the circumstances of the profile (least or most advantaged).\n\ns_05168: Nonetheless, robustness checks are performed around the parameter values used in the benchmark exercises.\n\ns_05218: The dependent variable in Panel B is the number of times the parent has visited various providers over the past year.\n\ns_05268: A survey by Nauges and Whittington (2010) of estimates of own-price elasticity for water from private connections in developing countries suggests that it is in the range from 0.3 to 0.6.\n\ns_05318: Get estimates of enrollment elasticity for each state i (ALPHAi).\n\ns_05368: Section 4 discusses the results.\n\ns_05418: The distribution for the missing data stabilizes at the exact distribution to be drawn from to retrieve model estimates averaging over the missing value distribution.\n\ns_05468: Similar findings are shown in Carr, Markusen, and Maskus (2001) who incorporate both horizontal and vertical FDI into a knowledge-capital model of multinational firms and offer support to both market access and knowledge capital hypotheses.\n\ns_05518: The Access to Health questionnaire attempted to capture the process for accessing public health institutions that are most commonly used for each of the services provided.\n\ns_05568: To our knowledge, there are only three studies that use data on the task content of occupations from developing countries instead of relying on data from the US.\n\ns_05618: This is similarly reflected in Figure 6 where a large concentration of WWTPs service the east coast provinces surrounding Shanghai, Beijing, and other major urban centers.\n\ns_05668: Finalmente, probamos la sobre-identificaci\u00f3n del modelo que pudiera resultar en correlaci\u00f3n con el t\u00e9rmino de error, lo que se rechaz\u00f3 al resultar la prueba de chi cuadrada con una p de 0.1343.\n\ns_05718: At the same time, the same set of countries are committing to invest in human capital and use an increasing share of public resources toward goals such as universal health coverage."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hIWbZovVATW6Yp8NZis8czwbc2",
+    "object": "chat.completion",
+    "created": 1682885552,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1193,
+      "completion_tokens": 98,
+      "total_tokens": 1291
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05518\", \"data_mentioned\": true, \"reason\": \"Access to Health\"}, {\"sent_id\": \"s_05568\", \"data_mentioned\": true, \"reason\": \"US\"}, {\"sent_id\": \"s_05618\", \"data_mentioned\": true, \"reason\": \"Shanghai\"}, {\"sent_id\": \"s_05718\", \"data_mentioned\": true, \"reason\": \"human capital\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05518\", \"data_mentioned\": true, \"reason\": \"Access to Health\"}, {\"sent_id\": \"s_05568\", \"data_mentioned\": true, \"reason\": \"US\"}, {\"sent_id\": \"s_05618\", \"data_mentioned\": true, \"reason\": \"Shanghai\"}, {\"sent_id\": \"s_05718\", \"data_mentioned\": true, \"reason\": \"human capital\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07081: Table 7 provides summary statistics for these variables.\n\ns_07131: The remainder of the paper is organized as follows.\n\ns_07181: There is some evidence that this is the case.\n\ns_07231: These data cover the most recent proposals to the extent that they were officially published and are not just snapshots of current trade negotiations as debated in the media.\n\ns_07281: The fixed effects estimates for both the pooled and the participants samples suggest that bidding had a negative but statistically insignificant correlation with productivity (row 1 under (a)); when we treat capital and labor as endogenous in the GMM estimates, the association becomes positive, but it is still insignificant.\n\ns_07331: The table indicates that the results of the project will be measured and evaluated at various levels; not only by the number of kilometers or roadways improved, but also by the increase of traffic on these roads, the increase of availability of bus and truck common carriers, the cost of such services.\n\ns_07381: (1987) , all the studies examnined below (see table 3 ) are concerned with individual crop area responses and are of time series nature.\n\ns_07431: Two main conclusions emerge from Table 6 .22 First, the middle and the low groups are not significantly different from each other from a statistical point of view.\n\ns_07481: Appendix E, pages 284 and 285 andTable XL.\n\ns_07531: This is essentially an empirical question that was explored by Gersovitz and Paxon.2' They tested the relationship between the changes in the terms of trade and economic performance for twenty-four countries for the period 1974-83 but did not find any statistically significant relationship.\n\ns_07581: Prior to 1985, compilations of TVE data carefully specify which data are based on 1980 prices; more recent publications conspicuously omit any mention of the price base for output data pertaining to 1985 and subsequent years r [VP, 1978-85; TVP 1987; TVP 1988; TJNJ 1988, p. 294 These figures imply that village level industrial output is higher in constant than in current prices.\n\ns_07631: New money requests (e.g Argentina in 1987 , Brazil in 1988 included features that were aimed at encouraging a prompt response on the part of commercial banks.\n\ns_07681: Ts,hlp S r-cc Inrtvicle-the mean niimher of mnonthc after May '1 ,until th.e cottAn jc n1nnted, by zone, as well as the mean, standard deviation, minimum and maximum of the variable.\n\ns_07731: He also develops a methodology based on a paper by Tanzi (1982) , to assess the importance and magnitude of the parallel market economy in Ghana.\n\ns_07781: In our case there were iterations with respect to both model specification and inclusion/exclusion of data points in the sample reflecting the inflow of information from the battery of diagnostic tests to which the model and data were subjected.\n\ns_07831: 1.27 and 1.28 and Section 4.A).\n\ns_07881: See Bartholdy, Fisher and Hintz [19871.\n\ns_07931: Considerable effort was spent during the period of the fieldwork attempting to obtain the information in the union borehole observers' daily log books; information from the union on its membership and the number of tanker trucks operating daily in Onitsha was also sought.\n\ns_07981: 7 See DIA website / 2005 DIA Annual Report.\n\ns_08031: The results of the multinomial logit model are reported in Table 8 .\n\ns_08081: 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 So urce: OECD Eco no mic Outlo o k database.\n\ns_08131: [ Table 3 and Figure 5 about here]\n\ns_08181: To determine the value individuals place on college, Athreya and his coauthors conduct a thought experiment made possible by the ability to compare their baseline economy (which is set to reflect current U.S. policy) to a hypothetical economy in which college is not available.\n\ns_08231: The presidents of the member societies of the Conference Board of the Mathematical Sciences, including AMS, MAA, and SIAM, have endorsed a statement [3] calling for the incorporation of effective active learning in all post-secondary mathematics instruction.\n\ns_08258: They are categorized in three groups: postsecondary education databases (data on current college students) longitudinal databases (data that are gathered at multiple points over time with college graduates), and transition and postsecondary-related databases (data on student outcomes including postsecondary education following high school)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7GJCfRM1Ih710rdBJYwyzEjsLvQ",
+    "object": "chat.completion",
+    "created": 1682883879,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1302,
+      "completion_tokens": 135,
+      "total_tokens": 1437
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07231\", \"data_mentioned\": true, \"reason\": \"trade negotiations\"}, {\"sent_id\": \"s_07331\", \"data_mentioned\": true, \"reason\": \"project results\"}, {\"sent_id\": \"s_07531\", \"data_mentioned\": true, \"reason\": \"changes in terms of trade\"}, {\"sent_id\": \"s_07931\", \"data_mentioned\": true, \"reason\": \"union borehole observers' daily log books\"}, {\"sent_id\": \"s_08031\", \"data_mentioned\": true, \"reason\": \"multinomial logit model\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07231\", \"data_mentioned\": true, \"reason\": \"trade negotiations\"}, {\"sent_id\": \"s_07331\", \"data_mentioned\": true, \"reason\": \"project results\"}, {\"sent_id\": \"s_07531\", \"data_mentioned\": true, \"reason\": \"changes in terms of trade\"}, {\"sent_id\": \"s_07931\", \"data_mentioned\": true, \"reason\": \"union borehole observers' daily log books\"}, {\"sent_id\": \"s_08031\", \"data_mentioned\": true, \"reason\": \"multinomial logit model\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

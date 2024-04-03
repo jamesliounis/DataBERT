@@ -1,0 +1,1349 @@
+{
+    "paper_id": "D34010638",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2023-04-12T18:05:01.873685Z"
+    },
+    "title": "Energy Demand during a Pandemic Evidence from Ghana and Rwanda",
+    "authors": [
+        {
+            "first": "Tei",
+            "middle": [],
+            "last": "Mensah",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Africa Region",
+                "location": {
+                    "country": "The World Bank"
+                }
+            },
+            "email": "jmen-sah2@worldbank.org"
+        },
+        {
+            "first": "Aimable",
+            "middle": [],
+            "last": "Nsabimana",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Africa Region",
+                "location": {
+                    "country": "The World Bank"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "James",
+            "middle": [],
+            "last": "Dzansi",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Africa Region",
+                "location": {
+                    "country": "The World Bank"
+                }
+            },
+            "email": "james.dzansi@theigc.org"
+        },
+        {
+            "first": "Alexandre",
+            "middle": [],
+            "last": "Nshunguyinka",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Africa Region",
+                "location": {
+                    "country": "The World Bank"
+                }
+            },
+            "email": "anshunguyinka@gmail.com"
+        }
+    ],
+    "year": "2023-02",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+    "pdf_parse": {
+        "paper_id": "D34010638",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The COVID-19 pandemic has caused severe disruptions to the global economy, with significant effects on livelihoods particularly in developing and emerging economies. To stem the spread of the virus and save lives, governments around the world imposed restrictions on movement of people. Notable among these restrictions were stay-at-home (SAH) orders or lockdowns and social distancing. As a consequence, many (non-essential) employment activities also transitioned to home-based-work (HBW). For work environments, where home-based-work was not possible, workers often worked in shifts to reduce the capacity of people at the work place at any given point in time. In the developing world, where majority of people work in the informal sector, these restrictions and SAH orders were less strict due to the economic and logistic constraints. Nonetheless, overall, the restrictions and associated impact on the global economy have implications on energy demand. For instance, the transition to HBW is likely to increase residential energy consumption while decreasing non-residential consumption, especially given the important role of energy in the modern economy. At the same time, pandemic relief measures such as electricity subsidies implemented in several countries are likely to have intended and unintended consequences on electricity consumption (Saltane et al., 2022; Berkouwer et al., 2022) .",
+                "cite_spans": [
+                    {
+                        "start": 1353,
+                        "end": 1375,
+                        "text": "(Saltane et al., 2022;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1376,
+                        "end": 1399,
+                        "text": "Berkouwer et al., 2022)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "In this paper, we examine the electricity demand response of households and firms to the COVID pandemic in Africa using unique administrative data on billing records from Ghana and Rwanda. The choice of these countries is motivated by two unique features: (i) Ghana has one of the highest electrification rates (86%) in Africa, while access rate in Rwanda remain relatively low (47%) but rising; 1 and (ii) Ghana offered electricity subsidies to customers during the pandemic while Rwanda did not. Thus, data from these countries will provide comprehensive evidence of the effect of the pandemic and associated policy measures on households and firms in the context of developing economies. Specifically, we seek to address two key questions: first, how did the pandemic affect electricity consumption by households and firms in the developing world? Second, to what extent did pandemic relief measures such as electricity subsidies matter for mediating the impact of the pandemic on households?",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "Causal identification of the impact of COVID on outcomes is beset with several challenges. The main challenge relates to the universal nature of the pandemic and the wide reach of the lockdowns (SAH) in many countries. This limits the ability of researchers to identify \"credible\" treated and control units for causal identification of impacts. In addition, energy use patterns entail significant amount of seasonalities, hence, a simple beforeafter differences in consumption levels may not reflect the impact of the pandemic.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "To address these challenges, we leverage the detailed (panel) nature of our datasets and model electricity consumption at the customer level before and after the roll-out of the COVID lockdowns (SAH) compared against the typical (average) consumption levels during the same period in the previous years (Irwin et al., 2021) . Essentially, for each customer, we use the typical electricity consumption levels in the previous (non-COVID) years as the counterfactual, i.e., the level of consumption in the absence of COVID. We include customer fixed effects and location-year fixed effects to purge customer specific and temporal factors that influence consumption. In addition, we explicitly control for monthly average temperature and total precipitation to absorb the effect of seasonal weather patterns on electricity consumption.",
+                "cite_spans": [
+                    {
+                        "start": 303,
+                        "end": 323,
+                        "text": "(Irwin et al., 2021)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "Six main results emerge from the paper. First, residential electricity consumption during the pandemic increased in both Ghana and Rwanda, albeit the rate of increase was higher in the former. Specifically, average household consumption increased by about 23% in Ghana compared to 4% in Rwanda. Second, consumption in the non-residential sector declined by about 11% in Rwanda, while rising marginally in Ghana by about 6% in Ghana. Third, industrial consumption declined in both countries, highlighting the effect of COVID-induced business closure and supply chain disruptions on the activities of the industrial sector. Fourth, the effect of COVID on electricity consumption was pronounced in lockdown and non-lockdown communities, as well as both rural and urban communities. This highlights the effects of the pandemic across various segments of the population. Fifth, pandemic relief measures such as electricity subsidies administered in Ghana played a key role in raising consumption. While the subsidies were important to sustaining households' consumption from falling below pre-pandemic levels, they also induced an unintended consequence: excess consumption among households. Finally, contrary to earlier criticisms that the design of the subsidy program in Ghana was regressive (Berkouwer et al., 2022) , our back-of-the-envelope calculations suggest that the total subsidies to low-income (lifeline) customers were about 67% higher than total subsidies received by middle/high-income (non-lifeline) households (customers). This is largely driven by the extension of the subsidy for longer duration for low-income households.",
+                "cite_spans": [
+                    {
+                        "start": 1290,
+                        "end": 1314,
+                        "text": "(Berkouwer et al., 2022)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "This paper contributes to two strands of the literature. First, the broader literature on the effects of COVID-19 on households and firms in emerging economies. These studies range from the effects on food security (Amare et al., 2021; Abay et al., 2020) , wel-fare (Adams-Prassl et al., 2020; Schmidt et al., 2021) , firms (Cong et al., 2021) , employment (Cortes and Forsythe, 2020; Albanesi and Kim, 2021; Klein, 2022) , energy use(Cicala, 2020), water consumption (Irwin et al., 2021 ), pollution(Zhang et al., 2021 , as well as the effectiveness of the government policies during this period (Gentilini et al., 2020) . Cicala (2020) for instance shows that the COVID pandemic led to a substantial increase in electricity consumption by residential customers in the United States. Commercial and industrial users on the other hand experienced a decline in consumption, with the transition to home-based work as the main reason for the differential impacts across the customer groups.",
+                "cite_spans": [
+                    {
+                        "start": 215,
+                        "end": 235,
+                        "text": "(Amare et al., 2021;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 236,
+                        "end": 254,
+                        "text": "Abay et al., 2020)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 266,
+                        "end": 293,
+                        "text": "(Adams-Prassl et al., 2020;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 294,
+                        "end": 315,
+                        "text": "Schmidt et al., 2021)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 324,
+                        "end": 343,
+                        "text": "(Cong et al., 2021)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 357,
+                        "end": 384,
+                        "text": "(Cortes and Forsythe, 2020;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 385,
+                        "end": 408,
+                        "text": "Albanesi and Kim, 2021;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 409,
+                        "end": 421,
+                        "text": "Klein, 2022)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 468,
+                        "end": 487,
+                        "text": "(Irwin et al., 2021",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 488,
+                        "end": 519,
+                        "text": "), pollution(Zhang et al., 2021",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 597,
+                        "end": 621,
+                        "text": "(Gentilini et al., 2020)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 624,
+                        "end": 637,
+                        "text": "Cicala (2020)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "Second, our paper contributes to the strand of literature on the (distributional) impact of energy subsidies on household and firm behavior (Komives et al., 2005; Davis, 2014; Younger et al., 2016; Basurto et al., 2020; Hahn and Metcalfe, 2021; Berkouwer et al., 2022) . Perhaps, closest to our paper in this respect is Berkouwer et al. (2022) who assessed the distributional impact of the electricity subsidies in Ghana during the COVID period. We show that while the assessment by Berkouwer et al. (2022) that the (initial) design of the subsidies was (plausibly) regressive, our back-of-envelop calculations based on administrative data on actual consumption suggest that the eventual extension of the subsidy period for low-income households made the program progressive than regressive.",
+                "cite_spans": [
+                    {
+                        "start": 140,
+                        "end": 162,
+                        "text": "(Komives et al., 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 163,
+                        "end": 175,
+                        "text": "Davis, 2014;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 176,
+                        "end": 197,
+                        "text": "Younger et al., 2016;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 198,
+                        "end": 219,
+                        "text": "Basurto et al., 2020;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 220,
+                        "end": 244,
+                        "text": "Hahn and Metcalfe, 2021;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 245,
+                        "end": 268,
+                        "text": "Berkouwer et al., 2022)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 320,
+                        "end": 343,
+                        "text": "Berkouwer et al. (2022)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 483,
+                        "end": 506,
+                        "text": "Berkouwer et al. (2022)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "The rest of the paper is organized as follows. Section 2 presents an overview of the COVID situation in the two countries and the policy responses to the pandemic. Sections 3 and 4 describe, respectively, the data and empirical strategy for the paper. Results are presented in Section 5. Section 6 concludes the paper with a summary of findings.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1"
+            },
+            {
+                "text": "This section provides a contextual overview of the COVID situation in the two countries and the policy measures implemented to contain the spread of the virus and ameliorate the socioeconomic impact of the pandemic.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Context",
+                "sec_num": "2"
+            },
+            {
+                "text": "The first case of COVID-19 in Rwanda was recorded on March 14, 2020. To stem the spread of the virus, the government introduced a plethora of measures including, but not limited to, closure of schools and religious centers, restrictions on large gatherings, social distancing, and urging employees to work from home.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Rwanda",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Further, on March 21, 2020, a total lockdown or stay-at-home (SAH) order was imposed across the country. During this period, movements of people were strictly prohibited except for essential services such as food and health care services. Industries operated at minimum capacity as employees were only allowed to work in shifts. To ameliorate the effects of the SAH order and other related restrictions on household welfare, the government provided free food and other basic essentials to vulnerable households. In addition, the government established an Economic Recovery Fund to support the recovery of businesses hardest hit by the pandemic to enable them to survive, resume operations and safeguard employment, thereby cushioning the economic effects of the pandemic. The fund was particularly targeted at hotels and operators in the tourism sector which were heavily hit, as global travel plummeted. Although the SAH was expected to last for two weeks, it was eventually extended until May 4, 2020.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Rwanda",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "The measures were relaxed to some extent in May 2020, although movements of people still had some restrictions. For instance, evening curfews were imposed, thus preventing people from staying outside in the evenings, and movement across certain jurisdictions required permission from local authorities. However, some services including public and private businesses, operators in the manufacturing and construction sectors were allowed to re-open with only essential staff while non-essential staff continued to work from home. Markets were reopened with essential vendors not exceeding 50% capacity, while hotels and restaurants were only allowed to work at a limited scale. Since then, the country made regular assessments of the COVID cases and various targeted restrictions and preventive measures were applied depending on diagnostics by health officials.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Rwanda",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Ghana recorded its first case of COVID-19 on March 12, 2020. 2 Subsequently, authorities in the country introduced several preventive measures to halt the spread of the disease. These measures include; contact tracing, a ban on all public gatherings, 3 closure of schools, closure of all land borders with neighboring countries, and shutting the main international airport in Accra. The Ministry of Health also heightened routine surveillance and carried out mass education campaigns to create awareness about the virus, and to promote social distancing and hand washing.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ghana",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "Due to the constant increase of positive cases in the first month of COVID-19 in the country, a 3 week (partial) lockdown (SAH) was introduced in the two largest cities, Accra and Kumasi, considered the epicenters of the pandemic, between March 31 and April 21, 2020. During the lockdown period, the movement of people in the affected communities was restricted. Only the workers in essential services (healthcare, media, food restaurants, security agencies) were allowed to move around in these two cities. Outside the two cities, people were free to move around, although most institutions and places of worship were closed due to fear of contagion. 4 Although the SAH/lockdown lasted only three weeks, the other restrictions continued. It was not until July 2020, that the country started easing the restrictions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ghana",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "Within weeks, after the implementation of the restrictions, it became apparent that the COVID-19 pandemic and measures taken to contain it were taking a toll on the economy and livelihoods. Across the private sector, businesses especially in the education, hospitality, manufacturing, and agriculture sectors came under severe strain. For example, schools were closed with the incomes of teachers in private educational institutions severely reduced or threatened. In the hospitality sector, occupancy rates fell below 5 percent, with many hotels closed. 5 Productivity in factories fell to historic lows due to mandatory social distancing requirements, which meant only a fraction of employees could be engaged at any time. In the agriculture sector, there were labor supply problems as both internal movement of farm labor and labor coming in from neighboring countries have been curtailed. It is also becoming difficult for extension officers to visit farmers due to the fear of the virus. Lastly, agribusiness exporters have been hit with the loss of markets, and with some firms throwing away perishable products.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ghana",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "To mitigate the economic effects of the pandemic and associated restrictions, the government instituted several policy measures under the Coronavirus Alleviation Program (CAP) 6 to cushion households and businesses from the economic costs of the pandemic and the measures taken to contain it. Prominent among these measures were subsidies for electricity and water. 7 Provision of free food and other household essentials were also distributed to households in communities affected by the lockdown. 8 The electricity subsidies are particularly important to this paper. The subsidy program offered a 100% subsidy to lifeline (low-income) customers who consume 0-50 kWh of electricity a month, while non-lifeline customers (consuming above 50 kWh a month) would enjoy a 50% subsidy (Berkouwer et al., 2022) . The subsidies were announced on March 29 and took effect from April 1. Eligibility status was determined based on March consumption. The policy was initially announced to last for three months, however, the subsidy for [only] lifeline customers was eventually extended for 12 months.",
+                "cite_spans": [
+                    {
+                        "start": 499,
+                        "end": 500,
+                        "text": "8",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 780,
+                        "end": 804,
+                        "text": "(Berkouwer et al., 2022)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ghana",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "This paper uses administrative data on electricity billing records from Ghana and Rwanda. The Ghana data comes from the Electricity Company of Ghana (ECG), which is the largest distributor in the country with operations in the southern and middle belts. It accounts for nearly 70% of all electricity customers in the country. We use data on billing records of the universe of electricity customers of the ECG from January 2018 to December 2020. The data identifies customer types based on the tariff applicable: residential (households), non-residential, and heavy industries. For each customer and year-month, it records the amount (kWh) of electricity consumed, the monetary value in Ghana Cedis (GHS), meter type (postpaid vs prepaid), and location (district) of the customer. In all, the data contains 42 million customer-year-month observations. The Rwanda data comes from the Energy Utility Corporation Limited (EUCL), the main distributor, via the Rwanda Utilities Regulatory Authority (RURA). The dataset contains the billing records of the universe of electricity customers in Rwanda from January 2018 to December 2020. The data identifies customer type based on the tariff applicable: residential, non-residential (commercial, hotels, health centers, and public works ( water storage and pump stations, broadcasters)), and small-and-medium industries. Also, all customers in the dataset use prepaid meters: Rwanda has a universal roll-out of prepaid meters, with large and heavy industries the only exception who are allowed to use postpaid meters. Our data exclude these customers (i.e. large and heavy industries). For each customer, we have monthly records on the amount (kWh) of electricity consumed (purchased), the monetary value in Rwandan Francs (RWF), location (community/district), and rural-urban status. In all, the data contains 21 million customer-year-month observations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data",
+                "sec_num": "3"
+            },
+            {
+                "text": "We complement the electricity data with monthly data on temperature and total precipitation from the Copernicus Climate Change Service. 9",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data",
+                "sec_num": "3"
+            },
+            {
+                "text": "Causal estimation of the effect of the COVID-19 pandemic on electricity consumption is beset with at least two challenges of identification. The first relates to the role of seasonalities in energy demand. Temperature and rainfall patterns are key drivers of energy demand around the world, and given that these weather patterns vary based on the time of the year, monthly changes in electricity consumption to a large extent are influenced by the prevailing weather conditions. Thus, pre-post differences in household electricity consumption may reflect the seasonal patterns in electricity consumption and not necessarily the effect of the pandemic and its associated stay-at-home orders. Secondly, the global nature of the COVID-19 pandemic and the wide reach of the stay-at-home orders pose severe challenges to the identification of the counterfactual, as one cannot identify a relevant control group.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "To address these issues, we follow the approach of Irwin et al. (2021) and implement a difference-in-difference design by comparing the differences in electricity consumption during the post-COVID months and consumption levels in the same month in the previous years (2018-2019) with the average consumption in the months just before the pandemic (i.e. January and February 2020) and the years before (2018-2019). Essentially, the approach uses the average monthly consumption of each household (firm) in the previous years as the counterfactual level of electricity consumption in the respective months in the absence of the COVID pandemic. The identification strategy is similar in spirit as Knutsen et al. (2017) and Isaksson and Kotsadam (2018) . 10 To express this formally, consider the following regression specification:",
+                "cite_spans": [
+                    {
+                        "start": 694,
+                        "end": 715,
+                        "text": "Knutsen et al. (2017)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 720,
+                        "end": 748,
+                        "text": "Isaksson and Kotsadam (2018)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 751,
+                        "end": 753,
+                        "text": "10",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "lnY imt = \u03b1 i + \u03bb jt + n \u03c9=0 \u03b2 \u03c9 2020 (1(2020) \u00d7 1(month > M arch = \u03c9)) + n \u03c9=0 2019 k=2018 \u03b2 \u03c9 k (1(k) \u00d7 1(month > M arch = \u03c9)) + \u03d5X jmt + \u03f5 imt (1)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "where lnY imt is the log of the monthly electricity consumption (purchases) of household (firm) i in month m(= 1, 2, .., 12) and year t(= 2018, 2019, 2020). 11 \u03b1 i denotes the household (firm) fixed effects to capture time-invariant heterogeneity across households (firms); \u03bb jt denotes district-year fixed effects to absorb (temporal) seasonal patterns that are specific to each district. 1(2020) \u00d7 1(month > M arch = \u03c9) are monthly event dummies that are set equal to 1 if the consumption occurred in month m relative to the start of COVID-19 SAH (lockdown) which in the case of Rwanda was March 2020. 12 However, in the case of Ghana, the lockdown went into effect on March 31, 2020, and lasted until April 20, 2020. Hence, in this setup, we treat April as, effectively, the start of the SAH order in Ghana. 13 Similarly, n \u03c9=0 2019 k=2018 \u03b2 \u03c9 k (1(k) \u00d7 1(month > M arch = \u03c9)) represent monthly event dummies for the months between March and December in the respective years. X imt is a vector of time-varying controls, mainly, monthly temperature and precipitation in the household's (firm's) locality (district), to absorb the effects of changing weather patterns on electricity demand. \u03f5 imt is the idiosyncratic error term. The parameter, \u03b2 \u03c9 2020 , estimates the pre-post (first) differences in electricity consumption in the months after the SAH relative to the months immediately before the SAH in 2020. 14 As indicated earlier, there is evidence of seasonalities in electricity consumption, which may confound the \u03b2 \u03c9 estimates. Therefore, to estimate the effect of COVID-19 on consumption, we use households' (firms') own electricity consumption in the previous non-COVID years (2018-2019) as a counterfactual (Irwin et al., 2021) . The intuition is that, in the absence of COVID, household's (firm's) monthly consumption in 2020 would have evolved along a similar pattern as their respective average monthly consumption in the preceding years (Irwin et al., 2021) . To this end, we (arbitrarily) roll back the March (April) SAH order to the previous non-COVID years (2018-2019) and estimate the pre-post differences over the period (denoted by \u03b2 \u03c9 2018 and \u03b2 \u03c9 2019 respectively), and use these estimates to adjust 11 It is important to emphasize that for customers on prepaid electricity meters, purchases may not be necessarily equal to consumption in a given month, as a consumer can purchase more electricity than she can consume in a given month, effectively consuming the remainder in the following month. However, this is less likely to be an issue given that the majority of households make small purchases, several times a month, effectively purchasing what they need for a given period (day/week), probably due to income constraints. Hence, at the margin, purchases are likely to approximate consumption.",
+                "cite_spans": [
+                    {
+                        "start": 811,
+                        "end": 813,
+                        "text": "13",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1414,
+                        "end": 1416,
+                        "text": "14",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1722,
+                        "end": 1742,
+                        "text": "(Irwin et al., 2021)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1956,
+                        "end": 1976,
+                        "text": "(Irwin et al., 2021)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2228,
+                        "end": 2230,
+                        "text": "11",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "12 The stay-at-home order (SAH) in Rwanda was implemented between March 21 and May 4, 2020 13 Accordingly, our baseline equation for estimating the impact in Ghana can be specified as follows:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "Y imt = \u03b1 i + \u03bb jt + n \u03c9=0 \u03b2 \u03c9 2020 (1(2020) \u00d7 1(month > April = \u03c9)) + n \u03c9=0 2019 k=2018 \u03b2 \u03c9 k (1(k) \u00d7 1(month > April = \u03c9)) + \u03d5X jmt + \u03f5 imt",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "for non-COVID related effects that may confound the \u03b2 \u03c9 2020 estimates. Therefore, by using the average pre-post (first) difference in consumption in the previous non-COVID years (2018-2019) as the counterfactual, our difference-in-differences estimate is expressed as:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "DID \u03c9 =\u03b2 \u03c9 2020 \u2212 1 2 2019 k=2018\u03b2 \u03c9 k",
+                        "eq_num": "(2)"
+                    }
+                ],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "where DID \u03c9 essentially measures the changes in electricity consumption during the COVID months relative to the typical consumption levels in the same periods during the previous years. Standard errors are clustered at the household (firm) level.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Empirical Strategy",
+                "sec_num": "4"
+            },
+            {
+                "text": "In this section, we present the results on the effect of the COVID pandemic on electricity consumption in the two countries, as well as the role of electricity subsidies in Ghana.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "5"
+            },
+            {
+                "text": "We start by showing the average effects of the COVID pandemic on electricity consumption in Rwanda, estimated separately for the various user types. For each user type, we estimate two variant specifications: with and without climate controls (average monthly temperature and total precipitation). Our preferred specifications are where we include the full set of climate controls, customer and district-year fixed effects, albeit the results are largely robust to the exclusion of the climate controls. Results are shown in Table 1 . The parameters of interest are the DID estimates, which compare the pre-post differences in consumption during the period March-December 2020 with the average pre-post differences in consumption over the same period in the pre-pandemic years. Thus, conditional on the fixed effects and the climate controls, pre-post differences in consumption over the same period in the pre-pandemic years are assumed to be the changes in consumption levels in the absence of the pandemic, i.e., counterfactual.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 525,
+                        "end": 532,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Rwanda",
+                "sec_num": "5.1"
+            },
+            {
+                "text": "The results in Table 1 suggest that the pandemic led to a modest, 1.7% increase in (monthly) electricity consumption in Rwanda (column 2). However, there appears to be significant heterogeneity in the impact of COVID on consumption patterns across various users. For instance, while electricity consumption in the residential sector increased by 3.8% (column 4), it declined by 10.7% among non-residential customers (column 6). 15 The effect on consumption by small and medium industries is negative albeit not statistically significant (column 8).",
+                "cite_spans": [
+                    {
+                        "start": 428,
+                        "end": 430,
+                        "text": "15",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 15,
+                        "end": 22,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Rwanda",
+                "sec_num": "5.1"
+            },
+            {
+                "text": "Beyond the average impact, we examine how the impact of COVID on electricity consumption varies over time. To this end, we estimate the dynamic model specified in equation (1) for the various user categories as well as the full sample. Results on the DID estimates are presented in Table 2 , while the first difference estimates are shown in Table  A1 in the Appendix. The results from Table 2 are summarized and displayed in Figure  1 . The results in Figure 1 show interesting trends, that plausibly reflects the dynamic responses of various users to the effects of the pandemic. For instance, in Figure 1a , while the consumption of electricity by all users increased by about 2% during the start of the COVID lockdown in Rwanda, consumption declined by approximately the same level in the second month of the lockdown (April 2020), before rising steadily thereafter, to about 5%, seven months after the start of the pandemic. This trend plausibly highlights the effects of easing COVID restrictions on the economy.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 282,
+                        "end": 289,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 342,
+                        "end": 351,
+                        "text": "Table  A1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 386,
+                        "end": 393,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 426,
+                        "end": 435,
+                        "text": "Figure  1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 453,
+                        "end": 461,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 599,
+                        "end": 608,
+                        "text": "Figure 1a",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Rwanda",
+                "sec_num": "5.1"
+            },
+            {
+                "text": "Consumption by the residential sector increased however throughout the period, ranging between 2.2% and 6.8%. The SAH orders and associated Home-Based-Work, are possible reasons for the increase in consumption by residential users. Interestingly, Figure 1c shows a consistent decline in non-residential electricity consumption from March through December 2020. The largest decline was recorded in one month after the start of the SAH (lockdown), with consumption falling by 24% relative to the average consumption during the same period in the preceding years. 16 Despite signs of recovery from months 2-9 after the start of the SAH order, consumption levels never reached the pre-pandemic levels. The effect on the industrial sector, however, appears to be short-lived ( Figure 1d ). Consumption fell significantly by 13.5% and 21% during the first and second months of the SAH, but bounced back to pre-pandemic levels after the lifting of the SAH. 17 To fully understand the significant decline in non-residential electricity consumption during the pandemic, we conduct separate analyses for the main groups within the nonresidential category, namely: hotels, health centers, and others. The DID estimates are presented in Table 3 and Figure 2 . 18 The results on the effects of COVID on electricity consumption of commercial units (Figure 2a ) mimics the changes in consumption for the overall non-residential sector (Figure 1c ). This is largely a result of the fact that com-mercial units account for about 90% of the non-residential sample in our study. Figure  2b also indicate that hotels (tourism sector) were heavily affected by the pandemic as electricity consumption declined significantly during the three months lockdown period. While consumption improved after the lockdown was lifted, it still remained lower than pre-pandemic levels. This result is in line with economic data from several countries indicating the devastating impact of the pandemic on the tourism sector's contribution to GDP 19 due to SAH and restrictions on international travels (Mulder, 2020; Abbas et al., 2021) .",
+                "cite_spans": [
+                    {
+                        "start": 561,
+                        "end": 563,
+                        "text": "16",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 950,
+                        "end": 952,
+                        "text": "17",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1248,
+                        "end": 1250,
+                        "text": "18",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2066,
+                        "end": 2080,
+                        "text": "(Mulder, 2020;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2081,
+                        "end": 2100,
+                        "text": "Abbas et al., 2021)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 247,
+                        "end": 256,
+                        "text": "Figure 1c",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 772,
+                        "end": 781,
+                        "text": "Figure 1d",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1225,
+                        "end": 1232,
+                        "text": "Table 3",
+                        "ref_id": "TABREF2"
+                    },
+                    {
+                        "start": 1237,
+                        "end": 1245,
+                        "text": "Figure 2",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1334,
+                        "end": 1344,
+                        "text": "(Figure 2a",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1420,
+                        "end": 1430,
+                        "text": "(Figure 1c",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1560,
+                        "end": 1570,
+                        "text": "Figure  2b",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Rwanda",
+                "sec_num": "5.1"
+            },
+            {
+                "text": "Finally, we explore the differences in the impact of COVID on electricity consumption between rural and urban households. The average effects are shown in Table 4 . The DID estimates suggest electricity consumption among urban households increased by about 5.3% (column 2) compared to a 3.2% (column 4) increase among rural households. To trace the dynamics in the effects, we show estimates of the monthly changes in electricity consumption in Figure 3 (see Table 5 for details 20 ). The results in Figure 3 show an increased level of consumption among both rural and urban households, albeit the rate of increase was consistently higher among urban households for the majority of the period.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 155,
+                        "end": 162,
+                        "text": "Table 4",
+                        "ref_id": "TABREF3"
+                    },
+                    {
+                        "start": 445,
+                        "end": 453,
+                        "text": "Figure 3",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 459,
+                        "end": 466,
+                        "text": "Table 5",
+                        "ref_id": "TABREF4"
+                    },
+                    {
+                        "start": 500,
+                        "end": 508,
+                        "text": "Figure 3",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Rural-Urban differences",
+                "sec_num": null
+            },
+            {
+                "text": "Taken together, the analysis of the Rwandan electricity data suggests a modest increase in electricity consumption associated with the COVID-19 pandemic, albeit, non-residential electricity consumption experienced large declines. This partly reflects the differing responses to the impact of the pandemic across various sectors.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Rural-Urban differences",
+                "sec_num": null
+            },
+            {
+                "text": "We now turn our attention to the Ghana data. Similar to the analysis in Section 5.1, we begin by looking at the average effects of the pandemic on electricity consumption in Ghana, estimated separately for the various user groups, as shown in Table 6 . The DID estimate in column 2 suggests that overall, relative to the pre-COVID lockdown period, electricity consumption increased by about 20.8%. 21 This increase appears to be largely driven by residential electricity consumption, which increased by 22.7% during the period (column 4), while consumption by non-residential customers increased only marginally by 5.9% (column 6). Industrial consumption, however, fell by 11.9% during the same period (column 8).",
+                "cite_spans": [
+                    {
+                        "start": 398,
+                        "end": 400,
+                        "text": "21",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 243,
+                        "end": 250,
+                        "text": "Table 6",
+                        "ref_id": "TABREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ghana",
+                "sec_num": "5.2"
+            },
+            {
+                "text": "We also examined the time-varying effects of COVID on consumption. The DID estimates are shown in Figure 4 and Table 7 . 22 The results show an overall increase in electricity consumption relative to the pre-COVID period, with the highest increase observed during the first month of the COVID lockdown in Ghana (April 2022). During the first month of the start of the SAH order, the average consumption (all users) increased by about 53% 23 and reducing to about 10% in the fourth month after the start of the SAH, before increasing slightly thereafter (see Figure 4a or Table 7 column 2). A similar trend is observed for residential consumption as shown in Figure 4b . The spike in consumption and subsequent decline in the rate of increase in consumption can be largely attributed to the SAH in Ghana which lasted for just three weeks. The relaxation of some COVID restrictions and gradual opening of sectors of the economy potentially led to a resumption of normal activities and thus households spending more time away from home than was required during the lockdown period. For non-residential customers, we observe a spike in consumption of about 21.5% during the SAH period and declining thereafter to consumption levels close to the pre-COVID period, and rising marginally between 4% and 10% between the third and eight months after the start of the SAH order ( Figure 4c ). Industrial consumption however declined steeply (\u2248 30%) during the SAH period ( Figure  4d ). Although the rate of decline in consumption slowed after the SAH period, consumption levels remained lower throughout the entire period relative to the consumption levels in the pre-COVID period. Once again, the decline in electricity consumption by (heavy) industries in Ghana partly reflects the negative effect of the pandemic on the productive sectors of the economy. Due to the lack of detailed information on the sectoral composition of the non-residential customers, we are unable to conduct a detailed analysis within the sector as was done in the case of Rwanda.",
+                "cite_spans": [
+                    {
+                        "start": 121,
+                        "end": 123,
+                        "text": "22",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 98,
+                        "end": 106,
+                        "text": "Figure 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 111,
+                        "end": 118,
+                        "text": "Table 7",
+                        "ref_id": "TABREF6"
+                    },
+                    {
+                        "start": 558,
+                        "end": 567,
+                        "text": "Figure 4a",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 571,
+                        "end": 578,
+                        "text": "Table 7",
+                        "ref_id": "TABREF6"
+                    },
+                    {
+                        "start": 658,
+                        "end": 667,
+                        "text": "Figure 4b",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1370,
+                        "end": 1379,
+                        "text": "Figure 4c",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1463,
+                        "end": 1473,
+                        "text": "Figure  4d",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ghana",
+                "sec_num": "5.2"
+            },
+            {
+                "text": "Unlike Rwanda where the SAH was imposed largely across the entire country, the case was different in Ghana. A lockdown was imposed only in the two large metropolitan areas: Accra and Kumasi, which jointly account for a relatively large share of the population and electricity customers. Nonetheless, it is important to emphasize that beyond the SAH order, restrictions on social gatherings and other outdoor events were imposed across the entire country from March 2020 through January 2021. In this section, we explore the potential effect of the SAH order on electricity consumption. To this end, we estimate the baseline results separately for users in the lockdown areas as well as those outside the lockdown areas. Results (DID estimates) are presented in Figure 5 (details in Tables 8 and 9). For residential and non-residential customers, we find no evidence of systematic differences in changes in consumption of users in lockdown and non-lockdown communities. The relatively short duration of the SAH order and the general restrictions on social gatherings across the country are plausible reasons for the seemingly similar patterns in consumption. However, we observe significant differences in changes in industrial consumption between lockdown and non-lockdown communities (Figure 5d ). Interestingly, industrial consumption in the two areas fell significantly during the SAH month, albeit with a large decline in lockdown communities. However, industrial consumption in non-lockdown communities returned to pre-COVID levels immediately thereafter, while industrial consumption in lockdown communities continued to remain lower than pre-COVID levels, despite a slight improvement.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 761,
+                        "end": 769,
+                        "text": "Figure 5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1285,
+                        "end": 1295,
+                        "text": "(Figure 5d",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Effects of the SAH order on Consumption",
+                "sec_num": null
+            },
+            {
+                "text": "So far, our results have shown increased electricity consumption during the COVID period in both countries, with residential users experiencing the highest gains in consumption. However, there are marked differences in the rate of increase in residential consumption between the two countries: the increase in residential consumption during the COVID period in Ghana is about five-fold the rate of increase in Rwanda. Did electricity subsidies offered by the Ghanaian government during the period play a role in elevating consumption?",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "In this section, we assess the effects of the subsidies in elevating consumption during the COVID era, by leveraging a unique feature of the electricity subsidies in Ghana: where lifeline (low-income households) customers were offered 100% subsidy for 12 months while non-lifeline customers enjoyed a 50% subsidy for the first three months. Specifically, we adopt two strategies:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "First, we replicate the main analysis by estimating equation 2 separately for lifeline and non-lifeline residential customers and examine the trends in consumption over time. This allows us to see the trends in consumption for both lifeline and non-lifeline customers, especially the response of non-lifeline customers after the removal of their partial subsidy. The results as shown in Figure 6 reveal interesting trends in the responses to the subsidy. We see that relative to the pre-subsidy (COVID) period, electricity consumption by lifeline customers increased by between 35% and 70%. On average, between April and December 2020, electricity consumption of lifeline customers (100% subsidy) increased by about 64% relative to the average consumption in the pre-subsidy period (see Table 10 column 2 24 ). On the contrary, for non-lifeline customers (50% subsidy) demand increased only during the first two months of the subsidy, falling sharply after the subsidy removal. In fact, for the most part of the post-subsidy period, monthly consumption was below the pre-subsidy (covid) period (see Figure 6 ). 25 During the three-month period (April-June) where the partial subsidy was offered to non-lifeline customers, average consumption increased by 11% relative to the pre-subsidy period and declining thereafter by 4.3% during the post-subsidy (see Table 10 column 4). Thus, comparatively, the results provide suggestive evidence that the electricity subsidies played a key role in the relatively high increase in electricity consumption during the COVID period in Ghana. At the same time, the decline in consumption among non-lifeline residential customers after the removal of the subsidies relative to the pre-COVID era is indicative of the potential effect of COVID on household electricity consumption if the subsidies were not offered.",
+                "cite_spans": [
+                    {
+                        "start": 1111,
+                        "end": 1113,
+                        "text": "25",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 387,
+                        "end": 395,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 787,
+                        "end": 795,
+                        "text": "Table 10",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 1099,
+                        "end": 1107,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1356,
+                        "end": 1364,
+                        "text": "Table 10",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "Our second strategy exploits the differences in the duration of the subsidy across residential user types to estimate the effect of the subsidy on consumption. Given that the subsidy for non-lifeline customers expired after the third month, while lifeline customers continued to enjoy the subsidy, we leverage the removal of the subsidy for the non-lifeline customers to conduct a \"conventional\" difference-in-difference analysis by using consumption data of the two groups between April-December, 2020 and comparing the differences in consumption between lifeline and non-lifeline customers before and after July 2020 when the subsidy for non-lifeline customers expired. So essentially, we estimate the effect of subsidy removal to identify the extent to which subsidies contributed to the stark increase in electricity consumption in Ghana as shown by the preceding results. Note that the classification of lifeline vs non-lifeline customers in the subsidy program was determined based on March consumption, and since the subsidy was announced on March 30, consumers plausibly had no control in manipulating the extent of the subsidy they received. Also, at the start of the program, both customer classes were expected to receive subsidies for a period of three months. It was not until the end of the first phase of the program that an announcement was made that the subsidy was being extended for lifeline customers. Consequently, we estimate the following equation:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "Y imt = \u03b1 i + \u03bb jt + \u03b2 \u2022 1(non \u2212 lif eline) \u00d7 postsubsidy + \u03d5X jmt + \u03f5 imt (3)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "where 1(non\u2212lifeline) is an indicator variable set equal to 1 for non-lifeline customer, defined as consuming more than 50 kWh of electricity during the month of March, 2020 and 0 if otherwise. postsubsidy is an indicator variable equal to 1 for the period July-December, 2020 when the partial subsidy for non-lifeline customers was removed. All other variables remain as previously defined. The parameter of interest is \u03b2 which measures the relative difference in consumption between lifeline and non-lifeline customers before and after the removal of the subsidies for the latter. Standard errors are clustered at the districtcustomer type level.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "We show the results in Table 11 . Across the various specifications, we find robust evidence of a decline in consumption by non-lifeline tariffs after the removal of their subsidies, relative to lifeline customers that enjoyed subsidies throughout the study period. In column 2, for instance, the results show a 15% decline in consumption after the subsidy removal. Put differently, the partial subsidies induced at least a 15% increase in consumption. Such a sizeable increase in consumption is plausibly responsible for the gap in the residential electricity consumption between Ghana and Rwanda during the COVID period. Thus to summarize, the main takeaway from the analysis herein is that: (i) the COVID relief packages via electricity subsidies offered by the government of Ghana were useful in mitigating the effects of COVID on households, as it allowed them to sustain (electricity) consumption; (ii) however, at the same time the subsidies also induced unintended consequences: excessive consumption among recipient households.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 23,
+                        "end": 31,
+                        "text": "Table 11",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "Finally, critics argue that the design of the COVID electricity subsidy in Ghana was regressive, with middle/high-income (non-lifeline) consumers receiving higher amounts (value) of subsidies and low-income (lifeline) consumers receiving low subsidy amounts (Berkouwer et al., 2022) . The initial design of the subsidy offered, respectively, lifeline and non-lifeline consumers 100% and 50% subsidies on their consumption between April and June 2020. Thus while the rate of the subsidy is progressive, the actual amounts received by households appear to be regressive since non-lifeline consumers will in principle receive high-income transfers due to their relatively high consumption. However, we show that the extension of the subsidy from the initial three months to 12 months, for [only] lifeline customers, made the subsidy progressive than regressive.",
+                "cite_spans": [
+                    {
+                        "start": 258,
+                        "end": 282,
+                        "text": "(Berkouwer et al., 2022)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 786,
+                        "end": 792,
+                        "text": "[only]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "Using the actual consumption of both consumer groups, we compute the [expected] subsidy (implicit transfer) to the median lifeline and non-lifeline customers (households) during the period as shown in Figure ? ?. First, we compute the monthly subsidy received by the median household in each consumer group between April and December 2020 by multiplying the subsidy rate by their respective average monthly consumption. Averaging this over the period, our estimates suggest that on average, the median lifeline and non-lifeline household received GHS 12 (USD 2.14) and GHS 29 (USD 5.18) per month respectively. 26 By aggregating these over the 12 months period that lifeline consumers received the subsidies, the median lifeline customer received a total of GHS 139 (USD 25). On the other hand, non-lifeline consumers received only GHS 86 (USD 15) over their three-month subsidy period. Thus, cumulatively, the total subsidies to lifeline customers were about 67% higher than those to non-lifeline customers. Admittedly, these estimates are only indicative, and may not reflect the true amount received by households largely because the subsidies were administered at the meter level, and given the prevalence of shared metering particularly among low-income households, the share of the transfer received by households may in practice be much lower (Berkouwer et al., 2022).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 201,
+                        "end": 209,
+                        "text": "Figure ?",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Role of Subsidies",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "This paper examines the effect of the COVID pandemic on electricity consumption patterns among households and firms in Sub-Saharan Africa using administrative data on billing records from Ghana and Rwanda. We also explore the effects of SAH orders (lockdown) and pandemic relief measures such as electricity subsidies on household consumption.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion and Conclusion",
+                "sec_num": "6"
+            },
+            {
+                "text": "Six main results emerge from the paper. First, residential electricity consumption during the pandemic increased in both Ghana and Rwanda, albeit the rate of increase was high in Ghana than in Rwanda. Specifically, average household consumption increased by about 23% in Ghana compared to 4% in Rwanda. Second, consumption in the nonresidential sector declined by about 11% in Rwanda, while rising marginally by about 6% in Ghana. Third, industrial consumption declined in both countries, highlighting the ef-fect of COVID-induced business closure and supply chain disruptions on the activities of the industrial sector. Fourth, the effect of COVID on electricity consumption was pronounced in lockdown and non-lockdown communities, as well as, rural and urban communities. This highlights the effects of the pandemic across various segments of the population. Fifth, pandemic relief measures such as electricity subsidies administered in Ghana played a key role in raising consumption. While the subsidies were important to sustaining households' consumption from falling below pre-pandemic levels, they also induced an unintended consequence: excess consumption among households. Finally, contrary to earlier criticisms that the design of the subsidy program in Ghana was regressive, our back-of-the-envelope calculations suggest that the subsidy amounts to low-income (lifeline) customers were about 67% higher than total subsidies received by high-income (nonlifeline) households (customers). This was largely driven by the extension of the subsidy for a longer duration for low-income households.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion and Conclusion",
+                "sec_num": "6"
+            },
+            {
+                "text": "Overall, the findings from this paper highlight the effects of the pandemic on households and firms, and the role of relief measures such as subsidies in mitigating the effect of the pandemic on end-users.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion and Conclusion",
+                "sec_num": "6"
+            },
+            {
+                "text": "Abay, K., Berhane, G., Hoddinott, J., and Tafere, K. (2020). Covid-19 and food security in ethiopia: do social protection programs protect? Abbas, J., Mubeen, R., Iorember, P. T., Raza, S., and Mamirkulova, G. 2021 Komives, K., Foster, V., Halpern, J., Wodon, Q., et al. (2005) . Water, electricity, and the poor: Who benefits from utility subsidies? World Bank Publications. Mulder, N. (2020). The impact of the covid-19 pandemic on the tourism sector in latin america and the caribbean, and options for a sustainable and resilient recovery. Saltane, V., Ereshchenko, V., Hovhannisyan, S., and Mensah, J. T. (2022). Responses of the electricity sector in 120 economies to the covid-19 pandemic. Schmidt, E., Dorosh, P., and Gilbert, R. 2021 The figure shows the changes in electricity consumption in the respective months following the start of the COVID lockdown in Ghana (April 2020). The estimates are difference-in-difference estimates and their corresponding 95% confidence intervals are computed using the expression:",
+                "cite_spans": [
+                    {
+                        "start": 253,
+                        "end": 277,
+                        "text": "Wodon, Q., et al. (2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "References",
+                "sec_num": null
+            },
+            {
+                "text": "DID \u03c9 =\u03b2 \u03c9 2020 \u2212 1 2 2019 k=2018\u03b2 \u03c9 k",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "References",
+                "sec_num": null
+            },
+            {
+                "text": ", with parameter estimates from equation 1. In each panel, the estimates for lockdown and non-lockdown areas are obtained from separate regressions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "References",
+                "sec_num": null
+            },
+            {
+                "text": "The figure shows the changes in electricity consumption in the respective months following the start of the COVID lockdown in Ghana (April 2020). The estimates are difference-in-difference estimates and their corresponding 95% confidence intervals are computed using the expression:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Figure 6: Electricity Subsidies and Consumption in Ghana",
+                "sec_num": null
+            },
+            {
+                "text": "DID \u03c9 =\u03b2 \u03c9 2020 \u2212 1 2 2019 k=2018\u03b2 \u03c9 k",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Figure 6: Electricity Subsidies and Consumption in Ghana",
+                "sec_num": null
+            },
+            {
+                "text": ", with parameter estimates from equation (1). In each panel, the estimates for lifeline and non-lifeline customers are obtained from separate regressions. Notes: Dependent variable is the log of monthly electricity consumption. Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis. * Significant at 10 percent level; * * Significant at 5 percent level; * * * Significant at 1 percent level Notes: Dependent variable is the log of monthly electricity consumption. Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis. * Significant at 10 percent level; * * Significant at 5 percent level; * * * Significant at 1 percent level 2019 2019 Notes: Dependent variable is the log of monthly electricity consumption. Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis. * Significant at 10 percent level * * Significant at 5 percent level * * * Significant at 1 percent level 2019 Notes: Dependent variable is the log of monthly electricity consumption. Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis. * Significant at 10 percent level * * Significant at 5 percent level * * * Significant at 1 percent level 2019 Notes: Dependent variable is the log of monthly electricity consumption. Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis. * Significant at 10 percent level * * Significant at 5 percent level * * * Significant at 1 percent level",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Figure 6: Electricity Subsidies and Consumption in Ghana",
+                "sec_num": null
+            },
+            {
+                "text": "https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=GH-RW",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "As of September 22, 2022, there was a total of 168,813 confirmed cases, 167,206 recoveries, and 1,459 deaths. Tragic as these figures are, particularly for those who lost loved ones, the fatality rate in Ghana pales in comparison to the global average. Ghana owes the relatively low confirmed fatalities to a suite of measures that were instituted before the virus reached the shores of the country and social interventions which were implemented once the first two cases were confirmed 3 Such as conferences, workshops, funerals, festivals, political rallies, and religious activities",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "https://rstmh.org/news-blog/news/the-covid-19-situation-in-ghana#:~:text=In%20Ghana%2C% 20the%20first%20official,country%20from%20Norway%20and%20Turkey.5 https://mofep.gov.gh/sites/default/files/news/care-program.pdf 6 https://mofep.gov.gh/sites/default/files/news/care-program.pdf 7 https://presidency.gov.gh/index.php/briefingroom/speeches/1560-president-akufo-addo-speaks-on-updates-to-ghan 8 https://citinewsroom.com/2020/07/government-justifies-extension-of-free-water-electricity-to-ghanaians/",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset 6",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Knutsen et al. (2017) for instance, compares corruption experiences of citizens living in close proximity to gold mining firms with the corruption experiences of citizens living in areas close to a yet to be opened mine in a difference-in-difference design to estimate the effect of mining on corruption in Africa.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "i.e., January and February",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In a log-linear model, the effect size is computed as (exp \u03b2 \u22121)\u00d7100. Hence (exp \u2212.113 \u22121)\u00d7100 = \u221210.7% 16 (exp \u2212.279 \u2212 1) \u00d7 100 = 24% 17 (exp \u2212.239 \u2212 1) \u00d7 100 = \u221221.1% 18 The corresponding first difference estimates are shown inTable A2in the Appendix",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "https://www.imf.org/en/Publications/fandd/issues/2020/12/impact-of-the-pandemic-on-tourism-behsudi 20 SeeTable A3for the corresponding first difference estimates.21 (exp .189 \u2212 1) \u00d7 100 = 20.8%",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The corresponding first difference estimates are shown inTable A4in the Appendix.23 (exp .431 \u2212 1) \u00d7 100 = 53.87%",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "(exp .494 \u2212 1) \u00d7 100 = 63.8% 25 An exception is month t = 8, i.e. December 2020, where we see a spike in consumption.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Based on an exchange rate of USD 1: 5.6 GHS",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [],
+        "bib_entries": {},
+        "ref_entries": {
+            "FIGREF0": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": ". Exploring the impact of covid-19 on tourism: transformational potential and implications for a sustainable recovery of the travel and leisure industry. Current Research in BehavioralSciences, 2:100033.  Adams-Prassl, A., Boneva, T., Golin, M., and Rauh, C. (2020). Inequality in the impact of the coronavirus shock: Evidence from real time surveys. Journal ofPublic economics,  189:104245.  Albanesi, S. and Kim, J. (2021). Effects of the covid-19 recession on the us labor market:Occupation, family, and gender. Journal of Economic Perspectives, 35(3):3-24. Amare, M., Abay, K. A., Tiberti, L., and Chamberlin, J. (2021). Covid-19 and food security: Panel data evidence from nigeria. Food Policy, 101:102099. Basurto, M. P., Dupas, P., and Robinson, J. (2020). Decentralization and efficiency of subsidy targeting: Evidence from chiefs in rural malawi. Journal of public economics, 185:104047. Berkouwer, S. B., Biscaye, P. E., Puller, S., and Wolfram, C. D. (2022). Disbursing emergency relief through utilities: Evidence from ghana. Journal of Development Economics, 156:102826. Cicala, S. (2020). Powering work from home. Technical report, National Bureau of Economic Research. Cong, L. W., Yang, X., and Zhang, X. (2021). Smes amidst the pandemic and reopening: Digital edge and transformation. The SC Johnson College of Business Applied Economics and Policy Working Paper Series No. Cortes, G. M. and Forsythe, E. (2020). Heterogeneous labor market impacts of the covid-19 pandemic. ILR Review, page 00197939221076856. Davis, L. W. (2014). The economic cost of global fuel subsidies. American Economic Review, 104(5):581-85. Gentilini, U., Almenfi, M., Orton, I., et al. (2020). Social protection and jobs responses to covid-19: a real-time review of country measures. Hahn, R. W. and Metcalfe, R. D. (2021). Efficiency and equity impacts of energy subsidies. American Economic Review, 111(5):1658-88. Irwin, N. B., McCoy, S. J., and McDonough, I. K. (2021). Water in the time of corona (virus): The effect of stay-at-home orders on water demand in the desert. Journal of Environmental Economics and Management, 109:102491. Isaksson, A.-S. and Kotsadam, A. (2018). Chinese aid and local corruption. Journal of Public Economics, 159:146-159. Klein, T. (2022). Agree to disagree? predictions of us nonfarm payroll changes between 2008 and 2020 and the impact of the covid19 labor shock. Journal of Economic Behavior & Organization, 194:264-286. Knutsen, C. H., Kotsadam, A., Olsen, E. H., and Wig, T. (2017). Mining and local corruption in africa. American Journal of Political Science, 61(2):320-334.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": ". Impacts of covid-19 induced income and rice price shocks on household welfare in papua new guinea: Household model estimates. Agricultural Economics, 52(3):391-406.Younger, S. et al. (2016). The impact of reforming energy subsidies, cash transfers, and taxes on inequality and poverty in ghana and tanzania. Technical report, Tulane University, Department of Economics. Zhang, R.,Li, H., and Khanna, N. (2021). Environmental justice and the covid-19 pandemic: Evidence from new york state. Journal of environmental economics and management, 110:102554. the changes in electricity consumption in the respective months following the start of the COVID lockdown in Rwanda (March 2020). The estimates are difference-in-difference estimates and their corresponding 95% confidence intervals are computed using the expression: DID \u03c9 =\u03b2 \u03c9 2020",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "fig_num": "2",
+                "type_str": "figure",
+                "text": "and Electricity Consumption in the Non-Residential Sector in Rwanda(a) Commercial (b) Hotels (c) Health Centers (d) Public worksThe figure shows the changes in electricity consumption in the respective months following the start of the COVID lockdown in Rwanda (March 2020). The estimates are difference-in-difference estimates and their corresponding 95% confidence intervals are computed using the expression: DID \u03c9 =\u03b2 \u03c9 2020",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF3": {
+                "fig_num": "3",
+                "type_str": "figure",
+                "text": "Rural-Urban differences in Effects of COVID on Residential Electricity Consumption in RwandaThe figure shows the changes in electricity consumption in the respective months following the start of the COVID lockdown in Rwanda (March 2020). The estimates are difference-in-difference estimates and their corresponding 95% confidence intervals are computed using the expression: DID \u03c9 =\u03b2 \u03c9 2020",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF4": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": "the changes in electricity consumption in the respective months following the start of the COVID lockdown in Ghana (April 2020). The estimates are difference-in-difference estimates and their corresponding 95% confidence intervals are computed using the expression: DID \u03c9 =\u03b2 \u03c9 2020",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF5": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": "Figure 5: COVID-19 Lockdowns and Electricity Consumption in Ghana (a) All (b) Residential",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF6": {
+                "fig_num": "7",
+                "type_str": "figure",
+                "text": "Amount of Electricity Subsidies to Ghanaian Households during the COVID-19 PandemicThe figure shows the amount in Ghana Cedis (GHS) of subsidies received by the median household. Average exchange rate during the period 1 USD: 5.5 GHS.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF7": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": "Dependent variable is the log of monthly electricity consumption. I (Mar-Dec 2020) is an indicator variable equal 1 for the period March 1-December 31 2020. Likewise, I (Mar-Dec 2019) and I (Mar-Dec 2018) are indicator for the same period March 1-December 31 in 2019 and 2018 respectively. The reference group is the period Jan-Feb in 2018, 2019, and 2020. DID estimates are derived from the expression DID \u03c9 =\u03b2 \u03c9 2020 Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis. * Significant at 10 percent level * * Significant at 5 percent level * * * Significant at 1 percent level",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF8": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": ") x I (Month> March=8) 0.038*** 0.008*** -0.020*** -0.028**",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF9": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": "x I (Month> April=2) -0.067*** -0.037*** -0.065*** -0.035*** -0.080*** -0.048*** -0.118**) x I (Month> April=3) -0.007*** -0.028*** -0.004*** -0.029*** -0.026*** -0.016*** -0.071**x I (Month> April=4) -0.037*** -0.083*** -0.035*** -0.087*** -0.051*** -0.053*** -0.102*x I (Month> April=5) -0.061*** -0.063*** -0.061*** -0.065*** -0.062*** -0.044*** -0.096*x I (Month> April=7) -0.048*** -0.059*** -0.051*** -0.063*** -0.024*** -0.026*x I (Month> April=2) -0.054*** -0.008*** -0.055*** -0.007*** -0.047*** -0x I (Month> April=3) -0.062*** -0.076*** -0.061*** -0.078*** -0.067*** -0.058*** -0.107*) x I (Month> April=4) -0.051*** -0.077*** -0.051*** -0.081*** -0.050*** -0.046*** -0.084**) x I (Month> April=5) -0.104*** -0.101*** -0.106*** -0.106*** -0.084*** -0.067*** -0.097*",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF10": {
+                "fig_num": null,
+                "type_str": "figure",
+                "text": "x I (Month> April=2) -0.073*** -0.057*** -0.072*** -0.056*** -0.089*** -0.066*x I (Month> April=3) -0.013*** -0.045*** -0.011*** -0.047*** -0.032*** -0.027*x I (Month> April=4) -0.048*** -0.102*** -0.046*** -0.107*** -0.061*** -0.066*x I (Month> April=5) -0.069*** -0.083*** -0.069*** -0.086*** -0.069*** -0.058*) x I (Month> April=7) -0.063*** -0.076*** -0.066*** -0.079*** -0.041*** -0.043**x I (Month> April=0) -0.068*** -0.053*** -0.066*** -0.050*** -0.080*** -0.074*x I (Month> April=6) -0.024*** -0.026*** -0.026*** -0.029**",
+                "num": null,
+                "uris": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "text": "COVID-19 and Electricity Consumption in Rwanda",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"3\">log of Consumption</td><td/><td/></tr><tr><td/><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"2\">Non-Residential</td><td colspan=\"2\">Small&amp; Medium Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"2\">I (Mar-Dec 2020) 0.026***</td><td>0.024***</td><td>0.046***</td><td colspan=\"4\">0.044*** -0.090*** -0.095*** 0.072***</td><td>0.070**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.027)</td><td>(0.027)</td></tr><tr><td colspan=\"2\">I (Mar-Dec 2019) 0.016***</td><td>0.016***</td><td>0.015***</td><td colspan=\"4\">0.014*** 0.033*** 0.033*** 0.050**</td><td>0.057**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.025)</td><td>(0.024)</td></tr><tr><td>I (Mar-Dec 2018)</td><td colspan=\"2\">-0.002** -0.003***</td><td>-0.001</td><td colspan=\"2\">-0.002*** 0.007***</td><td>0.003*</td><td>0.131***</td><td>0.129***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.034)</td><td>(0.034)</td></tr><tr><td>DID</td><td>0.019***</td><td>0.017***</td><td>0.039***</td><td colspan=\"4\">0.038*** -0.110*** -0.113*** -0.018</td><td>-0.023</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.032)</td><td>(0.032)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.858</td><td>0.858</td><td>0.849</td><td>0.849</td><td>0.856</td><td>0.856</td><td>0.719</td><td>0.720</td></tr><tr><td>Mean dep. Var</td><td>27.552</td><td>27.552</td><td>20.426</td><td>20.426</td><td>67.526</td><td>67.526</td><td>256.741</td><td>256.741</td></tr><tr><td>Obs</td><td colspan=\"6\">21352142 21352142 17097530 17097530 3212773 3212773</td><td>13345</td><td>13345</td></tr></table>"
+            },
+            "TABREF1": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Rwanda Climate Ctrls include the monthly average temperature and total precipitation . Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"4\">log of Consumption</td><td/></tr><tr><td/><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"3\">Non-Residential</td><td colspan=\"2\">Small &amp; Medium Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td colspan=\"2\">(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=0) 0.017***</td><td>0.019***</td><td>0.032***</td><td colspan=\"5\">0.036*** -0.074*** -0.072*** -0.130***</td><td>-0.146***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.002)</td><td>(0.002)</td><td>(0.038)</td><td>(0.041)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=1) -0.017*** -0.017*** 0.022***</td><td colspan=\"5\">0.022*** -0.279*** -0.279*** -0.240***</td><td>-0.239***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.058)</td><td>(0.058)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=2) -0.004***</td><td>0.001</td><td>0.029***</td><td colspan=\"4\">0.033*** -0.177*** -0.172***</td><td>-0.052</td><td>-0.043</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.042)</td><td>(0.044)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=3) 0.003***</td><td>0.002**</td><td>0.027***</td><td colspan=\"4\">0.026*** -0.130*** -0.131***</td><td>0.029</td><td>0.033</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.042)</td><td>(0.042)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=4) 0.010***</td><td>0.007***</td><td>0.031***</td><td colspan=\"4\">0.027*** -0.112*** -0.114***</td><td>0.031</td><td>0.04</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.043)</td><td>(0.043)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=5) 0.020***</td><td>0.030***</td><td>0.039***</td><td colspan=\"4\">0.049*** -0.101*** -0.091***</td><td>0.03</td><td>0.041</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.043)</td><td>(0.048)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=6) 0.044***</td><td>0.041***</td><td>0.063***</td><td colspan=\"4\">0.061*** -0.084*** -0.085***</td><td>0.066</td><td>0.071*</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.044)</td><td>(0.043)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=7) 0.054***</td><td>0.052***</td><td>0.071***</td><td colspan=\"4\">0.068*** -0.056*** -0.057***</td><td>0.038</td><td>0.049</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.044)</td><td>(0.045)</td></tr><tr><td colspan=\"2\">DID (Month&gt; March=8) 0.037***</td><td>0.027***</td><td>0.048***</td><td colspan=\"4\">0.038*** -0.049*** -0.060***</td><td>0.02</td><td>0.019</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.046)</td><td>(0.048)</td></tr><tr><td>DID (Month&gt; March=9)</td><td>0.024</td><td>0.022</td><td>0.031</td><td>0.028</td><td colspan=\"2\">-0.062</td><td>-0.062</td><td>-0.022</td><td>0</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.047)</td><td>(0.048)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td colspan=\"2\">No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td colspan=\"2\">Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td colspan=\"2\">Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Mean dep. Var</td><td>27.552</td><td>27.552</td><td>20.426</td><td>20.426</td><td colspan=\"2\">67.526</td><td>67.526</td><td>256.741</td><td>256.741</td></tr><tr><td>Obs</td><td colspan=\"7\">21352142 21352142 17097530 17097530 3212773 3212773</td><td>13345</td><td>13345</td></tr><tr><td/><td/><td/><td/><td>2020 \u2212 1 2</td><td>2019 k=2018\u03b2</td><td>\u03c9 k .</td><td/><td/></tr></table>"
+            },
+            "TABREF2": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Non-Residential Sector in Rwanda Climate Ctrls include the monthly average temperature and total precipitation . Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"3\">log of Consumption</td><td/><td/></tr><tr><td/><td colspan=\"2\">Commercial</td><td colspan=\"2\">Hotels</td><td colspan=\"3\">Health Centers</td><td colspan=\"2\">Public Works</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td/><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"8\">DID (Month&gt; March=0) -0.075*** -0.073*** -0.067*** -0.069*** 0.079*** 0.086***</td><td>0.007</td><td>0.003</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.027)</td><td colspan=\"6\">(0.029) (0.028) (0.029) (0.035) (0.036)</td></tr><tr><td colspan=\"5\">DID (Month&gt; March=1) -0.280*** -0.280*** -0.270*** -0.269***</td><td>0.004</td><td/><td>0.004</td><td>0.013</td><td>0.013</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.043)</td><td colspan=\"6\">(0.043) (0.029) (0.028) (0.054) (0.054)</td></tr><tr><td colspan=\"5\">DID (Month&gt; March=2) -0.178*** -0.173*** -0.179*** -0.177***</td><td>0.02</td><td/><td>0.03</td><td>-0.077*</td><td>-0.076</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.039)</td><td colspan=\"6\">(0.039) (0.031) (0.032) (0.045) (0.048)</td></tr><tr><td colspan=\"8\">DID (Month&gt; March=3) -0.131*** -0.132*** -0.146*** -0.146*** 0.075*** 0.074**</td><td>-0.063</td><td>-0.061</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.04)</td><td>(0.04)</td><td colspan=\"5\">(0.032) (0.032) (0.041) (0.041)</td></tr><tr><td colspan=\"7\">DID (Month&gt; March=4) -0.112*** -0.115*** -0.122*** -0.121*** 0.061**</td><td>0.054*</td><td>-0.043</td><td>-0.04</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.041)</td><td>(0.042)</td><td colspan=\"2\">(0.03)</td><td colspan=\"3\">(0.03) (0.045) (0.045)</td></tr><tr><td colspan=\"5\">DID (Month&gt; March=5) -0.101*** -0.091*** -0.108*** -0.105***</td><td>0.048</td><td/><td>0.068**</td><td>-0.034</td><td>-0.033</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.039)</td><td colspan=\"6\">(0.039) (0.031) (0.033) (0.042) (0.052)</td></tr><tr><td colspan=\"6\">DID (Month&gt; March=6) -0.084*** -0.086*** -0.123*** -0.122*** 0.049*</td><td/><td>0.043</td><td>-0.021</td><td>-0.019</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.041)</td><td colspan=\"5\">(0.041) (0.027) (0.027) (0.049)</td><td>(0.05)</td></tr><tr><td colspan=\"5\">DID (Month&gt; March=7) -0.056*** -0.057*** -0.087** -0.085**</td><td>-0.018</td><td/><td>-0.024</td><td>-0.001</td><td>0.003</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.039)</td><td>(0.04)</td><td colspan=\"5\">(0.031) (0.031) (0.053) (0.054)</td></tr><tr><td colspan=\"8\">DID (Month&gt; March=8) -0.050*** -0.060*** -0.110*** -0.112*** 0.095*** 0.072***</td><td>0.023</td><td>0.024</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.043)</td><td colspan=\"6\">(0.047) (0.028) (0.029) (0.057) (0.054)</td></tr><tr><td>DID (Month&gt; March=9)</td><td>-0.062</td><td>-0.063</td><td>-0.083</td><td>-0.08</td><td>0.098</td><td/><td>0.094</td><td>-0.004</td><td>0.001</td></tr><tr><td/><td>(0.003)</td><td>(0.004)</td><td>(0.043)</td><td colspan=\"5\">(0.044) (0.027) (0.028) (0.06)</td><td>(0.062)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td/><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td/><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td/><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Mean dep. Var</td><td>65.244</td><td>65.244</td><td>353.152</td><td colspan=\"6\">353.152 359.381 359.381 398.729 398.729</td></tr><tr><td>Obs</td><td colspan=\"2\">3188121 3188121</td><td>9014</td><td>9014</td><td>12167</td><td/><td>12167</td><td>3471</td><td>3471</td></tr><tr><td/><td/><td/><td/><td>2020 \u2212 1 2</td><td>2019 k=2018\u03b2</td><td>\u03c9 k .</td><td/><td/></tr></table>"
+            },
+            "TABREF3": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Rwanda: Urban vs Rural Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td>Residential</td></tr><tr><td/><td/><td colspan=\"2\">Urban</td><td/><td>Rural</td></tr><tr><td/><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr><tr><td colspan=\"5\">I (Mar-Dec 2020) 0.070*** 0.068*** 0.035***</td><td>0.033***</td></tr><tr><td/><td colspan=\"3\">(0.001) (0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"5\">I (Mar-Dec 2019) 0.030*** 0.029*** 0.007***</td><td>0.006***</td></tr><tr><td/><td colspan=\"3\">(0.001) (0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I (Mar-Dec 2018) 0.003***</td><td>0.002</td><td>-0.003***</td><td>-0.004***</td></tr><tr><td/><td colspan=\"3\">(0.001) (0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td>DID</td><td colspan=\"4\">0.054*** 0.053*** 0.033***</td><td>0.032***</td></tr><tr><td/><td colspan=\"3\">(0.001) (0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td>Climate Ctrls</td><td/><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td/><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td/><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td/><td>0.821</td><td>0.821</td><td>0.793</td><td>0.793</td></tr><tr><td>Mean dep. Var</td><td colspan=\"2\">37.415</td><td>37.415</td><td>11.670</td><td>11.670</td></tr><tr><td>Obs</td><td colspan=\"4\">5815537 5815537 11279386</td><td>11279386</td></tr><tr><td colspan=\"2\">2020 \u2212 1 2</td><td>2019 k=2018\u03b2 k . \u03c9</td><td/><td/></tr></table>"
+            },
+            "TABREF4": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Rwanda: Urban vs Rural",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td colspan=\"2\">Residential</td><td/></tr><tr><td/><td colspan=\"2\">Urban</td><td colspan=\"2\">Rural</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=0) 0.047*** 0.052*** 0.025***</td><td>0.027***</td></tr><tr><td/><td colspan=\"2\">(0.001) (0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=1) 0.034*** 0.032*** 0.017***</td><td>0.017***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=2) 0.049*** 0.063*** 0.019***</td><td>0.022***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=3) 0.046*** 0.043*** 0.017***</td><td>0.017***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=4) 0.043*** 0.034*** 0.025***</td><td>0.023***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=5) 0.058*** 0.084*** 0.031***</td><td>0.038***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=6) 0.087*** 0.083*** 0.053***</td><td>0.051***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=7) 0.090*** 0.083*** 0.063***</td><td>0.062***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"4\">DID (Month&gt; March=8) 0.056*** 0.026*** 0.047***</td><td>0.039***</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td>DID (Month&gt; March=9)</td><td>0.028</td><td>0.021</td><td>0.034</td><td>0.034</td></tr><tr><td/><td colspan=\"2\">(0.002) (0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.821</td><td>0.821</td><td>0.793</td><td>0.793</td></tr><tr><td>Mean dep. Var</td><td>37.415</td><td>37.415</td><td>11.670</td><td>11.670</td></tr><tr><td>Obs</td><td colspan=\"4\">5815537 5815537 11279386 11279386</td></tr><tr><td colspan=\"4\">2020 \u2212 1 2 average temperature and total precipitation . Standard errors clustered at district 2019 k=2018\u03b2 \u03c9 k . Climate Ctrls include the monthly</td><td/></tr><tr><td>level in parenthesis.</td><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr></table>"
+            },
+            "TABREF5": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Ghana: Average Effects Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"3\">log of Consumption</td><td/><td/></tr><tr><td/><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"3\">Non-Residential</td><td colspan=\"2\">Heavy Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td/><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td>I (Apr-Dec 2020)</td><td>0.161***</td><td>0.212***</td><td>0.176***</td><td colspan=\"4\">0.228*** 0.028*** 0.071***</td><td>-0.159***</td><td>-0.126***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"3\">(0.002) (0.002)</td><td>(0.015)</td><td>(0.014)</td></tr><tr><td colspan=\"8\">I (Apr-Dec 2019) -0.017*** 0.036*** -0.016*** 0.037*** -0.020*** 0.026***</td><td>-0.041***</td><td>-0.005</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"3\">(0.002) (0.002)</td><td>(0.014)</td><td>(0.013)</td></tr><tr><td colspan=\"7\">I (Apr-Dec 2018) -0.047*** -0.009*** -0.049*** -0.010*** -0.035***</td><td>0.001</td><td>-0.035**</td><td>-0.008</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"3\">(0.002) (0.002)</td><td>(0.015)</td><td>(0.015)</td></tr><tr><td>DID</td><td>0.145***</td><td>0.189***</td><td>0.160***</td><td colspan=\"4\">0.205*** 0.021*** 0.058***</td><td>-0.155***</td><td>-0.127***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"3\">(0.003) (0.003)</td><td>(0.018)</td><td>(0.018)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td/><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td/><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td/><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.709</td><td>0.710</td><td>0.685</td><td>0.686</td><td>0.774</td><td/><td>0.774</td><td>0.858</td><td>0.858</td></tr><tr><td>Mean dep. Var</td><td>383.1</td><td>383.115</td><td>123.781</td><td>123.781</td><td colspan=\"5\">419.210 419.210 152470.284 152470.284</td></tr><tr><td>Obs</td><td colspan=\"7\">41958788 41958777 37299880 37299869 4602780 4602780</td><td>52317</td><td>52317</td></tr><tr><td/><td/><td/><td/><td/><td>2020 \u2212 1 2</td><td colspan=\"2\">2019 k=2018\u03b2 k . \u03c9</td><td/></tr></table>"
+            },
+            "TABREF6": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Ghana: Dynamic Effects Dependent variable is the log of monthly electricity consumption. DID (Month> April= \u03c9) represents the DID estimates for the \u03c9 months since the start of COVID lockdown (April, 2020). The DID estimates are derived from the expression DID \u03c9 =\u03b2 \u03c9 Climate Ctrls include the monthly average temperature and total precipitation . Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"3\">log of Consumption</td><td/><td/></tr><tr><td/><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"3\">Non-Residential</td><td colspan=\"2\">Heavy Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td colspan=\"2\">(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=0) 0.430***</td><td>0.431***</td><td>0.457***</td><td colspan=\"4\">0.459*** 0.195*** 0.195***</td><td>-0.361***</td><td>-0.357***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.021)</td><td>(0.022)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=1) 0.173***</td><td>0.180***</td><td>0.196***</td><td colspan=\"5\">0.203*** -0.019*** -0.016*** -0.159***</td><td>-0.159***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.022)</td><td>(0.022)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=2) 0.162***</td><td>0.142***</td><td>0.180***</td><td colspan=\"3\">0.158*** 0.009***</td><td>-0.002</td><td>-0.087***</td><td>-0.052*</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.003)</td><td>(0.024)</td><td>(0.028)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=3) 0.141***</td><td>0.152***</td><td>0.155***</td><td colspan=\"4\">0.166*** 0.030*** 0.038***</td><td>-0.097***</td><td>-0.123***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.003)</td><td>(0.004)</td><td>(0.022)</td><td>(0.025)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=4) 0.138***</td><td>0.098***</td><td>0.147***</td><td colspan=\"4\">0.104*** 0.062*** 0.047***</td><td>-0.107***</td><td>-0.089***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.024)</td><td>(0.026)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=5) 0.196***</td><td>0.166***</td><td>0.209***</td><td colspan=\"4\">0.177*** 0.086*** 0.074***</td><td>-0.071***</td><td>-0.054**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.024)</td><td>(0.025)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=6) 0.130***</td><td>0.098***</td><td>0.142***</td><td colspan=\"4\">0.107*** 0.034*** 0.017***</td><td>-0.090***</td><td>-0.065***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.023)</td><td>(0.024)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=7) 0.183***</td><td>0.176***</td><td>0.198***</td><td colspan=\"4\">0.190*** 0.062*** 0.062***</td><td>-0.064***</td><td>-0.071***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.022)</td><td>(0.024)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=8) 0.278***</td><td>0.278***</td><td>0.439***</td><td colspan=\"4\">0.440*** 0.111*** 0.114***</td><td>-0.044*</td><td>-0.057**</td></tr><tr><td/><td>(0.010)</td><td>(0.010)</td><td>(0.022)</td><td>(0.022)</td><td colspan=\"2\">(0.011)</td><td>(0.011)</td><td>(0.023)</td><td>(0.025)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td/><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td colspan=\"2\">Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td colspan=\"2\">Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.711</td><td>0.711</td><td>0.687</td><td>0.687</td><td colspan=\"2\">0.775</td><td>0.775</td><td>0.859</td><td>0.859</td></tr><tr><td>Mean dep. Var</td><td>383.115</td><td>383.115</td><td>123.781</td><td>123.781</td><td colspan=\"2\">419.210</td><td colspan=\"3\">419.210 152470.284 152470.284</td></tr><tr><td>Obs</td><td colspan=\"7\">41958788 41958777 37299880 37299869 4602780 4602780</td><td>52317</td><td>52317</td></tr><tr><td colspan=\"5\">Notes: 2020 \u2212 1 2</td><td>2019 k=2018\u03b2</td><td>\u03c9 k .</td><td/><td/></tr></table>"
+            },
+            "TABREF7": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Lockdown Communities: Ghana Dependent variable is the log of monthly electricity consumption. DID (Month> April= \u03c9) represents the DID estimates for the \u03c9 months since the start of COVID lockdown (April, 2020). The DID estimates are derived from the expression DID \u03c9 =\u03b2 \u03c9 Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"3\">log of Consumption</td><td/><td/></tr><tr><td/><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"3\">Non-Residential</td><td colspan=\"2\">Heavy Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td/><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=0) 0.404*** 0.406*** 0.452*** 0.454*** 0.118*** 0.118***</td><td>-0.409***</td><td>-0.410***</td></tr><tr><td/><td>(0.002)</td><td colspan=\"6\">(0.002) (0.002) (0.002) (0.006) (0.006)</td><td>(0.022)</td><td>(0.023)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=1) 0.149*** 0.160*** 0.173*** 0.185*** 0.015*** 0.020***</td><td>-0.180***</td><td>-0.181***</td></tr><tr><td/><td>(0.002)</td><td colspan=\"6\">(0.002) (0.002) (0.002) (0.006) (0.006)</td><td>(0.023)</td><td>(0.023)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=2) 0.173*** 0.146*** 0.193*** 0.164*** 0.053*** 0.038***</td><td>-0.100***</td><td>-0.099***</td></tr><tr><td/><td>(0.002)</td><td colspan=\"6\">(0.002) (0.002) (0.002) (0.006) (0.006)</td><td>(0.027)</td><td>(0.032)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=3) 0.142*** 0.174*** 0.155*** 0.191*** 0.072*** 0.088***</td><td>-0.112***</td><td>-0.106***</td></tr><tr><td/><td>(0.002)</td><td colspan=\"6\">(0.003) (0.003) (0.003) (0.007) (0.007)</td><td>(0.025)</td><td>(0.028)</td></tr><tr><td colspan=\"7\">DID (Month&gt; April=4) 0.113*** 0.068*** 0.128*** 0.078*** 0.035***</td><td>0.009</td><td>-0.138***</td><td>-0.122***</td></tr><tr><td/><td>(0.003)</td><td colspan=\"6\">(0.003) (0.003) (0.003) (0.007) (0.007)</td><td>(0.026)</td><td>(0.028)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=5) 0.196*** 0.167*** 0.213*** 0.181*** 0.104*** 0.088***</td><td>-0.096***</td><td>-0.085***</td></tr><tr><td/><td>(0.003)</td><td colspan=\"6\">(0.003) (0.003) (0.003) (0.007) (0.007)</td><td>(0.027)</td><td>(0.028)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=6) 0.119*** 0.073*** 0.133*** 0.082*** 0.044*** 0.019***</td><td>-0.112***</td><td>-0.106***</td></tr><tr><td/><td>(0.003)</td><td colspan=\"6\">(0.003) (0.003) (0.003) (0.007) (0.007)</td><td>(0.025)</td><td>(0.027)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=7) 0.150*** 0.154*** 0.168*** 0.174*** 0.048*** 0.049***</td><td>-0.090***</td><td>-0.079***</td></tr><tr><td/><td>(0.003)</td><td colspan=\"6\">(0.003) (0.003) (0.003) (0.007) (0.007)</td><td>(0.025)</td><td>(0.026)</td></tr><tr><td colspan=\"8\">DID (Month&gt; April=8) 0.159*** 0.175*** 0.433*** 0.452*** 0.046*** 0.053***</td><td>-0.071***</td><td>-0.060**</td></tr><tr><td/><td>(0.013)</td><td colspan=\"6\">(0.013) (0.063) (0.063) (0.014) (0.014)</td><td>(0.026)</td><td>(0.028)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td/><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td/><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td/><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.697</td><td>0.697</td><td>0.624</td><td>0.624</td><td/><td>0.795</td><td>0.795</td><td>0.869</td><td>0.869</td></tr><tr><td>Mean dep. Var</td><td colspan=\"9\">1032.762 1032.762 224.075 224.075 763.197 763.197 143144.950 143144.950</td></tr><tr><td>Obs</td><td colspan=\"7\">8635711 8635711 7327395 7327395 1268209 1268209</td><td>38885</td><td>38885</td></tr><tr><td colspan=\"6\">Notes: 2020 \u2212 1 2</td><td>2019 k=2018\u03b2 k . \u03c9</td><td/><td/></tr></table>"
+            },
+            "TABREF8": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Non-Lockdown Communities: Ghana Dependent variable is the log of monthly electricity consumption. DID (Month> April= \u03c9) represents the DID estimates for the \u03c9 months since the start of COVID lockdown (April, 2020). The DID estimates are derived from the expression DID \u03c9 =\u03b2 \u03c9 Climate Ctrls include the monthly average temperature and total precipitation . Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"3\">log of Consumption</td><td/><td/></tr><tr><td/><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"3\">Non-Residential</td><td colspan=\"2\">Heavy Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td colspan=\"2\">(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=0) 0.438***</td><td>0.439***</td><td>0.460***</td><td colspan=\"4\">0.462*** 0.224*** 0.225***</td><td>-0.229***</td><td>-0.224***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.052)</td><td>(0.052)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=1) 0.179***</td><td>0.186***</td><td>0.201***</td><td colspan=\"4\">0.208*** -0.027*** -0.025***</td><td>-0.098*</td><td>-0.100**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.051)</td><td>(0.051)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=2) 0.161***</td><td>0.142***</td><td>0.178***</td><td>0.158***</td><td colspan=\"2\">-0.001</td><td>-0.010***</td><td>-0.049</td><td>0.003</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.050)</td><td>(0.054)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=3) 0.142***</td><td>0.149***</td><td>0.155***</td><td colspan=\"4\">0.163*** 0.019*** 0.025***</td><td>-0.054</td><td>-0.104**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.047)</td><td>(0.051)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=4) 0.145***</td><td>0.106***</td><td>0.153***</td><td colspan=\"4\">0.111*** 0.076*** 0.062***</td><td>-0.021</td><td>-0.003</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.052)</td><td>(0.057)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=5) 0.198***</td><td>0.169***</td><td>0.211***</td><td colspan=\"4\">0.179*** 0.086*** 0.075***</td><td>0.001</td><td>0.014</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.051)</td><td>(0.054)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=6) 0.135***</td><td>0.105***</td><td>0.146***</td><td colspan=\"4\">0.114*** 0.035*** 0.022***</td><td>-0.026</td><td>0.018</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.050)</td><td>(0.053)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=7) 0.191***</td><td>0.182***</td><td>0.204***</td><td colspan=\"4\">0.194*** 0.068*** 0.067***</td><td>0.010</td><td>-0.012</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td colspan=\"2\">(0.004)</td><td>(0.004)</td><td>(0.050)</td><td>(0.052)</td></tr><tr><td colspan=\"2\">DID (Month&gt; April=8) 0.372***</td><td>0.369***</td><td>0.473***</td><td colspan=\"4\">0.471*** 0.200*** 0.202***</td><td>0.030</td><td>-0.005</td></tr><tr><td/><td>(0.015)</td><td>(0.015)</td><td>(0.025)</td><td>(0.025)</td><td colspan=\"2\">(0.018)</td><td>(0.018)</td><td>(0.051)</td><td>(0.053)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td/><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td colspan=\"2\">Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td colspan=\"2\">Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.691</td><td>0.691</td><td>0.676</td><td>0.676</td><td colspan=\"2\">0.753</td><td>0.753</td><td>0.836</td><td>0.836</td></tr><tr><td>Mean dep. Var</td><td>214.740</td><td>214.740</td><td>99.257</td><td>99.257</td><td colspan=\"2\">288.256</td><td colspan=\"3\">288.256 179514.430 179514.430</td></tr><tr><td>Obs</td><td colspan=\"7\">33321054 33321054 29970907 29970907 3334122 3334122</td><td>13427</td><td>13427</td></tr><tr><td colspan=\"5\">Notes: 2020 \u2212 1 2</td><td>2019 k=2018\u03b2</td><td>\u03c9 k .</td><td/><td/></tr></table>"
+            },
+            "TABREF9": {
+                "type_str": "table",
+                "text": "Electricity Consumption by Subsidy Rates in Ghana Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis.",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td>Residential</td></tr><tr><td/><td/><td colspan=\"4\">Lifeline Customers (100% subsidy) Non-Lifeline Customers (50% subsidy)</td></tr><tr><td/><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr><tr><td colspan=\"2\">I (Apr-Dec 2020)</td><td>0.403***</td><td>0.441***</td><td/></tr><tr><td/><td/><td>(0.001)</td><td>(0.001)</td><td/></tr><tr><td colspan=\"3\">I (Apr-Dec 2019) -0.096***</td><td>-0.053***</td><td/></tr><tr><td/><td/><td>(0.001)</td><td>(0.001)</td><td/></tr><tr><td colspan=\"3\">I (Apr-Dec 2018) -0.085***</td><td>-0.053***</td><td/></tr><tr><td/><td/><td>(0.001)</td><td>(0.001)</td><td/></tr><tr><td colspan=\"2\">I (Apr-Jun 2020)</td><td/><td/><td>0.106***</td><td>0.135***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I (Apr-Jun 2019)</td><td/><td/><td>0.024***</td><td>0.055***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I (Apr-Jun 2018)</td><td/><td/><td>-0.032***</td><td>-0.003***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I (Jul-Dec 2020)</td><td/><td/><td>-0.077***</td><td>0.004***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I (Jul-Dec 2019)</td><td/><td/><td>0.051***</td><td>0.130***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I (Jul-Dec 2018)</td><td/><td/><td>-0.016***</td><td>0.037***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td>DID (Apr-Dec)</td><td/><td>0.408***</td><td>0.494***</td><td/></tr><tr><td/><td/><td>(0.001)</td><td>(0.001)</td><td/></tr><tr><td>DID (Apr-Jun)</td><td/><td/><td/><td>0.078***</td><td>0.105***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td>DID (Jun-Dec)</td><td/><td/><td/><td>-0.110***</td><td>-0.043***</td></tr><tr><td/><td/><td/><td/><td>(0.001)</td><td>(0.001)</td></tr><tr><td>Climate Ctrls</td><td/><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td/><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td colspan=\"2\">District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td/><td>0.542</td><td>0.543</td><td>0.525</td><td>0.526</td></tr><tr><td>Mean dep. Var</td><td/><td>45.144</td><td>45.145</td><td>175.043</td><td>175.044</td></tr><tr><td>Obs</td><td/><td>14595224</td><td>14595225</td><td>19028901</td><td>19028902</td></tr><tr><td colspan=\"6\">Notes: Dependent variable is the log of monthly electricity consumption. The DID estimates are derived from the expression:</td></tr><tr><td>DID \u03c9 =\u03b2 \u03c9 2020 \u2212 1 2</td><td colspan=\"2\">2019 k=2018\u03b2 k . \u03c9</td><td/><td/></tr></table>"
+            },
+            "TABREF10": {
+                "type_str": "table",
+                "text": "Effects of Electricity Subsidies on Consumption in Ghana",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td colspan=\"2\">Residential</td><td/></tr><tr><td colspan=\"4\">Dep. var: Log of electricity consumption</td></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr></table>"
+            },
+            "TABREF11": {
+                "type_str": "table",
+                "text": "",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td colspan=\"9\">: COVID-19 and Electricity Consumption in Rwanda</td></tr><tr><td/><td/><td/><td/><td colspan=\"3\">log of Consumption</td><td/><td/></tr><tr><td/><td/><td>All</td><td colspan=\"2\">Residential</td><td colspan=\"2\">Non-Residential</td><td colspan=\"2\">Small&amp; Medium Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=0) 0.028***</td><td>0.027***</td><td>0.040***</td><td colspan=\"4\">0.039*** -0.039*** -0.042*** -0.044</td><td>-0.063*</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.030)</td><td>(0.033)</td></tr><tr><td colspan=\"4\">I(2020) x I (Month&gt; March=1) -0.022*** -0.028*** 0.019***</td><td colspan=\"4\">0.013*** -0.290*** -0.299*** -0.146**</td><td>-0.172***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.062)</td><td>(0.064)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=2) 0.009***</td><td>0.007***</td><td>0.037***</td><td colspan=\"4\">0.036*** -0.140*** -0.140*** 0.087**</td><td>0.102***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.037)</td><td>(0.039)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=3) 0.007***</td><td>0.005***</td><td>0.030***</td><td colspan=\"4\">0.028*** -0.112*** -0.112*** 0.130***</td><td>0.156***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.034)</td><td>(0.038)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=4) 0.034***</td><td>0.032***</td><td>0.053***</td><td colspan=\"4\">0.051*** -0.065*** -0.065*** 0.131***</td><td>0.164***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.035)</td><td>(0.040)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=5) 0.047***</td><td>0.063***</td><td>0.065***</td><td colspan=\"4\">0.081*** -0.058*** -0.041*** 0.135***</td><td>0.154***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.035)</td><td>(0.050)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=6) 0.026***</td><td>0.030***</td><td>0.045***</td><td colspan=\"4\">0.049*** -0.091*** -0.086*** 0.132***</td><td>0.145***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.036)</td><td>(0.038)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=7) 0.051***</td><td>0.042***</td><td>0.066***</td><td colspan=\"4\">0.057*** -0.038*** -0.046*** 0.104***</td><td>0.106***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.036)</td><td>(0.037)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=8) 0.026***</td><td>0.010***</td><td>0.040***</td><td colspan=\"4\">0.023*** -0.059*** -0.074*** 0.066*</td><td>0.062</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.035)</td><td>(0.042)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; March=9) 0.054***</td><td>0.045***</td><td>0.065***</td><td colspan=\"4\">0.055*** -0.033*** -0.042*** 0.074**</td><td>0.084**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.034)</td><td>(0.035)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; March=0) 0.019***</td><td>0.016***</td><td>0.013***</td><td colspan=\"4\">0.010*** 0.048*** 0.045*** 0.086***</td><td>0.085***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.033)</td><td>(0.033)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; March=1) 0.007***</td><td>0.004***</td><td>0.007***</td><td colspan=\"4\">0.005*** 0.010*** 0.007*** 0.132***</td><td>0.120***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.037)</td><td>(0.037)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; March=2) 0.027***</td><td>0.018***</td><td>0.022***</td><td colspan=\"4\">0.014*** 0.053*** 0.045*** 0.128***</td><td>0.127***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.037)</td><td>(0.039)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; March=3) 0.015***</td><td>0.011***</td><td>0.014***</td><td colspan=\"4\">0.010*** 0.027*** 0.025*** 0.085**</td><td>0.100***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.037)</td><td>(0.039)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; March=4) 0.042***</td><td>0.045***</td><td>0.040***</td><td colspan=\"4\">0.042*** 0.067*** 0.071*** 0.076**</td><td>0.093**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.035)</td><td>(0.038)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; March=5) 0.027***</td><td>0.038***</td><td>0.025***</td><td colspan=\"3\">0.036*** 0.051*** 0.062***</td><td>0.042</td><td>0.050</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.033)</td><td>(0.038)</td></tr><tr><td colspan=\"5\">I(2019) x I (Month&gt; March=6) -0.013*** -0.008*** -0.014*** -0.009***</td><td>0.002</td><td>0.007***</td><td>0.024</td><td>0.025</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.033)</td><td>(0.034)</td></tr><tr><td colspan=\"7\">I(2019) x I (Month&gt; March=7) 0.006*** -0.011*** 0.005*** -0.013*** 0.027*** 0.008***</td><td>-0.016</td><td>-0.034</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.003) (0.035)</td><td>(0.049)</td></tr><tr><td>I(2019) x I (Month&gt; March=8)</td><td>-0.001</td><td>-0.012***</td><td>-0.000</td><td>-0.011***</td><td>0.004*</td><td colspan=\"2\">-0.007*** -0.062</td><td>-0.068</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.003) (0.038)</td><td>(0.043)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; March=9) 0.034***</td><td>0.027***</td><td>0.034***</td><td colspan=\"3\">0.028*** 0.042*** 0.033***</td><td>-0.012</td><td>-0.037</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.039)</td><td>(0.043)</td></tr><tr><td colspan=\"2\">I(2018) x I (Month&gt; March=0) 0.005***</td><td>-0.001</td><td colspan=\"5\">0.002*** -0.003*** 0.022*** 0.016*** 0.087**</td><td>0.080**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.038)</td><td>(0.040)</td></tr><tr><td colspan=\"7\">I(2018) x I (Month&gt; March=1) -0.017*** -0.028*** -0.012*** -0.023*** -0.033*** -0.047***</td><td>0.056</td><td>0.014</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.003) (0.045)</td><td>(0.055)</td></tr><tr><td colspan=\"8\">I(2018) x I (Month&gt; March=2) -0.002*** -0.006*** -0.006*** -0.010*** 0.022*** 0.019*** 0.150***</td><td>0.163***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.002) (0.047)</td><td>(0.049)</td></tr><tr><td colspan=\"8\">I(2018) x I (Month&gt; March=3) -0.006*** -0.005*** -0.007*** -0.007*** 0.010*** 0.013*** 0.117**</td><td>0.146***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td colspan=\"2\">(0.003) (0.051)</td><td>(0.054)</td></tr><tr><td colspan=\"2\">I(2018) x I (Month&gt; March=4) 0.007***</td><td>0.006***</td><td>0.005***</td><td colspan=\"4\">0.005*** 0.026*** 0.028*** 0.125**</td><td>0.156***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.051)</td><td>(0.054)</td></tr><tr><td colspan=\"2\">I(2018) x I (Month&gt; March=5) 0.026***</td><td>0.028***</td><td>0.027***</td><td colspan=\"4\">0.029*** 0.035*** 0.038*** 0.168***</td><td>0.176***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.046)</td><td>(0.046)</td></tr><tr><td colspan=\"8\">I(2018) x I (Month&gt; March=6) -0.023*** -0.014*** -0.022*** -0.013*** -0.016*** -0.008*** 0.106**</td><td>0.122**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.045)</td><td>(0.048)</td></tr><tr><td colspan=\"8\">I(2018) x I (Month&gt; March=7) -0.013*** -0.007*** -0.014*** -0.008*** 0.008*** 0.013*** 0.148***</td><td>0.147***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.046)</td><td>(0.047)</td></tr><tr><td colspan=\"8\">I(2018) x I (Month&gt; March=8) -0.021*** -0.021*** -0.018*** -0.017*** -0.023*** -0.022*** 0.154***</td><td>0.154***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.046)</td><td>(0.046)</td></tr><tr><td colspan=\"2\">I(2018) x I (Month&gt; March=9) 0.027***</td><td>0.019***</td><td>0.034***</td><td colspan=\"4\">0.026*** 0.015*** 0.008*** 0.204***</td><td>0.205***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td colspan=\"2\">(0.003) (0.048)</td><td>(0.049)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.858</td><td>0.858</td><td>0.849</td><td>0.849</td><td>0.856</td><td>0.856</td><td>0.722</td><td>0.722</td></tr><tr><td>Mean dep. Var</td><td>27.552</td><td>27.552</td><td>20.426</td><td>20.426</td><td>67.526</td><td>67.526</td><td>256.741</td><td>256.741</td></tr><tr><td>Obs</td><td colspan=\"6\">21352142 21352142 17097530 17097530 3212773 3212773</td><td>13345</td><td>13345</td></tr></table>"
+            },
+            "TABREF12": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Non-Residential Sector in Rwanda",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"2\">log of Consumption</td><td/><td/><td/></tr><tr><td/><td colspan=\"2\">Commercial</td><td colspan=\"2\">Hotels</td><td colspan=\"2\">Health Centers</td><td colspan=\"2\">Public Works</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"4\">I(2020) x I (Month&gt; March=0) -0.039*** -0.042*** -0.038*</td><td colspan=\"4\">-0.041* 0.079*** 0.077*** 0.016</td><td>0.011</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.023)</td><td colspan=\"5\">(0.025) (0.020) (0.021) (0.032) (0.034)</td></tr><tr><td colspan=\"6\">I(2020) x I (Month&gt; March=1) -0.292*** -0.300*** -0.265*** -0.269*** -0.000</td><td>-0.013</td><td>-0.050</td><td>-0.056</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.040)</td><td colspan=\"5\">(0.042) (0.025) (0.026) (0.043) (0.050)</td></tr><tr><td colspan=\"5\">I(2020) x I (Month&gt; March=2) -0.141*** -0.141*** -0.173*** -0.171***</td><td>0.031</td><td>0.029</td><td>-0.041</td><td>-0.037</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.037)</td><td colspan=\"5\">(0.038) (0.026) (0.027) (0.035) (0.032)</td></tr><tr><td colspan=\"6\">I(2020) x I (Month&gt; March=3) -0.113*** -0.113*** -0.128*** -0.125*** 0.047*</td><td>0.043</td><td>-0.013</td><td>-0.006</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.033)</td><td colspan=\"5\">(0.036) (0.027) (0.028) (0.035) (0.036)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; March=4) -0.066*** -0.065*** -0.085*** -0.081** 0.060** 0.054**</td><td>0.004</td><td>0.013</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.032)</td><td colspan=\"5\">(0.036) (0.026) (0.027) (0.035) (0.036)</td></tr><tr><td colspan=\"8\">I(2020) x I (Month&gt; March=5) -0.058*** -0.041*** -0.080*** -0.075** 0.052** 0.085*** 0.026</td><td>0.029</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.030)</td><td colspan=\"5\">(0.033) (0.026) (0.032) (0.030) (0.043)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; March=6) -0.092*** -0.087*** -0.110*** -0.107*** 0.080*** 0.087***</td><td>0.019</td><td>0.022</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.032)</td><td colspan=\"5\">(0.032) (0.023) (0.024) (0.035) (0.038)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=7) -0.039*** -0.047***</td><td>-0.041</td><td>-0.042</td><td>0.014</td><td>-0.004</td><td>-0.008</td><td>-0.006</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.030)</td><td colspan=\"5\">(0.033) (0.026) (0.027) (0.037) (0.038)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=8) -0.059*** -0.075***</td><td>-0.052</td><td>-0.055</td><td colspan=\"2\">0.097*** 0.064**</td><td>0.037</td><td>0.038</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.035)</td><td colspan=\"5\">(0.041) (0.022) (0.025) (0.034) (0.043)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=9) -0.034*** -0.042***</td><td>-0.027</td><td>-0.028</td><td colspan=\"3\">0.093*** 0.073*** -0.011</td><td>-0.008</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.035)</td><td colspan=\"5\">(0.036) (0.022) (0.023) (0.044) (0.046)</td></tr><tr><td colspan=\"3\">I(2019) x I (Month&gt; March=0) 0.049*** 0.046***</td><td>0.021</td><td>0.020</td><td>-0.015</td><td>-0.021</td><td>0.021</td><td>0.021</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.019)</td><td colspan=\"5\">(0.019) (0.025) (0.025) (0.022) (0.021)</td></tr><tr><td colspan=\"3\">I(2019) x I (Month&gt; March=1) 0.010*** 0.007***</td><td>0.017</td><td>0.015</td><td>0.005</td><td>-0.000</td><td>-0.050</td><td>-0.053</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.021)</td><td colspan=\"5\">(0.022) (0.022) (0.022) (0.039) (0.041)</td></tr><tr><td colspan=\"3\">I(2019) x I (Month&gt; March=2) 0.053*** 0.045***</td><td>-0.008</td><td>-0.009</td><td>0.019</td><td>0.003</td><td>0.019</td><td>0.021</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.020)</td><td colspan=\"5\">(0.022) (0.019) (0.020) (0.033) (0.034)</td></tr><tr><td colspan=\"3\">I(2019) x I (Month&gt; March=3) 0.027*** 0.025***</td><td>0.034</td><td>0.035</td><td>-0.025</td><td>-0.034</td><td>0.036</td><td>0.041</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.023)</td><td colspan=\"5\">(0.024) (0.023) (0.023) (0.026) (0.028)</td></tr><tr><td colspan=\"3\">I(2019) x I (Month&gt; March=4) 0.067*** 0.071***</td><td>0.060**</td><td>0.063**</td><td>0.004</td><td>0.007</td><td>0.027</td><td>0.030</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.025)</td><td colspan=\"5\">(0.026) (0.021) (0.022) (0.036) (0.039)</td></tr><tr><td colspan=\"3\">I(2019) x I (Month&gt; March=5) 0.051*** 0.062***</td><td>0.050**</td><td>0.053*</td><td>-0.042*</td><td>-0.021</td><td>0.067*</td><td>0.067</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.025)</td><td colspan=\"5\">(0.028) (0.025) (0.026) (0.037) (0.042)</td></tr><tr><td>I(2019) x I (Month&gt; March=6)</td><td>0.002</td><td>0.007***</td><td>0.022</td><td>0.023</td><td>-0.016</td><td>-0.007</td><td>0.033</td><td>0.033</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.026)</td><td colspan=\"5\">(0.026) (0.022) (0.023) (0.034) (0.036)</td></tr><tr><td colspan=\"3\">I(2019) x I (Month&gt; March=7) 0.027*** 0.008***</td><td>0.056**</td><td>0.051</td><td>0.038*</td><td>0.001</td><td>-0.005</td><td>-0.007</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.027)</td><td colspan=\"5\">(0.035) (0.023) (0.028) (0.034) (0.049)</td></tr><tr><td>I(2019) x I (Month&gt; March=8)</td><td>0.004*</td><td>-0.007***</td><td>0.055*</td><td>0.051*</td><td>-0.018</td><td>-0.041</td><td>-0.031</td><td>-0.030</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.028)</td><td colspan=\"5\">(0.031) (0.024) (0.026) (0.051) (0.053)</td></tr><tr><td colspan=\"4\">I(2019) x I (Month&gt; March=9) 0.042*** 0.033*** 0.076***</td><td>0.072**</td><td>-0.026</td><td>-0.041*</td><td>-0.034</td><td>-0.040</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.028)</td><td colspan=\"5\">(0.032) (0.022) (0.024) (0.043) (0.050)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=0) 0.022*** 0.016***</td><td>0.037</td><td>0.035</td><td>0.015</td><td>0.003</td><td>-0.002</td><td>-0.004</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.025)</td><td colspan=\"5\">(0.025) (0.027) (0.029) (0.021) (0.023)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=1) -0.033*** -0.047***</td><td>-0.007</td><td>-0.014</td><td>-0.013</td><td>-0.035</td><td colspan=\"2\">-0.076* -0.085</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.026)</td><td colspan=\"5\">(0.035) (0.024) (0.027) (0.043) (0.054)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=2) 0.022*** 0.019***</td><td>0.020</td><td>0.021</td><td>0.002</td><td>-0.005</td><td>0.053</td><td>0.057</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.027)</td><td colspan=\"5\">(0.027) (0.024) (0.025) (0.050) (0.053)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=3) 0.010*** 0.013***</td><td>0.003</td><td>0.006</td><td>-0.031</td><td>-0.029</td><td colspan=\"2\">0.063* 0.071**</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.034)</td><td colspan=\"5\">(0.036) (0.028) (0.030) (0.035) (0.032)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=4) 0.026*** 0.028***</td><td>0.014</td><td>0.018</td><td>-0.006</td><td>-0.006</td><td colspan=\"2\">0.068* 0.076**</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.042)</td><td colspan=\"5\">(0.043) (0.023) (0.025) (0.038) (0.036)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=5) 0.035*** 0.038***</td><td>0.006</td><td>0.008</td><td colspan=\"2\">0.050** 0.055**</td><td>0.055</td><td>0.057</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.039)</td><td colspan=\"5\">(0.040) (0.023) (0.024) (0.050) (0.047)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=6) -0.017*** -0.008***</td><td>0.003</td><td>0.007</td><td colspan=\"3\">0.077*** 0.096*** 0.046</td><td>0.048</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.039)</td><td colspan=\"5\">(0.043) (0.024) (0.026) (0.056) (0.051)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=7) 0.008*** 0.013***</td><td>0.035</td><td>0.035</td><td>0.026</td><td>0.039</td><td>-0.009</td><td>-0.010</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.041)</td><td colspan=\"5\">(0.043) (0.027) (0.027) (0.070) (0.069)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=8) -0.023*** -0.023***</td><td>0.062*</td><td>0.062*</td><td>0.023</td><td>0.026</td><td>0.059</td><td>0.059</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.037)</td><td colspan=\"5\">(0.037) (0.023) (0.023) (0.059) (0.058)</td></tr><tr><td colspan=\"3\">I(2018) x I (Month&gt; March=9) 0.015*** 0.008***</td><td>0.035</td><td>0.033</td><td>0.016</td><td>-0.000</td><td>0.019</td><td>0.021</td></tr><tr><td/><td>(0.003)</td><td>(0.003)</td><td>(0.040)</td><td colspan=\"5\">(0.040) (0.026) (0.027) (0.065) (0.072)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.853</td><td>0.853</td><td>0.815</td><td>0.815</td><td>0.801</td><td>0.801</td><td>0.673</td><td>0.673</td></tr><tr><td>Mean dep. Var</td><td>65.244</td><td>65.244</td><td>353.152</td><td colspan=\"5\">353.152 359.381 359.381 398.729 398.729</td></tr><tr><td>Obs</td><td colspan=\"2\">3188121 3188121</td><td>9014</td><td>9014</td><td>12167</td><td>12167</td><td>3471</td><td>3471</td></tr></table>"
+            },
+            "TABREF13": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Rwanda: Urban vs Rural",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td colspan=\"2\">Residential</td><td/></tr><tr><td colspan=\"2\">Urban</td><td colspan=\"2\">Rural</td></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=0) 0.051*** 0.043*** 0.035***</td><td>0.034***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=1) 0.038*** 0.017*** 0.010***</td><td>0.005***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=2) 0.054*** 0.048*** 0.029***</td><td>0.029***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=3) 0.044*** 0.039*** 0.024***</td><td>0.024***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=4) 0.070*** 0.071*** 0.045***</td><td>0.044***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=5) 0.091*** 0.139*** 0.053***</td><td>0.065***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=6) 0.079*** 0.093*** 0.029***</td><td>0.033***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=7) 0.102*** 0.077*** 0.049***</td><td>0.044***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=8) 0.073*** 0.027*** 0.024***</td><td>0.013***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"3\">I(2020) x I (Month&gt; March=9) 0.099*** 0.074*** 0.049***</td><td>0.043***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td>I(2019) x I (Month&gt; March=0) 0.011***</td><td>0.001</td><td>0.015***</td><td>0.013***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td>I</td><td/><td/><td/></tr></table>"
+            },
+            "TABREF15": {
+                "type_str": "table",
+                "text": "COVID-19 and Electricity Consumption in Ghana",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td colspan=\"2\">log of Consumption</td><td/><td/><td/></tr><tr><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"2\">Non-Residential</td><td colspan=\"2\">Heavy Industries</td></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td>I(2020) x I (Month&gt; April=0) 0.416***</td><td>0.434***</td><td>0.444***</td><td colspan=\"3\">0.463*** 0.175*** 0.183***</td><td>-0.377***</td><td>-0.386***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.003)</td><td>(0.017)</td><td>(0.017)</td></tr><tr><td>I(2020) x I (Month&gt; April=1) 0.167***</td><td>0.196***</td><td>0.188***</td><td colspan=\"2\">0.219*** -0.016***</td><td>0.001</td><td>-0.157***</td><td>-0.196***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.003)</td><td>(0.017)</td><td>(0.023)</td></tr><tr><td>I(2020) x I (Month&gt; April=2) 0.101***</td><td>0.119***</td><td>0.119***</td><td colspan=\"4\">0.137*** -0.055*** -0.031*** -0.194***</td><td>-0.268***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.005)</td><td>(0.020)</td><td>(0.043)</td></tr><tr><td>I(2020) x I (Month&gt; April=3) 0.107***</td><td>0.100***</td><td>0.122***</td><td colspan=\"2\">0.112*** -0.017***</td><td>0.002</td><td>-0.186***</td><td>-0.268***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.006)</td><td>(0.019)</td><td>(0.053)</td></tr><tr><td>I(2020) x I (Month&gt; April=4) 0.094***</td><td>0.018***</td><td>0.104***</td><td colspan=\"2\">0.020*** 0.012***</td><td>-0.003</td><td>-0.199***</td><td>-0.220***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.005)</td><td>(0.020)</td><td>(0.046)</td></tr><tr><td>I(2020) x I (Month&gt; April=5) 0.113***</td><td>0.084***</td><td>0.125***</td><td colspan=\"3\">0.092*** 0.013*** 0.019***</td><td>-0.167***</td><td>-0.219***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.005)</td><td>(0.019)</td><td>(0.045)</td></tr><tr><td>I(2020) x I (Month&gt; April=6) 0.141***</td><td>0.125***</td><td>0.151***</td><td colspan=\"3\">0.132*** 0.060*** 0.066***</td><td>-0.069***</td><td>-0.115***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.004)</td><td>(0.019)</td><td>(0.036)</td></tr><tr><td>I(2020) x I (Month&gt; April=7) 0.160***</td><td>0.150***</td><td>0.170***</td><td colspan=\"3\">0.159*** 0.068*** 0.067***</td><td>-0.022</td><td>-0.031</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.003)</td><td>(0.019)</td><td>(0.021)</td></tr><tr><td>I(2020) x I (Month&gt; April=8) 0.128***</td><td>0.115***</td><td>0.165***</td><td colspan=\"3\">0.153*** 0.047*** 0.044***</td><td>-0.051***</td><td>-0.052**</td></tr><tr><td>(0.008)</td><td>(0.008)</td><td>(0.019)</td><td>(0.019)</td><td>(0.008)</td><td>(0.008)</td><td>(0.019)</td><td>(0.020)</td></tr><tr><td>I(2019) x I (Month&gt; April=0) 0.031***</td><td>0.047***</td><td>0.032***</td><td colspan=\"3\">0.049*** 0.022*** 0.029***</td><td>-0.037**</td><td>-0.047***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td>(0.002)</td><td>(0.016)</td><td>(0.016)</td></tr><tr><td>I(2019) x I (Month&gt; April=1) 0.021***</td><td>0.041***</td><td>0.021***</td><td colspan=\"3\">0.041*** 0.021*** 0.035***</td><td>0.011</td><td>-0.023</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.017)</td><td>(0.021)</td></tr><tr><td>I</td><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+            },
+            "TABREF16": {
+                "type_str": "table",
+                "text": "Dependent variable is the log of monthly electricity consumption. Climate Ctrls include the monthly average temperature and total precipitation. Standard errors clustered at district level in parenthesis. Significant at 10 percent level * * Significant at 5 percent level * * * Significant at 1 percent level",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td/><td/><td/><td>**</td><td>-0.161***</td></tr><tr><td/><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.005)</td><td>(0.020)</td><td>(0.042)</td></tr><tr><td colspan=\"7\">I(2018) x I (Month&gt; April=6) -0.011*** -0.009*** -0.015*** -0.014*** 0.022*** 0.030***</td><td>0.031</td><td>-0.003</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.003)</td><td>(0.019)</td><td>(0.026)</td></tr><tr><td>I(2018) x I (Month&gt; April=7)</td><td>0.001</td><td colspan=\"2\">0.006*** -0.003***</td><td>0.002*</td><td colspan=\"2\">0.035*** 0.036***</td><td>0.050**</td><td>0.051**</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.003)</td><td>(0.020)</td><td>(0.020)</td></tr><tr><td colspan=\"7\">I(2018) x I (Month&gt; April=8) -0.292*** -0.299*** -0.468*** -0.475*** -0.126*** -0.131***</td><td>-0.008</td><td>0.006</td></tr><tr><td/><td>(0.010)</td><td>(0.010)</td><td>(0.017)</td><td>(0.017)</td><td>(0.013)</td><td>(0.013)</td><td>(0.018)</td><td>(0.019)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.711</td><td>0.711</td><td>0.687</td><td>0.687</td><td>0.775</td><td>0.775</td><td>0.859</td><td>0.859</td></tr><tr><td>Mean dep. Var</td><td>383.115</td><td>383.115</td><td>123.781</td><td>123.781</td><td>419.210</td><td colspan=\"3\">419.210 152470.284 152470.284</td></tr><tr><td>Obs</td><td colspan=\"6\">41958788 41958777 37299880 37299869 4602780 4602780</td><td>52317</td><td>52317</td></tr><tr><td>Notes:</td><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+            },
+            "TABREF17": {
+                "type_str": "table",
+                "text": "COVID-19 and Electricity Consumption in Lockdown Communities Ghana",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"2\">log of Consumption</td><td/><td/><td/></tr><tr><td/><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"2\">Non-Residential</td><td colspan=\"2\">Heavy Industries</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=0) 0.414*** 0.440*** 0.464*** 0.493*** 0.118*** 0.131***</td><td>-0.414***</td><td>-0.420***</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.006)</td><td>(0.006)</td><td>(0.018)</td><td>(0.018)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=1) 0.160*** 0.221*** 0.182*** 0.250*** 0.034*** 0.066***</td><td>-0.168***</td><td>-0.165***</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.003)</td><td>(0.005)</td><td>(0.007)</td><td>(0.018)</td><td>(0.024)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=2) 0.138*** 0.219*** 0.159*** 0.252*** 0.018*** 0.058***</td><td>-0.203***</td><td>-0.172***</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.005)</td><td>(0.010)</td><td>(0.023)</td><td>(0.046)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=3) 0.128*** 0.192*** 0.143*** 0.218*** 0.046*** 0.076***</td><td>-0.207***</td><td>-0.156***</td></tr><tr><td/><td>(0.002)</td><td>(0.005)</td><td>(0.002)</td><td>(0.005)</td><td>(0.006)</td><td>(0.012)</td><td>(0.021)</td><td>(0.056)</td></tr><tr><td colspan=\"6\">I(2020) x I (Month&gt; April=4) 0.105*** 0.067*** 0.121*** 0.082*** 0.024***</td><td>-0.002</td><td>-0.237***</td><td>-0.173***</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.006)</td><td>(0.011)</td><td>(0.023)</td><td>(0.050)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=5) 0.152*** 0.182*** 0.168*** 0.204*** 0.069*** 0.080***</td><td>-0.193***</td><td>-0.142***</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.006)</td><td>(0.011)</td><td>(0.022)</td><td>(0.049)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=6) 0.159*** 0.187*** 0.170*** 0.203*** 0.098*** 0.110***</td><td>-0.083***</td><td>-0.048</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.002)</td><td>(0.003)</td><td>(0.006)</td><td>(0.009)</td><td>(0.022)</td><td>(0.039)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=7) 0.156*** 0.161*** 0.169*** 0.176*** 0.082*** 0.083***</td><td>-0.038*</td><td>-0.025</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.006)</td><td>(0.006)</td><td>(0.021)</td><td>(0.024)</td></tr><tr><td colspan=\"7\">I(2020) x I (Month&gt; April=8) 0.157*** 0.152*** 0.356*** 0.352*** 0.073*** 0.069***</td><td>-0.075***</td><td>-0.065***</td></tr><tr><td/><td>(0.011)</td><td>(0.011)</td><td>(0.061)</td><td>(0.061)</td><td>(0.011)</td><td>(0.011)</td><td>(0.022)</td><td>(0.023)</td></tr><tr><td colspan=\"7\">I(2019) x I (Month&gt; April=0) 0.050*** 0.071*** 0.055*** 0.078*** 0.026*** 0.038***</td><td>-0.012</td><td>-0.018</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.004)</td><td>(0.004)</td><td>(0.016)</td><td>(0.016)</td></tr><tr><td colspan=\"7\">I(2019) x I (Month&gt; April=1) 0.043*** 0.090*** 0.043*** 0.096*** 0.041*** 0.065***</td><td>0.024</td><td>0.029</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.004)</td><td>(0.006)</td><td>(0.017)</td><td>(0.022)</td></tr><tr><td colspan=\"6\">I(2019) x I (Month&gt; April=2) -0.041*** 0.063*** -0.037*** 0.080*** -0.057***</td><td>-0.005</td><td>-0.114***</td><td>-0.078</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.005)</td><td>(0.005)</td><td>(0.011)</td><td>(0.018)</td><td>(0.054)</td></tr><tr><td colspan=\"5\">I(2019) x I (Month&gt; April=3) 0.018*** 0.050*** 0.023*** 0.062***</td><td>-0.009*</td><td>0.005</td><td>-0.079***</td><td>-0.029</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.005)</td><td>(0.011)</td><td>(0.018)</td><td>(0.046)</td></tr><tr><td colspan=\"2\">I(2019) x I (Month&gt; April=4) 0.005***</td><td>0.003</td><td colspan=\"5\">0.011*** 0.012*** -0.022*** -0.028*** -0.120***</td><td>-0.066</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.005)</td><td>(0.010)</td><td>(0.019)</td><td>(0.045)</td></tr><tr><td colspan=\"6\">I(2019) x I (Month&gt; April=5) -0.030*** 0.032*** -0.027*** 0.045*** -0.044***</td><td>-0.015</td><td>-0.091***</td><td>-0.046</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.005)</td><td>(0.011)</td><td>(0.020)</td><td>(0.049)</td></tr><tr><td colspan=\"7\">I(2019) x I (Month&gt; April=6) 0.050*** 0.175*** 0.052*** 0.194*** 0.037*** 0.100***</td><td>0.025</td><td>0.067</td></tr><tr><td/><td>(0.002)</td><td>(0.005)</td><td>(0.002)</td><td>(0.006)</td><td>(0.005)</td><td>(0.013)</td><td>(0.019)</td><td>(0.058)</td></tr><tr><td colspan=\"7\">I(2019) x I (Month&gt; April=7) 0.014*** 0.011*** 0.013*** 0.010*** 0.024*** 0.022***</td><td>0.056***</td><td>0.065***</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.006)</td><td>(0.006)</td><td>(0.018)</td><td>(0.019)</td></tr><tr><td colspan=\"5\">I(2019) x I (Month&gt; April=8) -0.019** -0.043*** -0.140*** -0.168***</td><td>0.007</td><td>-0.006</td><td>0.006</td><td>0.009</td></tr><tr><td/><td>(0.009)</td><td>(0.009)</td><td>(0.019)</td><td>(0.019)</td><td>(0.011)</td><td>(0.011)</td><td>(0.021)</td><td>(0.022)</td></tr><tr><td colspan=\"4\">I(2018) x I (Month&gt; April=0) -0.030*** -0.003* -0.031***</td><td>-0.001</td><td colspan=\"2\">-0.027*** -0.012***</td><td>0.002</td><td>-0.003</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.004)</td><td>(0.004)</td><td>(0.017)</td><td>(0.017)</td></tr><tr><td colspan=\"5\">I(2018) x I (Month&gt; April=1) -0.020*** 0.032*** -0.024*** 0.035***</td><td>-0.002</td><td>0.025***</td><td>-0.001</td><td>0.004</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.004)</td><td>(0.006)</td><td>(0.022)</td><td>(0.030)</td></tr><tr><td colspan=\"7\">I(2018) x I (Month&gt; April=2) -0.029*** 0.084*** -0.032*** 0.095*** -0.014*** 0.045***</td><td>-0.092***</td><td>-0.068</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.004)</td><td>(0.011)</td><td>(0.021)</td><td>(0.062)</td></tr><tr><td colspan=\"8\">I(2018) x I (Month&gt; April=3) -0.047*** -0.014*** -0.047*** -0.008** -0.042*** -0.028*** -0.111***</td><td>-0.072</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.002)</td><td>(0.004)</td><td>(0.005)</td><td>(0.009)</td><td>(0.023)</td><td>(0.045)</td></tr><tr><td colspan=\"2\">I(2018) x I (Month&gt; April=4) -0.021***</td><td>-0.004</td><td>-0.025***</td><td>-0.002</td><td>0.000</td><td>0.006</td><td>-0.079***</td><td>-0.037</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.002)</td><td>(0.004)</td><td>(0.005)</td><td>(0.009)</td><td>(0.021)</td><td>(0.041)</td></tr><tr><td colspan=\"2\">I(2018) x I (Month&gt; April=5) -0.059***</td><td>-0.002</td><td>-0.064***</td><td>0.001</td><td>-0.027***</td><td>-0.000</td><td>-0.102***</td><td>-0.066</td></tr><tr><td/><td>(0.002)</td><td>(0.004)</td><td>(0.002)</td><td>(0.004)</td><td>(0.005)</td><td>(0.009)</td><td>(0.022)</td><td>(0.045)</td></tr><tr><td colspan=\"7\">I(2018) x I (Month&gt; April=6) 0.029*** 0.053*** 0.022*** 0.049*** 0.070*** 0.081***</td><td>0.033</td><td>0.049*</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.003)</td><td>(0.005)</td><td>(0.006)</td><td>(0.020)</td><td>(0.028)</td></tr><tr><td>I(2018) x I (Month&gt; April=7)</td><td>-0.001</td><td>0.002</td><td colspan=\"4\">-0.010*** -0.006*** 0.044*** 0.046***</td><td>0.048**</td><td>0.043**</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.002)</td><td>(0.005)</td><td>(0.005)</td><td>(0.021)</td><td>(0.020)</td></tr><tr><td>I(2018) x I (Month&gt; April=8)</td><td>0.015</td><td>-0.002</td><td>-0.013</td><td>-0.032*</td><td colspan=\"2\">0.047*** 0.038***</td><td>-0.014</td><td>-0.019</td></tr><tr><td/><td>(0.010)</td><td>(0.010)</td><td>(0.018)</td><td>(0.018)</td><td>(0.013)</td><td>(0.013)</td><td>(0.020)</td><td>(0.021)</td></tr><tr><td>Climate Ctrls</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Customer FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>District X Year FE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>R-squared</td><td>0.697</td><td>0.697</td><td>0.624</td><td>0.624</td><td>0.795</td><td>0.795</td><td>0.869</td><td>0.869</td></tr><tr><td>Mean dep. Var</td><td colspan=\"3\">1032.762 1032.762 224.075</td><td>224.075</td><td>763.197</td><td colspan=\"3\">763.197 143144.950 143144.950</td></tr><tr><td>Obs</td><td colspan=\"6\">8635711 8635711 7327395 7327395 1268209 1268209</td><td>38885</td><td>38885</td></tr></table>"
+            },
+            "TABREF18": {
+                "type_str": "table",
+                "text": "and Electricity Consumption in Non-Lockdown Communities in Ghana",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td/><td/><td colspan=\"2\">log of Consumption</td><td/><td/><td/></tr><tr><td>All</td><td/><td colspan=\"2\">Residential</td><td colspan=\"2\">Non-Residential</td><td colspan=\"2\">Heavy Industries</td></tr><tr><td>I(2020) x I (Month&gt; April=0) 0.417***</td><td>0.434***</td><td>0.440***</td><td colspan=\"3\">0.458*** 0.195*** 0.201***</td><td>-0.275***</td><td>-0.288***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.003)</td><td>(0.042)</td><td>(0.042)</td></tr><tr><td>I(2020) x I (Month&gt; April=1) 0.169***</td><td>0.192***</td><td>0.190***</td><td colspan=\"4\">0.215*** -0.032*** -0.019*** -0.127***</td><td>-0.204***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.004)</td><td>(0.042)</td><td>(0.050)</td></tr><tr><td>I(2020) x I (Month&gt; April=2) 0.093***</td><td>0.100***</td><td>0.111***</td><td colspan=\"4\">0.117*** -0.077*** -0.061*** -0.167***</td><td>-0.327***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.006)</td><td>(0.043)</td><td>(0.078)</td></tr><tr><td>I(2020) x I (Month&gt; April=3) 0.103***</td><td>0.082***</td><td>0.118***</td><td colspan=\"4\">0.094*** -0.036*** -0.025*** -0.126***</td><td>-0.325***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.007)</td><td>(0.039)</td><td>(0.095)</td></tr><tr><td>I(2020) x I (Month&gt; April=4) 0.092***</td><td>0.008***</td><td>0.101***</td><td>0.009***</td><td>0.008**</td><td>-0.008</td><td>-0.094**</td><td>-0.198**</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.006)</td><td>(0.041)</td><td>(0.087)</td></tr><tr><td>I(2020) x I (Month&gt; April=5) 0.105***</td><td>0.064***</td><td>0.117***</td><td>0.072***</td><td>-0.004</td><td>-0.003</td><td>-0.095**</td><td>-0.240***</td></tr><tr><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.006)</td><td>(0.037)</td><td>(0.079)</td></tr><tr><td>I(2020) x I (Month&gt; April=6) 0.137***</td><td>0.113***</td><td>0.147***</td><td colspan=\"3\">0.120*** 0.048*** 0.050***</td><td>-0.029</td><td>-0.142**</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.005)</td><td>(0.038)</td><td>(0.065)</td></tr><tr><td>I(2020) x I (Month&gt; April=7) 0.160***</td><td>0.148***</td><td>0.171***</td><td colspan=\"3\">0.157*** 0.063*** 0.062***</td><td>0.025</td><td>-0.005</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.004)</td><td>(0.039)</td><td>(0.044)</td></tr><tr><td>I(2020) x I (Month&gt; April=8) 0.108***</td><td>0.095***</td><td>0.130***</td><td colspan=\"3\">0.116*** 0.038*** 0.035***</td><td>0.018</td><td>0.004</td></tr><tr><td>(0.011)</td><td>(0.011)</td><td>(0.019)</td><td>(0.019)</td><td>(0.012)</td><td>(0.012)</td><td>(0.040)</td><td>(0.041)</td></tr><tr><td>I(2019) x I (Month&gt; April=0) 0.025***</td><td>0.041***</td><td>0.026***</td><td colspan=\"3\">0.043*** 0.021*** 0.026***</td><td>-0.108**</td><td>-0.119***</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.002)</td><td>(0.003)</td><td>(0.043)</td><td>(0.043)</td></tr><tr><td>I(2019) x I (Month&gt; April=1) 0.016***</td><td>0.030***</td><td>0.016***</td><td colspan=\"3\">0.031*** 0.014*** 0.024***</td><td>-0.028</td><td>-0.094**</td></tr><tr><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.003)</td><td>(0.003)</td><td>(0.044)</td><td>(0.048)</td></tr><tr><td>I</td><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+            },
+            "TABREF20": {
+                "type_str": "table",
+                "text": "Effects of Electricity Subsidies on Consumption in Ghana",
+                "num": null,
+                "html": null,
+                "content": "<table><tr><td/><td colspan=\"4\">Lifeline Customers (100% subsidy) Non-Lifeline Customers (50% subsidy)</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=0) 0.597***</td><td>0.627***</td><td>0.316***</td><td>0.328***</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=1) 0.358***</td><td>0.366***</td><td>0.053***</td><td>0.095***</td></tr><tr><td/><td>(0.001)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=2) 0.310***</td><td>0.221***</td><td>-0.039***</td><td>0.036***</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.001)</td><td>(0.002)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=3) 0.348***</td><td>0.172***</td><td>-0.063***</td><td>0.017***</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.001)</td><td>(0.002)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=4) 0.355***</td><td>0.089***</td><td>-0.102***</td><td>-0.081***</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.001)</td><td>(0.002)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=5) 0.388***</td><td>0.196***</td><td>-0.089***</td><td>-0.034***</td></tr><tr><td/><td>(0.002)</td><td>(0.003)</td><td>(0.001)</td><td>(0.002)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=6) 0.419***</td><td>0.294***</td><td>-0.066***</td><td>-0.025***</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.001)</td><td>(0.002)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=7) 0.466***</td><td>0.417***</td><td>-0.066***</td><td>-0.056***</td></tr><tr><td/><td>(0.002)</td><td>(0.002)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td colspan=\"2\">I(2020) x I (Month&gt; April=8) 0.454***</td><td>0.416***</td><td>-0.018</td><td>-0.015</td></tr><tr><td/><td>(0.033)</td><td>(0.033)</td><td>(0.024)</td><td>(0.024)</td></tr><tr><td>I(2019) x I (Month&gt; April=0)</td><td>0.002*</td><td>0.034***</td><td>0.055***</td><td>0.064***</td></tr><tr><td/><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr><tr><td>I</td><td/><td/><td/><td/></tr></table>"
+            }
+        }
+    }
+}

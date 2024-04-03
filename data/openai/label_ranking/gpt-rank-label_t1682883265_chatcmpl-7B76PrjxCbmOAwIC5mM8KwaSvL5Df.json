@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03674: Source: Authors' calculations based on data from BEA and BLS.\n\ns_03724: All the data on which we rely are systematized and presented in a data Appendix, which is available from the authors.\n\ns_03774: Our analysis relies on daily data that covers the period from January 1997 to March 2000 and is drawn, for the most part, from Bloomberg, IDC and Baseline.\n\ns_03824: Notes: Data are from baseline sample (for details, see Table 1 ).\n\ns_03874: Pollution data for all cities, where available, was taken from the Central Pollution Control Board's (CPCB) Environmental Data Bank website for the year 2008.\n\ns_03924: In this study, we extend the empirical methodology applied by Tanzi and Davoodi (1997) , and Bird, Vazquez, and Torgler (2004) .\n\ns_03974: Using time series cross-country data on fertility and HIV prevalence rates, Young (2007) nds a similar eect.\n\ns_04024: The paper begins with the presentation of some data on child health inequalities in 42 countries.\n\ns_04074: The author may be contacted at dvittas@worldbank.org.\n\ns_04124: See for example Gabaix (2011) , Eaton et al.\n\ns_04174: The model presented in this paper is based on the framework developed byAizenman (1998, 1999).\n\ns_04224: More recent literature has formalized this \"value of access\".\n\ns_04274: , ; Jan. ,31. ,2011] ; i.e.\n\ns_04324: Timmins & Jennifer Murdock 2007)\n\ns_04374: Source: Authors' analysis based on data sources discussed in the text.\n\ns_04424: Summary statistics are provided in Table 1 .\n\ns_04474: This is in line with results relying on the frequency of wage cuts in industry data across countries reported by Holden and Wulfsberg (2009) .\n\ns_04524: Atkinson, 2011; Bleichrodt and van Doorslaer 2006; Fleurbaey and Schokkaert, 2011) ?\n\ns_04574: See Auerback and Gorodnichenko (2010, 2012) and Ilzetzki, Mendoza, and Vegh (2013).\n\ns_04624: See next section on data and methodology for description of the data sources.\n\ns_04674: In line with the rest of the literature, e.g.\n\ns_04724: See the discussion on this below.\n\ns_04774: The sample consists of a total of 24,433 observations with 9,028 observations from 1976 and 15,405 from 1981.\n\ns_04824: The rest of the paper is structured as follows.\n\ns_04874: As shown at the bottom of Table 4 , the spatial autocorrelation is found to be significant."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B76PrjxCbmOAwIC5mM8KwaSvL5Df",
+    "object": "chat.completion",
+    "created": 1682883265,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 895,
+      "completion_tokens": 109,
+      "total_tokens": 1004
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03824\", \"data_mentioned\": true, \"reason\": \"baseline sample\"}, {\"sent_id\": \"s_03874\", \"data_mentioned\": true, \"reason\": \"Central Pollution Control Board's (CPCB) Environmental Data Bank\"}, {\"sent_id\": \"s_04024\", \"data_mentioned\": true, \"reason\": \"42 countries\"}, {\"sent_id\": \"s_04624\", \"data_mentioned\": true, \"reason\": \"data sources\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03824\", \"data_mentioned\": true, \"reason\": \"baseline sample\"}, {\"sent_id\": \"s_03874\", \"data_mentioned\": true, \"reason\": \"Central Pollution Control Board's (CPCB) Environmental Data Bank\"}, {\"sent_id\": \"s_04024\", \"data_mentioned\": true, \"reason\": \"42 countries\"}, {\"sent_id\": \"s_04624\", \"data_mentioned\": true, \"reason\": \"data sources\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

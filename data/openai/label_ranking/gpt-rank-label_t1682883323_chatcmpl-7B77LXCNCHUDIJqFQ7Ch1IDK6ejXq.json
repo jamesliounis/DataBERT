@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06125: See OAMDI (2016) for data documentation.6 In every wave of the survey, a refresher sample of 2,000-3,000 observations is included to allow for a more in-depth examination of phenomena of interest.\n\ns_06175: This section provides details about the data collection methodology and empirical analysis we conducted for the phone survey and online randomized survey experiment.\n\ns_06225: We obtained these data from the June 2021 vintage of the World Development Indicators (WDI).\n\ns_06275: The remainder of the paper is organized as follows.\n\ns_06325: The paper is organized as follows.\n\ns_06375: Section (3) is devoted to a discussion of the surveys and data sets used for our analysis: CFPS 2014 (China), IHDS 2012 (India), and IFLS 2014 for Indonesia.\n\ns_06425: This paper contributes to two strands of the literature.\n\ns_06475: SeeBarron et al, (2023), for a more detailed discussion.\n\ns_06525: Several key findings emerge from the survey.\n\ns_06575: There are currently efforts to construct a more recent table.29 which are described in the next few sections.30 In this model, we assume that imports used as raw materials are of the OGL variety and not subject quantitative restrictions; imports in final demand are competitive with domestic outputs and are subject to quota restrictions.\n\ns_06625: Finally, Section V sets out the main conclusions and identifies areas where further research would be warranted in this fast developing area of interest.\n\ns_06675: SeeKaminsky and Reinhart (1996)\n\ns_06725: Similar evidence is found in studies of BRAC, Grameen and PKSF's partner organizations.\n\ns_06775: A discussion of the empirical methodology can be found in the next section.\n\ns_06825: 6 See Jalan and Ravallion 1997;Hentschel and others 1998;Wilcox 1999;Bigman and Fofack 2000; IFPRI 2000; de Janvry 2002; de Janvry and others 2002;Demombynes and others 2002; Davis 2002.\n\ns_06875: However, it is not difficult to do so for the purpose of this paper.\n\ns_06925: This paper suggests that the external validity of the experiment may be compromised due to this important source of heterogeneity-an empirical implication is to try and capture information on this and other changes that have occurred during the year of the experiment.\n\ns_06975: As reported in Table 8, average treatment effects based on kernel matching on the predicted z-score confirm the validity of the results of the previous estimates of regular savings impact on housing mobility.\n\ns_07025: Table V.1 shows that an important part of the increase in imports from Mercosur occurred after the application of the DIEMs on products from the rest of the world, whereas until 1993 when Mercosur was still in the formative stage, the evolution was very similar between both trade flows.\n\ns_07075: Much of the data stem from the Brazilian Population Censuses of 1991 and 2000.\n\ns_07125: The last column of Panel B shows the t-statistic for the test of whether the % of total market value held by fund portfolios in firms with an ADR is statistically greater than the percentage of market value held by fund portfolios in firms without an ADR *, **, and *** indicate significance at 10%, 5% and 1%, respectively.\n\ns_07175: To get a sense for the magnitude of the problem, we regressed enrollment on the log of total household expenditures, with expenditures instrumented with the measures of housing conditions and durables-see for example Glewwe and Jacoby (1995) and Behrman and Knowles (1999) for a similar approach.\n\ns_07225: Source: Author's definitions.\n\ns_07275: We examined how PC participation and provisions affected the productivity of SOEs using a panel data set consisting of 769 firms from 1980 to 1989 located in four provinces of China from A Survey of Chinese SOEs: 1980 SOEs: -1989 (See the data appendix for more details.)\n\ns_07325: Tables 5.3 and 5.4 report the results of the new system."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B77LXCNCHUDIJqFQ7Ch1IDK6ejXq",
+    "object": "chat.completion",
+    "created": 1682883323,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1188,
+      "completion_tokens": 201,
+      "total_tokens": 1389
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06225\", \"data_mentioned\": true, \"reason\": \"World Development Indicators (WDI)\"}, {\"sent_id\": \"s_06375\", \"data_mentioned\": true, \"reason\": \"CFPS 2014 (China), IHDS 2012 (India), and IFLS 2014 for Indonesia)\"}, {\"sent_id\": \"s_07075\", \"data_mentioned\": true, \"reason\": \"Brazilian Population Censuses of 1991 and 2000\"}] \n\nExplanation: \n- s_06225 explicitly mentions the dataset \"World Development Indicators (WDI)\".\n- s_06375 explicitly mentions the datasets \"CFPS 2014 (China), IHDS 2012 (India), and IFLS 2014 for Indonesia)\".\n- s_07075 explicitly mentions the dataset \"Brazilian Population Censuses of 1991 and 2000\"."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06225\", \"data_mentioned\": true, \"reason\": \"World Development Indicators (WDI)\"}, {\"sent_id\": \"s_06375\", \"data_mentioned\": true, \"reason\": \"CFPS 2014 (China), IHDS 2012 (India), and IFLS 2014 for Indonesia)\"}, {\"sent_id\": \"s_07075\", \"data_mentioned\": true, \"reason\": \"Brazilian Population Censuses of 1991 and 2000\"}] \n\nExplanation: \n- s_06225 explicitly mentions the dataset \"World Development Indicators (WDI)\".\n- s_06375 explicitly mentions the datasets \"CFPS 2014 (China), IHDS 2012 (India), and IFLS 2014 for Indonesia)\".\n- s_07075 explicitly mentions the dataset \"Brazilian Population Censuses of 1991 and 2000\".",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

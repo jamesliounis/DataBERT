@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03282: Panel A shows summary statistics by country for the 662 banks that were present in the event study.\n\ns_03332: One of the contributions of this paper is the construction of four new aggregate indicators related to trade facilitation from a wide range of primary indicators using factor analysis, a statistical modeling technique that explains the correlation among a set of observed variables through an unobserved \"common factor.\"\n\ns_03382: Three observations can be derived from Table 5 , which provides information on the part content in imports in major two-digit SITC product groups.\n\ns_03432: We supplement the advertising data from input-output tables with data from Schonfeld & Associates.\n\ns_03482: Based on cross-section development paths (derived from an econometric exercise that averages countries' financial development over a thirty-year time span for a large set of FD indicators), the paper finds that-except for some notable outliers whose deviant behavior is in itself quite informative-these patterns are, indeed, broadly verified.\n\ns_03532: The results are consistent with the descriptive statistics presented in the previous section and other studies of firm survival in developing countries and this dataset (see Bernard and Sjoholm 2003 , Frazer, 2005 , S\u00f6derbom and Teal, 2006 ; size, age, and productivity all increase the probability of survival.\n\ns_03582: Before examining time-series variation in co-dependence for the three measures we have outlined above, we first explore commonality in changes in default for the whole sample period.\n\ns_03632: 6 The results are shown in Table 2 (for selected countries).\n\ns_03682: 24 See Fay et al (2011) for a detailed discussion.\n\ns_03732: Similar calculations for other cases are in Table 6 .\n\ns_03782: While the theoretical foundations of project finance have received some attention in the literature (see, e.g., Shah and Thakor, 1987 , Berkovitch and Kim, 1990 , Chemmanur and .lohn, 1996 there are very few empirical studies of project finance.\n\ns_03832: The rest of the paper is organized as follows.\n\ns_03882: The estimates are based on a combination of Indian data from secondary sources and on the transfer of unit costs of pollution from a range of national and international studies (a process known as benefit transfer).\n\ns_03932: When we compare these new results with the ones reported in Table 2 of Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , it can be seen again that GDP per capita is less significant and has lower estimated coefficients now.\n\ns_03982: I supplement the use of the MDICP data with statistics about survival after infection and child mortality from other studies that use data from samples with repeated HIV testing and frequent follow-ups.\n\ns_04032: The results of studies on trends in health inequalities are summarized in Table 8 .\n\ns_04082: Given the long span of pension contracts, one would need data covering much more than one hundred years to be able to assess the relative merits of each pillar.\n\ns_04132: (2007),Lane and Schmukler (2007),Shah et al.\n\ns_04182: The lower panel of Figure 1 depicts the relation between optimal employment and the initial level of debt, as given by (16).\n\ns_04232: \"17 See, for instance, 'IMF's Greek apology shows a bankruptcy code is needed,' by Komal Sri-Kumar (Financial Times, June 22, 2013, p. 22).18 It is interesting to see the Economist magazine (June 15-21, 2013, p. 14) refer directly to the \"moral hazard\" problem in the context of Germany and the weaker nations of the Eurozone as the stumbling block\n\ns_04282: The corresponding estimates (i.e.\n\ns_04332: (3) For comparison purposes, columns (5) -(7) report the results from the same analysis applied to expenditure on secondary education.\n\ns_04382: The rest of the paper is structured as follows.\n\ns_04432: This resulted in a sample of 501 migrant workers, who were then administered a baseline survey, and a lab-in-the-field experiment.\n\ns_04482: The information is summarised in Table 1."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7H36icYCsztgMUXfejlmPVrtCki",
+    "object": "chat.completion",
+    "created": 1682883925,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1175,
+      "completion_tokens": 146,
+      "total_tokens": 1321
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03532\", \"data_mentioned\": true, \"reason\": \"Bernard and Sjoholm 2003\"}, {\"sent_id\": \"s_03882\", \"data_mentioned\": true, \"reason\": \"MDICP data\"}, {\"sent_id\": \"s_04032\", \"data_mentioned\": true, \"reason\": \"Table 8\"}] \n\nThe sentences with ids s_03532, s_03882, and s_04032 mention datasets clearly and unambiguously. The dataset names are \"Bernard and Sjoholm 2003\", \"MDICP data\", and \"Table 8\", respectively."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03532\", \"data_mentioned\": true, \"reason\": \"Bernard and Sjoholm 2003\"}, {\"sent_id\": \"s_03882\", \"data_mentioned\": true, \"reason\": \"MDICP data\"}, {\"sent_id\": \"s_04032\", \"data_mentioned\": true, \"reason\": \"Table 8\"}] \n\nThe sentences with ids s_03532, s_03882, and s_04032 mention datasets clearly and unambiguously. The dataset names are \"Bernard and Sjoholm 2003\", \"MDICP data\", and \"Table 8\", respectively.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

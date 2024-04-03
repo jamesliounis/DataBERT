@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02547: These findings have management implications for predicting visits to private information providers.\n\ns_02597: Among the diagnostic parameters which were analyzed in our paper in the context of MetS, only abdominal circumference and HDL were significant for the risk of BPH.\n\ns_02647: Similar findings have been reported in the dementia-free Framingham Heart Study participants: elevated cortisol was associated with decreased total brain volume, in particular decreased occipital and frontal gray matter volumes.\n\ns_02697: As Figure 1 indicates, essentially all of the progress over the last twenty five years in NAEP scores occurred in the 1980s, and the gap grew during the 1990s.\n\ns_02747: to document and quantify U.S. Great Lakes change including detection of a significant increase in low intensity development, with over 38% of that change occurring within 10 km of the Great Lakes coastline.\n\ns_02797: These findings echo previous research linking childhood poverty with adverse impacts on cognitive development and academic performance (2, 26) .\n\ns_02847: This measure was adapted from the Attachment Q-Sort developed by Waters and Deane (1985) .\n\ns_02897: The objective was to measure the response rate for members of eligible households (those with at least one college graduate) that indicated willingness to complete a survey on the Internet during a prior MP interview.\n\ns_02947: The data were merged together making the student the unit of analysis.\n\ns_02997: As we can see from Table 2 , the highest scores correspond to the answers of Directors of Studies and parents, while the values for teachers are lower, though significant and illustrative.\n\ns_03047: The learning phase was considered concluded once each tracer achieved an intra-class coefficient of correlation (ICC) greater than 0.80.\n\ns_03097: Although there are similarities among various studies, not all the studies use the same variables and the impact of the selected variables sometimes differs from one study to another.\n\ns_03147: In the transcripts we were also able to identify instances where decisions regarding the provision or maintenance of public goods were taken.\n\ns_03197: One striking feature of recent chaos in grain markets is the paucity of timely data on available stocks in each country and particularly in Asia.\n\ns_03247: The specification tests corresponding to the complete model are reported in Table 10 .\n\ns_03297: Robustness checks in the appendix present results for different estimation and event windows, including results obtained estimating the parameters of the preferred equation (5) using data from just before each event, as in a standard event study.5 This means that during periods of inactivity all returns are assigned to the first day in which there is new activity.6 The large number of banks in the sample and the length of the window makes including dummies for individual corporate events unfeasible.\n\ns_03347: Our study also departs from most previous papers as we estimate the gravity with a two-stage sample selection model (Heckman 1979) as in Helpman, Melitz, and Rubinstein (henceforth, HMR) (2008) to deal with sample selection bias due to country-pairs without trade (in at least one direction) and to examine the impact of trade facilitation on the extensive and intensive margins.\n\ns_03397: On the basis of our analysis of trade in parts, we identify three major networksautomotive network, office equipment and automatic data processing machines jointly analyzed with telecommunication equipment (hereafter 'information revolution' network) and furniture network.\n\ns_03447: These \u2026ndings are robust to alternative measures of \u2026rm size dispersion, the time period chosen, estimation procedures, and functional speci\u2026cation.\n\ns_03497: To better capture the underlying FD patterns, we employ quantile (median) regressions, which are less influenced by outliers.\n\ns_03547: Table 8 presents survival models that control for provincial level real minimum wages and allow their impact to vary over time (the baseline models presented in columns 1 and 3) as well as to interact with productivity (the extended specifications presented in columns 2 and 4).\n\ns_03597: We use the database created by Abiad Detragiatche and Tressel 2010 well.\n\ns_03647: 3 For example, China's share in these sectors in Japan is over 70 percent, in Korea over 60 percent, in Brazil about 55 percent, in the United States, Canada, and the European Union about 50 percent each.\n\ns_03697: Auerbach and Gorodnichenko (2010) use a nonlinear VAR structure, which allows the estimation of multipliers that differ in recession and in expansion.\n\ns_03747: Overall, the table shows that our indicator of the breadth of applicability of court rulings is most closely correlated with the extent to which the poor share in the benefits from these rulings."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7TdCGXxN1x3ttbMtyJeFDLwptFO",
+    "object": "chat.completion",
+    "created": 1682884705,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1277,
+      "completion_tokens": 38,
+      "total_tokens": 1315
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03597\", \"data_mentioned\": true, \"reason\": \"Abiad Detragiatche and Tressel 2010\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03597\", \"data_mentioned\": true, \"reason\": \"Abiad Detragiatche and Tressel 2010\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

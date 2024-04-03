@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04532: (2009) , attempt to implement in empirical policy oriented work.\n\ns_04582: In that case, and while one regime (recession) has a relatively small number of observations, the smooth transition model allows us to e\u00a4ectively pool more information taking advantage of the variation in the degree of a particular regime so that estimation and inference for each regime is based on a larger set of observations.\n\ns_04632: The paper also assesses the changes in inequality of opportunity in the 2000s and the factoring driving the trend.\n\ns_04682: 77 Disaggregated data are reported in Table 6 .\n\ns_04732: Beyond the information routinely collected in multi-purpose household surveys (e.g., year of birth and years of schooling), our survey includes data on time use during a typical day for all individuals in generations II and III.\n\ns_04782: The first and primary data base is the widely used and highly regarded Socio-Economic Survey' 7 (SES) conducted by the National Statistical Office in Thailand.\n\ns_04832: Our estimation results are presented in tables 3 and 4.\n\ns_04882: Given the above results, one of the important empirical questions is whether spatial autocorrelation really matters to the firm location choice.\n\ns_04932: The purpose of this paper is to estimate investment needs in infrastructure.\n\ns_04982: (3) and (4) of the second panel of Table 2 .\n\ns_05032: Data from global surveys of EPAs undertaken by the World Bank in 2005 and 2010 suggest that in all regions of the world the promotion of overall exports dominates other policy objectives (see Figure 1 ).\n\ns_05082: Data were compiled between October 30, 2006 and December 30, 2006.\n\ns_05132: For the benchmark exercise, the labor share of income was assumed to be 51 percent which was sourced from the GTAP database and the depreciation rate was picked to be 3.2 percent which was sourced from the PWT 8.1.\n\ns_05182: Columns 5 and 10 contain the regression-adjusted differences of follow-up measures between the Treatment and Control group, adjusted for round and market fixed effects (i.e., the sampling strategy).\n\ns_05232: According to Carvalho and Berg (2011) , by the end of 2010, over 250 studies had looked at efficiency levels and many had analyzed their drivers.\n\ns_05282: Enrollment elasticities with respect to per child transfers were computed for each state, using probit regression equations (see table 1 in the appendix), The results indicate that contrary to the usual concern previously mentioned, application of a uniform per-student formula in Mexico would tend to redistribute Federal transfers from high to low income states.\n\ns_05332: *,**,*** indicate 10,5,1 percent level of significance respectively.\n\ns_05382: Comparison between responses for the same item in a comprehensive and an incomprehensive list would indicate a lower bound for response bias.\n\ns_05432: In Figure 2 , we take a look at the spatial distribution of FDI flows in 2001 and 2012, respectively, using data from the UNCTAD FDI Statistics.\n\ns_05482: 2003; Gauthier and Reinikka 2008; Fiszbein et al.\n\ns_05532: This research also contributes to the literature on the drivers of the skill content of jobs by using the World Bank's International Income Distribution Dataset (I2D2).\n\ns_05582: (2013), inTable S1.2 For most of the AOGCMs, the period is 2006-2100.\n\ns_05632: , 2012; Bertozzi y Guti\u00e9rrez, 2013; Cluver et al, 2013).\n\ns_05682: A review of a large number of countries (Hashim and Piatti-F\u00fcnfkirchen 2018, Hashim et al.\n\ns_05732: Our paper is related to three different strands of literature."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7HBjlCwvyqTPoA9C7fANLYA87AW",
+    "object": "chat.completion",
+    "created": 1682883933,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1115,
+      "completion_tokens": 156,
+      "total_tokens": 1271
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04782\", \"data_mentioned\": true, \"reason\": \"Socio-Economic Survey\"}, {\"sent_id\": \"s_05032\", \"data_mentioned\": true, \"reason\": \"World Bank\"}, {\"sent_id\": \"s_05132\", \"data_mentioned\": true, \"reason\": \"GTAP database\"}, {\"sent_id\": \"s_05232\", \"data_mentioned\": true, \"reason\": \"efficiency levels\"}, {\"sent_id\": \"s_05432\", \"data_mentioned\": true, \"reason\": \"UNCTAD FDI Statistics\"}, {\"sent_id\": \"s_05532\", \"data_mentioned\": true, \"reason\": \"International Income Distribution Dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04782\", \"data_mentioned\": true, \"reason\": \"Socio-Economic Survey\"}, {\"sent_id\": \"s_05032\", \"data_mentioned\": true, \"reason\": \"World Bank\"}, {\"sent_id\": \"s_05132\", \"data_mentioned\": true, \"reason\": \"GTAP database\"}, {\"sent_id\": \"s_05232\", \"data_mentioned\": true, \"reason\": \"efficiency levels\"}, {\"sent_id\": \"s_05432\", \"data_mentioned\": true, \"reason\": \"UNCTAD FDI Statistics\"}, {\"sent_id\": \"s_05532\", \"data_mentioned\": true, \"reason\": \"International Income Distribution Dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

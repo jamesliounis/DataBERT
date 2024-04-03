@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03066: The inter scanner signal repeatability results from post-hoc analysis on the MagPhan \u00ae phantom are summarized in Fig.\n\ns_03116: Based on the ARMS 2006 sample, an estimated 22% of the rice farms registered income for the multifunctional activities considered for 2006.\n\ns_03166: Decomposing the caste e\u00a4ect, we observe that the advantage of SCSTs is driven by an increased preference match likelihood within o\u00a2 cials' talk, which is not paralleled in the villagers' talk.\n\ns_03216: Look again at Figures 3 and 4 .\n\ns_03266: The Table shows that in spite of the fact that we employ the least efficient method to estimate the model, which delivers wider confidence intervals for the estimated parameters, there is substantial evidence supporting the theory.\n\ns_03316: This paper complements this literature by providing further evidence of the consequences of a drying up of interbank lending markets on banks' performance and lending 6 activities worldwide, thus highlighting the possibility of international contagion and giving further ground for liquidity support by central banks.\n\ns_03366: The first stage consists of a probit model determining the probability that a country pair engages in trade, whereas the second stage is a gravity regression augmented by a term correcting for selectivity that is computed from the first stage, the inverse Mills ratio.4 See, for instance, Santos- Tenreyro (2006, 2008),Helpman, Melitz, and Rubinstein (2008),Baier and Bergstran (2009), andMartin and Pham (2008).\n\ns_03416: Do CEEC have any common features as shown in values of RCA indices for individual parts?\n\ns_03466: 1 There is a vast theoretical and empirical literature on market structure and its various elements such as the 4-\u2026rm concentration ratios.\n\ns_03516: More recently, it was popularized by Kindleberger (1989) and Shiller (2006) .\n\ns_03566: Incidentally, since lagged productivity measures are not available for entrants, this table also demonstrates that the attenuation effect is not solely driven by differential survival dynamics for entrants.\n\ns_03616: We use weekly market data and annual accounting information in creating our credit risk measure.\n\ns_03666: But there are two critical differences: China is trade dependent in a way that the US or even Germany never was, and moreover, given China's low levels of income, China's stake in openness might be greater because its rise to prosperity, on which is predicated the legitimacy of its government, will depend upon an open system.\n\ns_03716: Third, there is strong empirical evidence that infrastructure investment in developing countries has a large and positive effect on growth and tends to be higher for countries with a lower level of income.\n\ns_03766: We therefore used secondary evidence to identify the main illnesses suffered by litigants in these cases, and calculated the socio-economic profile of the overall population affected by this illness to estimate the characteristics of potential indirect beneficiaries in order to determine whether litigation was in fact drawing the state's attention to\n\ns_03816: To this end, Ras Gas has constructed a 5.2 MMTA (million metric tons per annum) 5 The following project description draws on its bond offering prospectus (Goldman Sachs, 1996) , Standard and Poor's (1996a , 1999 and Randolph and Schrantz (1997) .\n\ns_03866: Figure 4 presents a histogram of changes in the participants' allocations to sooner (t=61) upon revisiting, excluding those who made no change (who represent 35% of observations), and illustrates the frequency of relatively large revisions.\n\ns_03916: or 1.1 % of GDP in 2010 (Table 6 .2).\n\ns_03966: The averages between 1994 and 2009 are reported in the first columns, while the averages belonging to 1994 to 2001 and 2002 to 2009 are presented in the following columns.\n\ns_04016: Fortson (2009) and Juhn et al.\n\ns_04066: But the fact that in so many pair wise comparisons one country does better on one criterion and worse on the other makes it highly desirable to have a means of capturing these two dimensions in one overall summary index.\n\ns_04116: pattern, exemplified by the high operating efficiency of the Central Provident Fund of Singapore and the Employees' Provident Fund of Malaysia, serve to confirm this rule.\n\ns_04166: This table reports the panel regressions of firm attributes on a three-year window around (non-IPO) capital raising issues that took place between 2003 and 2011.\n\ns_04216: This is consistent with the assumption in our model of an \"initial\" level of debt that must be serviced out of current resources.\n\ns_04266: 19 And this raises the question, is there a design that can recover this lost efficiency?"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7fsi5xLpAntvGZyEgtgIvSFhYC0",
+    "object": "chat.completion",
+    "created": 1682885464,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1306,
+      "completion_tokens": 73,
+      "total_tokens": 1379
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04116\", \"data_mentioned\": true, \"reason\": \"Central Provident Fund of Singapore and the Employees' Provident Fund of Malaysia\"}] \n\nThe sentence mentions two datasets, the Central Provident Fund of Singapore and the Employees' Provident Fund of Malaysia, which are clearly and unambiguously named."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04116\", \"data_mentioned\": true, \"reason\": \"Central Provident Fund of Singapore and the Employees' Provident Fund of Malaysia\"}] \n\nThe sentence mentions two datasets, the Central Provident Fund of Singapore and the Employees' Provident Fund of Malaysia, which are clearly and unambiguously named.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

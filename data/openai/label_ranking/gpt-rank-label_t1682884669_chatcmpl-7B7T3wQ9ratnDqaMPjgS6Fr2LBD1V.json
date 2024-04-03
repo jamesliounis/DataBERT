@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03846: We attempted to revisit 722 individuals with complete baseline data.\n\ns_03896: Cropper et al (2012) analyses direct emissions from coal burning power plants and applied annual average intake PM2.5 fractions.\n\ns_03946: As presented in Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , both of these countries were classified in the low-effort and low-tax-collection group.\n\ns_03996: (2010) review existing subjective expectations data from developing countries.\n\ns_04046: The variable whose concentration index has the highest average correlation with the other concentration indices is under-five mortality-the average Pearson and Spearman correlations are both 0.60, and all correlations between the concentration index for under-five mortality and the concentration indices for the other indicators are significant at the 5 percent level.\n\ns_04096: This approach was formally introduced in Switzerland in 2000, although it was practiced informally over a longer period.\n\ns_04146: (2012) using the Prowess CMIE database.\n\ns_04196: To many observers, one of the surprises that surfaced in the immediate aftermath of the crisis was that the outstanding stock of private external debt, particularly in Korea and Thailand, was much larger than previously assumed (see Aizenman and Marion (1999) ).\n\ns_04246: This is an area where market failures and inefficiencies are common in the best of times(Basu, 1991; Stiglitz, 2002a).2 See in particular Stiglitz (forthcoming).\n\ns_04296: However, as the right panel of Table 6 .\n\ns_04346: Note that the statistics inTable 4represent average expenditure per pupil conditional on enrollment.\n\ns_04396: As mentioned by Berger et al.\n\ns_04446: Column 2 shows this effect continues to hold in terms of both magnitude and statistical significance once we add control variables.\n\ns_04496: Looking first at the effects of worker skill composition, the regression results presented in Table 6 indicate that firms employing a higher proportion of blue-collar and low-skilled white-collar workers rank labour regulation highly.\n\ns_04546: (2009) and we will take these up in turn in this section and in the next.\n\ns_04596: Motivated by the \u2026ndings from Sections 3.2 and 3.3, we now follow speci\u2026cation (4) and look into the possible interaction between recession/expansion and government spending increasing or decreasing.\n\ns_04646: Pathak and Singh (2011) use bivariate analysis, poor-rich ratio and concentration indices to evaluate the trends for malnutrition.\n\ns_04696: In the spirit of Bernard et al.\n\ns_04746: where, in line with earlier notation, denotes the value of assets including land brought into the marriage, is a dummy of whether the individuals' fathers died before 1994 so s/he would not have benefited from the reform even in the reform state, is an indicator variable for the 'young' cohort (generation II individuals below age 48/38 in 2011 who were less than 30/20 years in 1994 so that their marriage decisions were affected by the reform), 14 is a vector of state specific year of birth fixed effects to control for time-varying shocks or aggregate effects by state and other variables are defined as in equation 1.\n\ns_04796: Table 1 reports the estimated parameters as well as the standard errors 25 .\n\ns_04846: Sections 2, 3, 4, and 5 present the conceptual model, data and methods, results, and conclusions, respectively.\n\ns_04896: As the result, infrastructure variables are likely endogenous in the equation.\n\ns_04946: We therefore expand our set of projections by using projected infrastructure growth rates for the region/income group to which an individual country belongs, and applying them to the 2000 actual infrastructure stock.\n\ns_04996: This paper addresses these questions in two steps.\n\ns_05046: Table   5 provides results using a similar difference-in-difference estimator with propensity score matching."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7T3wQ9ratnDqaMPjgS6Fr2LBD1V",
+    "object": "chat.completion",
+    "created": 1682884669,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1123,
+      "completion_tokens": 80,
+      "total_tokens": 1203
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04146\", \"data_mentioned\": true, \"reason\": \"Prowess CMIE database\"}, {\"sent_id\": \"s_04646\", \"data_mentioned\": true, \"reason\": \"malnutrition\"}, {\"sent_id\": \"s_04946\", \"data_mentioned\": true, \"reason\": \"infrastructure growth rates\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04146\", \"data_mentioned\": true, \"reason\": \"Prowess CMIE database\"}, {\"sent_id\": \"s_04646\", \"data_mentioned\": true, \"reason\": \"malnutrition\"}, {\"sent_id\": \"s_04946\", \"data_mentioned\": true, \"reason\": \"infrastructure growth rates\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

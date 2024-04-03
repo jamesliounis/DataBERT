@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05058: The last column gives the t-statistic on the difference between treated and non-treated firms in the change in the share of exporting firms from 2006-2010.\n\ns_05108: 20 The are population shares or sampling weights (de Barros, Ferreira, Vega, & Chanduvi, 2009) .\n\ns_05158: In the next section, I examine the quantitative impact of one such factormore efficient allocation of existing resources across sectors.\n\ns_05208: The results from these existing studies may not apply to children or to the developing country context because the elasticity of health care demand has been found to be larger in the developing country setting and larger for children as compared to adults (Zhou et al.\n\ns_05258: In a recent institutional snapshot of the sector, Bertomeu et al.\n\ns_05308: Using this distribution, the budget for compensatory programs (22 percent of primary education Federal transfers) is accordingly divided among the states.\n\ns_05358: That is, we use different coefficients, R \u03b3 , for the sensitivity to changes in U.S.\n\ns_05408: Comparing the reduced consumption approach with the full consumption as reference, the reduced consumption approach suffers from an under-estimation of the consumption (Figure 2 and Table 3 in the appendix).\n\ns_05458: In this paper, we evaluate the patterns, determinants and effects of FDI in BRI countries and the potential impacts of BRI on member countries' FDI and economic growth through reductions of transportation costs.\n\ns_05508: The case assumptions in the questionnaires reflect 3 times the GNI per capita Atlas Method (in current USD) as made available by the World Bank Database for the year 2015.\n\ns_05558: Figure A2 2 illustrates the cases of Bolivia, Ghana, Sri Lanka and Vietnam, as the data for these countries cover a period (roughly 25 years) long enough to capture trends.\n\ns_05608: Time period: (1986-2005) to (2036-2055) Second, the spatial variation is extremely important for planning climate resilient infrastructure as exposure of infrastructures to natural hazards is highly location-sensitive.\n\ns_05658: Los datos utilizados para responder las preguntas de investigaci\u00f3n planteadas son la Encuesta de Evaluaci\u00f3n de los Hogares (ENCEL) 2017 como base para los an\u00e1lisis, la cual contiene informaci\u00f3n de j\u00f3venes, de sus proveedores 9 y caracter\u00edsticas de sus hogares de origen y de sus hogares nuevos.\n\ns_05708: This paper presents an alternative approach to expenditure management and argues that FMIS systems should be deployed in a cost-effective manner with consideration to fiscal risk and flexibility in budget execution at point of service delivery.\n\ns_05758: Third, we use information from the National Socio-Economic Survey (Susenas) to generate technology adoption variables at the province level.\n\ns_05808: Columns (2) through (6) then examine different potential determinants of demand.\n\ns_05858: The ESA has provided open-source access to the Sentinel-5P database since July 2018, and the entire database is now available on Google Earth Engine (GEE) for rapid extraction of daily imagery for specific locations.\n\ns_05908: In a similar fashion to the cases of the external comparators and the non-resource rich group, linkage rates of non-oil resource rich countries to the exports of China and India also developed in the past 20 years, during which downstream linkages to the exports of Western Europe and the United States increased significantly although upstream linkages to those two hubs did not increase or declined.\n\ns_05958: The results are generally in line with theory, with some heterogeneity across sectors and whether products are from the EMU or non-EMU EU country.\n\ns_06008: It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world.\n\ns_06058: Gechert et al., 2020; Pennings, 2020), we estimate autoregressive social transfers growth regressions with a time trend for each country.\n\ns_06108: Bauer and Sinning (2011) and Dustmann (1997) provide empirical evidence for these arguments using migrant savings and labor force participation data from Germany, respectively.\n\ns_06158: In this section, we discuss issues pertaining to the validity of our empirical model presented in section 4.1.\n\ns_06208: Their paper reports on results from surveys conducted in 13 countries, spanning the Americas, Africa, South Asia, and Europe.\n\ns_06258: We use PPP estimates from the 2005, 2011 (original and revised), and 2017 rounds."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7aRmZHSwjqsjPZXfzOblpDwfaUe",
+    "object": "chat.completion",
+    "created": 1682885127,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1250,
+      "completion_tokens": 248,
+      "total_tokens": 1498
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06208\", \"data_mentioned\": true, \"reason\": \"surveys conducted in 13 countries\"}, {\"sent_id\": \"s_05308\", \"data_mentioned\": true, \"reason\": \"budget for compensatory programs\"}, {\"sent_id\": \"s_05908\", \"data_mentioned\": true, \"reason\": \"larger effort by the World Bank to provide open access to its research\"}, {\"sent_id\": \"s_05858\", \"data_mentioned\": true, \"reason\": \"open-source access to the Sentinel-5P database\"}, {\"sent_id\": \"s_05108\", \"data_mentioned\": true, \"reason\": \"sampling weights (de Barros, Ferreira, Vega, & Chanduvi, 2009)\"}, {\"sent_id\": \"s_05758\", \"data_mentioned\": true, \"reason\": \"National Socio-Economic Survey (Susenas)\"}, {\"sent_id\": \"s_05508\", \"data_mentioned\": true, \"reason\": \"GNI per capita Atlas Method (in current USD) as made available by the World Bank Database for the year 2015.\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06208\", \"data_mentioned\": true, \"reason\": \"surveys conducted in 13 countries\"}, {\"sent_id\": \"s_05308\", \"data_mentioned\": true, \"reason\": \"budget for compensatory programs\"}, {\"sent_id\": \"s_05908\", \"data_mentioned\": true, \"reason\": \"larger effort by the World Bank to provide open access to its research\"}, {\"sent_id\": \"s_05858\", \"data_mentioned\": true, \"reason\": \"open-source access to the Sentinel-5P database\"}, {\"sent_id\": \"s_05108\", \"data_mentioned\": true, \"reason\": \"sampling weights (de Barros, Ferreira, Vega, & Chanduvi, 2009)\"}, {\"sent_id\": \"s_05758\", \"data_mentioned\": true, \"reason\": \"National Socio-Economic Survey (Susenas)\"}, {\"sent_id\": \"s_05508\", \"data_mentioned\": true, \"reason\": \"GNI per capita Atlas Method (in current USD) as made available by the World Bank Database for the year 2015.\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

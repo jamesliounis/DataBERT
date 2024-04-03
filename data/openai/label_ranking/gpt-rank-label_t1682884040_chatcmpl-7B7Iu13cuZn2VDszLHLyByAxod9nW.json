@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04483: As discussed in detail in Du Caju et al.\n\ns_04533: On the basis of this method, de Barros et al.\n\ns_04583: In a related, but di\u00a4erent, approach, Auerbach and Gorodnichenko (AG) (2010) solve the issue of threshold selection by extending early work by Granger and Teravistra (1993) on Smooth Transition Autoregressive models (STAR) in order to accommodate simultaneous equation analysis in a Smooth Transition Vector Autoregressive model (STVAR).\n\ns_04633: To measure the contributions of different circumstance variables to inequality of opportunity, we employ the decomposition procedure proposed by Shorrocks 2012 To illustrate, note that the value of D is dependent on the set of circumstances considered.\n\ns_04683: A second contribution lies in the FDI data that we employ to implement our empirical approach.\n\ns_04733: Studies often use states' adoption of such provision at different points in time to achieve identification (Allen 1992; Friedberg 1998; Peters 1986; Wolfers 2006) .\n\ns_04783: The data come from the Bank of Thailand as reported in Alba, Hernandez and Klingbiel (1999) .\n\ns_04833: We then describe the individual level data set, and finish the section off with a description of our empirical approach.\n\ns_04883: Using the recent firm registry database in Tanzania, particular attention was paid to the effects of infrastructure conditions, such as transport connectivity.\n\ns_04933: Also, there are sector studies that typically tackle one type of infrastructure such as one on energy by Moore and Smith (1990.)\n\ns_04983: The regression framework is based on the approach in the cross-country literature discussed in the Introduction, notably Freund and Pierola (2012) and Eichengreen and Gupta (2013) .\n\ns_05033: *** p<0.01, ** p<0.05, * p<0.1 Note: Multinomial logit and OLS coefficients reported.\n\ns_05083: The 2006 MICS compiled data on children using modules from the MICS3 questionnaire as well as data on young people from the questionnaire used for the PAPFAM.\n\ns_05133: In order to quantitatively analyze the growth prospects of Bangladesh, I use a version of the World Bank's LTGM which is an extension of the Solow (1956) -Swan (1956) growth models and is based on Hevia and Loayza (2012).\n\ns_05183: *** p<0.01, ** p<0.05, * p<0.1 Notes: The sample in Panel A is all children age 11 and under at baseline; the sample in Panel B is all children age 12 and over at baseline.\n\ns_05233: See for instanceKomives et al.\n\ns_05283: The implication is that since by design Formula II gives more to states whose enrollment elasticity is higher, equity and efficiency objectives coincide, as earlier hypothesized.\n\ns_05333: Our results can be summarized as follows.\n\ns_05383: The relative standard errors show similar results as for the estimation of the consumption ( Figure   5 and Table 4 in the appendix).\n\ns_05433: At the macro level, numerous studies, including, for example, the work by Borensztein et al.\n\ns_05483: For each area of study and in each country, data would be collected through interviews with several experts who would answer questions about processes and regulations applying to a specific prototypical case (contributor data).\n\ns_05533: Appendix 1 shows the country and time coverage of the sample used in this paper, which excludes the pre-1990 samples.\n\ns_05583: For each grid-cell within each AOGCM, we extract the annual maxima river water depth of the period 1970-1999 to quantify the Gumbel distribution parameters, which represent extreme value statistics for the late 20 th century.\n\ns_05633: , 2001;Salazar-Flores et al.\n\ns_05683: This paper argues for a paradigm shift: to control for high-value transactions, while allowing for more flexibility for low-value transactions, without compromising accountability."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Iu13cuZn2VDszLHLyByAxod9nW",
+    "object": "chat.completion",
+    "created": 1682884040,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1156,
+      "completion_tokens": 158,
+      "total_tokens": 1314
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04683\", \"data_mentioned\": true, \"reason\": \"FDI data\"}, {\"sent_id\": \"s_04783\", \"data_mentioned\": true, \"reason\": \"Bank of Thailand\"}, {\"sent_id\": \"s_04833\", \"data_mentioned\": true, \"reason\": \"individual level data set\"}, {\"sent_id\": \"s_04883\", \"data_mentioned\": true, \"reason\": \"firm registry database in Tanzania\"}, {\"sent_id\": \"s_05083\", \"data_mentioned\": true, \"reason\": \"2006 MICS\"}, {\"sent_id\": \"s_05133\", \"data_mentioned\": true, \"reason\": \"World Bank's LTGM\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04683\", \"data_mentioned\": true, \"reason\": \"FDI data\"}, {\"sent_id\": \"s_04783\", \"data_mentioned\": true, \"reason\": \"Bank of Thailand\"}, {\"sent_id\": \"s_04833\", \"data_mentioned\": true, \"reason\": \"individual level data set\"}, {\"sent_id\": \"s_04883\", \"data_mentioned\": true, \"reason\": \"firm registry database in Tanzania\"}, {\"sent_id\": \"s_05083\", \"data_mentioned\": true, \"reason\": \"2006 MICS\"}, {\"sent_id\": \"s_05133\", \"data_mentioned\": true, \"reason\": \"World Bank's LTGM\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

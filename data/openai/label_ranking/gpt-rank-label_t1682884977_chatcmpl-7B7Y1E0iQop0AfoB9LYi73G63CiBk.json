@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06154: In Table A .17 in the Online Appendix, we also check the robustness of our results to excluding individuals who had more than two migration episodes and our results are also robust to this check.\n\ns_06204: Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) people who had previously been vaccinated were still not more likely to want to get vaccinated (see column 5 in Tables A4 and A5 in Appendix A).\n\ns_06254: Panel (A) uses 2017 PPPs officially published by the ICP, except for 14 countries where alternative PPPs are used (seeTable B.3), while panel (B) uses only 2017 PPPs officially published by the ICP.\n\ns_06304: Specifically, we employ three different models.\n\ns_06354: I examine whether these patterns hold in this novel data set by estimating IGM for males and females separately and documenting how the gap between these populations has evolved across birth cohorts.\n\ns_06404: For example, the estimates for the aggregate sample in row 1 of Table 7 suggest that the magnitude of underestimation in the standard IGRC estimate is 26 percent in China, 41 percent in India and 10.4 in Indonesia.\n\ns_06454: The parameters of interest are the DID estimates, which compare the pre-post differences in consumption during the period March-December 2020 with the average pre-post differences in consumption over the same period in the pre-pandemic years.\n\ns_06504: 13 For brevity, Table 2 below only reports those related to trust and some selected individual controls.\n\ns_06554: Interestingly, one of the most popular virtual tools used during the pandemic in both high-and low-income countries was \"Training on e-commerce\" (as popular as \"B2B matching events\").\n\ns_06604: Relaxation of quantitative restrictions therefore leads to much higher imports, compared to a low (10%) import premium case presented in Table 3 .3.\n\ns_06654: Hence, taken together, Northern European experience can potentially provide a rich source of guidance for those countries contemplating a move to the integrated model.\n\ns_06704: The first column in Table 3 shows the estimated coefficients when the equation excludes real M2.\n\ns_06754: One important mode tested was the efficacy of providing loans for group projects compared to offering loans to individuals with peer monitoring.\n\ns_06804: The purpose of this paper is to assess the importance of lobbying by foreign exporters in determining the extent of tariff preferences granted by an importing country.\n\ns_06854: In many cases, agro-ecological zones are also highly correlated with other assets at the household, community and regional levels (see table 2 ).\n\ns_06904: Table 1 also gives a regional breakdown of the estimated impacts of differential mortality on the 2001 headcount index.\n\ns_06954: Tables 5a and 5b report coefficients based on four different specifications for English and Mathematics.\n\ns_07004: In this paper, we examined why some people manage to use the informal housing market as an intermediate step towards improved housing, while others remain stuck for generations.\n\ns_07054: Summing up, it is quite clear that the devaluation has been far more successful in reducing imports than any of the contingent protection measures implemented in earlier years.\n\ns_07104: for a composite output, where K is a vector representing industrial and agricultural capital, including land); L is the number of workers; Educ is a vector measure of the quantity and quality of worker education; A is a vector of productivity shifters, which include transport connectivity to markets, local governance quality, and agroclimate.\n\ns_07154: These summary statistics suggest that a funds decision to hold ADRs versus underlying shares is influenced by country and firm level characteristics.\n\ns_07204: Specifically, we regressed the probability of being conditioned on the extended set of controls and canton fixed effects, and predicted the probability that a household was conditioned.\n\ns_07254: The ability of the GATS to promote liberalization on a reciprocal basis has been questioned in the literature (see, for example, Hoekman and Messerlin 2000) .\n\ns_07304: *, **, and *** represents significance levels of 10, 5, and I percent.\n\ns_07354: Available at (www.ustr.gov)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Y1E0iQop0AfoB9LYi73G63CiBk",
+    "object": "chat.completion",
+    "created": 1682884977,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1177,
+      "completion_tokens": 80,
+      "total_tokens": 1257
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06854\", \"data_mentioned\": true, \"reason\": \"agro-ecological zones\"}, {\"sent_id\": \"s_06904\", \"data_mentioned\": true, \"reason\": \"differential mortality\"}, {\"sent_id\": \"s_06954\", \"data_mentioned\": true, \"reason\": \"English and Mathematics\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06854\", \"data_mentioned\": true, \"reason\": \"agro-ecological zones\"}, {\"sent_id\": \"s_06904\", \"data_mentioned\": true, \"reason\": \"differential mortality\"}, {\"sent_id\": \"s_06954\", \"data_mentioned\": true, \"reason\": \"English and Mathematics\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

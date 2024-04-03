@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03576: See for instanceKarolyi, Lee and Van Dijk (2009) andBekaert and Wang (2009).\n\ns_03626: Source: Mattoo, Ng and Subramanian 2011A corollary of our analysis is that unless Chinese currency policy changes significantly, and unless there can be credible checks on the use of such policies in the future, the perception we outlined above will remain.\n\ns_03676: 17 SeeRoller and Waverman (2001) for a discussion on telecommunications in 21 OECD countries andFernald (1999) for a discussion on roads in the U.S.18 See, for exampleBarro (2009Barro ( , 2010.\n\ns_03726: Using the results of the Gauri and Brinks investigation, we can identify broad national trends in this regard, with some sub-national variation.\n\ns_03776: The last regression reported in Table 2 The results in Table 4 and diagnostic testing reveal that first differences in the independent variables including Kepco spreads lead to inferior statistical performance so that we keep them in levels except for the rating variable KRR.\n\ns_03826: In Appendix Table 4 we present results of an exercise intended to bound the size of this possible bias, running regressions analogous to that of column 6, Table 6 but where observations that were previously not included due to attrition are now included, and where we make several different assumptions as to the value of the dependent variable for the newly-included observations.\n\ns_03876: (2005) (2006) , Gundimeda (2005) , Gundimeda (2001) .\n\ns_03926: In this section, the estimation results are produced using the regression specifications of Le, Moreno-Dodson, and Rojchaichaninthorn (2008) .\n\ns_03976: This paper is a product of the Human Development and Public Services Team, Development Research Group.\n\ns_04026: Source: Pande and Yazbeck (2001) .\n\ns_04076: Copies of the paper are available free from the World Bank, 1818 H Street NW, Washington, DC 20433.\n\ns_04126: ( , 2008b,Mitton (2008),Musso and Schiavo (2008), andArellano et al.\n\ns_04176: The analysis can easily be extended to consider the case where C is proportional to repayment; seeAgenor, Aizenman, and Hoffmaister (1998).\n\ns_04226: as a result of family ties.14 A lacuna in that paper, however, is that it is simply assumed that the members of the group can ensure that others behave appropriately, i.e.\n\ns_04276: This paper addresses these shortcomings.\n\ns_04326: We draw on two types of data: household survey data, which underlies the core of our analysis, and school-level administrative data.\n\ns_04376: This is the question addressed in this paper.\n\ns_04426: The most closely related work to our paper is Ambler et al (2014) .\n\ns_04476: The remainder of the paper is organised as follows.\n\ns_04526: The burgeoning literature has provided a plethora of measures and applications to data sets, from early attempts by Roemer and his associates (for example Roemer et.\n\ns_04576: In Auerbach and Gorodnichenko (2012) , they resort to an alternative methodology -advocated by Jorda (2005) and Stock and Watson (2007) -that relies on running a separate regression for each horizon and then constructing the impulse response function.\n\ns_04626: Section 3 presents the data and empirical methodology.\n\ns_04676: The original source of the data is The Global Reference Solution, from Dun & Bradstreet.\n\ns_04726: 2 and 4) in table 6 point towards significant and quantitatively large effects on primary completion.\n\ns_04776: The density is approximated by the techniques explained in Footnote 36 3The 1979 average household yearly income is estimated from the SES data."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B77tQgqltUN2UM0qQgUcgXgslLIp",
+    "object": "chat.completion",
+    "created": 1682883357,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1129,
+      "completion_tokens": 65,
+      "total_tokens": 1194
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04326\", \"data_mentioned\": true, \"reason\": \"household survey data\"}, {\"sent_id\": \"s_04376\", \"data_mentioned\": true, \"reason\": \"school-level administrative data\"}] \n\nBoth sentences mention specific datasets used in the paper."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04326\", \"data_mentioned\": true, \"reason\": \"household survey data\"}, {\"sent_id\": \"s_04376\", \"data_mentioned\": true, \"reason\": \"school-level administrative data\"}] \n\nBoth sentences mention specific datasets used in the paper.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

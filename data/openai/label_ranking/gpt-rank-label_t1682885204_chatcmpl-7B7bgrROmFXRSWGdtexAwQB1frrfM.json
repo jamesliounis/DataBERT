@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05160: In their analysis of US retail sector, Foster, Haltiwanger and Krizan (2006) show that the growth of aggregate industrial productivity is derived in most part by the replacement of inefficient firms by the highly productive national chains.\n\ns_05210: The dependent variable is the expenditures at various providers over the past year.\n\ns_05260: (2007) use experimental household data from a previous study and suggest that the difference between the price-elasticities under increasing block tariffs (IBT) and uniform rates could be explained by behavioral responses to price structures or citylevel heterogeneity.\n\ns_05310: Second, the approach suffers from the same criticisms mentioned above about the use of input-based incentives and allocation formula.\n\ns_05360: This correlation may arise if the explanatory variables are endogenously determined.\n\ns_05410: The model for food consumption retrieves an R2 of 0.24 while non-food consumption is modeled with an R2 of 0.16 (see Table 3 ).\n\ns_05460: Brainard (1997) , one of the first empirical studies examining the proximity-concentration trade-off, finds that the patterns in which country characteristics relate to U.S. FDI are broadly in alignment with the market access motive.\n\ns_05510: Adding a larger set of countries for data collection may result in greater variability and more robust conclusions.\n\ns_05560: One of the main findings of this literature is that jobs are becoming less intensive in routine tasks across the world.\n\ns_05610: We then validate this dataset with Google Satellite Images to verify their exact locations.\n\ns_05660: El an\u00e1lisis que se realiza aprovecha las fuentes de variaci\u00f3n en la exposici\u00f3n al programa.\n\ns_05710: Vendors must be registered (levels 1 & 3) and must implement software to transmit public market references (level 3 only).\n\ns_05760: For 2005-2010, the relationships between the technology measure and the demand for different types of skills are similar to the results using the STEP Survey (Table 30 ).\n\ns_05810: As Table 7 shows, training attendance was much higher in the TIOLI sample than in the BDM sample, consistent with the fact that entrepreneurs in the TIOLI sample have higher WTP for the course.\n\ns_05860: Our data are drawn from 2,241 hourly Google Traffic images for two periods in 2019: Jan. 1 -Feb. 8 and June 15 -Sept. 28.\n\ns_05910: In Figure 11 , the focus is on linkage rates of non-resource rich countries, for which rates are 2 to 3 times smaller than those shown in Figure 10 for the external comparator group.\n\ns_05960: Among the few developing country studies is Mallick and Marques (2008) for India, who find that on average exchange rate pass-through is a dominant effect compared to tariff rate pass-through in explaining changes in India's import prices.\n\ns_06010: A Census divides a country into Enumerator Areas (EAs) which roughly have a household density of 200.\n\ns_06060: As described by Jorda (2005), linear projections can be estimated by simple regression techniques (IV in our case) and they are more robust to misspeci\u2026cation errors.\n\ns_06110: where X is the demographic characteristic(s) explored in the panel.\n\ns_06160: In Table A.5 in the Online Appendix, we compute the occupational indices followingSicherman and Galor (1990) andCarletto and Kilic (2011).\n\ns_06210: Positive treatment effects have been found in some studies (for example, Palm et al., 2021) , other experiments have failed to find clear evidence of the efficacy of information treatments (Brewer et al., 2017; Dub\u00e9 et al., 2015) , while some studies have found adverse effects, at least in certain groups (Nyhan and Reifler, 2015; Nyhan et al., 2014) .\n\ns_06260: Notes: This table compares societal poverty in 2017 estimated with the revised 2011 and 2017 PPPs at the country level.\n\ns_06310: (2015) showed that the number of unvaccinated children rose significantly in all three countries affected by Ebola (Guinea, Sierra Leone, and Liberia), contrary to neighboring countries Senegal, Mali, and C\u00f4te d'Ivoire.\n\ns_06360: The 24 countries under study are: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Guatemala, Haiti, Honduras, Jamaica, Trinidad and Tobago, Mexico, Nicaragua, Panama, Paraguay, Peru, Uruguay, Saint Lucia, Suriname, and the Rep\u00fablica Bolivariana de Venezuela (see Table A1 in the Appendix for the details about the fraction of the data available by census), and they represent 91 samples of these 24 countries drawn at various points from 1960 to 2012."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7bgrROmFXRSWGdtexAwQB1frrfM",
+    "object": "chat.completion",
+    "created": 1682885204,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1317,
+      "completion_tokens": 89,
+      "total_tokens": 1406
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06210\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06260\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06310\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06360\", \"data_mentioned\": false, \"reason\": null}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06210\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06260\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06310\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_06360\", \"data_mentioned\": false, \"reason\": null}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

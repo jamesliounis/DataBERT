@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03369: Francois and Manchin (2007) Unlike principal component analysis, factor analysis proposes an explicit underlying model that attempts to \"explain\" correlations among a set of m observed variables (X 1, X 2, \u2026, X m ) through the linear combination of a few latent (unobserved) random factors (Fs).\n\ns_03419: At a more desaggregated level, note that both Slovakia and Slovenia have \"import\" comparative advantage in the same categories of components and parts (marked in bold italic in Table 15 ).\n\ns_03469: This ranking of sunkenness is available from the authors upon request.\n\ns_03519: This analysis also leads to useful insights as regards the order and relative ease with which frictions are overcome.\n\ns_03569: Comparing across columns enables one to examine how average productivity differences between surviving firms and exiting firms evolved over time.\n\ns_03619: In this section, we examine time series variation of co-dependence in the banking sector.\n\ns_03669: In this respect, China seems to be conforming to a broader trend whereby countries, as they become richer, switch from taxing to subsidizing agriculture.\n\ns_03719: They find in general an elasticity of output with respect to public capital in the order of 0.1 to 0.2.\n\ns_03769: In order to examine the consequences of this impact, we identify the areas in which the results of judicial decisions generalized to broader populations, and we determine as best we can the socio-economic composition and size of the beneficiary class.\n\ns_03819: 24 To gauge these effects, we construct a rating index (KRR) that reflects not only the changes in S&P credit ratings but also their magnitude.\n\ns_03869: , where \uf062 is the coefficient on days to first disbursement less than or equal to six in the table (124.57),\uf020\uf061 is the revisit success rate for type 1 individuals (0.861), \uf067 is the reduction in the revisit success rate due to revisiting 6 or fewer days to first disbursement (0.108), and \uf06d 1 is the mean revision for type 1 individuals (mean revision for those with days to first disbursement <=6, 150.0).\n\ns_03919: New techniques and methodologies have been developed in recent decades to better understand and quantify preferences and values of individuals and communities in the context of environmental quality, conservation of natural resources, and environmental health risks.\n\ns_03969: Panel A: Size of shadow economy (in % of GDP) used instead of agriculture value added Panel B: Share total consumption in GDP is added Note: The estimation technique is panel OLS with regional and time dummies.\n\ns_04019: The contribution of woman i to the sample likelihood is given by\n\ns_04069: The World Bank study discussed above includes, in fact, distributions of utilization of key MCH services as well as key MCH outcomes.\n\ns_04119: This paper argues for imposing compulsory participation on workers in dependent employment but exempting the very young (under 25), the very old (over the normal retirement age), the very poor (those eaming less than 40 percent of the average wage) and the selfemployed.\n\ns_04169: First, the findings are robust to the exclusion of SOEs, as shown in Appendix Table 2 .\n\ns_04219: To the extent that asymmetric information problems tend to be exacerbated by crises (as noted earlier), and that as a result financial intermediaries in post-crisis countries may experience an increase in the cost of verifying and enforcing loan contracts, our model suggests an alternative response to a debt overhang-namely, financial sector reform.\n\ns_04269: There is a pre-commitment problem.\n\ns_04319: The GDP loss which could have been avoided in 2008 if only the hypothesiszd renewable energy share had been in place, is stated in the last column (Av.\n\ns_04369: The reported effects are equivalent to average marginal effectswhere the average is taken across all observations in the sample -in a standard multinomial logit estimation.\n\ns_04419: The signature of an EIA involving the harmonization of its standards with the North has a negative and significant impact on its trade with other Southern countries, and the magnitude of the impact is similar to the one appearing in the previous column when it is not interacted with the harmonization dummy (if both are introduced simultaneously, the effect of standards harmonization absorbs that of a NS EIA for the exporter).\n\ns_04469: The third and fourth columns show the association with the differential amount they choose to remit in the game when given the education labeling option.\n\ns_04519: This control variable was not included in the first set of regressions because its inclusion reduces the number of observations substantially.\n\ns_04569: The authors first estimate how the probability of a child's access depends on the child's circumstance variables: \"parents' education, family per capita income, gender, family structure (number of siblings, single-parent household) and area of residence (urban versus rural).\""
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hriwdk1eNEn2micrPW8YGARwgd",
+    "object": "chat.completion",
+    "created": 1682885587,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1322,
+      "completion_tokens": 23,
+      "total_tokens": 1345
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04069\", \"data_mentioned\": false, \"reason\": null}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04069\", \"data_mentioned\": false, \"reason\": null}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

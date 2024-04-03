@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04901: To examine the firm's locational choice in connection to site-specific characteristics, we start with the standard conditional logit framework (McFadden, 1974) .\n\ns_04951: Like many study of its kind, it is surely broadly accurate in the order of magnitude that it projects -notably concerning the inability of private investment to satisfy demand in the near future.\n\ns_05001: Section III focuses on the role of integration in GVCs and contains the main finding of the paper and a number of robustness tests.\n\ns_05051: Regarding export intensity, the relevant results appear in the last two rows of each panel.\n\ns_05101: Section 2 discusses the data we use to measure ECD and inequality over time in Morocco.\n\ns_05151: The figure below compares the labor share of income of Bangladesh to the mean/median labor shares of lower-middle income countries obtained from PWT 8.1 for the year 2011.\n\ns_05201: The results of this paper highlight that families allocate resources-including health demands-according to a specified budget and/or time constraints.\n\ns_05251: Gerlach and Franceys (2014) highlight common institutional capacity constraints and a limited understanding of alternative providers.\n\ns_05301: This implies that under this formula those lagging states would be given relatively more Federal transfers per child.\n\ns_05351: Our number of observations is high (about 11 thousand for bond spreads and 22 thousand for stock prices).\n\ns_05401: The reduced consumption and the median summary statistic as well as the multiple imputation techniques deliver good results for the FGT1 and FGT2 emphasizing that not only the headcount can be estimated reasonably well but also the distributional shape is conserved.\n\ns_05451: Looking at historical data, what have been the roles of various types of transportation cost, infrastructure, and institutional factors in determining the volume and patterns of FDI in BRI countries?\n\ns_05501: The availability of quality data in these areas relies heavily on efficient civil registration and vital statistics (CRVS) systems.\n\ns_05551: Finally, we use several variables from the World Development Indicators (WDI), including GDP per capita PPP (both growth and level), ICT users (as a share of total population), population by age, exports and imports (both as a share of GDP).\n\ns_05601: Firstly, we apply and downscale the CaMa-Flood model for 21 st century China for RCP 4.5 and RCP8.5 at return periods greater than 30, 50 and 100 respectively.\n\ns_05651: De este grupo de pares (joven y proveedor), se identific\u00f3 al hogar de origen para considerar para el an\u00e1lisis las variables del periodo 1997-2000 como condiciones basales.\n\ns_05701: This has been pioneered by the French government, as described in the box below:\n\ns_05751: Using this survey, we construct the share of households having a computer in each province and year, which we use as a technology adoption variable in our econometric analysis.\n\ns_05801: We regress attendance on a flexible set of willingness to pay dummies, and then use the residuals from this regression, adding back the sample mean to enable comparability with the raw pattern.23 As we can see in Column (1) ofTable 9, 90 percent of those offered the course for free attend at least one class, this share increases to 97 percent for those paying J$5,000 (marginally statistically significant difference) and to 99.5 percent for those paying J$10,000 or J$15,000 (statistically significant).\n\ns_05851: To summarize, we find that Sentinel-5P, MODIS and Google Traffic all provide useful information for air pollution monitoring in the Dhaka metro region.\n\ns_05901: The main working hypothesis of this paper is that natural resource endowment and economic geography are major influences on countries' linkages and role in manufacturing GVCs.\n\ns_05951: Finally, Section 6 concludes this paper.\n\ns_06001: Results are slightly different if model (1) is estimated for each region separately (table 4).\n\ns_06051: In particular, we take the average and for each sample in the Latin American and developed 2 8 Based on a simple regression of ST T against , we cannot reject the hypothesis that such a coe\u00a2 cient equals statistically zero for the whole sample of countries (as well as for developed and emerging markets separately).\n\ns_06101: These results are reported in Table 8, where individual controls from ProGres are suppressed for ease of exposition."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7W78Ojwf3j59R85gOrFl0dzlQox",
+    "object": "chat.completion",
+    "created": 1682884859,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1236,
+      "completion_tokens": 100,
+      "total_tokens": 1336
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05901\", \"data_mentioned\": true, \"reason\": \"natural resource endowment\"}, {\"sent_id\": \"s_05851\", \"data_mentioned\": true, \"reason\": \"air pollution monitoring\"}, {\"sent_id\": \"s_05751\", \"data_mentioned\": true, \"reason\": \"technology adoption\"}, {\"sent_id\": \"s_05101\", \"data_mentioned\": true, \"reason\": \"data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05901\", \"data_mentioned\": true, \"reason\": \"natural resource endowment\"}, {\"sent_id\": \"s_05851\", \"data_mentioned\": true, \"reason\": \"air pollution monitoring\"}, {\"sent_id\": \"s_05751\", \"data_mentioned\": true, \"reason\": \"technology adoption\"}, {\"sent_id\": \"s_05101\", \"data_mentioned\": true, \"reason\": \"data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,1894 @@
+{
+  "paper_id": "D5782586",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:05:11.007869Z"
+  },
+  "title": "On the Contribution of Demographic Change to Aggregate Poverty Measures for the Developing World",
+  "authors": [
+    {
+      "first": "Martin",
+      "middle": [],
+      "last": "Ravallion",
+      "suffix": "",
+      "affiliation": {},
+      "email": "mravallion@worldbank.org"
+    },
+    {
+      "first": "Kathleen",
+      "middle": [],
+      "last": "Beegle",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Monica",
+      "middle": [],
+      "last": "Das Gupta",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Michael",
+      "middle": [],
+      "last": "Lipton",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Lant",
+      "middle": [],
+      "last": "Pritchett",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "T",
+      "middle": [
+        "Paul"
+      ],
+      "last": "Schultz",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The paper estimates that selective mortality-whereby poorer people tend to have higher death rates-accounts for 10-30% of the developing world's trend rate of \"$1 a day\" poverty reduction in the 1990s. However, in a neighborhood of plausible estimates, differential fertility-whereby poorer people tend also to have higher birth rates-has had a more than offsetting poverty-increasing effect. The net impact of differential natural population growth represents 10-50% of the trend rate of poverty reduction.",
+  "pdf_parse": {
+    "paper_id": "D5782586",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The paper estimates that selective mortality-whereby poorer people tend to have higher death rates-accounts for 10-30% of the developing world's trend rate of \"$1 a day\" poverty reduction in the 1990s. However, in a neighborhood of plausible estimates, differential fertility-whereby poorer people tend also to have higher birth rates-has had a more than offsetting poverty-increasing effect. The net impact of differential natural population growth represents 10-50% of the trend rate of poverty reduction.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "The question as to whether population growth contributes to poverty is longstanding in population and development studies. Yet one cannot find in the huge literature on that topic the most obvious calculations needed to measure the direct contribution of demographic change to the extent of poverty in the developing world. Poverty is routinely measured as the headcount index, given by the proportion of the population living in households with consumption or income below the poverty line. The headcount index falls when a poor person dies but it rises when a non-poor person dies (ceteris paribus). Similarly, the poverty rate rises when a child is borne into a poor family, while it falls when a child is born into a non-poor family. Furthermore, recent research (reviewed later) points to significant socioeconomic differentials in mortality and fertility; in particular, both birth rates and death rates tend to be higher for the poor.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "These observations beg the main question addressed by this paper: How much bearing do socioeconomic differentials in mortality and fertility have on the most widely used international measure of poverty for the developing world, namely the headcount index for $1 a day at Purchasing Power Parity, as given in Figure 1 (from Chen and Ravallion, 2004) ? The paper measures the contribution of socioeconomic differentials in demographics against an explicit counterfactual, namely the situation when births and deaths are random, i.e., independent of poverty status. The simplest approach to measuring that counterfactual is to net out the differential demographic changes over a given time period and then recalculate the poverty measure at the end point. Comparing this counterfactual poverty measure to the actual value",
+        "cite_spans": [
+          {
+            "start": 324,
+            "end": 349,
+            "text": "Chen and Ravallion, 2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 309,
+            "end": 317,
+            "text": "Figure 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "gives us an estimate of the contribution of the demographic changes during that period. By comparing those impacts to the actual changes one can assess the contribution to the evolution of measured poverty.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "That is the approach taken here. As we will see, even this conceptually straightforward approach faces some severe data limitations, which generate considerable uncertainty about the poverty impacts of demographic change. And even without these data problems, one would rightly question the assumptions underlying this approach. Most importantly, it does not allow for possible indirect effects on living standards of the high rates of mortality and fertility found among the world's poor. A higher fertility rate for the poor may also entail lower future real wages for unskilled labor and hence higher poverty independently of the direct demographic effect; indeed, there is evidence for precisely this effect for India (van de Walle, 1985; Datt and Ravallion, 1998 , both using state-level panel data). Or higher death rates for the poor may undermine future productivity of the survivors; for example, it has been argued that the orphans resulting from the sharp rise in adult deaths due to the HIV/AIDS epidemic have had lower schooling than they would have had otherwise. 1 An alternative empirical approach is to regress rates of economic growth and/or poverty reduction at country level on rates of population growth and/or their demographic covariates, with controls for other factors affecting growth. Following this approach, Kelley and Schmidt (2001) and Williamson (2001) present evidence of adverse effects of high population growth rates on rates of economic growth; Williamson argues that the key demographic variable is the growth rate of the dependent population. By this view, changes in the age composition of the population affect aggregate savings and (hence) growth. Eastwood and Lipton (1999, 2001 ) use instead changes over time in poverty measures as their dependent variable, for a cross-section of countries, and find evidence of adverse effects of higher fertility on measures of poverty; they find that these effects are transmitted thought both growth and distribution. However, while 1 See Ainsworth and Filmer (2002) who also warn against such generalizations, given the diversity in apparent impacts across countries. aggregate time series or cross-sectional regressions have the potential to reveal the more subtle indirect effects of demographic change, this approach brings its own problems. The implementation inevitably raises concerns about the possible endogeneity of demographic variables and what control variables to use. Schultz (2004) raises a number of concerns about the robustness of the existing cross-country evidence on the demographic determinants of aggregate savings. The robustness of the recent findings from cross-country growth regressions that a higher population growth rate lowers the rate of GDP growth can also be questioned in the light of the results of Sala-I-Martin et al. (2004). 2 As this paper will show, the contribution of demographic changes to aggregate poverty measures is non-parametrically identified. The calculations presented in this paper quantify the first-order poverty impacts of selective mortality and fertility without a regression model. The calculations suggest that the annual impacts of the demographic differentials on poverty account for a sizeable share of the trend rate of \"$1 a day\" poverty reduction in the developing world. At the same time, the results point to the need for better data on socio-economic differentials in mortality and fertility, and for further research on the social and economic processes linking demographic changes to the evolution of poverty measures.",
+        "cite_spans": [
+          {
+            "start": 722,
+            "end": 742,
+            "text": "(van de Walle, 1985;",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 743,
+            "end": 767,
+            "text": "Datt and Ravallion, 1998",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 1078,
+            "end": 1079,
+            "text": "1",
+            "ref_id": null
+          },
+          {
+            "start": 1337,
+            "end": 1362,
+            "text": "Kelley and Schmidt (2001)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 1367,
+            "end": 1384,
+            "text": "Williamson (2001)",
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 1690,
+            "end": 1702,
+            "text": "Eastwood and",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 1703,
+            "end": 1721,
+            "text": "Lipton (1999, 2001",
+            "ref_id": null
+          },
+          {
+            "start": 2022,
+            "end": 2049,
+            "text": "Ainsworth and Filmer (2002)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 2466,
+            "end": 2480,
+            "text": "Schultz (2004)",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 2841,
+            "end": 2850,
+            "text": "(2004). 2",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "However, the approach taken here shares a limitation of the cross-country regressions cited above, namely that it does not tell us that any specific demographic policy (such as family planning or promoting female education) will be effective against poverty. Nor do the findings of this paper even establish that policies that operate via demographic variables are any more important than other policies. Promoting economic growth and/or improved distribution from the point of view of the poor may simultaneously reduce fertility and poverty.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In a meta-study of all the cross-country growth regressions with an average of seven regressors (chosen from 67 candidates drawn from the literature on cross-country growth regressions) Sala-I-Martin et al (2004) report that the rate of population growth is only significant in one fifth of cases.",
+        "cite_spans": [
+          {
+            "start": 206,
+            "end": 212,
+            "text": "(2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "2",
+        "sec_num": null
+      },
+      {
+        "text": "The paper first defines the counterfactual poverty rate, when births and deaths are random (Section 2). Then Section 3 reviews existing evidence on differential mortality and fertility, and presents some new evidence. Section 4 then provides estimates of the contribution of these two demographic forces to existing global measures of poverty. Section 5 concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "2",
+        "sec_num": null
+      },
+      {
+        "text": "The following analysis is built on the most widely used measure of poverty, namely the headcount index given by the proportion of the population living in households with real consumption or income per person below a predetermined poverty line. There are well-known deficiencies of this measure, such as the fact that it does not reflect distribution below the line.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "In the present context, it has been argued that the measure suffers from another deficiency. With selective mortality one should be wary of interpreting a decline in poverty (or a gain in some other measure of social welfare) as indicating that the specific individuals in either the original or the final population are \"better off.\" Recent theoretical work by Kanbur and Mukerjee (2003) has explored alternative approaches to measurement that do not have the property that selective mortality, whereby death rates tend to be higher for the poor, reduces poverty. ",
+        "cite_spans": [
+          {
+            "start": 362,
+            "end": 388,
+            "text": "Kanbur and Mukerjee (2003)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "\uf8f7 \uf8f7 \uf8f8 \uf8f6 \uf8ec \uf8ec \uf8ed \uf8eb + + = + + = \u03c4 \u03c4 \u03c4 \u03c4 \u03c4 \u03c4 \u03c4 DR DR DRD H D N D N H t p p D 1 1 (1) Evidently, H H D ) (< \u2265 \u03c4 as 1 ) (< \u2265 \u03c4 DRD",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "; higher death rates for the poor tend to reduce the poverty rate. Note that \u03c4 DRD reaches a maximum when all deaths are among the poor,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "H DRD / 1 max = \u03c4 at which point (1) reaches its upper bound of ) 1 /( ) ( max \u03c4 \u03c4 \u03c4 DR DR H H D + + = .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "The same basic idea can be used to define a counterfactual poverty measure with random births, giving:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "\uf8f7 \uf8f7 \uf8f8 \uf8f6 \uf8ec \uf8ec \uf8ed \uf8eb \u2212 \u2212 = \u03c4 \u03c4 \u03c4 \u03c4 BR BR BRD H H B 1 1 (2)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "where \u03c4 BR is the overall birth rate and \u03c4 BRD is the birth-rate differential (birth rate of the poor divided by overall birth rate). Evidently,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "H H B ) (< \u2265 \u03c4 as 1 ) (> \u2264 \u03c4 BRD",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "; higher birth rates among the poor tend to increase the poverty rate. B H \u03c4 is bounded below by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": ") 1 /( ) ( \u03c4 \u03c4 BR BR H \u2212 \u2212 .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "The impacts of differential (non-random) deaths and births in the period of length \u03c4 prior to the date in question are then:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "\uf8f7 \uf8f7 \uf8f8 \uf8f6 \uf8ec \uf8ec \uf8ed \uf8eb + \u2212 = \u2212 = \u03c4 \u03c4 \u03c4 \u03c4 \u03c4 DR DR DRD H H H I D D 1 ) 1 ( (3.1) \uf8f7 \uf8f7 \uf8f8 \uf8f6 \uf8ec \uf8ec \uf8ed \uf8eb \u2212 \u2212 = \u2212 = \u03c4 \u03c4 \u03c4 \u03c4 \u03c4 BR BR BRD H H H I B B 1 ) 1 ( (3.2)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "respectively. Finally, the net impact on poverty of the natural rate of population growth is:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\uf8f7 \uf8f7 \uf8f8 \uf8f6 \uf8ec \uf8ec \uf8ed \uf8eb \u2212 \u2212 = \u03c4 \u03c4 \u03c4 \u03c4 NR NR NRD H I N 1 ) 1 (",
+            "eq_num": "(4)"
+          }
+        ],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "where",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "\u03c4 \u03c4 \u03c4 DR BR NR \u2212 =",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "is the natural rate of population increase in the period of length \u03c4 while the natural rate differential is",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "\u03c4 \u03c4 \u03c4 \u03c4 \u03c4 \u03c4 NR DR DRD BR BRD NRD / ) ( \u2212 = .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "Note that, unlike the actual headcount index, the counterfactual and (hence) the impact measures above depend on the length of time \u03c4 over which deaths and births are counted; at any given date, the impacts will naturally differ if one looks back 1 = \u03c4 year prior to the date in questions versus 10 = \u03c4 years (say).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Counterfactual poverty measures",
+        "sec_num": "2."
+      },
+      {
+        "text": "This section reviews existing evidence on relevant socioeconomic differentials in mortality and fertility. No attempt is made to explain why such differentials exist; for the present purposes, the sole task is to establish plausible bounds to the extent of such differentials, so as to estimate their likely impacts on measures of poverty. 3 The \"poor\" will be identified as the poorest quintile in the developing world (low and middle income countries), in accordance with the estimates of the $1 a day poverty rate around 2000 ( Figure 1 ). So both DRD and BRD are somewhere between 1 and 5, though (thankfully) we can narrow the range considerably.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 531,
+            "end": 539,
+            "text": "Figure 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality and fertility",
+        "sec_num": "3."
+      },
+      {
+        "text": "The Crude Death Rate (CDR) is the number of deaths per year in a given population.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "This is known to be a potentially deceptive measure of mortality, as it is influenced by the age distribution, which depends (heavily) on the fertility rate, as well as mortality. (Thus, the CDR for aging European countries is similar to that found in many developing countries, though for very different reasons.) However, the CDR is the appropriate measure of \u03c4 DR in equations 1and (3.1), so this is what the following discussion will initially focus on.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "3",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "For a broader discussion of the sources of socioeconomic differentials in mortality see Hummer et al. (1998) .",
+        "cite_spans": [
+          {
+            "start": 88,
+            "end": 108,
+            "text": "Hummer et al. (1998)",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "The CDR for low and middle income countries as a whole is estimated to be 9 deaths per year per 1,000 people in 2001 (World Bank, 2004) . 4 This has been quite stable over recent years; the CDR was also 9 per 1,000 in 1990. (These data should not be considered very reliable. Vital registration systems are weak in many developing countries though censuses and surveys have provided some useful validation data.)",
+        "cite_spans": [
+          {
+            "start": 117,
+            "end": 135,
+            "text": "(World Bank, 2004)",
+            "ref_id": null
+          },
+          {
+            "start": 138,
+            "end": 139,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "While estimates are readily available for overall death rates, that is not the case for death rates conditional on income or other socio-economic variables. An instructive exception is for the United States, where the National Longitudinal Mortality Study (NLMS) surveyed over one million adults from multiple waves of the Current Populations Surveys, thus allowing mortality data to be linked directly to socio-economic data including incomes. The data reveal death rates for the poor that are two-three times higher than for upper-income households for most agegender groups (Sorlie et al. 1995). 5 However, surveys such as the NLMS are not available in any developing country to my knowledge. The surveys used to measure poverty typically have adequate sample sizes for that purpose, but cannot provide reliable estimates of relatively low-frequency events such as adult deaths. Censuses can help as a source of mortality data (if the appropriate questions are asked), but they typically do not include the data needed for measuring poverty. Thus we generally do not get data on deaths and living standards for the same sampled households.",
+        "cite_spans": [
+          {
+            "start": 577,
+            "end": 600,
+            "text": "(Sorlie et al. 1995). 5",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "An important new source of information on socioeconomic differences in health indicators has been developed by Gwatkin et al., (2000) , based on the Demographic and Health 4",
+        "cite_spans": [
+          {
+            "start": 111,
+            "end": 133,
+            "text": "Gwatkin et al., (2000)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "In standard statistical sources, the CDR is measured as the number of deaths in the last year relative to mid-year population. The calculations in this paper ignore the difference between mid-year population and end-of-year population.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential mortality",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "Earlier estimates by Pappas et al., (1993) for 1986 suggested even larger differentials (though it is not clear why). Naturally the mortality differentials narrow considerably among the elderly (Sorlie et al., 1995) . Evidence for Western Europe can be found in Mackenbach et al. (1997) . What about adult deaths? While there is currently nothing like the NLMS available for developing countries, there are some useful clues to likely differentials in overall (child + adult) death rates. 8 The demographic surveillance system implemented in Matlab thana in Bangladesh by the International Center for Diarrhoeal Disease Research has been an important source of data 6 Details on the methodology can be found at http://devdata.worldbank.org/hnpstats/pvd.asp. The estimates for various demographic and health variables are also available at that site, and (for a broader set of variables) at http://www1.worldbank.org/prem/poverty/health/ . on socioeconomic inequalities in health within a developing country. Though incomes are not available, Hurt et al., (2004) report death rates among those with no education that are about double those found for people with five or more years of formal education. 9",
+        "cite_spans": [
+          {
+            "start": 21,
+            "end": 42,
+            "text": "Pappas et al., (1993)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 194,
+            "end": 215,
+            "text": "(Sorlie et al., 1995)",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 262,
+            "end": 286,
+            "text": "Mackenbach et al. (1997)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 1042,
+            "end": 1061,
+            "text": "Hurt et al., (2004)",
+            "ref_id": "BIBREF12"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Estimates with more comprehensive coverage are provided by Gwatkin (2000) , who reports death rates by age group for the poorest 20% of the population of the developing world.",
+        "cite_spans": [
+          {
+            "start": 59,
+            "end": 73,
+            "text": "Gwatkin (2000)",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "This follows a method outlined in Gwatkin et al. (1999) in which the country is the unit of observation for income and death rates. However, this method has the drawback that differences within countries are ignored; the differentials are driven entirely by between-country differences in average incomes (though states were used for China and India). By this method, deaths in the poorest 20% account for 35% of all deaths at age group 0-4 years, falling to 32% for ages 5-29, 27% for 30-44, 23% for 45-59 and 20% for 60+. The implied values of DRD for each age group are 1.8, 1.6, 1.2 and 1.0 respectively.",
+        "cite_spans": [
+          {
+            "start": 34,
+            "end": 55,
+            "text": "Gwatkin et al. (1999)",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Recognizing the aforementioned data problems in studying the socioeconomic differences in social indicators, Bidani and Ravallion (1997) use an indirect method of inferring the conditional means from cross-country (or cross-regional) aggregates. An econometricdecomposition method on cross-country data is used to estimate the differences in various social indicators between the poor and non-poor; hereafter this is termed the BR method. In essence, the regression coefficient of the social indicator on the poverty rate across countries estimates the difference between the mean social indicator for the poor and that for the non-poor.",
+        "cite_spans": [
+          {
+            "start": 109,
+            "end": 136,
+            "text": "Bidani and Ravallion (1997)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Bidani and Ravallion did not implement their decomposition for overall death rates.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "However, it is not difficult to do so for the purpose of this paper. Figure 2 gives a scatter plot of the CDR for 2002 against the latest Chen-Ravallion \"$1 a day\" poverty rates across the 83 9 Significant income effects on mortality arising from higher prices for foodstaples in Matlab thana are also reported by Ravallion (1987) . developing and transition countries; the data are reported in World Bank (2004) (though I supplemented this source with data from PovcalNet). 10 The poverty rate is the most recent estimate provided it is no earlier than 1995 (the median survey year is 1999), though the poverty data predate the death rate data. Using the BR method the implied mean CDR for the poor is 22.6 per 1,000 people with a (heteroscedasicity-corrected) standard error of 2.5; the CDR for the non-poor is 8.1 (standard error of 0.5). 11 The implied value of DRD is 2.2.",
+        "cite_spans": [
+          {
+            "start": 314,
+            "end": 330,
+            "text": "Ravallion (1987)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 475,
+            "end": 477,
+            "text": "10",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 69,
+            "end": 77,
+            "text": "Figure 2",
+            "ref_id": "FIGREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "One region that looks notably different in the relationship between death rates and poverty incidence is Sub-Saharan Africa (SSA). Indeed, if one just focuses on the 18 observations in this data set for SSA then one finds no correlation between death rates and the incidence of poverty. In other words, one cannot reject the null hypothesis that the CDR is the same for the poor as the non-poor. (The estimates implied by the BR method are 19.3 for the poor, with a standard error of 7.1, and 17.1 for the non-poor, with a standard error of 1.56; the difference is not significant; t-statistic=0.6.) South Africa is an outlier, however, with a high CDR relative to its poverty rate (DR=20; H=7.1%). The correlation between the CDR and the poverty rate is stronger if one drops South Africa, but it is still not statistically significant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Dropping South Africa the estimates CDR for the poor in Africa is 20.3 (standard error of 2.7)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "while that for the non-poor is 16.2 (standard error of 1.7); the implied DRD is slightly over 1.1.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Since Africa will be prominent in later results in this paper, it is worth exploring further why one finds a low DRD for this region using the BR method. A plausible explanation lies in the fact that SSA has a higher $1 a day poverty rate than average for the developing worldslightly under 50% in SSA versus about 20% on average (Chen and Ravallion, 2004) . So a",
+        "cite_spans": [
+          {
+            "start": 330,
+            "end": 356,
+            "text": "(Chen and Ravallion, 2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "PovcalNet is a data tool accompanying Chen and Ravallion (2004) that allows users to access the underlying distributional data from all 500 surveys used for the Bank's global poverty measures; see http://iresearch.worldbank.org/povcalnet .",
+        "cite_spans": [
+          {
+            "start": 38,
+            "end": 63,
+            "text": "Chen and Ravallion (2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "10",
+        "sec_num": null
+      },
+      {
+        "text": "All standard errors reported in this paper are corrected for heteroscedasticity using White's method.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "11",
+        "sec_num": null
+      },
+      {
+        "text": "lower DRD is to be expected, assuming that the death rate declines monotonically with income, though this would have a hard time explaining a DRD so close to unity. However, one cannot rule out the possibility of bias. One reason to suspect underestimation of the DRD using the BR method is greater attenuation bias due to greater noise in the poverty data for Africa.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "11",
+        "sec_num": null
+      },
+      {
+        "text": "There are other possible factors. It might also be conjectured that the HIV/AIDS epidemic in Africa may has weakened the correlation between the death rate and poverty. At the early stages of the epidemic, it appears that HIV/AIDS incidence was higher among non-poor groups (at least as indicated by education and living in urban areas). However, there is evidence that this has changed over time, as better educated (and hence less poor) groups were better able to protect themselves from the disease (de Walque, 2004). 12 The very low death rate differential for Africa suggested by the BR method is also hard to reconcile with the aforementioned DHS analyses, which indicate a differential in infant and child mortality rates for SSA between the poorest quintile and overall mean of 1.1, though this is still lower than that for low and middle income countries as a whole (at around 1.4). 13",
+        "cite_spans": [
+          {
+            "start": 521,
+            "end": 523,
+            "text": "12",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "11",
+        "sec_num": null
+      },
+      {
+        "text": "Turning next to fertility differentials, one faces similar data problems. The overall Crude Birth Rate (CBR) for low and middle income countries in 2001 is 23 births per year per 1,000 people (World Bank, 2004) . Similarly to the death rate, we know less about the conditional mean birth rates, though recent analyses of DHS data have provided some valuable new information.",
+        "cite_spans": [
+          {
+            "start": 192,
+            "end": 210,
+            "text": "(World Bank, 2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Evidence on differential fertility",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "There is evidence of lower usage rates for condoms among the poor; the aforementioned analyses of the DHS data indicate a condom usage rate of 18% for the poorest quintile, versus 27% on average (http://devdata.worldbank.org/hnpstats/pvd.asp.). Against this effect, access to multiple sex partners probably rises with income (at least among males).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "12",
+        "sec_num": null
+      },
+      {
+        "text": "It has long been known that birth rates tend to be higher for the poor in the developing world, which is the main reason why household size tends to be negatively correlated with household consumption or income per person. 14 The same analyses of the DHS data summarized above provide estimates of the differentials in fertility rates. 15 Averaged over 45 developing economies, the total fertility rate is estimated to be 6.2 for the poorest quintile as compared to 3.3 for the richest quintile, with a population average of 4.7. However, to estimate BRD it is simpler to use instead the overall age-specific fertility rate calculated as the number of births per 1,000 women aged 15-49. 16 The overall birth rate per capita of women 15-49 is 154.0 for the poorest quintile versus 113.4 for the population as a whole. The implied BRD is 1.4, under the assumption that the population share of women 15-49 is the same for the poor as the population as a whole. (That assumption may not hold in reality, but it is probably not far wrong.) There are regional differences, with implied BRD values of 1.8 for East Asia, 1.3 for EECA, 1.9 for Latin America, 1.3 for the Middle East and North Africa, and 1.2 for both South Asia and Sub-Saharan Africa.",
+        "cite_spans": [
+          {
+            "start": 336,
+            "end": 338,
+            "text": "15",
+            "ref_id": null
+          },
+          {
+            "start": 687,
+            "end": 689,
+            "text": "16",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "12",
+        "sec_num": null
+      },
+      {
+        "text": "Returning to the Bidani-Ravallion method, analogously to Figure 2, Figure 3 plots the crude birth rate (CBR) against the poverty rate. (Notice that the correlation with poverty is stronger for the birth rate; the simple correlation coefficient is 0.77, versus 0.51 for the death rates in Figure 2 .) For the sample as a whole, the implied birth rate for the poor is 61.3 (standard 14 Economies of size in household consumption will attenuate, though probably not eliminate, these differences; for further discussion see Lanjouw and Ravallion (1995) . The present analysis is confined solely to the (standard) method in which the ranking variable is per capita.",
+        "cite_spans": [
+          {
+            "start": 520,
+            "end": 548,
+            "text": "Lanjouw and Ravallion (1995)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 57,
+            "end": 75,
+            "text": "Figure 2, Figure 3",
+            "ref_id": "FIGREF3"
+          },
+          {
+            "start": 288,
+            "end": 296,
+            "text": "Figure 2",
+            "ref_id": "FIGREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "12",
+        "sec_num": null
+      },
+      {
+        "text": "See http://www1.worldbank.org/prem/poverty/health/data/index.htm .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "15",
+        "sec_num": null
+      },
+      {
+        "text": "To derive the BRD from the differential in the total fertility rate (TFR) between the poor and population as a whole one would need to assume that the age distribution of poor women is the same as that for the population as a whole, which seems unlikely to hold. If instead one bases the calculations of BRD on the general fertility rate then one can get a way with a weaker assumption that the overall population share of women 15-49 is the same for the poor versus non-poor. (Note that the TFR is obtained by aggregating the age specific fertility rates by year for women 15-49 years.) error of 3.4) per 1,000 people versus 15.9 (standard error of 0.9) for the non-poor. The birth rate differential is 2.6. However, there is a marked clustering of low birth rates and low poverty rates evident in Figure 3 , which on closer inspection turns out to be mainly due to the countries of Eastern Europe and Central Asia (EECA). Excluding EECA the birth rate for the poor is 55.5",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 799,
+            "end": 807,
+            "text": "Figure 3",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "(3.1) versus 20.4 (1.0) for the non-poor and the BRD=2.0, which can be considered more representative of low and middle-income developing countries. However, the BR method is clearly giving a higher differential than suggested by the DHS.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "Here too the demographic differential implied by the BR method is lower for Africa.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "Focusing only on the 18 observations for SSA, the birth rate for the poor is 46.9 (standard error of 4.1) versus 31.4 (2.7) for the non-poor, implying BRD=1.2 (the same as from the DHS). As for the death rate differential, the higher poverty rate in SSA is a plausible explanation for the lower birth rate differential, though attenuation bias cannot be ruled out.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "16",
+        "sec_num": null
+      },
+      {
+        "text": "Given the data problems noted in the last section, it would be unwise to insist on a single point estimate of either the DRD or BRD. Values of both the demographic differentials in the range 1.2 to 2 are suggested by the evidence presented above. Since the CDR and CBR are calculated for one year, it is convenient to set 1 = \u03c4 . 17 The following calculations will focus on 2001, the latest year for the Chen-Ravallion estimates of global poverty, for which the poverty rate in developing countries as a whole is 21.1%.",
+        "cite_spans": [
+          {
+            "start": 330,
+            "end": 332,
+            "text": "17",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "Starting again with mortality, Table 1 gives the implied impacts ( DRD. At a death rate for the poor that is 20% above the mean, the impact of differential mortality on the headcount index is about 0.04 percentage points. It rises to about 0.2 percentage points when the death rate for the poor is twice the mean. (The upper bound, when all deaths are among the poor, is 0.7 points.)",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 31,
+            "end": 38,
+            "text": "Table 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "These impacts may look small, but recall that they are the impacts in one year. So they should be compared with annual rates of poverty reduction. The Table 1 also gives the impacts expressed as a percentage of the annual rates of poverty reduction from 1990 to 2001. The impact at DRD=1.2 represents 7% of the annual average rate of reduction in the headcount index over this period. Naturally the impacts are even higher for higher values of DRD, rising to 15% for DRD=1.5 and 30% for DRD=2.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 151,
+            "end": 158,
+            "text": "Table 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "Annual rates of poverty reduction naturally depend on the start date. Beginning instead with the Chen-Ravallion estimates for 1981, the annualized rate of poverty reduction for $1 a day is about one percentage point per year -about ten times the estimated impact of differential mortality in 2001 for DRD=1.5. However (as Chen and Ravallion argue), the early 1980s were an unusual period, given the rapid poverty reduction achieved by China in that period (associated with its successful agrarian transition); see Figure 1 . Starting the clock at 1984 instead, the annualized rate of poverty reduction in the developing world is similar to the trend since 1990.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 514,
+            "end": 522,
+            "text": "Figure 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "However, there has been a slowdown in the overall rate of poverty reduction (in percentage points per year, though not proportionately) since the late 1990s. If instead one focuses on the five year period from 1996 to 2001 then the trend drops to one third of a percentage point per year. Differential mortality at DRD=1.2 accounts for about one eight of the trend, rising to over one half at DRD=2. Table 1 also gives a regional breakdown of the estimated impacts of differential mortality on the 2001 headcount index. Since the headcount index is not (of course) around 20% in all regions, the estimates of DRD from the DHS data do not strictly apply to each region separately.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 400,
+            "end": 407,
+            "text": "Table 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "One would be drawn toward lower values of DRD for the poorer regions. But even focusing on DRD=1.2, it is clear that the impacts are highest for Sub-Saharan Africa. The trend rate of poverty reduction in SSA has been close to zero over 1984-2001 (indeed Chen and Ravallion report a regression coefficient of the region's $1 a day headcount index on time of 0.0!). So it is not meaningful to express these impacts as a proportion of the annual rate of poverty reduction.",
+        "cite_spans": [
+          {
+            "start": 236,
+            "end": 262,
+            "text": "1984-2001 (indeed Chen and",
+            "ref_id": null
+          },
+          {
+            "start": 263,
+            "end": 272,
+            "text": "Ravallion",
+            "ref_id": "BIBREF18"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "However, the impacts are clearly sizeable. Indeed, these calculations suggest that without differential mortality, the headcount index in SSA would be rising at a non-negligible rate over time, at about 0.2 percentage points per year at DRD=1.2, rising to 0.8 at DRD=2.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "The region with the second highest impacts is South Asia. At DDR=1.2, differential mortality adds 0.06 percentage points to the \"$1 a day\" headcount index in South Asia, representing 15% of the long-run trend since the mid-1980s implied by the Chen-Ravallion estimates. This rises to 0.3 points per year at DRD=2 though this appears to be an implausibly large value for South Asia.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "Turning next to the impact of differential fertility, the calculations in the previous section also suggest a range for BRD of 1.2 to 2. Table 2 gives the corresponding results for the impacts of differential fertility (analogously to Table 1). At BRD=1.2, the poverty rate in 2001 under random fertility would have been reduced by 0.1 percentage point, representing 16% of the trend rate of poverty reduction. Again, the impacts are large in South Asia and (especially) Africa, though evidence presented in Section 3 suggests that we should probably be using a lower value of BRD for both these regions, at around 1.2. Then differential fertility is adding 0.2 percentage points per year to poverty rate in South Asia, and 0.4 points to that in Africa. Finally, Table 3 gives the analogous results for the natural rate of population increase (CBR-CDR). The calculations assume that BRD=DRD. There is no reason in theory why that would hold, but there is no clear pattern in the findings of the previous section to suggest otherwise.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 137,
+            "end": 144,
+            "text": "Table 2",
+            "ref_id": null
+          },
+          {
+            "start": 763,
+            "end": 770,
+            "text": "Table 3",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "The net effect of non-random births and deaths is to increase the poverty measures in the aggregate and in all regions. The (poverty-increasing) effects of differential fertility is clearly greater than the (poverty-decreasing) effects of differential mortality. At NRD=1.2 the annual impact on the $1 a day headcount index is equivalent to about one tenth of the trend rate of poverty reduction, rising to about one half at NRD=2. Again (as one would expect from the preceding findings) the impacts are largest in South Asia and Africa. At NRD=1.2, natural population growth is adding 0.2 percentage points per year to Africa's poverty rate.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Impacts on poverty measures",
+        "sec_num": "4."
+      },
+      {
+        "text": "There are important welfare effects associated with both deaths and births that one would never imagine a standard poverty measure capable of revealing. That is a good reason for monitoring welfare-relevant demographic indicators (such as infant mortality) side-by-side with standard poverty measures, as has become common practice. Nonetheless, it is of interest to know just how much socioeconomic differentials in mortality and fertility contribute to widely used measures of world poverty.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "While the evidence assembled here can hardly be considered conclusive, it does point to the possibility of sizeable impacts of non-random births and deaths on the developing world's rate of progress against poverty. Differential mortality accounts for 7-30% of the trend rate of poverty reduction in the 1990s. The impacts are highest in Sub-Saharan Africa. While aggregate poverty incidence has shown no trend increase or decrease in Africa over the bulk of the 1980s and 1990s, the results presented here suggest that without selective mortality, poverty would have been rising in this region by around 0.2-0.4 percentage points per year in a range of plausible estimates of the death rate differential for this region.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "The effect of differential fertility is more than enough to eliminate these impacts of mortality. The net effect of the higher natural rate of population growth among the poor is a non-negligible increase the poverty rate, representing somewhere between 10-50% of the trend rate of poverty reduction in the developing world by the $1 a day measures. And again it is",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "Africa where this impact is largest (followed by South Asia). In spite of the high death rate in Africa (due in part to the HIV/AIDS epidemic) the balance of the demographic forces is markedly poverty increasing.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "These calculations are at best suggestive about likely magnitudes. Although there have been significant advances in our knowledge about socioeconomic differentials in mortality and fertility over the last 5-10 years (notably in the broader country coverage and deeper analyses of Demographic and Health Surveys), there is still considerable uncertainty about the extent of demographic differentials in the developing world, as well as about the (unconditional) death and birth rates. That is evident in the relatively wide ranges for the impact estimates presented here. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": "5."
+      },
+      {
+        "text": "Note: The international poverty line is $32.74/month at 1993 Purchasing Power Parity (PPP) (using the World Bank's PPP rates for consumption), which is converted to local currency in 1993 and updated over time using the best available Consumer Price index for each country. Based on 450 national household surveys for 100 countries. The estimates around 2000 draw on a sample size of 1.1 million households. For further description and discussion of the data sources and estimation methods are discussed in Chen and Ravallion (2004) , which is the source of this figure. ",
+        "cite_spans": [
+          {
+            "start": 507,
+            "end": 532,
+            "text": "Chen and Ravallion (2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Excluding China",
+        "sec_num": null
+      },
+      {
+        "text": "Wagstaff (2003) also estimates child mortality and nutrition indicators at the $1 a day line for 32 developing countries. However, his methodology does not allow one to calculate the DRD.8 I know of one large sample survey (in the field at the time of writing) that did collect recall data on mortality for both children and adults, namely the Malawi Integrated Household Survey.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "See at http://www1.worldbank.org/prem/poverty/health/data/index.htm.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": " Chen and Ravallion (2004) . Author's calculations for the rest. ",
+        "cite_spans": [
+          {
+            "start": 1,
+            "end": 26,
+            "text": "Chen and Ravallion (2004)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "annex",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Poverty, AIDS and Childrens' Schooling: A Targeting Dilemma",
+        "authors": [
+          {
+            "first": "Martha",
+            "middle": [],
+            "last": "Ainsworth",
+            "suffix": ""
+          },
+          {
+            "first": "Deon",
+            "middle": [],
+            "last": "Filmer",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ainsworth, Martha and Deon Filmer. 2002. \"Poverty, AIDS and Childrens' Schooling: A Targeting Dilemma,\" Policy Research Working Paper WPS 2885, Washington DC, World Bank.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Decomposing Social Indicators Using Distributional Data",
+        "authors": [
+          {
+            "first": "Benu",
+            "middle": [],
+            "last": "Bidani",
+            "suffix": ""
+          },
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Journal of Econometrics",
+        "volume": "77",
+        "issue": "1",
+        "pages": "125--140",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bidani, Benu and Martin Ravallion. 1997. \"Decomposing Social Indicators Using Distributional Data,\" Journal of Econometrics, 77(1): 125-140.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "How Have the World's Poorest Fared Since the Early 1980s?",
+        "authors": [
+          {
+            "first": "Shaohua",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          },
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "World Bank Research Observer",
+        "volume": "19",
+        "issue": "2",
+        "pages": "141--170",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chen, Shaohua and Martin Ravallion. 2004a. \"How Have the World's Poorest Fared Since the Early 1980s?\" World Bank Research Observer, 19(2): 141-170.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Farm Productivity and Rural Poverty in India",
+        "authors": [
+          {
+            "first": "Gaurav",
+            "middle": [],
+            "last": "Datt",
+            "suffix": ""
+          },
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "Journal of Development Studies",
+        "volume": "34",
+        "issue": "4",
+        "pages": "62--85",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Datt, Gaurav and Martin Ravallion. 1998. \"Farm Productivity and Rural Poverty in India,\" Journal of Development Studies, 34(4): 62-85.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "How Does the Impact of an HIV/AIDS Information Campaign Vary with Educational Attainment? Evidence from Rural Uganda",
+        "authors": [
+          {
+            "first": "Damien",
+            "middle": [],
+            "last": "De Walque",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Policy Research Working Paper",
+        "volume": "3289",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "De Walque, Damien. 2004. \"How Does the Impact of an HIV/AIDS Information Campaign Vary with Educational Attainment? Evidence from Rural Uganda\" Policy Research Working Paper 3289, Washington DC: World Bank.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "The Impact of Changes in Human Fertility on Poverty",
+        "authors": [
+          {
+            "first": "Robert",
+            "middle": [],
+            "last": "Eastwood",
+            "suffix": ""
+          },
+          {
+            "first": "Michael",
+            "middle": [],
+            "last": "Lipton",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Journal of Development Studies",
+        "volume": "36",
+        "issue": "1",
+        "pages": "1--30",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Eastwood, Robert and Michael Lipton. 1999. \"The Impact of Changes in Human Fertility on Poverty,\" Journal of Development Studies 36(1): 1-30.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Demographic Transition and Poverty: Effects via Economic Growth, Distribution and Conversion",
+        "authors": [
+          {
+            "first": "_____________",
+            "middle": [],
+            "last": "______________",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Population Matters",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "______________ and _____________. 2001. \"Demographic Transition and Poverty: Effects via Economic Growth, Distribution and Conversion,\" in Nancy Birdsall, Allen Kelley and Steven Sinding (eds) Population Matters. Oxford: Oxford University Press.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "The Effect of Household Wealth on Education Attainment: Evidence from 35 Countries",
+        "authors": [
+          {
+            "first": "Deon",
+            "middle": [],
+            "last": "Filmer",
+            "suffix": ""
+          },
+          {
+            "first": "Lant",
+            "middle": [],
+            "last": "Pritchett",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Population and Development Review",
+        "volume": "25",
+        "issue": "1",
+        "pages": "85--120",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Filmer, Deon and Lant Pritchett. 1999, The Effect of Household Wealth on Education Attainment: Evidence from 35 Countries,\" Population and Development Review, 25(1): 85-120.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Poverty and Inequalities in Health Within Developing Countries: Filling the Information Gap",
+        "authors": [
+          {
+            "first": "Davidson",
+            "middle": [],
+            "last": "Gwatkin",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Poverty, Inequality and Health: An International Perspective",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gwatkin, Davidson. 2000. \"Poverty and Inequalities in Health Within Developing Countries: Filling the Information Gap,\" in David Leon and Gill Walt (eds) Poverty, Inequality and Health: An International Perspective. Oxford: Oxford University Press.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Socioeconomic Differences in Health, Nutrition and Population (Country Reports)",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [
+              "R"
+            ],
+            "last": "Gwatkin",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "K"
+            ],
+            "last": "Rutstein",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Johnson",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Pande",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Wagstaff",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gwatkin, D.R., S. Rutstein. K. Johnson, R. Pande and A. Wagstaff. 2000. Socioeconomic Differences in Health, Nutrition and Population (Country Reports). Washington DC: World Bank.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "The Burden of Disease Among the Global Poor",
+        "authors": [
+          {
+            "first": "Davidson",
+            "middle": [],
+            "last": "Gwatkin",
+            "suffix": ""
+          },
+          {
+            "first": "Michel",
+            "middle": [],
+            "last": "Guilot",
+            "suffix": ""
+          },
+          {
+            "first": "Patrick",
+            "middle": [],
+            "last": "Heuveline",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "The Lancet",
+        "volume": "354",
+        "issue": "",
+        "pages": "586--89",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gwatkin, Davidson, Michel Guilot and Patrick Heuveline. 1999. \"The Burden of Disease Among the Global Poor,\" The Lancet 354: 586-89.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Socioeconomic Differentials in Adult Mortality: A Review of Analytic Approaches",
+        "authors": [
+          {
+            "first": "Robert",
+            "middle": [],
+            "last": "Hummer",
+            "suffix": ""
+          },
+          {
+            "first": "Richard",
+            "middle": [],
+            "last": "Rogers",
+            "suffix": ""
+          },
+          {
+            "first": "Isaac",
+            "middle": [],
+            "last": "Eberstein",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "Population and Development Review",
+        "volume": "24",
+        "issue": "3",
+        "pages": "553--578",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hummer, Robert, Richard Rogers and Isaac Eberstein. 1998. \"Socioeconomic Differentials in Adult Mortality: A Review of Analytic Approaches,\" Population and Development Review 24(3): 553-578.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Effects of Education and Socioeconomic Factors on Middle Age Mortality in Rural Bangladesh",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [
+              "S"
+            ],
+            "last": "Hurt",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Ronsmans",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Saha",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Journal of Epidemiology and Community Health",
+        "volume": "58",
+        "issue": "",
+        "pages": "315--320",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hurt, L.S., C. Ronsmans and S. Saha. 2004. \"Effects of Education and Socioeconomic Factors on Middle Age Mortality in Rural Bangladesh,\" Journal of Epidemiology and Community Health 58: 315-320.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Premature Mortality and Poverty Measurement",
+        "authors": [
+          {
+            "first": "Ravi",
+            "middle": [],
+            "last": "Kanbur",
+            "suffix": ""
+          },
+          {
+            "first": "Diganta",
+            "middle": [],
+            "last": "Mukerjee",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kanbur, Ravi and Diganta Mukerjee. 2003. \"Premature Mortality and Poverty Measurement,\" Working Paper 3003-11, Department of Applied Economics, Cornell University.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Economic and Demographic Change: A Synthesis of Models, Findings and Perspectives",
+        "authors": [
+          {
+            "first": "Allen",
+            "middle": [],
+            "last": "Kelley",
+            "suffix": ""
+          },
+          {
+            "first": "Robert",
+            "middle": [],
+            "last": "Schmidt",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Population Matters",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kelley, Allen and Robert Schmidt. 2001. \"Economic and Demographic Change: A Synthesis of Models, Findings and Perspectives,\" in Nancy Birdsall, Allen Kelley and Steven Sinding (eds) Population Matters, Oxford: Oxford University Press.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Poverty and Household Size",
+        "authors": [
+          {
+            "first": "Peter",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          },
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "Economic Journal",
+        "volume": "105",
+        "issue": "",
+        "pages": "1415--1435",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lanjouw, Peter and Martin Ravallion. 1995. \"Poverty and Household Size\", Economic Journal, 105: 1415-1435.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Socioeconomic Inequalities in Morbidity and Mortality in Western Europe",
+        "authors": [
+          {
+            "first": "Johan",
+            "middle": [],
+            "last": "Mackenbach",
+            "suffix": ""
+          },
+          {
+            "first": "Anton",
+            "middle": [],
+            "last": "Kunst",
+            "suffix": ""
+          },
+          {
+            "first": "Adrienne",
+            "middle": [],
+            "last": "Cavelaars",
+            "suffix": ""
+          },
+          {
+            "first": "Feikje",
+            "middle": [],
+            "last": "Groenhof",
+            "suffix": ""
+          },
+          {
+            "first": "Jose",
+            "middle": [],
+            "last": "Guerts",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "The Lancet",
+        "volume": "349",
+        "issue": "",
+        "pages": "1655--59",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mackenbach, Johan, Anton Kunst, Adrienne Cavelaars, Feikje Groenhof and Jose Guerts. 1997. \"Socioeconomic Inequalities in Morbidity and Mortality in Western Europe,\" The Lancet, 349: 1655-59.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "The Increasing Disparity in Mortality Between Socioeconomic Groups in the United States",
+        "authors": [
+          {
+            "first": "Gregory",
+            "middle": [],
+            "last": "Pappas",
+            "suffix": ""
+          },
+          {
+            "first": "Susan",
+            "middle": [],
+            "last": "Queen",
+            "suffix": ""
+          },
+          {
+            "first": "Wilbur",
+            "middle": [],
+            "last": "Hadden",
+            "suffix": ""
+          },
+          {
+            "first": "Gail",
+            "middle": [],
+            "last": "Fisher",
+            "suffix": ""
+          }
+        ],
+        "year": 1960,
+        "venue": "",
+        "volume": "329",
+        "issue": "",
+        "pages": "103--109",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Pappas, Gregory, Susan Queen, Wilbur Hadden and Gail Fisher. 1993. \"The Increasing Disparity in Mortality Between Socioeconomic Groups in the United States, 1960 and 1986,\" New England Journal of Medicine 329(2): 103-109.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Markets and Famines",
+        "authors": [
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 1987,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ravallion, Martin. 1987. Markets and Famines. Oxford: Oxford University Press.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Determinants of Long-Term Growth: A Bayesian Averaging of Classical Estimates (BACE) Approach",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Sala-I-Martin",
+            "suffix": ""
+          },
+          {
+            "first": "Gernot",
+            "middle": [],
+            "last": "Xavier",
+            "suffix": ""
+          },
+          {
+            "first": "Ronald",
+            "middle": [],
+            "last": "Doppelhofer",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Miller",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "American Economic Review",
+        "volume": "94",
+        "issue": "4",
+        "pages": "813--836",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sala-I-Martin, Xavier, Gernot Doppelhofer and Ronald Miller. 2004. \"Determinants of Long- Term Growth: A Bayesian Averaging of Classical Estimates (BACE) Approach,\" American Economic Review 94(4): 813-836.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Demographic Determinants of Savings : Estimating and Interpreting Aggregate Associations in Asia",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Schultz",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Paul",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schultz, T. Paul. 2004. \"Demographic Determinants of Savings : Estimating and Interpreting Aggregate Associations in Asia,\" Economic Growth Center Discussion Paper 901. Yale University.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "US Mortality by Economic, Demographic and Social Characteristics: The National Longitudinal Mortality Study",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [
+              "D"
+            ],
+            "last": "Sorlie",
+            "suffix": ""
+          },
+          {
+            "first": "Eric",
+            "middle": [],
+            "last": "Backlund",
+            "suffix": ""
+          },
+          {
+            "first": "Jacob",
+            "middle": [],
+            "last": "Keller",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "American Journal of Public Health",
+        "volume": "85",
+        "issue": "7",
+        "pages": "949--956",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sorlie, Paul D., Eric Backlund and Jacob Keller. 1995. \"US Mortality by Economic, Demographic and Social Characteristics: The National Longitudinal Mortality Study,\" American Journal of Public Health 85(7): 949-956.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Population Growth and Poverty: Another Look at the Indian Time Series Evidence",
+        "authors": [
+          {
+            "first": "Dominique",
+            "middle": [],
+            "last": "Van De Walle",
+            "suffix": ""
+          }
+        ],
+        "year": 1985,
+        "venue": "Journal of Development Studies",
+        "volume": "34",
+        "issue": "4",
+        "pages": "62--85",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "van de Walle, Dominique. 1985. \"Population Growth and Poverty: Another Look at the Indian Time Series Evidence\", Journal of Development Studies 34(4): 62-85.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Socioeconomic Inequalities in Child Mortality: Comparisons Across Nine Developing Countries",
+        "authors": [
+          {
+            "first": "Adam",
+            "middle": [],
+            "last": "Wagstaff",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Bulletin of the World Health Organization",
+        "volume": "78",
+        "issue": "1",
+        "pages": "19--29",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Wagstaff, Adam. 2000. \"Socioeconomic Inequalities in Child Mortality: Comparisons Across Nine Developing Countries,\" Bulletin of the World Health Organization 78(1): 19-29.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Child health on a Dollar a Day: Some Tentative Cross-country Comparisons",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "_____________",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Social Science and Medicine",
+        "volume": "57",
+        "issue": "9",
+        "pages": "1529--1567",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "_____________. 2003. \"Child health on a Dollar a Day: Some Tentative Cross-country Comparisons.\" Social Science and Medicine, 57(9): 1529-38.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Demographic Change, Economic Growth and Inequality",
+        "authors": [
+          {
+            "first": "Jeffrey",
+            "middle": [],
+            "last": "Williamson",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Population Matters",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Williamson, Jeffrey. 2001. \"Demographic Change, Economic Growth and Inequality,\" in Nancy Birdsall, Allen Kelley and Steven Sinding (eds) Population Matters, Oxford: Oxford University Press.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "World Bank",
+        "authors": [],
+        "year": 2004,
+        "venue": "World Development Indicators",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank. 2004. World Development Indicators. Washington DC: World Bank.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "num": null,
+        "uris": null,
+        "text": "Surveys (DHS). Health and nutrition indicators have been measured for different strata of households defined in terms of a proxy indicator of \"wealth\" constructed by principal components analysis from the DHS (following a methodology introduced byFilmer and Pritchett, 1999).6  Again the indicators do not include the crude death rate since this cannot be measured reliably with the sample sizes of a typical DHS. The differences in death rates for children indicate that on average the poorest quintile in developing countries (in terms of the proxy wealth indicator) has an infant mortality rate that is 17% higher than average (implying DRD=1.2), though this rises to 35% (DDR=1.4) if one focuses on low and middle income countries only.It is not clear how well the DHS \"wealth index\" reflects actual wealth or the most widely used indicator of living standards, namely aggregate expenditure on consumption (including imputed values for consumption in kind). So it is of interest to also see what can be learnt from surveys for which more familiar consumption or income measures are available. Using nine such surveys for developing countries,Wagstaff (2000) provides estimates of the infant and under-5 mortality rates grouped into quintiles according to household income or expenditure per person. Using the poorest quintile, the implied values of DRD are in the range 1.1 to 1.8. 7",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF1": {
+        "num": null,
+        "uris": null,
+        "text": "the headcount index of poverty for $1 a day over this range of values for 17 In principle one can use 1 > \u03c4 though this requires a more complicated calculation involving the past time series of death rates and population growth rates at country level; it is easier to use 1 = \u03c4 but take proper account of this when interpreting the results.",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF2": {
+        "num": null,
+        "uris": null,
+        "text": "Figure 1: Poverty incidence in the developing world 1981-2001",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF3": {
+        "num": null,
+        "uris": null,
+        "text": "Crude death rates plotted against headcount index of poverty by country data assembled from World Bank (2004) and http://iresearch.worldbank.org/povcalnet. .",
+        "type_str": "figure",
+        "fig_num": "2"
+      },
+      "FIGREF4": {
+        "num": null,
+        "uris": null,
+        "text": "Crude birth rates plotted against headcount index of poverty by country",
+        "type_str": "figure",
+        "fig_num": "3"
+      },
+      "TABREF0": {
+        "html": null,
+        "content": "<table><tr><td colspan=\"8\">To outline the proposed method of assessing the poverty impact of demographic changes</td></tr><tr><td>in more formal terms, let</td><td>H</td><td>=</td><td>N</td><td>p /</td><td>N</td><td colspan=\"2\">denote the headcount index of poverty at a specific date</td></tr><tr><td colspan=\"8\">where p N is the number of poor people in a population of size N at that date. (One can</td></tr><tr><td colspan=\"8\">imagine these variables having a continuous time subscript t, but I do not write them that way for</td></tr><tr><td colspan=\"7\">notational simplicity.) Consider mortality first. Let</td><td>p DR \u03c4 denote the death rate for the poor</td></tr><tr><td colspan=\"8\">during a period of time \u03c4 years prior to the date in question, where</td><td>p \u03c4 = DR</td><td>p \u03c4 D</td><td>/</td><td>N</td><td>p</td><td>and p D \u03c4 is</td></tr><tr><td colspan=\"8\">the number of deaths among the poor in the period \u03c4 . (Note that, unlike p N and N , which are</td></tr><tr><td colspan=\"8\">stock variables, p D \u03c4 is a flow variable, which depends on the length of \u03c4 .) Similarly, let</td></tr><tr><td colspan=\"8\">\u03c4 DR denote the death rate in the population as a whole while</td><td>\u03c4 DRD</td><td>=</td><td>\u03c4 DR p /</td><td>\u03c4 DR</td><td>is the \"death</td></tr><tr><td colspan=\"8\">rate differential\" -the odds ratio of mortality for the poor relative to the whole population.</td></tr><tr><td colspan=\"8\">The contribution of differential mortality to the observed headcount index is measured</td></tr><tr><td colspan=\"8\">against a counterfactual headcount index under random (non-selective) mortality, whereby the</td></tr><tr><td colspan=\"8\">probability of death is independent of poverty status. Then DRD converges to unity in</td></tr><tr><td colspan=\"8\">It remains an open question whether we should measure poverty any differently knowing that poor people have higher mortality rates. If all the poor migrate out of some region, or die, and there are no adverse impacts on the non-poor, then (as a purely descriptive statement) poverty will have fallen to zero. Nonetheless, whether or not one wants to measure poverty any differently, it is of interest to know what impact differential mortality has on these measures. How much does it attenuate poverty measures in practice? And how much is that effect offset by differential fertility, whereby poor households tend also to have higher fertility rates? sufficiently large populations. Let D H p p D N \u03c4 \u03c4 + poor in a total population of \u03c4 \u03c4 D N + at the date in</td></tr></table>",
+        "num": null,
+        "text": "is also the headcount index that would have been observed if there had been no mortality during the period. (Of course, there are still deaths with random mortality, but they occur with the same probability for the poor as for the population as a whole.) In the absence of deaths during \u03c4 there would be",
+        "type_str": "table"
+      },
+      "TABREF1": {
+        "html": null,
+        "content": "<table><tr><td/><td>Natural</td><td colspan=\"5\">Impact on headcount index in 2001</td></tr><tr><td/><td>rate (CBR-CDR)</td><td>1.2</td><td colspan=\"4\">( Natural rate differential (NRD) = N H H 1 \u2212 ; % points/year) 1.5 1.8</td><td>2</td></tr><tr><td>Developing world as a whole</td><td>14</td><td colspan=\"2\">0.06</td><td>0.15</td><td>0.24</td><td>0.30</td></tr><tr><td/><td/><td colspan=\"2\">(9.7)</td><td>(24.3)</td><td>(38.9)</td><td>(48.5)</td></tr><tr><td>Regional breakdown</td><td/><td/><td/><td/><td/></tr><tr><td>East Asia</td><td>10</td><td colspan=\"2\">0.03</td><td>0.08</td><td>0.12</td><td>0.15</td></tr><tr><td>Eastern Europe and Central Asia</td><td>0</td><td>0</td><td/><td>0</td><td>0</td><td>0</td></tr><tr><td>Latin America and Caribbean</td><td>16</td><td colspan=\"2\">0.03</td><td>0.08</td><td>0.12</td><td>0.15</td></tr><tr><td>Middle East and North Africa</td><td>20</td><td colspan=\"2\">0.01</td><td>0.02</td><td>0.04</td><td>0.05</td></tr><tr><td>South Asia</td><td>17</td><td colspan=\"2\">0.11</td><td>0.27</td><td>0.43</td><td>0.54</td></tr><tr><td>Sub-Saharan Africa</td><td>22</td><td colspan=\"2\">0.21</td><td>0.53</td><td>0.84</td><td>1.05</td></tr><tr><td>Notes: See Table 1.</td><td/><td/><td/><td/><td/></tr></table>",
+        "num": null,
+        "text": "",
+        "type_str": "table"
+      }
+    }
+  }
+}

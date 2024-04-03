@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_00001: (2012) have used the Data by Papers feature in NDAR to associate the specific data that was used in the publication with the article.\n\ns_00051: And research by Dabney et al.\n\ns_00101: Despite several drawbacks, the statistical power afforded by the relatively adequate size of this subsample, in combination with the newness of the survey and its detailed focus on the critical period of early childhood, makes the ECLS-B data one of the best data sources currently available for research on teenage fathers and their children.\n\ns_00151: The stroke dataset was compiled as part of a study investigating white matter hyperintensity (WMH) in stroke patients [31] .\n\ns_00201: We performed an ecological type study using aggregate data to explore differentials at a population level.\n\ns_00248: The Statistical Package for the Social Sciences (SPSS version 19.0) was used for all statistical analyses.\n\ns_00298: The integrated analysis of data provided by these large longitudinal studies allows highlighting several issues that are of concern for research advancement, methodological outcome and finally for clinical practice.\n\ns_00348: (2013) and Belayneh et al.\n\ns_00398: Demographic details of these cohorts are provided in Table 1 .\n\ns_00448: The purpose of the present study was to analyze an international large-scale data set using a cognitive assessment approach.\n\ns_00498: The statistically downscaled projections were based on data obtained from output of GCM CGCM3.1MR (Canadian Centre for Climate Modeling and Analysis Third Generation Coupled Global Climate Model Version 3.1, Medium Resolution) [23] and downscaled to an 8-km grid.\n\ns_00548: For example, the use of magnetic resonance imaging to screen potential neuromodulatory treatments for multiple sclerosis has DISCUSSION PAPER resulted in the successful development of a number of therapeutic agents that slow disease progression.\n\ns_00598: Because the data is extracted from existing datasets, the inclusion criteria for the selected studies may not represent the population contemplating conception or fertility treatment, and the reliability of the reported results is dependent on the quality of the initial studies.\n\ns_00640: Observed CI has been calculated from the World Ocean Atlas 2013 (WOA13) data set which contains temperature and salinity profiles from 1955 to 2012 [Locarnini et al., 2013;Zweng et al., 2013].\n\ns_00690: Kriging, used for perincluded which were less highly correlated with forming analyses of spatially distributed data, is a the pollutant variables.\n\ns_00740: In this section, we discuss the results in the context of prior literature.\n\ns_00790: Data was collected by means of participant observation and semi-structured, individual interviews.\n\ns_00840: The relative densities of Ferruginous Hawks in the United States and southern Canada, based on North American Breeding Bird Survey data (Sauer and others, 2014) , are shown in figure N1 (not all geographic places mentioned in report are shown on figure) .\n\ns_00890: It is worth noting that all the prediction models were trained using the ADNI I dataset, and validated using the ADNI Go & 2 dataset.\n\ns_00940: The paper is structured as follows.\n\ns_00990: This paper will describe the tool and some of the models the tool uses.\n\ns_01040: The Survey of Consumer Finances data have been extensively used for research.\n\ns_01090: All analyses were conducted using Stata (StataCorp, 2011) .\n\ns_01140: (2000), and Gopalakrishna et al.\n\ns_01190: Participants for the analysis were drawn from a meta-database consisting of 18 ADCS studies and ADNI, representing both clinical trials and observational studies in AD, MCI, and normal individuals (National Institutes of Health grant R01 AG037561) [10] ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B752Hqwd3G8cRMFv532qbN7fdqi4",
+    "object": "chat.completion",
+    "created": 1682883180,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1091,
+      "completion_tokens": 234,
+      "total_tokens": 1325
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_00101\", \"data_mentioned\": true, \"reason\": \"ECLS-B\"}, {\"sent_id\": \"s_00151\", \"data_mentioned\": true, \"reason\": \"stroke dataset\"}, {\"sent_id\": \"s_00448\", \"data_mentioned\": true, \"reason\": \"international large-scale data set\"}, {\"sent_id\": \"s_00498\", \"data_mentioned\": true, \"reason\": \"GCM CGCM3.1MR\"}, {\"sent_id\": \"s_00640\", \"data_mentioned\": true, \"reason\": \"World Ocean Atlas 2013 (WOA13)\"}, {\"sent_id\": \"s_00840\", \"data_mentioned\": true, \"reason\": \"North American Breeding Bird Survey data (Sauer and others, 2014)\"}, {\"sent_id\": \"s_00890\", \"data_mentioned\": true, \"reason\": \"ADNI I dataset\"}, {\"sent_id\": \"s_01040\", \"data_mentioned\": true, \"reason\": \"Survey of Consumer Finances data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_00101\", \"data_mentioned\": true, \"reason\": \"ECLS-B\"}, {\"sent_id\": \"s_00151\", \"data_mentioned\": true, \"reason\": \"stroke dataset\"}, {\"sent_id\": \"s_00448\", \"data_mentioned\": true, \"reason\": \"international large-scale data set\"}, {\"sent_id\": \"s_00498\", \"data_mentioned\": true, \"reason\": \"GCM CGCM3.1MR\"}, {\"sent_id\": \"s_00640\", \"data_mentioned\": true, \"reason\": \"World Ocean Atlas 2013 (WOA13)\"}, {\"sent_id\": \"s_00840\", \"data_mentioned\": true, \"reason\": \"North American Breeding Bird Survey data (Sauer and others, 2014)\"}, {\"sent_id\": \"s_00890\", \"data_mentioned\": true, \"reason\": \"ADNI I dataset\"}, {\"sent_id\": \"s_01040\", \"data_mentioned\": true, \"reason\": \"Survey of Consumer Finances data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

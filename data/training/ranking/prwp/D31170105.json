@@ -1,0 +1,1713 @@
+{
+  "paper_id": "D31170105",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:38.777827Z"
+  },
+  "title": "Methodology and Findings for the Exposure Analysis of the Chinese Wastewater Sector to Flooding and Earthquakes Hazards",
+  "authors": [
+    {
+      "first": "Xi",
+      "middle": [],
+      "last": "Hu",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Raghav",
+      "middle": [],
+      "last": "Pant",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Conrad",
+      "middle": [],
+      "last": "Zorn",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Weeho",
+      "middle": [],
+      "last": "Lim",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Elco",
+      "middle": [],
+      "last": "Koks",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Zhimin",
+      "middle": [],
+      "last": "Mao",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2019-06",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent. This paper is a product of the Global Facility for Disaster Reduction and Recovery, Climate Change Group. It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world.",
+  "pdf_parse": {
+    "paper_id": "D31170105",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent. This paper is a product of the Global Facility for Disaster Reduction and Recovery, Climate Change Group. It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "This paper describes the methodology and findings for the extreme hazard exposure analysis of the Chinese wastewater sector to flooding and earthquakes hazards. This analysis is undertaken for changing flooding, under climate scenarios, and earthquake exposure of a spatially accurate wastewater treatment plants (WWTP) database for China, covering a total of 1,346 assets with additional attributes quantifying the treatment capacity and users dependent on each plant. For flooding, we apply and downscale a global river routing (CaMa-Flood) model that quantifies the change degree of flood exposures from the present time-period to the near future time-period (2016-2035) to a far future time period (2036) (2037) (2038) (2039) (2040) (2041) (2042) (2043) (2044) (2045) (2046) (2047) (2048) (2049) (2050) (2051) (2052) (2053) (2054) (2055) . We find evidence that most climate models project increasing number of WWTP assets face climate-induced flood hazards in both the near and far future, potentially affecting as many as 208 million users by 2050. However, there are spatial and temporal variations from these projections which means that planning for resilient wastewater infrastructure requires more detailed understanding of the vulnerability attributes of WWTPs including their exact location, the number of users they serve as well as their flood protection standards. For earthquakes, we examine the exposure of WWTPs to earthquake hazards through both seismic shaking and induced liquefaction. Overall, we demonstrate the significant risk that earthquakes can have on the WWTP process-especially on centralized systems. By considering liquefaction susceptibility in combination with shaking, we expose a number of WWTPs that face an increased level of exposure to damages following earthquakes compared to looking at shaking in isolation.",
+        "cite_spans": [
+          {
+            "start": 702,
+            "end": 708,
+            "text": "(2036)",
+            "ref_id": null
+          },
+          {
+            "start": 709,
+            "end": 715,
+            "text": "(2037)",
+            "ref_id": null
+          },
+          {
+            "start": 716,
+            "end": 722,
+            "text": "(2038)",
+            "ref_id": null
+          },
+          {
+            "start": 723,
+            "end": 729,
+            "text": "(2039)",
+            "ref_id": null
+          },
+          {
+            "start": 730,
+            "end": 736,
+            "text": "(2040)",
+            "ref_id": null
+          },
+          {
+            "start": 737,
+            "end": 743,
+            "text": "(2041)",
+            "ref_id": null
+          },
+          {
+            "start": 744,
+            "end": 750,
+            "text": "(2042)",
+            "ref_id": null
+          },
+          {
+            "start": 751,
+            "end": 757,
+            "text": "(2043)",
+            "ref_id": null
+          },
+          {
+            "start": 758,
+            "end": 764,
+            "text": "(2044)",
+            "ref_id": null
+          },
+          {
+            "start": 765,
+            "end": 771,
+            "text": "(2045)",
+            "ref_id": null
+          },
+          {
+            "start": 772,
+            "end": 778,
+            "text": "(2046)",
+            "ref_id": null
+          },
+          {
+            "start": 779,
+            "end": 785,
+            "text": "(2047)",
+            "ref_id": null
+          },
+          {
+            "start": 786,
+            "end": 792,
+            "text": "(2048)",
+            "ref_id": null
+          },
+          {
+            "start": 793,
+            "end": 799,
+            "text": "(2049)",
+            "ref_id": null
+          },
+          {
+            "start": 800,
+            "end": 806,
+            "text": "(2050)",
+            "ref_id": null
+          },
+          {
+            "start": 807,
+            "end": 813,
+            "text": "(2051)",
+            "ref_id": null
+          },
+          {
+            "start": 814,
+            "end": 820,
+            "text": "(2052)",
+            "ref_id": null
+          },
+          {
+            "start": 821,
+            "end": 827,
+            "text": "(2053)",
+            "ref_id": null
+          },
+          {
+            "start": 828,
+            "end": 834,
+            "text": "(2054)",
+            "ref_id": null
+          },
+          {
+            "start": 835,
+            "end": 841,
+            "text": "(2055)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy Research Working Paper 8903",
+        "sec_num": null
+      },
+      {
+        "text": "Flooding and Earthquakes Hazards Xi Hu 1,2,3 , Raghav Pant 2 , Conrad Zorn 2 , Weeho Lim 2,4 , Elco Koks 2,5 , Zhimin Mao 6",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology and Findings for the Exposure Analysis of the Chinese Wastewater Sector to",
+        "sec_num": null
+      },
+      {
+        "text": "This paper describes the methodology and findings for the extreme hazard exposure analysis of the Chinese wastewater sector to flooding and earthquakes hazards. This analysis is undertaken for changing flooding, under climate scenarios, and earthquake exposure of a spatially accurate wastewater treatment plants (WWTP) database for China, covering a total of 1,346 assets with additional attributes quantifying the treatment capacity and users dependent on each plant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary of results",
+        "sec_num": null
+      },
+      {
+        "text": "For flooding, we apply a global river routing (CaMa-Flood) model that quantifies the change degree of flood exposures from the present time-period to the near future time-period (2016-2035) to a far future time period (2036-2055). These changes are evaluated for all floods exceeding 1 in 30, 1 in 50 and 1 in 100 events as estimated through an ensemble of 11 climate models under RCP4.5 and RCP8.5 climate scenarios.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary of results",
+        "sec_num": null
+      },
+      {
+        "text": "For earthquakes, we use Peak Ground Acceleration (PGA) hazard maps for return periods of 250-, 475-, 950-, 1500-, and 2475-years, and group PGA into five discrete categories: Very High VH (>0.65g), High H (0.34g -0.65g), Medium M (0.18g -0.34g), Low L (0.092g -0.18g), and Very Low VL (<0.092g). Similar categories are assumed for liquefaction susceptibility: VH, H, M, L, VL. These are based on a readily available dataset created for use at the global scale using a calibrated geospatial prediction model.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary of results",
+        "sec_num": null
+      },
+      {
+        "text": "Our analysis shows that more numbers and users of WWTPs will witness an increase in extreme flooding exposures, in comparison to the numbers of WWTPs that will witness a decrease.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Flood exposure results",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0b7 Under RCP4.5 emission scenarios, 10 out of 11 climate models are in complete agreement of a net increase in plant exposure numbers and users impacts for all flood exceedance probabilities in the near future. In the far future, all 11 models agree that there will be a net increase in plant exposures and user impacts for all 1 in 50 and 1 in 100 flood exceedance probability events. \uf0b7 Under RCP8.5 emission scenarios, 9 out of 11 climate models are in complete agreement of a net increase in plant exposure numbers and user impacts for all flood exceedance probabilities in the near future. In the far future, all 11 models agree that there will be a net increase in plant exposures and user numbers for all 1 in 100 flood exceedance probability events. \uf0b7 The net user impacts of increasing flooding exposures for events exceeding 1 in 30 return periods can be as high as approximately 180 million in the near future under RCP 4.5 emission scenarios, which potentially grows to about 208 million in the far future. The averages of net users facing increasing exposures increases from 47 to 61 million between the near and far futures. \uf0b7 The changes under RCP 8.5 are similarly severe with about 121 million net users impacts from increasing WWTPs flooding for events exceeding 1 in 30 return periods in the near future, which potentially grows to about 187 million in the far future. The averages of net users facing increasing exposures increases from 40 to 72 million between the near and far futures. \uf0b7 Spatially we observe that in the near future, flood hazards for RCP 4.5 are concentrated along the Yangtze River, in southern Hubei, northern Hunan, central Anhui, northern Jiangxi and Shanghai, all of which are highly populated and the WWTPs here serve high numbers of users. Provinces such as Guangxi, Guizhou and Ningxia face wide-spread increasing flood hazard whereas Shaanxi (north), Shandong (northwest), Qinghai (centralnorth), Heilongjiang (east), Tibet (central) experience regional specific flood hazard. Although the WWTPs here serve less users in general, if existing ones are not designed to an appropriate level, they will face increase flooding hazards. \uf0b7 In the far future, flooding hazard escalate in large parts of Tibet, Xinjiang, and Inner Mongolia. The WWTPs located in these regions, not previously exposed to flooding hazards at return period 50, now face increasing risks. For RCP8.5, concentrations of increasing flooding probability are similar to RCP4.5 during the period 2016-2035, along the Yangtze River. Notable differences are in regions such as northern Heilongjiang and northern Inner Mongolia, which suffer increasing flood hazard whereas they do not in RCP4.5. By 2055, hazards become widespread with very few areas left intact.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Flood exposure results",
+        "sec_num": null
+      },
+      {
+        "text": "For earthquakes, we examine the exposure of WWTPs to earthquake hazards through both seismic shaking and induced liquefaction. Overall, we demonstrate the significant risk that earthquakes can have on the WWTP process -especially on centralized systems. By considering liquefaction susceptibility in combination with shaking, we expose a number of WWTPs that face an increased level of risk to damages following earthquakes compared to looking at shaking in isolation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Earthquake exposure results",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0b7 We find that, for 2475-year return period PGA, 231 WWTPs are exposed to our definition of medium shaking (0.18-0.34g), however, the majority of these (>53%) could in fact be at far greater risk to ground deformation induced damages given their High/Very High liquefaction susceptibility groupings. Ultimately, this means that over half of these WWTPs could be in fact far more vulnerable to seismic hazards than initially anticipated if one was just to consider PGA as a sole indicator of risk. The potential number of users affected amount to 64 million, 33 million of whom face High/Very High liquefaction susceptibility.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Earthquake exposure results",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0b7 Spatially, western regions and high population Beijing surrounds show the highest seismic shaking risks. As actual damage to WWTPs depend greatly on the design standards of the plants, the assigned VL areas are not necessarily safe, particularly when considering potential ground deformation. Such higher liquefaction susceptibilities are observed in the lower lying central east coast regions and far west, particularly surrounding the sandy Tamrin Basin area where there are comparatively few treatment plants given lower population densities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Earthquake exposure results",
+        "sec_num": null
+      },
+      {
+        "text": "Wastewater infrastructure has seen phenomenal growth across China in recent decades (Zhang et al., 2016; Mumbengegwi, Li and Muhoza, 2018) . From 1991 to 2003, treatment capacities have increased from 400 to 3800 ML (megalitres) and treatment efficiencies from 14.9% to 89.3% (Zhang et al., 2016) . Much of this infrastructure was built for the purposes of sanitation, environmental health, and to serve the need to reuse water due to pressures of growing water demand from rapid urbanization.",
+        "cite_spans": [
+          {
+            "start": 84,
+            "end": 104,
+            "text": "(Zhang et al., 2016;",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 105,
+            "end": 138,
+            "text": "Mumbengegwi, Li and Muhoza, 2018)",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 276,
+            "end": 296,
+            "text": "(Zhang et al., 2016)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Typically, wastewater infrastructure systems span city-scales with large collecting catchments conveying water to centralized wastewater treatment plants (WWTPs), and finally a disposal to the environment (Libralato, Ghirardini and Avezz\u00f9, 2012) . While centralized treatment plants tend to be more cost effective, they are highly reliant on single assets (i.e. the plants themselves) which means that there is great potential for widespread services losses or significant reductions treatment capacity should they become partly or completely inoperable.",
+        "cite_spans": [
+          {
+            "start": 205,
+            "end": 245,
+            "text": "(Libralato, Ghirardini and Avezz\u00f9, 2012)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "Natural disasters have been known to cause problems in wastewater service provision. Significant rainfall for example, may see increased rates of inflow and infiltration often leading to system overflows of raw wastewater to the receiving environments whether it is land or a receiving stormwater/river system. Similarly, WWTPs are often at greater direct risk to fluvial and coastal flooding given the tendency to locate the assets in lower lying areas or near rivers and coasts to take advantage of gravity conveyance and for proximity to a disposal water body. On the other hand, earthquakes and related ground deformation may cause disruptions to the system through pipe breakages, mechanical equipment failures, and structural failures of tanks and related storage equipment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In recent decades, no country other than China has experienced more frequent major damaging natural hazard events, with only the exception of the USA suffering higher economic losses (CRED and UNISDR, 2018). The majority of these expected annual damages in China can be attributed to flooding and earthquakes (CRED and EM-DAT, 2019). Some recent globally significant flooding and earthquake events include the 2016 Yangzte and Huai River Flooding and the 2008 Sichuan Earthquake, both of which resulted in widespread losses of life and property, and infrastructure damage. With climate change, the frequency and severity of climate related flooding hazards are expected to rise, thus posing an ever increasing threat to China's wastewater infrastructure networks -in particular WWTPs given their proximity to water bodies for treated effluent discharge.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "In contrast, while the risk of earthquakes is not necessarily increasing (Shearer and Stark, 2012) compared to climatic hazards, the potential damages from shaking, ground deformation, and secondary hazards are particularly relevant for China given its vast size, proximity to fault lines, and large river systems. Secondary hazards from earthquakes are also of concern, such as the increased flood risk arising from landslide dams in upstream catchments, ground subsidence in coastal areas, and where liquefaction, lateral spreading, and sedimentation leads to bed rises and narrowing of river channels and flood plain.",
+        "cite_spans": [
+          {
+            "start": 73,
+            "end": 98,
+            "text": "(Shearer and Stark, 2012)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "The need to protect vulnerable assets against natural disasters is apparent and one of the first steps towards achieving this is the understanding of how vulnerable assets are exposed to hazards. In this report, we make use of an accurate dataset to identify the number and locations of Chinese wastewater treatment plants exposed to changing probabilities flooding in the context of climate change, as well as those plants that are exposed to significant earthquakes. We limit wastewater network impacts to treatment plant facilities, ignoring any conveyance infrastructure, overflows, and pumping assets located upstream. Further to this analysis, we calculate the number of users each WWTP asset serves, according to population and usage data. Only direct outage, i.e. those caused directly by the hazard are considered. Outages caused by dependent infrastructures, such as to electricity networks supplying the WWTPs are not considered herein.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1."
+      },
+      {
+        "text": "To examine how China's WWTPs are exposed to flooding and earthquakes, we intersect their spatial locations with hazard and susceptibility maps. We present detailed methodology below.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Methodology and Data",
+        "sec_num": "2."
+      },
+      {
+        "text": "We firstly assemble a data set for wastewater treatment works (2,743 assets) from the Chinese Ministry of the Environment (Ministry of the Environment, 2013). The dataset contains full name of the treatment plant, daily capacity, actual amount of wastewater treated and city information. As we do not know the exact location for each plant, we resort to a thorough process of searching plant addresses online and geocoding these in Google Earth and/or Baidu to our database. We then validate this dataset with Google Satellite Images to verify their exact locations. Unfortunately, the location information of several of these treatment plants is either missing or inaccurate, with sometimes the stated plants locations being kilometers away from their actual locations as seen by satellite imagery. As such, we were able to locate 1,346 WWTPs, out of the orginial number 2,743. It is noted that the assets are represented as points in the centroid of the WWTPs, as opposed to the locations of control rooms or elsewhere. In addition, we only focus on complete facilities rather than individual assets within the plants and do not consider exposure differences in treatment stages within a plant nor do we taken into account of the type/quality of outlets which may affect the extent to which WWPTs are impacted post-disasters. Further, WWTPs not in current operation are not considered.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Wastewater Treatment Plants and Users",
+        "sec_num": "2.1."
+      },
+      {
+        "text": "Using the known WWTPs in the supplied dataset, we further estimate the population dependent on the w th plant, Cw, as:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Wastewater Treatment Plants and Users",
+        "sec_num": "2.1."
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "* ,",
+            "eq_num": "(1)"
+          }
+        ],
+        "section": "Wastewater Treatment Plants and Users",
+        "sec_num": "2.1."
+      },
+      {
+        "text": "where , is the daily volume treated in 10,000 m 3 for waste treatment plant w in county b; Vb is the total waste water treated for county b; and is the population of county b. In some cases, we do not have population data for counties therefore our user sample of WWTPs is reduced to 891. Vb is calculated by equation 2as shown below, where we aggregate all the waste water treated in any county b:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Wastewater Treatment Plants and Users",
+        "sec_num": "2.1."
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "6 \u2211 ,",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Wastewater Treatment Plants and Users",
+        "sec_num": "2.1."
+      },
+      {
+        "text": "Flood hazards and their impact on China's WWTP are done in the context of climate change. Firstly, we apply and downscale the CaMa-Flood model for 21 st century China for RCP 4.5 and RCP8.5 at return periods greater than 30, 50 and 100 respectively. Based on these results, we then compute how the probability of flooding may change for specified geographical locations in China and superimpose the wastewater assets we collected onto the changing flood hazard maps. This way we are able to pinpoint the exact infrastructures that face increasing, decreasing or non-changing flooding probabilities due to climate change.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Flood Hazards and Impact on WWTPs",
+        "sec_num": "2.2."
+      },
+      {
+        "text": "We drive a global river routing model -Catchment-Based Macro-scale Floodplain (CaMa-Flood) -using the daily runoff of the Atmospheric and Oceanic General Circulation Models (AOGCMs) at a spatial resolution of 1\u00b0 x 1\u00b01 (Hu et al., 2017) . The CaMa-Flood model routes the runoff input simulated by a land surface model into the oceans or lakes along a prescribed river network (Yamazaki et al., 2011) . It calculates river channel storage, floodplain storage, river discharge, river water depth, and inundated area for each grid cell at a spatial resolution of 0.25\u00b0 x 0.25\u00b0. A recently developed Global Width Database for Large Rivers (GWD-LR) is also incorporated into it (Yamazaki et al., 2011) .",
+        "cite_spans": [
+          {
+            "start": 218,
+            "end": 235,
+            "text": "(Hu et al., 2017)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 375,
+            "end": 398,
+            "text": "(Yamazaki et al., 2011)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 672,
+            "end": 695,
+            "text": "(Yamazaki et al., 2011)",
+            "ref_id": "BIBREF12"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing Flood Hazards",
+        "sec_num": "2.2.1."
+      },
+      {
+        "text": "For the AOGCMs, we adopt a historic and future period (2006-2100 2 ) at representative concentration pathways (RCP) 4.5 and 8.5 (Stocker et al., 2013) . RCPs 4.5 and 8.5 are part of a new set of scenarios used in the new climate model simulations carried out under the framework of the Coupled Model Inter-comparison Project Phase of the World Climate Research Programme. According to IPCC AR5, the RCPs are consistent with a wide range of possible changes in future anthropogenic (i.e. human) greenhouse gas (GHG) emissions. RCP 4.5 assumes that global annual GHG emissions (measured in CO2-equivalents) peak around mid-century and then stabilise around 2100 whereas RCP 8.5 emissions continue to rise throughout the 21st century (Moss et al.,2010 in IPCC 2014 . From the daily river-routing outputs, we extract the annual maxima value of the river water depth (spatial resolutions: 0.25\u00b0 x 0.25\u00b0) for each AOGCM (1970-2100 (131 years) or 1970-2099 (130 years).",
+        "cite_spans": [
+          {
+            "start": 128,
+            "end": 150,
+            "text": "(Stocker et al., 2013)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 731,
+            "end": 748,
+            "text": "(Moss et al.,2010",
+            "ref_id": null
+          },
+          {
+            "start": 749,
+            "end": 761,
+            "text": "in IPCC 2014",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing Flood Hazards",
+        "sec_num": "2.2.1."
+      },
+      {
+        "text": "For each grid-cell within each AOGCM, we extract the annual maxima river water depth of the period 1970-1999 to quantify the Gumbel distribution parameters, which represent extreme value statistics for the late 20 th century. With these parameters, we estimate the return period of the annual maxima for 1970-2100 and 1970-2099. Based on the Gumbel distribution parameters of the baseline period (Hu et al., 2016, Section 3.4 .1), we calculate the 'equivalent' river water depth of the baseline for each AOGCM as a way of reducing bias.",
+        "cite_spans": [
+          {
+            "start": 396,
+            "end": 425,
+            "text": "(Hu et al., 2016, Section 3.4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing Flood Hazards",
+        "sec_num": "2.2.1."
+      },
+      {
+        "text": "Using high resolution DEM maps, we downscale and prepare the flood inundation map (i.e. flood fraction 0 to 1.0) for each AOGCM (spatial resolutions: 2.5 min x 2.5 min) (Hu et al., 2015) . From these outcomes, we extract the flood extent for return periods greater than 1 in 100 years, 1 in 50 years and 1 in 30 years and produce the mean flood inundation map for 2016-2035 and 2036-2055 at RCP4.5 and RCP8.5 respectively. We selected these return periods because the flood protection standard for Chinese infrastructures typically ranges between 1 in 10 years to 1 in 100 years, as required by the law.",
+        "cite_spans": [
+          {
+            "start": 169,
+            "end": 186,
+            "text": "(Hu et al., 2015)",
+            "ref_id": "BIBREF2"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing Flood Hazards",
+        "sec_num": "2.2.1."
+      },
+      {
+        "text": "With the above outcomes, we evaluate the extent of changing flooding probability, calculating the difference between two selected subsequent periods. Here we subtract the inundation value for each grid (spatial resolutions: 2.5 min x 2.5 min) and estimate the total flooded area between period 1 as defined by the difference between 1986-2005 and 2016-2035, and period 2 as defined by the difference between 1986-2005 and 2036-2055, for both pathways RCP4.5 and RCP8.5. This difference indicates how specified grids in China would face different levels of changing flood probabilitiesincreasing, decreasing or a continuation of the status quo.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Changing Flood Hazards",
+        "sec_num": "2.2.1."
+      },
+      {
+        "text": "To demonstrate how Chinese wastewater treatment plants may be exposed to the changing probability of flooding, we identify those wastewater plants that face increasing, decreasing or nonchanging flooding hazard by intersecting them with inundation cells, as estimated above. We subsequently calculate the net change, as defined by the difference between the number of assets facing increasing hazard and those that face decreasing hazard. We also calculate the number of users each wastewater plant serves, as described in Section 2.1, as well as the those that face increasing/decreasing flood hazards. Below we explain the detailed process of estimating the flood exposure of China's WWTPs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimating impact on WWTP",
+        "sec_num": "2.2.2."
+      },
+      {
+        "text": "To understand the exposure to flooding we look at the spatial intersection of particular assets with the flood grid cells. The flood grid cells are denoted by \u210e , \u2026 , \u210e is space. For each particular grid cell, \u210e , we first estimate the change in flood fraction \u2206 between the representative time period (e.g. 2016-2035) and the baseline (1986) (1987) (1988) (1989) (1990) (1991) (1992) (1993) (1994) (1995) (1996) (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) for the particular return period and RCP scenarios.",
+        "cite_spans": [
+          {
+            "start": 336,
+            "end": 342,
+            "text": "(1986)",
+            "ref_id": null
+          },
+          {
+            "start": 343,
+            "end": 349,
+            "text": "(1987)",
+            "ref_id": null
+          },
+          {
+            "start": 350,
+            "end": 356,
+            "text": "(1988)",
+            "ref_id": null
+          },
+          {
+            "start": 357,
+            "end": 363,
+            "text": "(1989)",
+            "ref_id": null
+          },
+          {
+            "start": 364,
+            "end": 370,
+            "text": "(1990)",
+            "ref_id": null
+          },
+          {
+            "start": 371,
+            "end": 377,
+            "text": "(1991)",
+            "ref_id": null
+          },
+          {
+            "start": 378,
+            "end": 384,
+            "text": "(1992)",
+            "ref_id": null
+          },
+          {
+            "start": 385,
+            "end": 391,
+            "text": "(1993)",
+            "ref_id": null
+          },
+          {
+            "start": 392,
+            "end": 398,
+            "text": "(1994)",
+            "ref_id": null
+          },
+          {
+            "start": 399,
+            "end": 405,
+            "text": "(1995)",
+            "ref_id": null
+          },
+          {
+            "start": 406,
+            "end": 412,
+            "text": "(1996)",
+            "ref_id": null
+          },
+          {
+            "start": 413,
+            "end": 419,
+            "text": "(1997)",
+            "ref_id": null
+          },
+          {
+            "start": 420,
+            "end": 426,
+            "text": "(1998)",
+            "ref_id": null
+          },
+          {
+            "start": 427,
+            "end": 433,
+            "text": "(1999)",
+            "ref_id": null
+          },
+          {
+            "start": 434,
+            "end": 440,
+            "text": "(2000)",
+            "ref_id": null
+          },
+          {
+            "start": 441,
+            "end": 447,
+            "text": "(2001)",
+            "ref_id": null
+          },
+          {
+            "start": 448,
+            "end": 454,
+            "text": "(2002)",
+            "ref_id": null
+          },
+          {
+            "start": 455,
+            "end": 461,
+            "text": "(2003)",
+            "ref_id": null
+          },
+          {
+            "start": 462,
+            "end": 468,
+            "text": "(2004)",
+            "ref_id": null
+          },
+          {
+            "start": 469,
+            "end": 475,
+            "text": "(2005)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimating impact on WWTP",
+        "sec_num": "2.2.2."
+      },
+      {
+        "text": "To estimate the numbers of WWTPs flooding we intersect the wastewater assets with the flood cells. We assemble the results based on whether the change is flood fractions are positive (for increasing flood exposures) or negative (for decreasing flood exposures). Hence, two types of results sets are created: ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimating impact on WWTP",
+        "sec_num": "2.2.2."
+      },
+      {
+        "text": "Direct earthquake impacts on WWTPs are largely due to ground shaking and ground failures, with individual components or stages of the wastewater treatment process responding in different ways. For example, non-structural elements, such as scrapers, aerators, and mechanical equipment are largely be affected by excessive shaking. Whereas, ground deformation (in the form of fault rupture, landslides, and liquefaction causing settlement or lateral spreading), lead to breakages, lifting, and deformations of structural elements, such as tanks, pipes, or treatment pond bunds. The actual shaking properties required to initiate such processes vary significantly spatially -even at very local scales. This ensures predicting damage due to both shaking and ground deformation on a wider WWTP facilities remains a challenge.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Earthquake Hazards and Impact on WWTPs",
+        "sec_num": "2.3."
+      },
+      {
+        "text": "Given the myriad of data that is required to carry out a detailed analysis at each WWTP site, we instead adopt two readily available measures to provide a proxy for estimating asset damage. These are: Peak Ground Acceleration (PGA) and Liquefaction Susceptibility. PGA is an important ground motion parameter used in earthquake engineering applications and design as structural damage is often closely correlated. Liquefaction susceptibility is a measure of how susceptible local ground conditions would be to liquefy given sufficient ground shaking is experienced. Combined these parameters can give a proxy for a combined likelihood of a WWTP facility experiencing damage in an earthquake via the two predominant causes: shaking and ground deformation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Earthquake Hazards and Impact on WWTPs",
+        "sec_num": "2.3."
+      },
+      {
+        "text": "As with the flooding exposure analysis above, PGA and Liquefaction Susceptibility parameters are assigned to each WWTP through a simple spatial intersection. These datasets are described in the following section.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Earthquake Hazards and Impact on WWTPs",
+        "sec_num": "2.3."
+      },
+      {
+        "text": "PGA hazard maps are for return periods of 250-, 475-, 950-, 1500 250-, 475-, 950-, -, and 2475 250-, 475-, 950-, -years (UNISDR, 2015 . As these were created at the global scale, we note that they may underestimate the hazard in local areas for fault lines not captured in historical catalogues. As a result, rather than relying on absolute values of horizontal acceleration, we instead group PGA into five discrete categories: Very High VH (>0.65g), High H (0.34g -0.65g), Medium M (0.18g -0.34g), Low L (0.092g -0.18g), and Very Low VL (<0.092g). It should be noted that these labels are qualitative, and the actual impacts do not necessarily correlate with the description given the great variability in local conditions and design standards.",
+        "cite_spans": [
+          {
+            "start": 42,
+            "end": 64,
+            "text": "250-, 475-, 950-, 1500",
+            "ref_id": null
+          },
+          {
+            "start": 65,
+            "end": 94,
+            "text": "250-, 475-, 950-, -, and 2475",
+            "ref_id": null
+          },
+          {
+            "start": 95,
+            "end": 133,
+            "text": "250-, 475-, 950-, -years (UNISDR, 2015",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Hazard Datasets",
+        "sec_num": "2.3.1."
+      },
+      {
+        "text": "Similar categories are assumed for liquefaction susceptibility: VH, H, M, L, VL. These are based on a readily available dataset created for use at the global scale (Zorn and Koks, 2019) using a calibrated geospatial prediction model (Zhu, Baise and Thompson, 2017) . This approach defines liquefaction susceptibility based on a range of parameters such as: distance to rivers, depth to groundwater, annual precipitation, distance to coast, and 30-m averaged shear wave velocity (Vs30). As with PGA, site specifics such as soil drainage, the use of infill, and Vs30 (amongst others) are overlooked in the method. Regardless, this method has shown promising predictive capacity and is adopted in a number of national and global applications (Lin et al., 2018; Koks et al., 2019) (Lin et al. 2018 , Koks et al. 2019 .",
+        "cite_spans": [
+          {
+            "start": 164,
+            "end": 185,
+            "text": "(Zorn and Koks, 2019)",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 233,
+            "end": 264,
+            "text": "(Zhu, Baise and Thompson, 2017)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 739,
+            "end": 757,
+            "text": "(Lin et al., 2018;",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 758,
+            "end": 776,
+            "text": "Koks et al., 2019)",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 777,
+            "end": 793,
+            "text": "(Lin et al. 2018",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 794,
+            "end": 812,
+            "text": ", Koks et al. 2019",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Hazard Datasets",
+        "sec_num": "2.3.1."
+      },
+      {
+        "text": "We draw two main conclusions from this analysis. First, there will be more assets and users that face increasing flood hazards in both the near future by 2035 and far future by 2055 ( Figures 1-4 ). However, this number varies depending on the individual model and return periods examined. For instance, the highest from Model BCC-CSM1-1 projects the number of assets exposed to net increase flooding hazards is 472 and a potential 17.5 million users could be affected for RCP 4.5 at return period 30 by 2035. The lowest for the same set of assumptions projects 29 and a potential of 7.8 million affected users. In particular, we find that the number of assets and their users facing net increasing flooding hazards are almost always higher for a lower return period than a higher return period, implying that the focus on extreme events is often overlooked and we should be paying more attention to flood risks at lower magnitudes. . WWTP and user exposure to net change (positive, zero or negative) of flood hazards for all models at return periods greater than 1 in 30, 1 in 50 and 1 in 100 years for RCP8.5. Time period: (1986-2005) to (2036-2055) Second, the spatial variation is extremely important for planning climate resilient infrastructure as exposure of infrastructures to natural hazards is highly location-sensitive. To demonstrate this, we select WWTPs and superimpose changing flooding hazard maps for return period > 50, varying RCP and time period for model MPI-ESM-LR ( Figure 5 ). This model represents the medium range of all models, which is a reasonable scenario of flooding extent in the future periods concerned.",
+        "cite_spans": [
+          {
+            "start": 1125,
+            "end": 1151,
+            "text": "(1986-2005) to (2036-2055)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 184,
+            "end": 195,
+            "text": "Figures 1-4",
+            "ref_id": "FIGREF1"
+          },
+          {
+            "start": 1489,
+            "end": 1497,
+            "text": "Figure 5",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Flood Exposure",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "We observe that by 2035, flood hazards for RCP 4.5 are concentrated along the Yangtze River (Figure 5a ), in southern Hubei, northern Hunan, central Anhui, northern Jiangxi and Shanghai. Provinces such as Guangxi, Guizhou and Ningxia face wide-spread increasing flood hazard whereas Shaanxi (north), Shandong (northwest), Qinghai (central-north), Heilongjiang (east), Tibet (central) experience regional specific flood hazard. The WWTPs located in these areas, if not designed to an appropriate level, will face increase flooding hazards. By 2055, flooding hazard escalate in large parts of Tibet and Xinjiang, Inner Mongolia. The WWTPs located in these regions, not previously exposed to flooding hazards at return period 50, now face increasing risks. For RCP8.5, concentrations of increasing flooding probability are similar to RCP4.5 during the period 2016-2035, along the Yangtze River. Notable differences are in regions such as northern Heilongjiang, Jilin and northern Inner Mongolia, which suffer increasing flood hazard whereas they do not in RCP4.5. By 2055, hazards become widespread with very few areas left intact.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 92,
+            "end": 102,
+            "text": "(Figure 5a",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Flood Exposure",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "Decreasing flood hazard, on the other hand, is less in extent in general. For RCP 4.5, most are concentrated in Hebei, eastern Sichuan and central Jiangsu, eastern Inner Mongolia. By 2055, the overall number of areas facing decreasing probability of flooding declines. For RCP 8.5, it is similar to RCP 4.5.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Flood Exposure",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "Not only understanding the location of WWTP is important, it is also crucial to know what the protection standards are. In some cases, areas along the Yangtze River no longer face increasing hazard (compare Figure 5a and 5c ). However, this does not mean that the WWTPs are safe. If they are designed at a return period lower than 50, for example, at 30, it could still be facing increasing flood hazards. Figures 5b and 5d ). Time period (1986) (1987) (1988) (1989) (1990) (1991) (1992) (1993) (1994) (1995) (1996) (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) to (2016-2035) is shown in Figures 5a and 5b whereas time period (1986) (1987) (1988) (1989) (1990) (1991) (1992) (1993) (1994) (1995) (1996) (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) to (2036-2055) is shown in Figures 5c and 5d . Note: The boundaries, colors, denominations and any other information shown on this map do not imply, on the part of the World Bank Group, any judgment on the legal status of any territory, or any endorsement or acceptance of such boundaries. ",
+        "cite_spans": [
+          {
+            "start": 439,
+            "end": 445,
+            "text": "(1986)",
+            "ref_id": null
+          },
+          {
+            "start": 446,
+            "end": 452,
+            "text": "(1987)",
+            "ref_id": null
+          },
+          {
+            "start": 453,
+            "end": 459,
+            "text": "(1988)",
+            "ref_id": null
+          },
+          {
+            "start": 460,
+            "end": 466,
+            "text": "(1989)",
+            "ref_id": null
+          },
+          {
+            "start": 467,
+            "end": 473,
+            "text": "(1990)",
+            "ref_id": null
+          },
+          {
+            "start": 474,
+            "end": 480,
+            "text": "(1991)",
+            "ref_id": null
+          },
+          {
+            "start": 481,
+            "end": 487,
+            "text": "(1992)",
+            "ref_id": null
+          },
+          {
+            "start": 488,
+            "end": 494,
+            "text": "(1993)",
+            "ref_id": null
+          },
+          {
+            "start": 495,
+            "end": 501,
+            "text": "(1994)",
+            "ref_id": null
+          },
+          {
+            "start": 502,
+            "end": 508,
+            "text": "(1995)",
+            "ref_id": null
+          },
+          {
+            "start": 509,
+            "end": 515,
+            "text": "(1996)",
+            "ref_id": null
+          },
+          {
+            "start": 516,
+            "end": 522,
+            "text": "(1997)",
+            "ref_id": null
+          },
+          {
+            "start": 523,
+            "end": 529,
+            "text": "(1998)",
+            "ref_id": null
+          },
+          {
+            "start": 530,
+            "end": 536,
+            "text": "(1999)",
+            "ref_id": null
+          },
+          {
+            "start": 537,
+            "end": 543,
+            "text": "(2000)",
+            "ref_id": null
+          },
+          {
+            "start": 544,
+            "end": 550,
+            "text": "(2001)",
+            "ref_id": null
+          },
+          {
+            "start": 551,
+            "end": 557,
+            "text": "(2002)",
+            "ref_id": null
+          },
+          {
+            "start": 558,
+            "end": 564,
+            "text": "(2003)",
+            "ref_id": null
+          },
+          {
+            "start": 565,
+            "end": 571,
+            "text": "(2004)",
+            "ref_id": null
+          },
+          {
+            "start": 572,
+            "end": 578,
+            "text": "(2005)",
+            "ref_id": null
+          },
+          {
+            "start": 644,
+            "end": 650,
+            "text": "(1986)",
+            "ref_id": null
+          },
+          {
+            "start": 651,
+            "end": 657,
+            "text": "(1987)",
+            "ref_id": null
+          },
+          {
+            "start": 658,
+            "end": 664,
+            "text": "(1988)",
+            "ref_id": null
+          },
+          {
+            "start": 665,
+            "end": 671,
+            "text": "(1989)",
+            "ref_id": null
+          },
+          {
+            "start": 672,
+            "end": 678,
+            "text": "(1990)",
+            "ref_id": null
+          },
+          {
+            "start": 679,
+            "end": 685,
+            "text": "(1991)",
+            "ref_id": null
+          },
+          {
+            "start": 686,
+            "end": 692,
+            "text": "(1992)",
+            "ref_id": null
+          },
+          {
+            "start": 693,
+            "end": 699,
+            "text": "(1993)",
+            "ref_id": null
+          },
+          {
+            "start": 700,
+            "end": 706,
+            "text": "(1994)",
+            "ref_id": null
+          },
+          {
+            "start": 707,
+            "end": 713,
+            "text": "(1995)",
+            "ref_id": null
+          },
+          {
+            "start": 714,
+            "end": 720,
+            "text": "(1996)",
+            "ref_id": null
+          },
+          {
+            "start": 721,
+            "end": 727,
+            "text": "(1997)",
+            "ref_id": null
+          },
+          {
+            "start": 728,
+            "end": 734,
+            "text": "(1998)",
+            "ref_id": null
+          },
+          {
+            "start": 735,
+            "end": 741,
+            "text": "(1999)",
+            "ref_id": null
+          },
+          {
+            "start": 742,
+            "end": 748,
+            "text": "(2000)",
+            "ref_id": null
+          },
+          {
+            "start": 749,
+            "end": 755,
+            "text": "(2001)",
+            "ref_id": null
+          },
+          {
+            "start": 756,
+            "end": 762,
+            "text": "(2002)",
+            "ref_id": null
+          },
+          {
+            "start": 763,
+            "end": 769,
+            "text": "(2003)",
+            "ref_id": null
+          },
+          {
+            "start": 770,
+            "end": 776,
+            "text": "(2004)",
+            "ref_id": null
+          },
+          {
+            "start": 777,
+            "end": 783,
+            "text": "(2005)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 207,
+            "end": 223,
+            "text": "Figure 5a and 5c",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 406,
+            "end": 423,
+            "text": "Figures 5b and 5d",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 606,
+            "end": 623,
+            "text": "Figures 5a and 5b",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 811,
+            "end": 828,
+            "text": "Figures 5c and 5d",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Flood Exposure",
+        "sec_num": "3.1."
+      },
+      {
+        "text": "The spatial locations of WWTPs with respect to two return period PGA (250-and 2475-year) surfaces and liquefaction susceptibility are presented in Figure 6 below. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 147,
+            "end": 155,
+            "text": "Figure 6",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Earthquake Exposure",
+        "sec_num": "3.2."
+      },
+      {
+        "text": "In general, the western regions of mainland China and Beijing surrounds show the highest seismic shaking risks. As actual damage to WWTPs dependent greatly on the design standards of the plants, we note that the assigned VL areas are not necessarily risk free, particularly when considering potential ground deformation and other secondary hazards. Such higher liquefaction susceptibilities are observed in the lower lying central east coast regions and far west, particularly surrounding the sandy Tamrin Basin area where there are comparatively few treatment plants given lower population densities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Liquefaction Susceptibility",
+        "sec_num": null
+      },
+      {
+        "text": "The counts of these and potential affected users within each PGA and liquefaction susceptibility class are presented in Tables 1 and 2 . We see the combination of PGA classes (rows), liquefaction groups (columns), and overall grouping (colour scheme). While the colour shading is somewhat subjective, we generally make the assumption that the highest levels of shaking and liquefaction susceptibility will result in the greatest damage potential, whereas the lowest levels of shaking will not necessarily cause significant damages and therefore have the lowest damage potential.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 120,
+            "end": 134,
+            "text": "Tables 1 and 2",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Liquefaction Susceptibility",
+        "sec_num": null
+      },
+      {
+        "text": "When considering shaking in isolation (rows), as one could expect, greater numbers of WWTPs (and dependent populations) are exposed to higher shaking classes with greater return period events. Overall, we see few WWTPs located in areas with High classifications of PGA shaking -ranging from 0 to 5% of our data across the studied return periods.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Liquefaction Susceptibility",
+        "sec_num": null
+      },
+      {
+        "text": "When considering liquefaction susceptibility in isolation, we see the majority of WWTPs are located in areas with High or Very High liquefaction susceptibility. This is similarly reflected in Figure 6 where a large concentration of WWTPs service the east coast provinces surrounding Shanghai, Beijing, and other major urban centers.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 192,
+            "end": 200,
+            "text": "Figure 6",
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Liquefaction Susceptibility",
+        "sec_num": null
+      },
+      {
+        "text": "When considering the combination of shaking exposure and liquefaction susceptibility, we identify a number of WWTPs (and dependent populations) that show the potential for greater damages when shaking in isolation. An example being, for 2475-year return period PGA, 231 WWTPs are exposed to our definition of medium shaking (0.18-0.34g), however, the majority of these (>53%) could in fact be at far greater risk to ground deformation induced damages given their High/Very High liquefaction susceptibility groupings. Ultimately, this means that over half of these WWTPs could be in fact far more vulnerable to seismic hazards than initially anticipated if one was just to consider PGA as a sole indicator of risk. These combined PGA/liquefaction susceptibility classifications as indicated by their colour shading are collated in Figure 7 (excluding dark green). Further example spatial distributions for 250-and 2475-year return periods are shown in Figure 8 . 8 . Combined PGA and liquefaction susceptibility classes for the color scheme given in Table 3 and Figure 7 across 250-and 2475-year return period PGA events. Note: The boundaries, colors, denominations and any other information shown on this map do not imply, on the part of the World Bank Group, any judgment on the legal status of any territory, or any endorsement or acceptance of such boundaries.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 830,
+            "end": 838,
+            "text": "Figure 7",
+            "ref_id": "FIGREF7"
+          },
+          {
+            "start": 951,
+            "end": 959,
+            "text": "Figure 8",
+            "ref_id": null
+          },
+          {
+            "start": 962,
+            "end": 963,
+            "text": "8",
+            "ref_id": null
+          },
+          {
+            "start": 1049,
+            "end": 1056,
+            "text": "Table 3",
+            "ref_id": null
+          },
+          {
+            "start": 1061,
+            "end": 1069,
+            "text": "Figure 7",
+            "ref_id": "FIGREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Liquefaction Susceptibility",
+        "sec_num": null
+      },
+      {
+        "text": "Overall, we see the combined PGA/liquefaction susceptibility groupings vary significantly across China. Understandably, areas of high seismicity are generally higher rated given the expected direct correlation with shaking and both structural and non-structural damages.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Liquefaction Susceptibility",
+        "sec_num": null
+      },
+      {
+        "text": "Combined 250-year PGA and Liquefaction Susceptibility Combined 2475-year PGA and Liquefaction Susceptibility",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Liquefaction Susceptibility",
+        "sec_num": null
+      },
+      {
+        "text": "There are a number of natural extensions to this work including: (i) defining explicit fragilities of different WWTP components to better define a risk of damage to both shaking and ground deformation, as well as to flood depths, (ii) a further completed wastewater network in both WWTP assets and representations of outlet structures and possible conveyance infrastructure densities in upstream catchments, (iii) a more complete understanding of the spatial variability in earthquake/flood design standards to clarify the most appropriate return periods to use. For earthquake specifically, we need to adopt more localized PGA and VS30 models derived specifically for China, and PGV (peak ground velocity) maps for specific events to enable probabilities of liquefaction to be presented as opposed to susceptibility.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Next steps",
+        "sec_num": "4."
+      },
+      {
+        "text": "The full list of AOGCMs is available in the supplementary materials section of Hirabayashi et al. (2013), inTable S1.2 For most of the AOGCMs, the period is 2006-2100. For BCC-CSM1.1, we have 2006-2099.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Figure 2.WWTP (top) and user exposure (bottom) to net change (positive, zero or negative) of flood hazards for all models at return periods greater than 1 in 30, 1 in 50 and 1 in 100 years for RCP 8.5.Time period: (1986Time period: ( -2005 to (2016-2035).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "The OFDA/CRED -International Disaster Database",
+        "authors": [
+          {
+            "first": "Em-Dat",
+            "middle": [],
+            "last": "Cred",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Available at: www.emdat.be",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "CRED and EM-DAT (2019) The OFDA/CRED -International Disaster Database. Available at: www.emdat.be (Accessed: 11 March 2019).",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Economic Losses, Poverty & Disasters",
+        "authors": [
+          {
+            "first": "Unisdr",
+            "middle": [],
+            "last": "Cred",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "CRED and UNISDR (2018) Economic Losses, Poverty & Disasters 1998-2017. Available at: https://www.unisdr.org/files/61119_credeconomiclosses.pdf.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "The spatial exposure of the Chinese infrastructure system to flooding and drought hazards', Natural Hazards",
+        "authors": [
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Hu",
+            "suffix": ""
+          }
+        ],
+        "year": 2015,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.1007/s11069-015-2012-3"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Hu, X. et al. (2015) 'The spatial exposure of the Chinese infrastructure system to flooding and drought hazards', Natural Hazards. doi: 10.1007/s11069-015-2012-3.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "The Spatial Exposure of China's Infrastructure System to Flooding Risks in the Context of Climate Change",
+        "authors": [
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Hu",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "The Fifth Green Growth Knowledge Platform (GGKP) Annual Conference",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hu, X. et al. (2017) 'The Spatial Exposure of China's Infrastructure System to Flooding Risks in the Context of Climate Change', in The Fifth Green Growth Knowledge Platform (GGKP) Annual Conference. Washington, D.C.: Green Growth Knowledge Platform. Available at: http://www.greengrowthknowledge.org/resource/spatial-exposure-china's-infrastructure-system- flooding-risks-context-climate-change.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "To centralise or to decentralise : An overview of the most recent trends in wastewater treatment management",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Libralato",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "V"
+            ],
+            "last": "Ghirardini",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Avezz\u00f9",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Journal of Environmental Management",
+        "volume": "94",
+        "issue": "1",
+        "pages": "61--68",
+        "other_ids": {
+          "DOI": [
+            "10.1016/j.jenvman.2011.07.010"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Libralato, G., Ghirardini, A. V. and Avezz\u00f9, F. (2012) 'To centralise or to decentralise : An overview of the most recent trends in wastewater treatment management', Journal of Environmental Management. Elsevier Ltd, 94(1), pp. 61-68. doi: 10.1016/j.jenvman.2011.07.010.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "National-scale infrastructure network exposure to liquefaction using geospatial techniques",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Lin",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "International Conference on GIS and Geoinformation Zoning for Disaster Mitigation",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lin, A. et al. (2018) 'National-scale infrastructure network exposure to liquefaction using geospatial techniques', in International Conference on GIS and Geoinformation Zoning for Disaster Mitigation. Auckland, New Zealand.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Statistics on national urban sewage treatment facilities in China",
+        "authors": [],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "1--204",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ministry of the Environment (2013) 'Statistics on national urban sewage treatment facilities in China (\u5168\u56fd \u6295\u8fd0\u57ce\u9547\u6c61\u6c34\u5904\u7406\u8bbe\u65bd\u6e05\u5355)', pp. 1-204. Available at: http://www.mep.gov.cn/gkml/hbb/bgg/201305/W020130508476747765965.pdf.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "An Overview of Sewage Treatment Rates in Chinese Cities",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Mumbengegwi",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Li",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "P"
+            ],
+            "last": "Muhoza",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "International Journal of Waste Resources",
+        "volume": "8",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.4172/2252-5211.1000333"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Mumbengegwi, D., Li, T. and Muhoza, J. P. (2018) 'An Overview of Sewage Treatment Rates in Chinese Cities', International Journal of Waste Resources, 8(2). doi: 10.4172/2252-5211.1000333.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Global risk of big earthquakes has not recently increased",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [
+              "M"
+            ],
+            "last": "Shearer",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [
+              "B"
+            ],
+            "last": "Stark",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "109",
+        "issue": "",
+        "pages": "717--721",
+        "other_ids": {
+          "DOI": [
+            "10.1073/pnas.1118525109"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Shearer, P. M. and Stark, P. B. (2012) 'Global risk of big earthquakes has not recently increased', PNAS, 109(3), pp. 717-721. doi: 10.1073/pnas.1118525109.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Stocker",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Stocker, T. . et al. (2013) Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge, United Kingdom.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "GAR Risk Data Platform",
+        "authors": [],
+        "year": 2015,
+        "venue": "UNISDR Global Assessment Report. Available",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "UNISDR (2015) GAR Risk Data Platform, UNISDR Global Assessment Report. Available at: https://risk.preventionweb.net/capraviewer/main.jsp?countrycode=g15 (Accessed: 11 March 2019).",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "A physically based description of floodplain inundation dynamics in a global river routing model",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Yamazaki",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Water Resources Research",
+        "volume": "47",
+        "issue": "4",
+        "pages": "1--21",
+        "other_ids": {
+          "DOI": [
+            "10.1029/2010WR009726"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Yamazaki, D. et al. (2011) 'A physically based description of floodplain inundation dynamics in a global river routing model', Water Resources Research, 47(4), pp. 1-21. doi: 10.1029/2010WR009726.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Current status of urban wastewater treatment plants in China",
+        "authors": [
+          {
+            "first": "Q",
+            "middle": [
+              "H"
+            ],
+            "last": "Zhang",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Environment International",
+        "volume": "",
+        "issue": "",
+        "pages": "11--22",
+        "other_ids": {
+          "DOI": [
+            "10.1016/j.envint.2016.03.024"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Zhang, Q. H. et al. (2016) 'Current status of urban wastewater treatment plants in China', Environment International, 92-93, pp. 11-22. doi: 10.1016/j.envint.2016.03.024.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "An updated geospatial liquefaction model for global application",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Zhu",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Baise",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Thompson",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Bulletin of the Seismological Society of America",
+        "volume": "107",
+        "issue": "3",
+        "pages": "1365--1385",
+        "other_ids": {
+          "DOI": [
+            "10.1785/0120160198"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Zhu, J., Baise, L. and Thompson, M. (2017) 'An updated geospatial liquefaction model for global application.', Bulletin of the Seismological Society of America, 107(3), pp. 1365-1385. doi: https://doi.org/10.1785/0120160198.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Global liquefaction susceptibility map (Version 1) [Data set",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Zorn",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Koks",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {
+          "DOI": [
+            "10.5281/zenodo.2583746"
+          ]
+        },
+        "num": null,
+        "urls": [],
+        "raw_text": "Zorn, C. and Koks, E. (2019) Global liquefaction susceptibility map (Version 1) [Data set]. doi: http://doi.org/10.5281/zenodo.2583746.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "the number of assets (and their users) at increasing exposure to flood are estimated as | |, and those (and their users) at decreasing exposure to flooding are estimated as | |, while the assets (and their users) with no-changes in flood exposures are estimated as | | | | | | where | | is the total number of WWTPs.",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF1": {
+        "text": "WWTP (top)  and user exposure (bottom) to net change (positive, zero or negative) of flood hazards for all models at return periods greater than 1 in 30, 1 in 50 and 1 in 100 years for RCP 4.5.Time period: (1986Time period: ( -2005 to (2016-2035).",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": "1"
+      },
+      "FIGREF2": {
+        "text": "WWTP and user exposure to net change (positive, zero or negative) of flood hazards for all models at return periods greater than 1 in 30, 1 in 50 and 1 in 100 years for RCP 4.5.Time period: (1986Time period: ( -2005 to (2036-2055).",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": "3"
+      },
+      "FIGREF3": {
+        "text": "Figure 4. WWTP and user exposure to net change (positive, zero or negative) of flood hazards for all models at return periods greater than 1 in 30, 1 in 50 and 1 in 100 years for RCP8.5. Time period: (1986-2005) to (2036-2055)",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": "4"
+      },
+      "FIGREF4": {
+        "text": "Locations of WWTP exposed to changing (increasing, decreasing, non-changing) flood hazard for model MPI-ESM-LR. Squares are power plants facing decreasing flood hazard; triangles are power plants facing increasing flood hazards; circles are power plants facing non-changing flood hazards. All figures are for return period greater than 50, but we vary RCP (4.5 inFigures 5a and 5c; 8.5 in",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": "5"
+      },
+      "FIGREF6": {
+        "text": "WWTP facility locations with respect to the greatest (250-year) and smallest (2475-year) annual exceedance probabilities and liquefaction susceptibility. Note: The boundaries, colors, denominations and any other information shown on this map do not imply, on the part of the World Bank Group, any judgment on the legal status of any territory, or any endorsement or acceptance of such boundaries.",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": "6"
+      },
+      "FIGREF7": {
+        "text": "Combined PGA/liquefaction susceptiibility classifications for those WWTPs using the same color scheme as presented inTable 3.",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": "7"
+      },
+      "FIGREF8": {
+        "text": "Figure 8. Combined PGA and liquefaction susceptibility classes for the color scheme given in Table 3 and Figure 7 across 250-and 2475-year return period PGA events. Note: The boundaries, colors, denominations and any other information shown on this map do not imply, on the part of the World Bank Group, any judgment on the legal status of any territory, or any endorsement or acceptance of such boundaries.",
+        "uris": null,
+        "num": null,
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "TABREF0": {
+        "text": "Number of WWTPs in different hazard bands across 250-, 475-, 975-, 1500-, and 2475-year return period PGA with liquefaction susceptibility.",
+        "num": null,
+        "html": null,
+        "type_str": "table",
+        "content": "<table><tr><td/><td/><td/><td/><td>Liquefaction Group</td><td/></tr><tr><td/><td/><td>VL</td><td>L</td><td>M</td><td>H</td><td>VH</td></tr><tr><td/><td>VH</td><td/><td/><td/><td/></tr><tr><td/><td>H</td><td/><td/><td/><td/></tr><tr><td>PGA 250-years</td><td>M</td><td>2</td><td/><td>11</td><td>17</td><td>1</td></tr><tr><td/><td>L</td><td>24</td><td/><td>44</td><td>46</td><td>6</td></tr><tr><td/><td>VL</td><td>196</td><td>10</td><td>296</td><td>568</td><td>125</td></tr></table>"
+      },
+      "TABREF1": {
+        "text": "Population (millions) with reduced wastewater system functionality in different hazard bands across 250-, 475-, 975-, 1500-, and 2475-year return period PGA with liquefaction susceptibility. The specific return periods are given in each table. Columns add to ~460 million with values rounded for readability.",
+        "num": null,
+        "html": null,
+        "type_str": "table",
+        "content": "<table><tr><td/><td/><td/><td/><td>Liquefaction Group</td><td/></tr><tr><td/><td/><td>VL</td><td>L</td><td>M</td><td>H</td><td>VH</td></tr><tr><td/><td>VH</td><td/><td/><td/><td/></tr><tr><td/><td>H</td><td/><td/><td/><td/></tr><tr><td>PGA 250-years</td><td>M</td><td>0.7</td><td/><td>3</td><td>6</td><td>0.6</td></tr><tr><td/><td>L</td><td>7</td><td/><td>13</td><td>12</td><td>2</td></tr><tr><td/><td>VL</td><td>60</td><td>2</td><td>109</td><td>196</td><td>49</td></tr><tr><td/><td>VH</td><td/><td/><td/><td/></tr><tr><td/><td>H</td><td/><td/><td>0.5</td><td/></tr><tr><td>PGA 475-years</td><td>M</td><td>5</td><td/><td>7</td><td>9</td><td>0.6</td></tr><tr><td/><td>L</td><td>10</td><td/><td>17</td><td>22</td><td>3</td></tr><tr><td/><td>VL</td><td>53</td><td>2</td><td>101</td><td>182</td><td>48</td></tr><tr><td/><td>VH</td><td/><td/><td/><td/></tr><tr><td/><td>H</td><td/><td/><td>3</td><td>6</td><td>0.6</td></tr><tr><td>PGA 975-years</td><td>M</td><td>6</td><td/><td>13</td><td>10</td><td>2</td></tr><tr><td/><td>L</td><td>23</td><td/><td>30</td><td>61</td><td>5</td></tr><tr><td/><td>VL</td><td>38</td><td>2</td><td>79</td><td>136</td><td>44</td></tr></table>"
+      }
+    }
+  }
+}

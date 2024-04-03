@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07424: Table 6 reports the results of panel data regressions of import capacity on total grants (pure grants plus ODA debt relief), for the sample three groups of countries.\n\ns_07474: The following table summarizes our cost findings.\n\ns_07524: POLICY RESEARCH WORKING PAPER 1214\n\ns_07574: Scrutiny of these results yields the following observations:\n\ns_07624: This paper is a product of the Financial Advisory Services Group, Cofinancing and Financial Advisory Services Department.\n\ns_07674: The study assesses the effects of panterritorial pricing empirically, on the data of one country, the Cote d'Ivoire and one of its chief export crops, cotton.\n\ns_07724: What are the principal conclusions that we can draw from the study ?\n\ns_07774: SeeCornia (1987),IDB (1987b),PREALC (1985), van der Gaag,Stelcner and Vijverberg (1989), andTokman (1986).\n\ns_07824: Table 4 .5 summarizes the various scenarios examined.\n\ns_07874: Recent evidence 2 0 suggests that this would be reasonable to assume although it is clear that only country-specific information would be helpful in this regard.\n\ns_07924: Until the study described in this paper was undertaken, there was little information available on household demand for improved water services in Nigeria which could help clarify the issues involved in this policy discussion (for an exception, see Reedy, 1987) .\n\ns_07974: 6 SeeTompson (2004), p. 27 for a detailed discussion of this issue.\n\ns_08024: Note: this table is based on the discussion in Komives et.\n\ns_08074: 52 SeeKeefer and Knack (2006) andPritchett (2000).\n\ns_08124: These data were kindly provided by Leandro Prados, who used them recently in \u00c1lvarez-Nogal and Prados de la Escosura 2006, which in turn were taken from Yun Casalilla (1987: p. 465) and Ramos Palencia (2001: p. 70 ).\n\ns_08174: In a recent paper, four authors of this brief -Athreya, Ionescu, Neelakantan, and Vidangos -examine how the value of college varies across the population of U.S. high school graduates and the importance of the college subsidy to this valuation.\n\ns_08224: Our second article has an analytical flavor, crunching data from the US Department of Education's High School Longitudinal Study, which began in 2009 to follow students who were then entering the ninth grade.\n\ns_08251: 18 Data is used by IHEs to examine existing curricula in science-related fields and businesses to understand and monitor employment trends in various industries and professions.\n\ns_08301: The resulting dataset provides some value added regarding its sources.\n\ns_08351: The discovery GWAS meta analysis datasets used in the study contain large sample sizes (in total 54,162 for AD and 23,986 for serum iron status) and show both AD and serum iron measures to have a strong polygenic components 27, 31 .\n\ns_08401: Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database.\n\ns_08451: The authors of that review on stroke therapeutics make several conclusions that are highly relevant to the AD field regarding alignment of preclinical studies and human clinical trials design.\n\ns_08501: The WIC dataset has been already used in a number of scientific and action papers.\n\ns_08551: The following data from 819 ADNI participants were downloaded from the ADNI database: all baseline 1.5 T MRI scans, the RBM (Rules-Based Medicine) multiplex proteomic analytes extracted from plasma and serum, and demographic and baseline diagnosis information.\n\ns_08601: Therefore, we used data on buprenorphine provision in substance abuse treatment facilities from the 2004-2006 and 2008-2011 N-SSATS to impute substance abuse treatment facilities' use of buprenorphine in 2007."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B76e6mXYXfSaybs7968f8madNpz6",
+    "object": "chat.completion",
+    "created": 1682883280,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1155,
+      "completion_tokens": 151,
+      "total_tokens": 1306
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08351\", \"data_mentioned\": true, \"reason\": \"GWAS meta analysis datasets\"}, {\"sent_id\": \"s_08401\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}, {\"sent_id\": \"s_08451\", \"data_mentioned\": true, \"reason\": \"review on stroke therapeutics\"}, {\"sent_id\": \"s_08501\", \"data_mentioned\": true, \"reason\": \"WIC dataset\"}, {\"sent_id\": \"s_08551\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08351\", \"data_mentioned\": true, \"reason\": \"GWAS meta analysis datasets\"}, {\"sent_id\": \"s_08401\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}, {\"sent_id\": \"s_08451\", \"data_mentioned\": true, \"reason\": \"review on stroke therapeutics\"}, {\"sent_id\": \"s_08501\", \"data_mentioned\": true, \"reason\": \"WIC dataset\"}, {\"sent_id\": \"s_08551\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

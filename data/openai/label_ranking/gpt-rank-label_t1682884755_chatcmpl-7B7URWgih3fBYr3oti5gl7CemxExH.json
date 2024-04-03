@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07498: In this section we investigate sources of cost by disaggregating between different AFPs.\n\ns_07548: Net ODA disbursements in real terms,which are used interchangeably in this paper as the indicator of aid flows, have grown at an annual rate of 2 percent between 1980 and 1990 for the developing countries as a whole.\n\ns_07598: Based on a scpare workshee NENOCOMP.wkl, which is not included in this paper.\n\ns_07648: * How much support can be expected from multilateral and bilateral institutions to finance a * What factors influence the extent of debt debt reduction operation?\n\ns_07698: The research investigates the efficiency and the consequences of different systems of these implicit incentives.\n\ns_07748: There was a dual exchange rate system with some transactions covered under the fixed rate system and others by the exchange This section of the study tries to explain the stylized facts presented above in the context of a model which takes into 47This systam was meant to reduce the spread between the official and parallel market rates, and actually achieved this.\n\ns_07798: The second test involved plotting residuals against leverage values to identify outliers, that is, those observations where the residuals were large.\n\ns_07848: For the purpose of projections and analysis of the basic relationships involved in the financial management in the project towns, Dar es Salaam and Dodoma, three major sets of issues and data were reviewed and are discussed below: revenue generation, expenditure control, Government financing, and linkage between investment and performance.\n\ns_07898: In the second part of this section, -12-\n\ns_07948: This case study has shown that a rapid reconnaissance survey of water vending activities and the willingness of households to pay can yield valuable information for water supply planning and, in this case, unexpected policy insights.\n\ns_07998: As Laffont and Tirole (1993) indicate, the multiple principal agent problem also extends to bureaucracies and can lead government agencies to seek undesirable outcomes.\n\ns_08048: As a consequence of this strong correlation, an IBT or a VDT will be better targeted in Montenegro than in most other countries.\n\ns_08098: This paper offers an analytical review of the links between fiscal targets, public investment, and growth.\n\ns_08148: 7 This inference should not imply a disinterest in actual distribution at the top; indeed, we will assess the empirical support for it in section 4.\n\ns_08198: The Importance of Subsidies for the \"College-Value Proposition\" How much do current subsidies contribute to the value that individuals place on college?\n\ns_08248: The strongest students no longer study single-variable calculus in college.\n\ns_08275: According to the National Center for Education Statistics, the BPS is used to examine trends such as the impact of financial aid on degree completion and other factors leading to exit from higher education programs.\n\ns_08325: Users of the dataset must keep in mind that countries do not have the same institutional settings.\n\ns_08375: Previously an AD polygenic score analysis has shown that disease prediction accuracy is greatest including SNPs with P value <0.5.\n\ns_08425: We consider several number of features selected by the MI, according to table 2.\n\ns_08475: This is clearly inaccurate, as to date, such trials were not definitive tests of the cascade hypothesis, but rather expedient ways to test potentially disease-modifying AD therapeutics in the current clinical, regulatory, and fiscal environment.\n\ns_08525: The comparison between WIC 2015 and available historical data points is performed on the proportional share of the 6 education categories in the population aged 25 years and over (see Appendix Table A .1 for a complete list of available historical data).\n\ns_08575: Using the regression weights derived from the healthy participants, all the FreeSurfer measures were adjusted for the baseline age, gender, education, handedness, and ICV, and all the RBM proteomic measures were adjusted for the baseline age, gender, education and handedness.\n\ns_08625: For the years following the 2006 legislation, we found that 100patient-waivered physicians were significantly associated with greater amounts of buprenorphine per capita dispensed.\n\ns_08675: The results of TIMSS-2003 have not only shown that the African countries performed significantly lower than the international country mean and those in sub-Saharan Africa ranked lowest in the whole world, but also that the African countries are among those that make the least use of the technology in their science and mathematics curricula."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7URWgih3fBYr3oti5gl7CemxExH",
+    "object": "chat.completion",
+    "created": 1682884755,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1216,
+      "completion_tokens": 79,
+      "total_tokens": 1295
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08325\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_08525\", \"data_mentioned\": true, \"reason\": \"WIC 2015\"}, {\"sent_id\": \"s_08675\", \"data_mentioned\": true, \"reason\": \"TIMSS-2003\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08325\", \"data_mentioned\": true, \"reason\": \"dataset\"}, {\"sent_id\": \"s_08525\", \"data_mentioned\": true, \"reason\": \"WIC 2015\"}, {\"sent_id\": \"s_08675\", \"data_mentioned\": true, \"reason\": \"TIMSS-2003\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

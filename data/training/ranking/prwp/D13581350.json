@@ -1,0 +1,3311 @@
+{
+  "paper_id": "D13581350",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:03:46.309343Z"
+  },
+  "title": "Sunk Costs, Market Contestability, and the Size Distribution of Firms",
+  "authors": [
+    {
+      "first": "Ioannis",
+      "middle": [
+        "N"
+      ],
+      "last": "Kessides",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Li",
+      "middle": [],
+      "last": "Tang",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2011-01",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D13581350",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "This paper seeks to provide a new, economic explanation for the observed interindustry di\u00a4erences in the size distribution of \u2026rms. Its main testable hypothesis is that increased market contestability, as signi\u2026ed by low sunk costs, tends to reduce the dispersion of \u2026rm sizes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Seller concentration is perhaps the most frequently quanti\u2026ed and scrutinized element of market structure. 1 It plays a central role in evaluating market power, especially in the context of mergers or potential anti-competitive behavior such as collusion and predation. Concern about bigness and rising concentration has been a recurring theme of public policy and a source of considerable debate in the United States and elsewhere (White, 1981; .",
+        "cite_spans": [
+          {
+            "start": 107,
+            "end": 108,
+            "text": "1",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 432,
+            "end": 445,
+            "text": "(White, 1981;",
+            "ref_id": "BIBREF46"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Concentration depends on two key characteristics of the size distribution of \u2026rms: their number (fewness) and the inequality of their sizes (dispersion). 2 Previous 0 This paper-a product of the Environment and Energy Team of the Development Research Group-is also being published in the Review of Industrial Organization. 1 There is a vast theoretical and empirical literature on market structure and its various elements such as the 4-\u2026rm concentration ratios. See among others: White (1982) , Scherer and Ross (1990) , Schmalensee (1989) , Berry and Reiss (2007) . 2 High levels of concentration may be achieved in two di\u00a4erent ways. The number of \u2026rms operating in the industry might be very small. In that case, concentration will be high, even if the \u2026rms' market shares are approximately equal. Alternatively, the number of \u2026rms may be large, but their market shares could be very unequal, leading again to high concentration (Sutton, 1998) . empirical studies have focused on the technological explanation of concentration, underscoring the signi\u2026cance of the cost curve (especially the minimum e\u00a2 cient scale of production) and barriers to entry by new \u2026rms (Davies and Lyons, 1982) . Implicitly these studies have emphasized the numbers equivalent component of concentration. This paper departs from mainstream practice by focusing on the observed inter-industry di\u00a4erences in the dispersion of \u2026rm sizes-the variance equivalent component of concentration.",
+        "cite_spans": [
+          {
+            "start": 154,
+            "end": 155,
+            "text": "2",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 323,
+            "end": 324,
+            "text": "1",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 481,
+            "end": 493,
+            "text": "White (1982)",
+            "ref_id": "BIBREF47"
+          },
+          {
+            "start": 496,
+            "end": 519,
+            "text": "Scherer and Ross (1990)",
+            "ref_id": "BIBREF37"
+          },
+          {
+            "start": 522,
+            "end": 540,
+            "text": "Schmalensee (1989)",
+            "ref_id": "BIBREF38"
+          },
+          {
+            "start": 543,
+            "end": 565,
+            "text": "Berry and Reiss (2007)",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 568,
+            "end": 569,
+            "text": "2",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 933,
+            "end": 947,
+            "text": "(Sutton, 1998)",
+            "ref_id": "BIBREF44"
+          },
+          {
+            "start": 1167,
+            "end": 1191,
+            "text": "(Davies and Lyons, 1982)",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The paper invokes one of the fundamental welfare properties of contestable markets, which refers to the absence of any sort of ine\u00a2 ciency in production in industry equilibrium. Any unnecessary cost, like any excess pro\u2026t, would constitute an invitation to entry and render incumbents vulnerable to being displaced by more e\u00a2 cient entrants (Baumol, 1982) . Thus, in contestable industries with U-shaped average cost curves, we should observe a very low dispersion in the size distribution of \u2026rms-i.e., \u2026rms could stay in the market only if they produce at the minimum point of the average cost curve, or its neighborhood. In markets that are not contestable, on the other hand, ine\u00a2 cient industry structures characterized by a large dispersion of \u2026rms around the minimum point could be sustainable even in the long run. Moreover, the extent to which an industry is contestable depends critically on the magnitude of sunk costs-i.e., the irreversible costs that must be borne by an entrant but are mostly bygone for the industry's incumbent \u2026rms (Martin, 1989) .",
+        "cite_spans": [
+          {
+            "start": 341,
+            "end": 355,
+            "text": "(Baumol, 1982)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 1048,
+            "end": 1062,
+            "text": "(Martin, 1989)",
+            "ref_id": "BIBREF32"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "We recognize that the assumption of U-shaped average cost curves is far from being universally valid. Indeed, a widely accepted emprical fact is that the observed average cost curves in many industries appear to be linear for a wide range of output. However, as we argue below, although the implied e\u00a4ect of contestability will be weaker in industries with U-shaped cost curves with a \u2021at bottom or L-shaped curves, it will not entirely break down.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Our econometric model relates measures of \u2026rm size dispersion to proxies for industry-speci\u2026c sunk costs. The results of the paper, which are based on a crosssection of four-digit US manufacturing industries, lend support for the hypothesis that the structure of markets depends continuously on the degree to which they exhibit imperfect contestability-smaller dispersions of \u2026rm sizes are observed in industries whose share of investment that is composed of sunk capital is low (i.e., industries exhibiting high degrees of contestability). 3 The paper's empirical \u2026ndings are robust to reasonable changes in model speci\u2026cation as well as to variations in the measures of \u2026rm size dispersion and sunk costs. 3 The \u2026nding that sunk costs in \u2021uence the size distribution of \u2026rms is also consistent with the predictions of the Stackelberg-Spence-Dixit model of entry deterrence.",
+        "cite_spans": [
+          {
+            "start": 541,
+            "end": 542,
+            "text": "3",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 708,
+            "end": 709,
+            "text": "3",
+            "ref_id": "BIBREF2"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Sunk costs allow early entrants to exploit their headstart and limit the scale of entry of other \u2026rms by strategically investing beyond their steady-state Nash levels.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "A long established feature of industrial economics is that most industries are characterized by a fairly skewed size distribution of \u2026rms. The resilience of this empirical regularity has motivated a vast literature on stochastic models of \u2026rm growth that began with the seminal contribution of Gibrat (1931) . Gibrat assumed that the number of \u2026rms is \u2026xed and their growth rates are independent of their size-i.e., the probability of a given proportionate change in size during a speci\u2026ed period is the same for all \u2026rms in a given industry, regardless of their size at the beginning of the period (\"Gibrat's Law\" of proportionate e\u00a4ect).",
+        "cite_spans": [
+          {
+            "start": 294,
+            "end": 307,
+            "text": "Gibrat (1931)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "One of the main drawbacks of the Gibrat model is that it has no steady state; the size distribution of \u2026rms approaches a lognormal with unbounded mean and variance (de Wit, 2005) . Subsequent work re\u2026ned Gibrat's model by integrating a process of entry and exit into the traditional growth-of-\u2026rms formulation and imposed a variety of ancillary assumptions (e.g., \u2026rms are born at a constant rate as the industry evolves, there exists a minimum size of \u2026rms above which unit costs are constant, \u2026rms cannot decline below a certain minimum size) and stability conditions to the underlying random walk process (Kalecki, 1945; Simon, 1955 Simon, , 1960 Simon and Bonini, 1958; Ijiri and Simon, 1977; Steindl, 1965; Levy and Solomon, 1996; Sutton, 1997; Gabaix, 1999; Malcai et al., 1999) . Although the assumption that enterprise growth is a random walk con \u2021icts with economic intuition and the most fundamental theories of the \u2026rm, early studies found that stochastic processes adhering to Gibrat's law generate highly skewed size distributions that conform fairly closely to real-world ones.",
+        "cite_spans": [
+          {
+            "start": 164,
+            "end": 178,
+            "text": "(de Wit, 2005)",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 608,
+            "end": 623,
+            "text": "(Kalecki, 1945;",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 624,
+            "end": 635,
+            "text": "Simon, 1955",
+            "ref_id": "BIBREF39"
+          },
+          {
+            "start": 636,
+            "end": 649,
+            "text": "Simon, , 1960",
+            "ref_id": "BIBREF40"
+          },
+          {
+            "start": 650,
+            "end": 673,
+            "text": "Simon and Bonini, 1958;",
+            "ref_id": "BIBREF41"
+          },
+          {
+            "start": 674,
+            "end": 696,
+            "text": "Ijiri and Simon, 1977;",
+            "ref_id": "BIBREF23"
+          },
+          {
+            "start": 697,
+            "end": 711,
+            "text": "Steindl, 1965;",
+            "ref_id": "BIBREF42"
+          },
+          {
+            "start": 712,
+            "end": 735,
+            "text": "Levy and Solomon, 1996;",
+            "ref_id": "BIBREF29"
+          },
+          {
+            "start": 736,
+            "end": 749,
+            "text": "Sutton, 1997;",
+            "ref_id": "BIBREF43"
+          },
+          {
+            "start": 750,
+            "end": 763,
+            "text": "Gabaix, 1999;",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 764,
+            "end": 784,
+            "text": "Malcai et al., 1999)",
+            "ref_id": "BIBREF31"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "More recently, there have been several empirical tests of Gibrat's law based on diverse data sets and employing careful statistical techniques. The results of these studies have been rather mixed, however. Some of them \u2026nd that \u2026rms' growth rates do indeed follow a random walk and therefore Gibrat's Law holds (Del Monte and Papagni, 2003; Geroski et al., 2003) . Others, however, suggest that Gibrat's Law is not con\u2026rmed for new entrants, incumbent \u2026rms tracked over long time periods, \u2026rms in speci\u2026c industries and di\u00a4erent countries (Lotti et al., 2009; Aslan, 2008; Ce\u2026s et al., 2007; Oliveira and Fortunato, 2006; Chen and Lu, 2003) .",
+        "cite_spans": [
+          {
+            "start": 311,
+            "end": 340,
+            "text": "(Del Monte and Papagni, 2003;",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 341,
+            "end": 362,
+            "text": "Geroski et al., 2003)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 539,
+            "end": 559,
+            "text": "(Lotti et al., 2009;",
+            "ref_id": "BIBREF30"
+          },
+          {
+            "start": 560,
+            "end": 572,
+            "text": "Aslan, 2008;",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 573,
+            "end": 591,
+            "text": "Ce\u2026s et al., 2007;",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 592,
+            "end": 621,
+            "text": "Oliveira and Fortunato, 2006;",
+            "ref_id": "BIBREF36"
+          },
+          {
+            "start": 622,
+            "end": 640,
+            "text": "Chen and Lu, 2003)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "As a complement to the technological explanation, the stochastic approach has made a valuable contribution to the analysis of market structure. However, the main weakness of the stochastic description is that it lacks economic content. The assumptions that underlie the size-growth relationship and the role of stochastic mechanisms as a driver of skewness are not guided by a formal economic model. In fact, the law of proportionate e\u00a4ect, as it has been applied in the existing models, does not take into account industry-speci\u2026c characteristics. These models, therefore, are not designed to explain the important inter-industry di\u00a4erences in the degree of inequality in the size distribution of \u2026rms.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "In recognition of the fundamental weaknesses of the stochastic approach, a richer class of models has been constructed in recent years. These models seek to incorporate fundamental economic mechanisms into the stochastic process that governs the \u2026rm's size. However, the size distributions that are derived seem to depend on largely unobservable features of these models, thus limiting considerably the empirical testing of their predictions (Sutton, 1998) .",
+        "cite_spans": [
+          {
+            "start": 442,
+            "end": 456,
+            "text": "(Sutton, 1998)",
+            "ref_id": "BIBREF44"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "This paper focuses on the e\u00a2 ciency attributes of long-run equilibria in perfectly contestable markets and the implications of deviations from the conditions of perfect contestability for the size distribution of \u2026rms. One of the most fundamental and novel features of the theory of contestable markets is the explicit recognition that the structure of an industry is determined primarily by economic forces. The number of \u2026rms, the dispersion in their sizes, and so on, are determined endogenously and simultaneously with the vectors of the industry's prices and outputs. 4 Under perfect contestability, the opportunity for costless entry and exit guarantees the absence of any ine\u00a2 ciency in production in industry equilibrium; i.e., it renders any ine\u00a2 cient organization of the industry unsustainable. The incumbent \u2026rms must operate in an e\u00a2 cient manner because any unnecessary costs, like any excess pro\u2026t, would simply invite entry and lead to their displacement by entrants who can supply the same output at lower cost. Thus the incumbent \u2026rms must minimize costs, and total industry output must be divided among its \u2026rms so as to minimize the industry's total production cost (Baumol, 1982 ).",
+        "cite_spans": [
+          {
+            "start": 573,
+            "end": 574,
+            "text": "4",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 1186,
+            "end": 1199,
+            "text": "(Baumol, 1982",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "In the single-product case and under the assumption of a unique point of minimum average cost, intuition suggests, in essence correctly, that market forces will enforce the optimal number of \u2026rms with approximately equal outputs. 5 Firms locating to the right or left of the minimum point would exhibit higher unit costs and be vulnerable to displacement by potential entrants. Under perfect contestability, a market structure that is characterized by a dispersion of \u2026rm sizes around the unique minimum point would not be consistent with industry equilibrium in the long run. Thus, the role of contestability is to tighten the distribution of \u2026rms around the optimum.",
+        "cite_spans": [
+          {
+            "start": 230,
+            "end": 231,
+            "text": "5",
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "Perfect contestability, like perfect competition, is only a useful theoretical benchmark. In markets where the elements of contestability are not present and entry is less than ultra free, ine\u00a2 cient equilibrium industry structures characterized by large dispersions in the sizes of enterprises might obtain. Our basic hypothesis, then, is that the dispersion in the sizes of \u2026rms around the optimum, and consequently the structure of a market, will depend on the degree of imperfection in its contestability.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "Perfect contestability requires that: (i) all entry investment is fully reversible, i.e., there are no sunk costs; (ii) all producers have access to the same technology; (iii) incumbents cannot adjust their prices instantaneously, i.e., there must be a positive price response lag; and (iv) there is no consumer goodwill, i.e., consumers respond instantly to price di\u00a4erentials. Clearly, alternate representations of imperfect contestability in real world markets could be based on violations of any of the above conditions. This paper focuses on condition (i) and employs the degree of sunkenness of the entry investment as the primary criterion for contestability. The economic signi\u2026cance of sunk costs has received considerable attention in the industrial organization literature. Sunk costs lower the quasi-rents that the entrant can expect to earn by committing resources to the market; diminish the rate at which entry responds to positive incumbent pro\u2026ts or to unnecessary incumbent costs; and, like entry barriers, impede the establishment of new \u2026rms. 6 By shielding ine\u00a2 cient incumbents from the pressures of competition, sunk costs can constrain market structure and may allow an ine\u00a2 cient industry con\u2026guration, characterized by a large dispersion of \u2026rm sizes around the optimum, to persist. 7 Entry frequently entails irrecoverable physical capital investments that are primarily determined by the underlying technological characteristics of the industry's production-i.e., tangible sunk costs that are largely exogenous. In many industries, however, there are crucial cost components related to intangible capital that re \u2021ect strategic decisions by the incumbent \u2026rms. The two most obvious examples of discretionary sunk cost expenditures are advertising and R&D outlays (Kwoka and White, 2001) . Indeed, there is empirical evidence that in some (primarily consumer goods) industries, advertising as a sunk cost is even more important to the total entry barrier than tangible sunk costs (Kessides, 1986) . Entry and competition in knowledge-intensive industries requires large R&D expenditures. Although these investments generate valuable knowledge-based assets, such assets are largely intangible and highly \u2026rm-speci\u2026c (O'Brien and Folta, 2009).",
+        "cite_spans": [
+          {
+            "start": 1063,
+            "end": 1064,
+            "text": "6",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 1309,
+            "end": 1310,
+            "text": "7",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 1791,
+            "end": 1814,
+            "text": "(Kwoka and White, 2001)",
+            "ref_id": "BIBREF28"
+          },
+          {
+            "start": 2007,
+            "end": 2023,
+            "text": "(Kessides, 1986)",
+            "ref_id": "BIBREF26"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "Intangible sunk costs could play an important role in explaining cross-industry di\u00a4erentials in \u2026rm size dispersion. Their impacts, however, are more complex and their causal mechanism requires careful attention. Advertising, for example, constitutes a sunk cost barrier to entry. For the potential entrant, the need to advertise leads to an unrecoverable entry cost in the case of failure. Large sunk investments in advertising may allow incumbents credibly to preempt potential entrants (Thomas, 1996) . On the other hand, by providing information about the existence of alternative products and their price-quality characteristics, advertising reduces the search costs that are faced by consumers, thereby decreasing their loyalty and inertia. It may also allow \u2026rms to operate in di\u00a4erentiated product niches. Thus, entrants could perceive a greater likelihood of success in markets where advertising plays an important role. In that case, advertising may actually facilitate entry and enhance market contestability (Martin, 2002) . Similar arguments could be made for R&D. Which of these two countervailing e\u00a4ects dominates is clearly an empirical question. 8 The e\u00a4ect of contestability in tightening the distribution of \u2026rms around the optimum will be most pronounced in industries with average cost curves that have a smooth U shape and are thus characterized by a unique minimum point. Clearly, this e\u00a4ect will be somewhat diluted in industries with U-shaped curves with a \u2021at bottom (depending on the relative length of the \u2021at portion of the curve). However, it is important to note that the e\u00a4ect will not break down even in industries with L-shaped average cost curves. First, contestability will in \u2021uence the number of \u2026rms locating in the sub-optimal sector, i.e., \u2026rms of size less than M ES. In the long run, under perfect contestability, the density of the suboptimal sector will be reduced to zero. Second, the factors that a\u00a4ect the degree of contestability ultimately determine the probability of entry. Firm size inequality is a\u00a4ected by the probability of entry. The higher is the rate of entry, the smaller are size inequalities (Simon and Bonini, 1958; Davies and Lyons, 1982) . Thus, the degree of contestability will be related to the size distribution of \u2026rms even when average costs are L-shaped.",
+        "cite_spans": [
+          {
+            "start": 489,
+            "end": 503,
+            "text": "(Thomas, 1996)",
+            "ref_id": "BIBREF45"
+          },
+          {
+            "start": 1020,
+            "end": 1034,
+            "text": "(Martin, 2002)",
+            "ref_id": "BIBREF34"
+          },
+          {
+            "start": 1163,
+            "end": 1164,
+            "text": "8",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 2154,
+            "end": 2178,
+            "text": "(Simon and Bonini, 1958;",
+            "ref_id": "BIBREF41"
+          },
+          {
+            "start": 2179,
+            "end": 2202,
+            "text": "Davies and Lyons, 1982)",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Size Distribution of Firms Reconsidered: The Impact of Sunk Costs",
+        "sec_num": "2"
+      },
+      {
+        "text": "To obtain a measure of the inequality in \u2026rm size distribution, we \u2026rst focus on the relationship between concentration and the number of \u2026rms. Let C mi denote the m-\u2026rm concentration ratio in industry i. Then it is easy to show that",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "C mi = m N i + m Q mi Q i Q i ;",
+            "eq_num": "(1)"
+          }
+        ],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "where in industry i, N i is the number of \u2026rms, Q mi represents the average \u2026rm output of the largest m \u2026rms, Q i is average \u2026rm output computed over all the \u2026rms in the industry, and Q i is total industry output. The quantity Q mi Q i Q i represents the relative distance between the industry-wide mean \u2026rm size and that of the largest m \u2026rms in the industry; i.e., it is a measure, albeit a simpli\u2026ed one, of \u2026rm size dispersion. This decomposition is intuitively appealing in that it signi\u2026es the dependence of the single summary measure of concentration C mi on two key characteristics of the size distribution of \u2026rms: their number (fewness), represented by N i , and the inequality of their sizes (dispersion), represented by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "Q mi Q i Q i .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "If there is no size dispersion (e.g., in the case of a U-shaped average cost curve, all \u2026rms in industry i locate at the minimum point), then the second term on the right hand side of (1) will be zero and C mi = m N i ; i.e., the m-\u2026rm concentration ratio depends entirely on the number of \u2026rms (fewness). If, on the other hand, there exists a dispersion in \u2026rm sizes, Q mi Q i Q i will be positive, and thus m N i will underestimate the m-\u2026rm concentration ratio in industry i:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "Rearranging (1) we obtain Q mi Q i Q i = 1 m (C mi m N i )",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "for our \u2026rst proposed measure of the inequality in \u2026rm size distribution of a given industry that is expressed in terms of observable structural parameters.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "It may be argued that the term",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "Q mi Q i Q i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "is not an accurate measure of \u2026rm size dispersion because it ignores potentially important within-group size di\u00a4erentials for the largest m and remaining N i m \u2026rms in industry i. The basis for a more comprehensive measure of size dispersion in industry i is provided by the variance of market shares",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "V i (s) = 1 N i N i X j=1 (s ij s i ) 2 ;",
+            "eq_num": "(3)"
+          }
+        ],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "where in industry i; s ij is the market share of \u2026rm j, s i is the average market share, and as before N i is the number of \u2026rms.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "Noting that the Her\u2026ndahl-Hirshman Index H i is the sum of the squared share values, we obtain",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "V i (s) = 1 N i (H i 1 N i );",
+            "eq_num": "(4)"
+          }
+        ],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "which expresses size dispersion in terms of industry structural parameters that are observable.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Measuring Dispersion of Firm Sizes",
+        "sec_num": "3"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "H i = 1 N i + N i V i (s);",
+            "eq_num": "(5)"
+          }
+        ],
+        "section": "Rearranging (4) leads to the decomposition",
+        "sec_num": null
+      },
+      {
+        "text": "which again is intuitively appealing because it distinguishes two aspects of the single summary measure H i of concentration: fewness, represented by N i , and size disper-",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rearranging (4) leads to the decomposition",
+        "sec_num": null
+      },
+      {
+        "text": "sion, represented by V i (s).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rearranging (4) leads to the decomposition",
+        "sec_num": null
+      },
+      {
+        "text": "If there is no size dispersion, then",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rearranging (4) leads to the decomposition",
+        "sec_num": null
+      },
+      {
+        "text": "H i = 1 N i ;",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rearranging (4) leads to the decomposition",
+        "sec_num": null
+      },
+      {
+        "text": "i.e., H i depends entirely on the fewness of \u2026rms (Kelly, 2001 ).",
+        "cite_spans": [
+          {
+            "start": 50,
+            "end": 62,
+            "text": "(Kelly, 2001",
+            "ref_id": "BIBREF25"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Rearranging (4) leads to the decomposition",
+        "sec_num": null
+      },
+      {
+        "text": "Lack of detailed data on the availability of resale markets for durable inputs precludes direct evaluation of the unavoidable sunk costs that face an entrant. Such measurement is further complicated by the fact that \u2026xed costs that are \u2026rm-speci\u2026c are in general more sunk than those that are just industry-speci\u2026c. Still, readily available measures suggested by theory permit us to construct meaningful proxies for these costs (Kessides, 1990) .",
+        "cite_spans": [
+          {
+            "start": 428,
+            "end": 444,
+            "text": "(Kessides, 1990)",
+            "ref_id": "BIBREF27"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sunk Costs: Measurement and Correlates",
+        "sec_num": "4"
+      },
+      {
+        "text": "Assume that entry into industry i requires K e i units of capital that can be purchased at a price of i per unit. Let e i denote the portion of the capital that the entrant can rent. Assume further that the entrant exercises its disinvestment option after a period of length during which its capital depreciates by d ki percent. If the entrant can scrap its capital at the end of the period for a salvage price of i , then the expression",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sunk Costs: Measurement and Correlates",
+        "sec_num": "4"
+      },
+      {
+        "text": "SU K e i = (1 e i )[(1 d ki ) i i ]K e i 0 < (1 d ki ) i i < 1 (6)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sunk Costs: Measurement and Correlates",
+        "sec_num": "4"
+      },
+      {
+        "text": "represents the portion of the entry investment that is irrecoverable if exit takes place after a period of length -i.e., the e\u00a4ective sunk costs facing the entrant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sunk Costs: Measurement and Correlates",
+        "sec_num": "4"
+      },
+      {
+        "text": "The divergence between the undepreciated portion (1 d ki ) i of the original investment and the salvage price i will depend on the characteristics of the capital that is employed in the industry: the degree to which such capital is \u2026rm-rather than industry-speci\u2026c, its lumpiness, technological complexity, and so on. It can be plausibly argued that the intensity of the resale market in the industry can serve as an indicator variable for these largely unobservable capital characteristics. One should expect an active resale market in industries in which the capital employed is industry-rather than \u2026rm-speci\u2026c. Lumpy capital, on the other hand, which is costly to relocate becomes by default \u2026rm-speci\u2026c and does not lend itself to resale unless the \u2026rm is acquired. Thus, the portion of the entry investment 1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sunk Costs: Measurement and Correlates",
+        "sec_num": "4"
+      },
+      {
+        "text": "i (1 d ki ) i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sunk Costs: Measurement and Correlates",
+        "sec_num": "4"
+      },
+      {
+        "text": "that is sunk is assumed to be a decreasing function of the intensity of the resale market i in the industry; i.e.,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sunk Costs: Measurement and Correlates",
+        "sec_num": "4"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "i = (1 e i )(1 d ki ) i K e i g( i );",
+            "eq_num": "(7)"
+          }
+        ],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "where g 0 ( i ) < 0: For the sake of analytic simplicity we adopt the \u2021exible functional form g( i ) = i ; where ; > 0:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "We assume that the entrant's capital has approximately the same composition as that of the industry. Then e i may be proxied with",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "RK i r i K i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "where RK i represents the total rental payments made for the use of capital in industry i, K i is the industry's capital, and r i K i is its maximum rental value. We also propose to use as a proxy for intensity of the resale market i : the portion",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "U K i U K i + N K i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "of the industry's total capital expenditure that consists of used plant and equipment, where U K i and N K i are the industry's used and new capital expenditures, respectively. Then, the share of entry investment that is composed of sunk capital (i.e., the sunkenness of the entry investment) in industry i will be given by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "SU N K i = SU K e i i K e i = (1 RK i r i K i )(1 d ki ) ( U K i U K i + N K i ) :",
+            "eq_num": "(8)"
+          }
+        ],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "The above measures relate to tangible sunk costs arising from investment in physical capital. We assume now that in addition to investment in physical capital, entry into industry i requires A e i and RD e i outlays in advertising and R&D respectively. If the entrant's investments in advertising and R&D depreciate by d ai and d ri percent during the time interval ; then the expressions",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "SU A e i = (1 d ai )A e i",
+            "eq_num": "(9)"
+          }
+        ],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "and",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "SU RD e i = (1 d ri )RD e i ,",
+            "eq_num": "(10)"
+          }
+        ],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "provide a measure of the portion of the entry investment in advertising and R&D that might be unrecoverable in the event of exit. In general, the assets created by investments in advertising and R&D are intangible and highly \u2026rm-speci\u2026c, with little value outside their current applications (O'Brien and Folta, 2009; Helfat, 1994). Thus, SU A e i and SU RD e i should be very close to the true sunk cost of advertising and R&D. Still, if the exiting \u2026rm is taken over by one of its competitors, then these expressions might overestimate the true sunk costs. This is because advertising and R&D expenditures can create assets with some future value that will generally be re \u2021ected in the \u2026rm's sale price.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "We assume that the entrant's capital structure encompasses the same mix of tangible and intangible components as that of the industry. Then, taking into account both tangible and intangible sunk cost expenditures, our proposed measure of sunkenness of the entry investment is modi\u2026ed as follows:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "SU N i = (1 RK i r i K i )(1 d ki ) ( U K i U K i + N K i ) + (1 d ai ) A i i K i + (1 d ri ) RD i i K i ;",
+            "eq_num": "(11)"
+          }
+        ],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "where A i and RD i are the advertising and R&D outlays in industry i.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "SU K e",
+        "sec_num": null
+      },
+      {
+        "text": "Our basic hypothesis is that contestable markets, as signi\u2026ed by low sunk costs, yield an e\u00a2 cient (cost-minimizing) market structure characterized by a tight distribution of \u2026rms around the optimum; i.e., contestability will reduce the dispersion of \u2026rm sizes. Because tangible sunk costs can be proxied more easily than can intangible ones, we will \u2026rst estimate the impact of tangible sunk costs. Thus, our basic model takes the form:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "i = f (SU N K i ) = f (REN i ; DEP i ; RES i );",
+            "eq_num": "(12)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "where i is \u2026rm size dispersion and",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "REN i = RK i r i K i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "is the intensity of the rental market, DEP i = d ki is the rate of depreciation, and",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "RES i = U K i U K i + N K i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "is the intensity of the resale market for the capital employed in industry i: Given that our model is not explicit as to the functional form of f , we adopt the \u2021exible form",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "i = f (SU N K i ) = 0 SU N K 1 i 0 ; 1 > 0;",
+            "eq_num": "(13)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "which taking into account (8) reduces to",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "i = 0 1 (1 REN i ) 1 (1 DEP i ) 1 RES 1 i :",
+            "eq_num": "(14)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "We \u2026rst focus on the measure of dispersion de\u2026ned in (2). Setting (14) points to the estimating equation",
+        "cite_spans": [
+          {
+            "start": 66,
+            "end": 70,
+            "text": "(14)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "Q mi Q i Q i equal to i in",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "C mi m N i = b 0 (1 REN i ) b 1 (1 DEP i ) b 2 RES b 3 i e u i ;",
+            "eq_num": "(15)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "where as before C mi is the m-\u2026rm concentration ratio and N i is the number of operating \u2026rms in industry i: The u i are assumed to be independently and identically distributed random variables with zero mean and variance 2 u . The multiplicative stochastic terms speci\u2026cation is chosen because REN i , DEP i , and RES i are measured with error and therefore a purely additive stochastic speci\u2026cation would be inappropriate. A comparison of (2), (14) , and (15) indicates the following relationships between the estimating coe\u00a2 cients and the parameters of the model:",
+        "cite_spans": [
+          {
+            "start": 446,
+            "end": 450,
+            "text": "(14)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "b 0 = m 0 1 ; b 1 = b 2 = 1 ; and b 3 = 1 :",
+            "eq_num": "(16)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "Thus, with respect to (15) the hypothesis of interest is:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "H 01 : b 1 = b 2 against H 11 : b 1 6 = b 2 :",
+            "eq_num": "(17)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "In addition, it should be noted that the parameter measuring the elasticity of sunkenness is identi\u2026ed but not the parameter : The role of contestability in tightening the distribution will be supported if the estimated coe\u00a2 cients b 1 and b 2 are signi\u2026cantly positive and b 3 is signi\u2026cantly negative.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "The potential role of contestability in tightening the size distribution of \u2026rms can be assessed more accurately by utilizing the measure of dispersion V i (s) which represents the variance of market shares in industry i. Thus, setting i equal to V i (s) in (14) points to the estimating equation",
+        "cite_spans": [
+          {
+            "start": 258,
+            "end": 262,
+            "text": "(14)",
+            "ref_id": "BIBREF13"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "V i (s) = c 0 (1 REN i ) c 1 (1 DEP i ) c 2 RES c 3 i e i ;",
+            "eq_num": "(18)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "where the error components i are assumed to be distributed according to N (0; 2 ). The contestability hypothesis will be supported if c 1 and c 2 are signi\u2026cantly positive while c 3 is signi\u2026cantly negative. A comparison of (14) and (18) indicates that with respect to (18) the hypothesis of interest is:",
+        "cite_spans": [
+          {
+            "start": 224,
+            "end": 228,
+            "text": "(14)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 233,
+            "end": 237,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "H 02 : c 1 = c 2 against H 12 : c 1 6 = c 2 :",
+            "eq_num": "(19)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "To evaluate the potential impact of intangible sunk costs and taking into account (11), (15) , and (18), we adopt the parsimonious speci\u2026cations",
+        "cite_spans": [
+          {
+            "start": 88,
+            "end": 92,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "C mi m N i = a 0 + a 1 (1 REN i )(1 DEP i )RES a 2 i + a 3 A i i K i + a 4 RD i i K i + i (20) and V i (s) = d 0 + d 1 (1 REN i )(1 DEP i )RES d 2 i + d 3 A i i K i + d 4 RD i i K i + i ,",
+            "eq_num": "(21)"
+          }
+        ],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "where the error components i and i are assumed to be distributed according to N (0; 2 ) and N (0; 2 ) respectively. Under rental payments, RK; manufacturing establishments are requested to report payments made for the use of all items for which depreciation reserves would be maintained if they were owned by the establishment-e.g., structures and buildings, production equipment and transportation equipment. Establishments also report: the depreciation, DK; charged during the year against \u2026xed assets; their new expenditures for buildings and equipment N K; the value of all used plant and equipment U K purchased during the year; and their \u2026xed depreciable assets K: To facilitate estimation, we drop r since it is just a normalization. 9 We also restrict the length of the period at the end of which the entrant exercises its disinvestment option, to being the same across industries and set it equal to one year. Then, we can compute the following proxies: REN = RK K ; DEP = DK K ; and RES = U K U K + N K :",
+        "cite_spans": [
+          {
+            "start": 741,
+            "end": 742,
+            "text": "9",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "To estimate equation 15, we set m = 4 and thus employ the four-\u2026rm concentration ratio C 4 . These concentration ratios were taken unadjusted from the Census listings. For each four-digit industry, the Census also reports the values of the truncated Her\u2026ndahl index H, representing the sum of squared market shares of the largest 50 \u2026rms in the industry or the entire universe, whichever is lower. The census also reports the values of the 50-\u2026rm concentration ratio C 50 . From the values of H and C 50 we can derive V (s); the variance of market shares of the largest 50 \u2026rms or the entire universe, whichever is lower. This will permit us to estimate equation (18) . It can be easily shown that 10 9 It should be noted that dropping r leads to a change in units and could a\u00a4ect the testing of H01 in (17) and H02 in (19) . Moreover, established \u2026rms are more likely to buy their own capital, so (1 RK rK ) is likely to overstimate sunkenness. 1 0 The variance of market shares of the largest N \u2026rms in an industry is given by ",
+        "cite_spans": [
+          {
+            "start": 663,
+            "end": 667,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 698,
+            "end": 702,
+            "text": "10 9",
+            "ref_id": null
+          },
+          {
+            "start": 803,
+            "end": 807,
+            "text": "(17)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 819,
+            "end": 823,
+            "text": "(19)",
+            "ref_id": "BIBREF18"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "V (s) = 1 N N X j=1 (sj s) 2 = 1 N (HN + N s 2 2 sCN ) = 1 N (HN C 2 N N ) where HN = N X j=1 s 2 j ; s",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "= 1 N H N 1 N if N < 50;",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "where",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "H N = N X j=1 s 2 j :",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "For advertising we employ the 1982, 1987, and 1992 input-output tables from the Bureau of Economic Analysis (BEA). Two input industries are used to calculate advertising: advertising, and signs and advertising displays. We supplement the advertising data from input-output tables with data from Schonfeld & Associates.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Speci\u2026cation and Estimation Issues",
+        "sec_num": "5"
+      },
+      {
+        "text": "We \u2026rst focus on assessing the impact of tangible sunk costs. Table 1 presents the ordinary least squares (OLS) estimates of equations (15) and (18) , along with the values of the ordinary and adjusted R 2 statistics. As noted above, to estimate (15) we employ the four-\u2026rm concentration ratio, thus setting m = 4. Separate regressions were estimated for the census years 1982, 1987, and 1992. Overall, these results strongly support the hypothesis that sunk costs in \u2021uence the size distribution of \u2026rms.",
+        "cite_spans": [
+          {
+            "start": 135,
+            "end": 139,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 144,
+            "end": 148,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 62,
+            "end": 69,
+            "text": "Table 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Empirical Findings",
+        "sec_num": "7"
+      },
+      {
+        "text": "The results of equation (15) indicate that the intensities of the rental and secondhand markets and the rate at which capital depreciates are signi\u2026cant determinants of",
+        "cite_spans": [
+          {
+            "start": 24,
+            "end": 28,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Findings",
+        "sec_num": "7"
+      },
+      {
+        "text": "Q 4i Q i Q i",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Findings",
+        "sec_num": "7"
+      },
+      {
+        "text": "; the di\u00a4erence in mean size between the four largest and all \u2026rms in industry i. We \u2026nd that the stronger is the second-hand market for the capital employed in an industry, the faster is the rate at which such capital depreciates, and the easier is the leasing of that capital (i.e., the lower is the sunkenness of the capital employed in the industry), the smaller is the dispersion in \u2026rm size within the industry. Moreover, the parametric restrictions implied by the model are not rejected by these data, which provides a measure of con\u2026dence in the model and the measure of sunkenness proposed in (8) . The likelihood ratio test indicates that the maintained hypothesis H 01 : b 1 = b 2 is not rejected at the 5 percent level in all three temporal cross-sections (1982, 1987, and 1992 1;426 = 3:86 and the probabality level at which a standard F-test rejects the restriction is .78; for 1992, F = :18 < F :95",
+        "cite_spans": [
+          {
+            "start": 602,
+            "end": 605,
+            "text": "(8)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 768,
+            "end": 789,
+            "text": "(1982, 1987, and 1992",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Findings",
+        "sec_num": "7"
+      },
+      {
+        "text": "1;425 = 3:86, and the probability level at which the standard F-test rejects the restriction is .67.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Empirical Findings",
+        "sec_num": "7"
+      },
+      {
+        "text": "Equation 15: ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "C 4i 4 N i = b 0 (1 REN i ) b 1 (1 DEP i ) b 2 RES b 3 i e u i Parameter Estimates b 0 b 1 b 2 b",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "R 2 = :27",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "Equation 18: The signi\u2026cance of the e\u00a4ect of contestability in tightening the size distribution of \u2026rms is also con\u2026rmed by the analysis of a more accurate measure of dispersion that is derived from (4). The estimates from equation (18) indicate that the factors that determine the sunkenness of capital are also important determinants of \u2026rm size dispersion, as measured by the variance of the market shares of the largest 50 \u2026rms in each industry. We \u2026nd again that the lower is the sunkenness of the capital that is employed in an industry, the smaller is the dispersion and hence, the tighter is the distribution of \u2026rms around the optimum. The parametric restrictions that are implied by the model are con\u2026rmed by these data. Indeed, the maintained hypothesis H 02 : c 1 = c 2 is not rejected at the 5 percent level in all three temporal cross-sections. 12 Table 2 presents estimates of (15) and (18) using the pooled data from the 1982, 1987, and 1992 censuses. Both OLS and the asymptotically more e\u00a2 cient 1 2 For the 1982 cross-section, F = :07 < F :95",
+        "cite_spans": [
+          {
+            "start": 232,
+            "end": 236,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 901,
+            "end": 905,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 862,
+            "end": 869,
+            "text": "Table 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "V i (s) = c 0 (1 REN i ) c 1 (1 DEP i ) c 2 RES c 3 i e i Parameter Estimates c 0 c 1 c 2 c",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "1;396 = 3:87, and the probabality level at which a standard F-test rejects the restriction is .79; for 1987, F = :03 < F :95",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "1;426 = 3:86; and the probabality level at which a standard F-test rejects the restriction is .87; for 1992, F = :25 < F :95",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "1;425 = 3:86, and the probabality level at which a standard F-test rejects the restriction is .62. feasible generalized least squares (FGLS) were employed. The null hypothesis of homoscedasticity is not rejected at conventional levels of signi\u2026cance. 13 However, the test derived by Wooldridge (2002) , suggests that the null hypothesis of no \u2026rstorder autocorrelation is rejected in favor of AR(1). 14 The inferences drawn from the 1982, 1987, and 1992 temporal cross-sections are supported by the pooled data. Both OLS and FGLS regressions produce statistically signi\u2026cant parameter estimates. We again \u2026nd that \u2026rm size dispersion decreases with increasing levels of rental and resale market activity and higher rates of capital depreciation. When (15) and (18) are estimated with OLS, the maintained hypotheses H 01 : b 1 = b 2 and H 02 : c 1 = c 2 are not rejected at the 5 percent level. 15 However, we do note a di\u00a4erence in the estimated parameters when equations (15) and (18) are estimated with OLS and when they are estimated with FGLS. This is not surprising since OLS and FGLS are di\u00a4erent estimation procedures; and, in any case, it is not easy to determine whether such di\u00a4erences are statistically signi\u2026cant. 16 1 3 We perform the Bickel (1978) version of the Breusch-Pagan test on (18) . This tests for both within and between heteroscedasticity. We regress the squared residuals on powers of the predictions: for = 5; F =1:03 and P rob > F = :39: Thus for = 5, the null hypothesis of homoscedasticity cannot be rejected at the 5% level. For = 6 to 10, we \u2026nd that the null hypothesis of homoscedasticity cannot be rejected at the 10% level. 1 4 When we apply the Wooldridge test on (18) we obtain F = 57:31 and P rob > F = 0:00. 1 5 For H01, F = :73 < F :95 1;819 = 3:85, and the probabality level at which a standard F-test rejects the restriction is .39; for H02, F = 1:09 < F :95",
+        "cite_spans": [
+          {
+            "start": 251,
+            "end": 253,
+            "text": "13",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 283,
+            "end": 300,
+            "text": "Wooldridge (2002)",
+            "ref_id": "BIBREF49"
+          },
+          {
+            "start": 751,
+            "end": 755,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 760,
+            "end": 764,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 894,
+            "end": 896,
+            "text": "15",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 972,
+            "end": 976,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 981,
+            "end": 985,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 1226,
+            "end": 1228,
+            "text": "16",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 1231,
+            "end": 1232,
+            "text": "3",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 1248,
+            "end": 1261,
+            "text": "Bickel (1978)",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 1299,
+            "end": 1303,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 1660,
+            "end": 1663,
+            "text": "1 4",
+            "ref_id": null
+          },
+          {
+            "start": 1701,
+            "end": 1705,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "1;819 = 3:85, and the probabality level at which a standard F-test rejects the restriction is .30.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 1 OLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "( pooled 1982, 1987, and 1992 data) Equation 15: Equation 18: In assessing the impact of intangible sunk costs on \u2026rm size dispersion, we limit our attention to advertising. The potential role of R&D could not be evaluated due to insu\u00a2 cient data. Table 3 presents the nonlinear least squares estimates of the parameters in equations (20) and (21) . We \u2026nd that in all temporal cross-sections, a 1 and d 1 are signi\u2026cantly positive and a 2 and d 2 are signi\u2026cantly negative. These parameter estimates once again con\u2026rm the role of contestability, as signi\u2026ed by low tangible sunk costs, in tightening the distribution of \u2026rms. We also \u2026nd that a 3 and d 3 are signi\u2026cantly positive in all temporal cross-sections, with the exception of d 3 in 1992. Thus, higher levels of advertising intensity are associated with increased \u2026rm size dispersion.",
+        "cite_spans": [
+          {
+            "start": 2,
+            "end": 35,
+            "text": "pooled 1982, 1987, and 1992 data)",
+            "ref_id": null
+          },
+          {
+            "start": 334,
+            "end": 338,
+            "text": "(20)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 343,
+            "end": 347,
+            "text": "(21)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 248,
+            "end": 255,
+            "text": "Table 3",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "C 4i 4 N i = b 0 (1 REN i ) b 1 (1 DEP i ) b 2 RES b 3 i e u i Parameter Estimates b 0 b 1 b 2 b",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "V i (s) = c 0 (1 REN i ) c 1 (1 DEP i ) c 2 RES c 3 i e i Parameter Estimates c 0 c 1 c 2 c",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "These \u2026ndings could be interpreted as implying that advertising gives rise to a sunk cost barrier, and thus it augments the role of tangible sunk costs in reducing market contestability and in allowing ine\u00a2 cient industry con\u2026gurations characterized by a large dispersion of \u2026rm sizes around the optimum to persist. However, our \u2026nding that a 3 and d 3 are signi\u2026cantly positive is also consistent with the view that advertising may allow \u2026rms to operate in di\u00a4erentiated product niches and away from the minimum point of the average cost curve without being vulnerable to displacement by potential entrants. Equation 20: Equation 21: This paper's key testable hypothesis is that contestability tightens the distribution of \u2026rms around the optimum. The extent to which costs are sunk is central to the contestability of markets. Thus, there is an implied causal link between the variables that determine the sunkenness of the industry's capital-i.e., the rate of depreciation and the intensity of the rental and resale markets-and the dispersion of \u2026rm sizes in the industry. However, one potential objection to our interpretation of these results is that the variables that determine sunkenness might themselves be a\u00a4ected by market structure-i.e., that a reverse causal link might be present in the estimated relationships. In exploring the potential reverse causation, it will be easier to focus on equation (15) .",
+        "cite_spans": [
+          {
+            "start": 1411,
+            "end": 1415,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "C mi m N i = a 0 + a 1 (1 REN i )(1 DEP i )RES a 2 i + a 3 A i i K i + i Parameter",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "V i (s) = d 0 + d 1 (1 REN i )(1 DEP i )RES d 2 i + d 3 A i i K i + i Parameter Estimates d 0 d 1 d 2 d",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "The available empirical evidence does not support the conjecture that there are signi\u2026cant di\u00a4erences in the choice of accounting policies with respect to depreciation by \u2026rms in concentrated and unconcentrated industries (Hagerman and Senbet, 1976; Zmijewski and Hagerman, 1981) . In fact, if there is any relationship at all, it suggests that a larger percentage of \u2026rms in very concentrated industries use more frequently accelerated depreciation in comparison to \u2026rms in unconcentrated industries, pointing to a probable positive correlation between concentration and depreciation. This \u2026nding seems to rule out the possibility that our established negative relationship between concentration and depreciation in equation 15is driven by an accounting bias.",
+        "cite_spans": [
+          {
+            "start": 222,
+            "end": 249,
+            "text": "(Hagerman and Senbet, 1976;",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 250,
+            "end": 279,
+            "text": "Zmijewski and Hagerman, 1981)",
+            "ref_id": "BIBREF50"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "One may plausibly argue that the intensities of the rental and resale markets are apt to be higher in industries that are large. If concentration and industry size are negatively correlated, then the possibility arises that the established correlation between concentration and the rental and resale market variables is spuriousthere may be an omitted variable (industry size) that is correlated with both the concentration and the rental and resale market variables, and with di\u00a4erent causal implications. When we use industry sales as a measure of industry size, we \u2026nd that the correlations between size and concentration, and also between size and rental and resale variables, are very weak or insigni\u2026cant. We can therefore rule out the possibility that the correlation between the dispersion in \u2026rm size and the rental and resale variables arises because industry size (as measured by industry sales) determines the intensities of the rental and resale markets, and industry size is strongly correlated with concentration.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, one may argue that technology causes an industry to have a large number of small \u2026rms, many of which are undercapitalized and therefore must rent. This possibility would again suggest that the causation runs in the opposite direction. However, we \u2026nd that the correlation between the rental variable REN i and capital intensity as measured by the capital-sales ratio is statistically insigni\u2026cant. In addition, if the rental variable serves as a proxy for technology in equation (15) , its e\u00a4ect should fade into insigni\u2026cance once technology is controlled for. However, there is no statistically signi\u2026cant shift in the estimated coe\u00a2 cient of the rental variable when technology is controlled for by introducing M ES into the concentration equation. 17 Hence, a potential omitted variables problem related to technology must also be ruled out.",
+        "cite_spans": [
+          {
+            "start": 488,
+            "end": 492,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 761,
+            "end": 763,
+            "text": "17",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "Sunk costs can have both industry-speci\u2026c and \u2026rm-speci\u2026c components (Ghosal, 2009) . Our measure of sunkenness is based on industry-speci\u2026c variables. We do not have information to construct meaningful proxies for \u2026rm-speci\u2026c sunk costs. Thus, there is an implicit assumption that the capital employed by all \u2026rms (small and large) in an industry and potential entrants is characterized by the same degree of sunkenness. In some industries, the \u2026rm-speci\u2026c component of sunk costs could be important, and our proxies of sunkenness are likely to contain signi\u2026cant measurement errors. Such mismeasurement leads to inconsistent estimates and to potential attenuation bias.",
+        "cite_spans": [
+          {
+            "start": 69,
+            "end": 83,
+            "text": "(Ghosal, 2009)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "Our model and its measure of sunkenness lead to tightly speci\u2026ed equations (15) and (18) . Still, it would be important to assess the robustness of our empirical \u2026ndings to alternative functional speci\u2026cations of the basic estimating equations. For this we adopt a simple linear speci\u2026cation where the dependent variable as well as all explanatory variables appear in their natural form. For 1982, we obtain the following parameter estimates (standard errors in parentheses): Thus, we again \u2026nd that there is a statistically signi\u2026cant relationship between the variables determining sunkenness and \u2026rm size dispersion. 18 The main focus of this paper has been to assess the impact of tangible sunk costs on \u2026rm size dispersion. We have also made an e\u00a4ort to take into account intangible sunk costs. Still, it would be important to ascertain whether the omission of intangible sunk costs from our basic estimating equations gives rise to a signi\u2026cant bias. Overall, we do not \u2026nd a signi\u2026cant di\u00a4erence in the parameter estimates for REN i , DEP i , and RES i when intangible (advertising) sunk costs are included in or excluded from (15) , (18) , (20) , and (21). When we do \u2026nd a di\u00a4erence, it appears that the statistical signi\u2026cance and quantitative importance of the variables that determine tangible sunk costs are actually enhanced when intangible sunk costs are taken into account. For example, in Table 3 , when advertising is omitted from (20) and 21 Table 3 reveals that the e\u00a4ects of REN i , DEP i , and RES i are more pronounced when advertising sunk costs are taken into account. Moreover, when we divide our sample into consumer and producer goods industries, we \u2026nd no statistically signi\u2026cant di\u00a4erence in the e\u00a4ects of the variables that determine sunk costs (tangible and intangible) across the two groups. 19 Also, the inclusion of the capital/sales variable makes no signi\u2026cant di\u00a4erence in the estimated coe\u00a2 cients of REN i , DEP i , and RES i .",
+        "cite_spans": [
+          {
+            "start": 75,
+            "end": 79,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 84,
+            "end": 88,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 619,
+            "end": 621,
+            "text": "18",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 1133,
+            "end": 1137,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 1140,
+            "end": 1144,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 1147,
+            "end": 1151,
+            "text": "(20)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 1448,
+            "end": 1452,
+            "text": "(20)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 1825,
+            "end": 1827,
+            "text": "19",
+            "ref_id": "BIBREF18"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 1405,
+            "end": 1412,
+            "text": "Table 3",
+            "ref_id": "TABREF6"
+          },
+          {
+            "start": 1460,
+            "end": 1467,
+            "text": "Table 3",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "C 4i 4 N i =",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "We have employed in \u2021uence diagnostic techniques to identify observations that could be considered as outliers with respect to the true underlying regression model or observations that exert a strong in \u2021uence on the position of the \u2026tted regression. Our regression diagnostics rule out the possibility that our results are driven by a few outliers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Table 2 OLS and FGLS Estimates of the Determinants of Dispersion in Firm Sizes",
+        "sec_num": null
+      },
+      {
+        "text": "The evidence that is presented in this paper indicates that increased market contestability, as signi\u2026ed by low sunk costs, tends to reduce the dispersion of \u2026rm sizes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary",
+        "sec_num": "9"
+      },
+      {
+        "text": "One of the key predictions of the theory of contestable markets is that market forces under contestability would tend to render any ine\u00a2 cient organization of the industry unsustainable, and consequently, tighten the distribution of \u2026rms around the optimum. The extent to which an industry is contestable depends on the sunkenness of the capital that it employs. 20 Thus sunk costs should give rise to an important non-stochastic component in the forces determining size inequalities. 21 Other theoretical models also suggest that sunk costs are an important dimension of barriers to entry and have important e\u00a4ects on market structure. The empirical testing of these predictions, however, has been hindered by the lack of industry-level, and especially \u2026rm-level, data on sunk costs.",
+        "cite_spans": [
+          {
+            "start": 363,
+            "end": 365,
+            "text": "20",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 485,
+            "end": 487,
+            "text": "21",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary",
+        "sec_num": "9"
+      },
+      {
+        "text": "We employ industry-level data to construct meaningful proxies for sunkenness and thus directly to quantify contestability. These proxies are based on reported measures of the intensities of the second-hand and lease markets for the industry's capital and the rate at which that capital depreciates. We \u2026nd that the stronger is the resale market for the capital employed in a given industry, the easier it is to lease such capital; and the more rapidly that it depreciates (i.e., the lower is sunkenness), 1 9 We \u2026rst used A=S (advertising-to-sales) ratio of .01 as the cuto\u00a4 point in separating the sample. We subsequently employed the Chow test to test for the equality of coe\u00a2 cients across the two subsamples in (15) , (18) , (20) , and (21) . For example, for the 1982 cross section with A=S included in the right-hand side of (15), the Chow F = :21 < F :95 4;242 = 2:41; and the probability level at which the F-test rejects the equality of coe\u00a2 cients across the two sub-samples is .93; similarly, in (18) the Chow F = :33 < F :95 4;242 = 2:41; and the probability level at which the F-test rejects the equality of coe\u00a2 cients is .85.",
+        "cite_spans": [
+          {
+            "start": 505,
+            "end": 508,
+            "text": "1 9",
+            "ref_id": null
+          },
+          {
+            "start": 715,
+            "end": 719,
+            "text": "(15)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 722,
+            "end": 726,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 729,
+            "end": 733,
+            "text": "(20)",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 740,
+            "end": 744,
+            "text": "(21)",
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 1007,
+            "end": 1011,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary",
+        "sec_num": "9"
+      },
+      {
+        "text": "2 0 We have employed the estimated values of c1; c2, and c3 in (18) to construct an index of sunkenness for the 4-digit U.S. manufacturing industries. This ranking of sunkenness is available from the authors upon request. 2 1 Cabral (1995) examines the role of sunk costs in the context of a theoretical model analyzing the relationship between \u2026rm growth and \u2026rm size. the smaller is \u2026rm size dispersion within the industry. These \u2026ndings are robust to alternative measures of \u2026rm size dispersion, the time period chosen, estimation procedures, and functional speci\u2026cation. Both tangible and intangible sunk costs have a statistically signi\u2026cant in \u2021uence on the size distribution of \u2026rms. This paper provides indirect support for one of the most fundamental welfare properties of contestable markets: the absence of any sort of ine\u00a2 ciency in production in industry equilibrium. Incumbents whose outputs di\u00a4er substantially from the minimum scale of operation cannot withstand the pressure of potential entrants who, in the presence of low sunk costs, can e\u00a4ectively exploit the opportunities offered by the presence of ine\u00a2 ciency and waste in production through hit-and-run entry. Thus the forces of contestability, facilitated by low sunk costs, continuously work to weed out ine\u00a2 cient \u2026rms through a process of \"creative destruction\". Our \u2026ndings provide speci\u2026c guidance for the design of appropriate public policies towards investment and changes in regulatory regimes to enhance the contestability of markets. Accelerated depreciation policies, favorable tax treatment of leasing operations, and the removal of regulatory restrictions on the types of capital (e.g., new versus used) deployed by entrants are some obvious candidates. 22 ",
+        "cite_spans": [
+          {
+            "start": 63,
+            "end": 67,
+            "text": "(18)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 222,
+            "end": 239,
+            "text": "2 1 Cabral (1995)",
+            "ref_id": null
+          },
+          {
+            "start": 1743,
+            "end": 1745,
+            "text": "22",
+            "ref_id": "BIBREF21"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary",
+        "sec_num": "9"
+      },
+      {
+        "text": "The novelty of the theory of contestable markets in explicitly recognizing the endogeneity of market structure should not be overstated. In his excellent exposition of the theory of contestable markets,Martin (2000) correctly points out that \"the literature before contestability did not treat market structure as exogenously given.\"5 It is important to note that even in the single-product case and with a U-shaped average cost, the optimal solution will not always involve equal outputs by all \u2026rms.Baumol and Fischer (1978), andBaumol et al. (1982), chapter 5, give an example.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In a recent paper,Cabral and Ross (2008) question the received wisdom that sunk costs create a barrier to entry. They argue that by providing entrants with a commitment power, sunk investments may soften the reaction of incumbents.7 In a recent paper,Ghosal (2007) argues that given a level of uncertainty (sunk costs), higher sunk costs (uncertainty) reduce the number of smaller \u2026rms, leave larger \u2026rms una\u00a4ected, and increase market concentration-the inference being that they make the \u2026rm size distribution less skewed. See alsoGhosal (1996Ghosal ( , 2003aGhosal ( , 2003b.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We would like to thank an anonymous referee for higlighting the importance of this issue.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "6 In the presence of serial correlation, FGLS is preferred because it is more e\u00a2 cient and its test statistics are at least asymptotically valid.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "7 These results are available from the authors upon request.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "8 We also \u2026nd highly statistically signi\u2026cant relationships in the 1987 and 1992 cross-sections.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "2 For example, two decades ago, entrants into ocean shipping in Peru were required to employ new rather than used vessels if they were to be accorded a national carrier status.2 3 However, under a linear speci\u2026cation where such zero values are permitted, their exclusion does not appear to introduce a bias.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "We are indebted to William Baumol, Christine Kessides, Dennis Mueller, Mike Toman, two anonymous referees, and the General Editor for their very helpful comments. Any remaining errors are our own.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Acknowledgements",
+        "sec_num": null
+      },
+      {
+        "text": "Our sample consists of all 4-digit U.S. manufacturing industries for which a complete set of variables could be obtained. Since the estimation of our basic equation entails a logarithmic transformation, some industries were eliminated because of zero values of the RES variable. 23 Industries were also excluded because: they were badly de\u2026ned; their data were not comparable to prior years due to changes in industry classi\u2026cation; data on DEP and RES were not available, or did not meet census publication standards. Our \u2026nal sample consisted of: 400 industries in 1982, 430 in 1987, and 367 in 1992. In the pooled data, we eliminated those industries that do not appear in all three (1982, 1987, and 1992 ) census years. The \u2026nal sample consisted of 828 observations.",
+        "cite_spans": [
+          {
+            "start": 279,
+            "end": 281,
+            "text": "23",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 686,
+            "end": 707,
+            "text": "(1982, 1987, and 1992",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Appendix",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Testing Gibrat's law: empirical evidence from panel unit root tests of Turkish \u2026rms",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Aslan",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "International Research Journal of Finance and Economics",
+        "volume": "16",
+        "issue": "",
+        "pages": "137--142",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Aslan, A. (2008). Testing Gibrat's law: empirical evidence from panel unit root tests of Turkish \u2026rms. International Research Journal of Finance and Eco- nomics, 16, 137-142.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Contestable markets: an uprising in the theory of industry structure",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Baumol",
+            "suffix": ""
+          }
+        ],
+        "year": 1982,
+        "venue": "American Economic Review",
+        "volume": "72",
+        "issue": "1",
+        "pages": "1--15",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Baumol, W. (1982). Contestable markets: an uprising in the theory of industry structure. American Economic Review, 72 (1), 1-15.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Cost-minimizing number of \u2026rms and determination of industry structure",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Baumol",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Fischer",
+            "suffix": ""
+          }
+        ],
+        "year": 1978,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "92",
+        "issue": "",
+        "pages": "439--467",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Baumol, W., & Fischer, D. (1978). Cost-minimizing number of \u2026rms and deter- mination of industry structure. Quarterly Journal of Economics, 92, 439-467.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Contestable markets and the theory of industry structure",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Baumol",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Panzar",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Willig",
+            "suffix": ""
+          }
+        ],
+        "year": 1982,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Baumol, W., Panzar, J., & Willig, R. (1982). Contestable markets and the theory of industry structure. San Diego: Harcourt Brace Jovanovich.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Empirical models of entry and market structure",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Berry",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Reiss",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Handbook of industrial organization",
+        "volume": "III",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Berry, S., & Reiss, P. (2007). Empirical models of entry and market structure. In M. Armstrong & R. Porter (eds.), Handbook of industrial organization, vol. III. Netherlands: Elsevier Science Publishers.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Using residuals robustly I: tests for heteroscedasticity, nonlinearity",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Bickel",
+            "suffix": ""
+          }
+        ],
+        "year": 1978,
+        "venue": "Annals of Statistics",
+        "volume": "6",
+        "issue": "",
+        "pages": "266--291",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bickel, P. (1978). Using residuals robustly I: tests for heteroscedasticity, non- linearity. Annals of Statistics, 6, 266-291.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Sunk costs, \u2026rm size and \u2026rm growth",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Cabral",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "The Journal of Industrial Economics",
+        "volume": "",
+        "issue": "2",
+        "pages": "161--172",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cabral, L. (1995). Sunk costs, \u2026rm size and \u2026rm growth. The Journal of Indus- trial Economics, XLIII (2), 161-172.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Are sunk costs a barrier to entry?",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Cabral",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Ross",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Journal of Economics and Management Strategy",
+        "volume": "17",
+        "issue": "1",
+        "pages": "97--112",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cabral, L., & Ross, T. (2008). Are sunk costs a barrier to entry? Journal of Economics and Management Strategy, 17 (1), 97-112.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Testing Gibrat's legacy: a Bayesian approach to study the growth of \u2026rms",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Ce\u2026s",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Ciccarelli",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Orsenigo",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Structural Change and Economic Dynamics",
+        "volume": "18",
+        "issue": "3",
+        "pages": "348--369",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ce\u2026s, E., Ciccarelli, M., & Orsenigo, L. (2007). Testing Gibrat's legacy: a Bayesian approach to study the growth of \u2026rms. Structural Change and Eco- nomic Dynamics, 18 (3), 348-369.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Panel unit root tests of \u2026rm size and its growth",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Chen",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Lu",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Applied Econometrics Letters",
+        "volume": "10",
+        "issue": "6",
+        "pages": "343--345",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chen, J., & Lu, W. (2003). Panel unit root tests of \u2026rm size and its growth. Applied Econometrics Letters, 10 (6), 343-345.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Seller concentration: the technological explanation and demand uncertainty",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Davies",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Lyons",
+            "suffix": ""
+          }
+        ],
+        "year": 1982,
+        "venue": "The Economic Journal",
+        "volume": "92",
+        "issue": "",
+        "pages": "903--919",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Davies, S., & Lyons, B. (1982). Seller concentration: the technological expla- nation and demand uncertainty. The Economic Journal, 92, 903-919.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Firm size distributions: an overview of steady-state distributions resulting from \u2026rm dynamics models",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "De Wit",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "International Journal of Industrial Organization",
+        "volume": "23",
+        "issue": "",
+        "pages": "423--50",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "de Wit, G. (2005). Firm size distributions: an overview of steady-state distrib- utions resulting from \u2026rm dynamics models. International Journal of Industrial Organization, 23, 423-50.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "R&D and the growth of \u2026rms: an empirical analysis of a panel of Italian \u2026rms",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Del Monte",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Papagni",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Research Policy",
+        "volume": "32",
+        "issue": "6",
+        "pages": "1003--1014",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Del Monte, A., & Papagni, E. (2003). R&D and the growth of \u2026rms: an empir- ical analysis of a panel of Italian \u2026rms. Research Policy, 32 (6), 1003-1014.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Zipf's law for cities: an explanation",
+        "authors": [
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Gabaix",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "The Quarterly Journal of Economics",
+        "volume": "114",
+        "issue": "3",
+        "pages": "739--767",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gabaix, X. (1999). Zipf's law for cities: an explanation. The Quarterly Journal of Economics,114 (3), 739-767.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Are di\u00a4erences in \u2026rm size transitory or permanent",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Geroski",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Lazarova",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Walters",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Journal of Applied Econometrics",
+        "volume": "18",
+        "issue": "1",
+        "pages": "47--59",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Geroski, P., Lazarova, S., & Walters, F. (2003). Are di\u00a4erences in \u2026rm size transitory or permanent? Journal of Applied Econometrics, 18 (1), 47-59.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Les inegalites economiques",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Gibrat",
+            "suffix": ""
+          }
+        ],
+        "year": 1931,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gibrat, R. (1931). Les inegalites economiques. Paris: Sirey.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Does uncertainty in \u2021uence the number of \u2026rms in an industry?",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Ghosal",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "Economics Letters",
+        "volume": "50",
+        "issue": "",
+        "pages": "229--236",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ghosal, V. (1996). Does uncertainty in \u2021uence the number of \u2026rms in an indus- try? Economics Letters, 50, 229-236.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Wissenschaftszentrum Berlin f\u00fcr Sozialforschung, Markets and Political Economy Working Paper No. SP II 2003-12",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Ghosal",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ghosal, V. (2003a). Impact of uncertainty and sunk costs on \u2026rm survival and industry dynamics. Wissenschaftszentrum Berlin f\u00fcr Sozialforschung, Markets and Political Economy Working Paper No. SP II 2003-12. Retrieved from http://bibliothek.wzb.eu/pdf/2003/ii03-12.pdf.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Firm and establishment volatility: the role of sunk costs, pro\u2026t uncertainty and technological change",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Ghosal",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ghosal, V. (2003b). Firm and establishment volatility: the role of sunk costs, pro\u2026t uncertainty and technological change. CESifo Working Paper No. 980. Retrieved from http://www.cesifo-group.de/DocCIDL/cesifo_wp980.pdf.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Small is beautiful but size matters: the asymmetric impact of uncertainty and sunk costs on small and large businesses",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Ghosal",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ghosal, V. (2007). Small is beautiful but size matters: the asym- metric impact of uncertainty and sunk costs on small and large busi- nesses.\" MPRA Paper No. 5461. Retrieved from http://mpra.ub.uni- muenchen.de/5461/1/MPRA_paper_5461.pdf.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "The role played by sunk costs in real-options models. 10 th CESifo Venice Summer Institute",
+        "authors": [
+          {
+            "first": "V",
+            "middle": [],
+            "last": "Ghosal",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "6--11",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ghosal, V. (2009). The role played by sunk costs in real-options mod- els. 10 th CESifo Venice Summer Institute, 6-11 July 2009. Retrieved from http://www.cesifo-group.de/link/vsi09_ou_Ghosal.pdf.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "A test of accounting bias and market structure",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Hagerman",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Senbet",
+            "suffix": ""
+          }
+        ],
+        "year": 1976,
+        "venue": "Journal of Business",
+        "volume": "46",
+        "issue": "",
+        "pages": "509--514",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hagerman, R., & Senbet, L. (1976). A test of accounting bias and market structure. Journal of Business, 46, 509-514.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Firm-speci\u2026city in corporate applied research and development",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Helfat",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Organization Science",
+        "volume": "5",
+        "issue": "2",
+        "pages": "173--184",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Helfat, C. (1994). Firm-speci\u2026city in corporate applied research and develop- ment. Organization Science, 5 (2), 173-184.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Skew distributions and the sizes of business \u2026rms",
+        "authors": [
+          {
+            "first": "Y",
+            "middle": [],
+            "last": "Ijiri",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Simon",
+            "suffix": ""
+          }
+        ],
+        "year": 1977,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ijiri,Y., & Simon, H. (1977). Skew distributions and the sizes of business \u2026rms. Amsterdam: North-Holland.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "On the Gibrat distribution",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Kalecki",
+            "suffix": ""
+          }
+        ],
+        "year": 1945,
+        "venue": "Econometrica",
+        "volume": "13",
+        "issue": "2",
+        "pages": "161--170",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kalecki, M. (1945). On the Gibrat distribution. Econometrica, 13 (2), 161-170.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "A generalized interpretation of the Her\u2026ndahl index",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Kelly",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Southern Economic Journal",
+        "volume": "48",
+        "issue": "1",
+        "pages": "50--57",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kelly, W. (2001). A generalized interpretation of the Her\u2026ndahl index. Southern Economic Journal, 48 (1), 50-57.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Advertising, sunk costs, and barriers to entry",
+        "authors": [
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Kessides",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "The Review of Economics and Statistics",
+        "volume": "68",
+        "issue": "1",
+        "pages": "84--95",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kessides, I. (1986). Advertising, sunk costs, and barriers to entry. The Review of Economics and Statistics, 68 (1), 84-95.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Towards a testable model of entry: a study of the US manufacturing industries",
+        "authors": [
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Kessides",
+            "suffix": ""
+          }
+        ],
+        "year": 1990,
+        "venue": "Economica",
+        "volume": "57",
+        "issue": "",
+        "pages": "219--238",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kessides, I. (1990). Towards a testable model of entry: a study of the US manufacturing industries. Economica, 57, 219-238.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "The new industrial organization and small business",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Kwoka",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "White",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "Small Business Economics",
+        "volume": "16",
+        "issue": "1",
+        "pages": "21--30",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kwoka, J., & White, L. (2001). The new industrial organization and small business. Small Business Economics, 16 (1), 21-30.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Power laws are logarithmic Boltzmann laws",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Levy",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Solomon",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "International Journal of Modern Physics",
+        "volume": "7",
+        "issue": "04",
+        "pages": "595--601",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Levy, M., & Solomon, S. (1996). Power laws are logarithmic Boltzmann laws. International Journal of Modern Physics, C 7 (04), 595-601.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "Defending Gibrat's law as a long-run regularity",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Lotti",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Santarelli",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Vivarelli",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Small Business Economics",
+        "volume": "32",
+        "issue": "1",
+        "pages": "31--44",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lotti, F., Santarelli, E., & Vivarelli, M. (2009). Defending Gibrat's law as a long-run regularity. Small Business Economics, 32 (1), 31-44.",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "Power-law distributions and Levy-stable intermittent \u2021uctuations in stochastic systems of many autocatalytic elements",
+        "authors": [
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Malcai",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Biham",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Solomon",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Physical Review, E",
+        "volume": "60",
+        "issue": "2",
+        "pages": "1299--1303",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Malcai, O., Biham, O., & Solomon, S. (1999). Power-law distributions and Levy-stable intermittent \u2021uctuations in stochastic systems of many autocat- alytic elements. Physical Review, E 60 (2), 1299-1303.",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Sunk costs, \u2026nancial markets, and contestability",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Martin",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "European Economic Review",
+        "volume": "33",
+        "issue": "",
+        "pages": "89--1113",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Martin, S. (1989). Sunk costs, \u2026nancial markets, and contestability. European Economic Review, 33, 089-1113.",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "The theory of contestable markets",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Martin",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Martin, S. (2000). The theory of contestable markets. Purdue University. Retrieved from http://www.krannert.purdue.edu/faculty/smartin/aie2/contestbk.pdf.",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "Advanced Industrial Economics",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Martin",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Martin, S. (2002). Advanced Industrial Economics. Malden, Mass.: Blackwell Publishing.",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "Sunk costs, uncertainty and market exit: a real options perspective",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "O'brien",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Folta",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "Industrial and Corporate Change",
+        "volume": "18",
+        "issue": "5",
+        "pages": "807--833",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "O'Brien, J., & Folta, T. (2009). Sunk costs, uncertainty and market exit: a real options perspective. Industrial and Corporate Change, 18 (5), 807-833.",
+        "links": null
+      },
+      "BIBREF36": {
+        "ref_id": "b36",
+        "title": "Testing Gibrat's law: empirical evidence from a panel of Portuguese \u2026rms",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Oliveira",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Fortunato",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "International Journal of the Economics of Business",
+        "volume": "13",
+        "issue": "1",
+        "pages": "65--81",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Oliveira, B., & Fortunato, A. (2006). Testing Gibrat's law: empirical evidence from a panel of Portuguese \u2026rms. International Journal of the Economics of Business, 13 (1), 65-81.",
+        "links": null
+      },
+      "BIBREF37": {
+        "ref_id": "b37",
+        "title": "Industrial market structure and economic performance",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Scherer",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Ross",
+            "suffix": ""
+          }
+        ],
+        "year": 1990,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Scherer, F., & Ross, D. (1990). Industrial market structure and economic per- formance. 3rd edn., Boston: Houghtn Mi-in.",
+        "links": null
+      },
+      "BIBREF38": {
+        "ref_id": "b38",
+        "title": "Inter-industry studies of structure and performance",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Schmalensee",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "Handbook of industrial organization",
+        "volume": "II",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schmalensee, R. (1989). Inter-industry studies of structure and performance. In R. Schmalensee and R. Willig (eds.), Handbook of industrial organization, vol. II. Netherlands: Elsevier Science Publishers.",
+        "links": null
+      },
+      "BIBREF39": {
+        "ref_id": "b39",
+        "title": "On a class of skew distribution functions",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Simon",
+            "suffix": ""
+          }
+        ],
+        "year": 1955,
+        "venue": "Biometrika",
+        "volume": "52",
+        "issue": "",
+        "pages": "425--440",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Simon, H. (1955). On a class of skew distribution functions. Biometrika, 52, 425-440.",
+        "links": null
+      },
+      "BIBREF40": {
+        "ref_id": "b40",
+        "title": "Some further notes on a class of skew distributions. Information and Control",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Simon",
+            "suffix": ""
+          }
+        ],
+        "year": 1960,
+        "venue": "",
+        "volume": "3",
+        "issue": "",
+        "pages": "80--88",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Simon, H. (1960). Some further notes on a class of skew distributions. Infor- mation and Control, 3, 80-88.",
+        "links": null
+      },
+      "BIBREF41": {
+        "ref_id": "b41",
+        "title": "The size distribution of business \u2026rms",
+        "authors": [
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Simon",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Bonini",
+            "suffix": ""
+          }
+        ],
+        "year": 1958,
+        "venue": "American Economic Review",
+        "volume": "48",
+        "issue": "4",
+        "pages": "607--624",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Simon, H., & Bonini, C. (1958). The size distribution of business \u2026rms. Amer- ican Economic Review, 48 (4), 607-17.",
+        "links": null
+      },
+      "BIBREF42": {
+        "ref_id": "b42",
+        "title": "Random processes and the growth of \u2026rms: a study of the Pareto law",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Steindl",
+            "suffix": ""
+          }
+        ],
+        "year": 1965,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Steindl, J. (1965). Random processes and the growth of \u2026rms: a study of the Pareto law. London: Gri\u00a2 n and Company.",
+        "links": null
+      },
+      "BIBREF43": {
+        "ref_id": "b43",
+        "title": "Gibrat's legacy",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Sutton",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Journal of Economic Literature",
+        "volume": "35",
+        "issue": "",
+        "pages": "40--59",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sutton, J. (1997). Gibrat's legacy. Journal of Economic Literature, 35, 40-59.",
+        "links": null
+      },
+      "BIBREF44": {
+        "ref_id": "b44",
+        "title": "Technology and market structure",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Sutton",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sutton, J. (1998). Technology and market structure. Boston: The MIT Press.",
+        "links": null
+      },
+      "BIBREF45": {
+        "ref_id": "b45",
+        "title": "Advertising sunk costs and credible spatial preemption",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Thomas",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "Strategic Management Journal",
+        "volume": "17",
+        "issue": "6",
+        "pages": "481--498",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Thomas, L. (1996). Advertising sunk costs and credible spatial preemption. Strategic Management Journal, 17 (6), 481-498.",
+        "links": null
+      },
+      "BIBREF46": {
+        "ref_id": "b46",
+        "title": "What has been happening to aggregate concentration in the United States",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "White",
+            "suffix": ""
+          }
+        ],
+        "year": 1981,
+        "venue": "The Journal of Industrial Economics",
+        "volume": "",
+        "issue": "3",
+        "pages": "223--230",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "White, L. (1981). What has been happening to aggregate concentration in the United States. The Journal of Industrial Economics, XXIX(3), 223-230.",
+        "links": null
+      },
+      "BIBREF47": {
+        "ref_id": "b47",
+        "title": "The determinants of the relative importance of small business",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "White",
+            "suffix": ""
+          }
+        ],
+        "year": 1982,
+        "venue": "The Review of Economics and Statistics",
+        "volume": "64",
+        "issue": "1",
+        "pages": "42--49",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "White, L. (1982). The determinants of the relative importance of small business. The Review of Economics and Statistics, 64 (1), 42-49.",
+        "links": null
+      },
+      "BIBREF48": {
+        "ref_id": "b48",
+        "title": "Are giant companies taking over the U.S. economy? should we care? Milken Institute Review, Second Quarter",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "White",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "60--68",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "White, L. (2002). Are giant companies taking over the U.S. economy? should we care? Milken Institute Review, Second Quarter, 60-68.",
+        "links": null
+      },
+      "BIBREF49": {
+        "ref_id": "b49",
+        "title": "Econometric analysis of cross section and panel data",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Wooldridge",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Wooldridge, J. (2002). Econometric analysis of cross section and panel data. Boston: The MIT Press.",
+        "links": null
+      },
+      "BIBREF50": {
+        "ref_id": "b50",
+        "title": "An income strategy approach to the positive theory of accounting standard setting/choice",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Zmijewski",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Hagerman",
+            "suffix": ""
+          }
+        ],
+        "year": 1981,
+        "venue": "Journal of Accounting and Economics",
+        "volume": "3",
+        "issue": "",
+        "pages": "129--149",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Zmijewski, M., & Hagerman, R. (1981). An income strategy approach to the positive theory of accounting standard setting/choice. Journal of Accounting and Economics, 3, 129-149.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "fig_num": null,
+        "num": null,
+        "type_str": "figure",
+        "text": "is the average market share of the largest N \u2026rms, and CN = N X j=1 sj: If an industry contains more than 50 \u2026rms, then we compute the variance of the market shares of the largest 50 \u2026rms from the values of the truncated Her\u2026ndahl index H50 and the 50-\u2026rm concentration ratio C50 that are reported by the census, i.e., V (sIf, on the other hand, an industry contains N \u2026rms where N < 50, then CN = 1 and V (s)",
+        "uris": null
+      },
+      "FIGREF1": {
+        "fig_num": null,
+        "num": null,
+        "type_str": "figure",
+        "text": ", we obtain the following parameter estimates (standard errors in parentheses) for 1982: a 0 = 190:55(35:91); a 1 = 245:64(40:13); a 2 = :013(:005); d 0 = 119:68(32:62); d 1 = 138:51(36:40); d 2 = :021(:009): A comparison with the parameter estimates in",
+        "uris": null
+      },
+      "TABREF0": {
+        "content": "<table/>",
+        "html": null,
+        "num": null,
+        "type_str": "table",
+        "text": "After 1992, the Census ceased reporting the classi\u2026cation of capital expenditures into new and used. Thus, after that year, proxies for the intensity of the resale market RES could not be constructed. However, even in 1992, it is not possible to construct RES for a large number of industries. To ensure that the three cross-sections are comparable in terms of their sample size, the variables used for the 1992 crosssection are averages of 1987 and 1992. Summary statistics for the key variables are provided in the appendix."
+      },
+      "TABREF6": {
+        "content": "<table/>",
+        "html": null,
+        "num": null,
+        "type_str": "table",
+        "text": "Nonlinear OLS Estimates of the Determinants of Dispersion in Firm Sizes (tangible and intangible sunk costs)"
+      }
+    }
+  }
+}

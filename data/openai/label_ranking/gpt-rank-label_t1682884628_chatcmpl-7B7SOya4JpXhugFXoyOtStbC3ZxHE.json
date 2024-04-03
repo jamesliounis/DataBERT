@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05145: In this section I conduct robustness checks on the main quantitative findings of the model with respect to two important parameters -the labor share of income and the depreciation rate of physical capital .\n\ns_05195: There are no significant added effects of 16 We also conduct falsification checks to determine the sensitivity of the results, where we replace the outcome measures from the follow-up survey with the baseline measures (Appendices S9 and S10).\n\ns_05245: Unfortunately, one of the common observations of analysts of the incidence of pricing and subsidies in the sector is that there is very little data on water consumption.\n\ns_05295: Section IV has the conclusions.\n\ns_05345: The event-study methodology also allows us to examine the claim that rating agencies behave procyclically, upgrading countries in good states and downgrading them in times of crises.\n\ns_05395: It is important to emphasize that these models give a lower bound of the R2 compared to the models used in the prediction as the prediction models include the core consumption as explanatory variable.\n\ns_05445: Sources for these variables include Conference Board's Total Economy database, International Labor Organization's ILOSTAT database, and World Development Indicators.\n\ns_05495: Feedback provided by contributors during the first round of data collection was indispensable to understanding the relevance of questions that were being asked and refining the survey's structure for future data collection.\n\ns_05545: In general, the results in Table 4 show that the association between GDP per capita and the skill content of jobs is weak once we control for unobserved heterogeneity across countries, time trends and time-variant country characteristics, in contrast to the strong link found when using crosssectional data.\n\ns_05595: This paper describes the methodology and findings for the extreme hazard exposure analysis of the Chinese wastewater sector to flooding and earthquakes hazards.\n\ns_05645: Nivel de significancia *** p<0.01, ** p<0.05, * p<0.1.\n\ns_05695: All card transactions are aggregated monthly by service, to generate a \"record of bank transactions\".\n\ns_05745: These studies include Acemoglu (1999) , Autor et al.\n\ns_05795: The first row of Table 7 presents detailed summary statistics by price offered.\n\ns_05845: Such information was simply unavailable before the advent of Google Traffic, and it provides systematic evidence that can support a much finer-grained approach to traffic analysis and transport planning for the Dhaka region.\n\ns_05895: Antras and de Gortari (2016) provide a theoretical structure for such a model with implications for which countries in the region are more likely to participate in specific GVCs and at what stage.\n\ns_05945: These results are comparable to those of (Devereux et al., 2017b) who use the same specification, in that the pass-through of both dollar and euro invoiced products were higher (higher than the local currency priced products), despite the euro not having a large share in the Canadian imports.\n\ns_05995: For instance, income, installation fees, and age are shown to be significant factors predicting fixedinternet usage (Birba and Diagne 2012; Cerno and Amaral 2006; Katz and Rice 2003) .\n\ns_06045: We follow Iacoviello (2005) in choosing a value of = 1:27, Y = 0:13, and R = 0:73.\n\ns_06095: This data set provides a record of verified conflict-driven casualties, changes in area control, and key conflict events (light skirmishes, airstrikes, artillery strikes, and chemical attacks) using more than 7,000 news items and multiple databases.\n\ns_06145: In the regression tables, we report the samples used for the estimation of each equation.15 98% of return migrants in our estimation sample went to other Arab countries.16 InTable A.3 in the Online Appendix, we also report descriptive statistics on current migrants and return migrants.\n\ns_06195: Among both survey groups combined (data are not provided in which health care workers are separated), concerns about vaccine safety were very prevalent (Pogo et al., 2021, p. 18) .\n\ns_06245: Notes: This table shows equivalent poverty lines in column (3) that keep the global and regional poverty headcount ratios in column (2) constant in a pre-specified reference year (year given in column (1)).\n\ns_06295: Following Equation 3, when we change our reference group to untreated households in treated villages, we see that the effect of the treatment is equally strong for those with the largest transfers, reaching almost 10 percentage points.\n\ns_06345: Country-level estimates of intergenerational mobility focused on secondary education can be found in Table A7 of the Appendix."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7SOya4JpXhugFXoyOtStbC3ZxHE",
+    "object": "chat.completion",
+    "created": 1682884628,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1270,
+      "completion_tokens": 54,
+      "total_tokens": 1324
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05445\", \"data_mentioned\": true, \"reason\": \"World Development Indicators\"}, {\"sent_id\": \"s_06095\", \"data_mentioned\": true, \"reason\": \"verified conflict-driven casualties\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05445\", \"data_mentioned\": true, \"reason\": \"World Development Indicators\"}, {\"sent_id\": \"s_06095\", \"data_mentioned\": true, \"reason\": \"verified conflict-driven casualties\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_00562: The deeper problem that calls for a scientific initiative is how to study pathogenesis of common polygenic brain disorders-how to use rapidly emerging genetic results to inform useful biologic DISCUSSION PAPER experimentation and ultimately therapy.\n\ns_00612: On March 11, 2020, the World Health organization declared the outbreak of SARS-CoV-2 a global pandemic, reporting community scale transmission world-wide with more than 8 million cases of confirmed corona virus disease (COVID-19).\n\ns_00654: As Vialard and Delecluse [1998] pointed out, the warming effect of decoupling the ML from the deep ocean is competing with cooling due to solar penetration.\n\ns_00704: Recent work by Westenbarger and Fris-(1991) explains \"Commonly estimated yield funcvold (1994) has overcome this obstacle by map-tions are linear across most inputs with quadratic ping pollution data collected at monitoring stations or logarithmic measures of particular inputs with to a two-dimensional surface and linking values nonconstant marginal physical products.\"\n\ns_00754: Table 2 shows results of regressions predicting spring of kindergarten science achievement progressively controlling for prior achievement in mathematics and reading, student socioeconomic status, and school fixed effects.\n\ns_00804: The system of interest in this study is the school district.\n\ns_00854: In Oregon, Janes (1985) determined that the highest abundances of major prey species (white-tailed jackrabbits, Townsend's ground squirrels, and northern pocket gophers [Thomomys talpoides]) occurred in native grasslands.\n\ns_00904: We first performed a binary classification task for distinguishing the AD patients from the NC individuals using the shape representation, radiomics representation, and deep representation respectively with a two-fold purpose.\n\ns_00954: The relaxation time scale of the first recovery is about 40 days, computed by fitting with an exponential the SSTA composite average in the first 60 days after the maximum of the drop, and does not depend on the value of the threshold.\n\ns_01004: For example a more detailed model for evaporation of the liquid and stratification of liquid and gas is to be implemented.\n\ns_01054: In summary, the regression results confirm the findings from the Tukey-Kramer mean separation tests that both farm and non-farm households exhibit strong life cycle in income and wealth.\n\ns_01104: To address issues of missing data (5%-18%), we imputed 50 data sets through the chained equations method.\n\ns_01154: HFIP coordinated efforts, through the National Oceanographic Partnership Program (NOPP), have resulted in a near global 6-year TCHP (and other measures of ocean energy) dataset that makes use of Navy Coupled Ocean Data Assimilation (NCODA, Cummings Fig.\n\ns_01204: The primary outcome measure was the ADAS-Cog, a standard scale for AD clinical trials that evaluates memory, reasoning, orientation, praxis, language, and word finding difficulty.\n\ns_01254: The keywords used were \"digital literacy\" and \"definition\" The additional search criteria was to limit studies between 2005 and 2016 and only include online journal articles.\n\ns_01304: While having pre-defined criteria facilitates comparisons between studies, there is ongoing debate about the validity of recognized subtypes [73, 74] .\n\ns_01354: Similarly, unsupervised machine learning approaches 31, 78 will be used to identify subgroups of patients and investigate their clinical outcomes.\n\ns_01404: These distributions of spatial amplitudes using the AVHRR dataset reveal much detail about features that cannot be captured by other widely-used SST datasets.\n\ns_01454: This is likely to be especially important in measuring gender differences in NIH grants because a number of awards there fund larger research teams on which, in some cases, others will do the bulk of the research.\n\ns_01504: Th e redeveloped GOSSYM generates its peak frequency at 17% when the correlation coeffi cient is 0.65, whereas the original model has its peak value at 16% when the correlation coeffi cient is 0.25.\n\ns_01554: By testing the morphodynamic simulations for more than 12 runs, the site-specific calibrated parameters, B w = 3.0, and \u03b5 = 10.0, were obtained.\n\ns_01604: Most of the notified introductions occurred from Europe and this observation was supported by phylogenetic and air travel data.\n\ns_01654: The OASIS dataset also contains short-term rescan images for reliability analyses.\n\ns_01704: These data underlie the importance of early diagnosis and surgical treatment of mcGTCs for optimal outcomes and outline characteristics that may be used to inform future guidelines to identify and manage high-risk patients.\n\ns_01754: For example, as illustrated in Figure 1 , the observed values of Source 1 covariates in Group 2 are utilized in the estimation of bothX"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7MU4MmcOLCEF0gxIkuI9SqR1Ahj",
+    "object": "chat.completion",
+    "created": 1682884262,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1301,
+      "completion_tokens": 53,
+      "total_tokens": 1354
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01154\", \"data_mentioned\": true, \"reason\": \"TCHP\"}, {\"sent_id\": \"s_01404\", \"data_mentioned\": true, \"reason\": \"AVHRR dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01154\", \"data_mentioned\": true, \"reason\": \"TCHP\"}, {\"sent_id\": \"s_01404\", \"data_mentioned\": true, \"reason\": \"AVHRR dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

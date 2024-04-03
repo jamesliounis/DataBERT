@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02558: We included variables describing Internet use, because web distribution is a frequently used method for informationseeking by organic farmers and on locality of market, because farmers selling locally are more likely to be concerned with resource constraints and regulatory costs than information needs (Kambara and Shelley, 2002) .\n\ns_02608: The results of our study indicate that men with benign prostatic hyperplasia eligible for surgical treatment were more likely to have MetS than men without BPH.\n\ns_02658: Similarly, Csernansky et al.\n\ns_02708: For each institutional composite, we show the share of the gap between current representation of black students and that which would be seen with race-neutral admissions that our projected income-driven convergence would close.\n\ns_02758: This is compounded by the basin's relatively low population, and lack of academic and government institutions available to undertake baseline and monitoring efforts necessary to fully understand and quantify the health and condition of the world's largest freshwater basin.\n\ns_02808: The results of their study may be driven by its inclusion of only children born at 34 weeks or later; our study similarly found small cognitive deficits for late-preterm children and no significant deficit for early-term children.\n\ns_02858: According to Hu and Bentler's specifications (1999) , models with RMSEA higher than .10 have poor fits, models lower than .10 are considered adequate, and models of .05 or lower are considered to have good fit.\n\ns_02908: This was feasible because these respondents were selected from households that reported both the ability and willingness to complete the survey online.\n\ns_02958: If this source was missing or not available, then the sex variable from school rosters was used.\n\ns_03008: Developing the system of the above-mentioned local monitoring system, we came to the conclusion that the priority should be given to the need to adopt a formative and non-engaged position and to establish a system that will provide useful information that will help improve the existing process on a continuous basis.\n\ns_03058: Seven out of nine I-ADNI sites exhibited similar SNR and CNR patterns to each other (p > 0.05).\n\ns_03108: The estimated parameter sign suggests that farms with larger capital should be more likely to participate in multifunctionality, but it is clearly not significant, unlike the finding by Lambert et al.\n\ns_03158: In a separate paper (2004a) they \u2026nd that SCST presidents invest in public goods preferred by SCSTs, a result that is also found by Besley, Pande, Rahman, and Rao(2004a) .\n\ns_03208: Though stocks data are notoriously imprecise, minimum working stocks are apparently close to 20% of use.\n\ns_03258: Table 3 presents the estimated Rybczynski coefficients under the assumption that all countries employ the same technology.\n\ns_03308: In fact, Panel B.2 of Figure 9 shows that larger banks did relatively better during the Lehman episode, with a marginally significant CADR of about 2 percent (p-value of 0.13).\n\ns_03358: Columns 1 to 4 report estimates where the sample is restricted respectively to different sectors: fuels, ores and metals, manufactures and textiles; whereas columns 5 and 6 examine exports from Southern countries to Northern countries and other Southern countries, respectively.\n\ns_03408: 6, July and August 1998.)\n\ns_03458: For example, in Table 3 , when advertising is omitted from (20) and 21 Table 3 reveals that the e\u00a4ects of REN i , DEP i , and RES i are more pronounced when advertising sunk costs are taken into account.\n\ns_03508: SeeFeyen, Lester and Rocha (2011).23 See North (1990).24 Consider, for example, the cases of credit card services and e-banking.\n\ns_03558: Row A uses the connectedness measure that is based on the response of the Jakarta Stock Exchange to news about Suharto\"s health and the business networks of those adversely affected by this news, while Row B uses as a proxy for connections whether a firm had a Suharto family member on its board.\n\ns_03608: In the next section we explain the various measures of co-dependence used in the analyses.\n\ns_03658: But the intertemporal link may lie in a combination of reputational considerations, durability of international legal frameworks and the path-dependence of economic integration.\n\ns_03708: As a result, firms in Mozambique, Benin, Burkina Faso, Senegal, the Gambia, Madagascar, and Niger spend more than 10 percent of their total costs on energy, whereas in China, the cost of energy is only 3 percent of total costs.\n\ns_03758: That book offered the first systematic cross-national survey of SE rights litigation, including descriptions of the cases filed in each country, estimates of the numbers of people benefiting from constitutional health and education rights cases in Brazil, India, Indonesia, Nigeria, and South Africa, and preliminary analyses of the extent to which giving courts a more prominent role in economic and social policy-making on the basis of social and economic rights in fact benefited disadvantaged individuals and groups."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7aKyjwHZ6JfpfIUG9CHKMgQpHpT",
+    "object": "chat.completion",
+    "created": 1682885120,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1358,
+      "completion_tokens": 84,
+      "total_tokens": 1442
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02958\", \"data_mentioned\": true, \"reason\": \"sex variable\"}, {\"sent_id\": \"s_03508\", \"data_mentioned\": true, \"reason\": \"Feyen, Lester and Rocha (2011)\"}, {\"sent_id\": \"s_03708\", \"data_mentioned\": true, \"reason\": \"energy cost\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02958\", \"data_mentioned\": true, \"reason\": \"sex variable\"}, {\"sent_id\": \"s_03508\", \"data_mentioned\": true, \"reason\": \"Feyen, Lester and Rocha (2011)\"}, {\"sent_id\": \"s_03708\", \"data_mentioned\": true, \"reason\": \"energy cost\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

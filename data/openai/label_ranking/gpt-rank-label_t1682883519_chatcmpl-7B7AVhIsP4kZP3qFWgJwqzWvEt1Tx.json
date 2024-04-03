@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_00897: Then we validated the Deep Ordinal Ranking method with independent data (total n=959 scans with 311 NC, 395 sMCI, 94 pMCI and 158 AD patients) from the cohorts ADNI GO and ADNI 2.\n\ns_00947: In Section 2 we present the observational datasets and describe the statistical analysis we have performed in order to identify the intense wind events and evaluate their impact on the state of the upper ocean.\n\ns_00997: In such cases, the accommodation coefficient can be a 'tuning' parameter to adapt the numerical results to that of measured results, rather than a real 'physical' parameter.\n\ns_01047: The most recent 2001 SCF data include information for 4,442 households.\n\ns_01097: As part of our modeling strategy, we also used robust standard errors clustered at the classroom level to adjust for the nesting of children in classrooms.\n\ns_01147: Using statistical schemes, this information is assimilated into numerical ocean models, which allows the UOTS to be monitored.\n\ns_01197: This association remained significant after adjusting for age and education (P , .001; Table 3 and Fig.\n\ns_01247: (Published as Global Solutions Paper) JEL C83 J20 J22 J23 J24 F63 F66 F68 I24 I25 O15 O19\n\ns_01297: Within each table, studies were further stratified based on the particular mood and anxiety disorder assessed (e.g., depression, posttraumatic stress disorder) and then sorted in ascending order based on the age group of the sample (i.e., adolescent, adult, elderly) and alphabetically based on the first author's last name.\n\ns_01347: These include structural MRI, DTI, and fMRI data, as well as nonimaging data (basic sociodemographic and clinical data), from patients with psychosis, patients with genetic vulnerability for psychosis (22q11.2 deletion syndrome), CHR-P individuals and healthy controls.\n\ns_01397: The correlation map is therefore appropriate to interpret the relationship of one variable (n-th mode SSTA) to the others arranged with background fields geographically.\n\ns_01447: In one of the surveys (the 1999 NSOPF), there were differences in tabulations of the raw survey results, but those differences disappeared when we adjusted for other characteristics, including the researcher's discipline, institution, experience, and past research output.\n\ns_01497: A companion study (Liang et al., 2012a) fulfi lled the third objective, where spatiotemporal variations of cotton yields and their responses to climate stresses simulated by the redeveloped GOSSYM were compared with observations.\n\ns_01547: To validate the coastal morphodynamic process model, calibrations of empirical parameters related to the morphodynamic model were conducted.\n\ns_01597: The unprecedented global health and societal emergency posed by the COVID-19 pandemic urged unprecedented data sharing and faster-than-ever outbreak research developments which are reflected in the fact that over 37.000 SARS-CoV-2 complete genomes have been made available through public databases, mainly GISAID (Global Initiative on Sharing All Influenza Data).\n\ns_01647: Sample size calculations in RRMS showed similar sample sizes were required for BSI and SI-ENA [90] .\n\ns_01697: 11, 18, 19 However, the understanding of patient characteristics and treatment modalities is lacking owing to limited data.\n\ns_01747: Sources 1, 2, and 3 contain 2, 6, and 7 relevant covariates, respectively.\n\ns_01797: Since the main interest of this study is segregation (and the findings related to other independent variables, such as metropolitan status and income inequality, were similar to those in Table 2 ), we focus our discussions on segregation and spatial filtering results.\n\ns_01847: The Working Paper Series was initiated to promote the sharing of the valuable work experience and knowledge reflected in these preliminary reports.\n\ns_01897: Although the table fields that contain the clinical and demographic information from the different clinical centers differ, the recent integration of the National Alzheimer's Coordinating Center FTLD module for use in the National Institute on Aging-funded AD centers will help increase the overlap between the data gathered by this core and the AD centers.\n\ns_01947: 2013; Lee and Kim 2019; Rutter and Brown 2017; Spitzer et al.\n\ns_01997: Hoffman (1995) , Wallick (1998) , and Barr et al.\n\ns_02047: This case study has shown the potential value of AI systems in diagnosing SARS-CoV-2 infected patients.\n\ns_02097: Data was summarized using Excel (Microsoft Office 2007) and Stata (Stata SE11.2)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7AVhIsP4kZP3qFWgJwqzWvEt1Tx",
+    "object": "chat.completion",
+    "created": 1682883519,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1271,
+      "completion_tokens": 109,
+      "total_tokens": 1380
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01347\", \"data_mentioned\": true, \"reason\": \"DTI\"}, {\"sent_id\": \"s_01547\", \"data_mentioned\": true, \"reason\": \"coastal morphodynamic process model\"}, {\"sent_id\": \"s_01597\", \"data_mentioned\": true, \"reason\": \"SARS-CoV-2 complete genomes\"}, {\"sent_id\": \"s_01697\", \"data_mentioned\": true, \"reason\": \"limited data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01347\", \"data_mentioned\": true, \"reason\": \"DTI\"}, {\"sent_id\": \"s_01547\", \"data_mentioned\": true, \"reason\": \"coastal morphodynamic process model\"}, {\"sent_id\": \"s_01597\", \"data_mentioned\": true, \"reason\": \"SARS-CoV-2 complete genomes\"}, {\"sent_id\": \"s_01697\", \"data_mentioned\": true, \"reason\": \"limited data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

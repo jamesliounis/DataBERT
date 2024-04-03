@@ -1,0 +1,1913 @@
+{
+  "paper_id": "D6350079",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:05:13.331554Z"
+  },
+  "title": "Spatial dynamics of labor markets in Brazil",
+  "authors": [
+    {
+      "first": "Kenneth",
+      "middle": [
+        "M"
+      ],
+      "last": "Chomitz",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Daniel",
+      "middle": [],
+      "last": "Da Mata",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Directorate of Regional and Urban Studies",
+        "institution": "Institute of Applied Economic Research (IPEA)",
+        "location": {}
+      },
+      "email": ""
+    },
+    {
+      "first": "Alexandre",
+      "middle": [],
+      "last": "Ywata De Carvalho",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Directorate of Regional and Urban Studies",
+        "institution": "Institute of Applied Economic Research (IPEA)",
+        "location": {}
+      },
+      "email": ""
+    },
+    {
+      "first": "Jo\u00e3o",
+      "middle": [
+        "Carlos"
+      ],
+      "last": "Magalh\u00e3es",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Directorate of Regional and Urban Studies",
+        "institution": "Institute of Applied Economic Research (IPEA)",
+        "location": {}
+      },
+      "email": ""
+    },
+    {
+      "first": "Jonny",
+      "middle": [],
+      "last": "Andersson",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Piet",
+      "middle": [],
+      "last": "Buys",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "George",
+      "middle": [],
+      "last": "Da Guia",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Waldir",
+      "middle": [],
+      "last": "Netto",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Edinaldo",
+      "middle": [],
+      "last": "Tebaldi",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Uwe",
+      "middle": [],
+      "last": "Deichmann",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Somik",
+      "middle": [],
+      "last": "Lall",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Maria",
+      "middle": [],
+      "last": "Da",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Piedade",
+      "middle": [],
+      "last": "Morais",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Marcelo",
+      "middle": [],
+      "last": "Piancastelli",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Vernon",
+      "middle": [],
+      "last": "Henderson",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "",
+      "middle": [],
+      "last": "Wps3752",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "",
+  "pdf_parse": {
+    "paper_id": "D6350079",
+    "_pdf_hash": "",
+    "abstract": [],
+    "body_text": [
+      {
+        "text": "There was substantial spatial variation in labor market outcomes in Brazil over the 1990's. In 2000, about one-fifth of workers lived in apparently economically stagnant municipios where real wages declined but employment increased faster than the national population growth rate. More than one-third lived in apparently dynamic municipios experiencing both real wage growth and faster-than-average employment growth; these areas absorbed more than half of net employment growth over the period. To elucidate this spatial variation, we estimated spatial labor supply and demand equations describing wage and employment changes of Brazilian munic\u00edpios. We used Conley's spatial GMM technique to allow for instrumental variable estimation in the presence of spatially autocorrelated errors. Chief findings include: a very strong influence of initial workforce educational levels on subsequent wage growth (controlling for possibly confounding variables such as remoteness and climate); evidence of positive spillover effects of ownmunicipio growth onto neighbors' wage and employment levels; an exodus from farming areas; relatively elastic response of wages to an increase in labor supply; and evidence of a local multiplier effect from government transfers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      },
+      {
+        "text": "O mercado de trabalho brasileiro apresentou uma din\u00e2mica espacial diversa durante a d\u00e9cada de 1990. Em 2000, aproximadamente um quinto dos trabalhadores vivia em munic\u00edpios aparentemente estagnados em termos econ\u00f4micos, em que os sal\u00e1rios reais ca\u00edam, mas em que o emprego crescia acima da taxa de crescimento populacional do Brasil. Por outro lado, mais de um ter\u00e7o dos trabalhadores vivia em munic\u00edpios din\u00e2micos, com crescimento dos sal\u00e1rios reais e crescimento do emprego acima do crescimento populacional brasileiro: essas \u00e1reas absorveram mais da metade do crescimento l\u00edquido do emprego durante o per\u00edodo. A fim de elucidar essa din\u00e2mica, o presente artigo estimou um modelo espacial de demanda e oferta por trabalho no qual descreve as mudan\u00e7as no n\u00edvel de sal\u00e1rios e empregos dos munic\u00edpios. Foi utilizado o m\u00e9todo GMM espacial desenvolvido por Conley (1999) , que permite o uso de vari\u00e1veis instrumentais na presen\u00e7a de autocorrela\u00e7\u00e3o espacial. Os principais resultados incluem: a influ\u00eancia muito forte do n\u00edvel educacional inicial da for\u00e7a de trabalho na taxa de crescimento subseq\u00fcente dos sal\u00e1rios (mesmo ap\u00f3s controlar por diversas vari\u00e1veis, tais como dist\u00e2ncia e clima); presen\u00e7a de efeitos de transbordamento positivos do crescimento do munic\u00edpio sobre os n\u00edveis de sal\u00e1rio e emprego de seus vizinhos; queda no emprego em atividades rurais; elasticidade na resposta dos sal\u00e1rios a um aumento na oferta de trabalho; e presen\u00e7a de efeitos multiplicadores das transfer\u00eancias governamentais.",
+        "cite_spans": [
+          {
+            "start": 854,
+            "end": 867,
+            "text": "Conley (1999)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Resumo",
+        "sec_num": null
+      },
+      {
+        "text": "In Brazil, as in other large, heterogeneous countries, there is considerable policy concern about spatial patterns of growth and development. Brazil exhibits large and relatively persistent differentials in income and welfare measures between north and south, and between rural and urban areas. The semi-arid Northeast, in particular, has been an area of concern for at least a century, and still is home to the hemisphere's largest concentration of poor people. At the same time, there has been concern about environmental and social problems associated with rapid expansion of the largest metropolitan areas.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and motivation",
+        "sec_num": null
+      },
+      {
+        "text": "For this reason, there is long-standing interest in finding regional development policies that would stimulate growth in lagging and rural regions. The underlying assumption is that targeting regional development policies on these poorer regions could simultaneously reduce aggregate poverty and regional inequality, and thereby reduce migration to large urban centers. Some of these policies include federal and state incentives for industrial location in lagging areas; provision of basic education; infrastructure development including dams and roads; support for agriculture, including familial agriculture, and community-driven development projects. More recently there has been an interest in a 'territorial approach', which would promote integrated development in a secondary city and its rural hinterland. This approach emphasizes improvement of urban amenities and services as a means of unlocking local growth.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and motivation",
+        "sec_num": null
+      },
+      {
+        "text": "The impacts of these approaches have not been rigorously examined. Indeed, many of the underlying assumptions are open to debate. Do we know how to boost the productivity of secondary cities? Does a thriving secondary city stimulate growth in its surroundings -or displace that growth? Are local investments reflected in higher local wages, or in higher employment? Are there persistent differences in returns to investment in large vs. small cities, or in high vs. low population density areas, in more or less agroclimatically favored areas?",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and motivation",
+        "sec_num": null
+      },
+      {
+        "text": "This paper addresses these issues by modeling wages and labor supply at the munic\u00edpio 1 level. In contrast to the more familiar Barro-style growth models, such as in Barro and Sala-i-Martin (1991) , the proposed models focus on the role of policy and local social and environmental assets in shaping labor incomes and net migration across the landscape. Working in a spatial econometric framework, we allow for spatial spillovers and for spatial autocorrelation of unobserved variables.",
+        "cite_spans": [
+          {
+            "start": 166,
+            "end": 196,
+            "text": "Barro and Sala-i-Martin (1991)",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and motivation",
+        "sec_num": null
+      },
+      {
+        "text": "The plan of the paper is as follows. The second part of this paper reviews trends in regional growth in Brazil and reviews policies that have tried to reduce regional inequalities. The third section reviews the literature on income, wage, and employment growth at the subnational level. This leads to specification of a simple labor demandsupply model. Next, we describe the data and the econometric specification employed. The final sections present results, discussion, and conclusions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and motivation",
+        "sec_num": null
+      },
+      {
+        "text": "Brazil is a country with large disparities in income between individuals and at all geographical scales. Much though not all of this inequality stems from inequalities between regions. In particular, the Northeast of the country has historically lagged behind the South and Southeast, where much of the Brazilian economy is concentrated. The income per capita ratio of the richest State and the poorest one was 8.9 in 1960 and 6.2 in 1996. (Azzoni et al., 2000) . The 2000 figure was 7.7. This analysis can be extended also to social indicators such as the human development index (HDI). Out of the 10 cities with the worst HDI in Brazil, seven were in the Northeast in 1991 and eight in 2000. 2 Within regions, there are substantial inequalities between states and among munic\u00edpios. And even within munic\u00edpios there are substantial inequalities, with many indigent people living in the municip\u00edos with the highest mean income.",
+        "cite_spans": [
+          {
+            "start": 440,
+            "end": 461,
+            "text": "(Azzoni et al., 2000)",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "Particular attention has been focused on longstanding regional inequalities, especially between the Northeast and the rest of the country. There is some evidence of convergence in incomes between states over the periods 1939 -1985 (Azzoni 2001 ) and 1970 -1985 (Ferreira and Diniz 1995 . However, several papers find evidence that this convergence process stalled after 1985, with one or two groups of poor states tending towards a lower-income equilibrium than the richer part of Brazil. (Azzoni 2001; Ferreira 1998 ; Pontual e Porto J\u00fanior 2000). estimated traditional regressions of growth with microdata for 19 Brazilians states. They divided their dataset in cohorts and used a large list of variables as determinants of growth, including microdata from PNAD -National Household Survey. The results suggest that per capita incomes of the Brazilian states have already converged to their steady-state level and that they will remain unaltered due to huge educational and geographic differences between the states.",
+        "cite_spans": [
+          {
+            "start": 220,
+            "end": 224,
+            "text": "1939",
+            "ref_id": null
+          },
+          {
+            "start": 225,
+            "end": 230,
+            "text": "-1985",
+            "ref_id": null
+          },
+          {
+            "start": 231,
+            "end": 243,
+            "text": "(Azzoni 2001",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 244,
+            "end": 254,
+            "text": ") and 1970",
+            "ref_id": null
+          },
+          {
+            "start": 255,
+            "end": 260,
+            "text": "-1985",
+            "ref_id": null
+          },
+          {
+            "start": 261,
+            "end": 285,
+            "text": "(Ferreira and Diniz 1995",
+            "ref_id": null
+          },
+          {
+            "start": 489,
+            "end": 502,
+            "text": "(Azzoni 2001;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 503,
+            "end": 516,
+            "text": "Ferreira 1998",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "What accounts for these disparities? The North and Northeast of the country lag far behind other regions in quantity and quality of education, and these differentials are strongly correlated with differences in labor income, as human capital theory would suggest (Fiess and Werner 2004) . However, education and other observable individual characteristics do not fully explain interregional wage and income differentials. Azzoni e Santos (2002) compared the differences in salary in the 10 largest Brazilian metropolitan areas in 1992, 1995 and 1997. Those salary differences remained significant even after controlling for cost of living measures, the traits of the workers (education, age, sex, race and family position) and the traits of their jobs (occupational position, sector and experience). Fiess and Werner (2004) estimated mover/stayer models of wage and migration. They found that low-education Northeasterners could boost their wages by 80% through migration; the differential declined with higher levels of education. Evidently, judging from the evidence cited above, the substantial degree of interregional migration is not sufficient to induce convergence between the regions.",
+        "cite_spans": [
+          {
+            "start": 263,
+            "end": 286,
+            "text": "(Fiess and Werner 2004)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 800,
+            "end": 823,
+            "text": "Fiess and Werner (2004)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "Brazilian policy has been concerned with reducing interregional inequalities. Best known, perhaps, are the national programs of tax and fiscal incentives, including the Constitutional Funds, subsidized loans from development banks including BNDES and BNB, the Zona Franca of Manaus, and FINOR.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "Some programs were explicitly targeted on poor regions. For instance, Projeto Alvorada sought to provide education and other services to states (and later microregions) with below-median HDI. Individual states use fiscal incentives to influence intrastate location of industrial firms, but the scope and impact of these programs is not comprehensively known. Other programs were not explicitly regional in intent but may nonetheless have had differential regional impacts. Possibly the most important of these is transport. Brazil's transport infrastructure has improved markedly over the last 40 years (Castro 2003) . Lall, Funderberg, and Yepes (2005) show that the productivity of manufacturing firms tends to increase with decreasing transport cost to S\u00e3o Paulo, the country's industrial hub. On the other hand, increased access to S\u00e3o Paulo or other metropolitan centers exposes local firms to increased competition from possibly more efficient firms, so the net effect on regional development is indeterminant. Another important policy affecting regional development was EMBRAPA's development of soybean varieties adapted to low latitudes. This innovation was responsible for the massive expansion of soybean cultivation in the Center West after 1970.",
+        "cite_spans": [
+          {
+            "start": 619,
+            "end": 653,
+            "text": "Lall, Funderberg, and Yepes (2005)",
+            "ref_id": "BIBREF21"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 603,
+            "end": 616,
+            "text": "(Castro 2003)",
+            "ref_id": "TABREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "There is widespread enthusiasm in Brasil and throughout Latin America for a new, more fine-grained approach to regional development, 'territorial development.' This approach has many of the elements of the growth poles approach that was popular 30 or 40 years ago. Although there are differing interpretations of this concept, it typically focuses on spurring the development of secondary cities as means of stimulating growth in the surrounding area.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "For instance, the states of Cear\u00e1 and Bahia have devoted considerable analysis and planning to articulating detailed visions of territorial development. Both have adopted territorial development strategies emphasizing the development of secondary or strategic cities as cornerstones of regional growth (Bar-el et al 2002; Governo do Estado da Bahia, 2003) . Cear\u00e1's visions of regional development provide concrete examples of the territorial development approach (Secretaria de desenvolvimento Local e Regional 2004), emphasizing improvement of road and air transport, improvement of basic services including sanitation and communication, development of cultural and natural resources as the basis of a tourism industry, support services to agriculture, including sheep and goats, and expansion of irrigated fruiticulture.",
+        "cite_spans": [
+          {
+            "start": 302,
+            "end": 321,
+            "text": "(Bar-el et al 2002;",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 322,
+            "end": 355,
+            "text": "Governo do Estado da Bahia, 2003)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "To sum up, interregional inequalities are a long-standing concern in Brazil. Principal strategies for combating these inequalities have been the use of explicit or tax subsidies to attract industrial firms; improvements in transport and urban amenities; and investments in human capital. These strategies are implicitly assumed to boost wages and thereby to reduce poverty and interregional inequality. However, quantitative estimates of these impacts are lacking.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Issues in Brazilian growth",
+        "sec_num": null
+      },
+      {
+        "text": "There has been an explosion in the production of subnational growth models. Most of these are in the tradition of Barro and Sala-i-Martin (1991) , and are concerned with the detection of convergence in per capita income levels or growth rates across the subnational units. The models are sparsely parameterized; growth is represented primarily as a function of prior-period per capita income, possibly with some structural conditioning variables. This approach is not ideal for the present purpose because there is little scope for exploring the impact of policy interventions such as infrastructure investments. When policy-relevant variables are included as conditioning factors, they are constrained to affect growth rates rather than income or employment levels.",
+        "cite_spans": [
+          {
+            "start": 114,
+            "end": 144,
+            "text": "Barro and Sala-i-Martin (1991)",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": null
+      },
+      {
+        "text": "More apt for our purposes are the models applied by Fan and co-authors to India and China (see Fan, Zhang, and Zhang (2002) , Fan Hazell and Haque (2000) , Fan and Chan-Kang (2004) ). These papers seek to measure the marginal impact of government investments on income and on poverty, with particular attention to the returns to investment in less-favored areas. In Fan, Zhang, and Zhang (2000) , for instance, a provincial production function relates agricultural GDP per capita to land per worker, agricultural capital per worker, agroclimate, and infrastructure stock. However, land per worker and capital per worker are taken to be fixed and exogenous. There is no allowance for interprovincial labor mobility.",
+        "cite_spans": [
+          {
+            "start": 95,
+            "end": 123,
+            "text": "Fan, Zhang, and Zhang (2002)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 126,
+            "end": 153,
+            "text": "Fan Hazell and Haque (2000)",
+            "ref_id": null
+          },
+          {
+            "start": 156,
+            "end": 180,
+            "text": "Fan and Chan-Kang (2004)",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 366,
+            "end": 394,
+            "text": "Fan, Zhang, and Zhang (2000)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": null
+      },
+      {
+        "text": "While the assumption of immobile labor may be acceptable when considering large provinces, and for countries where there are strong legal or social barriers to migration, it is less apt for Brazilian munic\u00edpios. Here, labor mobility may play an important role in understanding differential spatial patterns of development. As Pritchett (2004) points out, in the absence of barriers to migration, one would expect local market or technology shocks to be reflected in labor movements rather than wage changes. Hence local investments may be effective in alleviating poverty even if they do not result in a perceptible change in wages. It is possible, instead, that they attract labor from lower wage areas. In this case, regional interventions would be effective in alleviating poverty but not in reducing measured interregional inequalities.",
+        "cite_spans": [
+          {
+            "start": 326,
+            "end": 342,
+            "text": "Pritchett (2004)",
+            "ref_id": "BIBREF25"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": null
+      },
+      {
+        "text": "Araujo, de Janvry, and Sadoulet (2004) present a munic\u00edpio-level, spatial model of employment growth in Mexico that is the closest precursor of the current paper. They relate growth in employment over 1990-2000 to 1990 values of employment, proximity to urban centers and other employment nodes, geographic characteristics, and wages, and use spatial econometric techniques. They find that rural employment growth in both services and manufacturing is inversely related to distance to the nearest urban center.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Literature review",
+        "sec_num": null
+      },
+      {
+        "text": "We model subnational development through a spatially disaggregate model of labor market dynamics. The labor market approach has several advantages for our purposes over Barro-type growth models. First, our model offers potentially better insight into poverty alleviation strategies because it looks at wages rather than GDP/capita -an important consideration when wealth is unequally distributed. Second, while the growth models use regions as units of concern, looking only at mean income levels, the labor market approach looks also at employment. It is entirely possible for regional mean incomes to diverge even while incomes of individuals increase, if employment expands faster in higher-wage markets. Models focused only on mean income may entirely overlook such an outcome. Third, growth models typically employ a sparse set of policy-relevant variables. Here we examine the impact of a range of policy levers, including education, infrastructure, and transfers, while allowing for differential effects in regions with different agroclimatic conditions. Finally, our fine-scaled geographic approach facilitates an examination of local growth spillovers, allowing examination of the premises of territorial development policies.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Approach: the spatial dynamic of labor supply and demand",
+        "sec_num": null
+      },
+      {
+        "text": "These considerations motivate a labor supply/demand model, which examines the determinants of labor income and employment growth at the munic\u00edpio level. It is important to recall that labor income, and indeed municipal household income, does not necessarily track municipal GDP. For instance, some rural munic\u00edpios may be dominated by capital-intensive farming systems, whose value-added accrues to absentee landlords. Nonetheless, a focus on labor income is justified by a policy concern with spatial aspects of poverty and welfare. Our results can be compared with those of growth regressions by taking wage growth as a proxy for productivity growth and employment as a proxy for munic\u00edpio size.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "Let each munic\u00edpio i have a production function ( )",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "A Educ L K f a ; , ,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "for a composite output, where K is a vector representing industrial and agricultural capital, including land); L is the number of workers; Educ is a vector measure of the quantity and quality of worker education; A is a vector of productivity shifters, which include transport connectivity to markets, local governance quality, and agroclimate. These are typically time-invariant or change slowly over time. The munic\u00edpio faces a price which is a function P(MP,GT) of local market potential or demand and of government transfers to individuals. The latter, which largely represent rural pensions, are locally important in some areas and may drive demand for local nontradeable services. MP is operationalized as an inverse-distance-weighted function of the total incomes of neighboring municipalities. A labor demand equation expresses the wage rate as the value of the marginal product:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "( )( ) L f GT MP P w \u2202 \u2202 = , ) 1 (",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "Differencing over time, using a convenient ln-linear approximation, we have:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "Education K GT MP L X w \u2206 + \u2206 + \u2206 + \u2206 + \u2206 + = \u2206 5 4 3 2 1 0 ln ln ln ln ln \u03b2 \u03b2 \u03b2 \u03b2 \u03b2 \u03b2",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "where X is a set of determinants of the rate of growth of productivity, and Education is the quality-adjusted mean educational level of the work force. We assume that wages adjust rapidly to changes in capital, labor supply, and prices.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "We assume, in contrast, that capital and labor adjust relatively slowly to changes across the landscape, in relative wages and returns to capital. Thus we model the change labor supply from t-1 to t as a function of local wages, local amenities, and competing neighborhood wages in period t-1:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "( ) ) 2 ( , , ln , ln , ln ln ln 1 1 1 1 E AGROCLIMAT AMENITIES MP EWF w L L t t t t \u2212 \u2212 \u2212 \u2212 \u2206 = \u2206",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "where EWF t-1 is the relative size of the cohort, in period t-1, which will enter the labor force by period t. We hypothesize that the labor force increases more rapidly when initial local wages are high, reflecting long-distance migration 3 . Holding constant wages within the munic\u00edpio, employment is expected to grow less rapidly, the more rapid the change in local market potential, because local labor may be relatively easily attracted to neighboring dynamic areas. Agroclimate is postulated as an exogenous determinant of employment growth. This allows for the possibility that agricultural labor is shifting between agroclimatic zones -and perhaps, especially, out of less favorable zones -in response to changing agricultural market conditions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "We model capital investment as",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "( )) 3 ( ln , , , ln ln 1 MP E AGROCLIMAT GOVERNANCE SS MARKETACCE K K t \u2206 \u2206 = \u2206 \u2212",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "Better market access (measured by lower transport costs to S\u00e3o Paulo and to the nearest state capital) is associated with lower price levels and hence higher returns to capital. Better local government is expected to increase the munic\u00edpio's attractiveness for investment. Increases in the market potential indicate location near a dynamic region; this potentially endogenous instrument must however be instrumented.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "Because we lack reliable data on capital, we substitute (3) into (1). While we have data on mean years of education of the work force, we lack information on employees' educational quality. Moreover, a dynamic munic\u00edpio may experience changes in mean educational level due to compositional effects, depending on the relative educational level of in-migrants, out-migrants, and stayers. Hence we use initial educational level of workforce, and initial educational level of public school teachers (a proxy for local educational quality) in place of educational change in (1). We interpret the result as describing the demand curve while allowing for the endogenous response of capital investment to initial conditions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A spatial model of labor and demand",
+        "sec_num": null
+      },
+      {
+        "text": "We examined patterns of employment and wage change over the period 1991-2000. The basic spatial unit of analysis was the munic\u00edpio. A complication, however, is that some munic\u00edpios experience splits over the study period, the total number growing from 4491 to 5507. In complicated cases, two munic\u00edpios are reorganized into three. To address this problem, we merged munic\u00edpios into 4267 Minimum Comparable Areas (MCAs) -consisting of sets of one to three munic\u00edpios whose borders were constant over the study period.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": null
+      },
+      {
+        "text": "Much of the data stem from the Brazilian Population Censuses of 1991 and 2000. 4 The key variables of interest were employment: total number of people reporting any employment and wage: reported labor income divided by the number of workers. Self-employed workers and farmers are counted as workers, and their earnings are counted as labor income. Table 6 gives the sources and definitions of variables employed in this paper. Table 7 provides summary statistics for these variables. Some of them are mapped in the appendix.",
+        "cite_spans": [
+          {
+            "start": 79,
+            "end": 80,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 348,
+            "end": 355,
+            "text": "Table 6",
+            "ref_id": null
+          },
+          {
+            "start": 427,
+            "end": 434,
+            "text": "Table 7",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": null
+      },
+      {
+        "text": "A unique feature of this analysis is the use of market potential and related variables. Market potential for a target MCA i is defined as the weighted sum of personal incomes of all other MCAs, where the weight is a decreasing exponential of distance to the target munic\u00edpio:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": null
+      },
+      {
+        "text": "\u2211 \u2260 \u2212 = i j ij i d MP ) 2 / exp( 2 2 \u03b1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": null
+      },
+      {
+        "text": "where d ij is the great-circle distance between the centroids of i and j in kilometers, and \u03b1 is the inflection point in kilometers, here set to 25. The effective radius of influence is about 50 kilometers. Analogous expressions were used to derive distance-weighted measures of population and of mean educational level, again excluding values from the target munic\u00edpio. These variables were used as instruments for market potential.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": null
+      },
+      {
+        "text": "The results reported here are divided into three categories: Brazil, nonmetropolitan Brazil and the latter without the North region. The difference between the first two categories is based on IPEA, IBGE and UNICAMP (2002) . That work makes a comprehensive classification of Brazilian urban agglomerations. We used the munic\u00edpios that belong to urban agglomeration only in the first category. Figure 1 and tables 1-5 illustrate the geographic diversity of Brazil's labor market dynamics over the period 1991-2000, a diversity we seek to explain. We classify MCAs into four categories, depending on whether wage growth was positive or negative, and whether employment growth was above or below the mean national population growth rate",
+        "cite_spans": [
+          {
+            "start": 199,
+            "end": 222,
+            "text": "IBGE and UNICAMP (2002)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 393,
+            "end": 401,
+            "text": "Figure 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": null
+      },
+      {
+        "text": "The most striking point evident from the maps is the general decline in real wages in the North and Northeast, and general increase elsewhere in the country. However, because population density varies tremendously across Brazil (see figure 2), maps can give a misleading impression of the number of people who fall into the labor dynamics categories. Tables 1-5, and population density maps (figure 2), provide a more accurate representation of population breakdowns.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Spatial patterns of labor dynamics",
+        "sec_num": null
+      },
+      {
+        "text": "The main point of the tables is spatial divergence and heterogeneity in experience. Areas in which employment grew rapidly but real wages declined (E+W-, shown in yellow in figure 1) can be thought of as areas of economic stagnation. Here, labor demand failed to keep up with the growth of supply. This may well reflect natural increase; the mean total fertility rate for the E+W-areas was 3.78 in 1991, far above the other three categories, and the proportion of immigrants in the 2000 population was substantially lower than for the E+W+ category. By 2000, about 22% of employed workers lived in the stagnant E+W-areas. They account for a particularly large share of population in the North and Northeast (figure 3).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Spatial patterns of labor dynamics",
+        "sec_num": null
+      },
+      {
+        "text": "A set of dynamic areas with both increasing wage growth and rapidly increasing employment (W+E+) absorbed more than half of the country's net increase in employment, ending up with 36% of Brazilian employment in 2000. Such an outcome may reflect a dynamic local economy, with a relative shift outward in the labor demand curve. Although the 1991 total fertility rate for these MCAs was a full point lower than that of the E+W-areas, the dynamic areas had a substantial higher proportion of recent immigrants in 2000; this suggests that these regions are growing via immigration, presumably drawn by economic opportunity. Most of the E+W+ population is urban. Among the regions, the Center West has by far the largest proportion of people living in E+W+ AMCs, nearly 70%. The Northeast has the lowest proportion, just 10%. Tables 4 and 5 show also that about two-thirds of employment is in the metropolitan agglomerations. Over the nine year interval, employment grew a total of 15% in the nonmetropolitan areas vs 20% in the metropolitan areas. Dynamic areas (W+E+) account for a much larger share of employment in metropolitan areas than in nonmetropolitan areas. Stagnant (W-E+) areas are much more prevalent in the nonmetropolitan areas. Figure 4 shows an important correlate of wage growth that is associated with the north/south differential. It plots, in ln-ln form, the mean educational level of 1991 employees against wage growth over 1991-2000, by MCA. MCAs from the North and Northeast are shown in red; others are in blue 5 . The figure shows that wage growth is strongly and significantly associated with initial educational level. It shows also that a significant disjunction in these variables between north and south. Northern and northeastern MCAs have markedly lower educational levels, and markedly lower wage growth.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 822,
+            "end": 836,
+            "text": "Tables 4 and 5",
+            "ref_id": "TABREF2"
+          },
+          {
+            "start": 1241,
+            "end": 1249,
+            "text": "Figure 4",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Spatial patterns of labor dynamics",
+        "sec_num": null
+      },
+      {
+        "text": "Is this a causal relationship? Places with higher human capital may also have higher levels of social capital and may therefore be better able to attract further investment in human and physical capital, and to boost local productivity. On the other hand, causality may go in the opposite direction. Places with inherent social capital or other local advantages may experience both more rapid growth and greater investments in education. The labor supply and demand equations estimated below attempt to hold constant other characteristics that might be associated with educational levels.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Spatial patterns of labor dynamics",
+        "sec_num": null
+      },
+      {
+        "text": "We estimate independent, ln-linear approximations to the wage (labor demand) equation of (3) substituted into (1), and the labor supply equation (2). Endogenous variables are instrumented with time-lagged or space-lagged exogenous determinants. In the wage equation, \u2206lnL is instrumented with lagged demographic determinants of labor force growth; the exclusion of these variables from the wage equation identifies it. The labor supply equation is identified, more tenuously, via the exclusion of the market access variables and the government transfer variables 6 , and by the use of initial period wage rather than wage change. Table 6 lists the instruments for each endogenous variable.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 630,
+            "end": 637,
+            "text": "Table 6",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Econometric model",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, a key issue in estimation is the likelihood of spatial autocorrelation of unobserved variables. Failure to account for this autocorrelation could lead to inaccurate estimates of standard errors. To address this issue, we use the GMM technique of Conley (1999) (as did Araujo, de Janvry and Sadoulet 2004 and Baicker 2005) . In contrast to the more standard spatial econometric approach using a weight matrix, Conley's nonparametric technique requires only that users locate data points in a real or virtual space. Users specify a cutoff distance beyond which spatial autocorrelation is thought to be unimportant. For our analysis we use the latitude and longitude of the MCA centroid to locate the data points. This technique is attractive because it is computationally feasible for large numbers of observations; allows for the use of instrumental variables; and is robust to misspecification of the degree of autocorrelation among neighboring observations. Carvalho, da Mata and Chomitz (2005) discuss and assess the technique in detail.",
+        "cite_spans": [
+          {
+            "start": 277,
+            "end": 298,
+            "text": "Araujo, de Janvry and",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 299,
+            "end": 316,
+            "text": "Sadoulet 2004 and",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 317,
+            "end": 330,
+            "text": "Baicker 2005)",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 968,
+            "end": 1004,
+            "text": "Carvalho, da Mata and Chomitz (2005)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Econometric model",
+        "sec_num": null
+      },
+      {
+        "text": "We present the results for three samples. The model was intended to focus on nonmetropolitan Brazil, under the assumption that growth dynamics of these regions differ substantially from those of metropolitan areas. However, we test that assumption by running a regression also for the entire country. Finally, we run a model for nonmetropolitan regions outside the North. Many Northern MCAs have very small and volatile work forces, and Amazonian frontier regions may have very distinctive patterns of employment growth. The regression results are in tables 8-10.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "For each model we present the results for both 2SLS and spatial GMM specifications. As a sensitivity test, we ran the GMM regressions using different cutoffs for spatial autocorrelation: 0.5, 1.0 and 2.0 degrees. 7",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "For the Brazil-wide demand regressions, there is reasonable agreement among the specifications on a number of variables. All four variants find that initial educational level is significantly related to wage growth, other things constant, and the estimated coefficient is stable at about 0.06. This implies that an increase of one year in the initial mean educational level of the workforce is associated with a 6% increase in mean wages over the nine year period. Higher initial teacher qualification does not have a similar effect. This may reflect collinearity with years of education combined with nonlinearity in the relationship. In all specifications, rainfall is statistically significant and quantitatively extremely important. A 500 mm increase in annual rainfall is associated with a nine-year increase of 30% or more in wages. It is possible that this variable is capturing other aspects of inter-regional variation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "In all four specifications, delta ln employment is statistically significant. The estimated demand elasticity of wages with respect to labor increases in absolute magnitude with increasing cutoff distance (where we treat 2SLS as having a cutoff of 0). The elasticity is -0.49 in the 2SLS specification, increasing to -0.89 for a cutoff of 2.0.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "All four specifications show significant impact of growth of market potential. The elasticity of wage growth with respect to market potential increases with cutoff distance, increasing from 0.55 in 2SLS to 1.30 in the cutoff 2 case. Coefficients of this magnitude suggest either very substantial local spillovers, or failures of the instrumental variables to control for unmeasured growth effects common to the MCA and its neighbors.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "Other variables of interest are statistically significant in the 2SLS specification, but less so in the spatial GMMs. On theoretical and empirical grounds, we expected capital investment, and therefore wage growth, to decline with increasing transport costs to S\u00e3o Paulo and to the nearest state capital. However, in the 2SLS specification these variables, though statistically significant, were negligible in absolute magnitude. Significance and magnitude declined with increasing cutoffs. The change in government transfer payments was statistically significant in the 2SLS and the cutoff=0.5 specifications, with coefficients of about 0.3 and 0.2 respectively. This suggests marked local multiplier effects of such transfers. However, the variable declined in magnitude and significance at higher cutoffs. Finally a rough proxy for quality of municipal governance -an indicator of whether the municipal financial accounts had been computerized by 1999 --had a modest effect under 2SLS, but not under the GMM specifications.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "We turn now to the countrywide labor supply equation. Here all four specifications show strong agreement on the coefficients and significance of number of variables, although standard errors increase with the cutoff levels. First we consider wage variables. Labor supply has an elasticity of about 0.18 with respect to the 1991 wage level, so that higher initial wages are associated with a mildly faster rate of employment growth. Although we expected the change in ln market potential to have a negative coefficient, it was robustly determined at about 0.23. This suggests that location in a booming region has spillovers on labor supply as well as demand.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "Consider next the impact of initial demographic and agroclimatic conditions. The 1991 ratio of workforce entrants to working age population was also robust and highly significant, as expected. Perhaps most striking, all the specifications found a very strong negative association between the proportion of employment in farming in 1991, and subsequent employment growth. This strongly suggests an exodus from farming regions. Lower temperature and higher precipitation are associated with faster employment growth. The first and third principal components of rainfall 8 , which capture variation in annual seasonality of rainfall, are also significant though difficult to interpret directly. Very small MCAs showed more rapid growth than very large ones, all else equal.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "Two demographic variables showed robust effects contrary to our expectations. We had expected the initial labor force participation rate to be negatively correlated with subsequent employment growth, on the argument that places which had already experienced growth in female labor force participation would have less scope for further employment expansion. But in fact labor force participation was strongly positively associated with employment growth. We expected also that places with high native proportion of population (i.e. born in the munic\u00edpio of current residence) represented areas that had barriers to outmigration or were unattractive to in-migration, and hence predicted lower employment growth rates. However, the coefficient on this variable was positive, significant and robust.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, the regression includes a few variables intended to capture the impact of local amenities on attracting and retaining labor. Initial homicides per capita had a negative effect on employment growth, though the significance of this coefficient declined with higher cutoffs. A one standard deviation increase in homicides corresponded roughly to a 4% decrease in employment growth over the nine year period. The initial level of teacher qualifications had a negative effect on employment growth, contrary to expectations, but the effect was of negligible magnitude.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "The demand-side results for the nonmetropolitan sample (table 5) are quite similar to those for the nationwide sample, despite the huge disparity in MCA size. The coefficients on education and rainfall are of about the same magnitude as before. The labor elasticity coefficient is about -0.74 and significant in all the GMM specifications, slightly more negative than the 2SLS specification. The coefficient of the change in market potential is also relatively consistent across the GMM specifications, with an elasticity of about 0.6. In contrast to the nationwide sample, the coefficient on government transfers here stays robust across the GMM specifications, at about 0.16. The coefficients on transport cost are here more significant, though still negligible in magnitude. These results (including the effect of rainfall) are essentially unchanged when the North region is excluded.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "The supply-side results for the nonmetropolitan samples also are very similar to the nationwide results. The main difference is that the effect of the initial proportion in farming is reduced in magnitude, but it is still quite important quantitatively and statistically. In addition, the initial participation rate is no longer significant in the nonmetropolitan analyses.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "A final caution on our results relates to the J-test. For most of the GMM regressions, the test statistic is significant at the 5% level, which suggests potential problems with the instruments. It is not however significant at that level for the Brazilwide demand regression (cutoff of 2.0) and the nonmetropolitan supply regressions excluding the North (cutoffs of 1.0 and 2.0).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "We have found a number of relationships that appear to be robust to different choices of sample and different controls for spatial autocorrelation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "Initial levels of workforce education are strongly related to subsequent wage growth, even after controlling for correlated variables such as remoteness and climate. Note that this is different from the well-known association between education and wage levels; it suggests an accelerator effect, where more-educated regions experience more rapid wage growth. And, the effect is large. In 1991, the mean educational level of workers was 3.9 years for the country as a whole and just 3.6 years for nonmetropolitan regions. The standard deviation for nonmetropolitan regions was 1.32 years. A change of this magnitude was associated with a 8% increase in wages over 1991-2000.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "If confirmed, this a sobering finding from the viewpoint of reducing inter-regional inequalities. It suggests that wages will continue to diverge between the moreeducated south and the less-educated north. And because it takes 40 years to turn over the labor force, it will take a long time for lagging regions to reduce the educational gap with leading ones, even if the former were to make more rapid progress -itself a questionable assumption.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "Farming regions are losing employment, or growing more slowly, than other regions. In the nationwide sample, each 10 percentage point increase in the initial proportion of farmers among workers was associated with a 10 to 12 percent decrease in the nineyear rate of employment growth. Even when the sample is restricted to nonmetropolitan areas, this relationship holds, though it is less steep. Further investigation is needed to understand the degree to which this represents 'pull' factors -attraction to growing areas, vs. 'push' factors -e.g. displacement of smallholders by large farming enterprises.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "Low rainfall areas lagged other areas in wage and employment growth. These patterns were evident even controlling for remoteness and education, which might be correlated with rainfall.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "Wages respond relatively elastically to changes in labor supply. This suggests that in-migration could substantially reduce wages in an MCA with vigorous demand growth; that population growth would depress wages in a stagnant MCA; and that outmigration could put upward pressure on wages for those left behind in declining MCAs. The supply-elasticity of wages is important to keep in mind when evaluating regional performance. According to our estimates, a dynamic region that boosts labor demand by 10% and accommodates labor force growth of 20% would experience unchanged wages, other things equal. Assessing the region only on the basis of wage growth would completely miss its success in providing new jobs, possibly to migrants who substantially increase their individual earnings.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "There appear to be positive spillover effects on wages and employment from income growth in nearby areas. Our estimates suggest that for nonmetropolitan areas a 10% increase in close neighboring regions' income is associated with a 7% increase in own wages and a 2% increase in employment. While we cannot rule out the possibility that this is due in part to a correlation with unobserved favorable factors common to the munic\u00edpio and its environs, it suggests some support for the territorial development approach which advocates stimulating the growth of small cities in order to benefit nearby neighbors. Whether or not it is possible, in fact, to spur the growth of such cities is a different question.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "Government transfers -such as pensions-appear to stimulate local wage growth. More rapid growth in receipt of transfers is associated with more rapid wage growth. Since much of the growth in transfers over the 1990s is associated with the expansion of rural pensions, this finding supports the idea that such transfers result in favorable local multiplier effects, as the pensioners increase their demand for local goods such as services and some foodstuffs. This situation has been characterized as the 'economy without production' (Maia Gomes, 2001) . That epithet carries a negative connotation. A more positive view is that an increase in transfers to poor locales, with little natural or human assets, not only serves direct social needs but stimulates the local economy.",
+        "cite_spans": [
+          {
+            "start": 539,
+            "end": 551,
+            "text": "Gomes, 2001)",
+            "ref_id": "BIBREF24"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Discussion",
+        "sec_num": null
+      },
+      {
+        "text": "The paper began by mapping the heterogeneity of labor market outcomes across Brazil during the 1990s. To understand the determinants of that heterogeneity, we developed a spatial model of labor supply and demand, and applied an estimation strategy that takes into account endogeneity of the explanatory variables and spatial autocorrelation of unobserved determinants of labor force outcomes. Our results strongly emphasize the role of workforce education in determining growth prospects and the importance of local spillovers, and point to an exodus of labor from farming regions. This paper must be viewed as an initial step in a large research agenda. Areas for further investigation include more explicit treatment of the impacts of changes in agricultural prices and technologies, including the stimulus of growth of agricultural service cities; and incorporation of better data on capital stock, and on municipal governance, agroclimate, and infrastructure. SILVEIRA NETO, R. M. Crescimento e spillovers: a localiza\u00e7\u00e3o importa? Evid\u00eancias para os estados brasileiros. Revista Econ\u00f4mica do Nordeste, Fortaleza, v.32, N.ESP., p.524-545, 2001 . ",
+        "cite_spans": [
+          {
+            "start": 1095,
+            "end": 1145,
+            "text": "Nordeste, Fortaleza, v.32, N.ESP., p.524-545, 2001",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The munic\u00edpio is roughly equivalent to a US county: the administrative level beneath the state. They are extremely heterogeneous in size, ranging in population from a few hundred to over 8 million. There are currently 5561 munic\u00edpios in Brazil.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The others were in the North Region.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Ideally the wage measure should be adjusted for spatial differentials in cost of living; unfortunately spatial price indexes are not available, so we use nominal wages, inflation-adjusted nationally over time.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "To be precise, they stem from the 12,5% Census sample of 1991 and 5% Census sample of 2000. Both samples represent munic\u00edpio level data.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Readers are again referred to the color pdf version of this paper. The figure shows that the northeastern and northern observations are clustered in the lower left of the diagram.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Each unit in the cutoff measure is equivalent to a hundred kilometers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Calculated from the vector of the 12 monthly averages of precipitation. The second principal component is nearly collinear with total precipitation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Spatial econometrics: methods and models",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Anselin",
+            "suffix": ""
+          }
+        ],
+        "year": 1988,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "ANSELIN, L. Spatial econometrics: methods and models. Dordrecht: Kluwer Academic, 1988.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Spatial patterns of nonagricultural rural employment growth in Mexico during the 90s",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Araujo",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Janvry",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Sadoulet",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "ARAUJO, C., A. de JANVRY, and E. SADOULET. 2004. Spatial patterns of non- agricultural rural employment growth in Mexico during the 90s. Department of Agricultural and Resource Economics, University of California, Berkeley. Processed.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Economic Growth and regional income inequality in Brazil. The Annals of Regional Science",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Azzoni",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "",
+        "volume": "35",
+        "issue": "",
+        "pages": "133--152",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "AZZONI, C. Economic Growth and regional income inequality in Brazil. The Annals of Regional Science, v. 35, p.133-152, 2001.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Geografia e converg\u00eancia da renda entre os estados brasileiros",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Azzoni",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Menezes",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Menezes",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Neto",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "IPEA",
+        "volume": "",
+        "issue": "",
+        "pages": "299--343",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "AZZONI, C., MENEZES, T., MENEZES, N., NETO, R. Geografia e converg\u00eancia da renda entre os estados brasileiros. In: HENRIQUES, R. (Org.). Desigualdade e pobreza no Brasil. Rio de Janeiro: IPEA, 2000, p.299-343.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Education, cost of living and regional wage inequality in Brazil in the 90\u00b4s",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Azzoni",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Santos",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Papers in Regional Science",
+        "volume": "81",
+        "issue": "",
+        "pages": "157--175",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "AZZONI, C., SANTOS, L. (2002). Education, cost of living and regional wage inequality in Brazil in the 90\u00b4s. Papers in Regional Science, v. 81, p. 157-175.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "The spillover effect of state spending",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Baicker",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of Public Economics",
+        "volume": "89",
+        "issue": "2-3",
+        "pages": "529--544",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "BAICKER, C. (2005). The spillover effect of state spending. Journal of Public Economics, 89(2-3), 529-544.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Reduzindo a Pobreza atrav\u00e9s do Desenvolvimento Econ\u00f4mico do Interior do Cear\u00e1",
+        "authors": [
+          {
+            "first": "Raphael",
+            "middle": [],
+            "last": "Bar-El",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "BAR-EL, Raphael et al. 2002. Reduzindo a Pobreza atrav\u00e9s do Desenvolvimento Econ\u00f4mico do Interior do Cear\u00e1. Fortaleza: Edi\u00e7\u00f5es IPLANCE.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Economic growth in a cross section of countries",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "J"
+            ],
+            "last": "Barro",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "106",
+        "issue": "2",
+        "pages": "407--450",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "BARRO, R. J. (1991) Economic growth in a cross section of countries. Quarterly Journal of Economics, v.106, n.2, p.407-43, 1991.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Convergence across states and regions",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "J"
+            ],
+            "last": "Barro",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Sala-I-Martin",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "107--182",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "BARRO, R.J., SALA-I-MARTIN, X. (1991) Convergence across states and regions, Brookings Papers on Economic Activity (1991) (1), pp. 107-182.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Estimation of Multiequation Cross-Section Models in the Presence of Spatial Autocorrelation",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Carvalho",
+            "suffix": ""
+          },
+          {
+            "first": "Mata",
+            "middle": [],
+            "last": "Da",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Chomitz",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "CARVALHO, A., da MATA, D., CHOMITZ, K. Estimation of Multiequation Cross-Section Models in the Presence of Spatial Autocorrelation. 2005, in prep.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Logistic cost and Brazilian regional development",
+        "authors": [],
+        "year": 2003,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "CASTRO (2003). Logistic cost and Brazilian regional development. processed.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Returns to investment in less-favored areas in developing countries: a synthesis of evidence and implications for Africa",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Fan",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Chan-Kang",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Food Policy",
+        "volume": "29",
+        "issue": "",
+        "pages": "431--444",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "FAN, S., CHAN-KANG, S. (2004). Returns to investment in less-favored areas in developing countries: a synthesis of evidence and implications for Africa. Food Policy 29, 431-444.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Targeting public investments by agroecological zone to achieve growth and poverty alleviation goals in rural India",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Fan",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Hanzell",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Haque",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Food Policy",
+        "volume": "25",
+        "issue": "",
+        "pages": "411--428",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "FAN, S., HANZELL P., HAQUE, T. (2000). Targeting public investments by agroecological zone to achieve growth and poverty alleviation goals in rural India. Food Policy 25, 411-428.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Growth, inequality and poverty in rural China : the role of public investments",
+        "authors": [
+          {
+            "first": "Fan",
+            "middle": [
+              "S"
+            ],
+            "last": "",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": ""
+          },
+          {
+            "first": "X",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "FAN S., L. ZHANG, X. ZHANG (2002) Growth, inequality and poverty in rural China : the role of public investments. International Food Policy Research Institute, report 125.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "A distribui\u00e7\u00e3o interestadual e inter-regional da renda no Brasil: tend\u00eancias recentes. 1995. 101f. Tese (Professor titular) -Departamento de Ci\u00eancias Econ\u00f4micas",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [
+              "H B"
+            ],
+            "last": "Ferreira",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "FERREIRA, A. H. B. A distribui\u00e7\u00e3o interestadual e inter-regional da renda no Brasil: tend\u00eancias recentes. 1995. 101f. Tese (Professor titular) -Departamento de Ci\u00eancias Econ\u00f4micas, Universidade Federal de Minas Gerais, Belo Horizonte, 1995.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Converg\u00eancia entre as rendas per capita estaduais no Brasil. Belo Horizonte: UFMG/CEDEPLAR, 1994",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [
+              "H B"
+            ],
+            "last": "Ferreira",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [
+              "C"
+            ],
+            "last": "Diniz",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "FERREIRA, A. H. B., DINIZ, C. C. Converg\u00eancia entre as rendas per capita estaduais no Brasil. Belo Horizonte: UFMG/CEDEPLAR, 1994. 27p. (Texto para Discuss\u00e3o, n.79)",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Converg\u00eancia entre a renda per capita dos estados brasileiros",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [
+              "C G"
+            ],
+            "last": "Ferreira",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "G"
+            ],
+            "last": "Ellery Jr",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "83--103",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "FERREIRA, P. C. G., ELLERY JR., R. G. Converg\u00eancia entre a renda per capita dos estados brasileiros. Revista de Econometria, v.16, n.1, p.83-103, abr. 1996.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Migration and human capital in Brazil during the 1990s",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [
+              "M"
+            ],
+            "last": "Fiess",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "Werner"
+            ],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "FIESS, N.M. and D. WERNER. .2004. Migration and human capital in Brazil during the 1990s. World Bank Policy Working Paper no. 3093.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Growth in cities",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [
+              "L"
+            ],
+            "last": "Glaeser",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "Journal of Political Economy",
+        "volume": "",
+        "issue": "6",
+        "pages": "1126--1152",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "GLAESER, E. L. et al. Growth in cities. Journal of Political Economy, v.100, n.6, p.1126- 1152, Dec.1992.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Economic growth in a cross-section of cities",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [
+              "L"
+            ],
+            "last": "Glaeser",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "A"
+            ],
+            "last": "Scheinkman",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Shleifer",
+            "suffix": ""
+          }
+        ],
+        "year": 1995,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "GLAESER, E. L., SCHEINKMAN, J. A., SHLEIFER, A. Economic growth in a cross-section of cities. Cambridge, Mass.: NBER, 1995. 19p. (Working Papers, n.5013)",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Location, concentration, and performance of economic activity in Brazil",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Lall",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Funderberg",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Yepes",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "LALL, S., FUNDERBERG, R., YEPES, T. (2005). Location, concentration, and performance of economic activity in Brazil. World Bank Policy Research Working Paper 3268.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "On the mechanics of economic development",
+        "authors": [
+          {
+            "first": "Robert",
+            "middle": [],
+            "last": "Lucas",
+            "suffix": ""
+          }
+        ],
+        "year": 1988,
+        "venue": "Journal of Monetary Economics",
+        "volume": "",
+        "issue": "1",
+        "pages": "3--42",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "LUCAS, Robert. On the mechanics of economic development. Journal of Monetary Economics, v.22, n.1, p.3-42, Jul. 1988.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Spatial dependence and regional convergence in Brazil",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Magalh\u00e3es",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Hewings",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Azzoni",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Urbana) Dispon\u00edvel em",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "MAGALH\u00c3ES, A., HEWINGS, G., AZZONI, C. Spatial dependence and regional convergence in Brazil. Chicago: University of Illinois, 2000. 20p. (Working Papers REAL 00-T-11, Urbana) Dispon\u00edvel em: <http://www2.uiuc.edu/unit/real/d-paper/00-t-11.pdf>.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Velhas secas em novos sert\u00f5es: continuidade e mudan\u00e7as na economica do semi-arido e dos cerrados nordestinos",
+        "authors": [
+          {
+            "first": "Maia",
+            "middle": [],
+            "last": "Gomes",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2001,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "MAIA GOMES, G. 2001. Velhas secas em novos sert\u00f5es: continuidade e mudan\u00e7as na economica do semi-arido e dos cerrados nordestinos. Brasilia: IPEA.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Boom towns and ghost countries: geography, agglomeration, and population mobility",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Pritchett",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "PRITCHETT, L. (2004) Boom towns and ghost countries: geography, agglomeration, and population mobility. Center for Global Development, Working Paper no. 36.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": ") Teachers, schools and academic achievement",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Rivkin",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Hanushek",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Kain",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Econometrica",
+        "volume": "73",
+        "issue": "",
+        "pages": "417--458",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "RIVKIN, S., HANUSHEK, E., KAIN, J. (2005) Teachers, schools and academic achievement, Econometrica, v.73, p.417-458.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Endogenous technological change",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [
+              "M"
+            ],
+            "last": "Romer",
+            "suffix": ""
+          }
+        ],
+        "year": 1990,
+        "venue": "Journal of Political Economy",
+        "volume": "",
+        "issue": "5",
+        "pages": "71--102",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "ROMER, P. M. Endogenous technological change. Journal of Political Economy, v.98, n.5 (part 2), p.71-102, Oct. 1990.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Increasing returns and long-run growth",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [
+              "M"
+            ],
+            "last": "Romer",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "Journal of Political Economy",
+        "volume": "",
+        "issue": "5",
+        "pages": "1002--1037",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "ROMER, P. M. Increasing returns and long-run growth. Journal of Political Economy, v.94, n.5, p.1002-1037, Oct. 1986.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "Planos de Desenvolvimento Regional. (various volumes: Baixo Jaguaribe, Ma\u00e7ico de Baturite, Vale deo Corea\u00fa e Ibiapaba) Fortaleza: Governo do Estado do Cear\u00e1",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Planos de Desenvolvimento Regional. (various volumes: Baixo Jaguaribe, Ma\u00e7ico de Baturite, Vale deo Corea\u00fa e Ibiapaba) Fortaleza: Governo do Estado do Cear\u00e1, Secretaria De Desenvolvimento Local e Regional.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "uris": null,
+        "fig_num": null,
+        "num": null,
+        "text": "Figure 2 Population density, 2000",
+        "type_str": "figure"
+      },
+      "FIGREF1": {
+        "uris": null,
+        "fig_num": "34",
+        "num": null,
+        "text": "Population distribution by region and labor market outcome Worker education vs. wage growthRed -North and Northeast Regions.Blue -Southeast, South and Center-West Regions.",
+        "type_str": "figure"
+      },
+      "FIGREF2": {
+        "uris": null,
+        "fig_num": null,
+        "num": null,
+        "text": "cost to SP. 1995cost to SP.  /1980",
+        "type_str": "figure"
+      },
+      "TABREF1": {
+        "content": "<table><tr><td>Employment</td><td>Employment Share</td><td>Population</td></tr></table>",
+        "html": null,
+        "text": "",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF2": {
+        "content": "<table><tr><td>Employment</td><td/><td>Employment Share</td><td/><td/><td/></tr><tr><td>Employment</td><td>Employment growth</td><td>Share of employment</td><td>Population</td><td>Population Growth</td><td>Frequency</td></tr><tr><td>Quadrant \u0395+, W+ 18188385 23642211 1991 2000 \u0395\u2212, W+ 16094479 16874788 \u0395\u2212, W-10194623 10555736 \u0395+, W-10815827 14557158</td><td>5453826 780309 361113 3741331</td><td colspan=\"3\">1991 2000 32% 35% 47086089 58931732 11845643 1991 2000 28% 25% 40422146 42896418 2474272 19% 17% 27263326 28480511 1217185 22% 23% 32053914 39490509 7436595</td><td>1033 1326 816 1092</td></tr><tr><td colspan=\"5\">Total 55295305 65631893 10336588 100% 100% 146825475 169801170 22975695</td><td>4267</td></tr></table>",
+        "html": null,
+        "text": "",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF3": {
+        "content": "<table><tr><td>Variable</td><td>Source</td><td>Instrument(s)</td><td>Source</td></tr><tr><td colspan=\"2\">Teacher qualification in 1991 IBGE -Census</td><td>Exogenous</td><td/></tr><tr><td>Years of schooling in 1991</td><td>IBGE -Census</td><td>Exogenous</td><td/></tr><tr><td>Total precipitation</td><td>DECRG -IE</td><td>Exogenous</td><td/></tr><tr><td colspan=\"2\">Government with Accountability IBGE -MUNIC</td><td>Exogenous</td><td/></tr><tr><td/><td/><td>Employment rate in 1991</td><td>IBGE -Census</td></tr><tr><td>Delta employment</td><td>IBGE -Census</td><td>Soil quality</td><td>DECRG -IE</td></tr><tr><td/><td/><td>First and third principal components of monthly rainfall</td><td>DECRG -IE</td></tr><tr><td>Transport cost to S\u00e3o Paulo</td><td>NEMESIS</td><td>Transport cost to S\u00e3o Paulo in 1968</td><td>NEMESIS</td></tr><tr><td>Transport cost to nearest State Capital</td><td>NEMESIS</td><td>Transport cost to nearest State Capital in 1968</td><td>NEMESIS</td></tr><tr><td/><td/><td>Dependency ratio in 1991</td><td>IBGE -Census</td></tr><tr><td/><td/><td>Illiteracy rate in 1991</td><td>IBGE -Census</td></tr><tr><td colspan=\"2\">Delta government transference IBGE -Census</td><td>Repetition rate in 1991</td><td>IBGE -Census</td></tr><tr><td/><td/><td>Proportion of elderly persons in 1991</td><td>IBGE -Census</td></tr><tr><td/><td/><td>Population in 1991</td><td>IBGE -Census</td></tr><tr><td/><td/><td colspan=\"2\">Proportion 5-15 over 15-55 yrs old in 1991 IBGE -Census</td></tr><tr><td/><td/><td>Delta education market potential</td><td>DECRG -IE</td></tr><tr><td>Delta Market Potential</td><td>DECRG -IE</td><td>Urbanization rate in 1991</td><td>IBGE -Census</td></tr><tr><td/><td/><td>Population density in 1991</td><td>IBGE -Census</td></tr></table>",
+        "html": null,
+        "text": "A. Variables used in the Wage Equation and their sources: Variables used in the Labor Equation and their sources:",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF4": {
+        "content": "<table><tr><td>Variable</td><td>Obs</td><td>Mean</td><td>Std.Dev.</td><td>Min</td><td>Max</td></tr><tr><td>Delta ln Wage (2000/1991)</td><td>4267</td><td>-0.0101</td><td>0.2935</td><td>-1.5242</td><td>0.8495</td></tr><tr><td>ln Teacher qualification in 1991</td><td>4267</td><td>1.3938</td><td>2.1088</td><td>-4.6052</td><td>4.2370</td></tr><tr><td>Years of Schooling in 1991</td><td>4267</td><td>3.9181</td><td>1.4556</td><td>0.4425</td><td>9.6572</td></tr><tr><td>Total rainfall</td><td>4266</td><td>1337.3190</td><td>425.4345</td><td>368.6636</td><td>3361.7090</td></tr><tr><td>Government Accountability</td><td>4267</td><td>0.9121</td><td>0.2832</td><td>0.0000</td><td>1.0000</td></tr><tr><td>Delta ln Employment (2000/1991)</td><td>4267</td><td>0.1422</td><td>0.2224</td><td>-0.6961</td><td>1.8755</td></tr><tr><td colspan=\"2\">lnTransport Cost to S\u00e3o Paulo in 1995 4266</td><td>7.0420</td><td>0.8469</td><td>2.3026</td><td>9.2603</td></tr><tr><td>ln Transport Cost to State Capital in</td><td/><td/><td/><td/><td/></tr><tr><td/><td>4256</td><td>5.8180</td><td>0.7780</td><td>1.3863</td><td>8.6910</td></tr><tr><td>Delta ln Transferences (2000/1991)</td><td>4267</td><td>0.8083</td><td>0.3221</td><td>-1.1823</td><td>2.4240</td></tr><tr><td colspan=\"2\">Delta ln Market Potential (2000/1991) 4,258</td><td>0.4093</td><td>0.1375</td><td>-0.4691</td><td>2.0949</td></tr><tr><td>ln Population in 1991</td><td>4,267</td><td>9.5287</td><td>1.0888</td><td>6.6214</td><td>16.0821</td></tr><tr><td>Dependency Ratio in 1991</td><td>4267</td><td>0.4775</td><td>0.0466</td><td>0.3738</td><td>0.6205</td></tr><tr><td colspan=\"2\">ln Transport Cost to S\u00e3o Paulo in 1968 4266</td><td>7.6264</td><td>0.7874</td><td>3.2189</td><td>9.6385</td></tr><tr><td>ln Transport Cost to State Capital in</td><td/><td/><td/><td/><td/></tr><tr><td/><td>4256</td><td>6.2548</td><td>0.7959</td><td>1.3863</td><td>8.6910</td></tr><tr><td>ln Proportion of Elderly in 1991</td><td>4267</td><td>-2.2502</td><td>0.2621</td><td>-3.9145</td><td>-1.5332</td></tr><tr><td>Illiteracy Rate in 1991</td><td>4267</td><td>35.5004</td><td>17.8266</td><td>2.4800</td><td>87.0500</td></tr><tr><td>Urbanization Rate in 1991</td><td>4267</td><td>53.6356</td><td>23.1683</td><td>2.1562</td><td>100.0000</td></tr><tr><td>Population Density in 1991</td><td>4267</td><td>93.6426</td><td>510.3321</td><td>0.0896</td><td>12199.7700</td></tr><tr><td colspan=\"2\">ln 5 to 15 over 15 to 55 years old Ratio 4267</td><td>-0.7491</td><td>0.2303</td><td>-1.6218</td><td>-0.0354</td></tr><tr><td>Repetition Rate in 1991</td><td>4267</td><td>4.2935</td><td>0.2071</td><td>2.3542</td><td>4.5756</td></tr><tr><td>ln Employment Rate in 1991</td><td>4267</td><td>-0.3760</td><td>0.1411</td><td>-1.2429</td><td>0.1601</td></tr><tr><td>Delta ln Education Market Potential</td><td/><td/><td/><td/><td/></tr><tr><td>(2000/1991)</td><td>4251</td><td>0.9737</td><td>0.1736</td><td>0.0535</td><td>2.7704</td></tr><tr><td>Percentage of Good Soils</td><td>4266</td><td>0.7904</td><td>0.3071</td><td>0.0000</td><td>1.0002</td></tr><tr><td>Rainfall -First Principal Component</td><td>4266</td><td>0.0000</td><td>2.2685</td><td>-4.2315</td><td>6.9861</td></tr><tr><td>Rainfall -Third Principal Component</td><td>4,266</td><td>0.0000</td><td>1.5749</td><td>-2.6324</td><td>9.2440</td></tr><tr><td>ln Wage in 1991</td><td>4267</td><td>8.0265</td><td>0.4963</td><td>6.6139</td><td>9.8121</td></tr><tr><td>Proportion of Natives in 1991</td><td>4267</td><td>0.6565</td><td>0.1790</td><td>0.0855</td><td>1.0134</td></tr><tr><td>Homicides per Capita in 1991</td><td>4265</td><td>0.0016</td><td>0.0011</td><td>0.0000</td><td>0.0090</td></tr><tr><td>Employment in Farming Activities in</td><td/><td/><td/><td/><td/></tr><tr><td/><td>4,267</td><td>0.1777</td><td>0.0854</td><td>0.0000</td><td>0.5437</td></tr><tr><td>Bank Dummy (1991)</td><td>4,267</td><td>0.7492</td><td>0.4335</td><td>0.0000</td><td>1.0000</td></tr><tr><td/><td>4267</td><td>9.5287</td><td>1.0888</td><td>6.6214</td><td>16.0821</td></tr><tr><td>Average Temperature</td><td>4266</td><td>22.3050</td><td>2.8451</td><td>13.8325</td><td>27.8109</td></tr><tr><td>Fertility Rate in 1991</td><td>4,267</td><td>3.6449</td><td>1.1885</td><td>1.7600</td><td>8.6800</td></tr></table>",
+        "html": null,
+        "text": "",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF5": {
+        "content": "<table><tr><td>Variable Variable</td><td>Obs Obs</td><td>Mean Mean</td><td>Std.Dev. Std.Dev.</td><td>Min Min</td><td>Max Max</td></tr><tr><td>Delta ln Wage (2000/1991) Delta ln Wage (2000/1991)</td><td>3532 3300</td><td>-0.0233 0.0000</td><td>0.3097 0.2901</td><td>-1.5242 -1.3942</td><td>0.8495 0.8495</td></tr><tr><td>ln Teacher qualification in 1991 ln Teacher qualification in 1991</td><td>3532 3300</td><td>1.1990 1.3156</td><td>2.1519 2.1187</td><td>-4.6052 -4.6052</td><td>4.2370 4.2370</td></tr><tr><td>Years of Schooling in 1991 Years of Schooling in 1991</td><td>3532 3300</td><td>3.6414 3.6858</td><td>1.3197 1.3320</td><td>0.4425 0.4746</td><td>7.1707 7.1707</td></tr><tr><td>Total rainfall Total rainfall</td><td colspan=\"2\">3,531 1,312.3340 3299 1251.7990</td><td>436.0881 367.9959</td><td colspan=\"2\">368.6636 3,361.7090 368.6636 2532.2020</td></tr><tr><td>Government Accountability Government Accountability</td><td>3,532 3300</td><td>0.9023 0.9124</td><td>0.2969 0.2827</td><td>0.0000 0.0000</td><td>1.0000 1.0000</td></tr><tr><td>Delta ln Employment (2000/1991) Delta ln Employment (2000/1991)</td><td>3532 3300</td><td>0.1231 0.1103</td><td>0.2173 0.2035</td><td>-0.6577 -0.6577</td><td>1.3689 1.2464</td></tr><tr><td colspan=\"2\">lnTransport Cost to S\u00e3o Paulo in 1995 3531 lnTransport Cost to S\u00e3o Paulo in 1995 3299</td><td>7.1172 7.0422</td><td>0.7733 0.7355</td><td>4.1589 4.1589</td><td>9.2603 8.3051</td></tr><tr><td>ln Transport Cost to State Capital in ln Transport Cost to State Capital in</td><td/><td/><td/><td/><td/></tr><tr><td>1995 1995</td><td>3531 3299</td><td>5.9358 5.8691</td><td>0.6736 0.6163</td><td>2.1972 2.1972</td><td>8.6910 7.7619</td></tr><tr><td>Delta ln Transferences (2000/1991) Delta ln Transferences (2000/1991)</td><td>3532 3300</td><td>0.8316 0.8448</td><td>0.3262 0.3073</td><td>-1.1823 -0.2986</td><td>2.4240 2.3336</td></tr><tr><td>Delta ln Market Potential (2000/1991) Delta ln Market Potential (2000/1991)</td><td>3523 3299</td><td>0.4053 0.4101</td><td>0.1330 0.1179</td><td>-0.4691 -0.2664</td><td>2.0949 1.5442</td></tr><tr><td>ln Population in 1991 ln Population in 1991</td><td>3,532 3300</td><td>9.2629 9.2337</td><td>0.8171 0.8054</td><td>6.6214 6.6214</td><td>12.9814 11.9770</td></tr><tr><td>Dependency Ratio in 1991 Dependency Ratio in 1991</td><td>3532 3300</td><td>0.4840 0.4807</td><td>0.0460 0.0447</td><td>0.3738 0.3738</td><td>0.6205 0.6205</td></tr><tr><td colspan=\"2\">ln Transport Cost to S\u00e3o Paulo in 1968 3531 ln Transport Cost to S\u00e3o Paulo in 1968 3299</td><td>7.6962 7.6219</td><td>0.7123 0.6676</td><td>4.3694 4.3694</td><td>9.6385 8.7367</td></tr><tr><td>ln Transport Cost to State Capital in ln Transport Cost to State Capital in</td><td/><td/><td/><td/><td/></tr><tr><td>1968 1968</td><td>3531 3299</td><td>6.3629 6.2990</td><td>0.7037 0.6601</td><td>3.1135 3.1135</td><td>8.6910 7.9077</td></tr><tr><td>ln Proportion of Elderly in 1991 ln Proportion of Elderly in 1991</td><td>3532 3300</td><td>-2.2260 -2.1936</td><td>0.2566 0.2204</td><td>-3.9145 -3.6893</td><td>-1.5332 -1.5332</td></tr><tr><td>Illiteracy Rate in 1991 Illiteracy Rate in 1991</td><td>3532 3300</td><td>38.0138 37.7150</td><td>17.5883 17.8150</td><td>2.4800 2.4800</td><td>87.0500 81.4600</td></tr><tr><td>Urbanization Rate in 1991 Urbanization Rate in 1991</td><td>3532 3300</td><td>48.7978 49.2604</td><td>20.6294 20.7435</td><td>2.7639 2.7639</td><td>100.0000 100.0000</td></tr><tr><td>Population Density in 1991 Population Density in 1991</td><td>3532 3300</td><td>31.1089 32.7412</td><td>33.0202 33.3495</td><td>0.0896 0.2065</td><td>522.2028 522.2028</td></tr><tr><td colspan=\"2\">ln 5 to 15 over 15 to 55 years old Ratio 3,532 ln 5 to 15 over 15 to 55 years old Ratio 3300</td><td>-0.7264 -0.7464</td><td>0.2329 0.2243</td><td>-1.6218 -1.6218</td><td>-0.0354 -0.1870</td></tr><tr><td>Repetition Rate in 1991 Repetition Rate in 1991</td><td>3,532 3300</td><td>4.2707 4.2817</td><td>0.2125 0.1976</td><td>2.3542 2.6575</td><td>4.5756 4.5756</td></tr><tr><td>ln Employment Rate in 1991 ln Employment Rate in 1991</td><td>3532 3300</td><td>-0.3722 -0.3625</td><td>0.1462 0.1406</td><td>-1.2429 -1.2429</td><td>0.1601 0.1601</td></tr><tr><td>Delta ln Education Market Potential Delta ln Education Market Potential</td><td/><td/><td/><td/><td/></tr><tr><td>(2000/1991) (2000/1991)</td><td>3516 3297</td><td>0.9745 0.9707</td><td>0.1732 0.1575</td><td>0.0535 0.1650</td><td>2.7704 1.6027</td></tr><tr><td>Percentage of Good Soils Percentage of Good Soils</td><td>3531 3299</td><td>0.7816 0.7881</td><td>0.3179 0.3192</td><td>0.0000 0.0000</td><td>1.0002 1.0002</td></tr><tr><td>Rainfall -First Principal Component Rainfall -First Principal Component</td><td>3531 3299</td><td>0.0033 -0.0130</td><td>2.2334 2.1967</td><td>-4.2315 -4.2315</td><td>6.8953 6.8953</td></tr><tr><td>Rainfall -Third Principal Component Rainfall -Third Principal Component</td><td>3531 3299</td><td>0.0262 -0.1705</td><td>1.6087 1.3696</td><td>-2.4997 -2.4997</td><td>9.2440 5.4633</td></tr><tr><td>ln Wage in 1991 ln Wage in 1991</td><td>3532 3300</td><td>7.9349 7.9233</td><td>0.4619 0.4684</td><td>6.6139 6.6139</td><td>9.3168 9.3168</td></tr><tr><td>Proportion of Natives in 1991 Proportion of Natives in 1991</td><td>3532 3300</td><td>0.6778 0.6765</td><td>0.1760 0.1694</td><td>0.0855 0.0855</td><td>1.0134 1.0134</td></tr><tr><td>Homicides per Capita in 1991 Homicides per Capita in 1991</td><td>3530 3299</td><td>0.0015 0.0015</td><td>0.0010 0.0010</td><td>0.0000 0.0000</td><td>0.0090 0.0090</td></tr><tr><td>Employment in Farming Activities in Employment in Farming Activities in</td><td/><td/><td/><td/><td/></tr><tr><td>1991 1991</td><td>3532 3300</td><td>0.1975 0.1995</td><td>0.0743 0.0752</td><td>0.0000 0.0000</td><td>0.5437 0.5437</td></tr><tr><td>Bank Dummy (1991) Bank Dummy (1991)</td><td>3532 3300</td><td>0.7087 0.7197</td><td>0.4544 0.4492</td><td>0.0000 0.0000</td><td>1.0000 1.0000</td></tr><tr><td>Average Temperature</td><td>3532 3299</td><td>9.2629 22.1518</td><td>0.8171 2.7223</td><td>6.6214 13.8325</td><td>12.9814 27.7363</td></tr><tr><td>Average Temperature Fertility Rate in 1991</td><td>3531 3300</td><td>22.4151 3.6513</td><td>2.8196 1.1051</td><td>13.8325 2.0100</td><td>27.7363 7.9600</td></tr><tr><td>Fertility Rate in 1991</td><td>3532</td><td>3.7759</td><td>1.2169</td><td>2.0100</td><td>8.6800</td></tr></table>",
+        "html": null,
+        "text": "",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF6": {
+        "content": "<table><tr><td>Dependent Variable: Delta ln Wage</td><td>2SLS Est.</td><td>2SLS SE</td><td>Spatial GMM Est. (Cutoff = 0.5)</td><td>Spatial GMM SE (Cutoff = 0.5)</td></tr><tr><td>Intercept</td><td>-.23969856</td><td>.06883838</td><td>-.56879473</td><td>.30864844</td></tr><tr><td>ln Teacher qualification in 1991</td><td>.00548926</td><td>.00230455</td><td>.00416922</td><td>.0057475</td></tr><tr><td>Years of Schooling in 1991</td><td>.06204049</td><td>.00435942</td><td>.05989964</td><td>.01154468</td></tr><tr><td>Total Rainfall</td><td>.00005344</td><td>9.645e-06</td><td>.00006334</td><td>.00002661</td></tr><tr><td>Government Accountability</td><td>.02233476</td><td>.01293292</td><td>.01689856</td><td>.03458774</td></tr><tr><td>Delta ln Employment</td><td>-.49393135</td><td>.05272667</td><td>-.60942137</td><td>.21566178</td></tr><tr><td>ln Transport Cost SP in 1995</td><td>-.03205953</td><td>.00590571</td><td>-.02147947</td><td>.02295913</td></tr><tr><td colspan=\"2\">ln Transport Cost Capital in 1995 -.04812287</td><td>.00601824</td><td>-.01909574</td><td>.02022743</td></tr><tr><td>Delta ln Transferences</td><td>.29663134</td><td>.03118072</td><td>.20129193</td><td>.11094594</td></tr><tr><td>Delta ln Market Potential</td><td>.54819572</td><td>.09031346</td><td>.98877352</td><td>.29459548</td></tr><tr><td>crit. fn. test of overid. restrictions</td><td>----</td><td>----</td><td>24.106339</td><td>24.106339</td></tr><tr><td>Dependent Variable:</td><td>Spatial GMM Est.</td><td>Spatial GMM SE</td><td>Spatial GMM Est.</td><td>Spatial GMM SE</td></tr><tr><td>Delta ln Wage</td><td>(Cutoff = 1)</td><td>(Cutoff = 1)</td><td>(Cutoff = 2)</td><td>(Cutoff = 2)</td></tr><tr><td>Intercept</td><td>-.71932918</td><td>.39269048</td><td>-.89149666</td><td>.46470872</td></tr><tr><td>ln Teacher qualification in 1991</td><td>.00313908</td><td>.00588544</td><td>.00077822</td><td>.00636871</td></tr><tr><td>Years of Schooling in 1991</td><td>.06201083</td><td>.01286978</td><td>.06663528</td><td>.01474433</td></tr><tr><td>Total Rainfall</td><td>.0000674</td><td>.00002795</td><td>.00007651</td><td>.00002947</td></tr><tr><td>Government Accountability</td><td>.02179158</td><td>.03504303</td><td>.03300684</td><td>.035756</td></tr><tr><td>Delta ln Employment</td><td>-.74141878</td><td>.24696933</td><td>-.89418358</td><td>.27639595</td></tr><tr><td>ln Transport Cost SP in 1995</td><td>-.01160188</td><td>.02949758</td><td>.00306388</td><td>.03553532</td></tr><tr><td colspan=\"2\">ln Transport Cost Capital in 1995 -.00840394</td><td>.02391369</td><td>.00218674</td><td>.02606355</td></tr><tr><td>Delta ln Transferences</td><td>.13809767</td><td>.12475475</td><td>.05152986</td><td>.13939323</td></tr><tr><td>Delta ln Market Potential</td><td>1.1562178</td><td>.34490082</td><td>1.3035762</td><td>.36538869</td></tr><tr><td>crit. fn. test of overid. restrictions</td><td>19.804367</td><td>19.804367</td><td>14.762519</td><td>14.762519</td></tr></table>",
+        "html": null,
+        "text": "",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF7": {
+        "content": "<table><tr><td>Dependent Variable: Delta ln Wage</td><td>2SLS Est.</td><td>2SLS SE</td><td>Spatial GMM Est. (Cutoff = 0.5)</td><td>Spatial GMM SE (Cutoff = 0.5)</td></tr><tr><td>Intercept</td><td>.09597151</td><td>.10607452</td><td>-.07212585</td><td>.15562966</td></tr><tr><td>ln Teacher qualification in 1991</td><td>.00297498</td><td>.00255803</td><td>-.00046191</td><td>.00367207</td></tr><tr><td>Years of Schooling in 1991</td><td>.06753124</td><td>.00544935</td><td>.06342638</td><td>.00746079</td></tr><tr><td>Total Rainfall</td><td>.00005995</td><td>.00001096</td><td>.00007959</td><td>.00001616</td></tr><tr><td>Government Accountability</td><td>.01715587</td><td>.01423606</td><td>.00466584</td><td>.02099178</td></tr><tr><td>Delta ln Employment</td><td>-.58726752</td><td>.07915421</td><td>-.72860634</td><td>.13080938</td></tr><tr><td>ln Transport Cost SP in 1995</td><td>-.05128457</td><td>.00834921</td><td>-.04954901</td><td>.01126003</td></tr><tr><td colspan=\"2\">ln Transport Cost Capital in 1995 -.06169838</td><td>.00863113</td><td>-.04358863</td><td>.0138009</td></tr><tr><td>Delta ln Transferences</td><td>.24978392</td><td>.04062804</td><td>.16556984</td><td>.06593844</td></tr><tr><td>Delta ln Market Potential</td><td>.33007705</td><td>.12288672</td><td>.67970574</td><td>.17956081</td></tr><tr><td>crit. fn. test of overid. restrictions</td><td>----</td><td>----</td><td>51.198551</td><td>51.198551</td></tr><tr><td>Dependent Variable:</td><td>Spatial GMM Est.</td><td>Spatial GMM SE</td><td>Spatial GMM Est.</td><td>Spatial GMM SE</td></tr><tr><td>Delta ln Wage</td><td>(Cutoff = 1)</td><td>(Cutoff = 1</td><td>(Cutoff = 2)</td><td>(Cutoff = 2)</td></tr><tr><td>Intercept</td><td>-.04565513</td><td>.17729723</td><td>-.0494362</td><td>.21368676</td></tr><tr><td>ln Teacher qualification in 1991</td><td>-.00177951</td><td>.00383909</td><td>-.00199813</td><td>.00412284</td></tr><tr><td>Years of Schooling in 1991</td><td>.06576312</td><td>.00830697</td><td>.06912613</td><td>.00973923</td></tr><tr><td>Total Rainfall</td><td>.00008265</td><td>.0000173</td><td>.00007853</td><td>.0000177</td></tr><tr><td>Government Accountability</td><td>.00246969</td><td>.02073262</td><td>.00032706</td><td>.01966279</td></tr><tr><td>Delta ln Employment</td><td>-.73485869</td><td>.14010873</td><td>-.74297255</td><td>.15258759</td></tr><tr><td>ln Transport Cost SP in 1995</td><td>-.05022805</td><td>.01231244</td><td>-.04537549</td><td>.01413209</td></tr><tr><td colspan=\"2\">ln Transport Cost Capital in 1995 -.04676843</td><td>.01599272</td><td>-.04803535</td><td>.01860846</td></tr><tr><td>Delta ln Transferences</td><td>.16973922</td><td>.07140593</td><td>.16184129</td><td>.08098298</td></tr><tr><td>Delta ln Market Potential</td><td>.64660937</td><td>.19555643</td><td>.60036469</td><td>.22895648</td></tr><tr><td>crit. fn. test of overid. restrictions</td><td>35.984318</td><td>35.984318</td><td>22.100483</td><td>22.100483</td></tr></table>",
+        "html": null,
+        "text": "Regression results, Non-metropolitan Brazil",
+        "num": null,
+        "type_str": "table"
+      },
+      "TABREF8": {
+        "content": "<table><tr><td>Dependent Variable: Delta ln Wage</td><td>2SLS Est.</td><td>2SLS SE</td><td>Spatial GMM Est. (Cutoff = 0.5)</td><td>Spatial GMM SE (Cutoff = 0.5)</td></tr><tr><td>Intercept</td><td>-.15950009</td><td>.10277873</td><td>-.12074952</td><td>.17974661</td></tr><tr><td>ln Teacher Qualification in 1991</td><td>.0052535</td><td>.00254925</td><td>.00236128</td><td>.00410509</td></tr><tr><td>Years of Schooling in 1991</td><td>.06246437</td><td>.00536942</td><td>.06088094</td><td>.0082013</td></tr><tr><td>Total Rainfall</td><td>.00007979</td><td>.00001297</td><td>.00009786</td><td>.00002296</td></tr><tr><td>Government Accountability</td><td>-.00584819</td><td>.01443974</td><td>-.00617702</td><td>.02409457</td></tr><tr><td>Delta ln Employment</td><td>-.53408098</td><td>.07787127</td><td>-.63237196</td><td>.14710456</td></tr><tr><td>ln Transport Cost SP in 1995</td><td>-.0404624</td><td>.00821161</td><td>-.04469861</td><td>.0127028</td></tr><tr><td colspan=\"2\">ln Transport Cost Capital in 1995 -.04374225</td><td>.00881383</td><td>-.0422301</td><td>.01622356</td></tr><tr><td>Delta ln Transferences</td><td>.22328359</td><td>.04042839</td><td>.18064082</td><td>.07351591</td></tr><tr><td>Delta ln Market Potential</td><td>.58404297</td><td>.11290579</td><td>.62033021</td><td>.18144919</td></tr><tr><td>crit. fn. test of overid. restrictions</td><td>----</td><td>----</td><td>44.336521</td><td>44.336521</td></tr><tr><td>Dependent Variable:</td><td>Spatial GMM Est.</td><td>Spatial GMM SE</td><td>Spatial GMM Est.</td><td>Spatial GMM SE</td></tr><tr><td>Delta ln Wage</td><td>(Cutoff = 1)</td><td>(Cutoff = 1</td><td>(Cutoff = 2)</td><td>(Cutoff = 2)</td></tr><tr><td>Intercept</td><td>-.04462965</td><td>.19892652</td><td>.00716942</td><td>.22615147</td></tr><tr><td>ln Teacher Qualification in 1991</td><td>.00093057</td><td>.00426831</td><td>.00001553</td><td>.00453575</td></tr><tr><td>Years of Schooling in 1991</td><td>.06330124</td><td>.00894142</td><td>.06656591</td><td>.01025243</td></tr><tr><td>Total Rainfall</td><td>.00010275</td><td>.00002402</td><td>.00010328</td><td>.00002395</td></tr><tr><td>Government Accountability</td><td>-.01646986</td><td>.02421216</td><td>-.02936971</td><td>.02324613</td></tr><tr><td>Delta ln Employment</td><td>-.68066132</td><td>.16307582</td><td>-.76383001</td><td>.18872485</td></tr><tr><td>ln Transport Cost SP in 1995</td><td>-.04688983</td><td>.01363969</td><td>-.042707</td><td>.01531044</td></tr><tr><td colspan=\"2\">ln Transport Cost Capital in 1995 -.04913757</td><td>.01864702</td><td>-.05431722</td><td>.02134752</td></tr><tr><td>Delta ln Transferences</td><td>.17948617</td><td>.0803842</td><td>.15744109</td><td>.09175749</td></tr><tr><td>Delta ln Market Potential</td><td>.58104956</td><td>.19482417</td><td>.52911681</td><td>.22650729</td></tr><tr><td>crit. fn. test of overid. restrictions</td><td>33.939201</td><td>33.939201</td><td>21.138334</td><td>21.138334</td></tr></table>",
+        "html": null,
+        "text": "",
+        "num": null,
+        "type_str": "table"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05096: Section 4 presents our findings in terms of ECD trends, risk factors, inequality, and the drivers of inequality.\n\ns_05146: The efficiency of public investment for Bangladesh is assumed to be a bit lower than the mean efficiency at 55 percent, owing to the fact that the developing countries in the sample have lower efficiency rates.\n\ns_05196: A related literature examines how parental insurance eligibility affects health insurance enrollment of eligible children, finding positive spillovers on children's enrollment into Medicaid in the United States (Dubay and Kenney 2003; Sommers 2006; Aizer and Grogger 2003; Busch and Duchovny 2005) .\n\ns_05246: Table 1 , reporting the access rates across regions for both water and sanitation, shows that not all regions are managing to cater to the needs of a growing urban population fast enough.\n\ns_05296: In other words, the states with the lowest enrollment rates are likely to show the largest gains for each additional peso of federal subsidy and thus should be favored, if higher overall enrollments and assistance to poorer states are the goals.\n\ns_05346: To capture whether credit ratings have a persistent effect on the mood of investors, we rely on event-study methods commonly used in the finance literature.\n\ns_05396: A new methodology is proposed combining an innovative questionnaire design with standard imputation techniques.\n\ns_05446: Therefore, for each source-host pair, we construct a pair-year specific \"railway index (OxD)\" as the product of the logged host railway index and the logged source railway index.\n\ns_05496: Following the 2004 WDR publication, the World Bank promoted several data collection initiatives to measure service quality and performance in schools and health facilities as well as initiatives to analyze accountability systems (Dehn at al.\n\ns_05546: These findings are consistent with those of existing studies that rely on a more disaggregated classification of occupations.\n\ns_05596: Further example spatial distributions for 250-and 2475-year return periods are shown in Figure 8 .\n\ns_05646: Nivel de significancia * p de la diferencia con grupo de comparaci\u00f3n < 0.1; ** p de la diferencia con grupo de comparaci\u00f3n < 0.05; *** p de la diferencia con grupo de comparaci\u00f3n < 0.05.\n\ns_05696: To overcome this conundrum, the paper argues for a paradigm shift: a purposeful policy shift that subjects high-value transactions to the full set of rigorous controls, while relaxing controls for low-value transactions that apply to important aspects of the service delivery sectors.\n\ns_05746: We rely on 2004 O*Net data, the year before our period of analysis, to ensure that the skills measures are not affected by technological advances taking place after that year.\n\ns_05796: Demographic and business characteristics of the two samples are provided in Table 1 .\n\ns_05846: The second and third columns report predicted PM2.5 and NO2 for the CAMS-3 area at mean values of the weather variables.\n\ns_05896: To compute the GVC indicators, we draw on the latest release of the EORA MIRIO database of the University of Sydney.\n\ns_05946: First, the paper provides evidence on pass-through rates on exports from high-income to low-income countries, namely from various European Union (EU) countries to Malawi.\n\ns_05996: The surveys are nationally representative, and the data can be disaggregated on the basis of gender, age, location (urban or rural), and income level.\n\ns_06046: As in previous studies relying on data from developed countries, individuals living in households with higher income, greater educational attainment, male, and employed show a higher capacity to deal with a \u2026nancial shock, both in developed and in emerging countries (with even similar predicting capacity values among these groups of countries).\n\ns_06096: Any future research that expands the respective data space, especially longitudinally, and examines the validity of our results in different refugee situations will help improve our understanding significantly.\n\ns_06146: InTable A.1 in the Online Appendix, we also examine the geographical transition matrices for non-migrants and return migrants in Panel A and Panel B, respectively.\n\ns_06196: Our data comes from a combination of a broadly representative phone survey and an online randomized survey experiment in Papua New Guinea (PNG).\n\ns_06246: Panels (B) and (C) provide weighted medians and means for countryyear observations based on the income classification in the year in which the surveys were conducted.\n\ns_06296: It is remarkable that the group with no cash transfers (but in a treated village) also saw a significant (although smaller in size) increase in enrollment, of around 7 percentage points for all children (column 1), and around 11 percentage points for children aged 8 to 12"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7T823TCZdRmTg2Fh67J5tZ0wE3k",
+    "object": "chat.completion",
+    "created": 1682884674,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1275,
+      "completion_tokens": 77,
+      "total_tokens": 1352
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05496\", \"data_mentioned\": true, \"reason\": \"World Bank\"}, {\"sent_id\": \"s_05946\", \"data_mentioned\": true, \"reason\": \"European Union\"}, {\"sent_id\": \"s_06196\", \"data_mentioned\": true, \"reason\": \"Papua New Guinea\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05496\", \"data_mentioned\": true, \"reason\": \"World Bank\"}, {\"sent_id\": \"s_05946\", \"data_mentioned\": true, \"reason\": \"European Union\"}, {\"sent_id\": \"s_06196\", \"data_mentioned\": true, \"reason\": \"Papua New Guinea\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

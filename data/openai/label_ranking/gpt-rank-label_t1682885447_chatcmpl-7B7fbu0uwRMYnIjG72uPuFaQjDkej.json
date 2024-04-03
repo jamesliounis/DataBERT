@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07965: As illustrated in Table Al , the capital costs have been calculated using three different capital recovery factors (0.12, 0.16, and 0.20) .\n\ns_08015: Further state support can be provided if required.\n\ns_08065: In Scenario 2 the subsidy is only for the first 300 kWh, and it is the same for all income groups since on average all households consume more than 300 kWh per month.\n\ns_08115: After reviewing the international experience with public investment under fiscal adjustment, the paper lays out an analytical framework to illustrate the consequences of using the public deficit as a guide to solvency.\n\ns_08165: Malanima (2006: Table 7, p. 15) Mean income in $PPP.\n\ns_08215: First, research has shown that stocks offer returns and risks similar to investing in college.\n\ns_08292: Sampling occurs in a two-phase process by which institutions are identified using the IPEDS.\n\ns_08342: Custom codes used in the work.\n\ns_08392: GPS for serum iron, transferrin, transferrin saturation and ferritin (log) were calculated in target AD case-control cohorts, using stage 1 summary data from the discovery sample of a GWAS meta analysis combining 11 population based studies of biochemical markers of iron status, with a sample size of 23,986 [30] using the method previously described ( [36] and supplementary methods).\n\ns_08442: A more detailed description of the pre-processing is available in the ADNI project webpage 1 .\n\ns_08492: Although we have seen remarkable and rapid advances in the ability to diagnose preclinical AD (Weiner et al., 2010) , in order to move toward primary prevention we need to advance our ability to predict who is at very high risk for AD and in what time frame they might develop observable pathology and subsequently clinical symptoms.\n\ns_08542: 2 Since the back-projections rely mostly on data for the base-year, it is highly important to arrive at a high quality base data, which is explained in the next section.\n\ns_08592: Elastic net seeks to reduce the number of nonzero weights so that only relevant features contribute to the discriminative value.\n\ns_08642: Most important, even though we documented substantial growth in the number of all types of buprenorphine providers and the grams of buprenorphine dispensed, we were unable to assess the clinical impact of more providers or more grams of buprenorphine dispensed.\n\ns_08692: This means that students responded to only a subset of the larger pool of items in such a way that each item was responded to by a representative sample of students.\n\ns_08742: The main processes are included in the order they occur: (1) parameter setup, (2) acquisition of verified water level observations from the CO-OPS database via the Internet; (3) tide prediction and tidal constituent acquisition from the CO-OPS database via the Internet if necessary; (4) concatenation of model hindcasts, nowcasts, and forecasts to form continuous time series; (5) creation of a persistence forecast based on the tidal prediction (in tidal regions) and observations; (6) computation of the standard statistical variables to produce the skill assessment table; and 7harmonic analysis and tidal constituent comparisons.\n\ns_08792: [37][38][39] Specifically, the paradoxical findings of this study, which showed no difference in the participation rates of racial/ethnic minorities, yet also showed racial/ethnic minorities report both more opportunity and more willingness, needs further exploration.\n\ns_08842: The inter-subject similarity and dissimilarity were evaluated to 0.80 and 0.58 for the ROI-based and the prob CNN metrics respectively.\n\ns_08892: There was a sense that personal connections and family resources played some role 'in getting ahead in life', but even those factors were overridden by the power of personal agency, as we also illustrate later.\n\ns_08942: I then compared the goodness of fit using 9 different measures: Kolmogorov-Smirnov, likelihood, three based on different measures comparing the actual and observed CDF using various nonlinear versions of r 2 (Wilkinson 1997) , and four based on a x 2 test using different binning schemes.\n\ns_08992: [5] For the Siberian Arctic, studies of the mechanisms of ice breakup have led to the development of simple forecast models [e.g., Spichkin, 1961;Gudkovich, 1995].\n\ns_09042: The effect of our racial similarity variable-i.e., the ratio of the percent of white students to neighborhood white population-stood out as a very powerful and positive predictor of open The 200 public high schools that we analyzed reside within 146 school districts.\n\ns_09092: Future efforts on optimum selections of the combined satellite sensor channels which have positive impacts and better data assimilation methods are necessary in addition to improvements in the next generation NWP models and developments as well as future advanced satellite sensors onboard adequate satellites for better spatial and temporal global coverage.\n\ns_09142: QDA performed the best with accuracy of 66% and AUC of 0.72 at \u03b7 = 0.8.\n\ns_09192: The BPS:12/17 survey data collection employed a study website and help desk to provide information and support to sample members."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7fbu0uwRMYnIjG72uPuFaQjDkej",
+    "object": "chat.completion",
+    "created": 1682885447,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1392,
+      "completion_tokens": 53,
+      "total_tokens": 1445
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08492\", \"data_mentioned\": true, \"reason\": \"ADNI project\"}, {\"sent_id\": \"s_08992\", \"data_mentioned\": true, \"reason\": \"Siberian Arctic\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08492\", \"data_mentioned\": true, \"reason\": \"ADNI project\"}, {\"sent_id\": \"s_08992\", \"data_mentioned\": true, \"reason\": \"Siberian Arctic\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

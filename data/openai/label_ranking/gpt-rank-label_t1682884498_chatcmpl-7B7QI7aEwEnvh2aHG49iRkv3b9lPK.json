@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05292: Divide the given total amount of Federal transfer for the relevant educational level by total enrolment to get per student Federal expenditure for the country as a whole (EXPT).\n\ns_05342: Table 2 reports the number of upgrades and downgrades per rating agency and Table 3 reports the number of upgrades and downgrades per country.\n\ns_05392: This class of techniques applies a summary statistic on the collected module-specific consumption and applies the result to the missing modules.\n\ns_05442: Specifically, she uses U.S. trade and affiliate sales data from the 1989 BEA Benchmark Survey of U.S.\n\ns_05492: Respondents also took into consideration the following assumptions:\n\ns_05542: The O*NET data set is the outcome of such analysis for the US economy, with 44 different scores being assigned to each detailed level occupation.\n\ns_05592: PGA hazard maps are for return periods of 250-, 475-, 950-, 1500 250-, 475-, 950-, -, and 2475 250-, 475-, 950-, -years (UNISDR, 2015 .\n\ns_05642: Fuente: estimaciones de los autores con datos ENCEL\n\ns_05692: These processes and controls associated with budget execution are shown schematically in figure 1 (Pattanayak 2016) .\n\ns_05742: Dependent variable: 2005 -2010 and 2011 -2015 , Susenas 2005 -2010 , 2015 Philippines STEP survey, and 2011 -2015 , and UN Comtrade database 2005 -2010 .\n\ns_05792: Detailed results are available upon request.\n\ns_05842: We test the relationship between traffic congestion and air pollution by matching hourly pollution data from CAMS-3 with hourly weather data and hourly Google Traffic congestion in the surrounding .01-degree cell (Figure 1) .\n\ns_05892: This is evident in Figure 2 , which compares changes in upstream and downstream linkage rates between 1995 and 2015 across groups and shows that the overall rate of linkage fell by 7% for the nonresource rich group, while rising by 5 percentage points for non-oil resource rich, by 10% for oil exporters and by 1 % for the external comparators.\n\ns_05942: It is possible that the interval between product observations is affected by the pass-through, but given the data set, this is unlikely to be a critical factor and would not be likely to impart a significant bias to the estimated mean pass-through, and not the relationship between pass-through and invoice currency(Devereux et al., 2017a).\n\ns_05992: The three think tanks, including RIA (Research ICT Africa), LIRNEasia (Learning Initiative for Network Economies in Asia), and DIRSI (el Di\u00e1logo Regional sobre la Sociedad de la Informaci\u00f3n / Regional Dialogue on the Information Society), conducted the survey separately in 2017/2018.\n\ns_06042: More recent micro-based evidence from individual spending data and local-based experiments also support, to di\u00a4erent degrees of explicitness, the relevance of \u2026nancial fragility on the marginal propensity to consume and on the size of local STMs (e.g., Haushofer and Shapiro, 2016; Egger et al., 2019; Gerard et al., 2020) .\n\ns_06092: To analyze these factors, we need a comprehensive data set, which is often not available especially in active conflict situations.\n\ns_06142: For the empirical analysis, we use data from the Egypt Labor Market Panel Survey (ELMPS).\n\ns_06192: To be able to make inferences about a broader population, it was necessary to weight responses to better reflect the demographics of the national population (such as age, sex and location) (see Table 2 ).\n\ns_06242: We use the multidimensional poverty index (MPI) from the Oxford Poverty and Human Development Initiative (OPHI) for the latest available year, which is indicated in the table .\n\ns_06292: In Table 2 we show the baseline balance of the sample in terms of education measures.\n\ns_06342: Given the unbalanced nature of the data set in terms of coverage over time and across countries, further research could shed more light on potential determinants of mobility in Latin America by focusing on the analysis of particular countries with relatively high data coverage, such as Chile, Mexico, or Brazil, which makes the collection of correlates by administrative unit easier.\n\ns_06392: The data for Indonesia come from Indonesia Family Life Survey (IFLS) 2014 wave.\n\ns_06442: To address these challenges, we leverage the detailed (panel) nature of our datasets and model electricity consumption at the customer level before and after the roll-out of the COVID lockdowns (SAH) compared against the typical (average) consumption levels during the same period in the previous years (Irwin et al., 2021) .\n\ns_06492: Table 4 below maps the results of evaluating both hypotheses, based on the sign and statistical significance of the estimated coefficient between trust in a governmental institution and a specific form of political participation."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7QI7aEwEnvh2aHG49iRkv3b9lPK",
+    "object": "chat.completion",
+    "created": 1682884498,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1348,
+      "completion_tokens": 136,
+      "total_tokens": 1484
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05542\", \"data_mentioned\": true, \"reason\": \"O*NET\"}, {\"sent_id\": \"s_06142\", \"data_mentioned\": true, \"reason\": \"Egypt Labor Market Panel Survey (ELMPS)\"}, {\"sent_id\": \"s_06242\", \"data_mentioned\": true, \"reason\": \"multidimensional poverty index (MPI) from the Oxford Poverty and Human Development Initiative (OPHI)\"}, {\"sent_id\": \"s_06392\", \"data_mentioned\": true, \"reason\": \"Indonesia Family Life Survey (IFLS) 2014 wave\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05542\", \"data_mentioned\": true, \"reason\": \"O*NET\"}, {\"sent_id\": \"s_06142\", \"data_mentioned\": true, \"reason\": \"Egypt Labor Market Panel Survey (ELMPS)\"}, {\"sent_id\": \"s_06242\", \"data_mentioned\": true, \"reason\": \"multidimensional poverty index (MPI) from the Oxford Poverty and Human Development Initiative (OPHI)\"}, {\"sent_id\": \"s_06392\", \"data_mentioned\": true, \"reason\": \"Indonesia Family Life Survey (IFLS) 2014 wave\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

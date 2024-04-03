@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02449: 15 We also compared the adjusted odds of having high per-attributed-patient LVC spending across PCPs' physician characteristics by using a logit model.\n\ns_02499: After filtering, we retained 28,350 SARS-CoV-2 genome sequences from GISAID and 66,495 from COG UK for analysis ( Figure 1e ).\n\ns_02549: A set of instruments was identified that is highly correlated with each of the variables.\n\ns_02599: However, a larger group of researchers confirm the existence of a positive correlation between the volume of the prostate and factors associated with body weight.\n\ns_02649: In a study in patients with AD dementia, plasma cortisol levels have been shown to reflect the degree of cognitive deficits in AD dementia rather than the severity of the comorbid depression (Zverova et al., 2013) .\n\ns_02699: We construct a crude estimate of quality as the school fixed effect in a regression of SAT scores on a rich vector of student background characteristics.\n\ns_02749: In 2011, USGS updated NLCD 2006 designed for land change analysis, released.\n\ns_02799: Due to differences across studies to date in terms of study populations, ages and tests used for assessing cognitive and academic outcomes, and methods of measuring SES, it is unknown whether findings are generalizable to the general US population.\n\ns_02849: Extensive research has supported the association between socio-economic status and mother-child interactions (e.g., Belsky and Jaffee 2015; Brooks-Gunn and Duncan 1997; Grolnick et al.\n\ns_02899: If the screener question that ascertained willingness to complete an online survey is eliminated, the overall response rate was 14 percent of those who had Internet access (see Table 2).\n\ns_02949: The standard errors were calculated using the STRATTAB pnagram, which uses a Taylor series approximation to calculate standard ernrs based upon complex survey designs.48 A version of this program is available from NCFS upon request The standard errors repcced take into account the clustering in the sampling procedure; they are generally higher than standard errors calculated under the assumptions of simple random sampling.\n\ns_02999: Therefore, the required sample size was 16 people, and this number was used to form a representative sample.\n\ns_03049: These results indicated a reduced ICVs variability between centers and the possibility to compare the MRI data between different Italian academic clinical centers.\n\ns_03099: There are also potential issues of endogeneity in the independent variables that may be making it more difficult to find statistical significance.\n\ns_03149: The list of keywords is available upon request.7 The gender of the speaker was not identi\u2026ed in 10% of the discussions, including one full transcript.8 For example, the occurence measure for water in o\u00a2 cials'talk equals 1 if water is a topic in a paragraph spoken by an o\u00a2 cial and 0 otherwise.\n\ns_03199: Although On the basis of their tests, which, as noted, were overwhelmingly negative, von Braun and Torero (2009, p. 2) concluded that \"Appropriate global institutional arrangements for preventing this kind of market failure are needed.\"\n\ns_03249: The data set covers 73 countries during 1980-2000.\n\ns_03299: Standard robustness checks to changes in the estimates of the abnormal returns, the measures of wholesale dependence, the sample of countries and banks, and the event and estimation windows are reported in the Appendix.\n\ns_03349: They constructed four indicators for Asia Pacific Economic Cooperation (APEC) countries for a single year by applying single averages to 13 primary variables, which were mostly collected from the WEF.\n\ns_03399: and Slovenia -20 percent (Table 14) .\n\ns_03449: 13 However, the test derived by Wooldridge (2002) , suggests that the null hypothesis of no \u2026rstorder autocorrelation is rejected in favor of AR(1).\n\ns_03499: Rajan and Zingales (2003) present a more complete narrative rooted in the same basic threads.\n\ns_03549: (2004) for evidence of the importance of creative destruction in Taiwan, China and Colombia respectively), in their comparative analysis of harmonized firm-level data from 17 developing and developed countries Bartelsman et al (2004) conclude that reallocation dynamics in Indonesia are very similar to those operating in developed countries and other Asian economies.\n\ns_03599: Table A2 presents 7 summary statistics.\n\ns_03649: The OECD report suggests that in absolute figures, China's subsidies to farmers were higher than those of the United States, and even in terms of the proportion that subsidies contributes to farm income, China's was at 17 percent in 2010, over twice that of the United States' 7 percent."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7UlhXfV0GglD9e2CyMdqqldQZCE",
+    "object": "chat.completion",
+    "created": 1682884775,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1282,
+      "completion_tokens": 83,
+      "total_tokens": 1365
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02499\", \"data_mentioned\": true, \"reason\": \"SARS-CoV-2 genome sequences\"}, {\"sent_id\": \"s_02749\", \"data_mentioned\": true, \"reason\": \"NLCD 2006\"}, {\"sent_id\": \"s_03249\", \"data_mentioned\": true, \"reason\": \"73 countries\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02499\", \"data_mentioned\": true, \"reason\": \"SARS-CoV-2 genome sequences\"}, {\"sent_id\": \"s_02749\", \"data_mentioned\": true, \"reason\": \"NLCD 2006\"}, {\"sent_id\": \"s_03249\", \"data_mentioned\": true, \"reason\": \"73 countries\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

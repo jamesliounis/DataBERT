@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03993: Tables 7 to 11 report the parameter estimates and their standard errors.\n\ns_04043: This index, it turns out, is closely related to the relative index of inequality (RII) widely used in the literature on socioeconomic inequalities in health (Pamuk 1985 (Pamuk , 1988 , and will produce identical rankings of countries to the RII (Wagstaff, Paci, and van Doorslaer 1991; Kakwani, Wagstaff, and Van Doorlsaer 1997) .\n\ns_04093: For a contribution period that covers the last 30 years before retirement, the simplified key is 7 basis points, while for a contribution period covering the last invest more heavily in corporate equities and bonds (Rocha et al 2001) .\n\ns_04143: To study this, we estimate four density estimates: two for the distribution of firm size as of 2003 (one for users and one for non-users of capital market financing) and two analogous ones as of 2010.\n\ns_04193: IUThe condition that C is not too large is needed to ensure that we operate on the upwards-slopping portion of the supply of credit facing the economy, leading to the results stated.\n\ns_04243: (See Greenwald and Stiglitz (1986) ).\n\ns_04293: With respect to the USA it should be noted that the p-value 0.059 is only marginally excessive of the 0.05 significance level.\n\ns_04343: For comparison, we also report changes in the net enrollment rate in the secondary sector on the right hand panel of Table 2 .\n\ns_04393: Using detailed firm-level data, he shows that the harmonization of the EU's electronics standards on international ones in the 1990s induced entry by new US exporters, making the market more competitive and encouraging trade (in this case, with a Northern non-member).\n\ns_04443: Table 3 presents the results.\n\ns_04493: Our results lend partial support to this hypothesis.\n\ns_04543: (p. xviii) Again, that race, sex, location, and parental education and income are determinants of outcomes in the income dimension is not a surprise -it is a commonplace finding in almost every non-parametric and parametric analysis of income distribution.\n\ns_04593: We now proceed to report the estimates of the \u2026scal multipliers for both OECD and developing countries using the four empirical speci\u2026cations just outlined.\n\ns_04643: Using the predicted probabilities () and sample weights ( ), we can find the predicted overall coverage rate ( \u0305 ) and D-index ( \ufffd ) as:\n\ns_04693: Data on human capital stock come from Barro and Lee (2010) .\n\ns_04743: The highly significant and negative coefficient on 'female' in cols.\n\ns_04793: The data on labor share come also from the calculations of Tinakorn and Sussangkarn (1998) .\n\ns_04843: This estimation model has been found to be a better fit for the GEM data set than country effects as the data set is highly imbalanced with countries appearing once or twice.\n\ns_04893: The paper analyzes how these characteristics affect firms' location decisions.\n\ns_04943: We use the same macro model that links growth and demand for infrastructure services that was developed in Fay (2000.)\n\ns_04993: In our regressions, we use the measures developed byBayoumi et al.\n\ns_05043: Section 2 describes the data and provides some prima-facie descriptive evidence.\n\ns_05093: 19 When data on parents' education was not available (parents were not identified clearly in all of the surveys), the highest education level of the adult females in the household was used for mother's education, and the highest education level of adult males in the household was used for father's education.\n\ns_05143: The following table compares the findings of section 3.1 when alternative values of labor share of income are used for quantitative analysis.\n\ns_05193: 6, 7 Respondents could enroll in the insurance plan at the INSS or at local micro- 5 Respondents were selected with the following two methodologies: in the first phase of the survey, prior to the baseline survey a census of market booths was conducted to define the sampling frame of possible respondents."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Qn34VdqEj6ksczTtwrh0Zv6xTy",
+    "object": "chat.completion",
+    "created": 1682884529,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1177,
+      "completion_tokens": 95,
+      "total_tokens": 1272
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04693\", \"data_mentioned\": true, \"reason\": \"Barro and Lee (2010)\"}, {\"sent_id\": \"s_04793\", \"data_mentioned\": true, \"reason\": \"Tinakorn and Sussangkarn (1998)\"}, {\"sent_id\": \"s_04993\", \"data_mentioned\": true, \"reason\": \"Bayoumi et al.\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04693\", \"data_mentioned\": true, \"reason\": \"Barro and Lee (2010)\"}, {\"sent_id\": \"s_04793\", \"data_mentioned\": true, \"reason\": \"Tinakorn and Sussangkarn (1998)\"}, {\"sent_id\": \"s_04993\", \"data_mentioned\": true, \"reason\": \"Bayoumi et al.\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

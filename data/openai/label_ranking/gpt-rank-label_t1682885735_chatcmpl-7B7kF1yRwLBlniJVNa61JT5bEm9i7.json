@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07572: For SSA, as a whole, including oil exporters, the total volume of exports declined on average, by about 0.7 percent a year in the 1980s.\n\ns_07622: Despite the inflexibility of official prices, the data in Table 6 , showing that avemge coal prices paid by thermal power plants nearly S. ..ece commenu am based on a workshea DEFLATE2.wkl.\n\ns_07672: For a yield of 8.5%, the upfront cost to him would be lower than in the previous example, because of the greater number of compounding periods.\n\ns_07722: Beenhakker and Bruzelius (1985) .\n\ns_07772: However, because of the lack of data, this method of According to Islam and Wetzel: treating the deficit may understate its true value.\n\ns_07822: Before considering comparative returns in different types of enterprises, it is useful to determine the extent to which the mean values are informative.\n\ns_07872: 902-TA), allowing the preparation work to continue.\n\ns_07922: This argument can be elaborated upon by considering the following case which assumes that the post-tax holiday regime is the same that applying to all taxpaying firms.1 3\n\ns_07972: Using this bidding game procedure, it was possible to classify each household into one of the following seven groups based on how much the respondent indicated the household was willing to pay per drum:\n\ns_08022: The coverage is extensive, but low enough to minimize moral hazard problems with participating banks.\n\ns_08072: In this scenario it is interesting to compare the current budget share spent on electricity and the welfare losses expressed as percentage of total household expenditures.\n\ns_08122: Such phenomenon has been amply documented in both developing and industrial countries.\n\ns_08172: The only country for which he had good data was the United States after 1913, on which he was the data pioneer himself.\n\ns_08222: Instead, the findings highlight the importance of college readiness.\n\ns_08299: 22 NLTS2 data is used to examine post high school outcomes for students with disabilities.\n\ns_08349: This graphical check was run for the 37 OECD countries.\n\ns_08399: The combined MR estimate showed a statistically significant protective effect of increased serum iron in PD, suggesting that over the course of a life time alteration in tissue iron homeostasis reflected by a decrease in serum iron levels is on the causal pathway in the pathogenesis of PD.\n\ns_08449: We start by segmenting each 3-D image (a FDG-PET scan from a subject), followed by a construction of a probability matrix indicating the degree of belonging of each voxel to a region found by the clustering/segmentation algorithm.\n\ns_08499: Choosing such samples as familial early onset AD or people who are homozygous APOE 34 carriers as the intent-to-treat population also raises another issue, which is whether the expected action of the drug is influenced by the genetic makeup of the individuals.\n\ns_08549: (2007) provide a summary of the backprojection methodology and of how migration and mortality differentials were dealt in the previous round of back-projection.\n\ns_08599: Weights for classifying HC vs AD are shown in (a-d) for SVM 10 , SVM 25 , SVM and EN50 respectively.\n\ns_08649: The Drug Addiction Treatment Act of 2000 (DATA2000) allowed Schedule III-V medications approved by the US Food and Drug Administration (FDA), such as buprenorphine opioid agonists available as buprenorphine or buprenorphine/naloxone formulations (hereafter referred to as \"buprenorphine\") to be prescribed for the treatment of opioid dependence, a move that was welcomed as an opportunity to increase access to opioid agonist therapy.\n\ns_08699: The international desired (i.e.\n\ns_08749: If the SD of the cross-PCD currents is large compared to the SD of the along-PCD currents (ie, R greater than 0.25), a similar comparison must be made for them.\n\ns_08799: Those who reported a time in the year when they needed to see a doctor but could not because of cost (55.0%), were more likely to be willing to participate in health research."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7kF1yRwLBlniJVNa61JT5bEm9i7",
+    "object": "chat.completion",
+    "created": 1682885735,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1175,
+      "completion_tokens": 64,
+      "total_tokens": 1239
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08449\", \"data_mentioned\": true, \"reason\": \"FDG-PET scan\"}, {\"sent_id\": \"s_08649\", \"data_mentioned\": true, \"reason\": \"Drug Addiction Treatment Act of 2000 (DATA2000)\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08449\", \"data_mentioned\": true, \"reason\": \"FDG-PET scan\"}, {\"sent_id\": \"s_08649\", \"data_mentioned\": true, \"reason\": \"Drug Addiction Treatment Act of 2000 (DATA2000)\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

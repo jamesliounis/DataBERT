@@ -1,0 +1,2884 @@
+{
+  "paper_id": "D18474677",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:04.366472Z"
+  },
+  "title": "Can Free Provision Reduce Demand for Public Services? Evidence from Kenyan Education",
+  "authors": [
+    {
+      "first": "Tessa",
+      "middle": [],
+      "last": "Bold",
+      "suffix": "",
+      "affiliation": {},
+      "email": "bold@econ.uni-frankfurt.de"
+    },
+    {
+      "first": "Mwangi",
+      "middle": [],
+      "last": "Kimenyi",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Germano",
+      "middle": [],
+      "last": "Mwabu",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Justin",
+      "middle": [],
+      "last": "Sandefur",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2013-10-26",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D18474677",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "There is a general consensus that even modest user fees constitute a significant deterrent to utilization of health and education services by poor households (Michael Kremer & Alaka Holla 2009 ). Yet numerous studies, particularly in the health literature, have posited a trade-off between free provision and reduced quality of public services (Chris D James, Kara Hanson, Barbara McPake, Dina Balabanova, Davidson Gwatkin, Ian Hopwood, Christina Kirunga, Rudolph Knippenberg, Bruno Meessen, Saul S Morris et al. 2006 , Bruno Meessen, Lucy Gilson & Abdelmajid Tibouti 2011 , Samia Laokri, Olivier Weil, K Maxime Drabo, S Mathurin Dembel\u00e9, Beno\u00eet Kafando & Bruno Dujardin 2013 , Mylene Lagarde & Natasha Palmer 2008 . We examine free primary education in Kenya as an apparent case of this trade-off (James Tooley 2009 , Moses Oketch & Anthony Somerset 2010 , explore the mechanisms behind it, and discuss their relevance for policymakers.",
+        "cite_spans": [
+          {
+            "start": 158,
+            "end": 192,
+            "text": "(Michael Kremer & Alaka Holla 2009",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 351,
+            "end": 517,
+            "text": "D James, Kara Hanson, Barbara McPake, Dina Balabanova, Davidson Gwatkin, Ian Hopwood, Christina Kirunga, Rudolph Knippenberg, Bruno Meessen, Saul S Morris et al. 2006",
+            "ref_id": null
+          },
+          {
+            "start": 518,
+            "end": 572,
+            "text": ", Bruno Meessen, Lucy Gilson & Abdelmajid Tibouti 2011",
+            "ref_id": "BIBREF27"
+          },
+          {
+            "start": 573,
+            "end": 675,
+            "text": ", Samia Laokri, Olivier Weil, K Maxime Drabo, S Mathurin Dembel\u00e9, Beno\u00eet Kafando & Bruno Dujardin 2013",
+            "ref_id": null
+          },
+          {
+            "start": 676,
+            "end": 714,
+            "text": ", Mylene Lagarde & Natasha Palmer 2008",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 798,
+            "end": 816,
+            "text": "(James Tooley 2009",
+            "ref_id": null
+          },
+          {
+            "start": 817,
+            "end": 855,
+            "text": ", Moses Oketch & Anthony Somerset 2010",
+            "ref_id": "BIBREF34"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In January 2003, the Kenyan government announced the abolition of all school fees in public primary schools. Under the Free Primary Education (FPE) policy, government primary schools previously responsible for raising funds locally to pay for classroom maintenance, desks, books and other non-salary expenditures, are prohibited from collecting revenue. Instead, each school now receives a central government grant twice per year to cover these non-salary costs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We show that the removal of user fees in Kenyan government primary schools in 2003 led to no increase in net enrollment in public schools, and a sharp increase in demand for private schools. We document this shift by comparing enrollment patterns across several dimensions: in public primary schools before and after the reform, across primary schools where fees were abolished versus secondary schools where fees remain, and between public versus private primary schools -analogous to a triple-differences estimator. Net enrollment in government primary schools remained unchanged over the ten-year period from 1997 to 2006, despite the abolition of fees, and fell significantly for wealthier groups. 1 Meanwhile, both net enrollment and fee rates in private 1 The net enrollment rate (NER) measures the proportion of children of the appropriate age group who are currently in school. For primary net enrollment this consists of all children ages 6 to 13, and for secondary net enrollment ages 14 to 19. Gross enrollment rates (GER) discussed later in the text measure the ratio of total enrollment, including pupils outside these age brackets, to the number of school-age children. The GER may exceed onehundred percent due to late enrollment, and thus increases in the GER should not necessarily be viewed as a schools more than doubled.",
+        "cite_spans": [
+          {
+            "start": 760,
+            "end": 761,
+            "text": "1",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We interpret the adverse demand response to a price decrease as prima facie evidence that the removal of fees contributed to a decline in the (perceived) quality of public schools, posing a possible trade-off between access and quality in public services. There are at least three potential mechanisms that may explain this shift in perceived quality: (i) changes in overall financial resources due to lost fee revenue; (ii) an influx of new students and concomitant deterioration in the composition of peers, possibly operating through a change in the signalling value of public schooling; and (iii) a change in underlying school productivity or value added, possibly due to a change in the accountability framework under free service provision.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In Section III we explore the first channel: changes to per pupil funding in publics schools in the wake of fee removal. We show that for poorer socio-economic groups, lost fee revenue was more than offset by new central-government grants. But the richest households likely experienced a net decline in funding per pupil in public schools, due to both the higher level of fees they paid ex ante, and to the influx of marginal students raising pupil teacher ratios.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Our empirical model in Section IV focuses on the response of enrollment to the second channel, testing whether pupils who exited public school did so in response to new entrants. To overcome the observational equivalence of local spillover and unobserved school quality effects (cf. G Ellison & E Glaeser 1997) , we follow Patrick Bayer & Christopher Timmins (2007) in using exogenous characteristics of schooling options not chosen -in our application the past test scores of nearby private schools for children enrolled in government school and vice versa -as an instrument. Under the assumption of 'no quality spillovers' between schools, these attributes will drive enrollment choices but be uncorrelated with unobserved school quality.",
+        "cite_spans": [
+          {
+            "start": 283,
+            "end": 310,
+            "text": "G Ellison & E Glaeser 1997)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 331,
+            "end": 365,
+            "text": "Bayer & Christopher Timmins (2007)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The results of this enrollment choice model suggest that the role of social interactions -i.e., the exit of affluent pupils in response to marginal entrants -was sufficiently large to explain the entire shift in demand under FPE in favor of private schools. While we present no direct measures of school value-added, it is noteworthy that our empirical model is able to explain the positive development. Increases in the NER are more unambiguously positive. In addition, focusing on net rather than gross enrollment is appropriate when attempting to measure demand for schooling among a comparable age-group of children across time periods.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "shifts in enrollment without recourse to the hypothesis of declining school value-added. Thus while abolishing fees had some unintended consequences, the trade-offs between access and quality may not be as stark as often posited, as they appear to relate to socio-economic sorting into private schools rather than any detectable loss of parental accountability in public schools.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In contrast to most previous work on large-scale reforms to user fees in education, we highlight the important role of private sector schools in mediating the impact of reform. Earlier studies mainly find a positive effect on school enrollment as a whole, but potentially obscure important differences in the role of public and private schools in these reforms. In Uganda, for instance, Klaus Deininger (2003) shows that the introduction of free schooling was associated with a large increase in enrollment, while Mikiko Nishimura, Takashi Yamano & Yuichi Sasoka (2008) find an increase in grade attainment and a reduction in delayed school entry. In Cambodia, Maria Cheung, Andreas Madestam & Jakob Svensson (2011) exploit variation in the abolition of fees across regions in a difference-in-differences framework. They find positive average effects of fee abolition on enrollment but substantial heterogeneity, with impacts concentrated among higher ability and wealthier students. In both cases, the survey data presented do not distinguish between enrollment in public and private schools, so it is impossible to know from these studies whether demand for public schools rose or fell as a result of fee removal or to test for potential trade-offs between access and quality.",
+        "cite_spans": [
+          {
+            "start": 387,
+            "end": 409,
+            "text": "Klaus Deininger (2003)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 514,
+            "end": 569,
+            "text": "Mikiko Nishimura, Takashi Yamano & Yuichi Sasoka (2008)",
+            "ref_id": "BIBREF32"
+          },
+          {
+            "start": 667,
+            "end": 715,
+            "text": "Cheung, Andreas Madestam & Jakob Svensson (2011)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The national trends we document in Kenya stand in tension with a growing body of experimental evidence showing that even modest user fees constitute a significant deterrent to utilization of health and education services in developing countries (Kremer & Holla 2009) . Evaluations of more targeted social programs which reduce the direct or indirect cost of schooling for some portion of pupils generally find strong evidence of downward-sloping demand curves for schooling. Felipe Barrera-Osorio, Leigh L. Linden & Miguel Urquiola (2007) examine a targeted, means-tested waiver for school fees in Bogota, Colombia, finding an increase in enrollment of 3%. Similarly, Evan Borkum (2012) analyzes a reduction in secondary school fees in South Africa targeted at poor households, finding a statistically significant 2% increase in enrollment. Deon Filmer & Norbert Schady (2011) examine experimental evidence from a conditional cash transfer program in Cambodia. They replicate findings from, e.g., T. Paul Schultz (2004) who finds significant positive effects of Mexico's PROGRESA cash transfer program on enrollment, but demonstrate that these effects are subject to strongly diminishing returns as the size of the transfer is increased. These findings are consistent with our results for poorer households. However, by targeting a sub-set of poorer households, these programs may implicitly restrict their focus to partial equilibrium effects, whereas we attempt below to examine the potentially off-setting general equilibrium effects of fee abolition. (Note that all three of the mechanisms linking free schooling to education quality outlined above are consistent with downward-sloping demand curves in controlled experiments, but could produce different outcomes when prices fall for all children simultaneously.)",
+        "cite_spans": [
+          {
+            "start": 245,
+            "end": 266,
+            "text": "(Kremer & Holla 2009)",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 482,
+            "end": 538,
+            "text": "Barrera-Osorio, Leigh L. Linden & Miguel Urquiola (2007)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 841,
+            "end": 876,
+            "text": "Deon Filmer & Norbert Schady (2011)",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 1005,
+            "end": 1019,
+            "text": "Schultz (2004)",
+            "ref_id": "BIBREF39"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In the Kenyan context, Milu Charles Muyanga, John Olwande, Esther Mueni & Stella Wambugu (2010) apply propensity score matching methods to a panel data set of rural households to estimate a 7% increase in net enrollment spread across public and private primary schools with the largest response coming from higher income groups. Adrienne M Lucas & Isaac M Mbiti (2012) examine the impact of FPE on primary school retention rates -but not the influx of new students -and exam performance by comparing districts based on their pre-FPE enrollment rates. They find a significant effect of FPE on completion in public primary schools, but not in private schools, and a small negative effect on test scores, which is mainly explained by changes in student composition. Tessa Bold, Mwangi Kimenyi, Germano Mwabu & Justin Sandefur (2011) find a large, putatively causal test-score gap between Kenyan public and private schools which widened slightly after FPE.",
+        "cite_spans": [
+          {
+            "start": 338,
+            "end": 368,
+            "text": "M Lucas & Isaac M Mbiti (2012)",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 763,
+            "end": 829,
+            "text": "Tessa Bold, Mwangi Kimenyi, Germano Mwabu & Justin Sandefur (2011)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Our paper is also related to the literature estimating spillover effects in enrollment decisions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Both Gustavo J Bobonis & Frederico Finan (2009) and Rafael Lalive & M Alejandra Cattaneo (2009) use random placement of the PROGRESA program to identify large and positive spillover effects in enrollment. Piero Cipollone & Alfonso Rosolia (2007) use exogenous variation in men's enrollment in the wake of an earthquake in Southern Italy to estimate positive spillovers on women's enrollment. In contrast, Sarah J Reber (2011) finds that school desegregation in the Southern United States led to negative spillover effects in the form of affluent flight. Again, we would argue that these different findings can be reconciled by viewing them as partial vs. general equilibrium effects.",
+        "cite_spans": [
+          {
+            "start": 15,
+            "end": 47,
+            "text": "Bobonis & Frederico Finan (2009)",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 52,
+            "end": 95,
+            "text": "Rafael Lalive & M Alejandra Cattaneo (2009)",
+            "ref_id": "BIBREF23"
+          },
+          {
+            "start": 211,
+            "end": 245,
+            "text": "Cipollone & Alfonso Rosolia (2007)",
+            "ref_id": "BIBREF11"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The rest of the paper is organized as follows. Section I explains the combination of survey and administrative data we use in the analysis. Section II estimates the changes in quantity (enrollment) and fees (prices) associated with Free Primary Education, presenting evidence of a shift in demand in favor of private primary education in response to fee abolition. The remainder of the paper seeks to explain this shift. Section III measures changes in funding per pupil in public schools under FPE, focusing on the heterogeneous effects of the policy, which disproportionately benefitted poorer households. Section IV estimates the effect that increased public school enrollment by poorer students had on 'exit' to the private sector by more affluent households. Section V concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Prior to the introduction of FPE, all non-salary expenditure for schools was obtained via two avenues: fees levied on students and local fund-raising events known as harambee, which aimed to raise financial and in-kind contributions from local communities. There was large variation of fees across Kenyan primary schools -though fees were uniform for students within a schoolwith one study reporting levies ranging from KSh 500 ($7) to KSh 10,000 ($138) per parent per year (World Bank 2009). While participation in harambees was in principle voluntary, in practice school boards often levied harambee fees and children whose parents had not made any harambee contributions were suspended from school (Mary Kay Gugerty & Edward Miguel 2005) .",
+        "cite_spans": [
+          {
+            "start": 711,
+            "end": 740,
+            "text": "Gugerty & Edward Miguel 2005)",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy background",
+        "sec_num": null
+      },
+      {
+        "text": "The FPE policy came into force in January 2003. Under the FPE policy, government primary schools previously responsible for raising funds locally to pay for classroom maintenance, desks, books and other non-salary expenditures, were prohibited from collecting revenue. Instead, each school now receives a central government grant twice per year to cover these non-salary costs. The grant is calculated as a capitation grant of KSh 1020 ($14) per pupil.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy background",
+        "sec_num": null
+      },
+      {
+        "text": "In contrast to the changes that occurred in the financing of non-salary education expenditure, the system of teacher employment and local school governance has remained the same. All teachers are centrally recruited, hired and fired, assigned and reassigned and paid by the Teacher Service Commission, a subsidiary of the Ministry of Education located in Nairobi. At the local level, school management committees, consisting of parents, the head teacher, and district education board officials, have official governing authority for each school.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy background",
+        "sec_num": null
+      },
+      {
+        "text": "Lastly, an important point of context is that, on average, private primary schools in Kenya dramatically outperform public primary schools on national standardized tests. Bold et al. (2011) show that for the period 1998 to 2005, this performance gap was equivalent to roughly 1.5 standard deviations of the pupil level distribution of scores on the Kenya Certificate of Primary Education exam, administered to pupils in grade eight. This gap has widened slightly in the wake of FPE.",
+        "cite_spans": [
+          {
+            "start": 171,
+            "end": 189,
+            "text": "Bold et al. (2011)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy background",
+        "sec_num": null
+      },
+      {
+        "text": "While the distribution of scores has higher variance in the private sector, the private distribution exhibits first-order stochastic dominance vis-a-vis public schools, suggesting that they perform better across the board and that differences are not driven solely by elite and expensive academies in Nairobi.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Policy background",
+        "sec_num": null
+      },
+      {
+        "text": "We draw on two types of data: household survey data, which underlies the core of our analysis, and school-level administrative data. Both data sets are nationally representative and span the period before and after the enactment of FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": null
+      },
+      {
+        "text": "The analysis of education expenditure and enrollment is based on two consecutive, nationallyrepresentative, cross-sectional, household surveys conducted by the Kenya National Bureau of ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Household survey data",
+        "sec_num": null
+      },
+      {
+        "text": "In this section, we document the effect of FPE on school enrollment and prices (e.g. school fees). Because the FPE reform was instituted simultaneously nationwide, we base our inferences about the effect of FPE on a comparison of the trajectories of enrollment and prices across two dimensions: public versus private primary schools, and primary versus secondary schools.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II Enrollment and price changes since FPE",
+        "sec_num": null
+      },
+      {
+        "text": "The public versus private school comparison allows us to distinguish the effects of an exogenous policy change on the supply side (fee abolition) from trends in the demand for education which would arguably push enrollment in public and private schooling in the same direction.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II Enrollment and price changes since FPE",
+        "sec_num": null
+      },
+      {
+        "text": "The comparison of trends in primary enrollment to secondary enrollment provides a second, completely independent control group that allows us to address concerns about causal inference that may not be answered using data on public and private primary schools alone. For instance, one could argue that the increased demand for (higher quality) private schooling in the wake of FPE was the result of rising incomes and a general increase in demand for quality education. If so, one would expect to observe similar patterns at both the primary and secondary level. Alternatively, one could argue that the emergence of private schooling under FPE was a consequence of the end of the Moi regime and the advent of competitive multi-party democracy which contributed (by hypothesis) to a more permissive environment for private schools to compete with state schools.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II Enrollment and price changes since FPE",
+        "sec_num": null
+      },
+      {
+        "text": "Once again, one would expect this new perestroika to have had similar effects at both the primary and secondary level.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II Enrollment and price changes since FPE",
+        "sec_num": null
+      },
+      {
+        "text": "Did the abolition of fees lead to an increase in primary public enrollment? Table 2 shows net enrollment rates for public and private primary schools before and after FPE. Contrary to expectations, FPE was not associated with an increase in enrollment in public primary schools. In fact, net enrollment in public primary schools was essentially unchanged over the ten-year period spanning the onset of FPE. Instead, it was the private sector that saw a large influx of students -nearly tripling in size between 1997 and 2006. While net enrollment in public primary schools remained stable at roughly 70%, enrollment in private schools jumped from 3.8% to 8.9%.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 76,
+            "end": 83,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "For comparison, we also report changes in the net enrollment rate in the secondary sector on the right hand panel of Table 2 . Since fees were maintained in the secondary sector throughout the period, this serves as a control group of sorts. In contrast to the primary sector, net enrollment in both the public and private system increased. The fact that the majority of the increase in secondary private enrollment is explained by the general trend in secondary enrollment, gives us some confidence that it was FPE, and not other factors, which introduced a unique wedge between public and private enrollment in the primary sector. We now model these enrollment patterns more formally by analyzing the choice between public, private and no enrollment in a multinomial discrete choice framework and test whether FPE induced a break in trend between the primary and secondary school system. We build on this framework in the following sections to explore the determinants of the changes observed here.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 117,
+            "end": 124,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "We begin by laying out a simple model of enrollment. Households indexed by i maximize utility by choosing between three schooling options j = {N, G, P }, i.e. not enrolling (N ), attending a government school, (G), or attending a private school (P ) pre-and post-FPE t = 0, 1. Utility is an increasing function of the education acquired, adjusted for quality, subject to the constraint that the cost of education is less than disposable income. Households choose the schooling option and 'gross' enrollment rates respectively. Observation counts refer to the number of children in the denominator. All calculations use survey weights to produce nationally representative statistics. Standard errors, clustered at the survey enumeration area, are listed in parentheses. GER standard errors are bootstrapped based on 50 repetitions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "Figure 1: Predicted enrollment by household head's education, before and after FPE, based on the multinomial logit in Table 3 , column 2. Shaded areas show 95% confidence intervals based on bootstrapped standard errors. For the empirical analysis, we write this as a random additive utility model. Utility depends on: (1) the cost and quality of schooling option j, measured by a set of fixed effects \u03b4 m j,t , which proxy the value of schooling sector j in district m before and after FPE and (2) a set of individual socio-economic characteristics Z i , in particular log food consumption and the years of education of the household head, which reflect household's preferences for education option j as well as their ability to afford it pre-and post FPE.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 118,
+            "end": 125,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "U m ij,t = \u03b4 m j,t + Z m i,t \u03b2 1,j + \u03b5 m ij,t",
+            "eq_num": "(1)"
+          }
+        ],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "Since 1 The results from the estimation are given in Table 3 . Columns (1)-(3) present the results for primary enrollment choices. The reported effects are equivalent to average marginal effectswhere the average is taken across all observations in the sample -in a standard multinomial logit estimation. 3 The base category is 'not enrolled'. Column (1) presents the unconditional effect of fee abolition on public and private primary enrollment and mirrors the results in Table 2 .Net enrollment in public primary school did not change following the abolition of fees in 2003. In contrast, the probability of enrolling in private school increased significantly by 7%.",
+        "cite_spans": [
+          {
+            "start": 304,
+            "end": 305,
+            "text": "3",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 53,
+            "end": 60,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          },
+          {
+            "start": 473,
+            "end": 480,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "While overall net enrollment did not increase, FPE did have a positive effect on public school participation for children from lower socio-economic strata as shown in column (2) and (3). In column (2) the only socio-economic indicator is parental education, in column (3) we include both parental education and log food expenditure as controls. 4 The three choice options are \"not enrolled\", \"government\" and \"private\". \"Not enrolled\" is the base-category. District-sector-time dummies are included but not shown. The marginal effects of the interaction terms from this discrete choice model are calculated using the procedures discussed in Edward Norton (2004) . All standard errors are bootstrapped and account for district level clustering.",
+        "cite_spans": [
+          {
+            "start": 648,
+            "end": 661,
+            "text": "Norton (2004)",
+            "ref_id": "BIBREF33"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "For the pre-FPE period, there is a positive, and significant association between the household head's education and the child's probability of enrollment in government primary school: every additional year of education increased the probability of public school enrollment by 0.7% in column (2) and (3). The coefficient for log-food expenditure is similar, but not significant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "As anticipated, FPE was a progressive policy in the sense that the relationship between socioeconomic indicators and enrollment was reversed in its wake. Following FPE, the probability of enrolling in public school increases on average by 0.8% for each year less of education of the household head. The coefficients on log food expenditure point in the same direction. As can be seen from Figure 1 , which plots the predicted probability of enrolling in the two sectors before and after FPE based on the multinomial logit in columnn (2), these average effects imply big and significant changes following FPE at both the top and the bottom of the socio-economic distribution. The average increase in public primary enrollment across those with some primary education is predicted to be 5%, while the average fall for those with secondary education and above is predicted to be 8%.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 389,
+            "end": 397,
+            "text": "Figure 1",
+            "ref_id": "FIGREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "In the private sector, there was already a significant relationship between a household's socioeconomic standing and enrollment prior to FPE and this became even stronger over time. Again, The overall conclusion about the effects of FPE are not changed by the inclusion of socioeconomic variables. Both in column (2) and (3) public primary enrollment is unaffected by the abolition of fees while private primary enrollment increases by roughly 5.5%. The difference in net enrollment changes in public and private primary schools is significant across all three specifications (see the last row of Table 3 where we test the null hypothesis that enrollment changes in public schools equal enrollment changes in private schools).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 597,
+            "end": 604,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "For comparison purposes, we repeat the analysis for secondary schools. If the changes in net enrollment and student composition in the primary sector are in fact due to FPE, then we should not see any similar effects in secondary school. This is indeed the case, as can be seen from column (4)-(6) of Table 3 . Overall, there was an increase in secondary enrollment during the period of variable may be determined simultaneously with enrollment decisions. As can be seen from Table 3, the results are robust to inclusion of log food expenditure and the qualitative conclusions remain the same. roughly 3%, which was equally distributed across public and private schools. Net enrollment increases in private primary schools were significantly larger than in private secondary schools, while -at least for the unconditional effect of FPE -the opposite is true in public schools.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 301,
+            "end": 308,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          },
+          {
+            "start": 476,
+            "end": 496,
+            "text": "Table 3, the results",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "Furthermore, changes in socio-economic sorting in primary schools were not reflected in secondary schools. The increase in access to public primary schooling among lower socio-economic groups after FPE was not mirrored at the secondary level, and the increased sorting of wealthier households into private primary school was also not reflected in the secondary sector. This can be seen by comparing column (2) to (5) and (3) to (6), respectively. This failure to find the same systematic pattern of enrollment shifts -an increase in private relative to public enrollment and a move of poorer households into government schools and richer households into private schools -provides additional confidence that the effects we observe in the primary sector are indeed due to the abolition of school fees in public primary schools rather than an artefact of secular trends independent of the FPE policy. While secondary schools do not make for a perfect control group -given selective admission and capacity constraints -we would nevertheless argue that this comparison contributes some additional evidence to support the conclusions drawn with regards to primary schools.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "In sum, the results from estimating the multinomial choice model confirm the descriptive statistics: The main effect of FPE was to increase enrollment in private primary schools. Despite the overall stagnation in public enrollment, FPE had a positive effect on equalizing access to government schools as evinced by a negative association between socio-economic background and public enrollment. However, the education system became more stratified following the abolition of fees, as better off households exited to the private sector, which increasingly became a preserve of the affluent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Enrollment patterns",
+        "sec_num": null
+      },
+      {
+        "text": "Next, we examine the price effect of the introduction of FPE. In other words, did FPE successfully reduce the cost of schooling for children enrolled in public primary school, and how did fees in private schools respond? To examine this question, we simply look at household expendi-ture on education before and after FPE, distinguishing between fees and other expenditure, and contrasting the public and private system. We estimate these costs as follows",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "Exp l it = \u03b3 l 0 Pupils l it + \u03b3 l 1 (Pupils l it \u00d7 FPE) + u it (2)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "where Exp l it measures expenditure by household i in period t on education level l (where l takes the values p for primary or s for secondary). FPE is an indicator variable equal to one in 2006.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "Pupils l it measures the number of household members enrolled in primary or secondary education, respectively. Note that equation 2 Columns (1) through (4) of Table 4 show the real, annual, per pupil price of private and public primary schooling both before and after FPE. 5 The main result to take away from Table 4 is that the per-pupil price of public primary schooling has roughly halved since the introduction of FPE (column 1) and fees have nearly fallen to zero (column 2), while the price of private primary schooling per pupil has more than doubled in the same time span (columns 1 and 2). All these effects are significant at the 1% level. Therefore the introduction of FPE has had the expected price effect.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 159,
+            "end": 166,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          },
+          {
+            "start": 309,
+            "end": 316,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "Private schools are heterogeneous in terms of quality and price. Note that the reduction in fees per pupil observed in columns (1) and (2) may reflect a price change at a given school, or a shift in demand from low-cost to higher-cost schools. On the latter point, we have already seen in Table 3 that wealthier households were more likely to choose private schools after FPE. If ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 289,
+            "end": 296,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "(3) For comparison purposes, columns (5) -(7) report the results from the same analysis applied to expenditure on secondary education. The core weakness in any causal interpretation of the estimates in columns (1) -(3) taken in isolation is that the shift in enrollment toward private primary schools may reflect a simple secular trend of increasing demand for high-quality schooling.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "Since secondary education was funded by parental fees during the entire period, this can be regarded as a placebo experiment.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "As can be seen from column (5) -(8), the apparent price increase for private primary schooling under FPE has no parallel in the secondary system. Total expenditure on both public and private secondary schooling declined (by 18% of total expenditure and 47% of fees in the public sector, and by 2% of total expenditure and 24% of fees in private secondary schools). This is consistent with a gradual erosion in the real price of public secondary schools, and the lack of demand pressure in the private sector of the same magnitude as seen in private primary schools. The penultimate row of Table 4 presents the p-value from a test of the null hypothesis that the percentage increase in expenditure per pupil on private primary schools is no greater than the percentage increase in expenditure on private secondary schools:",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 589,
+            "end": 596,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "H 0 : \u03b3 p private,F P E /\u03b3 p private \u2212 \u03b3 s private,F P E /\u03b3 s private = 0",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "Comparing columns (1) to (5), (2) to (6), (3) to (7), and (4) to (8), the results consistently reject the null. This suggests it is not the case that we are merely observing an overall increase in demand and thus price for private schooling. Rather, this increase is restricted to the primary sector, which has been subject to FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "There are clear limitations to the strict comparability of secondary schools as a control group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "Notably, while government primary schools are (in principle) open enrollment, government secondary schools often have competitive admissions criteria. However, the possible bias this institutional difference introduces likely works against the interpretation of the results advanced here,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "i.e., that FPE reduced demand for government primary schools. If the results in columns (1) to (4) reflect a general increase in demand for education, one would expect a particularly rapid move to the private sector at the secondary level where the supply of government schooling is severely restricted. Columns (5) to 7show the opposite to be true.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Price changes",
+        "sec_num": null
+      },
+      {
+        "text": "The shifts in enrollment and fee levels documented above provide clues about changes in school quality under FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Inferring school quality from changes in quantity and price",
+        "sec_num": null
+      },
+      {
+        "text": "Consider the anticipated effects of free primary education on public and private primary school enrollment in a simple supply and demand model. Assume the following: households choose between government and private schools; government and private schools are homogenous; an individual child must be enrolled in either one system or the other; demand curves are downwardsloping and supply curves upward-sloping for both public and private education.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Inferring school quality from changes in quantity and price",
+        "sec_num": null
+      },
+      {
+        "text": "In this very simple framework, fee abolition yields a perfectly elastic supply curve for government schools at zero price. Enrollment in public school increases and private enrollment falls.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Inferring school quality from changes in quantity and price",
+        "sec_num": null
+      },
+      {
+        "text": "This decline in demand for private schooling would reduce the equilibrium price of private schools.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Inferring school quality from changes in quantity and price",
+        "sec_num": null
+      },
+      {
+        "text": "The actual shifts in enrollment and fees observed in the data are quite opposite to these predictions. In the public system, the quantity demanded remained unchanged in response to a price decrease -with some socio-economic groups even decreasing their demand, while in the private system both prices and quantities increased dramatically. This constellation of price and quantity shifts can be entirely explained by a sharp downward shift in the demand for public schooling and an increase in the demand for private schooling after FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Inferring school quality from changes in quantity and price",
+        "sec_num": null
+      },
+      {
+        "text": "We take this apparent shift in demand as prima facie evidence that the (perceived) quality of public primary education declined under FPE. To corroborate this evidence, in the following sections we explore possible mechanisms that might link FPE to reduced school quality.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Inferring school quality from changes in quantity and price",
+        "sec_num": null
+      },
+      {
+        "text": "The first potential mechanism linking FPE to school quality noted in the introduction was a change in physical, financial or human resources within schools. A reduction in per-pupil resources in public primary schools after FPE could produce a decline in perceived school quality and, in turn, explain the failure of net enrollment to respond to a price decrease. This section attempts a reckoning of the net changes in school resources under FPE, combining household data sources on parental contributions with official government data on capitation grants and pupil-teacher ratios.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III Funding",
+        "sec_num": null
+      },
+      {
+        "text": "The fundamental shift in school finance under the FPE reform was the replacement of school fees with a central government grant. Did these grants fully compensate for the lost fee revenue?",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Financial resources",
+        "sec_num": null
+      },
+      {
+        "text": "The answer is likely to differ by socio-economic group. In Section II we saw that wealthier households (as proxied by the education level of the household head) paid higher fees for public primary schools prior to FPE, and that this inequality was attenuated with the abolition of fees. Figure 2a shows this same result graphically. Fees, and hence school resources, fell by $2.5 per pupil for households whose head had no schooling, while fees fell by more than $25 per pupil for the small fraction of households whose head had some tertiary education.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 287,
+            "end": 296,
+            "text": "Figure 2a",
+            "ref_id": "FIGREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Financial resources",
+        "sec_num": null
+      },
+      {
+        "text": "Unlike the reduction in fees, the FPE grant intended to compensate for this lost fee revenue was uniform across all schools. In principle, the equivalent of approximately $14 USD per child per annum was deposited in local bank accounts for each school (Gene Sperling 2008) . The accounts were to be administered by \"school management committees\", chaired by the head teacher and in- If, in line with the most pessimistic media reports, schools received an average of $11.90 per pupil in FPE grants ($14 minus 15%), the net effect would have been an increase in per pupil financial resources for four of the five groups in Figure 2a . But for the fifth group, i.e., the richest households, the effect of FPE on per pupil funding in public schools was likely negative. This is true even when ignoring changes in class size, to which we now turn.",
+        "cite_spans": [
+          {
+            "start": 258,
+            "end": 272,
+            "text": "Sperling 2008)",
+            "ref_id": "BIBREF40"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 622,
+            "end": 631,
+            "text": "Figure 2a",
+            "ref_id": "FIGREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Financial resources",
+        "sec_num": null
+      },
+      {
+        "text": "In addition to the capitation grants, the key resource provided to public schools by the central government is teaching staff. In this section we examine what happened to pupil-teacher ratios",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "under FPE, what these changes mean in monetary terms, and how they were distributed across different socio-economic groups.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "We have access to administrative data on pupil-teacher ratios at the school level from the Assigning these heterogenous changes in class size to different socio-economic groups is much more difficult. It is impossible to link household survey data and school-level administrative data on pupil-teacher ratios at the school or even the district level. Instead, we explore two alternative (extreme) assumptions about the relationship between class-size and socio-economic status before the introduction of FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "The first assumption we explore is that there was perfect socio-economic sorting of households into schools prior to FPE, such that the richest households (proxied in our data by the education of the household head) attended the schools with the lowest pupil-teacher ratios. For example, increased class sizes, valued at $4.99. But these changes were likely more than compensated by an average government grant of $11.90, yielding a net gain of $6.51 per pupil. Given the inequality in initial fees and pupil-teacher ratios however, wealthier households stood to lose much more, and our calculations suggest all other socio-economic groups in our data experience net losses in per pupil funding under FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "However, the EMIS data on changes in pupil-teacher ratios underlying Scenario 1 are potentially problematic during this period Scenario 2 is identical to Scenario 1, but using the enrollment growth rates reported in the household survey data. Once again, poorer households experience funding increases under FPE while richer households experience losses, but the crossing point has shifted upward, with only households whose head has some secondary or tertiary education experiencing losses. Scenario 3 explores an alternative assumption: no socio-economic sorting before FPE, such that households from all groups enrolled in schools with equal pupil-teacher ratios on average. Under this scenario, FPE implies a reduction in per pupil funding only for the wealthiest households, whose head had some tertiary education. Figure 2c summarizes the net changes in funding per pupil under these three scenarios. A few general conclusions appear quite robust. The impact of FPE on funding levels in public schools was likely heterogeneous across socio-economic groups. These heterogeneous changes in funding were pro-poor. Furthermore, the net change for the wealthiest households was likely negative, as capitation grants failed to fully compensate the large reduction in fees paid by wealthier house-holds.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 820,
+            "end": 829,
+            "text": "Figure 2c",
+            "ref_id": "FIGREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "One qualification is in order. So far we have assumed that misappropriation of FPE funds was uniform across schools. However, public expenditure tracking surveys in neighboring Uganda showed that leakage of funds to schools was higher in poorer areas(Ritva Reinikka & Jakob Svensson 2005) . This would clearly undermine the apparently progressive direction of the funding shift under FPE. To take a very extreme assumption, if the 15% national leakage came entirely from the poorest localities, this would open the possibility that the absolute change in funding was negative for all socio-economic groups. In reality, because the alleged embezzlement occurred at the national level and wire transfers were made in bulk to all schools nationwide, there is reason to suspect that any skimming affected all schools uniformly, and the conclusions of the previous paragraph hold.",
+        "cite_spans": [
+          {
+            "start": 257,
+            "end": 288,
+            "text": "Reinikka & Jakob Svensson 2005)",
+            "ref_id": "BIBREF37"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "These patterns in funding changes may go some way toward explaining changes in public and private school enrollment across socio-economic groups after FPE. The changes are of the correct sign, and vary over the distribution of households (small increases at the bottom, big declines at the top) in a way that is consistent with observed enrollment changes. But unfortunately, given our data, we have no way of testing directly whether the magnitude of these effects is sufficient to explaining the full enrollment change. Thus it is important to also consider evidence for alternative explanations, to which we turn in the next section.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "Furthermore, it is impossible analyze funding changes in isolation of social interactions in enrollment decisions. The changes in funding we have documented are driven largely by changes in enrollment affecting pupil-teacher ratios. The net change in school funding experienced by one household is determined directly by their neighbors' choices between public and private schooling, and vice versa. Thus understanding the effect of class sizes and per-pupil funding on individual enrollment decisions requires modeling social interactions in individuals' simultaneous enrollment decisions. This rather technical challenge is the focus of the next section.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Human resources",
+        "sec_num": null
+      },
+      {
+        "text": "In this section, we examine the roles of class size and peer composition in the decision to enroll in a particular school sector.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV Social interactions in enrollment",
+        "sec_num": null
+      },
+      {
+        "text": "We test whether the shift out of public and into private enrollment is explained by socialinteraction effects in enrollment. To avoid confusion, note that we refer to social-interaction effects and occasionally to the effect of peers' decisions. However, we are interested in the interplay of enrollment decisions, not the causal effect of peers on a pupil's academic performance. If a large portion of the shift into private enrollment is explained by an adverse reaction to the influx of marginal pupils into public schools, we will interpret this as evidence that the divergence between partial and general equilibrium price elasticities is largely accounted for by compositional effects.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV Social interactions in enrollment",
+        "sec_num": null
+      },
+      {
+        "text": "On the other hand, failure to find statistically and economically significant social-interaction effects will leave the door open to alternative explanations, including a deterioration in public school value-added after the abolition of fees.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV Social interactions in enrollment",
+        "sec_num": null
+      },
+      {
+        "text": "In the rest of this section, we return to the multinomial discrete choice model of enrollment analyzed in Section II and show that the shifts in demand for public and private schooling can be explained almost entirely by changes in class size and the composition of students. In other words, the influx of marginal students documented in the previous section is what caused more affluent students to decrease their demand for public schooling. By accounting for shifts in the demand curve, our results explain how a constant aggregate enrollment rate in response to a price drop is consistent with downward-sloping individual demand curves.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV Social interactions in enrollment",
+        "sec_num": null
+      },
+      {
+        "text": "We now extend the model of enrollment choice outlined in Section II to include observable school quality and peer effects in enrollment decisions. As before, household i maximizes utility by choosing not enrolling (N ), attending a government school, (G), or attending a private school (P ) in schooling market m = 1, ...M pre-and post-FPE t = 0, 1. 10 Utility depends positively on the amount and quality of education acquired and negatively on the cost of education. One dimension of the quality of education is related to the enrollment decisions of peers. Higher enrollment by others affects both class size and the average quality of peers in a given school, which allows for (either positive or negative) enrollment spillovers in a given schooling market m.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "Households choose the schooling option that yields the highest utility.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "Household i's utility from enrolling in schooling option j in market m is then given by:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "U m ij,t = X m j,t \u03b2 0 + \u03b1\u03c3 m j,t + Z m i,t \u03b2 1,j + \u03be m j,t + \u03b5 m ij,t .",
+            "eq_num": "(3)"
+          }
+        ],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "where utility is modeled as a function of: (1) observable school quality, X m j,t ;",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "(2) the share of 'marginal' children enrolling in the same school type, \u03c3 m j,t ; and (3) a set of individual socio-economic characteristics Z m i,t , which again reflect household's preferences for education option j in market m as well as their ability to afford it. Before detailing the estimation procedure, we briefly outline how the relevant school-level characteristics are measured.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "A large literature examining school choice finds that test scores are a good summary of the dimensions parents care about when enrolling in a particular school (Sandra E Black 1999 , Mark Schneider & Jack Buckley 2002 , Alejandra Mizala & Miguel Urquiola 2013 . We therefore measure school quality, X m j,t , by exam performance in public and private schools in the district. Specifically, we use performance on the Kenya Primary Certificate of Education (KCPE), a nationwide exam taken at the end of 8 years of primary school. 11 Since the exam scores are based on test-takers in grade 8, they are pre-determined with respect to the enrollment decisions modeled here. In addition, the vector X m j,t also contains dummies for public and private school before and after FPE.",
+        "cite_spans": [
+          {
+            "start": 160,
+            "end": 180,
+            "text": "(Sandra E Black 1999",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 181,
+            "end": 217,
+            "text": ", Mark Schneider & Jack Buckley 2002",
+            "ref_id": "BIBREF38"
+          },
+          {
+            "start": 218,
+            "end": 259,
+            "text": ", Alejandra Mizala & Miguel Urquiola 2013",
+            "ref_id": "BIBREF28"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "The share of 'marginal' children enrolling in the same school type is proxied by the share of children from the 25% least educated households in each district and year. 12 To distinguish between attraction and congestion effects, we also experiment with a second enrollment measure, namely the share of 'desirable' children enrolling in the school. This is proxied by the share of children from the 25% most educated households in each district and year.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, to proxy household's educational preferences, we use the same socio-economic char- The effect of social interactions in enrollment decisions can be modeled in a two-step procedure (see Bayer & Timmins (2007) ",
+        "cite_spans": [
+          {
+            "start": 194,
+            "end": 216,
+            "text": "Bayer & Timmins (2007)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": ") U m ij,t = \u03b4 m j,t + Z m i,t \u03b2 1,j + \u03b5 m ij,t (4) \u03b4 m j,t = X m j,t \u03b2 0 + \u03b1\u03c3 m j,t + \u03be m j,t",
+            "eq_num": "(5)"
+          }
+        ],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "The first step of this procedure consists of estimating the probability that a household enrols in a particular school sector as a function of the individual specific regressors as well as a districtsector-time fixed effect. The results of this analysis are equivalent to the conditional logit model presented in Section II. In the second step, we estimate how this fixed value of enrolling in a particular sector that is common across all households, \u03b4 m j,t , is affected by changes in observable school-level attributes and the enrollment behaviour of others.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "Having estimated the sector-district-time fixed effects \u03b4 m j,t in the first step, the second-step (5) consists of a linear regression of the predicted value of enrolling in a school sector on its various determinants. The goal here is to separate the effect of (positive or negative) spillovers in enrollment \u03b1 from the unobserved residual demand for a particular school type \u03be m j,t .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Model",
+        "sec_num": null
+      },
+      {
+        "text": "In trying to identify the local spillover effect \u03b1 in 5 The characteristics of a valid instrument in this context are that it be correlated with the number of pupils who choose a given school, but not correlated with the unobserved fixed attributes of that school. Bayer & Timmins (2007) propose a novel strategy to identify social interaction effects by using variation in the underlying choice set of individual agents. This strategy is particularly suited for applications where agents endogenously sort into a fixed set of categories (i.e. government school, private school or not enrolling) in many distinct markets (i.e. a district).",
+        "cite_spans": [
+          {
+            "start": 265,
+            "end": 287,
+            "text": "Bayer & Timmins (2007)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "The strategy proposed by Bayer & Timmins (2007) relies on the \"internal logic of the choice process itself\". The observable fixed characteristics of the schooling options not chosen -e.g., the characteristics of nearby private schools for students in public school, and vice versa -will provide the content for an instrument under the assumption that there are no quality spillovers between schools. In that case the attributes of the schooling options that were not chosen in each To illustrate how the instrument works, consider the following example. Student i located in district A considers whether to enroll in public school, private school, or not at all. To estimate the causal effect of \u03c3 m j,t , one needs a variable that drives enrollment choices in school j, but is not correlated with the unobserved quality of that school. It is natural to think that the student compares the observed quality -measured by past test scores -of the public and the private school when deciding in which school to enroll. By implication, whichever school the student eventually chooses, the quality of the school not chosen will have had an effect on her enrollment decision.",
+        "cite_spans": [
+          {
+            "start": 25,
+            "end": 47,
+            "text": "Bayer & Timmins (2007)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "Once the enrollment decision is made, however, there is no reason to think that the quality of the private school in the district would affect the student's utility from going to public school and vice versa. Observable quality of the school type not chosen -as measured by exam scores -therefore satisfies the exclusion restriction for a valid instrument.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "In order for the observable quality of schooling options not chosen to be a valid instrument, it must not only be excludable, but also relevant. Under the assumption that students only consider schools in their home district when deciding where to enroll, variation in the relative quality of public and private schools across districts generates variation in our instrument. To be precise, consider now a district B, in which the observed quality of the public school is the same as in district A, but the observed quality of the private school, is much higher. All else equal, one would then expect the public school in district B to be less popular than the public school in district A.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "Put another way, public schools with identical observed quality will attract different numbers of students depending on the quality of the surrounding private schools in their district. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "= exp(Z m i,t \u03b2 1,j + X m j,t \u03b2 0 ) k=N,G,P exp(Z m i,t \u03b2 1,k + X m k,t \u03b2 0 ) dF (Z m i,t )",
+            "eq_num": "(6)"
+          }
+        ],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "Close inspection of equation 6reveals the manner by which effective choice set variation 'switches on' the instrument. If there was only one market (i.e. the whole of Kenya) in which individuals choose to enrol, then the denominator of (6) would be constant across all markets m. Hence, identification would rely exclusively on the non-linear transformation of X m k,t \u03b2 0 and is sensitive to misspecification. In contrast, if enrollment choices take place in many distinct markets, the denominator of (6) varies across m. Since we have data available on a large number of Kenyan districts in two time periods, identification in our case is driven by choice set variation -and not by specific functional assumptions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "As stated above, this instrumentation strategy will allow us to estimate the causal effect of others' enrollment decisions on my own enrollment under the assumption that there are no quality spillovers between schools. Technically, the assumption implies that the utility a student derives from going to public school, \u03b4 m j,t , does not depend on who is enrolled in private school and either the observed or unobserved quality of going to private school -and vice versa. In our view the assumption of 'no-spillovers' is a valid first-order approximation to the production of school value.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "The main mechanism that could violate it is if education acquisition was driven by a pure signaling motive. In this case, what matters for utility is not just the absolute quality of the public sector, but rather the difference between private and public sector.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "We cannot rule out that signaling may play some part in enrollment decisions, thus should be kept in mind as an alternative explanation of our results here. Signaling could serve as a mechanism linking FPE to enrollment shifts toward private schools if the entrance of marginal pupils to public schools creates a strong incentive for more affluent households to differentiate themselves -not in terms of skills acquired, but credentials -from these new public school pupils.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "Empirically however, there is little support for signaling effects in East Africa and elsewhere. 14, 15 Practically, the estimation proceeds as follows:",
+        "cite_spans": [
+          {
+            "start": 97,
+            "end": 100,
+            "text": "14,",
+            "ref_id": null
+          },
+          {
+            "start": 101,
+            "end": 103,
+            "text": "15",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "1. Estimate the multinomial choice model in (4) to obtain\u03b4 m j,t and\u03b2 1,j , the predicted coefficients on the district-sector-time fixed effects and the socioeconomic indicators (see Section II).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "2. Use\u03b2 1,j and an initial guess for\u03b2 0 0 , the coefficients on observable school-level characteristics, to construct the instrumented enrollment shares\u03c3 m j,t",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u03c3 m j,t = exp(Z m ij,t\u03b2 1,j + X m j,t\u03b2 0 0 ) k=N,G,P exp(Z m ik,t\u03b2 1,k + X m k,t\u03b2 0 0 ) dF (Z m ij,t )",
+            "eq_num": "(7)"
+          }
+        ],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "3. Estimate the second-stage (5) using the estimated\u03b4 m j,t , i.e. the fixed value of a particular school sector in district m at time t that is common to all households, on the left-hand side and the predicted enrollment shares\u03c3 m j,t on the right-hand side to obtain\u03b1 1 and\u03b2 1 0 .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u03b4 m j,t = X m j,t\u03b2 1 0 +\u03b1 1\u03c3m j,t + \u03be m j,t",
+            "eq_num": "(8)"
+          }
+        ],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "4. Iterate on step 2.-3. until convergence of\u03b2 0 .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "14 Arnaud Chevalier, Colm Harmon, Ian Walker & Yu Zhu (2004) test for signaling effects by exploiting changes in the minimum schooling law in the United Kingdom. If signaling is important then attainment of those who are already obtaining more schooling than the required minimum should be affected by the new legislation because they now need to acquire relatively more education to signal their higher ability. The authors find no such effect and as a consequence conclude that signaling is not important in educational attainment in the UK. Maurice Boissiere, John B Knight & Richard H Sabot (1985) find that there are large returns to cognitive achievementas measured by literacy and numeracy scores -and low returns to reasoning ability -measured by performance on Raven's matrices -in Kenyan and Tanzanian labour markets. They interpret this as evidence for a human capital model of education, and against a signaling model. 15 Identification requires that the instrument contain information on schools in the pupil's choice set which do not affect the pupil's utility once not chosen. Identification could therefore in principle still be achieved if spillovers are very localized. That is, it is theoretically possible, but perhaps of limited practical relevance, to imagine that spillovers occur within a village, while school choices are possible across several villages in commuting distance.",
+        "cite_spans": [
+          {
+            "start": 3,
+            "end": 60,
+            "text": "Arnaud Chevalier, Colm Harmon, Ian Walker & Yu Zhu (2004)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 552,
+            "end": 601,
+            "text": "Boissiere, John B Knight & Richard H Sabot (1985)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "Signaling, however, would likely imply more general forms of spillovers. Hence, we rule out spillovers -and therefore most realistic forms of signaling -by assumption.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "Note that convergence of\u03b2 0 implies that expectations are 'self-consistent' (Blume & Durlauf 2005) . Identifying the local spillover effect \u03b1 will enable us to estimate the extent to which local spillover effects in enrollment counteract the price effect of FPE.",
+        "cite_spans": [
+          {
+            "start": 76,
+            "end": 98,
+            "text": "(Blume & Durlauf 2005)",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Identifying social interactions in enrollment decisions",
+        "sec_num": null
+      },
+      {
+        "text": "We present the results from controlling for local interactions in the decision to enrol in public or private school in Table 6 . The dependent variable is formed by the vector of predicted sectordistrict-time fixed effects which were estimated as part of the discrete choice model in Section II.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 119,
+            "end": 126,
+            "text": "Table 6",
+            "ref_id": "TABREF11"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "These measure the average value of being enrolled in government or private school in a district before and after FPE controlling for idiosyncratic variation in enrollment choices. We regress the fixed effects on end of primary leaving exam scores, the share of pupils choosing the same school type, and a set of dummies for government and private school as well as their respective interactions with an FPE dummy. The table reports the marginal effects of a change in these regressors on the probability of enrollment. The first two columns present the 'naive' OLS results and the third and fourth column presents the IV estimates.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "The OLS estimates in column (1) suggest that there are positive spillovers in enrollment. When taking account of the endogeneity of others' enrollment decisions in predicting own enrollment, however, these conclusions are completely reversed. Instrumenting the \u03c3 variable in column (3), we find negative spillover effects instead. Unsurprisingly, these effects are much larger in public schools. As anticipated, schools with higher test scores attract more students. 16 To understand the extent to which the negative coefficient on \u03c3 represents an urge to segregate by socioeconomic status as opposed to a mere class size effect, we repeat the analysis using the share of children from the 25% most educated households. The results are presented in column 2and (4). Focussing on the IV results, we find that the more children from an educated background are in a school, the less they repel other students. Specifically, the negative IV spillover effects are roughly 20% smaller in both the government and the private sector when considering the share of the most educated children. Though these differences are not significant, this suggests that the negative spillovers from the least educated students represent both affluent flight as well as a crowding effect.",
+        "cite_spans": [
+          {
+            "start": 467,
+            "end": 469,
+            "text": "16",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "Having estimated the local spillover effects consistently, we calculate to what extent social interactions can explain the shifts in enrollment observed in the wake of FPE. The 25% least educated in our sample increased their enrollment in public school by 4.5% during the period.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "Given the coefficient on \u03c3 in government schools in column (3) of Table 6 , this implies a decrease in enrollment of almost 7.6%. 17 Note that this implied effect is very similar to the 6.1% increase in private primary school enrollment documented in Table 2 . Thus our estimates imply that socialinteraction effects more than explain the shift in the demand toward private primary education in Kenya in the wake of FPE.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 66,
+            "end": 73,
+            "text": "Table 6",
+            "ref_id": "TABREF11"
+          },
+          {
+            "start": 251,
+            "end": 258,
+            "text": "Table 2",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "To summarize, in this section we have shown that the failure of a price decrease to stimulate a demand increase is related to the change in the composition of peers in public schools. While we have not addressed other channels directly and therefore cannot completely rule out their importance, we note at least that this social-interaction effect is sufficiently strong to explain the enrollment patterns observed after the abolition of school fees -without positing any decline in underlying school value added.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "The first central finding of this paper is that the abolition of user fees for government primary schools in Kenya in 2003 did not significantly increase net enrollment in public schools. Comparing public and private schools at the primary and secondary level, before and after the Free Primary Education reform, we find that the abolition of user fees shifted demand toward private schooling, evinced by a simultaneous surge in private primary-school enrollment and fee levels.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V Conclusion",
+        "sec_num": null
+      },
+      {
+        "text": "We examine multiple explanations for this unanticipated demand response, starting with the 17 That is, for an additional 4.5 students per 100 who are both from the least educated and enter public school, 7.6 (4.5 \u00d7 -1.7) students left. The table reports estimates of Equation (5), the second step of the Bayer-Timmins procedure. Standard errors are reported in parentheses. The dependent variable is the district-sector-time fixed effect from the conditional logit in Table ( 3). \u03c3 m j is the share of pupils from the 25% least (most) educated households choosing school type j in market m at time t, and KCPE is the average exam score for schools of type j in market m. Intercepts included, but not reported. To see how marginal effects are calculated, consider the effect of an increase in KCPE in government schools by h units. This increases each \u03b4 m gov,t by \u03b2 0 \u00d7 h units. The marginal effect of a change in KCPE in public school is then given by the change in probability of enrolling in public school with and without the increase in KCPE (divided by h), namely P rob(yi,gov,t=1;\u03b4 m gov,t )\u2212P rob(yi,gov,t=1;\u03b4 m gov,t ) h",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 468,
+            "end": 475,
+            "text": "Table (",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "V Conclusion",
+        "sec_num": null
+      },
+      {
+        "text": ". The marginal effects are averaged across the sample. All standard errors are bootstrapped to account for estimation uncertainty in\u03b4 m j,t and clustering at the district level.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V Conclusion",
+        "sec_num": null
+      },
+      {
+        "text": "possibility that the perceived quality of public schools declined because per pupil funding levels declined after fee abolition. The plausibility of this mechanisms differs by socio-economic group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V Conclusion",
+        "sec_num": null
+      },
+      {
+        "text": "For children from poorer households (who paid much lower fees ex ante) the loss in fee revenue to public schools was more than offset by central government capitation grants. For children from wealthier households (who paid substantially higher fees ex ante), the abolition of fees likely implied a reduction in school resources. A large part of this loss in per pupil fees was attributable, however, to an influx of new students -creating some circularity in funding changes as an explanation for enrollment changes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V Conclusion",
+        "sec_num": null
+      },
+      {
+        "text": "The core econometric results in Section IV attempt to overcome this circularity and show that social interaction effects are sufficiently strong to reconcile the aggregate enrollment patterns observed after a national policy reform with the downward-sloping demand curves found in earlier partial equilibrium analyses. While this does not necessarily imply that no other forces are at play, the influx of poorer pupils appears to explain the exit of wealthier pupils to private schools. And if we net out the change in public school pupil composition which depressed demand for public schools, we see that abolishing fees did in fact increase effective demand for public schooling.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V Conclusion",
+        "sec_num": null
+      },
+      {
+        "text": "Our results suggest that social interactions may be an important source of general equilibrium effects from price reforms in the education system. Policies intended to promote equal access to primary schooling can have unintended consequences, as more affluent households attempt to disassociate themselves from marginal entrants responding to the price reform.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V Conclusion",
+        "sec_num": null
+      },
+      {
+        "text": "The multinomial logit and conditional logit estimates are equivalent when only individual-specific effects are included.3 The effect of FPE is calculated by aggregating over the district-sector-time dummies. 4 Since we only have a small number of socio-economic indicators that are measured comparably across the two rounds of survey data, we show results both with and without log food expenditure -despite concerns that this",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Note that the statistics inTable 4represent average expenditure per pupil conditional on enrollment. Willingness to pay may differ for households who did not enroll. Thus these figures should be interpreted as average equilibrium prices, rather than parameters of an underlying demand curve.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Note that our results leave open the possibility that tastes changed within socio-economic groups, and a given set of pupils enrolled in a more expensive set of private schools after FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "For the sake of the calculations here, we assume that leakage of FPE grants was uniform across schools. We know of no evidence on the distribution of missing grants across schools, but should acknowledge the possibility that heterogeneous leakage could exacerbate or attenuate the unequal changes in school funding induced by FPE.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We lack data on teacher salaries for more than one point in time, however starting teacher salaries increased substantially during this period, likely pushing up the average. Thus our calculations are likely to overstate any reduction in resources under FPE. 9 To see how these calculations are consistent with the changes in PTR depicted inFigure 2b, note that the 26.9% of pupils with the largest class sizes at baseline includes everyone in schools with PTR greater than 40.1. So even though PTR fell for schools that began with very large classes, averaging over this whole group above a PTR of 40.1 yields a slight increase in PTR.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "It makes sense to think of enrollment decisions as taking place in many separate markets, in this case a district, since pupils in Kenya in reality choose among a small number of primary schools in their immediate vicinity.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "KCPE results for those not enrolled are set to zero. This seems sensible if we think of the way in which students would benefit from their KCPE results: signaling their education level to future employers, gaining access to secondary school etc.. All of these avenues are not open to students who do not enrol in school. We also experimented with setting KCPE of the non-enrolled to 50 and 100, the latter of which is close to the lowest KCPE in school observed in the sample, and obtain identical results. Ideally, we would of course like to be able to link each household to a particular school and KCPE. The intra-class correlation within a district for KCPE varies between 15%-25% (across sectors and before and after FPE) and we would therefore argue that the collapsed scores contain some relevant information.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Ideally, we would like to measure the effect of a change in pupil-teacher ratios (PTR) in the school on enrollment.However, we can only link students to schools at the district level. To examine the extent to which NERs at the district and average pupil-teacher ratios in public schools are linked, we use data from EMIS, which contains detailed information on all public schools in Kenya. Regressing PTR on district NER (in percent) of children from the 25% least educated households, we find a significant positive effect of .34. That is, a one percentage point increase in \u03c3 corresponds to a .34 increase in average PTR.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Applications of this identification strategy can be found in the context of neighborhood effects on housing demand (Yannis M Ioannides & Jeffrey E Zabel 2008) and congestion effects in the choice of fishing sites (Christopher",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Timmins & Jennifer Murdock 2007)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Since this is a non-linear IV problem, it is not possible to separate out the first and second-stage. The coefficient that relates most directly to the conventional first-stage coefficient on the excluded instrument is the marginal effect of increasing KCPE by one point in private schools on enrollment in public schools and vice versa. This effect is estimated to be -0.0006 and strongly significant with a t-value of -4.17.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "Acknowledgements: We acknowledge the enormous assistance of Charles Obiero and Samuel Nthenge of the Ministry of Education and Godfrey Ndeng'e and Samuel Kipruto of the Kenyan National Bureau of Statistics in assembling the data sources used here. We have benefited from comments from Gabriel Demombynes, Charles Kenny, Karega Mutahi, Lant Pritchett, Jakob Svensson and participants' at iiG events in Nairobi (Institute for Economic Affairs), Kampala (Economic and Policy Research Council), Frankfurt (Goethe University) and Oxford (Centre for the Study of African Economies).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "acknowledgement",
+        "sec_num": null
+      },
+      {
+        "text": "Timmins, Christopher, and Jennifer Murdock. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "annex",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "The effects of user fee reductions on enrollment: Evidence from a quasi-experiment",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Barrera-Osorio",
+            "suffix": ""
+          },
+          {
+            "first": "Leigh",
+            "middle": [
+              "L"
+            ],
+            "last": "Felipe",
+            "suffix": ""
+          },
+          {
+            "first": "Miguel",
+            "middle": [],
+            "last": "Linden",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Urquiola",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Barrera-Osorio, Felipe, Leigh L. Linden, and Miguel Urquiola. 2007. \"The effects of user fee reductions on enrollment: Evidence from a quasi-experiment.\" Columbia University.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Estimating equilibrium models of sorting across locations",
+        "authors": [
+          {
+            "first": "Patrick",
+            "middle": [],
+            "last": "Bayer",
+            "suffix": ""
+          },
+          {
+            "first": "Christopher",
+            "middle": [],
+            "last": "Timmins",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "The Economic Journal",
+        "volume": "117",
+        "issue": "",
+        "pages": "353--374",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bayer, Patrick, and Christopher Timmins. 2007. \"Estimating equilibrium models of sorting across locations.\" The Economic Journal, 117: 353-374.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Do better schools matter? Parental valuation of elementary education",
+        "authors": [
+          {
+            "first": "Sandra",
+            "middle": [
+              "E"
+            ],
+            "last": "Black",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "The Quarterly Journal of Economics",
+        "volume": "114",
+        "issue": "2",
+        "pages": "577--599",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Black, Sandra E. 1999. \"Do better schools matter? Parental valuation of elementary educa- tion.\" The Quarterly Journal of Economics, 114(2): 577-599.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Identifying Social Interactions: A Review",
+        "authors": [
+          {
+            "first": "Lawrence",
+            "middle": [],
+            "last": "Blume",
+            "suffix": ""
+          },
+          {
+            "first": "Steven",
+            "middle": [],
+            "last": "Durlauf",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Blume, Lawrence, and Steven Durlauf. 2005. \"Identifying Social Interactions: A Review.\" Cornell University.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Neighborhood peer effects in secondary school enrollment decisions",
+        "authors": [
+          {
+            "first": "Gustavo",
+            "middle": [
+              "J"
+            ],
+            "last": "Bobonis",
+            "suffix": ""
+          },
+          {
+            "first": "Frederico",
+            "middle": [],
+            "last": "Finan",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "The Review of Economics and Statistics",
+        "volume": "91",
+        "issue": "4",
+        "pages": "695--716",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bobonis, Gustavo J, and Frederico Finan. 2009. \"Neighborhood peer effects in secondary school enrollment decisions.\" The Review of Economics and Statistics, 91(4): 695-716.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Earnings, Schooling, Ability and Cognitive Skills",
+        "authors": [
+          {
+            "first": "Maurice",
+            "middle": [],
+            "last": "Boissiere",
+            "suffix": ""
+          },
+          {
+            "first": "John",
+            "middle": [
+              "B"
+            ],
+            "last": "Knight",
+            "suffix": ""
+          },
+          {
+            "first": "Richard",
+            "middle": [
+              "H"
+            ],
+            "last": "Sabot",
+            "suffix": ""
+          }
+        ],
+        "year": 1985,
+        "venue": "American Economic Review",
+        "volume": "24",
+        "issue": "75",
+        "pages": "1016--1030",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Boissiere, Maurice, John B Knight, and Richard H Sabot. 1985. \"Earnings, Schooling, Ability and Cognitive Skills.\" American Economic Review, 24(75): 1016-1030.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "The high quality of low-cost private schools in a poor country",
+        "authors": [
+          {
+            "first": "Tessa",
+            "middle": [],
+            "last": "Bold",
+            "suffix": ""
+          },
+          {
+            "first": "Mwangi",
+            "middle": [],
+            "last": "Kimenyi",
+            "suffix": ""
+          },
+          {
+            "first": "Germano",
+            "middle": [],
+            "last": "Mwabu",
+            "suffix": ""
+          },
+          {
+            "first": "Justin",
+            "middle": [],
+            "last": "Sandefur",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bold, Tessa, Mwangi Kimenyi, Germano Mwabu, and Justin Sandefur. 2011. \"The high quality of low-cost private schools in a poor country.\" CSAE, Oxford University.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Can eliminating school fees in poor districts boost enrollment? Evidence from South Africa",
+        "authors": [
+          {
+            "first": "Evan",
+            "middle": [],
+            "last": "Borkum",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Economic Development and Cultural Change",
+        "volume": "60",
+        "issue": "2",
+        "pages": "359--398",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Borkum, Evan. 2012. \"Can eliminating school fees in poor districts boost enrollment? Evidence from South Africa.\" Economic Development and Cultural Change, 60(2): 359-398.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Microeconometrics: Methods and Applications",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Cameron",
+            "suffix": ""
+          },
+          {
+            "first": "Pravin",
+            "middle": [
+              "K"
+            ],
+            "last": "Colin",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Trivedi",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cameron, A. Colin, and Pravin K. Trivedi. 2005. Microeconometrics: Methods and Appli- cations. New York:Cambridge University Press.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Who benefits from reduced cost of education? Evidence from a policy experiment in Cambodia",
+        "authors": [
+          {
+            "first": "Maria",
+            "middle": [],
+            "last": "Cheung",
+            "suffix": ""
+          },
+          {
+            "first": "Andreas",
+            "middle": [],
+            "last": "Madestam",
+            "suffix": ""
+          },
+          {
+            "first": "Jakob",
+            "middle": [],
+            "last": "Svensson",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "IIES",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cheung, Maria, Andreas Madestam, and Jakob Svensson. 2011. \"Who benefits from reduced cost of education? Evidence from a policy experiment in Cambodia.\" IIES, Stockholm University.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Does Education Raise Productivity, or Just Reflect it?",
+        "authors": [
+          {
+            "first": "Arnaud",
+            "middle": [],
+            "last": "Chevalier",
+            "suffix": ""
+          },
+          {
+            "first": "Colm",
+            "middle": [],
+            "last": "Harmon",
+            "suffix": ""
+          },
+          {
+            "first": "Ian",
+            "middle": [],
+            "last": "Walker",
+            "suffix": ""
+          },
+          {
+            "first": "Yu",
+            "middle": [],
+            "last": "Zhu",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "The Economic Journal",
+        "volume": "114",
+        "issue": "499",
+        "pages": "499--517",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chevalier, Arnaud, Colm Harmon, Ian Walker, and Yu Zhu. 2004. \"Does Education Raise Productivity, or Just Reflect it?\" The Economic Journal, 114(499): F499-F517.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Social interactions in high school: Lessons from an earthquake",
+        "authors": [
+          {
+            "first": "Piero",
+            "middle": [],
+            "last": "Cipollone",
+            "suffix": ""
+          },
+          {
+            "first": "Alfonso",
+            "middle": [],
+            "last": "Rosolia",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "American Economic Review",
+        "volume": "97",
+        "issue": "3",
+        "pages": "948--965",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cipollone, Piero, and Alfonso Rosolia. 2007. \"Social interactions in high school: Lessons from an earthquake.\" American Economic Review, 97(3): 948-965.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Does cost of schooling affect enrollment by the poor? Universal primary education in Uganda",
+        "authors": [
+          {
+            "first": "Klaus",
+            "middle": [],
+            "last": "Deininger",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Economics of Education Review",
+        "volume": "22",
+        "issue": "",
+        "pages": "291--305",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deininger, Klaus. 2003. \"Does cost of schooling affect enrollment by the poor? Universal primary education in Uganda.\" Economics of Education Review, 22: 291-305.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Geographic concentration in U.S. maufacturing industries: A dartboard approach",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Ellison",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Glaeser",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Journal of Political Economy",
+        "volume": "105",
+        "issue": "",
+        "pages": "889--927",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ellison, G, and E Glaeser. 1997. \"Geographic concentration in U.S. maufacturing industries: A dartboard approach.\" Journal of Political Economy, 105: 889-927.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Design-adaptive nonparametric regression",
+        "authors": [
+          {
+            "first": "Jianqing",
+            "middle": [],
+            "last": "Fan",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "Journal of the American Statistical Association",
+        "volume": "87",
+        "issue": "420",
+        "pages": "998--1004",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fan, Jianqing. 1992. \"Design-adaptive nonparametric regression.\" Journal of the American Statistical Association, 87(420): 998-1004.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Does more cash in conditional cash transfer programs always lead to larger impacts on school attendance?",
+        "authors": [
+          {
+            "first": "Deon",
+            "middle": [],
+            "last": "Filmer",
+            "suffix": ""
+          },
+          {
+            "first": "Norbert",
+            "middle": [],
+            "last": "Schady",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Journal of Development Economics",
+        "volume": "96",
+        "issue": "1",
+        "pages": "150--157",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Filmer, Deon, and Norbert Schady. 2011. \"Does more cash in conditional cash transfer pro- grams always lead to larger impacts on school attendance?\" Journal of Development Economics, 96(1): 150-157.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Ethnic diversity, social sanctions, and public goods in Kenya",
+        "authors": [
+          {
+            "first": "Mary",
+            "middle": [],
+            "last": "Gugerty",
+            "suffix": ""
+          },
+          {
+            "first": "Edward",
+            "middle": [],
+            "last": "Kay",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Miguel",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of Public Economics",
+        "volume": "89",
+        "issue": "11",
+        "pages": "2325--68",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gugerty, Mary Kay, and Edward Miguel. 2005. \"Ethnic diversity, social sanctions, and public goods in Kenya.\" Journal of Public Economics, 89(11): 2325-68.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Interactions, neighborhood selection and housing demand",
+        "authors": [
+          {
+            "first": "Yannis",
+            "middle": [],
+            "last": "Ioannides",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          },
+          {
+            "first": "Jeffrey",
+            "middle": [
+              "E"
+            ],
+            "last": "Zabel",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Journal of Urban Economics",
+        "volume": "63",
+        "issue": "1",
+        "pages": "229--252",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ioannides, Yannis M, and Jeffrey E Zabel. 2008. \"Interactions, neighborhood selection and housing demand.\" Journal of Urban Economics, 63(1): 229-252.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "To Retain or Remove User Fees?",
+        "authors": [
+          {
+            "first": "",
+            "middle": [],
+            "last": "Saul S Morris",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Applied Health Economics and Health Policy",
+        "volume": "5",
+        "issue": "3",
+        "pages": "137--153",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Saul S Morris, et al. 2006. \"To Retain or Remove User Fees?\" Applied Health Economics and Health Policy, 5(3): 137-153.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Community Support Teacher Baseline Survey Report",
+        "authors": [],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kenya National Examination Council. 2010. \"Community Support Teacher Baseline Survey Report.\" Nairobi.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Pricing and access: Lessons from randomized evaluations in education and health",
+        "authors": [
+          {
+            "first": "Michael",
+            "middle": [],
+            "last": "Kremer",
+            "suffix": ""
+          },
+          {
+            "first": "Alaka",
+            "middle": [],
+            "last": "Holla",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "What Works in Development: Thinking Big and",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kremer, Michael, and Alaka Holla. 2009. \"Pricing and access: Lessons from randomized evaluations in education and health.\" In What Works in Development: Thinking Big and Thinking Small. , ed. Jessica Cohen and William Easterly. Brookings Institution.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "The impact of user fees on health service utilization in low-and middle-income countries: How strong is the evidence?",
+        "authors": [
+          {
+            "first": "Mylene",
+            "middle": [],
+            "last": "Lagarde",
+            "suffix": ""
+          },
+          {
+            "first": "Natasha",
+            "middle": [],
+            "last": "Palmer",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Bulletin of the World Health Organization",
+        "volume": "86",
+        "issue": "11",
+        "pages": "839--848",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lagarde, Mylene, and Natasha Palmer. 2008. \"The impact of user fees on health service utilization in low-and middle-income countries: How strong is the evidence?\" Bulletin of the World Health Organization, 86(11): 839-848C.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Social interactions and schooling decisions",
+        "authors": [
+          {
+            "first": "Rafael",
+            "middle": [],
+            "last": "Lalive",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Cattaneo",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "The Review of Economics and Statistics",
+        "volume": "91",
+        "issue": "3",
+        "pages": "457--477",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lalive, Rafael, and M Alejandra Cattaneo. 2009. \"Social interactions and schooling deci- sions.\" The Review of Economics and Statistics, 91(3): 457-477.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Removal of user fees no guarantee of universal health coverage: Observations from Burkina Faso",
+        "authors": [
+          {
+            "first": "Bruno",
+            "middle": [],
+            "last": "Kafando",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Dujardin",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Bulletin of the World Health Organization",
+        "volume": "91",
+        "issue": "",
+        "pages": "277--282",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Kafando, and Bruno Dujardin. 2013. \"Removal of user fees no guarantee of universal health coverage: Observations from Burkina Faso.\" Bulletin of the World Health Organization, 91: 277- 282.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Access, sorting, and achievement: the shortrun effects of free primary education in Kenya",
+        "authors": [
+          {
+            "first": "Adrienne",
+            "middle": [
+              "M"
+            ],
+            "last": "Lucas",
+            "suffix": ""
+          },
+          {
+            "first": "Isaac",
+            "middle": [
+              "M"
+            ],
+            "last": "Mbiti",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "American Economic Journal: Applied Economics",
+        "volume": "4",
+        "issue": "4",
+        "pages": "226--253",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lucas, Adrienne M, and Isaac M Mbiti. 2012. \"Access, sorting, and achievement: the short- run effects of free primary education in Kenya.\" American Economic Journal: Applied Economics, 4(4): 226-253.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "User fee removal in lowincome countries: Sharing knowledge to support managed implementation",
+        "authors": [
+          {
+            "first": "Bruno",
+            "middle": [],
+            "last": "Meessen",
+            "suffix": ""
+          },
+          {
+            "first": "Lucy",
+            "middle": [],
+            "last": "Gilson",
+            "suffix": ""
+          },
+          {
+            "first": "Abdelmajid",
+            "middle": [],
+            "last": "Tibouti",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Health Policy and Planning",
+        "volume": "26",
+        "issue": "2",
+        "pages": "1--4",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Meessen, Bruno, Lucy Gilson, and Abdelmajid Tibouti. 2011. \"User fee removal in low- income countries: Sharing knowledge to support managed implementation.\" Health Policy and Planning, 26(suppl 2): ii1-ii4.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "School markets: The impact of information approximating schools effectiveness",
+        "authors": [
+          {
+            "first": "Alejandra",
+            "middle": [],
+            "last": "Mizala",
+            "suffix": ""
+          },
+          {
+            "first": "Miguel",
+            "middle": [],
+            "last": "Urquiola",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Journal of Development Economics, Forthcoming",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mizala, Alejandra, and Miguel Urquiola. 2013. \"School markets: The impact of information approximating schools effectiveness.\" Journal of Development Economics, Forthcoming.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Free Primary Education in Kenya: An impact evaluation using propensity score methods",
+        "authors": [
+          {
+            "first": "Milu",
+            "middle": [],
+            "last": "Muyanga",
+            "suffix": ""
+          },
+          {
+            "first": "John",
+            "middle": [],
+            "last": "Charles",
+            "suffix": ""
+          },
+          {
+            "first": "Esther",
+            "middle": [],
+            "last": "Olwande",
+            "suffix": ""
+          },
+          {
+            "first": "Stella",
+            "middle": [],
+            "last": "Mueni",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Wambugu",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Muyanga, Milu Charles, John Olwande, Esther Mueni, and Stella Wambugu. 2010. \"Free Primary Education in Kenya: An impact evaluation using propensity score methods.\" PMMA Working Paper 2010-08.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "Kenya Welfare Monitoring Survey",
+        "authors": [],
+        "year": 1997,
+        "venue": "Government of Kenya",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "National Bureau of Statistics. 1997. \"Kenya Welfare Monitoring Survey.\" Government of Kenya.",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "Kenya Integrated Household Budget Survey",
+        "authors": [],
+        "year": 2006,
+        "venue": "Government of Kenya",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "National Bureau of Statistics. 2006. \"Kenya Integrated Household Budget Survey.\" Govern- ment of Kenya.",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Impacts of the Universal Primary Education Policy on Educational Attainment and Private Costs in Uganda",
+        "authors": [
+          {
+            "first": "Mikiko",
+            "middle": [],
+            "last": "Nishimura",
+            "suffix": ""
+          },
+          {
+            "first": "Takashi",
+            "middle": [],
+            "last": "Yamano",
+            "suffix": ""
+          },
+          {
+            "first": "Yuichi",
+            "middle": [],
+            "last": "Sasoka",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "International Journal of Educational Development",
+        "volume": "28",
+        "issue": "",
+        "pages": "161--175",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Nishimura, Mikiko, Takashi Yamano, and Yuichi Sasoka. 2008. \"Impacts of the Universal Primary Education Policy on Educational Attainment and Private Costs in Uganda.\" International Journal of Educational Development, 28: 161-175.",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "Presentation: UNC at Chapel Hill Academy Health",
+        "authors": [
+          {
+            "first": "Edward",
+            "middle": [],
+            "last": "Norton",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Norton, Edward. 2004. \"Interaction Terms in Logit and Probit models.\" Presentation: UNC at Chapel Hill Academy Health.",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "Free primary education and after in Kenya: enrolment impact, quality effects, and the transition to secondary school",
+        "authors": [
+          {
+            "first": "Moses",
+            "middle": [],
+            "last": "Oketch",
+            "suffix": ""
+          },
+          {
+            "first": "Anthony",
+            "middle": [],
+            "last": "Somerset",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "CREATE Pathways to Access. Research Monograph",
+        "volume": "",
+        "issue": "37",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Oketch, Moses, and Anthony Somerset. 2010. \"Free primary education and after in Kenya: enrolment impact, quality effects, and the transition to secondary school.\" CREATE Pathways to Access. Research Monograph No. 37.",
+        "links": null
+      },
+      "BIBREF35": {
+        "ref_id": "b35",
+        "title": "From Separate and Unequal to Integrated and Equal? School Desegregation and School Finance in Louisiana",
+        "authors": [
+          {
+            "first": "Sarah",
+            "middle": [
+              "J"
+            ],
+            "last": "Reber",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "The Review of Economics and Statistics",
+        "volume": "93",
+        "issue": "2",
+        "pages": "404--415",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Reber, Sarah J. 2011. \"From Separate and Unequal to Integrated and Equal? School Desegre- gation and School Finance in Louisiana.\" The Review of Economics and Statistics, 93(2): 404-415.",
+        "links": null
+      },
+      "BIBREF36": {
+        "ref_id": "b36",
+        "title": "Local Capture: Evidence From a Central Government Transfer Program in Uganda",
+        "authors": [
+          {
+            "first": "Ritva",
+            "middle": [],
+            "last": "Reinikka",
+            "suffix": ""
+          },
+          {
+            "first": "Jakob",
+            "middle": [],
+            "last": "Svensson",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "The Quarterly Journal of Economics",
+        "volume": "119",
+        "issue": "2",
+        "pages": "678--704",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Reinikka, Ritva, and Jakob Svensson. 2004. \"Local Capture: Evidence From a Central Government Transfer Program in Uganda.\" The Quarterly Journal of Economics, 119(2): 678- 704.",
+        "links": null
+      },
+      "BIBREF37": {
+        "ref_id": "b37",
+        "title": "Fighting Corruption to Improve Schooling: Evidence from a Newspaper Campaign in Uganda",
+        "authors": [
+          {
+            "first": "Ritva",
+            "middle": [],
+            "last": "Reinikka",
+            "suffix": ""
+          },
+          {
+            "first": "Jakob",
+            "middle": [],
+            "last": "Svensson",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Journal of the European Economic Association",
+        "volume": "3",
+        "issue": "2-3",
+        "pages": "259--267",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Reinikka, Ritva, and Jakob Svensson. 2005. \"Fighting Corruption to Improve Schooling: Evidence from a Newspaper Campaign in Uganda.\" Journal of the European Economic Associa- tion, 3(2-3): 259-267.",
+        "links": null
+      },
+      "BIBREF38": {
+        "ref_id": "b38",
+        "title": "What do parents want from schools? Evidence from the Internet",
+        "authors": [
+          {
+            "first": "Mark",
+            "middle": [],
+            "last": "Schneider",
+            "suffix": ""
+          },
+          {
+            "first": "Jack",
+            "middle": [],
+            "last": "Buckley",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Educational Evaluation and Policy Analysis",
+        "volume": "24",
+        "issue": "2",
+        "pages": "133--144",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schneider, Mark, and Jack Buckley. 2002. \"What do parents want from schools? Evidence from the Internet.\" Educational Evaluation and Policy Analysis, 24(2): 133-144.",
+        "links": null
+      },
+      "BIBREF39": {
+        "ref_id": "b39",
+        "title": "Subsidies for the poor: Evaluating the Mexican PROGRESA povert program",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Schultz",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Paul",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Journal of Development Economics",
+        "volume": "74",
+        "issue": "1",
+        "pages": "199--250",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schultz, T. Paul. 2004. \"Subsidies for the poor: Evaluating the Mexican PROGRESA povert program.\" Journal of Development Economics, 74(1): 199-250.",
+        "links": null
+      },
+      "BIBREF40": {
+        "ref_id": "b40",
+        "title": "Hopes for democracy, stability and education alive in Kenya",
+        "authors": [
+          {
+            "first": "Gene",
+            "middle": [],
+            "last": "Sperling",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Sperling, Gene. 2008. \"Hopes for democracy, stability and education alive in Kenya.\" Published online, Sept. 18, 2008, at http://www.huffingtonpost.com.",
+        "links": null
+      },
+      "BIBREF41": {
+        "ref_id": "b41",
+        "title": "Losses in FPE rise to Sh5.5 billion",
+        "authors": [
+          {
+            "first": "Andrew",
+            "middle": [],
+            "last": "Teyie",
+            "suffix": ""
+          },
+          {
+            "first": "Henry",
+            "middle": [],
+            "last": "Wanyama",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Teyie, Andrew, and Henry Wanyama. 2010. \"Losses in FPE rise to Sh5.5 billion.\" Nairobi Star, 8 January. Available online at http://allafrica.com.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "uris": null,
+        "num": null,
+        "text": "Statistics. The first is the 1997 Welfare Monitoring Survey (WMS), which includes a sample of 10,874 households -including 13,639 children of primary-school age -interviewed roughly five years prior to the introduction of FPE (National Bureau of Statistics 1997). The second round of data is taken from the 2006 Kenya Integrated Household Budget Survey (KIHBS), spanning 13,212 households (with 14,610 children of primary-school age), interviewed three academic years after FPE had been implemented (National Bureau of Statistics 2006).",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF2": {
+        "uris": null,
+        "num": null,
+        "text": "includes school-sector specific regressors, we estimate the multinomial enrollment choice model in the more general conditional logit framework, which allows estimation of both school-sector and individual-specific effects (A. Colin Cameron & Pravin K. Trivedi 2005). 2",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF3": {
+        "uris": null,
+        "num": null,
+        "text": "shows this relationship for each level of education.",
+        "type_str": "figure",
+        "fig_num": "1"
+      },
+      "FIGREF4": {
+        "uris": null,
+        "num": null,
+        "text": "contains no constant and the dummy variable for FPE is only included as an interaction term. Thus the \u03b3 p 0 and \u03b3 s 0 can be read directly as the average price per pupil before FPE for primary and secondary schooling respectively, and \u03b3 p 1 and \u03b3 s 1 as the price change per pupil under FPE. The estimation sample includes all available households for all regressions. If the household has no children in the relevant schooling level, the dependent variable takes a value of zero. The dependent variable differs for the primary-school and secondary-school regressions, measuring only expenditure (or fees) on the relevant schooling level.",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF5": {
+        "uris": null,
+        "num": null,
+        "text": "Abolishing fees had heterogeneous effects on per pupil funding (a) Average fees in public primary schools, before and after FPE, by socio-economic group Changes in pupil-teacher ratios, relative to initial level Net changes in funding per pupil",
+        "type_str": "figure",
+        "fig_num": "2"
+      },
+      "FIGREF6": {
+        "uris": null,
+        "num": null,
+        "text": "",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF7": {
+        "uris": null,
+        "num": null,
+        "text": ". Despite measures to prevent graft inspired in part by the Ugandan experience (RitvaReinikka & Jakob Svensson 2004), an external audit of the FPE funds commissioned by the Ministry of Finance in 2009 found enormous shortfalls in actual disbursements.Actual funds received fell short of the legislated amount in each year audited by approximately 5 to 15% (Andrew Teyie & Henry Wanyama 2010). 7",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF8": {
+        "uris": null,
+        "num": null,
+        "text": "Ministry's Education Monitoring Information System (EMIS) for 2002 to 2005, spanning the introduction of FPE in 2003. This data covers all public primary schools with a unique identifier to link schools across years. Exploiting the longitudinal structure of the data, Figure 2b shows the change in the pupil-teacher ratios from 2001 to 2005, relative to the starting level in 2001. The graph depicts a locally-weighted Fan regression (Jianqing Fan 1992) with a 95% confidence interval based on 50 replications of a bootstrap routine, clustered at the level of the enumeration area. The graph shows a clear pattern of convergence, or reversion to the mean. Schools with small class sizes in 2001 saw significant gains, and schools with large classes saw significant declines.",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF9": {
+        "uris": null,
+        "num": null,
+        "text": ". The system of per pupil grants introduced under FPE may have provided an incentive to local school officials to exaggerate enrollment figures. The total enrollment recorded in the EMIS data rose 12% per annum from 5.70 million pupils in 2002 to 7.11 million pupils in 2005. In contrast, the gross enrollment rates from the household survey data analyzed in the previous section imply an annual increase of only 2.2% annual increase, yielding a smaller absolute change in total pupils over a longer time span (from 6.63 million in 1997 to 7.85 million in 2006). If we apply the growth rate of enrollment from the household surveys to the initial enrollment level in the administrative data, this implies a downward revision of pupil-teacher ratios in 2005 by 14.4%.",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF10": {
+        "uris": null,
+        "num": null,
+        "text": "acteristics as in Section II, in particular log food consumption and the years of education of the household head. All other school level variables that may affect parental enrollment choices are captured by a choice-specific unobservable \u03be m j,t . A random component \u03b5 m ij,t captures the remaining idiosyncratic heterogeneity in preferences.",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF11": {
+        "uris": null,
+        "num": null,
+        "text": ", we are confronted with the problem that local spillovers cannot readily be distinguished from unobserved group effects (Lawrence Blume & Steven Durlauf 2005, Ellison & Glaeser 1997). That is, any increase in unobserved school quality will mechanically increase enrollment and therefore the enrollment shares of peers regardless of whether social interactions are present or not -making a separate identification of \u03b1 and \u03be m j,t impossible unless a valid instrument exists.",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF12": {
+        "uris": null,
+        "num": null,
+        "text": "market will contain information that predicts enrollment decisions of an individual's peers, but do not affect the value parents derive from their chosen school sector. The instrumental variable used as a determinant of enrollment decisions is the relative observable school quality of public and private schools within a pupil's district, as measured by exam performance.13",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "FIGREF13": {
+        "uris": null,
+        "num": null,
+        "text": "this line of reasoning, any non-linear function of the fixed characteristics of close-by alternatives to the chosen school type would qualify as a valid instrument. The optimal instrument in this context uses the discrete choice model laid out above to predict individual enrollment choices as a function of exogenous individual and alternative-specific characteristics and then averages over all individuals in a market and sector. Specifically, we construct the (non-linear) first-stage prediction of \u03c3 m j,t as:\u03c3 m j,t",
+        "type_str": "figure",
+        "fig_num": null
+      },
+      "TABREF0": {
+        "html": null,
+        "num": null,
+        "text": "Summary Statistics for Regression Sample Observations Mean Std. Dev. Min. Max.",
+        "type_str": "table",
+        "content": "<table><tr><td>All expenditure on primary education</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td colspan=\"2\">7459 33.09</td><td>139.78</td><td>0</td></tr><tr><td>After FPE</td><td colspan=\"2\">9428 38.01</td><td>224.75</td><td>0</td></tr><tr><td>All expenditure on secondary education</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td colspan=\"2\">7459 47.02</td><td>180.54</td><td>0</td></tr><tr><td>After FPE</td><td colspan=\"2\">9428 42.09</td><td>233.96</td><td>0</td></tr><tr><td>Fees for primary education</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td colspan=\"2\">7459 14.66</td><td>122.12</td><td>0</td></tr><tr><td>After FPE</td><td colspan=\"2\">9428 18.95</td><td>184.86</td><td>0</td></tr><tr><td>Fees for secondary education</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td colspan=\"2\">7459 34.39</td><td>154.34</td><td>0</td></tr><tr><td>After FPE</td><td colspan=\"2\">9428 22.24</td><td>182.58</td><td>0</td></tr><tr><td>Kids in public primary school per household</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td>7459</td><td>1.76</td><td>1.54</td><td>0</td></tr><tr><td>After FPE</td><td>9428</td><td>1.54</td><td>1.46</td><td>0</td></tr><tr><td>Kids in public secondary school per household</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td>7459</td><td>0.16</td><td>0.47</td><td>0</td></tr><tr><td>After FPE</td><td>9428</td><td>0.19</td><td>0.50</td><td>0</td></tr><tr><td>Kids in private primary school per household</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td>7459</td><td>0.08</td><td>0.42</td><td>0</td></tr><tr><td>After FPE</td><td>9428</td><td>0.16</td><td>0.53</td><td>0</td></tr><tr><td>Kids in private secondary school per household</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td>7459</td><td>0.02</td><td>0.16</td><td>0</td></tr><tr><td>After FPE</td><td>9428</td><td>0.04</td><td>0.24</td><td>0</td></tr><tr><td>Years of schooling of household head</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td>7459</td><td>5.74</td><td>4.51</td><td>0</td></tr><tr><td>After FPE</td><td>9428</td><td>6.10</td><td>4.68</td><td>0</td></tr><tr><td>Log food expenditure of household</td><td/><td/><td/><td/></tr><tr><td>Before FPE</td><td>7459</td><td>6.97</td><td>0.62</td><td>6</td></tr><tr><td>After FPE</td><td>9428</td><td>7.86</td><td>0.76</td><td>1</td></tr><tr><td colspan=\"5\">Source: Authors' calculations based on 1997 Welfare Monitoring Survey and 2006 Kenya Integrated Household</td></tr><tr><td colspan=\"5\">Budget Survey. The table reports unweighted sample statistics for the observations and variables used in the</td></tr><tr><td colspan=\"5\">regression analysis of education expenditure and enrollment choices. Note that all statistics are at the household</td></tr><tr><td colspan=\"5\">level, including expenditure and fees, which are reported in the survey as the aggregate for all children in the</td></tr><tr><td>household. All monetary values are reported in 1997 U.S. dollars.</td><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF1": {
+        "html": null,
+        "num": null,
+        "text": "",
+        "type_str": "table",
+        "content": "<table><tr><td>presents summary statistics from the survey samples used in the regressions in the</td></tr><tr><td>following sections, separated by the pre-and post-FPE periods. Perhaps the most striking feature</td></tr><tr><td>of the summary statistics is the increase in real expenditure per household on primary education</td></tr><tr><td>and primary school fees, and the decline in the average number of children per household enrolled</td></tr><tr><td>in government primary schools. Note however that these are unweighted statistics; a more detailed</td></tr><tr><td>comparison of time trends using survey weights to compute nationally-representative statistics is</td></tr><tr><td>given in Tables 2 and 4.</td></tr><tr><td>School-level administrative data</td></tr><tr><td>We use test-score data from the Kenya Certificate of Primary Education (KCPE) exam as a</td></tr><tr><td>proxy for school quality. The KCPE exam is standardized nationwide, administered at the end of</td></tr><tr><td>primary school by the Kenya National Examination Council, and covers English, Kiswahili, math,</td></tr><tr><td>science and history. Our combined test-score data set constitutes a panel of all public and private</td></tr><tr><td>primary schools in Kenya, for each year from 1998 to 2006.</td></tr><tr><td>Because we use the test scores as one determinant of school choice, we seek to construct a proxy</td></tr><tr><td>of the quality of all public and private schools available to a given pupil. We use administrative</td></tr><tr><td>districts as a conservative proxy of this choice set and collapse test scores to district averages,</td></tr><tr><td>separately for public and private schools. The household survey data and administrative test-</td></tr></table>"
+      },
+      "TABREF2": {
+        "html": null,
+        "num": null,
+        "text": "",
+        "type_str": "table",
+        "content": "<table/>"
+      },
+      "TABREF3": {
+        "html": null,
+        "num": null,
+        "text": "",
+        "type_str": "table",
+        "content": "<table><tr><td>Primary</td></tr></table>"
+      },
+      "TABREF4": {
+        "html": null,
+        "num": null,
+        "text": "First-Stage Enrollment Equation: Multinomial Logit for School Sector Choice FPE,govt,prim. \u2212 \u03b2 food\u00d7 FPE,govt,sec. FPE,priv,prim. \u2212 \u03b2 FPE,priv,sec. FPE,priv,prim. \u2212 \u03b2 educ \u00d7 FPE,priv, sec. FPE,priv,prim. \u2212 \u03b2 food \u00d7 FPE,priv,sec. Figures in the table are average marginal effects across all observations. Standard errors are shown in parentheses.",
+        "type_str": "table",
+        "content": "<table><tr><td/><td>Primary</td><td/><td/><td>Secondary</td><td/></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr></table>"
+      },
+      "TABREF5": {
+        "html": null,
+        "num": null,
+        "text": "",
+        "type_str": "table",
+        "content": "<table><tr><td/><td/><td>Log</td><td>Total</td><td/></tr><tr><td/><td/><td>Only</td><td>Fees</td><td/></tr><tr><td/><td>Secondary</td><td/><td/><td/></tr><tr><td/><td/><td>Total</td><td>Spending</td><td/></tr><tr><td>: Household educational expenditure</td><td>Primary</td><td>Only Log Total</td><td>Fees Total Spending</td><td>(1)</td></tr></table>"
+      },
+      "TABREF6": {
+        "html": null,
+        "num": null,
+        "text": "The dependent variable is total annual household educational expenditure in US dollars. In columns 1 to 4 the dependent variable includes only expenditure on primary education, and in columns 5 to 8 only on secondary education. Columns 1 and 4 (as well as 5 and 8) include all categories of educational expenditure available in both surveys (i.e., fees, books, uniforms, board, and transport) for the relevant education level. Columns 2 and 3 (6 and 7) are restricted to primary (secondary) fees only. The FPE variable takes a value of one in 2006 and zero in 1997. Independent variables labeled \"Children in . . . \" measure the total number of children in the household enrolled in a given type of school. The sample is restricted to households that have at least one child in either primary or secondary school. Head's education is measured in years of schooling, standardized so that it has a mean of zero and standard deviation of unity.wealthier households tend to choose more expensive private schools, this would drive up average spending per private-school pupil without a change in price at any given school. Under this scenario, controlling for household wealth should eliminate the change in average private school fees per pupil. Results in column (3) show that this is not the case, though the coefficient on the FPE interaction with private schooling is reduced in magnitude.",
+        "type_str": "table",
+        "content": "<table><tr><td colspan=\"11\">(7) (8) column (3), we see that for pupils from a given socio-economic stratum (average education of the 4.01 4.20 .99 183.69 133.56 130.72 3.33 (.77)  *  *  *  (.76)  *  *  *  (.008)  *  *  *  (4.21)  *  *  *  (3.71)  *  *  *  (3.79)  *  *  *  (.05)  *  *  *  43.57 22.83 1.28 294.50 245.80 129.11 3.87 (4.18)  *  *  *  (4.60)  *  *  *  (.05)  *  *  *  (12.98)  *  *  *  (11.45)  *  *  *  (14.24)  *  *  *  (.21)  *  *  *  -3.66 -3.54 -.16 -33.43 -63.47 -64.18 .01 (1.08)  *  *  *  (1.07)  *  *  *  (.01)  *  *  *  (5.45)  *  *  *  (4.81)  *  *  *  (5.00)  *  *  *  (.07) 50.26 14.58 .62 -5.87 -60.43 -39.20 -.41 (5.07)  *  *  *  (5.95)  *  *  (.07)  *  *  *  (14.98) (13.20)  *  *  *  (16.19)  *  *  (.24)  *  2.18 .07 9.89 -.08 (.82)  *  *  *  (.009)  *  *  *  (3.69)  *  *  *  (.05) 41.91 .36 153.43 -.11 (4.19)  *  *  *  (.05)  *  *  *  (11.57)  *  *  *  (.17) -2.56 .008 -2.53 .21 (1.14)  *  *  (.01) (4.78) .08 -10.35 .34 (5.16)  *  *  *  (.06) (13.20) (.19)  *  0.000 0.000 0.000 . . . . 16,890 16,890 11,708 16,890 16,890 16,890 2,159 Focusing on rows 2 and 4 of household head) private school prices rose by $14.58 from a base of $22.83. Estimating this effect in logs in column (4) to reduce the role of outliers, we see a 0.62 increase in private school fees under FPE which is not attributable to a simple shift in the composition of private school pupils (.07)  *  *  25.80 along this observable dimension. 6</td></tr><tr><td>11.80</td><td>(.90)  *  *  *</td><td>64.12</td><td>(4.89)  *  *  *</td><td>-5.57</td><td>(1.27)  *  *  *</td><td>81.68</td><td>(5.94)  *  *  *</td><td/><td/><td>0.000</td><td>16,890</td></tr><tr><td>Children in public school</td><td/><td>Children in private school</td><td/><td>FPE \u00d7 Children in public</td><td/><td>FPE \u00d7 Children in private</td><td>Head's educ. \u00d7 Children in public</td><td>Head's educ. \u00d7 Children in private</td><td>Head's educ. \u00d7 FPE \u00d7 Children in pub.</td><td>\u03b3 p private,F P E \u03b3 p private \u2212 \u03b3 s private,F P E \u03b3 s private = 0 P-value:</td><td>Obs.</td></tr></table>"
+      },
+      "TABREF8": {
+        "html": null,
+        "num": null,
+        "text": "To convert PTR changes into monetary terms, we focus on their inverse: teacher-pupil ratios (TPR), which measure the fraction of a teacher assigned to each pupil. We value TPRs by the average teacher salary for Kenyan public schools. While salaries vary by seniority and qualification, a nationwide survey conducted by the Kenya National Examination Council (Kenya National Examination Council 2010) found an average salary among civil service teachers of $262 per month over twelve months in 2009 (the nearest available year), which we use as the basis for our calculations. 8",
+        "type_str": "table",
+        "content": "<table/>"
+      },
+      "TABREF9": {
+        "html": null,
+        "num": null,
+        "text": "shows that households whose head had some tertiary education constituted 3.6% of all households in 1997. Thus we assign these households to the 3.6% of pupils with the smallest initial class sizes. Those pupils saw a reduction of 3.1 teachers per one hundred pupils. Meanwhile the 26.9% of pupils with the largest initial class sizes -corresponding, by hypothesis, to the to 26.9% of households whose head had no schooling in 1997 -saw a reduction of just 0.16 teachers per one hundred pupils. 9Scenario 1 in the table converts these changes to monetary terms. The poorest households saw a small decline in fees under FPE of $2.50 and a further small decline in per-pupil resources due to",
+        "type_str": "table",
+        "content": "<table/>"
+      },
+      "TABREF10": {
+        "html": null,
+        "num": null,
+        "text": "Changes in per-pupil funding in public schools, before/after FPE Source: Authors' calculations as described in the text. Fee levels are based on the 1997 Welfare Monitoring Survey and 2006 Kenya Integrated Household Budget Survey. Pupil teacher ratios are based on administrative data from the Education Monitoring Information System (EMIS) for 2002 and 2005. Salary figures are taken from the Kenya National Examination Council (2010).",
+        "type_str": "table",
+        "content": "<table><tr><td/><td colspan=\"3\">Schooling level of household head</td></tr><tr><td/><td>Some</td><td>Complete</td><td>Some</td><td>Some</td></tr><tr><td>None</td><td>primary</td><td>primary</td><td colspan=\"2\">secondary tertiary</td></tr></table>"
+      },
+      "TABREF11": {
+        "html": null,
+        "num": null,
+        "text": "Second-Stage Enrollment Equation: Determinants of the \u03b4 j",
+        "type_str": "table",
+        "content": "<table><tr><td/><td>OLS</td><td/><td>IV</td><td/></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr><tr><td>Government:</td><td/><td/><td/><td/></tr><tr><td>FPE</td><td>-.012</td><td>.039</td><td>-.039</td><td>-.072</td></tr><tr><td/><td>(.018)</td><td>(.013)</td><td>(.037)</td><td>(.056)</td></tr><tr><td>KCPE</td><td>.002</td><td>.001</td><td>.003</td><td>.003</td></tr><tr><td/><td>(.0006)  *  *  *</td><td>(.0006)  *  *</td><td>(.0007)  *  *  *</td><td>(.0009)  *  *  *</td></tr><tr><td>\u03c3 m j (25% least educated)</td><td>.445 (.139)  *  *  *</td><td/><td>-1.727 (.123)  *  *  *</td><td/></tr><tr><td>\u03c3 m j (25% most educated)</td><td/><td>.761 (.060)  *  *  *</td><td/><td>-1.413 (.162)  *  *  *</td></tr><tr><td>Private:</td><td/><td/><td/><td/></tr><tr><td>FPE</td><td>.068</td><td>.057</td><td>.080</td><td>.093</td></tr><tr><td/><td>(.016)  *  *  *</td><td>(.012)  *  *</td><td>(.025)  *  *  *</td><td>(.032)  *  *  *</td></tr><tr><td>KCPE</td><td>.0005</td><td>.0004</td><td>.0008</td><td>.0008</td></tr><tr><td/><td>(.0002)  *  *  *</td><td>(.0002)  *  *</td><td>(.0002)  *  *</td><td>(.0002)  *  *  *</td></tr><tr><td>\u03c3 m j (25% least educated)</td><td>.117 (.042)  *  *  *</td><td/><td>-.452 (.052)  *  *  *</td><td/></tr><tr><td>\u03c3 m j (25% most educated)</td><td/><td>.201 (.028)  *  *  *</td><td/><td>-.370 (.047)  *  *  *</td></tr><tr><td>Obs.</td><td>69513</td><td>69513</td><td>69513</td><td>69513</td></tr></table>"
+      }
+    }
+  }
+}

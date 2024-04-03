@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05341: This paper complements previous research on the effects of credit ratings on financial markets in emerging economies.\n\ns_05391: Multiple Imputation Multi-variate Normal Regression uses an EM-like algorithm to iteratively estimate model parameters and missing data.\n\ns_05441: Wang et al (2016) use firm-level data from Zhejiang Province to examine the impact of financial constraints on firms' ODI decisions and suggest that lowering a firm's financial constraints can increase both the probability and volume of ODI.\n\ns_05491: In cases where it was not possible to verify the information through desk research (e.g.\n\ns_05541: There are some common patterns between the estimated coefficients associated with the rest of the covariates using the STEP-and O*NET-based measures.\n\ns_05591: From these outcomes, we extract the flood extent for return periods greater than 1 in 100 years, 1 in 50 years and 1 in 30 years and produce the mean flood inundation map for 2016-2035 and 2036-2055 at RCP4.5 and RCP8.5 respectively.\n\ns_05641: Fuente: Estimaciones de los autores a partir de la ENCEL 2017.\n\ns_05691: There is thus little guarantee of the integrity of the expenditure data.\n\ns_05741: By contrast, for the 2011-2015 sub-period the relationship between the trade measure, as well as its interaction with technology, and skills using the U.S. O*Net database are in line with previous estimates.\n\ns_05791: * p < 0.10, ** p < 0.05, *** p < 0.01 Table 5 .\n\ns_05841: 1997; Ostro 1999; Kappos et al.\n\ns_05891: As already pointed out, part of the cross-country differences in linkage rates within each group is explained by the factors highlighted in Table1 and Table 2 .\n\ns_05941: Thanks to these rich data, we are able to i) estimate exchange rate and tariff pass-through within an integrated framework at a high level of disaggregation, and ii) estimate pass-through rates for various groups of countries (Economic and Monetary Union (EMU) members and non-EMU EU members), various currencies of invoicing (euro and the 1 U.S. dollar) and various sectors.\n\ns_05991: For instance, Goldfarb and Prince (2008) find that low income, less-educated people spend more time online.\n\ns_06041: A \u2026rst group of studies relies on survey data on household portfolios, with an emphasis on savings, net worth, and the liquidity of assets (e.g., Aguiar et al.\n\ns_06091: This paper continues as follows.\n\ns_06141: To capture the dynamics of the effects, instead of focusing on the full 2018 sample as in Table A .14, we restrict our analysis, in Table  A .16, to individuals who were interviewed in both ELMPS 2012 and 2018.\n\ns_06191: By drawing on administrative data based on the history of phone use in PNG, we were also better able to sample poorer respondents than would be the case by simply relying on random digit dialing, which is common practice in other low-and middle-income countries (Global Poverty Research Lab, 2020).\n\ns_06241: For each country, we select the observation which is closest in time to 2017 (and refer to this as our circa-2017 sample).\n\ns_06291: The first column of Table 3 presents equation 1, comparing treated to control villages.\n\ns_06341: I run univariate regressions pooling all the countries linking IGM to geographical and initial conditions that have been discussed in previous studies on intergenerational mobility outside the continent (for example, see Alesina et al., 2021) .\n\ns_06391: ( , 2018 , , Ahsan et al.\n\ns_06441: We use data on billing records of the universe of electricity customers of the ECG from January 2018 to December 2020.\n\ns_06491: Rather, our study builds on the work of Lee and Schachter (2019) in incorporating a machine learning approach and expanding the analysis to the LAC region.\n\ns_06541: Since marketing activities are the largest expenditure item of TPOs and also the only one with a significant shift in expenditure shares between 2019 and 2021, Figure 9 provides in the lower panel the distribution of expenditure shares on marketing activities by income group."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7PrMHjh4JCzU6hff4eq76PJD1tA",
+    "object": "chat.completion",
+    "created": 1682884471,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1226,
+      "completion_tokens": 52,
+      "total_tokens": 1278
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05441\", \"data_mentioned\": true, \"reason\": \"Zhejiang Province\"}, {\"sent_id\": \"s_06441\", \"data_mentioned\": true, \"reason\": \"ECG\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05441\", \"data_mentioned\": true, \"reason\": \"Zhejiang Province\"}, {\"sent_id\": \"s_06441\", \"data_mentioned\": true, \"reason\": \"ECG\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

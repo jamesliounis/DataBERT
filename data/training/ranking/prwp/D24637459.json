@@ -1,0 +1,1729 @@
+{
+  "paper_id": "D24637459",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:15.039936Z"
+  },
+  "title": "Firms' Locational Choice and Infrastructure Development in Tanzania Instrumental Variable Spatial Autoregressive Model",
+  "authors": [
+    {
+      "first": "Atsushi",
+      "middle": [],
+      "last": "Iimi",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Africa Region The World Bank",
+        "institution": "",
+        "location": {}
+      },
+      "email": "aiimi@worldbank.org"
+    },
+    {
+      "first": "Richard",
+      "middle": [
+        "Martin"
+      ],
+      "last": "Humphreys",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Africa Region The World Bank",
+        "institution": "",
+        "location": {}
+      },
+      "email": ""
+    },
+    {
+      "first": "Sevara",
+      "middle": [],
+      "last": "Melibaeva",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "Africa Region The World Bank",
+        "institution": "",
+        "location": {}
+      },
+      "email": ""
+    }
+  ],
+  "year": "2015-06",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D24637459",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "The new economic geography literature suggests that agglomeration economies are a key factor in increasing firm productivity (Krugman, 1991; Fujita et al. 1999) . Despite the falling costs of distance in recent years, firms still prefer to be located close to one another at a particular locality in order to share the common input markets of labor and intermediate inputs and thus minimize trade and transaction costs. This is referred to as economies of agglomeration, and the literature is generally supportive of this (e.g., Procher, 2011; Lee et al., 2012; Mare and Graham, 2013) . In many developed countries and rapidly growing emerging economies, firm agglomerations and industrial clusters have been established (e.g., Yusuf et al. 2008 ).",
+        "cite_spans": [
+          {
+            "start": 125,
+            "end": 140,
+            "text": "(Krugman, 1991;",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 141,
+            "end": 160,
+            "text": "Fujita et al. 1999)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 529,
+            "end": 543,
+            "text": "Procher, 2011;",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 544,
+            "end": 561,
+            "text": "Lee et al., 2012;",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 562,
+            "end": 584,
+            "text": "Mare and Graham, 2013)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 728,
+            "end": 745,
+            "text": "Yusuf et al. 2008",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. INTRODUCTION",
+        "sec_num": null
+      },
+      {
+        "text": "However, in Africa there are only a few examples of this occurring, such as the textile sector in East Africa (Otsuka and Sonobe, 2011) . It is well recognized that Africa has been lagging behind in the global manufacturing market since the 1960s. A number of constraints exist.",
+        "cite_spans": [
+          {
+            "start": 110,
+            "end": 135,
+            "text": "(Otsuka and Sonobe, 2011)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. INTRODUCTION",
+        "sec_num": null
+      },
+      {
+        "text": "Among others, low labor productivity and lack of land access are significant constraints in Africa (Dinh et al. 2012) . Infrastructure is also a binding constraint. Electricity access is limited to about 30 percent of total population in the region. Many roads, other transport infrastructure, and services are poor in terms of delivery and/or condition. Importantly, unlike general households, firms have more flexibility in choosing their locations, depending on available infrastructure services at each locality. Firms are clearly selective in this regard. Particularly, the literature suggests that transport connectivity is crucial to the locational choices of firms. In Hungary, road availability is found to be a significant determinant of investment (Boudier-Bensebaa, 2005) . Foreign direct investment tends to be concentrated in countries with good transport infrastructure (Cie\u015blik and Ryan, 2004; Milner et al., 2006) . Access to ports is also important for investment decisions (Belderbos and Carree, 2002; Deichmann et al., 2005) .",
+        "cite_spans": [
+          {
+            "start": 99,
+            "end": 117,
+            "text": "(Dinh et al. 2012)",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 759,
+            "end": 783,
+            "text": "(Boudier-Bensebaa, 2005)",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 885,
+            "end": 909,
+            "text": "(Cie\u015blik and Ryan, 2004;",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 910,
+            "end": 930,
+            "text": "Milner et al., 2006)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 992,
+            "end": 1020,
+            "text": "(Belderbos and Carree, 2002;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 1021,
+            "end": 1044,
+            "text": "Deichmann et al., 2005)",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. INTRODUCTION",
+        "sec_num": null
+      },
+      {
+        "text": "The current paper aims at examining the firm location behavior in Tanzania, which is a country with a land area of more than 900,000 km 2 . Inequality of infrastructure access is significant, and the economic structure varies markedly across regions. While the coastal areas have good access to one of the major regional seaports at Dar es Salaam, the inland areas are more than 1,000 km away from the coast. Dar es Salaam is the primary city with a population of 4.4 million, while the regions around Lake Victoria are agriculturally very fertile. This is clearly posing a challenge to promote industrial clusters, while ensuring a balanced growth path of the whole economy. The paper analyzes how these characteristics affect firms' location decisions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. INTRODUCTION",
+        "sec_num": null
+      },
+      {
+        "text": "From the methodological point of view, the paper also addresses several important empirical issues, such as endogeneity of infrastructure placement. Firms may be located based on infrastructure endowments; infrastructure investments are also dependent on where they are.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. INTRODUCTION",
+        "sec_num": null
+      },
+      {
+        "text": "In addition, spatial externalities may potentially matter, because of the spillover effects of infrastructure as well as agglomeration economies. To address these issues, the paper relies on the instrumental variable spatial autoregressive model (Drukker et al. 2011) . The remaining sections are organized as follows: Section II provides an overview of recent economic and infrastructure developments in Tanzania. Section III discusses our empirical methodology and data. Section IV presents main estimation results, and Section V discusses some policy implications. Section VI concludes.",
+        "cite_spans": [
+          {
+            "start": 246,
+            "end": 267,
+            "text": "(Drukker et al. 2011)",
+            "ref_id": "BIBREF12"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "I. INTRODUCTION",
+        "sec_num": null
+      },
+      {
+        "text": "The Tanzanian economy has been growing fast at 6.5 to 8 percent for more than a decade, supported in part by favorable international commodity prices (Figure 1 ). Manufacturing and services have been particularly strong contributors, partly because of the country's new discovery and production of natural resources. This is contributing to a significant improvement in the electricity supply, which has long been a crucial constraint on the economy (IMF 2013). 1 By contrast, agriculture growth remains relatively modest. Tanzania is traditionally a large exporter of coffee, tea and tobacco, but despite high international crop prices, the supply response has been slow. The vast majority of agricultural production remains at the subsistence level in Tanzania (Figure 2 ).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 150,
+            "end": 159,
+            "text": "(Figure 1",
+            "ref_id": null
+          },
+          {
+            "start": 763,
+            "end": 772,
+            "text": "(Figure 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "Following the Asian experience, the Government of Tanzania has been implementing strong industrial policies to promote manufacturing investments, particularly in medium-technology industries, natural gas-based and agro-processing. The global experience is generally supportive of the importance of boosting manufacturing, which can bring various positive externalities to the economy. Tanzania is a traditional agriculture-based economy, but the economic structure may be changing, especially in recent years. The share of manufactured exports increased from 10 percent in 2005 to 20 percent in 2010 (Ministry of Industry and Trade, 2012).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "Nonetheless, Tanzanian manufacturing is still concentrated on low-tech manufacturing. 2 Agrobusiness, such as food and beverages, accounts for nearly half of total manufacturing value added, followed by the nonmetal and textile industries. To sustain industrialization and maintain industrial competitiveness in the global market, further diversification is required.",
+        "cite_spans": [
+          {
+            "start": 86,
+            "end": 87,
+            "text": "2",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "Although the government has been making efforts toward creating many industrial parks, such as Special Economic Zones and Export Processing Zones, supporting infrastructure developments are still lagging behind and constraining firm activities (Ministry of Industry and Trade, 2012).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "In Tanzania, electricity used to be identified as one of the most crucial constraints on businesses ( Figure 3 ).Only 13.9 percent of total households are estimated to have access to electricity in Tanzania (Table 1 ). Of course, firms have relatively better access to electricity than residential users do. Still, self-power generation is costly, and the quality of the supply remains an issue. Since Tanzania is a large country, infrastructure inequality is significant.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 102,
+            "end": 110,
+            "text": "Figure 3",
+            "ref_id": null
+          },
+          {
+            "start": 207,
+            "end": 215,
+            "text": "(Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "Particularly in rural areas, access to electricity is minimal. Only 2,059 villages are electrified out of 10,652 village in Tanzania (Figure 4 ).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 133,
+            "end": 142,
+            "text": "(Figure 4",
+            "ref_id": "FIGREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "Tanzania's road network is in relatively good condition by regional standards ( Figure 5 ). The primary road network in particular is maintained well. However, transport connectivity in the country is in general still limited. Road density is low ( Figure 6 ), and as a result only 24 percent of total rural population has access to an all-weather road within 2 km ( Figure 7 ).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 80,
+            "end": 88,
+            "text": "Figure 5",
+            "ref_id": null
+          },
+          {
+            "start": 249,
+            "end": 257,
+            "text": "Figure 6",
+            "ref_id": null
+          },
+          {
+            "start": 367,
+            "end": 375,
+            "text": "Figure 7",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "The estimated transport costs vary significantly across locations. For instance, firms based in Dar es Salaam have easy access to the port and thus international markets, but the transport cost from Mwanza (1,000 km away) to the port is $150 per ton. From Kigoma, it is about $180 per ton ( Figure 8 ). But these inland areas are much closer to major actual and potential agricultural production areas ( Figure 9 ). Given these infrastructure and economic conditions, firms are, in theory, supposed to decide where to locate. In Tanzania, there are about 45,000 enterprises that are formally registered according to the Central Register of Establishments data in 2010. Firms are currently concentrated in Dar es Salaam and other major cities. The largest firm agglomeration lies in Dar es Salaam, in which 4.4 million people or about 10 percent of total population live, and accounts for about 25 percent of total firms (Table 2) . This is followed by other major regional cities, such as Arusha, Moshi and Mbeya. These secondary agglomerations are located dispersedly in the country (Figure 10 ). The geographic distribution of firms is relatively less skewed in Tanzania than in Kenya (Figure 11 ). In Kenya, nearly 60 percent of total firms are based in Nairobi. In the East African region, the firm distribution is much more even in Rwanda, though the size of the country is different (Figure 12 ). Notably, however, the primary concentration of firms in Dar es Salaam seems to be accelerating. About 2,300 firms were newly created or formally registered in the three districts in Dar es Salaam in 2010 alone. Particularly, other manufacturing sectors than agrobusiness are increasingly concentrated in Dar es Salaam (also see Figure 10 ). The following analysis aims at exploring the possible motivation behind firms' location decisions. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 291,
+            "end": 299,
+            "text": "Figure 8",
+            "ref_id": null
+          },
+          {
+            "start": 404,
+            "end": 412,
+            "text": "Figure 9",
+            "ref_id": null
+          },
+          {
+            "start": 920,
+            "end": 929,
+            "text": "(Table 2)",
+            "ref_id": "TABREF1"
+          },
+          {
+            "start": 1084,
+            "end": 1094,
+            "text": "(Figure 10",
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 1187,
+            "end": 1197,
+            "text": "(Figure 11",
+            "ref_id": "FIGREF5"
+          },
+          {
+            "start": 1389,
+            "end": 1399,
+            "text": "(Figure 12",
+            "ref_id": null
+          },
+          {
+            "start": 1731,
+            "end": 1740,
+            "text": "Figure 10",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "II. RECENT ECONOMIC AND INFRASTRUCTURE DEVELOPMENTS IN TANZANIA",
+        "sec_num": null
+      },
+      {
+        "text": "To examine the firm's locational choice in connection to site-specific characteristics, we start with the standard conditional logit framework (McFadden, 1974) . Suppose that firm i maximizes the following general profit function at location or district j:",
+        "cite_spans": [
+          {
+            "start": 143,
+            "end": 159,
+            "text": "(McFadden, 1974)",
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "ij j j ij x \uf065 \uf078 \uf062 \uf070 \uf02b \uf02b \uf03d ' (1) where j j x \uf078 \uf062 \uf02b '",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "is the mean profit level at location j and \u03b5ij is an idiosyncratic error including firm-specific unobservables.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "x consists of location-specific observables, including a measurement of agglomeration economies and infrastructure variables.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Following Berry (1994) , the set of firm-specific unobservables is defined by",
+        "cite_spans": [
+          {
+            "start": 10,
+            "end": 22,
+            "text": "Berry (1994)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "\uf07b \uf07d j k A ik ij i j \uf0b9 \uf022 \uf03e \uf03d for | \uf070 \uf070 \uf065",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": ". Then, the share of firms choosing to be located at district j can be written implicitly by",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "\uf0f2 \uf03d j A j d x f s \uf065 \uf073 \uf065 \uf065 ) , ; (",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": ". When \u03b5 is assumed to be independently and identically distributed with the extreme-value distribution )) exp( exp (   \uf065   \uf02d  \uf02d , the log of the probability of a firm choosing location j is:",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 116,
+            "end": 128,
+            "text": "(   \uf065   \uf02d  \uf02d",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "j j j x s s \uf078 \uf062 \uf02b \uf03d \uf02d ' ln ln 0 (2)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "with the mean profit of the outside option normalized to zero. s0 is the share of firms that take the outside option. In our context, this is assumed to remain unemployed or work in the informal sector. In Tanzania, there is the significant informal sector. About 2.2 million people or about 47 percent of total nonfarm employment are estimated to work in the informal sector (Adams et al. 2013) . The potential number of firms that could be created is defined by the total number of labor force (aged 15 years and above) except for those who are formally employed, divided by the average size of new firms (i.e., five persons). In other words, it is assumed that unemployed people or informal workers can choose to register a firm and be formalized at any location, if the expected profit is positive. Otherwise, they continue unemployed or informal.",
+        "cite_spans": [
+          {
+            "start": 376,
+            "end": 395,
+            "text": "(Adams et al. 2013)",
+            "ref_id": "BIBREF0"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "One empirical issue to estimate Equation 2 In the literature, two empirical solutions exist to deal with this problem. The first approach is the nested logit model, which can partly relax the IIA assumption across different clusters.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "The potential disadvantage is that this is only a partial solution and the nesting structure cannot be known ex ante. The second approach, which the current paper relies on, is to allow correlated errors in \u03bej and eliminate the IIA assumption. This is more flexible with no presumption required and computationally simpler. , be s and x be X in the matrix notation, the following general spatial autoregressive model is considered:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "v M Ws X s \uf02b \uf03d \uf02b \uf02b \uf03d \uf078 \uf072 \uf078 \uf078 \uf06c \uf062 (3)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "where \u03bb is a spatial autoregressive dependence in district share s. \u03c1 represents possible autocorrelation in error term \u03be. W and M are spatial weighting matrices. For both matrices, inverse distances between two locations j and k are used. This follows the Tobler's first law of geography: \"everything is related to everything else, but near things are more related than distant things (Tobler 1970) .\" Two locations are more closely related to each other, if they are located closely. The distance is calculated by the Euclidean distance between the two locations.",
+        "cite_spans": [
+          {
+            "start": 386,
+            "end": 399,
+            "text": "(Tobler 1970)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Another empirical issue to estimate Equation (2) is that infrastructure placement is potentially endogenous. Infrastructure investments are normally targeted. There must be good reasons for each infrastructure project. For example, productive firms prefer to be located where transport access is good, road authorities may also invest more in the places where productive firms exist. As the result, infrastructure variables are likely endogenous in the equation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "To deal with the possible endogeneity of infrastructure variables in X, the spatial instrumental variable estimator (e.g., Anselin, 1988; Drukker st al., 2011) ",
+        "cite_spans": [
+          {
+            "start": 123,
+            "end": 137,
+            "text": "Anselin, 1988;",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 138,
+            "end": 159,
+            "text": "Drukker st al., 2011)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "is used, in which ) , ( \uf06c \uf062",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "is first estimated by the instrumental variable (IV) technique in the untransformed model. Using the estimated residuals, second, \u03c1 is estimated. Finally, using the results and transforming the equation, the generalized spatial two-stage least-squared estimator can be obtained.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Two types of infrastructure are considered in X: electricity and transport. To measure accessibility to electricity, an economic electricity cost is calculated for each district, using residential energy spending. As shown in Figure 4 , electricity access differs across locations.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 226,
+            "end": 234,
+            "text": "Figure 4",
+            "ref_id": "FIGREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Therefore, the economic cost of energy should be different across locations. With the option of not having access to power taken into account, the weighted average electricity costs are calculated in a spatial dimension. For Tanzania, four energy options are considered: grid power, solar power, own generator, and kerosene lamps as an option of not having power.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "While grid power is the cheapest at 6.7 cents/kWh, lighting by kerosene lamps are about 50 times more expensive than grid power when lumens are taken into account.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Transportation is critical for any business activities. The firm location literature particularly focuses on accessibility to fundamental transport infrastructure, such as highway and ports (e.g., Boudier-Bensebaa, 2005; Cie\u015blik and Ryan, 2004; Milner et al., 2006; Belderbos and Carree, 2002; Deichmann et al., 2005) . Three measurements are considered in this paper: (i) local connectivity, (ii) accessibility to the domestic market, and (iii) accessibility to the global market. Local connectivity is measured by road density at the district level. The domestic market accessibility is measured by the transport cost to the nearest city with more than 100,000 populations. Finally, the proximity to the global market is measured by the transport cost to the port (either Mombasa or Dar es Salaam). See Figure 8 above. 4 In order to instrument these infrastructure variables, two instruments are considered: (i) straight-line distance from each district to the nearest hydropower station, and (ii) straightline distance from each district to the linear proxy rail line between Dar es Salaam and Kigoma. For the former, it is reasonable to assume that hydro resources are fairly exogenous.",
+        "cite_spans": [
+          {
+            "start": 197,
+            "end": 220,
+            "text": "Boudier-Bensebaa, 2005;",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 221,
+            "end": 244,
+            "text": "Cie\u015blik and Ryan, 2004;",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 245,
+            "end": 265,
+            "text": "Milner et al., 2006;",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 266,
+            "end": 293,
+            "text": "Belderbos and Carree, 2002;",
+            "ref_id": "BIBREF4"
+          },
+          {
+            "start": 294,
+            "end": 317,
+            "text": "Deichmann et al., 2005)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 821,
+            "end": 822,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 805,
+            "end": 813,
+            "text": "Figure 8",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "And the probability to receive \"exogenous\" benefits from electrification would likely increase if a district is located closer to hydro resources.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "The second instrument follows the recent literature focused on the evaluation of infrastructure investment. Chandra and Thompson (2000) , examining the impact of the U.S.",
+        "cite_spans": [
+          {
+            "start": 120,
+            "end": 135,
+            "text": "Thompson (2000)",
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "interstate highways on earnings of firms, argue that the non-metropolitan counties served by highways received exogenous benefits, because the interstate highways first aimed at connecting metropolitan areas. Banerjee et al. (2012) also apply the same concept for the case of Chinese railways, calculating the distance from counties to straight lines connecting historic cities and ports, which can be arguably treated as exogenous.",
+        "cite_spans": [
+          {
+            "start": 209,
+            "end": 231,
+            "text": "Banerjee et al. (2012)",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Following these studies, a straight-line is drawn from Dar es Salaam, from where the construction of the Central Railway was started in 1905, to Kigoma, a port town situated on Lake Tanganyika, which was reached in 1914 ( Figure 13 ). The railway construction was largely motivated for political and military reasons, especially between two European powers, Britain and Germany (Amin, Willetts and Matheson, 1986) . Since other transport infrastructure development followed the railway construction, the areas between Dar es Salaam and Kigoma are considered to be more likely to receive \"exogenous\" benefits from transport investments.",
+        "cite_spans": [
+          {
+            "start": 378,
+            "end": 413,
+            "text": "(Amin, Willetts and Matheson, 1986)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 222,
+            "end": 231,
+            "text": "Figure 13",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Other explanatory variables included in X are summarized in Table 3 . For obvious reasons, the firm location is likely to depend on the market potential, which is measured by the number of population. Labor market conditions also seem to be important (e.g., Procher, 2011 ). Both labor costs and quality are included (i.e., average wages and education attainment). The recent literature focuses on the impact of local taxation on firms' locational choice of investment (e.g., Brulhart, Jametti and Schmidheiny, 2012; Mare and Graham, 2013) . Local tax revenue data are available at least at the regional level in Tanzania (denoted by RENT). Since agrobusiness is one of the major industries in Tanzania. Presumably, the proximity to agriculture production areas is one possible advantage for agrobusinesses. The total value of agriculture commodities produced in each district is used as a measurement for this. ",
+        "cite_spans": [
+          {
+            "start": 258,
+            "end": 271,
+            "text": "Procher, 2011",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 476,
+            "end": 516,
+            "text": "Brulhart, Jametti and Schmidheiny, 2012;",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 517,
+            "end": 539,
+            "text": "Mare and Graham, 2013)",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 60,
+            "end": 67,
+            "text": "Table 3",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "III. METHODOLOGY AND DATA",
+        "sec_num": null
+      },
+      {
+        "text": "Instrumental variable spatial autoregressive estimation is performed; the results are shown in Table 4 . First of all, agglomeration economies are found to be significant, but the significance seems weak. The elasticity is estimated at 0.14, which is broadly consistent with the existing literature (e.g., 0.18 for French firms in Europe (Procher, 2011) ; 0.37 for Korean manufactures in the U.S. (Lee et al., 2012) ; 0.05 for firms in New Zealand (Mare and Graham, 2013) ). The policy implication is straightforward: It is important to take advantage of agglomeration economies to strengthen firm competitiveness. But further efforts are perhaps needed to reinforce the agglomeration effect on the economy.",
+        "cite_spans": [
+          {
+            "start": 338,
+            "end": 353,
+            "text": "(Procher, 2011)",
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 397,
+            "end": 415,
+            "text": "(Lee et al., 2012)",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 448,
+            "end": 471,
+            "text": "(Mare and Graham, 2013)",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 95,
+            "end": 102,
+            "text": "Table 4",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "Second, the estimation results also suggest that transport infrastructure is important to foster firm concentration. Firms are more likely to be located where local connectivity (measured by road density) is high. Similarly, the domestic market connectivity is also found important.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "The coefficient is significant at -0.37. Firms prefer to be based where the transport costs are lower to buy materials from and send products to the large city.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "The global market connectivity is found far more important in terms of magnitude. The coefficient of TPORT is significantly negative at -2.44. Therefore, a large number of new firms are expected to be created at a particular locality, if the transport costs from that place to the port are reduced. This indicates the importance of transport corridor investments to connect better local cities to the port as a package.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "Regarding other explanatory variables, the local market size is found to be important for firms to decide their location. This is consistent with prior expectation. Education is also important, because this would affect the quality of expected labor supply. Interestingly, the coefficient is significant for primary education, but not for secondary education. The results may be interpreted to mean either that higher education attainment is not demanded by businesses given the level of industrialization or that the quality of secondary education is not sufficient from the business point of view.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "The impact of electricity access turned out unclear. The coefficients are positive, not negative, and statistically insignificant. One possible reason is that our measurement of power infrastructure may be poor, because our economic cost of power is calculated based on the residential power access data. Firms normally have better access than households.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "Second, the power cost may not have much variation in the spatial dimension, regardless of the differences observed in our variable. Therefore, this may not strongly influence the firm location choice.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "Another unexpected result is that the coefficient of local agriculture production value is negative and significant. It means that firms are more likely to be located where agricultural production is lower. This is intuitively acceptable from the urban-rural division point of view. Firms are located in urban areas. However, it also means that firms, partly including agrobusinesses, are not well linked to agriculture production areas. This may raise certain concern and remind policy makers of the importance to strengthen infrastructure investments to connect farmers and firms. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "IV. MAIN ESTIMATION RESULTS",
+        "sec_num": null
+      },
+      {
+        "text": "Given the above results, one of the important empirical questions is whether spatial autocorrelation really matters to the firm location choice. As shown at the bottom of Table 4 , the spatial autocorrelation is found to be significant. The spatial autoregressive term \u03bb is estimated at 0.3 to 0.4. Therefore, as expected, there are positive externalities of firm location choice around the neighboring areas.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 171,
+            "end": 178,
+            "text": "Table 4",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "V. DISCUSSION",
+        "sec_num": null
+      },
+      {
+        "text": "On the other hand, the spatial error term \u03c1 is found statistically insignificant. This means that an exogenous shock in a particular district is not likely to affect its neighboring districts. For instance, suppose that some extreme weather events, such as flood, unexpectedly happen to a particular district. The event may affect the firm investment behavior in that district, but not in the neighboring districts.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. DISCUSSION",
+        "sec_num": null
+      },
+      {
+        "text": "Another important empirical issue is the endogeneity of infrastructure placement. If the infrastructure variables are exogenous, a more efficient model would be the simple spatial autoregression estimation without any instrument involved. As discussed above, the spatial autocorrelation is significant in our data; therefore, the ordinary least squares estimator is not likely to be unbiased in any case.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. DISCUSSION",
+        "sec_num": null
+      },
+      {
+        "text": "The estimated coefficients turned out to be broadly similar to the above (Table 5 ). However, the conventional Hausman exogeneity tests suggest that the spatial instrumental variable estimator is consistent. The chi-square test statistics are estimated at 9.86, 2.68 and 4.44 for the column (1), (2) and (3) models. For the models with road density and transport costs to the port, the exogeneity hypothesis can be rejected. Therefore, the infrastructure variables are likely to be endogenous in our data. Finally, from the policy point of view, one may be interested in asking which transport infrastructure is most important to attract more firms. The above analysis includes only one transport variable in each regression, and thus, technically speaking, cannot answer this question. There is an obvious constraint on available instrumental variables.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 73,
+            "end": 81,
+            "text": "(Table 5",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "V. DISCUSSION",
+        "sec_num": null
+      },
+      {
+        "text": "With two more instruments constructed: (i) distance to a line between Dar es Salaam and Mwanza, and (ii) distance to the border line between Kenya and Tanzania, the spatial autoregressive models are estimated (Table 6) . 5 The results are broadly consistent with Table   4 . Among transport variables, the global market connectivity, namely, transport costs to the port, turned out most important, followed by local connectivity measured by road density.",
+        "cite_spans": [
+          {
+            "start": 221,
+            "end": 222,
+            "text": "5",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 209,
+            "end": 218,
+            "text": "(Table 6)",
+            "ref_id": "TABREF5"
+          },
+          {
+            "start": 263,
+            "end": 272,
+            "text": "Table   4",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "V. DISCUSSION",
+        "sec_num": null
+      },
+      {
+        "text": "Therefore, the transport connectivity from cities to the port should be prioritized when public infrastructure investment is considered. The rationale for the first additional instrument is the same as the rail line from Dar es Salaam to Kigoma. The Central Railway aimed at not only Kigoma but also Mwanza. The rationale for the second instrument is based on the historical fact that Britain and Germany were aggressively racing to develop railroads along the de facto border line in the 1890s, to claim colonial rights. Therefore, the areas closer to the border line would be more likely to receive \"exogenous\" benefits from railways and other transport modes developed subsequently.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "V. DISCUSSION",
+        "sec_num": null
+      },
+      {
+        "text": "Agglomeration economies are one of the important factors to increase firm productivity, despite the falling costs of distance in recent years. Firms still prefer to be located close to one another at a particular locality. Unlike other developing countries, Africa has only a few industrial clusters, such as textiles in East Africa. There are a number of potential constraints on businesses in Africa. Among others, labor productivity, land access and infrastructure are among the important common constraints.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "VI. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "The paper recast light on firm location behavior in Africa. Using the recent firm registry database in Tanzania, particular attention was paid to the effects of infrastructure conditions, such as transport connectivity. To deal with the potential endogeneity caused by infrastructure placement as well as spatial autocorrelation among neighboring locations, the instrumental variable spatial autoregressive model was applied. The results indicate significant agglomeration economies. Thus, it is important to foster firm agglomerations and increase industrial competition. It is also found that improved local connectivity measured by road density and transport access to large cities can attract more firms. The global market connectivity is also found to be particularly important. Firms are more likely to select a place where the transport cost to the port is low.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "VI. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "From the methodological point of view, the paper found the importance of dealing with infrastructure endogeneity in the empirical model. According to the exogeneity test, infrastructure variables are likely endogenous. In addition, spatial autocorrelation is also found to matter to the firm location choice. As expected, there are positive externalities of firm location choice around the neighboring areas.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "VI. CONCLUSION",
+        "sec_num": null
+      },
+      {
+        "text": "\"United Republic of Tanzania: Sixth Review Under the Policy Support Instrument, Second Review Under the Standby Credit Facility Arrangement, and Request for Modification of Performance Criteria.\" 2013. IMF. 2 Tanzania is ranked 110th (out of 118) according to the UNIDO's Competitive Industrial Performance (CIP) index.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Recall that there are 120 choices (or districts) in our case. About 11,000 firms were newly created or registered in 2010 alone. Therefore, it is computationally heavy to apply the standard maximum likelihood procedure for this. The advantage of estimating the share equation(Berry, 1994) is that the possible spatial autocorrelation can be dealt with easily in the linear fashion.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Various assumptions are made to calculate the lowest transport cost from a district to the nearest city or port. It is composed of vehicle operating costs, which are assumed to differ according to road characteristics, such as road class, surface and road conditions, opportunity time costs of drivers, waiting time at transport nodes, such as rail stations and ports, and nodal fees and charges, such as cargo handling and customs fees. An optimal route is selected based on the lowest transport cost, potentially combining multiple transport modes, such as roads and railway.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "Economic Geography, Vol. 46(2), pp. 234-240. Yusuf, Shahid, Kaoru Nabeshima, and Shoichi Yamashita. 2008. Growing Industrial Clusters in Asia: Serendipity and Science. The World Bank.",
+        "cite_spans": [
+          {
+            "start": 9,
+            "end": 124,
+            "text": "Geography, Vol. 46(2), pp. 234-240. Yusuf, Shahid, Kaoru Nabeshima, and Shoichi Yamashita. 2008. Growing Industrial",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "annex",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Improving Skills Development in the Informal Sector Strategies for Sub-Saharan Africa",
+        "authors": [
+          {
+            "first": "Arvil",
+            "middle": [],
+            "last": "Adams",
+            "suffix": ""
+          },
+          {
+            "first": "Sara Johansson De",
+            "middle": [],
+            "last": "Silva",
+            "suffix": ""
+          },
+          {
+            "first": "Setareh",
+            "middle": [],
+            "last": "Razmara",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Adams, Arvil, Sara Johansson de Silva, and Setareh Razmara. 2013. Improving Skills Development in the Informal Sector Strategies for Sub-Saharan Africa. The World Bank.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Railway across the Equator: The Story of the East African Line. The Bodley Head Ltd",
+        "authors": [
+          {
+            "first": "Mohamed",
+            "middle": [],
+            "last": "Amin",
+            "suffix": ""
+          },
+          {
+            "first": "Duncan",
+            "middle": [],
+            "last": "Willetts",
+            "suffix": ""
+          },
+          {
+            "first": "Alastair",
+            "middle": [],
+            "last": "Matheson",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Amin, Mohamed, Duncan Willetts, and Alastair Matheson. 1986. Railway across the Equator: The Story of the East African Line. The Bodley Head Ltd. London.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Spatial Econometrics: Methods and Models",
+        "authors": [
+          {
+            "first": "Luc",
+            "middle": [],
+            "last": "Anselin",
+            "suffix": ""
+          }
+        ],
+        "year": 1988,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Anselin, Luc. 1988. Spatial Econometrics: Methods and Models. Boston: Kluwer Academic Publishers.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "On the Road: Access to Transportation Infrastructure and Economic Growth in China",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Banerjee",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Duflo",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Qian",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "National Bureau of Economic Research",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Banerjee, A., E, Duflo, and N. Qian. 2012. \"On the Road: Access to Transportation Infrastructure and Economic Growth in China,\" NBER Working Paper 17897, National Bureau of Economic Research, Washington, DC.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "The location of Japanese investments in China: Agglomeration effects, Keiretsu, and firm heterogeneity",
+        "authors": [
+          {
+            "first": "Ren\u00e9",
+            "middle": [],
+            "last": "Belderbos",
+            "suffix": ""
+          },
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Carree",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Journal of The Japanese and International Economies",
+        "volume": "16",
+        "issue": "3",
+        "pages": "194--211",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Belderbos, Ren\u00e9, and Martin Carree. 2002. The location of Japanese investments in China: Agglomeration effects, Keiretsu, and firm heterogeneity. Journal of The Japanese and International Economies, Vol. 16(3), pp. 194-211.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Estimating discrete-choice models of product differentiation",
+        "authors": [
+          {
+            "first": "Steven",
+            "middle": [],
+            "last": "Berry",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "RAND Journal of Economics",
+        "volume": "25",
+        "issue": "2",
+        "pages": "242--262",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Berry, Steven. 1994. Estimating discrete-choice models of product differentiation. RAND Journal of Economics, Vol. 25(2), pp. 242-262.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Agglomeration economies and location choice: Foreign direct investment in Hungary",
+        "authors": [
+          {
+            "first": "Fabienne",
+            "middle": [],
+            "last": "Boudier-Bensebaa",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "Economics of Transition",
+        "volume": "13",
+        "issue": "4",
+        "pages": "605--628",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Boudier-Bensebaa, Fabienne. 2005. Agglomeration economies and location choice: Foreign direct investment in Hungary. Economics of Transition, Vol. 13(4), pp. 605-628.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Do agglomeration economies reduce the sensitivity of firm location to tax differentials?",
+        "authors": [
+          {
+            "first": "Marius",
+            "middle": [],
+            "last": "Brulhart",
+            "suffix": ""
+          },
+          {
+            "first": "Mario",
+            "middle": [],
+            "last": "Jametti",
+            "suffix": ""
+          },
+          {
+            "first": "Kurt",
+            "middle": [],
+            "last": "Schmidheiny",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "The Economic Journal",
+        "volume": "122",
+        "issue": "",
+        "pages": "1069--1093",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Brulhart, Marius, Mario Jametti, and Kurt Schmidheiny. 2012. Do agglomeration economies reduce the sensitivity of firm location to tax differentials? The Economic Journal, Vol. 122, pp. 1069-1093.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Does public infrastructure affect economic activity? Evidence from the rural interstate highway system",
+        "authors": [
+          {
+            "first": "Chandra",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          },
+          {
+            "first": "Thompson",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Regional Science and Urban Economics",
+        "volume": "30",
+        "issue": "",
+        "pages": "457--490",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chandra, and Thompson. 2000. \"Does public infrastructure affect economic activity? Evidence from the rural interstate highway system\" Regional Science and Urban Economics 30, 457-490.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Explaining Japanese direct investment flows into an enlarged Europe: A comparison of gravity and economic potential approaches",
+        "authors": [
+          {
+            "first": "Andrzej",
+            "middle": [],
+            "last": "Cie\u015blik",
+            "suffix": ""
+          },
+          {
+            "first": "Michael",
+            "middle": [],
+            "last": "Ryan",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Journal of the Japanese and International Economies",
+        "volume": "8",
+        "issue": "1",
+        "pages": "12--37",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cie\u015blik, Andrzej, and Michael Ryan. 2004. Explaining Japanese direct investment flows into an enlarged Europe: A comparison of gravity and economic potential approaches. Journal of the Japanese and International Economies, Vol. 8(1), pp. 12-37.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Agglomeration, transport, and regional development in Indonesia",
+        "authors": [
+          {
+            "first": "Uwe",
+            "middle": [],
+            "last": "Deichmann",
+            "suffix": ""
+          },
+          {
+            "first": "Kai",
+            "middle": [],
+            "last": "Kaiser",
+            "suffix": ""
+          },
+          {
+            "first": "Somik",
+            "middle": [],
+            "last": "Lall",
+            "suffix": ""
+          },
+          {
+            "first": "Zmarak",
+            "middle": [],
+            "last": "Shalizi",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deichmann, Uwe, Kai Kaiser, Somik Lall, and Zmarak Shalizi. 2005. Agglomeration, transport, and regional development in Indonesia. Policy Research Working Paper No. 3477. Washington DC: The World Bank.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Light Manufacturing in Africa: Targeted Policies to Enhance Private Investment and Create Jobs",
+        "authors": [
+          {
+            "first": "Hinh",
+            "middle": [],
+            "last": "Dinh",
+            "suffix": ""
+          },
+          {
+            "first": "Vincent",
+            "middle": [],
+            "last": "Palmade",
+            "suffix": ""
+          },
+          {
+            "first": "Vandana",
+            "middle": [],
+            "last": "Chandra",
+            "suffix": ""
+          },
+          {
+            "first": "Fances",
+            "middle": [],
+            "last": "Cossar",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dinh, Hinh, Vincent Palmade, Vandana Chandra, Fances Cossar. 2012. Light Manufacturing in Africa: Targeted Policies to Enhance Private Investment and Create Jobs. The World Bank.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "A command for estimating spatialautoregressive models with spatial autoregressive disturbances and additional endogenous variables. Working paper",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [
+              "M"
+            ],
+            "last": "Drukker",
+            "suffix": ""
+          },
+          {
+            "first": "I",
+            "middle": [
+              "R"
+            ],
+            "last": "Prucha",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Raciborski",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Drukker, D. M., I. R. Prucha, and R. Raciborski. 2011. A command for estimating spatial- autoregressive models with spatial autoregressive disturbances and additional endogenous variables. Working paper, The University of Maryland, Department of Economics.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "The Spatial Economy",
+        "authors": [
+          {
+            "first": "Masahisa",
+            "middle": [],
+            "last": "Fujita",
+            "suffix": ""
+          },
+          {
+            "first": "Paul",
+            "middle": [],
+            "last": "Krugman",
+            "suffix": ""
+          },
+          {
+            "first": "Anthony",
+            "middle": [],
+            "last": "Venables",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fujita, Masahisa, Paul Krugman, and Anthony Venables. 1999. The Spatial Economy. MIT Press.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Increasing returns and economic geography",
+        "authors": [
+          {
+            "first": "Paul",
+            "middle": [],
+            "last": "Krugman",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "Journal of Political Economy",
+        "volume": "99",
+        "issue": "3",
+        "pages": "483--499",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Krugman, Paul. 1991. Increasing returns and economic geography. Journal of Political Economy, Vol. 99(3), 483-499.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Agglomeration economies and location choice of Korean manufactures within the United States",
+        "authors": [
+          {
+            "first": "Ki-Dong",
+            "middle": [],
+            "last": "Lee",
+            "suffix": ""
+          },
+          {
+            "first": "Seok-Joon",
+            "middle": [],
+            "last": "Hwang",
+            "suffix": ""
+          },
+          {
+            "first": "Min-Hwan",
+            "middle": [],
+            "last": "Lee",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Applied Economics",
+        "volume": "44",
+        "issue": "",
+        "pages": "189--200",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lee, Ki-Dong, Seok-Joon Hwang, and Min-hwan Lee. 2012. Agglomeration economies and location choice of Korean manufactures within the United States. Applied Economics, Vol. 44, pp. 189-200.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Agglomeration elasticities and firm heterogeneity",
+        "authors": [
+          {
+            "first": "David",
+            "middle": [],
+            "last": "Mare",
+            "suffix": ""
+          },
+          {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Graham",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Journal of Urban Economics",
+        "volume": "75",
+        "issue": "",
+        "pages": "44--56",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mare, David, and Daniel Graham. 2013. Agglomeration elasticities and firm heterogeneity. Journal of Urban Economics, Vol. 75, pp. 44-56.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Conditional logit analysis of qualitative choice behavior",
+        "authors": [
+          {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Mcfadden",
+            "suffix": ""
+          }
+        ],
+        "year": 1974,
+        "venue": "Frontiers in Econometrics",
+        "volume": "",
+        "issue": "",
+        "pages": "105--142",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "McFadden, Daniel. 1974. Conditional logit analysis of qualitative choice behavior. In Frontiers in Econometrics, edt. by P. Zarembka, pp. 105-142. Academic Press.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Vertical linkages and agglomeration effects in Japanese FDI in Thailand",
+        "authors": [
+          {
+            "first": "Chris",
+            "middle": [],
+            "last": "Milner",
+            "suffix": ""
+          },
+          {
+            "first": "Geoff",
+            "middle": [],
+            "last": "Reed",
+            "suffix": ""
+          },
+          {
+            "first": "Pawin",
+            "middle": [],
+            "last": "Talerngsri",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Journal of The Japanese and International Economies",
+        "volume": "20",
+        "issue": "2",
+        "pages": "193--208",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Milner, Chris, Geoff Reed, and Pawin Talerngsri. 2006. Vertical linkages and agglomeration effects in Japanese FDI in Thailand. Journal of The Japanese and International Economies, Vol. 20(2), pp. 193-208.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Ministry of Industry and Trade",
+        "authors": [],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ministry of Industry and Trade. 2012. Tanzania Industrial Comepetitiveness Report 2012. Ministry of Industry and Trade, Tanzania.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "A cluster-based industrial development policy for lowincome countries",
+        "authors": [
+          {
+            "first": "Keijiro",
+            "middle": [],
+            "last": "Otsuka",
+            "suffix": ""
+          },
+          {
+            "first": "Tetsushi",
+            "middle": [],
+            "last": "Sonobe",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "Policy Research Working Paper",
+        "volume": "",
+        "issue": "5703",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Otsuka, Keijiro, and Tetsushi Sonobe. A cluster-based industrial development policy for low- income countries. Policy Research Working Paper No. 5703, World Bank.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Agglomeration effects and the location of FDI: Evidence from French first-time movers",
+        "authors": [
+          {
+            "first": "Vivien",
+            "middle": [],
+            "last": "Procher",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Annals of Regional Science",
+        "volume": "46",
+        "issue": "",
+        "pages": "295--312",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Procher, Vivien. 2011. Agglomeration effects and the location of FDI: Evidence from French first-time movers. Annals of Regional Science, Vol. 46, pp. 295-312.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "Tanzania: Growth contribution by sector Figure 2. Tanzania: Crop production and prices Share of firms that identified each factor as a major constraint (percent) Source: BEEPS.",
+        "uris": null,
+        "fig_num": "13",
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF1": {
+        "text": "Share of households with electricity by district and electrification status by villageSources: LSMS 2010 and Rural Energy Agency, Tanzania.",
+        "uris": null,
+        "fig_num": "4",
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF2": {
+        "text": "Figure 5. Classified road network in poor condition Figure 6. Road density",
+        "uris": null,
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF3": {
+        "text": "Rural accessibility index Figure 8. Transport costs to the port (US$ per ton) Agriculture production, 2010 (US$ million) Source: World Bank calculation.Source: SPAM update.",
+        "uris": null,
+        "fig_num": "79",
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF4": {
+        "text": "Tanzania: Numbers of existing firms and new firms Source: World Bank calculation based on the Central Register of Establishments (CRE) Statistics, 2009, 2010.",
+        "uris": null,
+        "fig_num": "10",
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF5": {
+        "text": "Geographic concentration of firms in Kenya and Tanzania Figure 12. Kenya: Numbers of existing firms in 2012",
+        "uris": null,
+        "fig_num": "11",
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF6": {
+        "text": "by the traditional conditional logit model is the assumption of independence of irrelevant alternatives (IIA). The IIA assumption requires that preferences between any pair of two choices are independent of the third option. In our context, this means that the relative attractiveness of one location to another is not changed even if the underlying characteristics of the third location are changed. But this is likely to be violated, because the attractiveness of one location is interdependent on all other locations, particularly surrounding ones. Mathematically, 0 the equation in n (e.g., Procher, 2011; Mare and Grahanm, 2013). The spatial interdependence comes from two sources. First, there is often spatial interdependency across locations. While infrastructure is a typical network industry (e.g., roads are connected to each other), agglomeration economies themselves imply spatial interdependency around the neighboring areas. Second, from the empirical point of view, it is likely to have some omitted variables in the model. Spatial autocorrelation lies in \u03bej if there are any unobservable location-specific characteristics.",
+        "uris": null,
+        "fig_num": null,
+        "type_str": "figure",
+        "num": null
+      },
+      "FIGREF8": {
+        "text": "Instrumental variables for infrastructure variables",
+        "uris": null,
+        "fig_num": "13",
+        "type_str": "figure",
+        "num": null
+      },
+      "TABREF0": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "num": null,
+        "content": "<table><tr><td>Electrification rates</td><td/><td/></tr><tr><td colspan=\"2\">Electrification</td><td>Population without</td></tr><tr><td/><td>rate (%)</td><td>electricity (million)</td></tr><tr><td>Burundi</td><td>10.8</td><td>8.2</td></tr><tr><td>Kenya</td><td>16.1</td><td>33.4</td></tr><tr><td>Rwanda</td><td>11.0</td><td>9.6</td></tr><tr><td>Tanzania</td><td>13.9</td><td>37.7</td></tr><tr><td>Uganda</td><td>9.0</td><td>28.1</td></tr><tr><td>Sub-Saharan Africa</td><td>30.5</td><td>585.2</td></tr></table>"
+      },
+      "TABREF1": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "num": null,
+        "content": "<table><tr><td/><td>Number of firms registered</td><td>Share (%)</td></tr><tr><td>Dar es Salaam 1</td><td>11,817</td><td>25.8</td></tr><tr><td>Arumeru</td><td>1,621</td><td>3.5</td></tr><tr><td>Moshi</td><td>1,556</td><td>3.4</td></tr><tr><td>Mbeya</td><td>1,541</td><td>3.4</td></tr><tr><td>Arusha</td><td>1,514</td><td>3.3</td></tr><tr><td>Songea</td><td>1,297</td><td>2.8</td></tr><tr><td>Bukoba</td><td>1,152</td><td>2.5</td></tr><tr><td>Mbinga</td><td>1,124</td><td>2.4</td></tr><tr><td>Mtwara</td><td>1,106</td><td>2.4</td></tr><tr><td>Tanga</td><td>1,032</td><td>2.2</td></tr><tr><td>Njombe</td><td>965</td><td>2.1</td></tr><tr><td>Dodoma</td><td>840</td><td>1.8</td></tr><tr><td>Other districts</td><td>20,316</td><td>44.3</td></tr><tr><td>Total</td><td>45,881</td><td>100.0</td></tr></table>"
+      },
+      "TABREF2": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "num": null,
+        "content": "<table><tr><td>Summary statistics</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Abb.</td><td colspan=\"2\">Obs Mean</td><td colspan=\"2\">Std. Dev. Min</td><td>Max</td></tr><tr><td>Share of firms deciding to be located at district j</td><td>Sj</td><td colspan=\"4\">118 0.000027 0.000046 0.000000</td><td>0.000372</td></tr><tr><td>Number of firms newly establisehd in district j in</td><td/><td>118</td><td>93.6</td><td>162.2</td><td>0.0</td><td>1307.0</td></tr><tr><td>2010</td><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Number of firms that existed in district j in 2005 NUM</td><td>118</td><td>137.9</td><td>350.4</td><td>0.0</td><td>2411.0</td></tr><tr><td>Road density (km/1,000 km2) 1</td><td>RDDN</td><td>118</td><td>0.53</td><td>1.08</td><td>0.02</td><td>8.50</td></tr><tr><td>Transport cost to the city with more than 100,000</td><td>TCITY</td><td>118</td><td>8.2</td><td>15.2</td><td>0.0</td><td>157.1</td></tr><tr><td>population (US$/ton) 1</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Transport cost to the port (US$/ton) 1</td><td>TPORT</td><td>118</td><td>135.8</td><td>21.7</td><td>96.4</td><td>177.4</td></tr><tr><td>District population in 2002</td><td>POP</td><td colspan=\"5\">118 283,575 168,541 40,557 1,083,913</td></tr><tr><td>Average monthly wage rate (TSh) 2</td><td>WAGE</td><td colspan=\"5\">118 206,600 270,639 40,333 2,521,750</td></tr><tr><td>Share of people who completed at least primary</td><td>EDU1</td><td>118</td><td>0.46</td><td>0.13</td><td>0.14</td><td>0.76</td></tr><tr><td>education 2</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Share of people who completed at least secondary</td><td>EDU2</td><td>118</td><td>0.05</td><td>0.05</td><td>0.00</td><td>0.24</td></tr><tr><td>education 2</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Land rent (estimated land replacement cost) (TSh</td><td>RENT</td><td>118</td><td>8.71</td><td>48.60</td><td>0.07</td><td>508.00</td></tr><tr><td>million per acre) 2</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Agriculture production value (US$ million) 3</td><td>AGV</td><td>118</td><td>24.0</td><td>38.1</td><td>0.0</td><td>332.6</td></tr><tr><td>Local tax (TSh per capita) 4</td><td>LTAX</td><td>118</td><td>844.9</td><td>664.9</td><td>212.1</td><td>4299.4</td></tr><tr><td>Economic electricity cost (US$ per kWh) 5</td><td>POWER</td><td>118</td><td>310.3</td><td>67.2</td><td>96.9</td><td>366.5</td></tr><tr><td colspan=\"3\">1/ World Bank calculations based on the Government's road data.</td><td/><td/><td/><td/></tr><tr><td>2/ Data are calculated based on the 2010 LSMS.</td><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"7\">3/ Based on the National Sample Census of Agriculture in 2002/03, evaluated at the regional commodity prices</td></tr><tr><td>from FAO statistics.</td><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"7\">4/ Based on local tax revenue in 2004. The regional data are available in \"Local Government Finance\" by</td></tr><tr><td colspan=\"7\">President's Office, Regional Administration and Local Government, Ministry of Finance, The United Republic</td></tr><tr><td>of Tanzania.</td><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">5/ World Bank calculations based on the 2010 LSMS data.</td><td/><td/><td/><td/><td/></tr></table>"
+      },
+      "TABREF3": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "num": null,
+        "content": "<table><tr><td colspan=\"4\">. Spatial instrumental variable estimation results</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td></tr><tr><td>lnRDDN</td><td>0.959 ***</td><td/><td/></tr><tr><td/><td>(0.289)</td><td/><td/></tr><tr><td>lnTCITY</td><td/><td>-0.377 **</td><td/></tr><tr><td/><td/><td>(0.175)</td><td/></tr><tr><td>lnTPORT</td><td/><td/><td>-2.444 *</td></tr><tr><td/><td/><td/><td>(1.279)</td></tr><tr><td>lnNUM</td><td>0.113</td><td>0.137 *</td><td>0.138 *</td></tr><tr><td/><td>(0.086)</td><td>(0.081)</td><td>(0.079)</td></tr><tr><td>lnPOP</td><td>0.665 ***</td><td>0.482 **</td><td>0.626 **</td></tr><tr><td/><td>(0.228)</td><td>(0.230)</td><td>(0.283)</td></tr><tr><td>lnWAGE</td><td>0.300 *</td><td>0.050</td><td>0.203</td></tr><tr><td/><td>(0.165)</td><td>(0.186)</td><td>(0.174)</td></tr><tr><td>lnEDU1</td><td>2.338 *</td><td>2.701 **</td><td>2.768 **</td></tr><tr><td/><td>(1.297)</td><td>(1.156)</td><td>(1.187)</td></tr><tr><td>lnEDU2</td><td>-3.044</td><td>1.273</td><td>5.134</td></tr><tr><td/><td>(4.574)</td><td>(5.368)</td><td>(5.560)</td></tr><tr><td>lnRENT</td><td>0.128</td><td>0.220 *</td><td>0.197</td></tr><tr><td/><td>(0.124)</td><td>(0.125)</td><td>(0.124)</td></tr><tr><td>lnAGV</td><td>-0.062</td><td>-0.141 ***</td><td>-0.178 ***</td></tr><tr><td/><td>(0.047)</td><td>(0.047)</td><td>(0.057)</td></tr><tr><td>lnTAX</td><td>0.157</td><td>0.414</td><td>-0.169</td></tr><tr><td/><td>(0.264)</td><td>(0.309)</td><td>(0.382)</td></tr><tr><td>lnPOWER</td><td>1.814</td><td>1.789</td><td>1.513</td></tr><tr><td/><td>(1.882)</td><td>(1.633)</td><td>(1.572)</td></tr><tr><td>constant</td><td>-23.998 ***</td><td>-22.520 ***</td><td>-9.798</td></tr><tr><td/><td>(4.296)</td><td>(4.242)</td><td>(6.803)</td></tr><tr><td>Obs</td><td>118</td><td>118</td><td>118</td></tr><tr><td>\u03bb</td><td>0.440 ***</td><td>0.341 ***</td><td>0.339 ***</td></tr><tr><td/><td>(0.116)</td><td>(0.095)</td><td>(0.079)</td></tr><tr><td>\u03c1</td><td>0.498</td><td>0.057</td><td>-1.106</td></tr><tr><td/><td>(1.011)</td><td>(1.120)</td><td>(1.110)</td></tr></table>"
+      },
+      "TABREF4": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "num": null,
+        "content": "<table><tr><td colspan=\"4\">Spatial autoregressive estimation without instruments</td></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td></tr><tr><td>lnRDDN</td><td>0.465 ***</td><td/><td/></tr><tr><td/><td>(0.161)</td><td/><td/></tr><tr><td>lnTCITY</td><td/><td>-0.209 **</td><td/></tr><tr><td/><td/><td>(0.094)</td><td/></tr><tr><td>lnTPORT</td><td/><td/><td>-2.113 *</td></tr><tr><td/><td/><td/><td>(1.209)</td></tr><tr><td>lnNUM</td><td>0.106</td><td>0.120</td><td>0.118</td></tr><tr><td/><td>(0.082)</td><td>(0.079)</td><td>(0.077)</td></tr><tr><td>lnPOP</td><td>0.490 **</td><td>0.417 *</td><td>0.496 **</td></tr><tr><td/><td>(0.224)</td><td>(0.219)</td><td>(0.239)</td></tr><tr><td>lnWAGE</td><td>0.193</td><td>0.057</td><td>0.138</td></tr><tr><td/><td>(0.157)</td><td>(0.160)</td><td>(0.162)</td></tr><tr><td>lnEDU1</td><td>2.404 **</td><td>2.615 **</td><td>2.656 **</td></tr><tr><td/><td>(1.199)</td><td>(1.121)</td><td>(1.163)</td></tr><tr><td>lnEDU2</td><td>-3.549</td><td>-1.675</td><td>-0.544</td></tr><tr><td/><td>(3.284)</td><td>(3.256)</td><td>(3.479)</td></tr><tr><td>lnRENT</td><td>0.166</td><td>0.212 *</td><td>0.198 *</td></tr><tr><td/><td>(0.130)</td><td>(0.120)</td><td>(0.119)</td></tr><tr><td>lnAGV</td><td>-0.064 **</td><td>-0.102 ***</td><td>-0.120 ***</td></tr><tr><td/><td>(0.032)</td><td>(0.028)</td><td>(0.035)</td></tr><tr><td>lnTAX</td><td>0.063</td><td>0.178</td><td>-0.230</td></tr><tr><td/><td>(0.277)</td><td>(0.288)</td><td>(0.377)</td></tr><tr><td>lnPOWER</td><td>-0.125</td><td>-0.061</td><td>-0.516</td></tr><tr><td/><td>(0.590)</td><td>(0.759)</td><td>(0.759)</td></tr><tr><td>constant</td><td>-19.656 ***</td><td>-19.064 ***</td><td>-7.131</td></tr><tr><td/><td>(3.063)</td><td>(3.303)</td><td>(7.469)</td></tr><tr><td>Obs</td><td>118</td><td>118</td><td>118</td></tr><tr><td>\u03bb</td><td>0.347 ***</td><td>0.289 ***</td><td>0.318 ***</td></tr><tr><td/><td>(0.093)</td><td>(0.096)</td><td>(0.090)</td></tr><tr><td>\u03c1</td><td>0.407</td><td>0.615</td><td>-0.147</td></tr><tr><td/><td>(0.947)</td><td>(1.018)</td><td>(0.904)</td></tr></table>"
+      },
+      "TABREF5": {
+        "text": "",
+        "html": null,
+        "type_str": "table",
+        "num": null,
+        "content": "<table><tr><td/><td colspan=\"2\">Spatial autoreg. Spatial IV</td></tr><tr><td>lnRDDN</td><td>0.469 ***</td><td>1.044 ***</td></tr><tr><td/><td>(0.154)</td><td>(0.312)</td></tr><tr><td>lnTCITY</td><td>-0.149 *</td><td>-0.280 **</td></tr><tr><td/><td>(0.090)</td><td>(0.135)</td></tr><tr><td>lnTPORT</td><td>-2.435 **</td><td>-2.930 **</td></tr><tr><td/><td>(1.036)</td><td>(1.181)</td></tr><tr><td>lnNUM</td><td>0.112</td><td>0.104</td></tr><tr><td/><td>(0.075)</td><td>(0.071)</td></tr><tr><td>lnPOP</td><td>0.669 ***</td><td>0.875 ***</td></tr><tr><td/><td>(0.212)</td><td>(0.229)</td></tr><tr><td>lnWAGE</td><td>0.135</td><td>0.151</td></tr><tr><td/><td>(0.155)</td><td>(0.165)</td></tr><tr><td>lnEDU1</td><td>2.765 **</td><td>2.835 **</td></tr><tr><td/><td>(1.183)</td><td>(1.351)</td></tr><tr><td>lnEDU2</td><td>-2.946</td><td>-6.665 **</td></tr><tr><td/><td>(3.581)</td><td>(3.039)</td></tr><tr><td>lnRENT</td><td>0.135</td><td>0.078</td></tr><tr><td/><td>(0.122)</td><td>(0.115)</td></tr><tr><td>lnAGV</td><td>-0.109 ***</td><td>-0.082 **</td></tr><tr><td/><td>(0.037)</td><td>(0.034)</td></tr><tr><td>lnTAX</td><td>-0.035</td><td>0.085</td></tr><tr><td/><td>(0.340)</td><td>(0.347)</td></tr><tr><td>lnPOWER</td><td>0.789</td><td>2.001 *</td></tr><tr><td/><td>(0.729)</td><td>(1.056)</td></tr><tr><td>constant</td><td>-7.646</td><td>-7.498</td></tr><tr><td/><td>(6.496)</td><td>(6.577)</td></tr><tr><td>Obs</td><td>118</td><td>118</td></tr><tr><td>\u03bb</td><td>0.475 ***</td><td>0.629 ***</td></tr><tr><td/><td>(0.084)</td><td>(0.112)</td></tr><tr><td>\u03c1</td><td>-0.939</td><td>-0.880</td></tr><tr><td/><td>(1.239)</td><td>(1.681)</td></tr><tr><td>5</td><td/><td/></tr></table>"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04385: We tried a cross-check with our data.\n\ns_04435: In particular, Ashraf et al.\n\ns_04485: (2012) , using data from the same survey of European firms that this paper will analyse, found that only 2% of firms would use base wage cuts as the main channel of labour cost reduction if faced with a significant cost shock.\n\ns_04535: The authors further argue that the average access measure can be deflated by the dissimilarity index to give a measure of effective access correcting for inequality of opportunity -their Human Opportunity Index (HOI).\n\ns_04585: (2012), the threshold is estimated from the data but it could still be argued that the selection of the threshold variable itself is arbitrary.\n\ns_04635: Mohan and Pathak (2009) use a similar methodological approach to measure the inequalities in access to maternal care services and child immunization.\n\ns_04685: Data come from Beck et al.\n\ns_04735: 2002) and raise similar analytical issues.\n\ns_04785: 'We use the functional forms contamned in the 1993 workng paper, although the published version contains slight modifications.6 SeeGriffin et al.\n\ns_04835: (2005) and is already available in the GEM data set.\n\ns_04885: To deal with the possible endogeneity of infrastructure variables in X, the spatial instrumental variable estimator (e.g., Anselin, 1988; Drukker st al., 2011)\n\ns_04935: Using best practice average prices as discussed later on in this paper, the world's infrastructure stock today can be valued at about US$ 15 trillion (table 2. )\n\ns_04985: Specifically, we use value-added exports data from the OECD-WTO TiVA database to build measures of GVC participation, backward and forward linkages, and GVC position for each country and, when available, for each manufacturing subsectors, from 1996 to 2012, using the definition provided in the previous subsection.\n\ns_05035: *** p<0.01, ** p<0.05, * p<0.1 Note: Group means reported.\n\ns_05085: The D-index is derived by comparing group means for different combinations of circumstances to the population mean to quantify how outcomes differ by circumstances.\n\ns_05135: The quantitative findings from these studies can be used to discipline the parameter governing the efficiency of public investment .\n\ns_05185: Baseline statistics of households (Panel A), parents (adult respondents with at least one child under 16, Panel B), and children (Panel C) are presented in Table 1.\n\ns_05235: Any of these 24 The estimation (for econometric approaches) and computation (for non-parametric approaches) techniques for these types of frontier analysis have improved significantly and can be quite effectively used to reduce information asymmetries on the level of efforts made by operators to optimize the use of their resources to meet their service obligations.\n\ns_05285: Compute the relative magnitude of the enrollment elasticity in state i (RALPHi) in relation to that of a \"reference state\".\n\ns_05335: Richards and Deddouche (1999) , using emerging market bank-level data, examine the impact of rating changes on bank stock prices, but do not find statistically significant effects.\n\ns_05385: Therefore, approaches were developed to reduce administering time to allow collection of consumption data with significantly lower administering time.\n\ns_05435: In this section, we describe the main data sources of FDI and related economic characteristics and an array of stylized facts emerging from the data.\n\ns_05485: Case study assumptions were designed to gather comparable data across different areas of study by referring to prototypical individuals with the same gender, age range, and place of residence.\n\ns_05535: The O*NET specification refers back to the study of Autor, Levy, and Murnane (2003) .\n\ns_05585: Regardless, this method has shown promising predictive capacity and is adopted in a number of national and global applications (Lin et al., 2018; Koks et al., 2019) (Lin et al."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Kij3XeYZ2oFBjHjhR1MiWYuZGy",
+    "object": "chat.completion",
+    "created": 1682884152,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1137,
+      "completion_tokens": 85,
+      "total_tokens": 1222
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04485\", \"data_mentioned\": true, \"reason\": \"European firms\"}, {\"sent_id\": \"s_04635\", \"data_mentioned\": true, \"reason\": \"maternal care services and child immunization\"}, {\"sent_id\": \"s_04685\", \"data_mentioned\": true, \"reason\": \"Beck et al.\"}, {\"s..."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04485\", \"data_mentioned\": true, \"reason\": \"European firms\"}, {\"sent_id\": \"s_04635\", \"data_mentioned\": true, \"reason\": \"maternal care services and child immunization\"}, {\"sent_id\": \"s_04685\", \"data_mentioned\": true, \"reason\": \"Beck et al.\"}, {\"s...",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04012: The model successfully fits the fertility patterns in the data, as well as the distribution of reported beliefs about own HIV status.\n\ns_04062: However, in the absence of data on health indicators by poverty grouping, they were forced to make distributional assumptions to \"retrieve\" them artificially.\n\ns_04112: The Dutch approach makes more sense than the Danish approach, although it faces the difficulty of identifying the level of overfunding, which can be quite controversial in defined-benefit plans.\n\ns_04162: We first test the differences in medians between users and non-users of capital markets for a set of firm attributes by pooling all firm-year observations ( Table 1 ).\n\ns_04212: Section IV analyzes the effect of a reduction in the efficiency of the financial intermediation process (characterized by an increase in contract ISee, for instance, thediscussion of the causes and propagation of the Asian crisis in Alba et al.\n\ns_04262: Even if we can understand his misinformation about the color of blood since evidence on that would have been a little harder to collect in those ancient times, it is baffling why he could not ask a sample of fellow Athenians or Macedonians to open their mouths for a quick statistical check of the dental asymmetry hypothesis.4 Countries do not, of course, literally go bankrupt.\n\ns_04312: Optimal lag length is determined by the Akaike or Bayesian Information Criterion, AIC and BIC respectively.\n\ns_04362: The comparison of trends in primary enrollment to secondary enrollment provides a second, completely independent control group that allows us to address concerns about causal inference that may not be answered using data on public and private primary schools alone.\n\ns_04412: In addition, our data are aggregated, which reduces the proportion of zeroes in our sample.\n\ns_04462: We begin by pooling results across the different information treatments and examining how the migrant's willingness to share (remit) money with others in the Philippines varies with the different choices which provide greater or lesser degrees of control over how money is used for education.\n\ns_04512: Franz and Pfeiffer, 2006; Kaufman, 1984; Campbell and Kamlani, 1997; Bewley, 1998) .\n\ns_04562: Thus, in this case as well, the number put out for policy purposes is a lower bound and open to similar notes of caution in the policy discourse.\n\ns_04612: While, as discussed in section 3.4, our \u2026ndings for typical recessions were consistent with the \"short-run pain and long-run gain\"arguments often heard when considering the implications of austerity packages, this is not the case when focusing on extreme recessions.\n\ns_04662: For instance, the HOI for the indicator on births taking place at a health facility that increased from 38 to 63 between 2000 and 2008, around 18 percentage points of the increase can be attributed to the scale effect (services becoming more widely available and being utilized), while about 8 percentage points is attributable to the distribution effect (services becoming more equitably available across circumstance groups).\n\ns_04712: 81 We also include the sub-sectors of these 23 sectors for which Rajan and Zingales (1998) provide data on ED: 3411 (Pulp and paper), 3825 (Office and computing), 3832 (Radio), 3841 (Ship building), 3843 (Motor vehicles).\n\ns_04762: Results for different types of educational spending (total, books and stationary, and only by the mother) in table 3 point towards strongly positive second-generation effects from reform throughout and, for the case of total and mother's spending, also in the first generation.\n\ns_04812: See also Klinhowhan (1999) for further details.\n\ns_04862: A natural extension to the results would be to explore whether more disaggregated subcategories of social and public goods have similar effects on entrepreneurship as the aggregate measure.\n\ns_04912: 5 The results are broadly consistent with Table   4 .\n\ns_04962: These may be much more accurate inasmuch as they are based on individual country and sector data, although in many cases they are more \"wishlists.\"\n\ns_05012: Similarly, Figure 4 also provides the range of the impact of GVC position and backward linkages using the estimates in columns\n\ns_05062: In our sample, we found 6 such blocks, but in the sixth block the degrees of freedom for the equality-of-means test was 2, thus yielding a low power test.\n\ns_05112: This section assesses how inequality has been evolving over time in Morocco; the tables underlying the quantification of inequality (dissimilarity index) and the different factors that contribute to inequality (Shapley decomposition) are presented in the annex (Table 4 and Table  5 ).\n\ns_05162: -1995 1996 -2000 2001 -2005 2006 -2010 Growth Rate of HC Index (%) Source: PWT 8.1\n\ns_05212: 10 To benchmark the effects on children, the empirical results begin by estimating the effects of the insurance among parents, with the following specification:"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7cvbgNprxccXMkMpuqLIkwo3gg7",
+    "object": "chat.completion",
+    "created": 1682885281,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1355,
+      "completion_tokens": 49,
+      "total_tokens": 1404
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04712\", \"data_mentioned\": true, \"reason\": \"ED\"}, {\"sent_id\": \"s_05162\", \"data_mentioned\": true, \"reason\": \"PWT\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04712\", \"data_mentioned\": true, \"reason\": \"ED\"}, {\"sent_id\": \"s_05162\", \"data_mentioned\": true, \"reason\": \"PWT\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

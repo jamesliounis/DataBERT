@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05390: Subsequently, the results from the High Frequency Survey in Mogadishu are presented.\n\ns_05440: The literature presented here is based primarily on analysis of historical FDI data in OBOR countries prior to the OBOR initiative.\n\ns_05490: This was mainly observed while attempting to collect data for areas such as paying taxes, access to health, access to education, and access to utilities.\n\ns_05540: While the data do not allow to test this assumption, we proceed by first checking if the basic correlations between the skill indexes and the level of GDP per capita still hold for the extended sample.\n\ns_05590: Further to this analysis, we calculate the number of users each WWTP asset serves, according to population and usage data.\n\ns_05640: Fuente: Elaboraci\u00f3n de los autores La cadena de resultados sobre las fases iniciales de la teor\u00eda de cambio de PROSPERA se ha documentado en sus evaluaciones de corto y mediano plazo.\n\ns_05690: A sample transaction profile for a typical lower-middle-income country is shown in figure 3.\n\ns_05740: We present the main results for the 2005-2010 sub-period in Tables 26 and 27 for the skills demand model and aggregate labor market indicators models respectively.\n\ns_05790: Column (5) shows the p-value of a test of equality across the three treatment arms Credit: respondent was allowed to pay in 3 installments, Discount Frame: respondent was presented the price as a discount, a share from the cost of the course.\n\ns_05840: Note: The CAMS-3 columns in Table 7 differ from those in Table 6 because the comparison data samples differ.\n\ns_05890: This is consistent with the even stronger conclusion of AfDB, OECD, and UNDP (2014), also based on the EORA database, that in Africa as a whole -including North Africa -local manufacturers are more integrated into GVCs than domestic firms in agriculture, mining or services.\n\ns_05940: Thanks to these rich data, we are able to i) estimate exchange rate and tariff pass-through within an integrated framework at a high level of disaggregation, and ii) estimate pass-through rates for various groups of countries (Economic and Monetary Union (EMU) members and non-EMU EU members), various currencies of invoicing (euro and the U.S dollar) and various sectors.\n\ns_05990: Section 4 lays out the study's empirical strategy.\n\ns_06040: 6 Naturally, there is a large related micro-literature focusing on how speci\u2026c social programs can reach and impact vulnerable people based on their income levels, poverty status, and other socioeconomic/demographic aspects (e.g.,Grosh, 1992;Gasparini et al., 2013; Cruces and Gasparini, 2012).2 7 In fact, and based on a simple regression of against , we cannot reject the hypothesis that such a coe\u00a2 cient equals statistically one for the whole sample of countries (as well as for industrial and emerging markets separately).\n\ns_06090: As this section of the paper is descriptive, we cannot give a reason for this finding.\n\ns_06140: Data comes from the World Bank Development Indicators.\n\ns_06190: 2 This literature, while small, is the most relevant for situating the findings of our observation phone survey study.\n\ns_06240: We select for each country one survey that was conducted in 2017 or the closest year.\n\ns_06290: Table 5 presents the results comparing treated and control villages, while Table 6 presents the results disentangling the different treatment arms.\n\ns_06340: Notes: The source of these estimates is Munoz and Siravegna (2021) .\n\ns_06390: (1) The data are from children who were born between 1950 and 1989 using the CFPS 2010 round for China, the IHDS 2012 round for India, and the IFLS 2014 round for Indonesia.\n\ns_06440: In this paper, we examine the electricity demand response of households and firms to the COVID pandemic in Africa using unique administrative data on billing records from Ghana and Rwanda.\n\ns_06490: The analyses conducted include a set of control variables that previous research has shown to predict whether a person will participate (Lee and Schachter, 2019) .\n\ns_06540: Note that these two observations could be related as a broader mandate may require a more hierarchical structure.\n\ns_06590: The differences lie mainly in the special features developed for this study and in the addition of a disaggregated version for sectoral analysis."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7OnokZTZXe0CJbFJpAPPaMTZVTR",
+    "object": "chat.completion",
+    "created": 1682884405,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 55,
+      "total_tokens": 1297
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06440\", \"data_mentioned\": true, \"reason\": \"COVID pandemic in Africa\"}, {\"sent_id\": \"s_06140\", \"data_mentioned\": true, \"reason\": \"World Bank Development Indicators\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06440\", \"data_mentioned\": true, \"reason\": \"COVID pandemic in Africa\"}, {\"sent_id\": \"s_06140\", \"data_mentioned\": true, \"reason\": \"World Bank Development Indicators\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

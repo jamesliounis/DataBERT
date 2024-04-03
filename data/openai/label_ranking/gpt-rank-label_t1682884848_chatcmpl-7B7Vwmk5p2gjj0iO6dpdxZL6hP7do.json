@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02401: 658 O'Donnell, J., Dam, H. G., Bohlen, W. F., Fitzgerald, W., Gay, P. S., Houk, A. E., Cohen, D. C., 659 & Howard-strobel, M. M. (2008).\n\ns_02451: Previous studies have shown that hospital-based practices and areas with higher specialist to PCP ratios have higher LVC spending.\n\ns_02501: To ensure we were making accurate inferences, we employed a conservative filtering step removing any genomes that appeared to outliers based on the proportion of the genome masked (Supplementary Figure 4) .\n\ns_02551: To implement the procedure to test for endogeneity, estimate the reduced form by ordinary least squares (OLS) to obtain the OLS estimates.\n\ns_02601: One of the first studies on the impact of metabolic parameters on prostatic hyperplasia was conducted by Hammarsten et al.\n\ns_02651: Indeed, corticosteroids have been associated with effects on mood, stress, anxiety, sleep, appetite, as well as cognition (Lupien et al., 2007; Wolkowitz et al., 2009; Copinschi and Caufriez, 2013) .\n\ns_02701: Our approach to projecting the pool of applicants to selective colleges and universities takes into consideration expected changes in the relative distributions of black and white family incomes and in the pre-collegiate achievement of black and white youth over the next quarter century.\n\ns_02751: The most comprehensive analysis of land cover change in the Great Lakes basin (Wolter et al., 2006), which included the Lake Superior basin, was conducted only for the U.S. portion of the basin and required significant effort to develop comparable land cover maps for 1992 and 2001.\n\ns_02801: ECLS-B cognitive assessments were administered by trained survey staff in subjects' homes using standard procedures (17) .\n\ns_02851: Using Hu and Bentler's (1999) specifications, two fit indices were used to determine model fit, including the Root Mean Square Error of Approximation (RMSEA), and the Standardized Root Square Residual (SRMR).\n\ns_02901: They prescreened college graduates for Internet access, and they, too, achieved a 27 percent response rate via the Web (Collins and Tsapogas, 2000).\n\ns_02951: Only differences that are statistically and practically significant (see appendix A for a more detailed discussion of the method) are discussed in the text.29 Using this method, differences of about three or more pcdnts in scores are ccmaidered of practical significance, if the difference is statistically significant.\n\ns_03001: Several data collection tools recommended for qualitative and quantitative studies were applied in this research (Stake, 1995) , namely: classroom observations, lesson checklists (evolutionary forms), study of lesson plans, semistructured interviews for teachers and parents, focus group survey questionnaires, were used to identify how primary school teachers perceive introduction of monitoring support practices and what factors have a decisive influence on their positive or negative perception of this measure.\n\ns_03051: A significant difference in hippocampal volume was found between AD and controls on 1.5 Tesla scans (p < 0.001), confirming known group validity test.\n\ns_03101: In such situations we suspect the weights can skew the impact of particular variables.\n\ns_03151: In this paper we use data extracted from transcripts of village meetings, coupled with household surveys, to empirically explore the mechanism of deliberation.\n\ns_03201: The designated task of this study is, given the evidence at hand, to address the merits of recent proposals formulated in response to the sharp price spikes experienced in the last year or so and to focus on increasing the food security of vulnerable consumers.\n\ns_03251: The first tests the significance of the cutoff points or threshold values of the latent index, which split the samples into technological regimes.\n\ns_03301: To address this problem, I re-estimated the parameters of the baseline model, as well as the abnormal returns, using trade-to-trade returns that assign a price differential to the whole period between two consecutive trades, as proposed by Maynes and Rumsey (1993) .\n\ns_03351: Finally, we report in columns 4a and 4b estimates of a regression that includes an interaction term for each trade facilitation indicator with respect to per-capita income.\n\ns_03401: The result of these developments is-to borrow an apt phrase from Feenstra (1998) -integration of trade and disintegration of production in the global economy.\n\ns_03451: empirical studies have focused on the technological explanation of concentration, underscoring the signi\u2026cance of the cost curve (especially the minimum e\u00a2 cient scale of production) and barriers to entry by new \u2026rms (Davies and Lyons, 1982) .\n\ns_03501: This is the main theme discussed in Anginer, de la Torre and Ize (2011).12 Huang and Ratnovski (2011) show that the dark side of bank wholesale funding dominates when bank assets are more arm's length and tradable.13 SeeAschcraft and Schuerman (2008) andGorton and Metrick (2010).14 SeeShleifer and Vishny (2011).\n\ns_03551: The few previous attempts to empirically validate the predictions of the cleansing paradigm using firm-level datadiscussed in detail in section 2 -have either failed to examine changes in the reallocative process itself or suffer methodological shortcomings.\n\ns_03601: First, our empirical analyses cast a wider net than the existing literature which focuses only in a particular region or a country and covers a shorter time period."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Vwmk5p2gjj0iO6dpdxZL6hP7do",
+    "object": "chat.completion",
+    "created": 1682884848,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1474,
+      "completion_tokens": 169,
+      "total_tokens": 1643
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02751\", \"data_mentioned\": true, \"reason\": \"Great Lakes basin\"}, {\"sent_id\": \"s_03001\", \"data_mentioned\": true, \"reason\": \"qualitative and quantitative studies\"}, {\"sent_id\": \"s_03151\", \"data_mentioned\": true, \"reason\": \"transcripts of village meetings\"}, {\"sent_id\": \"s_03451\", \"data_mentioned\": true, \"reason\": \"technological explanation of concentration\"}, {\"sent_id\": \"s_03501\", \"data_mentioned\": true, \"reason\": \"Anginer, de la Torre and Ize (2011)\"}, {\"sent_id\": \"s_03551\", \"data_mentioned\": true, \"reason\": \"firm-level data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02751\", \"data_mentioned\": true, \"reason\": \"Great Lakes basin\"}, {\"sent_id\": \"s_03001\", \"data_mentioned\": true, \"reason\": \"qualitative and quantitative studies\"}, {\"sent_id\": \"s_03151\", \"data_mentioned\": true, \"reason\": \"transcripts of village meetings\"}, {\"sent_id\": \"s_03451\", \"data_mentioned\": true, \"reason\": \"technological explanation of concentration\"}, {\"sent_id\": \"s_03501\", \"data_mentioned\": true, \"reason\": \"Anginer, de la Torre and Ize (2011)\"}, {\"sent_id\": \"s_03551\", \"data_mentioned\": true, \"reason\": \"firm-level data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

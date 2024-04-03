@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03808: Second, our study highlights the interdependence of debt finance and risk distribution recently identified in the context of hedging by Mello and Parsons (2000) .\n\ns_03858: Hausman (1979) , Lawrance (1991) and Warner and Pleeter (2001) are prominent examples.\n\ns_03908: from bioprospecting) although these can be significant.\n\ns_03958: The higher significance and magnitude of the estimated coefficients of the institutional variables in the new results support this argument.\n\ns_04008: The perceived hazard rate for each period is a function of a woman's characteristics, such as her age, region of residence, marital status, and schooling level.\n\ns_04058: Table 6 shows the results of a regression of the (negative of the) under-five mortality concentration index on the Gini coefficient of income, and the results of a regression including, in addition to the Gini coefficient, GNP per capita (at PPPs) and public spending on health as a share of total health spending.\n\ns_04108: The minimum out much more clearly and also include the decumulation phase (a fixed minimum annuity conversion factor is specified).\n\ns_04158: To analyze the characteristics and performance of the firms that issue and of those that do not issue in domestic and foreign capital markets, we match the data on security issuances from SDC Platinum with firm-level balance sheet data from the Bureau van Dijk's Orbis database over the 2003-2011 period.\n\ns_04208: Then, in addition to the results summarized in proposition 1, the following result can also be established.\n\ns_04258: If one shows (as we will in this paper) that people can do better by behaving differently, mainstream economists are prone to argue that that there must be a flaw in the analysis because if people could have done better behaving differently (e.g.\n\ns_04308: These impulse responses are found to be statistically significant.\n\ns_04358: Because the FPE reform was instituted simultaneously nationwide, we base our inferences about the effect of FPE on a comparison of the trajectories of enrollment and prices across two dimensions: public versus private primary schools, and primary versus secondary schools.\n\ns_04408: The trade data come from the BACI database developed by the CEPII.\n\ns_04458: This is consistent with the findings of the lab-in-the-field experiment.\n\ns_04508: 1 Labor turnover is defined as the sum of the workers joining and leaving the firm during the reference year as a percentage of total employment Robust p values in parentheses, *** p<0.01, ** p<0.05, * p<0.1.\n\ns_04558: Thus the authors start with the outcome variable as being access to social infrastructure such as education, health, water, electricity, etc.\n\ns_04608: The e\u00a4ectiveness of these \u2026scal packages remains, however, an open question.\n\ns_04658: In a setup where a coalition of players produces certain gains (where some players may contribute more to the coalition than others or may possess different bargaining power), Shapley Value provides a unique solution that satisfies all participants.6 The Shapley decomposition has two useful properties: The first is symmetry, ensuring that the contribution of each factor is independent of the order in which it appears in the initial list or sequence of factors.\n\ns_04708: Given that data are only available for the years 2005 and 2006, we use the average size of each index over these two years to construct our institution-based measure.\n\ns_04758: and are indicator variables, respectively, for generation III females (compared to their male siblings), and whether their mothers' fathers died before or after 1994 so that mothers in the reform state either did not or did benefit from the reform, and 3 and 4 , the coefficients on their interactions with a reform dummy are key parameters of interest that capture first-and second-generation impacts of HSAA induced empowerment of generation II females, respectively, 8 and is a vector of gender and state specific year of birth fixed effects to control for time-variant aggregate effects or shocks by gender and state, As 3 and 4 may pick up the effect of resource transfers triggered by the HSAA, we also report results from specifications where, in addition to the above variables, assets brought into the marriage and the difference in education between the spouse and her husband are controlled for.\n\ns_04808: Indeed, in related work Paulson and Townsend (2001) use the Townsend-Thai data to estimate via maximum likelihood methods not only the LEB model featured here, but also collateral based lending as in model of Evans and Jovanovic (1989) (EJ for short), for example, and also incentive-based lending as in the mechanism design literature of Aghion and Bolton (1997) and Lehnert (1998) (ABL for short).\n\ns_04858: Using data and empirical models employed in the literature we confirm several results found by existing studies including the negative relationship between total government size and entrepreneurial activity.\n\ns_04908: Among transport variables, the global market connectivity, namely, transport costs to the port, turned out most important, followed by local connectivity measured by road density.\n\ns_04958: In high income countries we also see a small decline -note that this is in per capita terms and need not therefore imply an absolute decline; Overall, the implication for the rail sector is not that no new investment will be taking place, but rather that it is more likely to take the shape of upgrading and rehabilitation rather than of an actual expansion of the network.\n\ns_05008: There are a number of reasons why these findings are relevant and more work in this area would be welcome."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7aOz14iEPDIObp2khiMgoVXJaTA",
+    "object": "chat.completion",
+    "created": 1682885124,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1456,
+      "completion_tokens": 53,
+      "total_tokens": 1509
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04408\", \"data_mentioned\": true, \"reason\": \"BACI database\"}, {\"sent_id\": \"s_04708\", \"data_mentioned\": true, \"reason\": \"institution-based measure\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04408\", \"data_mentioned\": true, \"reason\": \"BACI database\"}, {\"sent_id\": \"s_04708\", \"data_mentioned\": true, \"reason\": \"institution-based measure\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

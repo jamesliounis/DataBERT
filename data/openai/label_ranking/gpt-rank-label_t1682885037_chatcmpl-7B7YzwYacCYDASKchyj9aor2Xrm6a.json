@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02456: However, when we stratified LVC services by likely place of service, ones that were likely to take place in an office versus in a facility, the results showed no systematic difference (Appendix Figure 3).\n\ns_02506: Early applications of deep learning in population genetics have generated accurate predictions of introgression, recombination rate, and selection, but have largely focused on recombining, germ-line data from human populations or single locus analyses 7, [9] [10] [11] .\n\ns_02556: The dependent variable was the number of times these private organizations were consulted (ConsultPrivate).\n\ns_02606: In the patients with benign prostatic hyperplasia of average abdominal circumference was 99.2 \u00b1 9.4 cm (X \u0305 \u00b1 SD).\n\ns_02656: Further studies are needed to confirm the value of cortisol levels as a possible preclinical marker associated with higher risk, and/or as a prognostic parameter in subjects with clinical AD.\n\ns_02706: 7 Hertz (2005) argues that persistent poverty among very low income black families drags down estimates of intergenerational mean reversion, suggesting that pooled estimates may overstate between-group convergence.\n\ns_02756: The effectiveness and potential uses of this effort would be maximized by maintaining the highest possible level of resolution within the land cover classification scheme so that significant types of land cover change can be detected (e.g.\n\ns_02806: Dropout rates were exaggerated because about half of those lost between the 2 waves were part of a planned sample-size reduction carried out by systematically reducing sampling rates (17) .\n\ns_02856: The findings of the present study support what has been argued by many developmentalists (e.g., Belsky 2001; Zigler and Hall 2000) , namely that the ability to spend time with a child before the return to work might help a mother develop higher levels of attunement to her child's needs or higher levels of sensitivity towards her child's cues without the stress of separation.\n\ns_02906: Of those discussed, the MPWEB most closely resembles the 1998 Company Organization Survey (COS), which also pre-screened respondents.\n\ns_02956: In addition, the NELS:88 data used Imre are fron the base year survey of an ongoing longitudinal study, and, thus, are only cmss-sectkmal.\n\ns_03006: 3) What benefits of participating in the project made you feel delighted about it?\n\ns_03056: The software used for the manual segmentation was the Multitracer V1.0 software.\n\ns_03106: Since the estimated proportion of farms participating was 22%, there apparently was not sufficient variation to identify a state effect.\n\ns_03156: Previous research has demonstrated that reservations can alter the nature of decisons made by panchayats(Besley et al.2004b, Chattopadhyay and Du \u2021o2004a 2004b.\n\ns_03206: 2 In 2005 the United Nations FAO food price index ( Figure 1 ) showed evidence of a modestly rising trend that had moved the index less than 20% higher than the 1998-2000 average.\n\ns_03256: The resulting sample covers 73 developing and developed countries over the period 1980-2000.\n\ns_03306: This effect can be seen in Panel 10 C of Figure 2 , which shows on a daily basis similar information to panel A for the months surrounding this episode.\n\ns_03356: Columns 1a and 1b report the estimated coefficients of the outcome and the selection equations, respectively.\n\ns_03406: Although except for Hungary, these shares are considerably lower than those for 9Calculated from data presented in Appendix Table 2. imports of Malaysia and Mexico, it seems that these three Central Europeans are more involved in production sharing than others.\n\ns_03456: which again is intuitively appealing because it distinguishes two aspects of the single summary measure H i of concentration: fewness, represented by N i , and size disper-\n\ns_03506: 5 An earlier strand of thought viewed financial development as driven by the steady mitigation of asymmetric information failures such as moral hazard and adverse selection (see, for instance, Akerlof, 1970; Spence, 1973; and Stiglitz and Weiss, 1981) .\n\ns_03556: 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 Exit rate Entry rate 1992 1993 1994 1995 1996 1997 1998 1999 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 6 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 1992 1993 1994 1995 1996 1997 1998 1999 -entry and exit are defined as entry into the survey and exit from the survey (see the Appendix) -entry and exit statistics are based on the raw data; all other statistics are based on the sample that excludes outliers (1) 7.787 7.991 7.996 Exiting (2) 7.417 7.786 7.509 Difference (1) (2) 0.370*** 0.205*** 0.487*** ln (V/L) (demeaned by sector) All -0.133 0.070 0.112 Surviving 1-0.110 0.093 0.079 Exiting 2-0.395 -0.119 -0.299 Difference (1) (2) 0.284*** 0.212*** 0.378*** ln (V/L) (demeaned by sector-year) All 0.000 0.000 0.000 Surviving (1) 0.022 0.023 0.031 Exiting 2-0.256 -0.184 -0.351 Difference (1) (2) 0.278*** 0.206*** 0.383*** TFP -Solow All 2.277 2.483 2.400 Surviving (1) 2.281 2.475 2.348 Exiting (2) 2.230 2.557 2.357 Difference (1) (2) 0.051*** -0.082*** -0.009\n\ns_03606: As mentioned earlier, consistent with the prior literature we find gdp per capita growth to reduce co-dependence, although the level of GDP per capita is insignificant.\n\ns_03656: The corresponding figures for industrial countries were 11 and 27 percent, respectively."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7YzwYacCYDASKchyj9aor2Xrm6a",
+    "object": "chat.completion",
+    "created": 1682885037,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1718,
+      "completion_tokens": 101,
+      "total_tokens": 1819
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02506\", \"data_mentioned\": true, \"reason\": \"population genetics\"}, {\"sent_id\": \"s_02906\", \"data_mentioned\": true, \"reason\": \"Company Organization Survey\"}, {\"sent_id\": \"s_03156\", \"data_mentioned\": true, \"reason\": \"panchayats\"}, {\"sent_id\": \"s_03506\", \"data_mentioned\": true, \"reason\": \"financial development\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02506\", \"data_mentioned\": true, \"reason\": \"population genetics\"}, {\"sent_id\": \"s_02906\", \"data_mentioned\": true, \"reason\": \"Company Organization Survey\"}, {\"sent_id\": \"s_03156\", \"data_mentioned\": true, \"reason\": \"panchayats\"}, {\"sent_id\": \"s_03506\", \"data_mentioned\": true, \"reason\": \"financial development\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

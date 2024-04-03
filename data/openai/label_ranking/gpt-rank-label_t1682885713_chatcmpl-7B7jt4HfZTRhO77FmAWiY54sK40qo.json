@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01289: (2011) further highlight the need to manage the ICT facilities to which people have access.\n\ns_01339: The recent World Health Organization (WHO) World Mental Health Surveys, for example, interviewed 60,463 community-based adults living in 14 countries.\n\ns_01389: [56] [57] [58] Therefore, integrating neuroimaging, biological, clinical, and cognitive data may facilitate the multimodal prediction of psychosis onset and clinical outcomes.\n\ns_01439: The n-th mode SSTA is re-sampled in monthly interval to match its temporal resolution to the corresponding environment variables.\n\ns_01489: This research addresses this congressional directive.\n\ns_01539: Th is was accomplished via inverse modeling to determine the irrigation ratio and initial NO 3 values that minimized model biases of observed yields, averaged across the entire integration period at each CWRF grid.\n\ns_01589: By summarizing the above analysis of flood water stages and bed changes for all the seven cases, it is found that the planned dike with the Beiliao Island removed in Case 7 can better prevent inundation of the estuarine area of the Touchien River.\n\ns_01639: A total of 43 samples were selected .\n\ns_01689: In order to distinguish between disease-related effects (different disease types, patient selection, follow-up durations, etc.)\n\ns_01739: Of the selected cohort, 65.0% were female and 70.8% were white.\n\ns_01789: In the following section, we propose a new imputation approach to fully utilize information not only from the group with complete cases but also from other groups.\n\ns_01839: The reliability and validity of these measures have been examined by CDC and the University of Wisconsin Population Health Institute.\n\ns_01889: Variable Selection Table C3 presents the variables selected for linking NELS:88/94 and BPS:90/94 respondents.\n\ns_01939: Moreover, positron emission tomography and single photon emission computed tomography can detect the dopaminergic deficit even at premotor stages of PD [17] , and amyloid positron emission tomographic imaging correlates with fibrillar amyloid brain deposits [18,e3] .\n\ns_01989: As noted by McBride et al.\n\ns_02039: However, there were statistically significant differences in progress to KS4 and performance at KS4.\n\ns_02089: It was the first time that a coronavirus infection has been assessed as a pandemic, surpassing the total count of the SARS outbreak in 2003.\n\ns_02139: In comparison to US Hispanics, the patients were significantly younger [19] .\n\ns_02189: According to Mavragani et al.\n\ns_02272: 2, 8, 9 It has been hypothesized that WMHs may be directly related to Alzheimer disease (AD).\n\ns_02322: In order to help users of AdaptMap understand the specific impacts of each part of each measure, the three scenarios are cumulative.\n\ns_02372: We examined the main effect of baseline diagnosis or MCI conversion, anticipating a stepwise decrease in FDG-PET from CN to MCI to AD, and from MCI-S to MCI-P (33).\n\ns_02422: Journal of Geophysical Research, 80, 1176-1183. doi.org/10.1029/JC080i009p01176.\n\ns_02472: 6 showed a wide range of annual prevalence from 1.2% to 46.5% depending on which LVC service is measured.\n\ns_02522: We called mutations in the GISAID data using the Wuhan reference genome (NCBI RefSeq: NC_045512) to examine positive selection during early expansion of SARS-CoV-2 and called mutations in the COG UK data using a an England reference genome (COG UK: England/LOND-D51C5/2020) from April to study evolution post-fixation of the D614G haplotype 15 ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7jt4HfZTRhO77FmAWiY54sK40qo",
+    "object": "chat.completion",
+    "created": 1682885713,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1101,
+      "completion_tokens": 29,
+      "total_tokens": 1130
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01339\", \"data_mentioned\": true, \"reason\": \"World Mental Health Surveys\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01339\", \"data_mentioned\": true, \"reason\": \"World Mental Health Surveys\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

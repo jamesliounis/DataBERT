@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06934: In a previous paper (Das and others 2004), we documented that educational funding is an important determinant of learning achievement.\n\ns_06984: Looking at the distribution in Table 2 , we are interested in examining the factors that distinguish households who move out of slums from those who do not.\n\ns_07034: In The central problems to solve were: a) to prove an import growth that could be considered unforeseen, recent, unexpected, serious and important, both quantitatively and qualitatively; b) to eliminate imports from Mercosur; and c) under the new evidence, to prove serious injury and causality.\n\ns_07084: The regression results are in tables 8-10.\n\ns_07134: The last column of Panel A shows the t-statistic for the test of whether the % of firms held by fund portfolios in firms with an ADR is statistically greater than the percentage of firms held by fund portfolios in firms without an ADR.\n\ns_07184: In the full sample, the coefficient on conditioned households is 0.019 in the enrollment regression (with a robust standard error of 0.013), 0.010 (with a robust standard error of 0.026) in the child work regression, and -0.006 (with a robust standard error of 0.010) for the full-time employment regression.\n\ns_07234: Annex table 1 provides detailed information on how the qualitative information displayed in the GATS schedules is translated into index scores.\n\ns_07284: In column (2), the FE estimates for the pooled sample suggest that when we control for firm dummies, PC-participants no longer differ significantly from non-PCparticipants: the participants-specific growth rate is not significant.\n\ns_07334: TN/TF/W/43/Rev.5, 3 February 2006.\n\ns_07384: 4 Most remarks made here also concern studies found in these literature reviewvs.\n\ns_07434: One major conclusion emerges from the analysis of Table 7 : Over the past decade and on an incremental basis, bilateral lenders have partially substituted total grants for new lending for countries that have not received significant amounts of ODA debt forgiveness.\n\ns_07484: This paper devotes substantial space to the Chilean pension system, since it appears as an attractive option in current discussions of pension reform.\n\ns_07534: A recent study has modelled the export incentive of imports for SSA.\n\ns_07584: Data reproduced in Table 8 indicate that China's industries achieved very substantial gains in energy productivity during the early 1980s.\n\ns_07634: Broad guidelines used by IBRD and IMF are shown below.\n\ns_07684: This research was supported by the World Bank under RPO 674-75 and by a grant from the Lynde and Harry Bradley Foundation to the Research Program in Development Studies at Princeton University.\n\ns_07734: The authors also find that high levels of ized.\n\ns_07784: Our analysis involved assessing the sensitivity of parameter estimates to what we term \"data problems.\"\n\ns_07834: A list of assignments for consulting work and technical assistance, giving the type of assignment and the project towns, Dar es Salaam and Dodoma, is shown in Annex F. Consultants would be recruited in accordance with the Bank's Guidelines for the Use of Consultants.\n\ns_07884: For a discussion on effective tax rates and adjustment costs, see Boadway (1988] .\n\ns_07934: For excellent reviews of the current state of the art, see presents a frequency distribution of the households, willingness-to-pay bids.\n\ns_07984: 6 The remainder of the paper will focus on analyzing how effective the new system has been so far, and which issues still need to be addressed.\n\ns_08034: In Scenario 1 high volume consumers, who are also the highest income consumers, receive the largest monthly subsidy (Figure 4 and Appendix Table 3 ).\n\ns_08084: This is illustrated in the bottom panel of figure 1, which shows the average ratio of public infrastructure investment to the sum of public consumption plus public infrastructure investment --a rough proxy for the overall primary expenditure of the public sector, for which information is not available.\n\ns_08134: For example, in a regression using ancient inequality evidence (not included in the text) a dummy variable for colony has a strong positive impact on the extraction ratio."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7JyqHu3jpCjFO1B5CsXOGguh6Iy",
+    "object": "chat.completion",
+    "created": 1682884106,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1171,
+      "completion_tokens": 123,
+      "total_tokens": 1294
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07434\", \"data_mentioned\": true, \"reason\": \"ODA\"}, {\"sent_id\": \"s_07534\", \"data_mentioned\": true, \"reason\": \"SSA\"}, {\"sent_id\": \"s_07584\", \"data_mentioned\": true, \"reason\": \"China\"}, {\"sent_id\": \"s_07834\", \"data_mentioned\": true, \"reason\": \"Bank's Guidelines\"}, {\"sent_id\": \"s_08084\", \"data_mentioned\": true, \"reason\": \"public infrastructure investment\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07434\", \"data_mentioned\": true, \"reason\": \"ODA\"}, {\"sent_id\": \"s_07534\", \"data_mentioned\": true, \"reason\": \"SSA\"}, {\"sent_id\": \"s_07584\", \"data_mentioned\": true, \"reason\": \"China\"}, {\"sent_id\": \"s_07834\", \"data_mentioned\": true, \"reason\": \"Bank's Guidelines\"}, {\"sent_id\": \"s_08084\", \"data_mentioned\": true, \"reason\": \"public infrastructure investment\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

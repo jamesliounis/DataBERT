@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03748: Instead, we use the results of surveys and studies of the characteristics of people with a particular illness.\n\ns_03798: Esty and Megginson (2000) , who analyze how political risk shapes the syndication process and pricing of project loans, complement our findings from a private debt perspective.\n\ns_03848: (See Appendix A for details.)\n\ns_03898: DALYs per 10 thousand cases of various health end-points are presented in Table 3 .2.\n\ns_03948: It can be interpreted as follows: when the institutional institutional Table 1\n\ns_03998: The reports are assumed to be made according to the 19 As in Delavande and Kohler (2009) following rule:\n\ns_04048: The results of the analysis reported here are somewhat discouraging, since the effect of the public share of health spending was insignificant and in results not reported above (but predictable on the basis of the scatter plot in Figure 10 ) was found to be very sensitive to the sample choice.\n\ns_04098: The best example is Switzerland, which specifies the obligatory part of its funded pillar as a definedcredit system' with the ultimate objective to achieve a targeted pension level at retirement (Smalhout 1996, Queisser and Vittas 2000) .\n\ns_04148: To conduct the analysis, we assemble a unique and comprehensive data set on domestic and international capital raising activity and performance by Chinese and Indian firms.\n\ns_04198: ment and state verification) for an economy in which firms are faced with a high level of initial debt and contract new borrowing from domestic banks to finance labor costs.\n\ns_04248: 14 15 This paper goes beyond these earlier studies by identifying a contractual relationship which leads to a sub-game perfect equilibrium which is a Pareto improvement.\n\ns_04298: Table 2 (right panel) presents test statistics for Industrial Production in levels, and first and second differences, while the test in levels allows for a linear time trend and intercept.\n\ns_04348: This section attempts a reckoning of the net changes in school resources under FPE, combining household data sources on parental contributions with official government data on capitation grants and pupil-teacher ratios.\n\ns_04398: Before turning to estimation results, we briefly report descriptive statistics showing the expansion of North-South EIAs over the 1990-2006 period.\n\ns_04448: *, **, and *** indicate significance at the 10, 5, and 1 percent levels respectively.\n\ns_04498: To do this, we use a large specially commissioned survey of firms across fourteen European countries asking managers directly about their experiences with wage cuts.\n\ns_04548: The last two decades have seen a number of attempts to formulate the concept of equality of opportunity with a view to policy application, not least in the World Bank through its World Development Report 2006 (World Bank, 2005 and the subsequent \"mini-industry\" which has developed in estimating measures of inequality of opportunity using household survey data (for example, de Barros et.\n\ns_04598: On procyclical \u2026scal policy in developing countries, see Kaminsky, Reinhart, and Vegh (2004),Ilzetzki and Vegh (2008), and the references therein.\n\ns_04648: The set of immunizations considered in this section of the paper are: BCG, DTP (1, 2, and 3), Polio (1, 2, and 3) and Measles.\n\ns_04698: In column (2), we show that our results hold when we limit our sample to those sector-country-pair observations for which we have data on 2002 sector-specific value added.\n\ns_04748: 1 and 3) and males (cols.\n\ns_04798: Data on the growth rate of GDP is taken from the computations of Tinakorn and Sussangkarn (1998) of the TDRI (Thailand Development Research Institute).\n\ns_04848: In column 1 of table 3 we present the results with only total government spending so as to replicate the typical relationship found between total government spending and entrepreneurial activity in the literature.\n\ns_04898: The first approach is the nested logit model, which can partly relax the IIA assumption across different clusters.\n\ns_04948: All regressions include country fixed effects, which are not reported here for lack of space."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7UHag94iIqvO84asriMmLIOBxw8",
+    "object": "chat.completion",
+    "created": 1682884745,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1184,
+      "completion_tokens": 52,
+      "total_tokens": 1236
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04148\", \"data_mentioned\": true, \"reason\": \"Chinese and Indian firms\"}, {\"sent_id\": \"s_04798\", \"data_mentioned\": true, \"reason\": \"TDRI\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04148\", \"data_mentioned\": true, \"reason\": \"Chinese and Indian firms\"}, {\"sent_id\": \"s_04798\", \"data_mentioned\": true, \"reason\": \"TDRI\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

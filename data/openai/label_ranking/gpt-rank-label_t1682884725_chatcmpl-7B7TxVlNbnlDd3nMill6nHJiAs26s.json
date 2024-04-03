@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07547: Mistry, P. \"African Debt: Options for the Futare' (Paper prepared for UNICEF Meeting on Debt in New York, March 1993).\n\ns_07597: Whether these data acciiat'ly reflect trends in prices paid for industrial goods and/or received by industrial produce.\"\n\ns_07647: For example, a bank that has established a high level of reserves in a country where these are not considered a part of capital has effectively lowered its cost of not participating in debt reduction/new money packages.\n\ns_07697: In practice, whether one emphasizes changes in the intensive or extensive margins of cultivation in an analysis of agricultural response to transport policy depends partially on the degree of aggregation in the information that is available.\n\ns_07747: Since the data for privately held foreign assets must be subject to a great deal of measurement error, a proxy variable was initially estimated and used in the regressions.\n\ns_07797: The researcher estimates the model in (17) or (18) and its properties by estimating the conditional mean and how the conditional mean depends upon the conditioning varirbles.\n\ns_07847: 4.20 Given the recent restructuring of the civil service and the staff reduction, combined with a substantial salary increase, comparative data are not available to carry out a trend analysis, and cost projections are thierefore based on 1994 actual and 1995 budgeted figures.\n\ns_07897: value of tax depreciation writeoffswhich is This paper is a product of the Public Economics Division, Country Economics Department Copies are available free from the World Bank, 1818 H Street NW, Washington DC 20433.\n\ns_07947: The volumes reported in this paper were estimated by respondents themselves and should only be considered approximations of actual volumes.\n\ns_07997: 22 SeeFaulconbridge (2004) and alsoBelianin (2005) 23 As evidenced by the recent tragic events leading to the assassination of Andrei Kozlov , CBR's First Deputy Governor in charge of banking supervision.24 See annual supervision report of the CBR.\n\ns_08047: A survey of household electricity expenditures in other eastern European and central Asian countries, shown in Figure 2 , reveals a similar pattern of electricity expenditure shares between low and high income households.\n\ns_08097: Easterly (1999) andEasterly and Serv\u00e9n (2003, chapter 1) offer numerous examples.35 These issues are discussed at length byIrwin, Klein, Perry, and Thobani (1997) andEngel, Fischer, and Galetovic (2003).36 Buiter (1990, chapter 13) offers a rigorous illustration of the scenario in which such kind of fiscal adjustment leads to a weakening of public finances.\n\ns_08147: To underline his doubts, Kuznets once asked (rhetorically) at a University of Wisconsin seminar \"Do you really think you can get good conclusions from bad data?\"\n\ns_08197: This research suggests that such divergence may warrant further consideration.\n\ns_08247: Calculus courses are increasingly problematic in our colleges and universities.\n\ns_08274: 4 Individualized reports are provided to universities interested in analyzing results while data from universities nationwide are pooled for broader reporting purposes.\n\ns_08324: They based their data collection on official sources and secondary sources such as media reports.\n\ns_08374: The population based sample set comprises (a) adult twins, their spouses and first degree relatives who volunteered for studies on risk factors or biomarkers for physical or psychiatric conditions (N=8380); (b) people with self-reported endometriosis and unaffected relatives (N=830) [34, 35] .\n\ns_08424: Now the best result is higher than 76% and it is given by w = 2 and \u03d5 = 0.5, which means that we need a small sub-window to distinguish between MCI subjects and CN subjects.\n\ns_08474: In this regard, the British and Danish familial dementias are notable with respect to the parallels with AD in both clinical and pathological features and hypothesized mechanism (Ghiso et al., 2006) .\n\ns_08524: The IPUMS dataset (Ruggles et al.\n\ns_08574: This is consistent with previous studies showing reduced or elevated concentrations of specific analytes in plasma or serum samples of AD participants.\n\ns_08624: The total number of waivered physicians (Table 1) also went up dramatically, from 3,293 waivered physicians in 2004 to 20,410 waivered physicians in 2011.\n\ns_08674: IEA conducted its First International Mathematics Study (FIMS) in 1964 and the First International Science Study (FISS) in 1970-71.\n\ns_08724: The output of the model runs is processed and saved in groups of individual values so the relevant variables (Table 1) can be calculated."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7TxVlNbnlDd3nMill6nHJiAs26s",
+    "object": "chat.completion",
+    "created": 1682884725,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1290,
+      "completion_tokens": 54,
+      "total_tokens": 1344
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08374\", \"data_mentioned\": true, \"reason\": \"endometriosis\"}, {\"sent_id\": \"s_08524\", \"data_mentioned\": true, \"reason\": \"IPUMS dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08374\", \"data_mentioned\": true, \"reason\": \"endometriosis\"}, {\"sent_id\": \"s_08524\", \"data_mentioned\": true, \"reason\": \"IPUMS dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07890: where Rt -7ti(l-ut) + (l-7t)i(l-m)/(l-c), the weighted average nominal netof-corporate tax cost of equity and debt finance.\n\ns_07940: The paper illustrates that a rapid reconnaissance survey of water vending activities and the willingness of households to pay for improved water services can yield valuable inforn tion for water supply planning and unexpected policy insights.\n\ns_07990: 29 Interestingly, these efforts are spearheaded by the DIA with the objective of raising the coverage levels as percentage of GDP under the Russian scheme to international levels and promote more savings.\n\ns_08040: 6 Institute for Strategic Studies and Prognosis (www.isspm.org)\n\ns_08090: This is illustrated by Calder\u00f3n and Serv\u00e9n (2003) for the case of Latin America's infrastructure.\n\ns_08140: Population is taken from Goldsmith (1984: p. 263) .\n\ns_08190: They also study whether it might be possible, at least potentially if not in practice, to improve outcomes via policies that are more targeted than the blanket reduction currently in place.\n\ns_08240: At each institution, changes have occurred on multiple fronts, including greater collaboration among faculty instructors, better preparation of graduate teaching assistants, and a variety of approaches to the introduction of active learning.\n\ns_08267: 22 According to the National Center for Special Education Research, surveys were administered and data collected at five different collection periods (referred to as waves) in the following formats; parent and student phone interview, student assessment using subtests of the Woodcock-Johnson III achievement test, survey of school characteristics, survey of school program, survey of teachers, and transcript review.\n\ns_08317: In the first version of the dataset, the principal investigator manually entered the information in an excel file and exchanged with a research assistant and manually checked the accuracy of the coding of the data for each country on a rolling basis.\n\ns_08367: In brief, linkage disequilibrium based clumping was used to select SNPs in the discovery data, providing the most significantly associated SNP available in the target data set.\n\ns_08417: After selecting the most relevant features for each of the three diagnostic problems, we classify subjects through the support vector machine (SVM) algorithm with a linear kernel (Cortes and Vapnik, 1995) .\n\ns_08467: For AD, however, this would require demonstration that, for example, reductions in brain amyloid tracer due to an experimental drug are associated with subsequent attenuation of cognitive decline or improved quality of life.\n\ns_08517: The only competitor would be the datasets recently produced by Barro and Lee (2015) although it is more limited in terms of scope (146 countries), time (until 2040), age groups (15-64) and scenarios (only one trend scenario).\n\ns_08567: Our overarching goal is to construct from multimodal data sparse models which combine ease of interpretation with high predictive power.\n\ns_08617: Using the state-year as the unit of analysis, we specified a multivariate weighted ordinary least squares regression model of a state's annual total buprenorphine dispensed per 10,000 state residents (hereafter referred to as \"per capita\") as a function of the state's number of buprenorphine providers per capita, by type of provider (100-patient-waivered physicians, 30-patient-waivered physicians, opioid treatment programs, and substance abuse treatment facilities) per capita.\n\ns_08667: It is a large scale study involving Years 4 and 8 students in forty-six countries.\n\ns_08717: The target frequency for the standard statistics and acceptance error limits for the time series are also given for reference to an application of a particular model system skill assessment.\n\ns_08767: Prior studies on research participation have focused on one study or one population and have been conducted without inclusion of a representative sample of minorities and rural populations.\n\ns_08817: This focus of the CNN on the hippocampi only may be partly due to the dataset: ADNI is a research cohort from which patients with multiple phenotypes are excluded, leading to a very homogeneous cohort in which the main symptom of the patients is memory loss.\n\ns_08867: Graduates were over-represented in this initial group, and to try to redress this, we recruited a further 34 participants using Twitter, snowballing, and by approaching Further Education (FE) colleges and youth organizations.\n\ns_08917: In short, tests based on curve fitting can be made reasonably rigorous if we use existing statistical machinery.\n\ns_08967: [2007a] provided an update on earlier work for the Chukchi and Beaufort Seas but relied exclusively on remote sensing observations with data acquired at 10 day intervals.\n\ns_09017: Including the organizational environment variable eliminates the spatial dependence in Model 2 and contributes to better model fit with a higher pseudo R 2 value and smaller \u22122 log likelihood value [61].\n\ns_09067: Efforts to make the process more objective led to the creation of a fully automated TC intensity analysis [25] , which itself continues to have updates as the Advanced Dvorak Technique (ADT) [26] ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7OujGYXShZiOgJxPmDovLiVSjah",
+    "object": "chat.completion",
+    "created": 1682884412,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1351,
+      "completion_tokens": 83,
+      "total_tokens": 1434
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08517\", \"data_mentioned\": true, \"reason\": \"Barro and Lee (2015)\"}, {\"sent_id\": \"s_08617\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}, {\"sent_id\": \"s_08817\", \"data_mentioned\": true, \"reason\": \"ADNI\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08517\", \"data_mentioned\": true, \"reason\": \"Barro and Lee (2015)\"}, {\"sent_id\": \"s_08617\", \"data_mentioned\": true, \"reason\": \"buprenorphine\"}, {\"sent_id\": \"s_08817\", \"data_mentioned\": true, \"reason\": \"ADNI\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

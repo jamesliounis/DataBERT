@@ -1,0 +1,2557 @@
+{
+  "paper_id": "D32433682",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:47.134963Z"
+  },
+  "title": "Estimating the Demand for Business Training Evidence from Jamaica",
+  "authors": [
+    {
+      "first": "Alessandro",
+      "middle": [],
+      "last": "Maffioli",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "David",
+      "middle": [],
+      "last": "Mckenzie",
+      "suffix": "",
+      "affiliation": {},
+      "email": "dmckenzie@worldbank.org"
+    },
+    {
+      "first": "Diego",
+      "middle": [],
+      "last": "Ubfal",
+      "suffix": "",
+      "affiliation": {},
+      "email": "dubfal@worldbank.org."
+    }
+  ],
+  "year": "2020-09",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D32433682",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "How should business training programs be priced? Billions of dollars are spent subsidizing entrepreneurship programs around the world, and most of these programs are offered for free or at a token cost in developing countries. 1 However, these programs aim to generate private benefits for the firms participating in them, in the form of higher profits and greater survival, and it is therefore not clear whether or not offering these programs for free to everyone is the optimal use of public money.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Charging a positive price for training can affect how many firms receive training, which firms are trained, and how effective the training is at improving business practices and performance. Higher prices can potentially enable more firms to get trained from a given training budget by improving financial sustainability, but if it is costly to reach firms and market the training to them, could perversely end up reducing the quantity trained if many firms do not want to pay for training. Higher prices can also change the efficiency and equity of which firms are trained. On the positive side, it may help select those entrepreneurs with the highest returns to training, but conversely may screen out liquidity-constrained entrepreneurs with good ideas, and it is possible that those firms who are least willing to pay may benefit more from training. 2 Finally, by paying for training, a psychological or sunk-cost effect may operate whereby entrepreneurs then value the training more, and exert more effort in the learning process. While these different channels are theoretically possible, what is missing is empirical evidence on how sensitive training demand is to price, on which individuals are willing to pay higher prices, and on whether this sunk cost effect operates in practice. This paper provides the first experimental estimates of how the demand for business training varies with price. The training program consists of 40 hours of classes spread over 10 weeks, and combines both training on standard business practices with modules on soft-skills training focused on personal initiative, which teaches entrepreneurs to develop a pro-active entrepreneurial mindset (Frese and Gielnik, 2014; Frese et al., 2016) . It costs the provider approximately J$20,000 (US$150) per participant. We use two samples of Jamaican entrepreneurs and two different methodologies to elicit how willingness to pay for this training varies with price. First, we conduct a selective trial (Chassang et al., 2012 ) with a sample of 457 entrepreneurs. We use a version of the Becker-DeGroot-Marschak (BDM) method (Becker et al., 1964) to elicit willingness to pay for training, and then randomize offered prices to assign entrepreneurs to training if price is not above willingness to pay. In this experiment we also embed two interventions designed to test how credit constraints and discount-framing affect how sensitive entrepreneurs are to price, by varying whether participants can pay for the course in installments versus all at once, and whether the price is framed as a discount on the full cost of the course or not. Second, we randomize take-it-or-leave-it (TIOLI) offers comprising four levels of prices with a sample of 374 entrepreneurs.",
+        "cite_spans": [
+          {
+            "start": 1683,
+            "end": 1708,
+            "text": "(Frese and Gielnik, 2014;",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 1709,
+            "end": 1728,
+            "text": "Frese et al., 2016)",
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 1985,
+            "end": 2007,
+            "text": "(Chassang et al., 2012",
+            "ref_id": "BIBREF8"
+          },
+          {
+            "start": 2070,
+            "end": 2099,
+            "text": "Becker-DeGroot-Marschak (BDM)",
+            "ref_id": null
+          },
+          {
+            "start": 2107,
+            "end": 2128,
+            "text": "(Becker et al., 1964)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "We find that the demand for business training is price-inelastic, but that moving from free training to prices that cover more than a token share of the cost of provision does dramatically reduce demand. In our BDM sample, 76 percent of entrepreneurs attend at least one training class when it is free, 65 percent when they have to pay a nominal fee of 5%, 43 percent when charged one-quarter the cost, 29 percent when charged half the cost, and only 11 percent when charged the full cost. Offering the opportunity to pay in three installments, or framing the price as a discount relative to the actual cost did not affect demand. In our TIOLI sample, which consists of somewhat wealthier entrepreneurs with larger firms, 90 percent attend at least one class when it is free, and demand falls to 48 percent when charged half the cost, and 37 percent when charged three-quarters the cost, with again no impact of offering the opportunity to pay in installments. 3 We can then use this variation in willingness to pay to examine the correlates of higher demand for training, and thereby learn which entrepreneurs are excluded from training by charging higher prices. We find that willingness to pay is positively correlated with wealth, younger age, risk propensity and larger business size (volume of sales). This implies that higher prices screen out poorer and older entrepreneurs with smaller businesses, who are not so willing to take the risk of purchasing the course. Higher prices do not appear to differentially affect female business owners. This screening effect of charging for training will be concerning for organizations with a mandate to serve the poor. However, it may be efficient if price selects those with the largest treatment effects. Sample sizes in the existing literature have been insufficient to draw reliable inferences on which firms benefit most from training (McKenzie, 2020) , and our sample sizes and attrition rates likewise prevent us from measuring accurately heterogeneity in treatment effects by willingness to pay. However, we do at least see that willingness to pay increases with what entrepreneurs expect their returns to the training will be, suggesting that charging for training may help in targeting training to those it will benefit more.",
+        "cite_spans": [
+          {
+            "start": 961,
+            "end": 962,
+            "text": "3",
+            "ref_id": null
+          },
+          {
+            "start": 1889,
+            "end": 1905,
+            "text": "(McKenzie, 2020)",
+            "ref_id": "BIBREF19"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Even when training is offered for free, it is common for many business owners to not show up, and to not attend all sessions. McKenzie and Woodruff (2014) found that, on average, only 65 percent of those invited to training attend when it is free among 14 different randomized trials. In our BDM sample, which already consists of firms that had at least expressed enough interest in training to attend a demonstration session, only 76 percent of those offered the training for free attended at least one session, and the mean firm attended only 5.4 out of 10 sessions. We find that entrepreneurs who have a higher willingness-to-pay for training are more likely to attend training when selected, so that charging for training helps screen out those individuals who are less likely to show up.",
+        "cite_spans": [
+          {
+            "start": 126,
+            "end": 154,
+            "text": "McKenzie and Woodruff (2014)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Moreover, there is some evidence of sunk-cost effects. Conditional on willingness to pay, those who are randomly assigned higher prices for the course and pay for training are more likely to attend, and attend more sessions. This effect is stronger in our BDM sample where we have larger variation in prices and a larger sample size.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Taken together, our results suggest the optimal price for business training is unlikely to be either free or full cost. Charging for training does screen out those firm owners who are less likely to attend, selects those who expect to benefit more from it, and induces more effort in attending training. But a lot of these effects occur from charging only one-quarter of the full cost, and charging close to or at full recovery cost ends up screening out many business owners and increasing recruiting costs. This paper contributes to two main literatures. The first is a literature on business training programs in developing countries. Business training is one of the most common forms of firm support offered by governments, and a growing number of impact evaluations have offered various training programs to firms for free in order to measure impacts on business practices and firm performance. McKenzie (2020) provides a recent review and meta-analysis, finding that the typical training program increases profits and sales by an average of 5 to 10 percent. Training programs that go beyond teaching business practices to teach personal initiative, a psychological-based mindset intervention, have had larger impacts on firm growth in Uganda (Glaub et al., 2014) and Togo (Campos et al., 2017) .",
+        "cite_spans": [
+          {
+            "start": 1248,
+            "end": 1268,
+            "text": "(Glaub et al., 2014)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 1278,
+            "end": 1299,
+            "text": "(Campos et al., 2017)",
+            "ref_id": "BIBREF7"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "However, a recent experiment in Jamaica finds only short-term average effects of a soft skills training program provided for free, with the impacts only observed for men (Ubfal et al., 2019) . Two key challenges in the literature are how to target these programs to those who will benefit more, and how to scale them to serve many more firms in a financially sustainable way. A market-based solution, which charges firms to participate in training, has been proposed as a possible solution to both challenges. Our paper shows some of the promise and limits of doing so.",
+        "cite_spans": [
+          {
+            "start": 170,
+            "end": 190,
+            "text": "(Ubfal et al., 2019)",
+            "ref_id": "BIBREF24"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The second literature this paper contributes to is one on methods to estimate the demand for products or services. Recent applications in development economics have used two main methods: the Take-it-or-leave-it (TIOLI) method and the BDM mechanism. The TIOLI method consists in randomizing the offer price that potential clients face and to observe whether the product/service is purchased or not at that price. Due to its simplicity, it has been widely used to inform the debate on the pricing of health products (See Dupas and Miguel (2017) for a recent survey). Alternatively, the Becker-DeGroot-Marschak (BDM) method allows obtaining the exact willingness to pay for each participant, which gives more power to detect heterogeneous treatment effects of the services provided (Becker et al., 1964) . Recent examples include Ben Yishay et al. (2017) for latrines, Hoffmann 2018for water purifiers, Grimm and Hartwig (2018) for eyeglasses, and Grimm et al. (2020) for solar kits. Two recent papers compare demand estimates obtained with TIOLI and BDM, and find largely consistent results (Berry et al. (2020) for water filters, and Cole et al. (2020) for rainfall insurance and agricultural information), although with some differences arising.",
+        "cite_spans": [
+          {
+            "start": 520,
+            "end": 543,
+            "text": "Dupas and Miguel (2017)",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 585,
+            "end": 614,
+            "text": "Becker-DeGroot-Marschak (BDM)",
+            "ref_id": null
+          },
+          {
+            "start": 780,
+            "end": 801,
+            "text": "(Becker et al., 1964)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 901,
+            "end": 925,
+            "text": "Grimm and Hartwig (2018)",
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 946,
+            "end": 965,
+            "text": "Grimm et al. (2020)",
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 1090,
+            "end": 1110,
+            "text": "(Berry et al. (2020)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 1134,
+            "end": 1152,
+            "text": "Cole et al. (2020)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The majority of demand elicitation trials in development economics have been for products rather than services (so that the items have resale value), are for relatively inexpensive items, and have consumption or receipt of the item occurring almost immediately. 4 Our setting differs from this literature in being a service that cannot be traded or resold, where delivery will occur in the future, and where the potential cost is high (up to $150 or 3-5 months of profits for the full cost). Our paper highlights the challenges in using BDM in such a context, with many firm owners not following through on their commitments to pay (i.e. they do not pay what they agreed to pay in a signed contract).",
+        "cite_spans": [
+          {
+            "start": 262,
+            "end": 263,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "The paper proceeds as follows. Section 2 describes our sample, the context, the intervention and the data. Section 3 discusses the methods used to elicit willingness to pay and to estimate demand. Section 4 delivers the main results. Finally, Section 5 concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": "1"
+      },
+      {
+        "text": "Our intervention takes place in Jamaica, an upper-middle-income country of just under 3 million people, whose economy is heavily dependent on tourism and remittances. There is a large informal sector, comprising around 40% of non-agricultural employment, and over 400,000 self-employed workers (MICAF, 2017) . These businesses face challenges that are both internal and external to their operations. On the internal side, many small businesses are poorly managed, with MICAF (2017) stating that \"Many businesses are characterized by entrepreneurs that lack marketing capacity, operational capacity, business leadership, financial acumen, communication skills, and are generally unfamiliar with available business support services\" (p. viii). This motivates the need for business training. On the external side, World Bank Group (2019), notes that Jamaica ranks well in terms of the ease of opening a business and access to credit, but that key challenges for operating a business in Jamaica are the enforcement of contracts, taxes, property registration and electricity provision. The lack of contract enforcement is a particularly relevant challenge for our intervention, which relies on entrepreneurs paying the amount they commit to pay after signing a contract. Moreover, very high crime rates and a high prevalence of scams by call centers erode trust among local entrepreneurs, which affects recruitment and survey response. 5 We partnered with the Jamaica Business Development Corporation (JBDC), a government agency of Jamaica with the mandate to boost the development of micro, small and mediumsized enterprises (MSMEs). It is assigned in the National MSMEs and Entrepreneurship Policy as the lead agency charged with the execution of business training. It provides services across the spectrum, from guiding start-ups to a wide range of consultancy services for more established businesses. In 2016-2017, Ubfal et al. (2019) conducted a randomized controlled trial with JBDC in Kingston to estimate the effect of two business training programs combining hard and soft skills. Training courses were fully subsidized to participants. JBDC would have been unable to continue offering these courses free of cost without external subsidies. They estimate the cost of the training to be around 20 thousand Jamaican dollars (around US$150), but they were not sure how much Jamaican entrepreneurs would be willing to pay for it. They were therefore interested in learning what the willingness to pay for training was among different groups of entrepreneurs in Jamaica.",
+        "cite_spans": [
+          {
+            "start": 294,
+            "end": 307,
+            "text": "(MICAF, 2017)",
+            "ref_id": null
+          },
+          {
+            "start": 1431,
+            "end": 1432,
+            "text": "5",
+            "ref_id": null
+          },
+          {
+            "start": 1915,
+            "end": 1934,
+            "text": "Ubfal et al. (2019)",
+            "ref_id": "BIBREF24"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Context and Implementation Partner",
+        "sec_num": "2.1"
+      },
+      {
+        "text": "The business training program for which we elicit willingness to pay is a 40-hour course divided into ten four-hour lectures. It is a combination of two training programs: the first component focuses on soft skills and the second one on recommended business practices.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Business Training Program",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The training material was prepared by a team with expertise on entrepreneurship, organizational behavior and work psychology. The first five classes focus on personal initiative, a psychological intervention aimed at making business owners more proactive with respect to new ideas, and more persistent in overcoming challenges (Frese and Gielnik, 2014; Campos et al., 2017; Ubfal et al., 2019) . The second five classes cover content from a standard training program that teaches a set of best business practices based on the ILO's Improve your Business (IYB) training, adapted to the Jamaican context. The cost of providing the course is approximately J$20,000 Jamaican dollars (US$150) per participant.",
+        "cite_spans": [
+          {
+            "start": 327,
+            "end": 352,
+            "text": "(Frese and Gielnik, 2014;",
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 353,
+            "end": 373,
+            "text": "Campos et al., 2017;",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 374,
+            "end": 393,
+            "text": "Ubfal et al., 2019)",
+            "ref_id": "BIBREF24"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The Business Training Program",
+        "sec_num": "2.2"
+      },
+      {
+        "text": "The population of interest for JBDC is the set of micro, small and medium enterprises (MSMEs) in a targeted region who they can reach through their outreach activities, and who might potentially be interested in taking part in business training. We therefore worked closely with them to recruit the types of firms they would typically be interested in serving. Our recruitment process was divided into two phases. In the first phase, which was used for selecting firms to take part in the BDM elicitation method, we targeted firms in the Western regions of Jamaica (the parishes of St. James, Westmoreland, Trelawny, Hanover, Manchester and Saint Ann). These parishes include the second-largest city in Jamaica, Montego Bay. The second phase, used to select firms for the take-it-or-leave-it (TIOLI) approach, recruited mainly around the capital city of Kingston (72%), with the remainder from Montego Bay and surrounding parishes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sampling Firms",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "A variety of communication methods were used to contact entrepreneurs in both locations and gauge their interest in learning more about the business training. These included emails to the existing client database of JBDC; advertisements via social media, newspaper and radio; and messages from other MSME support organizations. The goal was to reach 2,000 MSMEs, with a target of having 1,000 of them attend a demonstration workshop, where the content of the course and the methodology to determine the price would be explained and willingness to pay for the course would be elicited. A short baseline survey was conducted on the phone or online upon enrollment in the study to provide basic background on the firm, including characteristics that can be used to examine what factors help predict willingness to pay. This process launched in late June 2017 and was extended until May 2018. Overall, 1,823 entrepreneurs showed interest in the training and answered the baseline survey. We dropped 8 respondents who reported not having a business, and one respondent who did not provide any contact details. We also removed from the sample 20 outliers in terms of monthly sales (more than US$10,000) and 9 entrepreneurs with more than 15 employees. 6 This left 1,782 eligible entrepreneurs who were invited to come to demonstration sessions conducted at the JBDC facilities that were closest to the business of the respondent.",
+        "cite_spans": [
+          {
+            "start": 1246,
+            "end": 1247,
+            "text": "6",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sampling Firms",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "From August to November 2017, 457 entrepreneurs came to the demonstration sessions and completed the BDM elicitation method (BDM sample). From February to May 2018, 374 entrepreneurs came to demonstration sessions and received TIOLI offers (TIOLI sample). Table A1 compares the characteristics of those who enter into the demand study by attending the demonstration sessions to those who did the baseline survey by phone, but then did not attend any demonstration sessions. Overall, we see that the BDM sample is similar on many characteristics (e.g. age, gender) to those who were invited and did not show up.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 256,
+            "end": 264,
+            "text": "Table A1",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Sampling Firms",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "However, those who attended demonstration sessions have higher reported willingness to pay for the course and expect higher returns for it; they are more likely to have attended a previous course, have higher internet access and consider themselves worse than those who did not attend in terms of proactiveness and business practices (the topics of the course).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sampling Firms",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "In the richer TIOLI sample, we see that most characteristics are similar across those who attended and those who did not attend demonstration sessions, though we have a larger share of females and fewer takers of previous courses in the former group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sampling Firms",
+        "sec_num": "2.3"
+      },
+      {
+        "text": "Demographic and business characteristics of the two samples are provided in Table 1 . Just over half (56-58 percent) of business owners in both samples are female, with an average age of 46 in the BDM sample and 41 in the TIOLI sample. Education levels are high, with 88 percent having completed at least secondary education in the BDM sample and 95 percent in the TIOLI sample. This compares to only 59 percent of the overall Jamaican population aged 25 to 44 having completed at least secondary education in 2010 (Barro and Lee, 2013) , and reflects positive selection into entrepreneurship on education. In the TIOLI sample entrepreneurs are significantly wealthier than in the BDM sample as measured by a wealth index. 7 In both samples, the firms cover a wide mix of industries, with the majority of businesses in the BDM sample being in services (38 percent), retail (30 percent) and manufacturing (23 percent), while in the TIOLI sample we have a larger share in services (53 percent), a similar share in manufacturing (24 percent) and a smaller share in retail (18 percent). The BDM sample is smaller in size on average than the TIOLI sample. Only 39 percent of firms in the BDM sample have any paid employees, and only 4 percent more than 5 employees, compared to 44 percent with employees and 17 percent with more than 5 employees in the TIOLI sample. Monthly sales average J$86K (median 30K) in the BDM sample and J$214K (median 40K) in the TIOLI sample, while monthly profits average 13K (median 3.8K) and 89K (median 8k), respectively. 8 It would therefore take firms in the BDM (TIOLI) sample around 5 (3) months of profits to pay for the full cost of the course. Only 14-15% in both samples indicate they would not be able to finance an investment of J$20,000 (the cost of the course). It is likely that a large share of entrepreneurs have access to collateral since 53-54% of them report owning a vehicle for the business (one of the components of the wealth index, not reported in the table).",
+        "cite_spans": [
+          {
+            "start": 515,
+            "end": 536,
+            "text": "(Barro and Lee, 2013)",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 723,
+            "end": 724,
+            "text": "7",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 76,
+            "end": 83,
+            "text": "Table 1",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Sample Characteristics",
+        "sec_num": "2.4"
+      },
+      {
+        "text": "Participants score high on a personal initiative index (average of 6.3 over 7 for both samples) and in willingness to take risk (7.5 over 10 in the BDM sample, and 8 over 10 in the TIOLI sample). However, when they compare themselves to other entrepreneurs in terms of proactiveness, they report a value of 6.6 over 10 (6.9 over 10 for the TIOLI sample).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sample Characteristics",
+        "sec_num": "2.4"
+      },
+      {
+        "text": "There is room to improve business practices in both samples, with the mean firm doing 49 percent (BDM sample) and 55 percent (TIOLI sample) of the business practices we measure.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sample Characteristics",
+        "sec_num": "2.4"
+      },
+      {
+        "text": "Around 80 percent of participants in the BDM sample expect that the training will increase their sales by more than 10 percent, while the other 20 percent expect an increase of up to 10 percent. In the TIOLI sample, 89 percent of participants expect an increase of at least 10 percent in sales from the training. The mean (non-incentivized) willingness to pay for business training is J$13K (median 5K) in the BDM sample and J$17K (median 20K) in the TIOLI sample. This implies that the median firm in the BDM sample reports being willing to pay up to one fourth of the cost of the course, while in the TIOLI sample, the median firm reports being willing to pay the full cost.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sample Characteristics",
+        "sec_num": "2.4"
+      },
+      {
+        "text": "Business training is a commodity with several aspects that makes it difficult to sell. It shares the property of experience goods (Nelson, 1970) , that it can be difficult for consumers to assess quality without purchasing and consuming it. It is not something that most firm owners purchase often, making it hard to learn about quality by repeated experiences. Moreover, since it is a service, if firm owners are dissatisfied with their purchase, they cannot return it or sell it to others. These features also make it hard for individuals to borrow to finance, since a lender cannot use the training as collateral or seize it if the borrower does not repay.",
+        "cite_spans": [
+          {
+            "start": 130,
+            "end": 144,
+            "text": "(Nelson, 1970)",
+            "ref_id": "BIBREF22"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demonstration Sessions",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "Our solution to help reduce these problems, and to ameliorate the extent to which a lack of information and uncertainty makes firm owners reluctant to pay for training, was to hold demonstration sessions. After taking part in the phone survey, entrepreneurs were invited to attend a demonstration session in the same facility where training would be provided. The demonstration session started by explaining that this was a development project being undertaken to help train entrepreneurs, and that it would offer them the opportunity to get a unique training course at a potentially subsidized price. The trainers from JBDC then explained the experience of their organization in helping provide training to Jamaican firms, and outlined the course contents, giving examples of what it would cover. Participants were then given evidence on the potential effectiveness of the course in both quantitative and qualitative terms. They were told that a similar program had been implemented in several other countries, and that in a large-scale evaluation, business owners who took the course experienced a growth of 30 percent in profits over the next two years compared to similar firms not taking part (based on Campos et al. (2017) ). Moreover, they were informed that preliminary results from JBDC implementing a similar program in Kingston had also increased sales and profits in the short-run (based on Ubfal et al. (2019) ).",
+        "cite_spans": [
+          {
+            "start": 1208,
+            "end": 1228,
+            "text": "Campos et al. (2017)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 1403,
+            "end": 1422,
+            "text": "Ubfal et al. (2019)",
+            "ref_id": "BIBREF24"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demonstration Sessions",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "In addition, they were provided with testimonial quotes from Jamaican participants who had taken the course in Kingston. These steps were also intended to build trust in the organization and its trainers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demonstration Sessions",
+        "sec_num": "3.1"
+      },
+      {
+        "text": "The BDM method was implemented on our first sample of entrepreneurs, from August to November 2017. After a 30-minute description of the course by the JBDC trainers, entrepreneurs are told that the cost of providing the course is J$20,000, but that there is an opportunity to get the course at a discounted price if they purchase it at the end of the session. The BDM elicitation method is described in detail and an example of the mechanism is conducted for a token object (e.g., a pen or a notebook) with one of the participants in front of all the others. Entrepreneurs are told that it is optimal for them to reveal their true willingness to pay for the course; since over-reporting the price would imply they might have to pay a higher amount than that they are really willing to pay, and under-reporting would reduce their chances of getting the course at a price they would be willing to pay.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the BDM Method",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "After this explanation, they conduct individual interviews with an enumerator. We use a multiple price list approach to elicit the amount they are willing to pay for the course. We begin by asking if they would take the course if offered for free, and as long as they answer positively, we continue by asking whether they are willing to pay J$1,000 to take the course, then J$3,000, J$5,000, J$10,000, J$15,000, and J$20,000. Every time they answer yes, we ask them to confirm if they are sure they would be ready to pay that amount. Whereas when they answer negatively, we ask them if they are sure that if we offered a price below that amount, they would not be willing to purchase the course at that price. Once we find the price at which they would not buy the course, we ask for the exact price they would be willing to pay between the price they accepted and the price they rejected.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the BDM Method",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "They then sign a commitment statement for the price they accept to pay. 9 After signing the contract, they roll two dice, and add up the sum. The sum determines the price they are offered for the course according to a pre-specified schedule unknown to participants. 10",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the BDM Method",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "The determination of the price through the rolling of the dice has the advantage of making the selection of the price transparent to the business owner, which is very important in contexts of low trust such that faced in Jamaica. 11",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the BDM Method",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "If participants are offered a price at or below their willingness to pay, they are asked to pay for the course before the first class, and if not, they are told that they cannot participate in the training. The random choice of one of the six offered prices induces experimental variation in exposure to treatment: some individuals have a willingness to pay (WTP) equal or greater than the price offered and others do not. Indeed, Table 1 shows that, overall, baseline observable characteristics of entrepreneurs in our sample are not correlated with the price offered (Column 2).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 431,
+            "end": 438,
+            "text": "Table 1",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the BDM Method",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "In order to further test the role of liquidity constraints and reference points in determining the willingness to pay, the sample of entrepreneurs is randomized into four groups, in a 2x2 design. To test for liquidity constraints we randomized whether participants are asked to pay the full amount at once (practically within one or two weeks, and before the first class of the course), or with credit, in 3 installments, with the second payment due after class 6, and the third after class 8. To test for framing effects, we randomize the way the questions in the elicitation are asked. The standard questions asks: \"are you willing to pay X Jamaican dollars for the course?\", while the question for the discount-framing group emphasizes the discount: \"are you willing to pay X Jamaican dollars for the course? This would be a discount of Y% over 20,000, the cost per person of providing the course.\" Both treatments are randomized by randomly ordering the forms read to each participant in batches of 4 (standard, credit, discount frame, credit and discount frame). Table A2 shows that firm and demographic characteristics are well balanced across treatments. Participants are told about their respective treatment (i.e., the possibility of paying in installments or the discount frame question) before reporting their willingness to pay. We expected higher willingness to pay if there is flexibility as to when the payment is made, and if the price is framed as a discount.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 1068,
+            "end": 1076,
+            "text": "Table A2",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the BDM Method",
+        "sec_num": "3.2"
+      },
+      {
+        "text": "We encountered logistical problems in the implementation of the BDM method. A significant share of respondents did not pay the amount they agreed to pay, even when they signed a contract for that amount. Out of the 457 respondents who completed the BDM mechanism, 392 (86%) bought the course by reporting a WTP at least as high as the price they were randomly offered. In this group, 318 participants were assigned a positive price for the course, but only 46% of them paid the agreed amount for the course, while 50% paid at least part of the agreed amount. One possible reason for this is that, unlike the case of many BDM elicitations, participants did not pay on the spot. This occurred for three reasons. First, since the courses would not start for several weeks after the demonstration session, JBDC did not want to require payment until the start date. Second, since the cost of the course could be sizeable relative to firm profits in the case of getting a high price drawn, they wanted to give firm owners time to collect together the money. Third, most small firm owners did not have credit cards, and given high crime rates, JBDC wanted to avoid asking firm owners to show up to a group demonstration session with a large amount of cash on hand. Given this time to pay, some participants may have therefore changed their minds, leading to reneging on their commitment to pay.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logistical Difficulties with the BDM Method",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "This high level of reneging on commitments to pay could also potentially arise from respondents choosing to report a price higher than their WTP to increase their chances of entering the course, with the expectation that they might be able to attend training even if they did not pay that price. If this is the case, then our measure of willingness to pay for the course may be upward-biased. Table 2 presents evidence that our WTP measure is still informative about demand. We see that for those who purchased the course, a measure of consumer surplus (i.e. the difference between WTP and the price offered) is highly correlated with paying in full the offered price (Column 1), coming at least one class to the course (Column 2), and the number of classes attended (Column 3). However, this table can also be interpreted as evidence for over-reporting WTP as in Hoffmann (2018) . In the case of true revelation of WTP, the difference between the WTP and the price offered should not affect payment, since everyone with WTP as least as high as the price should pay.",
+        "cite_spans": [
+          {
+            "start": 864,
+            "end": 879,
+            "text": "Hoffmann (2018)",
+            "ref_id": "BIBREF16"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 393,
+            "end": 400,
+            "text": "Table 2",
+            "ref_id": "TABREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Logistical Difficulties with the BDM Method",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "Most studies that have used BDM in developing countries have used it for physical products that are much cheaper (in both absolute terms and relative to income) than the training offered here. Table 3 summarizes the experiences of these studies with people reneging on their commitments to pay. 12 We see that in most of the cases the reneging rate on payment is in the single digits. Hoffmann (2018) is a first exception, with 18% of those bidding for water purifiers in BDM deciding not to pay when the time came. When credit is offered, reneging can take two forms: deciding not to take the item at all once the price is known, or taking the item but then not paying the agreed amount. Grimm et al. (2020) is an example of the latter problem occurring, with 6.7% changing their mind about a solar kit once the price was known, but then only 17% paying the agreed price in full during the credit period.",
+        "cite_spans": [
+          {
+            "start": 295,
+            "end": 297,
+            "text": "12",
+            "ref_id": null
+          },
+          {
+            "start": 689,
+            "end": 708,
+            "text": "Grimm et al. (2020)",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 193,
+            "end": 200,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Logistical Difficulties with the BDM Method",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "Given some of these logistical difficulties implementing BDM in practice, Dupas and Miguel (2017) note that the majority of efforts to measure the price elasticity of demand for preventative health products in developing countries have used take-it-or-leave-it offers. After experiencing these payment issues, we also decided to continue with a simpler strategy.",
+        "cite_spans": [
+          {
+            "start": 74,
+            "end": 97,
+            "text": "Dupas and Miguel (2017)",
+            "ref_id": "BIBREF10"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logistical Difficulties with the BDM Method",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "With our second sample of entrepreneurs, we therefore randomized take-it-or-leave-it offers.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Logistical Difficulties with the BDM Method",
+        "sec_num": "3.3"
+      },
+      {
+        "text": "With our second sample, we elicited demand by randomizing the price each entrepreneur was offered for the course, in demonstration workshops held between March and July 2018.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the Take-It-or-Leave-It Method",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "During this period, we informed entrepreneurs about the market cost of the course in the invitation script, which might have affected selection into coming to the sessions and (in addition to income differences between cities) explain why firms in the second sample are larger on average than those in the first. In this sample we did not randomize the discount frame treatment since all entrepreneurs were told that at the session they could receive a discount ranging from 25% to 100% of the cost of the course. Entrepreneurs attending demonstration sessions were then randomly allocated to one of four prices: J$0 or J$5,000 with probability one third and J$10,000 or J$15,000 with probability two thirds. In this case, JBDC was better prepared to pre-announce the dates of the training and to commit to those dates. This was reflected in overall higher attendance levels as we show below.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the Take-It-or-Leave-It Method",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "In order to implement the randomization, we asked each participant to randomly pick a card where a code was written. As they picked the card, they exited the room and went to another room where they were told the treatment condition that corresponded to that card. In this case, all treatments were framed as an scholarship for the course. 13 Half of the participants assigned to a positive price were also randomly allocated to a credit option, as in the BDM design, where they were allowed to pay in 3 installments (before the first, sixth and eight class, respectively).",
+        "cite_spans": [
+          {
+            "start": 340,
+            "end": 342,
+            "text": "13",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the Take-It-or-Leave-It Method",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "Column 4 of Table 1 shows that random allocation to offered prices worked well. Table A3 shows that balance was also achieved across treatments (credit vs no credit).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 12,
+            "end": 19,
+            "text": "Table 1",
+            "ref_id": "TABREF2"
+          },
+          {
+            "start": 80,
+            "end": 88,
+            "text": "Table A3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Demand Elicitation Using the Take-It-or-Leave-It Method",
+        "sec_num": "3.4"
+      },
+      {
+        "text": "Entrepreneurs who purchased the course were invited to attend training. For the BDM sample, the training started in December 2017 and lasted for 10 weeks. Seven groups were formed in 6 different locations. For the TIOLI sample, there were two training periods, one from March to May 2018 (8 groups in 4 locations), and a second one from May to July 2018",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Training Implementation",
+        "sec_num": "3.5"
+      },
+      {
+        "text": "(3 groups in Kingston).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Training Implementation",
+        "sec_num": "3.5"
+      },
+      {
+        "text": "We rely on three sources of data: baseline data, administrative data on payment and attendance, and follow-up data. The baseline survey was conducted either on the phone or online on a rolling basis between June 2017 and May 2018. Attendance and payment data were recorded by JBDC.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3.6"
+      },
+      {
+        "text": "We conducted a phone follow-up survey with all entrepreneurs who attended demonstration sessions from late September 2018 to February 2019. We hired a private local survey firm with international experience, and as we expected, given the low trust levels and high incidence of violence, attrition was an important problem. From the BDM sample, 302 (66%) answered the survey, while from the TIOLI sample 266 (71%) did. Compared to other phone surveys, these response rates are not low. However, they limit the range of analysis we can conduct given that response rates are highly correlated with price paid, particularly so for the BDM sample.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Data",
+        "sec_num": "3.6"
+      },
+      {
+        "text": "We first estimate the demand schedule for business training for the BDM sample. Our first measure of demand is whether entrepreneurs purchased the course according to the BDM procedure (i.e., their WTP was at least as high as the offered price) regardless of whether they actually paid. Table 4 shows how the randomly offered price affects this outcome. In Column (1), we use a continuous measure for price offered. Demand is downward sloping, with the point estimate indicating that a J$1,000 increase in price reduces take-up by 3.3 percentage points. In Column (2) we include binary variables for each level of price offered to entrepreneurs. Increases in the price from 0 (the omitted category) to $1,000 or $3,000 do not have statistically significant effects on demand. However, extra increases in price reduce demand significantly. Indeed, we can reject that the reduction in demand is linear with prices. 14 For example, charging a price equal to the cost of the course (J$20,000) would reduce demand by 67 percentage points. While columns (1) and (2) show that raising the price towards the cost of providing the training has a large impact on demand, the coefficients also imply that demand is price-inelastic. For example, doubling the price reduces demand by less than one half. Demand is more inelastic at lower prices: moving from J$1,000 to full price has a price elasticity of -0.04; moving from J$5,000 to full price a price elasticity of -0.22; and moving from half price (J$10,000) to full price a price elasticity of -0.59. Column (3) includes indicators for treatment variations; we do not see any effect from either the credit or the discount frame intervention.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 287,
+            "end": 294,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "However, as explained above, almost half of participants in the BDM exercise did not pay the agreed amount. In Columns (4)-(6), we use actual payment of the full price offered for the course as our measure of demand. In this case, the decrease in demand with price is even more pronounced: a J$1,000 increase in price reduces demand by 4.7 percentage points. Moreover, while we can still reject linearity of price effects, the pattern of effects is reversed: the decrease in demand is now higher at lower prices than at higher prices. 15 This means that charging higher prices for the course, even at a fraction of its actual cost, discourages an important share of entrepreneurs from taking it. 16 In Columns 3and 6we see that the credit and discount frame treatments do not have significant effects on demand. The fact that credit does not play an important role affecting demand is in line with the sample not reporting significant credit constraints at the full cost of the course. However, the interaction of credit and discount frame has a significant negative effect on the probability of paying (Column 6), but not on willingness to pay (Column 3). One possibility is that the combination of discount and credit was perceived as a negative signal of the quality of the course, but it has to be a signal that affects only actual payment, since we do not see effects in willingness to pay. Figure 1 presents a graphical illustration of the demand schedule based on elicited willingness to pay in the BDM sample, by treatment arm. We see demand is similar across treatment arms at most price levels. If anything, the discount framing alone reduces demand at higher price levels, perhaps because the discount implied is not that high. The first row of Table 7 presents detailed summary statistics by price offered. We find that 32 percent of the sample report a willingness to pay at least as high as the full cost of the course; 78 percent report being willing to pay a price as high as half of the cost of the course, and 94 percent a price of 25 percent of the cost. Figure 2 adds to the previous plot the demand schedule by using actual payment of the offered price as a measure of demand.",
+        "cite_spans": [
+          {
+            "start": 535,
+            "end": 537,
+            "text": "15",
+            "ref_id": null
+          },
+          {
+            "start": 696,
+            "end": 698,
+            "text": "16",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 1396,
+            "end": 1404,
+            "text": "Figure 1",
+            "ref_id": "FIGREF1"
+          },
+          {
+            "start": 1756,
+            "end": 1763,
+            "text": "Table 7",
+            "ref_id": null
+          },
+          {
+            "start": 2074,
+            "end": 2082,
+            "text": "Figure 2",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "Only 7 percent of those who are offered a price equal to the cost of the course actually pay it (11 percent paid a positive amount at that price, but less than the full price). 12 percent of those offered a price that is 75% of the cost of the course pay it, and still only 40 percent pay if assigned an offer price of 50% of the cost of the course.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "Panel A of Figure 3 plots the demand schedule by credit treatment (pooling the two groups with and without discount frame treatment). We can see that, while the overall impact of credit was not significant, there is heterogeneity by price paid. On the one hand, for prices below J$10,000 (half of the cost of the course), credit hampered actual payment, but the effect is not very large and it is not statistically significant. On the other hand, for the two highest prices, credit significantly increased the probability of paying, which might indicate the existence of some liquidity constraints in the sample at these amounts. 17 overestimated since a large share of the sample does not attend the training even when it is offered free of cost. Coefficients expressed in terms of extra reductions from demand at J$1,000 are: 0.02, 0.055, 0.045, 0.038, and 0.031, respectively. 16 It is important to note that the logistical fixed costs of paying a positive amount were not high, since everyone was allowed to pay when they came to the first session of the training.",
+        "cite_spans": [
+          {
+            "start": 630,
+            "end": 632,
+            "text": "17",
+            "ref_id": null
+          },
+          {
+            "start": 880,
+            "end": 882,
+            "text": "16",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 11,
+            "end": 19,
+            "text": "Figure 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "17 It is important to reiterate that the credit treatment does not affect elicited willingness to pay at any price.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "A final point to note is that the unincentivized willingness-to-pay question in our baseline survey would yield very different results on demand from those we obtain using BDM.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "The simple survey question results in a much lower estimate of WTP. The median unincentivized measure, albeit measured before coming to the demonstration session, is only J$5,000, compared to $15,000 in the BDM. Moreover, the correlation between the two measures is very low (0.07) and not statistically significant.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "Demand is simpler to measure using take-it-or-leave-it offers -firm owners are offered the training at a given price, and decide either to buy it or not. 18 To estimate demand for the TIOLI sample, we regress a dummy for take-up of the course (paying the offer price) on the offer price. Column 7in Table 4 shows that, as expected, demand is downward sloping: a J$1,000 increase in price reduces demand by 5.5 percentage points. In this case, the reduction in demand is more or less proportional with price, but we can still reject linearity (Column 8, p-value for linearity test=0.04). 19 Demand is again price-inelastic, with an elasticity averaging -0.37. As with the BDM sample, we do not see any effect of the credit treatment on take-up (Column 9).",
+        "cite_spans": [
+          {
+            "start": 154,
+            "end": 156,
+            "text": "18",
+            "ref_id": null
+          },
+          {
+            "start": 587,
+            "end": 589,
+            "text": "19",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 299,
+            "end": 306,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          }
+        ],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "Column (10) in Table 4 pools together the BDM and TIOLI samples to examine how the price sensitivity of demand varies between the two studies. The TIOLI sample has a higher base interest in training, and a more elastic demand: the effect of prices on demand is 17% larger for the TIOLI sample than for the BDM sample (the interaction coefficient is -0.008, while the effect for BDM is -0.047), a difference that is statistically significant. Figure 4 compares the demand curves for TIOLI and BDM samples. The shares paying the offer price at 75% or 50% of the cost of the course are larger for the TIOLI sample than for the BDM sample: they are 19 and 33 percent for the TIOLI sample, vs. 12 and 24 percent for the BDM sample, respectively (see Table 7 for details). However, the main difference between the two samples is observed at a price equal to 25% of the cost of the course. At this price, 71% of the TIOLI sample pays, while only 50% of the BDM sample does.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 15,
+            "end": 22,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          },
+          {
+            "start": 442,
+            "end": 450,
+            "text": "Figure 4",
+            "ref_id": null
+          },
+          {
+            "start": 745,
+            "end": 752,
+            "text": "Table 7",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "Finally, Panel B of Figure 3 shows that also for the TIOLI sample the credit option slightly increases demand at higher prices, and hampers it at lower prices, but the effects are",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 20,
+            "end": 28,
+            "text": "Figure 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "This implies that respondents might have been over-optimistic about their ability to pay.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "smaller than for the BDM sample and are not statistically significant. This is in line with the fact that this sample of entrepreneurs is richer, and probably less affected by liquidity constraints.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "There are several market failures than can justify subsidizing business training. The first, and one for which there is some suggestive support in the literature (e.g., Karlan and Valdivia (2011) ; Bloom and Van Reenen (2010) ) is that of an information failure, whereby the value of business training services is not understood by entrepreneurs, and may be particularly understated by those with the most to gain, who do not realize how poorly run their firms are. A second market failure is credit constraints: firms may find it harder to borrow to finance training, an intangible asset, than to finance assets, which can be seized by a bank in the event of non-repayment. There is strong evidence that many small firms are credit-constrained, but much weaker evidence to support the view that this is the key constraint to them purchasing business training services. A third possibility is insurance market failures, with firm owners reluctant to take training even if they think it has a high expected payoff, because they are unable to insure against the possibility that it does not work. There is some recent evidence to support the view that risk is a constraint to start-up and investment in small businesses (e.g. Bianchi and Bobba (2012) ), but no evidence we are aware that shows that alleviating this constraint leads to more purchases of training.",
+        "cite_spans": [
+          {
+            "start": 169,
+            "end": 195,
+            "text": "Karlan and Valdivia (2011)",
+            "ref_id": "BIBREF18"
+          },
+          {
+            "start": 198,
+            "end": 225,
+            "text": "Bloom and Van Reenen (2010)",
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 1224,
+            "end": 1248,
+            "text": "Bianchi and Bobba (2012)",
+            "ref_id": "BIBREF5"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Finally, an alternative is that there is no such market failure, and the reason firms do not buy business training without subsidies is that they have low returns to undertaking such training.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "We draw on these hypotheses to examine the extent to which existing business practices, self-perception about existing skills, access to finance, risk preferences, and expected returns determine willingness to pay for training. This enables us to see the extent to which charging for business training will affect not just how many business owners receive training, but also which entrepreneurs will get trained.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "We first use our experimental treatments to determine whether WTP varies with liquidity effects and framing. Table 5 presents the results from regressing elicited WTP in the BDM sample on observable characteristics measured at the baseline survey. We include fixed effects to control for week and location of the demonstration. Column (1) includes only the randomized treatment variations; we confirm that neither the possibility to pay in installments, nor the discount frame or their combination has significant effects on WTP.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 109,
+            "end": 116,
+            "text": "Table 5",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Columns (2) through (6) then examine different potential determinants of demand. Col-umn (2) looks at the resources firm owners have to pay for the course, and shows a strong positive association of demand with our wealth index. Demand is lower for poorer firm owners.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Column (3) examines how willingness to pay varies with what firm owners expect to get out of training, and with prior experience and interest. We see that entrepreneurs who expect the training to grow their sales by 10 percent or more have a higher willingness to pay for training. That is, there is some evidence that charging for training selects those entrepreneurs who expect to benefit more from it. The correlation is negative and significant at the 10 percent level with having previously done some other form of business training.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Our elicited WTP is positively correlated with the baseline WTP completed in the phone survey, but the coefficient is small and only marginally significantly different from zerothis might be because they did not have enough information about the course to gauge WTP without the demonstration session, or because they were trying to answer strategically, and not truthfully, when asked WTP in the phone survey.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Column (4) examines whether willingness to pay is higher for those with more scope for improvement. We see no significant correlations with either baseline levels of business practices and personal initiative, nor with how firm owners feel they compare on these measures compared to other businesses. The coefficients are all positive, so, if anything, those who are already doing better are more likely to want to improve than those with poor practices to begin with. Column (5) considers how personal characteristics are correlated with WTP. We see younger entrepreneurs have higher WTP, while there is no significant association with gender or education. Entrepreneurs who have a higher risk propensity exhibit a statistically significantly higher WTP (at the 10 percent level), which is in line with the argument that training is seen as a risky investment, and some entrepreneurs might not be willing to pay for the training because of failures in the insurance market.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "Column (6) examines how firm size is associated with WTP. We see a positive correlation of WTP with having employees, which is statistically significant at the 10 percent level, and a positive and highly significant association with having above median sales. That is, owners of larger firms are willing to pay more. Column (7) pools all the variables together, and then Column (8) uses LASSO to choose a sparser set of predictors from among all of these variables. Overall, we see that younger, wealthier entrepreneurs, who are more willing to take risks, and who have larger firms report higher levels of willingness to pay for the training. This group is therefore less likely to be excluded from the training by charging a positive price.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "We examine the bivariate relationship between demand and key firm and owner characteristics in more detail in Figure 5 . This figure allows us to see how demand varies with different characteristics at different prices. We see the demand curves look similar for men and women, and that demand is higher for those who are wealthier, more risk-seeking, with higher sales, higher expected returns to training, and younger owners. We also test (not reported) whether the slopes vary by characteristic, and find that younger owners and those who have higher expected returns from training have more inelastic demands (flatter slopes). pay, and what that price was. We see that only education is significant, with more educated individuals being more likely to pay for training. Column (3) shows this continues to hold when using LASSO to reduce the number of coefficients. Columns (4) and (5) look at who reneges on payment after having a WTP greater than the price, and finds those with more education are less likely to renege. Finally, Columns (6) and (7) present the correlates for paying for the course in the TIOLI sample. Price offered is negatively correlated with paying, as we saw before. We see demand is higher for wealthier owners, and those with larger firms (more employees), as with the BDM. We find that those who think their practices compare well with other firms have lower demand. In contrast to the BDM, we find a marginally positive impact of age on demand (but note that the magnitude is small, and that the TIOLI sample is younger to begin with than the BDM sample).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 110,
+            "end": 118,
+            "text": "Figure 5",
+            "ref_id": "FIGREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Correlates of Willingness to Pay",
+        "sec_num": "4.2"
+      },
+      {
+        "text": "We have seen that charging higher prices affects how many people demand business training, and which entrepreneurs demand training. We now turn to measuring whether a higher price affects training attendance. There is a mechanical effect of lower demand on attendance -fewer people buying the course means fewer attending. There are two other channels of interest here: (i) a selection effect, whereby those with a higher willingness-topay are also those entrepreneurs who are more likely to attend training; and (ii) a potential causal effect of higher prices on attendance, through a psychological or sunk cost effect, where paying for training causes individuals to value it more and exert more effort in the learning process. We use our experiments to examine the evidence for both effects.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "How Does Pricing Affect Training Attendance?",
+        "sec_num": "4.3"
+      },
+      {
+        "text": "Recall that the BDM exercise was only done with firm owners who had expressed enough interest in business training to both answer our phone survey, and then show up and attend the demonstration session. Despite this, Table 7 shows that when training was offered for free, attendance was not particularly high. While 76% of those offered the course for free attended at least 1 class, only 59% attended at least 5 of the 10 classes of the course, and only 18% attended all 10 classes. The average number of classes attended by those offered the course for free was 5.4 classes. Table 7 then shows that the overall effect of charging a higher price for training is to reduce attendance dramatically. While 76 percent of entrepreneurs attend at least one class when offered for free, only 43 percent do when charged one-quarter of the cost (J$5,000), 29 percent when charged half the cost, and only 11 percent when the course is priced at full cost.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 217,
+            "end": 224,
+            "text": "Table 7",
+            "ref_id": null
+          },
+          {
+            "start": 577,
+            "end": 584,
+            "text": "Table 7",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "This overall effect shows that the strong demand effect of a higher price reducing purchase overwhelms any selection and effort effects in terms of absolute numbers trained out of a given sample.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "In Table 8 , we then test for selection effects by studying how WTP correlates with attendance, before examining the causal effect of prices on attendance. We first conduct the analysis using the full sample. We see that conditional on price paid, either as a continuous measure in Column (1) or binary categories in Column (2), WTP is positively and significantly correlated with attending at least one class of the course. Similarly, there is a significant negative effect of prices on attendance. Overall, these results confirm the patterns in demand found above. However, they do not directly provide evidence for selection or sunk-cost effects since the effects can be in part mechanical due to the BDM rule (only those with WTP no less than price are entitled to come to the course).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 3,
+            "end": 10,
+            "text": "Table 8",
+            "ref_id": "TABREF8"
+          }
+        ],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "In Columns (3) and (4), we therefore restrict the sample to those who purchased the course according to the BDM rule, regardless of whether they paid. We still see that conditional on the randomly chosen offer price, those with higher WTP are more likely to attend at least one class. Among those who purchased the course and have the lowest category of WTP (less than J$3,000), the attendance rate was only 25 percent. Attendance jumps significantly by 35 percentage points for the next WTP category (willing to pay from J$3,000 to J$5,000).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "It then exhibits smaller monotonic increases for the higher WTP categories, except for those who reported a WTP above the actual cost of the course. This indicates that incentivized measures of WTP can be a good way of screening for those who are less likely to show-up to the course. The same is true for the extensive margin of how many classes they do attend. Column (8) shows that those with the lowest WTP only attend 2.4 classes out of 10, conditional on purchasing the course, and that the number of classes attended more than doubles as WTP increases.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "The attendance rate is higher if we focus on the further selected sample of those who purchased and actually paid a positive price for the course. In this case, among those who paid for the course and are in the lowest WTP category we see a 67 percent show-up rate. 20 The increase in all the other categories is very large, implying show-up rates above 90 percent for all groups. However, due to the smaller sample size, effects are not statistically significant (Columns (5) and (6)). A similar conclusion is derived if we study the effect on total number of classes attended out of 10 classes. Among those who reported WTP above offer price in the lowest WTP category, average attendance was 2.4 classes (Column 5), while average attendance in this category among those who paid a positive price was 6.3 (Column 11). Higher WTP is significantly correlated with total attendance among the former, but not among the latter.",
+        "cite_spans": [
+          {
+            "start": 266,
+            "end": 268,
+            "text": "20",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "Conditional on WTP, an increase in the offer price is still negatively correlated with attendance for those who bought the course, regardless of payment (Column 4). This reflects the fact that a higher price, even conditional on WTP, generated lower compliance with the BDM contracts. Therefore, the negative effect of prices discouraging attendance prevails over any potential sunk-cost effects. However, when we restrict the sample to those who actually paid a positive price for the course, we do see some positive effects of prices on attendance (Column 6), which become a bit larger if we do not condition on WTP (Column 7). In particular, among those who paid a positive price for the course, 93 percent of those paying J$1,000 showed-up, the increase for those paying J$3,000 is of 3 percentage points (not significant), but those for higher prices are larger and imply show-up rates that are close to 100 percent. More interestingly, we also find significant positive effects of prices on attending at least 5 classes (not shown) and total number of classes attended (Columns 12-13), providing evidence for sunk-cost or psychological effects.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "The joint effect of the selection effect and sunk cost effect is that moving from having firm owners pay only a token price of J$1,000 (or 5% of the course cost) to having them cover at least one-quarter or more of the cost does increase attendance. As seen in Table 7 , those who pay J$1,000 attend 7.09 classes out of 10, compared to 8.07 to 8.17 classes for those paying J$5,000 and J$10,000 (one-quarter to one half the cost). 21 Figure 6 shows this sunk cost effect graphically. Among those who paid in full for the course, those who were assigned a higher price attend more sessions. This continues to hold even after we control flexibly for willingness to pay. 22",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 261,
+            "end": 268,
+            "text": "Table 7",
+            "ref_id": null
+          },
+          {
+            "start": 434,
+            "end": 442,
+            "text": "Figure 6",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "BDM Sample",
+        "sec_num": null
+      },
+      {
+        "text": "As Table 7 shows, training attendance was much higher in the TIOLI sample than in the BDM sample, consistent with the fact that entrepreneurs in the TIOLI sample have higher WTP for the course. 90% of those offered to take the course for free attended at least 1 class, and 78% attended at least 5 of the 10 classes of the course (Column 1). The average number of classes attended in this group was 7.0 classes.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 3,
+            "end": 10,
+            "text": "Table 7",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "In Table 9 , we study the effects of the randomly allocated offer price on attendance. Here again, when studying the full sample, we see that price monotonically decreases the probability of attending at least one class (Columns (1)-(2)). When we restrict the sample to those who paid a positive price for the course, we find small effects of price paid that are not statistically different from 0. However, there is not much margin for variation since 98 percent of those paying our lowest price of J$5,000 attended at least one class. The share of those who attended the course increases to 100 percent for those who paid J$10,000 or J$15,000 (Column 4). The total number of classes attended averages 8 classes for those who paid J$5,000, and we do not see significant effects of paying a higher price. The lack of effects when comparing those who paid J$5,000 vs. those who paid J$10,000 or J$15,000 is similar to the results for the BDM sample in Table 8 .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 3,
+            "end": 10,
+            "text": "Table 9",
+            "ref_id": "TABREF9"
+          },
+          {
+            "start": 951,
+            "end": 958,
+            "text": "Table 8",
+            "ref_id": "TABREF8"
+          }
+        ],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "It is important to note that compared to those who were offered the course for free (dropped from the regressions in Columns (3)-(6) of Table 9 ), the selected sample of entrepreneurs who were offered a positive price and paid for it have significantly higher attendance rates. 23 This means that while the evidence for sunk-cost effects is more nuanced for the TIOLI sample, these effects seem to be present also in this sample. However, they are not large enough to counteract the extensive margin effects on attendance generated by an increase in prices that prevent many entrepreneurs from purchasing the course. Table 10 then combines this cost data with the impact of prices on demand (measured here as attending at least one training session) in order to determine the cost of training 1,000 firms at different prices. For example, when training is free, only 1,316 firms need to get recruited to get 1,000 firms to attend training, but the full US$150 cost of training each one needs to be paid, for a total cost of US$189,474 for firms like those in the BDM sample.",
+        "cite_spans": [
+          {
+            "start": 278,
+            "end": 280,
+            "text": "23",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 136,
+            "end": 143,
+            "text": "Table 9",
+            "ref_id": "TABREF9"
+          },
+          {
+            "start": 617,
+            "end": 625,
+            "text": "Table 10",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "TIOLI Sample",
+        "sec_num": null
+      },
+      {
+        "text": "Increasing the price to J$3,000 (US$22.5) increases recruitment costs, since 1,587 firms need to be recruited to have 1,000 firms attend training, but these firms then cover 15% of the cost of their training, for a total cost of US$175,119. However, when training is priced at full cost, it is very expensive to recruit firms, and so even though they pay for their training, it is more expensive in total to get 1,000 trained than if a lower price was charged. We see that for the BDM sample, the J$3,000 price is optimal, but that prices of J$5,000 and J$10,000 (one-quarter to one-half the cost) also do well, compared to the extremes of free training or full-price.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Implications for the Cost of Delivering Training",
+        "sec_num": "4.4"
+      },
+      {
+        "text": "In contrast, with the TIOLI sample, the wealthier nature of this sample means that attendance does not fall as rapidly with price, and charging J$15,000 is more cost-effective than lower prices. In practice, policymakers are likely to be concerned about both equity and efficiency, and so will want to charge lower prices when trying to reach poorer firm owners like those in the BDM sample, and higher prices if their goal is to train larger firms.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Implications for the Cost of Delivering Training",
+        "sec_num": "4.4"
+      },
+      {
+        "text": "Our initial goal in designing this experiment was also to test whether the impact of training is higher for entrepreneurs with higher willingness to pay. Conditional on WTP, the ran-domly drawn price determines whether or not entrepreneurs are offered training. We use this random variation as an instrument for attendance. We run a two-stage least squares regression where the second stage is given by equation 1, which uses attending at least one class (Attendance i ) as endogenous variable, and the first stage is given by equation 2.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Effects of Business Training",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "Y i = \u03b1 1 + \u03b3 1 Attendance i + \u03c1 1 Y i,0 + \u2211 j \u03b4 1 jWTP j + 1i (1) Attendance i = \u03b1 2 + \u03b3 2 Price i + \u03c1 2 Y i,0 + \u2211 j \u03b4 2 jWTP j + 2i (2)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Effects of Business Training",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "We control for WTP in a flexible way (binary categories WTP j ) and to gain statistical power we employ ANCOVA regressions by including the baseline value of the outcome (Y i,0 ). We then add an interaction term between (Attendance i ) and WTP and the interaction of WTP and Price as an instrument, to test whether the effect of attendance is higher for those with higher willingness to pay. We can do this only for the BDM sample, since WTP is not measured for the TIOLI sample and so cannot be interacted with attendance.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Effects of Business Training",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "However, in practice our ability to estimate these heterogeneous treatment effects is limited for several reasons. First, the logistical difficulties implementing BDM resulted in a smaller than desired sample size, more participants assigned to treatment than control, and lower take-up of training, all of which reduce statistical power. Second, in our six to nine-month follow-up survey, attrition rates were high and strongly correlated with treatment. Only 40 percent of those who were not offered the training because of the BDM rule completed the follow-up survey, and completion rates were 32 percentage points higher for the group assigned to training. Given this large difference, we weight observations using the inverse probability of attrition weights, but still view these results as, at best, suggestive only. Table 11 reports the impact of attending at least one class of the training on eight outcomes: three measures of intermediate channels training is intended to improve (business practices, personal initiative, and business knowledge), and five measures of firm performance (having at least one employee, having positive sales and profits, and the winsorized levels of sales and profits). 25 Panel A shows the main effects. We see a strong significant effect on the share of business practices adopted (an increase of 16 percentage points) and no effects on personal initiative, which is consistent with the findings in Ubfal et al. (2019) . We also see significant effects on a dummy for having positive profits and on the winsorized level of profits (significant at the 10 percent level). 26 The impacts on knowledge, having employees and sales are positive, but are with large standard errors and are not statistically significant. These results are consistent with many of the experiments surveyed by McKenzie and Woodruff (2014) , which find business training improves business practices, but that it is harder to measure impacts on business performance in smaller samples.",
+        "cite_spans": [
+          {
+            "start": 1442,
+            "end": 1461,
+            "text": "Ubfal et al. (2019)",
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 1613,
+            "end": 1615,
+            "text": "26",
+            "ref_id": null
+          },
+          {
+            "start": 1827,
+            "end": 1855,
+            "text": "McKenzie and Woodruff (2014)",
+            "ref_id": "BIBREF20"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 824,
+            "end": 832,
+            "text": "Table 11",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Effects of Business Training",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "Panel B of Table 11 examines heterogeneity in treatment effects by WTP. These results are of course affected by the same problems as for the average effect, and suffer even more from the lack of statistical power. Then it is not surprising that we find that most interaction coefficients are not statistically significant. We find only one statistically significant interaction: the treated with higher WTP are less likely to provide correct answers to the knowledge test. 27 In addition, the sign of 5 out of the 8 interaction coefficients goes in the opposite direction (i.e. positive). We therefore cannot say anything definitive about whether those with higher willingness to pay benefit more or less from training.",
+        "cite_spans": [
+          {
+            "start": 473,
+            "end": 475,
+            "text": "27",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 11,
+            "end": 19,
+            "text": "Table 11",
+            "ref_id": "TABREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Effects of Business Training",
+        "sec_num": "4.5"
+      },
+      {
+        "text": "Using two different approaches for experimentally eliciting the demand for business training, we find evidence for both the pros and cons of charging business owners to take part in training. We do find that the majority of business owners that express interest in training are prepared to pay to take part. Demand for training is downward sloping, but price-inelastic, so that increasing prices results in a less than proportional reduction in the proportion of business owners purchasing training. This shows the potential for business service providers to recover at least part of the cost of training through charging a price for the course.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "5"
+      },
+      {
+        "text": "Nevertheless, despite demand being inelastic, willingness to pay for most business owners is far short of the full cost of providing business training. In our BDM sample, demand falls from 76 percent of entrepreneurs attending at least one class when free, to only 11 percent when charged the full cost. Charging prices that recover costs will therefore exclude a large share of entrepreneurs, and also increase the cost of recruiting firms for training.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "5"
+      },
+      {
+        "text": "We find higher prices are more likely to exclude those with smaller firms, more risk-averse entrepreneurs, and poorer individuals. Offering the chance to pay for the course in installments does not increase demand. However, while we do not have sufficient statistical power to determine whether those who are willing to pay more, benefit more from the table is the one on positive profits (the adjusted p-value is 0.034). We obtain family-wise adjusted p-values using the implementation by Jones et al. (2018) of the free step-down procedure of Westfall and Young (1993) . Detailed results are available upon request. 27 After adjusting the p-values for multiple hypotheses, the p-value for this coefficient becomes 0.043.",
+        "cite_spans": [
+          {
+            "start": 490,
+            "end": 509,
+            "text": "Jones et al. (2018)",
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 545,
+            "end": 570,
+            "text": "Westfall and Young (1993)",
+            "ref_id": "BIBREF26"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "text": "27",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "5"
+      },
+      {
+        "text": "training, we do find that those entrepreneurs who have higher willingness to pay expect to see higher returns from training, and are also more likely to show up and attend more training sessions. Moreover, we find some evidence of a sunk cost effect, whereby paying a higher price for training causes entrepreneurs to show up at more sessions.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "5"
+      },
+      {
+        "text": "Taken together, our results suggest that the optimal price for training is unlikely to be either zero or the full cost of training. Charging about 15 percent to one-quarter of the cost of the course, which is approximately one month of profits for the average firm in our sample, achieves most of the screening benefits and effort benefits from price, without reducing participation and increasing recruiting costs as much as is the case with higher prices. If service providers are able to price discriminate, then lower prices to poorer business owners, and higher prices to more profitable firm owners (such as those in our take-it-or-leave-it sample) would offer the potential for further gains. More work is needed with much larger samples to enable measurement of the heterogeneity of returns to training with willingness-to-pay, following the procedure we have outlined in this paper.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "5"
+      },
+      {
+        "text": "Finally, our paper points to the limitations of using a BDM mechanism in a context of low trust and low contract enforcement, and for an intangible service with benefits that are uncertain and only observed in the long run. In our case, a large share of participants refused to pay the agreed price, even after signing a contract where they committed to pay that price. To improve this, one would like to charge participants on the spot, by having them use cash or a credit card to guarantee the price they are willing to pay. This is likely to be difficult in many contexts of informal firm owners who lack trust, do not wish to carry large amounts of cash, and do not have credit cards. As such, using BDM to elicit the demand for training may be easier to trial with larger firm owners or in more financially developed settings. Columns (1) and (3) show the mean and standard deviation for the BDM sample and TIOLI sample, respectively. Columns (2) and (4) show the coefficient of an OLS regression of each covariate on the price offered (the price is expressed in thousands of Jamaican dollars), and the associated standard error. Column (5) shows the coefficient of an OLS regression of each covariate on an indicator for the TIOLI sample, and the resulting standard error. Regressions in column (4) also include fixed effects for demonstration session. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1 OLS regression. Consumer surplus is defined as the difference between WTP and price offered if the former is greater than the latter, or 0 otherwise. The sample is restricted to those who purchased the course (WTP no less than price). Paid Full: defined as missing for those who were offered the course for free. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1 (1) Payment due on delivery in one arm, loan over a year in another arm. Reneg rate 4.4% in non-financing group, 0.7% in financing group.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusion",
+        "sec_num": "5"
+      },
+      {
+        "text": "(2) Exchange rate of 55 Rs = 1USD. Daily household income is 664 Rs, we multiply by 30 to get monthly value. (4) Exchange rate of 550 CFA = 1 USD used. (3) Buyers were given the item, and randomly assigned to have 7 days, 6 weeks, or 5 months to pay for it. Only 17% paid the full price in the repayment period; and only 65% were fully paid within 14 months after threats to take back the items if not paid. Three products offered, cheapest was $13, most expensive $182. OLS regressions of demand measures on price (in 1,000s Jamaican dollars). The omitted category for prices is \"Price = 0\". Each coefficient on \"Price\" measures in how much demand is reduced when price increases from 0 to that price. In Columns (1)-(3) the dependent variable is a dummy for willingness to pay, elicited with the BDM mechanism, being above offered price regardless of actual payment. In Columns (3)-(10) the dependent variable is a dummy for having paid the full price offered (equal to 1 if offered price is $0). Columns (1)-(6) present results for the BDM sample, and Columns (7)-(9) for the TIOLI sample. Column (10) presents results from a pooled regression including both samples. Credit: respondent was allowed to pay in 3 installments, Discount Frame: respondent was presented the price as a discount. Standard errors are robust to heteroscedasticity. * p < 0.10, ** p < 0.05, *** p < 0.01 Table 5 . In Columns 2-3 and 6-7 the sample is restricted to those who were assigned a positive price. In Columns 4-5 the sample is restricted to those with willingness to pay at least as high as the price and who were assigned a positive price. The specification in Columns 3, 5 and 7 was selected using the Lasso. Regressions in Columns 1-5 control for week and location of demonstration sessions when the WTP was elicited. WTP: elicited willingness to pay using BDM (expressed in thousands of Jamaican dollars). Paid: indicator for having paid the full price assigned. Reneged: indicator for not having paid the positive price agreed in the BDM mechanism. For all the baseline covariates, we replace missing values with zeros and include dummies for covariates with missing values. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1 Panel A presents 2SLS regressions with inverse probability of attrition weights of outcome variables on an indicator for attending at least 1 class of the course instrumented with the price offered for the course. We control for WTP dummies and the baseline value of the outcome; we replace missing values at baseline with 0s and we include an indicator for missing values. Panel B includes also interactions of the indicator for attending at least 1 class with WTP (demeaned), and adds the interaction of price and demeaned WTP as another instrument. See Appendix B for details on the definitions of outcome variables. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1 .8 1 Share that paid full price 0 1,000 3,000 5,000 10,000 15,000 20,000 Price in J$ BDM sample TIOLI sample Columns (1) and (3) show the mean and standard deviation among those who attended demo sessions for the BDM sample and TIOLI sample, respectively. Columns (2) and (4) show the same statistics among those who did not attended demo sessions. Columns (5), (6) and (7) show the coefficient of an OLS regression of each covariate on the price offered (the price is expressed in thousands of Jamaican dollars). Regressions in column (5) also include fixed effects for demonstration session. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1 Column (1) shows the mean and standard deviation for the control group of the BDM sample. Columns (2)-(4) show the coefficient of an OLS regression of each covariate on an indicator for the respective treatment, and the associated standard error. Column (5) shows the p-value of a test of equality across the three treatment arms Credit: respondent was allowed to pay in 3 installments, Discount Frame: respondent was presented the price as a discount, a share from the cost of the course. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1 Column (1) shows the mean and standard deviation for the control group of the TIOLI sample. Column (2) shows the coefficient of an OLS regression of each covariate on an indicator for treatment. Credit: respondent was allowed to pay in 3 installments Regressions in column (2) also include fixed effects for demonstration session. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 1382,
+            "end": 1389,
+            "text": "Table 5",
+            "ref_id": "TABREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Tables",
+        "sec_num": "6"
+      },
+      {
+        "text": "For example, McKenzie and Woodruff (2014) review 14 randomized controlled trials on business training and note that in every case the training was offered for free to entrepreneurs, while Van Lieshout and Mehtha (2017) report a median contribution by entrepreneurs of 10 percent of the cost of the Start and Improve Your Business program across 18 countries.2 An early training experiment fromKarlan and Valdivia (2011) suggested that those initially less interested in training might benefit more from it, andBloom and Van Reenen (2010) note that many firm owners may not know that they are poor managers and that they have room to improve.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The TIOLI sample used a discount framing for all the prices offered.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "One exception is Berry and Mukherjee (2019) who use TIOLI offers to estimate the demand for private education.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "See, for example, the article in The Economist (2018) reporting a state of emergency in regions of the country where most of our first sample operates. The state of emergency was called following an increase in violence among call centers, which fight for the contact lists used to scam people.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "For the BDM sample we removed 17 firms with more than 10,000 dollars in monthly sales. From the TIOLI sample we removed 3 firms with more than 35,000 dollars in monthly sales, allowing in the sample firms with more than 15 employees and more than 10,000 dollars in sales.7 The wealth index is the principal component of four variables: owning a vehicle, having access to the internet, being able to finance J$20,000 and reservation wage.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The exchange rate at the time of the study was around 130 Jamaican dollars per one US dollar.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The commitment says: \"I commit to pay X Jamaican dollars if the price offered to me is equal to that amount or any amount below it if the price you offered me is lower. I understand that if the rolling of the dice determines a price above that amount, I will not be able to take the training.\"10 A sum of the dice equal to 2 implies a price of J$20,000, of 3 or 11 a price of J$3,000, of 4 or 10 a price of J$1,000, of 5 or 9 a price of J$5,000, of 6 or 8 a price of J$10,000, of 7 a price of J$0, and of 12 a price of J$15,000.11 We chose different probabilities for each price since we believed few firms were likely to be willing to pay for the course at prices that reflect the full cost of offering the training, and we and JBDC wanted to have sufficient firms receiving training. We therefore put the highest probability on getting offered zero price, and the next highest on getting offered prices which are half, and one-quarter of the full cost.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We include only studies that report on whether everyone paid the agreed amount, which may omit cases in which everyone paid and the authors did not consider this an issue worth discussing.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "For example, respondents were told \"You won a scholarship of 75%, you are invited to take the course at a price of J$5,000. You need to pay this amount within the next 2 weeks to be admitted into the course.\"",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "If we express the coefficients in terms of reductions in demand per $1,000 increase in price, we get: 0, 0.007, 0.01, 0.02, 0.03, and 0.03, respectively.15 If we express the coefficients in terms of reductions in demand per J$1,000 increase in price, we get: 0.32, 0.12, 0.12, 0.08, 0.06, and 0.05, respectively. The large decrease from a price of 0 to one of J$1,000 is",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "This tells us aggregated demand at the randomized prices, but much less information about individual willingness to pay.19 If we express the coefficients in terms of reductions in demand per J$1,000 increase in price, we get: 0.058, 0.067, 0.054, respectively.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We only have 3 people in this category, thus we should take these results with caution. 21 Attendance is 9.0 classes for those paying J$15,000 and 8.5 for those paying J$20,000, but the sample sizes are much smaller for these prices.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We regress attendance on a flexible set of willingness to pay dummies, and then use the residuals from this regression, adding back the sample mean to enable comparability with the raw pattern.23 As we can see in Column (1) ofTable 9, 90 percent of those offered the course for free attend at least one class, this share increases to 97 percent for those paying J$5,000 (marginally statistically significant difference) and to 99.5 percent for those paying J$10,000 or J$15,000 (statistically significant). In terms of total attendance, the effect compared to those offered a price of 0 is statistically significant for those who paid J$5,000 or J$10,000, but not for those who paid J$20,000.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "We do not include here costs associated with the impact evaluation, such as survey costs.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "See Appendix B for details on the construction of these variables.26 The only result that survives to adjusting the p-values for the fact that we are testing 8 hypotheses in this",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "The main outcomes are defined in the following way.Business practices: The share of business practices adopted by the respondent. This variable was recoded to 0 for those who do not have a business.Personal initiative: An index built as the mean of seven variables, each one taking values ranging from 1 (\"strongly disagree\") to 7 (\"strongly agree\") depending on how much the respondent agreed with the following statements:\u2022 \"I actively attacked problems\"\u2022 \"I took initiative immediately even when others did not\"\u2022 \"I used opportunities quickly in order to attain my goals\"\u2022 \"Whenever there was a chance to get actively involved, I took it\"\u2022 \"I searched for solutions immediately whenever something went wrong\"\u2022 \"I usually did more than I was asked to do\"\u2022 \"I have been particularly good at realizing ideas\" N. of correct answer: The number of correct answers (out of 5) to a knowledge test on the contents of the course.Has employees: An indicator taking value 1 if the respondent has employees. This variable was recoded to 0 for those who do not have a business.Positive sales: An indicator taking value 1 if the respondent reported having positive sales in the last month. This variable was recoded to 0 for those who do not have a business.Positive profits: An indicator taking value 1 if the respondent reported having positive profits in the last month. This variable was recoded to 0 for those who do not have a business.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "B Variable Definitions",
+        "sec_num": null
+      },
+      {
+        "text": "The reported amount of sales for the last month, in Jamaican dollars, winsorized at the top 99th percentile. This variable was recoded to 0 for those who do not have a business.Profits: The reported amount of profits for the last month, in Jamaican dollars, winsorized at the bottom 1st and the top 99th percentile. This variable was recoded to 0 for those who do not have a business.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Sales:",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "A New Data Set of Educational Attainment in the World",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Barro",
+            "suffix": ""
+          },
+          {
+            "first": "J.-W",
+            "middle": [],
+            "last": "Lee",
+            "suffix": ""
+          }
+        ],
+        "year": 1950,
+        "venue": "",
+        "volume": "104",
+        "issue": "",
+        "pages": "184--198",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Barro, R. and J.-W. Lee (2013): \"A New Data Set of Educational Attainment in the World, 1950-2010,\" Journal of Development Economics, 104, 184-198.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Measuring utility by a single-response sequential method",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Becker",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Degroot",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Marschak",
+            "suffix": ""
+          }
+        ],
+        "year": 1964,
+        "venue": "Behavioral Science",
+        "volume": "9",
+        "issue": "",
+        "pages": "226--232",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Becker, G., M. Degroot, and J. Marschak (1964): \"Measuring utility by a single-response sequential method,\" Behavioral Science, 9, 226-232.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Microcredit and willingness to pay for environmental quality: Evidence from a randomized-controlled trial of finance for sanitation in rural Cambodia",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Ben Yishay",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Fraker",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Guiteras",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Palloni",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [
+              "B"
+            ],
+            "last": "Shah",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Shirrell",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Wang",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Journal of Environmental Economics and Management",
+        "volume": "86",
+        "issue": "",
+        "pages": "121--140",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ben Yishay, A., A. Fraker, R. Guiteras, G. Palloni, N. B. Shah, S. Shirrell, and P. Wang\" (2017): \"Microcredit and willingness to pay for environmental quality: Evi- dence from a randomized-controlled trial of finance for sanitation in rural Cambodia,\" Journal of Environmental Economics and Management, 86, 121 -140.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Eliciting and Utilizing Willingness-to-Pay: Evidence from Field Trials in Northern Ghana",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Berry",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Fischer",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Guiteras",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "Journal of Political Economy",
+        "volume": "128",
+        "issue": "",
+        "pages": "1436--1473",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Berry, J., G. Fischer, and R. Guiteras (2020): \"Eliciting and Utilizing Willingness-to-Pay: Evidence from Field Trials in Northern Ghana,\" Journal of Political Economy, 128, 1436- 1473.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Pricing Private Education in Urban India: Demand, Use and Impact",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Berry",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Mukherjee",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Berry, J. and P. Mukherjee (2019): \"Pricing Private Education in Urban India: Demand, Use and Impact,\" Working paper.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Liquidity, Risk, and Occupational Choices",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Bianchi",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Bobba",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "80",
+        "issue": "",
+        "pages": "491--511",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bianchi, M. and M. Bobba (2012): \"Liquidity, Risk, and Occupational Choices,\" The Review of Economic Studies, 80, 491-511.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Why Do Management Practices Differ across Firms and Countries?",
+        "authors": [
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Bloom",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Van Reenen",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Journal of Economic Perspectives",
+        "volume": "24",
+        "issue": "",
+        "pages": "203--227",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bloom, N. and J. Van Reenen (2010): \"Why Do Management Practices Differ across Firms and Countries?\" Journal of Economic Perspectives, 24, 203-24.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Teaching personal initiative beats traditional training in boosting small business in West Africa",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Campos",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Frese",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Goldstein",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Iacovone",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Johnson",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Mckenzie",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Mensmann",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Science",
+        "volume": "357",
+        "issue": "",
+        "pages": "1287--1290",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Campos, F., M. Frese, M. Goldstein, L. Iacovone, H. Johnson, D. McKenzie, and M. Mensmann (2017): \"Teaching personal initiative beats traditional training in boosting small business in West Africa,\" Science, 357, 1287-1290.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Selective Trials: A Principal-Agent Approach to Randomized Controlled Experiments",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Chassang",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Padr\u00f3 I Miquel",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Snowberg",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "American Economic Review",
+        "volume": "102",
+        "issue": "",
+        "pages": "1279--1309",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Chassang, S., G. Padr\u00f3 I Miquel, and E. Snowberg (2012): \"Selective Trials: A Principal- Agent Approach to Randomized Controlled Experiments,\" American Economic Review, 102, 1279-1309.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Field Comparisons of Incentive-Compatible Preference Elicitation Techniques",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Cole",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Fernando",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Stein",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Tobacman",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "172",
+        "issue": "",
+        "pages": "33--56",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cole, S., N. Fernando, D. Stein, and J. Tobacman (2020): \"Field Comparisons of Incentive-Compatible Preference Elicitation Techniques,\" Journal of Economic Behavior & Organization, 172, 33-56.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Chapter 1 -Impacts and Determinants of Health Levels in Low-Income Countries",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Dupas",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Miguel",
+            "suffix": ""
+          },
+          {
+            "first": ";",
+            "middle": [
+              "E"
+            ],
+            "last": "Duflo",
+            "suffix": ""
+          }
+        ],
+        "year": 2017,
+        "venue": "Handbook of Economic Field Experiments",
+        "volume": "2",
+        "issue": "",
+        "pages": "3--93",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dupas, P. and E. Miguel (2017): \"Chapter 1 -Impacts and Determinants of Health Levels in Low-Income Countries,\" in Handbook of Economic Field Experiments, ed. by A. V. Banerjee and E. Duflo, North-Holland, vol. 2 of Handbook of Economic Field Experiments, 3 -93.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "The Psychology of Entrepreneurship",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Frese",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Gielnik",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "1",
+        "issue": "",
+        "pages": "413--438",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Frese, M. and M. Gielnik (2014): \"The Psychology of Entrepreneurship,\" Annual Review of Organizational Psychology and Organizational Behavior, 1, 413-438.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Psychological Training for Entrepreneurs to Take Action: Contributing to Poverty Reduction in Developing Countries",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Frese",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Gielnik",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Mensmann",
+            "suffix": ""
+          }
+        ],
+        "year": 2016,
+        "venue": "Current Directions in Psychological Science",
+        "volume": "25",
+        "issue": "",
+        "pages": "196--202",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Frese, M., M. Gielnik, and M. Mensmann (2016): \"Psychological Training for En- trepreneurs to Take Action: Contributing to Poverty Reduction in Developing Coun- tries,\" Current Directions in Psychological Science, 25, 196-202.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Increasing Personal Initiative in Small Business Managers or Owners Leads to Entrepreneurial Success: A Theory-Based Controlled Randomized Field Intervention for Evidence-Based Management",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Glaub",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Frese",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Fischer",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Hoppe",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "13",
+        "issue": "",
+        "pages": "354--379",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Glaub, M., M. Frese, S. Fischer, and M. Hoppe (2014): \"Increasing Personal Initiative in Small Business Managers or Owners Leads to Entrepreneurial Success: A Theory-Based Controlled Randomized Field Intervention for Evidence-Based Management,\" Academy of Management Learning & Education, 13, 354-379.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "Unblurring the Market for Vision Correction: A Willingness to Pay Experiment in Rural Burkina Faso",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Grimm",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Hartwig",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Grimm, M. and R. Hartwig (2018): \"Unblurring the Market for Vision Correction: A Willingness to Pay Experiment in Rural Burkina Faso,\" Mimeo. University of Passau.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Demand for Off-Grid Solar Electricity: Experimental Evidence from Rwanda",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Grimm",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Lenz",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Peters",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Sievert",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "Journal of the Association of Environmental and Resource Economists",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Grimm, M., L. Lenz, J. Peters, and M. Sievert (2020): \"Demand for Off-Grid Solar Elec- tricity: Experimental Evidence from Rwanda,\" Journal of the Association of Environmental and Resource Economists, 7.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Do non-monetary prices target the poor? Evidence from a field experiment in India",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Hoffmann",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "Journal of Development Economics",
+        "volume": "133",
+        "issue": "",
+        "pages": "15--32",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hoffmann, B. (2018): \"Do non-monetary prices target the poor? Evidence from a field experiment in India,\" Journal of Development Economics, 133, 15 -32.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "What Do Workplace Wellness Programs Do? Evidence from the Illinois Workplace Wellness Study",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Jones",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Molitor",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Reif",
+            "suffix": ""
+          }
+        ],
+        "year": 2018,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Jones, D., D. Molitor, and J. Reif (2018): \"What Do Workplace Wellness Programs Do? Evidence from the Illinois Workplace Wellness Study,\" Working Paper 24229, NBER.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Teaching entrepreneurship: Impact of business training on microfinance clients and institutions",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Karlan",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Valdivia",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Review of Economics and Statistics",
+        "volume": "93",
+        "issue": "",
+        "pages": "510--527",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Karlan, D. and M. Valdivia (2011): \"Teaching entrepreneurship: Impact of business training on microfinance clients and institutions,\" Review of Economics and Statistics, 93, 510-527.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Small Business Training to Improve Management Practices in Developing Countries: Re-assessing the evidence for \"training doesn't work",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Mckenzie",
+            "suffix": ""
+          }
+        ],
+        "year": 2020,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "McKenzie, D. (2020): \"Small Business Training to Improve Management Practices in Devel- oping Countries: Re-assessing the evidence for \"training doesn't work\",\" Mimeo. World Bank.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "What are we learning from business training and entrepreneurship evaluations around the developing world?",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Mckenzie",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Woodruff",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "World Bank Research Observer",
+        "volume": "29",
+        "issue": "",
+        "pages": "48--82",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "McKenzie, D. and C. Woodruff (2014): \"What are we learning from business training and entrepreneurship evaluations around the developing world?\" World Bank Research Observer, 29, 48-82.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Jamaica: Micro, Small, and Medium Enterprises (MSME) and Entrepreneurship Policy",
+        "authors": [],
+        "year": 2017,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "MICAF (2017): \"Jamaica: Micro, Small, and Medium Enterprises (MSME) and En- trepreneurship Policy,\" Ministry of Industry, Commerce, Agriculture and Fisheries (MI- CAF): Kingston.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Information and Consumer Behavior",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Nelson",
+            "suffix": ""
+          }
+        ],
+        "year": 1970,
+        "venue": "Journal of Political Economy",
+        "volume": "78",
+        "issue": "",
+        "pages": "311--329",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Nelson, P. (1970): \"Information and Consumer Behavior,\" Journal of Political Economy, 78, 311-329.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "In Jamaica's tourist hub, a state of emergency",
+        "authors": [],
+        "year": 2018,
+        "venue": "The Economist",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "The Economist (2018): \"In Jamaica's tourist hub, a state of emergency,\" Available at: https://www.economist.com/the-americas/2018/01/25/in-jamaicas-tourist-hub-a- state-of-emergency.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "The impact of soft-skills training for entrepreneurs in Jamaica",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Ubfal",
+            "suffix": ""
+          },
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Arraiz",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Beuermann",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Frese",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Maffioli",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Verch",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Discussion Paper Series",
+        "volume": "12325",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ubfal, D., I. Arraiz, D. Beuermann, M. Frese, A. Maffioli, and D. Verch (2019): \"The impact of soft-skills training for entrepreneurs in Jamaica,\" Discussion Paper Series 12325, IZA Institute of Labor Economics.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "The Next 15 Million: Start and Improve Your Business Global Tracer Study",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Van Lieshout",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Mehtha",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Van Lieshout, S. and P. Mehtha (2017): \"The Next 15 Million: Start and Improve Your Business Global Tracer Study 2011-2015,\" International Labour Organization: Geneva.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Resampling-based multiple testing: Examples and methods for p-value adjustment",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [
+              "H"
+            ],
+            "last": "Westfall",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "S"
+            ],
+            "last": "Young",
+            "suffix": ""
+          }
+        ],
+        "year": 1993,
+        "venue": "",
+        "volume": "279",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Westfall, P. H. and S. S. Young (1993): \"Resampling-based multiple testing: Examples and methods for p-value adjustment,\" John Wiley & Sons, vol. 279.",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Doing Business 2019. Economy Profile of Jamaica",
+        "authors": [
+          {
+            "first": "World",
+            "middle": [],
+            "last": "Bank Group",
+            "suffix": ""
+          }
+        ],
+        "year": 2019,
+        "venue": "Tech. rep",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "World Bank Group (2019): \"Doing Business 2019. Economy Profile of Jamaica,\" Tech. rep., The World Bank Group.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Notes: Attendance rate is rate attending at least one class of the course",
+        "authors": [],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Notes: Attendance rate is rate attending at least one class of the course. Price charged:",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF1": {
+        "fig_num": "1",
+        "uris": null,
+        "type_str": "figure",
+        "text": "Demand Curve by Treatment, BDM sample Cost of Course",
+        "num": null
+      },
+      "FIGREF2": {
+        "fig_num": null,
+        "uris": null,
+        "type_str": "figure",
+        "text": "Figure 4: Demand Curve: Full Payment, full sample",
+        "num": null
+      },
+      "FIGREF3": {
+        "fig_num": "5",
+        "uris": null,
+        "type_str": "figure",
+        "text": "Demand Curve: by characteristics",
+        "num": null
+      },
+      "FIGREF4": {
+        "fig_num": null,
+        "uris": null,
+        "type_str": "figure",
+        "text": "Figure 6: Sunk Cost Effects, BDM sample",
+        "num": null
+      },
+      "TABREF0": {
+        "num": null,
+        "type_str": "table",
+        "text": "looks further at the correlates of willingness to actually pay. Column (1) repeats the last column ofTable 5in terms of the BDM WTP. Column (2) examines the correlates of",
+        "content": "<table/>",
+        "html": null
+      },
+      "TABREF1": {
+        "num": null,
+        "type_str": "table",
+        "text": "Consider a government or NGO deciding on how to best price training in order to train a target number of firms at the lowest possible cost. For example, if JBDC wants to train 1,000 firms like those in the BDM sample, what price should it charge to minimize its costs of doing so? The answer depends not just on the cost of training, but also on the costs of recruitment and training demonstrations, and on the impact of price on having people show up and attend training. It costs US$25,117 to recruit 831 firms to attend demonstration sessions. This includes the costs of telemarketers to call firms, advertising costs, venue hire, JBDC staff travel costs, and paying the trainers to conduct the demonstration sessions.24  Taken together, this works out to be US$30 per firm that takes part in the training demonstration, or approximately 20 percent of the cost of training.",
+        "content": "<table/>",
+        "html": null
+      },
+      "TABREF2": {
+        "num": null,
+        "type_str": "table",
+        "text": "Balance table by price. Full sample",
+        "content": "<table><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td colspan=\"2\">BDM sample</td><td colspan=\"2\">TIOLI sample</td><td>BDM vs TIOLI</td></tr><tr><td>Mean</td><td>Diff.</td><td>Mean</td><td>Diff.</td><td>Diff.</td></tr></table>",
+        "html": null
+      },
+      "TABREF3": {
+        "num": null,
+        "type_str": "table",
+        "text": "",
+        "content": "<table><tr><td/><td colspan=\"2\">: WTP informativeness</td><td/></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td></tr><tr><td/><td colspan=\"3\">Paid full At least 1 class N. of classes</td></tr><tr><td>Consumer surplus</td><td>0.02  *  *  *</td><td>0.02  *  *  *</td><td>0.11  *  *  *</td></tr><tr><td/><td>(0.00)</td><td>(0.00)</td><td>(0.03)</td></tr><tr><td>Observations</td><td>318</td><td>392</td><td>392</td></tr></table>",
+        "html": null
+      },
+      "TABREF4": {
+        "num": null,
+        "type_str": "table",
+        "text": "Examples of BDM use in developing country field experiments and reneging rate",
+        "content": "<table><tr><td/><td>Delivery Reneging rate</td><td>Within 10 days 2.5%</td><td>Same day 1.1%</td><td>Immediate, or 2 weeks 5 to 8.2%</td><td>Immediate 8.9%</td><td>Following weekend 18%</td><td>Same day 6.7% (78%)</td><td>Immediate 0%</td><td>Several weeks 54%</td></tr><tr><td>Monthly HH</td><td>income</td><td>$122</td><td>n.a.</td><td>$75</td><td>n.a.</td><td>$362</td><td>$67</td><td>$51</td><td>$100</td></tr><tr><td>Product or</td><td>Service Item cost</td><td>P $40</td><td>P $15</td><td>S $2-$14</td><td>S $0.8-$5.2</td><td>P $18</td><td>P $13-$182</td><td>P $9</td><td>S $150</td></tr><tr><td/><td>Study Country Item</td><td>Ben Yishay et al. (2017) (1) Cambodia Improved latrine</td><td>Berry et al. (2020) Ghana Water filter</td><td>Cole et al. (2020) India Rainfall insurance</td><td>Cole et al. (2020) India Agric. information</td><td>Hoffman (2018) (2) India Water purifier</td><td>Grimm et al. (2020) (3) Rwanda Solar kits</td><td>Grimm and Hartwig (2018) (4) Burkina Faso Eyeglasses</td><td>Jamaica Business Training This paper</td><td>Notes:</td></tr></table>",
+        "html": null
+      },
+      "TABREF5": {
+        "num": null,
+        "type_str": "table",
+        "text": "",
+        "content": "<table><tr><td/><td/><td/><td/><td colspan=\"2\">: Demand</td><td/><td/><td/><td/><td/></tr><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td><td>(10)</td></tr><tr><td/><td colspan=\"2\">WTP \u2265 Price</td><td/><td colspan=\"2\">Paid full price</td><td/><td colspan=\"2\">Paid full price</td><td/><td>Paid full</td></tr><tr><td/><td/><td>(BDM)</td><td/><td/><td>(BDM)</td><td/><td/><td>(TIOLI)</td><td/><td>(Pooled)</td></tr><tr><td>Price (000)</td><td>-0.033  *  *  *</td><td/><td/><td>-0.047  *  *  *</td><td/><td/><td>-0.055  *  *  *</td><td/><td/><td>-0.047  *  *  *</td></tr><tr><td/><td>(0.003)</td><td/><td/><td>(0.003)</td><td/><td/><td>(0.003)</td><td/><td/><td>(0.003)</td></tr><tr><td>Price = 1,000</td><td/><td>-0.000</td><td>0.000</td><td/><td colspan=\"2\">-0.318  *  *  *  -0.322  *  *  *</td><td/><td/><td/><td/></tr><tr><td/><td/><td>(0.000)</td><td>(0.005)</td><td/><td>(0.058)</td><td>(0.058)</td><td/><td/><td/><td/></tr><tr><td>Price = 3,000</td><td/><td>-0.023</td><td>-0.015</td><td/><td colspan=\"2\">-0.372  *  *  *  -0.362  *  *  *</td><td/><td/><td/><td/></tr><tr><td/><td/><td>(0.023)</td><td>(0.025)</td><td/><td>(0.074)</td><td>(0.074)</td><td/><td/><td/><td/></tr><tr><td>Price = 5,000</td><td/><td colspan=\"2\">-0.058  *  *  -0.051  *  *</td><td/><td colspan=\"2\">-0.602  *  *  *  -0.596  *  *  *</td><td/><td colspan=\"2\">-0.290  *  *  *  -0.292  *  *  *</td><td/></tr><tr><td/><td/><td>(0.023)</td><td>(0.022)</td><td/><td>(0.049)</td><td>(0.049)</td><td/><td>(0.058)</td><td>(0.063)</td><td/></tr><tr><td>Price = 10,000</td><td/><td colspan=\"2\">-0.220  *  *  *  -0.214  *  *  *</td><td/><td colspan=\"2\">-0.763  *  *  *  -0.768  *  *  *</td><td/><td colspan=\"2\">-0.667  *  *  *  -0.668  *  *  *</td><td/></tr><tr><td/><td/><td>(0.038)</td><td>(0.038)</td><td/><td>(0.039)</td><td>(0.040)</td><td/><td>(0.042)</td><td>(0.049)</td><td/></tr><tr><td>Price = 15,000</td><td/><td colspan=\"2\">-0.520  *  *  *  -0.514  *  *  *</td><td/><td colspan=\"2\">-0.880  *  *  *  -0.886  *  *  *</td><td/><td colspan=\"2\">-0.813  *  *  *  -0.814  *  *  *</td><td/></tr><tr><td/><td/><td>(0.101)</td><td>(0.101)</td><td/><td>(0.065)</td><td>(0.065)</td><td/><td>(0.035)</td><td>(0.042)</td><td/></tr><tr><td>Price = 20,000</td><td/><td colspan=\"2\">-0.679  *  *  *  -0.668  *  *  *</td><td/><td colspan=\"2\">-0.929  *  *  *  -0.923  *  *  *</td><td/><td/><td/><td/></tr><tr><td/><td/><td>(0.089)</td><td>(0.089)</td><td/><td>(0.049)</td><td>(0.053)</td><td/><td/><td/><td/></tr><tr><td>Credit</td><td/><td/><td>0.005</td><td/><td/><td>0.015</td><td/><td/><td>0.002</td><td/></tr><tr><td/><td/><td/><td>(0.036)</td><td/><td/><td>(0.055)</td><td/><td/><td>(0.050)</td><td/></tr><tr><td>Discount Frame</td><td/><td/><td>-0.053</td><td/><td/><td>-0.021</td><td/><td/><td/><td/></tr><tr><td/><td/><td/><td>(0.041)</td><td/><td/><td>(0.055)</td><td/><td/><td/><td/></tr><tr><td>Credit and Discount Frame</td><td/><td/><td>-0.009</td><td/><td colspan=\"2\">-0.118  *  *</td><td/><td/><td/><td/></tr><tr><td/><td/><td/><td>(0.037)</td><td/><td/><td>(0.053)</td><td/><td/><td/><td/></tr><tr><td>TIOLI * Price</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>-0.008  *  *</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>(0.004)</td></tr><tr><td>TIOLI</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.192  *  *  *</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>(0.039)</td></tr><tr><td>Observations</td><td>457</td><td>457</td><td>457</td><td>457</td><td>457</td><td>457</td><td>374</td><td>374</td><td>374</td><td>831</td></tr><tr><td>R-squared</td><td>0.275</td><td>0.296</td><td>0.300</td><td>0.272</td><td>0.344</td><td>0.354</td><td>0.347</td><td>0.360</td><td>0.360</td><td>0.306</td></tr><tr><td>P-val. linear Price eff.</td><td/><td>0.00</td><td>0.00</td><td/><td>0.00</td><td>0.00</td><td/><td>0.04</td><td>0.04</td><td/></tr><tr><td>P-val. effect of 3 treat.</td><td/><td/><td>0.515</td><td/><td/><td>0.046</td><td/><td/><td/><td/></tr></table>",
+        "html": null
+      },
+      "TABREF6": {
+        "num": null,
+        "type_str": "table",
+        "text": "Correlates of WTP in BDM sample elicited WTP for the BDM sample on covariates. The specification in Column 8 was selected using the Lasso. All regressions control for week and location of demonstration sessions when the WTP was elicited. For all the baseline covariates, we replace missing values with zeros and include dummies for covariates with missing values. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td/><td/><td/><td/><td colspan=\"3\">Elicited WTP in J$000s</td><td/><td/></tr><tr><td>Credit</td><td>0.03</td><td>0.01</td><td>-0.17</td><td>-0.11</td><td>0.11</td><td>-0.19</td><td>-0.17</td><td>-0.15</td></tr><tr><td/><td>(0.80)</td><td>(0.78)</td><td>(0.81)</td><td>(0.82)</td><td>(0.78)</td><td>(0.78)</td><td>(0.81)</td><td>(0.77)</td></tr><tr><td>Discount Frame</td><td>-1.20</td><td>-1.23</td><td>-1.34</td><td>-1.40  *</td><td>-1.18</td><td>-1.51  *</td><td>-1.50  *</td><td>-1.40  *</td></tr><tr><td/><td>(0.82)</td><td>(0.81)</td><td>(0.83)</td><td>(0.84)</td><td>(0.80)</td><td>(0.80)</td><td>(0.81)</td><td>(0.78)</td></tr><tr><td>Credit and Discount Frame</td><td>-0.86</td><td>-0.88</td><td>-0.93</td><td>-1.01</td><td>-1.20</td><td>-1.10</td><td>-1.31</td><td>-1.23</td></tr><tr><td/><td>(0.85)</td><td>(0.83)</td><td>(0.85)</td><td>(0.87)</td><td>(0.84)</td><td>(0.83)</td><td>(0.84)</td><td>(0.82)</td></tr><tr><td>Wealth Index</td><td/><td>1.27  *  *  *</td><td/><td/><td/><td/><td>0.67  *  *</td><td>0.76  *  *</td></tr><tr><td/><td/><td>(0.28)</td><td/><td/><td/><td/><td>(0.32)</td><td>(0.30)</td></tr><tr><td>Exp. sales incr. 10%-20%</td><td/><td/><td>1.76  *  *</td><td/><td/><td/><td>1.34</td><td/></tr><tr><td/><td/><td/><td>(0.87)</td><td/><td/><td/><td>(0.86)</td><td/></tr><tr><td>Exp. sales incr. by more than 20%</td><td/><td/><td>1.61  *  *</td><td/><td/><td/><td>1.16</td><td/></tr><tr><td/><td/><td/><td>(0.80)</td><td/><td/><td/><td>(0.82)</td><td/></tr><tr><td>Took previous bus. training</td><td/><td/><td>-1.10  *</td><td/><td/><td/><td>-0.73</td><td/></tr><tr><td/><td/><td/><td>(0.65)</td><td/><td/><td/><td>(0.66)</td><td/></tr><tr><td>Reported WTP (in J$000s)</td><td/><td/><td>0.01  *</td><td/><td/><td/><td>0.00</td><td/></tr><tr><td/><td/><td/><td>(0.01)</td><td/><td/><td/><td>(0.01)</td><td/></tr><tr><td>Share of bus. practices</td><td/><td/><td/><td>0.77</td><td/><td/><td>-0.40</td><td/></tr><tr><td/><td/><td/><td/><td>(1.16)</td><td/><td/><td>(1.18)</td><td/></tr><tr><td>Personal initiative index [1-7]</td><td/><td/><td/><td>0.29</td><td/><td/><td>0.38</td><td/></tr><tr><td/><td/><td/><td/><td>(0.36)</td><td/><td/><td>(0.34)</td><td/></tr><tr><td>Comparison with others on bus. practices</td><td/><td/><td/><td>0.13</td><td/><td/><td>0.05</td><td>0.13</td></tr><tr><td/><td/><td/><td/><td>(0.20)</td><td/><td/><td>(0.19)</td><td>(0.15)</td></tr><tr><td>Comparison with others on proactiveness</td><td/><td/><td/><td>0.14</td><td/><td/><td>0.08</td><td/></tr><tr><td/><td/><td/><td/><td>(0.18)</td><td/><td/><td>(0.19)</td><td/></tr><tr><td>Age</td><td/><td/><td/><td/><td>-0.10  *  *  *</td><td/><td>-0.07  *  *  *</td><td>-0.08  *  *  *</td></tr><tr><td/><td/><td/><td/><td/><td>(0.03)</td><td/><td>(0.03)</td><td>(0.03)</td></tr><tr><td>Female</td><td/><td/><td/><td/><td>-0.75</td><td/><td>-0.33</td><td/></tr><tr><td/><td/><td/><td/><td/><td>(0.58)</td><td/><td>(0.61)</td><td/></tr><tr><td>Education: more than secondary</td><td/><td/><td/><td/><td>1.04</td><td/><td>0.58</td><td/></tr><tr><td/><td/><td/><td/><td/><td>(0.90)</td><td/><td>(0.88)</td><td/></tr><tr><td>Risk taking index [0-10]</td><td/><td/><td/><td/><td>0.25  *</td><td/><td>0.23  *</td><td>0.23  *</td></tr><tr><td/><td/><td/><td/><td/><td>(0.13)</td><td/><td>(0.14)</td><td>(0.13)</td></tr><tr><td>Has employees</td><td/><td/><td/><td/><td/><td>1.08  *</td><td>0.73</td><td>0.70</td></tr><tr><td/><td/><td/><td/><td/><td/><td>(0.58)</td><td>(0.58)</td><td>(0.57)</td></tr><tr><td>Low Sales</td><td/><td/><td/><td/><td/><td>-0.28</td><td>-0.43</td><td/></tr><tr><td/><td/><td/><td/><td/><td/><td>(0.74)</td><td>(0.78)</td><td/></tr><tr><td>High Sales</td><td/><td/><td/><td/><td/><td>2.13  *  *  *</td><td>1.44  *</td><td>1.72  *  *  *</td></tr><tr><td/><td/><td/><td/><td/><td/><td>(0.72)</td><td>(0.75)</td><td>(0.62)</td></tr><tr><td>Observations</td><td>457</td><td>457</td><td>457</td><td>457</td><td>457</td><td>457</td><td>457</td><td>457</td></tr><tr><td>R-squared</td><td>0.041</td><td>0.088</td><td>0.065</td><td>0.057</td><td>0.099</td><td>0.088</td><td>0.173</td><td>0.145</td></tr><tr><td>Mean dep. var.</td><td>13.80</td><td>13.80</td><td>13.80</td><td>13.80</td><td>13.80</td><td>13.80</td><td>13.80</td><td>13.80</td></tr><tr><td>OLS regressions of</td><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+        "html": null
+      },
+      "TABREF7": {
+        "num": null,
+        "type_str": "table",
+        "text": "Correlates of WTP and Payment",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td></tr><tr><td/><td/><td/><td>BDM</td><td/><td/><td colspan=\"2\">TIOLI</td></tr><tr><td/><td>WTP</td><td colspan=\"2\">Paid</td><td colspan=\"2\">Reneged</td><td colspan=\"2\">Paid</td></tr><tr><td>Credit</td><td>-0.17</td><td>0.02</td><td>0.00</td><td>-0.02</td><td>-0.01</td><td>-0.01</td><td>-0.02</td></tr><tr><td/><td>(0.81)</td><td>(0.07)</td><td>(0.07)</td><td>(0.08)</td><td>(0.07)</td><td>(0.05)</td><td>(0.05)</td></tr><tr><td>Discount Frame</td><td>-1.50  *</td><td>-0.02</td><td>-0.03</td><td>0.00</td><td>0.01</td><td/><td/></tr><tr><td/><td>(0.81)</td><td>(0.07)</td><td>(0.06)</td><td>(0.08)</td><td>(0.08)</td><td/><td/></tr><tr><td>Credit and Discount Frame</td><td>-1.31</td><td>-0.15  *  *</td><td>-0.14  *  *</td><td>0.16  *  *</td><td>0.15  *  *</td><td/><td/></tr><tr><td/><td>(0.84)</td><td>(0.07)</td><td>(0.06)</td><td>(0.08)</td><td>(0.07)</td><td/><td/></tr><tr><td>Wealth Index</td><td>0.67  *  *</td><td>0.02</td><td/><td>-0.01</td><td/><td>0.06  *</td><td>0.05  *  *</td></tr><tr><td/><td>(0.32)</td><td>(0.02)</td><td/><td>(0.03)</td><td/><td>(0.03)</td><td>(0.03)</td></tr><tr><td>Exp. sales incr. 10%-20%</td><td>1.34</td><td>-0.01</td><td/><td>0.03</td><td/><td>-0.13</td><td/></tr><tr><td/><td>(0.86)</td><td>(0.07)</td><td/><td>(0.09)</td><td/><td>(0.11)</td><td/></tr><tr><td>Exp. sales incr. by more than 20%</td><td>1.16</td><td>-0.02</td><td/><td>0.04</td><td/><td>-0.09</td><td/></tr><tr><td/><td>(0.82)</td><td>(0.07)</td><td/><td>(0.08)</td><td/><td>(0.10)</td><td/></tr><tr><td>Took previous bus. training</td><td>-0.73</td><td>0.07</td><td/><td>-0.12  *</td><td/><td>0.01</td><td/></tr><tr><td/><td>(0.66)</td><td>(0.05)</td><td/><td>(0.07)</td><td/><td>(0.06)</td><td/></tr><tr><td>Reported WTP (in J$000s)</td><td>0.00</td><td>-0.00</td><td/><td>0.00</td><td/><td>0.00</td><td/></tr><tr><td/><td>(0.01)</td><td>(0.00)</td><td/><td>(0.00)</td><td/><td>(0.00)</td><td/></tr><tr><td>Share of bus. practices</td><td>-0.40</td><td>-0.11</td><td/><td>0.14</td><td/><td>-0.08</td><td/></tr><tr><td/><td>(1.18)</td><td>(0.10)</td><td/><td>(0.12)</td><td/><td>(0.11)</td><td/></tr><tr><td>Personal initiative index [1-7]</td><td>0.38</td><td>-0.00</td><td/><td>0.02</td><td/><td>0.04</td><td/></tr><tr><td/><td>(0.34)</td><td>(0.04)</td><td/><td>(0.04)</td><td/><td>(0.04)</td><td/></tr><tr><td>Comparison with others on bus. practices</td><td>0.05</td><td>0.00</td><td/><td>-0.01</td><td/><td>-0.04  *  *</td><td>-0.04  *  *  *</td></tr><tr><td/><td>(0.19)</td><td>(0.01)</td><td/><td>(0.02)</td><td/><td>(0.02)</td><td>(0.01)</td></tr><tr><td>Comparison with others on proactiveness</td><td>0.08</td><td>0.00</td><td/><td>-0.01</td><td/><td>0.00</td><td/></tr><tr><td/><td>(0.19)</td><td>(0.01)</td><td/><td>(0.02)</td><td/><td>(0.02)</td><td/></tr><tr><td>Age</td><td>-0.07  *  *  *</td><td>-0.00</td><td/><td>0.00</td><td/><td>0.00</td><td>0.00  *</td></tr><tr><td/><td>(0.03)</td><td>(0.00)</td><td/><td>(0.00)</td><td/><td>(0.00)</td><td>(0.00)</td></tr><tr><td>Female</td><td>-0.33</td><td>-0.01</td><td/><td>0.02</td><td/><td>0.09</td><td/></tr><tr><td/><td>(0.61)</td><td>(0.05)</td><td/><td>(0.06)</td><td/><td>(0.06)</td><td/></tr><tr><td>Education: more than secondary</td><td>0.58</td><td>0.16  *  *  *</td><td>0.19  *  *  *</td><td>-0.19  *  *</td><td>-0.21  *  *  *</td><td>0.16</td><td/></tr><tr><td/><td>(0.88)</td><td>(0.06)</td><td>(0.06)</td><td>(0.08)</td><td>(0.07)</td><td>(0.11)</td><td/></tr><tr><td>Risk taking index [0-10]</td><td>0.23  *</td><td>-0.00</td><td/><td>0.00</td><td/><td>0.00</td><td/></tr><tr><td/><td>(0.14)</td><td>(0.01)</td><td/><td>(0.01)</td><td/><td>(0.01)</td><td/></tr><tr><td>Has employees</td><td>0.73</td><td>0.02</td><td/><td>-0.02</td><td/><td>0.11  *</td><td>0.11  *  *</td></tr><tr><td/><td>(0.58)</td><td>(0.05)</td><td/><td>(0.06)</td><td/><td>(0.06)</td><td>(0.05)</td></tr><tr><td>Low Sales</td><td>-0.43</td><td>-0.00</td><td/><td>-0.01</td><td/><td>0.06</td><td/></tr><tr><td/><td>(0.78)</td><td>(0.06)</td><td/><td>(0.08)</td><td/><td>(0.07)</td><td/></tr><tr><td>High Sales</td><td>1.44  *</td><td>0.08</td><td/><td>-0.07</td><td/><td>0.02</td><td/></tr><tr><td/><td>(0.75)</td><td>(0.06)</td><td/><td>(0.08)</td><td/><td>(0.07)</td><td/></tr><tr><td>Price (000)</td><td/><td>-0.04  *  *  *</td><td>-0.03  *  *  *</td><td>0.03  *  *  *</td><td>0.03  *  *  *</td><td>-0.04  *  *  *</td><td>-0.05  *  *  *</td></tr><tr><td/><td/><td>(0.00)</td><td>(0.00)</td><td>(0.01)</td><td>(0.01)</td><td>(0.01)</td><td>(0.01)</td></tr><tr><td>Observations</td><td>457</td><td>383</td><td>383</td><td>318</td><td>318</td><td>311</td><td>311</td></tr><tr><td>R-squared</td><td>0.173</td><td>0.258</td><td>0.223</td><td>0.218</td><td>0.175</td><td>0.240</td><td>0.212</td></tr><tr><td>Mean dep. var.</td><td>13.80</td><td>0.38</td><td>0.38</td><td>0.54</td><td>0.54</td><td>0.35</td><td>0.35</td></tr><tr><td colspan=\"8\">OLS regressions of outcome variables on covariates. Columns 1-5 are for the BDM sample and Columns 6-7 for the TIOLI</td></tr><tr><td>sample. Column 1 replicates Column 7 in</td><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+        "html": null
+      },
+      "TABREF8": {
+        "num": null,
+        "type_str": "table",
+        "text": "Effects of WTP and Prices on Attendance, BDM sample",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td><td>(10)</td><td>(11)</td><td>(12)</td><td>(13)</td></tr><tr><td/><td colspan=\"2\">At least 1 class</td><td colspan=\"2\">At least 1 class (if bought)</td><td colspan=\"3\">At least 1 class (if paid)</td><td colspan=\"2\">N. classes (if bought)</td><td/><td/><td>N. classes (if paid)</td></tr><tr><td>Price (000)</td><td>-0.04  *  *  *</td><td/><td>-0.03  *  *  *</td><td/><td>0.00</td><td/><td/><td>-0.23  *  *  *</td><td/><td/><td>0.11  *  *</td><td/></tr><tr><td/><td>(0.00)</td><td/><td>(0.01)</td><td/><td>(0.00)</td><td/><td/><td>(0.04)</td><td/><td/><td>(0.05)</td><td/></tr><tr><td>3,000 &lt; WTP \u2264 5,000</td><td colspan=\"6\">0.22  *  *  *  0.21  *  *  *  0.35  *  *  0.36  *  *  0.33 0.33</td><td/><td>2.42  *</td><td>2.48  *</td><td/><td>1.13</td><td>1.07</td></tr><tr><td/><td colspan=\"6\">(0.08) (0.08) (0.16) (0.16) (0.28) (0.28)</td><td/><td colspan=\"2\">(1.46) (1.47)</td><td/><td colspan=\"2\">(2.76) (2.76)</td></tr><tr><td colspan=\"7\">5,000 &lt; WTP \u2264 10,000 0.31  *  *  *  0.32  *  *  *  0.37  *  *  *  0.43  *  *  *  0.26 0.24</td><td/><td>2.53  *</td><td>2.84  *  *</td><td/><td>1.58</td><td>1.36</td></tr><tr><td/><td colspan=\"6\">(0.07) (0.07) (0.14) (0.14) (0.28) (0.28)</td><td/><td colspan=\"2\">(1.33) (1.34)</td><td/><td colspan=\"2\">(2.67) (2.68)</td></tr><tr><td colspan=\"7\">10,000 &lt; WTP \u2264 15,000 0.40  *  *  *  0.41  *  *  *  0.44  *  *  *  0.50  *  *  *  0.32 0.31</td><td/><td colspan=\"2\">2.66  *  *  3.04  *  *</td><td/><td>1.35</td><td>1.23</td></tr><tr><td/><td colspan=\"6\">(0.07) (0.07) (0.14) (0.14) (0.28) (0.28)</td><td/><td colspan=\"2\">(1.33) (1.34)</td><td/><td colspan=\"2\">(2.67) (2.69)</td></tr><tr><td colspan=\"7\">15,000 &lt; WTP \u2264 20,000 0.45  *  *  *  0.46  *  *  *  0.48  *  *  *  0.51  *  *  *  0.30 0.29</td><td/><td colspan=\"2\">2.85  *  *  3.06  *  *</td><td/><td>0.87</td><td>0.77</td></tr><tr><td/><td colspan=\"6\">(0.07) (0.07) (0.14) (0.14) (0.28) (0.28)</td><td/><td colspan=\"2\">(1.29) (1.30)</td><td/><td colspan=\"2\">(2.66) (2.67)</td></tr><tr><td>WTP &gt; 20,000</td><td colspan=\"6\">0.34  *  *  0.37  *  *  0.37  *  *  0.44  *  *  0.32 0.30</td><td/><td>1.42</td><td>1.84</td><td/><td colspan=\"2\">-0.88 -1.17</td></tr><tr><td/><td colspan=\"6\">(0.15) (0.15) (0.19) (0.19) (0.28) (0.28)</td><td/><td colspan=\"2\">(1.67) (1.70)</td><td/><td colspan=\"2\">(3.08) (3.05)</td></tr><tr><td>Price = 1,000</td><td/><td>-0.10</td><td/><td>-0.09</td><td/><td/><td/><td/><td>-0.45</td><td>-0.54</td><td/><td/></tr><tr><td/><td/><td>(0.08)</td><td/><td>(0.08)</td><td/><td/><td/><td/><td colspan=\"2\">(0.70) (0.70)</td><td/><td/></tr><tr><td>Price = 3,000</td><td/><td>-0.11</td><td/><td>-0.11</td><td/><td colspan=\"2\">0.03 0.03</td><td/><td>-0.34</td><td>-0.31</td><td/><td>0.59</td><td>0.65</td></tr><tr><td/><td/><td>(0.09)</td><td/><td>(0.09)</td><td/><td colspan=\"2\">(0.05) (0.05)</td><td/><td colspan=\"2\">(0.81) (0.80)</td><td/><td colspan=\"2\">(0.70) (0.70)</td></tr><tr><td>Price = 5,000</td><td/><td>-0.34  *  *  *</td><td/><td>-0.34  *  *  *</td><td/><td colspan=\"2\">0.06  *  0.07  *</td><td/><td colspan=\"2\">-2.09  *  *  *  -1.89  *  *  *</td><td/><td colspan=\"2\">1.05  *  1.08  *</td></tr><tr><td/><td/><td>(0.07)</td><td/><td>(0.07)</td><td/><td colspan=\"2\">(0.04) (0.04)</td><td/><td colspan=\"2\">(0.66) (0.64)</td><td/><td colspan=\"2\">(0.59) (0.58)</td></tr><tr><td>Price = 10,000</td><td/><td>-0.46  *  *  *</td><td/><td>-0.43  *  *  *</td><td/><td colspan=\"2\">0.05 0.07  *</td><td/><td colspan=\"2\">-2.74  *  *  *  -2.50  *  *  *</td><td/><td>0.97</td><td>0.98</td></tr><tr><td/><td/><td>(0.06)</td><td/><td>(0.07)</td><td/><td colspan=\"2\">(0.03) (0.04)</td><td/><td colspan=\"2\">(0.65) (0.63)</td><td/><td colspan=\"2\">(0.62) (0.62)</td></tr><tr><td>Price = 15,000</td><td/><td>-0.61  *  *  *</td><td/><td>-0.49  *  *  *</td><td/><td colspan=\"2\">0.05 0.07  *</td><td/><td colspan=\"2\">-3.09  *  *  -2.77  *  *</td><td/><td colspan=\"2\">2.09  *  *  *  1.91  *  *  *</td></tr><tr><td/><td/><td>(0.09)</td><td/><td>(0.15)</td><td/><td colspan=\"2\">(0.04) (0.04)</td><td/><td colspan=\"2\">(1.26) (1.24)</td><td/><td colspan=\"2\">(0.73) (0.69)</td></tr><tr><td>Price = 20,000</td><td/><td>-0.65  *  *  *</td><td/><td>-0.49  *  *  *</td><td/><td colspan=\"2\">0.05 0.07  *</td><td/><td colspan=\"2\">-3.65  *  *  *  -3.32  *  *  *</td><td/><td colspan=\"2\">1.59  *  *  1.41  *  *</td></tr><tr><td/><td/><td>(0.08)</td><td/><td>(0.17)</td><td/><td colspan=\"2\">(0.04) (0.04)</td><td/><td colspan=\"2\">(1.29) (1.26)</td><td/><td colspan=\"2\">(0.65) (0.61)</td></tr><tr><td>Observations</td><td>457</td><td>457</td><td>392</td><td>392</td><td colspan=\"3\">146 146 146</td><td>392</td><td>392</td><td>392</td><td>146</td><td>146</td><td>146</td></tr><tr><td>R-squared</td><td>0.214</td><td>0.232</td><td>0.104</td><td colspan=\"5\">0.126 0.104 0.117 0.033 0.066</td><td>0.078</td><td colspan=\"4\">0.062 0.054 0.065 0.038</td></tr><tr><td>Mean Y for omitted P</td><td>0.76</td><td/><td>0.76</td><td/><td>0.93</td><td/><td/><td>5.43</td><td/><td/><td>7.09</td><td/></tr><tr><td>Mean Y for WTP&lt;3K</td><td>0.10</td><td/><td>0.25</td><td/><td>0.67</td><td/><td/><td>2.42</td><td/><td/><td>6.33</td><td/></tr><tr><td>p-val 5K=10K</td><td/><td>0.056</td><td/><td>0.189</td><td/><td colspan=\"2\">0.404 1.000</td><td/><td>0.288</td><td>0.311</td><td/><td colspan=\"2\">0.879 0.839</td></tr><tr><td>p-val 5K=15K</td><td/><td>0.002</td><td/><td>0.306</td><td/><td colspan=\"2\">0.589 1.000</td><td/><td>0.420</td><td>0.472</td><td/><td colspan=\"2\">0.120 0.151</td></tr><tr><td colspan=\"14\">OLS regression, the dependent variable is a dummy for attending at least 1 class (Columns 1-7) or number of classes attended</td></tr><tr><td colspan=\"14\">(Columns 8-13). The excluded categories are Price = 0 and 0 \u2264 WTP \u2264 3,000. Robust standard errors in parentheses. *** p&lt;0.01,</td></tr><tr><td>** p&lt;0.05, * p&lt;0.1</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+        "html": null
+      },
+      "TABREF9": {
+        "num": null,
+        "type_str": "table",
+        "text": "Effects of Prices on Attendance, TIOLI sample",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr><tr><td/><td colspan=\"2\">At least 1 class</td><td colspan=\"2\">At least 1 class (if paid)</td><td colspan=\"2\">N. classes (if paid)</td></tr><tr><td>Price (000)</td><td>-0.04  *  *  *</td><td/><td>0.00</td><td/><td>-0.02</td></tr><tr><td/><td>(0.00)</td><td/><td>(0.00)</td><td/><td>(0.06)</td></tr><tr><td>Price = 5,000</td><td/><td>-0.11  *</td><td/><td/><td/></tr><tr><td/><td/><td>(0.06)</td><td/><td/><td/></tr><tr><td>Price = 10,000</td><td/><td>-0.43  *  *  *</td><td/><td>0.02</td><td/><td>0.05</td></tr><tr><td/><td/><td>(0.06)</td><td/><td>(0.02)</td><td/><td>(0.52)</td></tr><tr><td>Price = 15,000</td><td/><td>-0.54  *  *  *</td><td/><td>0.02</td><td/><td>-0.19</td></tr><tr><td/><td/><td>(0.06)</td><td/><td>(0.02)</td><td/><td>(0.62)</td></tr><tr><td>Observations</td><td>374</td><td>374</td><td>109</td><td>109</td><td colspan=\"2\">109 109</td></tr><tr><td>R-squared</td><td>0.169</td><td colspan=\"5\">0.177 0.010 0.014 0.001 0.001</td></tr><tr><td colspan=\"2\">Mean Y for omitted P 0.90</td><td/><td>0.98</td><td/><td>7.98</td></tr><tr><td colspan=\"7\">OLS regression, the dependent variable is total number of classes at-</td></tr><tr><td colspan=\"7\">tended to the training (Columns 1 and 3) or a dummy for attending at</td></tr><tr><td colspan=\"7\">least 1 class (Columns 2). The excluded category is Price = 0. Robust</td></tr><tr><td colspan=\"6\">standard errors in parentheses. *** p&lt;0.01, ** p&lt;0.05, * p&lt;0.1</td></tr></table>",
+        "html": null
+      },
+      "TABREF10": {
+        "num": null,
+        "type_str": "table",
+        "text": "What is the most cost-effective price per firm trained?",
+        "content": "<table><tr><td>Total cost of recruiting</td><td>and training</td><td/></tr><tr><td>Cost of</td><td>training</td><td/></tr><tr><td>Cost per person</td><td>of training</td><td>($150 -price)</td></tr><tr><td>Cost of</td><td>demonstrations</td><td>($30 per head)</td></tr><tr><td>Number needed</td><td>Attendance at demo to get</td><td>rate at this price 1000 firms trained</td></tr><tr><td/><td/><td>(US$)</td></tr><tr><td/><td/><td>(J$)</td></tr></table>",
+        "html": null
+      },
+      "TABREF11": {
+        "num": null,
+        "type_str": "table",
+        "text": "Effects on Main Outcomes, BDM sample",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr><tr><td/><td>Business practices</td><td>Personal initiative</td><td>N. correct answers</td><td>Has empl.</td><td>Pos. sales</td><td>Pos. profits</td><td>Sales</td><td>Profits</td></tr><tr><td>Panel A. Main Effects</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>At least 1 class</td><td>0.16  *  *</td><td>0.03</td><td>0.38</td><td>0.13</td><td>0.22</td><td>0.44  *  *  *</td><td>71,813</td><td>43,371  *</td></tr><tr><td/><td>(0.08)</td><td>(0.21)</td><td>(0.33)</td><td>(0.14)</td><td>(0.13)</td><td>(0.16)</td><td colspan=\"2\">(63,697) (24,299)</td></tr><tr><td>R-squared</td><td>0.106</td><td>0.096</td><td>0.054</td><td>0.126</td><td>0.025</td><td>-0.101</td><td>0.173</td><td>-0.003</td></tr><tr><td colspan=\"2\">Panel B. Heterogeneous effects by WTP</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>At least 1 class</td><td>0.16  *  *</td><td>0.03</td><td>0.29</td><td>0.15</td><td>0.23</td><td>0.46  *  *  *</td><td>75,568</td><td>44,505  *</td></tr><tr><td/><td>(0.08)</td><td>(0.20)</td><td>(0.36)</td><td>(0.14)</td><td>(0.14)</td><td>(0.17)</td><td colspan=\"2\">(65,176) (25,567)</td></tr><tr><td>At least 1 class * WTP demeaned</td><td>-0.00</td><td>-0.01</td><td>-0.17  *  *  *</td><td>0.03</td><td>0.02</td><td>0.03</td><td>14,410</td><td>1,810</td></tr><tr><td/><td>(0.01)</td><td>(0.04)</td><td>(0.06)</td><td>(0.03)</td><td>(0.02)</td><td>(0.03)</td><td>(10,706)</td><td>(4,115)</td></tr><tr><td>Observations</td><td>300</td><td>300</td><td>300</td><td>300</td><td>289</td><td>289</td><td>289</td><td>281</td></tr><tr><td>R-squared</td><td>0.107</td><td>0.095</td><td>-0.078</td><td>0.126</td><td>0.017</td><td>-0.135</td><td>0.177</td><td>-0.001</td></tr><tr><td>Mean Y if did not attend any class</td><td>0.48</td><td>5.81</td><td>2.22</td><td>0.54</td><td>0.78</td><td>0.41</td><td>120,403</td><td>15,921</td></tr></table>",
+        "html": null
+      },
+      "TABREF12": {
+        "num": null,
+        "type_str": "table",
+        "text": "Demand Curve by Treatment: WTP vs actual payments, BDM sample",
+        "content": "<table><tr><td/><td>Share willing to purchase Share that paid</td><td colspan=\"7\">.2 .4 .6 .8 1 .8 1 Figure 2: Cost of Course .4 .6</td><td>.8 1 .4 .6</td><td>Share willing to purchase</td></tr><tr><td/><td/><td>.2</td><td/><td/><td/><td/><td/><td/><td>.2</td></tr><tr><td/><td/><td>0</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td>0</td><td/><td/><td/><td/><td/><td/><td>0</td></tr><tr><td/><td/><td>0 0</td><td>5 5,000</td><td>10 10,000</td><td colspan=\"3\">15 15,000 Willingness to Pay in J$000 20 20,000 25,000 Price in J$</td><td>25</td><td>30,000</td><td>30</td><td>35,000</td><td>35</td></tr><tr><td/><td/><td/><td colspan=\"3\">Basic Discount Frame Paid full amount WTP</td><td/><td colspan=\"3\">Credit Paid partial amount Credit and Discount Frame</td></tr><tr><td/><td/><td/><td colspan=\"7\">Figure 3: Demand Curve by Credit, full sample</td></tr><tr><td/><td/><td/><td colspan=\"2\">BDM sample</td><td/><td/><td/><td colspan=\"2\">TIOLI sample</td></tr><tr><td/><td>1</td><td/><td/><td/><td/><td>1</td><td/><td/></tr><tr><td/><td>.8</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td>.8</td><td/><td/></tr><tr><td>Share that paid full price</td><td>.4 .6</td><td/><td/><td/><td>Share that paid full price</td><td>.6</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td>.4</td><td/><td/></tr><tr><td/><td>.2</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td>.2</td><td/><td/></tr><tr><td/><td>0</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td>0 1,000 3,000 5,000</td><td>10,000</td><td>15,000</td><td>20,000</td><td>0</td><td colspan=\"2\">5,000</td><td>10,000</td><td>15,000</td></tr><tr><td/><td/><td/><td>Price in J$</td><td/><td/><td/><td/><td/><td>Price in J$</td></tr><tr><td/><td/><td/><td colspan=\"2\">No credit, BDM sample</td><td/><td/><td/><td/><td>No credit, TIOLI sample</td></tr><tr><td/><td/><td/><td colspan=\"2\">Credit, BDM sample</td><td/><td/><td/><td/><td>Credit, TIOLI sample</td></tr></table>",
+        "html": null
+      },
+      "TABREF14": {
+        "num": null,
+        "type_str": "table",
+        "text": "Comparison of Participants and Non-Participants",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td></tr><tr><td/><td>BDM</td><td>BDM</td><td>TIOLI</td><td>TIOLI</td><td>BDM vs</td><td>BDM vs</td><td>TIOLI vs</td></tr><tr><td/><td>demo</td><td>no demo</td><td>demo</td><td>no demo</td><td>TIOLI</td><td>no demo</td><td>no demo</td></tr><tr><td/><td>Mean</td><td>Mean</td><td>Mean</td><td>Mean</td><td>Diff.</td><td>Diff.</td><td>Diff.</td></tr><tr><td>Panel A. Demographic Characteristics</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Female</td><td>0.56</td><td>0.59</td><td>0.58</td><td>0.49</td><td>0.01</td><td>-0.03</td><td>0.09  *  *</td></tr><tr><td/><td>(0.50)</td><td>(0.49)</td><td>(0.49)</td><td>(0.50)</td><td>(0.03)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>Age</td><td>45.91</td><td>44.85</td><td>41.82</td><td>41.10</td><td>-4.09  *  *  *</td><td>1.06</td><td>0.73</td></tr><tr><td/><td>(11.68)</td><td>(12.00)</td><td>(11.88)</td><td>(11.31)</td><td>(0.83)</td><td>(0.71)</td><td>(1.00)</td></tr><tr><td>Married</td><td>0.52</td><td>0.55</td><td>0.47</td><td>0.44</td><td>-0.05</td><td>-0.03</td><td>0.03</td></tr><tr><td/><td>(0.50)</td><td>(0.50)</td><td>(0.50)</td><td>(0.50)</td><td>(0.04)</td><td>(0.03)</td><td>(0.05)</td></tr><tr><td>Education: more than secondary</td><td>0.88</td><td>0.85</td><td>0.95</td><td>0.94</td><td>0.07  *  *  *</td><td>0.03  *</td><td>0.01</td></tr><tr><td/><td>(0.32)</td><td>(0.36)</td><td>(0.21)</td><td>(0.24)</td><td>(0.02)</td><td>(0.02)</td><td>(0.02)</td></tr><tr><td>Has internet access</td><td>0.83</td><td>0.78</td><td>0.96</td><td>0.95</td><td>0.13  *  *  *</td><td>0.05  *  *</td><td>0.00</td></tr><tr><td/><td>(0.38)</td><td>(0.42)</td><td>(0.20)</td><td>(0.21)</td><td>(0.02)</td><td>(0.02)</td><td>(0.02)</td></tr><tr><td>Wealth Index</td><td>-0.10</td><td>-0.21</td><td>0.39</td><td>0.28</td><td>0.49  *  *  *</td><td>0.12</td><td>0.12</td></tr><tr><td/><td>(1.17)</td><td>(1.20)</td><td>(1.21)</td><td>(1.09)</td><td>(0.10)</td><td>(0.08)</td><td>(0.12)</td></tr><tr><td>Took previous bus. training</td><td>0.30</td><td>0.24</td><td>0.39</td><td>0.47</td><td>0.09  *  *  *</td><td>0.06  *  *</td><td>-0.09  *  *</td></tr><tr><td/><td>(0.46)</td><td>(0.43)</td><td>(0.49)</td><td>(0.50)</td><td>(0.03)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>Declared WTP</td><td>12,915</td><td>7,586</td><td>17,384</td><td>15,768</td><td>4,469  *</td><td>5,329  *  *</td><td>1,616</td></tr><tr><td/><td>(49,514)</td><td>(11,837)</td><td>(15,997)</td><td>(19,184)</td><td>(2,694)</td><td>(2,579)</td><td>(1,693)</td></tr><tr><td>Risk taking index [0-10]</td><td>7.54</td><td>7.54</td><td>8.08</td><td>7.96</td><td>0.54  *  *  *</td><td>0.00</td><td>0.12</td></tr><tr><td/><td>(2.21)</td><td>(2.23)</td><td>(1.90)</td><td>(1.86)</td><td>(0.14)</td><td>(0.13)</td><td>(0.16)</td></tr><tr><td>Personal initiative index [1-7]</td><td>6.27</td><td>6.29</td><td>6.34</td><td>6.30</td><td>0.07</td><td>-0.02</td><td>0.05</td></tr><tr><td/><td>(0.72)</td><td>(0.62)</td><td>(0.64)</td><td>(0.59)</td><td>(0.05)</td><td>(0.04)</td><td>(0.05)</td></tr><tr><td>Comparison with others on bus. practices</td><td>5.39</td><td>5.87</td><td>5.44</td><td>5.67</td><td>0.04</td><td>-0.48  *  *  *</td><td>-0.23</td></tr><tr><td/><td>(1.93)</td><td>(1.99)</td><td>(1.94)</td><td>(1.86)</td><td>(0.14)</td><td>(0.12)</td><td>(0.16)</td></tr><tr><td>Comparison with others on proactiveness</td><td>6.59</td><td>6.92</td><td>6.90</td><td>6.71</td><td>0.31  *  *</td><td>-0.33  *  *</td><td>0.20</td></tr><tr><td/><td>(2.07)</td><td>(2.16)</td><td>(2.08)</td><td>(2.05)</td><td>(0.15)</td><td>(0.13)</td><td>(0.18)</td></tr><tr><td>Panel B. Firm Characteristics</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Has employees</td><td>0.39</td><td>0.40</td><td>0.44</td><td>0.43</td><td>0.05</td><td>-0.01</td><td>0.01</td></tr><tr><td/><td>(0.49)</td><td>(0.49)</td><td>(0.50)</td><td>(0.50)</td><td>(0.03)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>Sector: services</td><td>0.38</td><td>0.36</td><td>0.53</td><td>0.48</td><td>0.16  *  *  *</td><td>0.02</td><td>0.05</td></tr><tr><td/><td>(0.49)</td><td>(0.48)</td><td>(0.50)</td><td>(0.50)</td><td>(0.03)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>Sector: retail</td><td>0.30</td><td>0.42</td><td>0.18</td><td>0.19</td><td>-0.12  *  *  *</td><td>-0.12  *  *  *</td><td>-0.01</td></tr><tr><td/><td>(0.46)</td><td>(0.49)</td><td>(0.39)</td><td>(0.39)</td><td>(0.03)</td><td>(0.03)</td><td>(0.03)</td></tr><tr><td>Sector: manufacturing</td><td>0.23</td><td>0.12</td><td>0.24</td><td>0.21</td><td>0.02</td><td>0.10  *  *  *</td><td>0.03</td></tr><tr><td/><td>(0.42)</td><td>(0.33)</td><td>(0.43)</td><td>(0.41)</td><td>(0.03)</td><td>(0.02)</td><td>(0.04)</td></tr><tr><td>Sales last month</td><td>86,174</td><td>89,027</td><td>214,396</td><td>147,273</td><td>128,222  *  *  *</td><td>-2,853</td><td>67,123</td></tr><tr><td/><td colspan=\"4\">(168,244) (169,699) (685,088) (317,419)</td><td>(38,277)</td><td>(10,379)</td><td>(44,114)</td></tr><tr><td>Profits last month</td><td>13,447</td><td>38,709</td><td>89,448</td><td>42,874</td><td>76,001  *  *  *</td><td>-25,262</td><td>46,574</td></tr><tr><td/><td>(76,717)</td><td colspan=\"3\">(402,730) (467,655) (145,665)</td><td>(26,690)</td><td>(16,270)</td><td>(28,595)</td></tr><tr><td>Share of bus. practices</td><td>0.49</td><td>0.50</td><td>0.55</td><td>0.53</td><td>0.06  *  *  *</td><td>-0.00</td><td>0.02</td></tr><tr><td/><td>(0.26)</td><td>(0.27)</td><td>(0.26)</td><td>(0.23)</td><td>(0.02)</td><td>(0.02)</td><td>(0.02)</td></tr><tr><td>Exp. sales incr. 10%-20%</td><td>0.34</td><td>0.37</td><td>0.30</td><td>0.20</td><td>-0.04</td><td>-0.03</td><td>0.10  *  *</td></tr><tr><td/><td>(0.48)</td><td>(0.48)</td><td>(0.46)</td><td>(0.40)</td><td>(0.04)</td><td>(0.03)</td><td>(0.04)</td></tr><tr><td>Exp. sales incr. by more than 20%</td><td>0.44</td><td>0.36</td><td>0.59</td><td>0.68</td><td>0.15  *  *  *</td><td>0.07  *  *</td><td>-0.10  *  *</td></tr><tr><td/><td>(0.50)</td><td>(0.48)</td><td>(0.49)</td><td>(0.47)</td><td>(0.04)</td><td>(0.03)</td><td>(0.05)</td></tr><tr><td>Cannot finance 20k invest.</td><td>0.14</td><td>0.17</td><td>0.10</td><td>0.08</td><td>-0.04</td><td>-0.03</td><td>0.02</td></tr><tr><td/><td>(0.34)</td><td>(0.38)</td><td>(0.30)</td><td>(0.27)</td><td>(0.02)</td><td>(0.02)</td><td>(0.03)</td></tr><tr><td>Observations</td><td>457</td><td>736</td><td>374</td><td>215</td><td/><td/><td/></tr></table>",
+        "html": null
+      },
+      "TABREF15": {
+        "num": null,
+        "type_str": "table",
+        "text": "Balance table by credit and discount frame, BDM sample",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td/><td>Control</td><td>Credit</td><td>Discount Frame</td><td>Credit + Frame</td><td>Test equality</td></tr><tr><td/><td>Mean</td><td>Diff.</td><td>Diff.</td><td>Diff.</td><td>P-val.</td></tr><tr><td>Panel A. Demographic Characteristics</td><td/><td/><td/><td/><td/></tr><tr><td>Female</td><td>0.63</td><td>-0.03</td><td>-0.13  *</td><td>-0.09</td><td>0.187</td></tr><tr><td/><td>(0.49)</td><td>(0.07)</td><td>(0.07)</td><td>(0.06)</td><td/></tr><tr><td>Age</td><td>45.83</td><td>0.38</td><td>2.02</td><td>-1.94</td><td>0.082</td></tr><tr><td/><td>(11.62)</td><td>(1.57)</td><td>(1.55)</td><td>(1.55)</td><td/></tr><tr><td>Married</td><td>0.45</td><td>0.05</td><td>0.12</td><td>0.08</td><td>0.345</td></tr><tr><td/><td>(0.50)</td><td>(0.07)</td><td>(0.07)</td><td>(0.07)</td><td/></tr><tr><td>Education: more than secondary</td><td>0.85</td><td>0.06</td><td>0.00</td><td>0.07</td><td>0.246</td></tr><tr><td/><td>(0.36)</td><td>(0.04)</td><td>(0.05)</td><td>(0.04)</td><td/></tr><tr><td>Has internet access</td><td>0.83</td><td>0.06</td><td>-0.05</td><td>-0.01</td><td>0.135</td></tr><tr><td/><td>(0.38)</td><td>(0.05)</td><td>(0.05)</td><td>(0.05)</td><td/></tr><tr><td>Wealth Index</td><td>-0.12</td><td>0.04</td><td>0.04</td><td>0.02</td><td>0.995</td></tr><tr><td/><td>(1.26)</td><td>(0.17)</td><td>(0.18)</td><td>(0.17)</td><td/></tr><tr><td>Took previous bus. training</td><td>0.33</td><td>-0.11</td><td>-0.01</td><td>0.01</td><td>0.174</td></tr><tr><td/><td>(0.47)</td><td>(0.06)</td><td>(0.06)</td><td>(0.06)</td><td/></tr><tr><td>Declared WTP</td><td>9,744</td><td>5,778</td><td>6,833</td><td>271</td><td>0.648</td></tr><tr><td/><td>(12,506)</td><td>(5,703)</td><td>(8,308)</td><td>(2,393)</td><td/></tr><tr><td>Risk taking index [0-10]</td><td>7.48</td><td>-0.04</td><td>0.22</td><td>0.06</td><td>0.821</td></tr><tr><td/><td>(2.31)</td><td>(0.30)</td><td>(0.30)</td><td>(0.30)</td><td/></tr><tr><td>Personal initiative index [1-7]</td><td>6.26</td><td>-0.00</td><td>0.05</td><td>-0.01</td><td>0.918</td></tr><tr><td/><td>(0.73)</td><td>(0.09)</td><td>(0.10)</td><td>(0.10)</td><td/></tr><tr><td>Comparison with others on bus. practices</td><td>5.36</td><td>0.07</td><td>0.11</td><td>-0.02</td><td>0.948</td></tr><tr><td/><td>(1.89)</td><td>(0.26)</td><td>(0.26)</td><td>(0.26)</td><td/></tr><tr><td>Comparison with others on proactiveness</td><td>6.41</td><td>-0.08</td><td>0.50</td><td>0.28</td><td>0.139</td></tr><tr><td/><td>(2.11)</td><td>(0.30)</td><td>(0.27)</td><td>(0.28)</td><td/></tr><tr><td>Panel B. Firm Characteristics</td><td/><td/><td/><td/><td/></tr><tr><td>Has employees</td><td>0.33</td><td>0.11</td><td>0.05</td><td>0.09</td><td>0.313</td></tr><tr><td/><td>(0.47)</td><td>(0.07)</td><td>(0.06)</td><td>(0.06)</td><td/></tr><tr><td>Sector: services</td><td>0.38</td><td>0.00</td><td>-0.03</td><td>0.01</td><td>0.903</td></tr><tr><td/><td>(0.49)</td><td>(0.07)</td><td>(0.06)</td><td>(0.06)</td><td/></tr><tr><td>Sector: retail</td><td>0.29</td><td>-0.05</td><td>0.07</td><td>0.01</td><td>0.229</td></tr><tr><td/><td>(0.46)</td><td>(0.06)</td><td>(0.06)</td><td>(0.06)</td><td/></tr><tr><td>Sector: manufacturing</td><td>0.27</td><td>-0.01</td><td>-0.08</td><td>-0.10</td><td>0.166</td></tr><tr><td/><td>(0.45)</td><td>(0.06)</td><td>(0.06)</td><td>(0.05)</td><td/></tr><tr><td>Sales last month</td><td>98,340</td><td>-13,378</td><td>-20,539</td><td>-13,816</td><td>0.858</td></tr><tr><td/><td colspan=\"2\">(199,641) (24,841)</td><td>(23,521)</td><td>(25,440)</td><td/></tr><tr><td>Profits last month</td><td>11,528</td><td>-4,478</td><td>10,376</td><td>1,151</td><td>0.357</td></tr><tr><td/><td>(49,541)</td><td>(13,283)</td><td>(6,735)</td><td>(7,836)</td><td/></tr><tr><td>Share of bus. practices</td><td>0.43</td><td>0.10  *  *</td><td>0.06</td><td>0.08  *</td><td>0.029</td></tr><tr><td/><td>(0.25)</td><td>(0.04)</td><td>(0.03)</td><td>(0.03)</td><td/></tr><tr><td>Exp. sales incr. 10%-20%</td><td>0.39</td><td>-0.10</td><td>0.02</td><td>-0.10</td><td>0.174</td></tr><tr><td/><td>(0.49)</td><td>(0.07)</td><td>(0.07)</td><td>(0.07)</td><td/></tr><tr><td>Exp. sales incr. by more than 20%</td><td>0.41</td><td>0.07</td><td>-0.02</td><td>0.07</td><td>0.418</td></tr><tr><td/><td>(0.49)</td><td>(0.07)</td><td>(0.07)</td><td>(0.07)</td><td/></tr><tr><td>Cannot finance 20k invest.</td><td>0.18</td><td>-0.06</td><td>-0.08</td><td>-0.02</td><td>0.222</td></tr><tr><td/><td>(0.38)</td><td>(0.05)</td><td>(0.05)</td><td>(0.05)</td><td/></tr><tr><td>Observations</td><td>113</td><td>109</td><td>115</td><td>120</td><td/></tr></table>",
+        "html": null
+      },
+      "TABREF16": {
+        "num": null,
+        "type_str": "table",
+        "text": "Balance table by credit, TIOLI sample",
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td></tr><tr><td/><td>Control</td><td>Credit</td></tr><tr><td/><td>Mean</td><td>Diff.</td></tr><tr><td>Panel A. Demographic Characteristics</td><td/><td/></tr><tr><td>Female</td><td>0.60</td><td>-0.06</td></tr><tr><td/><td>(0.49)</td><td>(0.05)</td></tr><tr><td>Age</td><td>41.78</td><td>0.18</td></tr><tr><td/><td>(11.45)</td><td>(1.28)</td></tr><tr><td>Married</td><td>0.48</td><td>-0.02</td></tr><tr><td/><td>(0.50)</td><td>(0.06)</td></tr><tr><td>Education: more than secondary</td><td>0.95</td><td>0.01</td></tr><tr><td/><td>(0.22)</td><td>(0.02)</td></tr><tr><td>Has internet access</td><td>0.95</td><td>0.01</td></tr><tr><td/><td>(0.21)</td><td>(0.02)</td></tr><tr><td>Wealth Index</td><td>0.26</td><td>0.27</td></tr><tr><td/><td>(1.15)</td><td>(0.16)</td></tr><tr><td>Took previous bus. training</td><td>0.36</td><td>0.07</td></tr><tr><td/><td>(0.48)</td><td>(0.05)</td></tr><tr><td>Declared WTP</td><td>18,084</td><td>-1,959</td></tr><tr><td/><td>(16,469)</td><td>(1,838)</td></tr><tr><td>Risk taking index [0-10]</td><td>8.24</td><td>-0.37</td></tr><tr><td/><td>(1.75)</td><td>(0.20)</td></tr><tr><td>Personal initiative index [1-7]</td><td>6.33</td><td>0.04</td></tr><tr><td/><td>(0.71)</td><td>(0.07)</td></tr><tr><td>Comparison with others on bus. practices</td><td>5.40</td><td>0.13</td></tr><tr><td/><td>(1.96)</td><td>(0.21)</td></tr><tr><td>Comparison with others on proactiveness</td><td>6.88</td><td>0.06</td></tr><tr><td/><td>(2.08)</td><td>(0.22)</td></tr><tr><td>Panel B. Firm Characteristics</td><td/><td/></tr><tr><td>Has employees</td><td>0.42</td><td>0.05</td></tr><tr><td/><td>(0.49)</td><td>(0.05)</td></tr><tr><td>Sector: services</td><td>0.50</td><td>0.09</td></tr><tr><td/><td>(0.50)</td><td>(0.05)</td></tr><tr><td>Sector: retail</td><td>0.21</td><td>-0.07</td></tr><tr><td/><td>(0.41)</td><td>(0.04)</td></tr><tr><td>Sector: manufacturing</td><td>0.25</td><td>-0.01</td></tr><tr><td/><td>(0.43)</td><td>(0.04)</td></tr><tr><td>Sales last month</td><td>160,675</td><td>138,650</td></tr><tr><td/><td colspan=\"2\">(387,128) (87,970)</td></tr><tr><td>Profits last month</td><td>66,572</td><td>61,927</td></tr><tr><td/><td colspan=\"2\">(236,725) (63,791)</td></tr><tr><td>Share of bus. practices</td><td>0.54</td><td>0.02</td></tr><tr><td/><td>(0.27)</td><td>(0.03)</td></tr><tr><td>Exp. sales incr. 10%-20%</td><td>0.30</td><td>-0.00</td></tr><tr><td/><td>(0.46)</td><td>(0.05)</td></tr><tr><td>Exp. sales incr. by more than 20%</td><td>0.58</td><td>-0.00</td></tr><tr><td/><td>(0.49)</td><td>(0.06)</td></tr><tr><td>Cannot finance 20k invest.</td><td>0.13</td><td>-0.09  *</td></tr><tr><td/><td>(0.34)</td><td>(0.03)</td></tr><tr><td>Observations</td><td>216</td><td>158</td></tr></table>",
+        "html": null
+      }
+    }
+  }
+}

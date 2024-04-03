@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05194: Column 11 contains the difference-in-difference estimate between eligible and ineligible children across the treatment and the control groups, adjusted for round and market fixed effects.\n\ns_05244: The data are relatively new and hence have not yet been treated statistically, at least for external audiences.\n\ns_05294: where SHAREi is the share of state i in total enrollment for the relevant educational level\".\n\ns_05344: This correlation can arise if the error term is if, for example, the true original model were in levels.\n\ns_05394: 15 Further research can help further refining the methodology and estimation techniques.\n\ns_05444: From 2014 to June 2017, data from CGIT show a total of $170.11 billion investment in construction projects and $99.87 billion investment to BRI countries.\n\ns_05494: 5 Table 2 .1 lists all the areas of study and highlights the relevant associated SDGs.\n\ns_05544: Our preferred estimate in column (2) for all age groups indicates that when internet penetration increases by 10 percentage points, employment rate growth is 2 percentage points lower in a country with a relatively high level of routine labor (Sri Lanka) with respect to one with a low level of routine labor (Argentina).\n\ns_05594: For the AOGCMs, we adopt a historic and future period (2006-2100 2 ) at representative concentration pathways (RCP) 4.5 and 8.5 (Stocker et al., 2013) .\n\ns_05644: , 2006; Thomas y Strauss, 1997; Mayer-Foulkes, 2003) .\n\ns_05694: To understand what the benefit and cost functions look like, it is helpful to visualize the transactions profile.\n\ns_05744: Table 4 presents first-stage results for the two sub-periods we analyze and for different specifications.\n\ns_05794: Columns (1) and (3) show the mean and standard deviation for the BDM sample and TIOLI sample, respectively.\n\ns_05844: For comparison with readings from Dhaka's CAMS-3 monitor, we have used GEE to extract two measures for the cell displayed in Figure 1 : daily averages of tropospheric column density for NO2 and an absorbing aerosol index.\n\ns_05894: The next three columns of each table show that the same variables explain some of the variations that countries within each group have in the rates of linkages to GVCs upstream or downstream.\n\ns_05944: The last three columns of Table 3 shed some light on this.\n\ns_05994: This is also consistent with the framework proposed by van Dijk (2006) , who argues that there is a cumulative and recursive model of digital technology adoption, starting with motivation, followed by physical/material access, subsequently requiring digital skills and complementary services (such as electricity) to achieve usage, leading to strengthened motivation and increased usage over time.\n\ns_06044: one also included all possible interactions among these economic and demographic characteristics, the R 2 would reach about one-third (regression results are not shown for the sake of brevity).\n\ns_06094: The literature on temporary (economic) migrations can provide important insights on these findings.\n\ns_06144: In line with the descriptive statistics presented in Table A .2 in the Online Appendix, the results in Table 10 suggest that the illegal status of migrants negatively affects their monthly wages and savings, while abroad.\n\ns_06194: This finding fits with a larger, pre-COVID global literature which found that people's contemporary willingness to be vaccinated is strongly related to past vaccine behavior (Brewer et al., 2017, p. 165 ).\n\ns_06244: We use micro or grouped data from 1,971 income distributions in PovcalNet, which is the World Bank's database for global poverty estimates.\n\ns_06294: The selection of regions, districts and villages was jointly made with the National Statistical Institute of Guinea (INS).\n\ns_06344: Below, I explain how this is addressed and I refer to recent evidence showing that the coresidence bias is likely to be very small for the indicators used in this paper.\n\ns_06394: For our empirical analysis, we use household survey data from China Family Panel Studies (CFPS) 2010, India Human Development Survey (IHDS) 2012, and Indonesia Family Life 3 We are not aware of any studies on intergenerational mobility that estimates the eects of parent's economic status on the conditional variance of children's economic outcomes."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7RspHtwqIaU61ITk0I6EixSj2LW",
+    "object": "chat.completion",
+    "created": 1682884596,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1216,
+      "completion_tokens": 58,
+      "total_tokens": 1274
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06244\", \"data_mentioned\": true, \"reason\": \"PovcalNet\"}, {\"sent_id\": \"s_06294\", \"data_mentioned\": true, \"reason\": \"National Statistical Institute of Guinea (INS)\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06244\", \"data_mentioned\": true, \"reason\": \"PovcalNet\"}, {\"sent_id\": \"s_06294\", \"data_mentioned\": true, \"reason\": \"National Statistical Institute of Guinea (INS)\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

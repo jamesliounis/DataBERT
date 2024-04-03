@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04630: It draws on the concepts and ideas developed in the World Development Report (WDR) 2006: Equity and Development, WDR 2007: Development and the Next Generation, and the methodology developed in the recent and growing literature on inequality of opportunity (see, for example, John Roemer, 1998; Barros et al., 2009) .\n\ns_04680: Our FDI data come from the fDi Markets database compiled by fDi Intelligence, a division of the Financial Times.\n\ns_04730: This is complemented with household-level data on the amount of resources were spent for each child on education (books/stationery, transport/hostel and private coaching/tuition) and to cure preventable diseases as well as presence of a latrine, a variable we use as a proxy for attention to preventive rather than curative health.\n\ns_04780: 5 Note that e > \"u76, C > W8i and ( > wNE, C > wC and p >0 , a > 0 for both datasets as required in Footnote 9\n\ns_04830: To achieve this we combine cross-country microeconomic individual level data with country-specific government spending data from the IMF's Government Financial Statistics database (GFS).\n\ns_04880: From the methodological point of view, the paper also addresses several important empirical issues, such as endogeneity of infrastructure placement.\n\ns_04930: Data on access to infrastructure are available for the year 2000 for another 34 other countries.\n\ns_04980: (2014) interpolating the OECD-WTO data in some of our regressions.\n\ns_05030: For the sub-sample of exporters in the initial year of the sample, two out of the three matching techniques (Kernel and Stratification) yield statistically significant positive effects.\n\ns_05080: Two questionnaires-designed and adapted based on the PAPFAM model questionnaires-were used to compile data; one household questionnaire and one individual questionnaire targeting ever-married women between the ages of 15 and 49 from the households surveyed.\n\ns_05130: This discussion is a summary of the survey on productivity by.\n\ns_05180: Columns 1-4 and 6-9 contain unconditional mean estimates (and sd) for each sample listed for the visits overall, to EMPs, and to private providers (Panel A) or the inverse hyperbolic sine overall, at EMPs, and at private providers (Panel B).\n\ns_05230: SeeBel et al (2010) andCarvalho et al (2012) for recent surveys.\n\ns_05280: A similar exercise was undertaken, using Formula II (productivity adjusted formula).\n\ns_05330: In that paper, the author examines whether rating agencies actions anticipated the crises of the 1990s.\n\ns_05380: The item assignment to the modules should be based on either a previous survey or a survey in a related country with similar consumption behavior.\n\ns_05430: In this paper, we first document and compare the historical patterns of FDI around the world including BRI and non-BRI countries and investigate how different types of transportation cost and infrastructure have affected FDI.\n\ns_05480: The information provided by contributors was cross-checked with information collected by the team through desk research on the applicable laws, regulations, and information available on institutional websites.\n\ns_05530: The I2D2 is a data set of harmonized household surveys which are comparable across countries and time.\n\ns_05580: Using the known WWTPs in the supplied dataset, we further estimate the population dependent on the w th plant, Cw, as:\n\ns_05630: Fuente: estimaciones de los autores con datos ENCEL Figura C2.4.\n\ns_05680: 2019) has shown that the transaction profile tends to be skewed with few high-value transactions making up the majority of the budget.\n\ns_05730: Section 3 describes the sources of data used in the analysis, while Section 4 describes the main variables.\n\ns_05780: Table 5 presents the results from regressing elicited WTP in the BDM sample on observable characteristics measured at the baseline survey.\n\ns_05830: This paper has assessed the potential for low-cost augmentation of ground-based air quality monitoring in Dhaka, Bangladesh, with information from more comprehensive global information sources."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Fe0OeAp1DH6a85lx2dYYvOtXZy",
+    "object": "chat.completion",
+    "created": 1682883838,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1169,
+      "completion_tokens": 77,
+      "total_tokens": 1246
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05530\", \"data_mentioned\": true, \"reason\": \"I2D2\"}, {\"sent_id\": \"s_05430\", \"data_mentioned\": true, \"reason\": \"FDI\"}, {\"sent_id\": \"s_05830\", \"data_mentioned\": true, \"reason\": \"air quality monitoring\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05530\", \"data_mentioned\": true, \"reason\": \"I2D2\"}, {\"sent_id\": \"s_05430\", \"data_mentioned\": true, \"reason\": \"FDI\"}, {\"sent_id\": \"s_05830\", \"data_mentioned\": true, \"reason\": \"air quality monitoring\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04903: , be s and x be X in the matrix notation, the following general spatial autoregressive model is considered:\n\ns_04953: The infrastructure variables we use are telephone mainlines (lines per 1000 person), mobile phones (subscribers per 1000 persons), KW of installed electricity generating capacity per capita, km of rail per 1000 person, km of paved road per km2 of land and percentage of households with access to water and sanitation.\n\ns_05003: Second, we can exploit the information on GVC integration at the sectoral and sub-sectoral level from the TiVA database in the analysis of next section.\n\ns_05053: Panel 5a provides estimates using Kernel matching, panel 5b using stratification matching and panel 5c nearest neighbor matching.\n\ns_05103: For our analysis, we have used wealth quintiles based on an asset index that can be calculated for all the surveys that we have used.\n\ns_05153: The aggregate participation rate rose from approximately 45 percent in the mid-1970s to over 60 percent in the 2010s, largely due to a massive jump in the female labor force participation rate, which grew from a low base of 12 percent in 1989 to 30 percent in 2013.\n\ns_05203: The data include 1,614 families in Managua, Nicaragua, who were interviewed before and after being randomly offered access to free insurance.\n\ns_05253: Technical and operational data is somewhat more available.\n\ns_05303: That is, RALPHi is equal to ALPHAi divided by the ALPHA of the reference state (Distrito Federal in this paper).\n\ns_05353: That is, this specification tries to examine whether there is a \"contagious\" effect of credit ratings.\n\ns_05403: With representing a vector of household characteristics and an error term assumed to be normally distributed with 0, .\n\ns_05453: We thank Jim Feyrer for kindly sharing the data.11 In a related project,Baniya et al.\n\ns_05503: The team concluded that contributor-based data collection is an adequate tool for soliciting responses on legal and procedural regulations, but it does not provide a complete picture of the practical aspects of citizen-government interactions.\n\ns_05553: We use the STEP surveys for 11 developing countries (Armenia, Bolivia, Colombia, Georgia, Ghana, FYR Macedonia, Philippines, Serbia, Sri Lanka, Ukraine and Vietnam), collected between 2012 and 2016.\n\ns_05603: \uf0b7 Spatially we observe that in the near future, flood hazards for RCP 4.5 are concentrated along the Yangtze River, in southern Hubei, northern Hunan, central Anhui, northern Jiangxi and Shanghai, all of which are highly populated and the WWTPs here serve high numbers of users.\n\ns_05653: El proceso de instrumentaci\u00f3n se presenta en detalle en el Anexo D. En primera instancia, verificamos la presencia de endogeneidad mediante las pruebas Durbin y Wu-Hausman.\n\ns_05703: To achieve such results, countries need to distribute and record financial resources in a reliable and timely manner so that they can be audited to ensure that money is being used properly (Andrews et al.\n\ns_05753: (2003) and Acemoglu and Autor (2011) .\n\ns_05803: 23 This means that while the evidence for sunk-cost effects is more nuanced for the TIOLI sample, these effects seem to be present also in this sample.\n\ns_05853: Columns 3-8 test the relationship between CAMS-3 PM2.5 and three satellite measures, controlling for weather variables.\n\ns_05903: In practice, lack of firm-level data has meant that the measurement and analysis of GVC participation generally and for most African and developing economies particularly is mostly based on the use of projected inter-industry trade data to extract the value-added component of official data on country imports and exports.\n\ns_05953: where k is the currency to be analyzed, D k takes the value 1 if a product is invoiced in k and 0 otherwise, \u03c6 1 and\u03c6 2 are ERPT and TPT of products not invoiced in k respectively, \u03b2 k and \u03b1 k directly pick up estimates for goods invoiced in k. In this case, D k represents D U SD , D EU R , D GBP : dummy variables for observations of transactions invoiced in the U.S. dollar, the euro and the pound respectively.\n\ns_06003: One strand of the literature argues that psychological attitudes toward ICTs affect their adoption (Srinuan and Bohlin 2011; van Dijk 2006) , while a second strand emphasizes the role of social networks in shaping perceptions and driving adoption, such as membership in occupational, religious, or cultural communities (Al-Jaghoub and Westrup 2009; Andr\u00e9s et al.\n\ns_06053: to be calibrated for Latin American countries and \u2026nd, indeed, very similar results to our benchmark calibration due to the actual dominant role played by and .\n\ns_06103: Given that our data is grouped monthly, we first estimate the complementary loglog (cloglog) model with robust standard errors clustered at the origin district level as follows:"
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7XM0eJhdDfmdrDztwVipIOuf8mQ",
+    "object": "chat.completion",
+    "created": 1682884936,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1369,
+      "completion_tokens": 49,
+      "total_tokens": 1418
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05203\", \"data_mentioned\": true, \"reason\": \"insurance\"}, {\"sent_id\": \"s_05553\", \"data_mentioned\": true, \"reason\": \"STEP surveys\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05203\", \"data_mentioned\": true, \"reason\": \"insurance\"}, {\"sent_id\": \"s_05553\", \"data_mentioned\": true, \"reason\": \"STEP surveys\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

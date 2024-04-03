@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05978: However, data from Telegeography show that household fixed-broadband penetration is low (at 13.5 percent) across countries in the sample; thus, such cases should be minimal.\n\ns_06028: Based on the empirical strategy discussed in the previous subsection, Panels A and B in Figure 1 show the size of STMs in developed (blue color) and Latin American (red color) countries, respectively.\n\ns_06078: The study of refugee returns is a data-demanding process in a data-poor field.\n\ns_06128: We report our results in Table A .12 in the Online Appendix.\n\ns_06178: Similar results hold after controlling for the background characteristics of respondents (see Table A7 in Appendix A).\n\ns_06228: Corresponding author: Christoph Lakner (clakner@worldbank.org).\n\ns_06278: To determine whether larger amounts of cash had a higher impact on school enrollment, we present descriptive statistics on enrollment by different treatment arms, in the right panel of Figure 4 .\n\ns_06328: In the case of Latin America, most of the literature has used household survey data or public opinion surveys (see for example, Hertz et al., 2007; Narayan et al., 2018; Neidh\u00f6fer et al., 2018) given that long panel data as well as administrative/registry data that allow the researcher to link generations are rare.\n\ns_06378: Among many studies relying on this specication, please seeHertz et al.\n\ns_06428: This paper uses administrative data on electricity billing records from Ghana and Rwanda.\n\ns_06478: In one recent paper, Lee and Schachter (2019) investigate the relationship between trust in government and citizen participation in the United States using data from the World Values Survey.\n\ns_06528: The remainder of this paper is organized as follows.\n\ns_06578: The authors note in the preface that the study was substantially completed in 1973.2 The year 1987-88 refers to the fiscal yearApril 1, 1987-March 31, 1988 3Aksoy and Ettori (1992) report, for example, that the effective rate of protection was as high as 585 percent in the capital goods sector.\n\ns_06628: 6 While the absence of hard data to confirm this opinion makes it difficult to arrive at a decisive conclusion that an integrated approach has generated regulatory efficiencies, the pervasiveness of this belief throughout the senior management of the integrated regulatory authorities is striking.\n\ns_06678: 14 Augmnented Dickey Fuller tests indicated that MP, NFA, LEPPI and LRGDPSA were nonstationary, moreover, cointegration tests (allowing for deterministic interventionist dummies to account for possible structural breaks) resulted in a plausible cointegrating relationship among the I(1) variables.\n\ns_06728: Table 1 illustrates the scale of these institutions.\n\ns_06778: Note that one may have a preference for the results reported in columns (5) and (6) , which use Latin American exports to the rest of the world, which are likely to be less endogenous than exports to the world (which includes exports to the US).\n\ns_06828: More attention is being devoted in the development literature to multi-dimensional economic, social and environmental measures of well-being (Moser 1998; Carney and others 1999; Coudouel and Hentschel 2000; Narayan and others 2000) .\n\ns_06878: Focusing only on the 18 observations for SSA, the birth rate for the poor is 46.9 (standard error of 4.1) versus 31.4 (2.7) for the non-poor, implying BRD=1.2 (the same as from the DHS).\n\ns_06928: Closer to the results presented here are the studies by Jacobson (1989) and Ehrenberg and others (1991) .\n\ns_06978: We present several specifications.\n\ns_07028: This section is based on Section II of our paper(Nogu\u00e9s and Baracat, 2005) on the historical experience of Argentina with antidumping and safeguard measures.3 For some industries including footwear as we shall see, the tariff dismantling program was extended until the end of 1998(ALADI 2002).\n\ns_07078: This technique is attractive because it is computationally feasible for large numbers of observations; allows for the use of instrumental variables; and is robust to misspecification of the degree of autocorrelation among neighboring observations.\n\ns_07128: This section describes the methodology employed to test the hypotheses discussed in section 3 and reports our major findings.\n\ns_07178: This is the basis for the identification strategy in this paper."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B79SGLMgqgRYpBD7Up8b8OeSr80I",
+    "object": "chat.completion",
+    "created": 1682883454,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1275,
+      "completion_tokens": 104,
+      "total_tokens": 1379
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06428\", \"data_mentioned\": true, \"reason\": \"Ghana and Rwanda electricity billing records\"}, {\"sent_id\": \"s_06478\", \"data_mentioned\": true, \"reason\": \"World Values Survey\"}, {\"sent_id\": \"s_06878\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_07028\", \"data_mentioned\": true, \"reason\": \"ALADI\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06428\", \"data_mentioned\": true, \"reason\": \"Ghana and Rwanda electricity billing records\"}, {\"sent_id\": \"s_06478\", \"data_mentioned\": true, \"reason\": \"World Values Survey\"}, {\"sent_id\": \"s_06878\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_07028\", \"data_mentioned\": true, \"reason\": \"ALADI\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

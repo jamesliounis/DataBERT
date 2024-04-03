@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07400: where i = 1,2,...n stands for country (or region), t = 1,2,..., T is the time period index, j = 1, 2,..., g is a variable index, Q is some output measurement, P is some price variable, X is a set of other explanatory variables, a, are country specific variables and iii, is the usual error term.\n\ns_07450: This conclusion is important for the analysis in the next section.\n\ns_07500: The result is lowest for Provida (3.54) and highest for Habitat (6.56).\n\ns_07550: A study of sixteen SSA countries was carried out for the period 1980-90 to examine how adjustment has affected private investment in Africa.\n\ns_07600: This in tumn procedures used to provide information on the calls for an analysis of possible links between growth of industrial output.\n\ns_07650: -the strength of the medium term adjustment program;\n\ns_07700: For it to matter significantly, however, the government must be raising more revenue than seems to have been its practice, for example, Table 4 , cols.\n\ns_07750: The table also includes a residual which incorporates those items of the deficit which\n\ns_07800: We first present regression results for the final models for urban areas and comment on some (ex post) tests for aggregation and pooling.\n\ns_07850: 3.19 Disbursement Categories -The IDA Credit would be disbursed against the categories shown in Table 3 .2.\n\ns_07900: The corporate tax law reviewed above and outlined in Table I is the basis for modelling in the next section and for estimating effective tax rates in Section IV.\n\ns_07950: Studies such as this are very inexpensive relative to the capital costs of urban water projects, and can provide valuable information for use in the planning and design of water supply projects in developing countries.\n\ns_08000: As shown in table 1 below, the Russian banking system still seems both highly concentrated at the top and very fragmented in the middle and bottom, as well as mainly centered in the wealthier Moscow-St. Petersburg corridor.\n\ns_08050: The third column of Table 9 shows the predicted impact of higher electricity prices on household fuel choice.\n\ns_08100: 48 The methods employed to evaluate net worth are described by Bradbury, Brumby and Skilling (1999) .\n\ns_08150: Large regional differences are mentioned byGoldsmith too (1984: p. 265).\n\ns_08200: The value rises rapidly with ability, reaching about 28 percent of consumption, on average, for those in the top quartile of ability.\n\ns_08277: 18 National Survey of Recent College Graduates (NSRCG) The NSRCG targets students who completed a bachelors or master's degree within the prior two or three years of data collection in a science, engineering or health-related field.\n\ns_08327: The ACAPS dataset provides a full range of information going from political declarations to the detailed implementation of public health or social measures.\n\ns_08377: Therefore using SNPs below genome-wide significance will increase power to detect an association.\n\ns_08427: In the feature selection step we discretized the probability density functions through histograms with 8 bins and, after ranking the features according to the MI, we choose the ones with higher value.\n\ns_08477: By insisting that preclinical data and clinical trial design are aligned, the likelihood of translational success in novel AD therapeutics might be increased.\n\ns_08527: To overcome the gaps in existing time series we have collected, harmonized, reconstructed and validated large amount of data coming from multiple data sources.\n\ns_08577: 1-3 ) only for the combined set analysis, since single modality analyses yielded similar maps.\n\ns_08627: Despite these limitations, our findings offer important information about the dispensation of buprenorphine in recent years, clearly demonstrating that the amount of buprenorphine being dispensed has grown more rapidly than the number of buprenorphine providers in recent years, as well as showing substantial differences among different types of providers in the amount of buprenorphine per capita dispensed."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7VhCRPEQkVqT5oFQ0AfcuxEbu1E",
+    "object": "chat.completion",
+    "created": 1682884833,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1143,
+      "completion_tokens": 27,
+      "total_tokens": 1170
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08327\", \"data_mentioned\": true, \"reason\": \"ACAPS dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08327\", \"data_mentioned\": true, \"reason\": \"ACAPS dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

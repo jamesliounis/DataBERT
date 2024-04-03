@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06512: For example, in Logit and Lasso estimations, being employed was an important factor in determining engagement in its three forms.\n\ns_06562: These two observations put together may be explained by the fact that a broader mandate may require a more hierarchical structure.\n\ns_06612: This approach, which is described in Section 2.7 below, retains the simplicity of input-output analysis while allowing technical substitution in response to changing cost conditions.\n\ns_06662: Denmark's legislation is tle least harmonized of the three countries, although this does not in practice seem to have resulted in any serious problems and an effort is in any case currently under way to improve the coherer ce of its legislative framework.\n\ns_06712: The results for fixed capital formation by the public sector, as shown in the last two columns of Table 11 are not different.\n\ns_06762: BRAC, with its large multi-faceted programs, has had a long history of working with donors and the evolution of this relationship is worth highlighting.\n\ns_06812: When aggregating tariff and trade data from the 8-digit HS level to the 3-digit ISIC level one may introduce some heteroskedasticity due to group aggregation if one believes that the equation to be estimated is determined at the 8-digit HS level and if the number of 8-digit HS tariff lines in each 3-digit ISIC industry is not the same.\n\ns_06862: The 2003 World Development Report focuses on the role of institutions, and it also highlights the strong linkages between assets and institutions.\n\ns_06912: (The estimates implied by the BR method are 19.3 for the poor, with a standard error of 7.1, and 17.1 for the non-poor, with a standard error of 1.56; the difference is not significant; t-statistic=0.6.)\n\ns_06962: We then look only at the area of \"common support\", that is, we only keep in the sample those children whose predicted probabilities are found in both the sample of movers and the sample of children with same-teachers.\n\ns_07012: This paper identifies characteristics of slum dwellers who manage to move out of informal settlements and discusses policies that may support this transition.\n\ns_07062: Likewise, the norm indicated that this measure was temporary and that it was linked to an investment plan for the readjustment and specialization process of the benefited industries 18 .\n\ns_07112: Finally, a key issue in estimation is the likelihood of spatial autocorrelation of unobserved variables.\n\ns_07162: 5 Miller (1999) and Errunza and Miller (2000) find empirical support for the market segmentation hypothesis.\n\ns_07212: This is about 6 percentage points lower than the comparable number at the time of the baseline survey, 0.770, reported in Table 2 .\n\ns_07262: Section 3 assesses trends in the actual policies pursued by the transition economies, and compares these to the index of GATS commitments.\n\ns_07312: 14 Column (3) reports that first difference GMM results.\n\ns_07362: A specialized \"Trade Facilitation Review Report,\" conducted more frequently than the complete Trade Policy Review for a country might be considered.\n\ns_07412: The studies based on the Nerlove methodology could be misspecified, as some relevant prices are missing.\n\ns_07462: * Finally, when analyzing the relationship between grants and ODA debt relief and other net financial flows (transfers), we find that, private creditors have usually withdrawn money from the countries in our sample as grants increased.\n\ns_07512: Reporting this cost on a per contributor basis is misleading in the case of the old age and survivors' insurance because very 20 Budget document from the SSA.\n\ns_07562: The share of these 8/ El-Farhan's study also comes to similar conclusions.\n\ns_07612: Please contact Emily Khine, room NI 1-065. extension 37471 (September 1993,44 pages) .\n\ns_07662: The The purpose of this note is to illustrate the principles involved in the restructuring of a country's outstanding obligations to commercial banks.\n\ns_07712: Col. 4: Computation from Cols."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7d1T2Su6fP80Htl43VJxFlRXTFh",
+    "object": "chat.completion",
+    "created": 1682885287,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1155,
+      "completion_tokens": 23,
+      "total_tokens": 1178
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07462\", \"data_mentioned\": false, \"reason\": null}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07462\", \"data_mentioned\": false, \"reason\": null}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

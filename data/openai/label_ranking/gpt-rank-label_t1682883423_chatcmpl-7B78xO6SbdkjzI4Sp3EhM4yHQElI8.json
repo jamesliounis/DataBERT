@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_00995: Values for this accommodation coefficient are hard to obtain and values indicated in literature tend to vary over a large range.\n\ns_01045: Regression models account for the complex survey design in the estimations (see Dubman).\n\ns_01095: All models included the covariates listed in Table 1 .\n\ns_01145: 2000;Goni and Trinanes 2003;Scharroo et al.\n\ns_01195: Recently, Ito and colleagues developed a mathematical model of disease progression in AD based on metaanalysis of summary data from the literature [6] and individual-level data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) [7] , with this model receiving approval from the Food and Drug Administration and the European Medicines Agency for simulating clinical trials.\n\ns_01245: The results per database are presented in the table immediately below.\n\ns_01295: In Table one and Table two (Additional files 1 and 2), we present all findings within two broad categories according to whether they assessed heterogeneity of symptom syndromes (n = 17) or heterogeneity of trajectories (n = 29), respectively.\n\ns_01345: These legacy data are being used to facilitate the development of novel machine learning algorithms that will be applied to the new datasets from WP5.\n\ns_01395: Correlation coefficients were calculated between T(x, y, t) and T n (x, y, t) at the grid point (x, y).\n\ns_01445: o Record the amount requested and awarded for each proposal and any score assigned to it by the peer reviewers.\n\ns_01495: Th e model formulation, development, and application of GOSSYM have been well documented (Baker et al., 1983; McKinion et al., 1989; Baker and Landivar, 1991; Boone et al., 1995; Hodges et al., 1998; Reddy et al., 1997 Reddy et al., , 2002 .\n\ns_01545: Recently, Pandoe and Edge (2008) applied the ADCIRC-2DTR model to study cohesive sediment transport in a ship channel in Matagorda Bay, Texas.\n\ns_01595: The full genomic dataset was classified in lineages (29) using PANGOLIN (Phylogenetic Assignment of Named Global Outbreak LINeages) (30) and aligned with 10 iterative refinements using MAFFT (31).\n\ns_01645: More recently, Durand-Dubief et al.\n\ns_01695: We used data from the population-based US National Cancer Institute's Surveillance, Epidemiology and End Results (SEER) cancer registry to analyze patient and disease characteristics of patients with mcGTCs and to determine factors affecting both overall survival (OS) and disease-specific survival (DSS) after diagnosis.\n\ns_01745: The simulation results for the unstructured correlation matrix are provided in the supplementary material.\n\ns_01795: We also computed the Pearson's correlation coefficients between mortality and all fifteen segregation measures in (Table A in S1 File) .\n\ns_01845: Appendix B of this report provides a further explanation of the statistical methods used to create this merged data set.\n\ns_01895: To offer easy access to members of the different UPenn research groups or cores, a Web-driven online database was created using Microsoft ASP.NET MVC 3 technology along with HTML (HyperText Markup Language) and JavaScript for the user interface.\n\ns_01945: These results are presented in Table 2 , modelled on that of McBride et al.\n\ns_01995: These differences were statistically significant (see Table 1 ).\n\ns_02045: These subsequently activate the connected report groups to generate signals on test papers.\n\ns_02095: All data had been deidentified by the participating institutions prior to receipt by the authors (JEC, JDH) for analysis.\n\ns_02145: This analysis was undertaken to identify the key knowledge base behind the identified papers.\n\ns_02195: All patients aged 60 years or over with a first-ever code for dementia from 2001 and 2010 (N=24,250) were matched with patients without dementia by sex and index date at a 1: 2 ratio."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B78xO6SbdkjzI4Sp3EhM4yHQElI8",
+    "object": "chat.completion",
+    "created": 1682883423,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1149,
+      "completion_tokens": 178,
+      "total_tokens": 1327
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01545\", \"data_mentioned\": true, \"reason\": \"ADCIRC-2DTR\"}, {\"sent_id\": \"s_01595\", \"data_mentioned\": true, \"reason\": \"PANGOLIN\"}, {\"sent_id\": \"s_01695\", \"data_mentioned\": true, \"reason\": \"US National Cancer Institute's Surveillance, Epidemiology and End Results (SEER) cancer registry\"}, {\"sent_id\": \"s_01845\", \"data_mentioned\": true, \"reason\": \"merged data set\"}, {\"sent_id\": \"s_01945\", \"data_mentioned\": true, \"reason\": \"modelled on that of McBride et al.\"}, {\"sent_id\": \"s_01995\", \"data_mentioned\": true, \"reason\": \"Table 1\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01545\", \"data_mentioned\": true, \"reason\": \"ADCIRC-2DTR\"}, {\"sent_id\": \"s_01595\", \"data_mentioned\": true, \"reason\": \"PANGOLIN\"}, {\"sent_id\": \"s_01695\", \"data_mentioned\": true, \"reason\": \"US National Cancer Institute's Surveillance, Epidemiology and End Results (SEER) cancer registry\"}, {\"sent_id\": \"s_01845\", \"data_mentioned\": true, \"reason\": \"merged data set\"}, {\"sent_id\": \"s_01945\", \"data_mentioned\": true, \"reason\": \"modelled on that of McBride et al.\"}, {\"sent_id\": \"s_01995\", \"data_mentioned\": true, \"reason\": \"Table 1\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

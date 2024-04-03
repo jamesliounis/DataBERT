@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02400: 624 Geyer, W. R., & MacCready, P. (2014).\n\ns_02450: The estimates for allopath, rural, practice region, and physician specialty were robust to changes in thresholds of per-patient spending for the high LVC group, whereas the results for patient size did not hold when the threshold was moved to the top decile (Appendix Figure 4).\n\ns_02500: In particular, we ensured that mutation counts using the LONG-D51C5 reference genome from April 2020 resulted in a smaller number of mutations on average then mutations called in COG UK data using the Wuhan reference from December 2019.\n\ns_02550: The test statistic follows a chi-square distribution with degrees of freedom equal to the number of potentially endogenous variables.\n\ns_02600: The study was approved by the Bioethics Committee at the Pomeranian University in Szczecin, approval number KB-0012/132/12.\n\ns_02650: In the AGESReykjavik population-based study (Geerlings et al., 2017) , both current major depressive disorder and high evening cortisol levels were associated with an higher risk of incident AD and non-AD dementia, but cortisol did not seem to be a major factor explaining the relation between depression and risk of dementia.\n\ns_02700: The first section of this paper outlines the racial gap in outcomes at the elementary and secondary levels.\n\ns_02750: (2006) who were able to document a significant increase in low intensity development (likely residential) within 10 km of the Great Lakes coastline.\n\ns_02800: Adjusting models also controlled for child's race/ ethnicity, child's sex, parity, maternal marital status, and maternal age at delivery.\n\ns_02850: This study addresses these gaps in the literature using a nationally representative sample of U.S. children with longitudinal data to examine the possible effects, both direct and indirect, of the length of maternity leave on mother-child interactions and on attachment security.\n\ns_02900: Kwak and Radler (2000) reported that the cost of delivering their Web data set was less than one-fourth of the cost for their mail data set, and their Web survey was more than four times faster than their mail survey.\n\ns_02950: The relationships presented are bivariate association umuljusted statistically for covariates.\n\ns_03000: 2) What exactly did you do in this project?\n\ns_03050: In this manuscript, we described the validation of procedures of acquisition and processing of structural MRI in different Italian academic AD clinics following NA-ADNI procedures.\n\ns_03100: Given the large disparity in participation rates among the states just discussed, it is surprising that the state binary variables in the estimated model are not statistically significant.\n\ns_03150: In Table 2 we present the summaries of the di\u00a4erent transcript partitions.\n\ns_03200: An important part of the answer is that the spikes, appropriately deflated, were not unusually large.\n\ns_03250: The econometric analyses utilize data on factor endowments, intellectual property rights (IPRs), and net exports of computers and components, an industry that has received much attention in the technology adoption and growth literature.\n\ns_03300: Studying lower frequency data runs the risk of confounding the impact of the events with the policy responses they triggered such as the massive interventions by the Federal Reserve, the ECB, or the US and other governments.\n\ns_03350: Subsequently, Wilson, Mann, and Otsuki (2005) expanded their four indicators to a larger set of countries.\n\ns_03400: Appendix Table 4 reports both RCA indices for 60 part categories in CEEC trade with the EU in 1997.\n\ns_03450: Moreover, the parametric restrictions implied by the model are not rejected by these data, which provides a measure of con\u2026dence in the model and the measure of sunkenness proposed in (8) .\n\ns_03500: Following work by de la Ize (2010, 2011) , the paper first separates the frictions into agency frictions, which restrict the scope for delegation, and collective frictions, which restrict the scope for pooling and participation.\n\ns_03550: We augmented the data with industry-level measures of 6 While the Difference and Systems GMM estimators developed by Arellano and Bond (1991) are in principle capable of yielding unbiased estimates, these estimators are not well suited for our data; the difference GMM estimator is likely to result in poorly behaved estimates when variables are highly persistent as is the case with our data (for surviving firms the correlation between lnLt and lnLt-1 is 0.98 -both in crisis and non-crisis years), while the Systems GMM estimators relies on a mean stationarity assumption that is palpably undesirable in the context of a crisis (See Roodman, 2006 , for a discussion).\n\ns_03600: Schuler (2002 find similar results for Europe using a sample from 1980 to 2001."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7VKtHoMHEr5xWXrgXKOftEXVulK",
+    "object": "chat.completion",
+    "created": 1682884810,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1322,
+      "completion_tokens": 53,
+      "total_tokens": 1375
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_02500\", \"data_mentioned\": true, \"reason\": \"COG UK data\"}, {\"sent_id\": \"s_02900\", \"data_mentioned\": true, \"reason\": \"Web data set\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_02500\", \"data_mentioned\": true, \"reason\": \"COG UK data\"}, {\"sent_id\": \"s_02900\", \"data_mentioned\": true, \"reason\": \"Web data set\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

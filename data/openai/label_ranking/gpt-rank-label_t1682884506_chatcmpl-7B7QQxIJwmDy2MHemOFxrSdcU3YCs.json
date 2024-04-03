@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06542: It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world.\n\ns_06592: Excellent overviews of the new growth literature are also found inAghion and Howitt (1998) andBarro and Sala-I-Martin (1995).\n\ns_06642: Although it is difficult to measure efficiency gains and economies of scale in any mearningful sense for these types of admninistrative agency, all three agencies believe that they have realized significant benefits from this source.\n\ns_06692: This observation calls into question the usefulness of the distinction between short-term and long-term flows.\n\ns_06742: The literature broadly supports the hypothesis that access to microcredit contributes to poverty reduction in Bangladesh though the evidence is not entirely clear-cut 9 .\n\ns_06792: Empirical estimates suggests that there is a non trivial role for domestic lobbying in the determination of the US trade policy (see Gawande, 1997 , Gawande and Bandhopadhyay, 2000 and Goldberg and Maggi, 1999 ).\n\ns_06842: It is suggested to combine quantitative and qualitative spatial and household level analyses (and linked spatial and household level analyses) to deepen understanding of the complex relationships between assets, context, livelihood strategies and well-being outcomes.\n\ns_06892: while that for the non-poor is 16.2 (standard error of 1.7); the implied DRD is slightly over 1.1.\n\ns_06942: Looking across from column 4 to column 7 (which all use the same restricted sample), the coefficients for English vary between -0.033 and -0.035 standard deviations, a variation of less than 10 percent.\n\ns_06992: To examine the robustness of the previous set of estimates, we use propensity score matching based on the probability of undertaking regular savings to construct a comparison group of households who do not save regularly (Leuven and Sianesi 2003) .\n\ns_07042: In referring to the case of developed countries in the Tokyo Round, Hufbauer and Elliot (1994, page 66) expressed that in some footwear categories \"Ad valorem rates \u2026remained dutiable at the Smoot-Hawley rate of 25 to 37.5%.\n\ns_07092: While we have data on mean years of education of the work force, we lack information on employees' educational quality.\n\ns_07142: This table shows the comparison between the set of firms in which the 111 emerging markets' equity funds invest, and the set of firms that are included in the Worldscope database.\n\ns_07192: These values are comparable to those found in other developing countries-see the review in Behrman and Knowles (1997) .\n\ns_07242: Comparing the 2004 and the average EBRD columns reveal a difference between groups (a) and (b) and groups (c) and (d).\n\ns_07292: The only statistically significant association for PCs and productivity growth are found for PC,+, in the pooled sample, which, as we noted, may overstate the PC effects.\n\ns_07342: Document simplification and standardization.\n\ns_07392: Table 3 in the appendix reports the results of the inquiry.\n\ns_07442: This possibility is studied next by looking at the correlation between total grants and different types of net transfers, classified by source.\n\ns_07492: We provide data below that suggests that these premium is quite similar in the United States and Chile, although average income levels in the United States is four times Chile's at current exchange rates.\n\ns_07542: Similar developments have been reported for other goods.\n\ns_07592: The objective of this paper is to describe the statistical materials and procedures that stand behind published information on the growth of industrial output, to investigate sources of bias in the official statistics, to indicate, whenever possible, the quantitative impact of these biases on repcrted output totals, and to appraise the impact of adjustments to reported output growth on measures of industral productivity..\n\ns_07642: At such moments, there is the greatest convergence of interest between .he country and the subset consisting of its long-term creditors: both would like to see as much debt reduction through buyback as possible, at the greatest possible discount.\n\ns_07692: As for the price variables, the numbers used in the base case are given in Table 2 and refer to 1982/83.\n\ns_07742: Van Wijnbergen (1982) , van Wijnbergen et al (1989) and Easterly (1989a) extend and undertake applications of this framework in various developing countries."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7QQxIJwmDy2MHemOFxrSdcU3YCs",
+    "object": "chat.completion",
+    "created": 1682884506,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1246,
+      "completion_tokens": 27,
+      "total_tokens": 1273
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07142\", \"data_mentioned\": true, \"reason\": \"Worldscope database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07142\", \"data_mentioned\": true, \"reason\": \"Worldscope database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

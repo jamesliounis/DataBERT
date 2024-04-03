@@ -1,0 +1,2139 @@
+{
+  "paper_id": "D18104367",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:02.780885Z"
+  },
+  "title": "International Lending, Sovereign Debt and Joint Liability An Economic Theory Model for Amending the Treaty of Lisbon",
+  "authors": [
+    {
+      "first": "Kaushik",
+      "middle": [],
+      "last": "Basu",
+      "suffix": "",
+      "affiliation": {},
+      "email": "kbasu@worldbank.org"
+    },
+    {
+      "first": "Joseph",
+      "middle": [
+        "E"
+      ],
+      "last": "Stiglitz",
+      "suffix": "",
+      "affiliation": {
+        "laboratory": "",
+        "institution": "N.W",
+        "location": {
+          "addrLine": "1818 H Street",
+          "postCode": "20433",
+          "settlement": "Washington",
+          "region": "D.C"
+        }
+      },
+      "email": ""
+    }
+  ],
+  "year": "2013-08-06",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D18104367",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "As the Eurozone crisis drags on, it has become increasingly clear that a part of the problem lies in the architecture of debt and its liabilities in the construction of the Eurozone and, more generally, the European Union. This is the reason why the assurance from the European Central Bank (ECB) in July 2012 that it was prepared to do \"whatever it takes\" to preserve the euro boosted morale and markets. It led to a sense that the sovereign debt of an individual nation, however small, within the Eurozone area, had an assurance that went beyond the boundaries of the nation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "Yet, while that did play a vital role in calming markets, bringing down sovereign yields, and preventing the Eurozone from spinning into a full-blown financial crisis, it has failed to boost growth and mitigate unemployment-the Eurozone is technically in recession, as we write this paper. Indeed, there is an increasing realization now that the ECB may want to do \"whatever it takes\", but will actually do \"whatever is possible,\" and there are severe limits to what is possible. This was explicitly stated in Germany's constitutional court in Karlsruhe in June 2013, when the Bundesbank questioned the ECB's open-ended offer to buy sovereign bonds of nations at risk of default. Some of this skepticism about the extent to which the ECB or any nation can reach out to rescue another nation in the Eurozone caught up in the sovereign debt crisis is valid because of the restrictions placed on such action in the Treaty of Lisbon, and the earlier Treaty of Maastricht. We are referring, in particular, to articles in Treaty which explicitly prohibit one nation from taking on the debt liability of another nation and also prevent European Central Bank from directly purchasing bonds issued by Eurozone sovereigns.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "We believe that these features of the Lisbon Treaty are weaknesses that may not have been fully anticipated when the Treaty was being drafted. But now, with the hind sight of the full blown Eurozone crisis and recession, the weakness has become evident and the treaty deserves amendment. This paper is an attempt to provide an analytical foundation for such an amendment. The paper is written in an abstract form, to lay bare as clearly as possible, the microeconomic basis and game-theoretic structure of our argument.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "At a more general level this paper is concerned with international policy coordinationthough in the model attention is restricted to a special case of this, to wit, one involving banking, investment and sovereign debt. 1 These cannot always be left to natural market forces and may require deliberate, global policy intervention. The ongoing global economic crisis points to this. It was realized in the seventeenth century that a single economy cannot afford to have multiple money-creating authorities and central banks, ranging from the Riksbank in Sweden to the Bank of England, were born of this realization. However, with globalization the world has gradually drifted towards a single economy. This has meant that in some ways we have moved back to our predicament three hundred years ago when we had many money creating authorities operating within each economy. 2 Since the world is not about to move to a single monetary authority (the travails of Europe has set such an agenda even further back) the need is to have greater coordination across central banks. Much can be gained by creating a consortium of major nations, cutting across rich and poor nations, that can achieve a modicum of coordination in monetary and macroeconomic policies. Our paper is not about this broader coordination, but rather a more limited contractual approach, involving a Pareto improvement that can be achieved among three countries, but entailing only bilateral agreements.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "The world is full of examples of unwarranted volatilities, arising from the unilateralism of policies. A few months ago, we saw the reactions and risks of currency war arising from Bank of Japan's open adoption of quantitative easing to boost domestic demand and also to counter the large appreciation of the yen that had occurred over the previous six to ten years. We witnessed a similar experience of volatility in response to announcements that the US Fed is beginning to consider the withdrawal of its policy of quantitative easing, currently taking the form of asset purchases worth US$ 85 billion every month. These announcements caused yields on 10-year Treasuries to rise sharply and that, in turn, gave rise to volatility in exchange rates in emerging market economies, with sharp depreciations in the South African rand, the Brazilian real, the Indian rupee, the Mexican peso and several other currencies.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "In our view, interventions by the central banks of emerging economies to foil such sharp exchange-rate movements would be fully understandable at this juncture. However, if there were a system for ex ante coordination and some coordinated public policy announcements by the central banks of all major economies that would greatly help in dampening, ex ante, some of the excessive volatilities recently witnessed in global markets.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "There are examples galore of the need for purposive inter-country coordinated and preplanned behavior. The aim of this paper is to illustrate one which is of great contemporary relevance by using tools of modern theoretical economics. The current global situation is precarious and, though there are signs of calm in certain financial indicators such as sovereign bond yields and borrowing costs of troubled European economies such as Spain and Italy, in real terms the situation remains grave with unemployment at unsustainably high levels in Europe. Even in the US, where unemployment is lower-at 7.6%, as we write-the details underlying this figure are worrying. More than one third of those unemployed are long-term unemployed, which inflicts great suffering on them and also causes deskilling of the labor force with deleterious long-term effects on the economy. Also, indicators of efficiency in the labor market such as turnover rates and quit rates are at very low levels. We point to these to stress the need for out of the box thinking on the policy front.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "What may require a little special explanation is the use in this paper of pure economic theory to address a problem of pure economic policy. We believe that while there is a huge need for evidence-based policy-making, there is reason to be alarmed by the ubiquity of evidence-based and reason-free analysis that one sees in the world. Such analyses can easily lead us to non-sequiturs. Take one empirical argument often used to make the case for free trade, namely, that there is no economy in the world that is totally closed and has grown. What proponents of this argument miss out on is the fact that the world as a whole is a completely closed economy and has grown. To peg the case for free trade on such a purelyempirical argument is to risk its collapse, as happens in this case. 3 Fortunately, the case for freer trade does not have to rely on such a purely empirical argument. There are many other areas where great strides and quick strides can be made by being more open to theory than the policy world has been. Pythagoras would have been hugely inefficient if he had tried to establish the theorem on right-angled triangles by collecting such triangles from around the world and measuring the areas around them, and that would be so even if he were fastidious in drawing the sample of his triangles by a strict randomization from the universe of all right-angled triangles.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction and Preamble",
+        "sec_num": "1"
+      },
+      {
+        "text": "The bulk of international lending in the world takes place on a bilateral basis. An agent i, for instance, lends to a country j that uses the borrowed money and is expected to later pay back the loan (along with whatever interest they may have agreed upon) to agent i. Agent i can be a bank, an investment company or a country. There are occasions when j, for instance, a small country, will be unable to pay back because j may be bankrupt when the time comes for repayment. 4 This possibility of bankruptcy and, more importantly, the awareness of the agents that this may happen introduce all kinds of inefficiencies in the credit market. 5",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "This age-old problem has acquired a new dimension with the current Eurozone sovereign debt crisis, as witnessed in the recent \"Cyprus event.\" Cyprus's inability to repay its large international loans was indeed genuine. 6 For good or for bad, it had accumulated a debt liability that was too large to service for its relatively small economy. At the same time, from the point of view of the Eurozone as a whole and even from the perspective of a single, large economy of the Eurozone, such as Germany, the debt burden of Cyprus was trivially small.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "The root of the problem lies in the construction of the Eurozone. As de Grauwe (2011) point out, entering into a monetary union alters the character of sovereign debt radically, since no individual nation has control over the currency in which debt is issued; 7 and problem lies in the fact that the European Stability Mechanism does not adequately recognize this fragility.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "The problem cannot be solved by the more-prosperous nation taking on a blanket liability for paying back country j's loan because that will lead to reckless lending to j. 8 However, it is possible to design joint, inter-government liability that can mitigate a large part of this problem. Moreover, it is possible to design this in ways such that the borrowing nation as well as the nation taking on some of the liability (in the above example, Cyprus and Germany) can both gain. 9 That is the central message of this paper.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Taking this idea to where it is most needed, namely, the Eurozone, however, entails overcoming some political and legislative hurdles. While we do not go into these institutional matters in any great detail in the present paper, it is worth noting that the biggest stumbling block in applying these ideas to policy is the well-known Article 125 of the Treaty of Lisbon, which effectively rules out one nation from taking on the liability of another nation with 6 Nor is there consolation in the popular view that defaults and haircuts are not costly in the long-run because lenders quickly forgive and forget. There is mounting evidence that the costs on the defaulting nation are huge and prolonged (see, for instance, Cruces and Trebesch, 2011) . And in this case, it is possible to conjecture that Cyprus being a part of the European Union, this could infect other nations and inflict even larger costs.",
+        "cite_spans": [
+          {
+            "start": 461,
+            "end": 462,
+            "text": "6",
+            "ref_id": null
+          },
+          {
+            "start": 720,
+            "end": 746,
+            "text": "Cruces and Trebesch, 2011)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "7 There is indeed an open question as to why this was not more widely recognized before the full-fledged financial crisis broke out in 2008. Till then the borrowing costs of all Eurozone nations were virtually identical, though soon thereafter these diverged widely, thereby reflecting the market's recognition that sovereign debts of different Eurozone nations carried different default risks. Whether this was a case of investors not realizing the differential risk or a case of not wanting to signal their concern by admitting to this openly remains a disputed question (Shiller, 2012, p. 154-5) .",
+        "cite_spans": [
+          {
+            "start": 573,
+            "end": 598,
+            "text": "(Shiller, 2012, p. 154-5)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "8 As the analysis below will make clear, the problem we identify would not be resolved even if the more prosperous nation took on a much more cautious policy of offering only limited guarantees.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "9 For a recent analysis of borrower solidarity in the context of the Eurozone crisis, see Tirole (2012) and Claessens, Mody and Vallee (2012) . See also Bolton and Jeanne (2011) . its so-called \"no bail-out clause.\" This clearly fed into Eurozone's sovereign debt problem (Pisani-Ferry, Sapir and Wolff, 2013) . Actually, this hurdle was already there in advance of the Lisbon Treaty, which came into force only on December 1, 2009, in the Maastricht Treaty of 1992. Relatedly, Article 123 of the Treaty of Lisbon prohibits direct credit from the central bank to any sovereign and also disallows the purchase of government bonds from the primary market. 10 As a consequence of this the ECB is not a lender of last resort 11 to any government but only to banks (Schafer, 2012) . This has played a major role in the arguing for is the Treaty to be amended to permit the latter. The paper does not go into institutional details of how this may be done but constructs a theoretical model to motivate such a legal-institutional change. Regarding the scope for monetization of sovereign debt, there is a case for improving the provisions of the Lisbon Treaty but that is not central to the model in this paper. Moreover, we are not dealing with the debt legacy problem of the Eurozone economies, which is enormous but needs to be dealt with using other instruments.",
+        "cite_spans": [
+          {
+            "start": 90,
+            "end": 103,
+            "text": "Tirole (2012)",
+            "ref_id": "BIBREF33"
+          },
+          {
+            "start": 108,
+            "end": 141,
+            "text": "Claessens, Mody and Vallee (2012)",
+            "ref_id": null
+          },
+          {
+            "start": 153,
+            "end": 177,
+            "text": "Bolton and Jeanne (2011)",
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 272,
+            "end": 309,
+            "text": "(Pisani-Ferry, Sapir and Wolff, 2013)",
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 760,
+            "end": 775,
+            "text": "(Schafer, 2012)",
+            "ref_id": "BIBREF25"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "What we are arguing for is a structural change which will make the sovereign debt market more efficient and less vulnerable.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Before moving on, it should also be pointed out that our not addressing the mechanics of amending the Lisbon Treaty is purely to keep the focus on economic theory and must not be construed as underestimating the intricacy of the process. The huge impediments to modifying some of the structures of the architecture is itself a topic of major concern (see de Witte, 2011) . The problem was recognized early when in 1999, a 'Group of Wise Men' chaired by the former Belgian Prime Minister Dehaene had discussed the importance of splitting up the European treaties into the more fundamental and less fundamental ones, in order to make it possible to respond to new contingencies and amend some parts of the architecture quickly. The current and ongoing Eurozone crisis shows that we still have some distance to go in creating scope for greater adaptability.",
+        "cite_spans": [
+          {
+            "start": 358,
+            "end": 370,
+            "text": "Witte, 2011)",
+            "ref_id": "BIBREF12"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "The aim of this paper is to construct a theoretical model to illustrate the nature of inefficiency that arises from the limited liability of nations and how this can be mitigated by bringing a more economically resourceful nation into a certain kind of joint liability. Designed properly, there indeed is scope to make the more powerful take on the liability of the less powerful with gains all-around. It will be argued here that the key lies in finding a suitable third party, an agent who may be a trading partner of j or member of a common economic union along with j-call this agent k-and making k liable to repay j's loan in the event of j going bankrupt. In brief, the concept of what is often pejoratively called a \"liability union\" (Schwarzer and Lang, 2012) is not to be dismissed out of hand.",
+        "cite_spans": [
+          {
+            "start": 741,
+            "end": 767,
+            "text": "(Schwarzer and Lang, 2012)",
+            "ref_id": "BIBREF26"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "The agent must have (i) the ability to monitor j, (ii) the ability to impose costs on j should it renege on its agreement to behave well, i.e. to provide the agreed upon level of effort, (iii) the incentives to impose such costs, and (iv) the ability to get compensated for having provided the guarantee, because even when j does everything it is supposed to, there is some chance that the j will not be able to repay what is owed. We argue that these conditions are plausibly satisfied, showing that there is a contract which would be voluntarily entered into by j and k (that is, both are better off than they could be in the initial situation) and which leads to a sub-game perfect equilibrium.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Both joint liability (including co-signing provisions in contracts) and peer monitoring arguments are familiar in the literature. Peer monitoring associated with insurance contracts between j and k without joint liability has been shown to improve insurance markets when both k and i have issued insurance against the same risk: lender i can infer that k will ensure that i behaves \"well,\" and thus will offer better terms (a lower premium). (Arnott and Stiglitz, 1991) . 1213 The theory of peer monitoring associated with joint liability among a group of borrowers has provided micro-foundations for the success of micro-finance, but the incentive to co-sign the loan is simpler than here: individuals simply can't get the loan without an agreement to co-sign, and co-signing then provides the incentive to monitor. (Stiglitz, 1990) . 14 15 This paper goes beyond these earlier studies by identifying a contractual relationship which leads to a sub-game perfect equilibrium which is a Pareto improvement. It will be apparent from the analysis that the scope for 'multilateral' lending is quite ubiquitous, including in the sphere of international lending where contract enforcement may be limited.",
+        "cite_spans": [
+          {
+            "start": 442,
+            "end": 469,
+            "text": "(Arnott and Stiglitz, 1991)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 472,
+            "end": 476,
+            "text": "1213",
+            "ref_id": null
+          },
+          {
+            "start": 817,
+            "end": 833,
+            "text": "(Stiglitz, 1990)",
+            "ref_id": "BIBREF28"
+          },
+          {
+            "start": 836,
+            "end": 841,
+            "text": "14 15",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "As such, it is possible for lending organizations such as the World Bank, the IMF, and even entities in the offing such as the BRICS bank or the proposed Global Infrastructure Facility to adopt the method proposed in this paper. This would make it possible to lend more, lend more widely and to enhance efficiency. Indeed, the power of these contractual arrangements may itself raise concerns: they can be used not just to improve economic efficiency and the well-being of poor countries, but to advance political and ideological agenda.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "It is useful to confront a possible mainstream, neoclassical criticism at the outset. If one shows (as we will in this paper) that people can do better by behaving differently, mainstream economists are prone to argue that that there must be a flaw in the analysis because if people could have done better behaving differently (e.g. by signing these contracts), then they would already be doing so. This mainstream criticism has to be false because otherwise it would be unclear why human beings waited till the 18th century to develop the small pox vaccine, 19th century to have cars, 20th century to have computers and 21st century for Skype. This is because a new invention is, in the end, nothing but the discovery of high returns associated with new behaviors. What we need to understand is that our deficiency of knowledge can extend to strategies of action. 16 There are social and behavioral innovations just like technological innovations; and just as technological innovations rely on inventions and discoveries so do social and behavioral innovations. The aim of this paper is to outline new strategies that can make international lending across nations that are inter-connected, such as the current European Union nations, more efficient and robust.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Before going into the construction of the formal model, it may be useful to sketch out the argument in words. A small country, such as Cyprus, needs a loan of B from an international Bank to build a power station and promises to pay back the amount borrowed with whatever interest is agreed upon. There is however a sub-text to the promise. If the project fails, Cyprus will be unable to pay back the Bank. This could be because of a limited liability arrangement but it can also be simply a matter of the reality of not being able to enforce the debt contract. Formal limited liability is rare in international credit, which actually makes matters worse. There are analysts who have rightly called for a formal sovereign debt reduction procedure which is comparable to Chapter 11 of the US corporate bankruptcy code. 17 The country may be too small and poor to be able to pay this back in the event of the project failing. This introduces a standard moral hazard problem. 18 Suppose the probability of success depends on the effort that Cyprus puts in to the power project. It can be shown that one consequence of the de facto limited liability is that Cyprus will put in less effort than is \"efficient,\" in the sense of maximizing the value of (global) output. 19 And this raises the question, is there a design that can recover this lost efficiency? The answer is yes, if certain conditions are fulfilled. The essential condition is that there exists a wealthy and powerful nation with which Cyprus has close economic ties-they may be trading and business partners-and that this partner can observe Cyprus's behavior. Suppose there is such a nation, k-think Germany-that has this attribute. This is a nation that has close connections with Cyprus maybe because they are both part of a currency union or trading union and so have regular trade and business inter-connectivity.",
+        "cite_spans": [
+          {
+            "start": 1263,
+            "end": 1265,
+            "text": "19",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Let us here suppose that k does some business with Cyprus which gives Cyprus a return of R, which happens to be greater than Cyprus's reservation return. If the return were less than Cyprus's reservation value, Cyprus would have no interest in accepting the deal with k.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "And suppose k gets a decent surplus from its dealings with Cyprus. It is now easy to see that there is scope for an efficient shared liability arrangement. Nation k stands guarantor for the loan taken by Cyprus. In other words, if Cyprus's project fails, it assures the Bank that it will step in and repay the loan to the Bank. It asks Cyprus to put in the optimal amount of effort into the hydro power project and then changes the terms of the joint venture with Cyprus so as to make the new arrangement as acceptable to Cyprus as the old one. This will leave Cyprus and the Bank as well off as before, and k better off. It is not a part of the argument in this paper, but in case there is a higher governmental authority it can (and should) try to force k to share some of the spoils of this arrangement with Cyprus.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Section 4 describes a special case of the full model. It is however laid out in full and conveys the basic idea of our model. So some readers may prefer to go directly to Section 4.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "to credit market efficiency.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "19 There is a large literature on the (Pareto) efficiency of markets in which a moral hazard problem of the kind we have just described arises. In a single good world, it can be shown that the competitive equilibrium (described below) is in fact Pareto efficient; but in the context of an economy with multiple goods, it is not. (See Greenwald and Stiglitz (1986) ). Further complexities (which we ignore in this paper) arise when there are multiple loans. (See Arnott and Stiglitz, 1991) The Basic Model",
+        "cite_spans": [
+          {
+            "start": 334,
+            "end": 363,
+            "text": "Greenwald and Stiglitz (1986)",
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 462,
+            "end": 488,
+            "text": "Arnott and Stiglitz, 1991)",
+            "ref_id": "BIBREF1"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Here is a typical, if stylized, lending model. A country j needs $B to start a project. If successful the project will yield a return of $X(> B). The probability of the project being successful is p and we will assume that p depends on the effort, e, that the borrower, namely, country j, puts in: p = p(e), p (e) > 0, p (e) < 0.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "(1)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "If the project fails, the return is 0.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "The nation, however, has no money of its own to make this initial investment of B. So it needs a lender or lenders (possibly a bank) to give it the money. Suppose there are large numbers of lenders that have access to money at zero (for simplicity) interest rate and can lend this money to j. Because the market is competitive, the lender, henceforth, Bank, earns zero profit.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "If the project fails, returns are zero and j does not repay anything. This could be because a bankruptcy law exonerates the poor borrower from having to repay in such a situation, or because of custom. Indeed, there is widespread evidence that this kind of limited liability works even in the absence of any formal law (Basu, 1989) . We shall here assume here that j is simply not in a position to pay in the event of the project failing. Hence, the question of coercing j to pay does not arise, even if there were international courts which might attempt to \"enforce\" the debt contract.",
+        "cite_spans": [
+          {
+            "start": 319,
+            "end": 331,
+            "text": "(Basu, 1989)",
+            "ref_id": "BIBREF3"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Suppose the lender offers the loan of $B and asks for a repayment of $D. We assume that the contract does not and cannot specify the level of e. (The inability to specify actions e as part of the loan contract is at the heart of the moral hazard problem.) This could be because the effort put in by j is not visible to the Bank. Alternatively, we can assume that it is visible to j and the Bank but it is not possible to write it in a contract and have it verified and enforced by a court.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Assuming that the cost of each unit of effort is c, country j then faces the following problem. It has to choose e so as to max p(e)(X \u2212 D) \u2212 ce.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "From the first order condition, we know 20",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "p (e)(X \u2212 D) = c",
+            "eq_num": "(2)"
+          }
+        ],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Since the Bank is assumed to face a competitive market, its profit in equilibrium is zero.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Hence p(e)D = B",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "The values of e and D which solve (2) and (3) describe the 'equilibrium' of the bilateral lending model. We shall assume that an equilibrium exists and denote the equilibrium by (e o , D o ).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "Some properties of the equilibrium are worth noting. It is obvious that D o \u2265 B. Otherwise, (3) would be violated. Now, define e * by p (e * )X = c. It is obvious e o < e * . This follows from the fact that D o > 0 and p(e) < 0.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "It is easy to see that this bilateral equilibrium is sub-optimal. That is, there exists another e and D which would make the total profit of the borrower and the lending Bank greater than in the bilateral equilibrium. 21",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "It can be checked that the total profit earned by the Bank and the borrower is given by p(e)X \u2212 ce \u2212 B \u2261 \u2126(e) 20 The expected return to the bank is p(e(D))D, and even under our strong assumptions, this may not be a monotonic function of D, so that there can exist more than one value of D for which p(e(D))D = B. If so, the market equilibrium is the lowest value (with e being correspondingly the highest value).",
+        "cite_spans": [
+          {
+            "start": 110,
+            "end": 112,
+            "text": "20",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "21 This is distinct from another form of inefficiency widely discussed in the international debt literature, that associated with 'loan pushing' (Darity and Horn, 1986; Basu and Morita, 2006) .",
+        "cite_spans": [
+          {
+            "start": 145,
+            "end": 168,
+            "text": "(Darity and Horn, 1986;",
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 169,
+            "end": 191,
+            "text": "Basu and Morita, 2006)",
+            "ref_id": "BIBREF6"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "The borrower earns p(e)(X \u2212 D) \u2212 ce; and the Bank earns p(e)D \u2212 B. Adding these up gives us \u2126(e). Clearly \u2126(e) is maximized when p (e)X = c. But that is precisely the definition of e * . Since p(e) < 0, this is unique. Hence,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "\u2126(e * ) = p(e * )X \u2212 ce * \u2212 B > p(e o )X \u2212 ce o \u2212 B = \u2126(e o )",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "This establishes the sub-optimality of the bilateral equilibrium, (e o , D o ). The bilateral equilibrium is dominated by (e * , D), for all D. Since D is a pure transfer between two agents (the Bank and country j), its precise value does not matter, once the action has been determined.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "A Sketch of the Argument",
+        "sec_num": "2"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "\u03b4 \u2261 [p(e * )X \u2212 ce * ] \u2212 [p(e o )X \u2212 ce o ]",
+            "eq_num": "(4)"
+          }
+        ],
+        "section": "Define",
+        "sec_num": null
+      },
+      {
+        "text": "Clearly, \u03b4 captures the welfare (output) loss that occurs in the bilateral equilibrium.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Define",
+        "sec_num": null
+      },
+      {
+        "text": "It is easy and useful to represent the welfare loss diagrammatically. In Figure 1 , the horizontal axis represents the effort, e, put in by the borrowing country. The figure also",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 73,
+            "end": 81,
+            "text": "Figure 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Define",
+        "sec_num": null
+      },
+      {
+        "text": "shows the curves p(e)X and ce. Since aggregate welfare maximizes p(e)X \u2212 ce \u2212 B, and B is a constant, it is easy to see that aggregate welfare is maximized at e * , where the tangent to the curve p(e)X is parallel to the line denoting ce.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Define",
+        "sec_num": null
+      },
+      {
+        "text": "Next, draw in the same figure the curve p(e)(X \u2212 D). Since the borrowing country maximizes p(e)(x \u2212 D) \u2212 ce, its optimum occurs at e o , where the tangent to the p(e)(X \u2212 D)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Define",
+        "sec_num": null
+      },
+      {
+        "text": "curve is parallel to the line denoting ce. Since the slope of the p(e)(X \u2212 D) curve is obviously less than the p(e)X at each pair of vertically aligned points, it is obvious that e o is to the left of e * . In other words, in equilibrium there is less effort than is optimal.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Define",
+        "sec_num": null
+      },
+      {
+        "text": "The welfare loss in equilibrium is now obvious. It is given by the distance between the line Aa and the curve p(e)X vertically above e o .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Define",
+        "sec_num": null
+      },
+      {
+        "text": "For the lender and the borrower on their own to try to change this equilibrium is quite hopeless. If the lender asks for some different level of D * (not equal to zero) back, it is not optimal for the borrower to put in e * effort. In fact, if D * > D o he will put even less effort than e o . This is where a third player that is well-off and has a close market connections with j can play a vital role. To see this consider another country k with which j has a lot of interaction-trade or capital flows or joint ventures-and mutual gain. 22 It is possible that j and k belong to the same currency union, as in the case with Germany and Cyprus or they 22 The idea of how an uninvolved third party can alter the relation between two economic agents has had a long, if somewhat sporadic, history (see, for instance, Akerlof, 1976; Basu 1986 Basu , 2000 Hatlebakk, 2002; Villanger, 2005) .",
+        "cite_spans": [
+          {
+            "start": 540,
+            "end": 542,
+            "text": "22",
+            "ref_id": null
+          },
+          {
+            "start": 653,
+            "end": 655,
+            "text": "22",
+            "ref_id": null
+          },
+          {
+            "start": 815,
+            "end": 829,
+            "text": "Akerlof, 1976;",
+            "ref_id": "BIBREF0"
+          },
+          {
+            "start": 830,
+            "end": 839,
+            "text": "Basu 1986",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 840,
+            "end": 851,
+            "text": "Basu , 2000",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 852,
+            "end": 868,
+            "text": "Hatlebakk, 2002;",
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 869,
+            "end": 885,
+            "text": "Villanger, 2005)",
+            "ref_id": "BIBREF34"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "are party to a pact which facilitates trade and business among them. 23 To model this simply suppose j and k have a joint business venture, which takes the form of the \"Joint Venture\" Game. If either j or k refuses to participate in this game the game yields nothing and they each earn 0. If both participate the game yields a return of A, which the two players can share in any way. If we leave it at this, this would be a standard Nash bargaining game. But to fit this into the non-cooperative game framework being used thus far, assume that each player has to choose a strategy from the following set {\u03c6} \u222a [0, A]. If either player chooses \u03c6, she is saying that she will not participate and both players get a payoff of 0 from the Joint Venture game. If both players choose a number from [0, A], then, if the numbers they choose add up to A, each gets the number she chose; and, if the numbers they choose do not add up to A, each gets zero.",
+        "cite_spans": [
+          {
+            "start": 69,
+            "end": 71,
+            "text": "23",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "It is easy to verify, that this normal form game has lots of Nash equilibria. In particular, It is now possible to show that if values of A and R that occurs in the Nash equilibrium are sufficiently large, then this game can be used strategically to yield efficiency in the bilateral lending game between j and k. This entails the use of joint debt liability. In particular, this requires k to offer to stand as guarantor to j's debt. Thus, k allows j to take the loan from the Bank and makes the agreement that if j's project succeeds then j pays back to the Bank what is owed and if it fails then k assures that it will step in and repay the loan to the Bank on behalf of j.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "Country k will of course have no interest in getting into a deal like this, which gives k nothing but a positive probability of a loss (equal to B). It can, however, be shown that it will be worthwhile for k to make this offer if it can put in some subsidiary clauses. What k has to do is to use the joint business venture contract tactically to force j to put in effort e * into the hydro power project for which it was borrowing the money. What k has to do is to threaten to pull out of the joint venture, that is, to play the strategy \u03c6 in the Joint Venture Game, if j does not put in effort e * in the hydro-electric power project. In other words, if j does not put in effort e * in the power project, then they both expect the outcome of the Joint Venture game to be (\u03c6, \u03c6). Since (\u03c6, \u03c6) is a Nash equilibrium, neither play can do better by unilaterally deviating. Of course, the outcome is not renegotiation proof (Farrell and Maskin, 1989) but it is, nevertheless, a subgame perfect equilibrium outcome. 24 Since the Bank is a competitive agent, the repayment that j has to offer to the Bank is now B. This is because, with k as guarantor, the Bank is now certain about getting back its money. Hence, as long as it gets back what it originally lent, to wit, B, it breaks even (recall that the Bank's opportunity interest rate is zero).",
+        "cite_spans": [
+          {
+            "start": 920,
+            "end": 946,
+            "text": "(Farrell and Maskin, 1989)",
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 1011,
+            "end": 1013,
+            "text": "24",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "Putting in an effort of e * causes the net income between the Bank and the lending country to rise by \u03b4, as defined by (4), plus [1 \u2212 p(e * )]B. The latter is the expected payment made by the guarantor nation k.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "If this was all there was to it, country j would be better off by \u03b4 + [1 \u2212 p(e * )]B. That would however not be an equilibrium since k would be worse off by this deal, since k offers to pay up in case the hydro power project fails, which has a probability of [1 \u2212 p(e * )]. Now suppose k, while ensuring that j puts in an effort of e * and k standing guarantee of repaying the loan to the Bank in the event of the project failing, offers j for their joint business venture a return of not R (as was the case earlier) but R\u2212(\u03b4 +[1\u2212p(e * )]). We require this expression to be greater than or equal to zero, which is possible if R is sufficiently large. And R can be sufficiently large, if A is sufficiently large. And we are assuming that to be the case.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "In other words, what is being said is that, once the new deal is offered by k, the Nash equilibrium in the Joint Venture game is expected to be:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "(R \u2212 (\u03b4 + [1 \u2212 p(e * )], A \u2212 (R \u2212 (\u03b4 + [1 \u2212 p(e * )]).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "This leaves j's position unchanged since the additional amount it gets by working harder on the hydro project and by k giving guarantee to repay the loan in the event of project failure is exactly matched by what it loses out in the joint venture with k. Since the total cake among the three of them is now bigger and the Bank and country j's net positions are unchanged, country k must be better off. In fact, it will be better off by exactly \u03b4. To make j strictly prefer this arrangement, k could give j a small additional payment, \u03b5. This would result in k earning \u03b4 \u2212 \u03b5 and j earning \u03b5 more than what it was earning in the original bilateral equilibrium. From a formal game-theoretic point of view this is not necessary.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "In brief, there exists a fully self-enforcing outcome in which k makes country j put in an effort of e * and accepts the liability to repay j's debt in the event of the hydro power project failing, and re-specifies the terms of the joint business venture that j and k were engaged in.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "If j reneges, and undertakes a level of effort below e * , then j pulls out of the venture, and so does k: it is an equilibrium for both of them to do so, and knowing that that is the case means that it is optimal for j to provide the level of effort e * . 25",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "It is possible to write this entire range of interactions starting with the Bank and j and then bringing in k and the Joint Venture game out as an extensive-form game so that this joint liability contract and the strategies it specifies is sub-game perfect. The argument critically hinges on the existence of multiple equilibria in the Joint Venture game which is a sub-game of the full extensive-form game.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "What is interesting and makes this new joint liability contract even more attractive is that it is not necessary for k to be able to observe country j's effort. They could simply agree that country j will always repay the loan and j and k will adjust the returns from the joint venture to appropriately compensate for this.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "Note that we specified a design which enhances the aggregate welfare with the entire additional benefit accruing to the large, third agent, in this case country k that steps in as guarantor. This is however not necessary. Our aim here was simply to show that in situations of international lending there is scope for third party guarantees to improve the overall situation-to bake a larger cake, without paying special attention to the (no doubt important) distributional matters. It is indeed possible to have additional features in the regulatory system which enables a part of the additional benefits to accrue to the smaller country that was doing the borrowing in the first place.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "In analyzing the result it is important to pay attention to the timing of the game. The Bank will not provide the money until k offers the guarantee, which it will do only after j makes a commitment to effort e * . And it can put in the effort only after it has undertaken the project, i.e. received the money.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "If k offers the guarantee before j has exerted his level of effort, then there is always a problem that j will renege on his commitment. j will do this if he believes that k will not pull out of the joint venture, because it is not in k's interest to do so. There is a pre-commitment problem. If k pulls out of the project, it loses its investment and nets zero, but is still liable for the guarantee. If k does not pull out of the project, its return is A \u2212 R + \u03b4 + [1 \u2212 p(e * )]).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "If A \u2212 R + (\u03b4 + [1 \u2212 p(e * )]) > 0, it will clearly not pull out of the project. In our case we solve the problem by constructing the last period game, namely, the Joint Venture game, in such a way that it has multiple equilibria. It is this that allows us to establish sub-game perfection. The equilibrium we establish is not renegotiation proof, but it satisfies dynamic consistency (see, for instance, Gibbons, 1992 Let us, for the sake of discussion consider the case where the Joint Venture Game does not have multiple equilibria. If third party enforcement were possible, then k could take j to court for reneging on its contract. But that begs the question, if third party enforcement were possible (e.g. because e is observable), why could i have not taken j to court? Of course, it may be possible that in Courts to which i and j submit themselves, e is not observable, but e is observable in courts to which k and j submit themselves. But there is a second possible way that the contract can be enforced. Assume there is a joint project whose return is positively correlated with the success of i's project, such that if e < e * , EA \u2212 R + (\u03b4 + [1 \u2212 p(e * )]) < 0. Then it seems that k pulls out of the project if and only if j \"cheats.\"",
+        "cite_spans": [
+          {
+            "start": 405,
+            "end": 418,
+            "text": "Gibbons, 1992",
+            "ref_id": "BIBREF15"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "There is a third possible answer: contract enforcement arises not just because of the lack of observability of e, but because of sovereign immunity. Assume now that e is discrete, the guarantor is a private party, and the private party has made a contract (a CDS) with another private party that if the default event occurs, i.e. e < e * , and k has not pulled out of the contract (abrogated the project), then he must pay an amount Z. Then k's calculus is different. If k observes that j has reneged, his expected return is he does not pull out of the contract is EA \u2212 R + ( + [1 \u2212 p(e * )]) \u2212 Z < 0 for e < e * , where Z is the payment under the CDS. If he does renege his return is zero. Hence, it pays him to renege.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "There is a fourth possibility: assume i and j are in a one-time relationship (and/or i cannot observe e), while j and k are in a repeated relationship (and k can observe e). Then even if e cannot be verified to a third party and/or there is not a court to which j and k are subject to contract enforcement, j will behave well in its relationship to k, because of the value of its ongoing relationship.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Trilateral Contract Design",
+        "sec_num": "4"
+      },
+      {
+        "text": "In this section we illustrate the working of our model for a special case, to wit, one in which most choices are binary. While this is an illustration of what we have already discussed, the example is spelled out fully so as to make it possible for the reader, who skipped over sections 3 -5 to get a gist of the full argument.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "As before, there is a small economy, such as Cyprus, we call it country j that has a potential hydro power project which requires an initial investment of B dollars, which j does not have. It has to borrow it from an international bank. The Bank is willing to lend this only if it can recover B dollars from it. In brief, it is a bank, operating in a competitive environment with access to zero interest credit.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "If the project succeeds it yields a return of X dollars where X > B. However, the success of the project depends on how much effort j puts into the project. If it puts in no effort (option N) the project has a probability p L of being successful. If it puts in effort (option H), the project has a probability p H of succeeding. Of course, p H > p L . The cost, to j, of putting in effort is C.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "The effort that j puts in may be visible to the Bank but not something that the Bank can demonstrate to a third party, like a court. So writing down a contract with an 'effort clause' is pointless. It is also assumed that there is a limited liability clause, whereby j repays the loan only if the project succeeds, because j is not rich enough to repay this in the event of project failure.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "To focus on the interesting case suppose the parameters above are such that the following two conditions hold:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "p H X \u2212 C \u2212 B > p L X \u2212 B > 0 (5) p H (X \u2212 B/p H ) \u2212 C < p L (X \u2212 B/p H )",
+            "eq_num": "(6)"
+          }
+        ],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "Note that (5) means that for society as a whole, the optimum outcome is one in which j takes the loan for the project and puts in effort. However, if (6) is also true, then in the bilateral equilibrium (between j and the Bank), the optimum outcome will not be achieved.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "To understand this note that if j puts in effort, so that the probability of success is p H , then the Bank will ask for B/p H dollars repayment for the loan of B. That way the Bank earns its normal profit, namely, 0. With this is mind it is evident from (6) that if the Bank asks for such a repayment, j will be better off not putting in any effort. Hence, j putting in effort and the Bank lending and asking for a repayment to cover its cost can never occur in equilibrium. In brief, the optimum is not achievable. In equilibrium, j takes the loan of B, offers to pay back B/p L , in the event of the project succeeding and then puts no effort into the project.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "This is where the third nation comes in. Suppose j has close trading and business relation with a large nation, such as Germany, that we shall here refer to as nation k. This country being close to j can also observe the effort that j puts into the hydro power project. 27 In addition, k and j run a joint business venture, which yields a return of A. For the project to yield A both players must participate in it. Hence, both not participating is a Nash equilibrium. If both choose to participate, each has to specify the amount they expect to earn. If these expectations add to A, each gets the expected amount. If the stated expectations add up to a number different from A, they get nothing. Call this the Joint Venture game. It is evident that both players asking amounts that add to A is a Nash equilibrium. To start with, assume that j and k are in a Nash equilibrium in which j gets R and k gets A \u2212 R. Where this equilibrium comes from is not important for our analysis. All we know is that this is a possible equilibrium.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "This business venture can be used as leverage to improve the efficiency of the credit interaction between j and the Bank. Basically, this entails k making the following offer. It tells j to put in effort into the hydro power project for which j borrows money from the Bank. It then says that in case the power project fails, k will repay the debt on behalf of j. Finally, it wants something in return; so it says that it will now pay j less than R (which was the payment earlier) for the joint venture they run. It will instead pay R, where R is defined, implicitly, as follows:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "EQUATION",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "EQUATION",
+            "ref_id": "EQREF",
+            "raw_str": "R \u2212 R = p H (X \u2212 B) \u2212 C \u2212 (p L X \u2212 B) > 0",
+            "eq_num": "(7)"
+          }
+        ],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "Note that j benefits from access to credit at a lower interest rate. The right-hand side of (7) is the gain that j has by virtue of going from the inefficient bilateral equilibrium,",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "where it was earning p L X \u2212 B to the amount it would earn if it took on the offer that k was making. In other words, R is defined such that what it gains from the new terms in the credit market it loses out from the joint business venture. Thus j will be indifferent between not accepting the new contract and accepting it. We use a simple tie breaker assumption that under these circumstances it will take the contract. If the reader feels uncomfortable with this assumption, we could without loss of generality assume that k offers j for the business joint venture $R + \u03b5, where \u03b5 is a small number.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "In addition, k has to make it clear to country j, that if it cheats and puts in no effort, then k will withdraw from the joint venture (and, as we noted before, it is an equilibrium for both to withdraw from the project. This is an equilibrium, since the Bank earns as much as before, country j earns as much as before and k earns a positive amount over and above the earlier income of A \u2212 R, the additional amount being equal to the extra aggregate income generated by moving from the inefficient equilibrium to the efficient outcome. In addition, it is not in the interest of j to cheat and put in less effort.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "To see that this is a subgame perfect equilibrium, assume further that the (expected) returns to the joint project depend on the success of the hydro-electric project, and that if k observes that j has not exerted effort, it pays him to break off from the joint venture (even taking into account the investments he may have already made in the joint project). If j shirks, it gets p L (X \u2212 B), if it does not shirk it gets p H (X \u2212 B) \u2212 C + R. It pays j not to shirk provided the stake is large enough.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "R > C \u2212 (p H \u2212 p L )(X \u2212 B)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "By equation 7, it implies that the following condition for the original stake should be met.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "R > (1 \u2212 p L )B",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "This was the requirement that R be sufficiently large for our solution to work. Since R was an arbitrary initial equilibrium condition, and all we know is that R \u2264 A, basically what we need is that A is sufficiently large, in particular, greater than (1 \u2212 p L )B. In words, the joint venture game must give enough returns for it to be valuable as providing enough leverage to compel country j to be efficient.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "As we remarked earlier, this is not the only way that good behavior can be enforced.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "Assume if j reneges, in the Joint Venture game, j and k go for Nash equilibrium (0, A), that is, one in which j gets nothing and k gets everything. Clearly, this is an equilibrium, and this incentivizes j to behave well. In case we want the Nash equilibrium to be a strict equilibrium (though we do not need this for subgame perfection) we can assume that the punishment Nash equilibrium is ( , A \u2212 ), where is a small positive number.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "An Example: Reviving the Credit Market",
+        "sec_num": "6"
+      },
+      {
+        "text": "This paper is at one level the description of a simple, abstract 3-person game but it is also-and that is what makes it significant-an allegory of many important, real-life problems.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "Could it pay for Germany and U.K. to take on the liability for debts incurred by Cyprus and Slovenia from some international investment banks? This paper shows that the answer is yes and it also illustrates the design of a contract that can achieve this. Such a contract can improve credit flows to Cyprus and Slovenia. Lenders who may have no knowledge of and familiarity with these nations will be willing to lend, knowing that Germany and U.K. will use their standing, trading and other business relations with Cyprus and Slovenia as leverage to make these borrowing nations be more vigilant in the use of the credit and also stand as guarantor of last resort if the project for which money is borrowed fails. The extreme case of this model is that where with the loan guarantee and \"supervision\" there is no risk of default-so that the country giving the guarantee actually bears no risk.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "The risk of default obviously increases with the interest rate charged, and thus the guarantee by itself lowers the risk of default. It is easy to show that in \"moral hazard\" models of the kind described here, where effort e is a function of the interest rate charged, and the interest rate charged is a function of the probability of default, and the probability of default is a function of effort and the interest rate charged, there can be multiple equilibria, i.e. multiple solutions to (2) and (3 ), a low interest rate, low default probability equilibrium and a high interest rate, high default probability equilibrium. 28 The guarantee from government k simply ensures that the good equilibrium (low r, low q) prevails.",
+        "cite_spans": [
+          {
+            "start": 626,
+            "end": 628,
+            "text": "28",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "An easy modification of this model is one where no lending occurs when the interaction is entirely bilateral between the lender and j. This happens when (2) and (3) have no solution.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "This is easy to understand using the diagrammatic depiction of the bilateral equilibrium in Figure 1 . This is compatible with there existing an e for which \u2126(e) > 0, where \u2126(e) is defined as in section 3. From Figure 1 it is obvious that the condition under which this happens (that is, without a third party joint liability the credit market breaks down altogether and with third party joint liability there is an equilibrium with credit flowing to country j) is given by:",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 92,
+            "end": 100,
+            "text": "Figure 1",
+            "ref_id": null
+          },
+          {
+            "start": 211,
+            "end": 219,
+            "text": "Figure 1",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "p (0)(X \u2212 D) \u2264 c < p (0)X",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "In such cases multilateral liability of the kind described in this paper can not only be",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "28 See Greenwald and Stiglitz (2003) .",
+        "cite_spans": [
+          {
+            "start": 7,
+            "end": 36,
+            "text": "Greenwald and Stiglitz (2003)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "used to improve the credit market but to bring to life a credit market that would otherwise be moribund.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "The kind of joint liability contract that can enhance efficiency is however difficult to implement in the Eurozone countries because of restrictions placed by the laws and treaties that bind the European Union, and in particular, the Treaty of Lisbon. Hence, what this paper argued for is the need for amending the Treaty of Lisbon, which would empower the European Central Bank to de factor provide certain guarantees and also permit one nation to stand guarantee for another nation's borrowings directly, instead of using convoluted means which do not work very well and merely create a source for financial intermediaries to earn additional money.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Remark",
+        "sec_num": "7"
+      },
+      {
+        "text": "This is an area where market failures and inefficiencies are common in the best of times(Basu, 1991; Stiglitz, 2002a).2 See in particular Stiglitz (forthcoming).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "In case anybody takes this to go to the other extreme of ignoring evidence while making policy, we should warn against the pitfalls of this by reminding the reader of the most celebrated case of ignoring evidence, namely, Aristotle's steadfast belief that women have blacker blood than men and also fewer teeth, and basing many gendered suggestions on this \"fundamental difference.\" Even if we can understand his misinformation about the color of blood since evidence on that would have been a little harder to collect in those ancient times, it is baffling why he could not ask a sample of fellow Athenians or Macedonians to open their mouths for a quick statistical check of the dental asymmetry hypothesis.4 Countries do not, of course, literally go bankrupt. For a country in crisis imposing taxes to collect the revenues necessary to fund the repayment could impose a level of hardship that is politically unacceptable. Indeed, it might not be physically possible to collect the revenues.5 Of course, the market may well be constrained efficient.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "This particular provision is particularly strange, since it seemingly does not prevent a government from selling bonds to an intermediary (a bank) who might then sell it on (presumably at a commission.) In short, one might view this provision more as a guarantee of income to financial intermediaries rather than a guarantee against sovereigns borrowing from central banks.11 At least, in appearance. See previous footnote.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "This is an example of an information externality, where monitoring by one party conveys information to another. Peer monitoring is but one example.Stiglitz (1992) discusses the benefits of bank monitoring for capital markets(Rey and Stiglitz, 1993).13 Similarly,Stiglitz and Yun (2013) show that co-signing of loans in the context of a period of unemployment can lead to Pareto superior outcomes because of peer monitoring; but they simply assume that the co-signer has the ability and incentive to enforce good behavior, e.g. as a result of family ties.14 A lacuna in that paper, however, is that it is simply assumed that the members of the group can ensure that others behave appropriately, i.e. exert the right level of effort. There is no analysis of the consequences to the members of the group from reneging on their promise to behave well (other than the implicit cost of not being able to get access to future micro-finance. The value of this access is sufficiently high that it is assumed that members of the group will not renege.) More recent literature has formalized this \"value of access\". Still more recently,Haldar and Stiglitz (2013) have argued that good behavior is motivated not just by the value of access, but by the social obligations (\"social capital\") that is built up as part of the lending program. For a more recent discussion of joint liability in lending, seeGhatak and Guinnane (1999).15 There is a related concept in which bank monitoring (not quite a peer) provides information to capital markets, where monitoring is weak. Efficiently capital markets free ride off of banking monitoring in a way similar to the situation here. It is not that the bank guarantees the capital market loan, but cross default clauses/covenants can be designed to exploit the banks superior information and incentives. (SeeStiglitz 1992)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "As Rubinstein (2012, p. 238) argues, \"Most of the players in the economic game have only limited familiarity with the economic game and make plenty of mistakes. . . . \"Most economic players find it difficult to identify economic opportunities and respond to them. This is a problem for supporters of traditional economic thought . . . \"17 See, for instance, 'IMF's Greek apology shows a bankruptcy code is needed,' by Komal Sri-Kumar (Financial Times, June 22, 2013, p. 22).18 It is interesting to see the Economist magazine (June 15-21, 2013, p. 14) refer directly to the \"moral hazard\" problem in the context of Germany and the weaker nations of the Eurozone as the stumbling block",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The question of whether they should be part of a common currency area or a comity of nations with a special pact is another matter with half a century of debate (seeMundell, 1961;Krugman, 2011; Farhi and Werning, 2013). We, however, stay away from that debate here.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Under somewhat more stringent conditions (laid out in the beginning of the next section), it is possible to construct a renegotiation proof equilibrium.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "As we explain below, this is not the only way of enforcing \"good\" behavior. In fact, there are multiple ways of formulating multiple equilibria. In two later sections, we illustrate two alternatives.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "But see fn. 24 above.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "However, as noted in section 5, while this assumption is convenient for exposition, it is not really necessary for country k to be able to observe country j's effort. This makes our result even more robust.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [
+      {
+        "text": "Acknowledgment: For many helpful comments and suggestions we are grateful to Karna Basu, Tito Cordella, Celestin Monga, Tamara McGavock, Luis Serven, Aristomene Varoudakis and, especially, Boyang Zhang.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "acknowledgement",
+        "sec_num": null
+      }
+    ],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "The Economics of Caste, and of the Rat Race and Other Tales of Woe",
+        "authors": [
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Akerlof",
+            "suffix": ""
+          }
+        ],
+        "year": 1976,
+        "venue": "Quarterly, Journal of Economics",
+        "volume": "90",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Akerlof, G. (1976), \"The Economics of Caste, and of the Rat Race and Other Tales of Woe,\" Quarterly, Journal of Economics, vol. 90.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Moral Hazard and Nonmarket Institutions: Dysfunctional Crowding Out or Peer Monitoring",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Arnott",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "American Economic Review",
+        "volume": "81",
+        "issue": "1",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Arnott, R. and Stiglitz, J. (1991), \"Moral Hazard and Nonmarket Institutions: Dysfunctional Crowding Out or Peer Monitoring,\" American Economic Review, vol. 81, No. 1.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "One Kind of Power",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Basu",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "Oxford Economic Papers",
+        "volume": "38",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Basu, K. (1986), \"One Kind of Power,\" Oxford Economic Papers, vol. 38.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "Technological Stagnation, Tenurial Laws and Adverse Selection",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Basu",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "American Economic Review",
+        "volume": "79",
+        "issue": "1",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Basu, K. (1989), \"Technological Stagnation, Tenurial Laws and Adverse Selection,\" Amer- ican Economic Review, vol. 79, No. 1.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "International Debt Problem, Credit Rationing and Loan Pushing",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Basu",
+            "suffix": ""
+          }
+        ],
+        "year": 1991,
+        "venue": "Princeton Studies in International Finance",
+        "volume": "",
+        "issue": "79",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Basu, K. (1991), \"International Debt Problem, Credit Rationing and Loan Pushing,\" Princeton Studies in International Finance, No. 79.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Prelude to Political Economy: A Study of the Social and Political Foundations of Economics",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Basu",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Basu, K. (2000), Prelude to Political Economy: A Study of the Social and Political Foundations of Economics, Oxford University Press, Oxford and New York.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "International Credit and Welfare: A Paradoxical Theorem and Its Policy Implications",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Basu",
+            "suffix": ""
+          },
+          {
+            "first": "H",
+            "middle": [],
+            "last": "Morita",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Collected Papers in Theoretical Economics",
+        "volume": "50",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Basu, K. and Morita, H. (2006), \"International Credit and Welfare: A Paradoxical Theorem and Its Policy Implications,\" European Economic Review, vol.50. Reprinted in Kaushik Basu, Collected Papers in Theoretical Economics, Volume 3, Oxford University Press.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Sovereign Default Risk and Bank Fragility in Financially Integrated Economies",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Bolton",
+            "suffix": ""
+          },
+          {
+            "first": "O",
+            "middle": [],
+            "last": "Jeanne",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "IMF Economic Review",
+        "volume": "59",
+        "issue": "2",
+        "pages": "162--194",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bolton, P. and Jeanne, O. (2011), \"Sovereign Default Risk and Bank Fragility in Financially Integrated Economies,\" IMF Economic Review, Vol 59(2), 162-194.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Sovereign Defaults: The Price of Haircuts",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Cruces",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [
+              "C"
+            ],
+            "last": "Trebesch",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Cruces, J. and Trebesch. C. (2011), \"Sovereign Defaults: The Price of Haircuts,\" Working Paper No. 3604, CESifo.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "The Loan Pushers: The Role of Commercial Banks in the International Debt Crisis",
+        "authors": [
+          {
+            "first": "W",
+            "middle": [],
+            "last": "Darity",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Horn",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Darity, W. and Horn, B. (1986), The Loan Pushers: The Role of Commercial Banks in the International Debt Crisis, Ballinger, Cambridge, MA.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "The Governance of a Fragile Eurozone",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "De Grauwe",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "CEPS",
+        "volume": "",
+        "issue": "346",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "De Grauwe, P. (2011), \"The Governance of a Fragile Eurozone,\" Working Document No. 346, CEPS.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "The European Treaty Amendment for the Creation of the Financial Stability Mechanism",
+        "authors": [
+          {
+            "first": "De",
+            "middle": [],
+            "last": "Witte",
+            "suffix": ""
+          },
+          {
+            "first": "Bruno",
+            "middle": [],
+            "last": "",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "De Witte, Bruno (2011), \"The European Treaty Amendment for the Creation of the Financial Stability Mechanism,\" Stockholm: SIEPS.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Renegotiation in Repeated Games",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Farrell",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Maskin",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "Games and Economic Behavior",
+        "volume": "1",
+        "issue": "4",
+        "pages": "327--360",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Farrell, J. and Maskin, E. (1989), \"Renegotiation in Repeated Games,\" Games and Eco- nomic Behavior 1(4), 327-360.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "The Economics of Lending with Joint Liability: Theory and Practice",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Ghatak",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [],
+            "last": "Guinnane",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "",
+        "volume": "60",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ghatak, M. and Guinnane, T. (1999), \"The Economics of Lending with Joint Liability: Theory and Practice,\" Journal of Development Economics, vol. 60.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Game Theory for Applied Economists",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Gibbons",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Gibbons, R. (1992), Game Theory for Applied Economists, Princeton University Press, Princeton.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Externalities in Economies with Imperfect Information and Incomplete Markets",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Greenwald",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "101",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Greenwald, B. and Stiglitz, J. (1986), \"Externalities in Economies with Imperfect Informa- tion and Incomplete Markets,\" Quarterly Journal of Economics, vol. 101, No. 2.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Fiscal unions",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Farhi",
+            "suffix": ""
+          },
+          {
+            "first": "I",
+            "middle": [],
+            "last": "Werning",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Farhi, E. and Werning, I. (2012), \"Fiscal unions,\" NBER Working Paper 18280.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Analyzing Legal Formality and Informality: Lessons From Land-Titling and Microfinance Programs",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Haldar",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Law and Economic Development with Chinese Characteristics: Institutions for Promoting Development in the Twenty-First Century",
+        "volume": "",
+        "issue": "",
+        "pages": "112--148",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Haldar, A. and Stiglitz, J. (2013), \"Analyzing Legal Formality and Informality: Lessons From Land-Titling and Microfinance Programs,\" in Law and Economic Development with Chinese Characteristics: Institutions for Promoting Development in the Twenty- First Century, David Kennedy and Joseph Stiglitz (eds.), Oxford: Oxford University Press, 2013, pp.112-148.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "A New and Robust Subgame Perfect Equilibrium in a Model of Triadic Power",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Hatlebakk",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Journal of Development Economics",
+        "volume": "68",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hatlebakk, M. (2002), \"A New and Robust Subgame Perfect Equilibrium in a Model of Triadic Power,\" Journal of Development Economics, vol. 68.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Boring Cruel Romantics",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Krugman",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "New York Times",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Krugman, P. (2011), \"Boring Cruel Romantics,\" New York Times, 20 November 2011.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "A Theory of Optimum Currency Areas",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Mundell",
+            "suffix": ""
+          }
+        ],
+        "year": 1961,
+        "venue": "American Economic Review",
+        "volume": "51",
+        "issue": "4",
+        "pages": "657--665",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mundell, R. (1961), \"A Theory of Optimum Currency Areas.\" American Economic Re- view 51(4), 657-665.",
+        "links": null
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Financial Assistance in the Euro Area: An Early Evaluation",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Pisani-Ferry",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Sapir",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Wolff",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Pisani-Ferry, J., Sapir, A. and Wolff, G. (2013), \"Financial Assistance in the Euro Area: An Early Evaluation,\" Bruegel Blueprint.",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Short-term Contracts as A Monitoring Device",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Rey",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 1993,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rey, P. and Stiglitz, J. (1993), \"Short-term Contracts as A Monitoring Device,\" Working Paper No. 4514, NBER.",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Economic Fables",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Rubinstein",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Rubinstein, A. (2012), Economic Fables, Open Book Publishers CIC Ltd., Cambridge, U. K.",
+        "links": null
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "The Sovereign Debt Crisis in Europe, Save Banks Not States",
+        "authors": [
+          {
+            "first": "Hans-Bernd",
+            "middle": [],
+            "last": "Schafer",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "European Journal of Comparative Economics",
+        "volume": "9",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schafer, Hans-Bernd (2012), \"The Sovereign Debt Crisis in Europe, Save Banks Not States,\" European Journal of Comparative Economics, vol. 9.",
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "The Myth of German Hegemony",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Schwarzer",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [
+              "O"
+            ],
+            "last": "Lang",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Schwarzer, D. and Lang, K. O. (2012, October 2), \"The Myth of German Hegemony,\" For- eign Affairs. Retreived July 25, 2013, from http://www.foreignaffairs.com/articles/138162/ daniela-schwarzer-and-kai-olaf-lang/the-myth-of-german-hegemony",
+        "links": null
+      },
+      "BIBREF27": {
+        "ref_id": "b27",
+        "title": "Finance and the Good Society",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "J"
+            ],
+            "last": "Shiller",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Shiller, R. J. (2012), Finance and the Good Society, Princeton University Press, Prince- ton.",
+        "links": null
+      },
+      "BIBREF28": {
+        "ref_id": "b28",
+        "title": "Peer Monitoring and Credit Markets",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 1990,
+        "venue": "World Bank Economic Review",
+        "volume": "4",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Stiglitz, J. (1990), \"Peer Monitoring and Credit Markets,\" World Bank Economic Re- view, vol. 4.",
+        "links": null
+      },
+      "BIBREF29": {
+        "ref_id": "b29",
+        "title": "Banks versus Markets as Mechanisms for Allocating and Coordinating Investment,\" in The Economics of Cooperation: East Asian Development and the Case for Pro-Market Intervention",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "Information and Economic Analysis: Applications to Capital, Labor, and Product Markets",
+        "volume": "II",
+        "issue": "",
+        "pages": "258--272",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Stiglitz, J. (1992) \"Banks versus Markets as Mechanisms for Allocating and Coordinating Investment,\" in The Economics of Cooperation: East Asian Development and the Case for Pro-Market Intervention, J.A. Roumasset and S. Barr (eds.), Westview Press, Boulder, 1992, pp. 15-38. Reprinted in The Selected Works of Joseph E. Stiglitz, Volume II: Information and Economic Analysis: Applications to Capital, Labor, and Product Markets, Oxford: Oxford University Press, 2013, pp. 258-272.",
+        "links": null
+      },
+      "BIBREF30": {
+        "ref_id": "b30",
+        "title": "Globalization and Its Discontents",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Stiglitz, J. (2002), Globalization and Its Discontents, Norton & Co., New York.",
+        "links": null
+      },
+      "BIBREF31": {
+        "ref_id": "b31",
+        "title": "Monetary Policy in a Multipolar World",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Stiglitz, J. (forthcoming) \"Monetary Policy in a Multipolar World,\" forthcoming in the proceedings of the International Economics Association's 2012 Izmir roundtable.",
+        "links": null
+      },
+      "BIBREF32": {
+        "ref_id": "b32",
+        "title": "Optimal Provision of Loans and Insurance against Unemployment from a Lifetime Perspective",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Stiglitz",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Yun",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Stiglitz, J. and Yun, J. (2013), \"Optimal Provision of Loans and Insurance against Unem- ployment from a Lifetime Perspective,\" NBER Working Paper No. 19064.",
+        "links": null
+      },
+      "BIBREF33": {
+        "ref_id": "b33",
+        "title": "Country Solidarity, Private Sector Involvement and the Contagion of Sovereign Crises",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Tirole",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Tirole, J. (2012), \"Country Solidarity, Private Sector Involvement and the Contagion of Sovereign Crises,\" mimeo: Toulouse School of Economics.",
+        "links": null
+      },
+      "BIBREF34": {
+        "ref_id": "b34",
+        "title": "Company Interest and Foreign Aid Policy: Playing Donors Out Against Each Other",
+        "authors": [
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Villanger",
+            "suffix": ""
+          }
+        ],
+        "year": 2005,
+        "venue": "European Economic Review",
+        "volume": "49",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Villanger, E. (2005), \"Company Interest and Foreign Aid Policy: Playing Donors Out Against Each Other,\" European Economic Review, vol. 49.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "type_str": "figure",
+        "fig_num": null,
+        "uris": null,
+        "text": "Eurozone crisis and both Article 123 and Article 125 need amendment. However, our central concern in the present paper is with Article 125 of the Treaty of Lisbon. Monetization of debt by a central bank and one nation taking on the liability (under certain conditions) of another state are two separate matters. What we are, in this paper",
+        "num": null
+      },
+      "FIGREF1": {
+        "type_str": "figure",
+        "fig_num": null,
+        "uris": null,
+        "text": "(\u03c6, \u03c6) is a Nash equilibrium. So is any strategy pair (a, b), such that a + b = A. This is because if j chooses a, then it is best for k to choose b. And no other strategy pair is a Nash equilibrium. The reader may wish to verify that the strategy pair (\u03c6, a), where a is an element of the half open interval [0, A), is not a Nash equilibrium. Assume now that in this Joint Venture game, the outcome that currently occurs is (R, A \u2212 R), where R is an element of the open interval (0, A). So from this game j earns R and k earns A \u2212 R.",
+        "num": null
+      },
+      "TABREF0": {
+        "html": null,
+        "type_str": "table",
+        "text": "). 26 5 Alternative Frameworks for the Third Party Enforcement",
+        "content": "<table/>",
+        "num": null
+      }
+    }
+  }
+}

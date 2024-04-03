@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_01314: First, because our review was based on DSM-IV definitions of the mood and anxiety disorders, we performed a systematic search of the peer-reviewed literature using the Index Medicus and ISI Web of Knowledge databases.\n\ns_01364: The acquisition protocol includes published pulse-sequence design (ie, Alzheimer's Disease Neuroimaging Initiative ADNI-2 T1 and ADNI-3 FLAIR 64 ) and study-specific Diffusion Tensor Imaging (DTI) and resting state functional MRI sequences (supplementary materials 2).\n\ns_01414: At the 95% significance level, the first two leading CEOFs are statistically significant and account for 86.0% of total variance on the time-scale longer than one year, with 66.4% for the first mode and 19.6% for the second mode.\n\ns_01464: At USDA, we also saw a similar gender gap among those who were successful in the initial year but not among those who were rejected; however, the difference largely disappeared when we controlled for other characteristics.\n\ns_01514: Th e inverse modeling or optimization algorithm is well accepted and widely used in calibrations of crop growth models (Liu et al., 1989; Jones and Carberry, 1994; Calmon et al., 1999; Irmak et al., 2000; Gauch et al., 2003; Th orp et al., 2007; Xiong et al., 2008) .\n\ns_01564: Then, the validated CCHE2D-Coast was utilized to simulate hydrodynamic and morphodynamic responses of the engineering plans to a hypothetical storm event containing a 100-year typhoon and a three-month monsoon.\n\ns_01614: The most important geographical sources in terms of imported .\n\ns_01664: Data collection and analysis methods for longitudinal MR imaging studies of brain lesion load and brain atrophy in MS have proved to be of great value, but can be improved.\n\ns_01714: The database is a widely used cancer registry that covers an estimated 27.8% of the US population.\n\ns_01764: The ADNI data contain multi-source measurements: magnetic resonance imaging (MRI), florbetapir-fluorine-18 (AV-45) positron emission tomography (PET) imaging, fludeoxyglucose F 18 (FDG) PET imaging, biosamples, gene expression, and demographic information.\n\ns_01814: Overall, we believe that our hypotheses received some support, especially from the spatial filtering models.\n\ns_01864: The two datasets share a fairly extensive set of common variables describing the background characteristics of sample members.\n\ns_01914: In addition, a new querying system based on the same online Web user interface called INQuery has been implemented for researchers to assist them with their database queries, including selecting different fields from tables and merging data automatically.\n\ns_01964: Specifically, the sample was compared by UK country of residence, gender, ethnicity, economic activity, household composition, age and education level.\n\ns_02014: The database includes a detailed assessment of the intensity and duration of music activities for representative youth cohorts, and a variety of outcomes including school results.\n\ns_02064: It is currently being assessed in clinical trials for COVID-19 treatment (NCT04395456).\n\ns_02114: As noted, different diagnostic criteria and recording methodologies were used in each country.\n\ns_02164: These features motivated us to use this database for this study.\n\ns_02214: underrepresented minorities, in particular.\n\ns_02247: An average of these pons-vermis-referenced ROI mean counts was used to create a single temporoparietal FDG-PET composite measure.\n\ns_02297: Below in Figure 16, typical monthly high tide is mapped, based on modeling but also seen in sea level data at Inwood, Rockaway Inlet, and in prior published work [Swanson and Wilson, 2008].\n\ns_02347: The image set was then averaged, reoriented to a standard 160 3 160 3 96 voxel spatial matrix of resliced 1.5 mm 3 voxels, intensity normalized, and smoothed with an 8-mm full width at half maximum kernel.\n\ns_02397: Journal of Geophysical Research, 99, C6, 12667-12681.\n\ns_02447: Several sensitivity analyses were performed to test the robustness of our findings.\n\ns_02497: The reference ID used to call variants in the COG samples was England/LOND-D51C5/2020 from week 16."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7TVS5z1P9BR0BSzt73Uhi0wD6c2",
+    "object": "chat.completion",
+    "created": 1682884697,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1220,
+      "completion_tokens": 192,
+      "total_tokens": 1412
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_01364\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative ADNI-2 T1 and ADNI-3 FLAIR 64\"}, {\"sent_id\": \"s_01764\", \"data_mentioned\": true, \"reason\": \"ADNI data\"}, {\"sent_id\": \"s_02014\", \"data_mentioned\": true, \"reason\": \"detailed assessment of the intensity and duration of music activities\"}, {\"sent_id\": \"s_02064\", \"data_mentioned\": true, \"reason\": \"NCT04395456\"}, {\"sent_id\": \"s_02214\", \"data_mentioned\": true, \"reason\": \"underrepresented minorities\"}, {\"sent_id\": \"s_02297\", \"data_mentioned\": true, \"reason\": \"prior published work [Swanson and Wilson, 2008]\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_01364\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative ADNI-2 T1 and ADNI-3 FLAIR 64\"}, {\"sent_id\": \"s_01764\", \"data_mentioned\": true, \"reason\": \"ADNI data\"}, {\"sent_id\": \"s_02014\", \"data_mentioned\": true, \"reason\": \"detailed assessment of the intensity and duration of music activities\"}, {\"sent_id\": \"s_02064\", \"data_mentioned\": true, \"reason\": \"NCT04395456\"}, {\"sent_id\": \"s_02214\", \"data_mentioned\": true, \"reason\": \"underrepresented minorities\"}, {\"sent_id\": \"s_02297\", \"data_mentioned\": true, \"reason\": \"prior published work [Swanson and Wilson, 2008]\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02988: A sample size calculator (Google Apps) was used to determine the size of a representative sample to ensure the quality and reliability of the experiment results.\n\ns_03038: The validity of acquisition and processing was estimated detecting: signal-to-noise ratio and contrast-to-noise ratios; quality control pass; comparability of craniometric features (intracranial volume) across scanners; and known-group validity of brain structural features (hippocampal volume).\n\ns_03088: 1 To estimate the functional relationships we estimate a binary logistic model where the dependent variable takes a value equal to one if the farm operator reports in the ARMS survey participation in conservation programs, recreation or agritourism activities, zero otherwise Past studies provide references to factors that affect the adoption of best environmental practices or participation in conservation programs for the U.S. (see for example Caswell et al., 2001;Lambert et al., 2007;Prokopy et al., 2008;Chang and Boisvert, 2009).\n\ns_03138: Our data consisting of transcripts of open village meetings, gram sabhas, empowered by the Indian constitution to make important decisions for the village, linked with household-level preferences, enable us to examine the relationship between individual preferences and the preferences that emerge during deliberations.\n\ns_03188: See, for example,Subbarao (2003).20 Recent reports indicate that Saudi Arabia, Egypt, Iran, China, Russia, Jordan, Mozambique, Morocco, and Malawi are among the countries placing grain in national reserves.\n\ns_03238: Evidence related to the second result has been documented by Harrigan and Zakrajsek [18] .\n\ns_03288: For further details, seeFTSE (2006).\n\ns_03338: 8 Data from the World Development Indicators was included for GDP and population and for variables included in the regressions for robustness checks.\n\ns_03388: These data suggest that 'information revolution' sectors-both as inputs embodying high technology and production activity-are no longer marginal in CEEC-10 economies.\n\ns_03438: 18 The main focus of this paper has been to assess the impact of tangible sunk costs on \u2026rm size dispersion.\n\ns_03488: The workhorse median regression cross-sectional model regresses the financial indicator of interest on: GDP per capita (squared), population size and density, fuel exporter dummy, age dependency ratio, offshore financial center dummy, transition country dummy, and year-fixed effects.\n\ns_03538: 0.029 0.219 0.024 -0.048 Notes -*** p<0.01, ** p<0.05, * p<0.00.\n\ns_03588: Finally we control for the log of the number of banks in the sample, since correlation may be mechanically linked to the number of cross-sectional observations (Morck 2000).\n\ns_03638: On the other hand, Dunaway, Leigh, and Li (2006) argue that all estimates of renminbi undervaluation are very sensitive to underlying assumptions about models and parameters and therefore not reliable.\n\ns_03688: Exhaustive reviews of the literature show that while some authors find negative or zero returns, many find a high impact of infrastructure on growth.\n\ns_03738: For the countries we have examined, Table 8 shows measures of access to justice (cases per 10 million in the countries in our sample); the win rates of for litigants in health and education rights cases; the extent to which the executive branch usually implements social and economic rights rulings, as observed by the analysts in the Gauri and Brinks volume, and our indicator variable for the breadth of applicability of court rulings.\n\ns_03788: S pecification .2 3 4 5 6 Original Table 2  Table 2  Table 2  Table 4  Table 5  Tasle\n\ns_03838: Revisit dataset (Panel B) constructed by first randomly choosing 2/3 of households surveyed at baseline and then randomly choosing either husband or wife within household.\n\ns_03888: The estimated annual cost of urban air pollution health effects is presented in Table 3 .4.\n\ns_03938: (2006) , who use a similar specification, test the presence of an endogeneity problem by applying a 2-Stage Least Squares (2SLS) approach and calculating Hausman Chisquare test statistics.\n\ns_03988: Change Project (MDICP) dataset, a rich longitudinal dataset collected in rural areas of three dierent districts of the country.\n\ns_04038: some theory Rather than groping in the dark for empirical regularities in the data, it is useful to explore theses questions with the help of a simple stylized model ) that captures the essential factors accounting for the link between health and income.\n\ns_04088: The World Bank publicized the benefits of multi-pillar pension systems for developing countries in the 1990s both through the publication and dissemination of a policy research report (World Bank 1994) and through its operational work around the world (Holzmann 2000) .\n\ns_04138: Based on the matched SDC-Orbis data set, in China, 425 firms are equity users, 195 are bond users, and 1,915 are non-users; in India, those numbers are 727, 291, and 3,428, respectively.\n\ns_04188: Finally, it can readily be established that an increase in the volatility of aggregate productivity shocks-which can be captured in the present setting by treating 3 as a uniformly distributed random disturbance-leads to a proposition similar to the one above, as can be inferred from the results in ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7NPSpVr2xF6ChKrsnPrgMaRvNby",
+    "object": "chat.completion",
+    "created": 1682884319,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1459,
+      "completion_tokens": 28,
+      "total_tokens": 1487
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03988\", \"data_mentioned\": true, \"reason\": \"MDICP dataset\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03988\", \"data_mentioned\": true, \"reason\": \"MDICP dataset\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

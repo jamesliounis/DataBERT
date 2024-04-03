@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04434: The first is very recent literature which examines how migrants respond to changes in information asymmetry and to the opportunity to exert more control over how remittances are used.\n\ns_04484: 17 To examine which of these explanations has the most support from the data, we ran a regression of the extent of wage cuts on the level of competition, with controls for country, sector, employee characteristics and firm size.\n\ns_04534: (2009) use alternative metrics which we will discuss below.\n\ns_04584: The sample period covers 1970-2011.\n\ns_04634: In a study in Bangladesh, Anwar et al.\n\ns_04684: In column 1of Table 4 , for reference, we reproduce the estimates reported in column (5) of Table 3 .\n\ns_04734: While assessing the extent to which the results found here carry over to other settings, including in North Indian states would be of interest.\n\ns_04784: Finally we again use the SES data and the calculations of Jeong (1999) to determine the fraction of the population which has access to intermediated, credit and savings markets, i.e., that reside in the credit sector 43 .\n\ns_04834: Combined with the government spending variables the sample spans from 2001 to 2009 covering 50 individual countries for a total of around 650,000 observations.\n\ns_04884: Therefore, the infrastructure variables are likely to be endogenous in our data.\n\ns_04934: This number is somewhat higher than Easterly and Rebelo's (1993) finding that developing countries in the 1980s were spending about a quarter of their infrastructure investments on the power sector.\n\ns_04984: As discussed in the literature, there are also benefits to estimating regressions with data averaged for five-year periods: lag structure becomes less important, outliers are less of a concern because they are averaged out, and,\n\ns_05034: 6 The results of these mean comparisons across key export promotion variables are provided in Table 6 .\n\ns_05084: Table 2 , in the annex, presents the full set of relationships between nutrition and children's background.\n\ns_05134: Next, I move on to the robustness of findings in section 3.2 in which the model was used to solve for required investment share of GDP to deliver the chosen path of GDP growth.\n\ns_05184: This specification controls for characteristics potentially correlated with health insurance demand and healthcare utilization, all collected at the baseline.\n\ns_05234: To be able to provide a broad picture of the operational and policy implications of institutional weaknesses in the sector, this paper is organized as follows.\n\ns_05284: This paper shows that three formulae appear promising for the purpose of establishing an improved formula-driven interstate and intrastate allocation: i) uniform per student formula: simplest and most transparent; rewards enrollment, but does not explicitly address differential needs of states.\n\ns_05334: In this paper, not only did we expand this exercise with updated data, but also we tested new hypotheses to have a more complete characterization on the effects of sovereign rating changes.\n\ns_05384: Second, the approach relies on a structural model estimated from the baseline survey.\n\ns_05434: (2001) and Yeaple (2003) .\n\ns_05484: For example, the ACE Project's comparative data set analyzes registration systems adopted worldwide and relates them to government performance under three criteria: currency, accurateness, and completeness (ACE: The Electoral Knowledge Network 2013).\n\ns_05534: As seen in Table 10 , the estimated coefficients associated with internet use and exports have in general the same signs as those of Table 5 , although the latter are no longer statistically significant.\n\ns_05584: Given the myriad of data that is required to carry out a detailed analysis at each WWTP site, we instead adopt two readily available measures to provide a proxy for estimating asset damage.\n\ns_05634: 2009 , Case y Paxon (2008 ) y Persico et."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7JoJp7wOSXRS04IBt11NCM9GHAu",
+    "object": "chat.completion",
+    "created": 1682884096,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1100,
+      "completion_tokens": 89,
+      "total_tokens": 1189
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05434\", \"data_mentioned\": true, \"reason\": \"ACE Project's comparative data set\"}, {\"sent_id\": \"s_05534\", \"data_mentioned\": true, \"reason\": \"Table 10\"}, {\"sent_id\": \"s_05634\", \"data_mentioned\": true, \"reason\": \"Case y Paxon (2008 ) y Persico et.\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05434\", \"data_mentioned\": true, \"reason\": \"ACE Project's comparative data set\"}, {\"sent_id\": \"s_05534\", \"data_mentioned\": true, \"reason\": \"Table 10\"}, {\"sent_id\": \"s_05634\", \"data_mentioned\": true, \"reason\": \"Case y Paxon (2008 ) y Persico et.\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

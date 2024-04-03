@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04114: To some extent, this pattern is explained by the matching contribution made by employers, which is often made in company stock rather than cash.\n\ns_04164: The differences in the density functions between equity or bond users and non-users in both China and India are all statistically significant according to the Kolmogorov-Smirnov tests ( Figure 5 , bottom panel).\n\ns_04214: The reason is that the cost of credit depends on expected verification and enforcement costs, which in turn depend on the probability of default; for D less D that probability is zero and thus the level of initial debt has no effect on the cost of credit, as can be inferred from (12).\n\ns_04264: In Figure 1 , the horizontal axis represents the effort, e, put in by the borrowing country.\n\ns_04314: Granger's (1969) causality test investigates whether lags of have explanatory power in forecasting (and vice versa), i.e.\n\ns_04364: The results of this analysis are equivalent to the conditional logit model presented in Section II.\n\ns_04414: Section 4 presents our econometric specification and data.\n\ns_04464: Next we examine whether the responsiveness of migrants to the ability to label remittances for education or to be able to directly pay the school varies with the information the most closely\n\ns_04514: Each panel includes a different set of regressions.\n\ns_04564: First is its systematic application in a consistent manner across a range of countries as done for Latin America in de Barros et al.\n\ns_04614: Therefore, Y and We then follow AG (2012) and compute non-linear \u2026scal multipliers in economic expansions and recessions for OECD countries (Sections 3.2 and 4).\n\ns_04664: In order to do so, a simple logistic model, linear in the parameters \u03b2, where the event I corresponds to \"whether a blood sample taken from the mother during pregnancy\" and C is the set of circumstances.\n\ns_04714: A comparison of columns (3) and (6) or columns (6) and (9) suggests that the overall positive effects of SFD or DFD on the relative volume of FDI in more financially vulnerable sectors mainly operate through an increase in the average size of FDI projects, with a smaller positive influence on the number of FDI projects.\n\ns_04764: where represents the outcome variable of interest as discussed above 7 , is a household-level fixed effect that controls for any time-invariant characteristics of generation II households.\n\ns_04814: The mterested reader will find a more detailed explanation inJeong (1999).\n\ns_04864: This is also repeated in column 1 of table 4\n\ns_04914: Second, the power cost may not have much variation in the spatial dimension, regardless of the differences observed in our variable.\n\ns_04964: Note finally, that for most types of infrastructure, the difference in access between poor and rich countries is much less than the difference in income (estimated here at about 63: 1.\n\ns_05014: The regressions reported in this section build on Equation (1) and can be grouped in three categories.\n\ns_05064: And not only the share of exporters is higher among firms using export promotion services, but the increase in the share of exporters is larger for the sample of firms that used export promotion services, as indicated by the differences-in-differences test in the last column of Table 1 .\n\ns_05114: Regression analyses are used to estimate how a particular circumstance-for instance, mother's education-is related to an outcome while taking account of other characteristics such as household wealth.\n\ns_05164: A host of papers have found evidence of productivity growth in the aftermath of trade competition.\n\ns_05214: Regressions control for household size, household size squared, the inverse hyperbolic sine of parental income, parent's years of education, gender, whether the parent was sick in the past year, the number of times sick, total number of health visits, and survey round and market fixed effects.\n\ns_05264: A recent paper by Mande Bafua (2015) relies on a production frontier to analyze the impact of reforms in SSA.\n\ns_05314: The simulation results presented in Table 3 clearly show that like the other formulae, Formula III would also improve equity."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7ePqxuHqoPTix8G3jimMSf7d3eX",
+    "object": "chat.completion",
+    "created": 1682885373,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1169,
+      "completion_tokens": 101,
+      "total_tokens": 1270
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05264\", \"data_mentioned\": true, \"reason\": \"SSA\"}] \n\nThe only sentence that mentions a dataset clearly and unambiguously is s_05264, which refers to a paper by Mande Bafua (2015) that analyzes the impact of reforms in SSA (Sub-Saharan Africa). Therefore, the output includes this sentence with \"data_mentioned\" set to true and \"reason\" filled in with \"SSA\"."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05264\", \"data_mentioned\": true, \"reason\": \"SSA\"}] \n\nThe only sentence that mentions a dataset clearly and unambiguously is s_05264, which refers to a paper by Mande Bafua (2015) that analyzes the impact of reforms in SSA (Sub-Saharan Africa). Therefore, the output includes this sentence with \"data_mentioned\" set to true and \"reason\" filled in with \"SSA\".",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

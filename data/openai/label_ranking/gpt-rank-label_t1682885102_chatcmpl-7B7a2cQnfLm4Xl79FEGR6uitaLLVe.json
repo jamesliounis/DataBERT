@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_00036: The current challenge for both the ASD community and the bioinformatics community is to see if the curated heterogeneous data that were not originally measured with the thought of deposition into a database will allow new hypotheses to be generated.\n\ns_00086: Figure 1 also shows that levels of academic achievement/preparedness, as measured by MCAT scores, vary substantially among MD-PhD program enrollees and, importantly, the benefit of LRAs is evident across a wide range of MCAT scores.\n\ns_00136: Descriptive analyses compared means for all variables for teenage fathers versus adult fathers, while accounting for weighting and complex survey design using Stata statistical software.\n\ns_00186: To our knowledge, it is the first method to use deep learning specifically tailored to registering clinical images.\n\ns_00236: impact is evident in the total estimates.\n\ns_00283: The diagnosis of MCI was made in congruence with the most recent recommendations and has been described elsewhere [14, 37] .\n\ns_00333: 12, 25, 33, 38, 49, 148, 154 Evidence coming from randomized trials in men older than 60 y is, in fact, still lacking and future large, prospective studies are required and worthwhile.\n\ns_00383: Other assumptions regarding percent reductions in water use and regional adoption rates were used to test the sensitivity of results.\n\ns_00433: While MR data is generally available for most of the ongoing neuroimaging studies, quantification methods that does not require MR [37] [38] [39] have their advantages and warrant further investigation.\n\ns_00483: As can be seen in Table 6 , Korean students had higher guessing parameter estimates and lower slipping parameter estimates than Turkish students for most of the items.\n\ns_00533: We estimated a species distribution model (SDM) for each waterbird species, relating BBS occurrence records to climate, and wetland and upland land cover (hereafter grouped as ''land cover'') predictor variables.\n\ns_00583: That initiative, a 12-year public-private partnership, was begun in 2013 and aims to provide the new tools and technologies needed to accelerate understanding of normal and abnormal brain structure and function.\n\ns_00633: is of utmost importance (5).\n\ns_00675: In our model domain 6396 temperature and 2219 salinity profiles have been available.\n\ns_00725: Field studies con-Experimental plot studies employ other inputs to ducted on individual crops (Oshima et al., 1976 ; maximize yields for given levels of pollution.\n\ns_00775: These models allow for a comparison of the magnitude of race/ethnicity and gender gaps in science to those in mathematics and reading.\n\ns_00825: The emergent themes and sub-themes are presented in Table 1 .\n\ns_00875: Tree-nesting Ferruginous Hawks seem to be less sensitive to surrounding land use, but they still avoid areas of intensive agriculture or high human disturbance (Howard and Wolfe, 1976; Gilmer and Stewart, 1983; Schmutz, 1984 Schmutz, , 1987 Schmutz, , 1991a Bechard and others, 1990; Hansen, 1994; Faanes and Lingle, 1995) , except perhaps where human-related disturbances increase prey abundance (Schmutz, 1989; De Smet and Conrad, 1991; Zelenak and Rotella, 1997; Keough and Conover, 2012) .\n\ns_00925: Experimental results have demonstrated that the proposed method could achieve improved prediction performance.\n\ns_00975: The same feature has been observed in a similar analysis of the effect on SSHA of the passage of hurricanes in the Tropics (Supplementary Information in ), but to our knowledge no explanation has been given yet.\n\ns_01025: To obtain an efficient design, it is necessary to be able to simulate propellant behaviour and propellant management systems using fast engineering methods (CPU time in order of seconds, maximum a few minutes).\n\ns_01075: Baek and Hong (2004) defined life-cycles not only by considering age but also by incorporating marital status, employment status, and the presence of children.\n\ns_01125: If there was evidence for moderation, we interpreted the interaction by calculating the predicted outcome scores for different combinations of classroom age composition and the moderator, using standard deviation cut points.\n\ns_01175: 2011), which will ultimately be useful for storm surge model initial conditions.\n\ns_01225: Such results indicate that investigators should consider prospectively stratifying trials based on cognitive severity rather than enriching based on initial cognitive severity when attempting to improve AD trial design."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7a2cQnfLm4Xl79FEGR6uitaLLVe",
+    "object": "chat.completion",
+    "created": 1682885102,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1244,
+      "completion_tokens": 178,
+      "total_tokens": 1422
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_00136\", \"data_mentioned\": true, \"reason\": \"Stata\"}, {\"sent_id\": \"s_00433\", \"data_mentioned\": true, \"reason\": \"MR\"}, {\"sent_id\": \"s_00533\", \"data_mentioned\": true, \"reason\": \"BBS\"}, {\"sent_id\": \"s_00825\", \"data_mentioned\": true, \"reason\": \"Table 1\"}] \n\nExplanation: \n- s_00136 mentions the software Stata used for statistical analysis.\n- s_00433 mentions MR data, which is a dataset used in neuroimaging studies.\n- s_00533 mentions the BBS dataset used for estimating species distribution models.\n- s_00825 mentions a table (Table 1) which presumably contains data related to the paper's topic."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_00136\", \"data_mentioned\": true, \"reason\": \"Stata\"}, {\"sent_id\": \"s_00433\", \"data_mentioned\": true, \"reason\": \"MR\"}, {\"sent_id\": \"s_00533\", \"data_mentioned\": true, \"reason\": \"BBS\"}, {\"sent_id\": \"s_00825\", \"data_mentioned\": true, \"reason\": \"Table 1\"}] \n\nExplanation: \n- s_00136 mentions the software Stata used for statistical analysis.\n- s_00433 mentions MR data, which is a dataset used in neuroimaging studies.\n- s_00533 mentions the BBS dataset used for estimating species distribution models.\n- s_00825 mentions a table (Table 1) which presumably contains data related to the paper's topic.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03625: This section relies on joint research with Francis Ng.\n\ns_03675: As a result, 29 Simulations on infrastructure spending in this paper use the findings of a recent study that used panel data for 88 countries to determine that output rises by 0.8 percent for each 10 percent increase in infrastructure stock (Calder\u00f3n, Moral-Benito, and Serv\u00e9n 2011) .\n\ns_03725: We summarize our calculations (described more fully in the Appendix available from the authors) in the following table.\n\ns_03775: Including a lagged depende-it variable in the various specifications fixes this problem as evidenced by Durbin and Watson d statistics close to 2.00 or the results of our robust test for serial correlation (see Table 2 ).\n\ns_03825: See, e.g., Platteau, 2000; Maranz, 2001; Anderson and Baland 2002; Ligon, Thomas, and Worall, 2002; Hoff and Sen, 2006;Baland, Guirkinger and Mali, 2011; Jakiela and Ozier, 2011.\n\ns_03875: The results are summarized in Figures 2.1 and 2.2 and in Table 2 .1.\n\ns_03925: When we compare these new results with the ones reported in Table 1 of Le, Moreno-Dodson, and Rojchaichaninthorn (2008) , it can be seen that the number of observations increased from 884 (covering the period of [1994] [1995] [1996] [1997] [1998] [1999] [2000] [2001] [2002] [2003] to 1322 (covering the period of 1994-2009); corresponding to an almost 50 percent increase.\n\ns_03975: 16 Attanasio (2009) and Delavande et al.\n\ns_04025: Source: Bhuiya and others (2001) .\n\ns_04075: As '9 The empirical evidence has been compiled by Gregorio Impavido and Alberto Musalem in a series of papers (Catalan et 2001, Impavido and Musalem 2000) .\n\ns_04125: See, for example, Liang (2005) , Chen (2006) , Zhang et al.\n\ns_04175: (1986) and Helpman (1989a) .\n\ns_04225: (Arnott and Stiglitz, 1991) .\n\ns_04275: Corresponding studies for other major OECD countries by Mork et al.\n\ns_04325: The rest of the paper is organized as follows.\n\ns_04375: Detailed results are available from the authors.\n\ns_04425: Cox- Edwards and Ureta, 2003, Yang, 2008) .\n\ns_04475: Messina and R\u00f5\u00f5m (2012) use data from a survey that covers the recent downturn for a sub-sample of the firms surveyed here and show that wage cuts remained rare.\n\ns_04525: The plan of the paper is as follows.\n\ns_04575: In all of our regression analysis, we use robust Driscoll and Kraay (1998) standard errors to correct for potential heteroskedasticity, autocorrelation in the lags, and error correlation across panels.\n\ns_04625: We use data from Demographic and Health Survey (DHS) and the Household Income, Expenditure and Consumption Survey (HIECS) over time.\n\ns_04675: (2009) , Coeurdacier et al.\n\ns_04725: To analyze effects of inheritance reform, we use data from a 2011 follow up to the 2007 Rural Economic and Demographic Survey (REDS) conducted by India's National Council for Applied Economic Research (NCAER) in Maharashtra, Uttar Pradesh and Orissa.\n\ns_04775: The sample size in each cross section: 11,362 in 1976, 11,882 in 1981, 10,897 in 1986, 11,046 in 1988, 13 ,177 in 1990, 13,459 in 1992, 25,208 in 1994 and 25,110 in 1996.\n\ns_04825: The individual level data (approximately 650,000 usable observations) are generated through surveys which enabled the production of stratified samples, drawn from the data which correspond to the whole working age population in each participating country."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B77DWBRmKrDFcbZqojfY9XU81ZLE",
+    "object": "chat.completion",
+    "created": 1682883315,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1224,
+      "completion_tokens": 83,
+      "total_tokens": 1307
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04625\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_04725\", \"data_mentioned\": true, \"reason\": \"Rural Economic and Demographic Survey (REDS)\"}, {\"sent_id\": \"s_04825\", \"data_mentioned\": true, \"reason\": \"surveys\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04625\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_04725\", \"data_mentioned\": true, \"reason\": \"Rural Economic and Demographic Survey (REDS)\"}, {\"sent_id\": \"s_04825\", \"data_mentioned\": true, \"reason\": \"surveys\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03037: This technique has been widely validated against manual tracings in healthy individuals and patients with neurologic diseases [20, 23] .\n\ns_03087: We suspect that this sample size problem also rolled over to the individual variables.\n\ns_03137: First (columns (1) and 2 Next, we look at the e\u00a4ect of political reservations (columns (3) and (4)).\n\ns_03187: SeeBobenrieth, Bobenrieth and Wright (2004).\n\ns_03237: To assess if the data supports our theory, we compare the positions countries occupy in the net exports and relative factor endowments distributions.\n\ns_03287: The results indicate that in all cases, banks with higher wholesale dependence reduced loans by more than banks with lower dependence, and except for the specification focusing on the growth of the loan to asset ratio (Column 3), the coefficient \uf067 is statistically significant at conventional levels.\n\ns_03337: The data imposes one single factor in each procedure of the second stage, according to an iterative standard procedure (see for instanceRayment and Joreskog (1996)).\n\ns_03387: 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 1998 Larger number of CEEC has the values of 'import' RCA for components and parts exceeding unity that usually indicates participation in transborder production chains as well as the existence of assembly operations in a country.\n\ns_03437: 8 We also \u2026nd highly statistically signi\u2026cant relationships in the 1987 and 1992 cross-sections.\n\ns_03487: The paper then explores possible reasons underlying the gaps in FD that emerge relative to the benchmarks obtained from the cross-section paths.\n\ns_03537: We use data from 1991-95 to predict the capital stock based on output, investment, material inputs, labor usage, ownership characteristics, whether or not the firm exports, province and lagged capital.\n\ns_03587: The results from the empirical model in equation (8) are reported in Table 6 .\n\ns_03637: Fink and Molinuevo (2008) and Marchetti and Roy (2008) have shown that these agreements typically involve wider and deeper commitments than those which countries have made under the General Agreement on Trade in Services (GATS) at the WTO.\n\ns_03687: Using a neoclassical model, Baxter and King (1993) find dramatic effects of public investment on output.\n\ns_03737: Classifications of effects into direct and indirect, material and symbolic, and so on, can be found in Rosenberg (1991 ), McCann (1994 , and Rodriguez Garavito (2009), as well as Gauri and Brinks (2008) .\n\ns_03787: Specification 1 2 3 4 5 6 Original Table 2  Table 2  Table 4  Table 4  Table 5 As a robustness check, this table reports the estimation results for major specifications with weekly data.\n\ns_03837: To investigate these issues, we implemented a lab-in-the-field experiment that takes revision of a previous decision as the key dependent variable of interest.\n\ns_03887: In this study, financial costs have been used for a significant part of the analysis, but with social costs being reported wherever these could be obtained or estimated.\n\ns_03937: See the country classification section of the paper for the list of countries, which have changed their tax-effort and tax-collection locations with the extended time period analysis(1994-2003 versus 1994-2008).22 This fact has been also emphasized in andGupta (2007).\n\ns_03987: The data contain extensive information on more than 4,000 individuals at the individual and household level.\n\ns_04037: The dataset on socioeconomic inequalities in child health includes three measures-mortality, malnutrition (measured by anthropometric scores (Alderman 2000) ), and prevalence of disease.\n\ns_04087: In the two countries mentioned, contributions were collected but individual records were deficient so that a substantial proportion of collected funds remained unallocated two years or more after the introduction of the new system.\n\ns_04137: This table reports the quantile and mean regressions of total assets on a constant, a dummy variable for 2010, a dummy variable for issuing firms, and an interaction term with these two dummies.\n\ns_04187: In the lower panel, the relation between optimal employment and initial debt becomes also steeper beyond the threshold value D; the new optimal value of employment is determined at point E\", and is lower than fih, as established in Proposition 1."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7MZB6BLSoIcGEitG8s5LaBy370k",
+    "object": "chat.completion",
+    "created": 1682884267,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1276,
+      "completion_tokens": 49,
+      "total_tokens": 1325
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04037\", \"data_mentioned\": true, \"reason\": \"dataset on socioeconomic inequalities in child health\"}] \n\nThe sentence s_04037 explicitly mentions a dataset on socioeconomic inequalities in child health."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04037\", \"data_mentioned\": true, \"reason\": \"dataset on socioeconomic inequalities in child health\"}] \n\nThe sentence s_04037 explicitly mentions a dataset on socioeconomic inequalities in child health.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03652: According to Borchert, Gootiz and Mattoo (2011), China's services sector policies are more restrictive than the average level of restrictiveness of low and middle income countries and much more so than those of the high income countries in all sectors except transport (Figure 4 ).\n\ns_03702: Not surprisingly, identifying the right projects often requires significant resources aimed at project selection and preparation.\n\ns_03752: Chicago and London, University of Chicago Press..\n\ns_03802: As before (see Table 4 ), levels of the explanatory variables perform better than their differences with the exception of the rating variable KRR and the Kepco spread KORELES (Table 6, specifications and 2 vs. 3 or 4).\n\ns_03852: The paper makes two contributions.\n\ns_03902: The estimated costs associated with the impacts identified above are given in Table 4 .3.\n\ns_03952: Since the data for the size of shadow economy are limited, the total number of observations drops to 840 from 1322.\n\ns_04002: Model parameters are estimated by maximum likelihood with longitudinal data from the Malawi Diffusion and Ideational Change Project, which contain family rosters, information on HIV testing, and measures of subjective beliefs about own HIV status.\n\ns_04052: A PCA was undertaken on the full sample for each country separately, and the first principal component was retained and used to rank households and thereby children.\n\ns_04102: Such an approach is successfully applied in the case of the Thrift Savings Plan for the Federal Employees Retirement System in the United States.\n\ns_04152: The top and the bottom 1 percent of the observations for each dependent variable are excluded from the sample in this This table reports the panel regressions of firm attributes on a three-year window around (non-IPO) capital raising issues that took place between 2003 and 2011.\n\ns_04202: where e*, the threshold level of productivity associated with partial default on the new debt, is determined by rewriting (6), using (11), as\n\ns_04252: The aim of this paper is to outline new strategies that can make international lending across nations that are inter-connected, such as the current European Union nations, more efficient and robust.\n\ns_04302: In Table 11 the column FF(%) indicates the hypothesized share of fossil fuels.\n\ns_04352: The penultimate row of Table 4 presents the p-value from a test of the null hypothesis that the percentage increase in expenditure per pupil on private primary schools is no greater than the percentage increase in expenditure on private secondary schools:\n\ns_04402: These columns test for the effect of deeper integration with the introduction of the dummies described in the previous section.\n\ns_04452: This contrasts with the finding of Ambler (2013), but this difference is not statistically significant, and for none of the outcomes can we reject equality of means for the basic, no-label, choice across the different information treatments.\n\ns_04502: Indeed, our data show that there is a negative correlation between wage cuts across countries and the percentage of workers covered by collective agreements (see also Figure 1 below).\n\ns_04552: He addresses the question of how exactly to calibrate the effort of an individual, and argues that the rank of an individual in the effort distribution across individuals with the same circumstances should be the relevant metric.\n\ns_04602: From a technical standpoint, dividing the classical SVAR regression samples into expansions and recessions could severely compromise the number of observations used in the analysis as well as miss inherent non-linearities in the economy's response to \u2026scal stimulus.\n\ns_04652: The Shapley decomposition reveals that regional variables explain the largest share of the variations in access to improved water at home and in whether the child is registered.\n\ns_04702: By using first the disaggregated M&A FDI and then collapsing them in the same way as we have done for the greenfield FDI data, we will show that the aggregation of sectors is not exerting a major influence on our qualitative results.\n\ns_04752: Although lack of information on generation II siblings makes use of household fixed effects impossible, resulting in estimates that are less robust than those discussed above, evidence of significant first-generation effects associated with the HSAA supports the hypothesis of 'first-generation' effects on generation II underpinning the second-generation HSAA effects discussed earlier.\n\ns_04802: As an example, the business cycles literature has focused on models that are able to generate plausible co-movements of certain aggregate variables with output.\n\ns_04852: It is important to note the large drop in the number of observations for the infrastructure spending estimation results and therefore the findings should be taken with a grain of salt."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7WYi0D74KNWusU6XsjOIATTAtwl",
+    "object": "chat.completion",
+    "created": 1682884886,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 33,
+      "total_tokens": 1275
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04002\", \"data_mentioned\": true, \"reason\": \"Malawi Diffusion and Ideational Change Project\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04002\", \"data_mentioned\": true, \"reason\": \"Malawi Diffusion and Ideational Change Project\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

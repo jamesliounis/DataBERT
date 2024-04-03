@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07404: The problem of omitted variables seems to be present in some studies By using only lagged lsSome of the variables are wNTongly signed for diverse reasons.\n\ns_07454: The previous results for the high group suggest that a crowding-out effect occurs between total grants and other sources of funds, as mentioned earlier.\n\ns_07504: 30 ISSA (1990), pages 66-67.\n\ns_07554: (World Bank, processed 1993).\n\ns_07604: These data conta a number of improbable items: can we believe, for example, that energy productivity in food processing rose by 27.3 percent during 1984/85, or that energy productivity in machine-building rose by 21.1 percent in the same year?\n\ns_07654: A less well-reserved bank, or a bank in a country where reserves are considered part of capital may conclude that the costs of participating in a debt workout/new money package is less than the cost of having to write down loans and reduce regulatory capital.\n\ns_07704: in the mid-1980's (Beenhakker and Bruzelius, 1985, p. 2\n\ns_07754: In addition, because of data limitations, we tend to use fairly simple equations for estimLtion.\n\ns_07804: Statistical tests of the extent of curvature relative to the distance of the estimated model from the dependent variable can be performed and the significance of deviations from linearity can be assessed (see Bates and Watts 1980) .\n\ns_07854: A standard format for such a Memorandum was agreed on during the \"technical discussions\" at the time of negotiations and is included in the PIP.\n\ns_07904: -28where ut-uO for t<t* and ut-ul for tMt*.\n\ns_07954: The purpoF of this particular study was to estimate the willingness of households to pay for water so that the state water authority could make a more informed decision on how much to charge its customers.\n\ns_08004: 3 The objective of this paper is not to review the pros and cons of deposit insurance systems, but to focus, rather narrowly, on the recent adoption of the DIS in Russia, the rationale offered, and the potential impact it might have on the stability and development of the Russian banking system.\n\ns_08054: In this note we analyze the impact of higher electricity tariffs on household welfare, the distributional and fiscal impact of alternative electricity tariff structures, and the potential impact of higher electricity tariffs on household choice of space heating fuel.\n\ns_08104: 40 In 38 To quantify this dependence, they rely on estimates of the parameters of an aggregate production function augmented with infrastructure, complemented with the estimation of empirical equations linking the accumulation of infrastructure assets to observed investment-to-GDP ratios.\n\ns_08154: The supplement provides a careful breakdown of gentry incomes by different sources, division of these income sources between upper and lower gentry, and the population shares of both types of gentry (see the table below which is derived from Chang's Supplement 2).\n\ns_08204: The fact that nearly a quarter of the population would enroll in college even without any subsidy while 46 percent wouldn't attend even with subsidies suggests that enrollment outcomes could be preserved and average well-being improved by redirecting funds from the \"always enroll\" group to the \"never enroll\" group.\n\ns_08281: Similar to previous versions, data is collected in waves, with the latest wave occurring in 2014.\n\ns_08331: The coding of the measures is available in a Stata do file format.\n\ns_08381: Using Fisher's test we also tested for an excess of SNPs where the effect directions (BETA) are concordant between SNP subsets in each dataset.\n\ns_08431: Moreover, attempts are being made to develop tools to automatically analyze the images and, consequently, diagnosis AD and MCI conditions (Morgado et al., 2013; Ram\u00edrez et al., 2013) .\n\ns_08481: Accumulation of Ab may plateau, though these observations are based on cohort studies and ongoing longitudinal amyloid imaging studies will be needed to validate both the time course and the kinetics of accumulation.\n\ns_08531: In the WIC 2015, we have tried to circumvent the data quality and consistency issue by applying some procedures: (1) An extensive data collection, (2) a careful selection of the best data sources, (3) the harmonization of the data, and (4) a high level of detail considering age, sex, and education categories, as explained in section 2.2 and more extensively in Bauer et al.\n\ns_08581: ADNI is a landmark investigation sponsored by the NIH and industrial partners designed to collect longitudinal neuroimaging, biological and clinical information from over 800 participants that will track the neural correlates of memory loss from an early stage.\n\ns_08631: 64 Some combination of these factors, and the likelihood that many of the most active buprenorphine-prescribing physicians sought approval to treat 100 patients, may help explain our finding a statistically significant negative association in 2009-2011 between the number of urban 30-patient-waivered physicians and the amount of buprenorphine dispensed."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Y588iTm7NwQYmI254MzReU6KR7",
+    "object": "chat.completion",
+    "created": 1682884981,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1360,
+      "completion_tokens": 29,
+      "total_tokens": 1389
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08531\", \"data_mentioned\": true, \"reason\": \"WIC 2015\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08531\", \"data_mentioned\": true, \"reason\": \"WIC 2015\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

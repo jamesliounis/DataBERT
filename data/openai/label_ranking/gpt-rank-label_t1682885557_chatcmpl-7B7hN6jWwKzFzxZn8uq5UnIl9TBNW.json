@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05768: First, we use the Indonesian National Labor Force Survey (Sakernas survey) from 2005 to 2015, which collects main labor indicators covering the 33 provinces of the country.\n\ns_05818: Regressions in column (4) also include fixed effects for demonstration session.\n\ns_05868: Recent work includes applications for the United States (Lee et al.\n\ns_05918: This is shown in Figures 6, 7, 8 and 9, with variation across the group of external comparators, the non-resource rich group, the non-oil resource rich group, and oil exporters in that order.\n\ns_05968: (2020) find that countries that joined the European Union (EU), EU candidate countries, and other European countries have experienced marked increases in the use of the euro as an invoicing currency.\n\ns_06018: To understand how the prices of mobile data packages affect the adoption of mobile internet, the analysis considers a country's average cost per 1 gigabyte (GB) of mobile data, and constructs a dummy variable that equals 1 if the country's average cost per 1 GB of mobile data is more than 2 percent of the individual's monthly income.\n\ns_06068: The same lag structure was recommended when using the Akaike Information Criterion (AIC) or the Hannan-Quinn information criterion (HQC).\n\ns_06118: Column (1) presents the results for the cloglog model using origin district and country of asylum fixed effects.\n\ns_06168: In Table A .13 in the Online Appendix, we check the robustness of our results to controlling for the following variables in Egypt in the return migration equation: FDI (% of GDP), remittances (% of GDP), and the exports and imports of goods and services (% of GDP).\n\ns_06218: To make comparisons between the insights that the phone survey and online experiment reveal about the general population in PNG it is necessary to apply a common approach to the survey weights.\n\ns_06268: The solid red line uses 2017 PPPs officially published by the ICP, except for 14 countries where alternative PPPs are used (see Table B .3), while the dashed red line uses only 2017 PPPs officially published by the ICP.\n\ns_06318: Our findings are less straightforward: we find evidence that for all children (aged 6 to 15), cash transfers whose amounts were doubled had larger effect on school enrollment (17 vs 8 percentage points, p-value=0,039).\n\ns_06368: In addition, these estimates use the same type of data of recent estimates available for Africa, allowing a cross-regional comparison that was not available.\n\ns_06418: The estimates of the risk adjusted and standard measures of relative and absolute mobility across the distribution for rural vs. urban areas are reported in Table 6A for all three countries.\n\ns_06468: For instance, in Figure 1a , while the consumption of electricity by all users increased by about 2% during the start of the COVID lockdown in Rwanda, consumption declined by approximately the same level in the second month of the lockdown (April 2020), before rising steadily thereafter, to about 5%, seven months after the start of the pandemic.\n\ns_06518: Most importantly, our work provides an innovative approach to analyzing the relationship between political trust and citizen participation by investigating nonlinearities and complexities in the way explanatory variables interact and have an impact on the dependent variable-that is, citizen participation in the various forms considered in this study.\n\ns_06568: A potential explanation for these trends is differences in fiscal space.\n\ns_06618: Column (1) of Table 3 .1 reports the results of attaining the deficit target through an increase in the average level of the Union excise-tax-cum-CVD rate, while holding investment (public and private) as well as public consumption, constant in real terms.\n\ns_06668: As noted above, the current trend towards IFS SAs began in Northern Europe, s:pecifically in the Scandinavian countries of Norway, Denmark and Sweden.\n\ns_06718: Since inflows were particularly strong in 1995-1997, the extent of reserve accumulation has been substantial, as seen in Table 6 .\n\ns_06768: Moderate poverty falls by around 15% and ultra-poverty by 25% for households who have been BRAC members for up to three years controlling for other factors according to the author.\n\ns_06818: It consists in estimating (10) To obtain asymptotically efficient estimates, one re-weighs each observation at the industry level using these variance estimates.\n\ns_06868: In addition, the location (e.g., proximity or distance) of infrastructure is considered to be a critical asset, because it influences the availability and accessibility (e.g., transaction costs) of goods and services (van de Walle 2000a; 2000b) .\n\ns_06918: But even focusing on DRD=1.2, it is clear that the impacts are highest for Sub-Saharan Africa.\n\ns_06968: The word processed describes informally produced works that may not be commonly available through library systems."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hN6jWwKzFzxZn8uq5UnIl9TBNW",
+    "object": "chat.completion",
+    "created": 1682885557,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1340,
+      "completion_tokens": 111,
+      "total_tokens": 1451
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05768\", \"data_mentioned\": true, \"reason\": \"Indonesian National Labor Force Survey\"}, {\"sent_id\": \"s_06918\", \"data_mentioned\": true, \"reason\": \"Sub-Saharan Africa\"}] \n\nExplanation: \n- s_05768 mentions the Indonesian National Labor Force Survey as the dataset used in the paper.\n- s_06918 mentions DRD=1.2, which is a dataset used in the paper, and highlights its impact on Sub-Saharan Africa."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05768\", \"data_mentioned\": true, \"reason\": \"Indonesian National Labor Force Survey\"}, {\"sent_id\": \"s_06918\", \"data_mentioned\": true, \"reason\": \"Sub-Saharan Africa\"}] \n\nExplanation: \n- s_05768 mentions the Indonesian National Labor Force Survey as the dataset used in the paper.\n- s_06918 mentions DRD=1.2, which is a dataset used in the paper, and highlights its impact on Sub-Saharan Africa.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04973: 2012 , Eichengreen and Gupta, 2013 , Nicita, 2013 ).\n\ns_05023: Data and Prima-Facie Evidence Our sample selection depended on panel data availability for Latin American firms.\n\ns_05073: This paper proceeds as follows.\n\ns_05123: 9 The estimates of distortions for peer countries have been taken from Sinha (2016).\n\ns_05173: Source: Authors' analysis based on data described in paper.\n\ns_05223: See for instanceAuriol and Blanc (2009).\n\ns_05273: This paper used the Total Federal transfers for Secondary Education provided by SEP.\n\ns_05323: (See, for example, Calvo and Mendoza (2000) ).\n\ns_05373: Corresponding author: Utz Pape (upape@worldbank.org).\n\ns_05423: Table A .1 in the appendix provides a summary of studies discussed in this Section.\n\ns_05473: Table 3 .1 provides a snapshot of data collection efforts divided by area of study.\n\ns_05523: In the original work of Autor et al.\n\ns_05573: These datasets are described in the following section.\n\ns_05623: International Journal of Psychology, 41(5), 333-41).\n\ns_05673: This paper breaks the problems down individually.\n\ns_05723: In this paper we combine several data sets covering the period 2005-2015.\n\ns_05773: The paper proceeds as follows.\n\ns_05823: In a global study,Dora et al.\n\ns_05873: (2016) and AfDB, OECD, UNDP (2014).\n\ns_05923: The rest of this paper is organized as follows: a conceptual framework model is presented in section 2; section 3 outlines the data handling, data sources and the descriptive analysis.\n\ns_05973: The paper is organized as follows: section 2 outlines the study's conceptual framework.\n\ns_06023: It is worth noting that the size of the STM for developed countries is similar to previous country-speci\u2026c and panel-data-based empirical \u2026ndings (e.g., Gechert, 2015; Romer and Romer, 2016; Alesina et al, 2017; .\n\ns_06073: (2013) ; Hangartner et al.\n\ns_06123: In this paper, we rely on the most recent version of the data-the 2006 version (Bayer, 2006) .\n\ns_06173: This paper is structured as follows."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B75eVGTlk8rN3TIWWAtZfXhlvJXv",
+    "object": "chat.completion",
+    "created": 1682883218,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 802,
+      "completion_tokens": 139,
+      "total_tokens": 941
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05023\", \"data_mentioned\": true, \"reason\": \"panel data availability for Latin American firms\"}, {\"sent_id\": \"s_05273\", \"data_mentioned\": true, \"reason\": \"Total Federal transfers for Secondary Education provided by SEP\"}, {\"sent_id\": \"s_05573\", \"data_mentioned\": true, \"reason\": \"several data sets covering the period 2005-2015\"}, {\"sent_id\": \"s_06123\", \"data_mentioned\": true, \"reason\": \"the most recent version of the data-the 2006 version (Bayer, 2006)\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05023\", \"data_mentioned\": true, \"reason\": \"panel data availability for Latin American firms\"}, {\"sent_id\": \"s_05273\", \"data_mentioned\": true, \"reason\": \"Total Federal transfers for Secondary Education provided by SEP\"}, {\"sent_id\": \"s_05573\", \"data_mentioned\": true, \"reason\": \"several data sets covering the period 2005-2015\"}, {\"sent_id\": \"s_06123\", \"data_mentioned\": true, \"reason\": \"the most recent version of the data-the 2006 version (Bayer, 2006)\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

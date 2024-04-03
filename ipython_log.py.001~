@@ -1,0 +1,499 @@
+# IPython log file
+
+import doc2json
+from data_use import text_splitter as ts
+s2 = ts.S2ORCSplitter()
+s2 = ts.S2ORCTextSplitter()
+jj = s2.convert_pdf_to_json("/Users/avsolatorio/WBG/ChatPRWP/data/pdf/curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf")
+jj.keys()
+jj["pdf_parse"]["body_text"][:10]
+from data_use.document_loaders import pdf
+# l = pdf.S2ORCPDFLoader("/Users/avsolatorio/WBG/s2orc-doc2json/tests/pdf/N18-3011.pdf")
+l = pdf.S2ORCPDFLoader("/Users/avsolatorio/WBG/ChatPRWP/data/pdf/curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf")
+docs = l.load()
+eo = jj.get("pdf_parse")
+eo[0]
+eo.keys()
+import importlib
+importlib.reload(pdf)
+l = pdf.S2ORCPDFLoader("/Users/avsolatorio/WBG/ChatPRWP/data/pdf/curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf")
+docs = l.load()
+docs[0]
+docs[1]
+docs[2]
+# pages = l.load_and_split
+import tiktoken
+enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+enc.encode("hello!!!!! world")
+enc.encode("hello!!!!! \n\n world")
+enc.encode("hello!!!!! \n\nworld")
+enc.encode("hello!!!!!\n\nworld")
+enc.encode("hello!!!!\n\nworld")
+enc.encode("hello\n\nworld")
+enc.encode("hello\n\n world")
+enc.encode("hello \n\n world")
+enc.encode("hello\n\n world")
+enc.encode("hello\n\nworld")
+enc.encode("hello.\n\nworld")
+from data_use import text_splitter as ts
+import importlib
+importlib.reload(ts)
+# du = ts.DataUseTextSplitter
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n")
+from data_use.document_loaders import pdf
+l = pdf.S2ORCPDFLoader("/Users/avsolatorio/WBG/ChatPRWP/data/pdf/curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf")
+docs = l.load()
+len(docs)
+docs[0]
+aggs = du.aggregate_documents(docs)
+importlib.reload(ts)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n")
+aggs = du.aggregate_documents(docs)
+importlib.reload(ts)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n")
+aggs = du.aggregate_documents(docs)
+aggs[0]
+print(aggs[0].page_content)
+print(aggs[1].page_content)
+len(du._tokenizer.encode(aggs[0].page_content))
+importlib.reload(ts)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n")
+aggs = du.aggregate_documents(docs)
+len(aggs)
+aggs[-1]
+print(aggs[-1])
+print(aggs[-1].page_content)
+docs[-1]
+docs[-2]
+print(aggs[-2].page_content)
+print(aggs[-3].page_content)
+print(aggs[-4].page_content)
+print(aggs[-5].page_content)
+importlib.reload(ts)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n")
+aggs = du.aggregate_documents(docs)
+aggs[0]
+len(du._tokenizer.encode(aggs[0].page_content))
+importlib.reload(ts)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n")
+aggs = du.aggregate_documents(docs)
+aggs[0]
+len(aggs)
+aggs[1]
+len(du._tokenizer.encode("Indeed, in some situations, protracted displacement and expectations of retaliation on return create greater politicization of the displaced along ethnic lines (Harild, Vinck, Vedsted & de Berry 2013) ."))
+465 + 42
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=512)
+aggs = du.aggregate_documents(docs)
+len(aggs)
+aggs[0]
+aggs[0].metadata
+aggs[1].metadata
+# docs = l.load()
+# l = pdf.S2ORCPDFLoader("/Users/avsolatorio/WBG/ChatPRWP/data/pdf/curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf")
+from data_use.indexes import vectorstore as dvectorstore
+from langchain.embeddings import HuggingFaceInstructEmbeddings
+passage_embeddings = HuggingFaceInstructEmbeddings(
+    embed_instruction="Represent the passage for retrieval, Input: ",
+    query_instruction="Represent the question for retrieving relevant passage, Input: ",
+)
+documents = aggs
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+importlib.reload(ts)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=512)
+aggs = du.aggregate_documents(docs)
+aggs[0]
+documents = aggs
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+index.vectorstore.similarity_search_with_score("What data was used in the paper?")
+print([doc.page_content for doc in index.vectorstore.similarity_search_with_score("What data was used in the paper?")])
+print([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("What data was used in the paper?")])
+print("\n\n".join(print([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("What data was used in the paper?")])))
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("What data was used in the paper?")]))
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("Was a dataset used in the paper?")]))
+doc_fname = "/Users/avsolatorio/WBG/ChatPRWP/data/pdf/curated-en-099829402282385780-pdf-idu03708fc080cc11042590bd3b0e01f66981ddd.pdf"
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+len(documents)
+aggs = du.aggregate_documents(docs)
+len(aggs)
+aggs[0]
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("Was a dataset used in the paper?")]))
+doc_dir = "/Users/avsolatorio/WBG/ChatPRWP/data/pdf/"
+doc_name = "curated-en-099032406232218786-pdf-idu052aadee5089b304b0b0880605a64276a8e34.pdf"
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("What data was used in the paper?")]))
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("We use data")]))
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("Did the paper use any data or dataset?")]))
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("Was data or dataset used?")]))
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+len(documents)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("Was data or dataset used?")]))
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("Was data or dataset used? Was data or dataset collected and analyzed?")]))
+doc_name = "curated-en-992471468211165611-pdf-wps4889.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+print("\n\n".join([doc[0].page_content for doc in index.vectorstore.similarity_search_with_score("Was data or dataset used? Was data or dataset collected and analyzed?")]))
+2361 * 0.002 / 1000
+(2361 * 0.002 / 1000) * 50
+(2361 * 0.002 / 1000) * 100
+(3000 * 0.002 / 1000) * 100
+(3000 * 0.002 / 1000) * 1000
+import json
+from pathlib import Path
+
+metadata_fname = Path("/Users/avsolatorio/WBG/ChatPRWP/data/raw/prwp_metadata_full.json")
+metadata = json.loads(metadata_fname.read_text())
+prwp_docs = sorted(metadata, key=lambda x: metadata[x]["docdt"], reverse=True)[:100]
+prwp_docs = sorted(metadata, key=lambda x: metadata[x].get("datestored", metadata[x].get("docdt", metadata[x].get("last_modified_date"))),, reverse=True)[:100]
+prwp_docs = sorted(metadata, key=lambda x: metadata[x].get("datestored", metadata[x].get("docdt", metadata[x].get("last_modified_date"))), reverse=True)[:100]
+prwp_docs = sorted(metadata, key=lambda x: metadata[x].get("datestored", metadata[x].get("docdt", metadata[x].get("last_modified_date", ""))), reverse=True)[:100]
+prwp_docs[:10]
+metadata["D34024399"]
+from data_use.indexes import vectorstore as dvectorstore
+enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+len(shortlist)
+shortlist = [rs.page_content for rs in shortlist]
+print("\n\n".join(shortlist))
+# shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+get_ipython().run_line_magic('pinfo', 'index.vectorstore.similarity_search')
+shortlist_dir = Path("/Users/avsolatorio/WBG/ChatPRWP/data/shortlist/")
+shortlist_dir.exists()
+shortlist_dir.parent.exists()
+get_ipython().run_line_magic('pinfo', 'shortlist_dir.mkdir')
+passage_embeddings
+str(passage_embeddings)
+passage_embeddings.client
+passage_embeddings.__repr__()
+passage_embeddings.__repr__()index.em
+passage_embeddings = HuggingFaceInstructEmbeddings(
+    embed_instruction="Represent the passage for retrieval; Input: ",
+    query_instruction="Represent the question for retrieving relevant passage; Input: ",
+)
+shortlist = [rs.page_content for rs in shortlist]
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+shortlist_orig = shortlist
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+shortlist == shortlist_orig
+shortlist[0]
+doc_name = "curated-en-099032406232218786-pdf-idu052aadee5089b304b0b0880605a64276a8e34.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+shortlist[0]
+doc_name = "curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+shortlist[0]
+shortlist = index.vectorstore.similarity_search("Was data or dataset used?")
+shortlist[0]
+shortlist = index.vectorstore.similarity_search("Was data used in the paper?")
+shortlist[0]
+print("\n\n".join([o.page_content for o in shortlist]))
+doc_name = "curated-en-099047501242316215-pdf-idu0458baf2e0e6ed045bb095e70cbc841f24bed.pdf""
+doc_fname = doc_dir + doc_name
+doc_name = "curated-en-099047501242316215-pdf-idu0458baf2e0e6ed045bb095e70cbc841f24bed.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data used in the paper?")
+print("\n\n".join([o.page_content for o in shortlist][:2]))
+doc_name = "curated-en-099829402282385780-pdf-idu03708fc080cc11042590bd3b0e01f66981ddd.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data used in the paper?")
+print("\n\n".join([o.page_content for o in shortlist][:2]))
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+print("\n\n".join([o.page_content for o in shortlist][:2]))
+print("\n\n".join([o.page_content for o in shortlist]))
+passage_embeddings = HuggingFaceInstructEmbeddings(
+    embed_instruction="Represent the passage for retrieval; Input: ",
+    query_instruction="Represent the question for retrieving passages that are the most relevant; Input: ",
+)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist_orig = shortlist
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+shortlist == shortlist_orig
+print("\n\n".join([o.page_content for o in shortlist]))
+import importlib
+importlib.reload(ts)
+importlib.reload(pdf)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=512)
+passage_embeddings.__repr__()
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load(expand_equation=False)
+documents = du.aggregate_documents(docs, skip_urls=True)
+len(documents)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+print("\n\n".join([o.page_content for o in shortlist]))
+doc_name = "curated-en-099047501242316215-pdf-idu0458baf2e0e6ed045bb095e70cbc841f24bed.pdf""
+doc_name = "curated-en-099047501242316215-pdf-idu0458baf2e0e6ed045bb095e70cbc841f24bed.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+index.dict()
+passage_embeddings.dict()
+w = json.dumps(passage_embeddings.dict())
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+print("\n\n".join([o.page_content for o in shortlist]))
+doc_name = "curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+# prow.build_row_profile(mode="desc")
+print("\n\n".join([o.page_content for o in shortlist]))
+rrr = "\n\n".join([o.page_content for o in shortlist])
+"The surveys follow a repeated cross-sectional" in rrr
+rrr.index("The surveys follow a repeated cross-sectional")
+ix = rrr.index("The surveys follow a repeated cross-sectional")
+rrr[ix: ix + 50]
+rrr[ix: ix + 200]
+rrr[ix: ix + 300]
+# print("\n\n".join([o.page_content for o in shortlist]))
+k = """{"data_used": true, "dataset": [{"name": "Electricity billing records", "type": "administrative", "country": ["Ghana", "Rwanda"], "year": ["2018", "2019", "2020"], "source": "This paper uses administrative data on electricity billing records from Ghana and Rwanda."}, {"name": "Copernicus Climate Change Service", "type": "climate data", "country": [], "year": [], "source": "We complement the electricity data with monthly data on temperature and total precipitation from the Copernicus Climate Change Service."}], "themes": [{"theme": "COVID-19", "source": "Causal estimation of the effect of the COVID-19 pandemic on electricity consumption is beset with at least two challenges of identification."}, {"theme": "energy demand", "source": "Temperature and rainfall patterns are key drivers of energy demand around the world, and given that these weather patterns vary based on the time of the year, monthly changes in electricity consumption to a large extent are influenced by the prevailing weather conditions."}, {"theme": "electricity subsidies", "source": "The subsidy program offered a 100% subsidy to lifeline (low-income) customers who consume 0-50 kWh of electricity a month, while non-lifeline customers (consuming above 50 kWh a month) would enjoy a 50% subsidy (Berkouwer et al., 2022)."}], "indicators": [{"indicator": "electricity consumption", "source": "To address these issues, we follow the approach of Irwin et al. (2021) and implement a difference-in-difference design by comparing the differences in electricity consumption during the post-COVID months and consumption levels in the same month in the previous years (2018-2019) with the average consumption in the months just before the pandemic (i.e. January and February 2020) and the years before (2018-2019)."}], "analyses": [{"analysis": "difference-in-difference design", "source": "To address these issues, we follow the approach of Irwin et al. (2021) and implement a difference-in-difference design by comparing the differences in electricity consumption during the post-COVID months and consumption levels in the same month in the previous years (2018-2019) with the average consumption in the months just before the pandemic (i.e. January and February 2020) and the years before (2018-2019)."}], "policies": [{"policy": "electricity subsidies", "source": "The subsidy program offered a 100% subsidy to lifeline (low-income) customers who consume 0-50 kWh of electricity a month, while non-lifeline customers (consuming above 50 kWh a month) would enjoy a 50% subsidy (Berkouwer et al., 2022)."}]}"""
+len(du._tokenizer.encode(k))
+p = """You are an expert in extracting structure information from text. You are also excellent at identifying the use of data and for what policy it was used to inform.
+
+You must not confuse data with indicators. Provide the most precise data name from the text.
+
+You will be asked whether data was used in the text. You will also be asked what data, if any, was used.
+
+Always return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.
+
+Example response:  {"data_used": true, "dataset": [{"name": "LSMS", "type": "survey", "country": [<country>], "year": [<year>], "source": <source>}, {"name": "Nighttime lights data", "type": "remote sensing", "country": [], "year": [<year>], "source": <source>}], "themes": [{"theme": "poverty", "source": <source>}], "indicators": [{"indicator": "malnutrition", "source": <source>}, {"indicator": "poverty", "source": <source>}], "analyses": [{"analysis": "poverty measurement", "source": <source>}], "policies": [{"policy": "poverty alleviation", "source": <source>}]}.
+
+You must only fill in the country field if there is an explicit mention of a country name associated with the data; otherwise, leave it empty.
+
+You must also provide in the "source" field the sentence from the text indicating the use of data.
+
+Was data used in this text? What data was used? What policy was informed by the data?"""
+len(du._tokenizer.encode(p))
+len(du._tokenizer.encode("\n\n".join([o.page_content for o in shortlist])))
+1779 + 352
+1779 + 352 + 606
+1779 + 352 + 1029
+4096 - (1779 + 352)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=256)
+doc_name = "curated-en-099829402282385780-pdf-idu03708fc080cc11042590bd3b0e01f66981ddd.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load()
+documents = du.aggregate_documents(docs)
+len(documents)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?")
+print("\n\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?", k=5)
+len(du._tokenizer.encode("\n\n".join([o.page_content for o in shortlist])))
+print("\n\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=512)
+du = ts.DataUseTextSplitter(tokenizer=enc, separator=" ", chunk_size=512)
+documents = du.aggregate_documents(docs)
+documents[0]
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?", k=4)
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected and analyzed?", k=4)
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+print("\n\n".join([o.page_content for o in shortlist]))
+len(du._tokenizer.encode("\n\n".join([o.page_content for o in shortlist])))
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=512)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n\n".join([o.page_content for o in shortlist]))
+import re
+documents = du.aggregate_documents(docs)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n\n".join([o.page_content for o in shortlist]))
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected? Ignore measures of significance.", k=4)
+print("\n\n".join([o.page_content for o in shortlist]))
+len(du._tokenizer.encode("\n\n".join([o.page_content for o in shortlist])))
+len(du._tokenizer.encode("\n===\n".join([o.page_content for o in shortlist])))
+print("\n===\n".join([o.page_content for o in shortlist]))
+"The effect of COVID-19 on electricity consumption in sub-Saharan Africa" in ("\n\n".join([o.page_content for o in shortlist]))
+"consumption in sub-Saharan Africa" in ("\n\n".join([o.page_content for o in shortlist]))
+"consumption" in ("\n\n".join([o.page_content for o in shortlist]))
+"Africa" in ("\n\n".join([o.page_content for o in shortlist]))
+"sub-Saharan Africa" in ("\n\n".join([o.page_content for o in shortlist]))
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n===\n".join([o.page_content for o in shortlist]))
+len(du._tokenizer.encode("\n===\n".join([o.page_content for o in shortlist])))
+len(du._tokenizer.encode("\n\n".join([o.page_content for o in shortlist])))
+len(du._tokenizer.encode("\n!!!!!\n".join([o.page_content for o in shortlist])))
+len(du._tokenizer.encode("\n\n".join([o.page_content for o in shortlist])))
+len(du._tokenizer.encode("\n=====\n".join([o.page_content for o in shortlist])))
+# du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=512)
+enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+passage_embeddings.dict()
+passage_embeddings.client.dict()
+passage_embeddings.client.__repr__()
+passage_embeddings.client.__str__()
+du.dict()
+passage_embeddings = HuggingFaceInstructEmbeddings(
+    embed_instruction="Represent the passage for retrieval optimized for answering questions; Input: ",
+    query_instruction="Represent the question for retrieving the most relevant passage; Input: ",
+)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+passage_embeddings = HuggingFaceInstructEmbeddings(
+    embed_instruction="Represent the passage for retrieval optimized for answering questions on the use of data; Input: ",
+    query_instruction="Represent the question for retrieving the most relevant passage describing the use of data; Input: ",
+)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist[:3]]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]])
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+importlib.reload(pdf)
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load(remove_citations=True)
+documents = du.aggregate_documents(docs)
+len(documents)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+"billing" in ("\n\n".join([o.page_content for o in shortlist]))
+"billing records" in ("\n\n".join([o.page_content for o in shortlist]))
+du = ts.DataUseTextSplitter(tokenizer=enc, separator="\n\n", chunk_size=512)
+docs = loader.load(remove_citations=False)
+documents = du.aggregate_documents(docs)
+len(documents)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist]))
+"Copernicus" in ("\n\n".join([o.page_content for o in shortlist]))
+index.vectorstore.delete_collection()
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+index.vectorstore.from_documents(documents)
+index.vectorstore.from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+index.vectorstore = index.vectorstore.from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist]))
+index.vectorstore.delete_collection()
+passage_embeddings
+passage_embeddings = HuggingFaceInstructEmbeddings(
+    embed_instruction="Represent the passage for retrieval optimized for answering questions on the mention of data; Input: ",
+    query_instruction="Represent the question for retrieving the most relevant passage mentioning data; Input: ",
+)
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist]))
+print("\n=====\n".join([o.page_content for o in shortlist[:3]]))
+doc_name = "curated-en-099005106232213093-pdf-idu0ef49c6600ba1e04eca0a30c04d1e2aa727f4.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load(remove_citations=False)
+documents = du.aggregate_documents(docs)
+index.vectorstore.delete_collection()
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist[:3]]))
+doc_name = "curated-en-099047501242316215-pdf-idu0458baf2e0e6ed045bb095e70cbc841f24bed.pdf"
+doc_fname = doc_dir + doc_name
+loader = pdf.S2ORCPDFLoader(doc_fname)
+docs = loader.load(remove_citations=False)
+documents = du.aggregate_documents(docs)
+index.vectorstore.delete_collection()
+index = dvectorstore.VectorstoreIndexCreator(
+    embedding=passage_embeddings,
+).from_documents(documents)
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+print("\n=====\n".join([o.page_content for o in shortlist[:3]]))
+(256 / 1000) * 0.002
+# loader
+shortlist = index.vectorstore.similarity_search("Was data or dataset used? Was data or dataset collected?", k=4)
+shortlist = [rs.page_content for rs in shortlist]
+shortlist[0]
+# loader = pdf.S2ORCPDFLoader(doc_fname)
+doc_fname
+# doc_fname = doc_dir + doc_name
+doc_dir
+loader = pdf.S2ORCPDFLoader(Path(doc_fname))
+get_ipython().run_line_magic('logstart', '')

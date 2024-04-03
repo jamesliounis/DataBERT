@@ -1,0 +1,1386 @@
+{
+  "paper_id": "D24927140",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:16.583429Z"
+  },
+  "title": "Export Promotion and Firm Entry into and Survival in Export Markets",
+  "authors": [
+    {
+      "first": "Daniel",
+      "middle": [],
+      "last": "Lederman",
+      "suffix": "",
+      "affiliation": {},
+      "email": "dlederman@worldbank.org"
+    },
+    {
+      "first": "Marcelo",
+      "middle": [],
+      "last": "Olarreaga",
+      "suffix": "",
+      "affiliation": {},
+      "email": "marcelo.olarreaga@unige.ch."
+    },
+    {
+      "first": "Lucas",
+      "middle": [],
+      "last": "Zavala",
+      "suffix": "",
+      "affiliation": {},
+      "email": "lzavala@princeton.edu."
+    },
+    {
+      "first": "\uf02a\uf02a",
+      "middle": [],
+      "last": "Lucas",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Zavala",
+      "middle": [],
+      "last": "\uf02a\uf02a\uf02a",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Olivier",
+      "middle": [],
+      "last": "Cadot",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "C\u00e9line",
+      "middle": [],
+      "last": "Carr\u00e8re",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Simon",
+      "middle": [],
+      "last": "Evenett",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Jose",
+      "middle": [
+        "Guilherme"
+      ],
+      "last": "Reis",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    },
+    {
+      "first": "Ernesto",
+      "middle": [],
+      "last": "Stein",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2015-08",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D24927140",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "Introduction In an influential review of the literature on firms in international trade, Bernard et al. (2007) documented that in 2000 only about 4 percent of the 5.5 million firms operating in the United States were exporters. Among manufacturing and agricultural firms, only about 15 percent were exporters. Information provided by Eaton, Kortum and Kramarcz (2011) suggests that only about 15 percent of French manufacturing firms with more than 20 employees were exporters in 1986. Although firm census data are scarce, especially in developing countries, it is safe to speculate that exporting is rare among firms. That is, while all countries export, the vast majority of firms do not.",
+        "cite_spans": [
+          {
+            "start": 89,
+            "end": 110,
+            "text": "Bernard et al. (2007)",
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 334,
+            "end": 367,
+            "text": "Eaton, Kortum and Kramarcz (2011)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "From a policy viewpoint, increasing exports is usually the mandate of publicly funded Export Promotion Agencies (EPAs). Data from global surveys of EPAs undertaken by the World Bank in 2005 and 2010 suggest that in all regions of the world the promotion of overall exports dominates other policy objectives (see Figure 1 ). 1 Consequently, understanding the channels through which EPA services affect export growth is crucial for EPAs' policy design.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 312,
+            "end": 320,
+            "text": "Figure 1",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "The objective of this paper is to identify the mechanisms through which EPA services affect export growth. Do they help firm entry and survival in exporting activities? Do they help incumbents by raising their export shares in total sales? Or do they operate through all channels?",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "The answers to these questions can shed light on the social desirability of EPA programs. Indeed, the economic justification for export promotion is often based on the existence of asymmetric information and other externalities associated with the collection of information on market conditions and business opportunities in international markets (Hausmann and Rodrik, 2003) .",
+        "cite_spans": [
+          {
+            "start": 347,
+            "end": 374,
+            "text": "(Hausmann and Rodrik, 2003)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "Private firms have no incentives to share this information with potential competitors after incurring the costs of discovering how to export profitably. This market failure justifies government intervention, but given the nature of the market failure, this should not affect firms' intensive margin, but rather their extensive margin, i.e., the decision to enter and survive in export markets. That is, the cost of collecting information on market conditions does not depend on quantities exported, and therefore the provision of such information by government agencies should not affect the decision of how much to export, but rather whether to enter or survive in export markets.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "This is indeed what we found in a sample of Latin American firms between 2006 and 2010. Firms that used EPA services are more likely to enter and survive in world markets, but the level of firms' exports is unaffected. Thus EPAs contribute to aggregate export growth through the extensive rather than the intensive margin, which is to be expected if they are correcting for market failures associated with information externalities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "The finding on the impact of export promotion activities on new exporters is new, but also important for export growth. Indeed, Eaton et al. (2007) showed that in a sample of Colombian firms from 1996 to 2005, new exporters account for almost half of exporting firms in any given year. Those that survive as exporters for more than a year grow rapidly and account for about half of the country's total merchandise export growth after a decade. Lederman et al. (2011) report that the 1999 cohort of entrants into exporting accounted for almost 40 percent of Costa Rica's total merchandise exports by 2005. This suggests that firms' entry into export activities and their survival are as important as exports from incumbent firms for aggregate export growth in the medium term. 2",
+        "cite_spans": [
+          {
+            "start": 128,
+            "end": 147,
+            "text": "Eaton et al. (2007)",
+            "ref_id": "BIBREF5"
+          },
+          {
+            "start": 444,
+            "end": 466,
+            "text": "Lederman et al. (2011)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "The existing literature on export promotion and firm entry is thin, but the available evidence suggests that export promotion does little to explain export growth by helping firm entry into export activities. Bernard and Jensen (2004) found that export promotion across states has no statistically significant impact on the probability of exporting in a sample of U.S. manufacturing firms. G\u00f6rg et al (2008) found that export-promotion grants offered to Irish manufacturing firms have no impact on the probability of exporting, but do affect the level of exports. In a sense, our results contradict these findings, albeit with different data.",
+        "cite_spans": [
+          {
+            "start": 209,
+            "end": 234,
+            "text": "Bernard and Jensen (2004)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 390,
+            "end": 407,
+            "text": "G\u00f6rg et al (2008)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "2 There is also an important literature that shows that the survival of new export \"relationships\" is an important determinant of export growth, at least in developing countries. But this literature focuses on products at the tariff line level --see Evennett and Venables (2002) or Besedes and Prusa (2007) for papers showing that growth in the value of new export products or new export markets can account for a large share of export growth in developing countries. Note that a new export product or a new export market does not necessarily imply that a new firm is exporting. Similarly the fact that a new firm is exporting does not necessarily imply that a new product is being exported or that a new export market has been found. Note that there is also a growing literature using tariff line data (not firm data) showing that the intensive margin (i.e., exporting more of the same product) explains most of export growth; see Felbemayer and Kohler (2006), Helplman, Melitz and Rubinstien (2008) or Amiti and Freund (2010) .",
+        "cite_spans": [
+          {
+            "start": 250,
+            "end": 278,
+            "text": "Evennett and Venables (2002)",
+            "ref_id": null
+          },
+          {
+            "start": 282,
+            "end": 306,
+            "text": "Besedes and Prusa (2007)",
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 932,
+            "end": 946,
+            "text": "Felbemayer and",
+            "ref_id": null
+          },
+          {
+            "start": 947,
+            "end": 982,
+            "text": "Kohler (2006), Helplman, Melitz and",
+            "ref_id": null
+          },
+          {
+            "start": 983,
+            "end": 1000,
+            "text": "Rubinstien (2008)",
+            "ref_id": null
+          },
+          {
+            "start": 1004,
+            "end": 1027,
+            "text": "Amiti and Freund (2010)",
+            "ref_id": "BIBREF0"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "There is also a growing literature using customs data on export promotion and their impact on exporting firms' intensive and extensive margins of exports, where the extensive margin is defined either as the introduction of new export products or entry into new export-market destinations. For example, using this type of data Volpe and Carballo (2008) found in a sample of Peruvian firms that export promotion affects exports mainly along the extensive margin, both in terms of markets and products, but has little impact on the intensive margins of exports.",
+        "cite_spans": [
+          {
+            "start": 326,
+            "end": 351,
+            "text": "Volpe and Carballo (2008)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "However, because of the use of customs data, they only have exporters in their data set and they cannot examine the impact of export promotion activities on firms entering or exiting the export market. This is where the contribution of our paper lies.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "Thus, none of the aforementioned papers distinguish the impact of export promotion on entry into export markets and survival in exporting activities. Our empirical strategy allows us to look at the impact of export promotion on both entry and survival.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "To identify the impact of export promotion activities on firm entry, exit, survival, and export intensity, we used firm surveys from seven Latin American countries from 2006 and 2010. We estimated a multinomial logit model to explain the probability of observing four potential paths of the status of a firm: from non-exporting to exporting (entry); continuity in exporting (survival); from exporting to non-exporting (exit); and continuity of non-export status. 3 For ease of exposition, the model's coefficients are estimated with respect to the probability of exiting exporting activities. Our variable of interest is whether the firm used the services of an EPA between 2006 and 2010. We also explored the treatment effect of EPA services on the change in the share of exports over total sales (export intensity) within firms, which provide estimates of the effect of EPAs on the intensive margin of exports.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "The results suggest that having used export services significantly increases the probability of entry and survival (with respect to the probability of exiting export markets). It also decreases the probability of remaining a non-exporter. In contrast, firms that use export services do not seem to increase their export intensity. These results appear in the (unconditional) descriptive data, in the estimate of conditional EPA treatment effects, and are robust to the use of three different types of propensity matching to control for the fact that export promotion services are not randomly allocated across firms. Overall, our results suggest that the entry and survival margins are the main channels through which export promotion agencies affect export growth, and tend to be unsuccessful at increasing export intensity, thus highlighting the role of fixed costs of entry into exporting activities.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "The remainder of the paper is organized as follows. Section 2 describes the data and provides some prima-facie descriptive evidence. Section 3 presents the empirical methodology and section 4 discusses the econometric results. Section 5 concludes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "1",
+        "sec_num": null
+      },
+      {
+        "text": "Data and Prima-Facie Evidence Our sample selection depended on panel data availability for Latin American firms. The World Bank's Enterprise surveys for 2006 and 2010 (www.enterprisesurveys.org) provide panel data for the following seven countries: Argentina, Bolivia, Chile, Colombia, Ecuador, Peru and Uruguay.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "2",
+        "sec_num": null
+      },
+      {
+        "text": "The survey covers manufacturing, but also agriculture and services. The surveys provide information regarding firms' export status (exporter or non-exporter) with which we can build our status transition variables to explore the impact of using export promotion services on entry and survival. The survey also contains information on firms' export intensity (direct and indirect exports as a fraction of total sales), 4 which we use to assess the impact of export promotion on the intensive margin. It also provides information on employment that we use as a proxy for firm size, share of foreign ownership, and the ISIC 4-digit code of the firm's main product. In addition, the surveys provide information on firm capabilities, such as whether firms have a website or use email to communicate with clients, which we used to control for changes in firm capabilities between 2006 and 2010.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "2",
+        "sec_num": null
+      },
+      {
+        "text": "The explanatory variable of interest is whether firms have used the services offered by EPAs. In all 2010 surveys, firms were asked whether they had used export promotion services over the last 3 years. Thus, by comparing the status of firms in 2006 and 2010, we can measure the impact of having used export promotion services on firms' export entry, exit, survival and intensity. percent of firms that did not use export promotion services in 2006 were exporters, whereas among those firms that used export promotion services 80 percent were exporters. And not only the share of exporters is higher among firms using export promotion services, but the increase in the share of exporters is larger for the sample of firms that used export promotion services, as indicated by the differences-in-differences test in the last column of Table 1 . Indeed, in all countries, with the exception of Colombia, the increase in the share of exporters is statistically larger for firms using export promotion services. Thus, the use of export promotion services seems to be correlated with firm entry into export activities or with a higher survival rate, since the share of exporters in the samples of firms that did not use EPA services declined between 2006 and 2010 in all countries, except Colombia. Table 2 provides a similar exercise, but instead of focusing on the share of exporting firms as in Table 1 , it focuses on the share of direct and indirect exports in firms' total sales. In all countries, export-intensity is higher among firms that used export-promotion services. Moreover, in five of the seven countries, the average export intensity of firms increased significantly more among firms that used export promotion services, as indicated by the differences-in-differences t-statistic in the last column. That is, with the exceptions of Colombia and Ecuador, the use of export promotion services is positively correlated with the export intensity of firms.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 833,
+            "end": 840,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          },
+          {
+            "start": 1293,
+            "end": 1300,
+            "text": "Table 2",
+            "ref_id": "TABREF3"
+          },
+          {
+            "start": 1392,
+            "end": 1399,
+            "text": "Table 1",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "2",
+        "sec_num": null
+      },
+      {
+        "text": "Taken at face value, the evidence discussed thus far suggests that firms that use export promotion services are more likely to become exporters, or to survive as an exporter, as well as to increase their export intensity. This suggests that export promotion services affect export growth through the important margins (survival and export intensity). However, there are at least two problems with the findings reported in Tables 1 and 2 . First, they do not allow us to disentangle between firm entry into export activities and firm survival in export activities. Second, there is selfselection into treatment as firms that request export promotion services may be systematically different from firms that do not request them. These two problems are addressed in our empirical strategy.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 422,
+            "end": 436,
+            "text": "Tables 1 and 2",
+            "ref_id": "TABREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "2",
+        "sec_num": null
+      },
+      {
+        "text": "Empirical Strategy To differentiate between firm entry and survival, we need to move beyond the setup of whether the firm exports or not, and explain firms' transitions in export status between 2006 and 2010.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3",
+        "sec_num": null
+      },
+      {
+        "text": "There are four types of transitions: A firm can switch from being a non-exporter to being an exporter (entry), it can continue to be an exporter (survival), it can move from being an exporter to being a non-exporter (exit), or it can continue being a non-exporter (non-exporter).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3",
+        "sec_num": null
+      },
+      {
+        "text": "A Multinomial Logit model can then explain how the use of export promotion services affects the probability of observing each of these transitions between 2006 and 2010. More formally, in the standard Multinomial Logit notation, the analysis will attempt to explain the probability of observing the four transitions as a function of variations in explanatory variables X:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3",
+        "sec_num": null
+      },
+      {
+        "text": "Probability of Not Exporting: Pr 00",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "3",
+        "sec_num": null
+      },
+      {
+        "text": "Probability of Entry: Pr 01",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Survival: Pr 11",
+        "sec_num": null
+      },
+      {
+        "text": "This set of equations is not identified, because there are numerous potential values of the four coefficients that would satisfy any distribution of the four probabilities across the sample of firms. Hence the standard approach is to set one of the coefficients equal to an ad hoc number.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "We chose the to set beta four equal to zero, corresponding to the effect of the explanatory variables on the probability of exit from exporting, which then implies that the four probabilities can be re-written as: Furthermore, it is also standard to report relative risk ratios, which indicate the effect of changes in explanatory variables x(i) in X on the probability of observing one of the three transitions relative to the probability of exit:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "Pr",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "\u22ef \u22ef \u22ef \u22ef",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "In other words, the exponential of the coefficient on each explanatory variable x(i) gives us the marginal effect of variations in x(i) on the probability of observing one of the three firm transitions relative to observing exit. This statistic, the relative risk rate (RRR), varies between zero and positive infinity, implying that any number above one reflects increases in the probability of observing one of the transitions of interest relative to exit. Numbers below one imply lower probabilities. Since the ML coefficients on export-promotion treatment and the RRR are expressed relative to exit, one could compute any relative probability or RRR with respect to any benchmark transition probability. This further implies that the ad hoc imposition of a value to any of the relevant coefficients is immaterial for the interpretation of the results.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "We are also interested in how the use of export promotion services affects export intensity. We therefore explain the change in export intensity using ordinary least squares and the same set of explanatory variables as for the Multinomial Logit.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "As mentioned above, one problem with these estimates is that export promotion services are not randomly allocated across firms, but rather firms self-select into export promotion services. Blundell and Costa Dias (2002) suggest that a combination of differences-in-differences with propensity matching can help solve the inherent bias in this type of program evaluation exercise.",
+        "cite_spans": [
+          {
+            "start": 189,
+            "end": 219,
+            "text": "Blundell and Costa Dias (2002)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "The propensity score matching allows us to estimate the impact of using export promotion services to compare firms that have similar observable characteristics. Indeed if firms that use export promotion services are systematically different from those that do not use export promotion services, and these differences are correlated with export outcomes, then our treatment results may be biased. This is particularly important because, as shown in section 2, firms that used export promotion services tend to export a relatively larger share of their output.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "Using 2006 data (i.e., pre-treatment data), we use a Logit model to explain the probability that a firm used export promotion services. The variables are size (log of the number of full time employees), the share of the firm's capital owned by foreigners, a dummy variable identifying firms with websites, and a dummy identifying firms that use email to communicate with clients.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "That is, the variables used to match treated and non-treated firms are similar to the explanatory variables in the Multinomial Logit estimations. It is noteworthy that only one of the four variables was not a statistically significant predictor of the probability of export-promotion treatment, namely the foreign ownership variable. The other three had positive and significant coefficients. 5",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "In turn, we used three types of propensity score matching: kernel matching, stratification matching and nearest neighbor matching. All three methods aim to construct control groups that are similar to the treatment group in terms of their predicted propensity to receive treatment, but differ in how the similarity is obtained. As highlighted by Rosenbaum and Robin (1984) , the bias in the estimation of the treatment effects is proportional to the difference in the mean of the predicted probabilities of treatment across treated and control groups. Hence we examined relevant distribution and equality tests for the three alternative methods.",
+        "cite_spans": [
+          {
+            "start": 346,
+            "end": 372,
+            "text": "Rosenbaum and Robin (1984)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "Kernel density matching utilizes the distribution of the predicted probabilities of treatment to construct the treatment and control groups. For this approach to be valid, the underlying distribution of the predicted probabilities, the propensity score, should approach normality and the mean propensity score for the treated and control groups should be statistically similar. Both conditions are met in our sample.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "The stratification matching approach entails testing for the equality of mean predicted propensity scores across endogenously selected blocks of observations. The number of blocks is selected so as to minimize the difference between the propensity scores of the treated and control groups and ensure that the means are statistically different. In our sample, we found 6 such blocks, but in the sixth block the degrees of freedom for the equality-of-means test was 2, thus yielding a low power test. For the sake of completeness, we report these results in the relevant results table discussed in the next section.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "The third approach, the nearest neighbor matching, selects sub-samples so as to construct a control group only with the most similar firms in terms of their propensity score. This implies that in some estimations the full sample of firms is not used, thus reducing precision in the estimates of the treatment effect.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "In order to confidently address the selection issue in the next section, we highlight results that are consistent across the three different propensity matching approaches.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Probability of Exit: Pr 10",
+        "sec_num": null
+      },
+      {
+        "text": "Results of the estimation of the multinomial logit explaining survival, entry, and continuous nonexporter status relative to exit (the worst transition in our setup) appear in the first three columns of Table 3 . The first column provides the results for the probability of remaining a continuous non-exporter (relative to exit). The second column provides results for the probability of survival and the third column for the probably of entry (relative to exit). As expected, firms that use export promotion services are more likely to become exporters (entry) or to remain an exporter (survival) relative to firms that exit export markets (the base category), as indicated by the risk ratio of treatment that takes a value that is larger than one in those two cases. On the other hand, firms that use export promotion services are less likely to remain non-exporters relative to firms that exit export markets as indicated by a value of the risk-ratio of treatment below 1.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 203,
+            "end": 210,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": "4"
+      },
+      {
+        "text": "The coefficient of interest is the coefficient on \"treatment\". It is positive for both survival and entry, suggesting that the use of export promotion services increases the probability of survival and entry relative to exit. The coefficient on survival is twice as large as the coefficient on entry, suggesting that the use of export promotion services is much more efficient at allowing firms to survive in export markets, rather than entering export markets. The coefficient on the probability of remaining a non-exporter (relative to exit) is negative, suggesting that the use of export promotion services makes it more likely to remain a non-exporter than to exit export markets.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": "4"
+      },
+      {
+        "text": "The change in firms size (employment) tends to always have a positive and statistically significant coefficient, suggesting that an increase in size makes it more likely that a firm remains a nonexporter, enters or survives in the export market relative to exit. Changes in foreign ownership, or the use of a web page or email does not seem to have a systematic impact on the probability of entry or survival. Table 3 provides results for changes in export-intensity for all firms in our sample.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 410,
+            "end": 417,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": "4"
+      },
+      {
+        "text": "The use of export promotion services does not seem to explain changes in export-intensity. This suggests that export promotion may not be efficiently using this mechanism for export growth.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Column (4) of",
+        "sec_num": null
+      },
+      {
+        "text": "The results in column (5) correspond to the sub-sample of firms that were exporters in 2006.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Column (4) of",
+        "sec_num": null
+      },
+      {
+        "text": "This sample arguably provides a superior test of whether export promotion in Latin America enhances export growth through the intensive margin of exporting firms. Although the relevant coefficient in (5) is positive, and slightly larger than the treatment coefficient in column (4), it is still not statistically significant at the 10% level (although it is significant at the 10.1% level).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Column (4) of",
+        "sec_num": null
+      },
+      {
+        "text": "Hence, the results do not fully support the view that export promotion operates through the intensive margin of firms' exports. To summarize the results in Table 3 , the use of export promotion services appears to be very significant in helping firms survive in export markets or become exporters, but it is not significant in causing firms to increase exports as a share of total sales. Table 3 is that it allows us to compare the impact of using export promotion services on different transition probabilities with respect to a common outcome (in the case of Table 3 , we use as a reference exiting from an export market).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 156,
+            "end": 163,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          },
+          {
+            "start": 388,
+            "end": 395,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          },
+          {
+            "start": 561,
+            "end": 568,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Column (4) of",
+        "sec_num": null
+      },
+      {
+        "text": "Its disadvantage is that it implicitly offers two firm transition choices that are not really available.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "The advantage of the multinomial logit estimator in",
+        "sec_num": null
+      },
+      {
+        "text": "A previously exporting firm cannot really chose to continue not to export or to enter the export market. Similarly, a previously non-exporting firm cannot really decide to exit the exporting market or to continue to export. Thus in Table 3a we report the results of two separate logit regressions. In the first one we explain the decision to stay (i.e., survive) in the export market in the sample of firms that were exporters in 2006, and in the second one we explain the decision to enter the export market in the sample of firms that were non-exporters in 2006. Table 4 tend to confirm the results of Table 3 . The probability of entering the export market and of survival in the export market is higher for those firms that use export promotion services.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 232,
+            "end": 240,
+            "text": "Table 3a",
+            "ref_id": "TABREF4"
+          },
+          {
+            "start": 565,
+            "end": 572,
+            "text": "Table 4",
+            "ref_id": "TABREF5"
+          },
+          {
+            "start": 604,
+            "end": 611,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "The advantage of the multinomial logit estimator in",
+        "sec_num": null
+      },
+      {
+        "text": "As argued earlier these results may suffer biases due to firms' self-selection into treatment. Table   5 provides results using a similar difference-in-difference estimator with propensity score matching. Panel 5a provides estimates using Kernel matching, panel 5b using stratification matching and panel 5c nearest neighbor matching. Each panel assesses the determinants of the probability of exit, remaining a non-exporter, survival, and entry, as well as changes in export intensity. Tables 5a-c are consistent with the Multinomial Logit results reported in Table 3 (and   the logit results in Table 4 ), although the results on export intensity are a bit stronger than those in Table 3 . EPA treatment significantly increases the probability of survival or entry and reduces the probability of remaining a non-exporter regardless of which propensity score matching we used.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 95,
+            "end": 104,
+            "text": "Table   5",
+            "ref_id": null
+          },
+          {
+            "start": 487,
+            "end": 604,
+            "text": "Tables 5a-c are consistent with the Multinomial Logit results reported in Table 3 (and   the logit results in Table 4",
+            "ref_id": "TABREF4"
+          },
+          {
+            "start": 682,
+            "end": 689,
+            "text": "Table 3",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Both logit regressions in",
+        "sec_num": null
+      },
+      {
+        "text": "Regarding export intensity, the relevant results appear in the last two rows of each panel. The penultimate row contains the results for the whole sample of firms, whereas the last row contains the results for the sub-sample of firms that were exporters in 2006. For the whole sample, only the Kernel Matching approach yields statistically significantly positive effects of exportpromotion treatment. For the sub-sample of exporters in the initial year of the sample, two out of the three matching techniques (Kernel and Stratification) yield statistically significant positive effects.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results in",
+        "sec_num": null
+      },
+      {
+        "text": "The aforementioned results seem to weakly contradict the findings of G\u00f6rg et al (2008) who in a sample of Irish firms found that grants tend to have an impact on the intensive margin, but not the extensive margin. Even though G\u00f6rg et al (2008) do not differentiate between entry and survival it seems unlikely that their results would become statistically significant if they were to differentiate between the two rationales for observing exporting firms.",
+        "cite_spans": [
+          {
+            "start": 69,
+            "end": 86,
+            "text": "G\u00f6rg et al (2008)",
+            "ref_id": "BIBREF9"
+          },
+          {
+            "start": 226,
+            "end": 243,
+            "text": "G\u00f6rg et al (2008)",
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results in",
+        "sec_num": null
+      },
+      {
+        "text": "In order to check whether the differences in results could partly be explained by institutional differences in the activities of export promotion agencies in Ireland and Latin American countries, we explore differences in the responses to a recent World Bank survey of export promotion agencies between Enterprise Ireland (Ireland's EPA) and the corresponding average across all LAC EPAs. 6 The results of these mean comparisons across key export promotion variables are provided in Table 6 . Enterprise Ireland's budget promotion is two orders of magnitude higher than the average for LAC EPAs. We know from that there are diminishing returns to EPA expenditure. Ireland may lie on a portion of the curve so flat that no level of government support can increase the probability that a firm will export. However, diminishing returns do not explain why our results on the intensive margin of Latin American exporting firms were weaker than the results from Ireland. That is, conditional on being an exporter in 2006, Latin American firms that received export promotion services also appear to have increased their shares of exports over total sales, although this partial correlation was not statistically significant in all model specifications.",
+        "cite_spans": [
+          {
+            "start": 389,
+            "end": 390,
+            "text": "6",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 483,
+            "end": 490,
+            "text": "Table 6",
+            "ref_id": "TABREF7"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Results in",
+        "sec_num": null
+      },
+      {
+        "text": "Enterprise Ireland also assigns top priority to increasing exports across all sectors and destinations, whereas Latin America's EPAs on average assign higher priority to encouraging non-traditional exports, as can be seen from Figure 1 . The focus on non-traditional exports can potentially be linked to the strong impact that export promotion activities have on entry in Latin American countries. Thus, differences in the institutional functioning of Enterprise Ireland and EPAs in Latin America could help explain the differences in results between the two studies.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 227,
+            "end": 235,
+            "text": "Figure 1",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Results in",
+        "sec_num": null
+      },
+      {
+        "text": "Concluding Remarks There is a growing literature on the impact of export promotion services and subsidies. The latter have generally found that export promotion tends to increase the exports of existing products to existing markets, rather than the \"extensive\" margin of exports. However, this literature has tended to rely on data on exporting firms or product-level trade flow data. There are a couple of exemptions, such as Bernard and Jensen (2004) and Gorg, Henry and Strobl (2008) , but these studies focused on developed countries (the U.S. and Ireland, respectively). Still, these studies found that export promotion is associated with the intensive margin, rather than with the extensive margin. This result could be potentially worrying, as the economic justification often given for the existence of government intervention through export promotion programs often relies on information asymmetries and externalities that should affect the fixed cost of exporting and not the variable costs. Thus, if export promotion programs are correcting these market failures, one should observe an impact of these programs on firms' decision to start exporting or surviving in export markets, rather than on their export levels. In other words, export growth should come through the firms' extensive rather than the intensive margin. The fact that early studies suggest that the programs tend to encourage exports through the intensive margin could raise questions regarding the social desirability of these programs.",
+        "cite_spans": [
+          {
+            "start": 427,
+            "end": 452,
+            "text": "Bernard and Jensen (2004)",
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 457,
+            "end": 486,
+            "text": "Gorg, Henry and Strobl (2008)",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Our econometric evidence from more than 2,000 Latin American firms between 2006 and 2010 suggests that fixed costs are at play, because we found that firms that were subjected to export promotion services prior to 2010 were more likely to enter into exporting or survive as exporters than firms that did not receive export promotion services. We found no robust evidence that exporting firms that received export promotion services experienced an increase in export intensity.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "The difference between our results and those for Ireland reported by Gorg, Henry and Strobl (2008) might be due to the differences in priorities and objectives pursued by the Latin American export promotion agencies. But they also suggest that the channels through which Latin American agencies operate tend to be more consistent with the type of market failures that economists think export promotion agencies should correct.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "Future work should further explore the potential heterogeneity that may exist across the geographic and sectoral dimensions. Indeed, the impact of export promotion services on export growth and the channels through which the services affect growth are also likely to vary across destination markets and products. Note: Group means reported. Export is a dummy for whether the firm exports, treatment is a dummy for whether the firm used EPA services over the previous 3 years. The last column gives the t-statistic on the difference between treated and non-treated firms in the change in the share of exporting firms from 2006-2010. A positive sign on the differences-in-differences t-statistic indicates that the change in the share of exporting firms from 2006-2010 was greater amongst treated firms (i.e. users of EPA services) than amongst non-treated firms (i.e. non-users of EPA services). The number of firms in each group is given in parentheses in the first column. Stars next to country names indicate statistically significant differences-in-differences. *** p<0.01, ** p<0.05, * p<0.1 Note: Group means reported. Exp_int is the firm's total exports as a fraction of total sales, treatment is a dummy for whether the firm used EPA services over the previous 3 years. The last column gives the t-statistic on the difference between treated and non-treated firms in the change in export intensity from 2006-2010. A positive sign on the differences-in-differences t-statistic indicates that the change in the change in export intensity from 2006-2010 was greater amongst treated firms (i.e. users of EPA services) than amongst non-treated firms (i.e. non-users of EPA services). The number of firms in each group is given in parentheses in the first column. Stars next to country names indicate statistically significant differences-in-differences. *** p<0.01, ** p<0.05, * p<0.1 Note: Multinomial logit and OLS coefficients reported. The sample in (5) is composed only of firms that exported in 2006. Nonexporter is the category for firms that did not export in 2006 or 2010, survival is the category for firms that exported in both 2006 and 2010, and entry is the category for firms that did not export in 2010 but not in 2006. MLogit coefficients are estimated relative to the base category of old exporter, which is for firms that exported in 2006 but not in 2010. \u0394exp_int is the change in the firm's total exports as a fraction of total sales between 2006 and 2010, treatment is a dummy for whether the firm used EPA services over the previous 3 years, \u0394size is the change in the log of the firm's full-time employment between 2006 and 2010, fdi is the change in foreign ownership of the firm as a share of total ownership between 2006 and 2010, web00 is a dummy for whether the firm did not have a website in either 2006 or 2010, web11 is a dummy for whether the firm had a website in both 2006 and 2010, and web01 is a dummy for whether the firm had a website in 2010 but not in 2006. Email00, email11, and email01 are similarly defined. RRR is the relative risk ratio of treatment, i.e. the probability of ending up in nonexporter, exporter, or new_exporter relative to the probability of ending up in old_exporter for treated vs. nontreated firms. Hence if RRR>1 for a given category, firms are more likely to be in that category relative to being in the base category if treated than if not treated. Robust standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0.1. N.A. = not applicable. 92 Note: Propensity score estimated using a logit on Size, FDI, Web, and Email. Size is the log of the firm's full-time employment, FDI is foreign ownership of the firm as a share of total ownership, Web is a dummy for whether the firm has a website, and Email is a dummy for whether the firm communicates with clients via email. Exit is a dummy for whether the firm exported in 2006 but not in 2010, Nonexporter is a dummy for whether the firm did not export in either 2006 or 2010, Survival is a dummy for whether the firm exported in both 2006 and 2010, Entry is a dummy for whether the firm exported in 2010 but not in 2006, and \u0394exp_int is the change in the firm's total exports as a fraction of total sales between 2006 and 2010. Separation of firms into treatment and control groups was done using three different matching methods: kernel, stratification (with four blocks), and nearest neighbor. Average treatment effect reported as difference in means between treatment and control groups. The last row in each table corresponds to estimations with the sub-sample of firms that were exporters in 2006. Bootstrapped standard errors were estimated with 50 repetitions. *** p<0.01, ** p<0.05, * p<0.1. Note: ** denotes significance at the 5% level, *** denotes significance at the 1% level. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "5",
+        "sec_num": null
+      },
+      {
+        "text": "The exceptions are Latin American and Caribbean agencies where on average the most important objective is to promote non-traditional exports, underlying the importance of diversifying the exporter base in this region.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Because a previously exporting firm cannot really enter the export market or continue not to export, we also model the decision to survive in a sample of previously exporting firms, as well as the decision to enter the export market in the sample of firms which were initially non-exporters.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Indirect exports are defined as sales from a firm to an intermediary that subsequently exports the same product.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "The results from this Logit estimation are available upon request. We also use as determinants of treatment whether the firm was an exporter in 2006 and the number of years that the firm has been an exporter. The former is highly significant in the logit equation, but not the latter. Treatment effects results are qualitatively identical to the ones reported in the next section.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Note that the program studied inG\u00f6rg et al (2008) although run by the same agency (Entreprise Ireland which before 1998 was known as Forbairt) is not a program aimed at promoting exports, but rather at encouraging investment in technology and training.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "China's Growing Role in World Trade",
+        "authors": [
+          {
+            "first": "Mary",
+            "middle": [],
+            "last": "Amiti",
+            "suffix": ""
+          },
+          {
+            "first": "Caroline",
+            "middle": [],
+            "last": "Freund",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Amiti, Mary and Caroline Freund (2010). \"Anatomy of China's Export Growth.\" In Robert Feenstra and Shang-Jin Wei, eds., China's Growing Role in World Trade. The University of Chicago Press.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Why do some firms export?",
+        "authors": [
+          {
+            "first": "Andrew",
+            "middle": [],
+            "last": "Bernard",
+            "suffix": ""
+          },
+          {
+            "first": "Bradford",
+            "middle": [],
+            "last": "Jensen",
+            "suffix": ""
+          }
+        ],
+        "year": 2004,
+        "venue": "Review of Economics and Statistics",
+        "volume": "86",
+        "issue": "2",
+        "pages": "561--569",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bernard, Andrew and Bradford Jensen (2004). \"Why do some firms export?\" Review of Economics and Statistics 86(2), 561-569.",
+        "links": null
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Firms in International Trade",
+        "authors": [
+          {
+            "first": "Andrew",
+            "middle": [],
+            "last": "Bernard",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "Bradford"
+            ],
+            "last": "Jensen",
+            "suffix": ""
+          },
+          {
+            "first": "Stephen",
+            "middle": [
+              "J"
+            ],
+            "last": "Redding",
+            "suffix": ""
+          },
+          {
+            "first": "Peter",
+            "middle": [
+              "K"
+            ],
+            "last": "Schott",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Journal of Economic Perspectives",
+        "volume": "21",
+        "issue": "3",
+        "pages": "105--135",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Bernard, Andrew, J. Bradford Jensen, Stephen J. Redding, and Peter K. Schott. 2007. \"Firms in International Trade.\" Journal of Economic Perspectives, American Economic Association 21(3): 105-30.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "The role of extensive and intensive margins and export growth",
+        "authors": [
+          {
+            "first": "Tibor",
+            "middle": [],
+            "last": "Besedes",
+            "suffix": ""
+          },
+          {
+            "first": "Thomas",
+            "middle": [],
+            "last": "Prusa",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "",
+        "volume": "13628",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Besedes, Tibor, and Thomas Prusa (2007). The role of extensive and intensive margins and export growth. NBER 13628.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Evaluation methods for nonexperimental data",
+        "authors": [
+          {
+            "first": "Richard",
+            "middle": [],
+            "last": "Blundell",
+            "suffix": ""
+          },
+          {
+            "first": "Monica",
+            "middle": [
+              "Costa"
+            ],
+            "last": "Dias",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Fiscal Studies",
+        "volume": "21",
+        "issue": "",
+        "pages": "427--468",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Blundell, Richard and Monica Costa Dias (2000). \"Evaluation methods for nonexperimental data.\" Fiscal Studies 21, 427-468.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Export dynamics in Colombia : firm level evidence",
+        "authors": [
+          {
+            "first": "Jonathan",
+            "middle": [],
+            "last": "Eaton",
+            "suffix": ""
+          },
+          {
+            "first": "Marcela",
+            "middle": [],
+            "last": "Eslava",
+            "suffix": ""
+          },
+          {
+            "first": "Maurice",
+            "middle": [],
+            "last": "Kugler",
+            "suffix": ""
+          },
+          {
+            "first": "Samuel",
+            "middle": [],
+            "last": "Kortum",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "NBER working papers 13531",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Eaton, Jonathan, Marcela Eslava, Maurice Kugler, Samuel Kortum (2007). \"Export dynamics in Colombia : firm level evidence.\" NBER working papers 13531, Cambridge, Massachusetts.",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "An Anatomy of International Trade: Evidence from French Firms",
+        "authors": [
+          {
+            "first": "Jonathan",
+            "middle": [],
+            "last": "Eaton",
+            "suffix": ""
+          },
+          {
+            "first": "Samuel",
+            "middle": [],
+            "last": "Kortum",
+            "suffix": ""
+          },
+          {
+            "first": "Francis",
+            "middle": [],
+            "last": "Kramarz",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Econometrica",
+        "volume": "79",
+        "issue": "5",
+        "pages": "1453--1498",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Eaton, Jonathan, Samuel Kortum, and Francis Kramarz. 2011. \"An Anatomy of International Trade: Evidence from French Firms.\" Econometrica 79(5), 1453-1498.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Export Growth in Developing Countries: Market Entry and Bilateral Trade Flows",
+        "authors": [
+          {
+            "first": "Simon",
+            "middle": [],
+            "last": "Evenett",
+            "suffix": ""
+          },
+          {
+            "first": "Anthony",
+            "middle": [],
+            "last": "Venables",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Evenett, Simon and Anthony Venables (2002). \"Export Growth in Developing Countries: Market Entry and Bilateral Trade Flows.\" University of Bern working paper, mimeo.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Exploring the Intensive and Extensive Margins of World Trade",
+        "authors": [
+          {
+            "first": "Gabriel",
+            "middle": [],
+            "last": "Felbermayr",
+            "suffix": ""
+          },
+          {
+            "first": "Wilhelm",
+            "middle": [],
+            "last": "Kohler",
+            "suffix": ""
+          }
+        ],
+        "year": 2006,
+        "venue": "Review of World Economics",
+        "volume": "142",
+        "issue": "4",
+        "pages": "642--674",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Felbermayr, Gabriel and Wilhelm Kohler (2006). \"Exploring the Intensive and Extensive Margins of World Trade.\" Review of World Economics 142(4), 642-674.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Grant Support and Exporting Activity",
+        "authors": [
+          {
+            "first": "Holger",
+            "middle": [],
+            "last": "G\u00f6rg",
+            "suffix": ""
+          },
+          {
+            "first": "Michael",
+            "middle": [],
+            "last": "Henry",
+            "suffix": ""
+          },
+          {
+            "first": "Eric",
+            "middle": [],
+            "last": "Strobl",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Review of Economics and Statistics",
+        "volume": "90",
+        "issue": "1",
+        "pages": "168--174",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "G\u00f6rg, Holger, Michael Henry, and Eric Strobl (2008). \"Grant Support and Exporting Activity.\" Review of Economics and Statistics 90(1), 168-174.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Estimating Trade Flows: Trading Partners and Trading Volumes",
+        "authors": [
+          {
+            "first": "Elhanan",
+            "middle": [],
+            "last": "Helpman",
+            "suffix": ""
+          },
+          {
+            "first": "Marc",
+            "middle": [],
+            "last": "Melitz",
+            "suffix": ""
+          },
+          {
+            "first": "Yona",
+            "middle": [],
+            "last": "Rubinstein",
+            "suffix": ""
+          }
+        ],
+        "year": 2008,
+        "venue": "Quarterly Journal of Economics",
+        "volume": "123",
+        "issue": "2",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Helpman, Elhanan, Marc Melitz and Yona Rubinstein (2008). \"Estimating Trade Flows: Trading Partners and Trading Volumes.\" Quarterly Journal of Economics 123(2).",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Export promotion agencies: do they work?",
+        "authors": [
+          {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Lederman",
+            "suffix": ""
+          },
+          {
+            "first": "Marcelo",
+            "middle": [],
+            "last": "Olarreaga",
+            "suffix": ""
+          },
+          {
+            "first": "Lucy",
+            "middle": [],
+            "last": "Payton",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "Journal of Development Economics",
+        "volume": "91",
+        "issue": "2",
+        "pages": "257--265",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lederman, Daniel, Marcelo Olarreaga and Lucy Payton (2010). \"Export promotion agencies: do they work?\" Journal of Development Economics 91(2), 257-265.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Entrepreneurship and the Extensive Margin in Export Growth: A Microeconomic Accounting of Costa Rica's Export Growth during 1997-2007. The World Bank",
+        "authors": [
+          {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Lederman",
+            "suffix": ""
+          },
+          {
+            "first": "Andr\u00e9s",
+            "middle": [],
+            "last": "Rodriguez-Clare",
+            "suffix": ""
+          },
+          {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Xu",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lederman, Daniel, Andr\u00e9s Rodriguez-Clare and Daniel Xu (2010). Entrepreneurship and the Extensive Margin in Export Growth: A Microeconomic Accounting of Costa Rica's Export Growth during 1997-2007. The World Bank. Policy Research Working Paper 5376.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "The Happy Few: The Internationalization of European Firms",
+        "authors": [
+          {
+            "first": "Thierry",
+            "middle": [],
+            "last": "Mayer",
+            "suffix": ""
+          },
+          {
+            "first": "I",
+            "middle": [
+              "P"
+            ],
+            "last": "Gianmarco",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Ottaviano",
+            "suffix": ""
+          }
+        ],
+        "year": 2007,
+        "venue": "Bruegel Blueprint",
+        "volume": "3",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Mayer, Thierry, and Gianmarco I.P. Ottaviano. 2007. \"The Happy Few: The Internationalization of European Firms.\" Bruegel Blueprint 3, Brussels, Belgium.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "Objectives of Export Promotion Agencies by regionNote: The vertical axis shows the percentage of responses that correspond to each of the categories in the horizontal axis. A value of 1 in the horizontal axis indicates that the agency's goal is to promote overall exports; a value of 2 indicates that the goal of the agency is to promote non-traditional exports only; a value of 3 indicates that the agency aims at promotion specific sectors, and a value of 4 indicates that the agency aims at promotion industrial clusters and other objectives.",
+        "num": null,
+        "uris": null,
+        "fig_num": "1",
+        "type_str": "figure"
+      },
+      "TABREF0": {
+        "text": "provides a first look at the data by showing the share of exporters in 2006 and 2010among firms that used services offered by EPAs and firms that did not. There is a larger share of 6 exporters in all countries among firms that have used EPA services. For example, in Argentina 41",
+        "num": null,
+        "html": null,
+        "content": "<table/>",
+        "type_str": "table"
+      },
+      "TABREF2": {
+        "text": "Share of Exporting Treated vs. Non-treated Firms over Time(Panel Data)",
+        "num": null,
+        "html": null,
+        "content": "<table><tr><td>Country</td><td>Year</td><td>Treatment=1</td><td>Share of</td><td>Diff-in-</td></tr><tr><td/><td/><td>if firms uses</td><td>exporters</td><td>diff t-</td></tr><tr><td/><td/><td>export promotion</td><td/><td>statistic</td></tr><tr><td/><td/><td>services</td><td/><td/></tr><tr><td>Argentina***</td><td>2006</td><td>0</td><td>0.414</td><td/></tr><tr><td>(1788)</td><td>2010</td><td>0</td><td>0.370</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.806</td><td/></tr><tr><td>(322)</td><td>2010</td><td>1</td><td>0.813</td><td>22.43</td></tr><tr><td>Bolivia***</td><td>2006</td><td>0</td><td>0.196</td><td/></tr><tr><td>(878)</td><td>2010</td><td>0</td><td>0.152</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.355</td><td/></tr><tr><td>(96)</td><td>2010</td><td>1</td><td>0.569</td><td>42.80</td></tr><tr><td>Chile***</td><td>2006</td><td>0</td><td>0.241</td><td/></tr><tr><td>(1796)</td><td>2010</td><td>0</td><td>0.207</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.614</td><td/></tr><tr><td>(250)</td><td>2010</td><td>1</td><td>0.783</td><td>19.63</td></tr><tr><td>Colombia</td><td>2006</td><td>0</td><td>0.209</td><td/></tr><tr><td>(1610)</td><td>2010</td><td>0</td><td>0.236</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.645</td><td/></tr><tr><td>(332)</td><td>2010</td><td>1</td><td>0.773</td><td>1.52</td></tr><tr><td>Ecuador***</td><td>2006</td><td>0</td><td>0.203</td><td/></tr><tr><td>(943)</td><td>2010</td><td>0</td><td>0.086</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.444</td><td/></tr><tr><td>(79)</td><td>2010</td><td>1</td><td>0.615</td><td>2.65</td></tr><tr><td>Peru***</td><td>2006</td><td>0</td><td>0.299</td><td/></tr><tr><td>(1325)</td><td>2010</td><td>0</td><td>0.251</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.667</td><td/></tr><tr><td>(307)</td><td>2010</td><td>1</td><td>0.811</td><td>11.39</td></tr><tr><td>Uruguay***</td><td>2006</td><td>0</td><td>0.274</td><td/></tr><tr><td>(1111)</td><td>2010</td><td>0</td><td>0.261</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.765</td><td/></tr><tr><td>(113)</td><td>2010</td><td>1</td><td>0.772</td><td>7.76</td></tr></table>",
+        "type_str": "table"
+      },
+      "TABREF3": {
+        "text": "Export Intensity of Treated vs. Non-treated Firms over Time(Panel Data)",
+        "num": null,
+        "html": null,
+        "content": "<table><tr><td>Country</td><td>Year</td><td>Treatment=1</td><td>Share</td><td>Diff-in-</td></tr><tr><td/><td/><td>if firms uses export</td><td>of exports</td><td>diff t-statistic</td></tr><tr><td/><td/><td>promotion</td><td>in total</td><td/></tr><tr><td/><td/><td>services</td><td>sales</td><td/></tr><tr><td>Argentina***</td><td>2006</td><td>0</td><td>0.103</td><td/></tr><tr><td>(1788)</td><td>2010</td><td>0</td><td>0.085</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.221</td><td/></tr><tr><td>(322)</td><td>2010</td><td>1</td><td>0.221</td><td>10.79</td></tr><tr><td>Bolivia***</td><td>2006</td><td>0</td><td>0.086</td><td/></tr><tr><td>(878)</td><td>2010</td><td>0</td><td>0.048</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.135</td><td/></tr><tr><td>(96)</td><td>2010</td><td>1</td><td>0.262</td><td>19.82</td></tr><tr><td>Chile***</td><td>2006</td><td>0</td><td>0.069</td><td/></tr><tr><td>(1796)</td><td>2010</td><td>0</td><td>0.051</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.150</td><td/></tr><tr><td>(250)</td><td>2010</td><td>1</td><td>0.249</td><td>11.57</td></tr><tr><td>Colombia</td><td>2006</td><td>0</td><td>0.062</td><td/></tr><tr><td>(1610)</td><td>2010</td><td>0</td><td>0.054</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.182</td><td/></tr><tr><td>(332)</td><td>2010</td><td>1</td><td>0.182</td><td>0.88</td></tr><tr><td>Ecuador</td><td>2006</td><td>0</td><td>0.062</td><td/></tr><tr><td>(943)</td><td>2010</td><td>0</td><td>0.025</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.123</td><td/></tr><tr><td>(79)</td><td>2010</td><td>1</td><td>0.192</td><td>0.83</td></tr><tr><td>Peru***</td><td>2006</td><td>0</td><td>0.133</td><td/></tr><tr><td>(1325)</td><td>2010</td><td>0</td><td>0.085</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.278</td><td/></tr><tr><td>(307)</td><td>2010</td><td>1</td><td>0.348</td><td>8.99</td></tr><tr><td>Uruguay***</td><td>2006</td><td>0</td><td>0.127</td><td/></tr><tr><td>(1110)</td><td>2010</td><td>0</td><td>0.119</td><td/></tr><tr><td/><td>2006</td><td>1</td><td>0.299</td><td/></tr><tr><td>(113)</td><td>2010</td><td>1</td><td>0.326</td><td>5.35</td></tr></table>",
+        "type_str": "table"
+      },
+      "TABREF4": {
+        "text": "Determinants of Change in Export Status and Export Intensity over Time(Panel Data)",
+        "num": null,
+        "html": null,
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr><tr><td/><td>Nonexport er</td><td>Survival</td><td>Entry</td><td colspan=\"2\">\u0394exp_int \u0394exp_int</td></tr><tr><td>Estimator</td><td>MLogit</td><td>M Logit</td><td>MLogit</td><td>OLS</td><td>OLS</td></tr><tr><td>treatment</td><td>-1.113***</td><td>1.202***</td><td>0.615**</td><td>0.0147</td><td>0.0355</td></tr><tr><td/><td>(0.252)</td><td>(0.239)</td><td>(0.277)</td><td colspan=\"2\">(0.0151) (0.0183)</td></tr><tr><td>\u0394size</td><td>0.625*** (0.128)</td><td>0.342** (0.137)</td><td>0.817*** (0.168)</td><td colspan=\"2\">0.00513 (0.00897) (0.0237) 0.0017</td></tr><tr><td>\u0394fdi</td><td>-0.00488</td><td>-0.00399</td><td>0.00571</td><td>0.000168</td><td>0.000</td></tr><tr><td>web00</td><td>(0.00471) -14.00</td><td>(0.00497) -13.82</td><td colspan=\"3\">(0.00558) (0.00024) (0.00048) -14.15 -0.0703 -0.3137**</td></tr><tr><td/><td>(642.3)</td><td>(642.3)</td><td>(642.3)</td><td colspan=\"2\">(0.0409) (0.1121)</td></tr><tr><td>web11</td><td>-0.0671 (826.1)</td><td>-0.879 (826.1)</td><td>-1.618 (826.1)</td><td colspan=\"2\">-0.0533 (0.0396) (0.1010) -0.1576</td></tr><tr><td>web01</td><td>-13.47</td><td>-14.81</td><td>-14.04</td><td colspan=\"2\">-0.0836 -0.5384**</td></tr><tr><td/><td>(642.3)</td><td>(642.3)</td><td>(642.3)</td><td colspan=\"2\">(0.0467) (0.1726)</td></tr><tr><td>email00</td><td>0.174 (0.293)</td><td>1.214*** (0.362)</td><td>1.245** (0.502)</td><td colspan=\"2\">0.0368* 0.1159** (0.0168) (0.0473)</td></tr><tr><td>email11</td><td>1.068***</td><td>0.587</td><td>1.141**</td><td>0.0299**</td><td>0.0196</td></tr><tr><td>email01</td><td>(0.346) 0.590*</td><td>(0.428) 0.389</td><td>(0.566) 1.041*</td><td colspan=\"2\">(0.00966) (0.03397) 0.0345** 0.1094**</td></tr><tr><td/><td>(0.340)</td><td>(0.420)</td><td>(0.553)</td><td colspan=\"2\">(0.0130) (0.0435)</td></tr><tr><td>Constant</td><td>15.77 (642.3)</td><td>13.79 (642.3)</td><td>13.00 (642.3)</td><td colspan=\"2\">0.0343 (0.0444) (0.1321) 0.1551</td></tr><tr><td>Obs.</td><td>2,119</td><td>2,119</td><td>2,119</td><td>2,118</td><td>659</td></tr><tr><td>RRR of</td><td>0.328***</td><td>3.325***</td><td>1.849**</td><td>N.A.</td><td>N.A.</td></tr><tr><td>treatment</td><td>(0.089)</td><td>(0.795)</td><td>(0.512)</td><td/><td/></tr></table>",
+        "type_str": "table"
+      },
+      "TABREF5": {
+        "text": "Determinants of Survival in and Entry into Export Markets",
+        "num": null,
+        "html": null,
+        "content": "<table><tr><td/><td>(1)</td><td>(2)</td></tr><tr><td/><td>Survival</td><td>Entry</td></tr><tr><td>Estimator</td><td>Logit</td><td>Logit</td></tr><tr><td>treatment</td><td>1.215***</td><td>1.715***</td></tr><tr><td>\u0394size</td><td>(0.241) 0.314**</td><td>(0.206) 0.212</td></tr><tr><td/><td>(0.147)</td><td>(0.129)</td></tr><tr><td>\u0394fdi</td><td>-0.00319 (0.00467)</td><td>0.0105** (0.00436)</td></tr><tr><td>web00</td><td>-13.94</td><td>0.0897</td></tr><tr><td>web11</td><td>(590.2) 0.135</td><td>(0.660) -1.355</td></tr><tr><td/><td>(982.2)</td><td>(1.213)</td></tr><tr><td>web01</td><td>-14.84</td><td>-0.343</td></tr><tr><td>email00</td><td>(590.2) 1.128***</td><td>(0.810) 1.095**</td></tr><tr><td/><td>(0.370)</td><td>(0.441)</td></tr><tr><td>email11</td><td>0.381 (0.438)</td><td>0.120 (0.482)</td></tr><tr><td>email01</td><td>0.343</td><td>0.498</td></tr><tr><td>Constant</td><td>(0.436) 13.99</td><td>(0.472) -3.038***</td></tr><tr><td/><td>(590.2)</td><td>(0.773)</td></tr><tr><td>Obs.</td><td>659</td><td>1460</td></tr><tr><td colspan=\"3\">Note: Logit estimator used in both columns.</td></tr><tr><td colspan=\"3\">The sample in (1) is composed only of firms that exported in 2006. The sample in (2) is composed</td></tr><tr><td colspan=\"3\">only of firms that did not export in 2006. All</td></tr><tr><td colspan=\"3\">other control variables are as in Table 3. Robust standard errors in parentheses. *** p&lt;0.01,</td></tr><tr><td colspan=\"2\">** p&lt;0.05, * p&lt;0.1.</td><td/></tr></table>",
+        "type_str": "table"
+      },
+      "TABREF6": {
+        "text": "Treatment Effects of EPAs (Kernel Matching)",
+        "num": null,
+        "html": null,
+        "content": "<table><tr><td>Outcome</td><td>Treatment</td><td>Control</td><td>Average</td><td>Bootstrapped</td><td>T-Statistic</td></tr><tr><td>Variable</td><td>Group</td><td>Group</td><td>Treatment Effect on</td><td>Standard Errors</td><td/></tr><tr><td/><td/><td/><td>Outcome</td><td/><td/></tr><tr><td>Exit</td><td>401</td><td>1750</td><td>-0.017</td><td>0.016</td><td>-1.00</td></tr><tr><td>Nonexporter</td><td>401</td><td>1750</td><td>-0.409</td><td>0.023</td><td>-17.61***</td></tr><tr><td>Survival</td><td>401</td><td>1750</td><td>0.363</td><td>0.025</td><td>14.75***</td></tr><tr><td>Entry</td><td>401</td><td>1750</td><td>0.062</td><td>0.020</td><td>3.15***</td></tr><tr><td>\u0394exp_int</td><td>401</td><td>1750</td><td>0.019</td><td>0.010</td><td>1.97**</td></tr><tr><td>\u0394exp_int</td><td>265</td><td>407</td><td>0.040</td><td>0.017</td><td>2.33**</td></tr><tr><td/><td colspan=\"4\">Table 5b: Treatment Effects of EPAs (Stratification Matching)</td><td/></tr><tr><td>Outcome</td><td>Treatment</td><td>Control</td><td>Average</td><td>Bootstrapped</td><td>T-Statistic</td></tr><tr><td>Variable</td><td>Group</td><td>Group</td><td>Treatment Effect on</td><td>Standard Errors</td><td/></tr><tr><td/><td/><td/><td>Outcome</td><td/><td/></tr><tr><td>Exit</td><td>401</td><td>1756</td><td>-0.020</td><td>0.016</td><td>-1.26</td></tr><tr><td>Nonexporter</td><td>401</td><td>1756</td><td>-0.391</td><td>0.021</td><td>-19.03***</td></tr><tr><td>Survival</td><td>401</td><td>1756</td><td>0.348</td><td>0.024</td><td>14.33***</td></tr><tr><td>Entry</td><td>401</td><td>1756</td><td>0.063</td><td>0.018</td><td>3.47***</td></tr><tr><td>\u0394exp_int</td><td>401</td><td>1756</td><td>0.019</td><td>0.011</td><td>1.80</td></tr><tr><td>\u0394exp_int</td><td>265</td><td>412</td><td>0.039</td><td>0.017</td><td>2.35**</td></tr><tr><td/><td colspan=\"4\">Table 5c: Treatment Effects of EPAs (Nearest Neighbor Matching)</td><td/></tr><tr><td>Outcome</td><td>Treatment</td><td>Control</td><td>Average</td><td>Bootstrapped</td><td>T-Statistic</td></tr><tr><td>Variable</td><td>Group</td><td>Group</td><td>Treatment Effect on</td><td>Standard Errors</td><td/></tr><tr><td/><td/><td/><td>Outcome</td><td/><td/></tr><tr><td>Exit</td><td>401</td><td>1134</td><td>-0.000</td><td>0.018</td><td>-0.01</td></tr><tr><td>Nonexporter</td><td>401</td><td>1134</td><td>-0.403</td><td>0.034</td><td>-11.96***</td></tr><tr><td>Survival</td><td>401</td><td>1134</td><td>0.344</td><td>0.038</td><td>9.10***</td></tr><tr><td>Entry</td><td>401</td><td>1134</td><td>0.059</td><td>0.023</td><td>2.58***</td></tr><tr><td>\u0394exp_int</td><td>401</td><td>1133</td><td>0.014</td><td>0.012</td><td>1.15</td></tr><tr><td>\u0394exp_int</td><td>265</td><td>261</td><td>0.035</td><td>0.018</td><td>1.</td></tr></table>",
+        "type_str": "table"
+      },
+      "TABREF7": {
+        "text": "Enterprise Ireland vs. Latin American EPAs",
+        "num": null,
+        "html": null,
+        "content": "<table><tr><td>Variable</td><td>Description</td><td colspan=\"2\">Value for Ireland Average for LAC</td></tr><tr><td>EPA budget</td><td>per capita EPA budget, 2005-2010</td><td>99.44</td><td>0.78</td></tr><tr><td>per capita***</td><td>average</td><td/><td/></tr><tr><td>Promote all</td><td>strategy is to increase exports</td><td>1</td><td>2</td></tr><tr><td>sectors and</td><td>across all sectors and destinations,</td><td/><td/></tr><tr><td>destination**</td><td>ranked from 1 to 8 (1 is high)</td><td/><td/></tr><tr><td>Promote new</td><td>strategy is to diversify exports by</td><td>4</td><td>3</td></tr><tr><td>destinations**</td><td>encouraging new destinations,</td><td/><td/></tr><tr><td/><td>ranked from 1 to 8 (1 is high)</td><td/><td/></tr><tr><td>Attract</td><td>strategy is to attract investments</td><td>7</td><td>4</td></tr><tr><td>FDI***</td><td>by export-oriented multinationals,</td><td/><td/></tr><tr><td/><td>ranked from 1 to 8 (1 is high)</td><td/><td/></tr></table>",
+        "type_str": "table"
+      }
+    }
+  }
+}

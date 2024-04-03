@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04140: These data are augmented with data from other sources such as offering circulars, prospectus, surveys of investment banks, brokers, and other financial advisors, news sources, trade publications, and wires.\n\ns_04190: which implies that, as long as C is not too large, dE*/dnh > 0.1l We can state the following proposition.\n\ns_04240: This is an example of an information externality, where monitoring by one party conveys information to another.\n\ns_04290: (2001) who study the impact of oil price shocks on Japanese monetary policy and macro-economy; as well as Cunado and Gracia (2005) who conduct cointegration and Granger causality tests for six Asian economies 3 .\n\ns_04340: This is indeed the case, as can be seen from column (4)-(6) of Table 3 .\n\ns_04390: Piermartini and Budetta (2009) survey 58 EIAs with TBT provisions.\n\ns_04440: Column 4 conditions on remitting at all 2,003 Notes: Robust standard errors in parentheses, clustered at the individual level.\n\ns_04490: 16 Panel A of Table 7 shows that there is a significant positive association between the intensity of perceived competition and the relevance of all theories.\n\ns_04540: (2009) could be that we are constrained by data which does not allow us to separate out the effects of parental influence, and that their estimate of HOI, just like their estimate of IEO, contains an underestimate of the true inequality of opportunity.\n\ns_04590: In other words, there seems to be, at least for the United States, a non-trivial correlation between orthogonal innovations in an SVAR and private forecasts.\n\ns_04640: In a study investigating the correlation between socioeconomic status and malnutrition among children under the age of 5 in South Africa, Zere and McIntyre (2003) analyzed household income and expenditure survey data and found that stunting and wasting were most highly concentrated in the poorest regions of the country.\n\ns_04690: The key findings are robust to the use of data on the number of bilateral Mergers\\&Acquisitions transactions.\n\ns_04740: While the impact of the HSAA has to be estimated based on time variation with controls and fixed effects as needed, comparing between reform and non-reform states provides some illustration of the data.\n\ns_04790: We draw some confidence from the fact that these are secondary data and we are comparing its estimates to those from the SES dataset, with its temporal variation in wages consistent with the estimated model.\n\ns_04840: This study set out to go one step farther than existing studies by exploring the composition of government spending in addition to total government spending, the latter having received a significant amount of attention in the literature.\n\ns_04890: The second instrument follows the recent literature focused on the evaluation of infrastructure investment.\n\ns_04940: This would reduce our sample size considerably since we only have up to eight time series observations, and the series are often incomplete.\n\ns_04990: A recent literature has developed measures of REER that correct for GVC participation, generally defined as value-added REER Johnosn, 2012, and Bayoumi et al., 2013) .\n\ns_05040: Section 3 presents the empirical methodology and section 4 discusses the econometric results.\n\ns_05090: As this paper corroborates and other research has found (Vollmer, Harttgen, Subramanyam, et al., 2014) , ECD does not necessarily improve simply because of economic growth.\n\ns_05140: The results of the simulation are shown in the following figures.\n\ns_05190: Panel A present estimated coefficients from non-linear least square specifications where \"6 Month Subsidy\" is the parent's random assignment status and 6 Month Subsidy*Ineligible is the interaction of these two variables.\n\ns_05240: 12 See Estache (2016) for a recent survey.\n\ns_05290: Simulations show that adoption of any of the above formulae would tend to improve distribution in favor of low income and educationally lagging states.\n\ns_05340: Section 3 presents the data."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7OjlMB4jpiURO5XjM9AVtv9mAY6",
+    "object": "chat.completion",
+    "created": 1682884401,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1151,
+      "completion_tokens": 74,
+      "total_tokens": 1225
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04640\", \"data_mentioned\": true, \"reason\": \"South Africa\"}, {\"sent_id\": \"s_04840\", \"data_mentioned\": true, \"reason\": \"government spending\"}, {\"sent_id\": \"s_05090\", \"data_mentioned\": true, \"reason\": \"ECD\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04640\", \"data_mentioned\": true, \"reason\": \"South Africa\"}, {\"sent_id\": \"s_04840\", \"data_mentioned\": true, \"reason\": \"government spending\"}, {\"sent_id\": \"s_05090\", \"data_mentioned\": true, \"reason\": \"ECD\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06917: The following analysis is built on the most widely used measure of poverty, namely the headcount index given by the proportion of the population living in households with real consumption or income per person below a predetermined poverty line.\n\ns_06967: We continue to impose (as in Das and others (2004a) ) the following assumptions:\n\ns_07017: The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors.\n\ns_07067: However, the argument held by Argentina showed that had the DIEMs not been in place, imports from all origins would have risen, as it happened between 1991 and 1993.\n\ns_07117: This may reflect collinearity with years of education combined with nonlinearity in the relationship.\n\ns_07167: This paper examines the factors that affect an institutional investor's choice of investment security, i.e.\n\ns_07217: 8 Further evidence of the exogeneity of study group assignment is provided by a regression of a dummy variable for lottery winners on all of the variables in the table.\n\ns_07267: Table 4 summarizes the patterns in the commitments made by the 16 transition economies.\n\ns_07317: We use several methods to deal with this endogeneity problem.\n\ns_07367: The manifest data for Customs is also available to the cargo handling operator in electronic format, eliminating data capture by the latter and improving planning and operational processes.\n\ns_07417: -This is tentative as the results are based on two separate regressions.\n\ns_07467: Also, we concentrate on the potential trade off existing between pure grants and bilateral ODA debt forgiveness,5 and we limit our analysis to the SPA countries, mainly because of data availability.\n\ns_07517: For example, in a country where only x% of the work force contributes every month, and where job rotation between the covered and uncovered segment is such that all workers pass through the covered sector at least once in their working life, then we would expect the ratio of registered persons to contributors to be close to (1/x) in the steady state.\n\ns_07567: Using several estimation methods including modified control group approach in which the initial conditions and internal and external shocks were controlled.\n\ns_07617: Nationally, the electric power industry reports a 7.5 percent drop in unit energy requirements during 1980/85 (Table 11-B) even though coal consumption per kwh for large power plants (6000 kw and above), which produce a large share of total power output, declined by only 3.6 percent during the same period (Ene gy 1986, p. xxx].\n\ns_07667: A pragmatic approach to debt restructuring which combines the relatively recent feature of debt and debt service reduction (DDSi) and the support of official creditors is commonly refefred to as the \"Brady Plan\".\n\ns_07717: The same procedure is followed to compute cols.\n\ns_07767: The first step in the methodology is to estimate the 2 Because the decomposition calls for a detailed breakdown of the components of the deficit and because this detailed information is not necessarily consistent with the \"financing-based\" deficit measure, we choose to use the conventional measure of the deficit.\n\ns_07817: These observations were removed from the data set and the model was reestimated to evaluate their influence on the regression results.\n\ns_07867: The reports would be concise and action oriented and will include: progress achieved against agreed implementation and disbursement schedules and key performance indicators; review of the status of procurement against the previously-agreed schedule of procurement implementation, and an updated procurement plan; work programs and cost estimates for the following quarter; issues and problems expected to arise; measures proposed to deal with these problems; comments on progress in resolving previous issues; and the status of institutional audits (para.\n\ns_07917: t K't -K' 0 (l-a)t + E (l-fp)(l+r)s(Kt+l-Kt+6Kt)(l-a)t-.\n\ns_07967: The price of water charged by the vendors was effectively an upper bound on the amount respondents would bid for water; respondents were not willing to pay more than the price of water charged by vendors because the water provided by vendors was perceived to be of good quality and was generally readily available.\n\ns_08017: According to CBR statistics, the quality of the banks' loan portfolios is low, with loans classified as \"standard\" accounting for a mere 48.2 percent of the total outstanding loan portfolio, compared to 90.7 percent two years earlier.\n\ns_08067: A systematic review of electricity consumption subsidies in 22 countries reached a conclusion that an IBT, the most common tariff approach to providing subsidies, tends to have high coverage of the poor 14 According to EPCG, if old debts are excluded, the collection ratio varied between 62.4 and 89.4 percent between 1999 and 2004, and in 2004 it varied between 69 and 100 percent by region.\n\ns_08117: Analytically, a simple illustration can be provided as follows."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7grYsP48iuasrUsw0yyPHJOlsAY",
+    "object": "chat.completion",
+    "created": 1682885525,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1321,
+      "completion_tokens": 77,
+      "total_tokens": 1398
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08017\", \"data_mentioned\": true, \"reason\": \"CBR statistics\"}, {\"sent_id\": \"s_08067\", \"data_mentioned\": true, \"reason\": \"electricity consumption subsidies\"}, {\"sent_id\": \"s_08117\", \"data_mentioned\": true, \"reason\": \"simple illustration\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08017\", \"data_mentioned\": true, \"reason\": \"CBR statistics\"}, {\"sent_id\": \"s_08067\", \"data_mentioned\": true, \"reason\": \"electricity consumption subsidies\"}, {\"sent_id\": \"s_08117\", \"data_mentioned\": true, \"reason\": \"simple illustration\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

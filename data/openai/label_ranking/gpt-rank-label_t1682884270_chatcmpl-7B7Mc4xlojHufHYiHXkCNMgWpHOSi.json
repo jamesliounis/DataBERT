@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04287: In accordance with these results, further analysis is based on the original realized volatility and once differenced industrial production series (denoted and ) in order to enable meaningful regression results.\n\ns_04337: We document this shift by comparing enrollment patterns across several dimensions: in public primary schools before and after the reform, across primary schools where fees were abolished versus secondary schools where fees remain, and between public versus private primary schools -analogous to a triple-differences estimator.\n\ns_04387: The existing literature (see, among others, Czubala et al.\n\ns_04437: The baseline survey collected information on demographic background, labor market status, remitting behavior, and the quality of their relationship with their most closely connected household in the Philippines.\n\ns_04487: 9 A detailed description of the distribution of the sample by country, sector and size along with a description of the construction of employment based weights can be found in the online appendix to Babeck\u00fd et al (2012) .\n\ns_04537: This predicted probability is then compared to the average probability of access across all circumstance variables.\n\ns_04587: The widely-used identi\u2026cation method of Blanchard and Perotti (2002) in the context of structural vector-autoregressions models (SVAR), which relies on the existence of a one-quarter lag between output and a \u2026scal response, has been called into question by Ramey (2011) on the basis that what is an orthogonal shock for an SVAR may not be so for private forecasters.\n\ns_04637: The following logistic regression is fitted using DHS data:\n\ns_04687: The theoretical predictions and empirical findings ofBilir et al.\n\ns_04737: This paper builds on this literature by assessing not only direct but also second-generation effects from the reform.\n\ns_04787: They use data from the the NESDB (National Economic Social Development Board) in Thailand.\n\ns_04837: We adopt the econometric model used by Estrin and Mickiewicz (2011) .\n\ns_04887: Chandra and Thompson (2000) , examining the impact of the U.S.\n\ns_04937: Thus for mobile, we use an annual data base, of different \"length\" depending on the country (from a minimum of 1 in Sierra Leone to a maximum of 21 in Finland) For these regressions we added a variable called market maturity equal to the number of years the market has existed in a given country.\n\ns_04987: 1996-2012 1996-2003 2004-2012 1996-2012 1996-2003 2004-2012 1996-2012 Note: *** indicates statistically significant 1%, ** indicates statistically significant at 5%, and * indicates statistically significant at 10%.\n\ns_05037: The World Bank's Enterprise surveys for 2006 and 2010 (www.enterprisesurveys.org) provide panel data for the following seven countries: Argentina, Bolivia, Chile, Colombia, Ecuador, Peru and Uruguay.\n\ns_05087: Here too, available data do not allow for comparisons over time, given that the outcomes are from a single survey.\n\ns_05137: Afonso, Ludger Schuknecht and Tanzi (2010) report that for the sample countries, the same level of public sector output can be produced using 41 percent less resources on average.\n\ns_05187: There are similar significant decreases in overall spending and spending at private facilities for ineligible children in insured households, but no statistically significant effects on out-of-pocket expenditures among eligible children (Appendices S6 and S7).15 The reduced form results presented according to CONSORT guidelines can be found in Appendix S8 .\n\ns_05237: The introduction of cost and regulatory accounting processes is largely justified by the difficult access to appropriate cost related data, as revealed by empirical research on efficiency measurement for instance.\n\ns_05287: As mentioned, econometric analyses of Mexican data strongly suggest that doing so would improve not only equity but also efficiency.\n\ns_05337: To have a sense of any dynamic effects that might be taking place, we use event studies.\n\ns_05387: The correlation between consumption per capita and household size is still significant (coefficient: -0.03, t-statistic: -2.17, p-value: 0.03).\n\ns_05437: In this analysis, we follow the identification strategy employed in Autor et al.\n\ns_05487: 6, 7, 8 Once the six main areas of study were chosen, the team conducted extensive desk research and consultations with World Bank Group (WBG) experts to understand the particularities of each topic, to identify the type of data that should be collected, and to structure questions for maximum reliability of interpretation across respondents."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Mc4xlojHufHYiHXkCNMgWpHOSi",
+    "object": "chat.completion",
+    "created": 1682884270,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1260,
+      "completion_tokens": 172,
+      "total_tokens": 1432
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04637\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_04737\", \"data_mentioned\": true, \"reason\": \"reform\"}, {\"sent_id\": \"s_04787\", \"data_mentioned\": true, \"reason\": \"NESDB\"}, {\"sent_id\": \"s_04837\", \"data_mentioned\": true, \"reason\": \"econometric model\"}, {\"sent_id\": \"s_05037\", \"data_mentioned\": true, \"reason\": \"Enterprise surveys\"}, {\"sent_id\": \"s_05137\", \"data_mentioned\": true, \"reason\": \"sample countries\"}, {\"sent_id\": \"s_05437\", \"data_mentioned\": true, \"reason\": \"identification strategy\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04637\", \"data_mentioned\": true, \"reason\": \"DHS\"}, {\"sent_id\": \"s_04737\", \"data_mentioned\": true, \"reason\": \"reform\"}, {\"sent_id\": \"s_04787\", \"data_mentioned\": true, \"reason\": \"NESDB\"}, {\"sent_id\": \"s_04837\", \"data_mentioned\": true, \"reason\": \"econometric model\"}, {\"sent_id\": \"s_05037\", \"data_mentioned\": true, \"reason\": \"Enterprise surveys\"}, {\"sent_id\": \"s_05137\", \"data_mentioned\": true, \"reason\": \"sample countries\"}, {\"sent_id\": \"s_05437\", \"data_mentioned\": true, \"reason\": \"identification strategy\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

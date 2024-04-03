@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07473: Regarding the outcome, the following table is illustrative.\n\ns_07523: What is the empirical evidence from these studies?\n\ns_07573: However, it is my impression that data issued in subsequent publications (notably Energy [1989] ), will support similar results.\n\ns_07673: In this paper, I set out some practical diagnostic tests of the efficiency of (implicit) transport policies emboJied in state marketing and their implications for infrastructural investment, tests that can be calculated using data that are readily available in many African countries and for many crops.\n\ns_07773: The results are discussed below.\n\ns_07823: Purpose, Scope, and Methodology\n\ns_07873: 2 Two papers that also try to answer this question are by Agell (1982] and Bond [1981] .\n\ns_07923: This paper describes one such survey.\n\ns_07973: SeeTompson (2004), p. 26.\n\ns_08023: In this paper, we use the 2004 ISSP 6 household survey data to provide an overview of energy consumption patterns in Montenegro and examine the likely impacts of electricity tariff reforms on household welfare.\n\ns_08073: In turn, Ferreira and Araujo (2005) perform a similar exercise using Brazilian data.\n\ns_08123: For the data sources and detailed explanations, see Appendix 1.\n\ns_08173: The authors use data from the Current Population Survey on annual earnings from 1963 through 2013.\n\ns_08223: The next four papers describe a variety of recent department-wide efforts to improve the teaching and learning of calculus, at San Diego State University, the University of Illinois-Chicago, Colorado State University, and the University of Hartford.\n\ns_08250: There are a variety of databases that contain national data on a broad range of information related to higher education.\n\ns_08300: Please email the corresponding author if you wish to point some errors or leave a message on the GitHub repository.\n\ns_08350: Results for each dataset were combined in a Meta analysis allowing a test for between study heterogeneity (STATA METAN specifying a random effects model).\n\ns_08400: This selection results in a dataset composed by 59, 142 and 84 subjects for AD, MCI and CN, respectively.\n\ns_08450: For example, nearly all 18-month-long trials for mild or for mild to moderate AD used the ADAS-cog as the cognitive measure and the Clinical Dementia Rating or an ADL scale for the test for clinical significance (Schneider and Sano, 2009 ).\n\ns_08500: in Barro and Lee 2013) as will be shown in the paper.\n\ns_08550: Data used in this study were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.ucla.edu).\n\ns_08600: We used the DEA's Automation of Reports and Consolidated Orders System (ARCOS) data to obtain the number of grams of buprenorphine dispensed in each state for each year from 2004 to 2011.\n\ns_08650: The results presented in this paper are largely tables extracted to showcase the achievements of eighth graders from the participating African since the detailed results can be obtained in Mullis, et al., (2004) and Martin, et al., (2004)."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B75pnBRWm8oq66aS5obPTyKl4iIx",
+    "object": "chat.completion",
+    "created": 1682883229,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 966,
+      "completion_tokens": 61,
+      "total_tokens": 1027
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_08023\", \"data_mentioned\": true, \"reason\": \"ISSP\"}, {\"sent_id\": \"s_08550\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_08023\", \"data_mentioned\": true, \"reason\": \"ISSP\"}, {\"sent_id\": \"s_08550\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

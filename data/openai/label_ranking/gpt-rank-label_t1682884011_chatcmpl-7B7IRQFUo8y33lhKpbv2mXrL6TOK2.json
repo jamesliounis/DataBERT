@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_09509: Information depicted in present review may serve to fill existing lacunae in knowledge on pathogenesis of COVID-19.\n\ns_09559: To determine the comparability of the samples across the life course, we broke down the study characteristics and moderator variables by the age categories that were used to organize the data (see Table 3 ).\n\ns_09609: Several studies have also investigated the relationship between homework habits and educational attainment, many of which use NELS88 data.\n\ns_09659: In our experiments, the new approach is applied to Alzheimer's Disease Neuroimaging Initiative (ADNI) 2 database [18] .\n\ns_09709: We assessed the degree to which the independent variables could predict these two comparisons.\n\ns_09759: As a result, classification experiment with RBF kernel has best accuracy, specificity, and area under the curve (AUC) value.\n\ns_09809: These strategies were classified according to the list given in the introduction of this paper (NCTM, 2000; Polya, 1997; Posamantier and Krulik, 1998) .\n\ns_09859: Once again, the Disease-Atlas outperforms joint models across the majority of longitudinal variables and time steps, with gains of 40% on average -highlighting the benefits of a deep learning approach to joint modeling.\n\ns_09909: In a widely discussed study Saxenian (1999) drew attention to the impact these absent Indians (and Chinese) were having on economic success of high tech industries in Silicon Valley.\n\ns_09959: The constant term is useful here because it is statically significant and indicates that the slope for the parameters of best fit in the regression model.\n\ns_00011: Data from over 25,000 research participants are available to qualified investigators through the NDAR portal.\n\ns_00061: To address the research questions, we performed a multivariate logistic regression analysis with STATA 11.0 statistical software package using the maximum-likelihood estimation approach to estimate the fitted probability of an individual to enroll in an MD/PhD program (1 = yes, 0 = no).\n\ns_00111: It is important to acknowledge that the three domains interact with each other in influencing children's outcomes, as the literature cited below illustrates.\n\ns_00161: We use this dataset to create simulated clinical scans as follows:\n(1) Simulating the variance in head positioning during acquisition by applying small, random affine changes to the isotropic image before creating sparse data.\n\ns_00258: Participants were recruited from the GO-MCI, which is a collaborative longitudinal study of people with MCI.\n\ns_00308: 23, 27 In discordance with other studies, 27 the comparison between serum total T measurements by using IAs or MS, which represents the gold standard for T levels measurement, has shown similar, highly-correlated results in the EMAS cohort.\n\ns_00358: Runoff estimates for baseline conditions Table 1 .\n\ns_00408: Wrote the paper: YS TMB CJO JJC  KF NJM QW RCH BMA AZS LC RAK WEK DG AMB EM JMR PMT AJS BG RAS KAJ SPS  PRS CLM VLV NCF SF KC EMR CX DSM MWW JCM RJB TLSB.\n\ns_00458: The codes for the DINA model were requested from de la Torre (personal communication, February, 2014) .\n\ns_00508: First, we only excluded consecutive years of surveys to reduce the influence of temporal autocorrelation and maximize information content: the ''main training set''.\n\ns_00558: Policy initiatives involving funders and journals are needed to ensure the availability of detailed scientific methods to enhance replicability of results.\n\ns_00608: Does this increase reflect a clinical risk?\n\ns_00650: CI explicitly takes into account the density stratification in the ocean and is a key metric in this paper.\n\ns_00700: (1982 ) note, 1984 Heggestad and Lesser, 1990) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7IRQFUo8y33lhKpbv2mXrL6TOK2",
+    "object": "chat.completion",
+    "created": 1682884011,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1109,
+      "completion_tokens": 150,
+      "total_tokens": 1259
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_09609\", \"data_mentioned\": true, \"reason\": \"NELS88\"}, {\"sent_id\": \"s_09659\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) 2 database\"}, {\"sent_id\": \"s_00011\", \"data_mentioned\": true, \"reason\": \"NDAR portal\"}] \n\nThe sentences with ids s_09609, s_09659, and s_00011 mention datasets clearly and unambiguously. The first mentions NELS88, the second mentions Alzheimer's Disease Neuroimaging Initiative (ADNI) 2 database, and the third mentions NDAR portal."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_09609\", \"data_mentioned\": true, \"reason\": \"NELS88\"}, {\"sent_id\": \"s_09659\", \"data_mentioned\": true, \"reason\": \"Alzheimer's Disease Neuroimaging Initiative (ADNI) 2 database\"}, {\"sent_id\": \"s_00011\", \"data_mentioned\": true, \"reason\": \"NDAR portal\"}] \n\nThe sentences with ids s_09609, s_09659, and s_00011 mention datasets clearly and unambiguously. The first mentions NELS88, the second mentions Alzheimer's Disease Neuroimaging Initiative (ADNI) 2 database, and the third mentions NDAR portal.",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

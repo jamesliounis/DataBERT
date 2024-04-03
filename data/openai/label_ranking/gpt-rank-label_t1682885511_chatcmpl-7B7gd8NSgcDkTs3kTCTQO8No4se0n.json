@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_03167: In order to study gram sabha deliberations we bring together two di\u00a4erent sources of information.\n\ns_03217: The first satisfactory solution following the approach proposed by Williams did not appear until the 1950s in the pioneering dynamic model of Gustafson (1958) .\n\ns_03267: However, in order to study the implications of technology choices on the pattern of specialization, we assume that countries are clustered in K groups.\n\ns_03317: This paper contributes to this literature by providing systematic evidence of the role of the sources of bank financing in the international transmission of the crisis.\n\ns_03367: Column 3 shows estimates of a Tobit model that takes account more properly of the censorship of the dependent variable, where the dependent variable is exports plus a dollar in logarithmic terms.\n\ns_03417: Furthermore, data for Malaysia, Mexico as well as for some CEEC suggest that at some point exports tend to grow faster than imports.\n\ns_03467: A comparison of (14) and (18) indicates that with respect to (18) the hypothesis of interest is:\n\ns_03517: 2 Yet, few papers have attempted to analyze these frictions systematically in terms of the way they interact and what this may imply for the dynamics of FD.\n\ns_03567: The survey design impacts the definitions of key explanatory variables.\n\ns_03617: Previous literature has shown that more developed countries tend to have lower commonality in asset prices and liquidity (see for instance Karolyi, Lee and Van Dijk 2009) .\n\ns_03667: To illustrate this, we identify for each of the top ten trading partners, the ten most protected sectors (defined at the Harmonized Schedule (HS) 2-digit level of aggregation in 2009 in terms of the MFN tariff alone).\n\ns_03717: Calder\u00f3n and Serv\u00e9n (2010b) cite the example of Colombia where government guarantees led to fiscal costs that were 50 percent higher than the investment supplied by the private sector.\n\ns_03767: Following Rodriguez Garavito, Gauri and Brinks, and McCann, therefore, we look for both direct and indirect effects.\n\ns_03817: While the theoretical foundations of project finance have received some attention in the literature there are very few empirical studies of project finance.\n\ns_03867: This is, for example, the measure of present-bias inAshraf et al.\n\ns_03917: The hypothetical value from which the estimates are based relies on the WHO methodology which uses conditions in developed countries as the benchmark.\n\ns_03967: One potential problem in using this methodology would be the possible endogeneity and/or dual causality problem associated with institutional variables (bureaucracy index and corruption index in this paper) and tax revenues.\n\ns_04017: Since 2004, each round of data collection included HIV testing of respondents and the prevalence rate was found to be about seven percent.\n\ns_04067: Of more interest are the almost universal significant (at 5 percent) correlations across these three groups of variables, the exceptions being the correlations between the concentration index for ARI and those of infant mortality and the two malnutrition indicators.\n\ns_04117: care must be taken to address effectively the risk of The author focuses mainly on the promotion, moral hazard.\n\ns_04167: Section 2 describes the data.\n\ns_04217: In terms of our Figure 1 , the reduction in C could lead, for instance to a shift in the Laffer curve from an initial segment BL' to BL.\n\ns_04267: There are examples galore of the need for purposive inter-country coordinated and preplanned behavior.\n\ns_04317: Overall, this paper offers further rationale for implementing policy measures which disconnect a country's macroeconomy from volatile oil markets.\n\ns_04367: We regress the fixed effects on end of primary leaving exam scores, the share of pupils choosing the same school type, and a set of dummies for government and private school as well as their respective interactions with an FPE dummy."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7gd8NSgcDkTs3kTCTQO8No4se0n",
+    "object": "chat.completion",
+    "created": 1682885511,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1101,
+      "completion_tokens": 89,
+      "total_tokens": 1190
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04117\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_04167\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_04317\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_04367\", \"data_mentioned\": false, \"reason\": null}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04117\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_04167\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_04317\", \"data_mentioned\": false, \"reason\": null}, {\"sent_id\": \"s_04367\", \"data_mentioned\": false, \"reason\": null}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

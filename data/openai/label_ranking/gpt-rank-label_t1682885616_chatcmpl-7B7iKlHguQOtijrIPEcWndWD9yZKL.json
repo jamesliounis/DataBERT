@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04770: Use of repeated cross sections suggests that the reforms may have given rise to compensatory behavior in the sense that they increased educational attainment but reduced the likelihood of girls inheriting land (Roy 2013) .\n\ns_04820: The corresponding graphs are presented in Figure 6 , page 43.\n\ns_04870: We use a probit model with random country-year effects in all our estimations.\n\ns_04970: 5 Note that the presence of fixed effects somewhat complicated the estimation of Chow test.\n\ns_05020: We use this alternative measure as a robustness test in the empirical analysis of the next subsection.\n\ns_05070: Exp_int is the firm's total exports as a fraction of total sales, treatment is a dummy for whether the firm used EPA services over the previous 3 years.\n\ns_05120: Long duration did not necessarily produce better results (Engle, Fernald, Alderman, et al., 2011) .\n\ns_05170: Finally, the model can also be used to infer what the implied growth paths spell for the sustainability of government debt position.\n\ns_05220: where Yif represents utilization at health providers within the past year.\n\ns_05270: However, more and better data are needed.\n\ns_05320: The unconstrained extra amount of resources (EXTRAi) needed by a state i to reduce the learning gap caused by these three sources of disadvantage can be estimated as\n\ns_05370: To perform the event studies we work with \"clean events,\" i.e.\n\ns_05420: Thus, it is not surprising that the technique using the average as summary statistic over-estimates total consumption at the household and cluster level.\n\ns_05470: Section 2 reviews the existing literature evaluating the patterns, determinants, and effects of FDI as well as existing analysis on BRI.\n\ns_05520: During this time, the team contacted contributors to retrieve their completed questionnaires or to clarify questions that were not clear during the coding process.\n\ns_05570: The sample is an unbalanced panel of countries with annual frequency (see Appendix 1).\n\ns_05620: Overall, we see few WWTPs located in areas with High classifications of PGA shaking -ranging from 0 to 5% of our data across the studied return periods.\n\ns_05670: Para ello se realiz\u00f3 el an\u00e1lisis de pareamiento descrito en la metodolog\u00eda, cuyos resultados de validaci\u00f3n se encuentran en el anexo C.\n\ns_05720: US$ 1,000) then a very large number of SUs will need to be covered since most SUs will generate one or two transactions of this value.\n\ns_05770: Panels D and E of Table 2 describe some province and industry characteristics we use as control variables in our econometric analysis.\n\ns_05820: Our elicited WTP is positively correlated with the baseline WTP completed in the phone survey, but the coefficient is small and only marginally significantly different from zerothis might be because they did not have enough information about the course to gauge WTP without the demonstration session, or because they were trying to answer strategically, and not truthfully, when asked WTP in the phone survey.\n\ns_05870: Controlling for the weather variables, we obtain highlysignificant results and predictive fits that exceed the accuracy of satellite-based measures in the majority of cases.\n\ns_05920: One of the equations of the model, (1), specifies influences on upstream linkages on aggregate at the country level.\n\ns_05970: Kamps (2006) empirically showed that a country's membership or prospective membership of the EU increases the probability of choosing the euro as an invoicing currency."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7iKlHguQOtijrIPEcWndWD9yZKL",
+    "object": "chat.completion",
+    "created": 1682885616,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1029,
+      "completion_tokens": 409,
+      "total_tokens": 1438
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_05970\", \"data_mentioned\": false}, {\"sent_id\": \"s_05920\", \"data_mentioned\": false}, {\"sent_id\": \"s_05870\", \"data_mentioned\": false}, {\"sent_id\": \"s_05820\", \"data_mentioned\": false}, {\"sent_id\": \"s_05770\", \"data_mentioned\": false}, {\"sent_id\": \"s_05720\", \"data_mentioned\": false}, {\"sent_id\": \"s_05670\", \"data_mentioned\": false}, {\"sent_id\": \"s_05620\", \"data_mentioned\": false}, {\"sent_id\": \"s_05570\", \"data_mentioned\": false}, {\"sent_id\": \"s_05520\", \"data_mentioned\": false}, {\"sent_id\": \"s_05470\", \"data_mentioned\": false}, {\"sent_id\": \"s_05420\", \"data_mentioned\": false}, {\"sent_id\": \"s_05370\", \"data_mentioned\": false}, {\"sent_id\": \"s_05320\", \"data_mentioned\": false}, {\"sent_id\": \"s_05270\", \"data_mentioned\": false}, {\"sent_id\": \"s_05220\", \"data_mentioned\": false}, {\"sent_id\": \"s_05170\", \"data_mentioned\": false}, {\"sent_id\": \"s_05120\", \"data_mentioned\": false}, {\"sent_id\": \"s_05070\", \"data_mentioned\": false}, {\"sent_id\": \"s_05020\", \"data_mentioned\": false}, {\"sent_id\": \"s_04970\", \"data_mentioned\": false}, {\"sent_id\": \"s_04870\", \"data_mentioned\": false}, {\"sent_id\": \"s_04820\", \"data_mentioned\": false}, {\"sent_id\": \"s_04770\", \"data_mentioned\": false}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_05970\", \"data_mentioned\": false}, {\"sent_id\": \"s_05920\", \"data_mentioned\": false}, {\"sent_id\": \"s_05870\", \"data_mentioned\": false}, {\"sent_id\": \"s_05820\", \"data_mentioned\": false}, {\"sent_id\": \"s_05770\", \"data_mentioned\": false}, {\"sent_id\": \"s_05720\", \"data_mentioned\": false}, {\"sent_id\": \"s_05670\", \"data_mentioned\": false}, {\"sent_id\": \"s_05620\", \"data_mentioned\": false}, {\"sent_id\": \"s_05570\", \"data_mentioned\": false}, {\"sent_id\": \"s_05520\", \"data_mentioned\": false}, {\"sent_id\": \"s_05470\", \"data_mentioned\": false}, {\"sent_id\": \"s_05420\", \"data_mentioned\": false}, {\"sent_id\": \"s_05370\", \"data_mentioned\": false}, {\"sent_id\": \"s_05320\", \"data_mentioned\": false}, {\"sent_id\": \"s_05270\", \"data_mentioned\": false}, {\"sent_id\": \"s_05220\", \"data_mentioned\": false}, {\"sent_id\": \"s_05170\", \"data_mentioned\": false}, {\"sent_id\": \"s_05120\", \"data_mentioned\": false}, {\"sent_id\": \"s_05070\", \"data_mentioned\": false}, {\"sent_id\": \"s_05020\", \"data_mentioned\": false}, {\"sent_id\": \"s_04970\", \"data_mentioned\": false}, {\"sent_id\": \"s_04870\", \"data_mentioned\": false}, {\"sent_id\": \"s_04820\", \"data_mentioned\": false}, {\"sent_id\": \"s_04770\", \"data_mentioned\": false}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

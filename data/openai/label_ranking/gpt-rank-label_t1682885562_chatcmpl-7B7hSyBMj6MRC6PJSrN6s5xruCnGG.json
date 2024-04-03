@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_07018: We now turn to an empirical analysis of factors that explain why some households are successful in moving out of slums while others are not.\n\ns_07068: The EC objected that Argentina's investigation was based on statistics on total imports, while safeguard measures were applied only on imports from third countries.\n\ns_07118: As a sensitivity test, we ran the GMM regressions using different cutoffs for spatial autocorrelation: 0.5, 1.0 and 2.0 degrees.\n\ns_07168: These examples highlight an interesting feature of ADR holding patterns observed in our sample.\n\ns_07218: Table 6 reports the effects of winning the BDH lottery, for conditioned and unconditioned households, and separately for the full and trimmed samples.\n\ns_07268: Table 1 presents an assessment of currently applicable GATS commitments for the EU- 15.\n\ns_07318: (a) Standard errors (OLS and 2SLS estimates has corrected for heteroskedasticity) in parentheses.\n\ns_07368: They estimated the impact of moving 'below-average' countries 'halfway' to the global average of four country-by-country indicators of (1) port efficiency, (2) customs environment, (3) own regulatory environment and (4) use of information technology.\n\ns_07418: The impacts are -1.2 to -1.5, 0.11 to 0.15 and 0.74 to 1.0, for the degree of public involvement in input supply, the percent of government current expenditure and population growth, respectively, in Cleaver (1985) .15\n\ns_07468: We show only the regression for the entire sample period to illustrate the effect on the coefficients of excluding ODA debt forgiveness from the independent variable; we do not report results that were qualitatively the same as reported in Tables 6 or 7.\n\ns_07518: : Obtained by dividing reported costs by the number of formal sector workers, which wa 360.000 in 1989 (ISSA.\n\ns_07568: The SPA has four main elements: additional disbursements from IDA, concessional adjustment cofinancing from 32/ Helleiner, G. K. 'Trade Policy, Exchange Rates, and Relative Prices in Sub-Saharan Africa: Interpreting ,he 1980s\".\n\ns_07618: Panel B uses these figures to derive annual percentage changes in energy productivity (GVIO/E, where E represents energy consumption in terms of standard coal) for 15 branches.\n\ns_07668: (ii) what is a \"good deal\" for the country?\n\ns_07718: Again, the correlation between this measure of delay and distance from the ginnery is negative, -0.26, although with a reduced significance level of 0.06.\n\ns_07768: \"These estimates are from May, ibid.\n\ns_07818: The theory behind these tests for linear models has been developed extensively in the statistics literature.\n\ns_07868: This framework was the culmination of much of the activities financed through USEP, intended to define the policies and guidelines for project design and implementation.\n\ns_07918: As a final point, there are a few technical issues that should be briefly mentioned.\n\ns_07968: In the past it has been commonly assumed that households could only afford to pay 3-5 percent of their income for improved water services, so these data on the proportion of household income being spent on water in Onitsha appear extraordinarily high.\n\ns_08018: What can be learned from this episode?\n\ns_08068: Source: Calculated from 2004 ISSP Montenegro Household Survey.\n\ns_08118: 1 The use of public sector cash flow as sufficient statistic of fiscal discipline is especially problematic for those countries that face the task of building up their basic infrastructures, as is the case of most developing countries as well as newcomers to the European Union (EU).\n\ns_08168: Milanovic (2006, Table 4 ), based on Goldsmith (1984, p. 268) and the amount of alimenta paid from the public treasury to boys under 15 years of age.\n\ns_08218: Differences in college readiness drive differences in college returns, so much so that poor preparation almost fully nullifies the high payoffs accruing to those who complete college."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7hSyBMj6MRC6PJSrN6s5xruCnGG",
+    "object": "chat.completion",
+    "created": 1682885562,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1170,
+      "completion_tokens": 133,
+      "total_tokens": 1303
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07418\", \"data_mentioned\": true, \"reason\": \"Cleaver (1985)\"}, {\"sent_id\": \"s_07918\", \"data_mentioned\": true, \"reason\": \"technical issues\"}, {\"sent_id\": \"s_08118\", \"data_mentioned\": true, \"reason\": \"public sector cash flow\"}, {\"sent_id\": \"s_08168\", \"data_mentioned\": true, \"reason\": \"Goldsmith (1984)\"}, {\"sent_id\": \"s_08218\", \"data_mentioned\": true, \"reason\": \"college readiness\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07418\", \"data_mentioned\": true, \"reason\": \"Cleaver (1985)\"}, {\"sent_id\": \"s_07918\", \"data_mentioned\": true, \"reason\": \"technical issues\"}, {\"sent_id\": \"s_08118\", \"data_mentioned\": true, \"reason\": \"public sector cash flow\"}, {\"sent_id\": \"s_08168\", \"data_mentioned\": true, \"reason\": \"Goldsmith (1984)\"}, {\"sent_id\": \"s_08218\", \"data_mentioned\": true, \"reason\": \"college readiness\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_02596: The prevalence of metabolic syndrome in Poland is shown by population-based surveys, such as Hypertension in Poland Plus, Plus Lipid Disorders and Diabetes (NATPOL PLUS) [16] and the Multicenter Study of National Population Health (WOBASZ 1) [17] .\n\ns_02646: (2015) involving 4244 non-demented subjects, elevated evening cortisol was found to be associated with decreased volumes in all brain regions, in particular the gray matter (Geerlings et al., 2015) .\n\ns_02696: This indicates that mean regression can go on 6 We have also estimated our projections using as the relevant universe families with one member between the ages of 36 and 50, with similar results.\n\ns_02746: In view of this, consistent, repeatable, and broadly applicable land use, land cover data are needed across the Lake Superior basin to facilitate ecosystem condition assessment and trend analysis.\n\ns_02796: However, the analytical samples were similar to the eligible target population in terms of gestational age, SES, and demographic factors.\n\ns_02846: The descriptive statistics are presented in Table 2 .\n\ns_02896: Other Census Bureau online surveys have used Delphi downloadable executables, HTML, HTML with Java Script, and Java.\n\ns_02946: While many contrasts will be statistically significant given the large sample sizes, cally a few may reach practical significance.\n\ns_02996: The test tasks were developed based on productive foreign experience in comparative education quality studies: PIRLS (Progress in International Reading Literacy Study) and TIMSS (The Trends in International Mathematics and Science Study for fourth-and eighth-formers (UCEQA, 2018) .\n\ns_03046: Indeed, although there was an intrinsic variance due to different population characteristics, when we compared ICVs computed from scans acquired with the same scanner model from different subjects we found homogeneous variances between the two cohorts (I-ADNI and NA-ADNI).\n\ns_03096: Such an approach with the current sample would likely not be successful.\n\ns_03146: Having found that the preferences of the landed class are more likely to be mentioned and take up more time in the meeting, we also want to investigate whether any village level characteristics accentuate or mitigate this e\u00a4ect.\n\ns_03196: 33 See Bardsley (1994) , Gilbert (1996) , and Haszler (1998).\n\ns_03246: Two conclusions can be drawn from Table 4 .\n\ns_03296: Again, the results are qualitatively similar to those previously reported, but the pre-event trend is much less marked than in Figure 5 and the magnitude and significance of the CADR decline increase respect to that figure (1.6 percent three days after the event, statistically significant since the event day).\n\ns_03346: 20 Using Monte-Carlo simulations, they show that that the PPML produces estimates with the lowest bias for different patterns of heteroskedasticity.\n\ns_03396: Other authors suggest the use of the 'end-use' categories of the US Bureau of Economic Analysis, which allow identification of products by their use by buyers rather than in terms of their positions in production process (Feenstra 1998 , Irwin, 1996 .\n\ns_03446: In fact, if there is any relationship at all, it suggests that a larger percentage of \u2026rms in very concentrated industries use more frequently accelerated depreciation in comparison to \u2026rms in unconcentrated industries, pointing to a probable positive correlation between concentration and depreciation.\n\ns_03496: In particular, we find that the quality of the informational environment (as proxied by credit information) is concave but subject to scale effects.\n\ns_03546: This paper uses plant-level manufacturing census data from Indonesia to examine the impact of the East Asian crisis on the process of creative destruction.\n\ns_03596: Our dependent variable is the variance ratio, , calculated for each country i for each year t. We obtain similar results using the co-movement measure or the quantile betas described in Section 3.1.\n\ns_03646: Whether countries are willing to go so far depends, first, on how much need there is to make a down-payment to China in terms of improved relative market access (by eliminating the adverse preference margins it currently faces) to induce it to further open its markets.\n\ns_03696: Of course, these calculations are based on simple correlations.\n\ns_03746: Since we rely on their data, and it is already classified under this typology, this is also an efficient way to proceed.\n\ns_03796: Specifically, we test for unit roots in the residuals drawn from the corresponding cointegration equation, i.e.. y, = f6o + Ax,r + \u00a3r, A\u00a3, = ao + (a-)\u00a3 + A\u00a3,_, + it, The one-sided asymptotic P-values for the zr statistic (both in bold face) under the null hypothesis (existence of unit root or cointegrated time series) are computed by the methods described in MacKinnon (1994) ."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7T1yCr4gCpcbGC1jDS0W1Fu4j0D",
+    "object": "chat.completion",
+    "created": 1682884667,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1324,
+      "completion_tokens": 30,
+      "total_tokens": 1354
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_03546\", \"data_mentioned\": true, \"reason\": \"manufacturing census data from Indonesia\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_03546\", \"data_mentioned\": true, \"reason\": \"manufacturing census data from Indonesia\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

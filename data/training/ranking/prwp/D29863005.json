@@ -1,0 +1,1579 @@
+{
+  "paper_id": "D29863005",
+  "header": {
+    "generated_with": "S2ORC 1.0.0",
+    "date_generated": "2023-04-12T18:04:31.742443Z"
+  },
+  "title": "Household Expenditure and Poverty Measures in 60 Minutes A New Approach with Results from Mogadishu",
+  "authors": [
+    {
+      "first": "Utz",
+      "middle": [],
+      "last": "Pape",
+      "suffix": "",
+      "affiliation": {},
+      "email": "upape@worldbank.org"
+    },
+    {
+      "first": "Johan",
+      "middle": [],
+      "last": "Mistiaen",
+      "suffix": "",
+      "affiliation": {},
+      "email": ""
+    }
+  ],
+  "year": "2018-05",
+  "venue": null,
+  "identifiers": {},
+  "abstract": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+  "pdf_parse": {
+    "paper_id": "D29863005",
+    "_pdf_hash": "",
+    "abstract": [
+      {
+        "text": "The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract",
+        "sec_num": null
+      }
+    ],
+    "body_text": [
+      {
+        "text": "In fragile states and areas beset by insecurity and conflict, the time available for a face-to-face interview is typically limited. That prevents administering the lengthy household consumption expenditure surveys used for measuring poverty. This paper presents a new approach to obtain unbiased estimates of poverty when the time to conduct interviews is a binding constraint. The finite list of consumption recall items is partitioned selectively into a core module and algorithmically into nonoverlapping optional modules. Each household is systematically assigned the core module and randomly assigned one of the optional modules. Multiple imputation techniques are then used to estimate total household consumption. Based on ex post simulations, the approach is demonstrated to yield reliable estimates of per capita consumption and poverty using data from a regular household budget survey collected in Hargeisa, Somaliland. The approach is then applied to a survey conducted in Mogadishu where interview time could not exceed 60 minutes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Poverty is the paramount indicator to gauge the socioeconomic well-being of a population. Especially after a shock, poverty estimates can disentangle who in the population was affected how severely. As one of the main indicators for poverty, monetary poverty is measured by a welfare aggregate usually based on consumption in developing countries and a poverty line. The poverty line indicates the minimum level of welfare required for a healthy living.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "Consumption aggregates are estimated traditionally by time-consuming household consumption surveys.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "A household consumption questionnaire records consumption and expenditures for a comprehensive list of food and non-food items. With around 300 to 400 items, the administering time of the questionnaire often exceeds 90 -120 minutes. In addition to higher costs due to longer administering time, response fatigue can increase measurement error especially for items at the end of the questionnaire. In a fragile country context, a face-to-face time of 90 -120 minutes can be prohibitively high. For example, security concerns restricted the duration of a visit in Mogadishu to about 60 minutes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "The extensive nature of household consumption surveys makes it difficult to obtain updated poverty estimates especially when they are needed the most: after a shock and in fragile countries. Therefore, approaches were developed to reduce administering time to allow collection of consumption data with significantly lower administering time. The most straightforward approach to minimize administering time reduces the number of items either by asking for aggregates or by skipping less frequently consumed items, called reduced consumption methodology. However, both approaches have been shown to underestimate consumption, which in turn overestimates poverty. 2 Splitting up the questionnaire for multiple visits is another solution but attrition issues -especially in fragile country contexts -increase required sample size and also have a high cost implication. In addition, multiple visits to the same household can increase security concerns.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "A second class of approaches utilizes a full consumption baseline survey and updates poverty estimates based on a small subset of collected indicators. 3 These approaches estimate a welfare model on the baseline survey using a small number of easy-to-collect indicators. This allows updating poverty estimates by collecting only the set of indicators instead of direct consumption data. While the approach is costefficient and easy to implement in normal circumstances, the approach has two major drawbacks in the 3 context of fragility and shocks. First, the approach requires a baseline survey, which is sometimes -for example in Mogadishu -not existent. Second, the approach relies on a structural model estimated from the baseline survey. 4 In the case of shocks, the structural assumptions, which cannot be tested, are often violated. Thus, poverty updates based on the violated assumption tend to under-estimate the impact of the shock on poverty. Therefore, cross-survey imputation methodologies are not applicable in the context of shocks and fragility.",
+        "cite_spans": [
+          {
+            "start": 152,
+            "end": 153,
+            "text": "3",
+            "ref_id": null
+          },
+          {
+            "start": 743,
+            "end": 744,
+            "text": "4",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "A new methodology is proposed combining an innovative questionnaire design with standard imputation techniques. This substantially reduces the administering time of a consumption survey to about 60 minutes while at the same time credible poverty estimates are obtained. Thus, the gain in administering time is bought by the need to impute missing consumption values. Due to the design of the questionnaire, the method circumvents systematic biases as identified for alternative methodologies.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "After explaining the methodology in more detail in the next section, the performance of the methodology is assessed ex post using collected household budget data in Hargeisa, Somalia. Next, the methodology is applied to newly collected data in Mogadishu, Somalia, where full consumption data collection was impossible due to security constraints. The consistency of the consumption estimates is evaluated by performing validity checks. A conclusion discusses the limitations of the methodology, the benefits especially in combination of using CAPI technology and the need for further research.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Introduction",
+        "sec_num": null
+      },
+      {
+        "text": "The rapid consumption survey methodology consists of five main steps (Figure 1 ). First, core items are selected based on their importance for consumption. Second, the remaining items are partitioned into optional modules. Third, optional modules are assigned to groups of households. After data collection, fourth, optional consumption modules are imputed for all households. Fifth, the resulting consumption aggregate is used to estimate poverty indicators.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 69,
+            "end": 78,
+            "text": "(Figure 1",
+            "ref_id": "FIGREF0"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Overview",
+        "sec_num": null
+      },
+      {
+        "text": "First, core consumption items are selected. Consumption in a country bears some variability but usually a small number of a few dozen items captures the majority of consumption. These items are assigned to the core module, which will be administered to all households. Important items can be identified by the average food share per household or across households. Previous consumption surveys in the same country or consumption shares of neighboring / similar countries can be used to estimate food shares. 5",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "5 As shown later, the assignment of items to modules is very robust and, thus, even rough estimates of consumption shares are sufficient to inform the assignment without requiring a baseline survey. Second, non-core items are partitioned into optional modules. Different methods can be used for the partitioning into optional modules. In the simplest case, the remaining items are ordered according to their food share and assigned one-by-one while iterating the optional module in each step. A more sophisticated method would take into account correlation between items and partition them into orthogonal sets per module. This would lead to high correlation between modules supporting the total consumption estimation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Conceptual division into core and optional items should not be reflected in the layout of the questionnaire.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "More complicated partition patterns can result in a set of very different items in each module. However, the modular structure should not influence the layout of the questionnaire. Instead, all items per household will be grouped into categories of consumption items (like cereals) and different recall periods.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Therefore, it is recommended to use CAPI technology, which allows hiding the modular structure of the consumption module from the enumerator.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Third, optional modules will be assigned to groups of households. Assignment of optional modules will be performed randomly stratified by enumeration areas to ensure appropriate representation of optional modules in each enumeration area. This step is followed by the actual data collection.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Fourth, household consumption will be estimated by imputation. The average consumption of each optional module can be estimated based on the sub-sample of households assigned to the optional module. In the simplest case, a simple average can be estimated. More sophisticated techniques can employ a welfare model based on household characteristics and consumption of the core items. Six techniques are presented in the next section and perform their estimation on the data set from Hargeisa.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Single imputation of the consumption aggregate under-estimates the variance of household consumption.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Depending on the location of the poverty line relative to the consumption distribution, this can either consistently under-or over-estimate poverty. Multiple imputation based on boot-strapping can mitigate the problem but will render analysis more complicated. Single as well as multiple imputation techniques are used for the evaluation of the methodology.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "4",
+        "sec_num": null
+      },
+      {
+        "text": "Consumption for a household is estimated by the sum of expenditures for a set of items 6",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "where y ij denotes the consumption of item j in household i. The list of items can be partitioned into M+1 modules each with m k items:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "with For each household, only the core module and one additional optional module * are collected.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "The item assignment to the modules should be based on either a previous survey or a survey in a related country with similar consumption behavior. As the core module is administered to all households, it should include items covering the largest shares of consumption. Optional modules can be constructed in different ways. Currently, an algorithm is used to assign items iteratively to optional modules so that items are orthogonal within modules and correlated between modules. In each step, an unassigned item with highest consumption share is selected. For each module, total per capita consumption is regressed on household size, the consumption of all assigned items to this module as well as the new unassigned item.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "The item will be assigned to the module with the highest increase in the R2 relative to the regression excluding the new unassigned item. The sequenced assignment of items based on their consumption share can lead to considerable differences in the captured consumption share across optional modules.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "Therefore, a parameter is introduced ensuring that in each step of the assignment procedure the difference in the number of assigned items per module does not exceed d. Using d=1 assigns items to modules (almost) maximizing equal consumption share across modules. 6 Increasing d puts increasing weight on orthogonality within and correlation between modules.",
+        "cite_spans": [
+          {
+            "start": 264,
+            "end": 265,
+            "text": "6",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "The assignment of optional modules must ensure that a sufficient number of households are assigned to each optional module. Household consumption can then be estimated using the core module, the assigned module and estimates for the remaining optional modules: * \u2208 *",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "where * \u2236 1, \u2026 , * 1, * 1, \u2026 , denotes the set of non-assigned optional modules.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module Construction",
+        "sec_num": null
+      },
+      {
+        "text": "Consumption of non-assigned optional modules can be estimated by different techniques. Three classes each with two techniques are presented differing in their complexity and theoretical underpinnings. The first class of techniques simply uses summary statistics like the average to impute missing data. The second class is based on multiple univariate regression models. The third class uses multiple imputation techniques taking into account the variation absorbed in the residual term.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Consumption Estimation",
+        "sec_num": null
+      },
+      {
+        "text": "This class of techniques applies a summary statistic on the collected module-specific consumption and applies the result to the missing modules. For each module k, the summary statistic f can be computed as",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary Statistics (average and median)",
+        "sec_num": null
+      },
+      {
+        "text": "\u2329 \u232a .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary Statistics (average and median)",
+        "sec_num": null
+      },
+      {
+        "text": "For household i, household consumption is estimated as * \u2211 \u2208 * .",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary Statistics (average and median)",
+        "sec_num": null
+      },
+      {
+        "text": "Thus, each household is assigned the same consumption per missing module. In the following, the average and the median are used as summary statistics. The median has the advantage of being more robust against outliers but cannot capture small module-specific consumption if more than half of the households have zero consumption for the module.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Summary Statistics (average and median)",
+        "sec_num": null
+      },
+      {
+        "text": "Module-wise estimation applies a regression model for each module. This allows capturing differences in core consumption as well as other household characteristics",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module-wise Regression (OLS and Tobit regression)",
+        "sec_num": null
+      },
+      {
+        "text": "With representing a vector of household characteristics and an error term assumed to be normally distributed with 0, . Thus, module-wise estimation uses a regression separately for each module.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module-wise Regression (OLS and Tobit regression)",
+        "sec_num": null
+      },
+      {
+        "text": "Coefficients are estimated only based on the subsample assigned to module k. In general, a bootstrapping approach using the residual distribution could mimic multiple imputations; but is not applied here. Given the impossibility of negative consumption, a Tobit regression with a lower bound of 0 is used in addition to a standard OLS regression approach. For the OLS regression, negative imputed values are set to zero.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Module-wise Regression (OLS and Tobit regression)",
+        "sec_num": null
+      },
+      {
+        "text": "Multiple Imputation Chained Equations (MICE) uses a regression model for each variable and allows missing values in the dependent and independent variables. As missing values are allowed in the independent variables, the consumption of all optional modules can be used as explanatory variables:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Multiple Imputation Chained Equations (MICE)",
+        "sec_num": null
+      },
+      {
+        "text": "\u2208 *",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Multiple Imputation Chained Equations (MICE)",
+        "sec_num": null
+      },
+      {
+        "text": "Missing values in the explanatory variable ( ) are drawn randomly in the first step. Iteratively, these values are substituted with imputed values drawn from the posterior distribution estimated from the regression for . While the technique of chained equations cannot be shown to converge in distribution theoretically, practical results are encouraging and the method is widely used.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Multiple Imputation Chained Equations (MICE)",
+        "sec_num": null
+      },
+      {
+        "text": "Multiple Imputation Multi-variate Normal Regression uses an EM-like algorithm to iteratively estimate model parameters and missing data. In contrast to chained equations, this technique is guaranteed to converge in distribution to the optimal values. An EM algorithm draws missing data from a prior (often non-informative) distribution and runs an OLS to estimate the coefficients. Iteratively, the coefficients are updated based on re-estimation using imputed values for missing data drawn from the posterior distribution of the model. Multiple Imputation Multi-variate Normal Regression employs a Data-Augmentation (DA) algorithm, which is similar to an EM algorithm but updates parameters in a nondeterministic fashion unlike the EM algorithm. Thus, coefficients are drawn from the parameter posterior distribution rather than chosen by likelihood maximization. Hence, the iterative process is a Monte-Carlo Markov -Chain (MCMC) in the parameter space with convergence to the stationary distribution that averages over the missing data. The distribution for the missing data stabilizes at the exact distribution to be drawn from to retrieve model estimates averaging over the missing value distribution. The DA algorithm usually converges considerably faster than using standard EM algorithms:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Multi-Variate Normal Regression (MImvn)",
+        "sec_num": null
+      },
+      {
+        "text": "The performance of the different estimation techniques is compared based on the relative bias (mean of the error distribution) and the relative standard error. The relative error is defined as the percentage difference of the estimated consumption and the reference consumption (based on the full consumption module):",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "The relative bias is the average of the relative error:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "\u0305 1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "The relative standard error is the standard deviation of the relative error:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "1",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "For estimation based on multiple imputations, is averaged over all imputations.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "Each proposed estimation procedure is run on random assignments of households to optional modules.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "A constraint ensures that each optional module is assigned equally often to a household per enumeration.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "The relative bias and the relative standard error are reported across all simulations.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "The performance measures can be calculated at different levels. At the household level, the relative error is the relative difference in the household consumption. At the cluster level, the relative error is defined as the relative difference of the average reference household consumption and average estimated household consumption across the households in the cluster. Similarly, the global level compares total average consumption for all households.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Estimation Performance",
+        "sec_num": null
+      },
+      {
+        "text": "In this section, the rapid consumption methodology will first be applied to a data set including a full consumption module from Hargeisa, Somalia. This will be used to assess the performance of the rapid consumption methodology compared to the traditional full consumption. Subsequently, the results from the High Frequency Survey in Mogadishu are presented. Security risks restrict face-to-face interview time to less than one hour. Therefore, the rapid consumption methodology is employed to derive the first ever consumption estimates for Mogadishu. The resulting consumption aggregate is presented with consistency checks for its validation.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Results",
+        "sec_num": null
+      },
+      {
+        "text": "The rapid consumption methodology is applied ex post to household budget data collected in Hargeisa, Somalia. Hargeisa was chosen as it is the most similar city to Mogadishu. Using the full consumption data simulations with respect to their relative bias and relative standard error. All simulations used the same item assignment to modules using the algorithm as described with parameter d=3 (see Table 1 for the resulting consumption shares per module). 7 The estimation techniques differ considerably in terms of performance. The techniques are also compared to using a reduced consumption module where the same consumption items are collected for all households. The number of items is equal to the size of the core and one optional module implying a comparable face-to-face interview time to the Rapid Consumption methodology. Comparing the reduced consumption approach with the full consumption as reference, the reduced consumption approach suffers from an under-estimation of the consumption (Figure 2 and Table 3 in the appendix). This is not surprising because the approach only collects consumption from a subset of items.",
+        "cite_spans": [
+          {
+            "start": 456,
+            "end": 457,
+            "text": "7",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 398,
+            "end": 405,
+            "text": "Table 1",
+            "ref_id": "TABREF1"
+          },
+          {
+            "start": 1000,
+            "end": 1009,
+            "text": "(Figure 2",
+            "ref_id": null
+          },
+          {
+            "start": 1014,
+            "end": 1021,
+            "text": "Table 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Ex post Simulation",
+        "sec_num": null
+      },
+      {
+        "text": "Applying the median as a summary statistic also results in an under-estimation of consumption. As consumption distributions have a long right tail, the median consumption belongs to a poorer household than the average household. In the case of Hargeisa, several optional modules have a median of zero consumption. Thus, the median underestimates the consumption similarly to the reduced consumption approach. In contrast, the average consumption of households is larger than the consumption of the median household. Thus, it is not surprising that the technique using the average as summary statistic over-estimates total consumption at the household and cluster level.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Ex post Simulation",
+        "sec_num": null
+      },
+      {
+        "text": "The regression techniques have a similar performance with a considerable upward bias at all levels. The Tobit regression performs slightly better at the household and cluster level. In contrast, both multiple imputation techniques perform exceptionally well with a bias below 1% at all levels. While the bias is important to understand systematic deviation of the estimation, the relative standard error helps to understand the variation of the estimation. Except in a simulation setting, the standard error of the estimation cannot be calculated as only one assignment of households to optional modules is available (Figure 3 and Table 3 in the appendix). Thus, it is important that the estimation technique delivers a small relative standard error.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 617,
+            "end": 626,
+            "text": "(Figure 3",
+            "ref_id": null
+          },
+          {
+            "start": 631,
+            "end": 638,
+            "text": "Table 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Ex post Simulation",
+        "sec_num": null
+      },
+      {
+        "text": "Generally, the relative standard error reduces when moving from the household level over the cluster level to the global level. The relative standard error for the reduced consumption methodology is smaller than for the summary statistic techniques because the reduced consumption is not subject to the variation from the module assignment to households. The regression techniques have large relative standard errors at the household level of around 20% while the multiple imputation techniques vary between 15% and 20%. At the cluster level, the relative standard error drops to 7% for regression techniques and 5% for multiple imputation techniques. At the global level, the relative standard error is around 3% for regression techniques and 1% for multiple imputation techniques.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Ex post Simulation",
+        "sec_num": null
+      },
+      {
+        "text": "The distributional shape of the estimated household consumption can be compared to the reference household consumption by employing standard poverty and inequality indicators. The poverty headcount 8 Reduced consumption is abbreviated with 'red', median with 'med', average with 'avg', OLS regression with 'reg', Tobit regression with 'tobit', multiple imputations using chained regressions with 'MICE' and multiple imputations using multivariate normal approximation with 'MImvn'. ",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Ex post Simulation",
+        "sec_num": null
+      },
+      {
+        "text": "(FGT0) is 57.4% for the reference distribution. 9 Not surprisingly, the reduced consumption and the median summary statistic overestimate poverty by several percentage points due to the under-estimation of consumption ( Figure 4 and Table 4 in the appendix). The average summary statistic and the regression techniques underestimate poverty since they overestimate consumption. The multiple imputation techniques over-estimate poverty but only by 0.5 percentage points (or about 1 percent) performing significantly better than the reduced consumption approach with a more than two times larger bias. The reduced consumption and the median summary statistic as well as the multiple imputation techniques deliver good results for the FGT1 and FGT2 emphasizing that not only the headcount can be estimated reasonably well but also the distributional shape is conserved. Except for the median summary statistic, these techniques also perform well estimating the Gini coefficient with a bias of less than 0.5 percentage points. The relative standard errors show similar results as for the estimation of the consumption ( Figure   5 and Table 4 in the appendix). While the relative standard error of the reduced consumption for FGT0 is double compared to the multiple imputation techniques, the relative standard errors for FGT1 are comparable but larger for FGT2 and Gini for the multiple imputation techniques. In summary, the average summary statistic and the regression approaches cannot deliver convincing estimations. While the reduced consumption and the median summary statistic perform considerably better, they both over-estimate poverty by construction. Only the multiple imputation techniques can 9 The FGT0 is calculated based on the US$ 1.90 PPP (2011) international poverty line converted into local currency in 2013. ",
+        "cite_spans": [
+          {
+            "start": 1703,
+            "end": 1704,
+            "text": "9",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 220,
+            "end": 228,
+            "text": "Figure 4",
+            "ref_id": null
+          },
+          {
+            "start": 233,
+            "end": 240,
+            "text": "Table 4",
+            "ref_id": null
+          },
+          {
+            "start": 1116,
+            "end": 1126,
+            "text": "Figure   5",
+            "ref_id": null
+          },
+          {
+            "start": 1131,
+            "end": 1138,
+            "text": "Table 4",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "13",
+        "sec_num": null
+      },
+      {
+        "text": "In late 2014, consumption data using the proposed rapid methodology were collected in Mogadishu using CAPI. The rapid consumption questionnaire did reduce face-to-face time considerably. A household visit took about 40 minutes on average (median: 35 minutes) including greeting, household roster and characteristics, consumption module as well as perception questions. Nine out of ten interviews took less than 65 minutes.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Application to Mogadishu",
+        "sec_num": null
+      },
+      {
+        "text": "After data cleaning and quality procedures, 675 households with consumption data were retained. 10 A welfare model was built to predict missing consumption in optional modules. The welfare model is tested on the core consumption (after removing the core consumption as explanatory variable). The model for food consumption retrieves an R2 of 0.24 while non-food consumption is modeled with an R2 of 0.16 (see Table 3 ). It is important to emphasize that these models give a lower bound of the R2 compared to the models used in the prediction as the prediction models include the core consumption as explanatory variable. Given the assessment of the different estimation techniques in the last section, the multivariate normal approximation using multiple imputations is applied to the Mogadishu data set.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 409,
+            "end": 416,
+            "text": "Table 3",
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": "Application to Mogadishu",
+        "sec_num": null
+      },
+      {
+        "text": "For the Mogadishu data set, the assignment of items to modules had to be refined manually. 11 The refinement has minor impact on the share of consumption per module (Table 2) . It is peculiar though that the share of consumption per module is very different between Hargeisa and Mogadishu. Using the Hargeisa data set, 91% of food consumption (76% for non-food consumption) is captured in the core module. In contrast, the core food consumption share is only 64% (for non-food consumption 62%) in",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 165,
+            "end": 174,
+            "text": "(Table 2)",
+            "ref_id": "TABREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Application to Mogadishu",
+        "sec_num": null
+      },
+      {
+        "text": "Mogadishu before imputing consumption of non-assigned modules. Thus, employing a reduced consumption module based on consumption shares identified in Hargeisa would have crudely underestimated consumption in Mogadishu without the possibility to evaluate the inaccuracy. In contrast, the rapid consumption methodology allows the estimation of shares for each module while the consumption estimation procedure implicitly takes into account the 'missing' consumption shares for each household. The cumulative consumption distribution can be compared for the consumption captured in the core module, the consumption captured in the core and the assigned optional module and the imputed consumption ( Figure 6 ). By construction, the core consumption shows the lowest consumption per household. Adding the consumption from the assigned optional module shifts the cumulative consumption curve slightly. The imputed consumption is shifted even further as the estimated consumption shares from the non-assigned module are added as well. Without a full consumption aggregate available for Mogadishu, only consistency of the retrieved consumption aggregate with other household characteristics to validate the estimates can be shown.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 696,
+            "end": 704,
+            "text": "Figure 6",
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": "Application to Mogadishu",
+        "sec_num": null
+      },
+      {
+        "text": "Consumption per capita usually reduces with increasing household size. Indeed, household size is significantly negatively correlated with estimated per capita consumption (coefficient: -0.04, t-statistic: -2.10, p-value: 0.04). 13 Per capita consumption also decreases with a larger share of children among the household members (coefficient: -0.28, t-statistic: -1.66, p-value: 0.098). The proportion of employed members in the household significantly increases consumption per capita (coefficient: 0.51, t-statistic:",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Application to Mogadishu",
+        "sec_num": null
+      },
+      {
+        "text": "2.77, p-value: <0.01). Thus, the retrieved consumption estimate is consistent and -using the evidence from the ex post simulations -highly accurate.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Application to Mogadishu",
+        "sec_num": null
+      },
+      {
+        "text": "The results from the ex post simulation indicate that the rapid consumption methodology can reliably estimate consumption and poverty. At the same time, the experience in Mogadishu showed that the rapid consumption methodology can be implemented in extremely high risk areas while succeeding in limiting face-to-face interview time to less than one hour. While these results are encouraging, the rapid consumption methodology has some limitations.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The rapid consumption questionnaire varies comprehensiveness and order of items in the consumption module between households. The effect of a response bias due to this neither can be estimated from the simulations nor from the data collected in Mogadishu. However, an enhanced design with different optional modules varying in their comprehensiveness of items can shed light on this bias. Comparison between responses for the same item in a comprehensive and an incomprehensive list would indicate a lower bound for response bias. Assuming that the context of a comprehensive list is a better estimate, the response bias could be corrected for.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The rapid consumption survey methodology can increase the gap between capacity at the enumerator level and complexity of the survey instrument. Capacity at the enumerator level is often low in developing countries -especially in a fragile context. The rapid consumption survey methodology increases the complexity of the questionnaire, which can further increase the gap between existing and required capacity at the level of enumerators. However, CAPI technology can seal off complexity from the enumerator, as software can automatically create the consumption module based on core and optional modules for each household without showing the partition to the enumerator. In Mogadishu, advanced CAPI technology was used generating the questionnaire automatically based on the assignment of the household to an optional module. While enumerators were made aware that different households will be asked for different items, administering the rapid consumption questionnaire did not require any additional training of enumerators beyond standard consumption questionnaires.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "Analysis of rapid consumption survey data requires high capacity. Analysis capacity is usually limited in developing -and especially fragile -countries. While the general idea of assignment of optional consumption modules to households will be digestible by local counterparts, poverty analysis based on a bootstrapped sample of the consumption distribution is likely to overwhelm local capacity. However, even standard poverty analysis is often out of limits for local capacity in fragile countries. Therefore, capacity building usually focuses on data collection skills with a long-term perspective to increase data analysis capacity. In addition, the rapid consumption survey methodology might be the only possibility to create poverty estimates in certain areas, for example Mogadishu.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "The results of the ex-post simulation and the application in Mogadishu suggest that the rapid consumption methodology can be a promising approach to estimate consumption and poverty in a cost-efficient and 18 fast manner even in fragile areas. 14 A similar ex-post simulation for South Sudan (data not shown)",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "indicates that the rapid consumption methodology can also be applied at the country level with large intra-country consumption variation. 15 Further research can help further refining the methodology and estimation techniques. A better understanding of the relationship between the number of items in the core module and the number of optional modules with the accuracy of the resulting estimates can help to further optimize the methodology. Also the algorithm for the assignment of items to modules was designed ad hoc and can certainly be further improved. The estimation techniques can be optimized utilizing different techniques and more appropriate welfare models, for example including locational random effects. Finally, ultimate validation of the rapid consumption methodology should come from a parallel implementation of a full consumption survey and the rapid consumption methodology to directly compare estimates.",
+        "cite_spans": [
+          {
+            "start": 138,
+            "end": 140,
+            "text": "15",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "14 Costs for implementing a rapid consumption survey are lower than conducting a full consumption survey due to the reduced face-to-face time allowing enumerators to conduct more interviews per day. 15 Ongoing field work employs the rapid consumption methodology currently in South Sudan to update poverty numbers. ",
+        "cite_spans": [
+          {
+            "start": 199,
+            "end": 201,
+            "text": "15",
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Conclusions",
+        "sec_num": null
+      },
+      {
+        "text": "Corresponding author: Utz Pape (upape@worldbank.org). The findings, interpretations and conclusions expressed in this paper are entirely those of the authors, and do not necessarily represent the views of the World Bank, its Executive Directors, or the governments of the countries they represent.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Beegle et al, 2012. 3 Douidich et al, 2013; SWIFT.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Christiaensen et al, 2010;Christiaensen et al, 2011.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Even with d=1, equal consumption share across modules is not maximized because among the modules with the same number of assigned items, the new item will be assigned to the module it is most orthogonal to; rather than to the module with lowest consumption share.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Robustness checks are performed with different item assignment to modules including setting the parameter d=1 and d=2. The estimation results are extremely robust to changes in the item assignment to modules.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "While the survey also covered IDP camps, the presented analysis is restricted to households in residential areas excluding IDP camps.11 The manual refinement is necessary to ensure that items like 'other fruits' cannot double count types of fruits not assigned to the household. This is implemented by relabeling and manual assignment to modules. In addition, some items grouping several sub-items were split into single items, which is generally preferable for recall and recording as well as calculation of unit values.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      },
+      {
+        "text": "Note that the presented consumption aggregate does not include consumption from durables goods.13 The reported numbers are corrected against correlation with household characteristics included in the welfare model. As the welfare model for the prediction of consumption includes household size, robustness check are calculated excluding household size from the welfare model used for prediction. The correlation between consumption per capita and household size is still significant (coefficient: -0.03, t-statistic: -2.17, p-value: 0.03).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "",
+        "sec_num": null
+      }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Hybrid Survey to Improve the Reliability of Poverty Statistics in a Cost-Effective Manner",
+        "authors": [
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Ahmed",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Dorji",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Takamatsu",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Yoshida",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ahmed, F., C. Dorji, S. Takamatsu and N. Yoshida (2014), \"Hybrid Survey to Improve the Reliability of Poverty Statistics in a Cost-Effective Manner\", Policy Research Working Paper 6909, World Bank.",
+        "links": null
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Methods of household consumption measurement through surveys: Experimental results from Tanzania",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [],
+            "last": "Beegle",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "De Weerdt",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Friedman",
+            "suffix": ""
+          },
+          {
+            "first": "",
+            "middle": [],
+            "last": "Gibson",
+            "suffix": ""
+          }
+        ],
+        "year": 2012,
+        "venue": "Journal of Development Economics",
+        "volume": "98",
+        "issue": "1",
+        "pages": "3--18",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Beegle, K., J De Weerdt, J. Friedman and J. Gibson (2012), \"Methods of household consumption measurement through surveys: Experimental results from Tanzania\", Journal of Development Economics 98 (1), 3 -18.",
+        "links": null
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "The Reliability of Small Area Estimation Prediction Methods to Track Poverty",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Luoto",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Stifel",
+            "suffix": ""
+          }
+        ],
+        "year": 2010,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "J. Luoto and D. Stifel (2010). \"The Reliability of Small Area Estimation Prediction Methods to Track Poverty,\" Mimeo, Development Research Group, the World Bank, Washington D.C.",
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "Small Area Estimation-Based Prediction Methods to Track Poverty: Validation and Applications",
+        "authors": [
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Christiaensen",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Luoto",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Stifel",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "Journal of Economic Inequality",
+        "volume": "10",
+        "issue": "2",
+        "pages": "267--297",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Christiaensen, L., P. Lanjouw, J. Luoto and D. Stifel (2011), \"Small Area Estimation-Based Prediction Methods to Track Poverty: Validation and Applications\", Journal of Economic Inequality 10 (2), 267 -297.",
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "The Analysis of Household Surveys: A Micro-econometric Approach to Development Policy",
+        "authors": [
+          {
+            "first": "Angus",
+            "middle": [],
+            "last": "Deaton",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deaton, Angus (2000), \"The Analysis of Household Surveys: A Micro-econometric Approach to Development Policy\", Published for the World Bank, The Johns Hopkins University Press, Baltimore and London (third edition)",
+        "links": null
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Guidelines for Constructing Consumption Aggregates for Welfare Analysis",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Deaton",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Zaidi",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "LSMS Working Paper",
+        "volume": "135",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deaton A. and S. Zaidi (2002). \"Guidelines for Constructing Consumption Aggregates for Welfare Analysis\". LSMS Working Paper 135, World Bank, Washington, DC.",
+        "links": null
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "On measuring child costs: with applications to poor countries",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Deaton",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Muellbauer",
+            "suffix": ""
+          }
+        ],
+        "year": 1986,
+        "venue": "Journal of Political Economy",
+        "volume": "94",
+        "issue": "",
+        "pages": "720--764",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Deaton A. and J. Muellbauer (1986). \"On measuring child costs: with applications to poor countries\". Journal of Political Economy 94, 720 -44.",
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Estimating Quarterly Poverty Rates Using Labor Force Surveys",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Douidich",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Ezzrari",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [],
+            "last": "Van Der Weide",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Verme",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Policy Research Working Paper",
+        "volume": "6466",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Douidich, M., A. Ezzrari, R. van der Weide and P. Verme (2013), \"Estimating Quarterly Poverty Rates Using Labor Force Surveys\", Policy Research Working Paper 6466, The World Bank.",
+        "links": null
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "New Approaches to Increase Frequent Poverty Estimates",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Dorji",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Yoshida",
+            "suffix": ""
+          }
+        ],
+        "year": 2011,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Dorji, C., and N. Yoshida. 2011. \"New Approaches to Increase Frequent Poverty Estimates.\" Unpublished manuscript.",
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Micro-Level Estimates of Poverty and Inequality",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Elbers",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "O"
+            ],
+            "last": "Lanjouw",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "Econometrica",
+        "volume": "71",
+        "issue": "1",
+        "pages": "355--364",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Elbers C., J. O. Lanjouw and P. Lanjouw (2002). \"Micro-Level Estimates of Poverty and Inequality\". Econometrica 71:1, pp. 355 -364.",
+        "links": null
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Micro-Level Estimation of Welfare",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Elbers",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          }
+        ],
+        "year": 2002,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Elbers, C., J. Lanjouw and P. Lanjouw (2002), \"Micro-Level Estimation of Welfare\", Policy Research Working Paper 2911, DECRG, The World Bank.",
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Micro-Level Estimation of Poverty and Inequality",
+        "authors": [
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Elbers",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          }
+        ],
+        "year": 2003,
+        "venue": "Econometrica",
+        "volume": "71",
+        "issue": "1",
+        "pages": "355--364",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Elbers, C., J. Lanjouw and P. Lanjouw (2003), \"Micro-Level Estimation of Poverty and Inequality\", Econometrica 71 (1), 355 -364.",
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Hybrid Survey to Improve the Reliability of Poverty Statistics in a Cost-Effective Manner",
+        "authors": [
+          {
+            "first": "A",
+            "middle": [],
+            "last": "Faizuddin",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Dorji",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Takamatsu",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Yoshida",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Faizuddin, A., C. Dorji, S. Takamatsu and N. Yoshida (2014), \"Hybrid Survey to Improve the Reliability of Poverty Statistics in a Cost-Effective Manner\", World Bank Working Paper.",
+        "links": null
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "A class of decomposable poverty measures",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Foster",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Greer",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [],
+            "last": "Thorbecke",
+            "suffix": ""
+          }
+        ],
+        "year": 1984,
+        "venue": "Econometrica",
+        "volume": "52",
+        "issue": "3",
+        "pages": "761--766",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Foster J., E. Greer and E. Thorbecke (1984). \"A class of decomposable poverty measures\". Econometrica, Vol. 52, No. 3, pp. 761-766.",
+        "links": null
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "Cost-Effective Estimation of the Population Mean Using Prediction Estimators",
+        "authors": [
+          {
+            "first": "Tomoki",
+            "middle": [],
+            "last": "Fujii",
+            "suffix": ""
+          },
+          {
+            "first": "Roy",
+            "middle": [],
+            "last": "Van Der Weide",
+            "suffix": ""
+          }
+        ],
+        "year": 2013,
+        "venue": "Policy Research Working Paper",
+        "volume": "6509",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Fujii, Tomoki and Roy van der Weide (2013), \"Cost-Effective Estimation of the Population Mean Using Prediction Estimators\", Policy Research Working Paper 6509, The World Bank.",
+        "links": null
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "Handbook on Poverty and Inequality",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Haughton",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Khander",
+            "suffix": ""
+          }
+        ],
+        "year": 2009,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Haughton, J. and S. Khander (2009). \"Handbook on Poverty and Inequality\". The World Bank.",
+        "links": null
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Constructing an indicator of consumption for the analysis of poverty: Principles and Illustrations with Principles to Ecuador",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Hentschel",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "LSMS Working Paper",
+        "volume": "124",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Hentschel J. and P. Lanjouw (1996). \"Constructing an indicator of consumption for the analysis of poverty: Principles and Illustrations with Principles to Ecuador\". LSMS Working Paper 124, World Bank, Washington, DC.",
+        "links": null
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "Poverty Comparisons and Household Survey Design",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Howes",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "O"
+            ],
+            "last": "Lanjouw",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "LSMS Working Paper",
+        "volume": "129",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Howes S. and J.O. Lanjouw (1997). \"Poverty Comparisons and Household Survey Design\". LSMS Working Paper 129, World Bank Washington, DC.",
+        "links": null
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Poverty and the economic transition : how do changes in economies of scale affect poverty rates for different households?",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "Lanjouw",
+            "suffix": ""
+          },
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Milanovic",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Paternostro",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "Policy Research Working Paper Series",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Lanjouw P., B. Milanovic, and S. Paternostro (1998). \"Poverty and the economic transition : how do changes in economies of scale affect poverty rates for different households?\". Policy Research Working Paper Series 2009, The World Bank.",
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "How Survey-to-Survey Imputation Can Fail",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Newhouse",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Shivakumaran",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Takamatsu",
+            "suffix": ""
+          },
+          {
+            "first": "N",
+            "middle": [],
+            "last": "Yoshida",
+            "suffix": ""
+          }
+        ],
+        "year": 2014,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Newhouse, D., S. Shivakumaran, S. Takamatsu and N. Yoshida (2014). \"How Survey-to-Survey Imputation Can Fail\", Policy Research Working Paper 6961, World Bank.",
+        "links": null
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Poverty Comparisons",
+        "authors": [
+          {
+            "first": "Martin",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Fundamentals of Pure and Applied Economics",
+        "volume": "56",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ravallion, Martin (1994), \"Poverty Comparisons\", Fundamentals of Pure and Applied Economics 56, Hardwood Academic Publishers",
+        "links": null
+      },
+      "BIBREF23": {
+        "ref_id": "b23",
+        "title": "Poverty Lines in Theory and Practice",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "World Bank -Living Standards Measurement",
+        "volume": "133",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ravallion M. (1998). \"Poverty Lines in Theory and Practice\". Papers 133, World Bank -Living Standards Measurement. 21",
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Subjective Economic Welfare",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Ravallion",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [],
+            "last": "Lokshin",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "other_ids": {},
+        "num": null,
+        "urls": [],
+        "raw_text": "Ravallion M., M. Lokshin (1999). \"Subjective Economic Welfare\", World Bank Policy Research Working Paper No. 2106.",
+        "links": null
+      }
+    },
+    "ref_entries": {
+      "FIGREF0": {
+        "type_str": "figure",
+        "num": null,
+        "fig_num": "1",
+        "uris": null,
+        "text": "Illustration of the rapid consumption survey methodology (using illustrative data only). The consumption module is partitioned into core and optional modules, which in turn are assigned to households. Consumption is imputed utilizing the sub-sample information of the optional modules either by single or multiple imputation methods."
+      },
+      "FIGREF1": {
+        "type_str": "figure",
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "set from Hargeisa allows a full-fledged assessment of the new methodology. Based on selected indicators, the results are compared after estimating consumption based on the rapid consumption methodology with the results from using the traditional full consumption module. A comparison is added with the results for a reduced consumption module. The simulation assigns each household to one optional module. The consumption data for the modules not assigned to the household is deleted. Multiple simulations are performed with varying assignment of modules to households. Across the simulations, three consumption aggregates and four poverty and inequality indicators are calculated. The consumption indicators capture the accuracy of the estimation at three different levels: the household level, the cluster level (consisting of about 9 households) and the level of the data set. In addition, the poverty headcount (FGT0), poverty depth (FGT1) and poverty severity (FGT2) as well as the Gini coefficient are calculated to capture inequality. The six proposed estimation techniques presented in the previous section are compared based on 20"
+      },
+      "FIGREF2": {
+        "type_str": "figure",
+        "num": null,
+        "fig_num": "23",
+        "uris": null,
+        "text": "Average Relative Bias at household, cluster, and simulation level for six estimation techniques. 8 Average Relative Standard Error at household, cluster, and simulation level for six estimation techniques. 8"
+      },
+      "FIGREF3": {
+        "type_str": "figure",
+        "num": null,
+        "fig_num": null,
+        "uris": null,
+        "text": "Figure 4: Average Bias for FGT0, FGT1, FGT2 and Gini coefficient. 8 Figure 5: Average Standard Error for FGT0, FGT1, FGT2 and Gini coefficient. 8"
+      },
+      "FIGREF4": {
+        "type_str": "figure",
+        "num": null,
+        "fig_num": "6",
+        "uris": null,
+        "text": "Cumulative consumption distribution in current USD per day and capita for core module (dark blue), core and assigned optional module (medium blue) and imputed consumption (light blue). 12"
+      },
+      "TABREF1": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td/><td>Food</td><td colspan=\"2\">Non Food</td></tr><tr><td/><td>Number</td><td>Share of</td><td>Number of</td><td>Share of</td></tr><tr><td/><td>of Items</td><td>Consumption</td><td>Items</td><td>Consumption</td></tr><tr><td>Core</td><td>33</td><td>92%</td><td>25</td><td>88%</td></tr><tr><td>Module 1</td><td>17</td><td>3%</td><td>15</td><td>3%</td></tr><tr><td>Module 2</td><td>17</td><td>2%</td><td>15</td><td>3%</td></tr><tr><td>Module 3</td><td>15</td><td>2%</td><td>15</td><td>4%</td></tr><tr><td>Module 4</td><td>17</td><td>2%</td><td>15</td><td>3%</td></tr></table>",
+        "text": ""
+      },
+      "TABREF3": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td colspan=\"2\">convince in all</td><td/><td/><td/><td/></tr><tr><td>5%</td><td/><td/><td/><td/><td>5%</td></tr><tr><td>3%</td><td/><td/><td/><td/><td>4%</td></tr><tr><td>1%</td><td/><td/><td/><td/><td>3%</td></tr><tr><td>-1%</td><td>FGT0</td><td>FGT1</td><td>FGT2</td><td>Gini</td><td>2%</td></tr><tr><td/><td/><td/><td/><td/><td>1%</td></tr><tr><td>-3%</td><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td>0%</td></tr><tr><td>-5%</td><td/><td/><td/><td/><td>FGT0</td><td>FGT1</td><td>FGT2</td><td>Gini</td></tr><tr><td/><td colspan=\"2\">Reduced Item List</td><td>Median</td><td/><td colspan=\"2\">Reduced Item List</td><td>Median</td></tr><tr><td/><td>Mean</td><td/><td>OLS Regression</td><td/><td>Mean</td><td>OLS Regression</td></tr><tr><td/><td colspan=\"2\">Tobit Regression</td><td colspan=\"2\">Chained Equations</td><td colspan=\"2\">Tobit Regression</td><td>Chained Equations</td></tr><tr><td/><td colspan=\"2\">Multivariate Normal</td><td/><td/><td colspan=\"2\">Multivariate Normal</td></tr><tr><td/><td/><td/><td/><td>14</td><td/></tr></table>",
+        "text": "estimation exercises. Especially in the estimation of the important poverty headcount (FGT0), the multiple imputation techniques are virtually unbiased."
+      },
+      "TABREF4": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td/><td colspan=\"2\">Food Consumption</td><td/><td/><td colspan=\"2\">Non-Food Consumption</td><td/></tr><tr><td/><td/><td/><td/><td>Share</td><td/><td/><td/><td>Share</td></tr><tr><td/><td>Number</td><td>Share</td><td>Share</td><td>Mogadishu</td><td>Number</td><td>Share</td><td>Share</td><td>Mogadishu</td></tr><tr><td/><td>of Items</td><td>Hargeisa</td><td>Mogadishu</td><td>Imputed</td><td>of Items</td><td>Hargeisa</td><td>Mogadishu</td><td>Imputed</td></tr><tr><td>Core</td><td>33</td><td>91%</td><td>64%</td><td>54%</td><td>26</td><td>76%</td><td>62%</td><td>52%</td></tr><tr><td>Module 1</td><td>19</td><td>3%</td><td>9%</td><td>16%</td><td>15</td><td>7%</td><td>9%</td><td>12%</td></tr><tr><td>Module 2</td><td>20</td><td>2%</td><td>14%</td><td>14%</td><td>15</td><td>5%</td><td>9%</td><td>12%</td></tr><tr><td>Module 3</td><td>15</td><td>2%</td><td>5%</td><td>6%</td><td>15</td><td>6%</td><td>8%</td><td>9%</td></tr><tr><td>Module 4</td><td>15</td><td>2%</td><td>8%</td><td>9%</td><td>15</td><td>6%</td><td>11%</td><td>15%</td></tr></table>",
+        "text": ""
+      },
+      "TABREF5": {
+        "type_str": "table",
+        "html": null,
+        "num": null,
+        "content": "<table><tr><td/><td>Core Food</td><td>Core Non-Food</td></tr><tr><td>Variable</td><td>Consumption</td><td>Consumption</td></tr><tr><td>Core Food Consumption</td><td/><td/></tr><tr><td>... 2nd Quartile</td><td>0.78 (1.17)</td><td/></tr><tr><td>... 3rd Quartile</td><td>0.09 (1.46)</td><td/></tr><tr><td>... 4th Quartile</td><td>0.52 (7.22)</td><td/></tr><tr><td>Core Non-Food Consumption</td><td/><td/></tr><tr><td>... 2nd Quartile</td><td/><td>0.07 (1.11)</td></tr><tr><td>... 3rd Quartile</td><td/><td>0.12 (1.77)</td></tr><tr><td>... 4th Quartile</td><td/><td>0.42 (5.81)</td></tr><tr><td>Household Size</td><td>-0.07 (-8.36)</td><td>-0.04 (4.34)</td></tr><tr><td>Household Head Education</td><td>0.16 (3.34)</td><td>0.12 (2.56)</td></tr><tr><td>Dwelling Characteristics</td><td/><td/></tr><tr><td>... Shared Apartment</td><td>0.04 (0.59)</td><td>-0.13 (-2.12)</td></tr><tr><td>... Separated House</td><td>-0.14 (-1.13)</td><td>-0.19 (-1.55)</td></tr><tr><td>... Shared House</td><td>-0.07 (-0.81)</td><td>-0.14 (-1.52)</td></tr><tr><td>Water Access</td><td/><td/></tr><tr><td>... Piped Water</td><td>-0.22 (-0.93)</td><td>-0.04 (-0.19)</td></tr><tr><td>... Public Tap</td><td>0.41 (2.47)</td><td>-0.01 (-0.08)</td></tr><tr><td>Insufficient Food in last 4 weeks</td><td>0.05 (1.49)</td><td>-0.05 (-1.50)</td></tr><tr><td>R2</td><td>0.24</td><td>0.16</td></tr><tr><td>N</td><td>675</td><td>675</td></tr></table>",
+        "text": ""
+      }
+    }
+  }
+}

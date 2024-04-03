@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06027: 30 Initially, in our benchmark calibration, and in order to direct our attention to the role played by and , we calibrate the rest of parameters based on values frequently used in the literature for developed countries.\n\ns_06077: The analysis in this paper also contributes to a second, and more established, strand of literature, which focuses on temporary migrations.\n\ns_06127: We also check the robustness of our results to using pooled cross-sectional data from the 2012 and 2018 ELMPS.\n\ns_06177: Regression analysis shows that after controlling for demographic characteristics (sex, age, location, education level and household wealth) respondents that Tables A4 and A5 in Appendix A).\n\ns_06227: See Tables B.12 and B.13 for a full set of results.\n\ns_06277: To see if the program had an effect, we plotted vaccination rates by treatment group, for the baseline and for the endline.\n\ns_06327: This set of papers includes on the one hand those that use household survey data or opinion surveys.\n\ns_06377: The data for China come from the China Family Panel Study (CFPS) 2010 wave, which has a unique T- and Bhatt (2015) and Azam (2016) .\n\ns_06427: Thus, data from these countries will provide comprehensive evidence of the effect of the pandemic and associated policy measures on households and firms in the context of developing economies.\n\ns_06477: The data used in this study comes from the Latinobar\u00f3metro Survey for 2020 (Latinobar\u00f3metro Corporation 2021), the latest year available.\n\ns_06527: The survey also asked TPOs which were the virtual programs with the largest shares of applications, and which represented the largest expenditure share during COVID.\n\ns_06577: Table 4 .1 presents the results.\n\ns_06627: 1.5 In order to address these issues the paper is structured in five sections.\n\ns_06677: We also take into account the time series properties of the variables in the regression, as proposed by Siklos(1996) .\n\ns_06727: This feature of better-off households benefiting more was also borne out by detailed case-study evidence (Farashuddin et al 1998) and by comparing participants of credit programs who cater to different socio-economic groups (Montgomery et al 1996) 10 .\n\ns_06777: Most of the recent empirical and analytical literature is based on the work 1 Throughout this paper, we abuse the definition of Latin America to include Caribbean countries also; i.e., Latin America is defined as the Western Hemisphere minus Canada and the US.\n\ns_06827: 12 Also see World Bank 2000; Attanasio and Szekeley 2001; Wadsworth 2002; Winters and others 2002) .\n\ns_06877: Vital registration systems are weak in many developing countries though censuses and surveys have provided some useful validation data.)\n\ns_06927: Tables 8a and 8b replicate the specifications reported in tables 5a and 5b; in addition, we include an additional specification for the full sample where we interact a dummy variable for whether the student was a non-mover with the head-teacher report of absence.\n\ns_06977: (Table 7) Gaussian Kernel, bandwidth 0.06, bootstrapped standard errors\n\ns_07027: Supporting this view, de Paiva Abreu (1996 page 66) asserts that while the average tariff reduction implemented by developed countries on industrial products was 28%, the reduction for footwear imports was only 6.1% i.e., the lowest among the sample of industries included in this study.\n\ns_07077: Next, we describe the data and the econometric specification employed.\n\ns_07127: Panel A of this table shows results for OLS regressions with robust errors for all ADRs as well as for listed ADRs sub-sample.\n\ns_07177: The survey data were supplemented with data obtained from Banred on total BDH transfers collected by households in the sample between January 2004 and July 2005.\n\ns_07227: The data span the period 1990-2004."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B78bWthitVMQIMlFV6wM16nXMQ0Z",
+    "object": "chat.completion",
+    "created": 1682883401,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1146,
+      "completion_tokens": 135,
+      "total_tokens": 1281
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06127\", \"data_mentioned\": true, \"reason\": \"ELMPS\"}, {\"sent_id\": \"s_06377\", \"data_mentioned\": true, \"reason\": \"China Family Panel Study (CFPS)\"}, {\"sent_id\": \"s_06477\", \"data_mentioned\": true, \"reason\": \"Latinobar\u00f3metro Survey\"}, {\"sent_id\": \"s_06527\", \"data_mentioned\": true, \"reason\": \"survey\"}, {\"sent_id\": \"s_06927\", \"data_mentioned\": true, \"reason\": \"head-teacher report of absence\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06127\", \"data_mentioned\": true, \"reason\": \"ELMPS\"}, {\"sent_id\": \"s_06377\", \"data_mentioned\": true, \"reason\": \"China Family Panel Study (CFPS)\"}, {\"sent_id\": \"s_06477\", \"data_mentioned\": true, \"reason\": \"Latinobar\u00f3metro Survey\"}, {\"sent_id\": \"s_06527\", \"data_mentioned\": true, \"reason\": \"survey\"}, {\"sent_id\": \"s_06927\", \"data_mentioned\": true, \"reason\": \"head-teacher report of absence\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

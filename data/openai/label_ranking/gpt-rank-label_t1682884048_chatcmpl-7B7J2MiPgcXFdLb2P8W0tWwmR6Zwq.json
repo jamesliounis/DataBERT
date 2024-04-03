@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05733: This is especially relevant when considering the two subperiods we use in the study.\n\ns_05783: Table 10 then combines this cost data with the impact of prices on demand (measured here as attending at least one training session) in order to determine the cost of training 1,000 firms at different prices.\n\ns_05833: We find very high significance for MODIS AOD, although we should note that relatively sparse observations yield many fewer degrees of freedom for the AOD case.\n\ns_05883: Furthermore, using firm-level data from World Bank Enterprise Surveys, the paper shows that the domestic actors in these linkages are typically relatively large establishments of 100 or more employees that have been in operation in for five years or longer.\n\ns_05933: One key factor is due to the lack of data that details invoicing currencies used for both advanced and developing economies.\n\ns_05983: A p-value of 0.7387 of the Pearson chi-square from the Hosmer and Lemeshow's goodness-of-fit test indicates that the model fits the data well.\n\ns_06033: See their paper for a detailed discussion of social transfers basic trends, composition, rigidity, and business cyclical aspects of social transfers.9 In fact, the contemporaneous correlation between quarterly changes of real GDP and real unemployment insurance spending is -0.23 (statistically signi\u2026cant).\n\ns_06083: The data is analyzed using a straightforward regression specification:\n\ns_06133: *** p<0.01, ** p<0.05, * p<0.1 Notes: We rely on pooled cross-sectional data from the 2012 and 2018 ELMPS.\n\ns_06183: In this paper we report on the findings of research studying drivers of vaccine hesitancy as well as research on ways of increasing people's willingness to get a COVID-19 vaccine.\n\ns_06233: (e) Gross domestic product (GDP) per capita: We use data on GDP per capita, denominated in 2011 PPP, 2017 PPP, and current USD, for the analyses done in this paper.\n\ns_06283: Baseline data was collected between May and August 2014 and endline data was collected four years later, between May and August 2018.\n\ns_06333: For instance, Asher, Novosad, and Rafkin (2021) study mobility among different marginalized groups and analyze geographic differences in India; Card, Domnisoru, and Taylor (2022) use 1940 census data to study the role of school quality in mediating upward mobility in the US; Van der Weide, Ferreira de Souza, and Barbosa (2020) study mobility at the sub-national level in Brazil; and most closely related to this paper, Alesina et al.\n\ns_06383: This paper is a product of the Development Research Group, Development Economics.\n\ns_06433: Abay, K., Berhane, G., Hoddinott, J., and Tafere, K. (2020).\n\ns_06483: The analyses conducted here can be replicated elsewhere by developing machine learning methods able to \"learn\" from datasets covering other regional or national settings.\n\ns_06533: This paper is a product of the Development Research Group, Development Economics and the Finance, Competitiveness and Innovation Global Practice.\n\ns_06583: The data set is compiled from disparate sources that were made mutually consistent with one another and with the national income figures for 1987-88.\n\ns_06633: Readers interested in issues of change management in integrated agencies should refer also to the more generic literature on mergers and change management.\n\ns_06683: As shown by Atiyas et.al (1998) , consolidating these into public sector accounts and netting out intra-governmental debt change the primary balance situation significantly.\n\ns_06733: Section 3.0. proposes several factors that contributed to its scaling-up.\n\ns_06783: For a detailed description of how foreign agents operate, seeJobst (2003).9 See the appendix for more information on foreign lobbying data.\n\ns_06833: This requires additional types of data and analysis.Box 2.11 Well-Being and AssetsThe 2003 World Development Report states: \"Greater productivity and prosperity depend on improvement of many dimensions of well-being -both material wealth and the nonmaterial aspects of personal and social welfare.\n\ns_06883: gives us an estimate of the contribution of the demographic changes during that period.\n\ns_06933: This requires data that matches specific students and teachers, a requirement that is hard to fulfill in most countries; Ehrenberg and others (1991) for instance use district level data, which could partially explain the lack of a relationship between teacher absence and student learning in their study."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7J2MiPgcXFdLb2P8W0tWwmR6Zwq",
+    "object": "chat.completion",
+    "created": 1682884048,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1262,
+      "completion_tokens": 101,
+      "total_tokens": 1363
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06433\", \"data_mentioned\": true, \"reason\": \"LSMS\"}, {\"sent_id\": \"s_06533\", \"data_mentioned\": true, \"reason\": \"Development Research Group\"}, {\"sent_id\": \"s_06583\", \"data_mentioned\": true, \"reason\": \"national income figures\"}, {\"sent_id\": \"s_06783\", \"data_mentioned\": true, \"reason\": \"foreign lobbying data\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06433\", \"data_mentioned\": true, \"reason\": \"LSMS\"}, {\"sent_id\": \"s_06533\", \"data_mentioned\": true, \"reason\": \"Development Research Group\"}, {\"sent_id\": \"s_06583\", \"data_mentioned\": true, \"reason\": \"national income figures\"}, {\"sent_id\": \"s_06783\", \"data_mentioned\": true, \"reason\": \"foreign lobbying data\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

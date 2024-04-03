@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_04777: This is done with two distinct microeconomic datasets, one a series of nationally representative household surveys (SES), and the other gathered under a project directed by one of the authors, with more reliable estimates of wealth, the timing of occupation transitions, and the use of formal and informal credit.\n\ns_04827: This result is consistent with previous studies which have found a similar relationship (Wennekers et al., 2005; Aidis et al., 2012) .\n\ns_04877: From the methodological point of view, the paper found the importance of dealing with infrastructure endogeneity in the empirical model.\n\ns_04927: To our knowledge, this paper is the only one that systematically tries to estimate infrastructure need across a cross section of countries and across a variety of sectors.'\n\ns_04977: The period of analysis and sample size are determined by the availability of value-added trade data from the OECD-WTO Trade in Value Added (TiVA) database used to assess the role of GVC integration.\n\ns_05027: These results appear in the (unconditional) descriptive data, in the estimate of conditional EPA treatment effects, and are robust to the use of three different types of propensity matching to control for the fact that export promotion services are not randomly allocated across firms.\n\ns_05077: Statistics presented in this paper may be different than those in the reports for the various surveys because of differences in the universe (children versus mothers or households) or other elements of data treatment.\n\ns_05127: The most recent year for which data is available from the PWT 8.1 is 2011 which is used to calculate the specified value of capital-to-output ratio.\n\ns_05177: 2014; Barofsky 2015; Finkelstein et al.\n\ns_05227: See Ostrom (2009) orPal (2009), for instance.\n\ns_05277: The first simulation (Table 1 ) asks the question: What would be the pattern of allocation of Federal transfers for lower secondary education among states, if Formula I (uniform per-student or capitation method) were used, and how would it compare with the actual allocation?\n\ns_05327: See the main text for more information on how these variables are constructed.\n\ns_05377: After explaining the methodology in more detail in the next section, the performance of the methodology is assessed ex post using collected household budget data in Hargeisa, Somalia.\n\ns_05427: The results are reported in Table 12 and Figure 17 .\n\ns_05477: 2011; Martin and Pimhidzai 2013) .\n\ns_05527: Table 3 shows some descriptive statistics for these covariates, while Appendix A1 displays the country-year coverage of the sample.\n\ns_05577: We present detailed methodology below.\n\ns_05627: , 2014; Halliday, Mazumder y Wong, 2018):\n\ns_05677: The literature found a positive correlation between FMIS budget coverage and PEFA scores (Hashim and Piatti-F\u00fcnfkirchen 2016, Piatti-F\u00fcnfkirchen, Hashim, and Wescott 2017) , as well as a negative relation between FMIS budget coverage and the deviation between planned and actual deficits (Piatti-F\u00fcnfkirchen, Hashim, and Wescott 2017) .\n\ns_05727: Many studies in a similar situation rely on the U.S. Department of Labor's O*Net database, which collects occupation-specific attributes for detailed occupations in the United States.\n\ns_05777: However, this table can also be interpreted as evidence for over-reporting WTP as in Hoffmann (2018) .\n\ns_05827: Section 6 discusses the relative benefits and costs of the new data sources, while Section 7 summarizes and concludes the paper.\n\ns_05877: For this purpose, we use data from the World Bank Enterprise Surveys and estimate a linear probability model of firms' GVC participation:\n\ns_05927: As well documented in the literature survey by P. K. Goldberg and Knetter (1997) , incomplete pass-through implies that the difference between the estimated coefficient and full pass-through is offset by changes in the markup when a cost measure is included as a control variable.\n\ns_05977: For instance, Srinuan, Srinuan, and Bohlin (2012) use data from Thailand to find that price, the availability of fixed telephony, and individuals' age and location are strong determinants of mobile internet adoption."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B78SrA7fjYATbA8cxoWDFC1agbbb",
+    "object": "chat.completion",
+    "created": 1682883392,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1205,
+      "completion_tokens": 173,
+      "total_tokens": 1378
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_04777\", \"data_mentioned\": true, \"reason\": \"SES\"}, {\"sent_id\": \"s_04927\", \"data_mentioned\": true, \"reason\": \"cross section of countries\"}, {\"sent_id\": \"s_04977\", \"data_mentioned\": true, \"reason\": \"OECD-WTO Trade in Value Added (TiVA) database\"}, {\"sent_id\": \"s_05127\", \"data_mentioned\": true, \"reason\": \"PWT 8.1\"}, {\"sent_id\": \"s_05677\", \"data_mentioned\": true, \"reason\": \"FMIS budget coverage\"}, {\"sent_id\": \"s_05727\", \"data_mentioned\": true, \"reason\": \"U.S. Department of Labor's O*Net database\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_04777\", \"data_mentioned\": true, \"reason\": \"SES\"}, {\"sent_id\": \"s_04927\", \"data_mentioned\": true, \"reason\": \"cross section of countries\"}, {\"sent_id\": \"s_04977\", \"data_mentioned\": true, \"reason\": \"OECD-WTO Trade in Value Added (TiVA) database\"}, {\"sent_id\": \"s_05127\", \"data_mentioned\": true, \"reason\": \"PWT 8.1\"}, {\"sent_id\": \"s_05677\", \"data_mentioned\": true, \"reason\": \"FMIS budget coverage\"}, {\"sent_id\": \"s_05727\", \"data_mentioned\": true, \"reason\": \"U.S. Department of Labor's O*Net database\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

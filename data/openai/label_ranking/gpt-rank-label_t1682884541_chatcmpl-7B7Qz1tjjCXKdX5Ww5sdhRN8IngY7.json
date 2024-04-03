@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06493: The latest available survey data was released in October 2021 and comprises 20,204 observations that represent more than 600 million inhabitants in the region.\n\ns_06543: To address this gap, the World Bank implemented a survey of TPOs in 57 countries between fall 2021 and spring 2022 with the objective of better understanding their responses to a crisis such as the COVID pandemic as well as their functioning more broadly.\n\ns_06593: On the one hand, exercises of the computable general equilibrium type -- Dahl, Devarajan, and van Wijnbergen (1986) , Mitra (1992) , Dahl and Mitra (1989) --have focused on the macroeconomic consequences of tax design and reform but at the expense of sectoral detail.\n\ns_06643: In the first place, it was argued that centralizing rt-gulatory fiunctions and activities can permit significant gains from economies of scale through the development of joint ad[ministrative, IT and other support functions.\n\ns_06693: We estimate this equation for private and public consumption separately, using quarterly data for the period 1987-96.\n\ns_06743: Naved (1994) uses Participatory Rural Appraisal (PRA) techniques to identify the effect of participation in Save The Children's savings and credit program in Manikanj.\n\ns_06793: Interior values for \u03b8 i k will be obtained by aggregation in the empirical part, or simply because rules of origin only allow certain exporters from a particular country to benefit from the preferences on paper.\n\ns_06843: There are disappointingly few success stories(Richards and others 2002, p.10).\"\n\ns_06893: Figure 2 gives a scatter plot of the CDR for 2002 against the latest Chen-Ravallion \"$1 a day\" poverty rates across the 83 9 Significant income effects on mortality arising from higher prices for foodstaples in Matlab thana are also reported by Ravallion (1987) .\n\ns_06943: Our findings also raise a methodological issue.\n\ns_06993: Section 4 presents the analytical approach, followed by the empirical results of our analysis.\n\ns_07043: The figures shown on Table III.1 correspond to the tariff positions for which the CIC requested safeguard measures.\n\ns_07093: Table 6 lists the instruments for each endogenous variable.\n\ns_07143: Our primary data source is the February 2002 edition of the Morningstar database for each U.S. mutual fund with a stated objective of investing primarily in emerging market equities.\n\ns_07193: The table shows that children in households that received transfers were significantly more likely to be enrolled at baseline; fathers' education for treated households was 0.52 years higher, and mothers' education 0.60 years higher.\n\ns_07243: Source: EBRD (2004) and authors calculations based on GATS schedules.\n\ns_07293: To calculate the effect of different PC provisions, we re-ran the FE and first difference GMM models for both the pooled and participants only samples, for each of the variables that we presumed would affect information, incentives and commitment.'\n\ns_07343: The argument advanced by the African Group during the negotiations, as reflected in Table 4 .2, goes quite a bit further, including binding obligations on special and differential treatment, call for specific technical assistance, and suggestion that trade facilitation needs are \"enormous.\"\n\ns_07393: Following the literature, most of the authors model supply response in a single equation (or multiple equations) as follows:\n\ns_07443: The analysis is carried out, first, by comparing countries that in recent years have received significant amounts of bilateral ODA debt forgiveness with those that have not and, second, by comparing the same groups of countries during 1984-88 and 1989-93 (bilateral ODA debt forgiveness surged in the latter period).\n\ns_07493: This table shows that-heterogeneity is substantial.\n\ns_07543: Although there was a slight recovery in the period 1986-90, the overall ratio of 16 percent to 17 percent is much lower than the 25 percent average for developing countries as a group (Table VII) .\n\ns_07593: Data for the construction industry show a consistent pattern of rising building costs from the stat of annual time seIes data in 1978 [TJNJ 1988, p. 590] .\n\ns_07643: As a prerequisite to eligibility for debt reduction, the debtor country itself is called upon to adjust faster than it might otherwise have done, owing to the sharp reduction in external finance.\n\ns_07693: The correlation between this measure of delay and the distance of the zone from the ginnery is -0.50 with an extremely high statistical significance of 0.0001."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7Qz1tjjCXKdX5Ww5sdhRN8IngY7",
+    "object": "chat.completion",
+    "created": 1682884541,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1275,
+      "completion_tokens": 51,
+      "total_tokens": 1326
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_07143\", \"data_mentioned\": true, \"reason\": \"Morningstar database\"}, {\"sent_id\": \"s_07593\", \"data_mentioned\": true, \"reason\": \"construction industry\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_07143\", \"data_mentioned\": true, \"reason\": \"Morningstar database\"}, {\"sent_id\": \"s_07593\", \"data_mentioned\": true, \"reason\": \"construction industry\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

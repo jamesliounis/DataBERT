@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_05109: These simulations are based on the regression analyses.\n\ns_05159: The following table summarizes the growth outcomes under various scenarios.\n\ns_05209: The dependent variable in Panel B is the number of times the child has visited various providers over the past year.\n\ns_05259: See for instance Costa Carvalho and Menezes Bezerra Campiao (2015) or Barbosa et al.\n\ns_05309: A simulated application of this formula reveals, however, that its use can in fact improve the current situation in regard to equity (see below).\n\ns_05359: This paper complements the previous research on rating agencies by also examining these possible cross-country and security-market spillover-effects of rating changes.\n\ns_05409: After data cleaning and quality procedures, 675 households with consumption data were retained.\n\ns_05459: Table 14 reports the regional comparison.\n\ns_05509: Table 3 .4 below provides a summary of the number of procedures between citizens and health care providers by service and economy.\n\ns_05559: Within this approach, two main methods can be distinguished in the literature.\n\ns_05609: However, this number varies depending on the individual model and return periods examined.\n\ns_05659: Este estudio incorpora el enfoque de la salud en una medici\u00f3n entre generaciones que constituye un reto poco explorado a\u00fan y una contribuci\u00f3n a la literatura especializada.\n\ns_05709: In some countries, these make up 90-95 percent of the budget (Piatti-F\u00fcnfkirchen, Hashim, and Wescott 2017).\n\ns_05759: This is especially relevant when considering the two sub-periods we use in the study -one characterized by a commodity boom (2005) (2006) (2007) (2008) (2009) (2010) and the other one (2011-2015) marked by a decline in export activity that affected the mining and mineral sectors more than manufactures.\n\ns_05809: Regressions in column (5) also include fixed effects for demonstration session.\n\ns_05859: Table 4 shows that all variables in the two levels equations are highly significant, while traffic speed has similar parameter estimates and high significance in the difference equations.\n\ns_05909: 4 An implication of the main prediction of the model in Antras and de Gortari (2016) is that coastal, larger or wealthier countries are more likely to attract downstream production stages in manufacturing GVCs than landlocked or poorer countries.\n\ns_05959: L. S. Goldberg (2008) found that the euro is mainly used by countries with geographic proximity to the euro area, but not extensively used elsewhere.\n\ns_06009: Estimations show that factors affecting the adoption of mobile internet are largely consistent with those that affect other types of digital divides (table 3) .\n\ns_06059: 3 0 We would like to thank Steven Pennings for sharing the Dynare code from Giambattista and Pennings (2017).\n\ns_06109: The analysis proceeds in two parts: we first analyze a panel data set, constructed at the sub-district level within Syria, 12 to understand the relationship between returns and security and access to utilities in Syria.\n\ns_06159: By design, it over-sampled areas with high migration rates, and is nationally representative once weights are applied (Assaad & Krafft, 2013) .\n\ns_06209: Throughout the body of the paper, when reporting on experiment results, we present the sample average treatment results (that is, based on the raw data without weighting) unless otherwise stated.\n\ns_06259: When we update the analysis of with the revised 2011 PPPs, the median lines become $1.85, $3.21, and $5.65 (see Table 1 ).\n\ns_06309: The controls for individual and household characteristics such as age, gender, household size, and ethnicity fixed-effects."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7bE9V0l1jNizJuhAPN7qxdtNEZb",
+    "object": "chat.completion",
+    "created": 1682885176,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1091,
+      "completion_tokens": 54,
+      "total_tokens": 1145
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06159\", \"data_mentioned\": true, \"reason\": \"Assaad & Krafft\"}, {\"sent_id\": \"s_06259\", \"data_mentioned\": true, \"reason\": \"Table 1\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06159\", \"data_mentioned\": true, \"reason\": \"Assaad & Krafft\"}, {\"sent_id\": \"s_06259\", \"data_mentioned\": true, \"reason\": \"Table 1\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

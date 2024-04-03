@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_06150: The rest of this paper is organized as follows.\n\ns_06200: The second body of literature involves either inference from observational studies or experimental evidence used for the sake of understanding the causes of vaccine hesitancy and learning about means of reducing it.\n\ns_06250: Table 2 presents the results of the analysis described above.\n\ns_06300: This is shown in Figure 21 , which we created from the 2012 ELEP household survey.\n\ns_06350: Columns (5) and (6) give the number of observations used to estimate the country-specific IGM statistics (children whose parental education is reported in the censuses).\n\ns_06400: The estimates of the risk adjusted relative and absolute mobility for the full sample are reported in Table 5 along Table 4 ) show that a failure to take into account the eects on conditional variance overestimates the expected years of schooling for this subgroup of children by 48 percent in China, and by about 26 percent in India and Indonesia.\n\ns_06450: This result is in line with economic data from several countries indicating the devastating impact of the pandemic on the tourism sector's contribution to GDP 19 due to SAH and restrictions on international travels (Mulder, 2020; Abbas et al., 2021) .\n\ns_06500: In order to help address this methodological gap, this paper evaluates the analytical implications presented by social complexities, and the extent to which different approaches capture such complexities.\n\ns_06550: The median TPO budget in high-income countries is 20 times larger than the median TPO budget in low-income countries, and the number of employees in TPOs in high-income countries is 11 times larger, and these differences remain large after controlling for export size.\n\ns_06600: We conclude by suggesting that the approach developed in the paper has the potential for providing broad indications of the economywide and sectoral consequences of pursuing the unfinished agenda of reforms still facing policy makers in India and indeed more generally in other developing countries.\n\ns_06650: All of these issues are important in their own right but ii: is through examining these in some detail that the subtlety of differences between the models adopted by the five countries under consideration here can be discerned.\n\ns_06700: Note: Instrumental variables used were: a constant, monthly dummies, three lags of the dependent and conditioning variables, 6 lags of NFA, uncovered interest parity and three lags of it.\n\ns_06750: These indicators have been shown to be relatively accurate correlates of poverty by program administrators who do not have the time, resources or expertise to carry out more sophisticated calculations of poverty for each household in their targeted area.\n\ns_06800: In the first stage we run the ratio of contributions to Latin American exports (C i k /[t k x i k ]) on the instruments described above.\n\ns_06850: Non money-metric approaches can be found, but usually the indicators are tied back to the concept of poverty using a money-metric baseline (Glewwe and van der Gaag 1988) .\n\ns_06900: At the same time, the results point to the need for better data on socio-economic differentials in mortality and fertility, and for further research on the social and economic processes linking demographic changes to the evolution of poverty measures.\n\ns_06950: Appendix 1 provides a discussion of these alternative measures.Despite the measurement error associated with a 30-day recall period as a measure of year-long shocks, there are established precedents in household surveys.\n\ns_07000: Figure 2 shows the distribution of welfare levels across households in six broad housing categories, where the welfare measure is per capita annual household consumption in Rupees.\n\ns_07050: The development of the cold storage industry since the end of the 19th century favored meat exports which in turn, increased the supply of leather, the main raw material of this industry.10 As a comparative reference, it can be pointed out that in 1992, Italy exported 81% of its footwear production, Brazil exported 30% and Argentina exported only 3.5%.11 The CNCE was created in 1994 and assigned the responsibility for the injury investigations in antidumping, subsidy and safeguards investigations.\n\ns_07100: Consider next the impact of initial demographic and agroclimatic conditions.\n\ns_07150: Another related set of studies reports evidence supporting Merton's (1987) \"investor recognition hypothesis\" which implies that as a firm gains recognition (e.g.\n\ns_07200: The table shows that the lottery effects on enrollment for conditioned households range from 0.073 to 0.130, while those for unconditioned households range from 0.014 to 0.021, and are insignificant.\n\ns_07250: For comparison purposes it is helpful to start with mapping the commitments of the transition economies to those of the EU-15.\n\ns_07300: Section III presents our hypotheses about the effects of PCs.\n\ns_07350: We look into the details of progress on trade facilitation in order to learn more about how the contributions of the different organizations fit together."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7VZGxZ6CW3LOwuHRkr6MqYXAMlo",
+    "object": "chat.completion",
+    "created": 1682884825,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1328,
+      "completion_tokens": 183,
+      "total_tokens": 1511
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_06300\", \"data_mentioned\": true, \"reason\": \"ELEP household survey\"}, {\"sent_id\": \"s_06350\", \"data_mentioned\": true, \"reason\": \"censuses\"}, {\"sent_id\": \"s_06400\", \"data_mentioned\": true, \"reason\": \"China, India, Indonesia\"}, {\"sent_id\": \"s_06500\", \"data_mentioned\": true, \"reason\": \"social complexities\"}, {\"sent_id\": \"s_06550\", \"data_mentioned\": true, \"reason\": \"TPO budget\"}, {\"sent_id\": \"s_06800\", \"data_mentioned\": true, \"reason\": \"Latin American exports\"}, {\"sent_id\": \"s_07000\", \"data_mentioned\": true, \"reason\": \"household consumption in Rupees\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_06300\", \"data_mentioned\": true, \"reason\": \"ELEP household survey\"}, {\"sent_id\": \"s_06350\", \"data_mentioned\": true, \"reason\": \"censuses\"}, {\"sent_id\": \"s_06400\", \"data_mentioned\": true, \"reason\": \"China, India, Indonesia\"}, {\"sent_id\": \"s_06500\", \"data_mentioned\": true, \"reason\": \"social complexities\"}, {\"sent_id\": \"s_06550\", \"data_mentioned\": true, \"reason\": \"TPO budget\"}, {\"sent_id\": \"s_06800\", \"data_mentioned\": true, \"reason\": \"Latin American exports\"}, {\"sent_id\": \"s_07000\", \"data_mentioned\": true, \"reason\": \"household consumption in Rupees\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}

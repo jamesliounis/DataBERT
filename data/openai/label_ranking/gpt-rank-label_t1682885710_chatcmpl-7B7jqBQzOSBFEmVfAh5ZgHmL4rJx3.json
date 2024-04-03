@@ -1,0 +1,43 @@
+{
+  "message": [
+    {
+      "role": "system",
+      "content": ""
+    },
+    {
+      "role": "user",
+      "content": "Forget all previous instructions.\n\nAlways return the result in a valid JSON format. Do not truncate the output and never generate ... in the response. The output should not raise a JSONDecodeError when loaded in Python.\n\nGiven a list of sentences extracted from papers, extract the sentences that explicitly mention a dataset used in the paper. Only include sentences where the dataset is clearly and unambiguously named, such as LSMS or DHS. Exclude sentences that mention software used for data analysis, equipment used to collect data, or other tools that are not datasets. Also, exclude sentences that only cite a reference without mentioning the dataset. Also exclude sentences that refer to data computed by the author without mentioning the dataset used to derive it.\n\nYour task is to return the sentence ids of the identified sentences as a JSON array along with the reason why you included them. The output format should be [{\"sent_id\": s_XXXXX, \"data_mentioned\": true, \"reason\": <dataset name>}]. If a sentence mentions a dataset clearly and unambiguously, set \"data_mentioned\" to true and fill in the \"reason\" field with the name of the dataset\n\nDo not explain.\n\nText:\n\ns_09948: These survey results indicate that the Silicon Valley based Indian diaspora have transnational links with the Indian IT sector.\n\ns_09998: At the elementary level, the variable highest average teacher salary is statistically significant yet the variable, years of experience, is not.\n\ns_00050: However, there are also significant data on a few environmental exposure types.\n\ns_00100: We continue with an examination of the cross-tabulation of HSSLRA and CLRA experiences (see Table 2 ).\n\ns_00150: In terms of the direct influence of household context, fathers' material support has been positively linked to children's outcomes in past research (Argys, Peters, Brooks-Gunn, & Smith, 1998; for a review, see Nelson, 2004).\n\ns_00200: For the smoothness regularization hyperparameter , we used the value = 1 used in the original VoxelMorph papers to guide a parameter search.\n\ns_00297: [33] found that of the 44 patients (25%) who developed dementia, 35 originated from a multidomain amnestic group and 9 belonged to a multidomain nonamnestic group.\n\ns_00347: 59, 60 Among studies that have specifically investigated the decline of sex steroids, particularly T, in middle-aged to older men, the MMAS is one of the pioneering study, the investigation of sex hormones changes in aging being the main study endpoint (Table 2) .\n\ns_00397: Using WSIN not only to reduce water use and water and carbon emissions but to monitor and validate those reductions may also result in these reductions being more valuable in terms of generating marketable offsets or credits in various regional emission and water trading programs.\n\ns_00447: When a full 70-min dynamic scan was available, regional time-activity curve for each ROI was extracted followed by regional binding potential (BP ND ) (DVR-1) estimation using Logan graphical analysis with the cerebellar cortex (CER) serving as the reference [23] .\n\ns_00497: Therefore, standards from high-performing countries played a significant role in the development of the CCSSM (Common Core State Standards Initiative, 2014).\n\ns_00547: Past studies in the Prairie Pothole Region that extrapolated from relations between climatic factors and wetlands inferred generalized habitat losses for waterfowl [5, 8] .\n\ns_00597: For over 20 years, 10% of the NIH budget was set aside to support HIV/AIDS research; some of the research projects were specified by the agency, and others were \"bottom-up\" projects proposed by members of the scientific community.\n\ns_00689: To show the effect of ocean color on TC intensity in observations, a study similar to Balaguru et al.\n\ns_00739: The characteristics across the region.\n\ns_00789: Collectively, these models allow for an exploration of the degree to which these factors explain the racial and gender gaps in early science achievement.\n\ns_00839: Codes were grouped into categories and synthesised into sub-themes and themes.\n\ns_00889: In Idaho, a pair may require an area of up to 21.7 km 2 for hunting (Wakeley, 1978) .\n\ns_00939: The multi-category classification problem associated with early\nThe hippocampus is one of the first brain structures affected by AD and undergoes severe structural changes (Braak and Braak, 1991) .\n\ns_00989: The average wind intensity over the Mediterranean region computed from the CCMP dataset shows a strong non-stationarity across the 1993-2014 period.\n\ns_01039: A major improvement in PMP has been made on the fluid temperature and phase change models.\n\ns_01089: The results show that wealth is slightly more equally distributed than income for farm households, with coefficients of 0.5659 and 0.5993, respectively.\n\ns_01139: The main effects estimates for age composition, quality, and teachers' education and experience were derived from the same model, which did not include the interaction terms.\n\ns_01189: 1, but for the case of Hurricane Kenna Nagamani et al.\n\ns_01239: Notably, individuals with greater baseline levels of cognitive impairment (as measured by the MMSE) had greater rates of progression on the ADAS-Cog than individuals with lesser baseline cognitive impairment."
+    }
+  ],
+  "response": {
+    "id": "chatcmpl-7B7jqBQzOSBFEmVfAh5ZgHmL4rJx3",
+    "object": "chat.completion",
+    "created": 1682885710,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 1177,
+      "completion_tokens": 72,
+      "total_tokens": 1249
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "[{\"sent_id\": \"s_00397\", \"data_mentioned\": true, \"reason\": \"WSIN\"}, {\"sent_id\": \"s_00939\", \"data_mentioned\": true, \"reason\": \"AD\"}, {\"sent_id\": \"s_01089\", \"data_mentioned\": true, \"reason\": \"wealth\"}]"
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  },
+  "content": "[{\"sent_id\": \"s_00397\", \"data_mentioned\": true, \"reason\": \"WSIN\"}, {\"sent_id\": \"s_00939\", \"data_mentioned\": true, \"reason\": \"AD\"}, {\"sent_id\": \"s_01089\", \"data_mentioned\": true, \"reason\": \"wealth\"}]",
+  "api_kwargs": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0,
+    "top_p": 0,
+    "n": 1,
+    "stream": false,
+    "presence_penalty": 0
+  },
+  "metadata": {}
+}
